@@ -1616,20 +1616,22 @@
         }
       },
       {
-        "label": "Darokin · 2024 tabletop rules",
-        "status": "original-draft",
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
         "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
-        "profile_kind": "custom-2024-draft",
         "fields": {
-          "Category": "Martial melee weapon",
-          "Damage": "1d10 Piercing. Add the ability modifier used for the attack.",
+          "Damage": "1d10 Piercing",
           "Range": "10 ft melee",
-          "Attack bonus": "Use Strength and add proficiency if trained.",
-          "Properties": "Heavy, Reach, Two-Handed",
+          "Category": "Martial",
           "Mastery": "Push",
-          "Activation": "Make a weapon attack with the Attack action.",
-          "Conversion notes": "Uses the 2024 Pike base weapon rules. Keeps the source distinction in physical length. Uses standard 2024 pike reach in both cases.",
-          "Attunement": "None"
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Activation": "Make a normal weapon attack. Add the applicable ability modifier to damage.",
+          "Attunement": "None",
+          "Legacy source": "GAZ11, p. 17. Standard 12-foot infantry pike."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_pike",
+          "label": "Open 2024 base equipment"
         }
       }
     ],
@@ -1644,21 +1646,27 @@
         }
       },
       {
-        "label": "Darokin · 2024 tabletop rules",
+        "label": "D&D 2024 tabletop conversion",
         "status": "original-draft",
-        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
-        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
         "fields": {
-          "Category": "Martial melee weapon · magic",
-          "Damage": "1d8 Piercing. Add the ability modifier used for the attack, plus 2 from the enchantment.",
+          "Damage": "1d8 Piercing + 2",
           "Range": "5 ft melee",
-          "Attack bonus": "Use Strength or Dexterity and add proficiency if trained. Add +2 from the enchantment.",
-          "Properties": "Finesse",
+          "Category": "Martial",
           "Mastery": "Vex",
-          "Activation": "Make a weapon attack with the Attack action.",
-          "Conversion notes": "Uses the 2024 Rapier base weapon rules. Retains the legacy enchantment and uses the wielder’s own ability modifier.",
-          "Attunement": "None"
-        }
+          "Properties": "Finesse",
+          "Activation": "Make a normal weapon attack. Add the applicable ability modifier to damage.",
+          "Attunement": "None",
+          "Legacy source": "GAZ11, p. 51. The Darokin military training rule is on p. 16.",
+          "Special powers": "With a year of Darokin military training, you can use a Reaction while wielding the rapier to gain +2 AC against one melee attack you can see. Declare after the hit is announced and before damage.",
+          "Conversion notes": "Vex represents the legacy accuracy benefit using standard mastery access. The Reaction adapts the legacy melee AC benefit to a single attack.",
+          "Attack bonus": "+2 to attack and damage rolls."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_rapier-plus-2",
+          "label": "Open 2024 base equipment"
+        },
+        "profile_kind": "custom-2024-draft"
       }
     ],
     "gazetteer-local-pdf-reference:d44897aaaf4eeb46": [
@@ -1672,21 +1680,27 @@
         }
       },
       {
-        "label": "Darokin · 2024 tabletop rules",
+        "label": "D&D 2024 tabletop conversion",
         "status": "original-draft",
-        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
-        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
         "fields": {
-          "Category": "Martial melee weapon · magic",
-          "Damage": "1d8 Piercing. Add the ability modifier used for the attack, plus 3 from the enchantment.",
+          "Damage": "1d8 Piercing + 3",
           "Range": "5 ft melee",
-          "Attack bonus": "Use Strength or Dexterity and add proficiency if trained. Add +3 from the enchantment.",
-          "Properties": "Finesse",
+          "Category": "Martial",
           "Mastery": "Vex",
-          "Activation": "Make a weapon attack with the Attack action.",
-          "Conversion notes": "Uses the 2024 Rapier base weapon rules. Retains the legacy enchantment and uses the wielder’s own ability modifier.",
-          "Attunement": "None"
-        }
+          "Properties": "Finesse",
+          "Activation": "Make a normal weapon attack. Add the applicable ability modifier to damage.",
+          "Attunement": "None",
+          "Legacy source": "GAZ11, p. 52. The Darokin military training rule is on p. 16.",
+          "Special powers": "With a year of Darokin military training, you can use a Reaction while wielding the rapier to gain +2 AC against one melee attack you can see. Declare after the hit is announced and before damage.",
+          "Conversion notes": "Vex represents the legacy accuracy benefit using standard mastery access. The Reaction adapts the legacy melee AC benefit to a single attack.",
+          "Attack bonus": "+3 to attack and damage rolls."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_rapier-plus-3",
+          "label": "Open 2024 base equipment"
+        },
+        "profile_kind": "custom-2024-draft"
       }
     ],
     "atruaghin-dmg-local:378899dc4e600ab1": [
@@ -2277,6 +2291,141 @@
         "related_item": {
           "id": "open5e-srd-2024:srd-2024_plate-armor",
           "label": "Open published 2024 item"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "gazetteer-local-pdf-reference:0abe4ebe6f63a0aa": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d4 Piercing",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Category": "Simple",
+          "Mastery": "Nick",
+          "Properties": "Finesse, Light, Thrown",
+          "Activation": "Make a normal weapon attack. Add the applicable ability modifier to damage.",
+          "Attunement": "None",
+          "Legacy source": "GAZ4, p. 39. Practice dagger issued in the Lizard Lords arena."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:7363f77ae94af974": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d8 Piercing; 1d10 two-handed",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Category": "Martial",
+          "Mastery": "Topple",
+          "Properties": "Thrown, Versatile",
+          "Activation": "Make a normal weapon attack. Add the applicable ability modifier to damage.",
+          "Attunement": "None",
+          "Legacy source": "GAZ4, p. 41. Carried by arena sentries."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_trident",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:e19bb4a6fe3c0f01": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d8 Piercing",
+          "Range": "5 ft melee",
+          "Category": "Martial",
+          "Mastery": "Vex",
+          "Properties": "Finesse",
+          "Activation": "Make a normal weapon attack. Add the applicable ability modifier to damage.",
+          "Attunement": "None",
+          "Legacy source": "GAZ11, p. 16. The Darokin military training rule is on p. 16.",
+          "Special powers": "With a year of Darokin military training, you can use a Reaction while wielding the rapier to gain +2 AC against one melee attack you can see. Declare after the hit is announced and before damage.",
+          "Conversion notes": "Vex represents the legacy accuracy benefit using standard mastery access. The Reaction adapts the legacy melee AC benefit to a single attack."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_rapier",
+          "label": "Open 2024 base equipment"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-local-pdf-reference:77e9705c65452705": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "fields": {
+          "Damage": "1d4 Bludgeoning + 1",
+          "Range": "5 ft melee",
+          "Category": "Simple",
+          "Mastery": "Slow",
+          "Properties": "Light",
+          "Activation": "Make a normal weapon attack. Add the applicable ability modifier to damage.",
+          "Attunement": "None",
+          "Legacy source": "GAZ3, p. 48. The city constabulary carries an enchanted club with a stunning effect.",
+          "Attack bonus": "+1 to attack and damage rolls.",
+          "Special powers": "Once per Long Rest, after you hit a creature with the club, you may force a DC 13 Constitution saving throw. On failure the target is Stunned until the end of your next turn.",
+          "Conversion notes": "The fixed DC, duration and recharge are 2024 conversion choices."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club-plus-1",
+          "label": "Open 2024 base equipment"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-local-pdf-reference:3713e58a3c3e404a": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "None",
+          "Special powers": "Use the standard Shield rules. The compact buckler uses the normal +2 bonus while wielded by a trained user.",
+          "Legacy source": "GAZ11, p. 17. The infantry buckler improved legacy AC by one point."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 base equipment"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "gazetteer-local-pdf-reference:f10e05f231013ac5": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "None",
+          "Special powers": "Treat the breastplate and its padded leather underlayer as one suit. Apply a separately wielded Shield normally.",
+          "Legacy source": "GAZ11, p. 16. Legion standard armor combines padded leather with a breastplate."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_breastplate",
+          "label": "Open 2024 base equipment"
         },
         "profile_kind": "published-armor-mapping"
       }

@@ -466,6 +466,17 @@ def main():
                         ["Verified 2024 equipment mapping", "Armor class bonus+3", "3,000 ducats"]
                         .every(value => shield.includes(value));
                 })()''',
+                'Darokin guard equipment shows training and armor rules': '''(async () => {
+                    inspect("gazetteer-local-pdf-reference:946280f6cf1dad4e", grid.firstElementChild);
+                    await itemDetails;
+                    const rapier = inspection.textContent;
+                    inspect("gazetteer-local-pdf-reference:f10e05f231013ac5", grid.firstElementChild);
+                    await itemDetails;
+                    const armor = inspection.textContent;
+                    return ["DM review", "1d8 Piercing + 2", "Reaction", "Vex"].every(value => rapier.includes(value))
+                        && ["Verified 2024 equipment mapping", "14 + Dex modifier (max +2)", "Medium armor"]
+                            .every(value => armor.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
