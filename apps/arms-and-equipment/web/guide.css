@@ -19,7 +19,7 @@ main{max-width:1440px;margin:auto;padding:20px;display:grid;grid-template-column
 #categories button[aria-pressed=true]{background:#3a2b20;color:#ffda9d;border-color:#987248}
 #filters{background:var(--panel);padding:12px;border:1px solid var(--edge)}
 #facets{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin-bottom:10px}
-#facets label{display:grid;gap:3px;min-width:0}
+#facets label{display:grid;grid-template-columns:minmax(0,1fr);gap:3px;min-width:0}
 select{padding:0 7px;max-width:100%}
 .ledger{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:7px 0;color:var(--muted);font-size:13px}
 .ledger p{margin:0}
@@ -94,3 +94,81 @@ summary{min-height:44px;display:list-item;padding:10px 0;cursor:pointer;color:va
 .shop-add{margin-top:4px;font-size:13px}
 .shop-basket{padding:12px 0}
 .basket-row{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:4px 0}
+
+#blinsky-shop {
+    position: relative;
+    min-width: 0;
+    padding: 18px;
+    border: 1px solid #65455f;
+    background: radial-gradient(ellipse at top, #392036, #1b111d 62%, #130f17);
+    --edge: #65455f;
+    --gold: #e5bca7;
+    --muted: #cfacbf;
+}
+#blinsky-shop button { background-color: #2f1d30; }
+#blinsky-shop .card { background: radial-gradient(ellipse at top left, #55344a, #251a29 75%); }
+.shop-controls { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; }
+#shop-music-toggle[aria-pressed="true"] { border-color: var(--gold); }
+#jack-box {
+    position: relative;
+    margin: 8px 0 16px;
+    border-color: #896179;
+    background-image: linear-gradient(145deg, #512d45, transparent 70%);
+}
+.jack-face {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    bottom: calc(100% + 4px);
+    left: 50%;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    color: #32162c;
+    background: #e6c4a6;
+    box-shadow: 0 0 0 5px #4f273c, 0 8px 24px #160d18;
+    font: 60px/76px Georgia, serif;
+    pointer-events: none;
+}
+#jack-box.jack-open .jack-face {
+    display: block;
+    animation: jack-spring 900ms both;
+}
+@keyframes jack-spring {
+    0% { transform: translate(-50%, 40px) scale(.45); opacity: 0; }
+    18% { transform: translate(-50%, -14px) scale(1.2) rotate(-13deg); opacity: 1; }
+    42%, 75% { transform: translate(-50%, 0) scale(1); opacity: 1; }
+    100% { transform: translate(-50%, 25px) scale(.7); opacity: 0; }
+}
+#shop-eye {
+    position: fixed;
+    z-index: 2;
+    top: var(--eye-top, 34%);
+    left: var(--eye-left, 80%);
+    width: 68px;
+    height: 36px;
+    border-radius: 70% 15%;
+    transform: translate(-50%, -50%) rotate(-8deg);
+    background: radial-gradient(ellipse, #f3c9a3, #a0696a);
+    box-shadow: 0 0 18px #d2639566;
+    display: grid;
+    place-items: center;
+    pointer-events: none;
+    animation: shop-eye-glance 2.6s both;
+}
+#shop-eye span {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    transform: translate(var(--gaze-x, 0), var(--gaze-y, 0));
+    background: radial-gradient(circle at 60% 35%, #fae4c5 5%, #211322 12% 42%, #754054 48%, #9f596a 65%, #442137 75%);
+    transition: transform 160ms;
+}
+@keyframes shop-eye-glance {
+    0%, 100% { opacity: 0; }
+    22%, 58% { opacity: .93; }
+}
+@media (prefers-reduced-motion: reduce) {
+    #jack-box.jack-open .jack-face { animation: none; transform: translateX(-50%); }
+    #shop-eye span { transition: none; }
+}

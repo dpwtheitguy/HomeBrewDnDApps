@@ -156,7 +156,9 @@ def audit(item, bg3_items, bg3_weapons, curated, spells, native_games, prices):
                 state = 'draft' if entry['status'] == 'original-draft' else 'source-field'
                 if entry['status'] == 'published-reference':
                     state = '2024-guideline'
-                if label == 'Crafting' and entry['fields'][label].endswith('supplies no recipe.'):
+                if label == 'Crafting' and entry['fields'][label].endswith(
+                    ('supplies no recipe.', 'recipe and materials are left to the DM.')
+                ):
                     state = 'unknown'
                 if label == 'Casting time' and entry['fields'][label] == 'Does not cast a spell.':
                     state = 'not-applicable'

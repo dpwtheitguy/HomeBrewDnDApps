@@ -85,7 +85,8 @@
         "status": "original-draft",
         "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=7",
         "fields": {
-          "Use": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Activation": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Damage": "None. The attack roll is used to secure an anchor.",
           "Compatibility": "Arrow or bolt made for the launcher.",
           "Range": "Use the launcher’s range unless the effect states otherwise.",
           "Effect": "Fire at a sturdy anchor within the launcher’s normal range. The shot deals no damage. An attack roll that hits AC 13 secures a line for one Medium or smaller creature at a time.",
@@ -100,7 +101,8 @@
         "status": "original-draft",
         "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=7",
         "fields": {
-          "Use": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Activation": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Damage": "Half the launcher attack’s damage on a hit, after modifiers.",
           "Compatibility": "Use the projectile form made for the launcher.",
           "Range": "Use the launcher’s range unless the effect states otherwise.",
           "Effect": "On a hit, halve the attack’s damage after applying modifiers. Each concentrating creature within 5 ft of the target makes a DC 10 Constitution save or loses concentration. A creature damaged by the attack makes only one concentration save, using the higher DC.",
@@ -115,7 +117,8 @@
         "status": "original-draft",
         "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=7",
         "fields": {
-          "Use": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Activation": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Damage": "Normal launcher damage plus any damage from the injury poison used.",
           "Compatibility": "Arrow or bolt made for the launcher.",
           "Range": "Use the launcher’s range unless the effect states otherwise.",
           "Effect": "Before loading, fill the projectile with one dose of injury poison. On a hit, resolve weapon damage and that poison’s normal exposure rules. A missed shot expends the dose. Potions require their stated method of use.",
@@ -130,7 +133,8 @@
         "status": "original-draft",
         "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=7",
         "fields": {
-          "Use": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Activation": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Damage": "Half the launcher attack’s damage on a creature hit, converted to Fire.",
           "Compatibility": "Arrow or bolt made for the launcher.",
           "Range": "Use the launcher’s range unless the effect states otherwise.",
           "Effect": "On a creature hit, halve weapon damage after applying modifiers and change it to Fire. You can instead target an unattended flammable object. On a hit it ignites unless the material is damp or otherwise unsuitable.",
@@ -145,7 +149,8 @@
         "status": "original-draft",
         "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=7",
         "fields": {
-          "Use": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Activation": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Damage": "Half the launcher attack’s damage on a hit, converted to Bludgeoning.",
           "Compatibility": "Arrow or bolt made for the launcher.",
           "Range": "Use the launcher’s range unless the effect states otherwise.",
           "Effect": "On a hit, halve weapon damage after applying modifiers and change it to Bludgeoning.",
@@ -160,7 +165,8 @@
         "status": "original-draft",
         "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=7",
         "fields": {
-          "Use": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Activation": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Damage": "Normal launcher damage.",
           "Compatibility": "Use the projectile form made for the launcher.",
           "Range": "Use the launcher’s range unless the effect states otherwise.",
           "Effect": "Resolve the shot normally. The projectile produces an audible whistle during flight. The DM determines audibility based on distance and surrounding noise.",
@@ -175,7 +181,8 @@
         "status": "original-draft",
         "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=6",
         "fields": {
-          "Use": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Activation": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Damage": "Normal launcher damage, converted to Fire.",
           "Compatibility": "Arrow or bolt made for the launcher.",
           "Range": "Use the launcher’s range unless the effect states otherwise.",
           "Effect": "On a hit, change the attack’s normal damage type to Fire. On a hit against an unattended dry flammable object it also ignites.",
@@ -190,7 +197,8 @@
         "status": "original-draft",
         "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=7",
         "fields": {
-          "Use": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Activation": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Damage": "Normal launcher damage. The hit counts as silvered for applicable creatures.",
           "Compatibility": "Use the projectile form made for the launcher.",
           "Range": "Use the launcher’s range unless the effect states otherwise.",
           "Effect": "Use the launcher’s normal damage. Against a creature whose stat block has a special interaction with silvered weapons, treat the hit as silvered.",
@@ -205,7 +213,8 @@
         "status": "original-draft",
         "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=7",
         "fields": {
-          "Use": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Activation": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Damage": "2d4 Acid in place of launcher weapon damage.",
           "Compatibility": "Use the projectile form made for the launcher.",
           "Range": "Use the launcher’s range unless the effect states otherwise.",
           "Effect": "On a hit, replace the attack’s weapon damage, including its ability modifier, with 2d4 Acid. Against objects, apply their usual damage thresholds and resistances.",
@@ -220,7 +229,8 @@
         "status": "original-draft",
         "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=7",
         "fields": {
-          "Use": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Activation": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Damage": "2d8 Radiant instead of launcher damage against a Fiend or Undead. No damage to other targets.",
           "Compatibility": "Arrow or bolt made for the launcher.",
           "Range": "Use the launcher’s range unless the effect states otherwise.",
           "Effect": "On a hit against a Fiend or Undead, the projectile deals 2d8 Radiant in place of weapon damage. It deals no damage to other targets.",
@@ -235,7 +245,8 @@
         "status": "original-draft",
         "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=7",
         "fields": {
-          "Use": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Activation": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Damage": "Half the launcher attack’s damage on a hit, after modifiers.",
           "Compatibility": "Use the projectile form made for the launcher.",
           "Range": "Use the launcher’s range unless the effect states otherwise.",
           "Effect": "On a hit, halve weapon damage after applying modifiers. The target makes a DC 13 Dexterity save. On a failure its speed is 0 until it or an adjacent creature uses an action and succeeds on a DC 13 Strength check to free it. The glue wears off after 1 minute.",
@@ -912,6 +923,71 @@
           "Activation": "Make a weapon attack with the Attack action.",
           "Creative use": "Keep the weapon at hand for a ranged attack without changing equipment.",
           "Conversion notes": "Uses the 2024 Handaxe profile. The baseline leaves Immortal-specific artifact powers for DM adjudication."
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:ee88cccbaef81eef": [
+      {
+        "label": "The Five Shires · GAZ8 p. 11 (BECMI)",
+        "status": "source-reported",
+        "source": "https://www.acaeum.com/indexes/miscellaneous/gaz.html",
+        "fields": {
+          "Legacy damage": "2–12 damage, halved by a successful save against spells.",
+          "Legacy tracking": "A halfling releases it by hand at a creature they can see. It automatically pursues the creature within one round and vanishes when it hits.",
+          "Legacy effects": "The user can choose damage, immobilization for 2–5 rounds, or both. A silvery glow reveals the target for 3–18 rounds and can be dispelled.",
+          "History": "Hin Masters and Keepers make the arrows with help from human mages. The Five Shires sheriffs carry them and keep replacement caches.",
+          "Source locator": "Printed p. 11, PDF p. 12. The Burning Ring is also referenced on printed p. 62."
+        }
+      },
+      {
+        "label": "Arrow of Justice · 2024 tabletop rules",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary",
+        "fields": {
+          "Category": "Rare magic consumable · thrown by hand · one use.",
+          "Activation": "A halfling holding the arrow takes the Magic action and chooses Strike, Bind, or both. Strike is the default.",
+          "Range": "One creature you can see within 120 ft. The arrow can turn around obstacles if an open flight path of 120 ft or less reaches it.",
+          "Attack bonus": "No attack roll. The target makes only the saves required by the selected modes.",
+          "Damage": "Strike deals 2d6 Force damage, halved on a successful DC 13 Dexterity saving throw.",
+          "Saving throw": "Strike uses DC 13 Dexterity. Bind uses DC 13 Strength. If you choose both, roll both saves before applying either result.",
+          "Special powers": "On a failed Bind save, the target is Restrained until the end of its next turn. A creature struck sheds dim silver light in a 5 ft radius and cannot benefit from the Invisible condition while glowing. Dispel Magic can end the glow. The arrow vanishes on impact. If aimed at an illusion, it falls unspent.",
+          "Duration": "Force damage is immediate. Bind lasts through the target’s next turn. Glow lasts 1 minute without concentration.",
+          "Casting time": "Does not cast a spell.",
+          "Attunement": "None; only a halfling can activate it.",
+          "Acquisition and encounters": "Five Shires sheriff’s issue. A replacement cache or a sheriff’s gift can place one in the party’s hands.",
+          "Crafting": "The legacy source names the Hin Masters and Keepers as makers. A 2024 recipe and materials are left to the DM.",
+          "Creative use": "Use Bind to stop a fleeing suspect or mark a creature that can turn Invisible.",
+          "Conversion notes": "Caps tracking range at 120 ft, uses a fixed DC and Force damage, shortens immobilization, and gives Bind a saving throw."
+        }
+      }
+    ],
+    "gaz8-name-reference:e7c79097145c78b7": [
+      {
+        "label": "The Five Shires · GAZ8 p. 11 (BECMI)",
+        "status": "source-reported",
+        "source": "https://www.acaeum.com/indexes/miscellaneous/gaz.html",
+        "fields": {
+          "Legacy damage": "Iron rod with a +2 bonus and 2–8 damage.",
+          "Legacy power": "Can hold one person by touch in place of dealing damage. The legacy effect lasts 2–5 rounds.",
+          "History": "Carried by the deputies and sheriffs of the Five Shires."
+        }
+      },
+      {
+        "label": "Rod of Justice · 2024 tabletop rules",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary",
+        "fields": {
+          "Category": "Rare magic rod · simple melee weapon · requires attunement.",
+          "Activation": "Attack with the rod using the Attack action. Once per Long Rest, you may take a Magic action to touch a Humanoid and cast Hold Person from the rod instead.",
+          "Damage": "2d4 Bludgeoning + Strength modifier + 2 on a hit. Hold Person deals no damage.",
+          "Attack bonus": "+2 to attack rolls made with the rod, in addition to the normal attack modifiers.",
+          "Range": "5 ft melee reach. Hold Person from this rod has a range of touch.",
+          "Mastery": "Slow, if you can use this weapon’s mastery.",
+          "Saving throw": "DC 15 Wisdom for Hold Person. The target repeats the save at the end of each of its turns, ending the spell on a success.",
+          "Duration": "Hold Person lasts up to 1 minute with concentration.",
+          "Casting time": "Magic action for Hold Person.",
+          "Creative use": "Subdue a suspect within reach while the party secures the exits.",
+          "Conversion notes": "Keeps the +2 weapon and touch-only restraint, uses the 2024 Hold Person spell with a fixed save DC, and adds a per-rest limit."
         }
       }
     ]

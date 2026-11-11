@@ -10,6 +10,43 @@ const blinskyIds = [
 ];
 const toyBasket = new Map();
 let shopStock = [];
+let shopMusicWanted = true;
+let shopEyeTimer;
+let jackTimer;
+let lastShopPoint;
+
+function syncShopMusic() {
+    const music = byId("shop-music");
+    if (shopMusicWanted && !byId("blinsky-shop").hidden && !document.hidden) {
+        music.play().catch(() => {});
+    } else {
+        music.pause();
+    }
+}
+
+function pointShopEye() {
+    const eye = byId("shop-eye");
+    if (eye.hidden) return;
+    const bounds = eye.getBoundingClientRect();
+    const point = lastShopPoint || {clientX: innerWidth / 2, clientY: innerHeight / 2};
+    const dx = point.clientX - (bounds.left + bounds.width / 2);
+    const dy = point.clientY - (bounds.top + bounds.height / 2);
+    const distance = Math.max(Math.hypot(dx, dy), 1);
+    eye.style.setProperty("--gaze-x", 10 * dx / distance + "px");
+    eye.style.setProperty("--gaze-y", 4 * dy / distance + "px");
+}
+
+function scheduleShopEye() {
+    clearTimeout(shopEyeTimer);
+    shopEyeTimer = setTimeout(() => {
+        const eye = byId("shop-eye");
+        eye.style.setProperty("--eye-left", 12 + Math.random() * 76 + "%");
+        eye.style.setProperty("--eye-top", 22 + Math.random() * 56 + "%");
+        eye.hidden = false;
+        pointShopEye();
+        scheduleShopEye();
+    }, 8000 + Math.random() * 14000);
+}
 
 function coins(copper) {
     return [[Math.floor(copper / 100), "gp"], [Math.floor(copper / 10) % 10, "sp"], [copper % 10, "cp"]]
@@ -70,6 +107,8 @@ function openShop() {
     });
     document.querySelector("main > .shelf").hidden = true;
     shop.hidden = false;
+    syncShopMusic();
+    scheduleShopEye();
     renderBasket();
     byId("leave-shop").focus();
     window.scrollTo(0, 0);
@@ -79,12 +118,41 @@ function closeShop() {
     if (byId("blinsky-shop").hidden) return false;
     dismissInspection();
     byId("blinsky-shop").hidden = true;
+    syncShopMusic();
+    clearTimeout(shopEyeTimer);
+    byId("shop-eye").hidden = true;
+    lastShopPoint = null;
+    clearTimeout(jackTimer);
+    byId("jack-box").classList.remove("jack-open");
     document.querySelector("main > .shelf").hidden = false;
     byId("visit-blinsky").focus();
     return true;
 }
 
 function setupShop() {
+    const music = byId("shop-music");
+    const musicToggle = byId("shop-music-toggle");
+    music.volume = .45;
+    ["play", "pause", "error"].forEach(event =>
+        music.addEventListener(event, () => musicToggle.setAttribute("aria-pressed", String(!music.paused))));
+    musicToggle.addEventListener("click", () => {
+        shopMusicWanted = music.paused;
+        syncShopMusic();
+    });
+    document.addEventListener("visibilitychange", syncShopMusic);
+    const shop = byId("blinsky-shop");
+    ["pointermove", "pointerdown"].forEach(event => shop.addEventListener(event, point => {
+        lastShopPoint = point;
+        pointShopEye();
+    }));
+    const eye = byId("shop-eye");
+    eye.addEventListener("animationend", () => { eye.hidden = true; });
+    const jack = byId("jack-box");
+    jack.addEventListener("click", () => {
+        if (jack.classList.contains("jack-open")) return;
+        jack.classList.add("jack-open");
+        jackTimer = setTimeout(() => jack.classList.remove("jack-open"), 900);
+    });
     byId("visit-blinsky").addEventListener("click", openShop);
     byId("leave-shop").addEventListener("click", closeShop);
     byId("clear-basket").addEventListener("click", () => {

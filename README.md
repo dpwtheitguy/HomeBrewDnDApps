@@ -2,7 +2,7 @@
 
 ## Android test download
 
-[Download Arms and Equipment Guide 0.4.9 (APK)](https://raw.githubusercontent.com/dpwtheitguy/HomeBrewDnDApps/android-test-builds/arms-and-equipment-guide-0.4.9-debug.apk) · [SHA-256 checksum](https://raw.githubusercontent.com/dpwtheitguy/HomeBrewDnDApps/android-test-builds/arms-and-equipment-guide-0.4.9-debug.apk.sha256)
+[Download the latest Arms and Equipment Guide test APK](https://raw.githubusercontent.com/dpwtheitguy/HomeBrewDnDApps/android-test-builds/arms-and-equipment-guide-latest-debug.apk) · [SHA-256 checksum](https://raw.githubusercontent.com/dpwtheitguy/HomeBrewDnDApps/android-test-builds/arms-and-equipment-guide-latest-debug.apk.sha256)
 
 Open the downloaded APK on your Android device. If prompted, allow installs from the app that opened the file. This debug build bundles the offline catalog. It passed emulator testing. Physical-tablet testing is pending.
 

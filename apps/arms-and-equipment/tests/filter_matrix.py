@@ -207,10 +207,10 @@ class DevTools:
         self.socket = socket
         self.counter = 0
 
-    def eval(self, expression):
+    def eval(self, expression, *, user_gesture=False):
         self.counter += 1
         self.socket.send(json.dumps({'id': self.counter, 'method': 'Runtime.evaluate', 'params': {
-            'expression': expression, 'returnByValue': True, 'awaitPromise': True,
+            'expression': expression, 'returnByValue': True, 'awaitPromise': True, 'userGesture': user_gesture,
         }}))
         while True:
             response = json.loads(self.socket.recv())
@@ -272,6 +272,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--adb', default=str(ROOT / '.cache/android-tools/sdk/platform-tools/adb'))
     parser.add_argument('--serial', default='emulator-5580')
+    parser.add_argument('--expect-layout', choices=('compact', 'wide'))
     args = parser.parse_args()
     adb = [args.adb, '-s', args.serial]
     rows = load_oracle()
@@ -286,6 +287,8 @@ def main():
         try:
             dev = DevTools(socket)
             dev.eval(SETUP)
+            if args.expect_layout:
+                assert dev.eval('compactInspection.matches') == (args.expect_layout == 'compact')
             print('Catalog release ' + dev.eval('JSON.parse(Armory.metadata()).manifest.content_version'))
             for name, options in cases():
                 total += 1
@@ -340,6 +343,28 @@ def main():
                 failures.append('Rules edition clears the previously pinned BG3 item')
                 print(f'FAIL Rules edition clears the previously pinned BG3 item: {error}')
             checks = {
+                'Expanded filters remain tappable with inspection selected': '''(async () => {
+                    const previousScroll = scrollY;
+                    const previousOpen = !byId("filters").hidden;
+                    showFilters(false);
+                    inspect("bg3-wiki:9688", grid.firstElementChild);
+                    await itemDetails;
+                    byId("filter-toggle").click();
+                    const inspectionState = compactInspection.matches ? !selected : selected === "bg3-wiki:9688";
+                    const controls = Array.from(byId("filters").querySelectorAll("select, input, button"));
+                    const reachable = controls.every(control => {
+                        control.scrollIntoView({block: "center"});
+                        const bounds = control.getBoundingClientRect();
+                        return control.contains(document.elementFromPoint(
+                            bounds.left + bounds.width / 2, bounds.top + bounds.height / 2));
+                    });
+                    grid.firstElementChild.click();
+                    const reopening = selected && byId("filters").hidden === compactInspection.matches;
+                    dismissInspection(false);
+                    showFilters(previousOpen);
+                    scrollTo(0, previousScroll);
+                    return !!(inspectionState && reachable && reopening);
+                })()''',
                 '2024 Dagger shows damage, thrown range, and mastery': '''(async () => {
                     inspect("open5e-srd-2024:srd-2024_dagger", grid.firstElementChild);
                     await itemDetails;
@@ -370,6 +395,13 @@ def main():
                     await itemDetails;
                     return inspection.textContent.includes("Sap") && inspection.textContent.includes("2d8");
                 })()''',
+                'Arrow of Justice shows its activation, damage, and saves': '''(async () => {
+                    inspect("gazetteer-local-pdf-reference:ee88cccbaef81eef", grid.firstElementChild);
+                    await itemDetails;
+                    const text = inspection.textContent;
+                    return ["GAZ8 p. 11", "120 ft", "2d6 Force", "DC 13 Strength", "Magic action", "DM review"]
+                        .every(value => text.includes(value));
+                })()''',
                 'Mystara Ballista and Bolt share published rules and link both ways': '''(async () => {
                     const engine = "mystara-fan-names-reference:3ffbb53cafbb75be";
                     const bolt = "mystara-fan-names-reference:86a0c93771c65462";
@@ -398,13 +430,51 @@ def main():
                     && shopStock.map(item=>item.shopCopper).sort((a,b)=>a-b).join(",")==="9,9,9,9,90,90"''',
                 'Blinsky basket totals': '''(() => {const adds=byId("shop-stock").querySelectorAll(".shop-add");
                     adds[0].click(); adds[4].click(); return byId("basket-total").textContent==="Total · 9 sp 9 cp";})()''',
+                'Blinsky Jack springs and the eye fades without intercepting taps': '''(() => {
+                    const jack = byId("jack-box");
+                    jack.click();
+                    const sprang = jack.classList.contains("jack-open");
+                    const savedTimeout = window.setTimeout;
+                    let reveal;
+                    try {
+                        window.setTimeout = callback => { reveal = callback; };
+                        scheduleShopEye();
+                    } finally {
+                        window.setTimeout = savedTimeout;
+                    }
+                    reveal();
+                    const eye = byId("shop-eye");
+                    const appeared = !eye.hidden && getComputedStyle(eye).pointerEvents === "none"
+                        && !!eye.style.getPropertyValue("--gaze-x");
+                    eye.dispatchEvent(new Event("animationend"));
+                    return sprang && appeared && eye.hidden;
+                })()''',
+                'Blinsky music starts on demand and can be muted': '''(async () => {
+                    const music = byId("shop-music");
+                    const toggle = byId("shop-music-toggle");
+                    if (!music.paused) toggle.click();
+                    toggle.click();
+                    const started = await new Promise(resolve => {
+                        const until = Date.now() + 3000;
+                        const check = () => {
+                            if (!music.paused && music.currentTime > 0) resolve(true);
+                            else if (Date.now() >= until || music.error) resolve(false);
+                            else setTimeout(check, 30);
+                        };
+                        check();
+                    });
+                    toggle.click();
+                    const muted = music.paused;
+                    shopMusicWanted = true;
+                    return started && muted;
+                })()''',
                 'Clear Blinsky basket and return': '''(() => {byId("clear-basket").click(); const empty=toyBasket.size===0;
                     byId("leave-shop").click();byId("about").open=false;return empty&&byId("blinsky-shop").hidden;})()''',
             }
             for name, expression in checks.items():
                 total += 1
                 try:
-                    assert dev.eval(expression)
+                    assert dev.eval(expression, user_gesture=name.startswith("Blinsky music"))
                     print('PASS ' + name)
                 except AssertionError as error:
                     failures.append(name)

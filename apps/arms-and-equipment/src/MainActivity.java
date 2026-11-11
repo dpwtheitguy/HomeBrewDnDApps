@@ -76,8 +76,9 @@ public final class MainActivity extends Activity {
                 if (path.endsWith(".svg")) mime = "image/svg+xml";
                 if (path.endsWith(".webp")) mime = "image/webp";
                 if (path.endsWith(".png")) mime = "image/png";
+                if (path.endsWith(".wav")) mime = "audio/wav";
                 try {
-                    return new WebResourceResponse(mime, mime.startsWith("image/") ? null : "UTF-8",
+                    return new WebResourceResponse(mime, (mime.startsWith("image/") || mime.startsWith("audio/")) ? null : "UTF-8",
                             getAssets().open("web" + path));
                 } catch (IOException error) {
                     return new WebResourceResponse("text/plain", "UTF-8", null);

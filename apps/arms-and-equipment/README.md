@@ -15,6 +15,10 @@ Pass a different shared catalog ZIP as the first argument to pin a newer release
 
 The APK targets API 34 and declares API 23 as its minimum. Android System WebView is required. There are no Google Play Services dependencies or network permissions. API 23 and physical SM-T290/LineageOS compatibility still need device checks. Allow roughly 400 MiB of private storage for the extracted catalog.
 
+## Publish a tester build
+
+Bump the Android version in `AndroidManifest.xml` when preparing a new tester build. Build the APK, run the Android checks on that APK, and commit the tested source. Run `apps/arms-and-equipment/publish-test-build.sh` with the tested APK in `outputs/`. The script updates the public download and SHA-256 checksum on the `android-test-builds` branch. The README download link stays the same.
+
 ## Headless testing
 
 Use a tablet AVD and software rendering on Pop!_OS.

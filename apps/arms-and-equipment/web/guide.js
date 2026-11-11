@@ -17,6 +17,10 @@ const entities = {};
 const grid = byId("items");
 const inspection = byId("inspection");
 const placeholder = inspection.firstElementChild.cloneNode(true);
+const compactInspection = matchMedia("(max-width: 680px), (orientation: portrait)");
+compactInspection.addListener(layout => {
+    if (layout.matches && !byId("filters").hidden) dismissInspection(false);
+});
 let category = "All";
 let initial = "";
 let selected = "";
@@ -56,6 +60,7 @@ function facet(id, title, options) {
     select.dataset.label = title;
 }
 function showFilters(open) {
+    if (open && compactInspection.matches) dismissInspection(false);
     byId("filters").hidden = !open;
     byId("filter-toggle").setAttribute("aria-expanded", String(open));
 }
@@ -168,14 +173,14 @@ window.receiveSearch = function (id, payload) {
     offset += result.items.length;
     byId("more").hidden = offset >= total;
 };
-function dismissInspection() {
+function dismissInspection(restoreFocus = true) {
     if (!selected) return false;
     selected = "";
     inspection.classList.remove("active");
     inspection.textContent = "";
     inspection.appendChild(placeholder.cloneNode(true));
     Array.from(grid.children).forEach(card => card.setAttribute("aria-pressed", "false"));
-    if (returnFocus && returnFocus.isConnected) returnFocus.focus();
+    if (restoreFocus && returnFocus && returnFocus.isConnected) returnFocus.focus();
     return true;
 }
 window.closeInspection = () => dismissInspection() || closeShop();
@@ -186,6 +191,7 @@ function inspect(id, trigger) {
         byId("status").textContent = item.error || "This entry is unavailable.";
         return;
     }
+    if (compactInspection.matches) showFilters(false);
     selected = id;
     returnFocus = trigger;
     Array.from(grid.children).forEach(card => card.setAttribute("aria-pressed", String(card.dataset.id === id)));
@@ -195,7 +201,7 @@ function inspect(id, trigger) {
     const top = element("div", "", "inspect-top");
     top.appendChild(icon(item.image && item.image.path));
     const close = element("button", "Close");
-    close.addEventListener("click", dismissInspection);
+    close.addEventListener("click", () => dismissInspection());
     const controls = element("div", "", "inspect-controls");
     const copy = element("button", "Copy entry");
     controls.appendChild(copy);
