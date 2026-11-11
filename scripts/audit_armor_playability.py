@@ -8,6 +8,7 @@ import re
 import sqlite3
 from pathlib import Path
 
+from build_core_armor_cross_references import same_base
 from audit_weapon_playability import CATALOG, PRICE_FIELDS, load, price_errors
 
 TYPES = ('armor', 'shield')
@@ -107,7 +108,7 @@ def read_armor(armor, *, modern, errors):
     }
 
 
-def audit_row(item, indexed, bg3, curated, prices, published):
+def audit_row(item, indexed, bg3, curated, prices, published, core):
     errors, gaps = [], []
     item_id = item['id']
     mechanics = item.get('mechanics') or {}
@@ -130,6 +131,22 @@ def audit_row(item, indexed, bg3, curated, prices, published):
     if item['ruleset'] == 'bg3':
         evidence = 'native-bg3'
         fields.update(read_bg3(bg3['records'].get(item_id, {}), bg3['effects'], bg3['shield_training'], errors, gaps))
+    elif item_id in core:
+        profile = core[item_id]
+        target = indexed.get(profile['target_id'], {})
+        target_armor = target.get('mechanics', {}).get('armor')
+        if (item['source_id'] != 'open5e-srd-2014' or target.get('source_id') != 'open5e-srd-2024'
+                or not target_armor or not same_base(item, target)):
+            errors.append('invalid verified armor counterpart')
+            gaps.append('verify the published 2024 armor link')
+        else:
+            evidence = 'verified-2024-armor-counterpart'
+            base_id = target['id']
+            fields.update(read_armor(target_armor, modern=True, errors=errors))
+            if profile['mithral']:
+                fields.update(strength_requirement='None', stealth_disadvantage='No')
+            if profile['effect']:
+                fields['effects'] = profile['effect']
     elif item_id in published:
         profile = published[item_id]
         base_id = profile['base_id']
@@ -252,7 +269,9 @@ def main():
     curated = load(catalog, 'curated-item-details')['records']
     prices = load(catalog, 'item-prices')['records']
     published = load(catalog, 'published-2024-armor-facts')['records']
-    rows = [audit_row(item, indexed, bg3, curated, prices, published) for item in items]
+    core_path = catalog / 'supplements/core-armor-cross-references.json'
+    core = load(catalog, 'core-armor-cross-references')['records'] if core_path.is_file() else {}
+    rows = [audit_row(item, indexed, bg3, curated, prices, published, core) for item in items]
     errors, pending = write_reports(catalog, rows)
     print(f'{len(rows):,} armor and shield records, {errors:,} structural errors, {pending:,} review gaps.')
     return int(args.strict and bool(errors))

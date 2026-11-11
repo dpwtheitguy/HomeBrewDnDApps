@@ -393,6 +393,17 @@ def main():
                         && helldusk.includes("The wearer is proficient with this armor")
                         && sentinel.includes("BG3 shield training") && sentinel.includes("Heightened Awareness");
                 })()''',
+                'Legacy Mithral and Shield show verified 2024 armor rules': '''(async () => {
+                    inspect("open5e-srd-2014:srd_mithral-armor-plate", grid.firstElementChild);
+                    await itemDetails;
+                    const mithral = inspection.textContent;
+                    inspect("open5e-srd-2014:srd_shield", grid.firstElementChild);
+                    await itemDetails;
+                    const shield = inspection.textContent;
+                    return mithral.includes("Verified 2024 armor counterpart") &&
+                        mithral.includes("Armor class18") && mithral.includes("Strength requirementNone") &&
+                        mithral.includes("Stealth disadvantageNo") && shield.includes("Armor class bonus+2");
+                })()''',
                 'Armor cards distinguish shield bonuses and worn AC': '''(async () => {
                     inspect("open5e-srd-2024:srd-2024_arrow-catching-shield", grid.firstElementChild);
                     await itemDetails;

@@ -17,7 +17,8 @@ const itemDetails = Promise.all([
     loadSupplement("diablo-2-unique-weapon-facts.json"),
     loadSupplement("published-2024-weapon-facts.json"),
     loadSupplement("published-2024-armor-facts.json"),
-    loadSupplement("bg3-armor-effects.json")
+    loadSupplement("bg3-armor-effects.json"),
+    loadSupplement("core-armor-cross-references.json")
 ]);
 const equipmentRulesUrl = "https://www.dndbeyond.com/sources/dnd/br-2024/equipment";
 const magicItemRulesUrl = "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items";
@@ -149,9 +150,11 @@ function addSpellReference(panel, item, spells) {
     }
 }
 
-function addPublishedEquipment(panel, item, published) {
+function addPublishedEquipment(panel, item, published, core) {
+    const counterpart = core && core.records[item.id];
     const reference = published && published.records[item.id];
-    const base = reference ? JSON.parse(Armory.item(reference.base_id)) : item;
+    const base = counterpart ? JSON.parse(Armory.item(counterpart.target_id))
+        : reference ? JSON.parse(Armory.item(reference.base_id)) : item;
     const mechanics = base.mechanics || {};
     const armor = mechanics.armor;
     if (!armor || !Number.isInteger(armor.ac_base)) return;
@@ -163,17 +166,17 @@ function addPublishedEquipment(panel, item, published) {
     if (armor.ac_add_dexmod) {
         ac += " + Dex modifier" + (armor.ac_cap_dexmod == null ? "" : " (max +" + armor.ac_cap_dexmod + ")");
     }
-    itemDetailsSection(panel, "Armor statistics", [
+    itemDetailsSection(panel, counterpart ? "Verified 2024 armor counterpart" : "Armor statistics", [
         ["Base armor", armor.name],
         [shield ? "Armor class bonus" : "Armor class", ac],
         ["Training", (armor.document === "srd-2024" || armor.document === "srd-2014")
             ? (shield ? "Shield" : armor.ac_add_dexmod
                 ? (armor.ac_cap_dexmod == null ? "Light armor" : "Medium armor") : "Heavy armor") : ""],
-        ["Strength requirement", armor.strength_score_required || ""],
-        ["Stealth disadvantage", armor.grants_stealth_disadvantage ? "Yes" : ""],
+        ["Strength requirement", counterpart && counterpart.mithral ? "None" : armor.strength_score_required || ""],
+        ["Stealth disadvantage", counterpart && counterpart.mithral ? "No" : armor.grants_stealth_disadvantage ? "Yes" : ""],
         ["Weight", Number((mechanics.source_fields || {}).weight) > 0 ? Number(mechanics.source_fields.weight) + " lb" : ""],
-        ["Special powers", reference && reference.effects]
-    ], reference ? published.source : item.ruleset === "dnd-2024" ? equipmentRulesUrl : "", true);
+        ["Special powers", counterpart ? counterpart.effect : reference && reference.effects]
+    ], counterpart ? counterpart.source : reference ? published.source : item.ruleset === "dnd-2024" ? equipmentRulesUrl : "", true);
 }
 
 function addRecordedEncounters(panel, item) {
@@ -311,7 +314,7 @@ function addLegacyDmgDetails(panel, item) {
 
 function addItemDetails(panel, item, supplements) {
     const [bg3, curated, spells, weapons, references, legacyGames, diabloWeapons, bg3Availability, enhancements,
-        diabloUniques, publishedFacts, publishedArmor, bg3Armor] = supplements;
+        diabloUniques, publishedFacts, publishedArmor, bg3Armor, coreArmor] = supplements;
     const legacyGame = (legacyGames && legacyGames.records[item.id]) ||
         (diabloWeapons && diabloWeapons.records[item.id]) ||
         (diabloUniques && diabloUniques.records[item.id]);
@@ -355,7 +358,7 @@ function addItemDetails(panel, item, supplements) {
             locations.forEach(title => acquisition.appendChild(sourceLink(wikiLink(title), title)));
         }
     }
-    addPublishedEquipment(panel, item, publishedArmor);
+    addPublishedEquipment(panel, item, publishedArmor, coreArmor);
     addSpellReference(panel, item, spells);
     add2024Crafting(panel, item);
     addRecordedEncounters(panel, item);
