@@ -1,0 +1,749 @@
+{
+  "source_records": 28864,
+  "source_packs": 74,
+  "nonempty_source_packs": 72,
+  "registered_resources": 114,
+  "original_audits_completed": 0,
+  "rows": [
+    {
+      "source_id": "conan-exiles-reference",
+      "label": "Conan Exiles",
+      "group": "game",
+      "records": 6329,
+      "reference_only": 6329,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://conanexiles.th.gl/db/inventory"
+    },
+    {
+      "source_id": "bg3-wiki",
+      "label": "Baldur’s Gate 3 wiki item facts",
+      "group": "game",
+      "records": 4395,
+      "reference_only": 4395,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://bg3.wiki/wiki/Equipment"
+    },
+    {
+      "source_id": "dmg-35-reference",
+      "label": "Dungeon Master’s Guide (3.5)",
+      "group": "tabletop-or-index",
+      "records": 2478,
+      "reference_only": 2478,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf"
+    },
+    {
+      "source_id": "gazetteer-local-pdf-reference",
+      "label": "Gazetteer original-page facts from user PDFs",
+      "group": "tabletop-or-index",
+      "records": 1269,
+      "reference_only": 1269,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://pandius.com/prodlist.html"
+    },
+    {
+      "source_id": "dndbeyond-public-index",
+      "label": "D&D Beyond public magic-item index",
+      "group": "tabletop-or-index",
+      "records": 1260,
+      "reference_only": 1260,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://www.dndbeyond.com/magic-items?filter-partnered-content=f"
+    },
+    {
+      "source_id": "baldurs-gate-1-reference",
+      "label": "Baldur’s Gate 1",
+      "group": "game",
+      "records": 1076,
+      "reference_only": 1076,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://baldursgateee.th.gl/db/inventory"
+    },
+    {
+      "source_id": "open5e-vom",
+      "label": "Vault of Magic",
+      "group": "tabletop-or-index",
+      "records": 1063,
+      "reference_only": 0,
+      "original_drafts": 0,
+      "other_imported_records": 1063,
+      "source_url": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/"
+    },
+    {
+      "source_id": "open5e-srd-2024",
+      "label": "System Reference Document 5.2",
+      "group": "tabletop-or-index",
+      "records": 963,
+      "reference_only": 0,
+      "original_drafts": 0,
+      "other_imported_records": 963,
+      "source_url": "https://dnd.wizards.com/resources/systems-reference-document"
+    },
+    {
+      "source_id": "dmg-2e-reference",
+      "label": "Dungeon Master Guide (AD&D 2e, online transcription)",
+      "group": "tabletop-or-index",
+      "records": 926,
+      "reference_only": 926,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://naggaroth.daerma.com/2e/corerule-page%3DDD00183.htm.php.html"
+    },
+    {
+      "source_id": "diablo-2-reference",
+      "label": "Diablo II",
+      "group": "game",
+      "records": 861,
+      "reference_only": 861,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://classic.battle.net/diablo2exp/items/weaponsandarmor.shtml"
+    },
+    {
+      "source_id": "diablo-3-reference",
+      "label": "Diablo III",
+      "group": "game",
+      "records": 789,
+      "reference_only": 789,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://github.com/d07RiV/d3planner"
+    },
+    {
+      "source_id": "baldurs-gate-2-reference",
+      "label": "Baldur’s Gate 2",
+      "group": "game",
+      "records": 737,
+      "reference_only": 737,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://mikesrpgcenter.com/bgate2/cheats.html"
+    },
+    {
+      "source_id": "open5e-srd-2014",
+      "label": "System Reference Document 5.1",
+      "group": "tabletop-or-index",
+      "records": 736,
+      "reference_only": 0,
+      "original_drafts": 0,
+      "other_imported_records": 736,
+      "source_url": "https://dnd.wizards.com/resources/systems-reference-document"
+    },
+    {
+      "source_id": "open5e-a5e",
+      "label": "Level Up Advanced 5e",
+      "group": "tabletop-or-index",
+      "records": 546,
+      "reference_only": 0,
+      "original_drafts": 0,
+      "other_imported_records": 546,
+      "source_url": "https://a5esrd.com/a5esrd"
+    },
+    {
+      "source_id": "adventurers-vault-1-reference",
+      "label": "Adventurer’s Vault",
+      "group": "tabletop-or-index",
+      "records": 525,
+      "reference_only": 525,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://www.dyasdesigns.com/dnd4e/static-site/item/index.html"
+    },
+    {
+      "source_id": "dmg-1e-reference",
+      "label": "Dungeon Masters Guide (AD&D 1e, online transcription)",
+      "group": "tabletop-or-index",
+      "records": 445,
+      "reference_only": 445,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://www.1eonline.info/3dmg/mgi/3a.htm"
+    },
+    {
+      "source_id": "adventurers-vault-2-reference",
+      "label": "Adventurer’s Vault 2",
+      "group": "tabletop-or-index",
+      "records": 357,
+      "reference_only": 357,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://www.dyasdesigns.com/dnd4e/static-site/item/index.html"
+    },
+    {
+      "source_id": "ac4-marvelous-magic-reference",
+      "label": "AC4 The Book of Marvelous Magic",
+      "group": "tabletop-or-index",
+      "records": 328,
+      "reference_only": 328,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/D%26D%20Basic%20%28Holmes%2C%20B%2C%20X%2C%20BECMI%29/Accessories/AC4%20-%20The%20Book%20of%20Marvelous%20Magic.pdf"
+    },
+    {
+      "source_id": "diablo-4-reference",
+      "label": "Diablo IV",
+      "group": "game",
+      "records": 323,
+      "reference_only": 323,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://diablo4.th.gl/db/uniques"
+    },
+    {
+      "source_id": "wrath-of-the-immortals-local",
+      "label": "Wrath of the Immortals local item references",
+      "group": "tabletop-or-index",
+      "records": 311,
+      "reference_only": 311,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://www.drivethrurpg.com/en/product/284479/wrath-of-the-immortals"
+    },
+    {
+      "source_id": "arms-equipment-3e-reference",
+      "label": "Arms and Equipment Guide (3e)",
+      "group": "tabletop-or-index",
+      "records": 309,
+      "reference_only": 309,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://realmshelps.net/magic/items/index.shtml"
+    },
+    {
+      "source_id": "planescape-torment-reference",
+      "label": "Planescape: Torment",
+      "group": "game",
+      "records": 298,
+      "reference_only": 298,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://shrines.rpgclassics.com/pc/planescape/"
+    },
+    {
+      "source_id": "local-mystara-handbook-tables",
+      "label": "Supplied Mystara Players Handbook equipment and construction tables",
+      "group": "tabletop-or-index",
+      "records": 227,
+      "reference_only": 227,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://glen.stelio.net/MPH.pdf"
+    },
+    {
+      "source_id": "nioh-2-reference",
+      "label": "Nioh 2",
+      "group": "game",
+      "records": 191,
+      "reference_only": 191,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://liukang1080.github.io/gamewiki/nioh2/tools/smithing_texts/weapon_texts.html"
+    },
+    {
+      "source_id": "gaz1-karameikos-local",
+      "label": "GAZ1 The Grand Duchy of Karameikos local item references",
+      "group": "tabletop-or-index",
+      "records": 150,
+      "reference_only": 150,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic"
+    },
+    {
+      "source_id": "master-of-the-desert-nomads-local",
+      "label": "X4 Master of the Desert Nomads local item references",
+      "group": "tabletop-or-index",
+      "records": 143,
+      "reference_only": 143,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://ww.w.tomeoftreasures.com/tot_dnd/modules/x4.htm"
+    },
+    {
+      "source_id": "hollow-world-local",
+      "label": "Hollow World Campaign Set original-page references",
+      "group": "tabletop-or-index",
+      "records": 140,
+      "reference_only": 140,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://pandius.com/prodlist.html"
+    },
+    {
+      "source_id": "valheim-construction-reference",
+      "label": "Valheim",
+      "group": "game",
+      "records": 130,
+      "reference_only": 130,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://valheim.gaming.tools/structures/"
+    },
+    {
+      "source_id": "atruaghin-dmg-local",
+      "label": "Atruaghin Dungeon Master’s Guide local item references",
+      "group": "tabletop-or-index",
+      "records": 106,
+      "reference_only": 106,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://freemystara.com/pdfs/"
+    },
+    {
+      "source_id": "mystara-artifact-name-reference",
+      "label": "Mystara reported artifact and magic-item names",
+      "group": "tabletop-or-index",
+      "records": 100,
+      "reference_only": 100,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://pandius.com/artflist.html"
+    },
+    {
+      "source_id": "unearthed-arcana-1e-reference",
+      "label": "Unearthed Arcana (AD&D 1e)",
+      "group": "tabletop-or-index",
+      "records": 81,
+      "reference_only": 81,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/AD%26D%201st%20Edition/Core/Unearthed%20Arcana.pdf"
+    },
+    {
+      "source_id": "first-quest-local",
+      "label": "First Quest boxed set",
+      "group": "tabletop-or-index",
+      "records": 76,
+      "reference_only": 76,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "../../pdfs/tsr1105-ad%26d_-_first_quest.pdf"
+    },
+    {
+      "source_id": "dawn-of-the-emperors-local",
+      "label": "Dawn of the Emperors local references",
+      "group": "tabletop-or-index",
+      "records": 72,
+      "reference_only": 72,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://www.acaeum.com/indexes/miscellaneous/gaz.html"
+    },
+    {
+      "source_id": "savage-coast-local",
+      "label": "Savage Coast Campaign Book local references",
+      "group": "tabletop-or-index",
+      "records": 68,
+      "reference_only": 68,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://pandius.com/TSR2521-SCS2.pdf"
+    },
+    {
+      "source_id": "atruaghin-players-guide-local",
+      "label": "Atruaghin Player’s Guide local item references",
+      "group": "tabletop-or-index",
+      "records": 66,
+      "reference_only": 66,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://freemystara.com/pdfs/"
+    },
+    {
+      "source_id": "open5e-toh",
+      "label": "Tome of Heroes",
+      "group": "tabletop-or-index",
+      "records": 65,
+      "reference_only": 0,
+      "original_drafts": 0,
+      "other_imported_records": 65,
+      "source_url": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/"
+    },
+    {
+      "source_id": "mystara-draft-conversions",
+      "label": "Mystara drafts",
+      "group": "original-drafts",
+      "records": 62,
+      "reference_only": 0,
+      "original_drafts": 62,
+      "other_imported_records": 0,
+      "source_url": "https://www.pandius.com/items.html"
+    },
+    {
+      "source_id": "ninja-2024-drafts",
+      "label": "Ninja equipment 2024 project drafts",
+      "group": "original-drafts",
+      "records": 62,
+      "reference_only": 0,
+      "original_drafts": 62,
+      "other_imported_records": 0,
+      "source_url": "https://d1vzi28wh99zvq.cloudfront.net/pdf_previews/16904-sample.pdf"
+    },
+    {
+      "source_id": "mystara-fan-names-reference",
+      "label": "Mystara regional fan-created item names",
+      "group": "tabletop-or-index",
+      "records": 58,
+      "reference_only": 58,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://pandius.com/magcitem.html"
+    },
+    {
+      "source_id": "mystara-monstrous-compendium-local",
+      "label": "Mystara Monstrous Compendium Appendix original-page references",
+      "group": "tabletop-or-index",
+      "records": 56,
+      "reference_only": 56,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://pandius.com/prodlist.html"
+    },
+    {
+      "source_id": "diablo-1-reference",
+      "label": "Diablo I",
+      "group": "game",
+      "records": 53,
+      "reference_only": 53,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://diablobytes.com/diablo-i/items/uniques/"
+    },
+    {
+      "source_id": "domains-playtest-local",
+      "label": "Mystara Domains Playtest",
+      "group": "tabletop-or-index",
+      "records": 48,
+      "reference_only": 48,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://freemystara.com/pdfs/"
+    },
+    {
+      "source_id": "worldbuilding-2024-drafts",
+      "label": "Worldbuilding construction proposals (2024 house rules)",
+      "group": "original-drafts",
+      "records": 48,
+      "reference_only": 0,
+      "original_drafts": 48,
+      "other_imported_records": 0,
+      "source_url": "https://www.dndbeyond.com/posts/1828-exploring-bastions-from-the-2024-dungeon-masters"
+    },
+    {
+      "source_id": "gazetteer-equipment-reference",
+      "label": "Gazetteer unusual equipment and siege references",
+      "group": "tabletop-or-index",
+      "records": 44,
+      "reference_only": 44,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://pandius.com/kw_uwae.html"
+    },
+    {
+      "source_id": "gaz13-online-adaptation-reference",
+      "label": "GAZ13 1995 TSR online-adaptation equipment references",
+      "group": "tabletop-or-index",
+      "records": 41,
+      "reference_only": 41,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://heroes.mystara.net/selenica/others/shadow/gaz13_dm.html"
+    },
+    {
+      "source_id": "sekiro-reference",
+      "label": "Sekiro",
+      "group": "game",
+      "records": 40,
+      "reference_only": 40,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://sekiroshadowsdietwice.wiki.fextralife.com/Prosthetic+Tools"
+    },
+    {
+      "source_id": "castles-drungar-local",
+      "label": "Castles boxed set, Drungar campaign",
+      "group": "tabletop-or-index",
+      "records": 39,
+      "reference_only": 39,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "../../pdfs/tsr01056%20-%20Castles%20-%20%28Boxed%20Set%29%20-%20%28With%20Foldup%20Paper%20Models%29.pdf"
+    },
+    {
+      "source_id": "gazetteer-trade-reference",
+      "label": "GAZ9 / GAZ11 reported trade merchandise categories",
+      "group": "tabletop-or-index",
+      "records": 32,
+      "reference_only": 32,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://pandius.com/domneco.html"
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "label": "Gazetteer NPC equipment appearance references",
+      "group": "tabletop-or-index",
+      "records": 32,
+      "reference_only": 32,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://thedarkelf007.home.blog/"
+    },
+    {
+      "source_id": "castles-local",
+      "label": "Castles boxed set local references",
+      "group": "tabletop-or-index",
+      "records": 30,
+      "reference_only": 30,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "../../pdfs/tsr01056%20-%20Castles%20-%20%28Boxed%20Set%29%20-%20%28With%20Foldup%20Paper%20Models%29.pdf"
+    },
+    {
+      "source_id": "commerce-playtest-local",
+      "label": "Mystara Commerce Playtest",
+      "group": "tabletop-or-index",
+      "records": 29,
+      "reference_only": 29,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://freemystara.com/pdfs/"
+    },
+    {
+      "source_id": "castles-hart-local",
+      "label": "Castles boxed set — Hart",
+      "group": "tabletop-or-index",
+      "records": 27,
+      "reference_only": 27,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "../../pdfs/tsr01056%20-%20Castles%20-%20%28Boxed%20Set%29%20-%20%28With%20Foldup%20Paper%20Models%29.pdf"
+    },
+    {
+      "source_id": "gaz8-name-reference",
+      "label": "GAZ8 selected distinctive names",
+      "group": "tabletop-or-index",
+      "records": 26,
+      "reference_only": 26,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://www.pandius.com/5shritems.html"
+    },
+    {
+      "source_id": "gazetteer-publisher-preview-reference",
+      "label": "Gazetteer publisher-preview item and construction names",
+      "group": "tabletop-or-index",
+      "records": 25,
+      "reference_only": 25,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://pandius.com/dthrurpg.html"
+    },
+    {
+      "source_id": "mystara-frontiers-drafts",
+      "label": "Mystara regional and skyship project drafts",
+      "group": "original-drafts",
+      "records": 25,
+      "reference_only": 0,
+      "original_drafts": 25,
+      "other_imported_records": 0,
+      "source_url": "https://en.wikipedia.org/wiki/Champions_of_Mystara"
+    },
+    {
+      "source_id": "imperial-military-guide-local",
+      "label": "Imperial Military Guide local item references",
+      "group": "tabletop-or-index",
+      "records": 21,
+      "reference_only": 21,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://freemystara.com/pdfs/"
+    },
+    {
+      "source_id": "da3-city-of-the-gods-reference",
+      "label": "DA3 City of the Gods (Pandius transcription)",
+      "group": "tabletop-or-index",
+      "records": 14,
+      "reference_only": 14,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://www.pandius.com/aliendev.html"
+    },
+    {
+      "source_id": "mystara-craft-relic-reference",
+      "label": "Mystara craft, device and clan-relic references",
+      "group": "tabletop-or-index",
+      "records": 13,
+      "reference_only": 13,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://pandius.com/strygen4.html"
+    },
+    {
+      "source_id": "ninja-gaiden-reference",
+      "label": "Ninja Gaiden",
+      "group": "game",
+      "records": 12,
+      "reference_only": 12,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://ninjagaiden.fandom.com/wiki/Dabilahro"
+    },
+    {
+      "source_id": "tenchu-reference",
+      "label": "Tenchu",
+      "group": "game",
+      "records": 12,
+      "reference_only": 12,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://tenchu.fandom.com/wiki/List_of_Items"
+    },
+    {
+      "source_id": "amazons-valkyries-equipment-reference",
+      "label": "Amazons vs Valkyries: Arms and Equipment",
+      "group": "tabletop-or-index",
+      "records": 10,
+      "reference_only": 10,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://d1vzi28wh99zvq.cloudfront.net/pdf_previews/329482-sample.pdf"
+    },
+    {
+      "source_id": "rime-frostmaiden-reference",
+      "label": "Icewind Dale: Rime of the Frostmaiden",
+      "group": "tabletop-or-index",
+      "records": 10,
+      "reference_only": 10,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://dnd5e.wikidot.com/wondrous-items:id:rf"
+    },
+    {
+      "source_id": "gazetteer-bow-reference",
+      "label": "Gazetteer bow and arrow source references",
+      "group": "tabletop-or-index",
+      "records": 9,
+      "reference_only": 9,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://pandius.com/bow_rev.html"
+    },
+    {
+      "source_id": "adventure-research-drafts",
+      "label": "Zanzer / Goblin’s Lair / Hail the Heroes research drafts",
+      "group": "original-drafts",
+      "records": 9,
+      "reference_only": 0,
+      "original_drafts": 9,
+      "other_imported_records": 0,
+      "source_url": "https://pandius.com/Zanzer%27s_Dungeon_final.pdf"
+    },
+    {
+      "source_id": "oriental-adventures-3e-reference",
+      "label": "Oriental Adventures (3e)",
+      "group": "tabletop-or-index",
+      "records": 8,
+      "reference_only": 8,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://realmshelps.net/magic/items/index.shtml"
+    },
+    {
+      "source_id": "curse-of-strahd-reference",
+      "label": "Curse of Strahd",
+      "group": "tabletop-or-index",
+      "records": 7,
+      "reference_only": 7,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://cori-spells.github.io/wikidot/dnd5e.wikidot.com/wondrous-items_cos.html"
+    },
+    {
+      "source_id": "tomb-annihilation-reference",
+      "label": "Tomb of Annihilation",
+      "group": "tabletop-or-index",
+      "records": 7,
+      "reference_only": 7,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://dnd5e.wikidot.com/wondrous-items:toa"
+    },
+    {
+      "source_id": "gazetteer-material-reference",
+      "label": "Gazetteer metals and mineral source references",
+      "group": "tabletop-or-index",
+      "records": 6,
+      "reference_only": 6,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://pandius.com/mmtlmnrl.html"
+    },
+    {
+      "source_id": "baldurs-gate-3-level-reference",
+      "label": "Baldur’s Gate 3 level export item references",
+      "group": "game",
+      "records": 5,
+      "reference_only": 5,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://krazplay.github.io/bg3/levels/Armor.html"
+    },
+    {
+      "source_id": "baldurs-gate-3-forge-reference",
+      "label": "Baldur’s Gate 3 Forge export item references",
+      "group": "game",
+      "records": 2,
+      "reference_only": 2,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://github.com/crazyace/bg3-forge/releases/download/v0.2.0/bg3forge-data-4.8.700.7143220.zip"
+    },
+    {
+      "source_id": "return-temple-reference",
+      "label": "Return to the Temple of Elemental Evil",
+      "group": "tabletop-or-index",
+      "records": 2,
+      "reference_only": 2,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://en.wikipedia.org/wiki/Return_to_the_Temple_of_Elemental_Evil"
+    },
+    {
+      "source_id": "open5e-taldorei",
+      "label": "Critical Role: Tal’Dorei Campaign Setting",
+      "group": "tabletop-or-index",
+      "records": 1,
+      "reference_only": 0,
+      "original_drafts": 0,
+      "other_imported_records": 1,
+      "source_url": "https://https://greenronin.com/blog/2017/09/25/ronin-round-table-integrating-wizards-5e-adventures-with-the-taldorei-campaign-setting/"
+    },
+    {
+      "source_id": "backlog-reference-registry",
+      "label": "Backlog reference registry (no draft records)",
+      "group": "tabletop-or-index",
+      "records": 0,
+      "reference_only": 0,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://cori-spells.github.io/wikidot/dnd5e.wikidot.com/wondrous-items_cos.html"
+    },
+    {
+      "source_id": "mystara-media-registry",
+      "label": "Mystara video-game and novel research registry (no item definitions)",
+      "group": "tabletop-or-index",
+      "records": 0,
+      "reference_only": 0,
+      "original_drafts": 0,
+      "other_imported_records": 0,
+      "source_url": "https://pandius.com/prodlist.html"
+    }
+  ]
+}

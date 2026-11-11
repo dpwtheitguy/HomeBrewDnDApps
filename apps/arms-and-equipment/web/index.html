@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Arms and Equipment Guide</title>
+<link rel="stylesheet" href="guide.css">
+<script src="weapon-rules.js" defer></script>
+<script src="item-details.js" defer></script>
+<script src="shop.js" defer></script>
+<script src="guide.js" defer></script>
+</head>
+<body>
+<header class="masthead">
+  <p>THE COMPLETE GUIDE COLLECTION</p>
+  <h1>Arms and Equipment Guide</h1>
+</header>
+<main>
+  <section class="shelf" aria-label="Catalog">
+    <div class="searchbar">
+      <input id="search" type="search" maxlength="120" placeholder="Search the armory" aria-label="Search equipment" autocomplete="off">
+      <button id="filter-toggle" aria-expanded="false" aria-controls="filters">Filters</button>
+    </div>
+    <nav id="categories" aria-label="Equipment categories"></nav>
+    <section id="filters" hidden aria-label="Filter results">
+      <div id="facets"></div>
+      <fieldset id="budget">
+        <legend>Shop by price · base buy</legend>
+        <label>Min gp <input id="price-min" type="number" min="0" max="10000000000" step="0.01" inputmode="decimal"></label>
+        <label>Max gp <input id="price-max" type="number" min="0" max="10000000000" step="0.01" inputmode="decimal"></label>
+        <p id="budget-error" role="status" hidden></p>
+      </fieldset>
+      <p class="meta">Rules edition filters the listed record. Item details can also include a separate 2024 adaptation or spell reference.</p>
+      <p class="meta">Class training uses base-class D&amp;D 2024 rules. Records need enough equipment data to qualify.</p>
+      <div class="actions">
+        <button id="reset">Clear filters</button>
+        <button id="save-defaults">Save as default</button>
+        <button id="restore-defaults">Use defaults</button>
+        <button id="forget-defaults">Forget defaults</button>
+      </div>
+      <p class="meta" id="default-status" role="status"></p>
+    </section>
+    <div id="active-filters" aria-label="Active filters" hidden></div>
+    <nav id="alphabet" aria-label="Filter by first letter"></nav>
+    <div class="ledger">
+      <p id="status" role="status">Opening the catalog…</p>
+      <div class="view-tools"><button id="view-toggle" type="button" aria-pressed="false">List view</button>
+      <label>Sort <select id="sort">
+        <option value="relevance">Best match</option>
+        <option value="alpha">Name A–Z</option>
+        <option value="reverse">Name Z–A</option>
+        <option value="price-asc">Base cost · low to high</option>
+        <option value="price-desc">Base cost · high to low</option>
+      </select></label></div>
+    </div>
+    <div id="items" class="grid" aria-label="Equipment results"></div>
+    <button id="more" hidden>Load more</button>
+  </section>
+  <section id="blinsky-shop" class="shelf" hidden aria-label="Blinsky’s Toys">
+    <button id="leave-shop">Back to catalog</button>
+    <h2>Blinsky’s Toys</h2>
+    <p class="meta">Vallaki · Curse of Strahd · N7</p>
+    <div id="shop-stock" class="grid"></div>
+    <section class="shop-basket" aria-label="Toy basket">
+      <h3>Basket</h3>
+      <div id="basket-items"></div>
+      <p id="basket-total" role="status"></p>
+      <button id="clear-basket" hidden>Clear basket</button>
+    </section>
+  </section>
+  <aside id="inspection" class="inspection" aria-label="Item inspection">
+    <div class="placeholder">
+      <img src="images/types/book.svg" alt="">
+      <h2>Inspection</h2>
+      <p>Select an item to examine its properties, value, and source.</p>
+    </div>
+  </aside>
+</main>
+<footer>
+  <details id="about">
+    <summary>About this app</summary>
+    <p id="version"></p>
+    <button id="visit-blinsky">Visit Blinsky’s Toys</button>
+  </details>
+</footer>
+</body>
+</html>

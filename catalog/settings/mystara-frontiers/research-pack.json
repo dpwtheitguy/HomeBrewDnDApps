@@ -1,0 +1,1424 @@
+{
+  "schema_version": 1,
+  "id": "mystara-frontiers-drafts",
+  "label": "Mystara regional and skyship project drafts",
+  "theme": "mystara-frontiers",
+  "topic_entity_id": "topic:mystara-frontiers",
+  "coverage": "Selected regional reskins, original travel gear, lesser Alphatian magic and two original skyships. No full GAZ14, Dawn of the Emperors or Champions boxed-set audit. Game-inspired gear is new fiction, not authentic cultural artifacts.",
+  "sources": [
+    {
+      "id": "champions",
+      "url": "https://en.wikipedia.org/wiki/Champions_of_Mystara",
+      "label": "Champions of Mystara: Heroes of the Princess Ark (1993)",
+      "source_kind": "bibliography",
+      "note": "Hero’s Journal, Explorer’s Manual and Designer’s Manual are tracked separately below; not fully audited."
+    },
+    {
+      "id": "skyships",
+      "url": "https://www.pandius.com/knwnskys.html",
+      "label": "Known Mystara Skyships",
+      "author": "Håvard",
+      "source_kind": "fan-source-index",
+      "note": "Separates source groupings, some explicitly invented names and later fan ships; no blanket canon status."
+    },
+    {
+      "id": "dawn",
+      "url": "https://en.wikipedia.org/wiki/Dawn_of_the_Emperors%3A_Thyatis_and_Alphatia",
+      "label": "Dawn of the Emperors: Thyatis and Alphatia",
+      "source_kind": "bibliography"
+    },
+    {
+      "id": "thyatian-gear",
+      "url": "https://pandius.com/thylcamp.html",
+      "label": "Thyatian legions campaign ideas",
+      "source_kind": "fan-campaign-equipment-list",
+      "note": "Gladius, pugio, pila, scutum and lorica are secondary campaign leads, not verified original book pages."
+    },
+    {
+      "id": "thyatian-uniforms",
+      "url": "https://www.pandius.com/thaf1018.html",
+      "label": "Thyatian Armed Forces AC 1018",
+      "source_kind": "fan-expansion",
+      "note": "Uniform and cloak style is source-supported; no historical accuracy or mandatory ethnicity implied."
+    },
+    {
+      "id": "alphatian-library",
+      "url": "https://pandius.com/TheKingdomsOfAlphatia.pdf",
+      "label": "The Kingdoms of Alphatia",
+      "source_kind": "fan-setting-book-index",
+      "note": "Librarian robe and mirror of messaging are fan-reference leads; original lesser versions below are independent designs."
+    },
+    {
+      "id": "atruaghin-equipment",
+      "url": "https://www.pandius.com/atruitem.html",
+      "label": "Weapons and Equipment of the Atruaghin Clans",
+      "author": "Håvard",
+      "source_kind": "fan-gazetteer-item-index",
+      "note": "Separates gazetteer-reported items from author-created equipment. Original GAZ14 pages not inspected. Do not carry over ancestry bonuses or blanket alignment traits."
+    },
+    {
+      "id": "atruaghin-guide",
+      "url": "https://www.pandius.com/guide/atruagh.html",
+      "label": "Newbie’s Guide: Atruaghin",
+      "source_kind": "fan-setting-summary",
+      "note": "Five fictional clans, not five interchangeable real Indigenous nations. Older stereotyped depictions are not imported as character mechanics."
+    },
+    {
+      "id": "never-alone",
+      "url": "https://www.neveralonegame.com/never-alone",
+      "label": "Never Alone / Kisima Ingitchuna",
+      "source_kind": "official-game-page",
+      "cultural_context": "Made in collaboration with Iñupiat people of Alaska; the bola is attested as a puzzle tool. Atruaghin adaptations are new fiction, not Iñupiat artifacts."
+    },
+    {
+      "id": "mulaka",
+      "url": "https://www.lienzo.mx/prensa/mulaka.html",
+      "label": "Mulaka",
+      "source_kind": "developer-press-kit",
+      "cultural_context": "Lienzo’s game draws on Rarámuri culture of northern Mexico. New travel-gear concepts here are project inventions, not claimed game items or authentic sacred objects."
+    },
+    {
+      "id": "rivers",
+      "url": "https://www.elizabethlapensee.com/games/",
+      "label": "When Rivers Were Trails",
+      "source_kind": "creator-portfolio",
+      "cultural_context": "An Indigenous-led game about displacement and inter-nation encounters. Used for travel/cooperation themes, not extraction of ceremonial material."
+    }
+  ],
+  "entities": [
+    {
+      "id": "topic:mystara-frontiers",
+      "kind": "topic",
+      "label": "Mystara expedition and regional equipment",
+      "aliases": [
+        "Mystara frontiers"
+      ],
+      "parent_ids": [],
+      "note": ""
+    },
+    {
+      "id": "publication:champions-mystara",
+      "kind": "publication",
+      "label": "Champions of Mystara",
+      "aliases": [
+        "Heroes of the Princess Ark"
+      ],
+      "parent_ids": [],
+      "note": ""
+    },
+    {
+      "id": "publication:dawn-emperors",
+      "kind": "publication",
+      "label": "Dawn of the Emperors",
+      "aliases": [
+        "Thyatis and Alphatia"
+      ],
+      "parent_ids": [],
+      "note": ""
+    },
+    {
+      "id": "publication:gaz14",
+      "kind": "publication",
+      "label": "GAZ14: The Atruaghin Clans",
+      "aliases": [
+        "GAZ14"
+      ],
+      "parent_ids": [],
+      "note": ""
+    },
+    {
+      "id": "culture:alphatian",
+      "kind": "culture",
+      "label": "Alphatian",
+      "aliases": [],
+      "parent_ids": [],
+      "note": "Fictional Mystaran culture. No automatic class, alignment or spellcasting proficiency."
+    },
+    {
+      "id": "region:atruaghin-bear",
+      "kind": "region",
+      "label": "Children of the Bear",
+      "aliases": [],
+      "parent_ids": [
+        "region:atruaghin"
+      ],
+      "note": "Fictional GAZ14 clan region, verified against the fan source index; no racial trait or alignment inferred."
+    },
+    {
+      "id": "culture:atruaghin-bear",
+      "kind": "culture",
+      "label": "Atruaghin Bear Clan",
+      "aliases": [],
+      "parent_ids": [
+        "region:atruaghin-bear"
+      ],
+      "note": "Fictional clan association. This is not an authentic label for a real Indigenous nation."
+    },
+    {
+      "id": "region:atruaghin-horse",
+      "kind": "region",
+      "label": "Children of the Horse",
+      "aliases": [],
+      "parent_ids": [
+        "region:atruaghin"
+      ],
+      "note": "Fictional GAZ14 clan region, verified against the fan source index; no racial trait or alignment inferred."
+    },
+    {
+      "id": "culture:atruaghin-horse",
+      "kind": "culture",
+      "label": "Atruaghin Horse Clan",
+      "aliases": [],
+      "parent_ids": [
+        "region:atruaghin-horse"
+      ],
+      "note": "Fictional clan association. This is not an authentic label for a real Indigenous nation."
+    },
+    {
+      "id": "region:atruaghin-elk",
+      "kind": "region",
+      "label": "Children of the Elk",
+      "aliases": [],
+      "parent_ids": [
+        "region:atruaghin"
+      ],
+      "note": "Fictional GAZ14 clan region, verified against the fan source index; no racial trait or alignment inferred."
+    },
+    {
+      "id": "culture:atruaghin-elk",
+      "kind": "culture",
+      "label": "Atruaghin Elk Clan",
+      "aliases": [],
+      "parent_ids": [
+        "region:atruaghin-elk"
+      ],
+      "note": "Fictional clan association. This is not an authentic label for a real Indigenous nation."
+    },
+    {
+      "id": "region:atruaghin-turtle",
+      "kind": "region",
+      "label": "Children of the Turtle",
+      "aliases": [],
+      "parent_ids": [
+        "region:atruaghin"
+      ],
+      "note": "Fictional GAZ14 clan region, verified against the fan source index; no racial trait or alignment inferred."
+    },
+    {
+      "id": "culture:atruaghin-turtle",
+      "kind": "culture",
+      "label": "Atruaghin Turtle Clan",
+      "aliases": [],
+      "parent_ids": [
+        "region:atruaghin-turtle"
+      ],
+      "note": "Fictional clan association. This is not an authentic label for a real Indigenous nation."
+    },
+    {
+      "id": "region:atruaghin-tiger",
+      "kind": "region",
+      "label": "Children of the Tiger",
+      "aliases": [],
+      "parent_ids": [
+        "region:atruaghin"
+      ],
+      "note": "Fictional GAZ14 clan region, verified against the fan source index; no racial trait or alignment inferred."
+    },
+    {
+      "id": "culture:atruaghin-tiger",
+      "kind": "culture",
+      "label": "Atruaghin Tiger Clan",
+      "aliases": [],
+      "parent_ids": [
+        "region:atruaghin-tiger"
+      ],
+      "note": "Fictional clan association. This is not an authentic label for a real Indigenous nation."
+    },
+    {
+      "id": "game:never-alone",
+      "kind": "game",
+      "label": "Never Alone (Kisima Ingitchuna)",
+      "aliases": [],
+      "parent_ids": [],
+      "note": ""
+    },
+    {
+      "id": "game:mulaka",
+      "kind": "game",
+      "label": "Mulaka",
+      "aliases": [],
+      "parent_ids": [],
+      "note": ""
+    },
+    {
+      "id": "game:when-rivers-were-trails",
+      "kind": "game",
+      "label": "When Rivers Were Trails",
+      "aliases": [],
+      "parent_ids": [],
+      "note": ""
+    }
+  ],
+  "items": [
+    {
+      "id": "mystara-frontiers:thyatian-gladius",
+      "name": "Thyatian Gladius",
+      "evidence_ref": "thyatian-gear",
+      "entity_id": "publication:dawn-emperors",
+      "type": "weapon",
+      "icon": "sword",
+      "estimated_value_gp": "10.00",
+      "tldr": "Uses the standard 2024 Shortsword profile.",
+      "details": "Use the 2024 Shortsword rules, properties, capacity and normal training requirements. This regional draft adds no automatic damage bonus, cultural proficiency, brittle-material penalty, chain pull, impalement or harvesting requirement. Material and decoration are cosmetic unless the DM rules otherwise.",
+      "changes": "Replaces legacy edition and cultural bonuses with the named SRD profile. Bear trade goods are new campaign-style proposals based on craft themes, not named canonical artifacts.",
+      "creative": "Offer it as a trade sample or local commission. Social outcomes and identification remain DM rulings.",
+      "flavor": "Built for a journey whose map is still unfinished.",
+      "base_item_id": "open5e-srd-2024:srd-2024_shortsword",
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "mode": "2024-equipment-reskin",
+      "associations": [
+        {
+          "entity_id": "setting:mystara",
+          "role": "setting",
+          "status": "project-setting-adaptation",
+          "evidence": {
+            "url": "https://pandius.com/thylcamp.html"
+          }
+        },
+        {
+          "entity_id": "region:thyatis",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://pandius.com/thylcamp.html"
+          }
+        },
+        {
+          "entity_id": "culture:thyatian",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://pandius.com/thylcamp.html"
+          }
+        }
+      ],
+      "source_note": "Selected fan reference or thematic inspiration; original book pages and canonical powers remain unverified."
+    },
+    {
+      "id": "mystara-frontiers:thyatian-pugio",
+      "name": "Thyatian Pugio",
+      "evidence_ref": "thyatian-gear",
+      "entity_id": "publication:dawn-emperors",
+      "type": "weapon",
+      "icon": "dagger",
+      "estimated_value_gp": "2.00",
+      "tldr": "Uses the standard 2024 Dagger profile.",
+      "details": "Use the 2024 Dagger rules, properties, capacity and normal training requirements. This regional draft adds no automatic damage bonus, cultural proficiency, brittle-material penalty, chain pull, impalement or harvesting requirement. Material and decoration are cosmetic unless the DM rules otherwise.",
+      "changes": "Replaces legacy edition and cultural bonuses with the named SRD profile. Bear trade goods are new campaign-style proposals based on craft themes, not named canonical artifacts.",
+      "creative": "Offer it as a trade sample or local commission. Social outcomes and identification remain DM rulings.",
+      "flavor": "Built for a journey whose map is still unfinished.",
+      "base_item_id": "open5e-srd-2024:srd-2024_dagger",
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "mode": "2024-equipment-reskin",
+      "associations": [
+        {
+          "entity_id": "setting:mystara",
+          "role": "setting",
+          "status": "project-setting-adaptation",
+          "evidence": {
+            "url": "https://pandius.com/thylcamp.html"
+          }
+        },
+        {
+          "entity_id": "region:thyatis",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://pandius.com/thylcamp.html"
+          }
+        },
+        {
+          "entity_id": "culture:thyatian",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://pandius.com/thylcamp.html"
+          }
+        }
+      ],
+      "source_note": "Selected fan reference or thematic inspiration; original book pages and canonical powers remain unverified."
+    },
+    {
+      "id": "mystara-frontiers:thyatian-pilum",
+      "name": "Thyatian Pilum",
+      "evidence_ref": "thyatian-gear",
+      "entity_id": "publication:dawn-emperors",
+      "type": "weapon",
+      "icon": "spear",
+      "estimated_value_gp": "0.50",
+      "tldr": "Uses the standard 2024 Javelin profile.",
+      "details": "Use the 2024 Javelin rules, properties, capacity and normal training requirements. This regional draft adds no automatic damage bonus, cultural proficiency, brittle-material penalty, chain pull, impalement or harvesting requirement. Material and decoration are cosmetic unless the DM rules otherwise.",
+      "changes": "Replaces legacy edition and cultural bonuses with the named SRD profile. Bear trade goods are new campaign-style proposals based on craft themes, not named canonical artifacts.",
+      "creative": "Offer it as a trade sample or local commission. Social outcomes and identification remain DM rulings.",
+      "flavor": "Built for a journey whose map is still unfinished.",
+      "base_item_id": "open5e-srd-2024:srd-2024_javelin",
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "mode": "2024-equipment-reskin",
+      "associations": [
+        {
+          "entity_id": "setting:mystara",
+          "role": "setting",
+          "status": "project-setting-adaptation",
+          "evidence": {
+            "url": "https://pandius.com/thylcamp.html"
+          }
+        },
+        {
+          "entity_id": "region:thyatis",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://pandius.com/thylcamp.html"
+          }
+        },
+        {
+          "entity_id": "culture:thyatian",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://pandius.com/thylcamp.html"
+          }
+        }
+      ],
+      "source_note": "Selected fan reference or thematic inspiration; original book pages and canonical powers remain unverified."
+    },
+    {
+      "id": "mystara-frontiers:thyatian-scutum",
+      "name": "Thyatian Scutum",
+      "evidence_ref": "thyatian-gear",
+      "entity_id": "publication:dawn-emperors",
+      "type": "armor",
+      "icon": "shield",
+      "estimated_value_gp": "10.00",
+      "tldr": "Uses the standard 2024 Shield profile.",
+      "details": "Use the 2024 Shield rules, properties, capacity and normal training requirements. This regional draft adds no automatic damage bonus, cultural proficiency, brittle-material penalty, chain pull, impalement or harvesting requirement. Material and decoration are cosmetic unless the DM rules otherwise.",
+      "changes": "Replaces legacy edition and cultural bonuses with the named SRD profile. Bear trade goods are new campaign-style proposals based on craft themes, not named canonical artifacts.",
+      "creative": "Offer it as a trade sample or local commission. Social outcomes and identification remain DM rulings.",
+      "flavor": "Built for a journey whose map is still unfinished.",
+      "base_item_id": "open5e-srd-2024:srd-2024_shield",
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "mode": "2024-equipment-reskin",
+      "associations": [
+        {
+          "entity_id": "setting:mystara",
+          "role": "setting",
+          "status": "project-setting-adaptation",
+          "evidence": {
+            "url": "https://pandius.com/thylcamp.html"
+          }
+        },
+        {
+          "entity_id": "region:thyatis",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://pandius.com/thylcamp.html"
+          }
+        },
+        {
+          "entity_id": "culture:thyatian",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://pandius.com/thylcamp.html"
+          }
+        }
+      ],
+      "source_note": "Selected fan reference or thematic inspiration; original book pages and canonical powers remain unverified."
+    },
+    {
+      "id": "mystara-frontiers:horse-clan-buffalo-spear",
+      "name": "Horse Clan Buffalo Spear",
+      "evidence_ref": "atruaghin-equipment",
+      "entity_id": "publication:gaz14",
+      "type": "weapon",
+      "icon": "spear",
+      "estimated_value_gp": "1.00",
+      "tldr": "Uses the standard 2024 Spear profile.",
+      "details": "Use the 2024 Spear rules, properties, capacity and normal training requirements. This regional draft adds no automatic damage bonus, cultural proficiency, brittle-material penalty, chain pull, impalement or harvesting requirement. Material and decoration are cosmetic unless the DM rules otherwise.",
+      "changes": "Replaces legacy edition and cultural bonuses with the named SRD profile. Bear trade goods are new campaign-style proposals based on craft themes, not named canonical artifacts.",
+      "creative": "Offer it as a trade sample or local commission. Social outcomes and identification remain DM rulings.",
+      "flavor": "Built for a journey whose map is still unfinished.",
+      "base_item_id": "open5e-srd-2024:srd-2024_spear",
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "mode": "2024-equipment-reskin",
+      "associations": [
+        {
+          "entity_id": "setting:mystara",
+          "role": "setting",
+          "status": "project-setting-adaptation",
+          "evidence": {
+            "url": "https://www.pandius.com/atruitem.html"
+          }
+        },
+        {
+          "entity_id": "region:atruaghin-horse",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.pandius.com/atruitem.html"
+          }
+        },
+        {
+          "entity_id": "culture:atruaghin-horse",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.pandius.com/atruitem.html"
+          }
+        }
+      ],
+      "source_note": "Selected fan reference or thematic inspiration; original book pages and canonical powers remain unverified."
+    },
+    {
+      "id": "mystara-frontiers:turtle-clan-harpoon",
+      "name": "Turtle Clan Harpoon",
+      "evidence_ref": "atruaghin-equipment",
+      "entity_id": "publication:gaz14",
+      "type": "weapon",
+      "icon": "spear",
+      "estimated_value_gp": "0.50",
+      "tldr": "Uses the standard 2024 Javelin profile.",
+      "details": "Use the 2024 Javelin rules, properties, capacity and normal training requirements. This regional draft adds no automatic damage bonus, cultural proficiency, brittle-material penalty, chain pull, impalement or harvesting requirement. Material and decoration are cosmetic unless the DM rules otherwise.",
+      "changes": "Replaces legacy edition and cultural bonuses with the named SRD profile. Bear trade goods are new campaign-style proposals based on craft themes, not named canonical artifacts.",
+      "creative": "Offer it as a trade sample or local commission. Social outcomes and identification remain DM rulings.",
+      "flavor": "Built for a journey whose map is still unfinished.",
+      "base_item_id": "open5e-srd-2024:srd-2024_javelin",
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "mode": "2024-equipment-reskin",
+      "associations": [
+        {
+          "entity_id": "setting:mystara",
+          "role": "setting",
+          "status": "project-setting-adaptation",
+          "evidence": {
+            "url": "https://www.pandius.com/atruitem.html"
+          }
+        },
+        {
+          "entity_id": "region:atruaghin-turtle",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.pandius.com/atruitem.html"
+          }
+        },
+        {
+          "entity_id": "culture:atruaghin-turtle",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.pandius.com/atruitem.html"
+          }
+        }
+      ],
+      "source_note": "Selected fan reference or thematic inspiration; original book pages and canonical powers remain unverified."
+    },
+    {
+      "id": "mystara-frontiers:atruaghin-bone-dagger",
+      "name": "Atruaghin Bone Dagger",
+      "evidence_ref": "atruaghin-equipment",
+      "entity_id": "publication:gaz14",
+      "type": "weapon",
+      "icon": "dagger",
+      "estimated_value_gp": "2.00",
+      "tldr": "Uses the standard 2024 Dagger profile.",
+      "details": "Use the 2024 Dagger rules, properties, capacity and normal training requirements. This regional draft adds no automatic damage bonus, cultural proficiency, brittle-material penalty, chain pull, impalement or harvesting requirement. Material and decoration are cosmetic unless the DM rules otherwise.",
+      "changes": "Replaces legacy edition and cultural bonuses with the named SRD profile. Bear trade goods are new campaign-style proposals based on craft themes, not named canonical artifacts.",
+      "creative": "Offer it as a trade sample or local commission. Social outcomes and identification remain DM rulings.",
+      "flavor": "Built for a journey whose map is still unfinished.",
+      "base_item_id": "open5e-srd-2024:srd-2024_dagger",
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "mode": "2024-equipment-reskin",
+      "associations": [
+        {
+          "entity_id": "setting:mystara",
+          "role": "setting",
+          "status": "project-setting-adaptation",
+          "evidence": {
+            "url": "https://www.pandius.com/atruitem.html"
+          }
+        },
+        {
+          "entity_id": "region:atruaghin",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.pandius.com/atruitem.html"
+          }
+        }
+      ],
+      "source_note": "Selected fan reference or thematic inspiration; original book pages and canonical powers remain unverified."
+    },
+    {
+      "id": "mystara-frontiers:atruaghin-stone-handaxe",
+      "name": "Atruaghin Stone Handaxe",
+      "evidence_ref": "atruaghin-equipment",
+      "entity_id": "publication:gaz14",
+      "type": "weapon",
+      "icon": "axe",
+      "estimated_value_gp": "5.00",
+      "tldr": "Uses the standard 2024 Handaxe profile.",
+      "details": "Use the 2024 Handaxe rules, properties, capacity and normal training requirements. This regional draft adds no automatic damage bonus, cultural proficiency, brittle-material penalty, chain pull, impalement or harvesting requirement. Material and decoration are cosmetic unless the DM rules otherwise.",
+      "changes": "Replaces legacy edition and cultural bonuses with the named SRD profile. Bear trade goods are new campaign-style proposals based on craft themes, not named canonical artifacts.",
+      "creative": "Offer it as a trade sample or local commission. Social outcomes and identification remain DM rulings.",
+      "flavor": "Built for a journey whose map is still unfinished.",
+      "base_item_id": "open5e-srd-2024:srd-2024_handaxe",
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "mode": "2024-equipment-reskin",
+      "associations": [
+        {
+          "entity_id": "setting:mystara",
+          "role": "setting",
+          "status": "project-setting-adaptation",
+          "evidence": {
+            "url": "https://www.pandius.com/atruitem.html"
+          }
+        },
+        {
+          "entity_id": "region:atruaghin",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.pandius.com/atruitem.html"
+          }
+        }
+      ],
+      "source_note": "Selected fan reference or thematic inspiration; original book pages and canonical powers remain unverified."
+    },
+    {
+      "id": "mystara-frontiers:elk-clan-shortbow",
+      "name": "Elk Clan Shortbow",
+      "evidence_ref": "atruaghin-equipment",
+      "entity_id": "publication:gaz14",
+      "type": "weapon",
+      "icon": "bow",
+      "estimated_value_gp": "25.00",
+      "tldr": "Uses the standard 2024 Shortbow profile.",
+      "details": "Use the 2024 Shortbow rules, properties, capacity and normal training requirements. This regional draft adds no automatic damage bonus, cultural proficiency, brittle-material penalty, chain pull, impalement or harvesting requirement. Material and decoration are cosmetic unless the DM rules otherwise.",
+      "changes": "Replaces legacy edition and cultural bonuses with the named SRD profile. Bear trade goods are new campaign-style proposals based on craft themes, not named canonical artifacts.",
+      "creative": "Offer it as a trade sample or local commission. Social outcomes and identification remain DM rulings.",
+      "flavor": "Built for a journey whose map is still unfinished.",
+      "base_item_id": "open5e-srd-2024:srd-2024_shortbow",
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "mode": "2024-equipment-reskin",
+      "associations": [
+        {
+          "entity_id": "setting:mystara",
+          "role": "setting",
+          "status": "project-setting-adaptation",
+          "evidence": {
+            "url": "https://www.pandius.com/atruitem.html"
+          }
+        },
+        {
+          "entity_id": "region:atruaghin-elk",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.pandius.com/atruitem.html"
+          }
+        },
+        {
+          "entity_id": "culture:atruaghin-elk",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.pandius.com/atruitem.html"
+          }
+        }
+      ],
+      "source_note": "Selected fan reference or thematic inspiration; original book pages and canonical powers remain unverified."
+    },
+    {
+      "id": "mystara-frontiers:horse-clan-leather",
+      "name": "Horse Clan Leather",
+      "evidence_ref": "atruaghin-equipment",
+      "entity_id": "publication:gaz14",
+      "type": "armor",
+      "icon": "light-armor",
+      "estimated_value_gp": "10.00",
+      "tldr": "Uses the standard 2024 Leather Armor profile.",
+      "details": "Use the 2024 Leather Armor rules, properties, capacity and normal training requirements. This regional draft adds no automatic damage bonus, cultural proficiency, brittle-material penalty, chain pull, impalement or harvesting requirement. Material and decoration are cosmetic unless the DM rules otherwise.",
+      "changes": "Replaces legacy edition and cultural bonuses with the named SRD profile. Bear trade goods are new campaign-style proposals based on craft themes, not named canonical artifacts.",
+      "creative": "Offer it as a trade sample or local commission. Social outcomes and identification remain DM rulings.",
+      "flavor": "Built for a journey whose map is still unfinished.",
+      "base_item_id": "open5e-srd-2024:srd-2024_leather-armor",
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "mode": "2024-equipment-reskin",
+      "associations": [
+        {
+          "entity_id": "setting:mystara",
+          "role": "setting",
+          "status": "project-setting-adaptation",
+          "evidence": {
+            "url": "https://www.pandius.com/atruitem.html"
+          }
+        },
+        {
+          "entity_id": "region:atruaghin-horse",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.pandius.com/atruitem.html"
+          }
+        },
+        {
+          "entity_id": "culture:atruaghin-horse",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.pandius.com/atruitem.html"
+          }
+        }
+      ],
+      "source_note": "Selected fan reference or thematic inspiration; original book pages and canonical powers remain unverified."
+    },
+    {
+      "id": "mystara-frontiers:bear-clan-trade-basket",
+      "name": "Bear Clan Trade Basket",
+      "evidence_ref": "atruaghin-guide",
+      "entity_id": "publication:gaz14",
+      "type": "adventuring-gear",
+      "icon": "container",
+      "estimated_value_gp": "0.40",
+      "tldr": "Uses the standard 2024 Basket profile.",
+      "details": "Use the 2024 Basket rules, properties, capacity and normal training requirements. This regional draft adds no automatic damage bonus, cultural proficiency, brittle-material penalty, chain pull, impalement or harvesting requirement. Material and decoration are cosmetic unless the DM rules otherwise.",
+      "changes": "Replaces legacy edition and cultural bonuses with the named SRD profile. Bear trade goods are new campaign-style proposals based on craft themes, not named canonical artifacts.",
+      "creative": "Offer it as a trade sample or local commission. Social outcomes and identification remain DM rulings.",
+      "flavor": "Built for a journey whose map is still unfinished.",
+      "base_item_id": "open5e-srd-2024:srd-2024_basket",
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "mode": "2024-equipment-reskin",
+      "associations": [
+        {
+          "entity_id": "setting:mystara",
+          "role": "setting",
+          "status": "project-setting-adaptation",
+          "evidence": {
+            "url": "https://www.pandius.com/guide/atruagh.html"
+          }
+        },
+        {
+          "entity_id": "region:atruaghin-bear",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.pandius.com/guide/atruagh.html"
+          }
+        },
+        {
+          "entity_id": "culture:atruaghin-bear",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.pandius.com/guide/atruagh.html"
+          }
+        }
+      ],
+      "source_note": "Selected fan reference or thematic inspiration; original book pages and canonical powers remain unverified."
+    },
+    {
+      "id": "mystara-frontiers:bear-clan-pottery-jug",
+      "name": "Bear Clan Pottery Jug",
+      "evidence_ref": "atruaghin-guide",
+      "entity_id": "publication:gaz14",
+      "type": "adventuring-gear",
+      "icon": "container",
+      "estimated_value_gp": "0.02",
+      "tldr": "Uses the standard 2024 Jug profile.",
+      "details": "Use the 2024 Jug rules, properties, capacity and normal training requirements. This regional draft adds no automatic damage bonus, cultural proficiency, brittle-material penalty, chain pull, impalement or harvesting requirement. Material and decoration are cosmetic unless the DM rules otherwise.",
+      "changes": "Replaces legacy edition and cultural bonuses with the named SRD profile. Bear trade goods are new campaign-style proposals based on craft themes, not named canonical artifacts.",
+      "creative": "Offer it as a trade sample or local commission. Social outcomes and identification remain DM rulings.",
+      "flavor": "Built for a journey whose map is still unfinished.",
+      "base_item_id": "open5e-srd-2024:srd-2024_jug",
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "mode": "2024-equipment-reskin",
+      "associations": [
+        {
+          "entity_id": "setting:mystara",
+          "role": "setting",
+          "status": "project-setting-adaptation",
+          "evidence": {
+            "url": "https://www.pandius.com/guide/atruagh.html"
+          }
+        },
+        {
+          "entity_id": "region:atruaghin-bear",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.pandius.com/guide/atruagh.html"
+          }
+        },
+        {
+          "entity_id": "culture:atruaghin-bear",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.pandius.com/guide/atruagh.html"
+          }
+        }
+      ],
+      "source_note": "Selected fan reference or thematic inspiration; original book pages and canonical powers remain unverified."
+    },
+    {
+      "id": "mystara-frontiers:thyatian-unit-surcoat",
+      "name": "Thyatian Unit Surcoat",
+      "evidence_ref": "thyatian-uniforms",
+      "entity_id": "publication:dawn-emperors",
+      "type": "clothing",
+      "icon": "clothing",
+      "estimated_value_gp": 3,
+      "tldr": "A unit-marked outer garment without armor bonuses.",
+      "details": "Mundane clothing bearing a commissioned unit pattern. It grants no AC, disguise success, rank or legal authority. Recognition, impersonation and consequences are handled by the DM.",
+      "changes": "Original functional proposal from a regional theme; no official sourcebook mechanics or authentic real-world cultural status claimed.",
+      "creative": "Use it during downtime and travel. It opens a practical task rather than automatically resolving it.",
+      "flavor": "Built for a journey whose map is still unfinished.",
+      "base_item_id": null,
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "mode": "original-homebrew-adaptation",
+      "associations": [
+        {
+          "entity_id": "setting:mystara",
+          "role": "setting",
+          "status": "project-setting-adaptation",
+          "evidence": {
+            "url": "https://www.pandius.com/thaf1018.html"
+          }
+        },
+        {
+          "entity_id": "region:thyatis",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.pandius.com/thaf1018.html"
+          }
+        },
+        {
+          "entity_id": "culture:thyatian",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.pandius.com/thaf1018.html"
+          }
+        }
+      ],
+      "source_note": "Selected fan reference or thematic inspiration; original book pages and canonical powers remain unverified."
+    },
+    {
+      "id": "mystara-frontiers:thyatian-weather-cloak",
+      "name": "Thyatian Weather Cloak",
+      "evidence_ref": "thyatian-uniforms",
+      "entity_id": "publication:dawn-emperors",
+      "type": "cloak",
+      "icon": "cloak",
+      "estimated_value_gp": 5,
+      "tldr": "A practical travel cloak in a unit’s chosen colors.",
+      "details": "Mundane cloak for ordinary wind and light rain. It grants no damage resistance, cold immunity, Stealth advantage or additional armor protection. Severe weather still uses the campaign’s normal rules.",
+      "changes": "Original functional proposal from a regional theme; no official sourcebook mechanics or authentic real-world cultural status claimed.",
+      "creative": "Use it during downtime and travel. It opens a practical task rather than automatically resolving it.",
+      "flavor": "Built for a journey whose map is still unfinished.",
+      "base_item_id": null,
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "mode": "original-homebrew-adaptation",
+      "associations": [
+        {
+          "entity_id": "setting:mystara",
+          "role": "setting",
+          "status": "project-setting-adaptation",
+          "evidence": {
+            "url": "https://www.pandius.com/thaf1018.html"
+          }
+        },
+        {
+          "entity_id": "region:thyatis",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.pandius.com/thaf1018.html"
+          }
+        },
+        {
+          "entity_id": "culture:thyatian",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.pandius.com/thaf1018.html"
+          }
+        }
+      ],
+      "source_note": "Selected fan reference or thematic inspiration; original book pages and canonical powers remain unverified."
+    },
+    {
+      "id": "mystara-frontiers:alphatian-court-silk-robe",
+      "name": "Alphatian Court Silk Robe",
+      "evidence_ref": "dawn",
+      "entity_id": "publication:dawn-emperors",
+      "type": "clothing",
+      "icon": "clothing",
+      "estimated_value_gp": 50,
+      "tldr": "A luxury court garment; magic is not implied.",
+      "details": "Mundane fine clothing. It grants no AC, spellcasting, rank or automatic welcome at court. A courtier may recognize its commission or maker at the DM’s discretion.",
+      "changes": "Original functional proposal from a regional theme; no official sourcebook mechanics or authentic real-world cultural status claimed.",
+      "creative": "Use it during downtime and travel. It opens a practical task rather than automatically resolving it.",
+      "flavor": "Built for a journey whose map is still unfinished.",
+      "base_item_id": null,
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "mode": "original-homebrew-adaptation",
+      "associations": [
+        {
+          "entity_id": "setting:mystara",
+          "role": "setting",
+          "status": "project-setting-adaptation",
+          "evidence": {
+            "url": "https://en.wikipedia.org/wiki/Dawn_of_the_Emperors%3A_Thyatis_and_Alphatia"
+          }
+        },
+        {
+          "entity_id": "region:alphatia",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://en.wikipedia.org/wiki/Dawn_of_the_Emperors%3A_Thyatis_and_Alphatia"
+          }
+        },
+        {
+          "entity_id": "culture:alphatian",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://en.wikipedia.org/wiki/Dawn_of_the_Emperors%3A_Thyatis_and_Alphatia"
+          }
+        }
+      ],
+      "source_note": "Selected fan reference or thematic inspiration; original book pages and canonical powers remain unverified."
+    },
+    {
+      "id": "mystara-frontiers:horse-clan-tack-repair-roll",
+      "name": "Horse Clan Tack Repair Roll",
+      "evidence_ref": "atruaghin-guide",
+      "entity_id": "publication:gaz14",
+      "type": "tools",
+      "icon": "tools",
+      "estimated_value_gp": 10,
+      "tldr": "Maintain ordinary harness and pack straps.",
+      "details": "A leatherworking supply roll with small repair materials. It replaces no tool proficiency and does not heal mounts or repair magic items. Repairs follow normal crafting/tool adjudication and consume supplies as the DM determines.",
+      "changes": "Original functional proposal from a regional theme; no official sourcebook mechanics or authentic real-world cultural status claimed.",
+      "creative": "Use it during downtime and travel. It opens a practical task rather than automatically resolving it.",
+      "flavor": "Built for a journey whose map is still unfinished.",
+      "base_item_id": null,
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "mode": "original-homebrew-adaptation",
+      "associations": [
+        {
+          "entity_id": "setting:mystara",
+          "role": "setting",
+          "status": "project-setting-adaptation",
+          "evidence": {
+            "url": "https://www.pandius.com/guide/atruagh.html"
+          }
+        },
+        {
+          "entity_id": "region:atruaghin-horse",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.pandius.com/guide/atruagh.html"
+          }
+        },
+        {
+          "entity_id": "culture:atruaghin-horse",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.pandius.com/guide/atruagh.html"
+          }
+        }
+      ],
+      "source_note": "Selected fan reference or thematic inspiration; original book pages and canonical powers remain unverified."
+    },
+    {
+      "id": "mystara-frontiers:turtle-clan-fishing-line-case",
+      "name": "Turtle Clan Fishing Line Case",
+      "evidence_ref": "atruaghin-guide",
+      "entity_id": "publication:gaz14",
+      "type": "adventuring-gear",
+      "icon": "container",
+      "estimated_value_gp": 5,
+      "tldr": "Keep fishing lines and hooks organized for travel.",
+      "details": "A dry case for ordinary lines and hooks. The case supplies no food automatically and grants no guaranteed fishing success or underwater breathing. Fish availability and forage checks remain normal campaign matters.",
+      "changes": "Original functional proposal from a regional theme; no official sourcebook mechanics or authentic real-world cultural status claimed.",
+      "creative": "Use it during downtime and travel. It opens a practical task rather than automatically resolving it.",
+      "flavor": "Built for a journey whose map is still unfinished.",
+      "base_item_id": null,
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "mode": "original-homebrew-adaptation",
+      "associations": [
+        {
+          "entity_id": "setting:mystara",
+          "role": "setting",
+          "status": "project-setting-adaptation",
+          "evidence": {
+            "url": "https://www.pandius.com/guide/atruagh.html"
+          }
+        },
+        {
+          "entity_id": "region:atruaghin-turtle",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.pandius.com/guide/atruagh.html"
+          }
+        },
+        {
+          "entity_id": "culture:atruaghin-turtle",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.pandius.com/guide/atruagh.html"
+          }
+        }
+      ],
+      "source_note": "Selected fan reference or thematic inspiration; original book pages and canonical powers remain unverified."
+    },
+    {
+      "id": "mystara-frontiers:plateau-trail-bola",
+      "name": "Plateau Trail Bola",
+      "evidence_ref": "never-alone",
+      "entity_id": "game:never-alone",
+      "type": "adventuring-gear",
+      "icon": "rope",
+      "estimated_value_gp": 25,
+      "tldr": "A limited throwing tool for slowing one pursuer.",
+      "details": "As a Utilize action, throw the bola at one Small or Medium creature within 20 feet. It makes a DC 12 Dexterity saving throw. On a failure its Speed is reduced by 10 feet until the end of its next turn, to a minimum of 0. It is not Grappled, Restrained or Prone. The bola lands in the target’s space and must be recovered before reuse. It deals no damage.",
+      "changes": "Original lesser puzzle-tool-inspired adaptation. Not Nuna’s actual named weapon, authentic Iñupiat equipment statistics, or an official GAZ14 item.",
+      "creative": "Buy time during a retreat; it does not stop a creature from attacking or teleporting.",
+      "flavor": "Built for a journey whose map is still unfinished.",
+      "base_item_id": null,
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "mode": "original-homebrew-adaptation",
+      "associations": [
+        {
+          "entity_id": "setting:mystara",
+          "role": "setting",
+          "status": "project-setting-adaptation",
+          "evidence": {
+            "url": "https://www.neveralonegame.com/never-alone"
+          }
+        },
+        {
+          "entity_id": "region:atruaghin-horse",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.neveralonegame.com/never-alone"
+          }
+        },
+        {
+          "entity_id": "culture:atruaghin-horse",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.neveralonegame.com/never-alone"
+          }
+        }
+      ],
+      "source_note": "Official Never Alone page attests a bola. The Atruaghin placement and every rule here are new fictional project choices."
+    },
+    {
+      "id": "mystara-frontiers:highland-runner-s-sandals",
+      "name": "Highland Runner’s Sandals",
+      "evidence_ref": "mulaka",
+      "entity_id": "game:mulaka",
+      "type": "boots",
+      "icon": "boots",
+      "estimated_value_gp": 400,
+      "tldr": "A brief burst of sure-footed travel.",
+      "details": "Requires attunement. Once per Long Rest, as a Bonus Action, ignore Difficult Terrain caused by loose natural stones and shallow mud until the end of your turn. Your Speed does not increase, and this does not ignore damaging terrain, magical restraints, climbing checks or liquid deep enough to require swimming.",
+      "changes": "Original travel-themed invention; not an attested Mulaka item or a Rarámuri ceremonial object.",
+      "creative": "Cross an uneven stretch while keeping your action for another task.",
+      "flavor": "Built for a journey whose map is still unfinished.",
+      "base_item_id": null,
+      "magic": true,
+      "rarity": "uncommon",
+      "attunement": true,
+      "mode": "original-homebrew-adaptation",
+      "associations": [
+        {
+          "entity_id": "setting:mystara",
+          "role": "setting",
+          "status": "project-setting-adaptation",
+          "evidence": {
+            "url": "https://www.lienzo.mx/prensa/mulaka.html"
+          }
+        },
+        {
+          "entity_id": "region:atruaghin-elk",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.lienzo.mx/prensa/mulaka.html"
+          }
+        },
+        {
+          "entity_id": "culture:atruaghin-elk",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.lienzo.mx/prensa/mulaka.html"
+          }
+        }
+      ],
+      "source_note": "Mulaka supplies terrain/travel inspiration only. No source-game item name or real cultural artifact is being claimed."
+    },
+    {
+      "id": "mystara-frontiers:river-companions-line",
+      "name": "River Companions’ Line",
+      "evidence_ref": "rivers",
+      "entity_id": "game:when-rivers-were-trails",
+      "type": "adventuring-gear",
+      "icon": "rope",
+      "estimated_value_gp": 10,
+      "tldr": "A shared rope for deliberate river crossings.",
+      "details": "Uses the 2024 Rope rules. Markings let companions agree on hand signals before crossing. It grants no Swim Speed, automatic rescue, special knot strength or immunity to currents; the DM resolves checks normally.",
+      "changes": "Original cooperation-themed gear inspired by a creator-described travel game; not a documented Anishinaabe artifact or source-game item.",
+      "creative": "Agree on a release signal before entering moving water. In play, terrain and party choices remain consequential.",
+      "flavor": "Built for a journey whose map is still unfinished.",
+      "base_item_id": "open5e-srd-2024:srd-2024_rope",
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "mode": "2024-equipment-reskin",
+      "associations": [
+        {
+          "entity_id": "setting:mystara",
+          "role": "setting",
+          "status": "project-setting-adaptation",
+          "evidence": {
+            "url": "https://www.elizabethlapensee.com/games/"
+          }
+        },
+        {
+          "entity_id": "region:atruaghin-turtle",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.elizabethlapensee.com/games/"
+          }
+        },
+        {
+          "entity_id": "culture:atruaghin-turtle",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.elizabethlapensee.com/games/"
+          }
+        }
+      ],
+      "source_note": "When Rivers Were Trails supplies cooperation and travel themes only, not this item’s identity or rules."
+    },
+    {
+      "id": "mystara-frontiers:alphatian-librarian-s-robe-lesser",
+      "name": "Alphatian Librarian’s Robe (Lesser)",
+      "evidence_ref": "alphatian-library",
+      "entity_id": "publication:dawn-emperors",
+      "type": "clothing",
+      "icon": "clothing",
+      "estimated_value_gp": 4000,
+      "tldr": "Consult one previously catalogued page at a distance.",
+      "details": "Requires attunement. During a Long Rest, touch and designate one nonmagical book you own as your reference book. Once per Long Rest, as a Magic action while wearing the robe, view a mental image of one page you have previously seen in that book, provided the book remains on the same plane. The image lasts 1 minute. It cannot show changed text, decipher a language, copy a spell into a spellbook, or cast a spell. Designating another book ends the old link.",
+      "changes": "Independent lesser design replaces fan-described broad remote library access with one familiar page. It does not certify the item as canonical Dawn of the Emperors content.",
+      "creative": "Recall a map legend while exploring; a new page or hidden alteration still requires visiting the book.",
+      "flavor": "Built for a journey whose map is still unfinished.",
+      "base_item_id": null,
+      "magic": true,
+      "rarity": "rare",
+      "attunement": true,
+      "mode": "original-homebrew-adaptation",
+      "associations": [
+        {
+          "entity_id": "setting:mystara",
+          "role": "setting",
+          "status": "project-setting-adaptation",
+          "evidence": {
+            "url": "https://pandius.com/TheKingdomsOfAlphatia.pdf"
+          }
+        },
+        {
+          "entity_id": "region:alphatia",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://pandius.com/TheKingdomsOfAlphatia.pdf"
+          }
+        },
+        {
+          "entity_id": "culture:alphatian",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://pandius.com/TheKingdomsOfAlphatia.pdf"
+          }
+        }
+      ],
+      "source_note": "Selected fan reference or thematic inspiration; original book pages and canonical powers remain unverified."
+    },
+    {
+      "id": "mystara-frontiers:alphatian-message-mirror-lesser",
+      "name": "Alphatian Message Mirror (Lesser)",
+      "evidence_ref": "alphatian-library",
+      "entity_id": "publication:dawn-emperors",
+      "type": "wondrous-item",
+      "icon": "gear",
+      "estimated_value_gp": 400,
+      "tldr": "Send a short magical message once per day.",
+      "details": "Requires attunement. Once per Long Rest, while holding this mirror, cast Message without components or a spell slot, using its normal casting time, range and all other limits. The recipient is not compelled to answer. This does not create a permanent paired-mirror connection or transmit images.",
+      "changes": "Original lesser spell-based version of a fan-index messaging mirror; no unlimited remote surveillance.",
+      "creative": "Whisper a brief warning through an ordinary barrier within the spell’s limits.",
+      "flavor": "Built for a journey whose map is still unfinished.",
+      "base_item_id": null,
+      "magic": true,
+      "rarity": "uncommon",
+      "attunement": true,
+      "mode": "original-homebrew-adaptation",
+      "associations": [
+        {
+          "entity_id": "setting:mystara",
+          "role": "setting",
+          "status": "project-setting-adaptation",
+          "evidence": {
+            "url": "https://pandius.com/TheKingdomsOfAlphatia.pdf"
+          }
+        },
+        {
+          "entity_id": "region:alphatia",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://pandius.com/TheKingdomsOfAlphatia.pdf"
+          }
+        },
+        {
+          "entity_id": "culture:alphatian",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://pandius.com/TheKingdomsOfAlphatia.pdf"
+          }
+        }
+      ],
+      "source_note": "Selected fan reference or thematic inspiration; original book pages and canonical powers remain unverified."
+    },
+    {
+      "id": "mystara-frontiers:skyfarer-s-safety-tether",
+      "name": "Skyfarer’s Safety Tether",
+      "evidence_ref": "skyships",
+      "entity_id": "publication:champions-mystara",
+      "type": "wondrous-item",
+      "icon": "rope",
+      "estimated_value_gp": 400,
+      "tldr": "A one-use magical arrest can stop a deck fall.",
+      "details": "Requires attunement. Once per Long Rest, when you fall within 30 feet of a fixed anchor to which the tether is secured, use your Reaction to halt the fall at the tether’s full length, taking no damage from that fall. You remain suspended and cannot move beyond the tether. It supports only you and your carried equipment. Securing or releasing it requires a Utilize action. It cannot anchor to a held object, creature or another tether.",
+      "changes": "Original skyship safety device inspired by expedition play; not a verified Champions of Mystara item.",
+      "creative": "Secure the anchor before climbing the rigging. A severed or unsecured line cannot help.",
+      "flavor": "Built for a journey whose map is still unfinished.",
+      "base_item_id": null,
+      "magic": true,
+      "rarity": "uncommon",
+      "attunement": true,
+      "mode": "original-homebrew-adaptation",
+      "associations": [
+        {
+          "entity_id": "setting:mystara",
+          "role": "setting",
+          "status": "project-setting-adaptation",
+          "evidence": {
+            "url": "https://www.pandius.com/knwnskys.html"
+          }
+        },
+        {
+          "entity_id": "region:alphatia",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.pandius.com/knwnskys.html"
+          }
+        },
+        {
+          "entity_id": "culture:alphatian",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://www.pandius.com/knwnskys.html"
+          }
+        }
+      ],
+      "source_note": "Selected fan reference or thematic inspiration; original book pages and canonical powers remain unverified."
+    },
+    {
+      "id": "mystara-frontiers:alphatian-courier-skyship",
+      "name": "Alphatian Courier Skyship",
+      "evidence_ref": "champions",
+      "entity_id": "publication:champions-mystara",
+      "type": "air-vehicle",
+      "icon": "waterborne-vehicle",
+      "estimated_value_gp": 50000,
+      "tldr": "An original crewed skyship proposal for expedition campaigns.",
+      "details": "Original 2024 vehicle proposal, requiring DM approval. Flying Speed 30 feet while at least 6 trained crew work aboard; maximum 8 passengers in addition to crew and 2 tons of cargo. No space travel, plane travel, hover when uncrewed, or automatic weapon systems. In combat, one helmsman uses an action to direct the vessel’s movement on their turn; it moves only once per round and grants no extra creature actions. Damage, collisions, adverse weather and loss of propulsion require agreed vehicle rules before use.",
+      "changes": "Independent lower-power ship template. Not the Princess Ark’s canonical statistics or a complete Champions skyship-building rules conversion.",
+      "creative": "Use as a mobile expedition base; crew, supplies, mooring rights and dangerous weather create ongoing needs.",
+      "flavor": "Built for a journey whose map is still unfinished.",
+      "base_item_id": null,
+      "magic": true,
+      "rarity": "legendary",
+      "attunement": false,
+      "mode": "original-homebrew-adaptation",
+      "associations": [
+        {
+          "entity_id": "setting:mystara",
+          "role": "setting",
+          "status": "project-setting-adaptation",
+          "evidence": {
+            "url": "https://en.wikipedia.org/wiki/Champions_of_Mystara"
+          }
+        },
+        {
+          "entity_id": "region:alphatia",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://en.wikipedia.org/wiki/Champions_of_Mystara"
+          }
+        },
+        {
+          "entity_id": "culture:alphatian",
+          "role": "cultural-association",
+          "status": "editorial-fantasy-campaign-association",
+          "evidence": {
+            "url": "https://en.wikipedia.org/wiki/Champions_of_Mystara"
+          }
+        }
+      ],
+      "source_note": "Selected fan reference or thematic inspiration; original book pages and canonical powers remain unverified.",
+      "record_kind": "vehicle",
+      "vehicle": {
+        "kind": "skyship",
+        "length_ft": 60,
+        "width_ft": 15,
+        "crew_minimum": 6,
+        "passengers": 8,
+        "cargo_tons": 2,
+        "flying_speed_ft": 30,
+        "upkeep_gp_per_30_days": "250",
+        "upkeep_excludes": [
+          "crew-wages",
+          "fuel-or-magical-supplies",
+          "dock-fees",
+          "major-repairs"
+        ],
+        "armor_class": null,
+        "hit_points": null,
+        "damage_threshold": null,
+        "status": "original-design-needs-vehicle-rules-review"
+      }
+    },
+    {
+      "id": "mystara-frontiers:mystaran-survey-sky-barge",
+      "name": "Mystaran Survey Sky Barge",
+      "evidence_ref": "champions",
+      "entity_id": "publication:champions-mystara",
+      "type": "air-vehicle",
+      "icon": "waterborne-vehicle",
+      "estimated_value_gp": 40000,
+      "tldr": "An original crewed skyship proposal for expedition campaigns.",
+      "details": "Original 2024 vehicle proposal, requiring DM approval. Flying Speed 20 feet while at least 5 trained crew work aboard; maximum 12 passengers in addition to crew and 2 tons of cargo. No space travel, plane travel, hover when uncrewed, or automatic weapon systems. In combat, one helmsman uses an action to direct the vessel’s movement on their turn; it moves only once per round and grants no extra creature actions. Damage, collisions, adverse weather and loss of propulsion require agreed vehicle rules before use.",
+      "changes": "Independent lower-power ship template. Not the Princess Ark’s canonical statistics or a complete Champions skyship-building rules conversion.",
+      "creative": "Use as a mobile expedition base; crew, supplies, mooring rights and dangerous weather create ongoing needs.",
+      "flavor": "Built for a journey whose map is still unfinished.",
+      "base_item_id": null,
+      "magic": true,
+      "rarity": "legendary",
+      "attunement": false,
+      "mode": "original-homebrew-adaptation",
+      "associations": [
+        {
+          "entity_id": "setting:mystara",
+          "role": "setting",
+          "status": "project-setting-adaptation",
+          "evidence": {
+            "url": "https://en.wikipedia.org/wiki/Champions_of_Mystara"
+          }
+        }
+      ],
+      "source_note": "Selected fan reference or thematic inspiration; original book pages and canonical powers remain unverified.",
+      "record_kind": "vehicle",
+      "vehicle": {
+        "kind": "skyship",
+        "length_ft": 50,
+        "width_ft": 20,
+        "crew_minimum": 5,
+        "passengers": 12,
+        "cargo_tons": 2,
+        "flying_speed_ft": 20,
+        "upkeep_gp_per_30_days": "250",
+        "upkeep_excludes": [
+          "crew-wages",
+          "fuel-or-magical-supplies",
+          "dock-fees",
+          "major-repairs"
+        ],
+        "armor_class": null,
+        "hit_points": null,
+        "damage_threshold": null,
+        "status": "original-design-needs-vehicle-rules-review"
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "workstreams": [
+    {
+      "id": "planescape",
+      "label": "Planescape / Planescape: Torment",
+      "status": "selected-game-inventory-references-imported-tabletop-books-pending",
+      "original_book_item_audit_complete": false
+    },
+    {
+      "id": "curse-of-strahd",
+      "label": "Curse of Strahd",
+      "status": "seven-distinctive-name-references-original-book-audit-pending",
+      "original_book_item_audit_complete": false
+    },
+    {
+      "id": "tomb-annihilation",
+      "label": "Tomb of Annihilation",
+      "status": "seven-distinctive-name-references-chapter-treasure-and-equipment-pending",
+      "original_book_item_audit_complete": false
+    },
+    {
+      "id": "rime-frostmaiden",
+      "label": "Icewind Dale: Rime of the Frostmaiden",
+      "status": "ten-distinctive-name-references-chapter-items-spellbooks-materials-pending",
+      "original_book_item_audit_complete": false
+    },
+    {
+      "id": "diablo-4",
+      "label": "Diablo IV",
+      "status": "selected-unique-name-index-imported-2024-adaptation-pending",
+      "original_book_item_audit_complete": false
+    },
+    {
+      "id": "conan-exiles",
+      "label": "Conan Exiles construction and equipment",
+      "status": "public-inventory-reference-snapshot-pet-tokens-excluded",
+      "original_book_item_audit_complete": false
+    }
+  ],
+  "next_audit_scopes": {
+    "tomb-annihilation": [
+      "Chultan adventuring gear",
+      "story treasures and artifacts",
+      "dinosaur transport",
+      "ordinary equipment appearances",
+      "chapter-specific modified items"
+    ],
+    "rime-frostmaiden": [
+      "cold-weather equipment and transport",
+      "Codicil of White and spellbooks",
+      "chardalyn materials and corrupted variants",
+      "Summer Star and other chapter objects",
+      "chapter-specific modified items"
+    ],
+    "curse-of-strahd": [
+      "ordinary treasure appearances",
+      "chapter-specific modified items",
+      "story objects beyond magic appendix"
+    ],
+    "planescape": [
+      "tabletop boxed-set item sources",
+      "faction-specific equipment",
+      "portal keys and planar materials"
+    ]
+  },
+  "count_policy": "Names are references. Do not count NPCs, spells, pet tokens, arbitrary affix combinations or named ship leads as converted inventory."
+}

@@ -1,0 +1,290 @@
+{
+  "registry_entities": 263,
+  "entity_kinds": {
+    "culture": 32,
+    "faction": 1,
+    "game": 25,
+    "people": 85,
+    "publication": 42,
+    "region": 65,
+    "setting": 9,
+    "topic": 4
+  },
+  "research_tasks": 1365,
+  "task_statuses": {
+    "source-leads-found": 45,
+    "unsearched": 1318,
+    "searched-no-evidence-yet": 2
+  },
+  "evidence_urls": 52,
+  "full_book_audits_completed": 0,
+  "reviewed_conversions": 0,
+  "mystara_draft_records": 62,
+  "distinctive_GAZ8_mentions_not_counted_as_converted_items": 26,
+  "limitations": [
+    "Registry is a seed, not an exhaustive list of every nation or people across settings.",
+    "Other requested settings still need entity discovery and item imports.",
+    "A source lead is not an inspected sourcebook or a validated conversion.",
+    "No absence of cultural equipment is inferred from a negative web search."
+  ],
+  "adventure_draft_records": 9,
+  "adventure_appearances_reusing_existing_items": 10,
+  "adventure_additional_item_leads": 9,
+  "adventure_workstreams": [
+    {
+      "id": "zanzer",
+      "label": "Zanzer\u2019s Dungeon",
+      "setting_id": "thunder-rift",
+      "edition": "Basic D&D / modified fan BECMI compilation",
+      "components": [],
+      "evidence_refs": [
+        "zanzer-knight"
+      ],
+      "status": "partial-fan-compilation-pass",
+      "categories_pending": [
+        "weapons",
+        "armor",
+        "clothing",
+        "tools-gear",
+        "trade-goods",
+        "consumables",
+        "magic-relics",
+        "vehicles"
+      ],
+      "original_book_item_audit_complete": false
+    },
+    {
+      "id": "goblins-lair",
+      "label": "The Goblin\u2019s Lair",
+      "setting_id": "thunder-rift",
+      "edition": "Basic D&D",
+      "components": [
+        "Red Hand Trail",
+        "Trouble Below",
+        "Palace of Dread"
+      ],
+      "evidence_refs": [
+        "goblin-preview"
+      ],
+      "status": "partial-preview-and-one-unverified-item-lead",
+      "categories_pending": [
+        "weapons",
+        "armor",
+        "clothing",
+        "tools-gear",
+        "trade-goods",
+        "consumables",
+        "magic-relics",
+        "vehicles"
+      ],
+      "original_book_item_audit_complete": false
+    },
+    {
+      "id": "dragons-den",
+      "label": "The Dragon\u2019s Den",
+      "setting_id": "thunder-rift",
+      "edition": "Basic D&D",
+      "components": [
+        "Wild Dragon\u2019s Den",
+        "Wyrmhaven",
+        "The League of the Red Serpent"
+      ],
+      "evidence_refs": [
+        "rift-path",
+        "rift-bibliography"
+      ],
+      "status": "partial-fan-item-index-and-original-drafts",
+      "categories_pending": [
+        "weapons",
+        "armor",
+        "clothing",
+        "tools-gear",
+        "trade-goods",
+        "consumables",
+        "magic-relics",
+        "vehicles"
+      ],
+      "original_book_item_audit_complete": false
+    },
+    {
+      "id": "haunted-tower",
+      "label": "The Haunted Tower",
+      "setting_id": "thunder-rift",
+      "edition": "Basic D&D",
+      "components": [
+        "Fighter\u2019s Academy",
+        "Towers of Evil",
+        "Lair of the Vampire Lord"
+      ],
+      "evidence_refs": [
+        "rift-path",
+        "rift-bibliography"
+      ],
+      "status": "partial-fan-item-index-and-original-drafts",
+      "categories_pending": [
+        "weapons",
+        "armor",
+        "clothing",
+        "tools-gear",
+        "trade-goods",
+        "consumables",
+        "magic-relics",
+        "vehicles"
+      ],
+      "original_book_item_audit_complete": false
+    },
+    {
+      "id": "hail-the-heroes",
+      "label": "Hail the Heroes",
+      "setting_id": "mystara",
+      "edition": "AD&D 2e",
+      "components": [],
+      "evidence_refs": [
+        "hail-preview",
+        "halav"
+      ],
+      "status": "partial-preview-and-relic-lead",
+      "categories_pending": [
+        "weapons",
+        "armor",
+        "clothing",
+        "tools-gear",
+        "trade-goods",
+        "consumables",
+        "magic-relics",
+        "vehicles"
+      ],
+      "original_book_item_audit_complete": false
+    },
+    {
+      "id": "night-of-the-vampire",
+      "label": "Night of the Vampire",
+      "setting_id": "mystara",
+      "edition": "AD&D 2e",
+      "components": [],
+      "evidence_refs": [
+        "vampire-author",
+        "vampire-bibliography",
+        "night-vampire-fan-conversion"
+      ],
+      "status": "fan-conversion-standard-item-reference-original-2e-audit-pending",
+      "categories_pending": [
+        "weapons",
+        "armor",
+        "clothing",
+        "tools-gear",
+        "trade-goods",
+        "consumables",
+        "magic-relics",
+        "vehicles"
+      ],
+      "original_book_item_audit_complete": false
+    },
+    {
+      "id": "mark-of-amber",
+      "label": "Mark of Amber",
+      "setting_id": "mystara",
+      "region_ids": [
+        "region:glantri"
+      ],
+      "edition": "AD&D 2e",
+      "evidence_refs": [
+        "mark-amber-preview"
+      ],
+      "status": "publisher-preview-checked-item-audit-pending",
+      "original_book_item_audit_complete": false,
+      "categories_pending": [
+        "weapons",
+        "armor",
+        "clothing",
+        "tools-gear",
+        "trade-goods",
+        "consumables",
+        "magic-relics",
+        "vehicles"
+      ]
+    }
+  ],
+  "construction_records": 2973,
+  "construction_proposals": 48,
+  "skyship_proposals": 2,
+  "mystara_frontier_drafts": 25,
+  "ninja_draft_records": 62,
+  "ninja_draft_modes": {
+    "2024-equipment-reskin": 38,
+    "original-homebrew-adaptation": 24
+  },
+  "setting_reference_records": {
+    "adventurers-vault-1-reference": 525,
+    "adventurers-vault-2-reference": 357,
+    "amazons-valkyries-equipment-reference": 10,
+    "arms-equipment-3e-reference": 309,
+    "atruaghin-dmg-local": 106,
+    "atruaghin-players-guide-local": 66,
+    "castles-drungar-local": 39,
+    "castles-hart-local": 27,
+    "castles-local": 30,
+    "commerce-playtest-local": 29,
+    "curse-of-strahd-reference": 7,
+    "dawn-of-the-emperors-local": 72,
+    "dmg-1e-reference": 124,
+    "dmg-2e-reference": 926,
+    "dmg-35-reference": 2478,
+    "domains-playtest-local": 48,
+    "first-quest-local": 76,
+    "gaz1-karameikos-local": 150,
+    "gaz13-online-adaptation-reference": 41,
+    "gaz8-name-reference": 26,
+    "gazetteer-bow-reference": 9,
+    "gazetteer-equipment-reference": 44,
+    "gazetteer-local-pdf-reference": 1269,
+    "gazetteer-material-reference": 6,
+    "gazetteer-npc-equipment-reference": 32,
+    "gazetteer-publisher-preview-reference": 25,
+    "gazetteer-trade-reference": 32,
+    "hollow-world-local": 140,
+    "imperial-military-guide-local": 21,
+    "local-mystara-handbook-tables": 227,
+    "master-of-the-desert-nomads-local": 143,
+    "mystara-artifact-name-reference": 100,
+    "mystara-craft-relic-reference": 13,
+    "mystara-fan-names-reference": 34,
+    "mystara-monstrous-compendium-local": 56,
+    "oriental-adventures-3e-reference": 8,
+    "return-temple-reference": 2,
+    "rime-frostmaiden-reference": 10,
+    "savage-coast-local": 68,
+    "tomb-annihilation-reference": 7,
+    "unearthed-arcana-1e-reference": 81,
+    "wrath-of-the-immortals-local": 311
+  },
+  "game_reference_records": {
+    "baldurs-gate-1-reference": 1076,
+    "baldurs-gate-2-reference": 737,
+    "baldurs-gate-3-forge-reference": 2,
+    "baldurs-gate-3-level-reference": 5,
+    "conan-exiles-reference": 6329,
+    "diablo-1-reference": 53,
+    "diablo-2-reference": 861,
+    "diablo-3-reference": 789,
+    "diablo-4-reference": 323,
+    "ninja-gaiden-reference": 12,
+    "nioh-2-reference": 191,
+    "planescape-torment-reference": 298,
+    "sekiro-reference": 40,
+    "tenchu-reference": 12,
+    "valheim-construction-reference": 130
+  },
+  "target_15000_source_record_gap": 0,
+  "current_objective": "Source coverage across every requested setting/resource; no item-count ceiling.",
+  "registered_resources": 114,
+  "resource_coverage_statuses": {
+    "selected-drafts-and-or-references": 64,
+    "registered-item-audit-pending": 43,
+    "related-regional-context-only": 1,
+    "series-partial": 4,
+    "series-registered-audits-pending": 2
+  },
+  "target_15000_distinct_name_gap": 0,
+  "target_note": "The 15,000 milestone is tracked separately for source records and normalized names; neither proves semantic uniqueness or playable 2024 conversion."
+}

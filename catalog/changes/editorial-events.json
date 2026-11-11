@@ -1,0 +1,12 @@
+[
+  {
+    "id": "2026-11-07-atruaghin-clan-correction",
+    "date": "2026-11-07",
+    "item_ids": ["mystara:buffalo-hide-shield"],
+    "field": "associations/conversion.culture_ids",
+    "description": "Removed the project's incorrect Children of the Buffalo clan assignment. The Buffalo Hide Shield retains only broad Atruaghin attribution because this source does not establish a specific clan for it. The five clan scopes are Bear, Horse, Elk, Turtle and Tiger.",
+    "before": ["region:atruaghin-buffalo"],
+    "after": ["region:atruaghin"],
+    "evidence_url": "https://www.pandius.com/atruitem.html"
+  }
+]

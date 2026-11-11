@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Shared source-tracked proficiency grant (all class apps)",
+  "type": "object",
+  "required": ["id", "source_id", "kind", "target", "multiplier"],
+  "properties": {
+    "id": {"type": "string"},
+    "source_id": {"type": "string", "description": "Class feature, subclass, species, background, feat, item or campaign override identifier"},
+    "kind": {"enum": ["skill", "saving-throw", "weapon", "weapon-category", "armor", "shield", "tool", "language"]},
+    "target": {"type": "string", "description": "Namespaced identifier, e.g. skill:persuasion or weapon-category:martial"},
+    "multiplier": {"enum": [0, 0.5, 1, 2]},
+    "min_level": {"type": "integer", "minimum": 1, "maximum": 20},
+    "max_level": {"type": "integer", "minimum": 1, "maximum": 20},
+    "ruleset_id": {"type": "string"},
+    "source_pack_version": {"type": "string"},
+    "condition_ref": {"type": ["string", "null"]}
+  },
+  "description": "Unconditional resolved grants use the reference resolver. Conditional feature effects and unresolved choice sets must be evaluated before calling it; languages/armor are training flags rather than numeric check bonuses."
+}

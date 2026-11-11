@@ -1,0 +1,465 @@
+{
+  "upstream_commit": "82d948812bfe3f269ef8f731dcdb07b08160edc4",
+  "icons": {
+    "dagger": {
+      "path": "images/types/dagger.svg",
+      "kind": "generic-type-icon",
+      "author": "lorc",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/broad-dagger.svg",
+      "credit": "Icon made by lorc, Game-icons.net",
+      "sha256": "56c90f10376536f93d88413bf07a15b89e36687b648eb150195255d963f617f3",
+      "modified": false
+    },
+    "sword": {
+      "path": "images/types/sword.svg",
+      "kind": "generic-type-icon",
+      "author": "delapouite",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/two-handed-sword.svg",
+      "credit": "Icon made by delapouite, Game-icons.net",
+      "sha256": "bf408db1e37ce6d9f6be977ca1f265ddf29cbe2700ac271663a243b99c8c20a2",
+      "modified": false
+    },
+    "axe": {
+      "path": "images/types/axe.svg",
+      "kind": "generic-type-icon",
+      "author": "delapouite",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/war-axe.svg",
+      "credit": "Icon made by delapouite, Game-icons.net",
+      "sha256": "eaf7108711aab7b61285c879403060800ae28091b05356bbbfa5cd0759da3c3f",
+      "modified": false
+    },
+    "hammer": {
+      "path": "images/types/hammer.svg",
+      "kind": "generic-type-icon",
+      "author": "delapouite",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/warhammer.svg",
+      "credit": "Icon made by delapouite, Game-icons.net",
+      "sha256": "3450497ca97ae97846121e969462ba97dbbf2b3cbe02f4280e56002787abc7fd",
+      "modified": false
+    },
+    "spear": {
+      "path": "images/types/spear.svg",
+      "kind": "generic-type-icon",
+      "author": "lorc",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/stone-spear.svg",
+      "credit": "Icon made by lorc, Game-icons.net",
+      "sha256": "fa4997a9f9fae19aed2cc8b06178667c1a11ed7e46f731fceacd29f1bf5e88c5",
+      "modified": false
+    },
+    "bow": {
+      "path": "images/types/bow.svg",
+      "kind": "generic-type-icon",
+      "author": "lorc",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/pocket-bow.svg",
+      "credit": "Icon made by lorc, Game-icons.net",
+      "sha256": "e469592909fba6775f337c2d4820c29da9065c3e2d87370db76eb372f97ffe6d",
+      "modified": false
+    },
+    "crossbow": {
+      "path": "images/types/crossbow.svg",
+      "kind": "generic-type-icon",
+      "author": "carl-olsen",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/carl-olsen/crossbow.svg",
+      "credit": "Icon made by carl-olsen, Game-icons.net",
+      "sha256": "1ec03dedc853a9af1d1dc60fbd2b1985e478bcd2a0084b2b441b0e0a66fd2597",
+      "modified": false
+    },
+    "flail": {
+      "path": "images/types/flail.svg",
+      "kind": "generic-type-icon",
+      "author": "delapouite",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/flail.svg",
+      "credit": "Icon made by delapouite, Game-icons.net",
+      "sha256": "29ab5e27b29d94f1872bc0f1e4824c7deec80072c6832132d901463a6a138eba",
+      "modified": false
+    },
+    "staff": {
+      "path": "images/types/staff.svg",
+      "kind": "generic-type-icon",
+      "author": "lorc",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/wizard-staff.svg",
+      "credit": "Icon made by lorc, Game-icons.net",
+      "sha256": "743b394ecdbf8c7bf6be177dac0d4e172a4559e66d5c86b8c5aad9c37c394637",
+      "modified": false
+    },
+    "weapon": {
+      "path": "images/types/weapon.svg",
+      "kind": "generic-type-icon",
+      "author": "delapouite",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/two-handed-sword.svg",
+      "credit": "Icon made by delapouite, Game-icons.net",
+      "sha256": "bf408db1e37ce6d9f6be977ca1f265ddf29cbe2700ac271663a243b99c8c20a2",
+      "modified": false
+    },
+    "armor": {
+      "path": "images/types/armor.svg",
+      "kind": "generic-type-icon",
+      "author": "delapouite",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/chest-armor.svg",
+      "credit": "Icon made by delapouite, Game-icons.net",
+      "sha256": "aaffd4f871b76880a84f9330bc1ebb9416f69a0acd5e5283b81eed8dc441b7b8",
+      "modified": false
+    },
+    "light-armor": {
+      "path": "images/types/light-armor.svg",
+      "kind": "generic-type-icon",
+      "author": "delapouite",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/leather-armor.svg",
+      "credit": "Icon made by delapouite, Game-icons.net",
+      "sha256": "2f5f291cd5d7a35b52a3dbe8686372844317a98850e57aa9801be90951d0940c",
+      "modified": false
+    },
+    "medium-armor": {
+      "path": "images/types/medium-armor.svg",
+      "kind": "generic-type-icon",
+      "author": "willdabeast",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/willdabeast/chain-mail.svg",
+      "credit": "Icon made by willdabeast, Game-icons.net",
+      "sha256": "5745a98f7949fa081163cb722cb6f742df5e694d3655e0e70a8c56163929cc38",
+      "modified": false
+    },
+    "heavy-armor": {
+      "path": "images/types/heavy-armor.svg",
+      "kind": "generic-type-icon",
+      "author": "delapouite",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/chest-armor.svg",
+      "credit": "Icon made by delapouite, Game-icons.net",
+      "sha256": "aaffd4f871b76880a84f9330bc1ebb9416f69a0acd5e5283b81eed8dc441b7b8",
+      "modified": false
+    },
+    "shield": {
+      "path": "images/types/shield.svg",
+      "kind": "generic-type-icon",
+      "author": "willdabeast",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/willdabeast/round-shield.svg",
+      "credit": "Icon made by willdabeast, Game-icons.net",
+      "sha256": "ee9b574fc11c6a4e9de5e0a909db39099cdce086ceea1b881e438a231a2eb90d",
+      "modified": false
+    },
+    "potion": {
+      "path": "images/types/potion.svg",
+      "kind": "generic-type-icon",
+      "author": "delapouite",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/health-potion.svg",
+      "credit": "Icon made by delapouite, Game-icons.net",
+      "sha256": "53c32fe9f69f6e92868434e0cead3e283eb4340d6a629422283cdf4521cec8f5",
+      "modified": false
+    },
+    "ring": {
+      "path": "images/types/ring.svg",
+      "kind": "generic-type-icon",
+      "author": "lorc",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/engagement-ring.svg",
+      "credit": "Icon made by lorc, Game-icons.net",
+      "sha256": "d2e4b4413db402f0c405ac8bf232edec5427b4c7ffe80b5fa78e4f15be802bbc",
+      "modified": false
+    },
+    "amulet": {
+      "path": "images/types/amulet.svg",
+      "kind": "generic-type-icon",
+      "author": "lorc",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/gem-necklace.svg",
+      "credit": "Icon made by lorc, Game-icons.net",
+      "sha256": "7bac06388eac1132fcda2b5e0060be10e3f939d3c18a09c0d14d0f4240abd63d",
+      "modified": false
+    },
+    "wand": {
+      "path": "images/types/wand.svg",
+      "kind": "generic-type-icon",
+      "author": "lorc",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/crystal-wand.svg",
+      "credit": "Icon made by lorc, Game-icons.net",
+      "sha256": "2808d06e02ed3ef5499bb6a72e5bd77bedd6e4d8970fd6d2420fde7048039abf",
+      "modified": false
+    },
+    "rod": {
+      "path": "images/types/rod.svg",
+      "kind": "generic-type-icon",
+      "author": "willdabeast",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/willdabeast/orb-wand.svg",
+      "credit": "Icon made by willdabeast, Game-icons.net",
+      "sha256": "37074b15ad118612dca83eada1522575228f16b7f693761d191d9221354cdb13",
+      "modified": false
+    },
+    "scroll": {
+      "path": "images/types/scroll.svg",
+      "kind": "generic-type-icon",
+      "author": "lorc",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/tied-scroll.svg",
+      "credit": "Icon made by lorc, Game-icons.net",
+      "sha256": "8dec10d48e8c0012a30d7146b4187e8ed9aa016029de5f87cc254c129dc3c1d6",
+      "modified": false
+    },
+    "boots": {
+      "path": "images/types/boots.svg",
+      "kind": "generic-type-icon",
+      "author": "lorc",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/boots.svg",
+      "credit": "Icon made by lorc, Game-icons.net",
+      "sha256": "37ec3570d287f851fdf93713b2fa871de74b5562531a10c61db6586fe5a46b7d",
+      "modified": false
+    },
+    "gloves": {
+      "path": "images/types/gloves.svg",
+      "kind": "generic-type-icon",
+      "author": "delapouite",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/gloves.svg",
+      "credit": "Icon made by delapouite, Game-icons.net",
+      "sha256": "e8d522f7e80657e32494eb9a25d3bcb8dbdf6f722fb0a6e82292c127a6c8f3b5",
+      "modified": false
+    },
+    "cloak": {
+      "path": "images/types/cloak.svg",
+      "kind": "generic-type-icon",
+      "author": "lucasms",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lucasms/cloak.svg",
+      "credit": "Icon made by lucasms, Game-icons.net",
+      "sha256": "35d98d3a0732e67911b2578715c88836ab04c783bb3256e814905c4d46767185",
+      "modified": false
+    },
+    "helmet": {
+      "path": "images/types/helmet.svg",
+      "kind": "generic-type-icon",
+      "author": "sbed",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/sbed/helmet.svg",
+      "credit": "Icon made by sbed, Game-icons.net",
+      "sha256": "d97d42e094f458cf9262692e1cccb61439b1587422cfa2870349362b5deb65ee",
+      "modified": false
+    },
+    "gem": {
+      "path": "images/types/gem.svg",
+      "kind": "generic-type-icon",
+      "author": "lorc",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/gems.svg",
+      "credit": "Icon made by lorc, Game-icons.net",
+      "sha256": "8f2a2dc1b875e5214318f2cdfbacc2e4066589007486e93b813eb1efec3deac6",
+      "modified": false
+    },
+    "book": {
+      "path": "images/types/book.svg",
+      "kind": "generic-type-icon",
+      "author": "willdabeast",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/willdabeast/white-book.svg",
+      "credit": "Icon made by willdabeast, Game-icons.net",
+      "sha256": "77ee3edc1b9f23cd1ef56ec71b6261329766ab9f08441b8ab96a71f94262e2f2",
+      "modified": false
+    },
+    "key": {
+      "path": "images/types/key.svg",
+      "kind": "generic-type-icon",
+      "author": "sbed",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/sbed/key.svg",
+      "credit": "Icon made by sbed, Game-icons.net",
+      "sha256": "839edadf050e838e10092e18127b9c6bd2fc545c2f88aff8bf28c4e9882004d2",
+      "modified": false
+    },
+    "torch": {
+      "path": "images/types/torch.svg",
+      "kind": "generic-type-icon",
+      "author": "delapouite",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/torch.svg",
+      "credit": "Icon made by delapouite, Game-icons.net",
+      "sha256": "cfdea5b80834d6f31db683af23632371b1ed7c1410debec4fcc167bb1380d05d",
+      "modified": false
+    },
+    "currency": {
+      "path": "images/types/currency.svg",
+      "kind": "generic-type-icon",
+      "author": "delapouite",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/coins.svg",
+      "credit": "Icon made by delapouite, Game-icons.net",
+      "sha256": "261f61209fad4adc71e6e3faa061e854ab3de6c3fa13aef9bfdac2b643f4e306",
+      "modified": false
+    },
+    "tools": {
+      "path": "images/types/tools.svg",
+      "kind": "generic-type-icon",
+      "author": "delapouite",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/toolbox.svg",
+      "credit": "Icon made by delapouite, Game-icons.net",
+      "sha256": "b1854af45f6f5db1d9d28424c0df081e14a7a3e811c06abcdee98d615ebf47a2",
+      "modified": false
+    },
+    "container": {
+      "path": "images/types/container.svg",
+      "kind": "generic-type-icon",
+      "author": "delapouite",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/backpack.svg",
+      "credit": "Icon made by delapouite, Game-icons.net",
+      "sha256": "6036f15b66931d8770a4d202c93fbf0a5036f40e582dc303204b637cb2617b08",
+      "modified": false
+    },
+    "instrument": {
+      "path": "images/types/instrument.svg",
+      "kind": "generic-type-icon",
+      "author": "delapouite",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/flute.svg",
+      "credit": "Icon made by delapouite, Game-icons.net",
+      "sha256": "ff6132299f3a2a412f643dbdccdd75d3c31c2ebe8c426279267a13f74a9d987d",
+      "modified": false
+    },
+    "food": {
+      "path": "images/types/food.svg",
+      "kind": "generic-type-icon",
+      "author": "delapouite",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/meal.svg",
+      "credit": "Icon made by delapouite, Game-icons.net",
+      "sha256": "71648b5b6d5417a860747182cc0da1a4a71dc0b568e139bb1c27c6822cfd75b7",
+      "modified": false
+    },
+    "ammunition": {
+      "path": "images/types/ammunition.svg",
+      "kind": "generic-type-icon",
+      "author": "lorc",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/arrow-cluster.svg",
+      "credit": "Icon made by lorc, Game-icons.net",
+      "sha256": "d4a055a7d5ae990869887026de1999f421df84f5d3f4a7415f86a9e06c008192",
+      "modified": false
+    },
+    "gear": {
+      "path": "images/types/gear.svg",
+      "kind": "generic-type-icon",
+      "author": "delapouite",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/backpack.svg",
+      "credit": "Icon made by delapouite, Game-icons.net",
+      "sha256": "6036f15b66931d8770a4d202c93fbf0a5036f40e582dc303204b637cb2617b08",
+      "modified": false
+    },
+    "clothing": {
+      "path": "images/types/clothing.svg",
+      "kind": "generic-type-icon",
+      "author": "lorc",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/robe.svg",
+      "credit": "Icon made by lorc, Game-icons.net",
+      "sha256": "dd9c731b1075c109c8df3c07d165c9e80bebcb5b77b4a7fbbbab1cb5d141ed1c",
+      "modified": false
+    },
+    "poison": {
+      "path": "images/types/poison.svg",
+      "kind": "generic-type-icon",
+      "author": "lorc",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/poison-bottle.svg",
+      "credit": "Icon made by lorc, Game-icons.net",
+      "sha256": "6b0e457a30238bc99a7567ac9ace76bf77386c1b92f985cbe1338d119e754492",
+      "modified": false
+    },
+    "alchemy": {
+      "path": "images/types/alchemy.svg",
+      "kind": "generic-type-icon",
+      "author": "lorc",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/cauldron.svg",
+      "credit": "Icon made by lorc, Game-icons.net",
+      "sha256": "ff43790fbcb11884be73f6d318e95c37adb810f6a8ce58a00d2398632fb1e1de",
+      "modified": false
+    },
+    "dye": {
+      "path": "images/types/dye.svg",
+      "kind": "generic-type-icon",
+      "author": "delapouite",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/powder-bag.svg",
+      "credit": "Icon made by delapouite, Game-icons.net",
+      "sha256": "8db1cac77b01c0355938d74a41bd0ba11dc53ca7387450b24b7711c3b5eaabb5",
+      "modified": false
+    },
+    "land-vehicle": {
+      "path": "images/types/land-vehicle.svg",
+      "kind": "generic-type-icon",
+      "author": "delapouite",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/old-wagon.svg",
+      "credit": "Icon made by delapouite, Game-icons.net",
+      "sha256": "e578034da22217a6a2ad54935288a92c5f00c637dee72ae5ef9924172619db4d",
+      "modified": false
+    },
+    "waterborne-vehicle": {
+      "path": "images/types/waterborne-vehicle.svg",
+      "kind": "generic-type-icon",
+      "author": "pierre-leducq",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/pierre-leducq/small-fishing-sailboat.svg",
+      "credit": "Icon made by pierre-leducq, Game-icons.net",
+      "sha256": "94c77c488ccd53edcd662433f4360906af9ce64d2e25e633a27baeb4209bff58",
+      "modified": false
+    },
+    "mount": {
+      "path": "images/types/mount.svg",
+      "kind": "generic-type-icon",
+      "author": "delapouite",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/horse-head.svg",
+      "credit": "Icon made by delapouite, Game-icons.net",
+      "sha256": "71bf3043b14efad86783934bb3a44ead11f5858b4efcd662da3a4be6e50dfdb1",
+      "modified": false
+    },
+    "rope": {
+      "path": "images/types/rope.svg",
+      "kind": "generic-type-icon",
+      "author": "delapouite",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/jumping-rope.svg",
+      "credit": "Icon made by delapouite, Game-icons.net",
+      "sha256": "5f120932bda2f08f0e13eceda123e9a8ed0852f10566e75242c60442e231b694",
+      "modified": false
+    },
+    "lantern": {
+      "path": "images/types/lantern.svg",
+      "kind": "generic-type-icon",
+      "author": "lorc",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/lantern.svg",
+      "credit": "Icon made by lorc, Game-icons.net",
+      "sha256": "4dfadae6b9551666ed7b5a3d99d307fc51bd5ccd262e68ea29d6a155bc75dcb3",
+      "modified": false
+    },
+    "belt": {
+      "path": "images/types/belt.svg",
+      "kind": "generic-type-icon",
+      "author": "lucasms",
+      "license": "CC-BY-3.0",
+      "source_url": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lucasms/belt.svg",
+      "credit": "Icon made by lucasms, Game-icons.net",
+      "sha256": "8d21f025b2d624bc3881bbe6ee4a9bd6cf15eb1cd8f8ee58f5e9aad87de2d12b",
+      "modified": false
+    }
+  }
+}

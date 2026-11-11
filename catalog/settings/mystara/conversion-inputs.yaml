@@ -1,0 +1,520 @@
+- name: Yataghan
+  base_item_pk: srd-2024_scimitar
+  culture_ids:
+  - ylaruam
+  evidence_ref: blades
+  reported_book: GAZ2
+  source_page_verified: true
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the 2024 Scimitar profile, following the original GAZ2 glossary
+    on printed p.36 (user PDF p.37). Replaces the earlier fan-index Shortsword mapping.
+    Legacy special bonuses and size-based rules are omitted; “large” in the glossary
+    is not treated as a creature-size restriction.
+  lore_status: Original glossary name and weapon type checked; other lore remains
+    unverified.
+- name: Claymore
+  base_item_pk: srd-2024_longsword
+  culture_ids:
+  - glantri
+  evidence_ref: blades
+  reported_book: GAZ3
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Darokinian Rapier
+  base_item_pk: srd-2024_rapier
+  culture_ids:
+  - darokin
+  evidence_ref: blades
+  reported_book: GAZ11
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Katar
+  base_item_pk: srd-2024_shortsword
+  culture_ids:
+  - ethengar
+  evidence_ref: blades
+  reported_book: GAZ12
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Khopesh
+  base_item_pk: srd-2024_scimitar
+  culture_ids:
+  - nithia
+  evidence_ref: blades
+  reported_book: HWR2
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Sword Staff
+  base_item_pk: srd-2024_glaive
+  culture_ids:
+  - nithia
+  evidence_ref: blades
+  reported_book: HWR2
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Needle Dagger
+  base_item_pk: srd-2024_dagger
+  culture_ids:
+  - milenian-empire
+  evidence_ref: blades
+  reported_book: HWR3
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Ta-Agsu
+  base_item_pk: srd-2024_dagger
+  culture_ids:
+  - milenian-empire
+  evidence_ref: blades
+  reported_book: HWR3
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Suit Armor
+  base_item_pk: srd-2024_plate-armor
+  culture_ids:
+  - known-world
+  evidence_ref: armor
+  reported_book: RC
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Ethengar Lamellar
+  base_item_pk: srd-2024_scale-mail
+  culture_ids:
+  - ethengar
+  evidence_ref: armor
+  reported_book: GAZ12-reported-indirectly
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Layered Shell Armor
+  base_item_pk: srd-2024_scale-mail
+  culture_ids:
+  - sea-people
+  evidence_ref: armor
+  reported_book: PC3
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Piece Shell Armor
+  base_item_pk: srd-2024_chain-mail
+  culture_ids:
+  - sea-people
+  evidence_ref: armor
+  reported_book: PC3
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Thyatian Banded Armor
+  base_item_pk: srd-2024_scale-mail
+  culture_ids:
+  - thyatis
+  evidence_ref: armor
+  reported_book: TSR-1037
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Target Buckler
+  base_item_pk: srd-2024_shield
+  culture_ids:
+  - known-world
+  evidence_ref: armor
+  reported_book: not-identified
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Tower Shield
+  base_item_pk: srd-2024_shield
+  culture_ids:
+  - known-world
+  evidence_ref: armor
+  reported_book: not-identified
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Snakeskin Leather Jerkin
+  base_item_pk: srd-2024_leather-armor
+  culture_ids:
+  - atruaghin-bear
+  evidence_ref: armor
+  reported_book: GAZ14-reported-indirectly
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Turtle Clan Vest
+  base_item_pk: srd-2024_leather-armor
+  culture_ids:
+  - atruaghin-turtle
+  evidence_ref: armor
+  reported_book: GAZ14-reported-indirectly
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Buffalo Hide Shield
+  base_item_pk: srd-2024_shield
+  culture_ids:
+  - atruaghin
+  evidence_ref: armor
+  reported_book: GAZ14-reported-indirectly
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: 'Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over. Earlier project Children of the Buffalo
+    attribution was removed: that is not one of the five clans.'
+  lore_status: fan-reported-broad-setting-association; no specific clan established
+- name: Horned Shield
+  base_item_pk: srd-2024_shield
+  culture_ids:
+  - known-world
+  evidence_ref: armor
+  reported_book: not-identified
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Knife Shield
+  base_item_pk: srd-2024_shield
+  culture_ids:
+  - known-world
+  evidence_ref: armor
+  reported_book: not-identified
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Sword Shield
+  base_item_pk: srd-2024_shield
+  culture_ids:
+  - known-world
+  evidence_ref: armor
+  reported_book: not-identified
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Tusked Shield
+  base_item_pk: srd-2024_shield
+  culture_ids:
+  - known-world
+  evidence_ref: armor
+  reported_book: not-identified
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Daxan Shield
+  base_item_pk: srd-2024_shield
+  culture_ids:
+  - atruaghin-tiger
+  evidence_ref: armor
+  reported_book: GAZ14-reported-indirectly
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Brol
+  base_item_pk: srd-2024_greataxe
+  culture_ids:
+  - gurrash
+  evidence_ref: savage-equipment
+  reported_book: SCS
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Bok
+  base_item_pk: srd-2024_javelin
+  culture_ids:
+  - cayma
+  evidence_ref: savage-equipment
+  reported_book: SCS
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Cayma Crossbow
+  base_item_pk: srd-2024_light-crossbow
+  culture_ids:
+  - cayma
+  evidence_ref: savage-equipment
+  reported_book: SCS
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Hessta
+  base_item_pk: srd-2024_dart
+  culture_ids:
+  - cayma
+  evidence_ref: savage-equipment
+  reported_book: SCS
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Flight Lance
+  base_item_pk: srd-2024_lance
+  culture_ids:
+  - ee-aar
+  evidence_ref: savage-equipment
+  reported_book: SCS
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Machete
+  base_item_pk: srd-2024_scimitar
+  culture_ids:
+  - savage-coast
+  evidence_ref: savage-equipment
+  reported_book: SCS
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Maga
+  base_item_pk: srd-2024_mace
+  culture_ids:
+  - gurrash
+  evidence_ref: savage-equipment
+  reported_book: SCS
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Main-Gauche
+  base_item_pk: srd-2024_dagger
+  culture_ids:
+  - savage-coast
+  evidence_ref: savage-equipment
+  reported_book: SCS
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Nonaka
+  base_item_pk: srd-2024_club
+  culture_ids:
+  - savage-coast
+  evidence_ref: savage-equipment
+  reported_book: SCS
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Sa
+  base_item_pk: srd-2024_dagger
+  culture_ids:
+  - savage-coast
+  evidence_ref: savage-equipment
+  reported_book: SCS
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Scythe
+  base_item_pk: srd-2024_glaive
+  culture_ids:
+  - savage-coast
+  evidence_ref: savage-equipment
+  reported_book: SCS
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Stiletto
+  base_item_pk: srd-2024_dagger
+  culture_ids:
+  - savage-coast
+  evidence_ref: savage-equipment
+  reported_book: SCS
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Grooka
+  base_item_pk: srd-2024_dagger
+  culture_ids:
+  - cayma
+  evidence_ref: savage-equipment
+  reported_book: SCS
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Matara
+  base_item_pk: srd-2024_longsword
+  culture_ids:
+  - bellayne
+  evidence_ref: savage-equipment
+  reported_book: SCS
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Mishiya
+  base_item_pk: srd-2024_shortsword
+  culture_ids:
+  - bellayne
+  evidence_ref: savage-equipment
+  reported_book: SCS
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Savage Coast Rapier
+  base_item_pk: srd-2024_rapier
+  culture_ids:
+  - savage-coast
+  evidence_ref: savage-equipment
+  reported_book: SCS
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Sabre
+  base_item_pk: srd-2024_scimitar
+  culture_ids:
+  - savage-coast
+  evidence_ref: savage-equipment
+  reported_book: SCS
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: War Claws
+  base_item_pk: srd-2024_dagger
+  culture_ids:
+  - rakasta
+  evidence_ref: savage-equipment
+  reported_book: SCS
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Wheellock Belt Pistol
+  base_item_pk: srd-2024_pistol
+  culture_ids:
+  - savage-coast
+  evidence_ref: savage-equipment
+  reported_book: SCS
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked
+- name: Wheellock Horse Pistol
+  base_item_pk: srd-2024_pistol
+  culture_ids:
+  - savage-coast
+  evidence_ref: savage-equipment
+  reported_book: SCS
+  source_page_verified: false
+  conversion_kind: 2024-base-item-reskin
+  conversion_status: draft-needs-setting-and-play-review
+  conversion_note: Uses the named 2024 base item unchanged. Legacy special bonuses
+    and size-based rules are not carried over.
+  lore_status: fan-reported-setting-association; original book not checked

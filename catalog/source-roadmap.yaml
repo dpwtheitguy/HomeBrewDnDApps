@@ -1,0 +1,172 @@
+priority: Mystara depth before breadth
+sources:
+- id: mystara
+  label: Mystara / Known World / GAZ1–GAZ14 / boxed sets
+  priority: 1
+  status: active-initial-import
+- id: karameikos-box
+  label: 'Karameikos: Kingdom of Adventure'
+  priority: 1
+  status: bibliography-and-internet-evidence
+- id: glantri-box
+  label: 'Glantri: Kingdom of Magic'
+  priority: 1
+  status: bibliography-and-internet-evidence
+- id: planescape
+  label: Planescape
+  priority: 2
+  status: selected-game-inventory-references-imported-tabletop-books-pending
+- id: ravenloft
+  label: Ravenloft
+  priority: 2
+  status: queued
+- id: curse-of-strahd
+  label: Curse of Strahd
+  priority: 2
+  status: seven-distinctive-name-references-original-book-audit-pending
+- id: baldurs-gate-1
+  label: Baldur’s Gate I
+  priority: 3
+  status: selected-names-types-reference-imported-tabletop-adaptation-pending
+- id: baldurs-gate-2
+  label: Baldur’s Gate II
+  priority: 3
+  status: selected-names-types-reference-imported-tabletop-adaptation-pending
+- id: baldurs-gate-3
+  label: Baldur’s Gate 3
+  priority: 3
+  status: game-metadata-imported
+- id: forgotten-realms
+  label: Forgotten Realms
+  priority: 3
+  status: partial-via-BG3-no-general-book-audit
+- id: return-temple
+  label: Return to the Temple of Elemental Evil
+  priority: 4
+  status: queued-Greyhawk-3e
+- id: zanzer
+  label: Zanzer’s Dungeon / Escape from Zanzer’s Dungeon
+  priority: 1
+  status: partial-fan-compilation-pass
+- id: diablo-1
+  label: Diablo I
+  priority: 5
+  status: selected-names-types-reference-imported-tabletop-adaptation-pending
+- id: diablo-2
+  label: Diablo II
+  priority: 5
+  status: selected-names-types-reference-imported-tabletop-adaptation-pending
+- id: diablo-3
+  label: Diablo III
+  priority: 5
+  status: selected-names-types-reference-imported-tabletop-adaptation-pending
+- id: diablo-4
+  label: Diablo IV
+  priority: 5
+  status: selected-unique-name-index-imported-2024-adaptation-pending
+- id: arms-equipment-3e
+  label: Arms and Equipment Guide (3e)
+  priority: 4
+  status: queued
+- id: arms-equipment-4e
+  label: 4e equipment books, including Adventurer’s Vault series
+  priority: 4
+  status: bibliography-to-verify
+- id: arms-equipment-5e
+  label: 5e equipment guides and catalogs
+  priority: 4
+  status: specific-titles-to-identify
+- id: goblins-lair
+  label: The Goblin’s Lair
+  priority: 1
+  status: partial-preview-and-one-unverified-item-lead
+- id: dragons-den
+  label: The Dragon’s Den
+  priority: 1
+  status: partial-fan-item-index-and-original-drafts
+- id: haunted-tower
+  label: The Haunted Tower
+  priority: 1
+  status: partial-fan-item-index-and-original-drafts
+- id: hail-the-heroes
+  label: Hail the Heroes
+  priority: 1
+  status: partial-preview-and-relic-lead
+- id: night-of-the-vampire
+  label: Night of the Vampire
+  priority: 1
+  status: fan-conversion-standard-item-reference-original-2e-audit-pending
+- id: complete-ninja-handbook
+  label: The Complete Ninja’s Handbook (2e)
+  priority: 1
+  status: selected-equipment-reskins-magic-chapter-pending
+- id: oriental-adventures-3e
+  label: Oriental Adventures (2001, 3.0)
+  priority: 1
+  status: selected-equipment-drafts-edition-audit-pending
+- id: ninja-video-games
+  label: Ninja game equipment research
+  priority: 1
+  status: selected-games-indexed-and-original-drafts
+- id: mark-of-amber
+  label: Mark of Amber
+  priority: 1
+  status: publisher-preview-checked-item-audit-pending
+- id: champions-mystara
+  label: 'Champions of Mystara: Heroes of the Princess Ark'
+  priority: 1
+  status: bibliography-selected-skyship-leads-two-original-designs
+- id: dawn-emperors
+  label: 'Dawn of the Emperors: Thyatis and Alphatia'
+  priority: 1
+  status: selected-regional-gear-and-fan-magic-drafts
+- id: gaz14
+  label: 'GAZ14: The Atruaghin Clans'
+  priority: 1
+  status: five-clans-corrected-selected-item-mappings-expanded
+- id: indigenous-game-research
+  label: Never Alone / Mulaka / When Rivers Were Trails
+  priority: 1
+  status: creator-sources-checked-three-explicitly-fictional-theme-adaptations
+- id: hero-builder-3e
+  label: Hero Builder’s Guidebook
+  priority: 1
+  status: bibliography-verified-equipment-audit-pending
+- id: stronghold-builder-3e
+  label: Stronghold Builder’s Guidebook
+  priority: 1
+  status: bibliography-verified-component-audit-pending
+- id: castle-guide-2e
+  label: The Castle Guide
+  priority: 1
+  status: bibliography-verified-construction-audit-pending
+- id: bastions-2024
+  label: 2024 DMG Bastions
+  priority: 1
+  status: official-overview-checked-original-proposals-only
+- id: construction-video-games
+  label: Valheim / Stronghold / Dungeon Keeper / Dwarf Fortress
+  priority: 1
+  status: selected-reference-imports-more-games-pending
+- id: tomb-annihilation
+  label: Tomb of Annihilation
+  priority: 1
+  status: seven-distinctive-name-references-chapter-treasure-and-equipment-pending
+- id: rime-frostmaiden
+  label: 'Icewind Dale: Rime of the Frostmaiden'
+  priority: 1
+  status: ten-distinctive-name-references-chapter-items-spellbooks-materials-pending
+- id: conan-exiles
+  label: Conan Exiles construction and equipment
+  priority: 1
+  status: public-inventory-reference-snapshot-pet-tokens-excluded
+count_policy: 30,000 is a possible target, not a verified unique-item count. Families,
+  reprints, conversions, rolled affixes, variants and instances must be counted separately.
+working_assumptions:
+- Zanzar most likely refers to Zanzer. Do not merge different adventures until verified.
+- Do not assume all requested editions have an identically titled Arms and Equipment
+  Guide.
+- Return to the Temple of Elemental Evil is a Greyhawk adventure, not a Forgotten
+  Realms source.
+- Diablo affixes, runewords and set bonuses need separate entities rather than arbitrary
+  expanded item combinations.

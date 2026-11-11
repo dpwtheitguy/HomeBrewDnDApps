@@ -1,0 +1,500 @@
+schema_version: 1
+id: adventure-research-drafts
+label: Zanzer / Goblin’s Lair / Hail the Heroes research drafts
+coverage: Nine original conversion drafts; nine source appearances linked to existing SRD definitions; nine additional
+  fan-index leads. Partial research only; no original-book audit or playtested conversions.
+sources:
+- id: zanzer-knight
+  url: https://pandius.com/Zanzer%27s_Dungeon_final.pdf
+  author: Kyle Knight
+  source_kind: fan-merged-and-modified-compilation
+  edition: BECMI/Rules Cyclopedia fan adaptation
+  note: PDF pages are physical 1-based pages. Does not establish which details appeared in the original TSR black
+    box.
+  identity_evidence_url: https://pandius.ix.iq.pl/zanzrtem.html
+- id: goblin-preview
+  url: https://d1vzi28wh99zvq.cloudfront.net/pdf_previews/17156-sample.pdf
+  source_kind: publisher-sample
+  edition: Basic D&D
+  note: Confirms three component adventures and optional Thunder Rift framework; not complete item coverage.
+- id: goblin-ring-lead
+  url: https://anyflip.com/myubd/qqew/basic
+  source_kind: unverified-third-party-OCR-search-lead
+  note: Item name and single-owlbear function seen in search excerpt; no original-page verification. No scan or
+    adventure prose redistributed.
+- id: rift-path
+  url: https://pandius.ix.iq.pl/trft_ap.html
+  author: Kyle Knight
+  source_kind: fan-reference-index
+  note: Research leads, not canonical geography or full item verification. Aggregate treasure totals are not item
+    prices.
+- id: rift-bibliography
+  url: https://index.rpg.net/display-search.phtml?key=background&sort=system&value=Thunder%2BRift
+  source_kind: bibliography
+- id: halav
+  url: https://www.pandius.com/zadreth.html
+  author: Robin
+  source_kind: fan-lore-reference
+  note: Shield of Halav lead for Hail the Heroes. Fan chronology is not a verified original timeline.
+- id: hail-preview
+  url: https://d1vzi28wh99zvq.cloudfront.net/pdf_previews/17351-sample.pdf
+  source_kind: publisher-sample
+  edition: AD&D 2e
+  note: Introduction establishes Mystara / Kingdom of Karameikos.
+- id: vampire-author
+  url: https://richard-baker.blogspot.com/2015/04/?m=0
+  source_kind: author-retrospective
+  author: Richard Baker
+  edition: AD&D 2e
+- id: vampire-bibliography
+  url: https://www.nobleknight.com/P/2443/Night-of-the-Vampire
+  source_kind: retailer-bibliography
+  note: Karameikos coastal manor; item inventory not established.
+- id: mark-amber-preview
+  url: https://d1vzi28wh99zvq.cloudfront.net/pdf_previews/17342-sample.pdf
+  source_kind: publisher-sample
+  edition: AD&D 2e
+  note: Bibliographic/background pass only. No item chapter audit completed.
+- id: night-vampire-fan-conversion
+  url: https://www.pandius.com/vampnght.html
+  label: Night of the Vampire fan 3e conversion
+  source_kind: fan-conversion
+  edition: D&D 3e fan conversion of AD&D 2e adventure
+  note: Reports no unique new magic items and discusses standard equipment. Changed fan-version weapons must not
+    be silently treated as original 2e gear.
+entities:
+- id: setting:thunder-rift
+  kind: setting
+  label: Thunder Rift
+  aliases: []
+  parent_ids: []
+  note: Independent research scope. Zanzer and Dragon’s Den grouped here editorially; no canonical Karameikos placement
+    asserted.
+- id: publication:zanzer
+  kind: publication
+  label: Zanzer’s Dungeon
+  aliases:
+  - Zanzar's Dungeon
+  - Zanzars Dungeon
+  - Escape from Zanzer's Dungeon
+  parent_ids: []
+  note: Publication facet is separate from cultural origin or proficiency.
+- id: publication:goblins-lair
+  kind: publication
+  label: The Goblin’s Lair
+  aliases:
+  - Goblin's Lair
+  parent_ids: []
+  note: Publication facet is separate from cultural origin or proficiency.
+- id: publication:red-hand-trail
+  kind: publication
+  label: Red Hand Trail
+  aliases: []
+  parent_ids:
+  - publication:goblins-lair
+  note: Publication facet is separate from cultural origin or proficiency.
+- id: publication:trouble-below
+  kind: publication
+  label: Trouble Below
+  aliases: []
+  parent_ids:
+  - publication:goblins-lair
+  note: Publication facet is separate from cultural origin or proficiency.
+- id: publication:palace-of-dread
+  kind: publication
+  label: Palace of Dread
+  aliases: []
+  parent_ids:
+  - publication:goblins-lair
+  note: Publication facet is separate from cultural origin or proficiency.
+- id: publication:dragons-den
+  kind: publication
+  label: The Dragon’s Den
+  aliases:
+  - Dragon's Den
+  parent_ids: []
+  note: Publication facet is separate from cultural origin or proficiency.
+- id: publication:haunted-tower
+  kind: publication
+  label: The Haunted Tower
+  aliases: []
+  parent_ids: []
+  note: Publication facet is separate from cultural origin or proficiency.
+- id: publication:hail-the-heroes
+  kind: publication
+  label: Hail the Heroes
+  aliases: []
+  parent_ids: []
+  note: Publication facet is separate from cultural origin or proficiency.
+- id: publication:night-of-the-vampire
+  kind: publication
+  label: Night of the Vampire
+  aliases: []
+  parent_ids: []
+  note: Publication facet is separate from cultural origin or proficiency.
+- id: publication:mark-of-amber
+  kind: publication
+  label: Mark of Amber
+  aliases: []
+  parent_ids: []
+  note: Mystara / Glantri adventure research scope; not a claim of imported item definitions.
+drafts:
+- id: thunder-rift:sleep-powder
+  name: Zanzer’s Sleep Powder
+  type: consumable
+  icon: potion
+  rarity: uncommon
+  estimated_value_gp: 100
+  attunement: false
+  evidence_ref: zanzer-knight
+  entity_id: publication:zanzer
+  locator: PDF p. 2, jail encounter / PDF p. 5, rooms 3–4 / PDF p. 7, pit encounter
+  tldr: A single-use dust that can briefly incapacitate one creature.
+  details: As a Magic action, expend one packet and choose one creature within 5 feet that breathes. It makes a
+    DC 12 Constitution saving throw. On a failure, it has the Unconscious condition until the end of your next turn.
+    Damage ends the effect; another creature can take an action to wake it. A creature immune to being Charmed automatically
+    succeeds. The powder cannot affect a creature holding its breath. There is no lingering cloud.
+  changes: Original bounded conversion; replaces legacy breath saves and repeated sleep with a short single-target
+    effect. No nonmagical crafting recipe supplied.
+  flavor: 'The paper folds bear a smudged warning: keep your face turned away.'
+  creative: A risky close-range opening for a retreat. Unconscious targets fall Prone and drop held objects under
+    the normal condition rules.
+  setting_id: thunder-rift
+  legacy_page_verified: true
+- id: thunder-rift:robes-of-defense
+  name: Zanzer’s Robes of Defense
+  type: clothing
+  icon: clothing
+  rarity: uncommon
+  estimated_value_gp: 400
+  attunement: true
+  evidence_ref: zanzer-knight
+  entity_id: publication:zanzer
+  locator: PDF p. 5; room 4
+  tldr: Protective robes offer an alternate AC calculation.
+  details: Requires attunement. While wearing these robes and wearing no armor or shield, you can calculate your
+    Armor Class as 13 + your Dexterity modifier. Choose this or another available AC calculation; they do not stack.
+    These robes grant no armor training, saving throw bonus, or spell slots.
+  changes: One original 2024 draft replaces several descending-AC robe grades. Legacy AC 7/5/3 are not imported
+    as additive modern bonuses.
+  flavor: Silver thread catches the light just before a blade reaches the cloth.
+  creative: Dress for a formal audience while retaining this AC option. Disguise success remains a DM ruling.
+  setting_id: thunder-rift
+  legacy_page_verified: true
+- id: thunder-rift:mercy-mace
+  name: Zanzer’s Mercy Mace
+  type: weapon
+  icon: hammer
+  rarity: rare
+  estimated_value_gp: 4010
+  attunement: true
+  evidence_ref: zanzer-knight
+  entity_id: publication:zanzer
+  locator: PDF p. 8; room 10
+  tldr: A +1 mace with a small daily reserve of healing.
+  details: Requires attunement. Uses the 2024 Mace rules and grants +1 to attack and damage rolls made with it.
+    Once per Long Rest, as a Magic action while holding it, touch one willing creature to restore 2d8 Hit Points.
+    This property has no effect on Constructs or Undead. It does not require a successful weapon attack and cannot
+    be delivered through an attack.
+  changes: Project name and fixed healing replace a legacy +1 mace with daily Cure Serious Wounds; this is not a
+    verified official named item.
+  flavor: The striking face is stern; the grip is worn smooth by gentler hands.
+  creative: Help a fallen ally without spending a class spell slot; reaching them safely remains your problem.
+  setting_id: thunder-rift
+  legacy_page_verified: false
+  base_item_id: open5e-srd-2024:srd-2024_mace
+- id: thunder-rift:owlbear-ring
+  name: Ring of Owlbear Accord
+  type: ring
+  icon: ring
+  rarity: rare
+  estimated_value_gp: 4000
+  attunement: true
+  evidence_ref: goblin-ring-lead
+  entity_id: publication:palace-of-dread
+  locator: 'Search excerpt: goblin king equipment; original page unverified'
+  tldr: Try to pacify one owlbear once per day.
+  details: Requires attunement. Once per Long Rest, as a Magic action, choose one Owlbear you can see within 30
+    feet. It makes a DC 13 Wisdom saving throw, with Advantage if you or your allies are fighting it. On a failure,
+    it has the Charmed condition with respect to you for up to 1 minute, requiring your Concentration. The effect
+    ends if you or an ally damages it. You gain no command, telepathy, or control over its actions. It may still
+    attack your allies.
+  changes: Original lower-control design inspired by an unverified Ring of Owl Bear Control mention. Targets Owlbear
+    explicitly rather than assuming it qualifies for Beast-only magic. Legacy rarity is not carried across.
+  flavor: Two watchful eyes are cut into the ring’s bronze brow.
+  creative: Buy a moment to back away or negotiate a route around a nest. The ring cannot guarantee safe passage
+    for companions.
+  setting_id: thunder-rift
+  legacy_page_verified: false
+- id: mystara:shield-halav-echo
+  name: Shield of Halav (Pilgrim’s Echo)
+  type: shield
+  icon: shield
+  rarity: rare
+  estimated_value_gp: 4010
+  attunement: true
+  evidence_ref: halav
+  entity_id: publication:hail-the-heroes
+  locator: 'Fan lore article: relic identity; original mechanics unverified'
+  tldr: A protective shield inspired by the Traladaran relic.
+  details: Requires attunement. Uses the 2024 Shield rules and adds +1 to the AC bonus normally granted by a shield.
+    Once per Long Rest, when a creature you can see within 5 feet of you takes damage, you can use your Reaction
+    to reduce that damage by 1d8 + your Proficiency Bonus, to a minimum of 0. You must be wielding the shield. The
+    target may be you.
+  changes: Original lesser echo, not the canonical artifact or a full port of its powers. No ancestry, religion,
+    alignment, or class restriction is inferred.
+  flavor: A weathered bronze face carries an oath older than the road beneath your feet.
+  creative: Guard a companion crossing a dangerous threshold. Saving the Reaction means giving up another possible
+    Reaction.
+  setting_id: mystara
+  legacy_page_verified: false
+  associations:
+  - entity_id: region:karameikos
+    role: cultural-association
+    status: fan-lore-regional-association
+    evidence:
+      url: https://www.pandius.com/zadreth.html
+  - entity_id: culture:traladaran
+    role: cultural-association
+    status: fan-lore-cultural-association
+    evidence:
+      url: https://www.pandius.com/zadreth.html
+  base_item_id: open5e-srd-2024:srd-2024_shield
+- id: thunder-rift:academy-healers-shield
+  name: Academy Healer’s Shield
+  setting_id: thunder-rift
+  type: shield
+  icon: shield
+  rarity: uncommon
+  estimated_value_gp: 410
+  attunement: true
+  evidence_ref: rift-path
+  entity_id: publication:haunted-tower
+  locator: haunted-tower component treasure list (fan index; original page unverified)
+  tldr: A training shield with one daily healing touch.
+  details: Requires attunement. Uses the 2024 Shield rules. Once per Long Rest, as a Magic action while wielding
+    it, touch one willing creature to restore 1d8 + your Proficiency Bonus Hit Points. This property has no effect
+    on Constructs or Undead. It grants no additional AC beyond an ordinary shield.
+  changes: New project name and fixed healing adapt a fan-listed normal shield with daily Cure Light Wounds. Not
+    a verified official named item.
+  flavor: A faded academy badge marks the hand that brings a comrade home.
+  creative: Keep your shield ready while stabilizing the line. Healing still costs your action.
+  base_item_id: open5e-srd-2024:srd-2024_shield
+- id: thunder-rift:vampire-lord-water-staff
+  name: Staff of the Stillwater Watch
+  setting_id: thunder-rift
+  type: staff
+  icon: staff
+  rarity: rare
+  estimated_value_gp: 4000
+  attunement: true
+  evidence_ref: rift-path
+  entity_id: publication:haunted-tower
+  locator: haunted-tower component treasure list (fan index; original page unverified)
+  tldr: A water-themed staff for breathing and cold protection.
+  details: Requires attunement. While holding the staff, you have Resistance to Cold damage. Once per Long Rest,
+    as a Magic action, touch one willing creature; it can breathe underwater for 1 hour. This does not grant a Swim
+    Speed, immunity to pressure, or the ability to speak underwater. The staff can be used as a 2024 Quarterstaff,
+    without an attack or damage bonus.
+  changes: Original lesser adaptation of the fan-listed Staff of Water. Removes elemental summoning and legacy +2
+    weapon/save modifiers.
+  flavor: Ripples travel through the wood when the halls grow silent.
+  creative: Explore a flooded passage with a rope and a surface lookout; breathing does not solve every underwater
+    hazard.
+  base_item_id: open5e-srd-2024:srd-2024_quarterstaff
+- id: thunder-rift:otterkin-divers-staff
+  name: Otterkin Diver’s Staff
+  setting_id: thunder-rift
+  type: staff
+  icon: staff
+  rarity: uncommon
+  estimated_value_gp: 400
+  attunement: true
+  evidence_ref: rift-path
+  entity_id: publication:dragons-den
+  locator: dragons-den component treasure list (fan index; original page unverified)
+  tldr: Grant a companion a short underwater scouting window.
+  details: Requires attunement. Once per Long Rest, as a Magic action while holding this staff, touch one willing
+    creature to let it breathe underwater for 10 minutes. While the effect lasts, that creature has Advantage on
+    Strength (Athletics) checks made to swim. It gains no Swim Speed. The staff can be used as a 2024 Quarterstaff,
+    without an attack or damage bonus.
+  changes: Original duration, frequency and swim-check benefit inspired by a fan-listed otterkin-made waterbreathing
+    staff. Cultural maker attribution is unverified; no new species statistics or automatic proficiency.
+  flavor: River reeds are bound beneath the smooth, worn grip.
+  creative: Scout under a moored boat. Current, visibility and encumbrance still matter.
+  base_item_id: open5e-srd-2024:srd-2024_quarterstaff
+- id: thunder-rift:red-serpent-firegoad
+  name: Red Serpent Firegoad
+  setting_id: thunder-rift
+  type: wand
+  icon: wand
+  rarity: uncommon
+  estimated_value_gp: 400
+  attunement: true
+  evidence_ref: rift-path
+  entity_id: publication:dragons-den
+  locator: dragons-den component treasure list (fan index; original page unverified)
+  tldr: A wand produces a small close-range fire burst.
+  details: Requires attunement. The wand has 3 charges and regains 1d3 expended charges at dawn, to a maximum of
+    3. As a Magic action, expend 1 charge and choose one creature you can see within 30 feet. It makes a DC 13 Dexterity
+    saving throw, taking 2d6 Fire damage on a failure or half as much on a success. The wand does not ignite worn
+    or carried objects.
+  changes: Original ranged save, damage, recharge and name adapt a fan-listed Wand of Firegoad. No legacy command
+    or unknown rules inferred.
+  flavor: A coal-red bead shifts behind the wand’s forked tip.
+  creative: Draw attention away from an ally, though the target is not compelled to pursue you.
+  base_item_id: null
+appearances:
+- legacy_name: Leather Armor
+  item_id: open5e-srd-2024:srd-2024_leather-armor
+  entity_id: publication:zanzer
+  evidence_ref: zanzer-knight
+  locator: PDF p. 5, room 4
+  mapping_note: Legacy equipment appearance; modern SRD definition reused.
+  status: fan-compilation-modern-reference-mapping
+- legacy_name: Chain Mail
+  item_id: open5e-srd-2024:srd-2024_chain-mail
+  entity_id: publication:zanzer
+  evidence_ref: zanzer-knight
+  locator: PDF p. 5, room 4
+  mapping_note: Legacy equipment appearance; modern SRD definition reused.
+  status: fan-compilation-modern-reference-mapping
+- legacy_name: Shield
+  item_id: open5e-srd-2024:srd-2024_shield
+  entity_id: publication:zanzer
+  evidence_ref: zanzer-knight
+  locator: PDF p. 5, room 4
+  mapping_note: Legacy equipment appearance; modern SRD definition reused.
+  status: fan-compilation-modern-reference-mapping
+- legacy_name: Potion of Healing
+  item_id: open5e-srd-2024:srd-2024_potion-of-healing
+  entity_id: publication:zanzer
+  evidence_ref: zanzer-knight
+  locator: PDF p. 1 and throughout / PDF p. 12, room 23, cell B (two potions)
+  mapping_note: Healing potion is a functional modern mapping, not an assertion of identical dice.
+  status: fan-compilation-modern-reference-mapping
+- legacy_name: Ring of Protection
+  item_id: open5e-srd-2024:srd-2024_ring-of-protection
+  entity_id: publication:zanzer
+  evidence_ref: zanzer-knight
+  locator: PDF p. 8 / PDF p. 15, room 34
+  mapping_note: Legacy +1 version mapped to modern reference; editions differ.
+  status: fan-compilation-modern-reference-mapping
+- legacy_name: Staff of Healing
+  item_id: open5e-srd-2024:srd-2024_staff-of-healing
+  entity_id: publication:zanzer
+  evidence_ref: zanzer-knight
+  locator: PDF p. 8
+  mapping_note: Same-name modern reference; legacy charges and mechanics not asserted equivalent.
+  status: fan-compilation-modern-reference-mapping
+- legacy_name: Wand of Secrets
+  item_id: open5e-srd-2024:srd-2024_wand-of-secrets
+  entity_id: publication:zanzer
+  evidence_ref: zanzer-knight
+  locator: PDF p. 8
+  mapping_note: Functional mapping from Wand of Secret Door Detection, not a literal rename.
+  status: fan-compilation-modern-reference-mapping
+- legacy_name: Wand of Magic Detection
+  item_id: open5e-srd-2024:srd-2024_wand-of-magic-detection
+  entity_id: publication:zanzer
+  evidence_ref: zanzer-knight
+  locator: PDF p. 9
+  mapping_note: Modern reference; original one-charge instance not copied as a new item.
+  status: fan-compilation-modern-reference-mapping
+- legacy_name: Boots of Elvenkind
+  item_id: open5e-srd-2024:srd-2024_boots-of-elvenkind
+  entity_id: publication:zanzer
+  evidence_ref: zanzer-knight
+  locator: PDF p. 12
+  mapping_note: Same-name modern reference; not a new catalog definition.
+  status: fan-compilation-modern-reference-mapping
+- legacy_name: long sword +1
+  item_id: open5e-srd-2024:srd-2024_longsword-plus-1
+  entity_id: publication:night-of-the-vampire
+  evidence_ref: night-vampire-fan-conversion
+  locator: 'Fan conversion: Front Hall mention in discussion of page 9'
+  mapping_note: Modern standard reference only; the fan text also changes other weapons for 3e. It does not establish
+    identical original 2e mechanics or a complete treasure audit.
+  status: secondary-fan-conversion-modern-reference-mapping
+- legacy_name: Cloak of Elvenkind
+  item_id: open5e-srd-2024:srd-2024_cloak-of-elvenkind
+  entity_id: publication:zanzer
+  evidence_ref: zanzer-knight
+  locator: PDF p. 13, room 29
+  mapping_note: Same-name modern reference. Legacy mechanics remain separate.
+  status: fan-compilation-modern-reference-mapping
+- legacy_name: Wand of Fireballs
+  item_id: open5e-srd-2024:srd-2024_wand-of-fireballs
+  entity_id: publication:zanzer
+  evidence_ref: zanzer-knight
+  locator: PDF p. 15, cache
+  mapping_note: Same-name modern reference. The legacy cache has five charges.
+  status: fan-compilation-reference-mapping
+- legacy_name: Ring of Fire Resistance
+  item_id: open5e-srd-2024:srd-2024_ring-of-resistance
+  entity_id: publication:zanzer
+  evidence_ref: zanzer-knight
+  locator: PDF p. 11, room 22, Zilly / PDF p. 12, room 22, Zilly
+  mapping_note: Fire variant of the modern Ring of Resistance family. Both passages describe Zilly’s offer.
+  status: fan-compilation-modern-reference-mapping
+- legacy_name: Leather Armor +1
+  item_id: open5e-srd-2024:srd-2024_leather-armor-plus-1
+  entity_id: publication:zanzer
+  evidence_ref: zanzer-knight
+  locator: PDF p. 8, room 10
+  mapping_note: Standard modern family reused. Legacy mechanics remain separate; arrow count is a source-instance
+    quantity.
+  status: fan-compilation-modern-reference-mapping
+- legacy_name: Chain Mail +1
+  item_id: open5e-srd-2024:srd-2024_chain-mail-plus-1
+  entity_id: publication:zanzer
+  evidence_ref: zanzer-knight
+  locator: PDF p. 8, room 10
+  mapping_note: Standard modern family reused. Legacy mechanics remain separate; arrow count is a source-instance
+    quantity.
+  status: fan-compilation-modern-reference-mapping
+- legacy_name: Twenty +1 Arrows
+  item_id: open5e-srd-2024:srd-2024_ammunition-plus-one
+  entity_id: publication:zanzer
+  evidence_ref: zanzer-knight
+  locator: PDF p. 8, room 10
+  mapping_note: Standard modern family reused. Legacy mechanics remain separate; arrow count is a source-instance
+    quantity.
+  status: fan-compilation-modern-reference-mapping
+item_leads:
+- name: Sacred War Club
+  publication_id: publication:dragons-den
+  evidence_ref: rift-path
+  status: fan-index-lead-original-page-unverified
+- name: Staff of Magic Detection
+  publication_id: publication:dragons-den
+  evidence_ref: rift-path
+  status: fan-index-lead-original-page-unverified
+- name: Staff of Waterbreathing (otterkin make)
+  publication_id: publication:dragons-den
+  evidence_ref: rift-path
+  status: fan-index-lead-original-page-unverified
+- name: Wand of Firegoad
+  publication_id: publication:dragons-den
+  evidence_ref: rift-path
+  status: fan-index-lead-original-page-unverified
+- name: Shield with daily healing
+  publication_id: publication:haunted-tower
+  evidence_ref: rift-path
+  status: fan-index-lead-original-page-unverified
+- name: Staff of Water
+  publication_id: publication:haunted-tower
+  evidence_ref: rift-path
+  status: fan-index-lead-original-page-unverified
+- name: Sword effective against undead
+  publication_id: publication:haunted-tower
+  evidence_ref: rift-path
+  status: fan-index-lead-original-page-unverified
+- name: Sword effective against regenerating creatures
+  publication_id: publication:haunted-tower
+  evidence_ref: rift-path
+  status: fan-index-lead-original-page-unverified
+- name: Title and deed to Fighter’s Academy
+  publication_id: publication:haunted-tower
+  evidence_ref: rift-path
+  status: fan-index-lead-original-page-unverified

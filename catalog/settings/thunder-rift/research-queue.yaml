@@ -1,0 +1,152 @@
+sources_file: adventure-pack.json
+workstreams:
+- id: zanzer
+  label: Zanzer’s Dungeon
+  setting_id: thunder-rift
+  edition: Basic D&D / modified fan BECMI compilation
+  components: []
+  evidence_refs:
+  - zanzer-knight
+  status: partial-fan-compilation-pass
+  categories_pending:
+  - weapons
+  - armor
+  - clothing
+  - tools-gear
+  - trade-goods
+  - consumables
+  - magic-relics
+  - vehicles
+  original_book_item_audit_complete: false
+- id: goblins-lair
+  label: The Goblin’s Lair
+  setting_id: thunder-rift
+  edition: Basic D&D
+  components:
+  - Red Hand Trail
+  - Trouble Below
+  - Palace of Dread
+  evidence_refs:
+  - goblin-preview
+  status: partial-preview-and-one-unverified-item-lead
+  categories_pending:
+  - weapons
+  - armor
+  - clothing
+  - tools-gear
+  - trade-goods
+  - consumables
+  - magic-relics
+  - vehicles
+  original_book_item_audit_complete: false
+- id: dragons-den
+  label: The Dragon’s Den
+  setting_id: thunder-rift
+  edition: Basic D&D
+  components:
+  - Wild Dragon’s Den
+  - Wyrmhaven
+  - The League of the Red Serpent
+  evidence_refs:
+  - rift-path
+  - rift-bibliography
+  status: partial-fan-item-index-and-original-drafts
+  categories_pending:
+  - weapons
+  - armor
+  - clothing
+  - tools-gear
+  - trade-goods
+  - consumables
+  - magic-relics
+  - vehicles
+  original_book_item_audit_complete: false
+- id: haunted-tower
+  label: The Haunted Tower
+  setting_id: thunder-rift
+  edition: Basic D&D
+  components:
+  - Fighter’s Academy
+  - Towers of Evil
+  - Lair of the Vampire Lord
+  evidence_refs:
+  - rift-path
+  - rift-bibliography
+  status: partial-fan-item-index-and-original-drafts
+  categories_pending:
+  - weapons
+  - armor
+  - clothing
+  - tools-gear
+  - trade-goods
+  - consumables
+  - magic-relics
+  - vehicles
+  original_book_item_audit_complete: false
+- id: hail-the-heroes
+  label: Hail the Heroes
+  setting_id: mystara
+  edition: AD&D 2e
+  components: []
+  evidence_refs:
+  - hail-preview
+  - halav
+  status: partial-preview-and-relic-lead
+  categories_pending:
+  - weapons
+  - armor
+  - clothing
+  - tools-gear
+  - trade-goods
+  - consumables
+  - magic-relics
+  - vehicles
+  original_book_item_audit_complete: false
+- id: night-of-the-vampire
+  label: Night of the Vampire
+  setting_id: mystara
+  edition: AD&D 2e
+  components: []
+  evidence_refs:
+  - vampire-author
+  - vampire-bibliography
+  - night-vampire-fan-conversion
+  status: fan-conversion-standard-item-reference-original-2e-audit-pending
+  categories_pending:
+  - weapons
+  - armor
+  - clothing
+  - tools-gear
+  - trade-goods
+  - consumables
+  - magic-relics
+  - vehicles
+  original_book_item_audit_complete: false
+- id: mark-of-amber
+  label: Mark of Amber
+  setting_id: mystara
+  region_ids:
+  - region:glantri
+  edition: AD&D 2e
+  evidence_refs:
+  - mark-amber-preview
+  status: publisher-preview-checked-item-audit-pending
+  original_book_item_audit_complete: false
+  categories_pending:
+  - weapons
+  - armor
+  - clothing
+  - tools-gear
+  - trade-goods
+  - consumables
+  - magic-relics
+  - vehicles
+next_priority:
+- haunted-tower
+- dragons-den
+- night-of-the-vampire
+- hail-the-heroes
+- goblins-lair
+- mark-of-amber
+note: Thunder Rift grouping of Zanzer / Dragon’s Den is editorial; does not prove
+  original canonical geography.

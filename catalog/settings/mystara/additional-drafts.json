@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Sword of Karameikos",
+    "ref": "sword-karameikos",
+    "icon": "sword",
+    "rarity": "rare",
+    "cost": "4015",
+    "type": "weapon",
+    "attunement": true,
+    "culture_ids": [
+      "karameikos"
+    ],
+    "tldr": "A ceremonial +1 longsword that can demand truthful answers.",
+    "details": "Use the 2024 Longsword rules, with +1 to attack and damage rolls. Requires attunement. Once per Long Rest, as a Magic action, cast Zone of Truth (save DC 13) without components or a spell slot. All normal spell limits apply; a creature can remain silent.",
+    "change": "Replaces rumored unlimited truth detection and exceptional slaying powers with one defined spell. Sovereign-only wielding is folklore in the source, not an enforced prerequisite here.",
+    "creative": "Hold a negotiated hearing. The spell cannot force an answer or prove that silence is guilt.",
+    "flavor": "An oath weighs more than the gold in its hilt.",
+    "cultural_identity_ids": [
+      "culture:karameikan"
+    ]
+  },
+  {
+    "name": "Staff of the Great School of Magic",
+    "ref": "school-staff",
+    "icon": "staff",
+    "rarity": "rare",
+    "cost": "4000",
+    "type": "staff",
+    "attunement": true,
+    "attunement_requirement": "spellcaster",
+    "culture_ids": [
+      "glantri"
+    ],
+    "tldr": "A six-charge teaching staff for force, fire, and flight.",
+    "details": "Requires attunement by a spellcaster. The staff has 6 charges and regains 1d6 expended charges at dawn, to a maximum of 6. As a Magic action, expend charges to cast Magic Missile (1 charge, level 1), Burning Hands (1 charge, save DC 15), or Fly (3 charges). No spell slot or components are required. Fly requires your Concentration as normal.",
+    "change": "Omits legacy wish, teleportation, crafting and regional recharge rules. This original 2024 draft is not a reproduction of the source’s full power list.",
+    "creative": "Choose flight for exploration or conserve charges for combat. Casting Fly may end another Concentration spell.",
+    "flavor": "Lessons learned in Glantri rarely remain on the page.",
+    "cultural_identity_ids": [
+      "culture:glantrian"
+    ]
+  },
+  {
+    "name": "Robe of the Great School’s Master",
+    "ref": "school-robes",
+    "icon": "clothing",
+    "rarity": "uncommon",
+    "cost": "400",
+    "type": "clothing",
+    "attunement": true,
+    "attunement_requirement": "spellcaster",
+    "culture_ids": [
+      "glantri"
+    ],
+    "tldr": "An academic robe with an alternate AC formula and magical sight.",
+    "details": "Requires attunement by a spellcaster. While wearing this robe and no armor or shield, you can use AC 13 + your Dexterity modifier instead of another AC formula. Once per Long Rest, cast Detect Magic without components or a spell slot, using its normal casting time and Concentration.",
+    "change": "Replaces descending AC and doubled prepared spell capacity with a bounded defensive formula and one utility casting.",
+    "creative": "Inspect an unfamiliar magical object without consuming a prepared spell. Detection does not identify every property or curse.",
+    "flavor": "A scholar’s rank is stitched inside, where only its bearer can read it.",
+    "cultural_identity_ids": [
+      "culture:glantrian"
+    ]
+  },
+  {
+    "name": "Robe of the Great School’s Grand Master",
+    "ref": "school-robes",
+    "icon": "clothing",
+    "rarity": "very rare",
+    "cost": "40000",
+    "type": "clothing",
+    "attunement": true,
+    "attunement_requirement": "spellcaster",
+    "culture_ids": [
+      "glantri"
+    ],
+    "tldr": "Senior scholarly vestments with stronger protection and limited divination.",
+    "details": "Requires attunement by a spellcaster. While wearing this robe and no armor or shield, you can use AC 15 + your Dexterity modifier instead of another AC formula. Once per Long Rest each, cast Detect Magic or Identify without components or spell slots, using normal casting times. Detect Magic requires Concentration.",
+    "change": "No doubled spell slots, secret remote surveillance, automatic Radiance training, or bonus to every saving throw.",
+    "creative": "Appraise a recovered object before a dangerous experiment. Identify does not reveal every curse.",
+    "flavor": "The chair changes hands. The work remains unfinished.",
+    "cultural_identity_ids": [
+      "culture:glantrian"
+    ]
+  }
+]

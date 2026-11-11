@@ -1,0 +1,136 @@
+schema_version: 1
+id: backlog-reference-registry
+label: Backlog reference registry (no draft records)
+theme: source-research
+topic_entity_id: topic:backlog-reference
+sources:
+- id: cos
+  url: https://cori-spells.github.io/wikidot/dnd5e.wikidot.com/wondrous-items_cos.html
+  source_kind: secondary-name-index
+  note: Names/types only. Tome separately attested by the campaign item appendix index.
+- id: toa
+  url: https://dnd5e.wikidot.com/wondrous-items:toa
+  source_kind: secondary-name-index
+- id: rime
+  url: https://dnd5e.wikidot.com/wondrous-items:id:rf
+  source_kind: secondary-name-index
+- id: conan
+  url: https://conanexiles.th.gl/db/inventory
+  source_kind: fan-public-inventory-index
+- id: d4
+  url: https://diablo4.th.gl/db/uniques
+  source_kind: fan-public-unique-index
+- id: pst
+  url: https://shrines.rpgclassics.com/pc/planescape/items.shtml
+  source_kind: fan-inventory-tables
+entities:
+- id: topic:backlog-reference
+  kind: topic
+  label: Campaign and game source references
+  aliases: []
+  parent_ids: []
+  note: Source-specific research facet; no original-book completeness or implemented
+    game effects asserted.
+- id: game:conan-exiles
+  kind: game
+  label: Conan Exiles
+  aliases: []
+  parent_ids: []
+  note: Source-specific research facet; no original-book completeness or implemented
+    game effects asserted.
+- id: setting:hyborian-age
+  kind: setting
+  label: Hyborian Age
+  aliases:
+  - Conan setting
+  parent_ids: []
+  note: Source-specific research facet; no original-book completeness or implemented
+    game effects asserted.
+- id: game:planescape-torment
+  kind: game
+  label: 'Planescape: Torment'
+  aliases:
+  - PST
+  parent_ids: []
+  note: Source-specific research facet; no original-book completeness or implemented
+    game effects asserted.
+- id: publication:curse-of-strahd
+  kind: publication
+  label: Curse of Strahd
+  aliases:
+  - CoS
+  parent_ids: []
+  note: Source-specific research facet; no original-book completeness or implemented
+    game effects asserted.
+- id: publication:tomb-annihilation
+  kind: publication
+  label: Tomb of Annihilation
+  aliases:
+  - ToA
+  parent_ids: []
+  note: Source-specific research facet; no original-book completeness or implemented
+    game effects asserted.
+- id: publication:rime-frostmaiden
+  kind: publication
+  label: 'Icewind Dale: Rime of the Frostmaiden'
+  aliases:
+  - Rime of the Frostmaiden
+  - Frostmaiden
+  - Frostmaidens
+  parent_ids: []
+  note: Source-specific research facet; no original-book completeness or implemented
+    game effects asserted.
+- id: region:chult
+  kind: region
+  label: Chult
+  aliases: []
+  parent_ids:
+  - setting:forgotten-realms
+  note: Source-specific research facet; no original-book completeness or implemented
+    game effects asserted.
+- id: region:icewind-dale
+  kind: region
+  label: Icewind Dale
+  aliases: []
+  parent_ids:
+  - setting:forgotten-realms
+  note: Source-specific research facet; no original-book completeness or implemented
+    game effects asserted.
+- id: publication:return-temple
+  kind: publication
+  label: Return to the Temple of Elemental Evil
+  aliases: []
+  parent_ids: []
+  note: Selected source reference metadata; original book audit and 2024 conversion
+    pending.
+- id: publication:arms-equipment-3e
+  kind: publication
+  label: Arms and Equipment Guide (3e)
+  aliases: []
+  parent_ids: []
+  note: Selected source reference metadata; original book audit and 2024 conversion
+    pending.
+- id: publication:adventurers-vault-1
+  kind: publication
+  label: Adventurer’s Vault
+  aliases: []
+  parent_ids: []
+  note: Selected source reference metadata; original book audit and 2024 conversion
+    pending.
+- id: publication:adventurers-vault-2
+  kind: publication
+  label: Adventurer’s Vault 2
+  aliases: []
+  parent_ids: []
+  note: Selected source reference metadata; original book audit and 2024 conversion
+    pending.
+- id: publication:amazons-valkyries-equipment
+  kind: publication
+  label: 'Amazons vs Valkyries: Arms and Equipment'
+  aliases: []
+  parent_ids: []
+  note: Selected source reference metadata; original book audit and 2024 conversion
+    pending.
+items: []
+coverage: Taxonomy and audit queue only; actual reference records belong to their
+  separately counted source indexes.

@@ -1,0 +1,517 @@
+{
+  "schema_version": 1,
+  "records": {
+    "bg3-wiki:3700": [
+      {
+        "label": "Baldur’s Gate 3 rules",
+        "status": "source-reported",
+        "source": "https://bg3.wiki/w/index.php?oldid=416096",
+        "fields": {
+          "Activation": "Action · single-use ranged ammunition",
+          "Damage": "Weapon damage plus 2d4 Cold. A successful DC 12 Dexterity save negates the Cold damage.",
+          "Attack bonus": "Uses the firing weapon’s attack roll. No separate arrow bonus is listed.",
+          "Range": "18 m (60 ft)",
+          "Surface": "Ice in a 2 m (7 ft) radius for 2 turns. It is difficult terrain and creatures can fall Prone.",
+          "Casting time": "Does not cast a spell.",
+          "Acquisition and encounters": "Ranger starting gear. Sold by Arron, Cyrel, Barcus Wroot, Quartermaster Talli, and Roah Moonglow. Sometimes carried by ranged enemies.",
+          "Crafting": "The source lists acquisition methods but supplies no recipe."
+        }
+      },
+      {
+        "label": "D&D 2024 tabletop adaptation",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#CraftingMagicItems",
+        "fields": {
+          "Category": "Uncommon magical ammunition · single use · no attunement",
+          "Activation": "Fire as one attack using a compatible bow. Expend the arrow on hit or miss. No spell or extra action is required.",
+          "Damage": "On a hit, deal the bow’s normal damage. The target also takes 2d4 Cold unless it succeeds on a DC 12 Dexterity saving throw. No separate attack-roll bonus.",
+          "Range": "The firing bow’s normal range, capped at 60 feet.",
+          "Radius and duration": "On a hit, ground within 5 feet of the target becomes icy difficult terrain until the end of your next turn.",
+          "Crafting": "Draft recipe for one arrow: Arcana and Woodcarver’s Tools proficiency, one arrow, and 100 gp of frost-infused materials. Five 8-hour workdays using the 2024 uncommon consumable crafting guideline. The DM determines material availability.",
+          "Encounter suggestion": "An icy ravine lookout carries two arrows and uses them to slow pursuit across a narrow footbridge.",
+          "History": "Original tabletop adaptation of the ice ammunition used in Baldur’s Gate 3."
+        }
+      }
+    ],
+    "baldurs-gate-1-reference:100c305bd5493652": [
+      {
+        "label": "Baldur’s Gate Enhanced Edition",
+        "status": "source-reported",
+        "source": "https://baldursgateee.th.gl/db/inventory/item_arow09",
+        "fields": {
+          "Activation": "Fire from a bow.",
+          "Damage": "1d6 missile plus 1d6 Cold.",
+          "Acquisition and encounters": "The game-data index lists Sorcerous Sundries and Thunderhammer Smithy among its stockists."
+        }
+      }
+    ],
+    "baldurs-gate-2-reference:4d7d25a53b3dc37f": [
+      {
+        "label": "Baldur’s Gate II game rules",
+        "status": "source-reported",
+        "source": "https://baldursgate.fandom.com/wiki/Arrow_of_Ice",
+        "fields": {
+          "Activation": "Fire from a bow.",
+          "Damage": "1d6 missile plus 1d2 Cold. The extra damage has no save in the Shadows of Amn listing."
+        }
+      }
+    ],
+    "bg3-wiki:3792": [
+      {
+        "label": "Baldur’s Gate 3 rules",
+        "status": "source-reported",
+        "source": "https://bg3.wiki/wiki/Potion_of_Speed",
+        "fields": {
+          "Activation": "Bonus Action to drink. Action to throw.",
+          "Special powers": "Grants Hastened for 3 turns. A thrown potion affects creatures in a 1 m (3 ft) radius. When the effect ends, the affected creature normally becomes Lethargic and misses its next turn.",
+          "Crafting": "Combine Ashes of Hyena Ear with any Salt using Alchemy."
+        }
+      }
+    ],
+    "bg3-wiki:6895": [
+      {
+        "label": "Baldur’s Gate 3 rules",
+        "status": "source-reported",
+        "source": "https://bg3.wiki/wiki/Gloves_of_Dexterity",
+        "fields": {
+          "Special powers": "While worn, Dexterity is at least 18 and attack rolls gain +1, including spell attacks.",
+          "Acquisition and encounters": "Sold by A’jak’nir Jeera in Crèche Y’llek."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:06eb8c155868e9d9": [
+      {
+        "label": "D&D 2024 ammunition adaptation",
+        "status": "original-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=7",
+        "fields": {
+          "Use": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Compatibility": "Arrow or bolt made for the launcher.",
+          "Range": "Use the launcher’s range unless the effect states otherwise.",
+          "Effect": "Fire at a sturdy anchor within the launcher’s normal range. The shot deals no damage. An attack roll that hits AC 13 secures a line for one Medium or smaller creature at a time.",
+          "Creative use": "Tie up a dangling gangway from across a gap.",
+          "Conversion notes": "Uses 2024 attack and saving throw conventions. Legacy range and attack penalties were omitted. The effect and any DC are part of this draft."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:1e6942335ff15090": [
+      {
+        "label": "D&D 2024 ammunition adaptation",
+        "status": "original-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=7",
+        "fields": {
+          "Use": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Compatibility": "Use the projectile form made for the launcher.",
+          "Range": "Use the launcher’s range unless the effect states otherwise.",
+          "Effect": "On a hit, halve the attack’s damage after applying modifiers. Each concentrating creature within 5 ft of the target makes a DC 10 Constitution save or loses concentration. A creature damaged by the attack makes only one concentration save, using the higher DC.",
+          "Creative use": "Interrupt a caster without relying on high damage.",
+          "Conversion notes": "Uses 2024 attack and saving throw conventions. Legacy range and attack penalties were omitted. The effect and any DC are part of this draft."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:2d195c35012d1d2d": [
+      {
+        "label": "D&D 2024 ammunition adaptation",
+        "status": "original-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=7",
+        "fields": {
+          "Use": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Compatibility": "Arrow or bolt made for the launcher.",
+          "Range": "Use the launcher’s range unless the effect states otherwise.",
+          "Effect": "Before loading, fill the projectile with one dose of injury poison. On a hit, resolve weapon damage and that poison’s normal exposure rules. A missed shot expends the dose. Potions require their stated method of use.",
+          "Creative use": "Deliver an injury poison when you cannot approach the target.",
+          "Conversion notes": "Uses 2024 attack and saving throw conventions. Legacy range and attack penalties were omitted. The effect and any DC are part of this draft."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:3268ab4751b80726": [
+      {
+        "label": "D&D 2024 ammunition adaptation",
+        "status": "original-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=7",
+        "fields": {
+          "Use": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Compatibility": "Arrow or bolt made for the launcher.",
+          "Range": "Use the launcher’s range unless the effect states otherwise.",
+          "Effect": "On a creature hit, halve weapon damage after applying modifiers and change it to Fire. You can instead target an unattended flammable object. On a hit it ignites unless the material is damp or otherwise unsuitable.",
+          "Creative use": "Light a dry signal basket across a ravine.",
+          "Conversion notes": "Uses 2024 attack and saving throw conventions. Legacy range and attack penalties were omitted. The effect and any DC are part of this draft."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:3f308830f168a867": [
+      {
+        "label": "D&D 2024 ammunition adaptation",
+        "status": "original-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=7",
+        "fields": {
+          "Use": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Compatibility": "Arrow or bolt made for the launcher.",
+          "Range": "Use the launcher’s range unless the effect states otherwise.",
+          "Effect": "On a hit, halve weapon damage after applying modifiers and change it to Bludgeoning.",
+          "Creative use": "Strike a clay marker without punching a hole through it.",
+          "Conversion notes": "Uses 2024 attack and saving throw conventions. Legacy range and attack penalties were omitted. The effect and any DC are part of this draft."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:5a3ce93cd24cb37d": [
+      {
+        "label": "D&D 2024 ammunition adaptation",
+        "status": "original-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=7",
+        "fields": {
+          "Use": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Compatibility": "Use the projectile form made for the launcher.",
+          "Range": "Use the launcher’s range unless the effect states otherwise.",
+          "Effect": "Resolve the shot normally. The projectile produces an audible whistle during flight. The DM determines audibility based on distance and surrounding noise.",
+          "Creative use": "Agree on a whistle as a signal for allies outside your line of sight.",
+          "Conversion notes": "Uses 2024 attack and saving throw conventions. Legacy range and attack penalties were omitted. The effect and any DC are part of this draft."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:6f8cec670706b98a": [
+      {
+        "label": "D&D 2024 ammunition adaptation",
+        "status": "original-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=6",
+        "fields": {
+          "Use": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Compatibility": "Arrow or bolt made for the launcher.",
+          "Range": "Use the launcher’s range unless the effect states otherwise.",
+          "Effect": "On a hit, change the attack’s normal damage type to Fire. On a hit against an unattended dry flammable object it also ignites.",
+          "Creative use": "Light a prepared oil-soaked beacon from a safe distance.",
+          "Conversion notes": "Uses 2024 attack and saving throw conventions. Legacy range and attack penalties were omitted. The effect and any DC are part of this draft."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:955bc14cf8115b02": [
+      {
+        "label": "D&D 2024 ammunition adaptation",
+        "status": "original-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=7",
+        "fields": {
+          "Use": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Compatibility": "Use the projectile form made for the launcher.",
+          "Range": "Use the launcher’s range unless the effect states otherwise.",
+          "Effect": "Use the launcher’s normal damage. Against a creature whose stat block has a special interaction with silvered weapons, treat the hit as silvered.",
+          "Creative use": "Keep one ready when following a trail you suspect leads to a werewolf.",
+          "Conversion notes": "Uses 2024 attack and saving throw conventions. Legacy range and attack penalties were omitted. The effect and any DC are part of this draft."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:99daa4acb206bc23": [
+      {
+        "label": "D&D 2024 ammunition adaptation",
+        "status": "original-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=7",
+        "fields": {
+          "Use": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Compatibility": "Use the projectile form made for the launcher.",
+          "Range": "Use the launcher’s range unless the effect states otherwise.",
+          "Effect": "On a hit, replace the attack’s weapon damage, including its ability modifier, with 2d4 Acid. Against objects, apply their usual damage thresholds and resistances.",
+          "Creative use": "Try to weaken a lock or sever a suspended rope from cover.",
+          "Conversion notes": "Uses 2024 attack and saving throw conventions. Legacy range and attack penalties were omitted. The effect and any DC are part of this draft."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:bbb3d333bc0a1e9e": [
+      {
+        "label": "D&D 2024 ammunition adaptation",
+        "status": "original-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=7",
+        "fields": {
+          "Use": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Compatibility": "Arrow or bolt made for the launcher.",
+          "Range": "Use the launcher’s range unless the effect states otherwise.",
+          "Effect": "On a hit against a Fiend or Undead, the projectile deals 2d8 Radiant in place of weapon damage. It deals no damage to other targets.",
+          "Creative use": "Attack an undead sentry across a ward or a locked gate.",
+          "Conversion notes": "Uses 2024 attack and saving throw conventions. Legacy range and attack penalties were omitted. The effect and any DC are part of this draft."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:ec04203956897756": [
+      {
+        "label": "D&D 2024 ammunition adaptation",
+        "status": "original-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=7",
+        "fields": {
+          "Use": "Single-use ammunition fired as part of a ranged weapon attack.",
+          "Compatibility": "Use the projectile form made for the launcher.",
+          "Range": "Use the launcher’s range unless the effect states otherwise.",
+          "Effect": "On a hit, halve weapon damage after applying modifiers. The target makes a DC 13 Dexterity save. On a failure its speed is 0 until it or an adjacent creature uses an action and succeeds on a DC 13 Strength check to free it. The glue wears off after 1 minute.",
+          "Creative use": "Delay a courier at a doorway while allies catch up.",
+          "Conversion notes": "Uses 2024 attack and saving throw conventions. Legacy range and attack penalties were omitted. The effect and any DC are part of this draft."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:3ffbb53cafbb75be": [
+      {
+        "label": "2024 Dungeon Master’s Guide · Ballista",
+        "status": "published-reference",
+        "source": "https://roll20.net/compendium/dnd5e/Items%3ABallista?expansion=33359",
+        "fields": {
+          "Object": "Large siege engine",
+          "Armor class": "15",
+          "Hit points": "50",
+          "Damage": "3d10 Piercing (average 16) on a hit.",
+          "Attack bonus": "+6 to hit with the ballista.",
+          "Range": "120 ft normal / 480 ft long.",
+          "Activation": "Spend one Utilize action to load and another to aim. A crew member then takes the Ballista Bolt action to fire.",
+          "Casting time": "Does not cast a spell.",
+          "Area": "Single target; no radius.",
+          "Saving throw": "None; resolve the attack roll.",
+          "Duration": "Instantaneous on a hit.",
+          "Attunement": "None; nonmagical siege equipment."
+        },
+        "related_item": {
+          "id": "mystara-fan-names-reference:86a0c93771c65462",
+          "label": "View Ballista Bolt ammunition"
+        },
+        "profile_kind": "siege-engine"
+      },
+      {
+        "label": "Mystara fan equipment list · Ballista",
+        "status": "source-reported",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=4",
+        "fields": {
+          "History": "Colin Davidson’s BECMI campaign list describes a large mounted siege crossbow.",
+          "Legacy cost": "75 gp per engine, special order.",
+          "Legacy encumbrance": "6,000 coin-weight units.",
+          "Legacy defense": "AC 4 and 9 HP under BECMI conventions.",
+          "Legacy crew and fire rate": "Four crew members. The table lists one shot every two rounds."
+        }
+      },
+      {
+        "label": "Running the emplacement",
+        "status": "original-draft",
+        "source": "https://roll20.net/compendium/dnd5e/Items%3ABallista?expansion=33359",
+        "fields": {
+          "Encounter suggestion": "Use a staffed ballista to cover an approach to a keep or a ship. Track loaded and aimed as two distinct states.",
+          "Creative use": "Have the crew prepare a shot while allies lure a large monster into the firing lane.",
+          "Conversion notes": "The 2024 stat block replaces the legacy defense, crew schedule, and firing cadence for tabletop play. Pricing retains the legacy catalog basis."
+        }
+      },
+      {
+        "label": "Crafting estimate",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#CraftingNonmagicalItems",
+        "fields": {
+          "Crafting": "If the DM uses the 75 gp legacy price as the crafting basis, budget 37 gp in materials and 8 workdays for one proficient crafter. The DM assigns the required tools and workshop."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:86a0c93771c65462": [
+      {
+        "label": "2024 Dungeon Master’s Guide · Ballista Bolt attack",
+        "status": "published-reference",
+        "source": "https://roll20.net/compendium/dnd5e/Items%3ABallista?expansion=33359",
+        "fields": {
+          "Compatibility": "One bolt is loaded into a ballista. The engine supplies the attack roll, damage, and range.",
+          "Damage": "3d10 Piercing (average 16) on a hit.",
+          "Attack bonus": "+6 to hit with the ballista.",
+          "Range": "120 ft normal / 480 ft long.",
+          "Activation": "Spend one Utilize action to load and another to aim. A crew member then takes the Ballista Bolt action to fire.",
+          "Casting time": "Does not cast a spell.",
+          "Area": "Single target; no radius.",
+          "Saving throw": "None; resolve the attack roll.",
+          "Duration": "Instantaneous on a hit.",
+          "Attunement": "None; nonmagical siege equipment."
+        },
+        "related_item": {
+          "id": "mystara-fan-names-reference:3ffbb53cafbb75be",
+          "label": "View Ballista siege engine"
+        }
+      },
+      {
+        "label": "Mystara fan equipment list · Ballista Bolt",
+        "status": "source-reported",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=4",
+        "fields": {
+          "History": "Listed separately as siege ammunition in Colin Davidson’s BECMI equipment list.",
+          "Legacy cost": "5 gp per bolt.",
+          "Weight": "40 legacy coin-weight units. This is the source encumbrance value."
+        }
+      },
+      {
+        "label": "Stocking a siege crew",
+        "status": "original-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=7",
+        "fields": {
+          "Encounter suggestion": "Put spare bolts next to the emplacement and track one expended bolt per shot.",
+          "Creative use": "Cut a fight short by capturing the crew’s spare ammunition before they can reload.",
+          "Conversion notes": "Links the legacy projectile to the published 2024 attack. The listed price and encumbrance are from the fan source."
+        }
+      },
+      {
+        "label": "Crafting estimate",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#CraftingNonmagicalItems",
+        "fields": {
+          "Crafting": "If the DM uses the 5 gp legacy price as the crafting basis, budget 2 gp in materials and 1 workday per bolt for one proficient crafter. The DM assigns the required tools."
+        }
+      }
+    ],
+    "dmg-2e-reference:3ffbb53cafbb75be": [
+      {
+        "label": "2024 Dungeon Master’s Guide · Ballista",
+        "status": "published-reference",
+        "source": "https://roll20.net/compendium/dnd5e/Items%3ABallista?expansion=33359",
+        "fields": {
+          "Object": "Large siege engine",
+          "Armor class": "15",
+          "Hit points": "50",
+          "Damage": "3d10 Piercing (average 16) on a hit.",
+          "Attack bonus": "+6 to hit with the ballista.",
+          "Range": "120 ft normal / 480 ft long.",
+          "Activation": "Spend one Utilize action to load and another to aim. A crew member then takes the Ballista Bolt action to fire.",
+          "Casting time": "Does not cast a spell."
+        },
+        "profile_kind": "siege-engine"
+      }
+    ],
+    "dmg-35-reference:37fdbed24d5f6979": [
+      {
+        "label": "2024 Dungeon Master’s Guide · Ballista",
+        "status": "published-reference",
+        "source": "https://roll20.net/compendium/dnd5e/Items%3ABallista?expansion=33359",
+        "fields": {
+          "Object": "Large siege engine",
+          "Armor class": "15",
+          "Hit points": "50",
+          "Damage": "3d10 Piercing (average 16) on a hit.",
+          "Attack bonus": "+6 to hit with the ballista.",
+          "Range": "120 ft normal / 480 ft long.",
+          "Activation": "Spend one Utilize action to load and another to aim. A crew member then takes the Ballista Bolt action to fire.",
+          "Casting time": "Does not cast a spell."
+        },
+        "profile_kind": "siege-engine"
+      }
+    ],
+    "conan-exiles-reference:452b95ba7944feb9": [
+      {
+        "label": "Conan Exiles Enhanced · Siege ammunition",
+        "status": "source-reported",
+        "source": "https://conanexiles.th.gl/crafting/item_89854",
+        "fields": {
+          "Compatibility": "Conan Exiles Ballista.",
+          "Crafting": "At the Ballista, use 15 Stone and 35 Wood per projectile."
+        },
+        "related_item": {
+          "id": "conan-exiles-reference:8bea122a8a7bcc2e",
+          "label": "View Conan Exiles Ballista"
+        }
+      },
+      {
+        "label": "2024 tabletop comparison · Ballista Bolt",
+        "status": "published-reference",
+        "source": "https://roll20.net/compendium/dnd5e/Items%3ABallista?expansion=33359",
+        "fields": {
+          "Damage": "3d10 Piercing (average 16) on a hit.",
+          "Attack bonus": "+6 to hit with the ballista.",
+          "Range": "120 ft normal / 480 ft long.",
+          "Activation": "Spend one Utilize action to load and another to aim. A crew member then takes the Ballista Bolt action to fire.",
+          "Casting time": "Does not cast a spell."
+        }
+      }
+    ],
+    "conan-exiles-reference:9a4086120a1dad7b": [
+      {
+        "label": "Conan Exiles Enhanced · Siege ammunition",
+        "status": "source-reported",
+        "source": "https://conanexiles.th.gl/crafting/item_89855",
+        "fields": {
+          "Compatibility": "Conan Exiles Ballista.",
+          "Crafting": "At the Ballista, use 15 Iron Bar and 35 Wood per projectile."
+        },
+        "related_item": {
+          "id": "conan-exiles-reference:8bea122a8a7bcc2e",
+          "label": "View Conan Exiles Ballista"
+        }
+      },
+      {
+        "label": "2024 tabletop comparison · Ballista Bolt",
+        "status": "published-reference",
+        "source": "https://roll20.net/compendium/dnd5e/Items%3ABallista?expansion=33359",
+        "fields": {
+          "Damage": "3d10 Piercing (average 16) on a hit.",
+          "Attack bonus": "+6 to hit with the ballista.",
+          "Range": "120 ft normal / 480 ft long.",
+          "Activation": "Spend one Utilize action to load and another to aim. A crew member then takes the Ballista Bolt action to fire.",
+          "Casting time": "Does not cast a spell."
+        }
+      }
+    ],
+    "conan-exiles-reference:c1d5a2ffab2751cd": [
+      {
+        "label": "Conan Exiles Enhanced · Siege ammunition",
+        "status": "source-reported",
+        "source": "https://conanexiles.th.gl/crafting/item_89856",
+        "fields": {
+          "Compatibility": "Conan Exiles Ballista.",
+          "Crafting": "At the Ballista, use 5 Star Metal Bar and 35 Wood per projectile."
+        },
+        "related_item": {
+          "id": "conan-exiles-reference:8bea122a8a7bcc2e",
+          "label": "View Conan Exiles Ballista"
+        }
+      },
+      {
+        "label": "2024 tabletop comparison · Ballista Bolt",
+        "status": "published-reference",
+        "source": "https://roll20.net/compendium/dnd5e/Items%3ABallista?expansion=33359",
+        "fields": {
+          "Damage": "3d10 Piercing (average 16) on a hit.",
+          "Attack bonus": "+6 to hit with the ballista.",
+          "Range": "120 ft normal / 480 ft long.",
+          "Activation": "Spend one Utilize action to load and another to aim. A crew member then takes the Ballista Bolt action to fire.",
+          "Casting time": "Does not cast a spell."
+        }
+      }
+    ],
+    "conan-exiles-reference:829af28ee6323509": [
+      {
+        "label": "Conan Exiles Enhanced · Siege ammunition",
+        "status": "source-reported",
+        "source": "https://conanexiles.th.gl/crafting/item_89857",
+        "fields": {
+          "Compatibility": "Conan Exiles Ballista.",
+          "Crafting": "At the Ballista, use 50 Stone per projectile."
+        },
+        "related_item": {
+          "id": "conan-exiles-reference:8bea122a8a7bcc2e",
+          "label": "View Conan Exiles Ballista"
+        }
+      }
+    ],
+    "conan-exiles-reference:110256b2c32f3f39": [
+      {
+        "label": "Conan Exiles Enhanced · Siege ammunition",
+        "status": "source-reported",
+        "source": "https://conanexiles.th.gl/crafting/item_89858",
+        "fields": {
+          "Compatibility": "Conan Exiles Ballista.",
+          "Crafting": "At the Ballista, use 50 Ironstone per projectile."
+        },
+        "related_item": {
+          "id": "conan-exiles-reference:8bea122a8a7bcc2e",
+          "label": "View Conan Exiles Ballista"
+        }
+      }
+    ],
+    "conan-exiles-reference:368688173bb6c348": [
+      {
+        "label": "Conan Exiles Enhanced · Siege ammunition",
+        "status": "source-reported",
+        "source": "https://conanexiles.th.gl/crafting/item_89859",
+        "fields": {
+          "Compatibility": "Conan Exiles Ballista.",
+          "Crafting": "At the Ballista, use 20 Star Metal Ore per projectile."
+        },
+        "related_item": {
+          "id": "conan-exiles-reference:8bea122a8a7bcc2e",
+          "label": "View Conan Exiles Ballista"
+        }
+      }
+    ]
+  }
+}

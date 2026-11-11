@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Original construction proposal",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "kind",
+    "scale",
+    "footprint",
+    "construction",
+    "capacity",
+    "maintenance",
+    "defenses",
+    "placement",
+    "automation_status"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "kind": {
+      "type": "string"
+    },
+    "scale": {
+      "enum": [
+        "camp",
+        "fort",
+        "castle",
+        "village",
+        "city",
+        "dungeon"
+      ]
+    },
+    "footprint": {
+      "type": "object",
+      "required": [
+        "width_ft",
+        "length_ft",
+        "height_ft"
+      ],
+      "properties": {
+        "width_ft": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "length_ft": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "height_ft": {
+          "type": "number",
+          "minimum": 0
+        }
+      }
+    },
+    "construction": {
+      "type": "object",
+      "required": [
+        "cost_gp",
+        "workers",
+        "days",
+        "materials_summary",
+        "cost_includes",
+        "cost_excludes",
+        "estimate_status"
+      ],
+      "properties": {
+        "cost_gp": {
+          "type": "string",
+          "pattern": "^[0-9]+(\\.[0-9]+)?$"
+        },
+        "workers": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "days": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "materials_summary": {
+          "type": "string"
+        },
+        "cost_includes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "cost_excludes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "estimate_status": {
+          "const": "project-house-rule-not-RAW"
+        }
+      }
+    },
+    "capacity": {
+      "type": "object"
+    },
+    "maintenance": {
+      "type": "object"
+    },
+    "defenses": {
+      "type": "object"
+    },
+    "placement": {
+      "type": "object"
+    },
+    "automation_status": {
+      "const": "data-only-not-a-building-simulator"
+    }
+  }
+}

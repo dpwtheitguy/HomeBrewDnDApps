@@ -1,0 +1,25 @@
+.cache/
+.venv/
+__pycache__/
+*.pyc
+
+/pdfs/
+
+# Local source material and generated releases.
+/*.pdf
+/tmp/
+/outputs/
+*.apk
+*.keystore
+*.jks
+/.env
+/.env.*
+/catalog/raw/
+/catalog/normalized/
+/catalog/indexes/
+/catalog/items.jsonl
+/catalog/sources.json
+/catalog/research/
+/catalog/reports/*.csv
+/catalog/supplements/*
+!/catalog/supplements/curated-item-details.json

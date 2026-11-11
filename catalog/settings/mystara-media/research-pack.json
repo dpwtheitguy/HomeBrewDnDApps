@@ -1,0 +1,191 @@
+{
+  "id": "mystara-media-registry",
+  "label": "Mystara video-game and novel research registry (no item definitions)",
+  "theme": "mystara-media",
+  "topic_entity_id": "setting:mystara",
+  "coverage": "Seven game/compilation research streams and ten novels registered. No item is inferred from a title. Stronghold placement remains uncertain; compilations require deduplication.",
+  "sources": [
+    {
+      "id": "mystara-media-bibliography",
+      "url": "https://pandius.com/prodlist.html",
+      "kind": "fan-bibliography-and-medium-index",
+      "author": "Vaults of Pandius bibliography contributors"
+    }
+  ],
+  "entities": [
+    {
+      "id": "game:shadow-over-mystara",
+      "kind": "game",
+      "label": "Dungeons & Dragons: Shadow over Mystara",
+      "aliases": [
+        "Shadow of Mystara"
+      ],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Game source kept separate from tabletop Gazetteer canon. Item rules require explicit 2024 adaptation."
+    },
+    {
+      "id": "game:tower-of-doom",
+      "kind": "game",
+      "label": "Dungeons & Dragons: Tower of Doom",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Game source kept separate from tabletop Gazetteer canon. Item rules require explicit 2024 adaptation."
+    },
+    {
+      "id": "game:order-of-griffon",
+      "kind": "game",
+      "label": "Dungeons & Dragons: Order of the Griffon",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Game source kept separate from tabletop Gazetteer canon. Item rules require explicit 2024 adaptation."
+    },
+    {
+      "id": "game:warriors-eternal-sun",
+      "kind": "game",
+      "label": "Dungeons & Dragons: Warriors of the Eternal Sun",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Game source kept separate from tabletop Gazetteer canon. Item rules require explicit 2024 adaptation."
+    },
+    {
+      "id": "game:fantasy-empires",
+      "kind": "game",
+      "label": "Fantasy Empires",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Game source kept separate from tabletop Gazetteer canon. Item rules require explicit 2024 adaptation."
+    },
+    {
+      "id": "game:dnd-stronghold-1993",
+      "kind": "game",
+      "label": "Dungeons & Dragons: Stronghold (1993)",
+      "aliases": [
+        "Stronghold 1993"
+      ],
+      "parent_ids": [],
+      "note": "Mystara placement is a fan research lead requiring verification, not a confirmed setting attribution; distinct from Stronghold Crusader."
+    },
+    {
+      "id": "game:chronicles-of-mystara",
+      "kind": "game",
+      "label": "Dungeons & Dragons: Chronicles of Mystara",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Compilation of Tower of Doom and Shadow over Mystara; do not duplicate their item definitions."
+    },
+    {
+      "id": "publication:novel-tainted-sword",
+      "kind": "publication",
+      "label": "The Tainted Sword",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Mystara novel bibliography. Named equipment needs an inspected passage or attributed item-specific secondary evidence; a novel title is not an item definition."
+    },
+    {
+      "id": "publication:novel-dragons-tomb",
+      "kind": "publication",
+      "label": "The Dragon’s Tomb",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Mystara novel bibliography. Named equipment needs an inspected passage or attributed item-specific secondary evidence; a novel title is not an item definition."
+    },
+    {
+      "id": "publication:novel-fall-of-magic",
+      "kind": "publication",
+      "label": "The Fall of Magic",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Mystara novel bibliography. Named equipment needs an inspected passage or attributed item-specific secondary evidence; a novel title is not an item definition."
+    },
+    {
+      "id": "publication:novel-rogues-riches",
+      "kind": "publication",
+      "label": "Rogues to Riches",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Mystara novel bibliography. Named equipment needs an inspected passage or attributed item-specific secondary evidence; a novel title is not an item definition."
+    },
+    {
+      "id": "publication:novel-son-of-dawn",
+      "kind": "publication",
+      "label": "Son of Dawn",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Mystara novel bibliography. Named equipment needs an inspected passage or attributed item-specific secondary evidence; a novel title is not an item definition."
+    },
+    {
+      "id": "publication:novel-dragonlord-mystara",
+      "kind": "publication",
+      "label": "Dragonlord of Mystara",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Mystara novel bibliography. Named equipment needs an inspected passage or attributed item-specific secondary evidence; a novel title is not an item definition."
+    },
+    {
+      "id": "publication:novel-dragonking-mystara",
+      "kind": "publication",
+      "label": "Dragonking of Mystara",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Mystara novel bibliography. Named equipment needs an inspected passage or attributed item-specific secondary evidence; a novel title is not an item definition."
+    },
+    {
+      "id": "publication:novel-dragonmage-mystara",
+      "kind": "publication",
+      "label": "Dragonmage of Mystara",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Mystara novel bibliography. Named equipment needs an inspected passage or attributed item-specific secondary evidence; a novel title is not an item definition."
+    },
+    {
+      "id": "publication:novel-dark-knight-karameikos",
+      "kind": "publication",
+      "label": "Dark Knight of Karameikos",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Mystara novel bibliography. Named equipment needs an inspected passage or attributed item-specific secondary evidence; a novel title is not an item definition."
+    },
+    {
+      "id": "publication:novel-black-vessel",
+      "kind": "publication",
+      "label": "The Black Vessel",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Mystara novel bibliography. Named equipment needs an inspected passage or attributed item-specific secondary evidence; a novel title is not an item definition."
+    }
+  ],
+  "items": [],
+  "filter_profiles": []
+}

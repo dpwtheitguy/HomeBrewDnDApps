@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+"""Show Gazetteer progress without claiming name references are complete conversions."""
+import csv,json,sqlite3,datetime
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1];C=ROOT/'catalog';OUT=C/'reports'
+BEFORE=[0,4,3,0,1,2,1,27,6,1,1,3,2,21]
+def main():
+ resources={r['id']:r for r in json.loads((OUT/'resource-coverage.json').read_text())['resources']};db=sqlite3.connect(C/'indexes/items.sqlite3');rows=[]
+ for n in range(1,15):
+  rid='mystara-gaz'+str(n);r=resources[rid]
+  items=[json.loads(x[0]) for x in db.execute("select i.data_json from resource_items ri join items i on i.id=ri.item_id where ri.resource_id=? and ri.basis!='regional-context-only'",(rid,))]
+  rows.append({'code':'GAZ'+str(n),'title':r['label'],'previous_linked_records':BEFORE[n-1],'linked_records':len(items),'increase':len(items)-BEFORE[n-1],'normalized_names':len({i['name_key'] for i in items}),'conversion_drafts':sum(i['content_status']=='original-conversion-draft' for i in items),'original_page_checked_records':sum(bool(i['research_metadata']['original_publication_verified']) for i in items),'publisher_preview_name_checks':sum(i['source_id']=='gazetteer-publisher-preview-reference' for i in items),'local_pdf_checked_records':sum(bool(i.get('source_verifications')) or bool(i['provenance'].get('local_file')) for i in items),'construction_references':sum(i.get('record_kind')=='construction-component' for i in items),'furnishing_references':sum(i.get('record_kind')=='furnishing-reference' for i in items),'trade_categories':sum(i.get('record_kind')=='trade-category' for i in items),'full_book_audit':'pending'})
+ with (OUT/'gazetteer-progress.csv').open('w',newline='') as f:
+  w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+ data={'date':'2026-11-08','baseline_source_records':21494,'baseline_note':'Before this Gazetteer pass. Book links overlap; a trade category can reference both GAZ9 and GAZ11.','new_source_packs':{s:db.execute('select count(*) from items where source_id=?',(s,)).fetchone()[0] for s in ['gazetteer-equipment-reference','gazetteer-bow-reference','gazetteer-trade-reference','gazetteer-npc-equipment-reference','gazetteer-publisher-preview-reference','gaz13-online-adaptation-reference','gazetteer-material-reference','gazetteer-local-pdf-reference']},'gazetteers':rows,'original_book_audits_completed':0,'limits':['Publisher previews are partial, including map panels and introductory pages.','Names and appearances were checked on selected pages; rules and modern compatibility were not.','NPC inventories are secondary reports, not verified original NPC stat blocks.','Trade categories are not individual item variants; no price table or tax formula imported.','GAZ7 construction/furnishings are not additional portable magic items.','No 24-rune item multiplication: rune symbols are not 24 physical equipment records.']}
+ (OUT/'gazetteer-progress.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
+ lines=['# Gazetteer research progress — 8 November 2026','','Book links include references and original drafts, and overlap. No full Gazetteer audit is complete. “Original-page checked” verifies the listed fields only. Selected legacy price facts are explicitly separated from modern merchant quotes.','','| Book | Previous links | Current links | Added links | Drafts included | Original-page checked |','|---|---:|---:|---:|---:|---:|']
+ lines += [f"| {r['code']} — {r['title']} | {r['previous_linked_records']} | {r['linked_records']} | +{r['increase']} | {r['conversion_drafts']} | {r['original_page_checked_records']} |" for r in rows]
+ lines += ['', '## What was added', '', *[f'- {n} source records: {k}.' for k,n in data['new_source_packs'].items()], '', '## Remaining limits', '', *['- '+s for s in data['limits']], '', 'The Gazetteer pass examines mundane, cultural, military, trade and construction material as well as magic items. Regional presence is tagged found-in rather than treated as proof of local manufacture. Identical NPC equipment labels are grouped within a book with all reported appearances preserved.']
+ (OUT/'GAZETTEER-PROGRESS.md').write_text('\n'.join(lines)+'\n');db.close();print(json.dumps(data['new_source_packs']))
+if __name__=='__main__':main()

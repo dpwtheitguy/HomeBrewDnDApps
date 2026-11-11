@@ -1,0 +1,335 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Fighter app source item record",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "name_key",
+    "source_id",
+    "ruleset",
+    "category",
+    "type",
+    "tags",
+    "magic",
+    "description",
+    "mechanics",
+    "provenance",
+    "content_status",
+    "tabletop_status",
+    "image",
+    "access",
+    "valuation",
+    "associations",
+    "setting_ids",
+    "origin_region_ids",
+    "origin_culture_ids",
+    "family_id",
+    "taxonomy_status",
+    "research_metadata",
+    "resource_ids"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name_key": {
+      "type": "string"
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "ruleset": {
+      "enum": [
+        "dnd-2014",
+        "dnd-2024",
+        "a5e",
+        "third-party-5e",
+        "bg3",
+        "dnd-edition-unverified",
+        "game-reference",
+        "dnd-3e",
+        "dnd-3.5",
+        "dnd-4e",
+        "adnd-1e",
+        "adnd-2e"
+      ]
+    },
+    "category": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "magic": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "rarity": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "requires_attunement": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "description": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "mechanics": {
+      "type": "object"
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "content_status": {
+      "type": "string"
+    },
+    "tabletop_status": {
+      "type": "string"
+    },
+    "image": {
+      "type": "object",
+      "required": [
+        "path",
+        "kind",
+        "author",
+        "license",
+        "source_url",
+        "specific_art"
+      ],
+      "properties": {
+        "path": {
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "generic-type-icon",
+            "item-specific-art"
+          ]
+        },
+        "author": {
+          "type": "string"
+        },
+        "license": {
+          "type": "string"
+        },
+        "source_url": {
+          "type": "string"
+        },
+        "specific_art": {
+          "type": [
+            "object",
+            "null"
+          ]
+        }
+      }
+    },
+    "access": {
+      "type": "object",
+      "required": [
+        "proficiency_interactions",
+        "class_allowlist",
+        "status"
+      ]
+    },
+    "valuation": {
+      "type": "object",
+      "required": [
+        "base_values",
+        "preferred_policy_id",
+        "reference_quote"
+      ]
+    },
+    "family_id": {
+      "type": "string"
+    },
+    "base_item_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "taxonomy_status": {
+      "enum": [
+        "unattributed",
+        "partially-attributed"
+      ]
+    },
+    "setting_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "origin_region_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "origin_culture_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "associations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "entity_id",
+          "role",
+          "evidence",
+          "status"
+        ],
+        "properties": {
+          "entity_id": {
+            "type": "string"
+          },
+          "role": {
+            "enum": [
+              "setting",
+              "origin",
+              "cultural-association",
+              "available-in",
+              "used-by",
+              "found-in",
+              "inspired-by"
+            ]
+          },
+          "evidence": {
+            "type": "object"
+          },
+          "status": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "record_kind": {
+      "enum": [
+        "portable-item",
+        "furnishing-reference",
+        "trade-category",
+        "integrated-weapon-system",
+        "structure",
+        "construction-component",
+        "vehicle"
+      ]
+    },
+    "structure": {
+      "$ref": "structure.schema.json"
+    },
+    "vehicle": {
+      "type": "object"
+    },
+    "research_metadata": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "source_manifest_id",
+        "source_refs",
+        "change_log",
+        "verification_status",
+        "record_content_sha256",
+        "pipeline_version"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": 1
+        },
+        "source_manifest_id": {
+          "type": "string"
+        },
+        "source_refs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "url",
+              "kind"
+            ],
+            "properties": {
+              "url": {
+                "type": "string"
+              },
+              "kind": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "change_log": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "kind",
+              "description",
+              "changes_gameplay"
+            ]
+          }
+        },
+        "record_content_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      }
+    },
+    "resource_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "record_kind": {
+            "const": "structure"
+          }
+        },
+        "required": [
+          "record_kind"
+        ]
+      },
+      "then": {
+        "required": [
+          "structure"
+        ]
+      }
+    }
+  ]
+}

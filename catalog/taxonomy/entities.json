@@ -1,0 +1,2842 @@
+{
+  "schema_version": 1,
+  "entities": [
+    {
+      "id": "culture:alphatian",
+      "kind": "culture",
+      "label": "Alphatian",
+      "aliases": [],
+      "parent_ids": [],
+      "note": "Fictional Mystaran culture. No automatic class, alignment or spellcasting proficiency."
+    },
+    {
+      "id": "culture:atruaghin-bear",
+      "kind": "culture",
+      "label": "Atruaghin Bear Clan",
+      "aliases": [],
+      "parent_ids": [
+        "region:atruaghin-bear"
+      ],
+      "note": "Fictional clan association. This is not an authentic label for a real Indigenous nation."
+    },
+    {
+      "id": "culture:atruaghin-elk",
+      "kind": "culture",
+      "label": "Atruaghin Elk Clan",
+      "aliases": [],
+      "parent_ids": [
+        "region:atruaghin-elk"
+      ],
+      "note": "Fictional clan association. This is not an authentic label for a real Indigenous nation."
+    },
+    {
+      "id": "culture:atruaghin-horse",
+      "kind": "culture",
+      "label": "Atruaghin Horse Clan",
+      "aliases": [],
+      "parent_ids": [
+        "region:atruaghin-horse"
+      ],
+      "note": "Fictional clan association. This is not an authentic label for a real Indigenous nation."
+    },
+    {
+      "id": "culture:atruaghin-tiger",
+      "kind": "culture",
+      "label": "Atruaghin Tiger Clan",
+      "aliases": [],
+      "parent_ids": [
+        "region:atruaghin-tiger"
+      ],
+      "note": "Fictional clan association. This is not an authentic label for a real Indigenous nation."
+    },
+    {
+      "id": "culture:atruaghin-turtle",
+      "kind": "culture",
+      "label": "Atruaghin Turtle Clan",
+      "aliases": [],
+      "parent_ids": [
+        "region:atruaghin-turtle"
+      ],
+      "note": "Fictional clan association. This is not an authentic label for a real Indigenous nation."
+    },
+    {
+      "id": "culture:glantrian",
+      "kind": "culture",
+      "label": "Glantrian",
+      "aliases": [],
+      "parent_ids": [],
+      "note": "Cultural or regional style. Do not infer character ancestry, alignment, proficiency or item ownership from this tag."
+    },
+    {
+      "id": "culture:hollow-antalians",
+      "kind": "culture",
+      "label": "Antalians (Hollow World)",
+      "aliases": [],
+      "parent_ids": [
+        "region:hollow-world"
+      ],
+      "evidence_url": "https://www.pandius.com/cultbias.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Cultural identity; not automatic proficiency or a 2024 species."
+    },
+    {
+      "id": "culture:hollow-azcan",
+      "kind": "culture",
+      "label": "Azcan (Hollow World)",
+      "aliases": [],
+      "parent_ids": [
+        "region:hollow-world"
+      ],
+      "evidence_url": "https://www.pandius.com/cultbias.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Cultural identity; not automatic proficiency or a 2024 species."
+    },
+    {
+      "id": "culture:hollow-beastmen",
+      "kind": "culture",
+      "label": "Beastmen (Hollow World)",
+      "aliases": [],
+      "parent_ids": [
+        "region:hollow-world"
+      ],
+      "evidence_url": "https://www.pandius.com/cultbias.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Cultural identity; not automatic proficiency or a 2024 species."
+    },
+    {
+      "id": "culture:hollow-blacklore-elves",
+      "kind": "culture",
+      "label": "Blacklore elves (Hollow World)",
+      "aliases": [],
+      "parent_ids": [
+        "region:hollow-world"
+      ],
+      "evidence_url": "https://www.pandius.com/cultbias.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Cultural identity; not automatic proficiency or a 2024 species."
+    },
+    {
+      "id": "culture:hollow-brute-men",
+      "kind": "culture",
+      "label": "Brute-Men (Hollow World)",
+      "aliases": [],
+      "parent_ids": [
+        "region:hollow-world"
+      ],
+      "evidence_url": "https://www.pandius.com/cultbias.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Cultural identity; not automatic proficiency or a 2024 species."
+    },
+    {
+      "id": "culture:hollow-elves-of-icevale",
+      "kind": "culture",
+      "label": "Elves of Icevale (Hollow World)",
+      "aliases": [],
+      "parent_ids": [
+        "region:hollow-world"
+      ],
+      "evidence_url": "https://www.pandius.com/cultbias.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Cultural identity; not automatic proficiency or a 2024 species."
+    },
+    {
+      "id": "culture:hollow-gentle-folk",
+      "kind": "culture",
+      "label": "Gentle Folk (Hollow World)",
+      "aliases": [],
+      "parent_ids": [
+        "region:hollow-world"
+      ],
+      "evidence_url": "https://www.pandius.com/cultbias.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Cultural identity; not automatic proficiency or a 2024 species."
+    },
+    {
+      "id": "culture:hollow-hutaakans",
+      "kind": "culture",
+      "label": "Hutaakans (Hollow World)",
+      "aliases": [],
+      "parent_ids": [
+        "region:hollow-world"
+      ],
+      "evidence_url": "https://www.pandius.com/cultbias.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Cultural identity; not automatic proficiency or a 2024 species."
+    },
+    {
+      "id": "culture:hollow-jennites",
+      "kind": "culture",
+      "label": "Jennites (Hollow World)",
+      "aliases": [],
+      "parent_ids": [
+        "region:hollow-world"
+      ],
+      "evidence_url": "https://www.pandius.com/cultbias.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Cultural identity; not automatic proficiency or a 2024 species."
+    },
+    {
+      "id": "culture:hollow-kogolor-dwarves",
+      "kind": "culture",
+      "label": "Kogolor Dwarves (Hollow World)",
+      "aliases": [],
+      "parent_ids": [
+        "region:hollow-world"
+      ],
+      "evidence_url": "https://www.pandius.com/cultbias.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Cultural identity; not automatic proficiency or a 2024 species."
+    },
+    {
+      "id": "culture:hollow-krugel-orcs",
+      "kind": "culture",
+      "label": "Krugel Orcs (Hollow World)",
+      "aliases": [],
+      "parent_ids": [
+        "region:hollow-world"
+      ],
+      "evidence_url": "https://www.pandius.com/cultbias.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Cultural identity; not automatic proficiency or a 2024 species."
+    },
+    {
+      "id": "culture:hollow-kubitts",
+      "kind": "culture",
+      "label": "Kubitts (Hollow World)",
+      "aliases": [],
+      "parent_ids": [
+        "region:hollow-world"
+      ],
+      "evidence_url": "https://www.pandius.com/cultbias.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Cultural identity; not automatic proficiency or a 2024 species."
+    },
+    {
+      "id": "culture:hollow-malpheggi-lizard-men",
+      "kind": "culture",
+      "label": "Malpheggi Lizard men (Hollow World)",
+      "aliases": [],
+      "parent_ids": [
+        "region:hollow-world"
+      ],
+      "evidence_url": "https://www.pandius.com/cultbias.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Cultural identity; not automatic proficiency or a 2024 species."
+    },
+    {
+      "id": "culture:hollow-merry-pirates",
+      "kind": "culture",
+      "label": "Merry pirates (Hollow World)",
+      "aliases": [],
+      "parent_ids": [
+        "region:hollow-world"
+      ],
+      "evidence_url": "https://www.pandius.com/cultbias.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Cultural identity; not automatic proficiency or a 2024 species."
+    },
+    {
+      "id": "culture:hollow-milenians",
+      "kind": "culture",
+      "label": "Milenians (Hollow World)",
+      "aliases": [],
+      "parent_ids": [
+        "region:hollow-world"
+      ],
+      "evidence_url": "https://www.pandius.com/cultbias.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Cultural identity; not automatic proficiency or a 2024 species."
+    },
+    {
+      "id": "culture:hollow-neathar",
+      "kind": "culture",
+      "label": "Neathar (Hollow World)",
+      "aliases": [],
+      "parent_ids": [
+        "region:hollow-world"
+      ],
+      "evidence_url": "https://www.pandius.com/cultbias.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Cultural identity; not automatic proficiency or a 2024 species."
+    },
+    {
+      "id": "culture:hollow-nithians",
+      "kind": "culture",
+      "label": "Nithians (Hollow World)",
+      "aliases": [],
+      "parent_ids": [
+        "region:hollow-world"
+      ],
+      "evidence_url": "https://www.pandius.com/cultbias.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Cultural identity; not automatic proficiency or a 2024 species."
+    },
+    {
+      "id": "culture:hollow-oltecs",
+      "kind": "culture",
+      "label": "Oltecs (Hollow World)",
+      "aliases": [],
+      "parent_ids": [
+        "region:hollow-world"
+      ],
+      "evidence_url": "https://www.pandius.com/cultbias.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Cultural identity; not automatic proficiency or a 2024 species."
+    },
+    {
+      "id": "culture:hollow-schattenalfen",
+      "kind": "culture",
+      "label": "Schattenalfen (Hollow World)",
+      "aliases": [],
+      "parent_ids": [
+        "region:hollow-world"
+      ],
+      "evidence_url": "https://www.pandius.com/cultbias.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Cultural identity; not automatic proficiency or a 2024 species."
+    },
+    {
+      "id": "culture:hollow-tanagoro",
+      "kind": "culture",
+      "label": "Tanagoro (Hollow World)",
+      "aliases": [],
+      "parent_ids": [
+        "region:hollow-world"
+      ],
+      "evidence_url": "https://www.pandius.com/cultbias.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Cultural identity; not automatic proficiency or a 2024 species."
+    },
+    {
+      "id": "culture:hollow-traldar",
+      "kind": "culture",
+      "label": "Traldar (Hollow World)",
+      "aliases": [],
+      "parent_ids": [
+        "region:hollow-world"
+      ],
+      "evidence_url": "https://www.pandius.com/cultbias.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Cultural identity; not automatic proficiency or a 2024 species."
+    },
+    {
+      "id": "culture:karameikan",
+      "kind": "culture",
+      "label": "Karameikan",
+      "aliases": [
+        "Karameikan regional style"
+      ],
+      "parent_ids": [],
+      "note": "Cultural or regional style. Do not infer character ancestry, alignment, proficiency or item ownership from this tag."
+    },
+    {
+      "id": "culture:thayan",
+      "kind": "culture",
+      "label": "Thayan",
+      "aliases": [],
+      "parent_ids": [],
+      "note": "Cultural or regional style. Do not infer character ancestry, alignment, proficiency or item ownership from this tag."
+    },
+    {
+      "id": "culture:thyatian",
+      "kind": "culture",
+      "label": "Thyatian",
+      "aliases": [],
+      "parent_ids": [],
+      "note": "Cultural or regional style. Do not infer character ancestry, alignment, proficiency or item ownership from this tag."
+    },
+    {
+      "id": "culture:traladaran",
+      "kind": "culture",
+      "label": "Traladaran",
+      "aliases": [
+        "Traladar"
+      ],
+      "parent_ids": [],
+      "note": "Cultural or regional style. Do not infer character ancestry, alignment, proficiency or item ownership from this tag."
+    },
+    {
+      "id": "faction:red-wizards-of-thay",
+      "kind": "faction",
+      "label": "Red Wizards of Thay",
+      "aliases": [
+        "Red Wizards"
+      ],
+      "parent_ids": [],
+      "note": "Faction association is distinct from Thayan culture."
+    },
+    {
+      "id": "game:baldurs-gate-1",
+      "kind": "game",
+      "label": "Baldur’s Gate I",
+      "aliases": [],
+      "parent_ids": []
+    },
+    {
+      "id": "game:baldurs-gate-2",
+      "kind": "game",
+      "label": "Baldur’s Gate II",
+      "aliases": [],
+      "parent_ids": []
+    },
+    {
+      "id": "game:baldurs-gate-3",
+      "kind": "game",
+      "label": "Baldur’s Gate 3",
+      "aliases": [],
+      "parent_ids": []
+    },
+    {
+      "id": "game:chronicles-of-mystara",
+      "kind": "game",
+      "label": "Dungeons & Dragons: Chronicles of Mystara",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Compilation of Tower of Doom and Shadow over Mystara; do not duplicate their item definitions."
+    },
+    {
+      "id": "game:conan-exiles",
+      "kind": "game",
+      "label": "Conan Exiles",
+      "aliases": [],
+      "parent_ids": [],
+      "note": "Source-specific research facet; no original-book completeness or implemented game effects asserted."
+    },
+    {
+      "id": "game:diablo-1",
+      "kind": "game",
+      "label": "Diablo I",
+      "aliases": [],
+      "parent_ids": []
+    },
+    {
+      "id": "game:diablo-2",
+      "kind": "game",
+      "label": "Diablo II",
+      "aliases": [],
+      "parent_ids": []
+    },
+    {
+      "id": "game:diablo-3",
+      "kind": "game",
+      "label": "Diablo III",
+      "aliases": [],
+      "parent_ids": []
+    },
+    {
+      "id": "game:diablo-4",
+      "kind": "game",
+      "label": "Diablo IV",
+      "aliases": [],
+      "parent_ids": []
+    },
+    {
+      "id": "game:dnd-stronghold-1993",
+      "kind": "game",
+      "label": "Dungeons & Dragons: Stronghold (1993)",
+      "aliases": [
+        "Stronghold 1993"
+      ],
+      "parent_ids": [],
+      "note": "Mystara placement is a fan research lead requiring verification, not a confirmed setting attribution; distinct from Stronghold Crusader."
+    },
+    {
+      "id": "game:fantasy-empires",
+      "kind": "game",
+      "label": "Fantasy Empires",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Game source kept separate from tabletop Gazetteer canon. Item rules require explicit 2024 adaptation."
+    },
+    {
+      "id": "game:mulaka",
+      "kind": "game",
+      "label": "Mulaka",
+      "aliases": [],
+      "parent_ids": [],
+      "note": ""
+    },
+    {
+      "id": "game:never-alone",
+      "kind": "game",
+      "label": "Never Alone (Kisima Ingitchuna)",
+      "aliases": [],
+      "parent_ids": [],
+      "note": ""
+    },
+    {
+      "id": "game:ninja-gaiden",
+      "kind": "game",
+      "label": "Ninja Gaiden series",
+      "aliases": [],
+      "parent_ids": [],
+      "note": ""
+    },
+    {
+      "id": "game:nioh-2",
+      "kind": "game",
+      "label": "Nioh 2",
+      "aliases": [],
+      "parent_ids": [],
+      "note": ""
+    },
+    {
+      "id": "game:order-of-griffon",
+      "kind": "game",
+      "label": "Dungeons & Dragons: Order of the Griffon",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Game source kept separate from tabletop Gazetteer canon. Item rules require explicit 2024 adaptation."
+    },
+    {
+      "id": "game:planescape-torment",
+      "kind": "game",
+      "label": "Planescape: Torment",
+      "aliases": [
+        "PST"
+      ],
+      "parent_ids": [],
+      "note": "Source-specific research facet; no original-book completeness or implemented game effects asserted."
+    },
+    {
+      "id": "game:sekiro",
+      "kind": "game",
+      "label": "Sekiro: Shadows Die Twice",
+      "aliases": [],
+      "parent_ids": [],
+      "note": ""
+    },
+    {
+      "id": "game:shadow-over-mystara",
+      "kind": "game",
+      "label": "Dungeons & Dragons: Shadow over Mystara",
+      "aliases": [
+        "Shadow of Mystara"
+      ],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Game source kept separate from tabletop Gazetteer canon. Item rules require explicit 2024 adaptation."
+    },
+    {
+      "id": "game:stronghold-crusader",
+      "kind": "game",
+      "label": "Stronghold Crusader",
+      "aliases": [],
+      "parent_ids": [],
+      "note": "Research facet; not a claim that original source mechanics are implemented."
+    },
+    {
+      "id": "game:tenchu",
+      "kind": "game",
+      "label": "Tenchu series",
+      "aliases": [],
+      "parent_ids": [],
+      "note": ""
+    },
+    {
+      "id": "game:tower-of-doom",
+      "kind": "game",
+      "label": "Dungeons & Dragons: Tower of Doom",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Game source kept separate from tabletop Gazetteer canon. Item rules require explicit 2024 adaptation."
+    },
+    {
+      "id": "game:valheim",
+      "kind": "game",
+      "label": "Valheim",
+      "aliases": [],
+      "parent_ids": [],
+      "note": "Research facet; not a claim that original source mechanics are implemented."
+    },
+    {
+      "id": "game:warriors-eternal-sun",
+      "kind": "game",
+      "label": "Dungeons & Dragons: Warriors of the Eternal Sun",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Game source kept separate from tabletop Gazetteer canon. Item rules require explicit 2024 adaptation."
+    },
+    {
+      "id": "game:when-rivers-were-trails",
+      "kind": "game",
+      "label": "When Rivers Were Trails",
+      "aliases": [],
+      "parent_ids": [],
+      "note": ""
+    },
+    {
+      "id": "people:abelaat",
+      "kind": "people",
+      "label": "Abelaat",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:aquarendi",
+      "kind": "people",
+      "label": "Aquarendi",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:aranea",
+      "kind": "people",
+      "label": "Aranea",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:athachs",
+      "kind": "people",
+      "label": "Athachs",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:beastmen",
+      "kind": "people",
+      "label": "Beastmen",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:beholders",
+      "kind": "people",
+      "label": "Beholders",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:bhuts",
+      "kind": "people",
+      "label": "Bhuts",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:brute-men",
+      "kind": "people",
+      "label": "Brute Men",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:centaurs",
+      "kind": "people",
+      "label": "Centaurs",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:chameleon-men",
+      "kind": "people",
+      "label": "Chameleon Men",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:cucarachans-kukarachans-or-kukarachans-cucarachans",
+      "kind": "people",
+      "label": "Cucarachans/Kukarachans or Kukarachans/Cucarachans",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:cyclops",
+      "kind": "people",
+      "label": "Cyclops",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:demihumans",
+      "kind": "people",
+      "label": "Demihumans",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:devils",
+      "kind": "people",
+      "label": "Devils",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:diaboli",
+      "kind": "people",
+      "label": "Diaboli",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:dragonborn",
+      "kind": "people",
+      "label": "Dragonborn",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:dragons",
+      "kind": "people",
+      "label": "Dragons",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:drakes",
+      "kind": "people",
+      "label": "Drakes",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:dryads",
+      "kind": "people",
+      "label": "Dryads",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:dwarves",
+      "kind": "people",
+      "label": "Dwarves",
+      "aliases": [
+        "Dwarf"
+      ],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:ee-aar",
+      "kind": "people",
+      "label": "Ee'aar",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:elves",
+      "kind": "people",
+      "label": "Elves",
+      "aliases": [
+        "Elf"
+      ],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:faedornae",
+      "kind": "people",
+      "label": "Faedornae",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:faenare",
+      "kind": "people",
+      "label": "Faenare",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:faeries",
+      "kind": "people",
+      "label": "Faeries",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:fey",
+      "kind": "people",
+      "label": "Fey",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:giants",
+      "kind": "people",
+      "label": "Giants",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:gith",
+      "kind": "people",
+      "label": "Gith",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:gnolls",
+      "kind": "people",
+      "label": "Gnolls",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:gnomes",
+      "kind": "people",
+      "label": "Gnomes",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:goatmen",
+      "kind": "people",
+      "label": "Goatmen",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:goblinoid",
+      "kind": "people",
+      "label": "Goblinoid",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:grens",
+      "kind": "people",
+      "label": "Grens",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:gyerians",
+      "kind": "people",
+      "label": "Gyerians",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:half-elves",
+      "kind": "people",
+      "label": "Half-Elves",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:halflings",
+      "kind": "people",
+      "label": "Halflings",
+      "aliases": [
+        "Halfling",
+        "Hin"
+      ],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:harpies",
+      "kind": "people",
+      "label": "Harpies",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:hsiao",
+      "kind": "people",
+      "label": "Hsiao",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:humanoids",
+      "kind": "people",
+      "label": "Humanoids",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:humans",
+      "kind": "people",
+      "label": "Humans",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:hutaakans",
+      "kind": "people",
+      "label": "Hutaakans",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:imps",
+      "kind": "people",
+      "label": "Imps",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:kobolds",
+      "kind": "people",
+      "label": "Kobolds",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:leprechauns",
+      "kind": "people",
+      "label": "Leprechauns",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:liches",
+      "kind": "people",
+      "label": "Liches",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:lizardfolk",
+      "kind": "people",
+      "label": "Lizardfolk",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:lupins",
+      "kind": "people",
+      "label": "Lupins",
+      "aliases": [
+        "Lupin"
+      ],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:lycanthropes",
+      "kind": "people",
+      "label": "Lycanthropes",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:medusae",
+      "kind": "people",
+      "label": "Medusae",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:meks",
+      "kind": "people",
+      "label": "Meks",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:minotaurs",
+      "kind": "people",
+      "label": "Minotaurs",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:mugumba-mud-dwellers",
+      "kind": "people",
+      "label": "Mugumba Mud Dwellers",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:myconids",
+      "kind": "people",
+      "label": "Myconids",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:nagpas",
+      "kind": "people",
+      "label": "Nagpas",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:nymphs",
+      "kind": "people",
+      "label": "Nymphs",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:oards",
+      "kind": "people",
+      "label": "Oards",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:orcs",
+      "kind": "people",
+      "label": "Orcs",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:pachydermions",
+      "kind": "people",
+      "label": "Pachydermions",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:pegataurs",
+      "kind": "people",
+      "label": "Pegataurs",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:phanatons",
+      "kind": "people",
+      "label": "Phanatons",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:pixies",
+      "kind": "people",
+      "label": "Pixies",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:rakastas",
+      "kind": "people",
+      "label": "Rakastas",
+      "aliases": [
+        "Rakasta"
+      ],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:rock-men",
+      "kind": "people",
+      "label": "Rock men",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:sand-folk",
+      "kind": "people",
+      "label": "Sand Folk",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:sasquatches",
+      "kind": "people",
+      "label": "Sasquatches",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:satyrs",
+      "kind": "people",
+      "label": "Satyrs",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:shadow-elves",
+      "kind": "people",
+      "label": "Shadow Elves",
+      "aliases": [],
+      "parent_ids": [
+        "people:elves"
+      ],
+      "evidence_url": "https://www.pandius.com/soulxtal.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "A setting people; not the Shadow Elf Territories region or a 2024 playable-species conversion."
+    },
+    {
+      "id": "people:shadows",
+      "kind": "people",
+      "label": "Shadows",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:shark-kin",
+      "kind": "people",
+      "label": "Shark-kin",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:sidhe",
+      "kind": "people",
+      "label": "Sidhe",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:sollux",
+      "kind": "people",
+      "label": "Sollux",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:sphinxes",
+      "kind": "people",
+      "label": "Sphinxes",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:stalwart",
+      "kind": "people",
+      "label": "Stalwart",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:stone-folk",
+      "kind": "people",
+      "label": "Stone Folk",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:the-carnifex",
+      "kind": "people",
+      "label": "The Carnifex",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:thouls",
+      "kind": "people",
+      "label": "Thouls",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:tieflings",
+      "kind": "people",
+      "label": "Tieflings",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:tortles",
+      "kind": "people",
+      "label": "Tortles",
+      "aliases": [
+        "Tortle"
+      ],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:treants",
+      "kind": "people",
+      "label": "Treants",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:tritons",
+      "kind": "people",
+      "label": "Tritons",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:trolls",
+      "kind": "people",
+      "label": "Trolls",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:undead",
+      "kind": "people",
+      "label": "Undead",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:vampires",
+      "kind": "people",
+      "label": "Vampires",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:worgs",
+      "kind": "people",
+      "label": "Worgs",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "people:zhochal",
+      "kind": "people",
+      "label": "Zhochal",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://pandius.com/races.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Fan index heading; can be a broad group, creature, ancestry or fan addition. No playable species mechanics inferred."
+    },
+    {
+      "id": "publication:adventurers-vault-1",
+      "kind": "publication",
+      "label": "Adventurer’s Vault",
+      "aliases": [],
+      "parent_ids": [],
+      "note": "Selected source reference metadata; original book audit and 2024 conversion pending."
+    },
+    {
+      "id": "publication:adventurers-vault-2",
+      "kind": "publication",
+      "label": "Adventurer’s Vault 2",
+      "aliases": [],
+      "parent_ids": [],
+      "note": "Selected source reference metadata; original book audit and 2024 conversion pending."
+    },
+    {
+      "id": "publication:amazons-valkyries-equipment",
+      "kind": "publication",
+      "label": "Amazons vs Valkyries: Arms and Equipment",
+      "aliases": [],
+      "parent_ids": [],
+      "note": "Selected source reference metadata; original book audit and 2024 conversion pending."
+    },
+    {
+      "id": "publication:arms-equipment-3e",
+      "kind": "publication",
+      "label": "Arms and Equipment Guide (3e)",
+      "aliases": [],
+      "parent_ids": [],
+      "note": "Selected source reference metadata; original book audit and 2024 conversion pending."
+    },
+    {
+      "id": "publication:bastions-2024",
+      "kind": "publication",
+      "label": "Bastions (2024 DMG)",
+      "aliases": [
+        "bastions"
+      ],
+      "parent_ids": [],
+      "note": "Research facet; not a claim that original source mechanics are implemented."
+    },
+    {
+      "id": "publication:castle-guide-2e",
+      "kind": "publication",
+      "label": "The Castle Guide",
+      "aliases": [
+        "DMGR2"
+      ],
+      "parent_ids": [],
+      "note": "Research facet; not a claim that original source mechanics are implemented."
+    },
+    {
+      "id": "publication:champions-mystara",
+      "kind": "publication",
+      "label": "Champions of Mystara",
+      "aliases": [
+        "Heroes of the Princess Ark"
+      ],
+      "parent_ids": [],
+      "note": ""
+    },
+    {
+      "id": "publication:complete-ninja-handbook",
+      "kind": "publication",
+      "label": "The Complete Ninja’s Handbook",
+      "aliases": [
+        "Ninjas Handbook",
+        "Ninja Handbook",
+        "PHBR15"
+      ],
+      "parent_ids": [],
+      "note": ""
+    },
+    {
+      "id": "publication:curse-of-strahd",
+      "kind": "publication",
+      "label": "Curse of Strahd",
+      "aliases": [
+        "CoS"
+      ],
+      "parent_ids": [],
+      "note": "Source-specific research facet; no original-book completeness or implemented game effects asserted."
+    },
+    {
+      "id": "publication:dawn-emperors",
+      "kind": "publication",
+      "label": "Dawn of the Emperors",
+      "aliases": [
+        "Thyatis and Alphatia"
+      ],
+      "parent_ids": [],
+      "note": ""
+    },
+    {
+      "id": "publication:dmg-1e",
+      "kind": "publication",
+      "label": "Dungeon Masters Guide (AD&D 1e)",
+      "aliases": [
+        "1e DMG"
+      ],
+      "parent_ids": [],
+      "note": "Online transcription. Exact printing pending verification."
+    },
+    {
+      "id": "publication:dmg-2e",
+      "kind": "publication",
+      "label": "Dungeon Master Guide (AD&D 2e)",
+      "aliases": [
+        "2e DMG"
+      ],
+      "parent_ids": [],
+      "note": "Online transcription. Exact printing pending verification."
+    },
+    {
+      "id": "publication:dmg-35",
+      "kind": "publication",
+      "label": "Dungeon Master’s Guide (3.5)",
+      "aliases": [
+        "3.5 DMG"
+      ],
+      "parent_ids": [],
+      "note": "July 2003 first printing."
+    },
+    {
+      "id": "publication:dragons-den",
+      "kind": "publication",
+      "label": "The Dragon’s Den",
+      "aliases": [
+        "Dragon's Den"
+      ],
+      "parent_ids": [],
+      "note": "Publication facet is separate from cultural origin or proficiency."
+    },
+    {
+      "id": "publication:gaz14",
+      "kind": "publication",
+      "label": "GAZ14: The Atruaghin Clans",
+      "aliases": [
+        "GAZ14"
+      ],
+      "parent_ids": [],
+      "note": ""
+    },
+    {
+      "id": "publication:goblins-lair",
+      "kind": "publication",
+      "label": "The Goblin’s Lair",
+      "aliases": [
+        "Goblin's Lair"
+      ],
+      "parent_ids": [],
+      "note": "Publication facet is separate from cultural origin or proficiency."
+    },
+    {
+      "id": "publication:hail-the-heroes",
+      "kind": "publication",
+      "label": "Hail the Heroes",
+      "aliases": [],
+      "parent_ids": [],
+      "note": "Publication facet is separate from cultural origin or proficiency."
+    },
+    {
+      "id": "publication:haunted-tower",
+      "kind": "publication",
+      "label": "The Haunted Tower",
+      "aliases": [],
+      "parent_ids": [],
+      "note": "Publication facet is separate from cultural origin or proficiency."
+    },
+    {
+      "id": "publication:hero-builder-3e",
+      "kind": "publication",
+      "label": "Hero Builder’s Guidebook",
+      "aliases": [
+        "Hero Builders Guidebook"
+      ],
+      "parent_ids": [],
+      "note": "Research facet; not a claim that original source mechanics are implemented."
+    },
+    {
+      "id": "publication:mark-of-amber",
+      "kind": "publication",
+      "label": "Mark of Amber",
+      "aliases": [],
+      "parent_ids": [],
+      "note": "Mystara / Glantri adventure research scope; not a claim of imported item definitions."
+    },
+    {
+      "id": "publication:mystara-gaz5",
+      "kind": "publication",
+      "label": "The Elves of Alfheim",
+      "aliases": [
+        "GAZ5"
+      ],
+      "parent_ids": [
+        "setting:mystara"
+      ]
+    },
+    {
+      "id": "publication:night-of-the-vampire",
+      "kind": "publication",
+      "label": "Night of the Vampire",
+      "aliases": [],
+      "parent_ids": [],
+      "note": "Publication facet is separate from cultural origin or proficiency."
+    },
+    {
+      "id": "publication:novel-black-vessel",
+      "kind": "publication",
+      "label": "The Black Vessel",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Mystara novel bibliography. Named equipment needs an inspected passage or attributed item-specific secondary evidence; a novel title is not an item definition."
+    },
+    {
+      "id": "publication:novel-dark-knight-karameikos",
+      "kind": "publication",
+      "label": "Dark Knight of Karameikos",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Mystara novel bibliography. Named equipment needs an inspected passage or attributed item-specific secondary evidence; a novel title is not an item definition."
+    },
+    {
+      "id": "publication:novel-dragonking-mystara",
+      "kind": "publication",
+      "label": "Dragonking of Mystara",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Mystara novel bibliography. Named equipment needs an inspected passage or attributed item-specific secondary evidence; a novel title is not an item definition."
+    },
+    {
+      "id": "publication:novel-dragonlord-mystara",
+      "kind": "publication",
+      "label": "Dragonlord of Mystara",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Mystara novel bibliography. Named equipment needs an inspected passage or attributed item-specific secondary evidence; a novel title is not an item definition."
+    },
+    {
+      "id": "publication:novel-dragonmage-mystara",
+      "kind": "publication",
+      "label": "Dragonmage of Mystara",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Mystara novel bibliography. Named equipment needs an inspected passage or attributed item-specific secondary evidence; a novel title is not an item definition."
+    },
+    {
+      "id": "publication:novel-dragons-tomb",
+      "kind": "publication",
+      "label": "The Dragon’s Tomb",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Mystara novel bibliography. Named equipment needs an inspected passage or attributed item-specific secondary evidence; a novel title is not an item definition."
+    },
+    {
+      "id": "publication:novel-fall-of-magic",
+      "kind": "publication",
+      "label": "The Fall of Magic",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Mystara novel bibliography. Named equipment needs an inspected passage or attributed item-specific secondary evidence; a novel title is not an item definition."
+    },
+    {
+      "id": "publication:novel-rogues-riches",
+      "kind": "publication",
+      "label": "Rogues to Riches",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Mystara novel bibliography. Named equipment needs an inspected passage or attributed item-specific secondary evidence; a novel title is not an item definition."
+    },
+    {
+      "id": "publication:novel-son-of-dawn",
+      "kind": "publication",
+      "label": "Son of Dawn",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Mystara novel bibliography. Named equipment needs an inspected passage or attributed item-specific secondary evidence; a novel title is not an item definition."
+    },
+    {
+      "id": "publication:novel-tainted-sword",
+      "kind": "publication",
+      "label": "The Tainted Sword",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Mystara novel bibliography. Named equipment needs an inspected passage or attributed item-specific secondary evidence; a novel title is not an item definition."
+    },
+    {
+      "id": "publication:oriental-adventures-3e",
+      "kind": "publication",
+      "label": "Oriental Adventures (3e)",
+      "aliases": [
+        "OA 3e",
+        "Oriental Adventures 3rd edition"
+      ],
+      "parent_ids": [],
+      "note": ""
+    },
+    {
+      "id": "publication:oriental-adventures-mixed",
+      "kind": "publication",
+      "label": "Oriental Adventures mixed-edition research",
+      "aliases": [],
+      "parent_ids": [],
+      "note": ""
+    },
+    {
+      "id": "publication:palace-of-dread",
+      "kind": "publication",
+      "label": "Palace of Dread",
+      "aliases": [],
+      "parent_ids": [
+        "publication:goblins-lair"
+      ],
+      "note": "Publication facet is separate from cultural origin or proficiency."
+    },
+    {
+      "id": "publication:red-hand-trail",
+      "kind": "publication",
+      "label": "Red Hand Trail",
+      "aliases": [],
+      "parent_ids": [
+        "publication:goblins-lair"
+      ],
+      "note": "Publication facet is separate from cultural origin or proficiency."
+    },
+    {
+      "id": "publication:return-temple",
+      "kind": "publication",
+      "label": "Return to the Temple of Elemental Evil",
+      "aliases": [],
+      "parent_ids": [],
+      "note": "Selected source reference metadata; original book audit and 2024 conversion pending."
+    },
+    {
+      "id": "publication:rime-frostmaiden",
+      "kind": "publication",
+      "label": "Icewind Dale: Rime of the Frostmaiden",
+      "aliases": [
+        "Rime of the Frostmaiden",
+        "Frostmaiden",
+        "Frostmaidens"
+      ],
+      "parent_ids": [],
+      "note": "Source-specific research facet; no original-book completeness or implemented game effects asserted."
+    },
+    {
+      "id": "publication:stronghold-builder-3e",
+      "kind": "publication",
+      "label": "Stronghold Builder’s Guidebook",
+      "aliases": [
+        "Stronghold Builders Guidebook"
+      ],
+      "parent_ids": [],
+      "note": "Research facet; not a claim that original source mechanics are implemented."
+    },
+    {
+      "id": "publication:tomb-annihilation",
+      "kind": "publication",
+      "label": "Tomb of Annihilation",
+      "aliases": [
+        "ToA"
+      ],
+      "parent_ids": [],
+      "note": "Source-specific research facet; no original-book completeness or implemented game effects asserted."
+    },
+    {
+      "id": "publication:trouble-below",
+      "kind": "publication",
+      "label": "Trouble Below",
+      "aliases": [],
+      "parent_ids": [
+        "publication:goblins-lair"
+      ],
+      "note": "Publication facet is separate from cultural origin or proficiency."
+    },
+    {
+      "id": "publication:unearthed-arcana-1e",
+      "kind": "publication",
+      "label": "Unearthed Arcana (AD&D 1e)",
+      "aliases": [
+        "1e Unearthed Arcana"
+      ],
+      "parent_ids": [],
+      "note": "Supplementary treasure tables."
+    },
+    {
+      "id": "publication:zanzer",
+      "kind": "publication",
+      "label": "Zanzer’s Dungeon",
+      "aliases": [
+        "Zanzar's Dungeon",
+        "Zanzars Dungeon",
+        "Escape from Zanzer's Dungeon"
+      ],
+      "parent_ids": [],
+      "note": "Publication facet is separate from cultural origin or proficiency."
+    },
+    {
+      "id": "region:alfheim",
+      "kind": "region",
+      "label": "Alfheim",
+      "aliases": [],
+      "parent_ids": [
+        "region:known-world"
+      ]
+    },
+    {
+      "id": "region:almarron",
+      "kind": "region",
+      "label": "Almarrón",
+      "aliases": [],
+      "parent_ids": [
+        "region:savage-coast"
+      ],
+      "evidence_url": "https://www.pandius.com/svge_cst.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Country or territory; boundaries and timeline require source-specific verification."
+    },
+    {
+      "id": "region:alphatia",
+      "kind": "region",
+      "label": "Alphatia",
+      "aliases": [],
+      "parent_ids": [
+        "region:known-world"
+      ]
+    },
+    {
+      "id": "region:atruaghin",
+      "kind": "region",
+      "label": "Atruaghin Clans",
+      "aliases": [],
+      "parent_ids": [
+        "region:known-world"
+      ]
+    },
+    {
+      "id": "region:atruaghin-bear",
+      "kind": "region",
+      "label": "Children of the Bear",
+      "aliases": [],
+      "parent_ids": [
+        "region:atruaghin"
+      ],
+      "note": "Fictional GAZ14 clan region, verified against the fan source index; no racial trait or alignment inferred."
+    },
+    {
+      "id": "region:atruaghin-elk",
+      "kind": "region",
+      "label": "Children of the Elk",
+      "aliases": [],
+      "parent_ids": [
+        "region:atruaghin"
+      ],
+      "note": "Fictional GAZ14 clan region, verified against the fan source index; no racial trait or alignment inferred."
+    },
+    {
+      "id": "region:atruaghin-horse",
+      "kind": "region",
+      "label": "Children of the Horse",
+      "aliases": [],
+      "parent_ids": [
+        "region:atruaghin"
+      ],
+      "note": "Fictional GAZ14 clan region, verified against the fan source index; no racial trait or alignment inferred."
+    },
+    {
+      "id": "region:atruaghin-tiger",
+      "kind": "region",
+      "label": "Children of the Tiger",
+      "aliases": [],
+      "parent_ids": [
+        "region:atruaghin"
+      ],
+      "note": "Fictional GAZ14 clan region, verified against the fan source index; no racial trait or alignment inferred."
+    },
+    {
+      "id": "region:atruaghin-turtle",
+      "kind": "region",
+      "label": "Children of the Turtle",
+      "aliases": [],
+      "parent_ids": [
+        "region:atruaghin"
+      ],
+      "note": "Fictional GAZ14 clan region, verified against the fan source index; no racial trait or alignment inferred."
+    },
+    {
+      "id": "region:barovia",
+      "kind": "region",
+      "label": "Barovia",
+      "aliases": [],
+      "parent_ids": [
+        "setting:ravenloft"
+      ]
+    },
+    {
+      "id": "region:bellayne",
+      "kind": "region",
+      "label": "Bellayne",
+      "aliases": [],
+      "parent_ids": [
+        "region:savage-coast"
+      ]
+    },
+    {
+      "id": "region:broken-lands",
+      "kind": "region",
+      "label": "Broken Lands",
+      "aliases": [],
+      "parent_ids": [
+        "region:known-world"
+      ]
+    },
+    {
+      "id": "region:cayma",
+      "kind": "region",
+      "label": "Cayma communities",
+      "aliases": [],
+      "parent_ids": [
+        "region:savage-coast"
+      ],
+      "note": "Regional/community association vocabulary; not an ethnic proficiency rule."
+    },
+    {
+      "id": "region:chult",
+      "kind": "region",
+      "label": "Chult",
+      "aliases": [],
+      "parent_ids": [
+        "setting:forgotten-realms"
+      ],
+      "note": "Source-specific research facet; no original-book completeness or implemented game effects asserted."
+    },
+    {
+      "id": "region:cimmaron",
+      "kind": "region",
+      "label": "Cimmaron",
+      "aliases": [],
+      "parent_ids": [
+        "region:savage-coast"
+      ],
+      "evidence_url": "https://www.pandius.com/svge_cst.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Country or territory; boundaries and timeline require source-specific verification."
+    },
+    {
+      "id": "region:darokin",
+      "kind": "region",
+      "label": "Darokin",
+      "aliases": [],
+      "parent_ids": [
+        "region:known-world"
+      ]
+    },
+    {
+      "id": "region:denagoth",
+      "kind": "region",
+      "label": "Denagoth",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://www.pandius.com/magical_research_artefacts_optional_rules.pdf",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Wider Mystara scope; parent is world, not an assertion that every region is part of the Known World."
+    },
+    {
+      "id": "region:ee-aar",
+      "kind": "region",
+      "label": "Ee’aar communities",
+      "aliases": [],
+      "parent_ids": [
+        "region:savage-coast"
+      ],
+      "note": "Regional/community association vocabulary; not an ethnic proficiency rule."
+    },
+    {
+      "id": "region:ethengar",
+      "kind": "region",
+      "label": "Ethengar",
+      "aliases": [],
+      "parent_ids": [
+        "region:known-world"
+      ]
+    },
+    {
+      "id": "region:eusdria",
+      "kind": "region",
+      "label": "Eusdria",
+      "aliases": [],
+      "parent_ids": [
+        "region:savage-coast"
+      ],
+      "evidence_url": "https://www.pandius.com/svge_cst.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Country or territory; boundaries and timeline require source-specific verification."
+    },
+    {
+      "id": "region:five-shires",
+      "kind": "region",
+      "label": "Five Shires",
+      "aliases": [],
+      "parent_ids": [
+        "region:known-world"
+      ]
+    },
+    {
+      "id": "region:gargona",
+      "kind": "region",
+      "label": "Gargoña",
+      "aliases": [],
+      "parent_ids": [
+        "region:savage-coast"
+      ],
+      "evidence_url": "https://www.pandius.com/svge_cst.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Country or territory; boundaries and timeline require source-specific verification."
+    },
+    {
+      "id": "region:glantri",
+      "kind": "region",
+      "label": "Glantri",
+      "aliases": [],
+      "parent_ids": [
+        "region:known-world"
+      ]
+    },
+    {
+      "id": "region:guadalante",
+      "kind": "region",
+      "label": "Guadalante",
+      "aliases": [],
+      "parent_ids": [
+        "region:savage-coast"
+      ],
+      "evidence_url": "https://www.pandius.com/svge_cst.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Country or territory; boundaries and timeline require source-specific verification."
+    },
+    {
+      "id": "region:gurrash",
+      "kind": "region",
+      "label": "Gurrash communities",
+      "aliases": [],
+      "parent_ids": [
+        "region:savage-coast"
+      ],
+      "note": "Regional/community association vocabulary; not an ethnic proficiency rule."
+    },
+    {
+      "id": "region:heldann",
+      "kind": "region",
+      "label": "Heldannic Territories",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://www.pandius.com/magical_research_artefacts_optional_rules.pdf",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Wider Mystara scope; parent is world, not an assertion that every region is part of the Known World."
+    },
+    {
+      "id": "region:herath",
+      "kind": "region",
+      "label": "Herath",
+      "aliases": [],
+      "parent_ids": [
+        "region:savage-coast"
+      ],
+      "evidence_url": "https://www.pandius.com/svge_cst.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Country or territory; boundaries and timeline require source-specific verification."
+    },
+    {
+      "id": "region:hollow-world",
+      "kind": "region",
+      "label": "Hollow World",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ]
+    },
+    {
+      "id": "region:icewind-dale",
+      "kind": "region",
+      "label": "Icewind Dale",
+      "aliases": [],
+      "parent_ids": [
+        "setting:forgotten-realms"
+      ],
+      "note": "Source-specific research facet; no original-book completeness or implemented game effects asserted."
+    },
+    {
+      "id": "region:ierendi",
+      "kind": "region",
+      "label": "Ierendi",
+      "aliases": [],
+      "parent_ids": [
+        "region:known-world"
+      ]
+    },
+    {
+      "id": "region:karameikos",
+      "kind": "region",
+      "label": "Karameikos",
+      "aliases": [],
+      "parent_ids": [
+        "region:known-world"
+      ]
+    },
+    {
+      "id": "region:known-world",
+      "kind": "region",
+      "label": "Known World",
+      "aliases": [
+        "The Known World"
+      ],
+      "parent_ids": [
+        "setting:mystara"
+      ]
+    },
+    {
+      "id": "region:milenian-empire",
+      "kind": "region",
+      "label": "Milenian Empire",
+      "aliases": [],
+      "parent_ids": [
+        "region:hollow-world"
+      ]
+    },
+    {
+      "id": "region:minrothad",
+      "kind": "region",
+      "label": "Minrothad",
+      "aliases": [],
+      "parent_ids": [
+        "region:known-world"
+      ]
+    },
+    {
+      "id": "region:narvaez",
+      "kind": "region",
+      "label": "Narvaez",
+      "aliases": [],
+      "parent_ids": [
+        "region:savage-coast"
+      ],
+      "evidence_url": "https://www.pandius.com/svge_cst.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Country or territory; boundaries and timeline require source-specific verification."
+    },
+    {
+      "id": "region:nimmur",
+      "kind": "region",
+      "label": "Nimmur",
+      "aliases": [],
+      "parent_ids": [
+        "region:savage-coast"
+      ],
+      "evidence_url": "https://www.pandius.com/svge_cst.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Country or territory; boundaries and timeline require source-specific verification."
+    },
+    {
+      "id": "region:nithia",
+      "kind": "region",
+      "label": "Nithia",
+      "aliases": [],
+      "parent_ids": [
+        "region:hollow-world"
+      ]
+    },
+    {
+      "id": "region:northern-reaches",
+      "kind": "region",
+      "label": "Northern Reaches",
+      "aliases": [],
+      "parent_ids": [
+        "region:known-world"
+      ]
+    },
+    {
+      "id": "region:norwold",
+      "kind": "region",
+      "label": "Norwold",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://www.pandius.com/magical_research_artefacts_optional_rules.pdf",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Wider Mystara scope; parent is world, not an assertion that every region is part of the Known World."
+    },
+    {
+      "id": "region:ochalea",
+      "kind": "region",
+      "label": "Ochalea",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://www.pandius.com/magical_research_artefacts_optional_rules.pdf",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Wider Mystara scope; parent is world, not an assertion that every region is part of the Known World."
+    },
+    {
+      "id": "region:ostland",
+      "kind": "region",
+      "label": "Ostland",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://www.pandius.com/magical_research_artefacts_optional_rules.pdf",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Wider Mystara scope; parent is world, not an assertion that every region is part of the Known World."
+    },
+    {
+      "id": "region:pearl-islands",
+      "kind": "region",
+      "label": "Pearl Islands",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://www.pandius.com/magical_research_artefacts_optional_rules.pdf",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Wider Mystara scope; parent is world, not an assertion that every region is part of the Known World."
+    },
+    {
+      "id": "region:qeodhar",
+      "kind": "region",
+      "label": "Qeodhar",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://www.pandius.com/magical_research_artefacts_optional_rules.pdf",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Wider Mystara scope; parent is world, not an assertion that every region is part of the Known World."
+    },
+    {
+      "id": "region:rakasta",
+      "kind": "region",
+      "label": "Rakasta communities",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Regional/community association vocabulary; not an ethnic proficiency rule."
+    },
+    {
+      "id": "region:renardy",
+      "kind": "region",
+      "label": "Renardy",
+      "aliases": [],
+      "parent_ids": [
+        "region:savage-coast"
+      ],
+      "evidence_url": "https://www.pandius.com/svge_cst.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Country or territory; boundaries and timeline require source-specific verification."
+    },
+    {
+      "id": "region:robrenn",
+      "kind": "region",
+      "label": "Robrenn",
+      "aliases": [],
+      "parent_ids": [
+        "region:savage-coast"
+      ],
+      "evidence_url": "https://www.pandius.com/svge_cst.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Country or territory; boundaries and timeline require source-specific verification."
+    },
+    {
+      "id": "region:rockhome",
+      "kind": "region",
+      "label": "Rockhome",
+      "aliases": [],
+      "parent_ids": [
+        "region:known-world"
+      ]
+    },
+    {
+      "id": "region:saragon",
+      "kind": "region",
+      "label": "Saragón",
+      "aliases": [],
+      "parent_ids": [
+        "region:savage-coast"
+      ],
+      "evidence_url": "https://www.pandius.com/svge_cst.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Country or territory; boundaries and timeline require source-specific verification."
+    },
+    {
+      "id": "region:savage-coast",
+      "kind": "region",
+      "label": "Savage Coast",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ]
+    },
+    {
+      "id": "region:sea-people",
+      "kind": "region",
+      "label": "Sea People",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "note": "Regional/community association vocabulary; not an ethnic proficiency rule."
+    },
+    {
+      "id": "region:shadow-elves",
+      "kind": "region",
+      "label": "Shadow Elf Territories",
+      "aliases": [],
+      "parent_ids": [
+        "region:known-world"
+      ]
+    },
+    {
+      "id": "region:shazak",
+      "kind": "region",
+      "label": "Shazak",
+      "aliases": [],
+      "parent_ids": [
+        "region:savage-coast"
+      ],
+      "evidence_url": "https://www.pandius.com/svge_cst.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Country or territory; boundaries and timeline require source-specific verification."
+    },
+    {
+      "id": "region:sigil",
+      "kind": "region",
+      "label": "Sigil",
+      "aliases": [],
+      "parent_ids": [
+        "setting:planescape"
+      ]
+    },
+    {
+      "id": "region:sind",
+      "kind": "region",
+      "label": "Sind",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://www.pandius.com/magical_research_artefacts_optional_rules.pdf",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Wider Mystara scope; parent is world, not an assertion that every region is part of the Known World."
+    },
+    {
+      "id": "region:slagovich",
+      "kind": "region",
+      "label": "Slagovich",
+      "aliases": [],
+      "parent_ids": [
+        "region:savage-coast"
+      ],
+      "evidence_url": "https://www.pandius.com/svge_cst.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Country or territory; boundaries and timeline require source-specific verification."
+    },
+    {
+      "id": "region:soderfjord",
+      "kind": "region",
+      "label": "Soderfjord",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://www.pandius.com/magical_research_artefacts_optional_rules.pdf",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Wider Mystara scope; parent is world, not an assertion that every region is part of the Known World."
+    },
+    {
+      "id": "region:texeiras",
+      "kind": "region",
+      "label": "Texeiras",
+      "aliases": [],
+      "parent_ids": [
+        "region:savage-coast"
+      ],
+      "evidence_url": "https://www.pandius.com/svge_cst.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Country or territory; boundaries and timeline require source-specific verification."
+    },
+    {
+      "id": "region:thay",
+      "kind": "region",
+      "label": "Thay",
+      "aliases": [],
+      "parent_ids": [
+        "setting:forgotten-realms"
+      ]
+    },
+    {
+      "id": "region:thyatis",
+      "kind": "region",
+      "label": "Thyatis",
+      "aliases": [],
+      "parent_ids": [
+        "region:known-world"
+      ]
+    },
+    {
+      "id": "region:torreon",
+      "kind": "region",
+      "label": "Torreón",
+      "aliases": [],
+      "parent_ids": [
+        "region:savage-coast"
+      ],
+      "evidence_url": "https://www.pandius.com/svge_cst.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Country or territory; boundaries and timeline require source-specific verification."
+    },
+    {
+      "id": "region:vestland",
+      "kind": "region",
+      "label": "Vestland",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://www.pandius.com/magical_research_artefacts_optional_rules.pdf",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Wider Mystara scope; parent is world, not an assertion that every region is part of the Known World."
+    },
+    {
+      "id": "region:vilaverde",
+      "kind": "region",
+      "label": "Vilaverde",
+      "aliases": [],
+      "parent_ids": [
+        "region:savage-coast"
+      ],
+      "evidence_url": "https://www.pandius.com/svge_cst.html",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Country or territory; boundaries and timeline require source-specific verification."
+    },
+    {
+      "id": "region:wallara",
+      "kind": "region",
+      "label": "Wallara communities",
+      "aliases": [],
+      "parent_ids": [
+        "region:savage-coast"
+      ],
+      "note": "Regional/community association vocabulary; not an ethnic proficiency rule."
+    },
+    {
+      "id": "region:wendar",
+      "kind": "region",
+      "label": "Wendar",
+      "aliases": [],
+      "parent_ids": [
+        "setting:mystara"
+      ],
+      "evidence_url": "https://www.pandius.com/magical_research_artefacts_optional_rules.pdf",
+      "registry_status": "research-scope-not-fully-audited",
+      "note": "Wider Mystara scope; parent is world, not an assertion that every region is part of the Known World."
+    },
+    {
+      "id": "region:ylaruam",
+      "kind": "region",
+      "label": "Ylaruam",
+      "aliases": [],
+      "parent_ids": [
+        "region:known-world"
+      ]
+    },
+    {
+      "id": "setting:forgotten-realms",
+      "kind": "setting",
+      "label": "Forgotten Realms",
+      "aliases": [
+        "Faerun",
+        "Faerûn"
+      ],
+      "parent_ids": []
+    },
+    {
+      "id": "setting:greyhawk",
+      "kind": "setting",
+      "label": "Greyhawk",
+      "aliases": [
+        "World of Greyhawk"
+      ],
+      "parent_ids": []
+    },
+    {
+      "id": "setting:hyborian-age",
+      "kind": "setting",
+      "label": "Hyborian Age",
+      "aliases": [
+        "Conan setting"
+      ],
+      "parent_ids": [],
+      "note": "Source-specific research facet; no original-book completeness or implemented game effects asserted."
+    },
+    {
+      "id": "setting:mystara",
+      "kind": "setting",
+      "label": "Mystara",
+      "aliases": [],
+      "parent_ids": []
+    },
+    {
+      "id": "setting:planescape",
+      "kind": "setting",
+      "label": "Planescape",
+      "aliases": [
+        "Platescape"
+      ],
+      "parent_ids": []
+    },
+    {
+      "id": "setting:ravenloft",
+      "kind": "setting",
+      "label": "Ravenloft",
+      "aliases": [],
+      "parent_ids": []
+    },
+    {
+      "id": "setting:rokugan",
+      "kind": "setting",
+      "label": "Rokugan",
+      "aliases": [],
+      "parent_ids": [],
+      "note": "Featured setting in 2001 OA, distinct from Kara-Tur; not automatically assigned to every weapon in that book."
+    },
+    {
+      "id": "setting:sanctuary",
+      "kind": "setting",
+      "label": "Sanctuary",
+      "aliases": [
+        "Diablo setting"
+      ],
+      "parent_ids": []
+    },
+    {
+      "id": "setting:thunder-rift",
+      "kind": "setting",
+      "label": "Thunder Rift",
+      "aliases": [],
+      "parent_ids": [],
+      "note": "Independent research scope. Zanzer and Dragon’s Den grouped here editorially; no canonical Karameikos placement asserted."
+    },
+    {
+      "id": "topic:backlog-reference",
+      "kind": "topic",
+      "label": "Campaign and game source references",
+      "aliases": [],
+      "parent_ids": [],
+      "note": "Source-specific research facet; no original-book completeness or implemented game effects asserted."
+    },
+    {
+      "id": "topic:mystara-frontiers",
+      "kind": "topic",
+      "label": "Mystara expedition and regional equipment",
+      "aliases": [
+        "Mystara frontiers"
+      ],
+      "parent_ids": [],
+      "note": ""
+    },
+    {
+      "id": "topic:ninja-equipment",
+      "kind": "topic",
+      "label": "Ninja equipment",
+      "aliases": [
+        "ninja",
+        "shinobi",
+        "ninja gear"
+      ],
+      "parent_ids": [],
+      "note": "Editorial play-style theme, not ancestry or a new 2024 class. Not all adjacent samurai gear is ninja-specific."
+    },
+    {
+      "id": "topic:worldbuilding",
+      "kind": "topic",
+      "label": "Worldbuilding construction",
+      "aliases": [
+        "construction",
+        "building",
+        "fortifications",
+        "settlement building"
+      ],
+      "parent_ids": [],
+      "note": "Research facet; not a claim that original source mechanics are implemented."
+    }
+  ],
+  "relationship_roles": [
+    "setting",
+    "cultural-association",
+    "origin",
+    "available-in",
+    "used-by",
+    "found-in",
+    "inspired-by"
+  ],
+  "unknown_policy": "An absent association means unknown, not universally available or forbidden."
+}

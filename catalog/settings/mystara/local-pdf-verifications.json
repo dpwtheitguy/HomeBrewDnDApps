@@ -1,0 +1,396 @@
+{
+  "scope": "Selected human-checked page facts. Existing records are enriched instead of duplicated.",
+  "patches": [
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "bracers of defense ac 2",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 60,
+          "printed_page": 59
+        },
+        "verified_fields": [
+          "name",
+          "Bargle-equipment-appearance"
+        ],
+        "verification_scope": "Only the listed fields on the cited original-book page were visually verified. This is not full-book audit completion or a 2024 rules/balance review."
+      },
+      "note": "Original GAZ1 equipment page verified. Secondary NPC header credit p.58 is retained separately; equipment is on printed p.59."
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "dagger +2 (+3 vs. spell-casters)",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 60,
+          "printed_page": 59
+        },
+        "verified_fields": [
+          "name",
+          "Bargle-equipment-appearance"
+        ],
+        "verification_scope": "Only the listed fields on the cited original-book page were visually verified. This is not full-book audit completion or a 2024 rules/balance review."
+      },
+      "note": "Original GAZ1 equipment page verified. Secondary NPC header credit p.58 is retained separately; equipment is on printed p.59."
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "scroll of protection from magic",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 60,
+          "printed_page": 59
+        },
+        "verified_fields": [
+          "name",
+          "Bargle-equipment-appearance"
+        ],
+        "verification_scope": "Only the listed fields on the cited original-book page were visually verified. This is not full-book audit completion or a 2024 rules/balance review."
+      },
+      "note": "Original GAZ1 equipment page verified. Secondary NPC header credit p.58 is retained separately; equipment is on printed p.59."
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "ring of regeneration",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 60,
+          "printed_page": 59
+        },
+        "verified_fields": [
+          "name",
+          "Bargle-equipment-appearance"
+        ],
+        "verification_scope": "Only the listed fields on the cited original-book page were visually verified. This is not full-book audit completion or a 2024 rules/balance review."
+      },
+      "note": "Original GAZ1 equipment page verified. Secondary NPC header credit p.58 is retained separately; equipment is on printed p.59."
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "drums of panic",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 60,
+          "printed_page": 59
+        },
+        "verified_fields": [
+          "name",
+          "Bargle-equipment-appearance"
+        ],
+        "verification_scope": "Only the listed fields on the cited original-book page were visually verified. This is not full-book audit completion or a 2024 rules/balance review."
+      },
+      "note": "Original GAZ1 equipment page verified. Secondary NPC header credit p.58 is retained separately; equipment is on printed p.59."
+    },
+    {
+      "source_id": "gazetteer-equipment-reference",
+      "name": "Fire Crystal, Ierendi",
+      "evidence": {
+        "book_code": "GAZ4",
+        "url": "https://www.dmsguild.com/product/16977/GAZ4-The-Kingdom-of-Ierendi-Basic",
+        "author": "Anne Gray McCready",
+        "local_file": "pdfs/Kingdom of Ierendi.pdf",
+        "file_sha256": "7eeb3a9aa1508597902f38a438f5eb5820617a2e68e8753e1f2084c725f0e9d6",
+        "locator": {
+          "pdf_page": 59,
+          "printed_page": 58
+        },
+        "verified_fields": [
+          "source-label",
+          "legacy-polished-market-range",
+          "nonmagical-optical-nature"
+        ],
+        "verification_scope": "Only the listed fields on the cited original-book page were visually verified. This is not full-book audit completion or a 2024 rules/balance review."
+      },
+      "aliases": [
+        "Fire starter",
+        "Ierendi fire starter"
+      ],
+      "legacy_facts": {
+        "source_label": "fire starters",
+        "price_kind": "polished-market-range",
+        "minimum_gp": 200,
+        "maximum_gp": 300,
+        "economy": "D&D BECMI GAZ4",
+        "guaranteed_player_sale_price": false,
+        "modern_charisma_quote": false,
+        "physical_nature": "Natural magnifying crystal; optical ignition, not an asserted magical flame power."
+      },
+      "note": "Original page gives polished fire starters a 200–300 gp market range. The secondary equipment index reports 200–500 gp; retain that discrepancy without treating it as the verified value."
+    },
+    {
+      "source_id": "gaz8-name-reference",
+      "name": "Armor of Blackflame",
+      "evidence": {
+        "book_code": "GAZ8",
+        "url": "https://www.dmsguild.com/product/16980/GAZ8-The-Five-Shires-Basic",
+        "author": "Ed Greenwood",
+        "local_file": "pdfs/The Five Shires.pdf",
+        "file_sha256": "000ea0e3dcd66be61d8a4f6ccd601663b5c55a2f32c491a08f91b78bacad22dc",
+        "locator": {
+          "pdf_page": 44,
+          "printed_page": 19
+        },
+        "verified_fields": [
+          "name",
+          "legacy-construction-cost"
+        ],
+        "verification_scope": "Only the listed fields on the cited original-book page were visually verified. This is not full-book audit completion or a 2024 rules/balance review."
+      },
+      "legacy_facts": {
+        "price_kind": "construction-cost",
+        "amount_gp": 200000,
+        "economy": "D&D BECMI GAZ8",
+        "market_price": false,
+        "modern_charisma_quote": false
+      },
+      "note": "Verified legacy crafting/construction expenditure. This is not a market price, 2024 value or guaranteed merchant quote."
+    },
+    {
+      "source_id": "gaz8-name-reference",
+      "name": "Cloak of Blackflame",
+      "evidence": {
+        "book_code": "GAZ8",
+        "url": "https://www.dmsguild.com/product/16980/GAZ8-The-Five-Shires-Basic",
+        "author": "Ed Greenwood",
+        "local_file": "pdfs/The Five Shires.pdf",
+        "file_sha256": "000ea0e3dcd66be61d8a4f6ccd601663b5c55a2f32c491a08f91b78bacad22dc",
+        "locator": {
+          "pdf_page": 44,
+          "printed_page": 19
+        },
+        "verified_fields": [
+          "name",
+          "legacy-construction-cost"
+        ],
+        "verification_scope": "Only the listed fields on the cited original-book page were visually verified. This is not full-book audit completion or a 2024 rules/balance review."
+      },
+      "legacy_facts": {
+        "price_kind": "construction-cost",
+        "amount_gp": 100000,
+        "economy": "D&D BECMI GAZ8",
+        "market_price": false,
+        "modern_charisma_quote": false
+      },
+      "note": "Verified legacy crafting/construction expenditure. This is not a market price, 2024 value or guaranteed merchant quote."
+    },
+    {
+      "source_id": "gaz8-name-reference",
+      "name": "Blacksling",
+      "evidence": {
+        "book_code": "GAZ8",
+        "url": "https://www.dmsguild.com/product/16980/GAZ8-The-Five-Shires-Basic",
+        "author": "Ed Greenwood",
+        "local_file": "pdfs/The Five Shires.pdf",
+        "file_sha256": "000ea0e3dcd66be61d8a4f6ccd601663b5c55a2f32c491a08f91b78bacad22dc",
+        "locator": {
+          "pdf_page": 45,
+          "printed_page": 20
+        },
+        "verified_fields": [
+          "name",
+          "legacy-construction-cost"
+        ],
+        "verification_scope": "Only the listed fields on the cited original-book page were visually verified. This is not full-book audit completion or a 2024 rules/balance review."
+      },
+      "legacy_facts": {
+        "price_kind": "construction-cost",
+        "amount_gp": 90000,
+        "economy": "D&D BECMI GAZ8",
+        "market_price": false,
+        "modern_charisma_quote": false
+      },
+      "note": "Verified legacy crafting/construction expenditure. This is not a market price, 2024 value or guaranteed merchant quote."
+    },
+    {
+      "source_id": "gaz8-name-reference",
+      "name": "Sword of Blackflame",
+      "evidence": {
+        "book_code": "GAZ8",
+        "url": "https://www.dmsguild.com/product/16980/GAZ8-The-Five-Shires-Basic",
+        "author": "Ed Greenwood",
+        "local_file": "pdfs/The Five Shires.pdf",
+        "file_sha256": "000ea0e3dcd66be61d8a4f6ccd601663b5c55a2f32c491a08f91b78bacad22dc",
+        "locator": {
+          "pdf_page": 45,
+          "printed_page": 20
+        },
+        "verified_fields": [
+          "name",
+          "legacy-construction-cost"
+        ],
+        "verification_scope": "Only the listed fields on the cited original-book page were visually verified. This is not full-book audit completion or a 2024 rules/balance review."
+      },
+      "legacy_facts": {
+        "price_kind": "construction-cost",
+        "amount_gp": 275000,
+        "economy": "D&D BECMI GAZ8",
+        "market_price": false,
+        "modern_charisma_quote": false
+      },
+      "note": "Verified legacy crafting/construction expenditure. This is not a market price, 2024 value or guaranteed merchant quote."
+    },
+    {
+      "source_id": "gaz8-name-reference",
+      "name": "Dagger of Blackflame",
+      "evidence": {
+        "book_code": "GAZ8",
+        "url": "https://www.dmsguild.com/product/16980/GAZ8-The-Five-Shires-Basic",
+        "author": "Ed Greenwood",
+        "local_file": "pdfs/The Five Shires.pdf",
+        "file_sha256": "000ea0e3dcd66be61d8a4f6ccd601663b5c55a2f32c491a08f91b78bacad22dc",
+        "locator": {
+          "pdf_page": 45,
+          "printed_page": 20
+        },
+        "verified_fields": [
+          "name",
+          "legacy-construction-cost"
+        ],
+        "verification_scope": "Only the listed fields on the cited original-book page were visually verified. This is not full-book audit completion or a 2024 rules/balance review."
+      },
+      "legacy_facts": {
+        "price_kind": "construction-cost",
+        "amount_gp": 175000,
+        "economy": "D&D BECMI GAZ8",
+        "market_price": false,
+        "modern_charisma_quote": false
+      },
+      "note": "Verified legacy crafting/construction expenditure. This is not a market price, 2024 value or guaranteed merchant quote."
+    },
+    {
+      "source_id": "mystara-craft-relic-reference",
+      "name": "Pearl of Power",
+      "evidence": {
+        "book_code": "GAZ9",
+        "url": "https://www.dmsguild.com/product/17346/GAZ9-The-Minrothad-Guilds-Basic",
+        "author": "Deborah Christian and Kim Eastland",
+        "local_file": "pdfs/tsr09236 - D&D 2E - Gazetteer - GAZ09   The Minrothad Guilds.pdf",
+        "file_sha256": "89e086f7531f4cdd6a8eae443fc8b01f8a438d4d45f9cdb9de0de221513fec2b",
+        "locator": {
+          "pdf_page": 76,
+          "printed_page": 42
+        },
+        "verified_fields": [
+          "name",
+          "water-elf-relic-appearance"
+        ],
+        "verification_scope": "Only the listed fields on the cited original-book page were visually verified. This is not full-book audit completion or a 2024 rules/balance review."
+      },
+      "note": "Verified the Minrothad clan relic. Do not merge it with the SRD spell-slot recovery item merely because the names match."
+    },
+    {
+      "source_id": "gazetteer-equipment-reference",
+      "name": "Dagger, Kouglar",
+      "evidence": {
+        "book_code": "GAZ2",
+        "url": "https://www.dmsguild.com/product/124832/GAZ2-The-Emirates-of-Ylaruam-Basic",
+        "author": "Ken Rolston",
+        "local_file": "pdfs/tsr09194 - D&D 2E - Gazetteer - GAZ02   Emirates of Ylaruam.pdf",
+        "file_sha256": "dc6eb03eddfe46235253afa59983203a26e2076d9c71913da67cf2fdddde5436",
+        "locator": {
+          "pdf_page": 37,
+          "printed_page": 36
+        },
+        "verified_fields": [
+          "name",
+          "curved-dagger-classification"
+        ],
+        "verification_scope": "Only the listed fields on the cited original-book page were visually verified. This is not full-book audit completion or a 2024 rules/balance review."
+      },
+      "aliases": [
+        "Kouglar"
+      ],
+      "note": "Verified in the original glossary as a curved dagger; no special bonus inferred."
+    },
+    {
+      "source_id": "mystara-draft-conversions",
+      "name": "Yataghan",
+      "evidence": {
+        "book_code": "GAZ2",
+        "url": "https://www.dmsguild.com/product/124832/GAZ2-The-Emirates-of-Ylaruam-Basic",
+        "author": "Ken Rolston",
+        "local_file": "pdfs/tsr09194 - D&D 2E - Gazetteer - GAZ02   Emirates of Ylaruam.pdf",
+        "file_sha256": "dc6eb03eddfe46235253afa59983203a26e2076d9c71913da67cf2fdddde5436",
+        "locator": {
+          "pdf_page": 37,
+          "printed_page": 36
+        },
+        "verified_fields": [
+          "name",
+          "scimitar-classification"
+        ],
+        "verification_scope": "Only the listed fields on the cited original-book page were visually verified. This is not full-book audit completion or a 2024 rules/balance review."
+      },
+      "note": "The original glossary calls it a large double-edged scimitar. The 2024 draft now uses the Scimitar base profile; no separate Large-size rule is inferred from the adjective."
+    },
+    {
+      "source_id": "mystara-artifact-name-reference",
+      "name": "Mirror-Shield of Rheddrian",
+      "evidence": {
+        "book_code": "TSR-1082",
+        "url": "https://www.drivethrurpg.com/en/product/284479/wrath-of-the-immortals",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Wrath of the immortals.pdf",
+        "file_sha256": "9ca8cd2f656e0d1157be7b6dcc98f036fc2dc89f9c042d2d5549412f05e02d1f",
+        "locator": {
+          "pdf_page": 197,
+          "printed_page": 62,
+          "book": "The Immortals’ Fury"
+        },
+        "verified_fields": [
+          "name",
+          "artifact_appearance"
+        ],
+        "verification_scope": "Name and artifact appearance checked visually."
+      },
+      "note": "Original boxed-set evidence attached to the existing artifact record."
+    },
+    {
+      "source_id": "mystara-artifact-name-reference",
+      "name": "Nucleus of the Spheres",
+      "evidence": {
+        "book_code": "TSR-1082",
+        "url": "https://www.drivethrurpg.com/en/product/284479/wrath-of-the-immortals",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Wrath of the immortals.pdf",
+        "file_sha256": "9ca8cd2f656e0d1157be7b6dcc98f036fc2dc89f9c042d2d5549412f05e02d1f",
+        "locator": {
+          "pdf_page": 199,
+          "printed_page": 64,
+          "book": "The Immortals’ Fury"
+        },
+        "verified_fields": [
+          "name",
+          "artifact_appearance"
+        ],
+        "verification_scope": "Name and artifact appearance checked visually."
+      },
+      "note": "Original boxed-set evidence attached to the existing artifact record."
+    }
+  ]
+}

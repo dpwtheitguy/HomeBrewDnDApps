@@ -1,0 +1,3454 @@
+{
+  "schema_version": 1,
+  "id": "worldbuilding-2024-drafts",
+  "label": "Worldbuilding construction proposals (2024 house rules)",
+  "theme": "worldbuilding",
+  "topic_entity_id": "topic:worldbuilding",
+  "coverage": "48 original camp, fort, castle, village, city and dungeon proposals; not official Bastion special facilities or a complete stronghold-book import.",
+  "sources": [
+    {
+      "id": "bastions",
+      "url": "https://www.dndbeyond.com/posts/1828-exploring-bastions-from-the-2024-dungeon-masters",
+      "label": "2024 DMG Bastions overview",
+      "source_kind": "official-public-overview",
+      "note": "Establishes the system, not the mechanics or prices of the original project structures below."
+    },
+    {
+      "id": "stronghold-3e",
+      "url": "https://en.wikipedia.org/wiki/Stronghold_Builder%27s_Guidebook",
+      "label": "Stronghold Builder’s Guidebook (2002, D&D 3.0)",
+      "source_kind": "bibliography",
+      "note": "Component/building research queued. Project costs are not extracted book costs."
+    },
+    {
+      "id": "castle-2e",
+      "url": "https://www.tsrarchive.com/add/add-dmgr.html",
+      "label": "The Castle Guide (DMGR2, AD&D 2e)",
+      "source_kind": "bibliography"
+    },
+    {
+      "id": "hero-3e",
+      "url": "https://www.tsrarchive.com/3e/3e2-pa.html",
+      "label": "Hero Builder’s Guidebook (D&D 3.0)",
+      "source_kind": "bibliography",
+      "note": "Character-building source; equipment audit pending. Not confused with Stronghold Builder’s Guidebook."
+    },
+    {
+      "id": "stronghold-game",
+      "url": "https://store.steampowered.com/app/40970/Stronghold_Crusader_HD/",
+      "label": "Stronghold Crusader",
+      "source_kind": "official-game-product-page",
+      "note": "Construction/economy inspiration only, not a verified item list."
+    },
+    {
+      "id": "valheim",
+      "url": "https://valheim.gaming.tools/structures/",
+      "label": "Valheim public building index",
+      "source_kind": "fan-structure-index"
+    },
+    {
+      "id": "cyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Dungeons_%26_Dragons_Rules_Cyclopedia",
+      "label": "Rules Cyclopedia dominion/stronghold research",
+      "source_kind": "bibliography",
+      "note": "Legacy construction and dominion rules queued, not imported as current RAW."
+    }
+  ],
+  "entities": [
+    {
+      "id": "topic:worldbuilding",
+      "kind": "topic",
+      "label": "Worldbuilding construction",
+      "aliases": [
+        "construction",
+        "building",
+        "fortifications",
+        "settlement building"
+      ],
+      "parent_ids": [],
+      "note": "Research facet; not a claim that original source mechanics are implemented."
+    },
+    {
+      "id": "publication:bastions-2024",
+      "kind": "publication",
+      "label": "Bastions (2024 DMG)",
+      "aliases": [
+        "bastions"
+      ],
+      "parent_ids": [],
+      "note": "Research facet; not a claim that original source mechanics are implemented."
+    },
+    {
+      "id": "publication:stronghold-builder-3e",
+      "kind": "publication",
+      "label": "Stronghold Builder’s Guidebook",
+      "aliases": [
+        "Stronghold Builders Guidebook"
+      ],
+      "parent_ids": [],
+      "note": "Research facet; not a claim that original source mechanics are implemented."
+    },
+    {
+      "id": "publication:castle-guide-2e",
+      "kind": "publication",
+      "label": "The Castle Guide",
+      "aliases": [
+        "DMGR2"
+      ],
+      "parent_ids": [],
+      "note": "Research facet; not a claim that original source mechanics are implemented."
+    },
+    {
+      "id": "publication:hero-builder-3e",
+      "kind": "publication",
+      "label": "Hero Builder’s Guidebook",
+      "aliases": [
+        "Hero Builders Guidebook"
+      ],
+      "parent_ids": [],
+      "note": "Research facet; not a claim that original source mechanics are implemented."
+    },
+    {
+      "id": "game:valheim",
+      "kind": "game",
+      "label": "Valheim",
+      "aliases": [],
+      "parent_ids": [],
+      "note": "Research facet; not a claim that original source mechanics are implemented."
+    },
+    {
+      "id": "game:stronghold-crusader",
+      "kind": "game",
+      "label": "Stronghold Crusader",
+      "aliases": [],
+      "parent_ids": [],
+      "note": "Research facet; not a claim that original source mechanics are implemented."
+    }
+  ],
+  "items": [
+    {
+      "id": "construction:bedroll-camp",
+      "name": "Bedroll Camp",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 10,
+      "tldr": "Packable shelter for four; no comfort magic or guard service.",
+      "details": "Original 2024 campaign proposal. Packable shelter for four; no comfort magic or guard service. Estimated footprint: 10 by 10 feet; height 5 feet. Estimated construction: 1 workers for 1 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "camp",
+        "footprint": {
+          "width_ft": 10,
+          "length_ft": 10,
+          "height_ft": 5
+        },
+        "construction": {
+          "cost_gp": "10",
+          "workers": 1,
+          "days": 1,
+          "materials_summary": "canvas, rope, bedding",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 4,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "1",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:camp",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:field-kitchen",
+      "name": "Field Kitchen",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 75,
+      "tldr": "Cooking station; food, fuel and a cook are separate.",
+      "details": "Original 2024 campaign proposal. Cooking station; food, fuel and a cook are separate. Estimated footprint: 10 by 10 feet; height 8 feet. Estimated construction: 2 workers for 2 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "camp",
+        "footprint": {
+          "width_ft": 10,
+          "length_ft": 10,
+          "height_ft": 8
+        },
+        "construction": {
+          "cost_gp": "75",
+          "workers": 2,
+          "days": 2,
+          "materials_summary": "timber, iron stove, cookware",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 8,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "1",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:camp",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:covered-supply-cache",
+      "name": "Covered Supply Cache",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 50,
+      "tldr": "Dry storage for 500 pounds; no automatic concealment or theft immunity.",
+      "details": "Original 2024 campaign proposal. Dry storage for 500 pounds; no automatic concealment or theft immunity. Estimated footprint: 10 by 10 feet; height 6 feet. Estimated construction: 2 workers for 1 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "camp",
+        "footprint": {
+          "width_ft": 10,
+          "length_ft": 10,
+          "height_ft": 6
+        },
+        "construction": {
+          "cost_gp": "50",
+          "workers": 2,
+          "days": 1,
+          "materials_summary": "timber, canvas, lock fittings",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 0,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "1",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:camp",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:water-collection-station",
+      "name": "Water Collection Station",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 100,
+      "tldr": "Rain collection; output depends on weather and does not purify poison or disease.",
+      "details": "Original 2024 campaign proposal. Rain collection; output depends on weather and does not purify poison or disease. Estimated footprint: 10 by 10 feet; height 8 feet. Estimated construction: 2 workers for 3 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "camp",
+        "footprint": {
+          "width_ft": 10,
+          "length_ft": 10,
+          "height_ft": 8
+        },
+        "construction": {
+          "cost_gp": "100",
+          "workers": 2,
+          "days": 3,
+          "materials_summary": "gutters, barrels, cloth filters",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 0,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "1",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:camp",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:camp-latrine",
+      "name": "Camp Latrine",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 25,
+      "tldr": "A sanitation fixture; placement and groundwater conditions need DM review.",
+      "details": "Original 2024 campaign proposal. A sanitation fixture; placement and groundwater conditions need DM review. Estimated footprint: 5 by 10 feet; height 6 feet. Estimated construction: 2 workers for 1 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "camp",
+        "footprint": {
+          "width_ft": 5,
+          "length_ft": 10,
+          "height_ft": 6
+        },
+        "construction": {
+          "cost_gp": "25",
+          "workers": 2,
+          "days": 1,
+          "materials_summary": "timber, tools, screening",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 0,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "1",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:camp",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:camp-watch-platform",
+      "name": "Camp Watch Platform",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 150,
+      "tldr": "A lookout position; seeing farther depends on terrain and normal sight rules.",
+      "details": "Original 2024 campaign proposal. A lookout position; seeing farther depends on terrain and normal sight rules. Estimated footprint: 10 by 10 feet; height 15 feet. Estimated construction: 3 workers for 4 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "camp",
+        "footprint": {
+          "width_ft": 10,
+          "length_ft": 10,
+          "height_ft": 15
+        },
+        "construction": {
+          "cost_gp": "150",
+          "workers": 3,
+          "days": 4,
+          "materials_summary": "timber, rope, ladder",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 2,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "1",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:camp",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:horse-picket-line",
+      "name": "Horse Picket Line",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 30,
+      "tldr": "Holds up to six ordinary mounts; grants no food, water or automatic animal handling.",
+      "details": "Original 2024 campaign proposal. Holds up to six ordinary mounts; grants no food, water or automatic animal handling. Estimated footprint: 20 by 10 feet; height 4 feet. Estimated construction: 2 workers for 1 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "camp",
+        "footprint": {
+          "width_ft": 20,
+          "length_ft": 10,
+          "height_ft": 4
+        },
+        "construction": {
+          "cost_gp": "30",
+          "workers": 2,
+          "days": 1,
+          "materials_summary": "posts, rope, tack hooks",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 6,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "1",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:camp",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:timber-palisade-section",
+      "name": "Timber Palisade Section",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 100,
+      "tldr": "One ten-foot boundary segment. No closed perimeter unless connected to other segments.",
+      "details": "Original 2024 campaign proposal. One ten-foot boundary segment. No closed perimeter unless connected to other segments. Estimated footprint: 10 by 2 feet; height 10 feet. Estimated construction: 3 workers for 3 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "fortification",
+        "scale": "fort",
+        "footprint": {
+          "width_ft": 10,
+          "length_ft": 2,
+          "height_ft": 10
+        },
+        "construction": {
+          "cost_gp": "100",
+          "workers": 3,
+          "days": 3,
+          "materials_summary": "timber, iron fasteners",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 0,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "1",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:fort",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:timber-gate",
+      "name": "Timber Gate",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 150,
+      "tldr": "A ten-foot gate for a palisade; a guard must operate its bar.",
+      "details": "Original 2024 campaign proposal. A ten-foot gate for a palisade; a guard must operate its bar. Estimated footprint: 10 by 3 feet; height 10 feet. Estimated construction: 3 workers for 4 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "fortification",
+        "scale": "fort",
+        "footprint": {
+          "width_ft": 10,
+          "length_ft": 3,
+          "height_ft": 10
+        },
+        "construction": {
+          "cost_gp": "150",
+          "workers": 3,
+          "days": 4,
+          "materials_summary": "timber, hinges, locking bar",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 0,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "1",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:fort",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:earthen-rampart-section",
+      "name": "Earthen Rampart Section",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 75,
+      "tldr": "One short rampart segment. Drainage and soil stability are site dependent.",
+      "details": "Original 2024 campaign proposal. One short rampart segment. Drainage and soil stability are site dependent. Estimated footprint: 10 by 10 feet; height 5 feet. Estimated construction: 4 workers for 3 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "fortification",
+        "scale": "fort",
+        "footprint": {
+          "width_ft": 10,
+          "length_ft": 10,
+          "height_ft": 5
+        },
+        "construction": {
+          "cost_gp": "75",
+          "workers": 4,
+          "days": 3,
+          "materials_summary": "earth, retaining timber",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 0,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "1",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:fort",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:stone-curtain-wall-section",
+      "name": "Stone Curtain Wall Section",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 750,
+      "tldr": "One ten-foot wall segment, with a narrow parapet. No enclosed castle is implied.",
+      "details": "Original 2024 campaign proposal. One ten-foot wall segment, with a narrow parapet. No enclosed castle is implied. Estimated footprint: 10 by 5 feet; height 15 feet. Estimated construction: 6 workers for 10 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "fortification",
+        "scale": "castle",
+        "footprint": {
+          "width_ft": 10,
+          "length_ft": 5,
+          "height_ft": 15
+        },
+        "construction": {
+          "cost_gp": "750",
+          "workers": 6,
+          "days": 10,
+          "materials_summary": "dressed stone, mortar, timber scaffold",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 0,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "7",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:castle",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:stone-watchtower",
+      "name": "Stone Watchtower",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 5000,
+      "tldr": "A three-level watch post with capacity for six occupants, not six permanent hirelings.",
+      "details": "Original 2024 campaign proposal. A three-level watch post with capacity for six occupants, not six permanent hirelings. Estimated footprint: 15 by 15 feet; height 30 feet. Estimated construction: 8 workers for 40 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "fortification",
+        "scale": "castle",
+        "footprint": {
+          "width_ft": 15,
+          "length_ft": 15,
+          "height_ft": 30
+        },
+        "construction": {
+          "cost_gp": "5000",
+          "workers": 8,
+          "days": 40,
+          "materials_summary": "stone, mortar, timber stairs",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 6,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "50",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:castle",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:gatehouse",
+      "name": "Gatehouse",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 7500,
+      "tldr": "A guarded entrance; locks and staff do not confer automatic detection of intruders.",
+      "details": "Original 2024 campaign proposal. A guarded entrance; locks and staff do not confer automatic detection of intruders. Estimated footprint: 20 by 20 feet; height 25 feet. Estimated construction: 10 workers for 45 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "fortification",
+        "scale": "castle",
+        "footprint": {
+          "width_ft": 20,
+          "length_ft": 20,
+          "height_ft": 25
+        },
+        "construction": {
+          "cost_gp": "7500",
+          "workers": 10,
+          "days": 45,
+          "materials_summary": "stone, timber, hinges, portcullis",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 8,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "75",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:castle",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:drawbridge",
+      "name": "Drawbridge",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 1500,
+      "tldr": "Spans one ten-foot gap. Raising or lowering requires an operator and an action in an encounter.",
+      "details": "Original 2024 campaign proposal. Spans one ten-foot gap. Raising or lowering requires an operator and an action in an encounter. Estimated footprint: 15 by 10 feet; height 5 feet. Estimated construction: 5 workers for 15 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "fortification",
+        "scale": "castle",
+        "footprint": {
+          "width_ft": 15,
+          "length_ft": 10,
+          "height_ft": 5
+        },
+        "construction": {
+          "cost_gp": "1500",
+          "workers": 5,
+          "days": 15,
+          "materials_summary": "timber deck, chains, winch",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 0,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "15",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:castle",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:dry-moat-section",
+      "name": "Dry Moat Section",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 100,
+      "tldr": "One ten-foot trench section. It does not automatically fill with water or damage creatures.",
+      "details": "Original 2024 campaign proposal. One ten-foot trench section. It does not automatically fill with water or damage creatures. Estimated footprint: 10 by 10 feet; height 10 feet. Estimated construction: 4 workers for 4 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "fortification",
+        "scale": "fort",
+        "footprint": {
+          "width_ft": 10,
+          "length_ft": 10,
+          "height_ft": 10
+        },
+        "construction": {
+          "cost_gp": "100",
+          "workers": 4,
+          "days": 4,
+          "materials_summary": "excavated earth, shoring",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 0,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "1",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:fort",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:guard-barracks",
+      "name": "Guard Barracks",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 1500,
+      "tldr": "Beds for twelve. Guards, their equipment and wages must be recruited and budgeted separately.",
+      "details": "Original 2024 campaign proposal. Beds for twelve. Guards, their equipment and wages must be recruited and budgeted separately. Estimated footprint: 20 by 30 feet; height 10 feet. Estimated construction: 6 workers for 20 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "fortification",
+        "scale": "fort",
+        "footprint": {
+          "width_ft": 20,
+          "length_ft": 30,
+          "height_ft": 10
+        },
+        "construction": {
+          "cost_gp": "1500",
+          "workers": 6,
+          "days": 20,
+          "materials_summary": "timber, roof tiles, bunks",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 12,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "15",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:fort",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:training-yard",
+      "name": "Training Yard",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 300,
+      "tldr": "Practice space for twelve; no automatic XP, feat, proficiency or combat bonus.",
+      "details": "Original 2024 campaign proposal. Practice space for twelve; no automatic XP, feat, proficiency or combat bonus. Estimated footprint: 30 by 30 feet; height 0 feet. Estimated construction: 4 workers for 5 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "fortification",
+        "scale": "fort",
+        "footprint": {
+          "width_ft": 30,
+          "length_ft": 30,
+          "height_ft": 0
+        },
+        "construction": {
+          "cost_gp": "300",
+          "workers": 4,
+          "days": 5,
+          "materials_summary": "packed earth, target frames, rails",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 12,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "3",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:fort",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:armory-storehouse",
+      "name": "Armory Storehouse",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 1000,
+      "tldr": "Equipment storage; weapons and armor are not included in its construction price.",
+      "details": "Original 2024 campaign proposal. Equipment storage; weapons and armor are not included in its construction price. Estimated footprint: 15 by 20 feet; height 10 feet. Estimated construction: 5 workers for 15 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "fortification",
+        "scale": "fort",
+        "footprint": {
+          "width_ft": 15,
+          "length_ft": 20,
+          "height_ft": 10
+        },
+        "construction": {
+          "cost_gp": "1000",
+          "workers": 5,
+          "days": 15,
+          "materials_summary": "timber, iron racks, locks",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 0,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "10",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:fort",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:masonry-workshop",
+      "name": "Masonry Workshop",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 1000,
+      "tldr": "Work area for four artisans; no automatic crafting output or proficiency.",
+      "details": "Original 2024 campaign proposal. Work area for four artisans; no automatic crafting output or proficiency. Estimated footprint: 20 by 20 feet; height 12 feet. Estimated construction: 5 workers for 15 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "village",
+        "footprint": {
+          "width_ft": 20,
+          "length_ft": 20,
+          "height_ft": 12
+        },
+        "construction": {
+          "cost_gp": "1000",
+          "workers": 5,
+          "days": 15,
+          "materials_summary": "stone benches, shelter, hand tools",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 4,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "10",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:village",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:smithy",
+      "name": "Smithy",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 2000,
+      "tldr": "A workshop, not a source of free finished weapons; requires staff, fuel and stock.",
+      "details": "Original 2024 campaign proposal. A workshop, not a source of free finished weapons; requires staff, fuel and stock. Estimated footprint: 20 by 20 feet; height 15 feet. Estimated construction: 6 workers for 20 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "village",
+        "footprint": {
+          "width_ft": 20,
+          "length_ft": 20,
+          "height_ft": 15
+        },
+        "construction": {
+          "cost_gp": "2000",
+          "workers": 6,
+          "days": 20,
+          "materials_summary": "stone hearth, bellows, anvil",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 3,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "20",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:village",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:carpenter-s-workshop",
+      "name": "Carpenter’s Workshop",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 750,
+      "tldr": "Four workspaces; work follows ordinary tools, proficiency and crafting rules.",
+      "details": "Original 2024 campaign proposal. Four workspaces; work follows ordinary tools, proficiency and crafting rules. Estimated footprint: 20 by 20 feet; height 12 feet. Estimated construction: 4 workers for 12 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "village",
+        "footprint": {
+          "width_ft": 20,
+          "length_ft": 20,
+          "height_ft": 12
+        },
+        "construction": {
+          "cost_gp": "750",
+          "workers": 4,
+          "days": 12,
+          "materials_summary": "timber, benches, saw fixtures",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 4,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "7",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:village",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:weaving-house",
+      "name": "Weaving House",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 500,
+      "tldr": "Space for four weavers; cloth inputs and paid labor remain separate.",
+      "details": "Original 2024 campaign proposal. Space for four weavers; cloth inputs and paid labor remain separate. Estimated footprint: 15 by 20 feet; height 10 feet. Estimated construction: 4 workers for 10 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "village",
+        "footprint": {
+          "width_ft": 15,
+          "length_ft": 20,
+          "height_ft": 10
+        },
+        "construction": {
+          "cost_gp": "500",
+          "workers": 4,
+          "days": 10,
+          "materials_summary": "timber, loom frames, benches",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 4,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "5",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:village",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:potter-s-kiln-house",
+      "name": "Potter’s Kiln House",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 700,
+      "tldr": "Three workspaces; drying time, firing fuel and finished goods are not free.",
+      "details": "Original 2024 campaign proposal. Three workspaces; drying time, firing fuel and finished goods are not free. Estimated footprint: 15 by 20 feet; height 12 feet. Estimated construction: 4 workers for 12 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "village",
+        "footprint": {
+          "width_ft": 15,
+          "length_ft": 20,
+          "height_ft": 12
+        },
+        "construction": {
+          "cost_gp": "700",
+          "workers": 4,
+          "days": 12,
+          "materials_summary": "clay bricks, kiln, timber shelter",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 3,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "7",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:village",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:granary",
+      "name": "Granary",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 1000,
+      "tldr": "Dry storage for 10,000 pounds of grain. Spoilage and pests remain campaign concerns.",
+      "details": "Original 2024 campaign proposal. Dry storage for 10,000 pounds of grain. Spoilage and pests remain campaign concerns. Estimated footprint: 20 by 20 feet; height 15 feet. Estimated construction: 5 workers for 15 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "village",
+        "footprint": {
+          "width_ft": 20,
+          "length_ft": 20,
+          "height_ft": 15
+        },
+        "construction": {
+          "cost_gp": "1000",
+          "workers": 5,
+          "days": 15,
+          "materials_summary": "timber, raised floor, sealed bins",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 0,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "10",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:village",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:public-well",
+      "name": "Public Well",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 750,
+      "tldr": "Water access is contingent on a suitable aquifer. No guaranteed drilling success or purification.",
+      "details": "Original 2024 campaign proposal. Water access is contingent on a suitable aquifer. No guaranteed drilling success or purification. Estimated footprint: 10 by 10 feet; height 5 feet. Estimated construction: 5 workers for 15 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "village",
+        "footprint": {
+          "width_ft": 10,
+          "length_ft": 10,
+          "height_ft": 5
+        },
+        "construction": {
+          "cost_gp": "750",
+          "workers": 5,
+          "days": 15,
+          "materials_summary": "stone lining, timber winch, rope",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 0,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "7",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:village",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:village-longhouse",
+      "name": "Village Longhouse",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 1800,
+      "tldr": "Shared indoor space for twenty; food, bedding and residents are not included.",
+      "details": "Original 2024 campaign proposal. Shared indoor space for twenty; food, bedding and residents are not included. Estimated footprint: 20 by 40 feet; height 15 feet. Estimated construction: 6 workers for 25 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "village",
+        "footprint": {
+          "width_ft": 20,
+          "length_ft": 40,
+          "height_ft": 15
+        },
+        "construction": {
+          "cost_gp": "1800",
+          "workers": 6,
+          "days": 25,
+          "materials_summary": "timber, roof materials, hearth stone",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 20,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "18",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:village",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:market-stall",
+      "name": "Market Stall",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 100,
+      "tldr": "Two-person trading workspace; no guaranteed income or merchant availability.",
+      "details": "Original 2024 campaign proposal. Two-person trading workspace; no guaranteed income or merchant availability. Estimated footprint: 10 by 10 feet; height 10 feet. Estimated construction: 2 workers for 3 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "village",
+        "footprint": {
+          "width_ft": 10,
+          "length_ft": 10,
+          "height_ft": 10
+        },
+        "construction": {
+          "cost_gp": "100",
+          "workers": 2,
+          "days": 3,
+          "materials_summary": "timber, canvas, display counter",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 2,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "1",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:village",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:village-storehouse",
+      "name": "Village Storehouse",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 750,
+      "tldr": "Stores ordinary goods up to 5,000 pounds; security depends on locks and staff.",
+      "details": "Original 2024 campaign proposal. Stores ordinary goods up to 5,000 pounds; security depends on locks and staff. Estimated footprint: 20 by 20 feet; height 12 feet. Estimated construction: 4 workers for 12 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "village",
+        "footprint": {
+          "width_ft": 20,
+          "length_ft": 20,
+          "height_ft": 12
+        },
+        "construction": {
+          "cost_gp": "750",
+          "workers": 4,
+          "days": 12,
+          "materials_summary": "timber, shelving, lock fittings",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 0,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "7",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:village",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:infirmary",
+      "name": "Infirmary",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 1500,
+      "tldr": "Eight patient beds. Healers, medicines, spells and cure outcomes are not included.",
+      "details": "Original 2024 campaign proposal. Eight patient beds. Healers, medicines, spells and cure outcomes are not included. Estimated footprint: 20 by 20 feet; height 10 feet. Estimated construction: 5 workers for 18 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "village",
+        "footprint": {
+          "width_ft": 20,
+          "length_ft": 20,
+          "height_ft": 10
+        },
+        "construction": {
+          "cost_gp": "1500",
+          "workers": 5,
+          "days": 18,
+          "materials_summary": "timber, washable surfaces, beds",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 8,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "15",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:village",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:village-meeting-hall",
+      "name": "Village Meeting Hall",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 3000,
+      "tldr": "Assembly space for forty; grants no legal authority, loyalty bonus or automatic peace.",
+      "details": "Original 2024 campaign proposal. Assembly space for forty; grants no legal authority, loyalty bonus or automatic peace. Estimated footprint: 30 by 40 feet; height 15 feet. Estimated construction: 8 workers for 30 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "village",
+        "footprint": {
+          "width_ft": 30,
+          "length_ft": 40,
+          "height_ft": 15
+        },
+        "construction": {
+          "cost_gp": "3000",
+          "workers": 8,
+          "days": 30,
+          "materials_summary": "timber, stone footings, benches",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 40,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "30",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:village",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:town-sewer-section",
+      "name": "Town Sewer Section",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 1000,
+      "tldr": "One ten-foot tunnel segment; sewage outflow and disease prevention require a coherent plan.",
+      "details": "Original 2024 campaign proposal. One ten-foot tunnel segment; sewage outflow and disease prevention require a coherent plan. Estimated footprint: 10 by 10 feet; height 10 feet. Estimated construction: 6 workers for 15 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "city",
+        "footprint": {
+          "width_ft": 10,
+          "length_ft": 10,
+          "height_ft": 10
+        },
+        "construction": {
+          "cost_gp": "1000",
+          "workers": 6,
+          "days": 15,
+          "materials_summary": "masonry, shoring, drainage channel",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 0,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "10",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:city",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:stone-bridge",
+      "name": "Stone Bridge",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 6000,
+      "tldr": "A thirty-foot pedestrian/cart span on sound foundations. Water flow and loads need site review.",
+      "details": "Original 2024 campaign proposal. A thirty-foot pedestrian/cart span on sound foundations. Water flow and loads need site review. Estimated footprint: 15 by 30 feet; height 15 feet. Estimated construction: 10 workers for 45 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "city",
+        "footprint": {
+          "width_ft": 15,
+          "length_ft": 30,
+          "height_ft": 15
+        },
+        "construction": {
+          "cost_gp": "6000",
+          "workers": 10,
+          "days": 45,
+          "materials_summary": "stone, mortar, scaffold",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 0,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "60",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:city",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:dock-section",
+      "name": "Dock Section",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 800,
+      "tldr": "Twenty-foot access platform; water depth and vessel clearance remain location dependent.",
+      "details": "Original 2024 campaign proposal. Twenty-foot access platform; water depth and vessel clearance remain location dependent. Estimated footprint: 10 by 20 feet; height 5 feet. Estimated construction: 4 workers for 12 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "city",
+        "footprint": {
+          "width_ft": 10,
+          "length_ft": 20,
+          "height_ft": 5
+        },
+        "construction": {
+          "cost_gp": "800",
+          "workers": 4,
+          "days": 12,
+          "materials_summary": "piles, timber decking, mooring rings",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 0,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "8",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:city",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:town-library",
+      "name": "Town Library",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 2500,
+      "tldr": "Twelve reader seats and shelving. Books, lore access and research success are not included.",
+      "details": "Original 2024 campaign proposal. Twelve reader seats and shelving. Books, lore access and research success are not included. Estimated footprint: 20 by 30 feet; height 15 feet. Estimated construction: 6 workers for 25 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "city",
+        "footprint": {
+          "width_ft": 20,
+          "length_ft": 30,
+          "height_ft": 15
+        },
+        "construction": {
+          "cost_gp": "2500",
+          "workers": 6,
+          "days": 25,
+          "materials_summary": "timber, shelving, dry storage",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 12,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "25",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:city",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:city-archive",
+      "name": "City Archive",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 2000,
+      "tldr": "Four workspaces; the owner supplies records. No automatic truth detection or secret knowledge.",
+      "details": "Original 2024 campaign proposal. Four workspaces; the owner supplies records. No automatic truth detection or secret knowledge. Estimated footprint: 20 by 20 feet; height 12 feet. Estimated construction: 5 workers for 20 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "city",
+        "footprint": {
+          "width_ft": 20,
+          "length_ft": 20,
+          "height_ft": 12
+        },
+        "construction": {
+          "cost_gp": "2000",
+          "workers": 5,
+          "days": 20,
+          "materials_summary": "masonry, shelves, document cabinets",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 4,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "20",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:city",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:public-bathhouse",
+      "name": "Public Bathhouse",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 3000,
+      "tldr": "Twelve bathing places. Fresh water, fuel, attendants and sanitary operation cost extra.",
+      "details": "Original 2024 campaign proposal. Twelve bathing places. Fresh water, fuel, attendants and sanitary operation cost extra. Estimated footprint: 20 by 30 feet; height 12 feet. Estimated construction: 6 workers for 30 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "city",
+        "footprint": {
+          "width_ft": 20,
+          "length_ft": 30,
+          "height_ft": 12
+        },
+        "construction": {
+          "cost_gp": "3000",
+          "workers": 6,
+          "days": 30,
+          "materials_summary": "masonry, piping, hearth, basins",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 12,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "30",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:city",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:townhouse",
+      "name": "Townhouse",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 3000,
+      "tldr": "Two-floor residence for eight; land, taxes and title are separate.",
+      "details": "Original 2024 campaign proposal. Two-floor residence for eight; land, taxes and title are separate. Estimated footprint: 20 by 30 feet; height 20 feet. Estimated construction: 6 workers for 30 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "city",
+        "footprint": {
+          "width_ft": 20,
+          "length_ft": 30,
+          "height_ft": 20
+        },
+        "construction": {
+          "cost_gp": "3000",
+          "workers": 6,
+          "days": 30,
+          "materials_summary": "masonry, timber floors, roof tiles",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 8,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "30",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:city",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:signal-beacon",
+      "name": "Signal Beacon",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 500,
+      "tldr": "Visible fire signal depends on elevation and weather. Fuel and agreed codes are separate.",
+      "details": "Original 2024 campaign proposal. Visible fire signal depends on elevation and weather. Fuel and agreed codes are separate. Estimated footprint: 10 by 10 feet; height 20 feet. Estimated construction: 3 workers for 8 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "facility",
+        "scale": "city",
+        "footprint": {
+          "width_ft": 10,
+          "length_ft": 10,
+          "height_ft": 20
+        },
+        "construction": {
+          "cost_gp": "500",
+          "workers": 3,
+          "days": 8,
+          "materials_summary": "stone base, fuel basket, timber ladder",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 2,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "5",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:city",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:dungeon-corridor-section",
+      "name": "Dungeon Corridor Section",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 750,
+      "tldr": "One ten-foot passage section. Excavation beyond the footprint and geological hazards cost extra.",
+      "details": "Original 2024 campaign proposal. One ten-foot passage section. Excavation beyond the footprint and geological hazards cost extra. Estimated footprint: 10 by 10 feet; height 10 feet. Estimated construction: 5 workers for 12 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "dungeon-component",
+        "scale": "dungeon",
+        "footprint": {
+          "width_ft": 10,
+          "length_ft": 10,
+          "height_ft": 10
+        },
+        "construction": {
+          "cost_gp": "750",
+          "workers": 5,
+          "days": 12,
+          "materials_summary": "cut stone, supports, floor slabs",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 0,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "7",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:dungeon",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:dungeon-chamber",
+      "name": "Dungeon Chamber",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 2000,
+      "tldr": "A twenty-foot chamber; no monsters, traps, treasure or secret exits included.",
+      "details": "Original 2024 campaign proposal. A twenty-foot chamber; no monsters, traps, treasure or secret exits included. Estimated footprint: 20 by 20 feet; height 10 feet. Estimated construction: 6 workers for 25 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "dungeon-component",
+        "scale": "dungeon",
+        "footprint": {
+          "width_ft": 20,
+          "length_ft": 20,
+          "height_ft": 10
+        },
+        "construction": {
+          "cost_gp": "2000",
+          "workers": 6,
+          "days": 25,
+          "materials_summary": "cut stone, supports, door frame",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 8,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "20",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:dungeon",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:reinforced-dungeon-door",
+      "name": "Reinforced Dungeon Door",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 250,
+      "tldr": "An installed door; lock quality, sound transmission and breaking DC are DM adjudications.",
+      "details": "Original 2024 campaign proposal. An installed door; lock quality, sound transmission and breaking DC are DM adjudications. Estimated footprint: 5 by 1 feet; height 8 feet. Estimated construction: 2 workers for 3 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "dungeon-component",
+        "scale": "dungeon",
+        "footprint": {
+          "width_ft": 5,
+          "length_ft": 1,
+          "height_ft": 8
+        },
+        "construction": {
+          "cost_gp": "250",
+          "workers": 2,
+          "days": 3,
+          "materials_summary": "timber, iron bands, hinges",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 0,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "2",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:dungeon",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:secret-door-assembly",
+      "name": "Secret Door Assembly",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 1000,
+      "tldr": "A concealed doorway; discovery requires normal search adjudication, not universal invisibility.",
+      "details": "Original 2024 campaign proposal. A concealed doorway; discovery requires normal search adjudication, not universal invisibility. Estimated footprint: 5 by 2 feet; height 8 feet. Estimated construction: 4 workers for 10 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "dungeon-component",
+        "scale": "dungeon",
+        "footprint": {
+          "width_ft": 5,
+          "length_ft": 2,
+          "height_ft": 8
+        },
+        "construction": {
+          "cost_gp": "1000",
+          "workers": 4,
+          "days": 10,
+          "materials_summary": "fitted masonry, pivots, concealed latch",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 0,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "10",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:dungeon",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:dungeon-cistern",
+      "name": "Dungeon Cistern",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 1000,
+      "tldr": "Holds up to 5,000 gallons if sound and supplied. Water and purification are not included.",
+      "details": "Original 2024 campaign proposal. Holds up to 5,000 gallons if sound and supplied. Water and purification are not included. Estimated footprint: 10 by 10 feet; height 10 feet. Estimated construction: 5 workers for 15 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "dungeon-component",
+        "scale": "dungeon",
+        "footprint": {
+          "width_ft": 10,
+          "length_ft": 10,
+          "height_ft": 10
+        },
+        "construction": {
+          "cost_gp": "1000",
+          "workers": 5,
+          "days": 15,
+          "materials_summary": "sealed masonry, drain fittings",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 0,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "10",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:dungeon",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:dungeon-ventilation-shaft",
+      "name": "Dungeon Ventilation Shaft",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 750,
+      "tldr": "A twenty-foot air shaft; airflow is not assured without site review. No immunity to smoke or gas.",
+      "details": "Original 2024 campaign proposal. A twenty-foot air shaft; airflow is not assured without site review. No immunity to smoke or gas. Estimated footprint: 5 by 5 feet; height 20 feet. Estimated construction: 4 workers for 12 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "dungeon-component",
+        "scale": "dungeon",
+        "footprint": {
+          "width_ft": 5,
+          "length_ft": 5,
+          "height_ft": 20
+        },
+        "construction": {
+          "cost_gp": "750",
+          "workers": 4,
+          "days": 12,
+          "materials_summary": "cut stone, timber shoring, grate",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 0,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "7",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:dungeon",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:secure-holding-cell",
+      "name": "Secure Holding Cell",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 750,
+      "tldr": "A single-occupant room; escape DC, safety and lawful use are campaign adjudications.",
+      "details": "Original 2024 campaign proposal. A single-occupant room; escape DC, safety and lawful use are campaign adjudications. Estimated footprint: 10 by 10 feet; height 10 feet. Estimated construction: 4 workers for 10 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "dungeon-component",
+        "scale": "dungeon",
+        "footprint": {
+          "width_ft": 10,
+          "length_ft": 10,
+          "height_ft": 10
+        },
+        "construction": {
+          "cost_gp": "750",
+          "workers": 4,
+          "days": 10,
+          "materials_summary": "masonry, iron bars, lock fittings",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 1,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "7",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:dungeon",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:underground-storeroom",
+      "name": "Underground Storeroom",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 1500,
+      "tldr": "Storage for 3,000 pounds. Flooding, moisture and access must be considered.",
+      "details": "Original 2024 campaign proposal. Storage for 3,000 pounds. Flooding, moisture and access must be considered. Estimated footprint: 15 by 20 feet; height 10 feet. Estimated construction: 5 workers for 20 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "dungeon-component",
+        "scale": "dungeon",
+        "footprint": {
+          "width_ft": 15,
+          "length_ft": 20,
+          "height_ft": 10
+        },
+        "construction": {
+          "cost_gp": "1500",
+          "workers": 5,
+          "days": 20,
+          "materials_summary": "masonry, shelving, moisture barriers",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 0,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "15",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:dungeon",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:excavation-staging-area",
+      "name": "Excavation Staging Area",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 300,
+      "tldr": "Six-worker preparation area; it does not make excavation safe or instantly complete.",
+      "details": "Original 2024 campaign proposal. Six-worker preparation area; it does not make excavation safe or instantly complete. Estimated footprint: 20 by 20 feet; height 10 feet. Estimated construction: 4 workers for 5 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "dungeon-component",
+        "scale": "dungeon",
+        "footprint": {
+          "width_ft": 20,
+          "length_ft": 20,
+          "height_ft": 10
+        },
+        "construction": {
+          "cost_gp": "300",
+          "workers": 4,
+          "days": 5,
+          "materials_summary": "shoring timber, tool racks, wheelbarrows",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 6,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "3",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:dungeon",
+        "construction-status:proposal"
+      ]
+    },
+    {
+      "id": "construction:surveyor-s-map-room",
+      "name": "Surveyor’s Map Room",
+      "type": "structure",
+      "icon": "gear",
+      "mode": "original-construction-proposal",
+      "magic": false,
+      "record_kind": "structure",
+      "evidence_ref": "bastions",
+      "entity_id": "publication:bastions-2024",
+      "estimated_value_gp": 750,
+      "tldr": "Six-person planning room. Maps, surveyed distances and regional knowledge are separate inputs.",
+      "details": "Original 2024 campaign proposal. Six-person planning room. Maps, surveyed distances and regional knowledge are separate inputs. Estimated footprint: 15 by 20 feet; height 10 feet. Estimated construction: 4 workers for 12 days in ordinary conditions. Price includes ordinary materials and construction labor; excludes land, permissions, extraordinary site preparation, furnishings not named, ongoing staffing, supplies and taxes. The DM confirms costs and site suitability. This grants no official Bastion orders, special-facility benefits or class features.",
+      "changes": "Independent system-compatible construction concept. No sourcebook cost table or official special-facility effect has been ported.",
+      "flavor": "Its character will come from the people who build and maintain it.",
+      "creative": "Combine it with complementary facilities in a site plan; shared walls, utility connections and bulk discounts require a DM-approved budget.",
+      "structure": {
+        "schema_version": 1,
+        "kind": "fortification",
+        "scale": "castle",
+        "footprint": {
+          "width_ft": 15,
+          "length_ft": 20,
+          "height_ft": 10
+        },
+        "construction": {
+          "cost_gp": "750",
+          "workers": 4,
+          "days": 12,
+          "materials_summary": "timber, tables, map cabinets",
+          "cost_includes": [
+            "ordinary-materials",
+            "construction-labor"
+          ],
+          "cost_excludes": [
+            "land",
+            "permits",
+            "extraordinary-site-work",
+            "ongoing-staff",
+            "operating-supplies",
+            "taxes"
+          ],
+          "estimate_status": "project-house-rule-not-RAW"
+        },
+        "capacity": {
+          "occupants": 6,
+          "status": "design-estimate"
+        },
+        "maintenance": {
+          "gp_per_30_days": "7",
+          "status": "author-estimate-excludes-staff-and-supplies"
+        },
+        "defenses": {
+          "armor_class": null,
+          "hit_points": null,
+          "damage_threshold": null,
+          "status": "DM-object-and-siege-rules-required"
+        },
+        "placement": {
+          "requires_site_review": true,
+          "connection_rules_implemented": false
+        },
+        "automation_status": "data-only-not-a-building-simulator"
+      },
+      "tags": [
+        "construction-scale:castle",
+        "construction-status:proposal"
+      ]
+    }
+  ],
+  "filter_profiles": [
+    {
+      "id": "worldbuilding-workbench",
+      "label": "Worldbuilding workbench",
+      "filters": {
+        "tags": [
+          "theme:worldbuilding"
+        ]
+      },
+      "note": "Original structures and explicitly unconverted construction references."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+schema_version: 1
+profiles:
+- id: all-research
+  label: All research
+  filters: {}
+  default_for_cli: true
+  note: Shows metadata and unreviewed drafts with their status. No rule compatibility
+    is implied.
+- id: tabletop-2024
+  label: 2024 tabletop references
+  filters:
+    rulesets:
+    - dnd-2024
+    exclude_content_statuses:
+    - factual-metadata-only
+    - original-conversion-draft
+  note: Source transcriptions are still unverified; this profile is not a rules-audit
+    certificate.
+- id: mystara-workbench
+  label: Mystara conversion workbench
+  filters:
+    settings:
+    - mystara
+  note: Includes current Mystara drafts. Other setting packs are not silently enabled.
+- id: bg3-reference
+  label: BG3 references
+  filters:
+    rulesets:
+    - bg3
+  note: Game data requiring tabletop conversion.
+- id: thunder-rift-workbench
+  label: Thunder Rift research workbench
+  filters:
+    settings:
+    - thunder-rift
+  note: Original drafts only; source appearances can be found through publication
+    facets. Original-book audits remain pending.
+- id: ninja-workbench
+  label: Ninja equipment workbench
+  filters:
+    tags:
+    - theme:ninja
+  note: Original drafts plus directly relevant game references. A theme is not a class
+    proficiency or ancestry restriction.
+- id: ninja-2024-drafts
+  label: Ninja 2024 drafts only
+  filters:
+    sources:
+    - ninja-2024-drafts
+    rulesets:
+    - dnd-2024
+  note: Original unplaytested drafts. The tabletop-2024 reference profile excludes
+    these drafts.
+- id: worldbuilding-workbench
+  label: Worldbuilding workbench
+  filters:
+    tags:
+    - theme:worldbuilding
+  note: Original structures and explicitly unconverted construction references.
+matching: OR within a facet; AND between facets; repeated --tag remains AND.
+scope_precedence:
+- global-defaults
+- campaign-profile
+- character-overrides
+- current-search
+persistence_status: Profile file and CLI evaluation implemented. Android settings
+  persistence and filter-chip UI are not implemented.

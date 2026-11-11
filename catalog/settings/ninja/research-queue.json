@@ -1,0 +1,60 @@
+{
+  "workstreams": [
+    {
+      "id": "complete-ninja-handbook",
+      "label": "The Complete Ninja’s Handbook (2e)",
+      "status": "selected-equipment-reskins-magic-chapter-pending",
+      "original_book_item_audit_complete": false
+    },
+    {
+      "id": "oriental-adventures-3e",
+      "label": "Oriental Adventures (2001, 3.0)",
+      "status": "selected-equipment-drafts-edition-audit-pending",
+      "original_book_item_audit_complete": false
+    },
+    {
+      "id": "ninja-video-games",
+      "label": "Ninja game equipment research",
+      "status": "selected-games-indexed-and-original-drafts",
+      "original_book_item_audit_complete": false
+    },
+    {
+      "id": "baldurs-gate-1",
+      "label": "Baldur’s Gate I / Enhanced Edition",
+      "status": "selected-names-types-reference-imported-tabletop-adaptation-pending",
+      "original_book_item_audit_complete": false
+    },
+    {
+      "id": "baldurs-gate-2",
+      "label": "Baldur’s Gate II",
+      "status": "selected-names-types-reference-imported-tabletop-adaptation-pending",
+      "original_book_item_audit_complete": false
+    },
+    {
+      "id": "diablo-1",
+      "label": "Diablo I",
+      "status": "selected-names-types-reference-imported-tabletop-adaptation-pending",
+      "original_book_item_audit_complete": false
+    },
+    {
+      "id": "diablo-2",
+      "label": "Diablo II",
+      "status": "selected-names-types-reference-imported-tabletop-adaptation-pending",
+      "original_book_item_audit_complete": false
+    },
+    {
+      "id": "diablo-3",
+      "label": "Diablo III",
+      "status": "selected-names-types-reference-imported-tabletop-adaptation-pending",
+      "original_book_item_audit_complete": false
+    }
+  ],
+  "next_priority": [
+    "verify-2e-miscellaneous-equipment-and-magic-items",
+    "verify-2001-OA-item-editions",
+    "Tenchu-release-specific-audit",
+    "Ninja-Gaiden-release-specific-audit",
+    "ninja-tools-from-Ghost-of-Tsushima-and-Final-Fantasy"
+  ],
+  "review_policy": "References are not converted items. No cultural ancestry or class proficiency inferred from a theme."
+}
