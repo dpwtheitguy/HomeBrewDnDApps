@@ -430,6 +430,23 @@ def main():
                     return ["Published 2024 · Sword of Wounding", "2d6 Necrotic",
                         "DC 15 Constitution", "1 hour", "Vex"].every(value => text.includes(value));
                 })()''',
+                'Legacy Oathbow, Thunderbolts, and Trident show published rules': '''(async () => {
+                    inspect("open5e-srd-2014:srd_oathbow", grid.firstElementChild);
+                    await itemDetails;
+                    const bow = inspection.textContent;
+                    inspect("open5e-srd-2014:srd_hammer-of-thunderbolts", grid.firstElementChild);
+                    await itemDetails;
+                    const hammer = inspection.textContent;
+                    inspect("open5e-srd-2014:srd_trident-of-fish-command", grid.firstElementChild);
+                    await itemDetails;
+                    const trident = inspection.textContent;
+                    return ["Published 2024 · Oathbow", "Longbow", "150/600 ft", "3d6 Piercing"]
+                        .every(value => bow.includes(value)) &&
+                        ["Published 2024 · Hammer of Thunderbolts", "Maul", "2d6 Bludgeoning", "DC 17 Constitution"]
+                        .every(value => hammer.includes(value)) &&
+                        ["Published 2024 · Trident of Fish Command", "DC 15 Wisdom", "telepathic orders", "Topple"]
+                        .every(value => trident.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

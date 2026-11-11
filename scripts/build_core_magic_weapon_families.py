@@ -7,6 +7,37 @@ from build_core_enhancement_cross_references import CATALOG, CURRENT, LEGACY, RE
 
 RULES = 'https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z'
 FAMILIES = {
+    'Hammer of Thunderbolts': {
+        'published_bases': ('Maul', 'Warhammer'),
+        'damage': 'Add 1 to normal weapon damage. The thunderclap inflicts Stunned on a failed save.',
+        'activation': 'Spend 1 charge to make a thrown attack. The hammer returns immediately after a hit or miss.',
+        'change': 'The 2024 hammer can be a Maul or Warhammer. Its giant-related powers require either qualifying attuned item, instead of both.',
+        'Attack bonus': '+1 to attack and damage rolls.',
+        'Range': '5 ft melee; 20/60 ft on the charged throw.',
+        'Area': 'On a thrown hit, the thunderclap affects the target and every creature within 30 ft of it except you. Audible out to 300 ft.',
+        'Saving throw': 'DC 17 Constitution against the thunderclap. Failure leaves a creature Stunned until the end of your next turn.',
+        'Charges': '5 charges. Regain 1d4 + 1 spent charges at dawn.',
+        'Special powers': 'While attuned and wearing an attuned Belt of Giant Strength or Gauntlets of Ogre Power, increase the Strength that item grants by 4 (maximum 30). A natural 20 against a Giant then forces DC 17 Constitution or death.',
+    },
+    'Oathbow': {
+        'published_bases': ('Longbow', 'Shortbow'),
+        'damage': 'A hit against your sworn enemy adds 3d6 Piercing.',
+        'activation': 'When making a ranged attack, speak or sign the oath to designate the target as your sworn enemy.',
+        'change': 'The 2024 Oathbow may be a Longbow or Shortbow. This legacy card retains its Longbow base.',
+        'Duration': 'One sworn enemy at a time, until it dies or dawn seven days later. After it dies, choose a new enemy after the next dawn.',
+        'Special powers': 'Against the sworn enemy, gain Advantage with this bow, ignore Half and Three-Quarters Cover, and ignore Disadvantage from long range. While that enemy lives, attacks with other weapons have Disadvantage.',
+    },
+    'Trident of Fish Command': {
+        'name': 'Trident of Fish Command', 'base': 'Trident', 'evidence': 'a beast that has a swim speed',
+        'damage': 'Dominate Beast deals no damage.',
+        'activation': 'While carrying the trident, spend 1 charge to cast Dominate Beast as an action.',
+        'change': 'The 2024 Trident uses 1d8 Piercing one-handed or 1d10 two-handed and has Topple mastery.',
+        'Spell target': 'One Beast with a Swim Speed that you can see within 60 ft.',
+        'Special powers': 'On a failed save, the Beast is Charmed. On the same plane, you can give it telepathic orders on your turn without an action. Spend your own Reaction to order it to take a Reaction.',
+        'Saving throw': 'DC 15 Wisdom. The Beast has Advantage if you or your allies are fighting it. It repeats the save whenever it takes damage, ending the spell on a success.',
+        'Duration': 'Concentration, up to 1 minute.',
+        'Charges': '3 charges. Regain 1d3 spent charges at dawn.',
+    },
     'Dancing Sword': {
         'published_bases': ('Greatsword', 'Longsword', 'Rapier', 'Scimitar', 'Shortsword'),
         'damage': 'The hovering sword uses your attack roll and adds your ability modifier to its damage.',
