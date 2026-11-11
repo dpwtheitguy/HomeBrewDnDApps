@@ -146,6 +146,11 @@ def main():
                     except ValueError: warnings.append({'id':iid,'issue':'invalid properties_json'})
                 attune=f.get('requires_attunement')
                 if isinstance(attune,str): attune=bool(attune.strip()) and attune.lower() not in ('no','false','none')
+                resistance_attunement = (key == 'open5e-srd-2024' and ismagic and armor
+                        and f['name'].startswith('Armor of Resistance (')
+                        and 'Resistance to one type of damage' in (f.get('desc') or '') and attune is not True)
+                if resistance_attunement:
+                    attune = True
                 tags={f'ruleset:{ruleset}',f'source:{key}',f'type:{typ}',f'icon-type:{icon}',f'category:{slug(category)}','magic' if ismagic else 'mundane'}
                 rarity=f.get('rarity')
                 enhanced_armor = re.search(r' \(\+([123])\)$',f['name']) if armor else None
@@ -169,6 +174,8 @@ def main():
                     item['provenance']['source_url']=armor_facts['source']
                 elif rarity!=f.get('rarity'):
                     item['provenance']['rarity_correction_source']='https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3'
+                if resistance_attunement:
+                    item['provenance']['attunement_correction_source']='https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#ArmorofResistance'
                 if ver=='v2' and typ=='weapon' and not weapon:
                     warnings.append({'id':iid,'issue':'weapon-category item has no resolved weapon relation; no mechanics inferred'})
                 items.append(item)

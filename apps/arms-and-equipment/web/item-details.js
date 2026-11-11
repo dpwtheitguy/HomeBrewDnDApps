@@ -152,16 +152,19 @@ function addSpellReference(panel, item, spells) {
 
 function addPublishedEquipment(panel, item, published, core) {
     const counterpart = core && core.records[item.id];
+    const family = core && core.modern && core.modern[item.id];
+    const armorRule = counterpart || family;
     const reference = published && published.records[item.id];
     const base = counterpart ? JSON.parse(Armory.item(counterpart.target_id))
         : reference ? JSON.parse(Armory.item(reference.base_id)) : item;
     const mechanics = base.mechanics || {};
+    const attunement = (counterpart ? base : item).requires_attunement;
     const armor = mechanics.armor;
     if (!armor || !Number.isInteger(armor.ac_base)) return;
     const shield = armor.name === "Shield";
     const enhancement = item.source_id === "open5e-srd-2024" &&
         /bonus to Armor Class/i.test(item.description || "") && item.name.match(/ \(\+([123])\)$/);
-    const bonus = reference ? reference.bonus : enhancement ? Number(enhancement[1]) : 0;
+    const bonus = armorRule ? armorRule.bonus || 0 : reference ? reference.bonus : enhancement ? Number(enhancement[1]) : 0;
     let ac = shield ? "+" + (armor.ac_base + bonus) : armor.ac_base + bonus;
     if (armor.ac_add_dexmod) {
         ac += " + Dex modifier" + (armor.ac_cap_dexmod == null ? "" : " (max +" + armor.ac_cap_dexmod + ")");
@@ -169,14 +172,16 @@ function addPublishedEquipment(panel, item, published, core) {
     itemDetailsSection(panel, counterpart ? "Verified 2024 armor counterpart" : "Armor statistics", [
         ["Base armor", armor.name],
         [shield ? "Armor class bonus" : "Armor class", ac],
-        ["Training", (armor.document === "srd-2024" || armor.document === "srd-2014")
+        ["Training", (armorRule && armorRule.training) || ((armor.document === "srd-2024" || armor.document === "srd-2014")
             ? (shield ? "Shield" : armor.ac_add_dexmod
-                ? (armor.ac_cap_dexmod == null ? "Light armor" : "Medium armor") : "Heavy armor") : ""],
-        ["Strength requirement", counterpart && counterpart.mithral ? "None" : armor.strength_score_required || ""],
-        ["Stealth disadvantage", counterpart && counterpart.mithral ? "No" : armor.grants_stealth_disadvantage ? "Yes" : ""],
+                ? (armor.ac_cap_dexmod == null ? "Light armor" : "Medium armor") : "Heavy armor") : "")],
+        ["Strength requirement", armorRule && armorRule.mithral ? "None" : armor.strength_score_required || ""],
+        ["Stealth disadvantage", armorRule && armorRule.mithral ? "No" : armor.grants_stealth_disadvantage ? "Yes" : ""],
         ["Weight", Number((mechanics.source_fields || {}).weight) > 0 ? Number(mechanics.source_fields.weight) + " lb" : ""],
-        ["Special powers", counterpart ? counterpart.effect : reference && reference.effects]
-    ], counterpart ? counterpart.source : reference ? published.source : item.ruleset === "dnd-2024" ? equipmentRulesUrl : "", true);
+        ["Attunement", attunement === true ? "Required" : attunement === false ? "None" : ""],
+        ["Special powers", armorRule ? armorRule.effect : reference && reference.effects],
+        ["2024 rules note", counterpart && counterpart.change]
+    ], armorRule ? armorRule.source : reference ? published.source : item.ruleset === "dnd-2024" ? equipmentRulesUrl : "", true);
 }
 
 function addRecordedEncounters(panel, item) {

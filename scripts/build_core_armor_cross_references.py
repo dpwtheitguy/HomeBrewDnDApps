@@ -25,6 +25,26 @@ FAMILIES = {
         'Removes the base armor’s Strength minimum and Stealth disadvantage. It can be worn under normal clothes in the 2024 rules.',
     ),
 }
+REVIEWED_VARIANTS = {
+    'Animated Shield': 'The 2024 activation uses a Bonus Action without a command word.',
+    'Armor of Invulnerability': 'The 2024 resistance and temporary immunity cover Bludgeoning, Piercing, and Slashing damage.',
+    'Arrow-Catching Shield': 'The 2024 bonus and interception apply to ranged attack rolls.',
+    'Dragon Scale Mail': 'The 2024 saving throw advantage applies to dragon breath weapons. Locating a dragon uses a Magic action.',
+    'Glamoured Studded Leather': 'The 2024 appearance change uses a Bonus Action without a command word.',
+    'Shield of Missile Attraction': 'The 2024 curse redirects attacks made with Ranged weapons.',
+    'Spellguard Shield': 'The 2024 protection applies to saves against spells and other magical effects, and to incoming spell attack rolls.',
+}
+REVIEWED_STRUCTURED = {
+    'Dwarven Plate': (2, 'Use a Reaction to reduce forced movement along the ground by up to 10 ft.', ''),
+    'Elven Chain Mail': (1, 'The wearer is treated as trained with this armor.', 'Wearer counts as trained'),
+    'Elven Chain Shirt': (1, 'The wearer is treated as trained with this armor.', 'Wearer counts as trained'),
+    'Plate Armor of Etherealness': (0, 'Once per dawn, use a Magic action and the command word for Etherealness. Removing the armor or repeating the command word as a Magic action ends the effect.', ''),
+}
+STRUCTURED_LEGACY = {
+    'Dwarven Plate': ('Dwarven Plate', ''),
+    'Elven Chain': ('Elven Chain Shirt', 'The Chain Shirt is the matching base for this 2014 entry. The 2024 rules also publish a separate Chain Mail variant.'),
+    'Plate Armor of Etherealness': ('Plate Armor of Etherealness', 'The 2024 entry uses the Etherealness spell duration and activates with a Magic action.'),
+}
 ARMOR_FIELDS = ('ac_base', 'ac_add_dexmod', 'ac_cap_dexmod',
                 'grants_stealth_disadvantage', 'strength_score_required')
 
@@ -54,17 +74,44 @@ def build(catalog):
     for item in items:
         if item['source_id'] == CURRENT:
             modern[key(item['name'])].append(item)
+    published = json.loads((catalog / 'supplements/published-2024-armor-facts.json').read_text())
+    armor_facts = published['records']
+    current_families = {}
+    for item in items:
+        family = item['name'].partition(' (')[0]
+        if item['source_id'] == CURRENT and item['name'] in REVIEWED_STRUCTURED and item['mechanics'].get('armor'):
+            bonus, effect, training = REVIEWED_STRUCTURED[item['name']]
+            current_families[item['id']] = {'source': MAGIC, 'bonus': bonus, 'effect': effect,
+                                            'training': training, 'mithral': False}
+        if item['source_id'] == CURRENT and family in FAMILIES and item['mechanics'].get('armor'):
+            phrase, effect = FAMILIES[family]
+            if phrase in (item.get('description') or '').casefold():
+                current_families[item['id']] = {'source': MAGIC, 'effect': effect, 'mithral': family == 'Mithral Armor'}
     records = {}
     for item in items:
         if item['source_id'] != LEGACY:
             continue
         family = item['name'].partition(' (')[0]
-        matches = modern[key(item['name'])]
+        structured = STRUCTURED_LEGACY.get(item['name'])
+        matches = modern[key(structured[0] if structured else item['name'])]
         if len(matches) != 1:
             continue
         target = matches[0]
+        if (item['name'] in REVIEWED_VARIANTS and item['name'] == target['name']
+                and target['id'] in armor_facts and item['description'] and target['description']):
+            records[item['id']] = {
+                'target_id': target['id'], 'source': published['source'],
+                'change': REVIEWED_VARIANTS[item['name']], 'mithral': False,
+                'effect': armor_facts[target['id']]['effects'], 'bonus': armor_facts[target['id']]['bonus'],
+            }
+            continue
         if (item['magic'] != target['magic'] or item['requires_attunement'] != target['requires_attunement']
                 or not same_base(item, target)):
+            continue
+        if structured and target['id'] in current_families:
+            records[item['id']] = {
+                'target_id': target['id'], **current_families[target['id']], 'change': structured[1],
+            }
             continue
         effect = ''
         if item['magic']:
@@ -77,7 +124,7 @@ def build(catalog):
             'target_id': target['id'], 'source': MAGIC if effect else EQUIPMENT,
             'effect': effect, 'mithral': family == 'Mithral Armor',
         }
-    return {'schema_version': 1, 'records': records}
+    return {'schema_version': 1, 'records': records, 'modern': current_families}
 
 
 if __name__ == '__main__':

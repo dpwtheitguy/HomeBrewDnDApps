@@ -404,6 +404,23 @@ def main():
                         mithral.includes("Armor class18") && mithral.includes("Strength requirementNone") &&
                         mithral.includes("Stealth disadvantageNo") && shield.includes("Armor class bonus+2");
                 })()''',
+                '2024 armor families show attunement and Mithral exceptions': '''(async () => {
+                    inspect("open5e-srd-2024:srd-2024_armor-of-resistance-splint", grid.firstElementChild);
+                    await itemDetails;
+                    const resistance = inspection.textContent;
+                    inspect("open5e-srd-2024:srd-2024_mithral-armor-plate", grid.firstElementChild);
+                    await itemDetails;
+                    const mithral = inspection.textContent;
+                    return resistance.includes("AttunementRequired") &&
+                        mithral.includes("Strength requirementNone") && mithral.includes("Stealth disadvantageNo");
+                })()''',
+                'Legacy Dragon Scale Mail shows the 2024 variant and its rule change': '''(async () => {
+                    inspect("open5e-srd-2014:srd_dragon-scale-mail", grid.firstElementChild);
+                    await itemDetails;
+                    const text = inspection.textContent;
+                    return text.includes("Verified 2024 armor counterpart") && text.includes("Armor class15")
+                        && text.includes("2024 rules note") && text.includes("Magic action");
+                })()''',
                 'Armor cards distinguish shield bonuses and worn AC': '''(async () => {
                     inspect("open5e-srd-2024:srd-2024_arrow-catching-shield", grid.firstElementChild);
                     await itemDetails;

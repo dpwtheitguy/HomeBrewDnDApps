@@ -108,7 +108,7 @@ def read_armor(armor, *, modern, errors):
     }
 
 
-def audit_row(item, indexed, bg3, curated, prices, published, core):
+def audit_row(item, indexed, bg3, curated, prices, published, core, modern_families):
     errors, gaps = [], []
     item_id = item['id']
     mechanics = item.get('mechanics') or {}
@@ -136,7 +136,10 @@ def audit_row(item, indexed, bg3, curated, prices, published, core):
         target = indexed.get(profile['target_id'], {})
         target_armor = target.get('mechanics', {}).get('armor')
         if (item['source_id'] != 'open5e-srd-2014' or target.get('source_id') != 'open5e-srd-2024'
-                or not target_armor or not same_base(item, target)):
+                or not target_armor
+                or (not same_base(item, target) and not (
+                    profile.get('change') and target['id'] in published and item['name'] == target['name']
+                ))):
             errors.append('invalid verified armor counterpart')
             gaps.append('verify the published 2024 armor link')
         else:
@@ -145,6 +148,10 @@ def audit_row(item, indexed, bg3, curated, prices, published, core):
             fields.update(read_armor(target_armor, modern=True, errors=errors))
             if profile['mithral']:
                 fields.update(strength_requirement='None', stealth_disadvantage='No')
+            if profile.get('training'):
+                fields['training'] = profile['training']
+            if profile.get('bonus'):
+                fields['enhancement_bonus'] = f'+{profile["bonus"]}'
             if profile['effect']:
                 fields['effects'] = profile['effect']
     elif item_id in published:
@@ -188,6 +195,15 @@ def audit_row(item, indexed, bg3, curated, prices, published, core):
                 if (item.get('rarity') or '').replace('-', ' ') != rarity:
                     errors.append('published armor enhancement and rarity disagree')
                 fields['enhancement_bonus'] = f'+{bonus}'
+        family = modern_families.get(item_id)
+        if family:
+            fields['effects'] = family['effect']
+            if family.get('bonus'):
+                fields['enhancement_bonus'] = f'+{family["bonus"]}'
+            if family.get('training'):
+                fields['training'] = family['training']
+            if family['mithral']:
+                fields.update(strength_requirement='None', stealth_disadvantage='No')
         if item['magic'] and not item.get('description'):
             gaps.append('magic armor is missing its item-specific effects')
     elif base_id and item['ruleset'] == 'dnd-2024':
@@ -206,8 +222,9 @@ def audit_row(item, indexed, bg3, curated, prices, published, core):
         gaps.append('legacy armor facts need an item-specific 2024 profile')
     else:
         gaps.append('armor class or shield bonus and item-specific rules require source review')
-    if item.get('requires_attunement') is not None:
-        fields['attunement'] = 'Required' if item['requires_attunement'] else 'No'
+    attunement = indexed.get(core.get(item_id, {}).get('target_id'), item).get('requires_attunement')
+    if attunement is not None:
+        fields['attunement'] = 'Required' if attunement else 'No'
     weight = (mechanics.get('source_fields') or {}).get('weight')
     if re.fullmatch(r'\d+(?:\.\d+)?', str(weight)) and float(weight) > 0:
         fields['weight'] = f'{float(weight):g} lb'
@@ -270,8 +287,8 @@ def main():
     prices = load(catalog, 'item-prices')['records']
     published = load(catalog, 'published-2024-armor-facts')['records']
     core_path = catalog / 'supplements/core-armor-cross-references.json'
-    core = load(catalog, 'core-armor-cross-references')['records'] if core_path.is_file() else {}
-    rows = [audit_row(item, indexed, bg3, curated, prices, published, core) for item in items]
+    core = load(catalog, 'core-armor-cross-references') if core_path.is_file() else {}
+    rows = [audit_row(item, indexed, bg3, curated, prices, published, core.get('records', {}), core.get('modern', {})) for item in items]
     errors, pending = write_reports(catalog, rows)
     print(f'{len(rows):,} armor and shield records, {errors:,} structural errors, {pending:,} review gaps.')
     return int(args.strict and bool(errors))
