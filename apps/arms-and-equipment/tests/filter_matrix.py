@@ -477,6 +477,17 @@ def main():
                         && ["Verified 2024 equipment mapping", "14 + Dex modifier (max +2)", "Medium armor"]
                             .every(value => armor.includes(value));
                 })()''',
+                'Named Mystara drafts show healing and lightweight plate rules': '''(async () => {
+                    inspect("gazetteer-local-pdf-reference:b3c8c399c9fb2980", grid.firstElementChild);
+                    await itemDetails;
+                    const sword = inspection.textContent;
+                    inspect("gazetteer-local-pdf-reference:579294a755b5b670", grid.firstElementChild);
+                    await itemDetails;
+                    const armor = inspection.textContent;
+                    return ["DM review", "2d6 Radiant", "2d8 HP", "dawn"].every(value => sword.includes(value))
+                        && ["DM review", "Armor class18", "10 lb", "Heavy armor"]
+                            .every(value => armor.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

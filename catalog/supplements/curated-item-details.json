@@ -2429,6 +2429,126 @@
         },
         "profile_kind": "published-armor-mapping"
       }
+    ],
+    "gazetteer-local-pdf-reference:2e9f081b47c23892": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing one-handed or 1d10 Slashing two-handed, plus 2 and the relevant ability modifier. Against a Human, the bonus increases to +3.",
+          "Range": "5 ft melee",
+          "Activation": "Make a normal weapon attack. Apply the target-specific effect when it qualifies.",
+          "Attack bonus": "+2 to attack and damage rolls, or +3 against a Human. The DM determines the species of NPCs whose stat block does not specify one.",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Attunement": "Required",
+          "Legacy source": "GAZ9, p. 58, Rewen Verdier. The legacy sword is +2, or +3 against humans.",
+          "Conversion notes": "The source names a sword without specifying its base type. This conversion uses a Longsword and requires attunement."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 base equipment"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-local-pdf-reference:3cfc4d0b0b3be2b9": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing one-handed or 1d10 Slashing two-handed, plus 1 and the relevant ability modifier. Against a creature with a Swim Speed in its stat block, the bonus increases to +3.",
+          "Range": "5 ft melee",
+          "Activation": "Make a normal weapon attack. Apply the target-specific effect when it qualifies.",
+          "Attack bonus": "+1 to attack and damage rolls, or +3 against creatures with a Swim Speed in their stat block.",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Attunement": "Required",
+          "Legacy source": "GAZ9, p. 61, Welcome Aboard. The captain has a sword +1, or +3 against sea creatures.",
+          "Conversion notes": "A Longsword is the chosen base. A Swim Speed in the target’s stat block gives the legacy sea-creature bonus a defined trigger."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 base equipment"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-local-pdf-reference:b2ff3c59dbdd8c36": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#GiantSlayer",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing, plus 2 and the relevant ability modifier. Add 1d8 Piercing on a hit against a Giant.",
+          "Range": "5 ft melee",
+          "Activation": "Make a normal weapon attack. Apply the target-specific effect when it qualifies.",
+          "Attack bonus": "+2 to attack and damage rolls.",
+          "Properties": "Finesse",
+          "Mastery": "Vex",
+          "Attunement": "Required",
+          "Legacy source": "GAZ11, p. 64, Boris Staffleheim. The legacy rapier is +2, or +4 against giants.",
+          "Special powers": "With a year of Darokin military training, use a Reaction while wielding the rapier to gain +2 AC against one melee attack you can see. Declare after the hit is announced and before damage.",
+          "Conversion notes": "Keeps the +2 enhancement. The Giant damage rider represents the legacy conditional +4 without raising the attack modifier above +2. The defense follows the catalog’s Darokin Rapier conversion."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_rapier",
+          "label": "Open 2024 base equipment"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-local-pdf-reference:b3c8c399c9fb2980": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#SunBlade",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing one-handed or 1d10 Slashing two-handed, plus 2 and the relevant ability modifier. Add 2d6 Radiant on a hit against an Undead.",
+          "Range": "5 ft melee",
+          "Activation": "Make a normal weapon attack. Apply the target-specific effect when it qualifies.",
+          "Attack bonus": "+2 to attack and damage rolls.",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Attunement": "Required",
+          "Legacy source": "GAZ11, p. 62, Corwyn Linton. The legacy sword is +2, or +5 against undead, and has a Healing talent.",
+          "Special powers": "While holding the sword, you can take a Magic action to touch a creature and restore 2d8 HP. This healing has no effect on Constructs or Undead. Once used, it recharges at dawn.",
+          "Conversion notes": "The 2024 Sun Blade informs the Radiant rider. The Healing talent becomes a fixed touch heal with a daily recharge."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 base equipment"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-local-pdf-reference:579294a755b5b670": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "10 lb",
+          "Attunement": "None",
+          "Special powers": "Kelar’s suit uses Plate Armor rules at the weight of Leather Armor. Strength below 15 reduces Speed by 10 ft.",
+          "Legacy source": "GAZ9, pp. 21 and 61–62. Guild Elsan makes shell armor. Captain Kelar’s suit protects like plate and has leather encumbrance.",
+          "Conversion notes": "This profile represents Kelar’s unenhanced suit. The 10 lb weight uses the 2024 Leather Armor benchmark. The separate +1 example worn by Linias is recorded on p. 57."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 base equipment"
+        }
+      }
     ]
   }
 }

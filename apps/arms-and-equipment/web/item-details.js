@@ -358,7 +358,8 @@ function addItemDetails(panel, item, supplements) {
     entries.forEach(entry => {
         const label = entry.status === "original-draft" ? entry.label + " · DM review" : entry.label;
         const playableDraft = entry.status === "original-draft" &&
-            ["Damage", "Range", "Activation"].every(field => entry.fields[field]);
+            (["Damage", "Range", "Activation"].every(field => entry.fields[field]) ||
+                (entry.fields.Training && (entry.fields["Armor class"] || entry.fields["Armor class bonus"])));
         const details = itemDetailsSection(panel, label, Object.entries(entry.fields), entry.source,
             entry.status !== "original-draft" || playableDraft);
         if (entry.related_item) {
