@@ -498,6 +498,18 @@ def main():
                     return ["DM review", "Veiled Flight", "fourth dawn", "Nick"].every(value => dagger.includes(value))
                         && ["DM review", "then −2", "Remove Curse", "Topple"].every(value => trident.includes(value));
                 })()''',
+                'Mystara mail and Dragon Slayer show verified and draft rules': '''(async () => {
+                    inspect("gazetteer-local-pdf-reference:2795e93f9805c38d", grid.firstElementChild);
+                    await itemDetails;
+                    const armor = inspection.textContent;
+                    inspect("gazetteer-local-pdf-reference:c5e5f4a776f2dae2", grid.firstElementChild);
+                    await itemDetails;
+                    const sword = inspection.textContent;
+                    return ["Verified 2024 equipment mapping", "13 + Dex modifier (max +2)", "Medium armor"]
+                        .every(value => armor.includes(value)) &&
+                        ["DM review", "green dragon", "DC 17 Dexterity", "10d6 + 40 Force", "43,800 ducats"]
+                            .every(value => sword.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

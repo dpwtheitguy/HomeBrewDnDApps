@@ -2668,6 +2668,145 @@
           "label": "Open 2024 base equipment"
         }
       }
+    ],
+    "gazetteer-local-pdf-reference:2795e93f9805c38d": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "None",
+          "Special powers": "Use standard Chain Shirt rules. The Rollstone supply markings and sizing are source details.",
+          "Legacy source": "GAZ8, p. 40, Rollstone Keep. The arsenal holds oiled mail shirts made for halflings."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt",
+          "label": "Open 2024 base equipment"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "gazetteer-local-pdf-reference:db7116612ea591ff": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "None",
+          "Special powers": "The crafted suit grants +1 AC above standard Leather Armor. Wyvern hide alone grants no additional protection in this mapping.",
+          "Legacy source": "GAZ4, p. 38, Safari Island. The Gazetteer gives +1 leather armor as an optional result of crafting with wyvern hide."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 base equipment"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "gazetteer-local-pdf-reference:035ee0dce0d8fb0b": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "None",
+          "Special powers": "Use Scale Mail training and donning rules for this suit of overlapping plates.",
+          "Legacy source": "GAZ2, p. 12, Makistan. The local warriors favor lamellar armor.",
+          "Conversion notes": "Scale Mail is the chosen 2024 base for the legacy lamellar description."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:d7be5f2ecfb34fa1": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d8 Piercing plus Dexterity modifier.",
+          "Range": "150/600 ft",
+          "Activation": "Make a ranged weapon attack using an arrow.",
+          "Mastery": "Slow",
+          "Properties": "Ammunition (Arrow), Heavy, Two-Handed",
+          "Attunement": "None",
+          "Legacy source": "GAZ2, p. 12, Makistan. The layered bow is described as powerful and favored by Makistani warriors.",
+          "Conversion notes": "Use the published Longbow profile for the powerful bow. Lamination describes the construction."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open 2024 base equipment"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-local-pdf-reference:049cf0396013b94a": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#FlameTongue",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing plus the relevant ability modifier. While lit, add 2d6 Fire on a hit.",
+          "Range": "5 ft melee",
+          "Activation": "The blade ignites when you draw it while attuned. Use a Bonus Action while holding it to extinguish or reignite it.",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Attunement": "Required",
+          "Area": "While lit, 40 ft of Bright Light and an additional 40 ft of Dim Light. The flames go out if you drop, stow, or sheathe it.",
+          "Legacy source": "GAZ8, p. 17, The Ballad of Nob Nar. The named blade glows with magical fire when drawn.",
+          "Conversion notes": "Shortsword is the chosen base. Flame Tongue supplies the damage and light benchmarks."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 base equipment"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-local-pdf-reference:c5e5f4a776f2dae2": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#DragonSlayer",
+        "fields": {
+          "Category": "Legendary martial melee weapon",
+          "Damage": "1d8 Slashing one-handed or 1d10 two-handed, plus 3 and the relevant ability modifier. On a hit against a green dragon, add 3d6 Slashing.",
+          "Range": "5 ft melee",
+          "Activation": "On a hit against a green dragon, you may invoke the blade’s disintegration after resolving the weapon damage.",
+          "Attack bonus": "+3 to attack and damage rolls.",
+          "Mastery": "Sap",
+          "Properties": "Versatile (1d10)",
+          "Attunement": "Required",
+          "Saving throw": "DC 17 Dexterity. On a failed save, the dragon takes 10d6 + 40 Force damage and disintegrates if this damage reduces it to 0 HP. On a success it takes no Force damage.",
+          "Recharge": "Disintegration recharges at dawn. The 3d6 rider applies on every hit against a green dragon.",
+          "Legacy source": "GAZ3, p. 65, Creating Spells and Magical Items. The +5 example restricts its disintegration effect to green dragons and costs 43,800 ducats to make.",
+          "Conversion notes": "Use a Longsword +3 as the base. The legacy +5 survives in the source title. The 2024 Dragon Slayer and Disintegrate rules inform the restricted damage and daily use."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword-plus-3",
+          "label": "Open 2024 base equipment"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
     ]
   }
 }
