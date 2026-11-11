@@ -189,6 +189,7 @@ def audit_row(item, all_items, profiles, game, curated, exact, prices, legacy_ga
         fields = {
             'damage': published[0]['Damage'], 'range': published[0]['Range'],
             'attack_bonus': published[0].get('Attack bonus'), 'activation': published[0]['Activation'],
+            'training': published[0].get('Category'), 'mastery': published[0].get('Mastery'),
         }
     elif kind == 'custom-2024-draft':
         evidence = 'item-specific-draft'
@@ -308,6 +309,8 @@ def audit(catalog):
     game = load(catalog, 'bg3-weapon-rules')
     curated = load(catalog, 'curated-item-details')['records']
     curated.update(load(catalog, 'published-2024-weapon-facts')['records'])
+    if (catalog / 'supplements/core-magic-weapon-families.json').is_file():
+        curated.update(load(catalog, 'core-magic-weapon-families')['records'])
     exact = load(catalog, 'dnd-2024-item-cross-references')['records']
     prices = load(catalog, 'item-prices')['records']
     legacy_game = load(catalog, 'legacy-game-weapon-facts')['records']

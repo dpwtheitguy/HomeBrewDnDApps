@@ -18,7 +18,8 @@ const itemDetails = Promise.all([
     loadSupplement("published-2024-weapon-facts.json"),
     loadSupplement("published-2024-armor-facts.json"),
     loadSupplement("bg3-armor-effects.json"),
-    loadSupplement("core-armor-cross-references.json")
+    loadSupplement("core-armor-cross-references.json"),
+    loadSupplement("core-magic-weapon-families.json")
 ]);
 const equipmentRulesUrl = "https://www.dndbeyond.com/sources/dnd/br-2024/equipment";
 const magicItemRulesUrl = "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items";
@@ -328,7 +329,7 @@ function addLegacyDmgDetails(panel, item) {
 
 function addItemDetails(panel, item, supplements) {
     const [bg3, curated, spells, weapons, references, legacyGames, diabloWeapons, bg3Availability, enhancements,
-        diabloUniques, publishedFacts, publishedArmor, bg3Armor, coreArmor] = supplements;
+        diabloUniques, publishedFacts, publishedArmor, bg3Armor, coreArmor, magicFamilies] = supplements;
     const legacyGame = (legacyGames && legacyGames.records[item.id]) ||
         (diabloWeapons && diabloWeapons.records[item.id]) ||
         (diabloUniques && diabloUniques.records[item.id]);
@@ -345,9 +346,12 @@ function addItemDetails(panel, item, supplements) {
         });
     }
     addLegacyDmgDetails(panel, item);
-    if (!addPublishedCrossReference(panel, item, references, enhancements)) addWeaponProfile(panel, item, weapons);
+    const familyEntries = magicFamilies && magicFamilies.records[item.id] || [];
+    if (!familyEntries.length && !addPublishedCrossReference(panel, item, references, enhancements)) {
+        addWeaponProfile(panel, item, weapons);
+    }
     const entries = (curated && curated.records[item.id] || [])
-        .concat(publishedFacts && publishedFacts.records[item.id] || []);
+        .concat(publishedFacts && publishedFacts.records[item.id] || [], familyEntries);
     entries.forEach(entry => {
         const label = entry.status === "original-draft" ? entry.label + " · DM review" : entry.label;
         const playableDraft = entry.status === "original-draft" &&

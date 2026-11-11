@@ -384,6 +384,14 @@ def main():
                         crossbow.includes("Verified 2024 equipment counterpart") &&
                         crossbow.includes("Hand Crossbow") && crossbow.includes("Vex");
                 })()''',
+                'Vicious Longsword shows the verified 2024 hit trigger': '''(async () => {
+                    inspect("open5e-srd-2014:srd_vicious-weapon-longsword", grid.firstElementChild);
+                    await itemDetails;
+                    const text = inspection.textContent;
+                    return text.includes("Published 2024 · Vicious Weapon") && text.includes("Base 1d8 Slashing")
+                        && text.includes("Add 2d6") && text.includes("every hit against a creature")
+                        && text.includes("Open published 2024 item") && text.includes("Sap");
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
