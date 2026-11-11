@@ -411,6 +411,18 @@ def main():
                         ["Published 2024 · Dagger of Venom", "Bonus Action", "2d10 Poison",
                             "DC 15 Constitution", "next dawn", "Nick"].every(value => dagger.includes(value));
                 })()''',
+                'Legacy Dragon Slayer and Lightning Javelin show 2024 variant rules': '''(async () => {
+                    inspect("open5e-srd-2014:srd_dragon-slayer-longsword", grid.firstElementChild);
+                    await itemDetails;
+                    const slayer = inspection.textContent;
+                    inspect("open5e-srd-2014:srd_javelin-of-lightning", grid.firstElementChild);
+                    await itemDetails;
+                    const javelin = inspection.textContent;
+                    return ["Published 2024 · Dragon Slayer", "3d6", "Sap", "Open published 2024 item"]
+                        .every(value => slayer.includes(value)) &&
+                        ["Published 2024 · Javelin of Lightning", "120 ft", "DC 13 Dexterity", "4d6 Lightning"]
+                        .every(value => javelin.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

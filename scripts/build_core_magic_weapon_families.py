@@ -7,6 +7,75 @@ from build_core_enhancement_cross_references import CATALOG, CURRENT, LEGACY, RE
 
 RULES = 'https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z'
 FAMILIES = {
+    'Dragon Slayer': {
+        'name': 'Dragon Slayer', 'any_base': True, 'evidence': 'extra 3d6 damage of the weapon',
+        'damage': 'Add 1 to normal damage, plus 3d6 of the weapon’s damage type on a hit against a Dragon.',
+        'activation': 'Extra damage on a weapon hit against a Dragon.',
+        'change': 'The 2024 enchantment can apply to any simple or martial weapon. This card uses the legacy variant’s matching 2024 base.',
+        'Attack bonus': '+1 to attack and damage rolls.',
+    },
+    'Dwarven Thrower': {
+        'name': 'Dwarven Thrower', 'base': 'Warhammer', 'evidence': 'extra 1d8 force damage',
+        'damage': 'Add 3 to normal damage. A ranged hit adds 1d8 Force, or 2d8 Force against a Giant.',
+        'activation': 'Make a melee or thrown weapon attack. After a throw, it returns to your hand on a hit or miss.',
+        'change': 'The extra thrown damage is Force. Attunement now also works through a Belt of Dwarvenkind.',
+        'Attack bonus': '+3 to attack and damage rolls.',
+        'Range': '5 ft melee; 20/60 ft thrown',
+        'Added property': 'Thrown (20/60 ft)',
+        'Attunement': 'Required by a Dwarf or a creature attuned to a Belt of Dwarvenkind.',
+    },
+    'Javelin of Lightning': {
+        'name': 'Javelin of Lightning', 'base': 'Javelin', 'evidence': 'forgo making a ranged attack roll',
+        'damage': 'On a normal hit, choose Piercing or Lightning. The bolt deals 4d6 Lightning, halved on a successful save.',
+        'activation': 'When throwing at a target within 120 ft, replace the ranged attack roll with the bolt.',
+        'change': 'The 2024 bolt uses a saving throw for the target as well as intervening creatures.',
+        'Area': 'A 5 ft wide line from you to the target, excluding you.',
+        'Saving throw': 'DC 13 Dexterity for the target and each other creature in the line.',
+        'Recharge': 'The bolt recharges at dawn. The javelin reappears in your hand after the bolt resolves.',
+    },
+    'Mace of Disruption': {
+        'name': 'Mace of Disruption', 'base': 'Mace', 'evidence': '25 hit points or fewer',
+        'damage': 'Add 2d6 Radiant on a hit against a Fiend or Undead.',
+        'activation': 'On a hit against a Fiend or Undead, check its remaining HP after damage.',
+        'change': 'The 2024 mace uses the matching base weapon and Sap mastery.',
+        'Saving throw': 'If the target has 25 HP or fewer, DC 15 Wisdom. Failure destroys it. Success leaves it Frightened until the end of your next turn.',
+        'Area': 'While held, 20 ft Bright Light and another 20 ft Dim Light.',
+    },
+    'Mace of Smiting': {
+        'name': 'Mace of Smiting', 'base': 'Mace', 'evidence': 'extra 7 bludgeoning damage',
+        'damage': 'Add 1 to damage, or 3 against a Construct. A natural 20 adds another 7 Bludgeoning, or 14 against a Construct.',
+        'activation': 'When you roll a 20 on an attack, a Construct at 25 HP or fewer after the damage is destroyed.',
+        'change': 'The 2024 natural-20 damage is fixed at 7 or 14, replacing the legacy dice.',
+        'Attack bonus': '+1 to attack and damage, increasing to +3 against Constructs.',
+    },
+    'Mace of Terror': {
+        'name': 'Mace of Terror', 'base': 'Mace', 'evidence': 'make opportunity attacks',
+        'source': 'https://www.dndbeyond.com/magic-items/9228835-mace-of-terror',
+        'damage': 'The fear effect deals no damage.',
+        'activation': 'While holding the mace, use a Magic action and spend 1 charge.',
+        'change': 'The 2024 effect forbids Opportunity Attacks specifically. The 2014 version prohibited all reactions.',
+        'Area': 'Choose creatures within 30 ft of you.',
+        'Saving throw': 'DC 15 Wisdom. Repeat at the end of each affected turn to end the effect on a success.',
+        'Duration': 'Up to 1 minute. Frightened targets try to move away and cannot make Opportunity Attacks. Their action is limited to Dash or trying to escape restraint on movement. If they cannot move anywhere, they can Dodge.',
+        'Charges': '3 charges. Regain 1d3 spent charges at dawn.',
+    },
+    'Scimitar of Speed': {
+        'name': 'Scimitar of Speed', 'base': 'Scimitar', 'evidence': 'as a bonus action on each of your turns',
+        'damage': 'Add 2 to normal damage.',
+        'activation': 'You can attack once with this weapon using a Bonus Action on each of your turns.',
+        'change': 'The 2024 scimitar has Nick mastery. The item’s Bonus Action attack is a separate feature.',
+        'Attack bonus': '+2 to attack and damage rolls.',
+    },
+    'Sun Blade': {
+        'name': 'Sun Blade', 'base': 'Longsword', 'evidence': 'blade of radiance',
+        'activation': 'While gripping the hilt, use a Bonus Action to create or dismiss the blade. While it exists, use a Magic action to adjust the light.',
+        'change': 'The 2024 Sun Blade uses the Longsword’s Sap mastery and a Magic action to adjust its sunlight.',
+        'Damage': '1d8 Radiant one-handed or 1d10 Radiant two-handed, plus 2. Add 1d8 Radiant on a hit against an Undead.',
+        'Attack bonus': '+2 to attack and damage rolls.',
+        'Properties': 'Finesse, Versatile (1d10)',
+        'Training': 'Longsword or Shortsword proficiency applies.',
+        'Area': 'Sunlight. 15 ft Bright Light plus another 15 ft Dim Light. Adjust both bands in 5 ft steps, from 10 ft to 30 ft each.',
+    },
     'Defender': {
         'prefix': 'Defender (', 'evidence': 'transfer some or all of the weapon',
         'damage': 'Add the portion of the +3 bonus retained for attacks.',
@@ -91,7 +160,7 @@ def details(item, family, rules, mechanics):
             properties.append(f"{prop['name']} ({detail})" if detail else prop['name'])
     fields = {
         'Base weapon': weapon['name'],
-        'Damage': f"Base {weapon['damage_dice']} {weapon['damage_type'].title()}. {rules['damage']}",
+        'Damage': rules.get('Damage') or f"Base {weapon['damage_dice']} {weapon['damage_type'].title()}. {rules['damage']}",
         'Range': distance,
         'Properties': ', '.join(properties) or 'None',
         'Activation': rules['activation'],
@@ -101,7 +170,7 @@ def details(item, family, rules, mechanics):
     }
     fields.update((key, value) for key, value in rules.items() if key[0].isupper())
     return {'status': 'published-reference', 'label': 'Published 2024 · ' + family,
-            'source': RULES + '#' + family.replace(' ', ''), 'fields': fields}
+            'source': rules.get('source') or RULES + '#' + family.replace(' ', ''), 'fields': fields}
 
 
 def main():
@@ -112,12 +181,16 @@ def main():
             (LEGACY, CURRENT))]
     bases = {item['name']: item['mechanics'] for item in items
              if item['source_id'] == CURRENT and item['magic'] is False and item['mechanics'].get('weapon')}
-    records, targets = {}, {}
+    records, targets, generic_targets = {}, {}, {}
     for item in items:
         weapon = item['mechanics'].get('weapon')
         if item['source_id'] != CURRENT or item['magic'] is not True:
             continue
         for family, rules in FAMILIES.items():
+            if rules.get('any_base') and not weapon and item['name'] == rules['name']:
+                if rules['evidence'] in (item.get('description') or '').casefold():
+                    generic_targets[family] = item
+                continue
             base = weapon['name'] if weapon else rules.get('base')
             if not base or (rules.get('base') and base != rules['base']):
                 continue
@@ -139,7 +212,10 @@ def main():
         family = item['name'].partition(' (')[0]
         if item['source_id'] != LEGACY or item['magic'] is not True or family not in FAMILIES or not weapon:
             continue
-        target = targets.get((family, modern_plain_name(weapon['name'])))
+        base = modern_plain_name(weapon['name'])
+        target = targets.get((family, base))
+        if not target and family in generic_targets and base in bases:
+            target = generic_targets[family], bases[base]
         if not target or not item.get('description'):
             continue
         target, mechanics = target
