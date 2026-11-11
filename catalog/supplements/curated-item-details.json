@@ -2807,6 +2807,149 @@
         },
         "profile_kind": "custom-2024-draft"
       }
+    ],
+    "gazetteer-local-pdf-reference:f43daed45edb4310": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing plus 2 and the relevant ability modifier.",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Activation": "Make a normal weapon attack.",
+          "Attunement": "None",
+          "Legacy source": "GAZ3, p. 92, The Tower of Knowledge.",
+          "Attack bonus": "+2 to attack and damage rolls.",
+          "Encounter detail": "In the Tower of Knowledge, pull the dagger out of the library dome to open the door."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger-plus-2",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:4819ecdd19e49ae2": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing one-handed or 1d10 two-handed, plus Strength modifier.",
+          "Range": "5 ft melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Activation": "Make a normal weapon attack.",
+          "Attunement": "None",
+          "Legacy source": "GAZ4, p. 36, The Guard. The bastard sword is available to Royal Brigade veterans.",
+          "Conversion notes": "Use the 2024 Longsword for the hand-and-a-half sword."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:7f9d7a8198c9f827": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing one-handed or 1d10 two-handed, plus 1 and Strength modifier.",
+          "Range": "5 ft melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Activation": "Make a normal weapon attack.",
+          "Attunement": "None",
+          "Legacy source": "GAZ3, p. 66, Generic List of Enchantment Costs. 3,000 ducats and 11 days.",
+          "Attack bonus": "+1 to attack and damage rolls.",
+          "Conversion notes": "The table does not specify a sword type. The conversion uses the published Longsword +1."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword-plus-1",
+          "label": "Open 2024 base equipment"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-local-pdf-reference:3e6f67832110260c": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d8 Piercing plus Dexterity modifier.",
+          "Range": "150/600 ft",
+          "Properties": "Ammunition (Arrow), Heavy, Two-Handed",
+          "Mastery": "Slow",
+          "Activation": "Make a ranged weapon attack with an arrow.",
+          "Attunement": "None",
+          "Legacy source": "GAZ9, p. 22, Guild Verdier. The +2 to hit applies when a member of the guild uses a Minrothad bow.",
+          "Attack bonus": "+2 to attack rolls if the wielder is a member of Guild Verdier.",
+          "Conversion notes": "Use a Longbow as the base. The guild benefit retains its original attack-only scope."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open 2024 base equipment"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-local-pdf-reference:3bfffd68057a3da8": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#SwordofSharpness",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Bludgeoning one-handed or 1d10 two-handed, plus Strength modifier.",
+          "Range": "5 ft melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Push",
+          "Activation": "Make a normal weapon attack.",
+          "Attunement": "None",
+          "Legacy source": "GAZ9, p. 12, Augrism. The stone hammer can shatter a metal weapon on a natural 20.",
+          "Special powers": "On a natural 20 against a creature, choose one nonmagical metal weapon it holds. The creature makes a DC 15 Strength saving throw. On failure, that weapon breaks and cannot be used until repaired.",
+          "Recharge": "Once the shattering effect succeeds, it cannot be used again until dawn.",
+          "Conversion notes": "Warhammer is the chosen base. The save, nonmagical restriction and recharge are conversion choices."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_warhammer",
+          "label": "Open 2024 base equipment"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-local-pdf-reference:82e2b50caafdfb82": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning one-handed or 1d8 two-handed, plus Strength modifier.",
+          "Range": "5 ft melee; touch for healing",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Activation": "Make a normal attack with the withered end, or use a Magic action while holding the staff to touch a creature with the budding end and spend 1 charge.",
+          "Attunement": "Required",
+          "Legacy source": "GAZ11, p. 56, The Wanderer’s adventure. The withered end deals 2d6 damage and gains a charge. The budding end spends a charge to restore 2d6 HP.",
+          "Special powers": "Once per turn on a hit with the withered end against a creature other than a Construct or Undead, you can deal 2d6 Necrotic in place of all normal hit damage and gain 1 charge. The budding end restores 2d6 HP to the creature touched.",
+          "Charges": "The staff starts with 0 charges and holds up to 3. The withered end cannot draw energy from the same creature again until dawn.",
+          "Conversion notes": "The 2024 conversion adds a charge cap and limits repeat harvesting from one target."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 base equipment"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
     ]
   }
 }

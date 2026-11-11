@@ -510,6 +510,16 @@ def main():
                         ["DM review", "green dragon", "DC 17 Dexterity", "10d6 + 40 Force", "43,800 ducats"]
                             .every(value => sword.includes(value));
                 })()''',
+                'Mystara staff and library dagger show distinct rules': '''(async () => {
+                    inspect("gazetteer-local-pdf-reference:82e2b50caafdfb82", grid.firstElementChild);
+                    await itemDetails;
+                    const staff = inspection.textContent;
+                    inspect("gazetteer-local-pdf-reference:f43daed45edb4310", grid.firstElementChild);
+                    await itemDetails;
+                    const dagger = inspection.textContent;
+                    return ["DM review", "2d6 Necrotic", "2d6 HP", "holds up to 3"].every(value => staff.includes(value))
+                        && ["Verified 2024 equipment mapping", "library dome", "+2 to attack"].every(value => dagger.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
