@@ -45,6 +45,36 @@ def modern_variant_name(legacy_name):
     return f'{modern_base} (+{bonus})'
 
 
+def modern_plain_name(name):
+    return {'Crossbow, Hand': 'Hand Crossbow', 'Crossbow, Heavy': 'Heavy Crossbow',
+            'Crossbow, Light': 'Light Crossbow'}.get(name, name)
+
+
+def plain_counterparts(items, modern_names):
+    records = {}
+    notes = {**REVIEWED_BASE_NOTES, 'War Pick': REVIEWED_BASE_NOTES['War-Pick']}
+    for item in items:
+        if item['source_id'] != LEGACY or item['magic'] is not False:
+            continue
+        name = item['name']
+        candidates = modern_names[modern_plain_name(name).casefold()]
+        if len(candidates) != 1 or candidates[0]['magic'] is not False:
+            continue
+        target = candidates[0]
+        old = item['mechanics'].get('weapon')
+        new = target['mechanics'].get('weapon')
+        if name == 'Net' and 'throwing a Net' in (target.get('description') or ''):
+            note = 'The 2024 Net is adventuring gear. Replace one attack to throw it at a visible target within 15 ft. The target makes a Dexterity save instead of taking a weapon attack.'
+            role = 'adventuring-gear'
+        elif old and new and (weapon_fields(old) == weapon_fields(new) and properties(item) == properties(target) or name in notes):
+            note = notes.get(name, '')
+            role = 'weapon'
+        else:
+            continue
+        records[item['id']] = {'target_id': target['id'], 'role': role, 'base_note': note}
+    return records
+
+
 def weapon_fields(weapon):
     return tuple(weapon.get(key) for key in COMPARABLE_FIELDS)
 
@@ -135,7 +165,7 @@ def build(catalog):
             outcomes['verified_alias' if legacy_variant in BASE_ALIASES else 'verified_exact'] += 1
     return {'schema_version': 1, 'source': 'https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3',
             'method': 'Unique variant and base name or explicit naming alias, identical enhancement and rarity, compared base damage, range, category, and non-Mastery properties. Reviewed differences have an explicit note.',
-            'counts': dict(outcomes), 'records': records}
+            'counts': dict(outcomes), 'records': records, 'plain': plain_counterparts(items, modern_names)}
 
 
 def main():
@@ -145,6 +175,7 @@ def main():
     result = build(args.catalog_dir)
     output = args.catalog_dir / 'supplements/core-enhancement-cross-references.json'
     output.write_text(json.dumps(result, ensure_ascii=False, separators=(',', ':')) + '\n', encoding='utf-8')
+    print(f"Verified {len(result['plain'])} ordinary weapon or gear counterparts.")
     print(', '.join(f'{name.replace("_", " ")}: {count}' for name, count in result['counts'].items()))
 
 

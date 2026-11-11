@@ -265,21 +265,24 @@ function addWeaponProfile(panel, item, supplement) {
 
 function addPublishedCrossReference(panel, item, references, enhancements) {
     const match = enhancements && enhancements.records[item.id];
-    const id = match ? match.target_id : references && references.records[item.id];
+    const ordinary = enhancements && enhancements.plain && enhancements.plain[item.id];
+    const id = match ? match.target_id : ordinary ? ordinary.target_id : references && references.records[item.id];
     if (!id) return false;
     const published = JSON.parse(Armory.item(id));
     if (!published.description) return false;
     const source = ((published.provenance || {}).source_url || "https://www.dndbeyond.com/srd");
     const verified = match && match.target_id === id;
-    const label = verified ? "Verified 2024 enhancement" : "Published 2024 cross-reference";
+    const label = verified ? "Verified 2024 enhancement" : ordinary ? "Verified 2024 equipment counterpart" : "Published 2024 cross-reference";
     const basis = verified ? (match.base_note ? "Published 2024 enhancement and base weapon"
         : "Same enhancement and base weapon in the 2014 and 2024 SRDs")
-        : "Same name and item type in the 2024 SRD";
+        : ordinary ? "Published 2024 equipment rules" : "Same name and item type in the 2024 SRD";
     const details = itemDetailsSection(panel, label + " · " + published.name,
-        [["Match", basis], ["2024 rules note", verified && match.base_note]], verified ? enhancements.source : source, verified || !item.description);
-    if (verified && match.base_note) {
+        [["Match", basis], ["2024 rules note", verified ? match.base_note : ordinary && ordinary.base_note]],
+        verified ? enhancements.source : ordinary ? equipmentRulesUrl + (ordinary.role === "adventuring-gear" ? "#Net" : "#Weapons") : source,
+        verified || !!ordinary || !item.description);
+    if ((verified && match.base_note) || (ordinary && ordinary.base_note)) {
         details.appendChild(sourceLink(equipmentRulesUrl + "#Weapons", "2024 weapon table"));
-        if (published.name.startsWith("Sling ")) details.appendChild(sourceLink(
+        if (published.name === "Sling" || published.name.startsWith("Sling ")) details.appendChild(sourceLink(
             "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment#Weapons", "2014 weapon table"));
     }
     details.appendChild(element("p", feetText(published.description), "detail-description"));

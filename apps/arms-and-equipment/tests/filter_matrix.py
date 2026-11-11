@@ -372,6 +372,18 @@ def main():
                     return text.includes("Verified 2024 enhancement") && text.includes("2024 rules note")
                         && text.includes("1d10 Piercing") && text.includes("+2 to attack and damage");
                 })()''',
+                'Legacy Net and crossbow link to their 2024 equipment rules': '''(async () => {
+                    inspect("open5e-srd-2014:srd_net", grid.firstElementChild);
+                    await itemDetails;
+                    const net = inspection.textContent;
+                    inspect("open5e-srd-2014:srd_crossbow-hand", grid.firstElementChild);
+                    await itemDetails;
+                    const crossbow = inspection.textContent;
+                    return net.includes("Verified 2024 equipment counterpart") &&
+                        net.includes("The 2024 Net is adventuring gear") && net.includes("Dexterity save") &&
+                        crossbow.includes("Verified 2024 equipment counterpart") &&
+                        crossbow.includes("Hand Crossbow") && crossbow.includes("Vex");
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

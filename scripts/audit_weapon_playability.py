@@ -10,7 +10,7 @@ from decimal import Decimal, InvalidOperation
 from pathlib import Path
 
 from audit_pending_rules import key as normalize_name
-from build_core_enhancement_cross_references import modern_variant_name
+from build_core_enhancement_cross_references import modern_plain_name, modern_variant_name
 
 CATALOG = Path(__file__).resolve().parents[1] / 'catalog'
 PROFILE_KINDS = {
@@ -127,7 +127,7 @@ def bg3_fields(entry, features, availability, errors, gaps):
     return {key: ' / '.join(values) for key, values in fields.items()}
 
 
-def audit_row(item, all_items, profiles, game, curated, exact, prices, legacy_game, availability, enhancements):
+def audit_row(item, all_items, profiles, game, curated, exact, prices, legacy_game, availability, enhancements, plain):
     item_id, name = item['id'], item['name']
     errors, gaps = [], []
     mechanics = item.get('mechanics') or {}
@@ -160,8 +160,9 @@ def audit_row(item, all_items, profiles, game, curated, exact, prices, legacy_ga
         if entry.get('status') == 'original-draft' and entry.get('profile_kind') == 'custom-2024-draft'
     ]
     verified = enhancements.get(item_id, {})
-    comparison_name = modern_variant_name(name) if verified else name
-    if exact_id := verified.get('target_id') or exact.get(item_id):
+    plain_match = plain.get(item_id, {})
+    comparison_name = modern_variant_name(name) if verified else modern_plain_name(name) if plain_match else name
+    if exact_id := verified.get('target_id') or plain_match.get('target_id') or exact.get(item_id):
         target = all_items.get(exact_id) or {}
         if (target.get('ruleset') != 'dnd-2024' or target.get('type') != 'weapon'
                 or target.get('source_id') != 'open5e-srd-2024' or not target.get('description')
@@ -200,6 +201,27 @@ def audit_row(item, all_items, profiles, game, curated, exact, prices, legacy_ga
                 'mastery': custom[0].get('Mastery'),
             }
         gaps.append('item-specific draft requires DM review')
+    elif plain_match:
+        target_rules = target.get('mechanics') or {}
+        if item['source_id'] != 'open5e-srd-2014' or item['magic'] is not False or target.get('magic') is not False:
+            errors.append('invalid ordinary 2024 counterpart')
+            gaps.append('verify the ordinary 2024 counterpart')
+        elif plain_match['role'] == 'adventuring-gear' and name == 'Net':
+            effect = next((row['fields'] for row in curated.get(target['id'], [])
+                           if row.get('status') == 'published-reference'), {})
+            if not all(effect.get(key) for key in ('Damage', 'Range', 'Activation')):
+                errors.append('Net counterpart needs its published 2024 rules')
+                gaps.append('verify the 2024 Net combat rules')
+            else:
+                evidence = 'verified-2024-adventuring-gear'
+                fields.update(damage=effect['Damage'], range=effect['Range'], activation=effect['Activation'])
+        elif plain_match['role'] == 'weapon' and target_rules.get('weapon'):
+            evidence = 'verified-2024-ordinary-weapon'
+            fields = structured_2024(target_rules['weapon'], target_rules.get('properties') or [], errors)
+            fields['activation'] = 'Make an attack with the weapon'
+        else:
+            errors.append('ordinary 2024 counterpart is missing its weapon rules')
+            gaps.append('verify the ordinary 2024 counterpart')
     elif item_id in enhancements:
         verified_base = all_items.get(verified.get('base_id'), {})
         base_mechanics = verified_base.get('mechanics') or {}
@@ -293,10 +315,10 @@ def audit(catalog):
         if (catalog / 'supplements' / (game_facts + '.json')).is_file():
             legacy_game.update(load(catalog, game_facts)['records'])
     availability = load(catalog, 'bg3-weapon-availability')['records']
-    enhancements = load(catalog, 'core-enhancement-cross-references')['records'] if (
+    enhancements = load(catalog, 'core-enhancement-cross-references') if (
         catalog / 'supplements/core-enhancement-cross-references.json').is_file() else {}
     rows = [
-        audit_row(item, items, profiles, game, curated, exact, prices, legacy_game, availability, enhancements)
+        audit_row(item, items, profiles, game, curated, exact, prices, legacy_game, availability, enhancements.get('records', {}), enhancements.get('plain', {}))
         for item in sorted(items.values(), key=lambda item: (item['source_id'], item['name'].casefold(), item['id']))
     ]
     orphaned = sorted(profiles.keys() - items.keys())
