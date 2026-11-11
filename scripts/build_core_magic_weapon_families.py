@@ -7,6 +7,34 @@ from build_core_enhancement_cross_references import CATALOG, CURRENT, LEGACY, RE
 
 RULES = 'https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z'
 FAMILIES = {
+    'Defender': {
+        'prefix': 'Defender (', 'evidence': 'transfer some or all of the weapon',
+        'damage': 'Add the portion of the +3 bonus retained for attacks.',
+        'activation': 'When you first attack with it on your turn, choose how much of its +3 to transfer to AC.',
+        'change': 'The 2024 item permits any melee weapon and uses the matching base weapon and its mastery.',
+        'Attack bonus': '+3 to attack and damage, reduced by any amount assigned to AC.',
+        'Duration': 'Until the start of your next turn. Hold the weapon to benefit from its AC bonus.',
+        'melee_only': True,
+    },
+    'Holy Avenger': {
+        'prefix': 'Holy Avenger (', 'evidence': 'extra 2d10 radiant damage',
+        'damage': 'Add 3 to normal damage, plus 2d10 Radiant on a hit against a Fiend or Undead.',
+        'activation': 'Extra damage on a qualifying hit. The aura is active while you hold the drawn weapon.',
+        'change': 'The 2024 item permits any simple or martial weapon and uses the matching base weapon and its mastery.',
+        'Attack bonus': '+3 to attack and damage rolls.',
+        'Area': '10 ft Emanation centered on you, increasing to 30 ft at Paladin level 17.',
+        'Special powers': 'You and Friendly creatures in the aura have Advantage on saves against spells and other magical effects.',
+        'Attunement': 'Required by a Paladin',
+    },
+    'Dagger of Venom': {
+        'name': 'Dagger of Venom', 'base': 'Dagger', 'evidence': 'dc 15 constitution saving throw',
+        'damage': 'Add 1 to normal damage. A failed save against the coating adds 2d10 Poison damage.',
+        'activation': 'Use a Bonus Action to coat the dagger. The first hit against a creature expends the coating.',
+        'change': 'Coating the blade takes a Bonus Action in 2024, and it recharges at dawn.',
+        'Attack bonus': '+1 to attack and damage rolls.',
+        'Saving throw': 'DC 15 Constitution. On a failure the target also has the Poisoned condition for 1 minute.',
+        'Duration': 'Coating lasts up to 1 minute. Recharge at the next dawn.',
+    },
     'Vicious Weapon': {
         'prefix': 'Vicious ', 'evidence': 'extra 2d6 damage to any creature it hits',
         'damage': 'Add 2d6 of the weapon’s normal damage type on a hit against a creature.',
@@ -40,15 +68,21 @@ FAMILIES = {
 }
 
 
-def details(item, family, rules):
-    mechanics = item['mechanics']
+def is_ranged_weapon(mechanics):
+    # Dart is ranged despite having Thrown instead of Ammunition.
+    return mechanics['weapon']['name'] == 'Dart' or any(
+        row['property']['name'] == 'Ammunition' for row in mechanics['properties']
+    )
+
+
+def details(item, family, rules, mechanics):
     weapon = mechanics['weapon']
     props = [row['property'] for row in mechanics['properties']]
     reach = '10 ft melee' if any(prop['name'] == 'Reach' for prop in props) else '5 ft melee'
     normal, long = weapon['range'], weapon['long_range']
     distance = f'{normal:g}/{long:g} ft' if normal else reach
-    if normal and any(prop['name'] == 'Thrown' for prop in props) and not any(prop['name'] == 'Ammunition' for prop in props):
-        distance = f'{reach}; {distance} thrown'
+    if normal and any(prop['name'] == 'Thrown' for prop in props):
+        distance = f'{distance} thrown' if weapon['name'] == 'Dart' else f'{reach}; {distance} thrown'
     properties = []
     for row in mechanics['properties']:
         prop = row['property']
@@ -76,21 +110,29 @@ def main():
         items = [json.loads(raw) for (raw,) in db.execute(
             "SELECT data_json FROM items WHERE type='weapon' AND source_id IN (?, ?) ORDER BY id",
             (LEGACY, CURRENT))]
+    bases = {item['name']: item['mechanics'] for item in items
+             if item['source_id'] == CURRENT and item['magic'] is False and item['mechanics'].get('weapon')}
     records, targets = {}, {}
     for item in items:
         weapon = item['mechanics'].get('weapon')
-        if item['source_id'] != CURRENT or item['magic'] is not True or not weapon:
+        if item['source_id'] != CURRENT or item['magic'] is not True:
             continue
-        base = weapon['name']
         for family, rules in FAMILIES.items():
-            title = rules['prefix'] + base + (')' if rules['prefix'].endswith('(') else '')
+            base = weapon['name'] if weapon else rules.get('base')
+            if not base or (rules.get('base') and base != rules['base']):
+                continue
+            prefix = rules.get('prefix', '')
+            title = rules.get('name') or prefix + base + (')' if prefix.endswith('(') else '')
             if item['name'] != title or rules['evidence'] not in (item.get('description') or '').casefold():
+                continue
+            mechanics = item['mechanics'] if weapon else bases[base]
+            if rules.get('melee_only') and is_ranged_weapon(mechanics):
                 continue
             key = family, base
             if key in targets:
                 raise ValueError(f'Ambiguous published weapon variant: {key}')
-            targets[key] = item
-            records[item['id']] = [details(item, family, rules)]
+            targets[key] = item, mechanics
+            records[item['id']] = [details(item, family, rules, mechanics)]
     legacy_count = 0
     for item in items:
         weapon = item['mechanics'].get('weapon')
@@ -100,7 +142,8 @@ def main():
         target = targets.get((family, modern_plain_name(weapon['name'])))
         if not target or not item.get('description'):
             continue
-        entry = details(target, family, FAMILIES[family])
+        target, mechanics = target
+        entry = details(target, family, FAMILIES[family], mechanics)
         note = REVIEWED_BASE_NOTES.get(weapon['name'].replace('War Pick', 'War-Pick'), '')
         entry['fields']['Edition comparison'] = ' '.join(filter(None, (FAMILIES[family]['change'], note)))
         entry['related_item'] = {'id': target['id'], 'label': 'Open published 2024 item'}

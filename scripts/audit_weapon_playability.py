@@ -12,6 +12,8 @@ from pathlib import Path
 from audit_pending_rules import key as normalize_name
 from build_core_enhancement_cross_references import modern_plain_name, modern_variant_name
 
+from build_core_magic_weapon_families import is_ranged_weapon
+
 CATALOG = Path(__file__).resolve().parents[1] / 'catalog'
 PROFILE_KINDS = {
     'native-2024', 'source-2024-text', 'native-bg3', 'source-based-2024',
@@ -287,6 +289,10 @@ def audit_row(item, all_items, profiles, game, curated, exact, prices, legacy_ga
             'reference-object': ['review whether record belongs under weapons'],
             'siege-engine': ['siege attack needs damage, range and activation'],
         }.get(kind, []))
+    if (item['source_id'] == 'open5e-srd-2024' and name.startswith('Defender (')
+            and source_weapon and is_ranged_weapon(mechanics)):
+        evidence = 'source-variant-conflict'
+        gaps.append('published Defender permits melee weapons only')
     price = prices.get(item_id) or {}
     errors.extend(price_errors(price))
     if not isinstance(item.get('provenance'), dict) or not item['provenance']:

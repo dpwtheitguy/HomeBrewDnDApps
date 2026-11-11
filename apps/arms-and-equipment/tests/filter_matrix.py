@@ -392,6 +392,18 @@ def main():
                         && text.includes("Add 2d6") && text.includes("every hit against a creature")
                         && text.includes("Open published 2024 item") && text.includes("Sap");
                 })()''',
+                'Legacy Defender and Dagger of Venom show 2024 activation and timing': '''(async () => {
+                    inspect("open5e-srd-2014:srd_defender-longsword", grid.firstElementChild);
+                    await itemDetails;
+                    const defender = inspection.textContent;
+                    inspect("open5e-srd-2014:srd_dagger-of-venom", grid.firstElementChild);
+                    await itemDetails;
+                    const dagger = inspection.textContent;
+                    return ["Published 2024 · Defender", "start of your next turn", "Sap"]
+                        .every(value => defender.includes(value)) &&
+                        ["Published 2024 · Dagger of Venom", "Bonus Action", "2d10 Poison",
+                            "DC 15 Constitution", "next dawn", "Nick"].every(value => dagger.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
