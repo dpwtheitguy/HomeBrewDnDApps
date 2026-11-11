@@ -447,6 +447,13 @@ def main():
                         ["Published 2024 · Trident of Fish Command", "DC 15 Wisdom", "telepathic orders", "Topple"]
                         .every(value => trident.includes(value));
                 })()''',
+                'Legacy magic net shows a playable save-based conversion': '''(async () => {
+                    inspect("open5e-srd-2014:srd_net-2", grid.firstElementChild);
+                    await itemDetails;
+                    const text = inspection.textContent;
+                    return ["D&D 2024 tabletop conversion", "DM review", "DC = 10 +",
+                        "Restrained", "DC 10 Strength", "No direct damage"].every(value => text.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

@@ -1973,6 +1973,116 @@
           "Creative use": "Use Push mastery to make room for the raft crew when a boarding foe crowds the rail."
         }
       }
+    ],
+    "open5e-srd-2014:srd_net-1": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "fields": {
+          "Category": "Magical adventuring gear. No weapon mastery or attunement.",
+          "Range": "One creature you can see within 15 ft.",
+          "Activation": "Replace one attack during the Attack action to throw the net. Resolve a saving throw.",
+          "Escape": "A Restrained creature or a creature within 5 ft of it can use an action to free it on a successful DC 10 Strength (Athletics) check. Destroying the net also frees it.",
+          "Net defenses": "AC 10, 5 HP. Immune to Bludgeoning, Poison, and Psychic damage.",
+          "Damage": "No direct damage.",
+          "Saving throw": "Dexterity DC = 9 + your Dexterity modifier + proficiency bonus. Huge or larger creatures succeed automatically. On failure the target is Restrained until freed.",
+          "Conversion notes": "The 2024 Net uses a save instead of an attack roll. This conversion applies the legacy +1 bonus to the save DC and keeps the published escape and object rules."
+        }
+      }
+    ],
+    "open5e-srd-2014:srd_net-2": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "fields": {
+          "Category": "Magical adventuring gear. No weapon mastery or attunement.",
+          "Range": "One creature you can see within 15 ft.",
+          "Activation": "Replace one attack during the Attack action to throw the net. Resolve a saving throw.",
+          "Escape": "A Restrained creature or a creature within 5 ft of it can use an action to free it on a successful DC 10 Strength (Athletics) check. Destroying the net also frees it.",
+          "Net defenses": "AC 10, 5 HP. Immune to Bludgeoning, Poison, and Psychic damage.",
+          "Damage": "No direct damage.",
+          "Saving throw": "Dexterity DC = 10 + your Dexterity modifier + proficiency bonus. Huge or larger creatures succeed automatically. On failure the target is Restrained until freed.",
+          "Conversion notes": "The 2024 Net uses a save instead of an attack roll. This conversion applies the legacy +2 bonus to the save DC and keeps the published escape and object rules."
+        }
+      }
+    ],
+    "open5e-srd-2014:srd_net-3": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "fields": {
+          "Category": "Magical adventuring gear. No weapon mastery or attunement.",
+          "Range": "One creature you can see within 15 ft.",
+          "Activation": "Replace one attack during the Attack action to throw the net. Resolve a saving throw.",
+          "Escape": "A Restrained creature or a creature within 5 ft of it can use an action to free it on a successful DC 10 Strength (Athletics) check. Destroying the net also frees it.",
+          "Net defenses": "AC 10, 5 HP. Immune to Bludgeoning, Poison, and Psychic damage.",
+          "Damage": "No direct damage.",
+          "Saving throw": "Dexterity DC = 11 + your Dexterity modifier + proficiency bonus. Huge or larger creatures succeed automatically. On failure the target is Restrained until freed.",
+          "Conversion notes": "The 2024 Net uses a save instead of an attack roll. This conversion applies the legacy +3 bonus to the save DC and keeps the published escape and object rules."
+        }
+      }
+    ],
+    "open5e-srd-2014:srd_vicious-weapon-net": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "fields": {
+          "Category": "Magical adventuring gear. No weapon mastery or attunement.",
+          "Range": "One creature you can see within 15 ft.",
+          "Activation": "Replace one attack during the Attack action to throw the net. Resolve a saving throw.",
+          "Escape": "A Restrained creature or a creature within 5 ft of it can use an action to free it on a successful DC 10 Strength (Athletics) check. Destroying the net also frees it.",
+          "Net defenses": "AC 10, 5 HP. Immune to Bludgeoning, Poison, and Psychic damage.",
+          "Damage": "On a failed save, deal 2d6 Slashing once, when the net lands. No recurring damage.",
+          "Saving throw": "Dexterity DC = 8 + your Dexterity modifier + proficiency bonus. Huge or larger creatures succeed automatically. On failure the target takes the damage and is Restrained until freed.",
+          "Conversion notes": "The 2024 Net uses a save instead of a weapon attack. This conversion uses the failed save as the trigger for a single damaging hit, inspired by the 2024 Vicious Weapon’s 2d6 rider. Slashing represents cutting fibers."
+        }
+      }
+    ],
+    "open5e-srd-2014:srd_sword-of-sharpness-shortsword": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#SwordofSharpness",
+        "fields": {
+          "Category": "Martial melee weapon. Requires attunement.",
+          "Range": "5 ft melee.",
+          "Properties": "Finesse, Light.",
+          "Mastery": "Vex.",
+          "Damage": "1d6 Piercing. Maximize the weapon damage dice on a hit against an object. A natural 20 on an attack against a creature adds 14 Slashing.",
+          "Activation": "Use normal Shortsword attacks. Apply the object or natural-20 effect when triggered.",
+          "Special powers": "A creature affected by the natural-20 rider also gains 1 level of Exhaustion.",
+          "Conversion notes": "Extends the 2024 enchantment to the legacy Shortsword. Base damage remains Piercing. The enchantment’s extra damage is Slashing."
+        }
+      }
+    ],
+    "open5e-srd-2014:srd_vorpal-sword-shortsword": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#VorpalSword",
+        "fields": {
+          "Category": "Martial melee weapon. Requires attunement.",
+          "Range": "5 ft melee.",
+          "Properties": "Finesse, Light.",
+          "Mastery": "Vex.",
+          "Damage": "1d6 Piercing plus 3. On a qualifying natural 20, sever a head or deal 30 extra Slashing as described below.",
+          "Attack bonus": "+3 to attack and damage rolls.",
+          "Activation": "When you roll a natural 20 on an attack against a creature with at least one head, sever one head. It dies if it needs that head to survive.",
+          "Exceptions": "A target immune to Slashing, one that does not need its head, or one the DM judges too large to decapitate instead takes the 30 extra Slashing. A target with Legendary Resistance can expend one use to take the extra damage instead. Normal damage immunities still apply.",
+          "Special powers": "Ignore Slashing Resistance for the enchantment’s extra damage. The normal Piercing damage uses the target’s normal defenses.",
+          "Conversion notes": "Extends the 2024 enchantment to the legacy Shortsword while retaining its Piercing base."
+        }
+      }
     ]
   }
 }
