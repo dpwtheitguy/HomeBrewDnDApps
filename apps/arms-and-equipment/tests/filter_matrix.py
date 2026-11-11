@@ -423,6 +423,13 @@ def main():
                         ["Published 2024 · Javelin of Lightning", "120 ft", "DC 13 Dexterity", "4d6 Lightning"]
                         .every(value => javelin.includes(value));
                 })()''',
+                'Legacy Sword of Wounding shows 2024 rules and base mastery': '''(async () => {
+                    inspect("open5e-srd-2014:srd_sword-of-wounding-rapier", grid.firstElementChild);
+                    await itemDetails;
+                    const text = inspection.textContent;
+                    return ["Published 2024 · Sword of Wounding", "2d6 Necrotic",
+                        "DC 15 Constitution", "1 hour", "Vex"].every(value => text.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

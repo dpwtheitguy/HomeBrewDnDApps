@@ -7,6 +7,61 @@ from build_core_enhancement_cross_references import CATALOG, CURRENT, LEGACY, RE
 
 RULES = 'https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z'
 FAMILIES = {
+    'Dancing Sword': {
+        'published_bases': ('Greatsword', 'Longsword', 'Rapier', 'Scimitar', 'Shortsword'),
+        'damage': 'The hovering sword uses your attack roll and adds your ability modifier to its damage.',
+        'activation': 'Use a Bonus Action to toss the sword, move it up to 30 ft, and attack a creature within 5 ft of it. Further Bonus Actions can each move it up to 30 ft to a spot within 30 ft of you and make another attack.',
+        'change': 'The 2024 variant uses the matching base sword. Scimitar is explicitly eligible.',
+        'Duration': 'Hovering ends after the fourth attack, if you grasp it, or if you move more than 30 ft from it.',
+        'Special powers': 'After its fourth attack it returns to your free hand or falls in your space. If blocked, it moves as close as possible before falling.',
+    },
+    'Sword of Life Stealing': {
+        'published_bases': ('Glaive', 'Greatsword', 'Longsword', 'Rapier', 'Scimitar', 'Shortsword'),
+        'damage': 'A natural 20 adds 15 Necrotic damage against a creature other than a Construct or Undead.',
+        'activation': 'When the attack die rolls 20 against an eligible creature.',
+        'change': 'The 2024 extra damage is 15 Necrotic. Temporary HP tracks damage actually taken.',
+        'Special powers': 'Gain temporary HP equal to the Necrotic damage the target actually takes.',
+    },
+    'Sword of Sharpness': {
+        'published_bases': ('Glaive', 'Greatsword', 'Longsword', 'Scimitar'),
+        'damage': 'Maximize weapon damage dice when you hit an object. A natural 20 against a creature adds 14 Slashing.',
+        'activation': 'On a hit against an object, or a natural 20 on an attack against a creature.',
+        'change': 'The 2024 natural-20 effect inflicts Exhaustion.',
+        'Special powers': 'A creature targeted by the natural-20 effect also gains 1 Exhaustion level.',
+    },
+    'Sword of Wounding': {
+        'published_bases': ('Glaive', 'Greatsword', 'Longsword', 'Rapier', 'Scimitar', 'Shortsword'),
+        'damage': 'Add 2d6 Necrotic on a hit against a creature.',
+        'activation': 'On a weapon hit against a creature.',
+        'change': 'The 2024 version applies extra damage on the hit and can block all healing for a limited duration.',
+        'Saving throw': 'DC 15 Constitution. On failure the creature cannot regain HP for 1 hour. Repeat at the end of each of its turns to end the effect on a success.',
+    },
+    'Vorpal Sword': {
+        'published_bases': ('Glaive', 'Greatsword', 'Longsword', 'Scimitar'),
+        'damage': 'Add 3 to normal damage and ignore Slashing Resistance. A qualifying natural 20 can sever a head or deal an extra 30 Slashing instead.',
+        'activation': 'On a natural 20 when attacking a creature with at least one head. Losing the head kills a creature that needs it to survive.',
+        'change': 'In 2024 a creature can spend a use of Legendary Resistance to avoid losing its head and take the extra damage instead.',
+        'Attack bonus': '+3 to attack and damage rolls.',
+        'Exceptions': 'A creature immune to Slashing, one that does not need its head, or one the DM judges too large to decapitate takes the extra damage instead.',
+    },
+    'Luck Blade': {
+        'prefix': 'Luck Blade (', 'evidence': 'reroll one failed',
+        'damage': 'Add 1 to normal damage.',
+        'activation': 'While carrying it, reroll a failed D20 Test without an action if you are not Incapacitated. Use the new roll. While holding it, spend a Wish charge to cast Wish.',
+        'change': 'The 2024 Luck reroll requires a failed D20 Test and is unavailable while Incapacitated.',
+        'Attack bonus': '+1 to attack and damage rolls.',
+        'Special powers': '+1 to saving throws while the weapon is on your person.',
+        'Charges': 'The reroll refreshes at dawn. Wish starts with 1d3 charges, is usable once per dawn, and is lost when the last charge is spent.',
+    },
+    'Nine Lives Stealer': {
+        'prefix': 'Nine Lives Stealer (', 'evidence': 'fewer than 100 hit points',
+        'damage': 'Add 2 to normal damage.',
+        'activation': 'When you roll a natural 20 on an attack against a creature with fewer than 100 HP.',
+        'change': 'The 2024 enchantment can apply to any simple or martial weapon and uses the matching base and mastery.',
+        'Attack bonus': '+2 to attack and damage rolls.',
+        'Saving throw': 'DC 15 Constitution or die instantly. Constructs and Undead succeed automatically.',
+        'Charges': 'Starts with 1d8 + 1 charges. Spend one only if the effect kills the target. The effect is lost at zero charges.',
+    },
     'Dragon Slayer': {
         'name': 'Dragon Slayer', 'any_base': True, 'evidence': 'extra 3d6 damage of the weapon',
         'damage': 'Add 1 to normal damage, plus 3d6 of the weapon’s damage type on a hit against a Dragon.',
@@ -166,7 +221,7 @@ def details(item, family, rules, mechanics):
         'Activation': rules['activation'],
         'Category': 'Simple' if weapon['is_simple'] else 'Martial',
         'Mastery': ', '.join(prop['name'] for prop in props if prop['type'] == 'Mastery'),
-        'Attunement': 'Required' if item['requires_attunement'] else 'None',
+        'Attunement': 'Required' if item is None or item['requires_attunement'] else 'None',
     }
     fields.update((key, value) for key, value in rules.items() if key[0].isupper())
     return {'status': 'published-reference', 'label': 'Published 2024 · ' + family,
@@ -187,6 +242,8 @@ def main():
         if item['source_id'] != CURRENT or item['magic'] is not True:
             continue
         for family, rules in FAMILIES.items():
+            if 'published_bases' in rules:
+                continue
             if rules.get('any_base') and not weapon and item['name'] == rules['name']:
                 if rules['evidence'] in (item.get('description') or '').casefold():
                     generic_targets[family] = item
@@ -216,13 +273,17 @@ def main():
         target = targets.get((family, base))
         if not target and family in generic_targets and base in bases:
             target = generic_targets[family], bases[base]
+        if not target and base in FAMILIES[family].get('published_bases', ()) and base in bases:
+            # Official DMG rules can cover a legacy variant even when Open5e has no matching record.
+            target = None, bases[base]
         if not target or not item.get('description'):
             continue
         target, mechanics = target
         entry = details(target, family, FAMILIES[family], mechanics)
         note = REVIEWED_BASE_NOTES.get(weapon['name'].replace('War Pick', 'War-Pick'), '')
         entry['fields']['Edition comparison'] = ' '.join(filter(None, (FAMILIES[family]['change'], note)))
-        entry['related_item'] = {'id': target['id'], 'label': 'Open published 2024 item'}
+        if target:
+            entry['related_item'] = {'id': target['id'], 'label': 'Open published 2024 item'}
         records[item['id']] = [entry]
         legacy_count += 1
     (CATALOG / 'supplements/core-magic-weapon-families.json').write_text(
