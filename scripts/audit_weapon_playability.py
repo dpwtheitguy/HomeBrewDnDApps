@@ -212,7 +212,8 @@ def audit_row(item, all_items, profiles, game, curated, exact, prices, legacy_ga
             errors.append('invalid verified 2014 to 2024 weapon enhancement')
             gaps.append('verified enhancement needs a matching published variant and base')
         else:
-            evidence = 'verified-2024-enhancement'
+            evidence = ('verified-2024-enhancement-with-base-note' if verified.get('base_note')
+                        else 'verified-2024-enhancement')
             fields = structured_2024(base_mechanics['weapon'], base_mechanics.get('properties') or [], errors)
             fields['attack_bonus'] = f'+{bonus} to attack and damage'
             fields['activation'] = 'Apply to attacks made with the weapon'

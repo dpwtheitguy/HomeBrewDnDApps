@@ -25,6 +25,14 @@ BASE_ALIASES = {
     'Light-Hammer': ('Light Hammer', 'Light Hammer'),
     'War-Pick': ('War Pick', 'War Pick'),
 }
+# These published counterparts retain the enchantment while their base stats
+# or the upstream legacy range annotation require an explicit comparison.
+REVIEWED_BASE_NOTES = {
+    'Lance': 'The 2024 Lance deals 1d10 Piercing, is Heavy and Reach, and needs two hands unless mounted.',
+    'Trident': 'The 2024 Trident deals 1d8 Piercing, or 1d10 when used with two hands.',
+    'War-Pick': 'The 2024 War Pick adds Versatile (1d10).',
+    'Sling': 'The published 2014 and 2024 Sling tables both list 30/120 ft. The legacy import contains a conflicting property annotation.',
+}
 COMPARABLE_FIELDS = ('damage_dice', 'damage_type', 'range', 'long_range', 'is_simple')
 
 
@@ -108,18 +116,25 @@ def build(catalog):
         ):
             outcomes['unverified_base'] += 1
             continue
+        note = ''
         if (weapon_fields(legacy_base['mechanics']['weapon']) != weapon_fields(modern_base['mechanics']['weapon'])
                 or properties(legacy_base) != properties(modern_base)):
-            outcomes['changed_base_rules'] += 1
-            continue
+            note = REVIEWED_BASE_NOTES.get(legacy_variant, '')
+            if not note:
+                outcomes['changed_base_rules'] += 1
+                continue
         records[legacy['id']] = {
             'target_id': modern['id'],
             'base_id': modern_base['id'],
             'bonus': int(bonus),
         }
-        outcomes['verified_alias' if legacy_variant in BASE_ALIASES else 'verified_exact'] += 1
+        if note:
+            records[legacy['id']]['base_note'] = note
+            outcomes['verified_with_base_note'] += 1
+        else:
+            outcomes['verified_alias' if legacy_variant in BASE_ALIASES else 'verified_exact'] += 1
     return {'schema_version': 1, 'source': 'https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3',
-            'method': 'Unique variant and base name or explicit naming alias, identical enhancement and rarity, unchanged base damage, range, category, and comparable non-Mastery properties.',
+            'method': 'Unique variant and base name or explicit naming alias, identical enhancement and rarity, compared base damage, range, category, and non-Mastery properties. Reviewed differences have an explicit note.',
             'counts': dict(outcomes), 'records': records}
 
 

@@ -40,7 +40,15 @@ REVIEWED_STRUCTURED = {
     'Elven Chain Shirt': (1, 'The wearer is treated as trained with this armor.', 'Wearer counts as trained'),
     'Plate Armor of Etherealness': (0, 'Once per dawn, use a Magic action and the command word for Etherealness. Removing the armor or repeating the command word as a Magic action ends the effect.', ''),
 }
+CURSED_FAMILIES = (
+    ('Armor of Vulnerability (', 'while cursed, you have vulnerability', 0,
+     'While worn, resist one DM-selected type among Bludgeoning, Piercing, and Slashing. Attunement curses you with vulnerability to the other two. Identify or attunement reveals the curse. Remove Curse or similar magic ends it; doffing alone leaves it in effect.'),
+    ('Demon ', 'clawed gauntlets', 1,
+     'While worn, you know Abyssal. Your Unarmed Strikes can deal 1d8 Slashing in place of their normal damage and gain +1 to attack and damage. After donning, Remove Curse or similar magic is needed to doff the armor. While wearing it, you have Disadvantage on attacks against demons and saves against their spells and special abilities.'),
+)
 STRUCTURED_LEGACY = {
+    'Armor of Vulnerability': ('Armor of Vulnerability (Plate Armor)', 'Plate Armor matches this legacy entry. The 2024 item is also available on other Light, Medium, or Heavy bases.'),
+    'Demon Armor': ('Demon Plate Armor', 'Plate Armor matches this legacy entry. The 2024 gauntlets modify Unarmed Strikes.'),
     'Dwarven Plate': ('Dwarven Plate', ''),
     'Elven Chain': ('Elven Chain Shirt', 'The Chain Shirt is the matching base for this 2014 entry. The 2024 rules also publish a separate Chain Mail variant.'),
     'Plate Armor of Etherealness': ('Plate Armor of Etherealness', 'The 2024 entry uses the Etherealness spell duration and activates with a Magic action.'),
@@ -83,6 +91,11 @@ def build(catalog):
             bonus, effect, training = REVIEWED_STRUCTURED[item['name']]
             current_families[item['id']] = {'source': MAGIC, 'bonus': bonus, 'effect': effect,
                                             'training': training, 'mithral': False}
+        if item['source_id'] == CURRENT and item['mechanics'].get('armor') and item['requires_attunement'] is True:
+            for prefix, phrase, bonus, effect in CURSED_FAMILIES:
+                if item['name'].startswith(prefix) and phrase in (item.get('description') or '').casefold():
+                    current_families[item['id']] = {'source': MAGIC, 'bonus': bonus,
+                                                    'effect': effect, 'mithral': False}
         if item['source_id'] == CURRENT and family in FAMILIES and item['mechanics'].get('armor'):
             phrase, effect = FAMILIES[family]
             if phrase in (item.get('description') or '').casefold():

@@ -365,6 +365,13 @@ def main():
                     scrollTo(0, previousScroll);
                     return !!(inspectionState && reachable && reopening);
                 })()''',
+                'Legacy enchanted Lance shows the 2024 base-rule change': '''(async () => {
+                    inspect("open5e-srd-2014:srd_lance-2", grid.firstElementChild);
+                    await itemDetails;
+                    const text = inspection.textContent;
+                    return text.includes("Verified 2024 enhancement") && text.includes("2024 rules note")
+                        && text.includes("1d10 Piercing") && text.includes("+2 to attack and damage");
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
@@ -420,6 +427,17 @@ def main():
                     const text = inspection.textContent;
                     return text.includes("Verified 2024 armor counterpart") && text.includes("Armor class15")
                         && text.includes("2024 rules note") && text.includes("Magic action");
+                })()''',
+                'Cursed armor shows published plate counterpart and attunement': '''(async () => {
+                    inspect("open5e-srd-2014:srd_demon-armor", grid.firstElementChild);
+                    await itemDetails;
+                    const demon = inspection.textContent;
+                    inspect("open5e-srd-2024:srd-2024_armor-of-vulnerability-padded-armor", grid.firstElementChild);
+                    await itemDetails;
+                    const padded = inspection.textContent;
+                    return demon.includes("Verified 2024 armor counterpart") && demon.includes("Armor class19")
+                        && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
+                        && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
                 'Armor cards distinguish shield bonuses and worn AC': '''(async () => {
                     inspect("open5e-srd-2024:srd-2024_arrow-catching-shield", grid.firstElementChild);
