@@ -50,7 +50,7 @@ FAMILIES = {
         'Saving throw': 'Giant target only: DC 15 Strength or the target is Prone.',
     },
     'Flame Tongue': {
-        'prefix': 'Flame Tongue ', 'evidence': 'extra 2d6 fire damage on a hit',
+        'prefix': 'Flame Tongue ', 'melee_only': True, 'evidence': 'extra 2d6 fire damage on a hit',
         'damage': 'Add 2d6 Fire on a hit while the weapon is ablaze.',
         'activation': 'While holding it, use a Bonus Action and the command word to light or extinguish it.',
         'change': 'The 2024 variant uses the matching base weapon and its mastery.',

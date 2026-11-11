@@ -1,12 +1,12 @@
 # Item price coverage
 
-**34,480 of 34,480** catalog records have a positive base cost, buy price, and sell price.
+**34,469 of 34,469** catalog records have a positive base cost, buy price, and sell price.
 
 | Pricing basis | Records |
 |---|---:|
 | Low-confidence 2024 tabletop category appraisal | 17,146 |
 | Source-listed base cost | 4,793 |
-| 2024 magic-item rarity estimate | 3,978 |
+| 2024 magic-item rarity estimate | 3,967 |
 | Source-reported value from catalog provenance | 3,860 |
 | Construction or installation estimate | 3,005 |
 | Estimate from comparable 2024 equipment | 839 |

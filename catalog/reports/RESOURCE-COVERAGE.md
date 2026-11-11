@@ -89,9 +89,9 @@ Registration is not item-audit completion. Contextual regional gear is separate 
 | Adventurer’s Vault (4e) | selected-drafts-and-or-references | 920 | 0 | partial |
 | Adventurer’s Vault 2 (4e) | selected-drafts-and-or-references | 457 | 0 | partial |
 | 4e arms and equipment guides | series-partial | 0 | 0 | pending |
-| 5e arms and equipment guides | series-partial | 1699 | 0 | pending |
+| 5e arms and equipment guides | series-partial | 1688 | 0 | pending |
 | D&D 5e / 2014 core equipment | selected-drafts-and-or-references | 736 | 0 | pending |
-| D&D revised 2024 / 5.5e core equipment | selected-drafts-and-or-references | 963 | 0 | pending |
+| D&D revised 2024 / 5.5e core equipment | selected-drafts-and-or-references | 952 | 0 | pending |
 | Worldbuilding: camp, fort, castle, city, village and dungeon | selected-drafts-and-or-references | 3296 | 0 | pending |
 | Indigenous-led game and media inspiration | selected-drafts-and-or-references | 3 | 0 | pending |
 | Ninja equipment across games and media | selected-drafts-and-or-references | 201 | 0 | pending |

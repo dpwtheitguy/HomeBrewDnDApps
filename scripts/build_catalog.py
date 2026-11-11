@@ -16,6 +16,7 @@ from research_packs import build_research_packs
 from mystara_pack import build_mystara
 from adventure_packs import build_adventure_packs, merge_entities
 from catalog_taxonomy import Taxonomy, associate
+from build_core_magic_weapon_families import RULES, is_ranged_weapon
 ROOT=Path(__file__).resolve().parents[1]
 CAT=ROOT/'catalog'
 UP=ROOT/'.cache/upstream/open5e'
@@ -136,11 +137,23 @@ def main():
                 armor_fact = armor_facts['records'].get(iid)
                 if armor_fact:
                     armor=armor_lookup[armor_fact['base_id'].split(':',1)[1]]
+                mithral_half_plate = iid == 'open5e-srd-2014:srd_mithral-armor-half-plate'
+                if mithral_half_plate:
+                    armor = armor_lookup['srd_half-plate']
+                    category = 'medium-armor'
                 typ,icon=classify(f['name'],category,weapon.get('name','')+' '+armor.get('name',''))
                 properties=[]
                 for a in prop_assign.get(f.get('weapon'),[]):
                     p=prop_lookup.get(a.get('property') or a.get('weapon_property'),{})
                     properties.append({'assignment':a,'property':p})
+                if key == 'open5e-srd-2024' and ismagic and weapon:
+                    melee_family = next((family for prefix, family in
+                        (('Defender (', 'Defender'), ('Flame Tongue ', 'FlameTongue'))
+                        if f['name'].startswith(prefix)), None)
+                    if melee_family and is_ranged_weapon({'weapon': weapon, 'properties': properties}):
+                        warnings.append({'id': iid, 'issue': 'Excluded ranged variant of a melee-only magic weapon',
+                                         'source': RULES + '#' + melee_family})
+                        continue
                 if ver=='v1' and f.get('properties_json'):
                     try: properties=json.loads(f['properties_json'])
                     except ValueError: warnings.append({'id':iid,'issue':'invalid properties_json'})
@@ -174,6 +187,10 @@ def main():
                     item['provenance']['source_url']=armor_facts['source']
                 elif rarity!=f.get('rarity'):
                     item['provenance']['rarity_correction_source']='https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3'
+                if mithral_half_plate:
+                    item['provenance']['base_rules_id'] = 'open5e-srd-2014:srd_half-plate'
+                    item['provenance']['classification_correction_source'] = (
+                        'https://www.dndbeyond.com/sources/dnd/basic-rules-2014/magic-items#MithralArmor')
                 if armor_attunement_correction:
                     item['provenance']['attunement_correction_source']='https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#' + f['name'].split(' (',1)[0].replace(' ','')
                 if ver=='v2' and typ=='weapon' and not weapon:

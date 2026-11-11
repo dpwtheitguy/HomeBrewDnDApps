@@ -289,10 +289,10 @@ def audit_row(item, all_items, profiles, game, curated, exact, prices, legacy_ga
             'reference-object': ['review whether record belongs under weapons'],
             'siege-engine': ['siege attack needs damage, range and activation'],
         }.get(kind, []))
-    if (item['source_id'] == 'open5e-srd-2024' and name.startswith('Defender (')
+    if (item['source_id'] == 'open5e-srd-2024' and name.startswith(('Defender (', 'Flame Tongue '))
             and source_weapon and is_ranged_weapon(mechanics)):
         evidence = 'source-variant-conflict'
-        gaps.append('published Defender permits melee weapons only')
+        gaps.append('published magic weapon family permits melee weapons only')
     price = prices.get(item_id) or {}
     errors.extend(price_errors(price))
     if not isinstance(item.get('provenance'), dict) or not item['provenance']:

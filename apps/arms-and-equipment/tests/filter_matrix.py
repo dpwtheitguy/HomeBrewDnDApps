@@ -118,6 +118,13 @@ def cases():
         case('BG3 source and Mystara conflict', facets={'setting': 'setting:mystara', 'source': 'bg3-wiki'}),
         case('Case-normalized rarity in D&D Beyond', facets={'source': 'dndbeyond-public-index', 'rarity': 'very-rare'}, positive=True),
         case('Name-only with several words', term='ice arrow', facets={'scope': 'name', 'source': 'bg3-wiki'}, positive=True),
+        case('Ranged Defender import excluded', term='Defender (Longbow)', category='Weapons',
+             facets={'scope': 'exact', 'source': 'open5e-srd-2024'}, exact_count=0),
+        case('Ranged Flame Tongue import excluded', term='Flame Tongue Dart', category='Weapons',
+             facets={'scope': 'exact', 'source': 'open5e-srd-2024'}, exact_count=0),
+        case('Legacy Mithral Half-Plate appears under Armor', term='Mithral Armor (Half-Plate)', category='Armor',
+             facets={'scope': 'exact', 'source': 'open5e-srd-2014'},
+             contains='open5e-srd-2014:srd_mithral-armor-half-plate'),
         case('No match exact', term='No Item Named Qzxxy', facets={'scope': 'exact'}),
         case('Full text Dagger prefix', term='dagg', facets={'source': 'bg3-wiki'}, fulltext='bg3-wiki:9'),
         case('Price ascending', sort='price-asc', pages=2),
@@ -436,12 +443,17 @@ def main():
                     inspect("open5e-srd-2014:srd_mithral-armor-plate", grid.firstElementChild);
                     await itemDetails;
                     const mithral = inspection.textContent;
+                    inspect("open5e-srd-2014:srd_mithral-armor-half-plate", grid.firstElementChild);
+                    await itemDetails;
+                    const halfPlate = inspection.textContent;
                     inspect("open5e-srd-2014:srd_shield", grid.firstElementChild);
                     await itemDetails;
                     const shield = inspection.textContent;
                     return mithral.includes("Verified 2024 armor counterpart") &&
                         mithral.includes("Armor class18") && mithral.includes("Strength requirementNone") &&
-                        mithral.includes("Stealth disadvantageNo") && shield.includes("Armor class bonus+2");
+                        mithral.includes("Stealth disadvantageNo") && shield.includes("Armor class bonus+2") &&
+                        ["Verified 2024 armor counterpart", "Armor class15 + Dex modifier (max +2)",
+                            "Stealth disadvantageNo"].every(value => halfPlate.includes(value));
                 })()''',
                 '2024 armor families show attunement and Mithral exceptions': '''(async () => {
                     inspect("open5e-srd-2024:srd-2024_armor-of-resistance-splint", grid.firstElementChild);
