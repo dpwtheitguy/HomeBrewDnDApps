@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Fighter app source item record",
+  "title": "Shared catalog item record",
   "type": "object",
   "required": [
     "id",
@@ -57,7 +57,10 @@
         "dnd-3.5",
         "dnd-4e",
         "adnd-1e",
-        "adnd-2e"
+        "adnd-2e",
+        "dnd-2e",
+        "dnd-becmi",
+        "homebrew-reference"
       ]
     },
     "category": {
@@ -220,7 +223,14 @@
               "available-in",
               "used-by",
               "found-in",
-              "inspired-by"
+              "inspired-by",
+              "appearance",
+              "campaign-context",
+              "creation-context",
+              "cultural-context",
+              "custody",
+              "regional-context",
+              "reported-location"
             ]
           },
           "evidence": {
@@ -319,6 +329,11 @@
         "properties": {
           "record_kind": {
             "const": "structure"
+          },
+          "content_status": {
+            "not": {
+              "const": "factual-metadata-only"
+            }
           }
         },
         "required": [

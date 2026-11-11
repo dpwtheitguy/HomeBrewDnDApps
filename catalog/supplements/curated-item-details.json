@@ -512,6 +512,408 @@
           "label": "View Conan Exiles Ballista"
         }
       }
+    ],
+    "savage-coast-local:6ba83af5224e6597": [
+      {
+        "label": "Savage Coast Campaign Book · AD&D source facts",
+        "status": "source-reported",
+        "source": "https://pandius.com/TSR2521-SCS2.pdf#page=117",
+        "fields": {
+          "Legacy price": "5 gp",
+          "Weight": "1 lb",
+          "Legacy damage": "1d3+1 Bludgeoning against Small or Medium targets; 1d4+1 against Large targets.",
+          "History": "A Wallara throwing weapon. In the legacy rules it can return when a throw misses."
+        }
+      },
+      {
+        "label": "Savage Coast · 2024 tabletop profile",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Category": "Simple ranged weapon",
+          "Damage": "1d4 Bludgeoning + your attack ability modifier.",
+          "Range": "20/60 ft",
+          "Properties": "Finesse, Thrown",
+          "Attack ability": "Dexterity or Strength",
+          "Mastery": "Vex",
+          "Activation": "Make a weapon attack with the Attack action.",
+          "Crafting": "Draft: Woodcarver’s Tools proficiency and suitable hardwood; use the 2024 nonmagical crafting guideline.",
+          "Creative use": "Throw around an obstruction when the target has a clear line from the curved path, if the DM permits it.",
+          "Special powers": "On a miss the boomerang returns if you have a hand free, are within normal range, and have a clear flight path. Otherwise it lands near the target.",
+          "Weight": "1 lb",
+          "Attack bonus": "No inherent bonus.",
+          "Attunement": "None; nonmagical equipment.",
+          "Casting time": "Does not cast a spell.",
+          "Conversion notes": "Uses the Dart attack and mastery profile with Bludgeoning damage. Replaces the legacy return checks with a conditional return on a miss."
+        }
+      }
+    ],
+    "savage-coast-local:3df4e22091d5a52e": [
+      {
+        "label": "Savage Coast Campaign Book · AD&D source facts",
+        "status": "source-reported",
+        "source": "https://pandius.com/TSR2521-SCS2.pdf#page=119",
+        "fields": {
+          "Legacy price": "3 gp",
+          "Weight": "3 lb",
+          "Legacy damage": "1d6 Bludgeoning. Stone is an alternate material in the original setting."
+        }
+      },
+      {
+        "label": "Savage Coast · 2024 tabletop profile",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Bludgeoning + Strength modifier.",
+          "Range": "5 ft melee; 20/60 ft when thrown",
+          "Properties": "Light, Thrown",
+          "Attack ability": "Strength",
+          "Mastery": "Nick",
+          "Activation": "Make a weapon attack with the Attack action.",
+          "Crafting": "Draft: Smith’s Tools proficiency for the metal version; use the 2024 nonmagical crafting guideline.",
+          "Creative use": "Throw a shot when a bow would be awkward in a cramped space.",
+          "Weight": "3 lb",
+          "Attack bonus": "No inherent bonus.",
+          "Attunement": "None; nonmagical equipment.",
+          "Casting time": "Does not cast a spell.",
+          "Conversion notes": "Uses the 2024 Light Hammer profile as a blunt hand-thrown analogue."
+        }
+      }
+    ],
+    "savage-coast-local:749183b727f54240": [
+      {
+        "label": "Savage Coast Campaign Book · AD&D source facts",
+        "status": "source-reported",
+        "source": "https://pandius.com/TSR2521-SCS2.pdf#page=119",
+        "fields": {
+          "Legacy price": "1 gp",
+          "Weight": "3 lb",
+          "Legacy damage": "1d6 Bludgeoning. The original book mentions paired use and disarming."
+        }
+      },
+      {
+        "label": "Savage Coast · 2024 tabletop profile",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier.",
+          "Range": "5 ft melee",
+          "Properties": "Light",
+          "Attack ability": "Strength",
+          "Mastery": "Nick",
+          "Activation": "Make a weapon attack with the Attack action.",
+          "Crafting": "Draft: Woodcarver’s Tools proficiency and a short connector; use the 2024 nonmagical crafting guideline.",
+          "Creative use": "Pair two nonakas for close-quarters fighting.",
+          "Weight": "3 lb",
+          "Attack bonus": "No inherent bonus.",
+          "Attunement": "None; nonmagical equipment.",
+          "Casting time": "Does not cast a spell.",
+          "Conversion notes": "Adapts paired use with Light and Nick. Uses Shortsword-level damage with a different type and Strength-based attacks."
+        }
+      }
+    ],
+    "savage-coast-local:cd1569e797ef0085": [
+      {
+        "label": "Savage Coast Campaign Book · AD&D source facts",
+        "status": "source-reported",
+        "source": "https://pandius.com/TSR2521-SCS2.pdf#page=119",
+        "fields": {
+          "Legacy price": "5 gp",
+          "Weight": "8 lb",
+          "Legacy damage": "1d6+1 against Small or Medium targets; 1d8 against Large targets. The table lists Piercing or Slashing."
+        }
+      },
+      {
+        "label": "Savage Coast · 2024 tabletop profile",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Slashing + Strength modifier.",
+          "Range": "10 ft melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Attack ability": "Strength",
+          "Mastery": "Graze",
+          "Activation": "Make a weapon attack with the Attack action.",
+          "Crafting": "Draft: Smith’s Tools proficiency and a long haft; use the 2024 nonmagical crafting guideline.",
+          "Creative use": "Use the reach to threaten an approach while an ally withdraws.",
+          "Weight": "8 lb",
+          "Attack bonus": "No inherent bonus.",
+          "Attunement": "None; nonmagical equipment.",
+          "Casting time": "Does not cast a spell.",
+          "Conversion notes": "Uses the 2024 Glaive profile for the long-handled scythe."
+        }
+      }
+    ],
+    "savage-coast-local:ee7770a68daaee0e": [
+      {
+        "label": "Savage Coast Campaign Book · AD&D source facts",
+        "status": "source-reported",
+        "source": "https://pandius.com/TSR2521-SCS2.pdf#page=119",
+        "fields": {
+          "Legacy price": "10 gp",
+          "Weight": "4 lb",
+          "Legacy damage": "1d8 Slashing. The source describes it as a clearing tool as well as a weapon."
+        }
+      },
+      {
+        "label": "Savage Coast · 2024 tabletop profile",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing one-handed or 1d10 Slashing two-handed, plus Strength modifier.",
+          "Range": "5 ft melee",
+          "Properties": "Versatile (1d10)",
+          "Attack ability": "Strength",
+          "Mastery": "Sap",
+          "Activation": "Make a weapon attack with the Attack action.",
+          "Crafting": "Draft: Smith’s Tools proficiency; use the 2024 nonmagical crafting guideline.",
+          "Creative use": "Cut a short path through thick brush to give a scout a cleaner retreat.",
+          "Weight": "4 lb",
+          "Attack bonus": "No inherent bonus.",
+          "Attunement": "None; nonmagical equipment.",
+          "Casting time": "Does not cast a spell.",
+          "Conversion notes": "Uses the 2024 Longsword profile for the source’s unusually long machete."
+        }
+      }
+    ],
+    "savage-coast-local:e246631bd6186bdc": [
+      {
+        "label": "Savage Coast Campaign Book · AD&D source facts",
+        "status": "source-reported",
+        "source": "https://pandius.com/TSR2521-SCS2.pdf#page=117",
+        "fields": {
+          "Legacy price": "5 sp",
+          "Weight": "2 lb",
+          "Legacy damage": "1d3 Bludgeoning against Small or Medium targets; 1d2 against Large targets.",
+          "History": "Legacy called shots could bind specific body parts."
+        }
+      },
+      {
+        "label": "Savage Coast · 2024 tabletop profile",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Category": "Thrown adventuring gear",
+          "Damage": "None in this control-gear profile.",
+          "Range": "20 ft; one visible creature of Large size or smaller.",
+          "Activation": "When taking the Attack action, replace one attack with a throw. The target makes a Dexterity save.",
+          "Saving throw": "Dexterity DC 8 + your Dexterity modifier + Proficiency Bonus.",
+          "Special powers": "On a failure the target has the Restrained condition. It or a creature within 5 ft of it can use an action and succeed on a DC 10 Strength (Athletics) check to free it. Dealing 5 Slashing damage to the bolas (AC 10) also frees it.",
+          "Duration": "Until the target escapes or the bolas is cut.",
+          "Crafting": "Draft: Weaver’s Tools proficiency; use the 2024 nonmagical crafting guideline.",
+          "Creative use": "Throw at a fleeing courier so allies can catch up.",
+          "Weight": "2 lb",
+          "Attack bonus": "No inherent bonus.",
+          "Attunement": "None; nonmagical equipment.",
+          "Casting time": "Does not cast a spell.",
+          "Conversion notes": "Models the 2024 Net with a slightly longer throw, preserving the bind and dropping called shots and direct damage."
+        }
+      }
+    ],
+    "savage-coast-local:f130637add5730d1": [
+      {
+        "label": "Savage Coast Campaign Book · AD&D source facts",
+        "status": "source-reported",
+        "source": "https://pandius.com/TSR2521-SCS2.pdf#page=119",
+        "fields": {
+          "Legacy price": "5 sp",
+          "Weight": "3 lb",
+          "Legacy range": "Legacy close/medium/long bands are 5/20/30 ft.",
+          "History": "The wielder retains one end of the rope and can use it to trip or hold a target."
+        }
+      },
+      {
+        "label": "Savage Coast · 2024 tabletop profile",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Category": "Two-handed control gear",
+          "Damage": "None.",
+          "Range": "15 ft; one visible Large or smaller creature.",
+          "Activation": "When taking the Attack action, replace one attack with a throw.",
+          "Saving throw": "Dexterity DC 8 + your Dexterity modifier + Proficiency Bonus.",
+          "Special powers": "On a failed save, the creature is Restrained while you hold the rope in two hands and stay within 15 ft. It or an adjacent creature can use an action to attempt a DC 10 Strength (Athletics) check to end the effect. Dealing 5 Slashing damage to the rope (AC 10) also ends it.",
+          "Duration": "Until escape, the rope breaks, or the wielder releases it, is Incapacitated, or moves more than 15 ft away.",
+          "Crafting": "Draft: Weaver’s Tools proficiency; use the 2024 nonmagical crafting guideline.",
+          "Creative use": "Keep a fleeing creature within reach while a companion approaches with manacles.",
+          "Weight": "3 lb",
+          "Attack bonus": "No inherent bonus.",
+          "Attunement": "None; nonmagical equipment.",
+          "Casting time": "Does not cast a spell.",
+          "Conversion notes": "Adapts the 2024 Net escape rules, with sustained handling to reflect that the wielder retains the rope."
+        }
+      }
+    ],
+    "savage-coast-local:b773e3a226803243": [
+      {
+        "label": "Savage Coast Campaign Book · AD&D source facts",
+        "status": "source-reported",
+        "source": "https://pandius.com/TSR2521-SCS2.pdf#page=118",
+        "fields": {
+          "Legacy price": "10 gp",
+          "Weight": "0.5 lb",
+          "History": "The source describes sleep, choke, and fog versions made by Cayma Wokani.",
+          "Acquisition and encounters": "The legacy source places the item primarily in the Cayma homeland."
+        }
+      },
+      {
+        "label": "Savage Coast · 2024 tabletop profile",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Category": "Single-use alchemical adventuring gear",
+          "Damage": "None in these three utility variants.",
+          "Range": "20 ft to a point you can see.",
+          "Area": "5-ft-radius sphere.",
+          "Activation": "Take the Utilize action and expend one grenade. Choose its variant when you acquire or create it.",
+          "Saving throw": "Sleep and choke require a DC 12 Constitution save from breathing creatures in the area. Fog has no save.",
+          "Special powers": "Sleep: on failure, a creature is Unconscious until the end of its next turn, it takes damage, or another creature within 5 ft takes an action to wake it. Choke: on failure, a creature has the Incapacitated condition until the end of its next turn. Fog: the area is Heavily Obscured until the start of your next turn.",
+          "Duration": "Until the start of your next turn (fog) or the end of the affected creature’s next turn (sleep or choke).",
+          "Crafting": "Draft: Alchemist’s Supplies proficiency and access to Cayma recipes at the DM’s discretion; use the 2024 nonmagical crafting guideline.",
+          "Creative use": "Use fog to break line of sight while an ally retreats.",
+          "Weight": "0.5 lb",
+          "Attack bonus": "No inherent bonus.",
+          "Attunement": "None; nonmagical equipment.",
+          "Casting time": "Does not cast a spell.",
+          "Conversion notes": "Uses 2024 conditions and a fixed DC. Shortens legacy control to one turn and standardizes the area for a 5-ft grid."
+        }
+      }
+    ],
+    "wrath-of-the-immortals-local:a72eefa22ed2faa0": [
+      {
+        "label": "Wrath of the Immortals · Codex of the Immortals",
+        "status": "source-reported",
+        "source": "https://www.drivethrurpg.com/en/product/284479/wrath-of-the-immortals",
+        "fields": {
+          "Source location": "Printed p. 15 in the Codex of the Immortals.",
+          "History": "Asterius carries four flying daggers. The source gives each a +3 enhancement."
+        }
+      },
+      {
+        "label": "Wrath of the Immortals · 2024 tabletop profile",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Category": "Legendary magic dagger; one dagger per item.",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier + 3.",
+          "Attack bonus": "+3 to attack and damage rolls with this dagger.",
+          "Range": "5 ft melee; 20/60 ft when thrown.",
+          "Properties": "Finesse, Light, Thrown.",
+          "Mastery": "Nick.",
+          "Weight": "1 lb.",
+          "Attunement": "Required.",
+          "Activation": "Make a weapon attack with the Attack action.",
+          "Special powers": "After you resolve a thrown attack with the dagger, it returns to your hand if you have one free. Otherwise it lands in your space.",
+          "Creative use": "Keep one hand open when throwing from a ledge so the dagger returns instead of dropping below.",
+          "Conversion notes": "Uses the 2024 Dagger profile and retains +3. The automatic return is an original interpretation of the legacy flying descriptor."
+        }
+      }
+    ],
+    "wrath-of-the-immortals-local:02703a4020c8f672": [
+      {
+        "label": "Wrath of the Immortals · Codex of the Immortals",
+        "status": "source-reported",
+        "source": "https://www.drivethrurpg.com/en/product/284479/wrath-of-the-immortals",
+        "fields": {
+          "Source location": "Printed p. 26 in the Codex of the Immortals.",
+          "History": "Korotiku carries four +3 daggers with an invisibility power. The equipment line gives no activation or duration."
+        }
+      },
+      {
+        "label": "Wrath of the Immortals · 2024 tabletop profile",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Category": "Legendary magic dagger; one dagger per item.",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier + 3.",
+          "Attack bonus": "+3 to attack and damage rolls with this dagger.",
+          "Range": "5 ft melee; 20/60 ft when thrown.",
+          "Properties": "Finesse, Light, Thrown.",
+          "Mastery": "Nick.",
+          "Weight": "1 lb.",
+          "Attunement": "Required.",
+          "Activation": "Use the Attack action to attack. As a Magic action, cast Invisibility on yourself from the dagger without material components once per Long Rest.",
+          "Special powers": "You gain the Invisible condition for the spell’s duration. It ends early immediately after you make an attack roll, deal damage, or cast a spell.",
+          "Casting time": "1 action, using the dagger’s Magic action.",
+          "Duration": "Concentration, up to 1 hour.",
+          "Creative use": "Slip through a guarded corridor before drawing attention with an attack.",
+          "Conversion notes": "Uses the 2024 Dagger profile and retains +3. The spell, activation, attunement, and recharge are original balancing choices."
+        }
+      }
+    ],
+    "wrath-of-the-immortals-local:fba4af8a58840fb3": [
+      {
+        "label": "Wrath of the Immortals · Codex of the Immortals",
+        "status": "source-reported",
+        "source": "https://www.drivethrurpg.com/en/product/284479/wrath-of-the-immortals",
+        "fields": {
+          "Source location": "Printed p. 13 in the Codex of the Immortals.",
+          "History": "Petra wields war hammers of flying. The source gives a +5 enhancement and separates Petra’s character damage from weapon damage."
+        }
+      },
+      {
+        "label": "Wrath of the Immortals · 2024 tabletop profile",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Category": "Legendary magic warhammer; one hammer per item.",
+          "Damage": "1d8 Bludgeoning + Strength modifier + 3, or 1d10 Bludgeoning + Strength modifier + 3 with two hands in melee.",
+          "Attack bonus": "+3 to attack and damage rolls with this hammer.",
+          "Range": "5 ft melee; 20/60 ft when thrown.",
+          "Properties": "Thrown, Versatile (1d10).",
+          "Mastery": "Push.",
+          "Weight": "2 lb.",
+          "Attunement": "Required.",
+          "Activation": "Make a weapon attack with the Attack action.",
+          "Special powers": "After you resolve a thrown attack with the hammer, it returns to your hand if you have one free. Otherwise it lands in your space.",
+          "Creative use": "Throw at an enemy on a narrow perch. If you have mastered the weapon, Push may move the target off the perch.",
+          "Conversion notes": "Uses the 2024 Warhammer profile with Thrown and returning behavior. Reduces the legacy +5 enhancement to +3; excludes Petra’s personal Immortal damage dice."
+        }
+      }
+    ],
+    "wrath-of-the-immortals-local:5c5b31e4db536879": [
+      {
+        "label": "Wrath of the Immortals · Codex of the Immortals",
+        "status": "source-reported",
+        "source": "https://www.drivethrurpg.com/en/product/284479/wrath-of-the-immortals",
+        "fields": {
+          "Source location": "Printed p. 16 in the Codex of the Immortals.",
+          "History": "The source identifies Atruaghin’s weapon as a tomahawk. The character’s equipment line provides no enhancement or item-specific powers."
+        }
+      },
+      {
+        "label": "Wrath of the Immortals · 2024 tabletop profile",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Category": "Simple melee weapon · handaxe comparison.",
+          "Damage": "1d6 Slashing + Strength modifier.",
+          "Attack bonus": "No inherent bonus in this baseline.",
+          "Range": "5 ft melee; 20/60 ft when thrown.",
+          "Properties": "Light, Thrown.",
+          "Mastery": "Vex.",
+          "Weight": "2 lb.",
+          "Activation": "Make a weapon attack with the Attack action.",
+          "Creative use": "Keep the weapon at hand for a ranged attack without changing equipment.",
+          "Conversion notes": "Uses the 2024 Handaxe profile. The baseline leaves Immortal-specific artifact powers for DM adjudication."
+        }
+      }
     ]
   }
 }

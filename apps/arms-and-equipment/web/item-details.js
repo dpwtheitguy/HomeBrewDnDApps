@@ -294,7 +294,10 @@ function addItemDetails(panel, item, supplements) {
     const entries = curated && curated.records[item.id] || [];
     entries.forEach(entry => {
         const label = entry.status === "original-draft" ? entry.label + " · DM review" : entry.label;
-        const details = itemDetailsSection(panel, label, Object.entries(entry.fields), entry.source, entry.status !== "original-draft");
+        const playableDraft = entry.status === "original-draft" &&
+            ["Damage", "Range", "Activation"].every(field => entry.fields[field]);
+        const details = itemDetailsSection(panel, label, Object.entries(entry.fields), entry.source,
+            entry.status !== "original-draft" || playableDraft);
         if (entry.related_item) {
             const button = element("button", entry.related_item.label);
             button.addEventListener("click", () => inspect(entry.related_item.id, returnFocus));

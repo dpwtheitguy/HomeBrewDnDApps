@@ -27,6 +27,7 @@ class AdventurePackTests(unittest.TestCase):
   self.assertIn('no command',ring['description']);self.assertFalse(ring['provenance']['legacy_page_verified'])
   mace=self.items['thunder-rift:mercy-mace']
   self.assertTrue(mace['access']['proficiency_interactions'])
+  self.assertIn('Sap',[row['property']['name'] for row in mace['mechanics']['properties']])
  def test_setting_and_publication_are_distinct(self):
   tx=Taxonomy(ROOT/'catalog/taxonomy/entities.json')
   self.assertEqual(tx.resolve('Zanzars Dungeon'),'publication:zanzer')

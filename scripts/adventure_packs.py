@@ -26,7 +26,7 @@ def build_adventure_packs(items, icons, root):
                 base=byid[row['base_item_id']]
                 item['provenance']['base_rules_id']=base['id']
                 item['provenance']['base_rules_provenance']=base['provenance']
-                for field in ('weapon','armor'):
+                for field in ('weapon','armor','properties'):
                     if field in base['mechanics']:item['mechanics'][field]=deepcopy(base['mechanics'][field])
         sources.append({'id':pack['id'],'name':pack['label'],'ruleset':'dnd-2024','record_count':len(pack['drafts']),'source_url':pack['sources'][0]['url'],'license_ids':['project-original-adaptations'], 'coverage':pack['coverage'],'distribution_status':'Original homebrew drafts; source adventure text and artwork excluded.'})
     return result,sources

@@ -12,6 +12,7 @@ Current deliverable: [searchable item catalog](catalog/README.md), including sep
 - [Mystara research and conversions](catalog/settings/mystara/README.md)
 - [Shared data, proficiency and pricing design](shared/README.md)
 - [Search filters and research loop](docs/SEARCH-AND-RESEARCH.md)
+- [Weapon audit workflow](docs/skills/armory-weapon-audit/SKILL.md)
 - [Expanded source roadmap](catalog/source-roadmap.json)
 - [Product scope](docs/PRODUCT.md)
 - [BG3-inspired interface direction](docs/UI-DIRECTION.md)

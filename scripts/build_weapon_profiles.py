@@ -70,8 +70,10 @@ def build():
         mechanics = item['mechanics']
         name = words(item['name'])
         source_type = str(mechanics.get('source_type') or '').lower()
-        if any(entry.get('profile_kind') == 'siege-engine' for entry in details.get(item_id, [])):
-            profiles[item_id] = {'kind': 'siege-engine'}
+        explicit_kind = next((entry['profile_kind'] for entry in details.get(item_id, [])
+                              if entry.get('profile_kind') in {'siege-engine', 'custom-2024-draft'}), None)
+        if explicit_kind:
+            profiles[item_id] = {'kind': explicit_kind}
             continue
         if item['ruleset'] == 'bg3':
             profiles[item_id] = {'kind': 'native-bg3'}

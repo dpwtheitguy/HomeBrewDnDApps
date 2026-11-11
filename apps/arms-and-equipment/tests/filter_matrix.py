@@ -340,6 +340,54 @@ def main():
                 failures.append('Rules edition clears the previously pinned BG3 item')
                 print(f'FAIL Rules edition clears the previously pinned BG3 item: {error}')
             checks = {
+                '2024 Dagger shows damage, thrown range, and mastery': '''(async () => {
+                    inspect("open5e-srd-2024:srd-2024_dagger", grid.firstElementChild);
+                    await itemDetails;
+                    const text = inspection.textContent;
+                    return /1d4 piercing/i.test(text) && text.includes("20/60 ft") && text.includes("Nick")
+                        && !text.includes("provisional profile");
+                })()''',
+                'BG3 Bloodthirst shows native damage and ability links': '''(async () => {
+                    inspect("bg3-wiki:9688", grid.firstElementChild);
+                    await Promise.all([itemDetails, bg3WeaponRules]);
+                    const text = inspection.textContent;
+                    return text.includes("1d4 + 2") && text.includes("Exploit Weakness")
+                        && Array.from(inspection.querySelectorAll("a")).some(link => link.href.includes("bg3.wiki"))
+                        && !text.includes("provisional profile");
+                })()''',
+                'Savage Coast Boomerang shows the playable draft and legacy source': '''(async () => {
+                    inspect("savage-coast-local:6ba83af5224e6597", grid.firstElementChild);
+                    await itemDetails;
+                    const draft = Array.from(inspection.querySelectorAll("details")).find(details =>
+                        details.querySelector("summary").textContent.includes("2024 tabletop profile"));
+                    return draft && draft.open && draft.textContent.includes("1d4 Bludgeoning")
+                        && draft.textContent.includes("20/60 ft") && draft.textContent.includes("DM review")
+                        && inspection.textContent.includes("AD&D source facts")
+                        && !inspection.textContent.includes("provisional profile");
+                })()''',
+                'Mercy Mace preserves inherited Sap mastery': '''(async () => {
+                    inspect("thunder-rift:mercy-mace", grid.firstElementChild);
+                    await itemDetails;
+                    return inspection.textContent.includes("Sap") && inspection.textContent.includes("2d8");
+                })()''',
+                'Mystara Ballista and Bolt share published rules and link both ways': '''(async () => {
+                    const engine = "mystara-fan-names-reference:3ffbb53cafbb75be";
+                    const bolt = "mystara-fan-names-reference:86a0c93771c65462";
+                    const button = label => Array.from(inspection.querySelectorAll("button"))
+                        .find(control => control.textContent === label);
+                    inspect(engine, grid.firstElementChild);
+                    await itemDetails;
+                    const engineText = inspection.textContent;
+                    button("View Ballista Bolt ammunition").click();
+                    await itemDetails;
+                    const boltText = inspection.textContent;
+                    const openedBolt = selected === bolt;
+                    button("View Ballista siege engine").click();
+                    await itemDetails;
+                    return openedBolt && selected === engine && engineText.includes("50")
+                        && [engineText, boltText].every(text => text.includes("3d10 Piercing")
+                            && text.includes("480 ft") && !text.includes("provisional profile"));
+                })()''',
                 'Reject inverted buy budget': '''(() => {const prior=searchId;byId("price-min").value="30";byId("price-max").value="10";
                     byId("price-max").dispatchEvent(new Event("change"));
                     return !byId("budget-error").hidden && searchId===prior;})()''',
