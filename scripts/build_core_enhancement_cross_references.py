@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify plain 2014 +N weapons against their exact 2024 SRD counterparts."""
+"""Verify plain 2014 +N weapons against their 2024 SRD counterparts."""
 import argparse
 import collections
 import json
@@ -17,7 +17,24 @@ LEGACY_RULE = (
     "The bonus is determined by the weapon's rarity."
 )
 CURRENT_RULE = LEGACY_RULE.replace('attack and damage rolls', 'attack rolls and damage rolls')
-COMPARABLE_FIELDS = ('name', 'damage_dice', 'damage_type', 'range', 'long_range', 'is_simple')
+# Open5e spells these variant names differently across the two SRD snapshots.
+BASE_ALIASES = {
+    'Crossbow-Hand': ('Crossbow, Hand', 'Hand Crossbow'),
+    'Crossbow-Heavy': ('Crossbow, Heavy', 'Heavy Crossbow'),
+    'Crossbow-Light': ('Crossbow, Light', 'Light Crossbow'),
+    'Light-Hammer': ('Light Hammer', 'Light Hammer'),
+    'War-Pick': ('War Pick', 'War Pick'),
+}
+COMPARABLE_FIELDS = ('damage_dice', 'damage_type', 'range', 'long_range', 'is_simple')
+
+
+def modern_variant_name(legacy_name):
+    match = NAME.fullmatch(legacy_name)
+    if not match:
+        return legacy_name
+    legacy_variant, bonus = match.groups()
+    _, modern_base = BASE_ALIASES.get(legacy_variant, (legacy_variant, legacy_variant))
+    return f'{modern_base} (+{bonus})'
 
 
 def weapon_fields(weapon):
@@ -70,10 +87,11 @@ def build(catalog):
         match = NAME.fullmatch(legacy['name'])
         if legacy['source_id'] != LEGACY or not match:
             continue
-        base_name, bonus = match.groups()
-        candidates = modern_names[legacy['name'].casefold()]
+        legacy_variant, bonus = match.groups()
+        expected_bases = BASE_ALIASES.get(legacy_variant, (legacy_variant, legacy_variant))
+        candidates = modern_names[modern_variant_name(legacy['name']).casefold()]
         if len(candidates) != 1:
-            outcomes['no_unique_exact_match'] += 1
+            outcomes['no_unique_variant_match'] += 1
             continue
         modern = candidates[0]
         pair = (legacy, modern)
@@ -84,7 +102,9 @@ def build(catalog):
             continue
         legacy_base, modern_base = (mundane_base(item, by_source_key) for item in pair)
         if not legacy_base or not modern_base or any(
-            base['name'].casefold() != base_name.casefold() for base in (legacy_base, modern_base)
+            base['name'].casefold() != expected.casefold()
+            or base['mechanics']['weapon']['name'].casefold() != expected.casefold()
+            for base, expected in zip((legacy_base, modern_base), expected_bases)
         ):
             outcomes['unverified_base'] += 1
             continue
@@ -97,9 +117,9 @@ def build(catalog):
             'base_id': modern_base['id'],
             'bonus': int(bonus),
         }
-        outcomes['verified'] += 1
+        outcomes['verified_alias' if legacy_variant in BASE_ALIASES else 'verified_exact'] += 1
     return {'schema_version': 1, 'source': 'https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3',
-            'method': 'Unique exact variant and base name, identical enhancement and rarity, unchanged base damage, range, category, and comparable non-Mastery properties.',
+            'method': 'Unique variant and base name or explicit naming alias, identical enhancement and rarity, unchanged base damage, range, category, and comparable non-Mastery properties.',
             'counts': dict(outcomes), 'records': records}
 
 

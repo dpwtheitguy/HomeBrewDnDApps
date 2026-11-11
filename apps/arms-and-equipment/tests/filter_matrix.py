@@ -365,6 +365,37 @@ def main():
                     scrollTo(0, previousScroll);
                     return !!(inspectionState && reachable && reopening);
                 })()''',
+                'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
+                    inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
+                    await itemDetails;
+                    const text = inspection.textContent;
+                    return ["Verified 2024 enhancement", "Heavy Crossbow", "+2 to attack and damage"]
+                        .every(value => text.includes(value));
+                })()''',
+                '2024 Net shows its official save and escape rules': '''(async () => {
+                    inspect("open5e-srd-2024:srd-2024_net", grid.firstElementChild);
+                    await itemDetails;
+                    const text = inspection.textContent;
+                    return ["Published 2024 combat reference", "No direct damage", "15 ft", "DC 10 Strength"]
+                        .every(value => text.includes(value));
+                })()''',
+                'Armor cards distinguish shield bonuses and worn AC': '''(async () => {
+                    inspect("open5e-srd-2024:srd-2024_arrow-catching-shield", grid.firstElementChild);
+                    await itemDetails;
+                    const shield = inspection.textContent;
+                    inspect("open5e-srd-2024:srd-2024_plate-armor-plus-1", grid.firstElementChild);
+                    await itemDetails;
+                    const plate = inspection.textContent;
+                    return shield.includes("Armor class bonus+2") && shield.includes("extra +2 AC against ranged")
+                        && plate.includes("Armor class19") && plate.includes("Rare") && plate.includes("Base cost5500 gp");
+                })()''',
+                'Diablo II unique weapon has native damage and source': '''(async () => {
+                    inspect("diablo-2-reference:0192f30052d4ae98", grid.firstElementChild);
+                    await itemDetails;
+                    const text = inspection.textContent;
+                    return text.includes("Arreat Summit") && text.includes("Damage")
+                        && Array.from(inspection.querySelectorAll("a")).some(link => link.href.includes("/elite/upolearms"));
+                })()''',
                 'Legacy Dagger +2 shows the verified 2024 bonus and mastery': '''(async () => {
                     inspect("open5e-srd-2014:srd_dagger-2", grid.firstElementChild);
                     await itemDetails;

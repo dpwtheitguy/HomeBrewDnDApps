@@ -1,6 +1,6 @@
 # Weapon playability audit
 
-5,617 weapon records scanned. Structural errors affect 0 records. Content review is queued for 4,648 records.
+5,617 weapon records scanned. Structural errors affect 0 records. Content review is queued for 4,601 records.
 
 Scope is catalog records indexed with type weapon. Ammunition indexed separately has its own field audit. This scan checks weapon fields, profile references, BG3 variant structure, and positive prices. Full catalog schema validation is a separate check. Drafts, original game statistics, and base weapon comparisons retain their own evidence labels.
 
@@ -8,17 +8,17 @@ Scope is catalog records indexed with type weapon. Ammunition indexed separately
 
 | Evidence | Records |
 |---|---:|
-| base-weapon-draft | 3,349 |
-| improvised-fallback | 647 |
+| base-weapon-draft | 3,337 |
+| improvised-fallback | 637 |
 | published-2024-structured | 454 |
 | native-bg3 | 428 |
 | published-2024-cross-reference | 206 |
 | upgrade-dependent | 170 |
-| item-specific-draft | 125 |
-| verified-2024-enhancement | 84 |
+| item-specific-draft | 135 |
+| verified-2024-enhancement | 96 |
 | reference-object | 65 |
 | launcher-dependent | 51 |
-| published-2024-text | 35 |
+| published-2024-reference | 35 |
 | published-2024-attack | 2 |
 | source-based-2024 | 1 |
 
@@ -37,7 +37,7 @@ Scope is catalog records indexed with type weapon. Ammunition indexed separately
 | arms-equipment-3e-reference | 190 |
 | nioh-2-reference | 190 |
 | baldurs-gate-2-reference | 174 |
-| open5e-srd-2014 | 168 |
+| open5e-srd-2014 | 156 |
 | dmg-2e-reference | 151 |
 | adventurers-vault-1-reference | 143 |
 | planescape-torment-reference | 115 |

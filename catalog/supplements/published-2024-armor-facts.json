@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+  "records": {
+    "open5e-srd-2024:srd-2024_animated-shield": {
+      "base_id": "open5e-srd-2024:srd-2024_shield",
+      "bonus": 0,
+      "effects": "Bonus Action to animate or dismiss it. It protects you hands-free for up to 1 minute and ends early if you die or become Incapacitated."
+    },
+    "open5e-srd-2024:srd-2024_armor-of-invulnerability": {
+      "base_id": "open5e-srd-2024:srd-2024_plate-armor",
+      "bonus": 0,
+      "effects": "Resistance to Bludgeoning, Piercing, and Slashing while worn. Once per dawn, use a Magic action to gain Immunity to all three for up to 10 minutes while wearing it."
+    },
+    "open5e-srd-2024:srd-2024_arrow-catching-shield": {
+      "base_id": "open5e-srd-2024:srd-2024_shield",
+      "bonus": 0,
+      "effects": "Gain an extra +2 AC against ranged attack rolls while wielding it. You can use a Reaction to become the target of a ranged attack aimed at someone within 5 ft of you."
+    },
+    "open5e-srd-2024:srd-2024_dragon-scale-mail": {
+      "base_id": "open5e-srd-2024:srd-2024_scale-mail",
+      "bonus": 1,
+      "effects": "Advantage on saves against dragon breath. Resistance depends on the dragon: Acid for black or copper, Lightning for blue or bronze, Fire for brass, gold, or red, Poison for green, and Cold for silver or white. Once per dawn, use a Magic action to locate the nearest matching dragon within 30 miles."
+    },
+    "open5e-srd-2024:srd-2024_glamoured-studded-leather": {
+      "base_id": "open5e-srd-2024:srd-2024_studded-leather-armor",
+      "bonus": 1,
+      "effects": "Use a Bonus Action to give the armor the appearance of ordinary clothes or another suit of armor. The illusion lasts until you change it or remove the armor; weight and bulk stay the same."
+    },
+    "open5e-srd-2024:srd-2024_shield-of-missile-attraction": {
+      "base_id": "open5e-srd-2024:srd-2024_shield",
+      "bonus": 0,
+      "effects": "While holding it, resist damage from ranged weapon attacks. Attunement curses you to become the target when such an attack targets someone within 10 ft. Removing the shield does not remove the curse."
+    },
+    "open5e-srd-2024:srd-2024_spellguard-shield": {
+      "base_id": "open5e-srd-2024:srd-2024_shield",
+      "bonus": 0,
+      "effects": "While holding it, gain Advantage on saves against spells and other magical effects. Spell attack rolls against you have Disadvantage."
+    }
+  }
+}

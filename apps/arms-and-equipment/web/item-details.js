@@ -13,7 +13,10 @@ const itemDetails = Promise.all([
     loadSupplement("legacy-game-weapon-facts.json"),
     loadSupplement("diablo-2-base-weapon-facts.json"),
     loadSupplement("bg3-weapon-availability.json"),
-    loadSupplement("core-enhancement-cross-references.json")
+    loadSupplement("core-enhancement-cross-references.json"),
+    loadSupplement("diablo-2-unique-weapon-facts.json"),
+    loadSupplement("published-2024-weapon-facts.json"),
+    loadSupplement("published-2024-armor-facts.json")
 ]);
 const equipmentRulesUrl = "https://www.dndbeyond.com/sources/dnd/br-2024/equipment";
 const magicItemRulesUrl = "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items";
@@ -139,21 +142,31 @@ function addSpellReference(panel, item, spells) {
     }
 }
 
-function addPublishedEquipment(panel, item) {
-    const mechanics = item.mechanics || {};
+function addPublishedEquipment(panel, item, published) {
+    const reference = published && published.records[item.id];
+    const base = reference ? JSON.parse(Armory.item(reference.base_id)) : item;
+    const mechanics = base.mechanics || {};
     const armor = mechanics.armor;
-    if (!armor) return;
-    let ac = armor.ac_base;
+    if (!armor || !Number.isInteger(armor.ac_base)) return;
+    const shield = armor.name === "Shield";
+    const enhancement = item.source_id === "open5e-srd-2024" &&
+        /bonus to Armor Class/i.test(item.description || "") && item.name.match(/ \(\+([123])\)$/);
+    const bonus = reference ? reference.bonus : enhancement ? Number(enhancement[1]) : 0;
+    let ac = shield ? "+" + (armor.ac_base + bonus) : armor.ac_base + bonus;
     if (armor.ac_add_dexmod) {
         ac += " + Dex modifier" + (armor.ac_cap_dexmod == null ? "" : " (max +" + armor.ac_cap_dexmod + ")");
     }
     itemDetailsSection(panel, "Armor statistics", [
         ["Base armor", armor.name],
-        ["Armor class", ac],
+        [shield ? "Armor class bonus" : "Armor class", ac],
+        ["Training", (armor.document === "srd-2024" || armor.document === "srd-2014")
+            ? (shield ? "Shield" : armor.ac_add_dexmod
+                ? (armor.ac_cap_dexmod == null ? "Light armor" : "Medium armor") : "Heavy armor") : ""],
         ["Strength requirement", armor.strength_score_required || ""],
         ["Stealth disadvantage", armor.grants_stealth_disadvantage ? "Yes" : ""],
-        ["Weight", Number((mechanics.source_fields || {}).weight) > 0 ? Number(mechanics.source_fields.weight) + " lb" : ""]
-    ], item.ruleset === "dnd-2024" ? equipmentRulesUrl : "", true);
+        ["Weight", Number((mechanics.source_fields || {}).weight) > 0 ? Number(mechanics.source_fields.weight) + " lb" : ""],
+        ["Special powers", reference && reference.effects]
+    ], reference ? published.source : item.ruleset === "dnd-2024" ? equipmentRulesUrl : "", true);
 }
 
 function addRecordedEncounters(panel, item) {
@@ -237,7 +250,7 @@ function addWeaponProfile(panel, item, supplement) {
 
 function addPublishedCrossReference(panel, item, references, enhancements) {
     const match = enhancements && enhancements.records[item.id];
-    const id = (references && references.records[item.id]) || (match && match.target_id);
+    const id = match ? match.target_id : references && references.records[item.id];
     if (!id) return false;
     const published = JSON.parse(Armory.item(id));
     if (!published.description) return false;
@@ -290,9 +303,11 @@ function addLegacyDmgDetails(panel, item) {
 }
 
 function addItemDetails(panel, item, supplements) {
-    const [bg3, curated, spells, weapons, references, legacyGames, diabloWeapons, bg3Availability, enhancements] = supplements;
+    const [bg3, curated, spells, weapons, references, legacyGames, diabloWeapons, bg3Availability, enhancements,
+        diabloUniques, publishedFacts, publishedArmor] = supplements;
     const legacyGame = (legacyGames && legacyGames.records[item.id]) ||
-        (diabloWeapons && diabloWeapons.records[item.id]);
+        (diabloWeapons && diabloWeapons.records[item.id]) ||
+        (diabloUniques && diabloUniques.records[item.id]);
     const availability = bg3Availability && bg3Availability.records[item.id];
     if (availability) {
         itemDetailsSection(panel, "BG3 availability", [["Player access", availability.note]], availability.source, true);
@@ -307,7 +322,8 @@ function addItemDetails(panel, item, supplements) {
     }
     addLegacyDmgDetails(panel, item);
     if (!addPublishedCrossReference(panel, item, references, enhancements)) addWeaponProfile(panel, item, weapons);
-    const entries = curated && curated.records[item.id] || [];
+    const entries = (curated && curated.records[item.id] || [])
+        .concat(publishedFacts && publishedFacts.records[item.id] || []);
     entries.forEach(entry => {
         const label = entry.status === "original-draft" ? entry.label + " · DM review" : entry.label;
         const playableDraft = entry.status === "original-draft" &&
@@ -332,7 +348,7 @@ function addItemDetails(panel, item, supplements) {
             locations.forEach(title => acquisition.appendChild(sourceLink(wikiLink(title), title)));
         }
     }
-    addPublishedEquipment(panel, item);
+    addPublishedEquipment(panel, item, publishedArmor);
     addSpellReference(panel, item, spells);
     add2024Crafting(panel, item);
     addRecordedEncounters(panel, item);

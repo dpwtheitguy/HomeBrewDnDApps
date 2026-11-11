@@ -117,6 +117,7 @@ def main():
             elif p.name=='WeaponProperty.json': prop_lookup[r['pk']]=r['fields']
             else:
                 f=r['fields']; prop_assign[f.get('weapon')].append(f)
+    armor_facts = read(CAT/'supplements/published-2024-armor-facts.json')
     for ver,rel,ruleset in selections:
         base=UP/'data'/ver/rel; doc=read(base/'Document.json')[0]; df=doc['fields']
         key='open5e-'+slug(rel.split('/')[-1]); start=len(items)
@@ -132,6 +133,9 @@ def main():
                 category=f.get('category') or f.get('type') or ('armor' if fn=='Armor.json' else 'weapon' if fn=='Weapon.json' else 'gear')
                 weapon=weapon_lookup.get(f.get('weapon'),{}) if ver=='v2' else (f if fn=='Weapon.json' else {})
                 armor=armor_lookup.get(f.get('armor'),{}) if ver=='v2' else (f if fn=='Armor.json' else {})
+                armor_fact = armor_facts['records'].get(iid)
+                if armor_fact:
+                    armor=armor_lookup[armor_fact['base_id'].split(':',1)[1]]
                 typ,icon=classify(f['name'],category,weapon.get('name','')+' '+armor.get('name',''))
                 properties=[]
                 for a in prop_assign.get(f.get('weapon'),[]):
@@ -144,6 +148,10 @@ def main():
                 if isinstance(attune,str): attune=bool(attune.strip()) and attune.lower() not in ('no','false','none')
                 tags={f'ruleset:{ruleset}',f'source:{key}',f'type:{typ}',f'icon-type:{icon}',f'category:{slug(category)}','magic' if ismagic else 'mundane'}
                 rarity=f.get('rarity')
+                enhanced_armor = re.search(r' \(\+([123])\)$',f['name']) if armor else None
+                if (key=='open5e-srd-2024' and ismagic and armor.get('name')!='Shield' and enhanced_armor
+                        and 'bonus to Armor Class' in (f.get('desc') or '')):
+                    rarity=('rare','very-rare','legendary')[int(enhanced_armor[1])-1]
                 if rarity: tags.add('rarity:'+slug(rarity))
                 if attune: tags.add('attunement:required')
                 if weapon.get('damage_type'): tags.add('damage:'+slug(weapon['damage_type']))
@@ -156,6 +164,11 @@ def main():
                       'provenance':{'provider':'Open5e','repository_commit':commit,'file':str((rawdir/fn).relative_to(CAT)),'upstream_pk':raw['pk'],'upstream_model':raw['model']},
                       'content_status':'source-transcription-unverified','tabletop_status':'native-source-rules' if ruleset in ('dnd-2014','dnd-2024') else 'supplement-review-required',
                       'image':{**icons[icon],'specific_art':None}}
+                if armor_fact:
+                    item['provenance']['base_rules_id']=armor_fact['base_id']
+                    item['provenance']['source_url']=armor_facts['source']
+                elif rarity!=f.get('rarity'):
+                    item['provenance']['rarity_correction_source']='https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3'
                 if ver=='v2' and typ=='weapon' and not weapon:
                     warnings.append({'id':iid,'issue':'weapon-category item has no resolved weapon relation; no mechanics inferred'})
                 items.append(item)

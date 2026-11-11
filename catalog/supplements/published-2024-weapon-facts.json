@@ -1,0 +1,493 @@
+{
+  "schema_version": 1,
+  "records": {
+    "open5e-srd-2024:srd-2024_acid": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "fields": {
+          "Damage": "2d6 Acid on a failed save.",
+          "Range": "One visible creature or object within 20 ft.",
+          "Activation": "Replace one attack during the Attack action to throw the item.",
+          "Saving throw": "Dexterity DC = 8 + your Dexterity modifier + proficiency bonus."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_alchemists-fire": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "fields": {
+          "Damage": "1d4 Fire on a failed save, and the target starts burning.",
+          "Range": "One visible creature or object within 20 ft.",
+          "Activation": "Replace one attack during the Attack action to throw the item.",
+          "Saving throw": "Dexterity DC = 8 + your Dexterity modifier + proficiency bonus."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_holy-water": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "fields": {
+          "Damage": "2d8 Radiant to a Fiend or Undead on a failed save.",
+          "Range": "One visible creature within 20 ft.",
+          "Activation": "Replace one attack during the Attack action to throw the item.",
+          "Saving throw": "Dexterity DC = 8 + your Dexterity modifier + proficiency bonus."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_oil": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "fields": {
+          "Damage": "An oiled target that takes Fire damage before the oil dries takes 5 extra Fire. Ignited ground oil deals 5 Fire per turn to a creature that enters or ends its turn in the area.",
+          "Range": "Throw up to 20 ft, or oil a 5 ft square of level ground within 5 ft.",
+          "Activation": "Replace an attack to throw it, or take the Utilize action to pour it.",
+          "Saving throw": "Dexterity DC = 8 + your Dexterity modifier + proficiency bonus. Applies to a creature or object targeted by the throw.",
+          "Duration": "Oil on a target dries after 1 minute. Burning ground oil lasts 2 rounds. One flask fuels a lamp or lantern for up to 6 hours."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_net": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "fields": {
+          "Damage": "No direct damage.",
+          "Range": "One visible creature within 15 ft.",
+          "Activation": "Replace one attack during the Attack action to throw the item.",
+          "Saving throw": "Dexterity DC = 8 + your Dexterity modifier + proficiency bonus. Huge or larger creatures succeed automatically.",
+          "Special powers": "Failure Restrains the target. The target or a creature within 5 ft can use an action to free it with a DC 10 Strength (Athletics) check. Destroying the net also frees it. Net AC 10, 5 HP, immune to Bludgeoning, Poison, and Psychic."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_torch": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "fields": {
+          "Damage": "1 Fire damage on a hit.",
+          "Range": "Melee; light extends 20 ft bright plus 20 ft dim.",
+          "Activation": "Attack with a lit torch as a Simple Melee weapon.",
+          "Duration": "Burns for 1 hour."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_ammunition-plus-one": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Normal launcher damage + 1.",
+          "Range": "Use the firing weapon’s range.",
+          "Activation": "Fire it with a compatible weapon as part of a weapon attack.",
+          "Attack bonus": "+1 to attack and damage. The piece loses its magic after a hit."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_ammunition-plus-two": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Normal launcher damage + 2.",
+          "Range": "Use the firing weapon’s range.",
+          "Activation": "Fire it with a compatible weapon as part of a weapon attack.",
+          "Attack bonus": "+2 to attack and damage. The piece loses its magic after a hit."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_ammunition-plus-three": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Normal launcher damage + 3.",
+          "Range": "Use the firing weapon’s range.",
+          "Activation": "Fire it with a compatible weapon as part of a weapon attack.",
+          "Attack bonus": "+3 to attack and damage. The piece loses its magic after a hit."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_ammunition-of-aberration-slaying": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Normal launcher damage. A damaged Aberration also takes 6d10 Force, halved on a successful DC 17 Constitution save.",
+          "Range": "Use the firing weapon’s range.",
+          "Activation": "Fire it with a compatible weapon as part of a weapon attack.",
+          "Saving throw": "DC 17 Constitution against the extra damage.",
+          "Special powers": "The piece becomes nonmagical after dealing its extra damage."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_ammunition-of-beast-slaying": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Normal launcher damage. A damaged Beast also takes 6d10 Force, halved on a successful DC 17 Constitution save.",
+          "Range": "Use the firing weapon’s range.",
+          "Activation": "Fire it with a compatible weapon as part of a weapon attack.",
+          "Saving throw": "DC 17 Constitution against the extra damage.",
+          "Special powers": "The piece becomes nonmagical after dealing its extra damage."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_ammunition-of-celestial-slaying": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Normal launcher damage. A damaged Celestial also takes 6d10 Force, halved on a successful DC 17 Constitution save.",
+          "Range": "Use the firing weapon’s range.",
+          "Activation": "Fire it with a compatible weapon as part of a weapon attack.",
+          "Saving throw": "DC 17 Constitution against the extra damage.",
+          "Special powers": "The piece becomes nonmagical after dealing its extra damage."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_ammunition-of-construct-slaying": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Normal launcher damage. A damaged Construct also takes 6d10 Force, halved on a successful DC 17 Constitution save.",
+          "Range": "Use the firing weapon’s range.",
+          "Activation": "Fire it with a compatible weapon as part of a weapon attack.",
+          "Saving throw": "DC 17 Constitution against the extra damage.",
+          "Special powers": "The piece becomes nonmagical after dealing its extra damage."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_ammunition-of-dragon-slaying": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Normal launcher damage. A damaged Dragon also takes 6d10 Force, halved on a successful DC 17 Constitution save.",
+          "Range": "Use the firing weapon’s range.",
+          "Activation": "Fire it with a compatible weapon as part of a weapon attack.",
+          "Saving throw": "DC 17 Constitution against the extra damage.",
+          "Special powers": "The piece becomes nonmagical after dealing its extra damage."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_ammunition-of-elemental-slaying": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Normal launcher damage. A damaged Elemental also takes 6d10 Force, halved on a successful DC 17 Constitution save.",
+          "Range": "Use the firing weapon’s range.",
+          "Activation": "Fire it with a compatible weapon as part of a weapon attack.",
+          "Saving throw": "DC 17 Constitution against the extra damage.",
+          "Special powers": "The piece becomes nonmagical after dealing its extra damage."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_ammunition-of-fey-slaying": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Normal launcher damage. A damaged Fey also takes 6d10 Force, halved on a successful DC 17 Constitution save.",
+          "Range": "Use the firing weapon’s range.",
+          "Activation": "Fire it with a compatible weapon as part of a weapon attack.",
+          "Saving throw": "DC 17 Constitution against the extra damage.",
+          "Special powers": "The piece becomes nonmagical after dealing its extra damage."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_ammunition-of-fiend-slaying": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Normal launcher damage. A damaged Fiend also takes 6d10 Force, halved on a successful DC 17 Constitution save.",
+          "Range": "Use the firing weapon’s range.",
+          "Activation": "Fire it with a compatible weapon as part of a weapon attack.",
+          "Saving throw": "DC 17 Constitution against the extra damage.",
+          "Special powers": "The piece becomes nonmagical after dealing its extra damage."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_ammunition-of-giant-slaying": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Normal launcher damage. A damaged Giant also takes 6d10 Force, halved on a successful DC 17 Constitution save.",
+          "Range": "Use the firing weapon’s range.",
+          "Activation": "Fire it with a compatible weapon as part of a weapon attack.",
+          "Saving throw": "DC 17 Constitution against the extra damage.",
+          "Special powers": "The piece becomes nonmagical after dealing its extra damage."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_ammunition-of-humanoid-slaying": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Normal launcher damage. A damaged Humanoid also takes 6d10 Force, halved on a successful DC 17 Constitution save.",
+          "Range": "Use the firing weapon’s range.",
+          "Activation": "Fire it with a compatible weapon as part of a weapon attack.",
+          "Saving throw": "DC 17 Constitution against the extra damage.",
+          "Special powers": "The piece becomes nonmagical after dealing its extra damage."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_ammunition-of-monstrosity-slaying": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Normal launcher damage. A damaged Monstrosity also takes 6d10 Force, halved on a successful DC 17 Constitution save.",
+          "Range": "Use the firing weapon’s range.",
+          "Activation": "Fire it with a compatible weapon as part of a weapon attack.",
+          "Saving throw": "DC 17 Constitution against the extra damage.",
+          "Special powers": "The piece becomes nonmagical after dealing its extra damage."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_ammunition-of-ooze-slaying": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Normal launcher damage. A damaged Ooze also takes 6d10 Force, halved on a successful DC 17 Constitution save.",
+          "Range": "Use the firing weapon’s range.",
+          "Activation": "Fire it with a compatible weapon as part of a weapon attack.",
+          "Saving throw": "DC 17 Constitution against the extra damage.",
+          "Special powers": "The piece becomes nonmagical after dealing its extra damage."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_ammunition-of-plant-slaying": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Normal launcher damage. A damaged Plant also takes 6d10 Force, halved on a successful DC 17 Constitution save.",
+          "Range": "Use the firing weapon’s range.",
+          "Activation": "Fire it with a compatible weapon as part of a weapon attack.",
+          "Saving throw": "DC 17 Constitution against the extra damage.",
+          "Special powers": "The piece becomes nonmagical after dealing its extra damage."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_ammunition-of-undead-slaying": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Normal launcher damage. A damaged Undead also takes 6d10 Force, halved on a successful DC 17 Constitution save.",
+          "Range": "Use the firing weapon’s range.",
+          "Activation": "Fire it with a compatible weapon as part of a weapon attack.",
+          "Saving throw": "DC 17 Constitution against the extra damage.",
+          "Special powers": "The piece becomes nonmagical after dealing its extra damage."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_dagger-of-venom": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Dagger damage +1. A coated hit can add 2d10 Poison.",
+          "Range": "5 ft melee or 20/60 ft thrown.",
+          "Activation": "Make a dagger attack. Use a Bonus Action to coat it once per dawn.",
+          "Attack bonus": "+1 to attack and damage.",
+          "Saving throw": "DC 15 Constitution or take the poison damage and become Poisoned for 1 minute.",
+          "Duration": "The coating lasts until a hit against a creature or 1 minute."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_defender": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Base weapon damage plus the portion of its +3 bonus retained for attacks.",
+          "Range": "Use the base weapon’s reach or range.",
+          "Activation": "Make an attack with the weapon.",
+          "Base weapon": "Any melee weapon.",
+          "Special powers": "On your first attack each turn, you can move some or all of the +3 attack and damage bonus to AC until your next turn starts, while holding the weapon."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_dragon-slayer": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Base weapon damage +1, plus 3d6 of the same damage type against a Dragon.",
+          "Range": "Use the base weapon’s reach or range.",
+          "Activation": "Make an attack with the weapon.",
+          "Base weapon": "Any Simple or Martial weapon.",
+          "Attack bonus": "+1 to attack and damage."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_dwarven-thrower": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Warhammer damage +3. A thrown hit adds 1d8 Force, or 2d8 Force against a Giant.",
+          "Range": "5 ft melee or 20/60 ft thrown.",
+          "Activation": "Make an attack with the weapon.",
+          "Attack bonus": "+3 to attack and damage.",
+          "Special powers": "Returns immediately after a ranged hit or miss."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_holy-avenger": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Base weapon damage +3, plus 2d10 Radiant against a Fiend or Undead.",
+          "Range": "Use the base weapon’s reach or range.",
+          "Activation": "Make an attack with the weapon.",
+          "Base weapon": "Any Simple or Martial weapon.",
+          "Attack bonus": "+3 to attack and damage.",
+          "Special powers": "While drawn and held, you and Friendly creatures in the Emanation have Advantage on saves against spells and other magical effects.",
+          "Area": "10 ft Emanation centered on you. Increases to 30 ft at Paladin level 17.",
+          "Attunement": "Required by a Paladin."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_javelin-of-lightning": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Normal javelin damage; a hit may deal Lightning instead of Piercing. The special line deals 4d6 Lightning, halved on a successful save.",
+          "Range": "5 ft melee or 30/120 ft thrown. The special line reaches a target up to 120 ft away.",
+          "Activation": "Attack normally, or once per dawn forgo the ranged attack roll to activate the line.",
+          "Area": "5 ft wide line to the target. Affects the target and other creatures in the line, excluding you.",
+          "Saving throw": "DC 13 Dexterity against the line.",
+          "Special powers": "Reappears in your hand after the line resolves."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_mace-of-disruption": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Mace damage, plus 2d6 Radiant against a Fiend or Undead.",
+          "Range": "5 ft melee.",
+          "Activation": "Make an attack with the weapon.",
+          "Saving throw": "A Fiend or Undead left at 25 HP or less after the extra damage makes a DC 15 Wisdom save. Failure destroys it; success leaves it Frightened until the end of your next turn.",
+          "Area": "While held, 20 ft bright light plus 20 ft dim light."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_mace-of-smiting": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Mace damage +1, or +3 against Constructs. On an attack roll of 20, add 7 Bludgeoning, or 14 against a Construct.",
+          "Range": "5 ft melee.",
+          "Activation": "Make an attack with the weapon.",
+          "Attack bonus": "+1 to attack and damage, or +3 against Constructs.",
+          "Special powers": "A Construct left at 25 HP or less after the special damage is destroyed."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_mace-of-terror": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Normal mace damage on a weapon hit. The terror wave deals no damage.",
+          "Range": "5 ft melee; terror wave affects chosen creatures within 30 ft.",
+          "Activation": "Attack normally or take a Magic action and spend one of 3 charges. Regain 1d3 expended charges at dawn.",
+          "Saving throw": "DC 15 Wisdom; repeat at the end of each turn.",
+          "Duration": "Frightened for up to 1 minute.",
+          "Special powers": "Affected creatures flee, cannot make Opportunity Attacks, and can use their action only to Dash or escape restraint; if unable to move, they may Dodge."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_scimitar-of-speed": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Scimitar damage +2.",
+          "Range": "5 ft melee.",
+          "Activation": "Attack normally or make one attack as a Bonus Action on each of your turns.",
+          "Attack bonus": "+2 to attack and damage."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_sun-blade": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Longsword damage converted to Radiant, +2, and +1d8 Radiant against Undead.",
+          "Range": "5 ft melee.",
+          "Activation": "Use a Bonus Action to create or dismiss the blade; attack while it exists.",
+          "Attack bonus": "+2 to attack and damage.",
+          "Special powers": "Longsword with Finesse. Longsword or Shortsword proficiency applies.",
+          "Area": "Sunlight: initially 15 ft bright plus 15 ft dim. A Magic action adjusts both radii by 5 ft, within 10–30 ft each."
+        }
+      }
+    ],
+    "open5e-srd-2024:srd-2024_trident-of-fish-command": [
+      {
+        "label": "Published 2024 combat reference",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z",
+        "fields": {
+          "Damage": "Normal trident damage. The spell deals no direct damage.",
+          "Range": "5 ft melee or 20/60 ft thrown; Dominate Beast uses its spell range.",
+          "Activation": "Attack normally, or spend 1 of 3 charges to cast Dominate Beast on a Beast with a Swim Speed. Regain 1d3 expended charges at dawn.",
+          "Saving throw": "DC 15 for the spell."
+        }
+      }
+    ]
+  }
+}

@@ -1688,6 +1688,291 @@
           "Attunement": "None"
         }
       }
+    ],
+    "atruaghin-dmg-local:378899dc4e600ab1": [
+      {
+        "label": "Atruaghin Dungeon Masters Guide · p. 55",
+        "status": "source-reported",
+        "source": "https://freemystara.com/pdfs/",
+        "fields": {
+          "Legacy source facts": "Horse Clan +1 club dealing subdual damage. Hitting five different intelligent creatures grants a day-long blessing.",
+          "Source locator": "Printed p. 55, PDF p. 56 · Atruaghin Magic Items."
+        }
+      },
+      {
+        "label": "Mystara · 2024 tabletop rules",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Category": "Simple melee weapon · magic",
+          "Damage": "1d4 + your Strength modifier + 1 Bludgeoning. On reducing a creature to 0 HP with a melee hit, you must choose to knock it out.",
+          "Range": "5 ft melee",
+          "Attack bonus": "Add Strength and your Proficiency Bonus if proficient. Add +1 from the weapon.",
+          "Activation": "Make a weapon attack with the Attack action.",
+          "Properties": "Light",
+          "Mastery": "Slow",
+          "Conversion notes": "Keeps the +1 club and subdual. Limits the legacy day-long blessing to one minute and specifies a combat trigger and reset.",
+          "Attunement": "Required",
+          "Special powers": "While attuned, count the first hit you land with this club against each distinct hostile creature with Intelligence 6 or higher during an encounter. Your fifth such hit blesses you for 1 minute, adding 1d4 to your attack rolls and saving throws. The blessing needs no Concentration and can trigger once per Long Rest.",
+          "Creative use": "Carry it when the group needs to bring a fugitive back alive."
+        }
+      }
+    ],
+    "atruaghin-dmg-local:d5a9f680828c795e": [
+      {
+        "label": "Atruaghin Dungeon Masters Guide · p. 50",
+        "status": "source-reported",
+        "source": "https://freemystara.com/pdfs/",
+        "fields": {
+          "Legacy source facts": "A pair of war clubs carved from ironwood purchased from Darokin by the High Chief and worked to Sea Lion specifications.",
+          "Source locator": "Printed p. 50, PDF p. 51 · Da-Ka-Xeen."
+        }
+      },
+      {
+        "label": "Mystara · 2024 tabletop rules",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 + your Strength modifier Bludgeoning per club.",
+          "Range": "5 ft melee",
+          "Attack bonus": "Add Strength and your Proficiency Bonus if proficient.",
+          "Activation": "Make a weapon attack with the Attack action.",
+          "Properties": "Light",
+          "Mastery": "Slow",
+          "Conversion notes": "Uses the standard 2024 club for each of the two weapons. The ironwood has no enhancement in this draft.",
+          "Creative use": "Carry one while handing the second to an ally who lost their weapon."
+        }
+      }
+    ],
+    "atruaghin-dmg-local:a254cd20c68ccea4": [
+      {
+        "label": "Atruaghin Dungeon Masters Guide · p. 55",
+        "status": "source-reported",
+        "source": "https://freemystara.com/pdfs/",
+        "fields": {
+          "Legacy source facts": "+2 returning spear with doubled thrown range. Can bring back a slain animal weighing up to 100 pounds.",
+          "Source locator": "Printed p. 55, PDF p. 56 · Atruaghin Magic Items."
+        }
+      },
+      {
+        "label": "Mystara · 2024 tabletop rules",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Category": "Simple melee weapon · magic",
+          "Damage": "1d6 + your Strength modifier + 2 Piercing, or 1d8 + the same modifiers on a two-handed melee attack.",
+          "Range": "5 ft melee or 40/120 ft thrown",
+          "Attack bonus": "Add Strength and your Proficiency Bonus if proficient. Add +2 from the weapon.",
+          "Activation": "Make a weapon attack with the Attack action.",
+          "Properties": "Thrown, Versatile (1d8)",
+          "Mastery": "Sap",
+          "Conversion notes": "Uses a +2 2024 spear. Doubles the spear’s thrown range and keeps the return and 100 lb retrieval rule.",
+          "Attunement": "Required",
+          "Special powers": "The harpoon returns immediately after resolving a thrown attack and can be caught in a free hand. It falls at your feet if no hand is free. If the attack kills a Beast weighing 100 lb or less, the harpoon pulls that Beast to your feet if there is a clear path for it. If the path is blocked, the harpoon returns alone.",
+          "Creative use": "Recover a small slain Beast across a stream without wading in."
+        }
+      }
+    ],
+    "atruaghin-dmg-local:88ba285d2554f667": [
+      {
+        "label": "Atruaghin Dungeon Masters Guide · p. 56",
+        "status": "source-reported",
+        "source": "https://freemystara.com/pdfs/",
+        "fields": {
+          "Legacy source facts": "Obsidian-edged club functioning as a +1 longsword. Hits can cause ongoing bleeding.",
+          "Source locator": "Printed p. 56, PDF p. 57 · Atruaghin Magic Items."
+        }
+      },
+      {
+        "label": "Mystara · 2024 tabletop rules",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Category": "Martial melee weapon · magic",
+          "Damage": "1d8 + your Strength modifier + 1 Slashing, or 1d10 + the same modifiers when wielded with two hands.",
+          "Range": "5 ft melee",
+          "Attack bonus": "Add Strength and your Proficiency Bonus if proficient. Add +1 from the weapon.",
+          "Activation": "Make a weapon attack with the Attack action.",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Conversion notes": "Uses a +1 2024 longsword. Converts the legacy poison save to a Constitution save and limits repeated bleeding from the same weapon.",
+          "Attunement": "Required",
+          "Special powers": "A creature hit by the weapon must make a DC 13 Constitution saving throw. On failure it takes 1d4 Slashing at the start of each of its turns for up to 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success. Regaining any Hit Points also ends the effect. A creature can have only one instance of this bleeding at a time.",
+          "Creative use": "Force a wounded opponent to choose between spending healing resources and staying in the fight."
+        }
+      }
+    ],
+    "atruaghin-dmg-local:6f8104354b6fb879": [
+      {
+        "label": "Atruaghin Dungeon Masters Guide · p. 56",
+        "status": "source-reported",
+        "source": "https://freemystara.com/pdfs/",
+        "fields": {
+          "Legacy source facts": "A +3 shortbow that briefly helps nearby allies hit and damage an animal it strikes.",
+          "Source locator": "Printed p. 56, PDF p. 57 · Atruaghin Magic Items."
+        }
+      },
+      {
+        "label": "Mystara · 2024 tabletop rules",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Category": "Simple ranged weapon · magic",
+          "Damage": "1d6 + your Dexterity modifier + 3 Piercing.",
+          "Range": "80/320 ft",
+          "Attack bonus": "Add Dexterity and your Proficiency Bonus if proficient. Add +3 from the weapon.",
+          "Activation": "Make a weapon attack with the Attack action.",
+          "Properties": "Ammunition (Arrow), Two-Handed",
+          "Mastery": "Vex",
+          "Conversion notes": "Keeps the +3 shortbow and group hunting effect. Replaces the legacy +4 bonus with +2 on each ally’s first attack.",
+          "Attunement": "Required",
+          "Special powers": "Once per turn when you hit a Beast with the bow, you can mark it until the start of your next turn. Each ally within 100 ft of you gains +2 on their first attack roll against that Beast while it is marked, and +2 to the damage roll if that attack hits. Marking a new target ends the previous mark.",
+          "Creative use": "Mark large prey before the hunting party commits its attacks."
+        }
+      }
+    ],
+    "imperial-military-guide-local:1fe3894ed304c51f": [
+      {
+        "label": "Imperial Military Guide · p. 18",
+        "status": "source-reported",
+        "source": "https://freemystara.com/pdfs/",
+        "fields": {
+          "Legacy source facts": "Spatha-style longsword used by light cavalry for hit-and-run tactics.",
+          "Source locator": "Printed p. 18, PDF p. 18 · Cavalry."
+        }
+      },
+      {
+        "label": "Mystara · 2024 tabletop rules",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 + your Strength modifier Slashing, or 1d10 + the same modifier when wielded with two hands.",
+          "Range": "5 ft melee",
+          "Attack bonus": "Add Strength and your Proficiency Bonus if proficient.",
+          "Activation": "Make a weapon attack with the Attack action.",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Conversion notes": "Uses the standard 2024 longsword. The original guide describes cavalry issue without a separate mounted bonus."
+        }
+      }
+    ],
+    "imperial-military-guide-local:3762ccc2eef3dab6": [
+      {
+        "label": "Imperial Military Guide · p. 17",
+        "status": "source-reported",
+        "source": "https://freemystara.com/pdfs/",
+        "fields": {
+          "Legacy source facts": "Gladius-style shortsword issued to standard infantry.",
+          "Source locator": "Printed p. 17, PDF p. 17 · Infantry."
+        }
+      },
+      {
+        "label": "Mystara · 2024 tabletop rules",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 + your Strength or Dexterity modifier Piercing.",
+          "Range": "5 ft melee",
+          "Attack bonus": "Choose Strength or Dexterity for both attack and damage. Add your Proficiency Bonus to attack if proficient.",
+          "Activation": "Make a weapon attack with the Attack action.",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Conversion notes": "Uses the standard 2024 shortsword. The infantry provenance stays attached to the record."
+        }
+      }
+    ],
+    "imperial-military-guide-local:b267335c0f27a021": [
+      {
+        "label": "Imperial Military Guide · p. 17",
+        "status": "source-reported",
+        "source": "https://freemystara.com/pdfs/",
+        "fields": {
+          "Legacy source facts": "Pilum-style javelin. Standard infantry typically carry three.",
+          "Source locator": "Printed p. 17, PDF p. 17 · Infantry."
+        }
+      },
+      {
+        "label": "Mystara · 2024 tabletop rules",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 + your Strength modifier Piercing.",
+          "Range": "5 ft melee or 30/120 ft thrown",
+          "Attack bonus": "Add Strength and your Proficiency Bonus if proficient.",
+          "Activation": "Make a weapon attack with the Attack action.",
+          "Properties": "Thrown",
+          "Mastery": "Slow",
+          "Conversion notes": "Uses the standard 2024 javelin. The legacy issue of three is a soldier’s loadout, not the number of projectiles consumed."
+        }
+      }
+    ],
+    "hollow-world-local:6e99e27ee4f2a582": [
+      {
+        "label": "Hollow World Player’s Guide · p. 30",
+        "status": "source-reported",
+        "source": "https://pandius.com/prodlist.html",
+        "fields": {
+          "Legacy source facts": "A handheld disk-shaped flamethrower used in duels. Original range 30 feet and damage 1d8 per blast.",
+          "Source locator": "Printed p. 30, PDF p. 32 · Player’s Guide, Blacklore Elves."
+        }
+      },
+      {
+        "label": "Mystara · 2024 tabletop rules",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Category": "Martial ranged device",
+          "Damage": "1d8 + your Dexterity modifier Fire.",
+          "Range": "30 ft maximum",
+          "Attack bonus": "Add Dexterity and your Proficiency Bonus if the DM grants proficiency with the device.",
+          "Activation": "Make a weapon attack with the Attack action.",
+          "Properties": "None",
+          "Mastery": "None",
+          "Conversion notes": "Retains the legacy damage die and maximum range. Uses a ranged weapon attack for the focused burst. The source note supplies no fuel count, so the draft treats a functioning torch as ready to use.",
+          "Special powers": "A blast targets one creature or object within range. It deals Fire damage in place of normal weapon damage and does not fill an area."
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:45808c179e31e7c4": [
+      {
+        "label": "The Principalities of Glantri · p. 59",
+        "status": "source-reported",
+        "source": "https://www.acaeum.com/indexes/miscellaneous/gaz.html",
+        "fields": {
+          "Legacy source facts": "The raft crew uses long metal poles. In legacy rules the unwieldy poles impose −2 to hit and deal 3d4 damage.",
+          "Source locator": "Printed p. 59, PDF p. 84 · The Harpooned Halflings Happenings."
+        }
+      },
+      {
+        "label": "Mystara · 2024 tabletop rules",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 + your Strength modifier Bludgeoning.",
+          "Range": "10 ft melee",
+          "Attack bonus": "Add Strength and your Proficiency Bonus if proficient.",
+          "Activation": "Make a weapon attack with the Attack action.",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Push",
+          "Conversion notes": "Uses a reduced-damage 2024 polearm profile and replaces the legacy flat attack penalty with the normal Heavy requirement.",
+          "Creative use": "Use Push mastery to make room for the raft crew when a boarding foe crowds the rail."
+        }
+      }
     ]
   }
 }

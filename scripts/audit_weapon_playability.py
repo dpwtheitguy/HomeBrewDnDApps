@@ -10,6 +10,7 @@ from decimal import Decimal, InvalidOperation
 from pathlib import Path
 
 from audit_pending_rules import key as normalize_name
+from build_core_enhancement_cross_references import modern_variant_name
 
 CATALOG = Path(__file__).resolve().parents[1] / 'catalog'
 PROFILE_KINDS = {
@@ -159,11 +160,12 @@ def audit_row(item, all_items, profiles, game, curated, exact, prices, legacy_ga
         if entry.get('status') == 'original-draft' and entry.get('profile_kind') == 'custom-2024-draft'
     ]
     verified = enhancements.get(item_id, {})
-    if exact_id := exact.get(item_id) or verified.get('target_id'):
+    comparison_name = modern_variant_name(name) if verified else name
+    if exact_id := verified.get('target_id') or exact.get(item_id):
         target = all_items.get(exact_id) or {}
         if (target.get('ruleset') != 'dnd-2024' or target.get('type') != 'weapon'
                 or target.get('source_id') != 'open5e-srd-2024' or not target.get('description')
-                or normalize_name(target.get('name', '')) != normalize_name(name)):
+                or normalize_name(target.get('name', '')) != normalize_name(comparison_name)):
             errors.append('invalid exact 2024 weapon cross-reference')
             target = {}
     else:
@@ -181,7 +183,8 @@ def audit_row(item, all_items, profiles, game, curated, exact, prices, legacy_ga
         fields = bg3_fields(game['weapons'].get(item_id, {}), game['features'],
                             availability.get(item_id, {}), errors, gaps)
     elif published:
-        evidence = 'published-2024-attack'
+        evidence = ('published-2024-reference' if item['source_id'] == 'open5e-srd-2024'
+                    else 'published-2024-attack')
         fields = {
             'damage': published[0]['Damage'], 'range': published[0]['Range'],
             'attack_bonus': published[0].get('Attack bonus'), 'activation': published[0]['Activation'],
@@ -281,11 +284,13 @@ def audit(catalog):
     profiles = load(catalog, 'weapon-profiles-2024')['records']
     game = load(catalog, 'bg3-weapon-rules')
     curated = load(catalog, 'curated-item-details')['records']
+    curated.update(load(catalog, 'published-2024-weapon-facts')['records'])
     exact = load(catalog, 'dnd-2024-item-cross-references')['records']
     prices = load(catalog, 'item-prices')['records']
     legacy_game = load(catalog, 'legacy-game-weapon-facts')['records']
-    if (catalog / 'supplements/diablo-2-base-weapon-facts.json').is_file():
-        legacy_game.update(load(catalog, 'diablo-2-base-weapon-facts')['records'])
+    for game_facts in ('diablo-2-base-weapon-facts', 'diablo-2-unique-weapon-facts'):
+        if (catalog / 'supplements' / (game_facts + '.json')).is_file():
+            legacy_game.update(load(catalog, game_facts)['records'])
     availability = load(catalog, 'bg3-weapon-availability')['records']
     enhancements = load(catalog, 'core-enhancement-cross-references')['records'] if (
         catalog / 'supplements/core-enhancement-cross-references.json').is_file() else {}

@@ -1,0 +1,252 @@
+#!/usr/bin/env python3
+"""Audit worn armor and shield records without inferring rules for missing entries."""
+import argparse
+import collections
+import csv
+import json
+import re
+import sqlite3
+from pathlib import Path
+
+from audit_weapon_playability import CATALOG, PRICE_FIELDS, load, price_errors
+
+TYPES = ('armor', 'shield')
+FIELDS = (
+    'id', 'name', 'source_id', 'ruleset', 'role', 'evidence', 'base_id', 'armor_class',
+    'armor_class_bonus', 'enhancement_bonus', 'dexterity', 'training', 'strength_requirement', 'stealth_disadvantage',
+    'weight', 'attunement', 'effects', *PRICE_FIELDS, 'schema_errors', 'review_gaps',
+)
+BG3_ROLES = {
+    'Light Armour': 'light armor', 'Medium Armour': 'medium armor',
+    'Heavy Armour': 'heavy armor', 'Shields': 'shield',
+}
+LEGACY_ARMOR_FIELDS = {
+    'source_armor_class', 'source_ac', 'source_ac_adjustment', 'source_weight_adjustment',
+    'source_armor_type', 'source_protection', 'source_strength_requirement',
+}
+PUBLISHED_SHIELDS = {
+    'srd-2024_animated-shield', 'srd-2024_arrow-catching-shield',
+    'srd-2024_shield-of-missile-attraction', 'srd-2024_spellguard-shield',
+}
+
+
+def joined(values):
+    return ' / '.join(dict.fromkeys(str(value) for value in values if value not in ('', None)))
+
+
+def ac_modifier(value):
+    return re.fullmatch(r'[+-]?\d+', str(value or '')) is not None
+
+
+def read_bg3(entry, effects, errors, gaps):
+    variants = entry.get('variants') or []
+    if not variants:
+        errors.append('BG3 armor record has no rule variants')
+        return {}
+    rows = collections.defaultdict(list)
+    for number, variant in enumerate(variants, 1):
+        stats = variant.get('stats') or {}
+        role = BG3_ROLES.get(stats.get('type'))
+        if not role:
+            gaps.append(f'BG3 variant {number} has no recognized armor or shield category')
+        rows['role'].append(role)
+        ac = stats.get('armour class')
+        bonus = stats.get('armour class bonus')
+        value = bonus if role == 'shield' else ac
+        if not value:
+            gaps.append(f'BG3 variant {number} is missing {"shield AC bonus" if role == "shield" else "armor class"}')
+        elif not ac_modifier(value):
+            errors.append(f'BG3 variant {number} has malformed AC')
+        rows['armor_class'].append(ac)
+        rows['armor_class_bonus'].append(bonus)
+        rows['training'].append(stats.get('proficiency'))
+        if role and not stats.get('proficiency'):
+            gaps.append(f'BG3 variant {number} has no explicit training or exemption field')
+        stealth = stats.get('stealth disadvantage')
+        rows['stealth_disadvantage'].append(stealth)
+        weight = stats.get('weight kg')
+        rows['weight'].append(f'{weight} kg' if weight else None)
+        for effect in variant.get('effects') or []:
+            rows['effects'].append(effect)
+            if effect not in effects:
+                gaps.append(f'BG3 effect lacks a linked rule record: {effect}')
+    return {key: joined(values) for key, values in rows.items()}
+
+
+def read_armor(armor, *, modern, errors):
+    ac = armor.get('ac_base')
+    dexterity = armor.get('ac_add_dexmod')
+    cap = armor.get('ac_cap_dexmod')
+    stealth = armor.get('grants_stealth_disadvantage')
+    strength = armor.get('strength_score_required')
+    if type(ac) is not int or ac <= 0:
+        errors.append('armor relation needs a positive integer AC')
+    if type(dexterity) is not bool or (cap is not None and (type(cap) is not int or not dexterity)):
+        errors.append('armor relation has an invalid Dexterity rule')
+    if type(stealth) is not bool:
+        errors.append('armor relation needs a boolean Stealth disadvantage field')
+    if strength is not None and (type(strength) is not int or not 1 <= strength <= 30):
+        errors.append('armor relation has an invalid Strength threshold')
+    if armor.get('name', '').casefold() == 'shield':
+        return {'role': 'shield', 'armor_class_bonus': f'+{ac}', 'training': 'Shield'}
+    category = 'Light' if dexterity and cap is None else 'Medium' if dexterity else 'Heavy'
+    return {
+        'role': category.lower() + ' armor' if modern else 'worn armor',
+        'armor_class': ac, 'training': category if modern else '',
+        'dexterity': f'Dexterity modifier, maximum +{cap}' if dexterity and cap is not None
+        else 'Dexterity modifier' if dexterity else 'No Dexterity modifier',
+        'strength_requirement': strength if strength is not None else 'None',
+        'stealth_disadvantage': 'Yes' if stealth else 'No',
+    }
+
+
+def audit_row(item, indexed, bg3, curated, prices, published):
+    errors, gaps = [], []
+    item_id = item['id']
+    mechanics = item.get('mechanics') or {}
+    reference = mechanics.get('reference_metadata') or {}
+    armor = mechanics.get('armor')
+    role = 'shield' if item['type'] == 'shield' else 'worn armor'
+    if item['provenance'].get('upstream_pk') in PUBLISHED_SHIELDS:
+        role = 'shield'
+    fields = {'role': role}
+    price = prices.get(item_id, {})
+    errors.extend(price_errors(price))
+    evidence = 'reference-only'
+    base_id = item.get('base_item_id')
+    if base_id and not indexed.get(base_id, {}).get('mechanics', {}).get('armor'):
+        errors.append('base armor ID does not resolve to structured armor')
+    if not base_id and (source_base := (mechanics.get('source_fields') or {}).get('armor')):
+        source_id = f"{item['source_id']}:{source_base}"
+        if source_id in indexed and source_id != item_id:
+            base_id = source_id
+    if item['ruleset'] == 'bg3':
+        evidence = 'native-bg3'
+        fields.update(read_bg3(bg3['records'].get(item_id, {}), bg3['effects'], errors, gaps))
+    elif item_id in published:
+        profile = published[item_id]
+        base_id = profile['base_id']
+        base = indexed.get(base_id, {})
+        base_armor = base.get('mechanics', {}).get('armor')
+        if (item['source_id'] != 'open5e-srd-2024' or base.get('source_id') != 'open5e-srd-2024'
+                or base.get('magic') is not False or not base_armor or not profile.get('effects')
+                or type(profile.get('bonus')) is not int):
+            errors.append('invalid published armor base or rules reference')
+        else:
+            evidence = 'published-2024-reference'
+            fields.update(read_armor(base_armor, modern=True, errors=errors))
+            if profile['bonus']:
+                fields['enhancement_bonus'] = f'+{profile["bonus"]}'
+            fields['effects'] = profile['effects']
+    elif armor and 'base_ac' in armor and 'ac_base' not in armor:
+        evidence = 'third-party-armor-fields'
+        category = armor.get('category', '')
+        fields['role'] = 'shield' if category == 'Shield' else fields['role']
+        fields['training'] = category
+        if category != 'Shield':
+            fields['armor_class'] = armor['base_ac']
+        gaps.append('third-party source format needs AC formula and 2024 rules review')
+    elif armor:
+        evidence = 'published-2024-structured' if item['source_id'] == 'open5e-srd-2024' else 'native-armor-structured'
+        fields.update(read_armor(armor, modern=armor.get('document') in {'srd-2024', 'srd-2014'}, errors=errors))
+        if item['ruleset'] != 'dnd-2024':
+            gaps.append('2024 item-specific armor rules require review')
+        elif item['source_id'] != 'open5e-srd-2024':
+            evidence = 'item-specific-draft'
+            gaps.append('item-specific armor draft requires DM review')
+        if item['source_id'] == 'open5e-srd-2024':
+            match = re.search(r' \(\+([123])\)$', item['name'])
+            description = item.get('description') or ''
+            if match and 'bonus to Armor Class' in description and 'rarity' in description:
+                bonus = int(match[1])
+                rarities = ('uncommon', 'rare', 'very rare') if fields['role'] == 'shield' else ('rare', 'very rare', 'legendary')
+                rarity = rarities[bonus - 1]
+                if (item.get('rarity') or '').replace('-', ' ') != rarity:
+                    errors.append('published armor enhancement and rarity disagree')
+                fields['enhancement_bonus'] = f'+{bonus}'
+        if item['magic'] and not item.get('description'):
+            gaps.append('magic armor is missing its item-specific effects')
+    elif base_id and item['ruleset'] == 'dnd-2024':
+        base_armor = indexed.get(base_id, {}).get('mechanics', {}).get('armor')
+        if base_armor:
+            evidence = 'item-specific-draft'
+            fields.update(read_armor(base_armor, modern=True, errors=errors))
+            gaps.append('item-specific armor draft requires DM review')
+        else:
+            gaps.append('2024 armor draft needs its referenced base rules')
+    elif item['source_id'] == 'open5e-srd-2024' and item.get('description'):
+        evidence = 'published-2024-text'
+        gaps.append('published rules present; structured base armor or shield relation missing')
+    elif LEGACY_ARMOR_FIELDS.intersection(reference):
+        evidence = 'legacy-armor-metadata'
+        gaps.append('legacy armor facts need an item-specific 2024 profile')
+    else:
+        gaps.append('armor class or shield bonus and item-specific rules require source review')
+    if item.get('requires_attunement') is not None:
+        fields['attunement'] = 'Required' if item['requires_attunement'] else 'No'
+    weight = (mechanics.get('source_fields') or {}).get('weight')
+    if re.fullmatch(r'\d+(?:\.\d+)?', str(weight)) and float(weight) > 0:
+        fields['weight'] = f'{float(weight):g} lb'
+    if item.get('description') and item.get('magic') and item['ruleset'] != 'bg3':
+        fields.setdefault('effects', 'Source description')
+    if curated.get(item_id):
+        evidence += ' + curated detail'
+    return {
+        'id': item_id, 'name': item['name'], 'source_id': item['source_id'],
+        'ruleset': item['ruleset'], 'evidence': evidence, 'base_id': base_id,
+        **fields, **{key: price.get(key) for key in PRICE_FIELDS},
+        'schema_errors': ' | '.join(dict.fromkeys(errors)),
+        'review_gaps': ' | '.join(dict.fromkeys(gaps)),
+    }
+
+
+def write_reports(catalog, rows):
+    directory = catalog / 'reports'
+    with (directory / 'armor-playability.csv').open('w', encoding='utf-8', newline='') as output:
+        writer = csv.DictWriter(output, fieldnames=FIELDS)
+        writer.writeheader()
+        writer.writerows(rows)
+    pending = [row for row in rows if row['review_gaps']]
+    errors = [row for row in rows if row['schema_errors']]
+    evidence = collections.Counter(row['evidence'] for row in rows)
+    by_source = collections.Counter(row['source_id'] for row in pending)
+    lines = [
+        '# Armor and shield playability audit', '',
+        f'{len(rows):,} armor and shield records scanned. Structural errors affect {len(errors):,} records. Content review is queued for {len(pending):,} records.',
+        '', 'Scope includes records indexed as armor or shield. Helmets, clothing, and other accessories indexed separately are outside this scan. Shield bonuses and worn armor AC occupy separate fields. Native game and legacy evidence remain distinct from 2024 tabletop rules.',
+        '', '| Evidence | Records |', '|---|---:|',
+        *(f'| {label} | {count:,} |' for label, count in evidence.most_common()),
+        '', '| Largest open sources | Records |', '|---|---:|',
+        *(f'| {label} | {count:,} |' for label, count in by_source.most_common(15)),
+        '', '## Structural errors', '',
+        *(f'- `{row["id"]}` — {row["schema_errors"]}' for row in errors[:30]),
+        '', 'The [armor playability CSV](armor-playability.csv) includes rule evidence and per-record gaps.',
+    ]
+    (directory / 'ARMOR-PLAYABILITY.md').write_text('\n'.join(lines) + '\n', encoding='utf-8')
+    return len(errors), len(pending)
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--catalog-dir', type=Path, default=CATALOG)
+    parser.add_argument('--strict', action='store_true', help='fail on structural errors')
+    args = parser.parse_args()
+    catalog = args.catalog_dir
+    uri = (catalog / 'indexes/items.sqlite3').resolve().as_uri() + '?mode=ro'
+    with sqlite3.connect(uri, uri=True) as database:
+        items = [json.loads(raw) for (raw,) in database.execute(
+            'SELECT data_json FROM items WHERE type IN (?, ?) ORDER BY source_id, name, id', TYPES
+        )]
+    indexed = {item['id']: item for item in items}
+    bg3 = load(catalog, 'bg3-item-rules')
+    curated = load(catalog, 'curated-item-details')['records']
+    prices = load(catalog, 'item-prices')['records']
+    published = load(catalog, 'published-2024-armor-facts')['records']
+    rows = [audit_row(item, indexed, bg3, curated, prices, published) for item in items]
+    errors, pending = write_reports(catalog, rows)
+    print(f'{len(rows):,} armor and shield records, {errors:,} structural errors, {pending:,} review gaps.')
+    return int(args.strict and bool(errors))
+
+
+if __name__ == '__main__':
+    raise SystemExit(main())

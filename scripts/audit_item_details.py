@@ -175,10 +175,12 @@ def main():
     bg3_items = supplement('bg3-item-rules.json')['records']
     bg3_weapons = supplement('bg3-weapon-rules.json')['weapons']
     curated = supplement('curated-item-details.json')['records']
+    curated.update(supplement('published-2024-weapon-facts.json')['records'])
     spells = supplement('dnd-2024-spell-reference.json')['spells']
     native_games = supplement('legacy-game-weapon-facts.json')['records']
-    if (ROOT / 'supplements/diablo-2-base-weapon-facts.json').is_file():
-        native_games.update(supplement('diablo-2-base-weapon-facts.json')['records'])
+    for game_facts in ('diablo-2-base-weapon-facts.json', 'diablo-2-unique-weapon-facts.json'):
+        if (ROOT / 'supplements' / game_facts).is_file():
+            native_games.update(supplement(game_facts)['records'])
     prices = supplement('item-prices.json')['records']
     ammunition_gaps = []
     totals = {field: collections.Counter() for field in FIELDS}
