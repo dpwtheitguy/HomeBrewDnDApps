@@ -347,11 +347,14 @@ function addItemDetails(panel, item, supplements) {
     }
     addLegacyDmgDetails(panel, item);
     const familyEntries = magicFamilies && magicFamilies.records[item.id] || [];
-    if (!familyEntries.length && !addPublishedCrossReference(panel, item, references, enhancements)) {
-        addWeaponProfile(panel, item, weapons);
-    }
     const entries = (curated && curated.records[item.id] || [])
         .concat(publishedFacts && publishedFacts.records[item.id] || [], familyEntries);
+    const hasPublishedCombatRules = entries.some(entry =>
+        entry.status === "published-reference" &&
+        ["Damage", "Range", "Activation"].every(field => entry.fields[field]));
+    if (!hasPublishedCombatRules && !addPublishedCrossReference(panel, item, references, enhancements)) {
+        addWeaponProfile(panel, item, weapons);
+    }
     entries.forEach(entry => {
         const label = entry.status === "original-draft" ? entry.label + " · DM review" : entry.label;
         const playableDraft = entry.status === "original-draft" &&

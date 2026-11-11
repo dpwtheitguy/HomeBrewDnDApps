@@ -454,6 +454,18 @@ def main():
                     return ["D&D 2024 tabletop conversion", "DM review", "DC = 10 +",
                         "Restrained", "DC 10 Strength", "No direct damage"].every(value => text.includes(value));
                 })()''',
+                'Mystara crafting examples show verified weapon and shield rules': '''(async () => {
+                    inspect("gazetteer-local-pdf-reference:e36299388b2c22e3", grid.firstElementChild);
+                    await itemDetails;
+                    const dagger = inspection.textContent;
+                    inspect("gazetteer-local-pdf-reference:401e6f0f5da97a7b", grid.firstElementChild);
+                    await itemDetails;
+                    const shield = inspection.textContent;
+                    return ["Verified 2024 equipment mapping", "1d4 Piercing + 1", "Nick", "1,050 ducats"]
+                        .every(value => dagger.includes(value)) &&
+                        ["Verified 2024 equipment mapping", "Armor class bonus+3", "3,000 ducats"]
+                        .every(value => shield.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
