@@ -488,6 +488,16 @@ def main():
                         && ["DM review", "Armor class18", "10 lb", "Heavy armor"]
                             .every(value => armor.includes(value));
                 })()''',
+                'Mystara dagger and trident show recharge and curse rules': '''(async () => {
+                    inspect("gazetteer-local-pdf-reference:d554313cb4c98e86", grid.firstElementChild);
+                    await itemDetails;
+                    const dagger = inspection.textContent;
+                    inspect("gazetteer-local-pdf-reference:c3006121b0a2603b", grid.firstElementChild);
+                    await itemDetails;
+                    const trident = inspection.textContent;
+                    return ["DM review", "Veiled Flight", "fourth dawn", "Nick"].every(value => dagger.includes(value))
+                        && ["DM review", "then −2", "Remove Curse", "Topple"].every(value => trident.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

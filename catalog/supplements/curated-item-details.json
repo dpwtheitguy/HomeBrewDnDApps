@@ -2549,6 +2549,125 @@
           "label": "Open 2024 base equipment"
         }
       }
+    ],
+    "gazetteer-local-pdf-reference:93308291f01740fb": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "None",
+          "Special powers": "The family sign and finish are cosmetic. Use the standard Breastplate rules.",
+          "Legacy source": "GAZ8, p. 26, Thrildor Blackhammer. Black-and-grey breastplate with the Blackhammer sign."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_breastplate",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:8a4a49246f377d9f": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "None",
+          "Special powers": "Use the standard Plate Armor rules. The fitted commission changes craftsmanship and delivery time.",
+          "Legacy source": "GAZ8, p. 39, Wereskalot. A full plate commission can take two months."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:a323fbde908b2c86": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Simple melee weapon, nonmagical",
+          "Damage": "1d4 Bludgeoning plus Strength modifier.",
+          "Range": "5 ft melee",
+          "Activation": "Make a normal weapon attack. Use the fitted grip bonus if the club was fitted to your hand.",
+          "Attack bonus": "+1 to attack rolls for the person it was made for. The bonus applies to attack rolls only.",
+          "Properties": "Light",
+          "Mastery": "Slow",
+          "Attunement": "None",
+          "Legacy source": "GAZ9, p. 12, Dainrouw. Clerics use hardwood or ironwood clubs balanced and fitted to the individual hand.",
+          "Conversion notes": "Preserves the legacy +1 to hit as an owner-specific workmanship benefit."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:d554313cb4c98e86": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#Fly",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing plus 2 and the relevant ability modifier.",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Activation": "Make a normal dagger attack, or use a Magic action while holding the dagger to invoke Veiled Flight.",
+          "Attack bonus": "+2 to attack and damage rolls.",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Attunement": "Required",
+          "Special powers": "Veiled Flight grants you the Invisible condition and a 60 ft Fly Speed with hover. Concentrate for up to 10 minutes, as if concentrating on a spell. If you make an attack roll, deal damage, or cast a spell, the invisibility ends and flight can continue. Both effects end if Concentration ends.",
+          "Recharge": "Once used, Veiled Flight is unavailable until the fourth dawn after use.",
+          "Legacy source": "GAZ8, pp. 18–19, Enchantment. A +2 dagger with temporary invisibility and flight, a dull finish, and a blade that does not ring against stone or metal. The crafting example takes ten days.",
+          "Conversion notes": "The two powers share one activation and one Concentration duration. The finish and quiet blade retain their source flavor without a numerical Stealth bonus."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger-plus-2",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:c3006121b0a2603b": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#CursedItems",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing one-handed or 1d10 two-handed, plus Strength modifier and the current enhancement.",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Activation": "Make a normal trident attack. The enhancement reverses when the summoning imp is destroyed on the Material Plane.",
+          "Attack bonus": "+2 to attack and damage rolls before the curse, then −2 to both rolls.",
+          "Properties": "Thrown, Versatile (1d10)",
+          "Mastery": "Topple",
+          "Attunement": "None",
+          "Special powers": "After you first attack with the cursed trident, you are unwilling to part with it and use it whenever you make a weapon attack and can do so. Remove Curse ends your bond. The trident remains cursed for future users.",
+          "Legacy source": "GAZ3, p. 94, Imp. The red imp summons a small +2 trident that becomes a cursed −2 weapon if the imp is destroyed on the Prime Material Plane.",
+          "Conversion notes": "The bond and its removal are 2024 conversion choices. The reversal trigger and values come from the Gazetteer."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_trident",
+          "label": "Open 2024 base equipment"
+        }
+      }
     ]
   }
 }
