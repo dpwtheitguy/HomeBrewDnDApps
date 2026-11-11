@@ -38,7 +38,7 @@ def ac_modifier(value):
     return re.fullmatch(r'[+-]?\d+', str(value or '')) is not None
 
 
-def read_bg3(entry, effects, errors, gaps):
+def read_bg3(entry, effects, shield_training, errors, gaps):
     variants = entry.get('variants') or []
     if not variants:
         errors.append('BG3 armor record has no rule variants')
@@ -59,8 +59,15 @@ def read_bg3(entry, effects, errors, gaps):
             errors.append(f'BG3 variant {number} has malformed AC')
         rows['armor_class'].append(ac)
         rows['armor_class_bonus'].append(bonus)
-        rows['training'].append(stats.get('proficiency'))
-        if role and not stats.get('proficiency'):
+        training = stats.get('proficiency')
+        for effect in variant.get('effects') or []:
+            exemption = effects.get(effect, {}).get('facts', {}).get('Training')
+            if exemption:
+                training = joined(exemption)
+        if not training and role == 'shield' and shield_training.get('revision'):
+            training = shield_training['label']
+        rows['training'].append(training)
+        if role and not training:
             gaps.append(f'BG3 variant {number} has no explicit training or exemption field')
         stealth = stats.get('stealth disadvantage')
         rows['stealth_disadvantage'].append(stealth)
@@ -122,7 +129,7 @@ def audit_row(item, indexed, bg3, curated, prices, published):
             base_id = source_id
     if item['ruleset'] == 'bg3':
         evidence = 'native-bg3'
-        fields.update(read_bg3(bg3['records'].get(item_id, {}), bg3['effects'], errors, gaps))
+        fields.update(read_bg3(bg3['records'].get(item_id, {}), bg3['effects'], bg3['shield_training'], errors, gaps))
     elif item_id in published:
         profile = published[item_id]
         base_id = profile['base_id']
@@ -239,6 +246,9 @@ def main():
         )]
     indexed = {item['id']: item for item in items}
     bg3 = load(catalog, 'bg3-item-rules')
+    armor_rules = load(catalog, 'bg3-armor-effects')
+    bg3['effects'].update(armor_rules['effects'])
+    bg3['shield_training'] = armor_rules['shield_training']
     curated = load(catalog, 'curated-item-details')['records']
     prices = load(catalog, 'item-prices')['records']
     published = load(catalog, 'published-2024-armor-facts')['records']

@@ -379,6 +379,20 @@ def main():
                     return ["Published 2024 combat reference", "No direct damage", "15 ft", "DC 10 Strength"]
                         .every(value => text.includes(value));
                 })()''',
+                'BG3 armor shows native damage reduction and training exceptions': '''(async () => {
+                    inspect("bg3-wiki:18", grid.firstElementChild);
+                    await itemDetails;
+                    const scale = inspection.textContent;
+                    inspect("bg3-wiki:8156", grid.firstElementChild);
+                    await itemDetails;
+                    const helldusk = inspection.textContent;
+                    inspect("bg3-wiki:10413", grid.firstElementChild);
+                    await itemDetails;
+                    const sentinel = inspection.textContent;
+                    return scale.includes("Magical Plate (-1)") && scale.includes("1 from incoming damage of any type")
+                        && helldusk.includes("The wearer is proficient with this armor")
+                        && sentinel.includes("BG3 shield training") && sentinel.includes("Heightened Awareness");
+                })()''',
                 'Armor cards distinguish shield bonuses and worn AC': '''(async () => {
                     inspect("open5e-srd-2024:srd-2024_arrow-catching-shield", grid.firstElementChild);
                     await itemDetails;

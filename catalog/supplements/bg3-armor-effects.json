@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "effects": {
+    "Magical Plate (-1)": {
+      "title": "Magical Plate (-1)",
+      "revision": 165750,
+      "stats": {},
+      "facts": {
+        "Damage reduction": [
+          "1 from incoming damage of any type"
+        ]
+      }
+    },
+    "Magical Plate (-2)": {
+      "title": "Magical Plate (-2)",
+      "revision": 432822,
+      "stats": {},
+      "facts": {
+        "Damage reduction": [
+          "2 from incoming damage of any type"
+        ]
+      }
+    },
+    "Superior Plate (-1)": {
+      "title": "Superior Plate (-1)",
+      "revision": 423724,
+      "stats": {},
+      "facts": {
+        "Damage reduction": [
+          "1 from incoming Piercing damage"
+        ]
+      }
+    },
+    "Superior Plate (-2)": {
+      "title": "Superior Plate (-2)",
+      "revision": 165907,
+      "stats": {},
+      "facts": {
+        "Damage reduction": [
+          "2 from incoming Piercing damage"
+        ]
+      }
+    },
+    "Superior Material (-1)": {
+      "title": "Superior Material (-1)",
+      "revision": 433313,
+      "stats": {},
+      "facts": {
+        "Damage reduction": [
+          "1 from incoming Slashing damage"
+        ]
+      }
+    },
+    "Superior Material (-2)": {
+      "title": "Superior Material (-2)",
+      "revision": 433314,
+      "stats": {},
+      "facts": {
+        "Damage reduction": [
+          "2 from incoming Slashing damage"
+        ]
+      }
+    },
+    "Superior Padding (-1)": {
+      "title": "Superior Padding (-1)",
+      "revision": 433315,
+      "stats": {},
+      "facts": {
+        "Damage reduction": [
+          "1 from incoming Bludgeoning damage"
+        ]
+      }
+    },
+    "Superior Padding (-2)": {
+      "title": "Superior Padding (-2)",
+      "revision": 433316,
+      "stats": {},
+      "facts": {
+        "Damage reduction": [
+          "2 from incoming Bludgeoning damage"
+        ]
+      }
+    },
+    "Balance": {
+      "title": "Balance",
+      "revision": 432101,
+      "stats": {},
+      "facts": {
+        "Dexterity checks": [
+          "+1"
+        ],
+        "Dexterity saves": [
+          "+1"
+        ]
+      }
+    },
+    "Body Aid": {
+      "title": "Body Aid",
+      "revision": 370252,
+      "stats": {},
+      "facts": {
+        "Strength checks": [
+          "+1"
+        ],
+        "Strength saves": [
+          "+1"
+        ]
+      }
+    },
+    "Exotic Material": {
+      "title": "Exotic Material",
+      "revision": 432528,
+      "stats": {},
+      "facts": {
+        "Armor class": [
+          "Add the full Dexterity modifier"
+        ],
+        "Stealth": [
+          "This armor imposes no disadvantage"
+        ]
+      }
+    },
+    "Stealthy": {
+      "title": "Stealthy",
+      "revision": 433285,
+      "stats": {},
+      "facts": {
+        "Stealth checks": [
+          "+1"
+        ]
+      }
+    },
+    "Ambusher (+1)": {
+      "title": "Ambusher (+1)",
+      "revision": 415901,
+      "stats": {},
+      "facts": {
+        "Initiative": [
+          "+1"
+        ]
+      }
+    },
+    "Ambusher (+2)": {
+      "title": "Ambusher (+2)",
+      "revision": 432054,
+      "stats": {},
+      "facts": {
+        "Initiative": [
+          "+2"
+        ]
+      }
+    },
+    "Absolute's Aegis": {
+      "title": "Absolute's Aegis",
+      "revision": 432022,
+      "stats": {},
+      "facts": {
+        "Requirement": [
+          "Absolute’s Brand"
+        ],
+        "Spell damage reduction": [
+          "1 from incoming spell damage"
+        ]
+      }
+    },
+    "Absolute's Ward": {
+      "title": "Absolute's Ward",
+      "revision": 432027,
+      "stats": {},
+      "facts": {
+        "Requirement": [
+          "Absolute’s Brand"
+        ],
+        "Saving throws": [
+          "+1"
+        ]
+      }
+    },
+    "Legendary Persistence": {
+      "title": "Legendary Persistence",
+      "revision": 432776,
+      "stats": {},
+      "facts": {
+        "Saving throws": [
+          "+1d4 from Resistance"
+        ],
+        "Resistances": [
+          "Bludgeoning, Piercing, and Slashing from Blade Ward"
+        ]
+      }
+    },
+    "Forest Aegis": {
+      "title": "Forest Aegis",
+      "revision": 432579,
+      "stats": {},
+      "facts": {
+        "Armor class": [
+          "Barkskin sets AC to at least 16"
+        ]
+      }
+    },
+    "Frightened Immunity": {
+      "title": "Frightened Immunity",
+      "revision": 432584,
+      "stats": {},
+      "facts": {
+        "Condition immunity": [
+          "Frightened"
+        ]
+      }
+    },
+    "Illithid Protection": {
+      "title": "Illithid Protection",
+      "revision": 432660,
+      "stats": {},
+      "facts": {
+        "Requirement": [
+          "Wearer has a mind flayer tadpole"
+        ],
+        "Saving throws": [
+          "+1 to Intelligence, Wisdom, and Charisma saves"
+        ]
+      }
+    },
+    "Endurance by Fire": {
+      "title": "Endurance by Fire",
+      "revision": 432508,
+      "stats": {},
+      "facts": {
+        "Resistance": [
+          "Fire"
+        ],
+        "Saving throws": [
+          "+2"
+        ]
+      }
+    },
+    "Shar's Umbrae": {
+      "title": "Shar's Umbrae",
+      "revision": 403494,
+      "stats": {},
+      "facts": {
+        "Stealth checks": [
+          "Advantage while obscured"
+        ]
+      }
+    },
+    "Exceptional Plate": {
+      "title": "Exceptional Plate",
+      "revision": 432522,
+      "stats": {},
+      "facts": {
+        "Damage reduction": [
+          "2 from incoming Bludgeoning, Piercing, or Slashing damage"
+        ]
+      }
+    },
+    "Spellguard": {
+      "title": "Spellguard",
+      "revision": 433183,
+      "stats": {},
+      "facts": {
+        "Saving throws": [
+          "Advantage against spells"
+        ],
+        "Incoming spell attack rolls": [
+          "Disadvantage"
+        ]
+      }
+    },
+    "Sharpened Snare": {
+      "title": "Sharpened Snare",
+      "revision": 433126,
+      "stats": {},
+      "facts": {
+        "Target saves": [
+          "Disadvantage against your attacks and spells that inflict Restrained"
+        ]
+      }
+    },
+    "Dreadful Hewer": {
+      "title": "Dreadful Hewer",
+      "revision": 432297,
+      "stats": {},
+      "facts": {
+        "Target saves": [
+          "Disadvantage against your spells or actions that inflict Fear"
+        ]
+      }
+    },
+    "Additional Spell Slot": {
+      "title": "Additional Spell Slot",
+      "revision": 371312,
+      "stats": {},
+      "facts": {
+        "Spell slots": [
+          "One additional level-1 slot"
+        ]
+      }
+    },
+    "Sprint (passive feature)": {
+      "title": "Sprint (passive feature)",
+      "revision": 433274,
+      "stats": {},
+      "facts": {
+        "Range": [
+          "20 ft in a straight line"
+        ],
+        "Activation": [
+          "Spend one turn of Momentum, once per turn"
+        ],
+        "Movement": [
+          "Does not provoke opportunity attacks"
+        ]
+      }
+    },
+    "Elven Chain (passive feature)": {
+      "title": "Elven Chain (passive feature)",
+      "revision": 432505,
+      "stats": {},
+      "facts": {
+        "Training": [
+          "The wearer is proficient with this armor"
+        ]
+      }
+    },
+    "Elven Agility": {
+      "title": "Elven Agility",
+      "revision": 165625,
+      "stats": {},
+      "facts": {
+        "Initiative": [
+          "+2"
+        ],
+        "Dexterity saves": [
+          "Advantage"
+        ]
+      }
+    },
+    "Helldusk Armour (passive feature)": {
+      "title": "Helldusk Armour (passive feature)",
+      "revision": 432636,
+      "stats": {},
+      "facts": {
+        "Training": [
+          "The wearer is proficient with this armor"
+        ]
+      }
+    },
+    "Prime Aegis of Fire": {
+      "title": "Prime Aegis of Fire",
+      "revision": 432970,
+      "stats": {},
+      "facts": {
+        "Resistance": [
+          "Fire"
+        ],
+        "Condition immunity": [
+          "Burned"
+        ],
+        "Damage reduction": [
+          "3 from all sources"
+        ]
+      }
+    },
+    "Ironvine": {
+      "title": "Ironvine",
+      "revision": 432718,
+      "stats": {},
+      "facts": {
+        "Trigger": [
+          "A melee attack hits you while you hold a weapon empowered by Shillelagh"
+        ],
+        "Damage": [
+          "The attacker takes Piercing damage equal to your Wisdom modifier"
+        ]
+      }
+    },
+    "Reaper's Rigidity": {
+      "title": "Reaper's Rigidity",
+      "revision": 433006,
+      "stats": {},
+      "facts": {
+        "Activation": [
+          "Toggle on or off"
+        ],
+        "Effect": [
+          "Spells and actions cannot move you against your will"
+        ],
+        "Dexterity saves": [
+          "Disadvantage while active"
+        ]
+      }
+    },
+    "High Spellcasting (+1)": {
+      "title": "High Spellcasting (+1)",
+      "revision": 432643,
+      "stats": {},
+      "facts": {
+        "Spell save DC": [
+          "+1"
+        ]
+      }
+    },
+    "Seldom Caught Unawares (+2)": {
+      "title": "Seldom Caught Unawares (+2)",
+      "revision": 433095,
+      "stats": {},
+      "facts": {
+        "Initiative": [
+          "+2"
+        ]
+      }
+    },
+    "Arcane Enchantment (+1)": {
+      "title": "Arcane Enchantment (+1)",
+      "revision": 432064,
+      "stats": {},
+      "facts": {
+        "Spell save DC": [
+          "+1"
+        ],
+        "Spell attack rolls": [
+          "+1"
+        ]
+      }
+    },
+    "Heightened Awareness": {
+      "title": "Heightened Awareness",
+      "revision": 432633,
+      "stats": {},
+      "facts": {
+        "Initiative": [
+          "+3"
+        ],
+        "Perception checks": [
+          "Advantage"
+        ]
+      }
+    },
+    "Bound Weapon": {
+      "title": "Bound Weapon",
+      "revision": 442298,
+      "stats": {},
+      "facts": {
+        "Effect": [
+          "Cannot be disarmed and returns when thrown"
+        ]
+      }
+    },
+    "Radiating Shockwave": {
+      "title": "Radiating Shockwave",
+      "revision": 402797,
+      "stats": {},
+      "facts": {
+        "Trigger": [
+          "Automatically activates when the wearer deals Radiant damage"
+        ],
+        "Area": [
+          "10 ft radius; affects nearby non-allied creatures"
+        ],
+        "Duration": [
+          "Applies 2 turns of Radiating Orb. Each remaining turn gives −1 to attack rolls; attacking reduces duration by 2 turns."
+        ]
+      }
+    }
+  },
+  "shield_training": {
+    "label": "Shields",
+    "revision": 439970
+  }
+}

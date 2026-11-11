@@ -16,7 +16,8 @@ const itemDetails = Promise.all([
     loadSupplement("core-enhancement-cross-references.json"),
     loadSupplement("diablo-2-unique-weapon-facts.json"),
     loadSupplement("published-2024-weapon-facts.json"),
-    loadSupplement("published-2024-armor-facts.json")
+    loadSupplement("published-2024-armor-facts.json"),
+    loadSupplement("bg3-armor-effects.json")
 ]);
 const equipmentRulesUrl = "https://www.dndbeyond.com/sources/dnd/br-2024/equipment";
 const magicItemRulesUrl = "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items";
@@ -37,17 +38,21 @@ function itemDetailsSection(panel, label, rows, url, open) {
     return details;
 }
 
-function addBg3ItemDetails(panel, record, effects) {
+function addBg3ItemDetails(panel, record, effects, armorRules) {
     record.variants.forEach((variant, index) => {
         const stats = variant.stats;
         const facts = variant.facts;
+        const armorEffects = armorRules.effects || {};
+        const shieldTraining = stats.type === "Shields" && !stats.proficiency && armorRules.shield_training;
+        const exemption = variant.effects.map(title => armorEffects[title])
+            .find(effect => effect && effect.facts.Training);
         const rows = [
             ["Activation", pretty(stats["usage cost"])],
             ["Single use", pretty(stats["single use"])],
             ["Armor class", stats["armour class"]],
             ["Armor class bonus", stats["armour class bonus"]],
             ["Armor type", stats["armour type"]],
-            ["Training", stats.proficiency],
+            ["Training", exemption ? exemption.facts.Training.join(" · ") : stats.proficiency || (shieldTraining && shieldTraining.label)],
             ["Stealth disadvantage", pretty(stats["stealth disadvantage"])],
             ["Enchantment", stats.enchantment],
             ["Camp supplies", stats["camp supplies"]],
@@ -69,8 +74,10 @@ function addBg3ItemDetails(panel, record, effects) {
         const label = record.variants.length > 1 ? "BG3 item details · " + (stats.name || "Variant " + (index + 1)) : "BG3 item details";
         const source = "https://bg3.wiki/w/index.php?oldid=" + record.revision;
         const details = itemDetailsSection(panel, label, rows, source, true);
+        if (shieldTraining) details.appendChild(sourceLink(
+            "https://bg3.wiki/w/index.php?oldid=" + shieldTraining.revision, "BG3 shield training"));
         variant.effects.forEach(title => {
-            const effect = effects[title];
+            const effect = armorEffects[title] || effects[title];
             if (!effect) {
                 details.appendChild(sourceLink(wikiLink(title), title));
                 return;
@@ -304,7 +311,7 @@ function addLegacyDmgDetails(panel, item) {
 
 function addItemDetails(panel, item, supplements) {
     const [bg3, curated, spells, weapons, references, legacyGames, diabloWeapons, bg3Availability, enhancements,
-        diabloUniques, publishedFacts, publishedArmor] = supplements;
+        diabloUniques, publishedFacts, publishedArmor, bg3Armor] = supplements;
     const legacyGame = (legacyGames && legacyGames.records[item.id]) ||
         (diabloWeapons && diabloWeapons.records[item.id]) ||
         (diabloUniques && diabloUniques.records[item.id]);
@@ -338,7 +345,7 @@ function addItemDetails(panel, item, supplements) {
     });
     const bg3Record = bg3 && bg3.records[item.id];
     if (bg3Record && !entries.some(entry => entry.status === "source-reported")) {
-        addBg3ItemDetails(panel, bg3Record, bg3.effects || {});
+        addBg3ItemDetails(panel, bg3Record, bg3.effects || {}, bg3Armor || {});
     }
     if (item.ruleset === "bg3" && item.type === "weapon") {
         const variants = (item.mechanics || {}).bg3_template_variants || [];
