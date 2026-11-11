@@ -10,7 +10,10 @@ const itemDetails = Promise.all([
     loadSupplement("dnd-2024-spell-reference.json"),
     loadSupplement("weapon-profiles-2024.json"),
     loadSupplement("dnd-2024-item-cross-references.json"),
-    loadSupplement("legacy-game-weapon-facts.json")
+    loadSupplement("legacy-game-weapon-facts.json"),
+    loadSupplement("diablo-2-base-weapon-facts.json"),
+    loadSupplement("bg3-weapon-availability.json"),
+    loadSupplement("core-enhancement-cross-references.json")
 ]);
 const equipmentRulesUrl = "https://www.dndbeyond.com/sources/dnd/br-2024/equipment";
 const magicItemRulesUrl = "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items";
@@ -232,16 +235,24 @@ function addWeaponProfile(panel, item, supplement) {
     }
 }
 
-function addPublishedCrossReference(panel, item, references) {
-    const id = references && references.records[item.id];
+function addPublishedCrossReference(panel, item, references, enhancements) {
+    const match = enhancements && enhancements.records[item.id];
+    const id = (references && references.records[item.id]) || (match && match.target_id);
     if (!id) return false;
     const published = JSON.parse(Armory.item(id));
     if (!published.description) return false;
     const source = ((published.provenance || {}).source_url || "https://www.dndbeyond.com/srd");
-    const details = itemDetailsSection(panel, "Published 2024 cross-reference · " + published.name,
-        [["Match", "Same name and item type in the 2024 SRD"]], source, !item.description);
+    const verified = match && match.target_id === id;
+    const label = verified ? "Verified 2024 enhancement" : "Published 2024 cross-reference";
+    const basis = verified ? "Same enhancement and base weapon in the 2014 and 2024 SRDs"
+        : "Same name and item type in the 2024 SRD";
+    const details = itemDetailsSection(panel, label + " · " + published.name,
+        [["Match", basis]], verified ? enhancements.source : source, verified || !item.description);
     details.appendChild(element("p", feetText(published.description), "detail-description"));
-    if (published.type === "weapon") addTabletopWeapon(details, published);
+    if (published.type === "weapon") {
+        const profile = verified ? {kind: "source-based-2024", base_id: match.base_id, bonus: match.bonus} : undefined;
+        addTabletopWeapon(details, published, profile);
+    }
     return true;
 }
 
@@ -279,8 +290,13 @@ function addLegacyDmgDetails(panel, item) {
 }
 
 function addItemDetails(panel, item, supplements) {
-    const [bg3, curated, spells, weapons, references, legacyGames] = supplements;
-    const legacyGame = legacyGames && legacyGames.records[item.id];
+    const [bg3, curated, spells, weapons, references, legacyGames, diabloWeapons, bg3Availability, enhancements] = supplements;
+    const legacyGame = (legacyGames && legacyGames.records[item.id]) ||
+        (diabloWeapons && diabloWeapons.records[item.id]);
+    const availability = bg3Availability && bg3Availability.records[item.id];
+    if (availability) {
+        itemDetailsSection(panel, "BG3 availability", [["Player access", availability.note]], availability.source, true);
+    }
     if (legacyGame) {
         legacyGame.variants.forEach((variant, index) => {
             const label = legacyGame.game + " · Game statistics" +
@@ -290,7 +306,7 @@ function addItemDetails(panel, item, supplements) {
         });
     }
     addLegacyDmgDetails(panel, item);
-    if (!addPublishedCrossReference(panel, item, references)) addWeaponProfile(panel, item, weapons);
+    if (!addPublishedCrossReference(panel, item, references, enhancements)) addWeaponProfile(panel, item, weapons);
     const entries = curated && curated.records[item.id] || [];
     entries.forEach(entry => {
         const label = entry.status === "original-draft" ? entry.label + " · DM review" : entry.label;

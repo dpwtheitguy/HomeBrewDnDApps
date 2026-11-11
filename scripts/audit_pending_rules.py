@@ -38,6 +38,9 @@ def main():
     profiles = json.loads((CATALOG / 'supplements/weapon-profiles-2024.json').read_text())['records']
     native_path = CATALOG / 'supplements/legacy-game-weapon-facts.json'
     native = json.loads(native_path.read_text())['records'] if native_path.exists() else {}
+    diablo_path = CATALOG / 'supplements/diablo-2-base-weapon-facts.json'
+    if diablo_path.is_file():
+        native.update(json.loads(diablo_path.read_text())['records'])
     curated = json.loads((CATALOG / 'supplements/curated-item-details.json').read_text())['records']
     known = collections.defaultdict(list)
     for item in items:

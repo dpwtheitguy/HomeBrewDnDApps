@@ -121,7 +121,7 @@ def audit(item, bg3_items, bg3_weapons, curated, spells, native_games, prices):
     for variant in native_games.get(item['id'], {}).get('variants', []):
         fields = variant['fields']
         for labels, key in (
-            (('Damage', 'Light attack damage'), 'damage'), (('Enchantment',), 'bonuses'),
+            (('Damage', 'Light attack damage', 'One-handed damage', 'Two-handed damage', 'Throw damage'), 'damage'), (('Enchantment',), 'bonuses'),
             (('Effects',), 'special_powers'), (('Weight',), 'weight'),
         ):
             if any(fields.get(label) for label in labels):
@@ -177,6 +177,8 @@ def main():
     curated = supplement('curated-item-details.json')['records']
     spells = supplement('dnd-2024-spell-reference.json')['spells']
     native_games = supplement('legacy-game-weapon-facts.json')['records']
+    if (ROOT / 'supplements/diablo-2-base-weapon-facts.json').is_file():
+        native_games.update(supplement('diablo-2-base-weapon-facts.json')['records'])
     prices = supplement('item-prices.json')['records']
     ammunition_gaps = []
     totals = {field: collections.Counter() for field in FIELDS}

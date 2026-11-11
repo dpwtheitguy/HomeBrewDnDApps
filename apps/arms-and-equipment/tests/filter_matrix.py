@@ -365,6 +365,35 @@ def main():
                     scrollTo(0, previousScroll);
                     return !!(inspectionState && reachable && reopening);
                 })()''',
+                'Legacy Dagger +2 shows the verified 2024 bonus and mastery': '''(async () => {
+                    inspect("open5e-srd-2014:srd_dagger-2", grid.firstElementChild);
+                    await itemDetails;
+                    const text = inspection.textContent;
+                    return ["Verified 2024 enhancement", "+2 to attack and damage", "Nick", "20/60 ft"]
+                        .every(value => text.includes(value));
+                })()''',
+                'BG3 restricted equipment explains player availability': '''(async () => {
+                    inspect("bg3-wiki:27980", grid.firstElementChild);
+                    await itemDetails;
+                    const branch = inspection.textContent.includes("cannot equip it");
+                    inspect("bg3-wiki:31041", grid.firstElementChild);
+                    await itemDetails;
+                    return branch && inspection.textContent.includes("unavailable through normal Patch 8 gameplay");
+                })()''',
+                'Diablo II sword shows separate native damage modes': '''(async () => {
+                    inspect("diablo-2-reference:2c9596b23ad6d909", grid.firstElementChild);
+                    await itemDetails;
+                    const text = inspection.textContent;
+                    return ["Arreat Summit", "One-handed damage (Barbarian only)", "14–40", "39–60", "Max sockets"]
+                        .every(value => text.includes(value));
+                })()''',
+                'GAZ1 sword shows original source and the playable 2024 draft': '''(async () => {
+                    inspect("gaz1-karameikos-local:1b271b99d66a7272", grid.firstElementChild);
+                    await itemDetails;
+                    const text = inspection.textContent;
+                    return ["Printed p. 45", "1d8 Slashing", "1d10 Slashing", "Sap", "DM review"]
+                        .every(value => text.includes(value));
+                })()''',
                 '2024 Dagger shows damage, thrown range, and mastery': '''(async () => {
                     inspect("open5e-srd-2024:srd-2024_dagger", grid.firstElementChild);
                     await itemDetails;

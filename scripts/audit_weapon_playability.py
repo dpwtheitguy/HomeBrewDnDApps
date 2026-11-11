@@ -19,6 +19,7 @@ PROFILE_KINDS = {
 }
 BASE_PROFILE_KINDS = {'draft-2024-base', 'source-based-2024'}
 DICE = re.compile(r'(?:\d+d\d+|\d+)(?:\s*[+-]\s*\d+)?', re.I)
+BG3_RESTRICTIONS = {'npc-only': 'NPC weapon', 'unobtainable': 'Unavailable in normal play'}
 PRICE_FIELDS = ('base_cost_gp', 'base_buy_gp', 'base_sell_gp')
 FIELDS = (
     'id', 'name', 'source_id', 'ruleset', 'tabletop_status', 'profile', 'evidence',
@@ -84,11 +85,15 @@ def structured_2024(weapon, properties, errors):
     return fields
 
 
-def bg3_fields(entry, features, errors, gaps):
+def bg3_fields(entry, features, availability, errors, gaps):
     variants = entry.get('variants') or []
     if not variants:
         errors.append('BG3 weapon has no game-rule variants')
         return {}
+    restriction = BG3_RESTRICTIONS.get(availability.get('restriction'))
+    if availability and not (restriction and availability.get('source') and availability.get('note')):
+        errors.append('invalid BG3 availability exception')
+        restriction = None
     fields = collections.defaultdict(list)
     for index, variant in enumerate(variants, 1):
         stats = variant.get('stats') or {}
@@ -98,7 +103,7 @@ def bg3_fields(entry, features, errors, gaps):
             gaps.append(f'BG3 variant {index} needs structured damage')
         if mode not in {'melee', 'ranged'} or (mode == 'ranged' and not game_range):
             gaps.append(f'BG3 variant {index} needs attack range')
-        if not stats.get('category'):
+        if not stats.get('category') and not restriction:
             gaps.append(f'BG3 variant {index} needs training category')
         if variant.get('unparsed_special'):
             gaps.append(f'BG3 variant {index} has an unparsed special effect')
@@ -108,7 +113,7 @@ def bg3_fields(entry, features, errors, gaps):
                     gaps.append(f'BG3 feature lacks a structured rule record: {title}')
         for key, value in (
             ('damage', stats.get('damage')), ('damage_type', stats.get('damage type')),
-            ('training', stats.get('category')), ('attack_bonus', stats.get('enchantment')),
+            ('training', stats.get('category') or restriction), ('attack_bonus', stats.get('enchantment')),
             ('range', mode if mode == 'melee' else (
                 f"{stats['range ft']} ft" if stats.get('range ft') else
                 f"≈{round(float(stats['range m']) * 3.28084)} ft"
@@ -121,7 +126,7 @@ def bg3_fields(entry, features, errors, gaps):
     return {key: ' / '.join(values) for key, values in fields.items()}
 
 
-def audit_row(item, all_items, profiles, game, curated, exact, prices, legacy_game):
+def audit_row(item, all_items, profiles, game, curated, exact, prices, legacy_game, availability, enhancements):
     item_id, name = item['id'], item['name']
     errors, gaps = [], []
     mechanics = item.get('mechanics') or {}
@@ -153,7 +158,8 @@ def audit_row(item, all_items, profiles, game, curated, exact, prices, legacy_ga
         entry['fields'] for entry in curated.get(item_id, [])
         if entry.get('status') == 'original-draft' and entry.get('profile_kind') == 'custom-2024-draft'
     ]
-    if exact_id := exact.get(item_id):
+    verified = enhancements.get(item_id, {})
+    if exact_id := exact.get(item_id) or verified.get('target_id'):
         target = all_items.get(exact_id) or {}
         if (target.get('ruleset') != 'dnd-2024' or target.get('type') != 'weapon'
                 or target.get('source_id') != 'open5e-srd-2024' or not target.get('description')
@@ -172,7 +178,8 @@ def audit_row(item, all_items, profiles, game, curated, exact, prices, legacy_ga
             errors.append('BG3 profile attached to a different ruleset')
         evidence = 'native-bg3'
         native = 'bg3-structured' if item_id in game['weapons'] else 'unstructured'
-        fields = bg3_fields(game['weapons'].get(item_id, {}), game['features'], errors, gaps)
+        fields = bg3_fields(game['weapons'].get(item_id, {}), game['features'],
+                            availability.get(item_id, {}), errors, gaps)
     elif published:
         evidence = 'published-2024-attack'
         fields = {
@@ -190,6 +197,22 @@ def audit_row(item, all_items, profiles, game, curated, exact, prices, legacy_ga
                 'mastery': custom[0].get('Mastery'),
             }
         gaps.append('item-specific draft requires DM review')
+    elif item_id in enhancements:
+        verified_base = all_items.get(verified.get('base_id'), {})
+        base_mechanics = verified_base.get('mechanics') or {}
+        target_mechanics = target.get('mechanics') or {}
+        bonus = verified.get('bonus')
+        if (item['source_id'] != 'open5e-srd-2014' or target.get('id') != verified.get('target_id')
+                or verified_base.get('source_id') != 'open5e-srd-2024' or verified_base.get('magic') is not False
+                or not base_mechanics.get('weapon') or target_mechanics.get('weapon') != base_mechanics['weapon']
+                or type(bonus) is not int or bonus not in (1, 2, 3) or not name.endswith(f'(+{bonus})')):
+            errors.append('invalid verified 2014 to 2024 weapon enhancement')
+            gaps.append('verified enhancement needs a matching published variant and base')
+        else:
+            evidence = 'verified-2024-enhancement'
+            fields = structured_2024(base_mechanics['weapon'], base_mechanics.get('properties') or [], errors)
+            fields['attack_bonus'] = f'+{bonus} to attack and damage'
+            fields['activation'] = 'Apply to attacks made with the weapon'
     elif target:
         evidence = 'published-2024-cross-reference'
         target_mechanics = target.get('mechanics') or {}
@@ -261,8 +284,13 @@ def audit(catalog):
     exact = load(catalog, 'dnd-2024-item-cross-references')['records']
     prices = load(catalog, 'item-prices')['records']
     legacy_game = load(catalog, 'legacy-game-weapon-facts')['records']
+    if (catalog / 'supplements/diablo-2-base-weapon-facts.json').is_file():
+        legacy_game.update(load(catalog, 'diablo-2-base-weapon-facts')['records'])
+    availability = load(catalog, 'bg3-weapon-availability')['records']
+    enhancements = load(catalog, 'core-enhancement-cross-references')['records'] if (
+        catalog / 'supplements/core-enhancement-cross-references.json').is_file() else {}
     rows = [
-        audit_row(item, items, profiles, game, curated, exact, prices, legacy_game)
+        audit_row(item, items, profiles, game, curated, exact, prices, legacy_game, availability, enhancements)
         for item in sorted(items.values(), key=lambda item: (item['source_id'], item['name'].casefold(), item['id']))
     ]
     orphaned = sorted(profiles.keys() - items.keys())
