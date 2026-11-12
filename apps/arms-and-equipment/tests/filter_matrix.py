@@ -694,6 +694,14 @@ def main():
                     }
                     return true;
                 })()''',
+                'Mithral Half Plate +1 keeps its bonus and removes Stealth disadvantage': '''(async () => {
+                    inspect("dndbeyond:722094", grid.firstElementChild);
+                    await itemDetails;
+                    const terms = ["Armor class16 + Dex modifier (max +2)", "Stealth disadvantageNo",
+                        "AttunementNone", "Dhargun Ironworks wedding gifts"];
+                    return terms.every(term => inspection.textContent.includes(term))
+                        && [...inspection.querySelectorAll("a")].some(link => link.href.endsWith("#MithralArmor"));
+                })()''',
                 'Salubrious Armor shows both bases and the corrected healing bonus': '''(async () => {
                     const cases = [
                         ["dndbeyond:11628225", "Verified 2024 armor rules"],

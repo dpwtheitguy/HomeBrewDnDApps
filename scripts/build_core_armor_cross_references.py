@@ -81,6 +81,7 @@ SALUBRIOUS_POWERS = (
     'and its bonus becomes +2 until the end of your next turn.'
 )
 PUBLIC_ARMOR_RULES = {
+    'dndbeyond:722094': 'https://www.dndbeyond.com/magic-items?page=3&sort=type',
     'dndbeyond:11628225': SALUBRIOUS_ERRATA,
     **dict.fromkeys((
         'dndbeyond:7526578', 'dndbeyond:7526586', 'dndbeyond:7526597', 'dndbeyond:7526611',
@@ -133,6 +134,7 @@ PUBLIC_ARMOR_RULES = {
 
 METAL_ARMOR_FAMILIES = {'Adamantine Armor', 'Mithral Armor', 'Mizzium Armor'}
 PUBLIC_FIXED_BASES = {
+    'Mithral Half Plate, +1': {'Half Plate Armor'},
     'Salubrious Armor': {'Scale Mail', 'Plate Armor'},
     "Heward's Hireling Armor": {'Leather Armor'},
     'Leather Golem Armor': {'Leather Armor'},
@@ -175,6 +177,15 @@ PUBLIC_TRAINING_LIMITS = {
 }
 
 PUBLIC_ARMOR = {
+    'dndbeyond:722094': (
+        'Mithral Half Plate, +1', '722094-mithral-half-plate-1', 1, False, 'Rare', {
+            'Special powers': 'While wearing this armor, add +1 to the base Half Plate Armor AC. '
+                              'The mithral removes the armor’s Disadvantage on Dexterity (Stealth) checks.',
+            'Publication': 'Acquisitions Incorporated, Dhargun Ironworks wedding gifts.',
+            '2024 mithral rules': MAGIC + '#MithralArmor',
+            '2024 rules note': 'Under the 2024 rules, mithral armor can also be worn under ordinary clothes.',
+        },
+    ),
     'dndbeyond:11628225': (
         'Salubrious Armor', '11628225-salubrious-armor', 1, True, 'Rare', {
             'Special powers': SALUBRIOUS_POWERS,
@@ -565,7 +576,7 @@ def public_armor_variants(items):
                 armor['name'] == 'Hide Armor' or (armor['ac_add_dexmod'] and cap is None)
             ):
                 continue
-            mithral = name == 'Mithral Armor'
+            mithral = name in {'Mithral Armor', 'Mithral Half Plate, +1'}
             stealth_exception = name in {'Scorpion Armor', 'Serpent Scale Armor', 'Molten Bronze Skin', 'Demon Skin'}
             uncapped_dexterity = name == 'Serpent Scale Armor'
             formula = str(armor['ac_base'] + bonus)
