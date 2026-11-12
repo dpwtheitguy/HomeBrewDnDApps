@@ -950,7 +950,17 @@ def main():
                     return ["Indestructible", "35% damage reduction", "reduce that damage by 2d8", "twice per Long Rest"]
                         .every(term => shield.includes(term)) &&
                         ["163-172", "DC 15 Constitution", "Speed is 0"].every(term => mail.includes(term)) &&
-                        gold.includes("356-405") && !gold.includes("D&D 2024 unique armor adaptation");
+                        ["356-405", "D&D 2024 unique armor adaptation", "Bright Light within 10 feet"].every(term => gold.includes(term));
+                })()''',
+                'Diablo II unique plate preserves area saves and armor exceptions': '''(async () => {
+                    inspect("diablo-2-reference:cdacf15d0b0df6b0", grid.firstElementChild);
+                    await itemDetails;
+                    const corpse = inspection.textContent;
+                    inspect("diablo-2-reference:a7737c7acb1e3063", grid.firstElementChild);
+                    await itemDetails;
+                    const tyrael = inspection.textContent;
+                    return ["DC 16 Dexterity save", "within 10 feet", "4d6 Fire"].every(term => corpse.includes(term)) &&
+                        ["Armor class18", "Strength requirementNone.", "1d8 Radiant"].every(term => tyrael.includes(term));
                 })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);

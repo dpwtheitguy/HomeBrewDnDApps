@@ -41,6 +41,189 @@ EFFECTS = {
                     'When a creature within 5 feet hits you with a melee attack that deals Bludgeoning, Piercing, '
                     'or Slashing damage, you can use a Reaction to reduce that damage by 2d8 and deal 1d8 '
                     'Lightning damage to the attacker. You can take this Reaction twice per Long Rest.'),
+    "Ormus' Robes": ('Very Rare',
+        'After each Long Rest choose Cold, Fire, or Lightning. Once on each of your turns when a '
+        'spell you cast deals the chosen damage, add 1d6 of that type to one target. Use this '
+        'benefit three times per Long Rest.'),
+    "The Gladiator's Bane": ('Very Rare',
+        'While wearing the armor, you have Advantage on saves to avoid or end being Poisoned. When '
+        'you take damage from a spell or weapon attack, use a Reaction to reduce it by 2d6. Use this '
+        'Reaction three times per Long Rest.'),
+    "Arkaine's Valor": ('Very Rare',
+        'When you finish a Long Rest wearing the armor, gain Temporary Hit Points equal to twice '
+        'your Proficiency Bonus plus your Constitution modifier, minimum 1. Once per Long Rest, '
+        'reroll a failed Strength, Dexterity, or Constitution save and use the new roll.'),
+    'Leviathan': ('Very Rare',
+        'The armor is immune to damage while worn. While wearing it, you count as one size larger '
+        'for carrying, pushing, dragging, and lifting. Once per Short or Long Rest, use a Reaction '
+        'when you take Bludgeoning, Piercing, or Slashing damage to reduce it by 2d8.'),
+    'Steel Carapace': ('Very Rare',
+        'You have Resistance to Cold damage. Twice per Long Rest when a creature within 5 feet hits '
+        'you with a melee attack, use a Reaction to deal 2d6 Psychic damage to it. After a Long Rest '
+        'the armor repairs its own ordinary wear.'),
+    "Templar's Might": ('Very Rare',
+        'While wearing the armor, you have Half Cover against ranged weapon attacks. Once per Long '
+        'Rest as a Bonus Action, choose yourself and up to two allies within 10 feet. Each chosen '
+        'creature gains 10 Temporary Hit Points.'),
+    "Tyrael's Might": ('Legendary',
+        'This Plate has no Strength requirement and grants +10 feet of Speed. While wearing it, the '
+        'first time each turn you hit a Fiend with a weapon, deal an extra 1d8 Radiant damage. A '
+        'creature you kill with such a hit cannot be raised as Undead for 24 hours.'),
+    'Spike Thorn': ('Rare',
+        'When a creature within 5 feet hits you with a melee attack while you wield the shield, use '
+        'a Reaction to reduce its damage by 1d8 and deal the same amount of Piercing damage to the '
+        'attacker. Use twice per Long Rest.'),
+    "Medusa's Gaze": ('Very Rare',
+        'You have Cold Resistance while wielding the shield. Twice per Long Rest, when hit by a '
+        'creature you can see within 30 feet, use a Reaction. It must succeed on a DC 16 '
+        'Constitution save or have its Speed halved and lose Reactions until the end of its next '
+        'turn.'),
+    "Head Hunter's Glory": ('Very Rare',
+        'Choose Fire or Poison Resistance after a Long Rest. While wielding the shield, once per '
+        'Short or Long Rest when you reduce a hostile creature to 0 Hit Points with a weapon attack, '
+        'gain 2d6 Temporary Hit Points.'),
+    'Spirit Ward': ('Very Rare',
+        'Once per Long Rest when you take Acid, Cold, Fire, Lightning, or Poison damage while '
+        'wielding this shield, use a Reaction to gain Resistance to the triggering type against that '
+        'damage and until the end of your next turn.'),
+    'The Spirit Shroud': ('Rare',
+        'You have Advantage on saves against being Paralyzed. Once per Long Rest as a Bonus Action, '
+        'regain 2d6 Hit Points while wearing the armor.'),
+    'Skin of the Vipermagi': ('Rare',
+        'While wearing the armor, once per Long Rest when a spell deals damage to you, use a '
+        "Reaction to halve that spell's damage to you. You also have Advantage on the first "
+        'Constitution save to maintain Concentration you make after each Short or Long Rest.'),
+    'Skin of the Flayed One': ('Rare',
+        'After a Long Rest the armor repairs its ordinary wear. Once per Short or Long Rest, when a '
+        'melee weapon hit reduces a hostile creature to 0 Hit Points, regain Hit Points equal to 1d8 '
+        'plus your Proficiency Bonus.'),
+    'Iron Pelt': ('Rare',
+        'While wearing the armor, once per Short or Long Rest when a source deals damage to you, use '
+        'a Reaction to reduce it by 1d8 plus your Proficiency Bonus.'),
+    'Crow Caw': ('Rare',
+        'Once per Short or Long Rest when you hit a creature with a Slashing weapon attack, it takes '
+        'an extra 1d6 Slashing. It then takes 1d6 Slashing at the start of its next turn unless it '
+        'has regained Hit Points since the hit.'),
+    'Spirit Forge': ('Rare',
+        'While wearing the armor, use a Bonus Action to kindle or extinguish Bright Light in a '
+        '10-foot radius and Dim Light for another 10 feet. Once on each of your turns, add 1d6 Fire '
+        'damage to one melee weapon hit, up to three times per Long Rest.'),
+    "Duriel's Shell": ('Very Rare',
+        'While wearing the armor, you have Cold Resistance and Advantage on saves against effects '
+        'that would reduce your Speed. When you finish a Long Rest wearing it, gain 10 Temporary Hit '
+        'Points.'),
+    'Shaftstop': ('Rare',
+        'While wearing the armor, when a ranged weapon attack hits you, use a Reaction to reduce its '
+        'damage by 2d8. Use this Reaction twice per Long Rest.'),
+    "Skullder's Ire": ('Rare',
+        'After a Long Rest the armor repairs its ordinary wear. Once per Long Rest while wearing it, '
+        'cast Detect Magic without Material components, using its normal casting time and '
+        'Concentration.'),
+    "Que-Hegan's Wisdom": ('Rare',
+        'Once per Long Rest when you reduce a hostile creature to 0 Hit Points with a spell, gain '
+        '1d6 Temporary Hit Points and recover an expended level 1 spell slot.'),
+    'Toothrow': ('Rare',
+        'You have Fire Resistance while wearing the armor. Once per Short or Long Rest when a '
+        'creature within 5 feet hits you with a melee attack, use a Reaction to deal 2d6 Piercing '
+        'damage to it.'),
+    'Guardian Angel': ('Very Rare',
+        'As a Bonus Action once per Long Rest, emanate Bright Light in a 10-foot radius for 1 '
+        'minute. You and allies in that light have Advantage on saves against being Frightened by '
+        'Fiends.'),
+    "Atma's Wail": ('Rare',
+        'Once per Long Rest, when you fail a Dexterity saving throw, use a Reaction to reroll it. If '
+        'the new roll succeeds, you also regain 1d8 Hit Points. Use the new roll.'),
+    'Black Hades': ('Rare',
+        'While wearing the armor, once on each of your turns when you hit a Fiend with a weapon, '
+        "deal an extra 1d6 damage of the weapon's type. It has three decorative settings for gems."),
+    'Corpsemourn': ('Very Rare',
+        'You have Cold Resistance. Once per Long Rest as a Magic action, choose a corpse of a Small '
+        'or larger creature you can see within 30 feet. It erupts. Other creatures within 10 feet of '
+        'it make a DC 16 Dexterity save, taking 4d6 Fire damage on failure or half as much on '
+        'success.'),
+    'Visceratuant': ('Rare',
+        'Once per Short or Long Rest when a creature within 5 feet misses you with a melee attack '
+        'while you wield the shield, use a Reaction to deal 1d8 Lightning damage to it.'),
+    "Moser's Blessed Circle": ('Rare',
+        'After a Long Rest choose Acid, Cold, Fire, Lightning, or Poison. While wielding this shield '
+        'you have Resistance to the chosen type. The two visible sockets are decorative in this '
+        'profile.'),
+    'Stormchaser': ('Rare',
+        'You have Lightning Resistance while wielding the shield. Once per Long Rest, when hit by a '
+        'Large or smaller creature within 5 feet, use a Reaction to force it to make a DC 15 '
+        'Strength save or be pushed 10 feet directly away.'),
+    "Tiamat's Rebuke": ('Very Rare',
+        'Three times per Long Rest, when hit by a creature within 5 feet while you wield the shield, '
+        'use a Reaction to deal 2d6 Cold, Fire, or Lightning damage to it, choosing the type each '
+        'time.'),
+    'Lance Guard': ('Rare',
+        'While wielding the shield, once per Short or Long Rest when you take damage from a weapon '
+        'attack, use a Reaction to gain 1d8 Temporary Hit Points after resolving the damage.'),
+    "Gerke's Sanctuary": ('Very Rare',
+        'While wielding the shield, when you take damage, use a Reaction to reduce the damage by '
+        '2d8. Use this Reaction three times per Long Rest.'),
+    'Lidless Wall': ('Rare',
+        'While wielding this shield, once per Long Rest when your spell reduces a hostile creature '
+        'to 0 Hit Points, recover an expended level 1 spell slot.'),
+    "Radament's Sphere": ('Rare',
+        'You have Poison Resistance while wielding the shield. Once per Long Rest, take a Magic '
+        'action to release a 10-foot Emanation. Each other creature in it makes a DC 15 Constitution '
+        'save, taking 3d6 Poison damage on failure or half on success.'),
+    "Blinkbat's Form": ('Uncommon',
+        'While wearing the armor your Speed increases by 5 feet. Once per Short or Long Rest when a '
+        'ranged weapon attack targets you, use a Reaction to impose Disadvantage on the attack '
+        'before it is rolled.'),
+    'The Centurion': ('Uncommon',
+        'Once per Long Rest as a Bonus Action, regain 1d8 Hit Points while wearing the armor.'),
+    'Twitchthroe': ('Rare',
+        'While wearing the armor, once per Long Rest when you take the Attack action, you can make '
+        'one additional weapon attack as a Bonus Action on that turn.'),
+    'Darkglow': ('Rare',
+        'After a Long Rest choose Cold, Fire, Lightning, or Poison. While wearing the armor, you '
+        'have Resistance to that type. As a Bonus Action you can kindle or extinguish Dim Light in a '
+        '10-foot radius.'),
+    'Heavenly Garb': ('Rare',
+        'Once on each of your turns when you hit an Undead with a weapon, you can deal an extra 1d6 '
+        'Radiant damage, up to three times per Long Rest.'),
+    'Rockfleece': ('Rare',
+        'While wearing the armor, once per Short or Long Rest when you take Bludgeoning, Piercing, '
+        'or Slashing damage, use a Reaction to reduce that damage by 2d6.'),
+    'Boneflesh': ('Rare',
+        'Once per Short or Long Rest when you hit a living creature with a melee weapon attack, deal '
+        'an extra 1d6 Necrotic damage and regain Hit Points equal to the Necrotic damage dealt.'),
+    'Rattlecage': ('Rare',
+        'Once per Short or Long Rest on a melee weapon hit, force the target to make a DC 15 Wisdom '
+        'save. On a failure it is Frightened of you until the end of your next turn.'),
+    'Goldskin': ('Rare',
+        'After a Long Rest choose Acid, Cold, Fire, Lightning, or Poison. You have Resistance to '
+        'that type while wearing this gilded plate. As a Bonus Action, kindle or extinguish Bright '
+        'Light within 10 feet and Dim Light for another 10 feet.'),
+    'Silks of the Victor': ('Rare',
+        'Once per Long Rest when you reduce a hostile creature to 0 Hit Points with a weapon attack, '
+        'recover an expended level 1 spell slot.'),
+    'Pelta Lunata': ('Uncommon',
+        'While wielding the shield, when a melee attack hits you, use a Reaction to add 2 to your AC '
+        'against that attack, potentially turning it into a miss. Use once per Short or Long Rest.'),
+    'Umbral Disk': ('Rare',
+        'Once per Long Rest when you hit a creature within 5 feet while wielding the shield, it must '
+        'succeed on a DC 15 Constitution save or be Blinded until the end of its next turn.'),
+    'Stormguild': ('Rare',
+        'You have Lightning Resistance while wielding the shield. Once per Short or Long Rest when a '
+        'creature within 5 feet hits you with a melee attack, use a Reaction to deal 1d6 Lightning '
+        'damage to it.'),
+    'Steelclash': ('Rare',
+        'Once per Long Rest when you take Acid, Cold, Fire, Lightning, or Poison damage while '
+        'wielding the shield, use a Reaction to halve that damage. The shield sheds Dim Light in a '
+        '10-foot radius while wielded.'),
+    'Bverrit Keep': ('Uncommon',
+        'You have Resistance to Fire damage while wielding this shield.'),
+    'Wall of the Eyeless': ('Rare',
+        'You have Poison Resistance while wielding the shield. Once per Long Rest when you reduce a '
+        'hostile creature to 0 Hit Points with a spell, gain Temporary Hit Points equal to your '
+        'Proficiency Bonus plus your spellcasting ability modifier, minimum 1.'),
+    'The Ward': ('Rare',
+        'After a Long Rest choose Acid, Cold, Fire, Lightning, or Poison. You have Resistance to the '
+        'chosen damage type while wielding the shield.'),
 }
 
 
@@ -105,15 +288,20 @@ def main():
         entries = [{'label': 'Diablo II · Unique game statistics', 'status': 'source-reported', 'source': url,
                     'fields': {**facts, 'Source locator': locator}}]
         if name in EFFECTS:
-            entries[0]['fields']['Signature effects (game)'] = NATIVE_SIGNATURES[name]
+            if name in NATIVE_SIGNATURES:
+                entries[0]['fields']['Signature effects (game)'] = NATIVE_SIGNATURES[name]
             rarity, effect = EFFECTS[name]
             group = 'shields' if item['type'] == 'shield' else 'armor'
             slug = 'shield' if group == 'shields' else BASES[facts['Native base item']]
             base = bases['open5e-srd-2024:srd-2024_' + slug]
             fields = adaptation(base, item['type'], group, locator)
-            fields.update({'Rarity': rarity, 'Attunement': 'Required.', 'Special powers': effect,
+            use = 'wield the shield' if group == 'shields' else 'wear the armor'
+            fields.update({'Rarity': rarity, 'Attunement': 'Required.',
+                           'Special powers': f'While attuned, you must {use} to use these powers. {effect}',
                            'Conversion notes': f"Uses the 2024 {base['name']} profile. Translates selected "
                            "signature effects into 2024 rules with the listed triggers and limits."})
+            if name == "Tyrael's Might":
+                fields['Strength requirement'] = 'None.'
             entries.append({'label': 'D&D 2024 unique armor adaptation', 'status': 'original-draft', 'source': url,
                             'profile_kind': 'adapted-game-armor',
                             'rules_source': 'https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor',

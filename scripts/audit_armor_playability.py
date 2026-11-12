@@ -214,6 +214,8 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
                 fields['effects'] = mapped_fields['Special powers']
                 if game_adaptation:
                     fields['weight'] = mapped_fields['Weight']
+                    if fields['role'] != 'shield' and mapped_fields['Strength requirement'] == 'None.':
+                        fields['strength_requirement'] = 'None'
                 if mapping.get('barding'):
                     weight = mapped_fields.get('Weight', '')
                     if (target_armor.get('name') == 'Shield'
