@@ -1871,6 +1871,24 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Mystara bayonets and powered melee weapons show distinct rules': '''(async () => {
+                    for (const [id, terms] of [
+                        ["e77fe380fb25f92b", ["Two-Handed when mounted", "sword-pattern"]],
+                        ["e0402c8cc773ab3f", ["Open 2024 comparison", "Dagger", "Nick"]],
+                        ["97d99b3244151b0f", ["2d4 Radiant", "Critical Hit", "10-charge cell"]],
+                        ["0a6e90327285be04", ["2d8 Radiant", "unattended object"]],
+                        ["a291fd05a2db476c", ["2d4 Thunder", "DC 14 Constitution"]],
+                        ["f17d4e5ad21a01bb", ["2d8 Thunder", "Incorporeal creatures"]],
+                        ["d184c3d22c448c92", ["Unarmed Strike", "1d6 Lightning", "Short or Long Rest"]],
+                    ]) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Mystara unusual melee weapons show their individual rules': '''(async () => {
                     for (const [id, terms] of [
                         ["2fb925a0d709ff20", ["DC 15 Intelligence", "Shortsword"]],

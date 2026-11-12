@@ -1,6 +1,202 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:e77fe380fb25f92b": [
+      {
+        "label": "D&D 2024 adaptation · Bayonet",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=6",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d8 Piercing + Strength modifier when mounted.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Two-Handed when mounted",
+          "Mastery": "Sap",
+          "Weight": "1 lb attachment",
+          "Rarity": "Mundane",
+          "Attunement": "None",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "As a Utilize action attach or detach the bayonet from a compatible firearm. While attached, make melee attacks with the firearm held in two hands. A detached sword-pattern bayonet uses the normal 2024 Shortsword rules. A detached spike-pattern bayonet is an improvised weapon.",
+          "Conversion notes": "The source treats a mounted bayonet as a spear and allows the sword variant to be used separately. The mounted profile has no thrown attack.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, pp. 6–7 and 13.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:e0402c8cc773ab3f": [
+      {
+        "label": "Published D&D 2024 counterpart · Dagger",
+        "status": "published-reference",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=6",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee or 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1½ lb in the source",
+          "Rarity": "Mundane",
+          "Attunement": "None",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Use the published 2024 Dagger rules, including Finesse, Thrown, and Nick for a character with the applicable mastery.",
+          "Conversion notes": "The source explicitly treats these knives as daggers and lists a 5 gp price.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, pp. 6–7 and 13.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:97d99b3244151b0f": [
+      {
+        "label": "D&D 2024 adaptation · Laser Knife",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=6",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "2d4 Radiant + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "The powered blade counts as magical when determining whether it can damage a target. When you score a Critical Hit against an unattended object, add one additional weapon damage die after rolling the critical damage.",
+          "Conversion notes": "Radiant damage models the beam, and the critical object damage models the legacy Wreck effect. The optional legacy advanced throws and mastery tiers are omitted.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, pp. 6–7 and 13.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Power cell": "Toggle the blade as a Bonus Action. A 10-charge cell spends 1 charge at the end of each round while the blade is active. At 0 charges the blade shuts down. Replace a cell as a Utilize action. An inactive hilt can only make improvised attacks."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:0a6e90327285be04": [
+      {
+        "label": "D&D 2024 adaptation · Laser Sword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=6",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d8 Radiant + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Very rare",
+          "Attunement": "None",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "The powered blade counts as magical when determining whether it can damage a target. When you score a Critical Hit against an unattended object, add one additional weapon damage die after rolling the critical damage.",
+          "Conversion notes": "Radiant damage models the beam, and the critical object damage models the legacy Wreck effect. The optional legacy advanced throws and mastery tiers are omitted.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, pp. 6–7 and 13.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Power cell": "Toggle the blade as a Bonus Action. A 10-charge cell spends 1 charge at the end of each round while the blade is active. At 0 charges the blade shuts down. Replace a cell as a Utilize action. An inactive hilt can only make improvised attacks."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:a291fd05a2db476c": [
+      {
+        "label": "D&D 2024 adaptation · Sonic Knife",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=6",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "2d4 Thunder + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Once per Short or Long Rest after hitting a creature, force a DC 14 Constitution save. On a failure it is Stunned until the start of your next turn. The powered blade can hit Incorporeal creatures normally, subject to their resistances and immunities.",
+          "Conversion notes": "The legacy stun and incorporeal interactions use a bounded save and recharge. The original basic damage and one-charge-per-round drain are retained.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, pp. 6–7 and 13.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Power cell": "Toggle the blade as a Bonus Action. A 10-charge cell spends 1 charge at the end of each round while the blade is active. At 0 charges the blade shuts down. Replace a cell as a Utilize action. An inactive hilt can only make improvised attacks."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:f17d4e5ad21a01bb": [
+      {
+        "label": "D&D 2024 adaptation · Sonic Sword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=6",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d8 Thunder + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Very rare",
+          "Attunement": "None",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Once per Short or Long Rest after hitting a creature, force a DC 15 Constitution save. On a failure it is Stunned until the start of your next turn. The powered blade can hit Incorporeal creatures normally, subject to their resistances and immunities.",
+          "Conversion notes": "The legacy stun and incorporeal interactions use a bounded save and recharge. The original basic damage and one-charge-per-round drain are retained.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, pp. 6–7 and 13.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Power cell": "Toggle the blade as a Bonus Action. A 10-charge cell spends 1 charge at the end of each round while the blade is active. At 0 charges the blade shuts down. Replace a cell as a Utilize action. An inactive hilt can only make improvised attacks."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:d184c3d22c448c92": [
+      {
+        "label": "D&D 2024 adaptation · Shock Gloves",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=7",
+        "fields": {
+          "Category": "Unarmed Strike accessory",
+          "Damage": "Normal Unarmed Strike damage plus 1d6 Lightning when powered.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus, or use your normal Unarmed Strike modifier.",
+          "Range": "5 feet melee",
+          "Properties": "None",
+          "Mastery": "None",
+          "Weight": "½ lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Activation": "Spend the charge on a damaging Unarmed Strike hit.",
+          "Special powers": "When you hit with a damaging Unarmed Strike while wearing the powered gloves, spend 1 charge to add 1d6 Lightning. Once per Short or Long Rest, after dealing that damage, you may also force a DC 14 Constitution save. On a failure the target is Stunned until the start of your next turn.",
+          "Conversion notes": "Keeps the extra damage and per-hit energy use. The stun has a rest limit. The gloves modify an Unarmed Strike and grant no weapon mastery.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, pp. 6–7 and 13.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Charges": "10 per cell. Replace a depleted cell as a Utilize action."
+        }
+      }
+    ],
     "mystara-fan-names-reference:2fb925a0d709ff20": [
       {
         "label": "D&D 2024 adaptation · Sword Cane",
