@@ -1290,6 +1290,21 @@ def main():
                         && inspection.textContent.includes("up to 10 ft.")
                         && !inspection.textContent.includes("legacy suit");
                 })()''',
+                'DMG 3.5 weapons show verified 2024 dice and mastery': '''(async () => {
+                    const cases = [
+                        ["dmg-35-reference:2fd0d4d5dc8e380b", ["Simple ranged", "20/60 ft thrown", "Vex"]],
+                        ["dmg-35-reference:f9ab5fa1437f6b83", ["1d12", "+1 to attack and damage", "Cleave"]],
+                        ["dmg-35-reference:94ba88205605b2dd", ["10 ft melee", "two hands when you are unmounted", "Topple"]],
+                        ["dmg-35-reference:cfda535e670d4be3", ["20/60 ft thrown", "Nick", "craftsmanship"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    return true;
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

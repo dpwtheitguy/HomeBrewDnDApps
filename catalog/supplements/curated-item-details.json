@@ -14480,6 +14480,983 @@
           "label": "Open 2024 AC baseline"
         }
       }
+    ],
+    "dmg-35-reference:0711a6100400825c": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d12 + Strength modifier Slashing",
+          "Range": "5 ft melee",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus (if proficient)",
+          "Category": "Martial melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Cleave",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 112, NPC Barbarian.",
+          "Edition notes": "The source’s masterwork quality granted a +1 enhancement bonus on attack rolls. This 2024 profile uses the published ordinary weapon rules. Masterwork remains a craftsmanship and appraisal detail.",
+          "Legacy masterwork rules": "https://www.d20srd.org/srd/equipment/weapons.htm#masterworkWeapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greataxe",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:0d8cf32d7dc2a871": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d12 + Dexterity modifier Piercing",
+          "Range": "40/120 ft",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus (if proficient)",
+          "Category": "Martial ranged",
+          "Properties": "Ammunition (Range 40/120; Bullet), Loading, Two-Handed",
+          "Mastery": "Slow",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 145, table 5–4."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_musket",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:2fd0d4d5dc8e380b": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d4 + Strength or Dexterity modifier Piercing",
+          "Range": "20/60 ft thrown",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus (if proficient)",
+          "Category": "Simple ranged",
+          "Properties": "Finesse, Thrown (Range 20/60)",
+          "Mastery": "Vex",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 223, table 7–13.",
+          "Edition notes": "The source’s masterwork quality granted a +1 enhancement bonus on attack rolls. This 2024 profile uses the published ordinary weapon rules. Masterwork remains a craftsmanship and appraisal detail.",
+          "Legacy masterwork rules": "https://www.d20srd.org/srd/equipment/weapons.htm#masterworkWeapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dart",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:42f4ee425ecb4bb5": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "fields": {
+          "Damage": "1d6 + Strength or Dexterity modifier + 2 Piercing",
+          "Range": "5 ft melee",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus (if proficient) + 2",
+          "Category": "Martial melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 212, Magic Items.",
+          "Special powers": "+2 to attack and damage rolls. The modifier is included in the formulas above."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword-plus-2",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:46214c331f962ab6": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "2d6 + Strength modifier Slashing",
+          "Range": "5 ft melee",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus (if proficient)",
+          "Category": "Martial melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 51, Monsters with Treasure.",
+          "Edition notes": "The source’s masterwork quality granted a +1 enhancement bonus on attack rolls. This 2024 profile uses the published ordinary weapon rules. Masterwork remains a craftsmanship and appraisal detail.",
+          "Legacy masterwork rules": "https://www.d20srd.org/srd/equipment/weapons.htm#masterworkWeapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:46367fdd5eecda87": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "fields": {
+          "Damage": "1d8 + Strength modifier + 3 Slashing (1d10 + Strength modifier + 3 with two hands)",
+          "Range": "5 ft melee",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus (if proficient) + 3",
+          "Category": "Martial melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 21, Bonus Types.",
+          "Special powers": "+3 to attack and damage rolls. The modifier is included in the formulas above."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword-plus-3",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:487faeec6fad9121": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d4 + Strength modifier Bludgeoning",
+          "Range": "5 ft melee",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus (if proficient)",
+          "Category": "Simple melee",
+          "Properties": "Light",
+          "Mastery": "Slow",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222, table 7–12.",
+          "Edition notes": "The source’s masterwork quality granted a +1 enhancement bonus on attack rolls. This 2024 profile uses the published ordinary weapon rules. Masterwork remains a craftsmanship and appraisal detail.",
+          "Legacy masterwork rules": "https://www.d20srd.org/srd/equipment/weapons.htm#masterworkWeapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:4995f4f6dd4805f9": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "fields": {
+          "Damage": "1d4 + Dexterity modifier + 2 Bludgeoning",
+          "Range": "30/120 ft",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus (if proficient) + 2",
+          "Category": "Simple ranged",
+          "Properties": "Ammunition (Range 30/120; Bullet)",
+          "Mastery": "Slow",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 118, NPC Monk.",
+          "Special powers": "+2 to attack and damage rolls. The modifier is included in the formulas above."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_sling-plus-2",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:4a19996acd0456f8": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d10 + Strength modifier Slashing",
+          "Range": "10 ft melee",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus (if proficient)",
+          "Category": "Martial melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Cleave",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222, table 7–12.",
+          "Edition notes": "The source’s masterwork quality granted a +1 enhancement bonus on attack rolls. This 2024 profile uses the published ordinary weapon rules. Masterwork remains a craftsmanship and appraisal detail.",
+          "Legacy masterwork rules": "https://www.d20srd.org/srd/equipment/weapons.htm#masterworkWeapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_halberd",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:55e139cb0c4685c2": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d6 + Strength modifier Slashing",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus (if proficient)",
+          "Category": "Simple melee",
+          "Properties": "Light, Thrown (Range 20/60)",
+          "Mastery": "Vex",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222, table 7–12.",
+          "Edition notes": "The source’s masterwork quality granted a +1 enhancement bonus on attack rolls. This 2024 profile uses the published ordinary weapon rules. Masterwork remains a craftsmanship and appraisal detail.",
+          "Legacy masterwork rules": "https://www.d20srd.org/srd/equipment/weapons.htm#masterworkWeapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:56c498e2f586fd60": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d8 + Strength modifier Piercing (1d10 + Strength modifier with two hands)",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus (if proficient)",
+          "Category": "Martial melee",
+          "Properties": "Thrown (Range 20/60), Versatile (1d10)",
+          "Mastery": "Topple",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222, table 7–12.",
+          "Edition notes": "The source’s masterwork quality granted a +1 enhancement bonus on attack rolls. This 2024 profile uses the published ordinary weapon rules. Masterwork remains a craftsmanship and appraisal detail.",
+          "Legacy masterwork rules": "https://www.d20srd.org/srd/equipment/weapons.htm#masterworkWeapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_trident",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:5d6ce38819783dc5": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d6 + Strength modifier Bludgeoning (1d8 + Strength modifier with two hands)",
+          "Range": "5 ft melee",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus (if proficient)",
+          "Category": "Simple melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222, table 7–11.",
+          "Edition notes": "The source’s masterwork quality granted a +1 enhancement bonus on attack rolls. This 2024 profile uses the published ordinary weapon rules. Masterwork remains a craftsmanship and appraisal detail.",
+          "Legacy masterwork rules": "https://www.d20srd.org/srd/equipment/weapons.htm#masterworkWeapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:5f2388da44e346e5": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d6 + Dexterity modifier Piercing",
+          "Range": "80/320 ft",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus (if proficient)",
+          "Category": "Simple ranged",
+          "Properties": "Ammunition (Range 80/320; Arrow), Two-Handed",
+          "Mastery": "Vex",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 171, Variant Races."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortbow",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:603b7f9bab21eabe": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d8 + Strength or Dexterity modifier Piercing",
+          "Range": "5 ft melee",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus (if proficient)",
+          "Category": "Martial melee",
+          "Properties": "Finesse",
+          "Mastery": "Vex",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 126, Sample NPC possessions.",
+          "Edition notes": "The source’s masterwork quality granted a +1 enhancement bonus on attack rolls. This 2024 profile uses the published ordinary weapon rules. Masterwork remains a craftsmanship and appraisal detail.",
+          "Legacy masterwork rules": "https://www.d20srd.org/srd/equipment/weapons.htm#masterworkWeapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_rapier",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:6d2d77dd09a2b185": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1 + Dexterity modifier Piercing",
+          "Range": "25/100 ft",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus (if proficient)",
+          "Category": "Martial ranged",
+          "Properties": "Ammunition (Range 25/100; Needle), Loading",
+          "Mastery": "Vex",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 145, table 5–3."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_blowgun",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:7202f4d4dfabafbb": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d8 + Strength modifier Piercing",
+          "Range": "5 ft melee",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus (if proficient)",
+          "Category": "Martial melee",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 114, NPC Cleric.",
+          "Edition notes": "The source’s masterwork quality granted a +1 enhancement bonus on attack rolls. This 2024 profile uses the published ordinary weapon rules. Masterwork remains a craftsmanship and appraisal detail.",
+          "Legacy masterwork rules": "https://www.d20srd.org/srd/equipment/weapons.htm#masterworkWeapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_morningstar",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:7b37b9b85b3a6f83": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d10 + Strength modifier Slashing",
+          "Range": "10 ft melee",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus (if proficient)",
+          "Category": "Martial melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Graze",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222, table 7–12.",
+          "Edition notes": "The source’s masterwork quality granted a +1 enhancement bonus on attack rolls. This 2024 profile uses the published ordinary weapon rules. Masterwork remains a craftsmanship and appraisal detail.",
+          "Legacy masterwork rules": "https://www.d20srd.org/srd/equipment/weapons.htm#masterworkWeapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_glaive",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:80d59283cffa6f6b": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d8 + Strength modifier Bludgeoning (1d10 + Strength modifier with two hands)",
+          "Range": "5 ft melee",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus (if proficient)",
+          "Category": "Martial melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Push",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222, table 7–12.",
+          "Edition notes": "The source’s masterwork quality granted a +1 enhancement bonus on attack rolls. This 2024 profile uses the published ordinary weapon rules. Masterwork remains a craftsmanship and appraisal detail.",
+          "Legacy masterwork rules": "https://www.d20srd.org/srd/equipment/weapons.htm#masterworkWeapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_warhammer",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:8b2b30510123b8f8": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "fields": {
+          "Damage": "1d6 + Strength or Dexterity modifier + 1 Piercing",
+          "Range": "5 ft melee",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus (if proficient) + 1",
+          "Category": "Martial melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 123, Sample NPC possessions.",
+          "Special powers": "+1 to attack and damage rolls. The modifier is included in the formulas above."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword-plus-1",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:94ba88205605b2dd": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d10 + Strength modifier Piercing",
+          "Range": "10 ft melee",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus (if proficient)",
+          "Category": "Martial melee",
+          "Properties": "Heavy, Reach, Two-Handed (unless mounted)",
+          "Mastery": "Topple",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222, table 7–12.",
+          "Edition notes": "The source’s masterwork quality granted a +1 enhancement bonus on attack rolls. This 2024 profile uses the published ordinary weapon rules. Masterwork remains a craftsmanship and appraisal detail.",
+          "Legacy masterwork rules": "https://www.d20srd.org/srd/equipment/weapons.htm#masterworkWeapons",
+          "Special powers": "The Lance requires two hands when you are unmounted."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_lance",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:9bb47c152029f8dc": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d8 + Strength or Dexterity modifier Piercing",
+          "Range": "5 ft melee",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus (if proficient)",
+          "Category": "Martial melee",
+          "Properties": "Finesse",
+          "Mastery": "Vex",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 171, Variant Races."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_rapier",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:9eff2279e8699452": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d6 + Strength modifier Piercing",
+          "Range": "5 ft melee; 30/120 ft thrown",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus (if proficient)",
+          "Category": "Simple melee",
+          "Properties": "Thrown (Range 30/120)",
+          "Mastery": "Slow",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 223, table 7–13.",
+          "Edition notes": "The source’s masterwork quality granted a +1 enhancement bonus on attack rolls. This 2024 profile uses the published ordinary weapon rules. Masterwork remains a craftsmanship and appraisal detail.",
+          "Legacy masterwork rules": "https://www.d20srd.org/srd/equipment/weapons.htm#masterworkWeapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_javelin",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:a25be151305d8c7d": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d4 + Strength or Dexterity modifier Piercing",
+          "Range": "20/60 ft thrown",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus (if proficient)",
+          "Category": "Simple ranged",
+          "Properties": "Finesse, Thrown (Range 20/60)",
+          "Mastery": "Vex",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 180, Assassin."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dart",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:a73e98d18be79f83": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d8 + Dexterity modifier Piercing",
+          "Range": "150/600 ft",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus (if proficient)",
+          "Category": "Martial ranged",
+          "Properties": "Ammunition (Range 150/600; Arrow), Heavy, Two-Handed",
+          "Mastery": "Slow",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 223, table 7–13.",
+          "Edition notes": "The source’s masterwork quality granted a +1 enhancement bonus on attack rolls. This 2024 profile uses the published ordinary weapon rules. Masterwork remains a craftsmanship and appraisal detail.",
+          "Legacy masterwork rules": "https://www.d20srd.org/srd/equipment/weapons.htm#masterworkWeapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:acbbca660c15c16e": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d8 + Strength modifier Bludgeoning",
+          "Range": "5 ft melee",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus (if proficient)",
+          "Category": "Simple melee",
+          "Properties": "Two-Handed",
+          "Mastery": "Push",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222, table 7–12.",
+          "Edition notes": "The source’s masterwork quality granted a +1 enhancement bonus on attack rolls. This 2024 profile uses the published ordinary weapon rules. Masterwork remains a craftsmanship and appraisal detail.",
+          "Legacy masterwork rules": "https://www.d20srd.org/srd/equipment/weapons.htm#masterworkWeapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatclub",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:aff6fe0e25349933": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d8 + Strength modifier Slashing (1d10 + Strength modifier with two hands)",
+          "Range": "5 ft melee",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus (if proficient)",
+          "Category": "Martial melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Topple",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222, table 7–12.",
+          "Edition notes": "The source’s masterwork quality granted a +1 enhancement bonus on attack rolls. This 2024 profile uses the published ordinary weapon rules. Masterwork remains a craftsmanship and appraisal detail.",
+          "Legacy masterwork rules": "https://www.d20srd.org/srd/equipment/weapons.htm#masterworkWeapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_battleaxe",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:b0fe4c39ee809707": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "fields": {
+          "Damage": "1d8 + Strength modifier + 1 Piercing",
+          "Range": "5 ft melee",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus (if proficient) + 1",
+          "Category": "Martial melee",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 115, NPC Cleric.",
+          "Special powers": "+1 to attack and damage rolls. The modifier is included in the formulas above."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_morningstar-plus-1",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:b666dc035748597e": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d8 + Dexterity modifier Piercing",
+          "Range": "80/320 ft",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus (if proficient)",
+          "Category": "Simple ranged",
+          "Properties": "Ammunition (Range 80/320; Bolt), Loading, Two-Handed",
+          "Mastery": "Slow",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 114, NPC Bard.",
+          "Edition notes": "The source’s masterwork quality granted a +1 enhancement bonus on attack rolls. This 2024 profile uses the published ordinary weapon rules. Masterwork remains a craftsmanship and appraisal detail.",
+          "Legacy masterwork rules": "https://www.d20srd.org/srd/equipment/weapons.htm#masterworkWeapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_light-crossbow",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:c183021aee61e34e": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d4 + Strength or Dexterity modifier Piercing",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus (if proficient)",
+          "Category": "Simple melee",
+          "Properties": "Finesse, Light, Thrown (Range 20/60)",
+          "Mastery": "Nick",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 180, Assassin."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:c4f46e692cae2123": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d4 + Strength or Dexterity modifier Slashing",
+          "Range": "10 ft melee",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus (if proficient)",
+          "Category": "Martial melee",
+          "Properties": "Finesse, Reach",
+          "Mastery": "Slow",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222, table 7–12.",
+          "Edition notes": "The source’s masterwork quality granted a +1 enhancement bonus on attack rolls. This 2024 profile uses the published ordinary weapon rules. Masterwork remains a craftsmanship and appraisal detail.",
+          "Legacy masterwork rules": "https://www.d20srd.org/srd/equipment/weapons.htm#masterworkWeapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_whip",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:c891b446359441cd": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d6 + Strength or Dexterity modifier Slashing",
+          "Range": "5 ft melee",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus (if proficient)",
+          "Category": "Martial melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 117, NPC Druid.",
+          "Edition notes": "The source’s masterwork quality granted a +1 enhancement bonus on attack rolls. This 2024 profile uses the published ordinary weapon rules. Masterwork remains a craftsmanship and appraisal detail.",
+          "Legacy masterwork rules": "https://www.d20srd.org/srd/equipment/weapons.htm#masterworkWeapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scimitar",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:ccaa155ec5093682": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d6 + Strength or Dexterity modifier Piercing",
+          "Range": "5 ft melee",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus (if proficient)",
+          "Category": "Martial melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 180, Assassin."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:cfda535e670d4be3": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d4 + Strength or Dexterity modifier Piercing",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus (if proficient)",
+          "Category": "Simple melee",
+          "Properties": "Finesse, Light, Thrown (Range 20/60)",
+          "Mastery": "Nick",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 123, NPC Rogue.",
+          "Edition notes": "The source’s masterwork quality granted a +1 enhancement bonus on attack rolls. This 2024 profile uses the published ordinary weapon rules. Masterwork remains a craftsmanship and appraisal detail.",
+          "Legacy masterwork rules": "https://www.d20srd.org/srd/equipment/weapons.htm#masterworkWeapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:e41c29855e0a98bd": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d6 + Dexterity modifier Piercing",
+          "Range": "30/120 ft",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus (if proficient)",
+          "Category": "Martial ranged",
+          "Properties": "Ammunition (Range 30/120; Bolt), Light, Loading",
+          "Mastery": "Vex",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 125, Sample NPC possessions.",
+          "Edition notes": "The source’s masterwork quality granted a +1 enhancement bonus on attack rolls. This 2024 profile uses the published ordinary weapon rules. Masterwork remains a craftsmanship and appraisal detail.",
+          "Legacy masterwork rules": "https://www.d20srd.org/srd/equipment/weapons.htm#masterworkWeapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hand-crossbow",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:efc862946dba1abf": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "fields": {
+          "Damage": "1d8 + Strength modifier + 2 Slashing (1d10 + Strength modifier + 2 with two hands)",
+          "Range": "5 ft melee",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus (if proficient) + 2",
+          "Category": "Martial melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 114, NPC Bard.",
+          "Special powers": "+2 to attack and damage rolls. The modifier is included in the formulas above."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword-plus-2",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:f0aa8458b75fc7f1": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d8 + Strength modifier Slashing (1d10 + Strength modifier with two hands)",
+          "Range": "5 ft melee",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus (if proficient)",
+          "Category": "Martial melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 133, War."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:f3899443fe87097d": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d6 + Dexterity modifier Piercing",
+          "Range": "80/320 ft",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus (if proficient)",
+          "Category": "Simple ranged",
+          "Properties": "Ammunition (Range 80/320; Arrow), Two-Handed",
+          "Mastery": "Vex",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 123, NPC Rogue.",
+          "Edition notes": "The source’s masterwork quality granted a +1 enhancement bonus on attack rolls. This 2024 profile uses the published ordinary weapon rules. Masterwork remains a craftsmanship and appraisal detail.",
+          "Legacy masterwork rules": "https://www.d20srd.org/srd/equipment/weapons.htm#masterworkWeapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortbow",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:f43cc350514af8b1": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Damage": "1d4 + Strength modifier Slashing",
+          "Range": "5 ft melee",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus (if proficient)",
+          "Category": "Simple melee",
+          "Properties": "Light",
+          "Mastery": "Nick",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222, table 7–12.",
+          "Edition notes": "The source’s masterwork quality granted a +1 enhancement bonus on attack rolls. This 2024 profile uses the published ordinary weapon rules. Masterwork remains a craftsmanship and appraisal detail.",
+          "Legacy masterwork rules": "https://www.d20srd.org/srd/equipment/weapons.htm#masterworkWeapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_sickle",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:f9ab5fa1437f6b83": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "fields": {
+          "Damage": "1d12 + Strength modifier + 1 Slashing",
+          "Range": "5 ft melee",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus (if proficient) + 1",
+          "Category": "Martial melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Cleave",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 113, NPC Barbarian.",
+          "Special powers": "+1 to attack and damage rolls. The modifier is included in the formulas above."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greataxe-plus-1",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:feff54a856980147": [
+      {
+        "label": "Verified 2024 weapon counterpart",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "fields": {
+          "Damage": "1d8 + Strength modifier + 1 Slashing (1d10 + Strength modifier + 1 with two hands)",
+          "Range": "5 ft melee",
+          "Activation": "Make a weapon attack as part of the Attack action.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus (if proficient) + 1",
+          "Category": "Martial melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 285, Magic Item Creation.",
+          "Special powers": "+1 to attack and damage rolls. The modifier is included in the formulas above."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword-plus-1",
+          "label": "Open published 2024 weapon"
+        }
+      }
     ]
   }
 }
