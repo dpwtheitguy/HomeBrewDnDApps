@@ -1,6 +1,392 @@
 {
   "schema_version": 1,
   "records": {
+    "adventurers-vault-1-reference:22b6eb6e1f0a8316": [
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, you automatically succeed on any saving throw made solely to end an effect that deals recurring Acid damage to you. When an effect first applies recurring Acid damage to you, you can take a Reaction to end the recurring Acid damage on yourself. This leaves any initial damage and other effects in place. The Reaction recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 45 (PDF p. 46), Elukian Clay Armor.",
+          "Conversion notes": "Preserves the original protection against ongoing Acid damage. It applies to a persistent effect on you, such as an acid coating, and does not remove an environmental hazard or stop its damage. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 Chain Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, you automatically succeed on any saving throw made solely to end an effect that deals recurring Acid damage to you. When an effect first applies recurring Acid damage to you, you can take a Reaction to end the recurring Acid damage on yourself. This leaves any initial damage and other effects in place. The Reaction recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 45 (PDF p. 46), Elukian Clay Armor.",
+          "Conversion notes": "Preserves the original protection against ongoing Acid damage. It applies to a persistent effect on you, such as an acid coating, and does not remove an environmental hazard or stop its damage. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, you automatically succeed on any saving throw made solely to end an effect that deals recurring Acid damage to you. When an effect first applies recurring Acid damage to you, you can take a Reaction to end the recurring Acid damage on yourself. This leaves any initial damage and other effects in place. The Reaction recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 45 (PDF p. 46), Elukian Clay Armor.",
+          "Conversion notes": "Preserves the original protection against ongoing Acid damage. It applies to a persistent effect on you, such as an acid coating, and does not remove an environmental hazard or stop its damage. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:f8211a37f5f4a946": [
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, whenever you take a Critical Hit, roll a d20 before resolving damage. On a 16–20, the attack becomes a normal hit. This requires no action and has no use limit.",
+          "Source locator": "Adventurer’s Vault (4e), p. 45 (PDF p. 46), Fortification Armor.",
+          "Conversion notes": "Retains the original 25 percent chance to negate a critical hit and the lowest-tier +1 armor enhancement. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 benchmark": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AdamantineArmor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, whenever you take a Critical Hit, roll a d20 before resolving damage. On a 16–20, the attack becomes a normal hit. This requires no action and has no use limit.",
+          "Source locator": "Adventurer’s Vault (4e), p. 45 (PDF p. 46), Fortification Armor.",
+          "Conversion notes": "Retains the original 25 percent chance to negate a critical hit and the lowest-tier +1 armor enhancement. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 benchmark": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AdamantineArmor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:c33ce70e5e819db3": [
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, reduce each instance of Cold or Fire damage you take by 5, to a minimum of 0. When you or an ally you can see within 25 feet of you is targeted by an attack, you can take a Reaction before the attack roll. The target gains your choice of Cold or Fire Resistance until the start of your next turn. If you grant yourself that Resistance, use it in place of the armor’s flat reduction for the chosen type while it lasts. The Reaction recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 45 (PDF p. 46), Frostburn Armor.",
+          "Conversion notes": "Preserves the original two passive reductions, the 25-foot trigger range, and choice of one warded type. Uses 2024 Resistance for the stronger temporary ward. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:75814016103cc2dd": [
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to Cold damage. Immediately after a melee attack hits you, you can take a Reaction to deal 1d6 Cold damage to the attacker and reduce its Speed to 0 until the end of your next turn. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 46 (PDF p. 47), Frozen Armor.",
+          "Conversion notes": "Maps the original flat Cold protection to Resistance and Immobilized to Speed 0. Uses the lowest-tier damage die. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to Cold damage. Immediately after a melee attack hits you, you can take a Reaction to deal 1d6 Cold damage to the attacker and reduce its Speed to 0 until the end of your next turn. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 46 (PDF p. 47), Frozen Armor.",
+          "Conversion notes": "Maps the original flat Cold protection to Resistance and Immobilized to Speed 0. Uses the lowest-tier damage die. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:67ed50e8e31a7248": [
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, when a creature at least one size category larger than you misses you with a melee attack, you can take a Reaction to move up to 10 feet without provoking Opportunity Attacks. You cannot use this movement if your Speed is 0. Recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 46 (PDF p. 47), Giantdodger Armor.",
+          "Conversion notes": "Converts the original two-square shift to 10 feet of movement that does not provoke Opportunity Attacks. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:deb9b38ed4cf5af0": [
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, gain a +1 bonus on saving throws to avoid or end the Frightened condition. When you use the Fighter’s Second Wind feature, you also gain 3 Temporary Hit Points.",
+          "Source locator": "Adventurer’s Vault (4e), p. 46 (PDF p. 47), Heartening Armor.",
+          "Conversion notes": "Uses the original lowest-tier bonus against fear and the original three Temporary Hit Points. Second Wind means the 2024 Fighter feature. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, gain a +1 bonus on saving throws to avoid or end the Frightened condition. When you use the Fighter’s Second Wind feature, you also gain 3 Temporary Hit Points.",
+          "Source locator": "Adventurer’s Vault (4e), p. 46 (PDF p. 47), Heartening Armor.",
+          "Conversion notes": "Uses the original lowest-tier bonus against fear and the original three Temporary Hit Points. Second Wind means the 2024 Fighter feature. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:fe97a1e2f68b3d2a": [
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, you automatically succeed on any saving throw made solely to end an effect that deals recurring Poison damage to you. When an effect first applies recurring Poison damage to you, you can take a Reaction to end the recurring Poison damage on yourself. This leaves any initial damage and other effects, including the Poisoned condition, in place. The Reaction recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 46 (PDF p. 47), Immunizing Armor.",
+          "Conversion notes": "Preserves the original automatic save and triggered protection against ongoing Poison damage. It applies to a persistent effect on you, not repeated exposure to a poison hazard. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, you automatically succeed on any saving throw made solely to end an effect that deals recurring Poison damage to you. When an effect first applies recurring Poison damage to you, you can take a Reaction to end the recurring Poison damage on yourself. This leaves any initial damage and other effects, including the Poisoned condition, in place. The Reaction recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 46 (PDF p. 47), Immunizing Armor.",
+          "Conversion notes": "Preserves the original automatic save and triggered protection against ongoing Poison damage. It applies to a persistent effect on you, not repeated exposure to a poison hazard. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:e103d0bcf92e8233": [
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, you can take a Bonus Action to transform it into ordinary-looking clothing or restore its true form. While transformed it counts as clothing for AC, Speed, Strength requirements, and Stealth, and you gain a +1 bonus on Charisma (Deception) checks made to pass off your appearance as a disguise. Only the armor changes appearance. The form lasts until you transform it again or remove it.",
+          "Source locator": "Adventurer’s Vault (4e), p. 46 (PDF p. 47), Imposter’s Armor.",
+          "Conversion notes": "Retains the at-will switch between real armor and clothing, including the loss of armor protection in clothing form. Converts the original lowest enhancement to +1 AC and a +1 Deception bonus. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 Chain Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, you can take a Bonus Action to transform it into ordinary-looking clothing or restore its true form. While transformed it counts as clothing for AC, Speed, Strength requirements, and Stealth, and you gain a +1 bonus on Charisma (Deception) checks made to pass off your appearance as a disguise. Only the armor changes appearance. The form lasts until you transform it again or remove it.",
+          "Source locator": "Adventurer’s Vault (4e), p. 46 (PDF p. 47), Imposter’s Armor.",
+          "Conversion notes": "Retains the at-will switch between real armor and clothing, including the loss of armor protection in clothing form. Converts the original lowest enhancement to +1 AC and a +1 Deception bonus. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, you can take a Bonus Action to transform it into ordinary-looking clothing or restore its true form. While transformed it counts as clothing for AC, Speed, Strength requirements, and Stealth, and you gain a +1 bonus on Charisma (Deception) checks made to pass off your appearance as a disguise. Only the armor changes appearance. The form lasts until you transform it again or remove it.",
+          "Source locator": "Adventurer’s Vault (4e), p. 46 (PDF p. 47), Imposter’s Armor.",
+          "Conversion notes": "Retains the at-will switch between real armor and clothing, including the loss of armor protection in clothing form. Converts the original lowest enhancement to +1 AC and a +1 Deception bonus. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
     "adventurers-vault-1-reference:5ec193393b794d38": [
       {
         "label": "D&D 2024 adaptation · Black Dragonscale Armor",

@@ -1740,6 +1740,24 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault defensive armor keeps each equipment variant and trigger': '''(async () => {
+                    const cases = [
+                        ["22b6eb6e1f0a8316", ["Armor class17", "Armor class19", "Armor class15 + Dex modifier (max +2)", "recurring Acid damage"]],
+                        ["f8211a37f5f4a946", ["Armor class19", "16–20", "normal hit"]],
+                        ["c33ce70e5e819db3", ["Armor class19", "within 25 feet", "Cold or Fire Resistance"]],
+                        ["75814016103cc2dd", ["Cold damage", "reduce its Speed to 0"]],
+                        ["67ed50e8e31a7248", ["Armor class12 + Dex modifier", "10 feet without provoking Opportunity Attacks"]],
+                        ["deb9b38ed4cf5af0", ["Frightened condition", "Second Wind", "3 Temporary Hit Points"]],
+                        ["fe97a1e2f68b3d2a", ["recurring Poison damage", "including the Poisoned condition"]],
+                        ["e103d0bcf92e8233", ["Armor class17", "Armor class19", "ordinary-looking clothing", "Charisma (Deception)"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Adventurer’s Vault chromatic armor keeps distinct resistances and powers': '''(async () => {
                     const cases = [
                         ["5ec193393b794d38", ["Resistance to Acid", "attack rolls against you have Disadvantage", "1d6"]],
