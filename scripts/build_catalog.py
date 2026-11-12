@@ -119,6 +119,21 @@ def main():
             else:
                 f=r['fields']; prop_assign[f.get('weapon')].append(f)
     armor_facts = read(CAT/'supplements/published-2024-armor-facts.json')
+    vault_pages = {
+        'vom_akaasit-blade': 11,
+        'vom_black-and-white-daggers': 14,
+        'vom_blackguards-dagger': 14,
+        'vom_blackguards-shortsword': 14,
+        'vom_animated-chain-mail': 12,
+        'vom_armor-of-cushioning': 12,
+        'vom_badger-hide': 14,
+    }
+    vault_weapon_corrections = {
+        'vom_anchor-of-striking': ('Anchor of Striking', 'srd_war-pick', 11),
+        'vom_anointing-mace': ('Anointing Mace', 'srd_maul', 12),
+        'vom_asps-kiss': ("Asp's Kiss", 'srd_shortsword', 13),
+        'vom_blackguards-handaxe': ('Axe of the Ancients', 'srd_handaxe', 14),
+    }
     for ver,rel,ruleset in selections:
         base=UP/'data'/ver/rel; doc=read(base/'Document.json')[0]; df=doc['fields']
         key='open5e-'+slug(rel.split('/')[-1]); start=len(items)
@@ -131,6 +146,14 @@ def main():
             if not (base/fn).exists(): continue
             for raw in read(base/fn):
                 f=raw['fields']; ismagic=fn=='MagicItem.json'; iid=key+':'+str(raw['pk'])
+                vault_page = None
+                if key == 'open5e-vom' and ismagic:
+                    vault_page = vault_pages.get(raw['pk'])
+                    if correction := vault_weapon_corrections.get(raw['pk']):
+                        corrected_name, corrected_weapon, vault_page = correction
+                        f = {**f, 'name': corrected_name, 'weapon': corrected_weapon}
+                    if raw['pk'] == 'vom_animated-chain-mail':
+                        f = {**f, 'requires_attunement': True}
                 category=f.get('category') or f.get('type') or ('armor' if fn=='Armor.json' else 'weapon' if fn=='Weapon.json' else 'gear')
                 weapon=weapon_lookup.get(f.get('weapon'),{}) if ver=='v2' else (f if fn=='Weapon.json' else {})
                 armor=armor_lookup.get(f.get('armor'),{}) if ver=='v2' else (f if fn=='Armor.json' else {})
@@ -182,6 +205,16 @@ def main():
                       'provenance':{'provider':'Open5e','repository_commit':commit,'file':str((rawdir/fn).relative_to(CAT)),'upstream_pk':raw['pk'],'upstream_model':raw['model']},
                       'content_status':'source-transcription-unverified','tabletop_status':'native-source-rules' if ruleset in ('dnd-2014','dnd-2024') else 'supplement-review-required',
                       'image':{**icons[icon],'specific_art':None}}
+                if vault_page:
+                    item['provenance'].update({
+                        'source_url': 'https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/',
+                        'locator': {'book': 'Vault of Magic', 'printed_page': vault_page},
+                        'original_publication_verified': True,
+                    })
+                    if f['name'] != raw['fields']['name']:
+                        item['mechanics']['reference_metadata'] = {'aliases': [raw['fields']['name']]}
+                    if f.get('weapon') != raw['fields'].get('weapon'):
+                        item['mechanics']['source_fields']['upstream_weapon'] = raw['fields'].get('weapon')
                 if armor_fact:
                     item['provenance']['base_rules_id']=armor_fact['base_id']
                     item['provenance']['source_url']=armor_facts['source']

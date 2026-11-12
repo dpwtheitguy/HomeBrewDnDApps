@@ -1,6 +1,306 @@
 {
   "schema_version": 1,
   "records": {
+    "open5e-vom:vom_akaasit-blade": [
+      {
+        "label": "D&D 2024 adaptation · Akaasit Blade",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Take a Magic action to awaken the blade for 1 minute. When a creature you can see within 5 feet attacks you during that time, you can use your Reaction to attack it with the dagger. A hit ends the effect and locks out activation until dawn.",
+          "Conversion notes": "Uses 2024 Dagger and Magic action rules. If the minute expires without a successful counterattack, you can activate the blade again.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 11."
+        }
+      }
+    ],
+    "open5e-vom:vom_anchor-of-striking": [
+      {
+        "label": "D&D 2024 adaptation · Anchor of Striking",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_war-pick",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing (1d10 with two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When your attack roll with the anchor is a natural 20, force chains link you and the target. Neither can move farther than 50 feet from the other. The target can take an action to make a DC 15 Strength or Dexterity check (its choice), ending the tether on a success. You can release it with a Bonus Action. Disintegrate destroys the chains, which otherwise take no damage.",
+          "Conversion notes": "The book identifies the anchor as a War Pick. Uses 2024 War Pick statistics. The tether imposes a distance limit and leaves the creatures’ other actions and movement available.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 11–12."
+        }
+      }
+    ],
+    "open5e-vom:vom_anointing-mace": [
+      {
+        "label": "D&D 2024 adaptation · Anointing Mace",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_maul",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 Bludgeoning + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Topple",
+          "Weight": "10 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Take a Utilize action to load one potion or vial into the head. Use a Bonus Action to open the reservoir. The next attack spends the liquid whether it hits or misses. On a hit, apply the loaded liquid’s effects to the target after the weapon damage. For example, the book’s holy water payload adds 2d6 Radiant damage against a Fiend or Undead.",
+          "Conversion notes": "The book specifies a Maul despite the item name. Uses its 2024 statistics. The maul delivers the payload in place of its normal application or attack roll.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 12."
+        }
+      }
+    ],
+    "open5e-vom:vom_asps-kiss": [
+      {
+        "label": "D&D 2024 adaptation · Asp’s Kiss",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 2.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Bard, Fighter, Ranger, or Rogue",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While attuned, you are immune to Poison damage and each Dash grants extra movement equal to twice your Speed. If you attack with the sword as part of the Attack action, you can make one melee attack with its spike as a Bonus Action. As a Magic action, coat the blades in poison for 1 minute or until two blade hits. On each coated blade hit, the target makes a DC 17 Constitution save. On a failure it takes 2d10 Poison damage and loses that much Hit Point maximum until it finishes a Long Rest. It dies if its maximum drops to 0. The coating recharges at dawn. A creature killed with this weapon sheds a blue tear.",
+          "Conversion notes": "The book specifies a Shortsword for the haladie and a dagger profile for its built-in spike. This conversion applies the enhancement to blade attacks and models the fixed spike as a separate melee-only dagger strike.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 13–14.",
+          "Spike attack": "5 feet. Strength or Dexterity modifier + Proficiency Bonus if proficient with daggers. Hit: 1d4 Piercing + the same ability modifier. The spike cannot deliver the blade coating."
+        }
+      }
+    ],
+    "open5e-vom:vom_black-and-white-daggers": [
+      {
+        "label": "D&D 2024 adaptation · Black and White Daggers",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Use +3 on attack and damage rolls with the white dagger against a Monstrosity, or with the black dagger against an Undead. If both daggers hit the same Monstrosity or Undead in one turn, the second hit deals an extra 1d6 Piercing damage.",
+          "Conversion notes": "Use 2024 Dagger rules for each dagger, including Light and Nick. Treat the matched set as one attuned item.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 14."
+        }
+      }
+    ],
+    "open5e-vom:vom_blackguards-dagger": [
+      {
+        "label": "D&D 2024 adaptation · Blackguard’s Blade (dagger)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "You have Advantage on an attack with this weapon if another enemy of the target is within 5 feet of it and none of its allies are within 5 feet of it.",
+          "Conversion notes": "The book lists two Blackguard’s Blade forms. This card uses the 2024 Dagger profile.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 14."
+        }
+      }
+    ],
+    "open5e-vom:vom_blackguards-shortsword": [
+      {
+        "label": "D&D 2024 adaptation · Blackguard’s Blade (shortsword)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "You have Advantage on an attack with this weapon if another enemy of the target is within 5 feet of it and none of its allies are within 5 feet of it.",
+          "Conversion notes": "The book lists two Blackguard’s Blade forms. This card uses the 2024 Shortsword profile.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 14."
+        }
+      }
+    ],
+    "open5e-vom:vom_blackguards-handaxe": [
+      {
+        "label": "D&D 2024 adaptation · Axe of the Ancients",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Slashing + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Light, Thrown",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When you draw the axe, you can cast Thaumaturgy from it as a Bonus Action. Only one effect from this casting method can be active at a time.",
+          "Conversion notes": "Open5e filed this under Blackguard’s Handaxe. The book names it Axe of the Ancients, with a separate power from Blackguard’s Blade. Use the 2024 Thaumaturgy spell.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 14."
+        }
+      }
+    ],
+    "open5e-vom:vom_armor-of-cushioning": [
+      {
+        "label": "D&D 2024 adaptation · Armor of Cushioning",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "11 + Dex modifier",
+          "Training": "Light",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Special powers": "While wearing the armor, you have Resistance to Bludgeoning damage. When you fall, you can use your Reaction to reduce falling damage by twice your level.",
+          "Conversion notes": "Uses 2024 Padded Armor statistics. Apply the flat falling damage reduction before Resistance.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 12."
+        }
+      }
+    ],
+    "open5e-vom:vom_badger-hide": [
+      {
+        "label": "D&D 2024 adaptation · Badger Hide",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "12 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Special powers": "While wearing the armor, you have a Burrow Speed of 20 feet and Advantage on Wisdom (Perception) checks that rely on smell.",
+          "Conversion notes": "Uses 2024 Hide Armor and Burrow Speed rules.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 14."
+        }
+      }
+    ],
+    "open5e-vom:vom_animated-chain-mail": [
+      {
+        "label": "D&D 2024 adaptation · Animated Chain Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 Chain Mail (+1) baseline"
+        },
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy",
+          "Strength requirement": "13. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Special powers": "Take a Magic action to extend the chains. While they are active, your AC drops to 15 and you gain a Climb Speed equal to your Speed. Retract the chains as a Bonus Action. While they are active and you are not climbing, take a Magic action to make two chain attacks: Strength modifier + Proficiency Bonus, reach 10 feet, 1d6 Bludgeoning + Strength modifier on a hit. A hit also Grapples a target your size or smaller. Each chain can hold one target and cannot attack a different target while holding it. A target can escape as an action with a successful Strength (Athletics) or Dexterity (Acrobatics) check against DC 8 + your Strength modifier + Proficiency Bonus. Retracting the chains ends both grapples.",
+          "Conversion notes": "Keeps the original automatic grapple on a hit. Adds an explicit 2024 escape DC and specifies that retracting the chains releases the targets.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 12."
+        }
+      }
+    ],
     "mystara-fan-names-reference:7da4a07a9aad92f3": [
       {
         "label": "D&D 2024 adaptation · \"Riposte\"",

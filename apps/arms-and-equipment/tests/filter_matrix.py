@@ -1830,6 +1830,23 @@ def main():
                         if (!byId("custom-items").hidden) click("close-custom-items");
                     }
                 })()''',
+                'Vault of Magic cards use the published bases and distinct powers': '''(async () => {
+                    const cases = [
+                        ["anointing-mace", ["2d6 Bludgeoning", "Topple", "whether it hits or misses"]],
+                        ["asps-kiss", ["1d6 Piercing", "Spike attack", "DC 17 Constitution"]],
+                        ["anchor-of-striking", ["1d8 Piercing", "50 feet", "DC 15 Strength or Dexterity"]],
+                        ["blackguards-handaxe", ["Axe of the Ancients", "Thaumaturgy"]],
+                        ["blackguards-shortsword", ["Vex", "none of its allies"]],
+                        ["animated-chain-mail", ["your AC drops to 15", "10 feet", "DC 8 + your Strength"]],
+                        ["armor-of-cushioning", ["11 + Dex modifier", "twice your level"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("open5e-vom:vom_" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Mystara named weapons show their distinct attack and curse rules': '''(async () => {
                     const cases = [
                         ["11060c62afa7bba1", ["modifier − 2", "DC 16 Charisma", "2d20 days"]],
