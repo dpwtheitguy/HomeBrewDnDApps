@@ -1,11 +1,320 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:70e65a05072c0b10": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Commanding",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "appraise_as_magic_weapon": true,
+        "source": "https://www.americanroads.us/DandD/DnD_Rules_Cyclopedia.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Very rare",
+          "Attunement": "Required by a spellcaster",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "As a Magic action spend 3 charges to command one Plant creature within 60 feet. Resolve this as Dominate Beast with the target restricted to a Plant instead of a Beast.",
+          "Conversion notes": "Uses modern spell saves and Concentration to adapt the legacy animal, human, and plant control powers.",
+          "Source locator": "D&D Rules Cyclopedia (TSR, 1991), pp. 236, 237–238. The Cyclopaedic Compendium, Vol. 2, p. 87 indexes this item.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Charges": "10 charges. Regains 1d6 + 4 expended charges daily at dawn, up to its maximum.",
+          "Spells": "While holding the staff, expend the listed charges to cast the following spells. Use each spell’s normal casting time, range, and Concentration rules, without components. Dominate Beast (4 charges), Dominate Person (5), or Speak with Plants (3). Spell save DC 16, spell attack bonus +8."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:ec0e000992956c3b": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Dispelling",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "appraise_as_magic_weapon": true,
+        "source": "https://www.americanroads.us/DandD/DnD_Rules_Cyclopedia.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Very rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "While holding the staff, take a Magic action and spend 2 charges to cast Dispel Magic at level 5 with a range of Touch and +5 on its ability check. Instead, for the same cost, touch an unattended magic item or make a melee attack with the staff against the creature holding or wearing it. On a hit you deal no weapon damage. A touched or struck item’s magical properties are suppressed until the end of your next turn. Artifacts are immune. A potion or scroll is also suppressed for that duration.",
+          "Conversion notes": "The modern draft preserves targeted suppression. Permanent destruction and sentient-item damage become temporary suppression.",
+          "Source locator": "D&D Rules Cyclopedia (TSR, 1991), p. 236. The Cyclopaedic Compendium, Vol. 2, p. 87 indexes this item.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Charges": "6 charges. Regains 1d4 + 2 expended charges daily at dawn."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:293236e4196dc293": [
+      {
+        "label": "D&D 2024 adaptation · Staff of the Druids",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "appraise_as_magic_weapon": true,
+        "source": "https://www.americanroads.us/DandD/DnD_Rules_Cyclopedia.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required by a Druid",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "When you finish a Long Rest holding this staff, choose one additional Druid spell of a level for which you have Druid spell slots. It is prepared until you finish your next Long Rest. As a Magic action once per dawn, recover one expended level 3 or lower Druid spell slot.",
+          "Conversion notes": "One additional prepared spell plus a limited slot recovery replaces the legacy extra spell of every level. Weapon enhancement requires no charges.",
+          "Source locator": "D&D Rules Cyclopedia (TSR, 1991), p. 236. The Cyclopaedic Compendium, Vol. 2, p. 87 indexes this item.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:133d697b2dfff619": [
+      {
+        "label": "D&D 2024 adaptation · Staff of an Element",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "appraise_as_magic_weapon": true,
+        "source": "https://www.americanroads.us/DandD/DnD_Rules_Cyclopedia.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Very rare",
+          "Attunement": "Required by a Wizard",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Choose Air, Earth, Fire, Water, Air and Water, Earth and Fire, or Elemental Power (all four) when found. Elemental Power is Legendary. On the Material Plane, gain Resistance for each included element: Lightning for Air, Acid for Earth, Fire for Fire, and Cold for Water. While holding the staff, you have Advantage on saving throws against effects created by Elementals of a matching kind.",
+          "Conversion notes": "The seven forms share a charge pool. Modern resistance and saves replace legacy blanket immunity. The opposition table pairs Air with Fire and Earth with Water.",
+          "Source locator": "D&D Rules Cyclopedia (TSR, 1991), p. 236 and p. 264. The Cyclopaedic Compendium, Vol. 2, p. 87 indexes this item.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Charges": "12 charges. Regains 1d6 + 4 expended charges daily at dawn, up to its maximum.",
+          "Spells": "While holding the staff, expend the listed charges to cast the following spells. Use each spell’s normal casting time, range, and Concentration rules, without components. Use the spell menu for the staff’s elements. Air grants Lightning Bolt (3 charges) and Cloudkill (5). Earth grants Web (2) and Wall of Stone (5). Fire grants Fireball (3) and Wall of Fire (4). Water grants Ice Storm (4) and Wall of Ice (6). You can also cast Summon Elemental (4), choosing an element of the staff, once per dawn total. Spell save DC 17, spell attack bonus +9.",
+          "Elemental planes": "On a matching Elemental Plane while holding the staff with at least 1 charge, gain a Fly, Burrow, or Swim Speed of 40 feet on Air, Earth, or Water respectively. On Fire, your Speed is at least 40 feet. Ignore ambient damage from any matching plane. On any matching plane, your vision through environmental obscurity extends to 60 feet and you can speak Primordial. The staff does not supply breathable air. These benefits replace the Material Plane benefits while there.",
+          "Opposition": "For a single- or dual-element staff, as a Magic action spend 2 charges to cast Dispel Magic at level 5 (+5 to its check) against an ongoing spell of the opposed element within 60 feet or on an Elemental of that type conjured by a spell. If brought to an opposed plane, the staff is destroyed. All creatures within 30 feet make a DC 17 Dexterity save, taking 4d8 Lightning plus 1d8 per remaining charge on a failure or half on a success. Elemental Power has no opposed plane."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:f89bd600e4650f9a": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Harming",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "appraise_as_magic_weapon": true,
+        "source": "https://www.americanroads.us/DandD/DnD_Rules_Cyclopedia.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required by a Cleric",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "On a melee hit with the staff, spend 1 charge to deal an extra 1d6 + 1 Necrotic damage. You can do so once per turn.",
+          "Conversion notes": "Retains the charged damage rider and maps reversed cleric magic to modern spells. The campaign DM adjudicates the legacy taboo.",
+          "Source locator": "D&D Rules Cyclopedia (TSR, 1991), p. 236. The Cyclopaedic Compendium, Vol. 2, p. 87 indexes this item.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Charges": "8 charges. Regains 1d4 + 2 expended charges daily at dawn, up to its maximum.",
+          "Spells": "While holding the staff, expend the listed charges to cast the following spells. Use each spell’s normal casting time, range, and Concentration rules, without components. Blindness/Deafness (2 charges, blindness only), Ray of Sickness (2), Inflict Wounds (3, cast at level 3), or Contagion (5). Spell save DC 16, spell attack bonus +8."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:796af5c6071b7cf7": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Healing",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "appraise_as_magic_weapon": true,
+        "source": "https://www.americanroads.us/DandD/DnD_Rules_Cyclopedia.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required by a Cleric",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "As a Magic action touch a willing creature and restore 1d6 + 1 Hit Points, except to an Undead or Construct. Once a creature regains Hit Points this way, this free healing cannot affect it again until the next dawn. The charged spells remain available separately.",
+          "Conversion notes": "Preserves the legacy per-recipient free heal and adapts the optional restoration charges. The modern Staff of Healing has a different spell and charge profile.",
+          "Source locator": "D&D Rules Cyclopedia (TSR, 1991), pp. 236–237. The Cyclopaedic Compendium, Vol. 2, p. 87 indexes this item.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Charges": "6 charges. Regains 1d4 + 2 expended charges daily at dawn, up to its maximum.",
+          "Spells": "While holding the staff, expend the listed charges to cast the following spells. Use each spell’s normal casting time, range, and Concentration rules, without components. Lesser Restoration (1 charge) or Cure Wounds (2, cast at level 2 with a +3 spellcasting ability modifier)."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:b40eac6c767f5b3c": [
+      {
+        "label": "D&D 2024 adaptation · Snake Staff",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "appraise_as_magic_weapon": true,
+        "source": "https://www.americanroads.us/DandD/DnD_Rules_Cyclopedia.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required by a Cleric",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Once per dawn when you hit a Medium or smaller creature with the staff, the target must make a DC 15 Dexterity save. On a failure the staff transforms into a snake and the target has the Restrained condition for up to 1 minute. The target or an adjacent creature can use an action to repeat the save, ending the effect on a success. You can end it as a Bonus Action while within 60 feet.",
+          "Conversion notes": "A defined escape action and a daily limit replace the legacy long-duration coil. The original default has no charges.",
+          "Source locator": "D&D Rules Cyclopedia (TSR, 1991), p. 237. The Cyclopaedic Compendium, Vol. 2, p. 87 indexes this item.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Snake form": "The snake shares the target’s space, has AC 15 and 20 HP, and takes no actions. At 0 HP it dies, ends the restraint, and becomes nonmagical. When the effect otherwise ends, the snake returns to staff form in the target’s space and fully heals."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:5dd72f5cad6aced0": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Striking",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "appraise_as_magic_weapon": true,
+        "source": "https://www.americanroads.us/DandD/DnD_Rules_Cyclopedia.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required by a spellcaster",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "When you hit with the staff, spend 1 charge to deal an extra 2d6 Bludgeoning damage to the target. One charge maximum per hit.",
+          "Conversion notes": "Keeps the original charged strike and adds a modern daily recharge. This legacy variant has no listed attack enhancement.",
+          "Source locator": "D&D Rules Cyclopedia (TSR, 1991), p. 237. The Cyclopaedic Compendium, Vol. 2, p. 87 indexes this item.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Charges": "8 charges. Regains 1d6 + 2 expended charges daily at dawn."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:5f4b7de783af3b00": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Power",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "appraise_as_magic_weapon": true,
+        "source": "https://www.americanroads.us/DandD/DnD_Rules_Cyclopedia.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Very rare",
+          "Attunement": "Required by a Wizard",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "When you hit with the staff, spend 1 charge to deal an extra 2d6 Bludgeoning damage. One charge maximum per hit.",
+          "Conversion notes": "Keeps the legacy Staff of Striking rider and five spell effects. Modern spell levels replace the legacy uniform damage and weight rules.",
+          "Source locator": "D&D Rules Cyclopedia (TSR, 1991), p. 237. The Cyclopaedic Compendium, Vol. 2, p. 87 indexes this item.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Charges": "12 charges. Regains 1d6 + 4 expended charges daily at dawn, up to its maximum.",
+          "Spells": "While holding the staff, expend the listed charges to cast the following spells. Use each spell’s normal casting time, range, and Concentration rules, without components. Fireball (3 charges), Lightning Bolt (3), Ice Storm (4), Continual Flame (2), or Telekinesis (5). Spell save DC 17, spell attack bonus +9."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:3b5d2f89316503f7": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Wizardry",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "appraise_as_magic_weapon": true,
+        "source": "https://www.americanroads.us/DandD/DnD_Rules_Cyclopedia.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required by a Wizard",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "On a staff hit spend 1 charge to add 2d6 Bludgeoning. As a Magic action with at least one charge remaining, break the staff. It is destroyed and each creature within 30 feet, including you, makes a DC 18 Dexterity save, taking Force damage equal to 8 × remaining charges on a failure or half on a success.",
+          "Conversion notes": "The +1 and final burst preserve the legacy Wizardry profile. Hold Monster models paralysis. For the original area effect, use the variant below.",
+          "Source locator": "D&D Rules Cyclopedia (TSR, 1991), p. 237. The Cyclopaedic Compendium, Vol. 2, p. 87 indexes this item.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Charges": "16 charges. Regains 2d6 + 4 expended charges daily at dawn, up to its maximum.",
+          "Spells": "While holding the staff, expend the listed charges to cast the following spells. Use each spell’s normal casting time, range, and Concentration rules, without components. Fireball (3 charges), Lightning Bolt (3), Ice Storm (4), Continual Flame (2), or Telekinesis (5), plus Invisibility (2), Web (2), Hold Monster (5), Passwall (5), Summon Elemental (4), or Whirlwind (7). Spell save DC 18, spell attack bonus +10.",
+          "Paralyzing cone": "As a Magic action spend 6 charges to project a 30-foot Cone. Each creature in it makes a DC 18 Constitution save or has the Paralyzed condition until the end of your next turn. The cone uses the staff’s own rules."
+        }
+      }
+    ],
     "mystara-fan-names-reference:f1b7d23796b5478d": [
       {
         "label": "D&D 2024 adaptation · Staff of Cold",
         "status": "original-draft",
         "profile_kind": "custom-2024-draft",
+        "appraise_as_magic_weapon": true,
         "source": "https://pandius.com/CyclopaediaVolume2.pdf",
         "related_item": {
           "id": "open5e-srd-2024:srd-2024_quarterstaff",
@@ -36,6 +345,7 @@
         "label": "D&D 2024 adaptation · Staff of Constructing",
         "status": "original-draft",
         "profile_kind": "custom-2024-draft",
+        "appraise_as_magic_weapon": true,
         "source": "https://pandius.com/CyclopaediaVolume2.pdf",
         "related_item": {
           "id": "open5e-srd-2024:srd-2024_quarterstaff",
@@ -66,6 +376,7 @@
         "label": "D&D 2024 adaptation · Staff of Creating",
         "status": "original-draft",
         "profile_kind": "custom-2024-draft",
+        "appraise_as_magic_weapon": true,
         "source": "https://pandius.com/CyclopaediaVolume2.pdf",
         "related_item": {
           "id": "open5e-srd-2024:srd-2024_quarterstaff",
@@ -96,6 +407,7 @@
         "label": "D&D 2024 adaptation · Staff of Electrifying",
         "status": "original-draft",
         "profile_kind": "custom-2024-draft",
+        "appraise_as_magic_weapon": true,
         "source": "https://pandius.com/CyclopaediaVolume2.pdf",
         "related_item": {
           "id": "open5e-srd-2024:srd-2024_quarterstaff",
@@ -126,6 +438,7 @@
         "label": "D&D 2024 adaptation · Staff of Fire",
         "status": "original-draft",
         "profile_kind": "custom-2024-draft",
+        "appraise_as_magic_weapon": true,
         "source": "https://pandius.com/CyclopaediaVolume2.pdf",
         "related_item": {
           "id": "open5e-srd-2024:srd-2024_quarterstaff",
@@ -156,6 +469,7 @@
         "label": "D&D 2024 adaptation · Staff of the Ocean",
         "status": "original-draft",
         "profile_kind": "custom-2024-draft",
+        "appraise_as_magic_weapon": true,
         "source": "https://pandius.com/CyclopaediaVolume2.pdf",
         "related_item": {
           "id": "open5e-srd-2024:srd-2024_quarterstaff",
@@ -186,6 +500,7 @@
         "label": "D&D 2024 adaptation · Staff of Trade",
         "status": "original-draft",
         "profile_kind": "custom-2024-draft",
+        "appraise_as_magic_weapon": true,
         "source": "https://pandius.com/CyclopaediaVolume2.pdf",
         "related_item": {
           "id": "open5e-srd-2024:srd-2024_quarterstaff",
@@ -216,6 +531,7 @@
         "label": "D&D 2024 adaptation · Staff of the War Priest",
         "status": "original-draft",
         "profile_kind": "custom-2024-draft",
+        "appraise_as_magic_weapon": true,
         "source": "https://pandius.com/CyclopaediaVolume2.pdf",
         "related_item": {
           "id": "open5e-srd-2024:srd-2024_quarterstaff",
@@ -246,6 +562,7 @@
         "label": "D&D 2024 adaptation · Staff of the Woodland Defender",
         "status": "original-draft",
         "profile_kind": "custom-2024-draft",
+        "appraise_as_magic_weapon": true,
         "source": "https://pandius.com/CyclopaediaVolume2.pdf",
         "related_item": {
           "id": "open5e-srd-2024:srd-2024_quarterstaff",

@@ -1871,6 +1871,29 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Mystara Cyclopedia staves preserve their distinct legacy powers': '''(async () => {
+                    for (const [id, terms] of [
+                        ["70e65a05072c0b10", ["Dominate Beast", "Dominate Person", "Plant creature"]],
+                        ["ec0e000992956c3b", ["range of Touch", "Artifacts are immune"]],
+                        ["293236e4196dc293", ["additional Druid spell", "level 3 or lower"]],
+                        ["133d697b2dfff619", ["Earth and Fire", "Summon Elemental", "opposed plane", "Base cost40000.2 gp"]],
+                        ["f89bd600e4650f9a", ["1d6 + 1 Necrotic", "Contagion"]],
+                        ["796af5c6071b7cf7", ["free healing", "Lesser Restoration"]],
+                        ["b40eac6c767f5b3c", ["Restrained", "AC 15 and 20 HP", "Rare draft conversion plus 2024 Quarterstaff cost"]],
+                        ["5dd72f5cad6aced0", ["2d6 Bludgeoning", "One charge maximum per hit"]],
+                        ["5f4b7de783af3b00", ["Continual Flame", "Telekinesis"]],
+                        ["3b5d2f89316503f7", ["Paralyzing cone", "8 × remaining charges"]],
+                    ]) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                        if (!inspection.querySelector('a[href*="DnD_Rules_Cyclopedia.pdf"]'))
+                            throw new Error(id + " missing Cyclopedia link");
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Mystara staves show distinct powers and charge economies': '''(async () => {
                     for (const [id, terms] of [
                         ["f1b7d23796b5478d", ["Cone of Cold", "Resistance to Fire", "10 charges"]],
