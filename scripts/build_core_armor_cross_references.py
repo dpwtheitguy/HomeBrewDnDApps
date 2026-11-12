@@ -72,7 +72,10 @@ def same_base(left, right):
             and 'increases your Armor Class by 2' in left['description'])
 
 
+LEGACY_ARMOR_ENHANCEMENTS = {'dndbeyond:5377': 1, 'dndbeyond:5378': 2, 'dndbeyond:5379': 3}
+
 PUBLIC_ARMOR_RULES = {
+    **dict.fromkeys(LEGACY_ARMOR_ENHANCEMENTS, MAGIC + '#Armor12or3'),
     'dndbeyond:5370': MAGIC + '#AdamantineArmor',
     'dndbeyond:5371': MAGIC + '#ArmorofResistance',
     'dndbeyond:5376': MAGIC + '#ArmorofVulnerability',
@@ -87,6 +90,14 @@ PUBLIC_ARMOR_RULES = {
 METAL_ARMOR_FAMILIES = {'Adamantine Armor', 'Mithral Armor'}
 
 PUBLIC_ARMOR = {
+    **{
+        item_id: (
+            f'Armor, +{bonus}', f"{item_id.split(':')[1]}-armor-{bonus}",
+            bonus, False, ('Rare', 'Very Rare', 'Legendary')[bonus - 1],
+            {'Special powers': f'While wearing the armor, add +{bonus} to the base suit’s Armor Class.'},
+        )
+        for item_id, bonus in LEGACY_ARMOR_ENHANCEMENTS.items()
+    },
     'dndbeyond:5370': (
         'Adamantine Armor', '5370-adamantine-armor', 0, False, 'Uncommon', {
             'Special powers': 'While wearing the armor, a Critical Hit against you becomes a normal hit.',
@@ -177,7 +188,7 @@ def public_armor_variants(items):
             }
             label = 'Verified 2024 armor counterpart' if item['id'] in {
                 'dndbeyond:5370', 'dndbeyond:5371', 'dndbeyond:5376', 'dndbeyond:5381',
-            } else 'Verified 2024 armor rules'
+            } or item['id'] in LEGACY_ARMOR_ENHANCEMENTS else 'Verified 2024 armor rules'
             variants.append({
                 'label': label + ' · ' + armor['name'], 'status': 'published-reference',
                 'profile_kind': 'published-public-armor', 'source': source, 'enhancement_bonus': bonus,

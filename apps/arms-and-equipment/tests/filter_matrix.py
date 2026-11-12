@@ -792,6 +792,22 @@ def main():
                         ["2024 counterpart · Giant Slayer · Longbow", "DC 15 Strength", "Prone"]
                             .every(value => giant.includes(value));
                 })()''',
+                'Indexed enhancements distinguish weapons, armor and ammunition': '''(async () => {
+                    inspect("dndbeyond:5404", grid.firstElementChild);
+                    await itemDetails;
+                    const weapon = inspection.textContent;
+                    inspect("dndbeyond:5379", grid.firstElementChild);
+                    await itemDetails;
+                    const armor = inspection.textContent;
+                    inspect("dndbeyond:5411", grid.firstElementChild);
+                    await itemDetails;
+                    const ammo = inspection.textContent;
+                    return ["2024 counterpart · Longbow +3", "+3 to attack and damage", "150/600 ft"]
+                        .every(value => weapon.includes(value)) &&
+                        ["Armor class21", "Legendary", "Plate Armor"].every(value => armor.includes(value)) &&
+                        ["Ammunition +3", "compatible launcher", "becomes nonmagical"]
+                            .every(value => ammo.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

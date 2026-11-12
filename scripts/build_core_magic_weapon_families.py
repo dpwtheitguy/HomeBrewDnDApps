@@ -326,6 +326,8 @@ FAMILIES = {
 }
 
 
+LEGACY_ENHANCEMENTS = {'dndbeyond:5400': 1, 'dndbeyond:5401': 2, 'dndbeyond:5404': 3}
+
 PUBLIC_INDEX = 'dndbeyond-public-index'
 PUBLIC_WEAPON_PAGES = {
     'Moonblade': '9228858-moonblade',
@@ -524,6 +526,29 @@ def main():
             legacy_public_count += 1
         else:
             public_count += 1
+    for item in items:
+        bonus = LEGACY_ENHANCEMENTS.get(item['id'])
+        if item['source_id'] != PUBLIC_INDEX or not bonus:
+            continue
+        family = f'Weapon, +{bonus}'
+        source = f"https://www.dndbeyond.com/magic-items/{item['id'].split(':')[1]}-weapon-{bonus}"
+        if item['name'] != family or item['provenance'].get('source_url') != source:
+            raise ValueError(f'Indexed enhancement identity mismatch: {item["id"]}')
+        rules = {
+            'damage': f'Add {bonus} to normal damage.',
+            'activation': 'Apply the bonus when attacking with this weapon.',
+            'Attack bonus': f'+{bonus} to attack and damage rolls.',
+            'Attunement': 'None',
+            'Rarity': ('Uncommon', 'Rare', 'Very Rare')[bonus - 1],
+            'source': source,
+        }
+        records[item['id']] = [
+            {**details(item, family, rules, mechanics),
+             'label': f'2024 counterpart · {base} +{bonus}',
+             'rules_source': RULES + '#Weapon12or3'}
+            for base, mechanics in bases.items()
+        ]
+        legacy_public_count += 1
     (CATALOG / 'supplements/core-magic-weapon-families.json').write_text(
         json.dumps({'schema_version': 1, 'records': records}, ensure_ascii=False, separators=(',', ':')) + '\n')
     print(f'{legacy_count} legacy counterparts and {len(targets)} published 2024 variants, {public_count} verified public-index pages, {legacy_public_count} indexed legacy counterparts.')
