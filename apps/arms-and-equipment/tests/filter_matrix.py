@@ -1830,6 +1830,23 @@ def main():
                         if (!byId("custom-items").hidden) click("close-custom-items");
                     }
                 })()''',
+                'AD&D concealment, speed, and ranged variants show their specific rules': '''(async () => {
+                    const cases = [
+                        ["84001f0403e8996e", ["modifier + 5", "plus 3", "Bonus Action"]],
+                        ["c1088795455a5ab9", ["ornamental buckle", "DC 15 Intelligence", "Roll 1d10"]],
+                        ["e3414df00bf81bc8", ["20/60 feet thrown", "concealed release", "usually +1 or +2"]],
+                        ["f7455ab938618946", ["1d6 Slashing", "usually +2 or +3"]],
+                        ["ef118c1af6ae8609", ["60 feet in any direction", "hit or miss", "roll 2d4"]],
+                        ["31ba46f9904b6a56", ["30/120 feet", "counts as +1", "+2 on attack and damage"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dmg-2e-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))
+                            || inspection.textContent.includes("2024 provisional profile")) return false;
+                    }
+                    return true;
+                })()''',
                 'AD&D throwing weapons and crossbows preserve distinct enchantments': '''(async () => {
                     const cases = [
                         ["d247d4f988f69957", ["Roll 1d20", "2d6 Slashing", "hits or misses"]],
