@@ -1740,6 +1740,33 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault paired, ranged, and critical weapon effects are displayed': '''(async () => {
+                    const cases = [
+                        ["c373e34ca3739e92", ["split it into two identical weapons", "share one attunement"]],
+                        ["4427038bbf0d4071", ["make its Speed 0", "more than 5 feet apart"]],
+                        ["44fe30b4e845aec3", ["ignore the Disadvantage caused solely", "Short or Long Rest"]],
+                        ["820b17a20c0a8822", ["5 Poison damage", "deals half damage"]],
+                        ["33bf0554e6cd4df9", ["within 25 feet", "attack rolls that do not target you"]],
+                        ["47b93b69c5d7251f", ["no ally is closer"]],
+                        ["885926ac94d30a54", ["one additional attack", "normal range, ammunition, and loading rules"]],
+                        ["a97e432343a391de", ["normal damage type and Radiant", "2 extra Radiant damage"]],
+                        ["64343a86f87544c8", ["−2 penalty to your AC", "official 4e errata"]],
+                        ["b4af69a23f4615fe", ["Once per turn", "cannot trigger another attack"]],
+                        ["863a62c4bcc0a9cc", ["−2 penalty to attack rolls", "DC 15 Wisdom"]],
+                        ["329e0263748699d6", ["scores a Critical Hit against you", "1d6 extra damage"]],
+                        ["781908b219585023", ["within 10 feet of the first target", "same piece of ammunition"]],
+                        ["8fef4f4bd924e074", ["cannot take Bonus Actions or Reactions", "alignment is evil"]],
+                        ["a8c638f8caa977b8", ["expend one unspent Hit Point Die", "deals half damage"]],
+                        ["025c13dc8738330d", ["1d20 extra damage if the target is a reptile"]],
+                        ["524e4d8a4fbac7b4", ["DC 15 Strength", "Speed is 0"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!["D&D 2024 weapon adaptation", ...terms].every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Adventurer’s Vault upgrades display reactions and hit effects': '''(async () => {
                     const cases = [
                         ["fb5fd130405630e0", ["Allies within 5 feet", "add 1 to their damage rolls"]],
