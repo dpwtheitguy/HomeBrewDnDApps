@@ -1,6 +1,258 @@
 {
   "schema_version": 1,
   "records": {
+    "gaz13-online-adaptation-reference:28134d4d8c9af5f8": [
+      {
+        "label": "D&D 2024 adaptation · Strongmind",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://heroes.mystara.net/selenica/others/shadow/gaz13_dm.html",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee attack. Its wards are passive while you hold the attuned sword.",
+          "Attunement": "Required by a Shadow Elf. A DM can extend eligibility to other elves in a campaign without Shadow Elves.",
+          "Rarity": "Legendary",
+          "Source locator": "GAZ13, 1995 TSR online adaptation, Garafaele, NPC Notes.",
+          "Conversion notes": "Uses a Longsword for the unspecified sword form and caps the legacy +4 at +3. Preserves progressive spell protection with character-level gates.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Spell wards": "At character level 1, you are immune to Charm Person and Sleep. At level 3, add Hold Person. At level 9, add Hold Monster. At level 11, add Magic Jar. At level 15, add Befuddlement, the 2024 counterpart to Feeblemind.",
+          "Illusion ward": "While holding the sword, you see through visual effects of Illusion spells of a level no higher than half your character level rounded up, to a maximum of 9. This does not dispel the illusion for others. You also have Advantage on saves against those Illusion spells.",
+          "History": "The sword passes through Garafaele’s family, with its protections revealed as the wielder gains experience.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "gaz13-online-adaptation-reference:8784b39a7e2becfa": [
+      {
+        "label": "D&D 2024 adaptation · Blackbolt",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://heroes.mystara.net/selenica/others/shadow/gaz13_dm.html",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee attack, or take a Magic action while holding the attuned sword to release its black lightning.",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Source locator": "GAZ13, 1995 TSR online adaptation, Telemon, NPC Notes.",
+          "Conversion notes": "Uses a Longsword for the unspecified sword form. Keeps the damage and twice-daily use. Blinded replaces the legacy darkness effect on each victim.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Black lightning": "Twice per dawn, release a 100-foot Line, 5 feet wide, originating from you. Each creature in the Line makes a DC 17 Dexterity save, taking 12d6 Lightning damage on a failure or half on a success. This lightning sheds no light.",
+          "Darkness": "Each creature that takes Lightning damage from the Line also makes a DC 17 Constitution save. On a failure, it has the Blinded condition until the end of its next turn.",
+          "History": "Kanafasti removed the bolt’s light so Telemon could use it around Shadow Elves.",
+          "2024 spell benchmark": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#LightningBolt"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "gaz13-online-adaptation-reference:e6086ad25a84ae4b": [
+      {
+        "label": "D&D 2024 adaptation · Porphyriel’s Mace +3",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://heroes.mystara.net/selenica/others/shadow/gaz13_dm.html",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "4 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Source locator": "GAZ13, 1995 TSR online adaptation, Porphyriel, NPC Notes.",
+          "Conversion notes": "Preserves the restricted foes and a save against death. Uses the 2024 Mace of Disruption’s low-HP threshold to keep the effect from defeating a healthy target outright.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Special powers": "When you hit an orc, troll, goblin, hobgoblin, or gnoll with the attuned mace and it has 25 Hit Points or fewer after the damage, it must succeed on a DC 16 Constitution save or die.",
+          "2024 benchmark": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#MaceOfDisruption"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "gaz13-online-adaptation-reference:4a3eca691ea4f84b": [
+      {
+        "label": "D&D 2024 adaptation · Two-Handed Sword +2 of Slicing",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://heroes.mystara.net/selenica/others/shadow/gaz13_dm.html",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 Slashing + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "6 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Source locator": "GAZ13, 1995 TSR online adaptation, Tanadaleyo, NPC Notes.",
+          "Conversion notes": "Keeps the +2 greatsword and models the legacy slicing talent using the 2024 Sword of Sharpness critical-hit benchmark.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Special powers": "When the d20 for an attack with the attuned sword against a creature is a natural 20 and the attack hits, the creature takes an extra 14 Slashing damage and gains 1 level of Exhaustion.",
+          "2024 benchmark": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#SwordofSharpness"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "gaz13-online-adaptation-reference:fcab371ea3d3b6a2": [
+      {
+        "label": "2024 enhancement comparison · Light Crossbow +1",
+        "status": "published-reference",
+        "source": "https://heroes.mystara.net/selenica/others/shadow/gaz13_dm.html",
+        "fields": {
+          "Category": "Simple ranged weapon",
+          "Damage": "1d8 Piercing + Dexterity modifier + 1.",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "80/320 feet",
+          "Properties": "Ammunition (bolts), Loading, Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "5 lb",
+          "Activation": "Make a weapon attack using the listed range. Expend one bolt per attack.",
+          "Attunement": "None",
+          "Rarity": "Uncommon",
+          "Source locator": "GAZ13, 1995 TSR online adaptation, Firnafel, NPC Notes.",
+          "Conversion notes": "Uses the published 2024 weapon profile and the cited enhancement.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_light-crossbow",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "gaz13-online-adaptation-reference:8b2b30510123b8f8": [
+      {
+        "label": "2024 enhancement comparison · Short Sword +1",
+        "status": "published-reference",
+        "source": "https://heroes.mystara.net/selenica/others/shadow/gaz13_dm.html",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "None",
+          "Rarity": "Uncommon",
+          "Source locator": "GAZ13, 1995 TSR online adaptation, Firnafel, NPC Notes.",
+          "Conversion notes": "Uses the published 2024 weapon profile and the cited enhancement.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "gaz13-online-adaptation-reference:8e072ea79613615c": [
+      {
+        "label": "2024 enhancement comparison · Staff +3",
+        "status": "published-reference",
+        "source": "https://heroes.mystara.net/selenica/others/shadow/gaz13_dm.html",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 with two hands) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "None",
+          "Rarity": "Very Rare",
+          "Source locator": "GAZ13, 1995 TSR online adaptation, Quanafel, NPC Notes.",
+          "Conversion notes": "Uses the published 2024 weapon profile and the cited enhancement.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "gaz13-online-adaptation-reference:5931ec582be5b594": [
+      {
+        "label": "2024 enhancement comparison · War Hammer +1",
+        "status": "published-reference",
+        "source": "https://heroes.mystara.net/selenica/others/shadow/gaz13_dm.html",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Bludgeoning (1d10 with two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Push",
+          "Weight": "5 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "None",
+          "Rarity": "Uncommon",
+          "Source locator": "GAZ13, 1995 TSR online adaptation, Zindar, NPC Notes.",
+          "Conversion notes": "Uses the published 2024 weapon profile and the cited enhancement.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_warhammer",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "gaz13-online-adaptation-reference:0214e5642767ac14": [
+      {
+        "label": "D&D 2024 adaptation · Crossbow +3",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://heroes.mystara.net/selenica/others/shadow/gaz13_dm.html",
+        "fields": {
+          "Category": "Simple ranged weapon",
+          "Damage": "1d8 Piercing + Dexterity modifier + 3.",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "80/320 feet",
+          "Properties": "Ammunition (bolts), Loading, Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "5 lb",
+          "Activation": "Make a weapon attack using the listed range. Expend one bolt per attack.",
+          "Attunement": "None",
+          "Rarity": "Very Rare",
+          "Source locator": "GAZ13, 1995 TSR online adaptation, Tanadaleyo, NPC Notes.",
+          "Conversion notes": "The source gives the enhancement without a crossbow subtype. Light is the default comparison. Choose the form when found.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Heavy form": "Martial ranged. 1d10 Piercing + Dexterity modifier + 3, 100/400 feet, Ammunition (bolts), Heavy, Loading, Two-Handed, Push, 18 lb."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_light-crossbow",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
     "gaz13-online-adaptation-reference:96fc2dbf2becea08": [
       {
         "label": "2024 armor mapping · Chain Mail +1",

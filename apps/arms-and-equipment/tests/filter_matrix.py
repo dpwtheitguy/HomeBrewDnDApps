@@ -1830,6 +1830,23 @@ def main():
                         if (!byId("custom-items").hidden) click("close-custom-items");
                     }
                 })()''',
+                'Shadow Elf weapons show named powers and modern attack profiles': '''(async () => {
+                    const cases = [
+                        ["28134d4d8c9af5f8", ["1d8 Slashing", "At level 11, add Magic Jar", "Illusion ward"]],
+                        ["8784b39a7e2becfa", ["100-foot Line", "12d6 Lightning", "Blinded condition"]],
+                        ["e6086ad25a84ae4b", ["25 Hit Points or fewer", "DC 16 Constitution", "gnoll"]],
+                        ["4a3eca691ea4f84b", ["2d6 Slashing", "extra 14 Slashing", "Exhaustion"]],
+                        ["0214e5642767ac14", ["80/320 feet", "100/400 feet"]],
+                        ["5931ec582be5b594", ["1d8 Bludgeoning", "Zindar"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("gaz13-online-adaptation-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))
+                            || inspection.textContent.includes("2024 provisional profile")) return false;
+                    }
+                    return true;
+                })()''',
                 'Shadow Elf armor preserves Garafaele’s shield powers and source context': '''(async () => {
                     const cases = [
                         ["96fc2dbf2becea08", ["Armor class17", "Maflarel; Zindar"]],
