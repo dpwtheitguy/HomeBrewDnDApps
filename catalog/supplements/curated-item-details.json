@@ -1,6 +1,475 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-2e-reference:bf016630ca2480a2": [
+      {
+        "label": "2024 equipment comparison · Awl Pike",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00314.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Piercing. Add your Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "10 feet",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Push",
+          "Weight": "18 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "None",
+          "Conversion notes": "Use the 2024 Pike for the legacy Awl Pike. Table 23 records availability, and the legacy Arms and Equipment Guide identifies it as a two-handed thrusting polearm."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_pike",
+          "label": "Open published 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:59760cfbd6de82cb": [
+      {
+        "label": "2024 equipment comparison · Axe",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00696.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Slashing. Add your Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Light, Thrown",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "None",
+          "Conversion notes": "Table 108 lists Axe separately from Battle axe. Use Handaxe as the base for this treasure roll and determine its magic bonus separately."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Open published 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:bef8f30744c2cea9": [
+      {
+        "label": "2024 equipment comparison · Bastard Sword",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00314.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing or 1d10 with two hands. Add your Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "None",
+          "Conversion notes": "Use the 2024 Longsword. Versatile preserves the bastard sword’s one- and two-handed use."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open published 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:e4e1cd6db6af6386": [
+      {
+        "label": "2024 equipment comparison · Battle axe",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00696.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing or 1d10 with two hands. Add your Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "None",
+          "Conversion notes": "Table 108 sets the weapon form. Determine any magic bonus separately."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_battleaxe",
+          "label": "Open published 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:b13407c449d33e39": [
+      {
+        "label": "2024 equipment comparison · Heavy Horse Lance",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00314.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Piercing. Add your Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "10 feet",
+          "Properties": "Heavy, Reach, Two-Handed (unless mounted)",
+          "Mastery": "Topple",
+          "Weight": "6 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "None",
+          "Conversion notes": "Use the 2024 Lance for the named heavy cavalry weapon in Table 23."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_lance",
+          "label": "Open published 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:f42267c798e9c2af": [
+      {
+        "label": "2024 equipment comparison · Heavy Lance",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00581.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Piercing. Add your Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "10 feet",
+          "Properties": "Heavy, Reach, Two-Handed (unless mounted)",
+          "Mastery": "Topple",
+          "Weight": "6 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "None",
+          "Conversion notes": "The heavy cavalry equipment description uses this name for a mounted lance. Use the 2024 Lance profile."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_lance",
+          "label": "Open published 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:e8d2b06a1a404828": [
+      {
+        "label": "2024 equipment comparison · Knife",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00696.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing. Add your Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "None",
+          "Conversion notes": "The 2024 Dagger supplies the base profile for the knife treasure result. Determine any magic bonus separately."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open published 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:f264a4338d8d41ab": [
+      {
+        "label": "2024 equipment comparison · Kopesh Sword",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00314.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Slashing. Add your Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Weight": "3 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "None",
+          "Conversion notes": "Use the 2024 Scimitar for the curved slashing sword. The game stats are a modern equipment comparison."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scimitar",
+          "label": "Open published 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:01711bc6c4b8d509": [
+      {
+        "label": "2024 equipment comparison · Long Bow",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00314.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d8 Piercing. Add your Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "150/600 feet",
+          "Properties": "Ammunition (arrows), Heavy, Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Activation": "Make a weapon attack using the listed range. Expend one piece of ammunition per attack.",
+          "Attunement": "None",
+          "Conversion notes": "The long bow in the availability table uses the 2024 Longbow profile."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open published 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:59fa52561f85f252": [
+      {
+        "label": "2024 equipment comparison · Morning Star",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00696.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing. Add your Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "4 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "None",
+          "Conversion notes": "Use the 2024 Morningstar for the treasure result. Determine its magic bonus separately."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_morningstar",
+          "label": "Open published 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:fc458e1cd410d1a7": [
+      {
+        "label": "2024 equipment comparison · Two-Handed Sword",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00314.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 Slashing. Add your Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "6 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "None",
+          "Conversion notes": "Use the 2024 Greatsword for the legacy two-handed sword."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open published 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:21011df4c0480cf7": [
+      {
+        "label": "2024 equipment comparison · Crossbow",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00314.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Simple ranged weapon",
+          "Damage": "1d8 Piercing. Add your Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "80/320 feet",
+          "Properties": "Ammunition (bolts), Loading, Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "5 lb",
+          "Activation": "Make a weapon attack using the listed range. Expend one piece of ammunition per attack.",
+          "Attunement": "None",
+          "Conversion notes": "Table 23 includes any crossbow. The light form is the default shown. Select a form before play.",
+          "Hand crossbow": "Martial. 1d6 Piercing + Dexterity modifier, 30/120 feet, Ammunition (bolts), Light, Loading, Vex, 3 lb.",
+          "Heavy crossbow": "Martial. 1d10 Piercing + Dexterity modifier, 100/400 feet, Ammunition (bolts), Heavy, Loading, Two-Handed, Push, 18 lb."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_light-crossbow",
+          "label": "Open published 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:3d1bf9055733dc49": [
+      {
+        "label": "2024 equipment comparison · Sword",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00696.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing or 1d10 with two hands. Add your Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "None",
+          "Conversion notes": "This Table 108 roll identifies a sword family. Use the longsword as the default, or select a published sword form and use that form’s complete profile before assigning an enchantment."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open published 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:3b7219e4876e0e83": [
+      {
+        "label": "2024 equipment comparison · Pole arms, not pike",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00314.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Slashing. Add your Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "10 feet",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Cleave",
+          "Weight": "6 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "None",
+          "Conversion notes": "This is an availability group. Use the halberd as the default, or choose another published non-pike polearm and use its full profile.",
+          "Glaive option": "Martial. 1d10 Slashing + Strength modifier, 10 feet, Heavy, Reach, Two-Handed, Graze, 6 lb."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_halberd",
+          "label": "Open published 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:63e9592a198247e9": [
+      {
+        "label": "2024 equipment comparison · Composite Long Bow",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00314.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d8 Piercing. Add your Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "150/600 feet",
+          "Properties": "Ammunition (arrows), Heavy, Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Activation": "Make a weapon attack using the listed range. Expend one piece of ammunition per attack.",
+          "Attunement": "None",
+          "Conversion notes": "Use the 2024 Longbow profile for the composite construction. For a bow commissioned for a high-Strength archer, see Strength-Rated Bow."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open published 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:d93b9fbc38c2896c": [
+      {
+        "label": "D&D 2024 adaptation · Bow +1",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01089.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "Longbow 1d8 Piercing + Dexterity modifier + 1. Shortbow 1d6 Piercing + Dexterity modifier + 1.",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "150/600 feet for Longbow; 80/320 feet for Shortbow.",
+          "Properties": "Ammunition (arrows), Heavy, Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Activation": "Choose the bow form when found. Fire normally, expending one arrow per attack.",
+          "Attunement": "None",
+          "Conversion notes": "Preserves the +1 to attack and damage. Uses the 2024 bow profiles and modern magic ammunition rules.",
+          "Shortbow form": "Simple ranged. Ammunition (arrows), Two-Handed, Vex, 2 lb.",
+          "Rarity": "Uncommon"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open published 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:8a77dbeb8b3cc1df": [
+      {
+        "label": "D&D 2024 adaptation · Strength-Rated Bow",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00389.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d8 Piercing + Dexterity modifier, or use Strength instead of Dexterity for damage if you meet the rating.",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "150/600 feet",
+          "Properties": "Ammunition (arrows), Heavy, Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Activation": "Make a weapon attack using the listed range. Expend one piece of ammunition per attack.",
+          "Attunement": "None",
+          "Conversion notes": "The source requires a bow made for a strong archer to benefit from Strength. This conversion uses Dexterity to aim and Strength in place of Dexterity for damage when you meet the rating.",
+          "Special powers": "At commissioning, set the Strength rating to 13, 15, or 17. An archer whose Strength equals or exceeds it may use their Strength modifier for damage. Heavy still requires Dexterity 13 to avoid its normal Disadvantage."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open published 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:8aed65824ac012b0": [
+      {
+        "label": "D&D 2024 adaptation · Jousting Lance",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00314.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d4 Bludgeoning + Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "10 feet",
+          "Properties": "Heavy, Reach, Two-Handed (unless mounted)",
+          "Mastery": "Topple",
+          "Weight": "6 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "None",
+          "Conversion notes": "The legacy jousting lance has reduced damage. This tournament conversion uses a blunted tip and keeps the reach and mounted handling of the 2024 Lance.",
+          "Special powers": "When the hit would reduce a creature to 0 Hit Points, you can instead leave it with 1 Hit Point and give it the Unconscious condition under the normal knockout rules."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_lance",
+          "label": "Open published 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:45ff7a025f063d67": [
+      {
+        "label": "D&D 2024 adaptation · Underwater Crossbow",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00510.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Simple ranged weapon",
+          "Damage": "1d8 Piercing. Add your Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "80/320 feet in air. Underwater, 40 feet maximum.",
+          "Properties": "Ammunition (bolts), Loading, Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "5 lb",
+          "Activation": "Make a weapon attack using the listed range. Expend one piece of ammunition per attack.",
+          "Attunement": "None",
+          "Conversion notes": "The legacy aquatic design halves range underwater. This adaptation offsets the 2024 underwater Disadvantage within the shortened range.",
+          "Special powers": "When making a ranged attack underwater, ignore the Disadvantage imposed by underwater combat against a target within 40 feet. Attacks beyond 40 feet automatically miss underwater.",
+          "2024 underwater rules": "https://www.dndbeyond.com/sources/dnd/br-2024/playing-the-game#UnderwaterCombat"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_light-crossbow",
+          "label": "Open published 2024 base weapon"
+        }
+      }
+    ],
     "dmg-2e-reference:610bfbead9f30de4": [
       {
         "label": "D&D 2024 adaptation · Sword of Dancing",

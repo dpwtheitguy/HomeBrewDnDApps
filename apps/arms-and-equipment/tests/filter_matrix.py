@@ -1830,6 +1830,23 @@ def main():
                         if (!byId("custom-items").hidden) click("close-custom-items");
                     }
                 })()''',
+                'AD&D 2e weapon forms show 2024 comparisons and exceptions': '''(async () => {
+                    const cases = [
+                        ["bf016630ca2480a2", ["1d10 Piercing", "Heavy, Reach, Two-Handed"]],
+                        ["21011df4c0480cf7", ["80/320 feet", "Hand crossbow", "Heavy crossbow"]],
+                        ["d93b9fbc38c2896c", ["Shortbow 1d6 Piercing", "modifier + 1"]],
+                        ["8a77dbeb8b3cc1df", ["Strength rating to 13, 15, or 17", "Dexterity 13"]],
+                        ["8aed65824ac012b0", ["1d4 Bludgeoning", "1 Hit Point"]],
+                        ["45ff7a025f063d67", ["40 feet maximum", "automatically miss underwater"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dmg-2e-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))
+                            || inspection.textContent.includes("2024 provisional profile")) return false;
+                    }
+                    return true;
+                })()''',
                 'AD&D 2e named swords retain their distinctive rules': '''(async () => {
                     const cases = [
                         ["610bfbead9f30de4", ["Dancing range", "four more attack turns"]],
