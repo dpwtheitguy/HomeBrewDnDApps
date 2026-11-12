@@ -1869,6 +1869,28 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Vault of Magic separates quiet armor, weapon riders, and recovery saves': '''(async () => {
+                    for (const [id, terms] of [
+                        ["muffled-plate", ["Armor class18", "Stealth disadvantageNo", "15. Below"]],
+                        ["muffled-half-plate", ["15 + Dex modifier", "Stealth disadvantageNo"]],
+                        ["pestilent-spear", ["DC 13 Constitution", "Daily at dawn", "DC 11 Constitution", "1d4 days"]],
+                        ["mutineers-blade", ["modifier + 2", "nearest ally", "natural 20"]],
+                        ["phidjetz-spinner", ["Monk", "30 feet for the spinning attack", "1d6 Lightning and Paralyzed"]],
+                        ["pick-of-ice-breaking", ["Damage Threshold", "2d8 Piercing"]],
+                        ["pistol-of-the-umbral-court", ["30/120 feet", "DC 15 Strength", "1d6 Bludgeoning"]],
+                        ["poison-strand", ["DC 17 Dexterity", "DC 17 Strength", "1 minute of total restraint"]],
+                        ["primordial-scale", ["Darkvision to 60 feet", "AttunementRequired", "agents of gods"]],
+                        ["rain-of-chaos", ["150/600 feet", "8 Thunder"]],
+                    ]) {
+                        inspect("open5e-vom:vom_" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))
+                            || (id.startsWith("muffled") && inspection.textContent.includes("Stealth disadvantageYes"))) {
+                            throw new Error("Missing or conflicting fields on " + id);
+                        }
+                    }
+                    return true;
+                })()''',
                 'Vault of Magic restores alternate attack modes and armor limits': '''(async () => {
                     for (const [id, terms] of [
                         ["manticores-tail", ["5 feet melee", "100/200 feet", "ten regrow at dawn", "Bludgeoning"]],

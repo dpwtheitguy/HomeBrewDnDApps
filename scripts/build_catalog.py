@@ -182,6 +182,15 @@ def main():
         'vom_masher-basher': 28,
         'vom_meteoric-plate': 28,
         'vom_mountain-hewer': 29,
+        'vom_mutineers-blade': 29,
+        'vom_odd-bodkin': 30,
+        'vom_pestilent-spear': 30,
+        'vom_phidjetz-spinner': 30,
+        'vom_pick-of-ice-breaking': 30,
+        'vom_pistol-of-the-umbral-court': 30,
+        'vom_poison-strand': 30,
+        'vom_primordial-scale': 31,
+        'vom_rain-of-chaos': 31,
     }
     vault_weapon_corrections = {
         'vom_anchor-of-striking': ('Anchor of Striking', 'srd_war-pick', 11),
@@ -230,7 +239,7 @@ def main():
                         vault_page = 27
                     if raw['pk'].startswith(('vom_mirrored-', 'vom_moonsteel-')):
                         vault_page = 28
-                    if raw['pk'].startswith(('vom_mordant-', 'vom_mountaineers-')):
+                    if raw['pk'].startswith(('vom_mordant-', 'vom_mountaineers-', 'vom_muffled-')):
                         vault_page = 29
                     if raw['pk'].startswith('vom_ghost-barding-'):
                         vault_page = 24
@@ -242,7 +251,7 @@ def main():
                     if (raw['pk'] in ('vom_animated-chain-mail', 'vom_blood-soaked-hide', 'vom_brazen-bulwark',
                                       'vom_crusaders-shield', 'vom_fellforged-armor', 'vom_fountmail',
                                       'vom_goblin-shield', 'vom_gorgon-scale', 'vom_grasping-shield', 'vom_larkmail',
-                                      'vom_living-juggernaut', 'vom_mail-of-the-sword-master')
+                                      'vom_living-juggernaut', 'vom_mail-of-the-sword-master', 'vom_primordial-scale')
                             or raw['pk'].startswith(('vom_bloodprice-', 'vom_chillblain-', 'vom_encouraging-',
                                                      'vom_grave-ward-'))):
                         f = {**f, 'requires_attunement': True}
