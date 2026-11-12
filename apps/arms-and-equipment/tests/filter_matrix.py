@@ -1740,6 +1740,21 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault shields distinguish base AC from triggered defenses': '''(async () => {
+                    const cases = [
+                        ["57c91b4becb53a37", ["Disadvantage", "Short or Long Rest"]],
+                        ["aedb8743a16da5b6", ["each melee attack by 5", "1 minute"]],
+                        ["dfb978019e260ff7", ["additional +2 AC against Opportunity Attacks", "flanking rule"]],
+                        ["481151e1269435b9", ["one ally within 5 feet", "+1 AC for 1 minute"]],
+                        ["81fdc9dd112bf01e", ["Reaction", "+4 AC against that attack", "turning the hit into a miss"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!["Armor class bonus+2", ...terms].every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Adventurer’s Vault tactical and transformation armor shows its limits': '''(async () => {
                     const cases = [
                         ["b73a33894e7e865b", ["Armor class19", "Intelligence modifier", "other than an attack roll"]],

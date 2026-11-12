@@ -1,6 +1,131 @@
 {
   "schema_version": 1,
   "records": {
+    "adventurers-vault-1-reference:57c91b4becb53a37": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "As a Bonus Action while holding the shield, choose one ally within 5 feet. Until the start of your next turn, attack rolls against that ally have Disadvantage. Recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 119 (PDF p. 120), Shadowflow Shield.",
+          "Conversion notes": "Represents 4e concealment as Disadvantage on incoming attack rolls. Rest recharge replaces encounter recharge. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:aedb8743a16da5b6": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "As a Bonus Action while holding the shield, activate its protection for 1 minute. Reduce the total damage you take from each melee attack by 5, to a minimum of 0. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 119 (PDF p. 120), Shield of Blocking.",
+          "Conversion notes": "Uses the original lowest-tier reduction. A one-minute duration replaces the original encounter duration. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:dfb978019e260ff7": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Uncommon",
+          "Special powers": "While holding the shield, gain an additional +2 AC against Opportunity Attacks. As a Bonus Action, guard your blind spots until the end of your next turn. During that time an enemy cannot gain Advantage against you solely from an ally being on your opposite side. This activation recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 120 (PDF p. 121), Shield of Eyes.",
+          "Conversion notes": "Retains the original extra shield bonus against opportunity attacks. The active effect applies when the table uses a flanking rule that grants Advantage. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:481151e1269435b9": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Uncommon",
+          "Special powers": "As a Bonus Action while holding the shield, choose one ally within 5 feet. That ally gains +1 AC for 1 minute. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 120 (PDF p. 121), Shield of the Guardian.",
+          "Conversion notes": "Uses the original lowest-tier ally bonus. A one-minute duration replaces the original encounter duration. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:81fdc9dd112bf01e": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "When an attack roll hits an ally within 5 feet of you while you hold the shield, take a Reaction. The ally gains +4 AC against that attack, potentially turning the hit into a miss. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 120 (PDF p. 121), Shimmerlight Shield.",
+          "Conversion notes": "Uses the original lowest-tier defensive bonus and translates an attack against Reflex into an attack roll against AC. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
     "adventurers-vault-1-reference:b73a33894e7e865b": [
       {
         "label": "D&D 2024 adaptation · Chain Mail",
