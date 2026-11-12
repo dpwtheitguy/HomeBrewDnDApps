@@ -694,6 +694,24 @@ def main():
                     }
                     return true;
                 })()''',
+                'Salubrious Armor shows both bases and the corrected healing bonus': '''(async () => {
+                    const cases = [
+                        ["dndbeyond:11628225", "Verified 2024 armor rules"],
+                        ["adventurers-vault-1-reference:0bc22a5f6002434b", "D&D 2024 conversion using the published counterpart"],
+                    ];
+                    for (const [id, label] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        const details = inspection.textContent;
+                        const terms = [label + " · Scale Mail", label + " · Plate Armor",
+                            "Armor class15 + Dex modifier (max +2)", "Armor class19",
+                            "bonus becomes +2 until the end of your next turn"];
+                        if (id === "dndbeyond:11628225" && ![...inspection.querySelectorAll("a")].some(link =>
+                            link.textContent === "Read published rules" && link.href.includes("/posts/2222-"))) return false;
+                        if (!terms.every(term => details.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Expanded armor preserves published exceptions and curses': '''(async () => {
                     const cases = [
                         ["dndbeyond:21731", ["Armor class18", "Stealth disadvantageNo", "DC 15 Constitution", "10d10 + 45"]],

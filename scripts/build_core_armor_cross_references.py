@@ -75,7 +75,13 @@ def same_base(left, right):
 LEGACY_ARMOR_ENHANCEMENTS = {'dndbeyond:5377': 1, 'dndbeyond:5378': 2, 'dndbeyond:5379': 3}
 
 BOOK_OF_MANY_THINGS = 'https://www.dndbeyond.com/sources/dnd/tbomt'
+SALUBRIOUS_ERRATA = 'https://www.dndbeyond.com/posts/2222-d-d-beyonds-august-drop-sewers-and-treasures'
+SALUBRIOUS_POWERS = (
+    'While wearing this armor, gain +1 AC. Whenever you regain Hit Points, the armor turns reddish '
+    'and its bonus becomes +2 until the end of your next turn.'
+)
 PUBLIC_ARMOR_RULES = {
+    'dndbeyond:11628225': SALUBRIOUS_ERRATA,
     **dict.fromkeys((
         'dndbeyond:7526578', 'dndbeyond:7526586', 'dndbeyond:7526597', 'dndbeyond:7526611',
         'dndbeyond:7526627', 'dndbeyond:7526630', 'dndbeyond:7526632', 'dndbeyond:7526655',
@@ -127,6 +133,7 @@ PUBLIC_ARMOR_RULES = {
 
 METAL_ARMOR_FAMILIES = {'Adamantine Armor', 'Mithral Armor', 'Mizzium Armor'}
 PUBLIC_FIXED_BASES = {
+    'Salubrious Armor': {'Scale Mail', 'Plate Armor'},
     "Heward's Hireling Armor": {'Leather Armor'},
     'Leather Golem Armor': {'Leather Armor'},
     'Powered Armor': {'Plate Armor'},
@@ -168,6 +175,12 @@ PUBLIC_TRAINING_LIMITS = {
 }
 
 PUBLIC_ARMOR = {
+    'dndbeyond:11628225': (
+        'Salubrious Armor', '11628225-salubrious-armor', 1, True, 'Rare', {
+            'Special powers': SALUBRIOUS_POWERS,
+            'Publication': 'D&D Beyond June 2026 Drop, corrected by the August 2026 errata.',
+        },
+    ),
     **{
         item_id: (
             f'Armor, +{bonus}', f"{item_id.split(':')[1]}-armor-{bonus}",

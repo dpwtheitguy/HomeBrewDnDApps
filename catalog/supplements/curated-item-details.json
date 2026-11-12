@@ -1,6 +1,54 @@
 {
   "schema_version": 1,
   "records": {
+    "adventurers-vault-1-reference:0bc22a5f6002434b": [
+      {
+        "label": "D&D 2024 conversion using the published counterpart · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, gain +1 AC. Whenever you regain Hit Points, the armor turns reddish and its bonus becomes +2 until the end of your next turn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 51 (PDF p. 52).",
+          "Conversion notes": "The 4e suit had +1 to +6 enhancement and a separate +1 to +3 healing-triggered AC bonus. Use the published 2024 counterpart’s fixed +1 and temporary +2 instead, preserving the eligible armor types and the trigger.",
+          "2024 rules errata": "https://www.dndbeyond.com/posts/2222-d-d-beyonds-august-drop-sewers-and-treasures"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 conversion using the published counterpart · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, gain +1 AC. Whenever you regain Hit Points, the armor turns reddish and its bonus becomes +2 until the end of your next turn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 51 (PDF p. 52).",
+          "Conversion notes": "The 4e suit had +1 to +6 enhancement and a separate +1 to +3 healing-triggered AC bonus. Use the published 2024 counterpart’s fixed +1 and temporary +2 instead, preserving the eligible armor types and the trigger.",
+          "2024 rules errata": "https://www.dndbeyond.com/posts/2222-d-d-beyonds-august-drop-sewers-and-treasures"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
     "bg3-wiki:3700": [
       {
         "label": "Baldur’s Gate 3 rules",
