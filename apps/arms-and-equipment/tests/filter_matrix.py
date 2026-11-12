@@ -1871,6 +1871,21 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Mystara swords show sealed powers and sentient effects': '''(async () => {
+                    for (const [id, terms] of [
+                        ["bc189d6fdf4fd0b5", ["DC 17 Wisdom", "three charges that never return", "Remove Curse"]],
+                        ["96dc69e97a1583e6", ["DC 17 Charisma", "Charmed", "Church of Darokin"]],
+                        ["63f9356b06a71e3b", ["Altar of Light", "DC 18 Dexterity", "80-foot Line", "Wish"]],
+                        ["23eb6affbc73350d", ["maximum of 20", "DC 16 Wisdom", "telepathically"]],
+                    ]) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Mystara swords show creature riders, utility powers, and multiple masteries': '''(async () => {
                     for (const [id, terms] of [
                         ["c14a727e06271c70", ["120 feet", "Hit Point Die", "Petrified"]],

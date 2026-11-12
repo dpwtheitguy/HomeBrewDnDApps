@@ -1,6 +1,128 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:bc189d6fdf4fd0b5": [
+      {
+        "label": "D&D 2024 adaptation · Sword of Nithia",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/UniqueMagicSwords2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required for the unsealed powers",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "The listed +3 applies after unsealing. While cursed, the sword instead imposes −1 on its attack and damage rolls. The first time a creature grasps it, it makes a DC 17 Wisdom save. On a failure it forgets its personal history and relationships. It keeps its abilities, languages, and class features. It senses hints leading to the last days of Nithia, as the DM describes.",
+          "Conversion notes": "The legacy +5 is capped at +3. The draft adds a save and keeps time travel as a story event. The curse does not change the player’s control of the character.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 5, PDF p. 10.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Curse": "Remove Curse restores the wielder’s memories and releases them from the item. It leaves the sword sealed. If the wielder witnesses or averts Nithia’s fall through the DM’s story, the curse ends permanently and memories return.",
+          "Three wishes": "After unsealing, the sword gains three charges that never return. While attuned, take a Magic action and spend 1 charge to cast Wish. All normal consequences of the spell apply. After the third charge the sword remains a +3 Longsword."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:96dc69e97a1583e6": [
+      {
+        "label": "D&D 2024 adaptation · Chevalier",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/UniqueMagicSwords2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 Slashing + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "6 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "The sword speaks Darokinese Common. When it reduces a hostile creature to 0 Hit Points, the wielder can use the ordinary 2024 knockout rule. Once per dawn when the wielder knocks a creature out with the sword, it makes a DC 17 Charisma save. On a failure, it is Charmed by the wielder for 1 hour after it wakes. The effect ends early if the wielder or an ally damages it.",
+          "Conversion notes": "Uses the 2024 Greatsword. A temporary truce effect replaces the legacy forced alignment change and separate damage tally.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 5, PDF p. 11.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Sentience": "Chevalier champions justice and asks to be returned to the Church of Darokin if stolen. If its attuned wielder refuses, it can suppress the truce power until they agree. The DM adjudicates the sword’s demands."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:63f9356b06a71e3b": [
+      {
+        "label": "D&D 2024 adaptation · Ultima Sword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/UniqueMagicSwords2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "The sealed sword is a +1 Longsword. On the Altar of Light in Ostland, the DM’s three-stone quest unlocks it. Once unlocked it becomes +3. The unlock ends if its owner dies or the sword is stolen. It then reseals and reappears at a location chosen by the DM.",
+          "Conversion notes": "The draft caps the legacy +5 at +3, uses extra dice in place of damage multipliers, and translates eight elements into 2024 damage types.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 5, PDF p. 12.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Unsealed attack": "A hit on a creature with Magic Resistance deals an extra 2d6 Force. Up to three times per dawn, add 3d8 Slashing to a hit.",
+          "Wish": "Once in the sword’s existence while unsealed, take a Magic action to cast Wish. The use does not return when the sword reseals.",
+          "Elemental choices": "Fire, Cold, Acid, Lightning, Thunder, Radiant, Necrotic, or Bludgeoning.",
+          "Elemental blast": "Once per dawn as a Magic action, choose a listed damage type and an 80-foot Line 5 feet wide, a 40-foot Cone, or a 10-foot-radius Sphere centered on a point you can see within 60 feet. Each creature in the area makes a DC 18 Dexterity save, taking 6d6 of the chosen type on a failure or half on a success.",
+          "Elemental shield": "Once per dawn as a Bonus Action, choose a listed type. Gain Resistance to it for 1 minute.",
+          "Elemental blade": "Once per dawn as a Bonus Action, choose a listed type. For 1 minute, hits with the sword deal an extra 1d6 of that type."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:23eb6affbc73350d": [
+      {
+        "label": "D&D 2024 adaptation · Elegance",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/UniqueMagicSwords2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "While holding the sword, your Charisma increases by 2, to a maximum of 20. Once per dawn as a Magic action, choose a creature you can see within 30 feet. It makes a DC 16 Wisdom save with Advantage if you or your companions are fighting it. On a failure it is Charmed by you for 1 hour. The effect ends early if you or your companions damage it. It knows it was charmed when the effect ends.",
+          "Conversion notes": "The draft caps the Charisma increase and uses a bounded Charm Monster-style effect. The sentience creates roleplaying pressure.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 5, PDF p. 13.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Sentience": "The sword communicates telepathically with its wielder and prizes elegant clothes and manners. If it is repeatedly ignored, the DM may have it withhold its charm power until the wielder agrees to a reasonable request."
+        }
+      }
+    ],
     "mystara-fan-names-reference:c14a727e06271c70": [
       {
         "label": "D&D 2024 adaptation · Obsidian the Destroyer",
