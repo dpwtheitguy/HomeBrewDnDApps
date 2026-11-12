@@ -1336,6 +1336,21 @@ def main():
                     return inspection.textContent.includes("Published 2024 staff rules")
                         && inspection.textContent.includes("Wall of Thorns costs 6");
                 })()''',
+                'Luck Blade variants retain wishes and AD&D darts show per-weapon damage': '''(async () => {
+                    for (const [id, count] of [["178523807355d19a", 0], ["d5567cc9bad1dbbd", 1],
+                        ["88d9dcccb086ec6b", 2], ["68dbb88212ffff68", 3]]) {
+                        inspect("dmg-35-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const details = inspection.textContent;
+                        if (!details.includes(count + " Wish charges remaining")
+                                || !details.includes("reroll recharges at dawn")
+                                || (count === 0 && details.includes("spend a Wish charge"))) return false;
+                    }
+                    inspect("dmg-2e-reference:a25be151305d8c7d", grid.firstElementChild);
+                    await itemDetails;
+                    return ["Dart (3d4)", "1d4 + Strength or Dexterity", "20/60 ft thrown", "Vex"]
+                        .every(value => inspection.textContent.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
