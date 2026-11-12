@@ -689,6 +689,21 @@ def main():
                         && ["Dagger of Venom · Dagger", "AttunementNone", "Nick", "2d10 Poison"]
                             .every(value => dagger.includes(value));
                 })()''',
+                'Broad weapon families respect melee eligibility and collapse long lists': '''(async () => {
+                    inspect("dndbeyond:9228647", grid.firstElementChild);
+                    await itemDetails;
+                    const flame = inspection.textContent;
+                    const variants = Array.from(inspection.querySelectorAll("details")).filter(panel =>
+                        panel.querySelector("summary") && panel.querySelector("summary").textContent.includes("Published 2024 · Flame Tongue"));
+                    inspect("dndbeyond:9228520", grid.firstElementChild);
+                    await itemDetails;
+                    const dragon = inspection.textContent;
+                    return flame.includes("Flame Tongue · Dagger") && !flame.includes("Flame Tongue · Dart")
+                        && !flame.includes("Flame Tongue · Longbow") && variants.length === 28
+                        && variants.filter(panel => panel.open).length === 1
+                        && ["Dragon Slayer · Longbow", "Dragon Slayer · Dart", "3d6"]
+                            .every(value => dragon.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

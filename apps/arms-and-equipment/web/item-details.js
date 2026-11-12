@@ -193,7 +193,7 @@ function addRecordedEncounters(panel, item) {
         proof.additional_sources || [], research.source_refs || []);
     const seen = new Set();
     const encounters = [];
-    entries.forEach(entry => {
+    entries.forEach((entry, index) => {
         const locator = entry.locator || {};
         const location = locator.area || locator.room || locator.encounter || locator.location;
         if (typeof location !== "string") return;
@@ -356,13 +356,13 @@ function addItemDetails(panel, item, supplements) {
     if (!hasPublishedCombatRules && !addPublishedCrossReference(panel, item, references, enhancements)) {
         addWeaponProfile(panel, item, weapons);
     }
-    entries.forEach(entry => {
+    entries.forEach((entry, index) => {
         const label = entry.status === "original-draft" ? entry.label + " · DM review" : entry.label;
         const playableDraft = entry.status === "original-draft" &&
             (["Damage", "Range", "Activation"].every(field => entry.fields[field]) ||
                 (entry.fields.Training && (entry.fields["Armor class"] || entry.fields["Armor class bonus"])));
         const details = itemDetailsSection(panel, label, Object.entries(entry.fields), entry.source,
-            entry.status !== "original-draft" || playableDraft);
+            playableDraft || (entry.status !== "original-draft" && (entries.length <= 12 || index === 0)));
         if (entry.rules_source) {
             details.appendChild(sourceLink(entry.rules_source, "Read published rules"));
         }

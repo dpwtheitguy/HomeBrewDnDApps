@@ -225,6 +225,11 @@ FAMILIES = {
 
 PUBLIC_INDEX = 'dndbeyond-public-index'
 PUBLIC_WEAPON_PAGES = {
+    'Defender': '9228450-defender',
+    'Dragon Slayer': '9228520-dragon-slayer',
+    'Flame Tongue': '9228647-flame-tongue',
+    'Holy Avenger': '9228774-holy-avenger',
+    'Vicious Weapon': '9229175-vicious-weapon',
     'Dagger of Venom': '9228415-dagger-of-venom',
     'Frost Brand': '9228651-frost-brand',
     'Hammer of Thunderbolts': '9228714-hammer-of-thunderbolts',
@@ -239,6 +244,8 @@ PUBLIC_WEAPON_PAGES = {
     'Vorpal Sword': '9229181-vorpal-sword',
 }
 
+
+PUBLIC_ANY_SIMPLE_OR_MARTIAL = {'Dragon Slayer', 'Holy Avenger', 'Vicious Weapon'}
 
 PUBLIC_BASES = {
     'Frost Brand': ('Glaive', 'Greatsword', 'Longsword', 'Rapier', 'Scimitar', 'Shortsword'),
@@ -289,7 +296,7 @@ def main():
             "SELECT data_json FROM items WHERE type='weapon' AND source_id IN (?, ?, ?) ORDER BY id",
             (LEGACY, CURRENT, PUBLIC_INDEX))]
     bases = {item['name']: item['mechanics'] for item in items
-             if item['source_id'] == CURRENT and item['magic'] is False and item['mechanics'].get('weapon')}
+             if item['source_id'] == CURRENT and item['magic'] is False and item['mechanics'].get('weapon') and not item['mechanics']['weapon']['is_improvised']}
     records, targets, generic_targets = {}, {}, {}
     for item in items:
         weapon = item['mechanics'].get('weapon')
@@ -352,7 +359,12 @@ def main():
             continue
         rules = FAMILIES[family]
         variants = []
-        eligible = PUBLIC_BASES.get(family) or rules.get('published_bases') or (rules['base'],)
+        if rules.get('melee_only'):
+            eligible = [base for base, mechanics in bases.items() if not is_ranged_weapon(mechanics)]
+        elif family in PUBLIC_ANY_SIMPLE_OR_MARTIAL:
+            eligible = bases
+        else:
+            eligible = PUBLIC_BASES.get(family) or rules.get('published_bases') or (rules['base'],)
         for base in eligible:
             entry = details(item, family, rules, bases[base])
             entry['label'] += ' · ' + base
