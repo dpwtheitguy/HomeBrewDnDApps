@@ -1871,6 +1871,22 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Death House and Mystara defenses show their equipment and encounter rules': '''(async () => {
+                    for (const [id, terms] of [
+                        ["curse-of-strahd-death-house:8368a50c5cddc9ad", ["33 Hit Points", "within 5 feet", "AC does not apply to a wearer"]],
+                        ["curse-of-strahd-death-house:2561dc573a376c96", ["Armor class bonus+2", "Durst heraldic device"]],
+                        ["pandius-regional-weapons-reference:a045cff862669b04", ["one charge per dart", "12 charges", "Graakhalia"]],
+                        ["pandius-traldar-relics-reference:72feb386926b8ffc", ["Armor class21", "two nonrenewable charges"]],
+                        ["pandius-traldar-relics-reference:b4dc3fc32b55b265", ["Armor class bonus+5", "Fly Speed of 60 feet"]],
+                    ]) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Mystara science-fantasy weapons show source-specific limits': '''(async () => {
                     for (const [id, terms] of [
                         ["4252ac8fc27ea59f", ["1 to 3 charges", "70/250 feet"]],

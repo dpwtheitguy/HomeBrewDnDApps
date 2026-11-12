@@ -1,6 +1,123 @@
 {
   "schema_version": 1,
   "records": {
+    "curse-of-strahd-death-house:8368a50c5cddc9ad": [
+      {
+        "label": "Encounter creature · Death House Animated Armor",
+        "source": "https://media.wizards.com/2016/downloads/DND/Curse%20of%20Strahd%20Introductory%20Adventure.pdf",
+        "profile_kind": "armor-encounter-construct",
+        "status": "source-reported",
+        "fields": {
+          "Source locator": "Death House, PDF p. 6, area 11, Balcony.",
+          "Use as armor": "Use this suit as an encounter creature. Its creature AC does not apply to a wearer.",
+          "Creature defenses": "AC 18, 33 Hit Points, Speed 25 feet. Use the linked Animated Armor stat block.",
+          "Encounter": "The black suit attacks if it takes damage or a character comes within 5 feet. It fights until destroyed."
+        },
+        "rules_source": "https://www.dndbeyond.com/monsters/5194893-animated-armor"
+      }
+    ],
+    "curse-of-strahd-death-house:2561dc573a376c96": [
+      {
+        "label": "Published 2024 equipment comparison · Durst Windmill Coat-of-Arms Shield",
+        "source": "https://media.wizards.com/2016/downloads/DND/Curse%20of%20Strahd%20Introductory%20Adventure.pdf",
+        "profile_kind": "published-armor-mapping",
+        "status": "published-reference",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield training",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "None",
+          "Special powers": "The adventure describes a shield displayed in the foyer. If removed and found serviceable, use normal Shield rules. No magical effect is described.",
+          "Conversion notes": "Uses the published Shield profile when wielded as equipment. The gold windmill is the Durst heraldic device.",
+          "Source locator": "Death House, PDF pp. 4–5, area 1B, Entrance."
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        }
+      }
+    ],
+    "pandius-regional-weapons-reference:a045cff862669b04": [
+      {
+        "label": "D&D 2024 adaptation · Magic Missile Protector",
+        "source": "https://pandius.com/missiles.html",
+        "profile_kind": "adapted-source-armor",
+        "status": "original-draft",
+        "fields": {
+          "Armor class bonus": "+3",
+          "Training": "Shield training",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "None",
+          "Special powers": "While wielding the shield, when Magic Missile darts would strike you, use a Reaction to absorb any number of those darts. Spend one charge per dart absorbed. The remaining darts resolve normally. A new shield holds 12 charges. A recovered shield has 1d6 + 2 remaining. At 0 charges the AC bonus becomes +2 until recharged. Only the makers in Graakhalia can recharge it, at a fee set by the DM.",
+          "Conversion notes": "Uses a single Reaction and one charge per dart. The Sheyallia-made shield retains the ordinary +2 Shield defense when depleted.",
+          "Source locator": "Shield +1, Magic Missile Protector, under the Alphatian missile spells.",
+          "Rarity": "Uncommon"
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "enhancement_bonus": 1
+      }
+    ],
+    "pandius-traldar-relics-reference:72feb386926b8ffc": [
+      {
+        "label": "D&D 2024 adaptation · Armour of Halav, the Death-Teaser",
+        "source": "https://pandius.com/tralmtem.html",
+        "profile_kind": "adapted-source-armor",
+        "status": "original-draft",
+        "fields": {
+          "Armor class": "21",
+          "Training": "Heavy armor training",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Special powers": "While wearing it, you have Advantage on saves against effects that reduce your Hit Point maximum. When you die while wearing it on a quest tied to the fate of the Traladaran people, the armor automatically spends one of its two nonrenewable charges to return you to life with 1 Hit Point, provided your body is intact enough for Revivify. If no charges remain or you are ineligible, the armor cannot revive you.",
+          "Conversion notes": "The legacy energy-drain save becomes Advantage against Hit Point maximum reduction. Revivify supplies the limits for the automatic return.",
+          "Source locator": "Ville V. Lähde, Traladaran Magic Items, The Armour of Halav.",
+          "Rarity": "Legendary"
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 Plate Armor"
+        },
+        "enhancement_bonus": 3
+      }
+    ],
+    "pandius-traldar-relics-reference:b4dc3fc32b55b265": [
+      {
+        "label": "D&D 2024 adaptation · Krakatos Crest Flying Buckler",
+        "source": "https://pandius.com/tralcres.html",
+        "profile_kind": "adapted-source-armor",
+        "status": "original-draft",
+        "fields": {
+          "Armor class bonus": "+5",
+          "Training": "Shield training",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Special powers": "Once per dawn as a Magic action while wielding the buckler, gain a Fly Speed of 60 feet for up to 10 minutes with Concentration. The flight ends if you stop wielding the shield.",
+          "Conversion notes": "Treats the buckler as a 2024 Shield. The source names flight without specifying a duration. The speed, action, and daily limit are conversion rules.",
+          "Source locator": "Traldar Crests, Crest of Krakatos.",
+          "Rarity": "Legendary"
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "enhancement_bonus": 3
+      }
+    ],
     "mystara-fan-names-reference:4252ac8fc27ea59f": [
       {
         "label": "D&D 2024 adaptation · Laser Pistol",
