@@ -1367,6 +1367,20 @@ def main():
                     }
                     return true;
                 })()''',
+                'AD&D transforming staves show distinct attack modes': '''(async () => {
+                    const cases = [
+                        ["dmg-2e-reference:680079a22843134e", ["6 to 12 feet", "10-foot reach", "original item is +5"]],
+                        ["dmg-2e-reference:6e18ee13d4ebe531", ["2d4", "Sap mastery", "10-foot reach"]],
+                        ["dmg-2e-reference:a92f8721d4212a02", ["11–20 gives +3", "On a 20", "Magic action"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    return true;
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
