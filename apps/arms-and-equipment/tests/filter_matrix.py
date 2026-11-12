@@ -1869,6 +1869,25 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Vault of Magic distinguishes transformed weapons, spell focus and special arrows': '''(async () => {
+                    for (const [id, terms] of [
+                        ["clockwork-mace-of-divinity", ["1d6 Bludgeoning", "1d8 Piercing", "20/60 feet", "1d6 Radiant"]],
+                        ["commanders-plate", ["Armor class18", "300 feet", "Long Rest"]],
+                        ["crusaders-shield", ["Armor class bonus+2", "Cleric, Druid, or Paladin", "DC 10 Intelligence"]],
+                        ["constant-dagger", ["natural 20", "Immunity becomes Resistance", "three times"]],
+                        ["dagger-of-the-barbed-devil", ["DC 15 Dexterity", "DC 15 Constitution", "1d4 Piercing"]],
+                        ["dawn-shard-scimitar", ["Nick", "2d6", "20-foot radius"]],
+                        ["crimson-starfall-arrow", ["Hit Point Dice", "10 feet", "Necrotic damage"]],
+                        ["deadfall-arrow", ["80/320 feet", "3d6 Bludgeoning", "DC 15 Strength"]],
+                    ]) {
+                        inspect("open5e-vom:vom_" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) {
+                            throw new Error("Missing fields on " + id);
+                        }
+                    }
+                    return true;
+                })()''',
                 'Vault of Magic retains axe powers and Chillblain curses': '''(async () => {
                     for (const [id, terms] of [
                         ["candied-axe", ["save DC 15", "immune to Poison", "120 feet", "After 7 days", "Remove Curse"]],

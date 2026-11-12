@@ -5,23 +5,23 @@ This is a field coverage scan. A source-text or location lead still requires rev
 
 | Field | Structured or catalog price | 2024 reference or guideline | Draft | Leads | Unknown | N/A |
 |---|---:|---:|---:|---:|---:|---:|
-| Damage | 2,635 | 250 | 797 | 402 | 30,444 | 0 |
-| Bonuses | 453 | 192 | 780 | 604 | 32,499 | 0 |
+| Damage | 2,635 | 250 | 799 | 401 | 30,443 | 0 |
+| Bonuses | 453 | 192 | 791 | 601 | 32,491 | 0 |
 | Encounters | 2 | 0 | 2 | 4,909 | 29,615 | 0 |
 | Crafting | 7 | 214 | 14 | 131 | 34,162 | 0 |
-| Special Powers | 1,575 | 186 | 1,185 | 3,006 | 28,576 | 0 |
+| Special Powers | 1,575 | 186 | 1,198 | 2,993 | 28,576 | 0 |
 | History | 13 | 0 | 20 | 0 | 34,495 | 0 |
-| Range | 952 | 257 | 823 | 675 | 31,821 | 0 |
+| Range | 952 | 257 | 831 | 674 | 31,814 | 0 |
 | Radius | 159 | 20 | 9 | 335 | 34,003 | 2 |
 | Casting Time | 0 | 14 | 2 | 8 | 34,449 | 55 |
-| Activation | 362 | 243 | 834 | 671 | 32,418 | 0 |
+| Activation | 362 | 243 | 845 | 664 | 32,414 | 0 |
 | Duration | 246 | 30 | 8 | 666 | 33,578 | 0 |
 | Saving Throw | 39 | 48 | 29 | 507 | 33,903 | 2 |
 | Attunement | 4,361 | 277 | 1,044 | 0 | 28,826 | 20 |
-| Weight | 6,075 | 149 | 750 | 0 | 27,554 | 0 |
+| Weight | 6,075 | 149 | 762 | 0 | 27,542 | 0 |
 | Base Price | 9,369 | 0 | 25,159 | 0 | 0 | 0 |
 | Provenance | 34,528 | 0 | 0 | 0 | 0 | 0 |
 
-255 ammunition entries have at least one unresolved damage, range, or activation field. See [ammunition-rule-gaps.csv](ammunition-rule-gaps.csv).
+253 ammunition entries have at least one unresolved damage, range, or activation field. See [ammunition-rule-gaps.csv](ammunition-rule-gaps.csv).
 
 Individual statuses are in [item-detail-audit.csv](item-detail-audit.csv).

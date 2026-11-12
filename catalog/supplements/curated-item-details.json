@@ -1,6 +1,363 @@
 {
   "schema_version": 1,
   "records": {
+    "open5e-vom:vom_clockwork-mace-of-divinity": [
+      {
+        "label": "D&D 2024 adaptation · Clockwork Mace of Divinity",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "4 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While attuned, you are proficient with this weapon in either form. Use a Bonus Action to switch between mace and trident. A hit in trident form deals an extra 1d6 Radiant damage, including on a thrown attack.",
+          "Conversion notes": "Uses the 2024 Mace and Trident profiles. The conversion lets the command switch back to mace form at the same action cost.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 19.",
+          "Trident form": "Martial melee weapon. Strength modifier + Proficiency Bonus to hit. On a hit, 1d8 Piercing (1d10 using two hands in melee) + Strength modifier, plus 1d6 Radiant. Reach 5 feet. Thrown 20/60 feet, Versatile (1d10), and Topple if you can use its mastery."
+        }
+      }
+    ],
+    "open5e-vom:vom_constant-dagger": [
+      {
+        "label": "D&D 2024 adaptation · Constant Dagger",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "On a natural 20 with the dagger, apply these changes to Bludgeoning, Piercing, and Slashing defenses before damage. Existing Immunity becomes Resistance. Existing Resistance is removed. These changes last until the start of your next turn. If the target started with neither defense to any of the three types, roll the attack’s damage dice three times and add its flat modifiers once.",
+          "Conversion notes": "Treats the three damage types separately and resolves the defense change before the triggering critical hit.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 20."
+        }
+      }
+    ],
+    "open5e-vom:vom_dagger-of-the-barbed-devil": [
+      {
+        "label": "D&D 2024 adaptation · Dagger of the Barbed Devil",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Once per dawn, take a Magic action to grow barbs on the blade for 1 minute. On a hit while barbed, the target makes a DC 15 Dexterity save. On a failure, one barb lodges and the dagger loses its barbs. At the start of each of its turns, the lodged creature makes a DC 15 Constitution save. On a failure, it has Disadvantage on attack rolls and ability checks until the start of its next turn. The creature or another creature within reach can remove the barb as a Utilize action, dealing 1d4 Piercing damage to the lodged creature.",
+          "Conversion notes": "Retains the separate lodging and pain saves. The dagger’s one-minute timer applies to barbs still on the blade.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 21."
+        }
+      }
+    ],
+    "open5e-vom:vom_dawn-shard-dagger": [
+      {
+        "label": "D&D 2024 adaptation · Dawn Shard Dagger",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When you hit a creature, add 1d6 Radiant damage, or 2d6 if it is Undead or a creature of shadow. As a Bonus Action, choose Dim Light in a 5-foot radius, Bright Light in a 20-foot radius plus Dim Light for another 20 feet, or no light.",
+          "Conversion notes": "Uses the 2024 Dagger profile. The DM identifies creatures of shadow, such as creatures native to the Shadowfell.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 21."
+        }
+      }
+    ],
+    "open5e-vom:vom_dawn-shard-greatsword": [
+      {
+        "label": "D&D 2024 adaptation · Dawn Shard Greatsword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "6 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When you hit a creature, add 1d6 Radiant damage, or 2d6 if it is Undead or a creature of shadow. As a Bonus Action, choose Dim Light in a 5-foot radius, Bright Light in a 20-foot radius plus Dim Light for another 20 feet, or no light.",
+          "Conversion notes": "Uses the 2024 Greatsword profile. The DM identifies creatures of shadow, such as creatures native to the Shadowfell.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 21."
+        }
+      }
+    ],
+    "open5e-vom:vom_dawn-shard-longsword": [
+      {
+        "label": "D&D 2024 adaptation · Dawn Shard Longsword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When you hit a creature, add 1d6 Radiant damage, or 2d6 if it is Undead or a creature of shadow. As a Bonus Action, choose Dim Light in a 5-foot radius, Bright Light in a 20-foot radius plus Dim Light for another 20 feet, or no light.",
+          "Conversion notes": "Uses the 2024 Longsword profile. The DM identifies creatures of shadow, such as creatures native to the Shadowfell.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 21."
+        }
+      }
+    ],
+    "open5e-vom:vom_dawn-shard-rapier": [
+      {
+        "label": "D&D 2024 adaptation · Dawn Shard Rapier",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_rapier",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When you hit a creature, add 1d6 Radiant damage, or 2d6 if it is Undead or a creature of shadow. As a Bonus Action, choose Dim Light in a 5-foot radius, Bright Light in a 20-foot radius plus Dim Light for another 20 feet, or no light.",
+          "Conversion notes": "Uses the 2024 Rapier profile. The DM identifies creatures of shadow, such as creatures native to the Shadowfell.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 21."
+        }
+      }
+    ],
+    "open5e-vom:vom_dawn-shard-scimitar": [
+      {
+        "label": "D&D 2024 adaptation · Dawn Shard Scimitar",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scimitar",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Slashing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Weight": "3 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When you hit a creature, add 1d6 Radiant damage, or 2d6 if it is Undead or a creature of shadow. As a Bonus Action, choose Dim Light in a 5-foot radius, Bright Light in a 20-foot radius plus Dim Light for another 20 feet, or no light.",
+          "Conversion notes": "Uses the 2024 Scimitar profile. The DM identifies creatures of shadow, such as creatures native to the Shadowfell.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 21."
+        }
+      }
+    ],
+    "open5e-vom:vom_dawn-shard-shortsword": [
+      {
+        "label": "D&D 2024 adaptation · Dawn Shard Shortsword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When you hit a creature, add 1d6 Radiant damage, or 2d6 if it is Undead or a creature of shadow. As a Bonus Action, choose Dim Light in a 5-foot radius, Bright Light in a 20-foot radius plus Dim Light for another 20 feet, or no light.",
+          "Conversion notes": "Uses the 2024 Shortsword profile. The DM identifies creatures of shadow, such as creatures native to the Shadowfell.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 21."
+        }
+      }
+    ],
+    "open5e-vom:vom_commanders-plate": [
+      {
+        "label": "D&D 2024 adaptation · Commander’s Plate",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy",
+          "Strength requirement": "15. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Special powers": "While wearing the plate, you can make your voice clearly audible to friendly creatures within 300 feet, subject to effects that block sound. Friendly creatures that can see or hear you have Advantage on saves against the Frightened condition. As a Bonus Action, rally one friendly creature that can see or hear you and choose attack rolls or damage rolls. It adds +1 to the chosen rolls on its next turn. It can be rallied again after it finishes a Long Rest.",
+          "Conversion notes": "Uses standard 2024 Plate Armor. The conversion makes the timing of the rally’s choice explicit.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 19."
+        }
+      }
+    ],
+    "open5e-vom:vom_crusaders-shield": [
+      {
+        "label": "D&D 2024 adaptation · Crusader’s Shield",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Training": "Shield",
+          "Weight": "6 lb",
+          "Rarity": "Common",
+          "Attunement": "Cleric, Druid, or Paladin",
+          "Special powers": "While holding the shield, use it as a Spellcasting Focus for your spells. Once per Long Rest, attempt to cast an unknown cantrip from your class spell list using its normal casting time. Make a DC 10 Intelligence (Religion) check. On a success, cast the cantrip. On a failure, the casting time and this use are spent.",
+          "Conversion notes": "The boss changes to a holy emblem or a sacred plant design when attuned. The printed class restriction and Versatile Cantrip appear here in full.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 20.",
+          "Armor class bonus": "+2"
+        }
+      }
+    ],
+    "open5e-vom:vom_crimson-starfall-arrow": [
+      {
+        "label": "D&D 2024 adaptation · Crimson Starfall Arrow",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open 2024 Longbow example"
+        },
+        "fields": {
+          "Category": "Ammunition (arrow)",
+          "Damage": "Launcher’s normal damage. See the special power for area damage.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient, plus any launcher enhancement.",
+          "Range": "Shortbow 80/320 feet or Longbow 150/600 feet.",
+          "Properties": "Requires a launcher that uses arrows.",
+          "Mastery": "Inherits the launcher’s mastery if you can use it.",
+          "Weight": "About 1/20 lb per arrow.",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Activation": "Expend the arrow as part of a ranged weapon attack with the bow.",
+          "Special powers": "On a hit against a creature, deal the bow’s normal damage. If you have blood, you may expend one or more available Hit Point Dice. For each die spent, roll it and add your Constitution modifier (minimum 0 per die). You lose the total in Hit Points. The target and every other creature within 10 feet of it make a DC 15 Dexterity save. On a failure, they take Necrotic damage equal to the Hit Points you lost, or half as much on a success. Regain the spent dice under the normal rest rules.",
+          "Conversion notes": "The optional blast comes after the triggering hit. The Hit Point cost is direct loss and the area includes allies and the shooter if in range.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 20."
+        }
+      }
+    ],
+    "open5e-vom:vom_deadfall-arrow": [
+      {
+        "label": "D&D 2024 adaptation · Deadfall Arrow",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open 2024 Longbow example"
+        },
+        "fields": {
+          "Category": "Ammunition (arrow)",
+          "Damage": "Launcher’s normal damage + 1 on the hit. See the special power for area damage.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient, plus any launcher enhancement and 1 for the arrow.",
+          "Range": "Shortbow 80/320 feet or Longbow 150/600 feet.",
+          "Properties": "Requires a launcher that uses arrows.",
+          "Mastery": "Inherits the launcher’s mastery if you can use it.",
+          "Weight": "About 1/20 lb per arrow.",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Activation": "Expend the arrow as part of a ranged weapon attack with the bow.",
+          "Special powers": "On a hit, deal the bow’s normal damage with the arrow’s +1 bonus. The arrow is destroyed and becomes a 10-foot-long log centered on the target. The target and each other creature in the log’s space make a DC 15 Dexterity save. On a failure, a creature takes 3d6 Bludgeoning damage and is Prone and Restrained. On a success, it takes half as much damage and avoids both conditions. A pinned creature can use a Utilize action to make a DC 15 Strength check, ending its restraint on a success. After 1 minute the log crumbles and any remaining restraints end.",
+          "Conversion notes": "The shooter chooses the log’s orientation. On a grid, use a 10-foot-by-5-foot footprint. The log’s area damage is separate from the bow hit.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 21."
+        }
+      }
+    ],
     "open5e-vom:vom_candied-axe": [
       {
         "label": "D&D 2024 adaptation · Candied Axe",
@@ -247,7 +604,7 @@
           "Attunement": "Required",
           "Special powers": "While wearing the armor, you have Cold Resistance. When a creature hits you with a melee weapon attack, it makes a DC 15 Constitution save. On a failure, its Speed decreases by 10 feet and on its turn it can take an action or a Bonus Action, with a maximum of one of those two. Both restrictions last until the end of its next turn.",
           "Conversion notes": "Uses the named 2024 armor with its +1 AC and preserves the source’s curse, including the fire critical-hit trigger.",
-          "Source locator": "Kobold Press, Vault of Magic, p. 18.",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 18–19.",
           "Curse": "Identify or attuning reveals the curse. Attuning gives you Fire Vulnerability until Remove Curse or equivalent magic targets you. Removing the armor leaves the curse in place. While wearing the cursed armor, a Critical Hit against you that deals Fire damage shatters it."
         }
       }
@@ -273,7 +630,7 @@
           "Attunement": "Required",
           "Special powers": "While wearing the armor, you have Cold Resistance. When a creature hits you with a melee weapon attack, it makes a DC 15 Constitution save. On a failure, its Speed decreases by 10 feet and on its turn it can take an action or a Bonus Action, with a maximum of one of those two. Both restrictions last until the end of its next turn.",
           "Conversion notes": "Uses the named 2024 armor with its +1 AC and preserves the source’s curse, including the fire critical-hit trigger.",
-          "Source locator": "Kobold Press, Vault of Magic, p. 18.",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 18–19.",
           "Curse": "Identify or attuning reveals the curse. Attuning gives you Fire Vulnerability until Remove Curse or equivalent magic targets you. Removing the armor leaves the curse in place. While wearing the cursed armor, a Critical Hit against you that deals Fire damage shatters it."
         }
       }
@@ -299,7 +656,7 @@
           "Attunement": "Required",
           "Special powers": "While wearing the armor, you have Cold Resistance. When a creature hits you with a melee weapon attack, it makes a DC 15 Constitution save. On a failure, its Speed decreases by 10 feet and on its turn it can take an action or a Bonus Action, with a maximum of one of those two. Both restrictions last until the end of its next turn.",
           "Conversion notes": "Uses the named 2024 armor with its +1 AC and preserves the source’s curse, including the fire critical-hit trigger.",
-          "Source locator": "Kobold Press, Vault of Magic, p. 18.",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 18–19.",
           "Curse": "Identify or attuning reveals the curse. Attuning gives you Fire Vulnerability until Remove Curse or equivalent magic targets you. Removing the armor leaves the curse in place. While wearing the cursed armor, a Critical Hit against you that deals Fire damage shatters it."
         }
       }
@@ -325,7 +682,7 @@
           "Attunement": "Required",
           "Special powers": "While wearing the armor, you have Cold Resistance. When a creature hits you with a melee weapon attack, it makes a DC 15 Constitution save. On a failure, its Speed decreases by 10 feet and on its turn it can take an action or a Bonus Action, with a maximum of one of those two. Both restrictions last until the end of its next turn.",
           "Conversion notes": "Uses the named 2024 armor with its +1 AC and preserves the source’s curse, including the fire critical-hit trigger.",
-          "Source locator": "Kobold Press, Vault of Magic, p. 18.",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 18–19.",
           "Curse": "Identify or attuning reveals the curse. Attuning gives you Fire Vulnerability until Remove Curse or equivalent magic targets you. Removing the armor leaves the curse in place. While wearing the cursed armor, a Critical Hit against you that deals Fire damage shatters it."
         }
       }
@@ -351,7 +708,7 @@
           "Attunement": "Required",
           "Special powers": "While wearing the armor, you have Cold Resistance. When a creature hits you with a melee weapon attack, it makes a DC 15 Constitution save. On a failure, its Speed decreases by 10 feet and on its turn it can take an action or a Bonus Action, with a maximum of one of those two. Both restrictions last until the end of its next turn.",
           "Conversion notes": "Uses the named 2024 armor with its +1 AC and preserves the source’s curse, including the fire critical-hit trigger.",
-          "Source locator": "Kobold Press, Vault of Magic, p. 18.",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 18–19.",
           "Curse": "Identify or attuning reveals the curse. Attuning gives you Fire Vulnerability until Remove Curse or equivalent magic targets you. Removing the armor leaves the curse in place. While wearing the cursed armor, a Critical Hit against you that deals Fire damage shatters it."
         }
       }
@@ -377,7 +734,7 @@
           "Attunement": "Required",
           "Special powers": "While wearing the armor, you have Cold Resistance. When a creature hits you with a melee weapon attack, it makes a DC 15 Constitution save. On a failure, its Speed decreases by 10 feet and on its turn it can take an action or a Bonus Action, with a maximum of one of those two. Both restrictions last until the end of its next turn.",
           "Conversion notes": "Uses the named 2024 armor with its +1 AC and preserves the source’s curse, including the fire critical-hit trigger.",
-          "Source locator": "Kobold Press, Vault of Magic, p. 18.",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 18–19.",
           "Curse": "Identify or attuning reveals the curse. Attuning gives you Fire Vulnerability until Remove Curse or equivalent magic targets you. Removing the armor leaves the curse in place. While wearing the cursed armor, a Critical Hit against you that deals Fire damage shatters it."
         }
       }
@@ -403,7 +760,7 @@
           "Attunement": "Required",
           "Special powers": "While wearing the armor, you have Cold Resistance. When a creature hits you with a melee weapon attack, it makes a DC 15 Constitution save. On a failure, its Speed decreases by 10 feet and on its turn it can take an action or a Bonus Action, with a maximum of one of those two. Both restrictions last until the end of its next turn.",
           "Conversion notes": "Uses the named 2024 armor with its +1 AC and preserves the source’s curse, including the fire critical-hit trigger.",
-          "Source locator": "Kobold Press, Vault of Magic, p. 18.",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 18–19.",
           "Curse": "Identify or attuning reveals the curse. Attuning gives you Fire Vulnerability until Remove Curse or equivalent magic targets you. Removing the armor leaves the curse in place. While wearing the cursed armor, a Critical Hit against you that deals Fire damage shatters it."
         }
       }
@@ -429,7 +786,7 @@
           "Attunement": "Required",
           "Special powers": "While wearing the armor, you have Cold Resistance. When a creature hits you with a melee weapon attack, it makes a DC 15 Constitution save. On a failure, its Speed decreases by 10 feet and on its turn it can take an action or a Bonus Action, with a maximum of one of those two. Both restrictions last until the end of its next turn.",
           "Conversion notes": "Uses the named 2024 armor with its +1 AC and preserves the source’s curse, including the fire critical-hit trigger.",
-          "Source locator": "Kobold Press, Vault of Magic, p. 18.",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 18–19.",
           "Curse": "Identify or attuning reveals the curse. Attuning gives you Fire Vulnerability until Remove Curse or equivalent magic targets you. Removing the armor leaves the curse in place. While wearing the cursed armor, a Critical Hit against you that deals Fire damage shatters it."
         }
       }
