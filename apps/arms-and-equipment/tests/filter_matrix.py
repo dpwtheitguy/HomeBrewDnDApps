@@ -993,6 +993,24 @@ def main():
                     }
                     return true;
                 })()''',
+                'Enhanced boomerangs and yklwas show verified range and damage': '''(async () => {
+                    const families = [
+                        [["535335", "535336", "535339"], "1d4 Bludgeoning", "60/120 feet",
+                            "Dexterity modifier", "returns to your hand on a miss"],
+                        [["21941", "21942", "21943"], "1d8 Piercing", "10/30 feet",
+                            "Strength modifier", "Chultan warriors"],
+                    ];
+                    for (const [ids, damage, range, modifier, effect] of families) {
+                        for (const [index, id] of ids.entries()) {
+                            inspect("dndbeyond:" + id, grid.firstElementChild);
+                            await itemDetails;
+                            const terms = [damage + " + " + modifier + " + " + (index + 1), range, effect];
+                            if (!terms.every(term => inspection.textContent.includes(term)) ||
+                                inspection.textContent.includes("2024 provisional profile")) return false;
+                        }
+                    }
+                    return true;
+                })()''',
                 'Orcus and Dawnbringer cards preserve their named effects': '''(async () => {
                     const cases = [
                         ["5428", ["2024 counterpart", "2d12 Necrotic", "15 Skeletons and 15 Zombies", "1d4 + 3"]],
