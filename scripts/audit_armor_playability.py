@@ -129,7 +129,8 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
         if source_id in indexed and source_id != item_id:
             base_id = source_id
     mappings = [entry for entry in curated.get(item_id, [])
-                if entry.get('profile_kind') in {'published-armor-mapping', 'published-public-armor', 'adapted-barding'}]
+                if entry.get('profile_kind') in {'published-armor-mapping', 'published-public-armor',
+                                                  'adapted-barding', 'adapted-game-armor'}]
     encounter = [entry for entry in curated.get(item_id, [])
                  if entry.get('profile_kind') == 'armor-encounter-construct']
     if item['ruleset'] == 'bg3':
@@ -155,7 +156,8 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
             target_armor = target.get('mechanics', {}).get('armor')
             mapped_fields = mapping['fields']
             public = mapping['profile_kind'] == 'published-public-armor'
-            adapted = mapping['profile_kind'] == 'adapted-barding'
+            game_adaptation = mapping['profile_kind'] == 'adapted-game-armor'
+            adapted = game_adaptation or mapping['profile_kind'] == 'adapted-barding'
             provenance = item['provenance']
             original_page = (mapping.get('source') == provenance.get('source_url')
                              and bool(provenance.get('locator'))
@@ -164,18 +166,34 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
                                and mapping.get('source') == provenance.get('source_url')
                                and target.get('magic') is False) if public else (
                                    provenance.get('original_publication_verified') or original_page)
+            if game_adaptation:
+                native = [entry for entry in curated[item_id]
+                          if entry.get('status') == 'source-reported' and entry.get('source') == mapping.get('source')]
+                verified_source = (mapping.get('source') == provenance.get('source_url')
+                                   and provenance.get('evidence', {}).get('kind') == 'official-base-item-table'
+                                   and bool(mapped_fields.get('Source locator'))
+                                   and len(native) == 1
+                                   and bool(native[0]['fields'].get('Defense (game)'))
+                                   and bool(target_armor)
+                                   and (item['type'] == 'shield') == (target_armor.get('name') == 'Shield'))
             bonus = mapping.get('enhancement_bonus') if public else int(
                 bool(target.get('magic') and target.get('name', '').endswith(' (+1)')))
             expected_status = 'original-draft' if adapted else 'published-reference'
             if (mapping['status'] != expected_status or not mapping.get('source')
                     or target.get('source_id') != 'open5e-srd-2024' or not target_armor
                     or not verified_source or type(bonus) is not int or not 0 <= bonus <= 3
-                    or (adapted and (not mapping.get('barding') or not mapped_fields.get('Conversion notes')))):
-                errors.append('invalid armor mapping or barding adaptation')
+                    or (adapted and not mapped_fields.get('Conversion notes'))
+                    or (mapping['profile_kind'] == 'adapted-barding' and not mapping.get('barding'))):
+                errors.append('invalid armor mapping or adaptation')
             else:
-                evidence = 'item-specific-barding-draft' if adapted else 'verified-2024-armor-mapping'
-                if adapted:
+                if game_adaptation:
+                    evidence = 'item-specific-game-armor-draft'
+                    gaps.append('item-specific game armor draft requires DM review')
+                elif adapted:
+                    evidence = 'item-specific-barding-draft'
                     gaps.append('item-specific barding draft requires DM review')
+                else:
+                    evidence = 'verified-2024-armor-mapping'
                 fields = read_armor(target_armor, modern=True, errors=errors)
                 if bonus:
                     fields['enhancement_bonus'] = f'+{bonus}'
@@ -193,6 +211,8 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
                 if mapping.get('mithral'):
                     fields.update(strength_requirement='None', stealth_disadvantage='No')
                 fields['effects'] = mapped_fields['Special powers']
+                if game_adaptation:
+                    fields['weight'] = mapped_fields['Weight']
                 if mapping.get('barding'):
                     weight = mapped_fields.get('Weight', '')
                     if (target_armor.get('name') == 'Shield'
@@ -360,6 +380,7 @@ def main():
     bg3['effects'].update(armor_rules['effects'])
     bg3['shield_training'] = armor_rules['shield_training']
     curated = load(catalog, 'curated-item-details')['records']
+    curated.update(load(catalog, 'diablo-2-base-armor-facts')['records'])
     prices = load(catalog, 'item-prices')['records']
     published = load(catalog, 'published-2024-armor-facts')['records']
     core_path = catalog / 'supplements/core-armor-cross-references.json'

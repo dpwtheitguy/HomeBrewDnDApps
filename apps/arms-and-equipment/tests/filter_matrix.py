@@ -923,6 +923,20 @@ def main():
                     }
                     return true;
                 })()''',
+                'Diablo II armor cards show native defense and separate tabletop AC': '''(async () => {
+                    const cases = [
+                        ["01d717672609a221", ["Defense (game)", "410-524", "15 + Dex modifier (max +2)", "Open 2024 Half Plate Armor"]],
+                        ["953d379727aca7a6", ["Paladin only", "40%", "Armor class bonus+2", "normal Shield training"]],
+                        ["789568bb9f4e2f02", ["Necromancer only", "23%", "Armor class bonus+2", "rigid shield backing"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("diablo-2-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const details = inspection.textContent;
+                        if (!terms.every(term => details.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
