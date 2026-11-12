@@ -1,6 +1,270 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-1e-reference:b6170aed662ecfed": [
+      {
+        "label": "D&D 2024 adaptation · Sword +1, +2 vs. magic-using & enchanted creatures",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 1, or use 1d10 with two hands. See Special powers for target-specific changes.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1. See Special powers for conditional bonuses.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Activation": "Make a melee weapon attack. Apply the listed target and trigger rules.",
+          "Special powers": "Use +2 instead of +1 on attack and damage rolls against a creature that can cast spells using its own traits or class features, or that is currently created, summoned, or brought to the battlefield by a spell or magical effect. Casting only through a magic item does not qualify.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, pp. 124 and 165; III.G Swords, roll 26-30.",
+          "Conversion notes": "Retains the +2 target rule and the original exception for creatures that get spellcasting solely from an item. Uses the longsword, the source table’s most common sword form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Light": "While drawn, the sword sheds Bright Light for 10 feet and Dim Light for another 10 feet. This adapts the 1e magic-sword light convention."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:e0e2b7d79de32223": [
+      {
+        "label": "D&D 2024 adaptation · Sword +1, +3 vs. lycanthropes & shape changers",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 1, or use 1d10 with two hands. See Special powers for target-specific changes.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1. See Special powers for conditional bonuses.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Make a melee weapon attack. Apply the listed target and trigger rules.",
+          "Special powers": "Use +3 instead of +1 on attack and damage rolls against lycanthropes, creatures with a feature or action that transforms them into another creature’s form, or creatures currently transformed by a spell such as Polymorph.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, pp. 124 and 165; III.G Swords, roll 31-35.",
+          "Conversion notes": "Retains the original +3 against shape changers and currently transformed targets. Uses the longsword, the source table’s most common sword form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Light": "While drawn, the sword sheds Bright Light for 10 feet and Dim Light for another 10 feet. This adapts the 1e magic-sword light convention."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:483d49f441fa939d": [
+      {
+        "label": "D&D 2024 adaptation · Sword +1, vs. regenerating creatures",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 1, or use 1d10 with two hands. See Special powers for target-specific changes.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1. See Special powers for conditional bonuses.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Make a melee weapon attack. Apply the listed target and trigger rules.",
+          "Special powers": "Use +3 instead of +1 on attack and damage rolls against a creature with an active Regeneration trait or another effect that automatically restores Hit Points at intervals, such as a Ring of Regeneration. Ordinary healing spells and potions do not qualify.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, pp. 124 and 165; III.G Swords, roll 36-40.",
+          "Conversion notes": "The treasure table names regenerating creatures and the prose supplies the +3, including regeneration from a magic item. Uses the longsword, the source table’s most common sword form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Light": "While drawn, the sword sheds Bright Light for 10 feet and Dim Light for another 10 feet. This adapts the 1e magic-sword light convention."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:b7746e441378574a": [
+      {
+        "label": "D&D 2024 adaptation · Sword +1, +4 vs. reptiles",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 1, or use 1d10 with two hands. See Special powers for target-specific changes.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1. See Special powers for conditional bonuses.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Make a melee weapon attack. Apply the listed target and trigger rules.",
+          "Special powers": "Against a reptilian creature, use +3 to attack and +4 to damage instead of the normal +1. The DM decides edge cases. The legacy examples include dinosaurs, true dragons, hydras, lizards, snakes, and wyverns.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, pp. 124 and 165; III.G Swords, roll 41-45.",
+          "Conversion notes": "Retains the +4 damage identity while limiting the conditional attack bonus to +3. Preserves the broad legacy foe group. Uses the longsword, the source table’s most common sword form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Light": "While drawn, the sword sheds Bright Light for 10 feet and Dim Light for another 10 feet. This adapts the 1e magic-sword light convention."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:6e2b805a2d8ba48d": [
+      {
+        "label": "D&D 2024 adaptation · Sword +2, Dragon Slayer",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 2, or use 1d10 with two hands. See Special powers for target-specific changes.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2. See Special powers for conditional bonuses.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Make a melee weapon attack. Apply the listed target and trigger rules.",
+          "Special powers": "At creation, choose or roll one dragon kind: black, blue, brass, bronze, copper, gold, green, red, silver, or white. Against any true dragon, the sword uses +3 to attack and deals an extra 1d6 Slashing on a hit. Against a dragon of the chosen kind, the extra damage is 3d6 Slashing instead. The normal +2 still applies to weapon damage.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, pp. 124 and 165; III.G Swords, roll 63-66.",
+          "Conversion notes": "Retains the +2 base, enhanced accuracy against true dragons, and one specially vulnerable dragon kind. Caps the original +4 attack bonus and replaces triple damage with extra dice. Uses the longsword, the source table’s most common sword form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Light": "While drawn, the sword sheds Bright Light for 10 feet and Dim Light for another 10 feet. This adapts the 1e magic-sword light convention.",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#DragonSlayer"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dragon-slayer",
+          "label": "Published 2024 Dragon Slayer comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:90be83f0bb1155f8": [
+      {
+        "label": "D&D 2024 adaptation · Sword +2, Giant Slayer",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 2, or use 1d10 with two hands. See Special powers for target-specific changes.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2. See Special powers for conditional bonuses.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Make a melee weapon attack. Apply the listed target and trigger rules.",
+          "Special powers": "Use +3 instead of +2 on attack and damage rolls against a Giant or a creature the DM identifies as a titan. On a hit against a hill, stone, frost, fire, cloud, or storm giant, add 2d6 Slashing. The +3 applies to other Giants, such as ettins, without the extra dice.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, pp. 124 and 165; III.G Swords, roll 59-62.",
+          "Conversion notes": "Preserves the +3 against the broader Giant group and replaces doubled damage against the six true giant kinds with an extra 2d6. Uses the longsword, the source table’s most common sword form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Light": "While drawn, the sword sheds Bright Light for 10 feet and Dim Light for another 10 feet. This adapts the 1e magic-sword light convention.",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#GiantSlayer"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:9ef73101e2dc1e04": [
+      {
+        "label": "D&D 2024 adaptation · Sword +1, Flame Tongue",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 1, or use 1d10 with two hands. See Special powers for target-specific changes.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1. See Special powers for conditional bonuses.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Make a melee weapon attack. Apply the listed target and trigger rules.",
+          "Special powers": "As a Bonus Action, speak the command word to ignite or extinguish the blade. While lit it sheds Bright Light for 20 feet and Dim Light for another 20 feet. On a hit while lit, add 1d6 Fire against a creature with active regeneration, 2d6 Fire against a bird, a creature with Vulnerability to Fire, or a creature whose stat block has an attack or spell that deals Cold damage, or 3d6 Fire against an Undead. Apply only the highest matching bonus. As a Utilize action, touch the lit blade to an unattended flammable object to ignite it.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, pp. 124 and 165; III.G Swords, roll 46-49.",
+          "Conversion notes": "Converts the legacy escalating bonuses to typed damage while retaining the target groups and command flame. The normal +1 applies even when the flame is out. Uses the longsword, the source table’s most common sword form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#FlameTongue"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:169aa923a4716a96": [
+      {
+        "label": "D&D 2024 adaptation · Sword +3, Frost Brand",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 3, or use 1d10 with two hands. See Special powers for target-specific changes.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3. See Special powers for conditional bonuses.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Activation": "Make a melee weapon attack. Apply the listed target and trigger rules.",
+          "Special powers": "While holding the sword, you have Resistance to Fire damage. Hits against a creature that lives in fire or that can deal Fire damage with its own attacks or spells deal an extra 2d6 Cold. At temperatures below 0 °F the drawn sword sheds Bright Light for 10 feet and Dim Light for another 10 feet. As a Magic action, thrust it into a fire and roll a d20. On 11 or higher, extinguish ordinary flames within 10 feet of the blade and end any Wall of Fire spell whose wall enters that area. The property has no effect on instantaneous spells.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, pp. 124 and 165; III.G Swords, roll 72-74.",
+          "Conversion notes": "Keeps +3, Fire Resistance, subzero light, and the 50% extinguishing chance. Replaces the original conditional +6 with extra Cold damage. Uses the longsword, the source table’s most common sword form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#FrostBrand"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:e78e0738b8db7ece": [
+      {
+        "label": "D&D 2024 adaptation · Sword +2, Nine Lives Stealer",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 2, or use 1d10 with two hands. See Special powers for target-specific changes.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2. See Special powers for conditional bonuses.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Make a melee weapon attack. Apply the listed target and trigger rules.",
+          "Special powers": "The sword has 9 charges and never regains them. While the sword has at least 1 charge, if you roll a natural 20 on an attack against a living creature with fewer than 100 Hit Points before damage, it makes a DC 15 Constitution saving throw. On a failure it dies and the sword loses 1 charge. On a success resolve the hit normally and spend no charge. Undead and Constructs are immune to this effect. When the charges are gone the sword remains a +2 weapon.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, pp. 124 and 165; III.G Swords, roll 67.",
+          "Conversion notes": "Keeps the original fixed nine lives and expends a charge only on a successful slaying. Adds the modern item’s Hit Point threshold and creature exclusions. Uses the longsword, the source table’s most common sword form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Light": "While drawn, the sword sheds Bright Light for 10 feet and Dim Light for another 10 feet. This adapts the 1e magic-sword light convention.",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#NineLivesStealer"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
     "dmg-1e-reference:9c8b9917c926080f": [
       {
         "label": "D&D 2024 adaptation · Axe +1",

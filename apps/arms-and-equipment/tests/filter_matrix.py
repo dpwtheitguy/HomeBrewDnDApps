@@ -1782,6 +1782,26 @@ def main():
                     return document.title === title && header.querySelector("h1").textContent === title
                         && header.scrollWidth <= header.clientWidth;
                 })()''',
+                'AD&D slayer swords display their distinct target rules': '''(async () => {
+                    const cases = [
+                        ["b6170aed662ecfed", ["can cast spells using its own traits", "solely from an item"]],
+                        ["e0e2b7d79de32223", ["Use +3 instead of +1", "lycanthropes", "Polymorph"]],
+                        ["483d49f441fa939d", ["active Regeneration trait", "Ring of Regeneration"]],
+                        ["b7746e441378574a", ["+3 to attack and +4 to damage", "wyverns"]],
+                        ["6e2b805a2d8ba48d", ["true dragon", "chosen kind", "3d6 Slashing instead"]],
+                        ["90be83f0bb1155f8", ["hill, stone, frost, fire, cloud, or storm giant", "ettins"]],
+                        ["9ef73101e2dc1e04", ["1d6 Fire", "2d6 Fire", "3d6 Fire against an Undead"]],
+                        ["169aa923a4716a96", ["Resistance to Fire", "roll a d20", "Wall of Fire"]],
+                        ["e78e0738b8db7ece", ["9 charges and never regains", "fewer than 100 Hit Points", "spend no charge"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dmg-1e-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))
+                            || !inspection.querySelector('a[href*="Dungeon%20Masters%20Guide"]')) return false;
+                    }
+                    return true;
+                })()''',
                 'AD&D axes, hammers and bows retain their source distinctions': '''(async () => {
                     const cases = [
                         ["9c8b9917c926080f", ["Handaxe", "Omit the +1 from thrown damage"]],
