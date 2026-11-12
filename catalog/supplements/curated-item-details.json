@@ -1,6 +1,41 @@
 {
   "schema_version": 1,
   "records": {
+    "dragons-den-reference:34a675fe69db49dc": [
+      {
+        "label": "D&D 2024 adaptation · Black Dragonscale Shield Cover",
+        "source": "https://www.scribd.com/document/813593773/Tsr-01073-The-Dragon-s-Den-1-The-Wild-Dragon-s-Den",
+        "profile_kind": "adapted-protective-implement",
+        "status": "original-draft",
+        "fields": {
+          "Source locator": "The Wild Dragon’s Den, The Briefing, p. 5, equipment loaned by Bailiff Wortley.",
+          "Use as armor": "Attach to one Shield with a Utilize action. It adds no AC. You must wield that shield and have Shield training to benefit.",
+          "Special powers": "When a Black Dragon’s Acid breath damages you, halve the Acid damage remaining after resolving the breath’s saving throw. This benefit does not stack with Resistance to that damage.",
+          "Attunement": "None",
+          "Value": "1,000 gp per cover in the adventure. Wortley expects both back.",
+          "Conversion notes": "Keeps the source’s narrow acid-breath protection. A successful save that halves damage followed by the cover reduces the damage to one quarter."
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      }
+    ],
+    "dragons-den-reference:d9d52171e2c7b6ae": [
+      {
+        "label": "D&D 2024 adaptation · Dragonscale Cleric’s Shield Chestplate",
+        "source": "https://www.scribd.com/document/813593773/Tsr-01073-The-Dragon-s-Den-1-The-Wild-Dragon-s-Den",
+        "profile_kind": "adapted-protective-implement",
+        "status": "original-draft",
+        "fields": {
+          "Source locator": "The Wild Dragon’s Den, p. 13, Location 20, clerics’ equipment.",
+          "Use as armor": "Wear over clothing or fitted armor. While attuned and wearing it, gain +1 AC. This bonus does not stack with a Shield or another copy of this chestplate.",
+          "Special powers": "The AC bonus leaves both hands free. The protections against sleep and charm in the encounter come from a separate gem carried by the high cleric.",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Training": "No separate training. Any armor worn beneath it still requires its normal training.",
+          "Conversion notes": "The second cleric’s chestplate provides shield-like protection while worn. A +1 nonstacking AC bonus preserves that role within the 2024 rules."
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      }
+    ],
     "hail-the-heroes-preview-reference:4048ea4b6225cd63": [
       {
         "label": "D&D 2024 adaptation · Shield of Halav",

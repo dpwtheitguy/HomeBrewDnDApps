@@ -1871,6 +1871,17 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Dragon’s Den shield cover and chestplate show distinct protections': '''(async () => {
+                    inspect("dragons-den-reference:34a675fe69db49dc", grid.firstElementChild);
+                    await itemDetails;
+                    const cover = inspection.textContent;
+                    inspect("dragons-den-reference:d9d52171e2c7b6ae", grid.firstElementChild);
+                    await itemDetails;
+                    const plate = inspection.textContent;
+                    dismissInspection(false);
+                    return ["It adds no AC", "Black Dragon’s Acid breath", "one quarter"].every(term => cover.includes(term))
+                        && ["gain +1 AC", "does not stack with a Shield", "separate gem"].every(term => plate.includes(term));
+                })()''',
                 'Mystara shields distinguish passive AC and spell reactions': '''(async () => {
                     for (const [id, terms] of [
                         ["hail-the-heroes-preview-reference:4048ea4b6225cd63", ["Armor class bonus+3", "+4 at character level 5", "+5 at level 11"]],
