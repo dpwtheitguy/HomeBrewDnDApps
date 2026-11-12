@@ -1100,6 +1100,22 @@ def main():
                     }
                     return true;
                 })()''',
+                'Legacy DMG armor shows 2024 AC and labels conversions': '''(async () => {
+                    const cases = [
+                        ["dmg-1e-reference:f4fe2e4af2ee2fe2", ["Armor class19", "Verified 2024 equipment mapping", "III.F"]],
+                        ["dmg-1e-reference:d6ca7bff4c84ea86", ["Armor class bonus+5", "Very Rare"]],
+                        ["dmg-1e-reference:5356aaf55225d639", ["Armor class21", "Strength requirementNone", "Stealth disadvantageNo", "conversion draft"]],
+                        ["dmg-1e-reference:e6bb10fc4bad57b2", ["Critical Hits against you become normal hits", "AttunementRequired"]],
+                        ["dmg-2e-reference:ce4a9d08045577e1", ["Armor class18", "table 105"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        const details = inspection.textContent;
+                        if (!terms.every(term => details.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

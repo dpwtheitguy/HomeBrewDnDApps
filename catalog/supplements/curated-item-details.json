@@ -9587,6 +9587,751 @@
           "Conversion notes": "Uses incorporeal Undead as a defined target for the original protection against spirits."
         }
       }
+    ],
+    "dmg-1e-reference:08585c7f5d0204a8": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.1eonline.info/3dmg/mgi/3f.htm",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Attunement": "None",
+          "Special powers": "While worn, this armor adds +1 to the base armor’s AC.",
+          "Source locator": "AD&D 1e DMG, table III.F Armor and Shield, roll 60-63. Printed entry: Splint Mail +1.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+          "Rarity": "Rare",
+          "Conversion notes": "Uses the published 2024 equipment statistics. The original edition’s armor class convention and treasure table values are retained as source metadata."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor-plus-1",
+          "label": "Open published 2024 item"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "dmg-1e-reference:0f62fc82fbe61c41": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.1eonline.info/3dmg/mgi/3f.htm",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "None",
+          "Special powers": "While worn, this armor adds +1 to the base armor’s AC.",
+          "Source locator": "AD&D 1e DMG, table III.F Armor and Shield, roll 12-19. Printed entry: Leather Armor +1.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+          "Rarity": "Rare",
+          "Conversion notes": "Uses the published 2024 equipment statistics. The original edition’s armor class convention and treasure table values are retained as source metadata."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open published 2024 item"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "dmg-1e-reference:21f52f28bb5ef9e1": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.1eonline.info/3dmg/mgi/3f.htm",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Attunement": "None",
+          "Special powers": "While worn, this armor adds +2 to the base armor’s AC.",
+          "Source locator": "AD&D 1e DMG, table III.F Armor and Shield, roll 64-66. Printed entry: Splint Mail +2.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+          "Rarity": "Very Rare",
+          "Conversion notes": "Uses the published 2024 equipment statistics. The original edition’s armor class convention and treasure table values are retained as source metadata."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor-plus-2",
+          "label": "Open published 2024 item"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "dmg-1e-reference:4e4133c1e978e9e4": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.1eonline.info/3dmg/mgi/3f.htm",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "None",
+          "Special powers": "While worn, this armor adds +1 to the base armor’s AC.",
+          "Source locator": "AD&D 1e DMG, table III.F Armor and Shield, roll 51-55. Printed entry: Scale Mail +1.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+          "Rarity": "Rare",
+          "Conversion notes": "Uses the published 2024 equipment statistics. The original edition’s armor class convention and treasure table values are retained as source metadata."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open published 2024 item"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "dmg-1e-reference:509dcc782e521ba4": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://www.1eonline.info/3dmg/mgi/3f.htm",
+        "fields": {
+          "Armor class bonus": "+5",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "None",
+          "Special powers": "While you wield this shield, its +3 magic bonus is added to its normal +2 AC.",
+          "Source locator": "AD&D 1e DMG, table III.F Armor and Shield, roll 96. Printed entry: Shield +5.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Shield12or3",
+          "Rarity": "Very Rare",
+          "Conversion notes": "The original +5 is retained in the legacy name. This draft caps the magic bonus at +3. Use the published +3 Shield mechanics, including its normal +2 shield bonus. This draft adds no separate material power."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield-plus-3",
+          "label": "Open published 2024 baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-1e-reference:5356aaf55225d639": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://www.1eonline.info/3dmg/mgi/3f.htm",
+        "fields": {
+          "Armor class": "21",
+          "Training": "Heavy armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Special powers": "While worn, this armor adds +3 to the base armor’s AC. The mithral alloy removes the Strength minimum and Stealth disadvantage.",
+          "Source locator": "AD&D 1e DMG, table III.F Armor and Shield, roll 36-37. Printed entry: Plate Mail +4.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+          "Rarity": "Legendary",
+          "Material rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#MithralArmor",
+          "Conversion notes": "The original +4 is retained in the legacy name. This draft caps the magic bonus at +3. The original table’s mithral-alloy note is expressed as the 2024 Mithral Armor benefits. The combination requires Attunement."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-3",
+          "label": "Open published 2024 baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-1e-reference:5a9c28a96552d520": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.1eonline.info/3dmg/mgi/3f.htm",
+        "fields": {
+          "Armor class": "21",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "None",
+          "Special powers": "While worn, this armor adds +3 to the base armor’s AC.",
+          "Source locator": "AD&D 1e DMG, table III.F Armor and Shield, roll 33-35. Printed entry: Plate Mail +3.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+          "Rarity": "Legendary",
+          "Conversion notes": "Uses the published 2024 equipment statistics. The original edition’s armor class convention and treasure table values are retained as source metadata."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-3",
+          "label": "Open published 2024 item"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "dmg-1e-reference:649547dd8df53b9d": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.1eonline.info/3dmg/mgi/3f.htm",
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "None",
+          "Special powers": "While worn, this armor adds +2 to the base armor’s AC.",
+          "Source locator": "AD&D 1e DMG, table III.F Armor and Shield, roll 56-59. Printed entry: Scale Mail +2.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+          "Rarity": "Very Rare",
+          "Conversion notes": "Uses the published 2024 equipment statistics. The original edition’s armor class convention and treasure table values are retained as source metadata."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-2",
+          "label": "Open published 2024 item"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "dmg-1e-reference:7b7721ca418de025": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://www.1eonline.info/3dmg/mgi/3f.htm",
+        "fields": {
+          "Armor class": "20",
+          "Training": "Heavy armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "60 lb",
+          "Attunement": "Required",
+          "Special powers": "While worn, this armor adds +3 to the base armor’s AC. The mithral alloy removes the Strength minimum and Stealth disadvantage.",
+          "Source locator": "AD&D 1e DMG, table III.F Armor and Shield, roll 69. Printed entry: Splint Mail +4.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+          "Rarity": "Legendary",
+          "Material rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#MithralArmor",
+          "Conversion notes": "The original +4 is retained in the legacy name. This draft caps the magic bonus at +3. The original table’s mithral-alloy note is expressed as the 2024 Mithral Armor benefits. The combination requires Attunement."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor-plus-3",
+          "label": "Open published 2024 baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-1e-reference:96fc2dbf2becea08": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.1eonline.info/3dmg/mgi/3f.htm",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "None",
+          "Special powers": "While worn, this armor adds +1 to the base armor’s AC.",
+          "Source locator": "AD&D 1e DMG, table III.F Armor and Shield, roll 01-05. Printed entry: Chain Mail +1.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+          "Rarity": "Rare",
+          "Conversion notes": "Uses the published 2024 equipment statistics. The original edition’s armor class convention and treasure table values are retained as source metadata."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open published 2024 item"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "dmg-1e-reference:a9b88d9954fb92b7": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.1eonline.info/3dmg/mgi/3f.htm",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "None",
+          "Special powers": "While worn, this armor adds +3 to the base armor’s AC.",
+          "Source locator": "AD&D 1e DMG, table III.F Armor and Shield, roll 10-11. Printed entry: Chain Mail +3.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+          "Rarity": "Legendary",
+          "Conversion notes": "Uses the published 2024 equipment statistics. The original edition’s armor class convention and treasure table values are retained as source metadata."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-3",
+          "label": "Open published 2024 item"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "dmg-1e-reference:aa16335036f8ea06": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.1eonline.info/3dmg/mgi/3f.htm",
+        "fields": {
+          "Armor class": "13 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "13 lb",
+          "Attunement": "None",
+          "Special powers": "While worn, this armor adds +1 to the base armor’s AC.",
+          "Source locator": "AD&D 1e DMG, table III.F Armor and Shield, roll 70-75. Printed entry: Studded Leather +1.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+          "Rarity": "Rare",
+          "Conversion notes": "Uses the published 2024 equipment statistics. The original edition’s armor class convention and treasure table values are retained as source metadata."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_studded-leather-armor-plus-1",
+          "label": "Open published 2024 item"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "dmg-1e-reference:ad38b2ca210f57d8": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.1eonline.info/3dmg/mgi/3f.htm",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "None",
+          "Special powers": "While worn, this armor adds +2 to the base armor’s AC.",
+          "Source locator": "AD&D 1e DMG, table III.F Armor and Shield, roll 06-09. Printed entry: Chain Mail +2.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+          "Rarity": "Very Rare",
+          "Conversion notes": "Uses the published 2024 equipment statistics. The original edition’s armor class convention and treasure table values are retained as source metadata."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-2",
+          "label": "Open published 2024 item"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "dmg-1e-reference:b63cba2265dfd8db": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://www.1eonline.info/3dmg/mgi/3f.htm",
+        "fields": {
+          "Armor class bonus": "+5",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "None",
+          "Special powers": "While you wield this shield, its +3 magic bonus is added to its normal +2 AC.",
+          "Source locator": "AD&D 1e DMG, table III.F Armor and Shield, roll 94-95. Printed entry: Shield +4.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Shield12or3",
+          "Rarity": "Very Rare",
+          "Conversion notes": "The original +4 is retained in the legacy name. This draft caps the magic bonus at +3. Use the published +3 Shield mechanics, including its normal +2 shield bonus. This draft adds no separate material power."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield-plus-3",
+          "label": "Open published 2024 baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-1e-reference:bb10b1d2c72a1cc2": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.1eonline.info/3dmg/mgi/3f.htm",
+        "fields": {
+          "Armor class": "20",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Attunement": "None",
+          "Special powers": "While worn, this armor adds +3 to the base armor’s AC.",
+          "Source locator": "AD&D 1e DMG, table III.F Armor and Shield, roll 67-68. Printed entry: Splint Mail +3.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+          "Rarity": "Legendary",
+          "Conversion notes": "Uses the published 2024 equipment statistics. The original edition’s armor class convention and treasure table values are retained as source metadata."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor-plus-3",
+          "label": "Open published 2024 item"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "dmg-1e-reference:c1f37c890fbea607": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.1eonline.info/3dmg/mgi/3f.htm",
+        "fields": {
+          "Armor class": "15",
+          "Training": "Heavy armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "None",
+          "Special powers": "While worn, this armor adds +1 to the base armor’s AC.",
+          "Source locator": "AD&D 1e DMG, table III.F Armor and Shield, roll 45-50. Printed entry: Ring Mail +1.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+          "Rarity": "Rare",
+          "Conversion notes": "Uses the published 2024 equipment statistics. The original edition’s armor class convention and treasure table values are retained as source metadata."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_ring-mail-plus-1",
+          "label": "Open published 2024 item"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "dmg-1e-reference:d6ca7bff4c84ea86": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.1eonline.info/3dmg/mgi/3f.htm",
+        "fields": {
+          "Armor class bonus": "+5",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "None",
+          "Special powers": "While you wield this shield, its +3 magic bonus is added to its normal +2 AC.",
+          "Source locator": "AD&D 1e DMG, table III.F Armor and Shield, roll 90-93. Printed entry: Shield +3.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Shield12or3",
+          "Rarity": "Very Rare",
+          "Conversion notes": "Uses the published 2024 equipment statistics. The original edition’s armor class convention and treasure table values are retained as source metadata."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield-plus-3",
+          "label": "Open published 2024 item"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "dmg-1e-reference:e121f95eba2741c9": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.1eonline.info/3dmg/mgi/3f.htm",
+        "fields": {
+          "Armor class bonus": "+3",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "None",
+          "Special powers": "While you wield this shield, its +1 magic bonus is added to its normal +2 AC.",
+          "Source locator": "AD&D 1e DMG, table III.F Armor and Shield, roll 76-84. Printed entry: Shield +1.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Shield12or3",
+          "Rarity": "Uncommon",
+          "Conversion notes": "Uses the published 2024 equipment statistics. The original edition’s armor class convention and treasure table values are retained as source metadata."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield-plus-1",
+          "label": "Open published 2024 item"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "dmg-1e-reference:e2aae6a7f0f1e5e9": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.1eonline.info/3dmg/mgi/3f.htm",
+        "fields": {
+          "Armor class bonus": "+4",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "None",
+          "Special powers": "While you wield this shield, its +2 magic bonus is added to its normal +2 AC.",
+          "Source locator": "AD&D 1e DMG, table III.F Armor and Shield, roll 85-89. Printed entry: Shield +2.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Shield12or3",
+          "Rarity": "Rare",
+          "Conversion notes": "Uses the published 2024 equipment statistics. The original edition’s armor class convention and treasure table values are retained as source metadata."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield-plus-2",
+          "label": "Open published 2024 item"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "dmg-1e-reference:e6bb10fc4bad57b2": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://www.1eonline.info/3dmg/mgi/3f.htm",
+        "fields": {
+          "Armor class": "21",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Special powers": "While worn, this armor adds +3 to the base armor’s AC. While worn, Critical Hits against you become normal hits.",
+          "Source locator": "AD&D 1e DMG, table III.F Armor and Shield, roll 38. Printed entry: Plate Mail +5.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+          "Rarity": "Legendary",
+          "Material rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AdamantineArmor",
+          "Conversion notes": "The original +5 is retained in the legacy name. This draft caps the magic bonus at +3. The original table’s adamantite-alloy note is expressed as the 2024 Adamantine Armor benefit. The combination requires Attunement."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-3",
+          "label": "Open published 2024 baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-1e-reference:ee4c6df9d0d0e9e1": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.1eonline.info/3dmg/mgi/3f.htm",
+        "fields": {
+          "Armor class": "20",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "None",
+          "Special powers": "While worn, this armor adds +2 to the base armor’s AC.",
+          "Source locator": "AD&D 1e DMG, table III.F Armor and Shield, roll 27-32. Printed entry: Plate Mail +2.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+          "Rarity": "Very Rare",
+          "Conversion notes": "Uses the published 2024 equipment statistics. The original edition’s armor class convention and treasure table values are retained as source metadata."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-2",
+          "label": "Open published 2024 item"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "dmg-1e-reference:f4fe2e4af2ee2fe2": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.1eonline.info/3dmg/mgi/3f.htm",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "None",
+          "Special powers": "While worn, this armor adds +1 to the base armor’s AC.",
+          "Source locator": "AD&D 1e DMG, table III.F Armor and Shield, roll 20-26. Printed entry: Plate Mail +1.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+          "Rarity": "Rare",
+          "Conversion notes": "Uses the published 2024 equipment statistics. The original edition’s armor class convention and treasure table values are retained as source metadata."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open published 2024 item"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "dmg-2e-reference:092a4e664ecd3679": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00692.htm.php.html",
+        "fields": {
+          "Armor class": "14",
+          "Training": "Heavy armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "None",
+          "Special powers": "Standard armor with no additional powers.",
+          "Source locator": "AD&D 2e DMG, table 105, section 1, roll 13. Printed entry: Ring mail.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Conversion notes": "Uses the published 2024 equipment statistics. The original edition’s armor class convention and treasure table values are retained as source metadata."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_ring-mail",
+          "label": "Open published 2024 item"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "dmg-2e-reference:2b5edfb386699624": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00692.htm.php.html",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "13 lb",
+          "Attunement": "None",
+          "Special powers": "Standard armor with no additional powers.",
+          "Source locator": "AD&D 2e DMG, table 105, section 1, roll 19. Printed entry: Studded leather.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Conversion notes": "Uses the published 2024 equipment statistics. The original edition’s armor class convention and treasure table values are retained as source metadata."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_studded-leather-armor",
+          "label": "Open published 2024 item"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "dmg-2e-reference:3665803d67b15e73": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00692.htm.php.html",
+        "fields": {
+          "Armor class": "11 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "None",
+          "Special powers": "Standard armor with no additional powers.",
+          "Source locator": "AD&D 2e DMG, table 105, section 1, roll 8. Printed entry: Leather.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Conversion notes": "Uses the published 2024 equipment statistics. The original edition’s armor class convention and treasure table values are retained as source metadata."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor",
+          "label": "Open published 2024 item"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "dmg-2e-reference:3a542b7ba6229174": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00692.htm.php.html",
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "None",
+          "Special powers": "Standard armor with no additional powers.",
+          "Source locator": "AD&D 2e DMG, table 105, section 1, roll 14. Printed entry: Scale mail.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Conversion notes": "Uses the published 2024 equipment statistics. The original edition’s armor class convention and treasure table values are retained as source metadata."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail",
+          "label": "Open published 2024 item"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "dmg-2e-reference:90fd4e5f6e2cc926": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00692.htm.php.html",
+        "fields": {
+          "Armor class": "16",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "None",
+          "Special powers": "Standard armor with no additional powers.",
+          "Source locator": "AD&D 2e DMG, table 105, section 1, roll 3-5. Printed entry: Chain mail.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Conversion notes": "Uses the published 2024 equipment statistics. The original edition’s armor class convention and treasure table values are retained as source metadata."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail",
+          "label": "Open published 2024 item"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "dmg-2e-reference:c9302b6576739538": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00692.htm.php.html",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Attunement": "None",
+          "Special powers": "Standard armor with no additional powers.",
+          "Source locator": "AD&D 2e DMG, table 105, section 1, roll 18. Printed entry: Splint mail.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Conversion notes": "Uses the published 2024 equipment statistics. The original edition’s armor class convention and treasure table values are retained as source metadata."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor",
+          "label": "Open published 2024 item"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "dmg-2e-reference:ce4a9d08045577e1": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00692.htm.php.html",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "None",
+          "Special powers": "Standard armor with no additional powers.",
+          "Source locator": "AD&D 2e DMG, table 105, section 1, roll 7. Printed entry: Full plate.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Conversion notes": "Uses the published 2024 equipment statistics. The original edition’s armor class convention and treasure table values are retained as source metadata."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open published 2024 item"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
+    ],
+    "dmg-2e-reference:f5caf6c6fa7ced1d": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00692.htm.php.html",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "None",
+          "Special powers": "While you wield this shield, it adds +2 to your AC if you have Shield training.",
+          "Source locator": "AD&D 2e DMG, table 105, section 1, roll 15-17. Printed entry: Shield.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Conversion notes": "Uses the published 2024 equipment statistics. The original edition’s armor class convention and treasure table values are retained as source metadata."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open published 2024 item"
+        },
+        "profile_kind": "published-armor-mapping"
+      }
     ]
   }
 }
