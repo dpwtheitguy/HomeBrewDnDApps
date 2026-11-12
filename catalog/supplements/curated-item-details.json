@@ -1,6 +1,528 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-2e-reference:eda855574bac5128": [
+      {
+        "label": "Published 2024 counterpart · Arrow of Slaying",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "fields": {
+          "Category": "Very Rare magical ammunition",
+          "Damage": "Shortbow 1d6 Piercing or Longbow 1d8 Piercing, plus Dexterity modifier. If the arrow damages an eligible target, add 6d10 Force on a failed save or half as much on a success.",
+          "Range": "Shortbow 80/320 feet. Longbow 150/600 feet.",
+          "Activation": "Expend one arrow when making a ranged attack with a compatible bow. The bow determines attack modifier and mastery.",
+          "Saving throw": "DC 17 Constitution after an eligible target takes damage from the arrow.",
+          "Expenditure": "After dealing its extra damage, the projectile becomes nonmagical.",
+          "Target type": "Choose or roll d100. 01–10 Aberration; 11–15 Beast; 16–20 Celestial; 21–25 Construct; 26–35 Dragon; 36–45 Elemental; 46–50 Humanoid; 51–60 Fey; 61–70 Fiend; 71–75 Giant; 76–80 Monstrosity; 81–85 Ooze; 86–90 Plant; 91–00 Undead.",
+          "Attunement": "None",
+          "Legacy source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+          "Conversion notes": "The 2024 effect replaces the legacy +3 enhancement and instant kill. The arrow grants no flat attack or damage bonus."
+        },
+        "related_item": {
+          "id": "dndbeyond:9228344",
+          "label": "Open 2024 Ammunition of Slaying"
+        }
+      }
+    ],
+    "dmg-2e-reference:a2ddbe37dcc2baf4": [
+      {
+        "label": "D&D 2024 adaptation · Arrow of Slaying (Arachnids)",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "fields": {
+          "Category": "Very Rare magical ammunition",
+          "Damage": "Shortbow 1d6 Piercing or Longbow 1d8 Piercing, plus Dexterity modifier. If the arrow damages an eligible target, add 6d10 Force on a failed save or half as much on a success.",
+          "Range": "Shortbow 80/320 feet. Longbow 150/600 feet.",
+          "Activation": "Expend one arrow when making a ranged attack with a compatible bow. The bow determines attack modifier and mastery.",
+          "Saving throw": "DC 17 Constitution after an eligible target takes damage from the arrow.",
+          "Expenditure": "After dealing its extra damage, the projectile becomes nonmagical.",
+          "Target type": "Spiders, scorpions, and other arachnids, including giant versions.",
+          "Attunement": "None",
+          "Legacy source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+          "Conversion notes": "The 2024 effect replaces the legacy +3 enhancement and instant kill. The arrow grants no flat attack or damage bonus."
+        },
+        "related_item": {
+          "id": "dndbeyond:9228344",
+          "label": "Open 2024 Ammunition of Slaying"
+        }
+      }
+    ],
+    "dmg-2e-reference:92e07f146eec257c": [
+      {
+        "label": "D&D 2024 adaptation · Arrow of Slaying (Avians)",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "fields": {
+          "Category": "Very Rare magical ammunition",
+          "Damage": "Shortbow 1d6 Piercing or Longbow 1d8 Piercing, plus Dexterity modifier. If the arrow damages an eligible target, add 6d10 Force on a failed save or half as much on a success.",
+          "Range": "Shortbow 80/320 feet. Longbow 150/600 feet.",
+          "Activation": "Expend one arrow when making a ranged attack with a compatible bow. The bow determines attack modifier and mastery.",
+          "Saving throw": "DC 17 Constitution after an eligible target takes damage from the arrow.",
+          "Expenditure": "After dealing its extra damage, the projectile becomes nonmagical.",
+          "Target type": "Birds and giant versions of birds.",
+          "Attunement": "None",
+          "Legacy source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+          "Conversion notes": "The 2024 effect replaces the legacy +3 enhancement and instant kill. The arrow grants no flat attack or damage bonus."
+        },
+        "related_item": {
+          "id": "dndbeyond:9228344",
+          "label": "Open 2024 Ammunition of Slaying"
+        }
+      }
+    ],
+    "dmg-2e-reference:6bc36670ac1d422a": [
+      {
+        "label": "D&D 2024 adaptation · Arrow of Slaying (Bards)",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "fields": {
+          "Category": "Very Rare magical ammunition",
+          "Damage": "Shortbow 1d6 Piercing or Longbow 1d8 Piercing, plus Dexterity modifier. If the arrow damages an eligible target, add 6d10 Force on a failed save or half as much on a success.",
+          "Range": "Shortbow 80/320 feet. Longbow 150/600 feet.",
+          "Activation": "Expend one arrow when making a ranged attack with a compatible bow. The bow determines attack modifier and mastery.",
+          "Saving throw": "DC 17 Constitution after an eligible target takes damage from the arrow.",
+          "Expenditure": "After dealing its extra damage, the projectile becomes nonmagical.",
+          "Target type": "A creature with Bard class levels or identified as a bard by its stat block.",
+          "Attunement": "None",
+          "Legacy source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+          "Conversion notes": "The 2024 effect replaces the legacy +3 enhancement and instant kill. The arrow grants no flat attack or damage bonus."
+        },
+        "related_item": {
+          "id": "dndbeyond:9228344",
+          "label": "Open 2024 Ammunition of Slaying"
+        }
+      }
+    ],
+    "dmg-2e-reference:47d62c2cfada123f": [
+      {
+        "label": "D&D 2024 adaptation · Arrow of Slaying (Clerics)",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "fields": {
+          "Category": "Very Rare magical ammunition",
+          "Damage": "Shortbow 1d6 Piercing or Longbow 1d8 Piercing, plus Dexterity modifier. If the arrow damages an eligible target, add 6d10 Force on a failed save or half as much on a success.",
+          "Range": "Shortbow 80/320 feet. Longbow 150/600 feet.",
+          "Activation": "Expend one arrow when making a ranged attack with a compatible bow. The bow determines attack modifier and mastery.",
+          "Saving throw": "DC 17 Constitution after an eligible target takes damage from the arrow.",
+          "Expenditure": "After dealing its extra damage, the projectile becomes nonmagical.",
+          "Target type": "A creature with Cleric class levels or identified as a cleric by its stat block.",
+          "Attunement": "None",
+          "Legacy source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+          "Conversion notes": "The 2024 effect replaces the legacy +3 enhancement and instant kill. The arrow grants no flat attack or damage bonus."
+        },
+        "related_item": {
+          "id": "dndbeyond:9228344",
+          "label": "Open 2024 Ammunition of Slaying"
+        }
+      }
+    ],
+    "dmg-2e-reference:1df79b6358449dde": [
+      {
+        "label": "Published 2024 counterpart · Arrow of Slaying (Dragons)",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "fields": {
+          "Category": "Very Rare magical ammunition",
+          "Damage": "Shortbow 1d6 Piercing or Longbow 1d8 Piercing, plus Dexterity modifier. If the arrow damages an eligible target, add 6d10 Force on a failed save or half as much on a success.",
+          "Range": "Shortbow 80/320 feet. Longbow 150/600 feet.",
+          "Activation": "Expend one arrow when making a ranged attack with a compatible bow. The bow determines attack modifier and mastery.",
+          "Saving throw": "DC 17 Constitution after an eligible target takes damage from the arrow.",
+          "Expenditure": "After dealing its extra damage, the projectile becomes nonmagical.",
+          "Target type": "Dragon",
+          "Attunement": "None",
+          "Legacy source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+          "Conversion notes": "The 2024 effect replaces the legacy +3 enhancement and instant kill. The arrow grants no flat attack or damage bonus."
+        },
+        "related_item": {
+          "id": "dndbeyond:9228344",
+          "label": "Open 2024 Ammunition of Slaying"
+        }
+      }
+    ],
+    "dmg-2e-reference:a4669ebfe16c065a": [
+      {
+        "label": "D&D 2024 adaptation · Arrow of Slaying (Druids)",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "fields": {
+          "Category": "Very Rare magical ammunition",
+          "Damage": "Shortbow 1d6 Piercing or Longbow 1d8 Piercing, plus Dexterity modifier. If the arrow damages an eligible target, add 6d10 Force on a failed save or half as much on a success.",
+          "Range": "Shortbow 80/320 feet. Longbow 150/600 feet.",
+          "Activation": "Expend one arrow when making a ranged attack with a compatible bow. The bow determines attack modifier and mastery.",
+          "Saving throw": "DC 17 Constitution after an eligible target takes damage from the arrow.",
+          "Expenditure": "After dealing its extra damage, the projectile becomes nonmagical.",
+          "Target type": "A creature with Druid class levels or identified as a druid by its stat block.",
+          "Attunement": "None",
+          "Legacy source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+          "Conversion notes": "The 2024 effect replaces the legacy +3 enhancement and instant kill. The arrow grants no flat attack or damage bonus."
+        },
+        "related_item": {
+          "id": "dndbeyond:9228344",
+          "label": "Open 2024 Ammunition of Slaying"
+        }
+      }
+    ],
+    "dmg-2e-reference:f42b6fc33337b77c": [
+      {
+        "label": "Published 2024 counterpart · Arrow of Slaying (Elementals)",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "fields": {
+          "Category": "Very Rare magical ammunition",
+          "Damage": "Shortbow 1d6 Piercing or Longbow 1d8 Piercing, plus Dexterity modifier. If the arrow damages an eligible target, add 6d10 Force on a failed save or half as much on a success.",
+          "Range": "Shortbow 80/320 feet. Longbow 150/600 feet.",
+          "Activation": "Expend one arrow when making a ranged attack with a compatible bow. The bow determines attack modifier and mastery.",
+          "Saving throw": "DC 17 Constitution after an eligible target takes damage from the arrow.",
+          "Expenditure": "After dealing its extra damage, the projectile becomes nonmagical.",
+          "Target type": "Elemental",
+          "Attunement": "None",
+          "Legacy source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+          "Conversion notes": "The 2024 effect replaces the legacy +3 enhancement and instant kill. The arrow grants no flat attack or damage bonus."
+        },
+        "related_item": {
+          "id": "dndbeyond:9228344",
+          "label": "Open 2024 Ammunition of Slaying"
+        }
+      }
+    ],
+    "dmg-2e-reference:7a154c1a14e98f39": [
+      {
+        "label": "D&D 2024 adaptation · Arrow of Slaying (Fighters)",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "fields": {
+          "Category": "Very Rare magical ammunition",
+          "Damage": "Shortbow 1d6 Piercing or Longbow 1d8 Piercing, plus Dexterity modifier. If the arrow damages an eligible target, add 6d10 Force on a failed save or half as much on a success.",
+          "Range": "Shortbow 80/320 feet. Longbow 150/600 feet.",
+          "Activation": "Expend one arrow when making a ranged attack with a compatible bow. The bow determines attack modifier and mastery.",
+          "Saving throw": "DC 17 Constitution after an eligible target takes damage from the arrow.",
+          "Expenditure": "After dealing its extra damage, the projectile becomes nonmagical.",
+          "Target type": "A creature with Fighter class levels or explicitly identified as a member of that class.",
+          "Attunement": "None",
+          "Legacy source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+          "Conversion notes": "The 2024 effect replaces the legacy +3 enhancement and instant kill. The arrow grants no flat attack or damage bonus."
+        },
+        "related_item": {
+          "id": "dndbeyond:9228344",
+          "label": "Open 2024 Ammunition of Slaying"
+        }
+      }
+    ],
+    "dmg-2e-reference:e91c71b20c6aa1c8": [
+      {
+        "label": "Published 2024 counterpart · Arrow of Slaying (Giants)",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "fields": {
+          "Category": "Very Rare magical ammunition",
+          "Damage": "Shortbow 1d6 Piercing or Longbow 1d8 Piercing, plus Dexterity modifier. If the arrow damages an eligible target, add 6d10 Force on a failed save or half as much on a success.",
+          "Range": "Shortbow 80/320 feet. Longbow 150/600 feet.",
+          "Activation": "Expend one arrow when making a ranged attack with a compatible bow. The bow determines attack modifier and mastery.",
+          "Saving throw": "DC 17 Constitution after an eligible target takes damage from the arrow.",
+          "Expenditure": "After dealing its extra damage, the projectile becomes nonmagical.",
+          "Target type": "Giant",
+          "Attunement": "None",
+          "Legacy source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+          "Conversion notes": "The 2024 effect replaces the legacy +3 enhancement and instant kill. The arrow grants no flat attack or damage bonus."
+        },
+        "related_item": {
+          "id": "dndbeyond:9228344",
+          "label": "Open 2024 Ammunition of Slaying"
+        }
+      }
+    ],
+    "dmg-2e-reference:94231914fc16081a": [
+      {
+        "label": "D&D 2024 adaptation · Arrow of Slaying (Golems)",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "fields": {
+          "Category": "Very Rare magical ammunition",
+          "Damage": "Shortbow 1d6 Piercing or Longbow 1d8 Piercing, plus Dexterity modifier. If the arrow damages an eligible target, add 6d10 Force on a failed save or half as much on a success.",
+          "Range": "Shortbow 80/320 feet. Longbow 150/600 feet.",
+          "Activation": "Expend one arrow when making a ranged attack with a compatible bow. The bow determines attack modifier and mastery.",
+          "Saving throw": "DC 17 Constitution after an eligible target takes damage from the arrow.",
+          "Expenditure": "After dealing its extra damage, the projectile becomes nonmagical.",
+          "Target type": "Constructs identified as golems by their stat block.",
+          "Attunement": "None",
+          "Legacy source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+          "Conversion notes": "The 2024 effect replaces the legacy +3 enhancement and instant kill. The arrow grants no flat attack or damage bonus."
+        },
+        "related_item": {
+          "id": "dndbeyond:9228344",
+          "label": "Open 2024 Ammunition of Slaying"
+        }
+      }
+    ],
+    "dmg-2e-reference:9117d7e133afec70": [
+      {
+        "label": "D&D 2024 adaptation · Arrow of Slaying (Illusionists)",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "fields": {
+          "Category": "Very Rare magical ammunition",
+          "Damage": "Shortbow 1d6 Piercing or Longbow 1d8 Piercing, plus Dexterity modifier. If the arrow damages an eligible target, add 6d10 Force on a failed save or half as much on a success.",
+          "Range": "Shortbow 80/320 feet. Longbow 150/600 feet.",
+          "Activation": "Expend one arrow when making a ranged attack with a compatible bow. The bow determines attack modifier and mastery.",
+          "Saving throw": "DC 17 Constitution after an eligible target takes damage from the arrow.",
+          "Expenditure": "After dealing its extra damage, the projectile becomes nonmagical.",
+          "Target type": "A Wizard with the Illusionist subclass or a creature identified as an illusionist by its stat block.",
+          "Attunement": "None",
+          "Legacy source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+          "Conversion notes": "The 2024 effect replaces the legacy +3 enhancement and instant kill. The arrow grants no flat attack or damage bonus."
+        },
+        "related_item": {
+          "id": "dndbeyond:9228344",
+          "label": "Open 2024 Ammunition of Slaying"
+        }
+      }
+    ],
+    "dmg-2e-reference:79367f55af03a6b6": [
+      {
+        "label": "D&D 2024 adaptation · Arrow of Slaying (Mages)",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "fields": {
+          "Category": "Very Rare magical ammunition",
+          "Damage": "Shortbow 1d6 Piercing or Longbow 1d8 Piercing, plus Dexterity modifier. If the arrow damages an eligible target, add 6d10 Force on a failed save or half as much on a success.",
+          "Range": "Shortbow 80/320 feet. Longbow 150/600 feet.",
+          "Activation": "Expend one arrow when making a ranged attack with a compatible bow. The bow determines attack modifier and mastery.",
+          "Saving throw": "DC 17 Constitution after an eligible target takes damage from the arrow.",
+          "Expenditure": "After dealing its extra damage, the projectile becomes nonmagical.",
+          "Target type": "A creature with Wizard class levels or identified as a mage or wizard by its stat block.",
+          "Attunement": "None",
+          "Legacy source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+          "Conversion notes": "The 2024 effect replaces the legacy +3 enhancement and instant kill. The arrow grants no flat attack or damage bonus."
+        },
+        "related_item": {
+          "id": "dndbeyond:9228344",
+          "label": "Open 2024 Ammunition of Slaying"
+        }
+      }
+    ],
+    "dmg-2e-reference:973f251afca46e2a": [
+      {
+        "label": "D&D 2024 adaptation · Arrow of Slaying (Mammals)",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "fields": {
+          "Category": "Very Rare magical ammunition",
+          "Damage": "Shortbow 1d6 Piercing or Longbow 1d8 Piercing, plus Dexterity modifier. If the arrow damages an eligible target, add 6d10 Force on a failed save or half as much on a success.",
+          "Range": "Shortbow 80/320 feet. Longbow 150/600 feet.",
+          "Activation": "Expend one arrow when making a ranged attack with a compatible bow. The bow determines attack modifier and mastery.",
+          "Saving throw": "DC 17 Constitution after an eligible target takes damage from the arrow.",
+          "Expenditure": "After dealing its extra damage, the projectile becomes nonmagical.",
+          "Target type": "Nonhumanoid creatures that are mammals, including giant versions.",
+          "Attunement": "None",
+          "Legacy source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+          "Conversion notes": "The 2024 effect replaces the legacy +3 enhancement and instant kill. The arrow grants no flat attack or damage bonus."
+        },
+        "related_item": {
+          "id": "dndbeyond:9228344",
+          "label": "Open 2024 Ammunition of Slaying"
+        }
+      }
+    ],
+    "dmg-2e-reference:0cc560ea31ff116e": [
+      {
+        "label": "D&D 2024 adaptation · Arrow of Slaying (Paladins)",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "fields": {
+          "Category": "Very Rare magical ammunition",
+          "Damage": "Shortbow 1d6 Piercing or Longbow 1d8 Piercing, plus Dexterity modifier. If the arrow damages an eligible target, add 6d10 Force on a failed save or half as much on a success.",
+          "Range": "Shortbow 80/320 feet. Longbow 150/600 feet.",
+          "Activation": "Expend one arrow when making a ranged attack with a compatible bow. The bow determines attack modifier and mastery.",
+          "Saving throw": "DC 17 Constitution after an eligible target takes damage from the arrow.",
+          "Expenditure": "After dealing its extra damage, the projectile becomes nonmagical.",
+          "Target type": "A creature with Paladin class levels or identified as a paladin by its stat block.",
+          "Attunement": "None",
+          "Legacy source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+          "Conversion notes": "The 2024 effect replaces the legacy +3 enhancement and instant kill. The arrow grants no flat attack or damage bonus."
+        },
+        "related_item": {
+          "id": "dndbeyond:9228344",
+          "label": "Open 2024 Ammunition of Slaying"
+        }
+      }
+    ],
+    "dmg-2e-reference:c1ffd2ed188dcb83": [
+      {
+        "label": "D&D 2024 adaptation · Arrow of Slaying (Rangers)",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "fields": {
+          "Category": "Very Rare magical ammunition",
+          "Damage": "Shortbow 1d6 Piercing or Longbow 1d8 Piercing, plus Dexterity modifier. If the arrow damages an eligible target, add 6d10 Force on a failed save or half as much on a success.",
+          "Range": "Shortbow 80/320 feet. Longbow 150/600 feet.",
+          "Activation": "Expend one arrow when making a ranged attack with a compatible bow. The bow determines attack modifier and mastery.",
+          "Saving throw": "DC 17 Constitution after an eligible target takes damage from the arrow.",
+          "Expenditure": "After dealing its extra damage, the projectile becomes nonmagical.",
+          "Target type": "A creature with Ranger class levels or identified as a ranger by its stat block.",
+          "Attunement": "None",
+          "Legacy source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+          "Conversion notes": "The 2024 effect replaces the legacy +3 enhancement and instant kill. The arrow grants no flat attack or damage bonus."
+        },
+        "related_item": {
+          "id": "dndbeyond:9228344",
+          "label": "Open 2024 Ammunition of Slaying"
+        }
+      }
+    ],
+    "dmg-2e-reference:23a4fbf6cd94e23b": [
+      {
+        "label": "D&D 2024 adaptation · Arrow of Slaying (Reptiles)",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "fields": {
+          "Category": "Very Rare magical ammunition",
+          "Damage": "Shortbow 1d6 Piercing or Longbow 1d8 Piercing, plus Dexterity modifier. If the arrow damages an eligible target, add 6d10 Force on a failed save or half as much on a success.",
+          "Range": "Shortbow 80/320 feet. Longbow 150/600 feet.",
+          "Activation": "Expend one arrow when making a ranged attack with a compatible bow. The bow determines attack modifier and mastery.",
+          "Saving throw": "DC 17 Constitution after an eligible target takes damage from the arrow.",
+          "Expenditure": "After dealing its extra damage, the projectile becomes nonmagical.",
+          "Target type": "Nonhumanoid reptiles such as snakes, lizards, and crocodiles. Dragons use their own variant.",
+          "Attunement": "None",
+          "Legacy source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+          "Conversion notes": "The 2024 effect replaces the legacy +3 enhancement and instant kill. The arrow grants no flat attack or damage bonus."
+        },
+        "related_item": {
+          "id": "dndbeyond:9228344",
+          "label": "Open 2024 Ammunition of Slaying"
+        }
+      }
+    ],
+    "dmg-2e-reference:b1d4242f7f299690": [
+      {
+        "label": "D&D 2024 adaptation · Arrow of Slaying (Sea Monsters)",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "fields": {
+          "Category": "Very Rare magical ammunition",
+          "Damage": "Shortbow 1d6 Piercing or Longbow 1d8 Piercing, plus Dexterity modifier. If the arrow damages an eligible target, add 6d10 Force on a failed save or half as much on a success.",
+          "Range": "Shortbow 80/320 feet. Longbow 150/600 feet.",
+          "Activation": "Expend one arrow when making a ranged attack with a compatible bow. The bow determines attack modifier and mastery.",
+          "Saving throw": "DC 17 Constitution after an eligible target takes damage from the arrow.",
+          "Expenditure": "After dealing its extra damage, the projectile becomes nonmagical.",
+          "Target type": "Aquatic Aberrations, Beasts, and Monstrosities native to the sea.",
+          "Attunement": "None",
+          "Legacy source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+          "Conversion notes": "The 2024 effect replaces the legacy +3 enhancement and instant kill. The arrow grants no flat attack or damage bonus."
+        },
+        "related_item": {
+          "id": "dndbeyond:9228344",
+          "label": "Open 2024 Ammunition of Slaying"
+        }
+      }
+    ],
+    "dmg-2e-reference:4da74b5edc5fa2cc": [
+      {
+        "label": "D&D 2024 adaptation · Arrow of Slaying (Thieves)",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "fields": {
+          "Category": "Very Rare magical ammunition",
+          "Damage": "Shortbow 1d6 Piercing or Longbow 1d8 Piercing, plus Dexterity modifier. If the arrow damages an eligible target, add 6d10 Force on a failed save or half as much on a success.",
+          "Range": "Shortbow 80/320 feet. Longbow 150/600 feet.",
+          "Activation": "Expend one arrow when making a ranged attack with a compatible bow. The bow determines attack modifier and mastery.",
+          "Saving throw": "DC 17 Constitution after an eligible target takes damage from the arrow.",
+          "Expenditure": "After dealing its extra damage, the projectile becomes nonmagical.",
+          "Target type": "A Rogue with the Thief subclass or a creature identified as a thief by its stat block.",
+          "Attunement": "None",
+          "Legacy source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+          "Conversion notes": "The 2024 effect replaces the legacy +3 enhancement and instant kill. The arrow grants no flat attack or damage bonus."
+        },
+        "related_item": {
+          "id": "dndbeyond:9228344",
+          "label": "Open 2024 Ammunition of Slaying"
+        }
+      }
+    ],
+    "dmg-2e-reference:77d18730493deea3": [
+      {
+        "label": "D&D 2024 adaptation · Arrow of Slaying (Titans)",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "fields": {
+          "Category": "Very Rare magical ammunition",
+          "Damage": "Shortbow 1d6 Piercing or Longbow 1d8 Piercing, plus Dexterity modifier. If the arrow damages an eligible target, add 6d10 Force on a failed save or half as much on a success.",
+          "Range": "Shortbow 80/320 feet. Longbow 150/600 feet.",
+          "Activation": "Expend one arrow when making a ranged attack with a compatible bow. The bow determines attack modifier and mastery.",
+          "Saving throw": "DC 17 Constitution after an eligible target takes damage from the arrow.",
+          "Expenditure": "After dealing its extra damage, the projectile becomes nonmagical.",
+          "Target type": "Creatures with the Titan tag in their stat block.",
+          "Attunement": "None",
+          "Legacy source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+          "Conversion notes": "The 2024 effect replaces the legacy +3 enhancement and instant kill. The arrow grants no flat attack or damage bonus."
+        },
+        "related_item": {
+          "id": "dndbeyond:9228344",
+          "label": "Open 2024 Ammunition of Slaying"
+        }
+      }
+    ],
+    "dmg-2e-reference:d27ddbd5cac9c0de": [
+      {
+        "label": "Published 2024 counterpart · Arrow of Slaying (Undead)",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "fields": {
+          "Category": "Very Rare magical ammunition",
+          "Damage": "Shortbow 1d6 Piercing or Longbow 1d8 Piercing, plus Dexterity modifier. If the arrow damages an eligible target, add 6d10 Force on a failed save or half as much on a success.",
+          "Range": "Shortbow 80/320 feet. Longbow 150/600 feet.",
+          "Activation": "Expend one arrow when making a ranged attack with a compatible bow. The bow determines attack modifier and mastery.",
+          "Saving throw": "DC 17 Constitution after an eligible target takes damage from the arrow.",
+          "Expenditure": "After dealing its extra damage, the projectile becomes nonmagical.",
+          "Target type": "Undead",
+          "Attunement": "None",
+          "Legacy source": "https://naggaroth.daerma.com/2e/corerule-page=DD01086.htm.php.html",
+          "Conversion notes": "The 2024 effect replaces the legacy +3 enhancement and instant kill. The arrow grants no flat attack or damage bonus."
+        },
+        "related_item": {
+          "id": "dndbeyond:9228344",
+          "label": "Open 2024 Ammunition of Slaying"
+        }
+      }
+    ],
+    "dmg-2e-reference:9f8517036dbe3769": [
+      {
+        "label": "D&D 2024 adaptation · Arrow of Direction",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01085.htm.php.html#0abf10f0",
+        "fields": {
+          "Category": "Uncommon wondrous item",
+          "Attunement": "None",
+          "Damage": "None when activated. If fired, use the bow’s normal damage and ammunition rules.",
+          "Range": "1,000-foot detection radius, measured from the user on the same plane.",
+          "Activation": "Take a Magic action to name a feature and toss the arrow. When it lands, it points toward the selected feature if one is within range. If there is no match, it lies still. After the first use, you can make up to seven more queries over the next 70 minutes, each taking a Magic action. The arrow then regains its magic at the next dawn.",
+          "Targets": "A stairway, sloping passage, dungeon entrance or exit, cave, or cavern. Specify nearest, farthest, highest, lowest, or a compass direction. For a compass query, the arrow selects the nearest match in that direction.",
+          "Creative use": "Compare the nearest exit from two junctions to see which tunnel brings the party closer.",
+          "Conversion notes": "Retains the legacy query list and seven follow-up throws. Uses 10-minute exploration turns and the 2024 Locate Object range as conversion benchmarks.",
+          "2024 benchmark": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#LocateObject"
+        }
+      }
+    ],
     "dmg-2e-reference:535dc1def22a4aec": [
       {
         "label": "Verified 2024 siege equipment mapping · Large Catapult",

@@ -1830,6 +1830,21 @@ def main():
                         if (!byId("custom-items").hidden) click("close-custom-items");
                     }
                 })()''',
+                'AD&D arrows distinguish slaying targets from exploration magic': '''(async () => {
+                    const cases = [
+                        ["1df79b6358449dde", ["6d10 Force", "DC 17 Constitution", "150/600 feet", "becomes nonmagical"]],
+                        ["4da74b5edc5fa2cc", ["Thief subclass", "6d10 Force"]],
+                        ["b1d4242f7f299690", ["native to the sea", "6d10 Force"]],
+                        ["eda855574bac5128", ["Choose or roll d100", "6d10 Force"]],
+                        ["9f8517036dbe3769", ["1,000-foot detection radius", "seven more queries", "next dawn"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dmg-2e-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'AD&D siege engines and arquebus show their operating rules': '''(async () => {
                     const cases = [
                         ["535dc1def22a4aec", ["5d10 Bludgeoning", "200/800 feet", "two Utilize actions to load"]],
