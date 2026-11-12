@@ -204,7 +204,9 @@ function inspect(id, trigger, shopOffer) {
     close.addEventListener("click", () => dismissInspection());
     const controls = element("div", "", "inspect-controls");
     const copy = element("button", "Copy entry");
+    const customize = element("button", "Customize");
     controls.appendChild(copy);
+    controls.appendChild(customize);
     controls.appendChild(close);
     top.appendChild(controls);
     inspection.appendChild(top);
@@ -314,12 +316,11 @@ function inspect(id, trigger, shopOffer) {
     inspection.appendChild(noteLabel);
     inspection.appendChild(note);
     const actions = element("div", "", "actions");
-    const exportText = () => [item.name, classification, propertiesText, status, description,
-        Array.from(rules.querySelectorAll("h3,h4,summary,p,dt")).concat(
-            Array.from(extra.querySelectorAll("h3,h4,summary,p,dt"))
-        ).map(node => {
-            return node.tagName === "DT" ? node.textContent + " · " + node.nextElementSibling.textContent : node.textContent;
-        }).join("\n"),
+    const rulesText = () => [rules, extra].flatMap(section => Array.from(
+        section.querySelectorAll("h3,h4,summary,p,dt"), node =>
+            node.tagName === "DT" ? node.textContent + " · " + node.nextElementSibling.textContent : node.textContent
+    )).join("\n");
+    const exportText = () => [item.name, classification, propertiesText, status, description, rulesText(),
         price ? priceRows.map(([label, value]) => label + " · " + value).concat(price.method_label).join("\n") : "",
         ["Source · " + source, sourceUrl].filter(Boolean).join("\n"),
         note.value.trim() ? "Field notes\n" + note.value.trim() : ""].filter(Boolean).join("\n\n");
@@ -328,6 +329,11 @@ function inspect(id, trigger, shopOffer) {
     top.insertAdjacentElement("afterend", copyStatus);
     copy.addEventListener("click", () => {
         copyStatus.textContent = Armory.copyEntry(item.name, exportText()) ? "Entry copied." : "Could not copy the entry.";
+    });
+    customize.addEventListener("click", async () => {
+        await Promise.all([itemDetails, bg3WeaponRules]);
+        if (!customize.isConnected) return;
+        customizeCatalogItem(item, [extra, rules], [description, rulesText()], source, sourceUrl, note.value);
     });
     const share = element("button", "Share entry");
     share.addEventListener("click", () => Armory.share(item.name, exportText()));

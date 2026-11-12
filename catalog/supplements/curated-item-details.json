@@ -1,6 +1,365 @@
 {
   "schema_version": 1,
   "records": {
+    "open5e-vom:vom_bone-whip": [
+      {
+        "label": "D&D 2024 adaptation · Bone Whip",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_whip",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d4 Slashing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "10 feet melee",
+          "Properties": "Finesse, Reach",
+          "Mastery": "Slow",
+          "Weight": "3 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Once per dawn, take a Magic action to awaken the whip for 1 minute. During this minute, the first time you hit a creature with it on each turn, you gain 5 Temporary Hit Points. Each creature you damage with the awakened whip makes a DC 17 Constitution save or loses Hit Point maximum equal to the damage dealt, until it finishes a Long Rest.",
+          "Conversion notes": "The activation governs both effects. The first-hit limit applies to Temporary Hit Points and can trigger on another creature’s turn.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 16–17."
+        }
+      }
+    ],
+    "open5e-vom:vom_bonebreaker-mace": [
+      {
+        "label": "D&D 2024 adaptation · Bonebreaker Mace",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "4 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Use +3 on attack and damage rolls against an Undead. On a hit against an Undead, treat it as Vulnerable to the Bludgeoning damage of this hit. If it is already Vulnerable to Bludgeoning, the hit also deals 1d6 Radiant damage.",
+          "Conversion notes": "The source permits any Bludgeoning weapon. This record covers the catalog’s mace form. The vulnerability applies to this hit, and immunity and resistance follow the 2024 damage rules.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 17."
+        }
+      }
+    ],
+    "open5e-vom:vom_breaker-lance": [
+      {
+        "label": "D&D 2024 adaptation · Breaker Lance",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_lance",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Piercing + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed (unless mounted)",
+          "Mastery": "Topple",
+          "Weight": "6 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When you hit an object or structure, use the maximum result for each of the lance’s weapon damage dice. The lance has 3 charges. When you strike a spell-created barrier or an entryway protected by Arcane Lock as part of the Attack action, expend one charge and make a Strength check (DC 10 + the spell’s level). On a success, that spell ends. Regain 1d3 expended charges at dawn.",
+          "Conversion notes": "Uses the 2024 Lance, including its mounted exception to Two-Handed. On an ordinary object hit, the weapon die deals 10 before modifiers. The spell-breaking check resolves the charged strike against a barrier that has no attackable Armor Class.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 17."
+        }
+      }
+    ],
+    "open5e-vom:vom_buzzing-battleaxe": [
+      {
+        "label": "D&D 2024 adaptation · Buzzing Battleaxe",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_battleaxe",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Speak the command word as a Bonus Action to start the buzz, audible up to 100 feet away. While it buzzes, each hit deals an extra 2d6 Thunder damage. The buzz ends if you drop or sheathe the weapon or speak the command word again as a Bonus Action.",
+          "Conversion notes": "The source’s Buzzing Blade applies to swords and axes. This card uses the 2024 Battleaxe profile.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 17."
+        }
+      }
+    ],
+    "open5e-vom:vom_buzzing-greataxe": [
+      {
+        "label": "D&D 2024 adaptation · Buzzing Greataxe",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greataxe",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d12 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Cleave",
+          "Weight": "7 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Speak the command word as a Bonus Action to start the buzz, audible up to 100 feet away. While it buzzes, each hit deals an extra 2d6 Thunder damage. The buzz ends if you drop or sheathe the weapon or speak the command word again as a Bonus Action.",
+          "Conversion notes": "The source’s Buzzing Blade applies to swords and axes. This card uses the 2024 Greataxe profile.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 17."
+        }
+      }
+    ],
+    "open5e-vom:vom_buzzing-greatsword": [
+      {
+        "label": "D&D 2024 adaptation · Buzzing Greatsword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "6 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Speak the command word as a Bonus Action to start the buzz, audible up to 100 feet away. While it buzzes, each hit deals an extra 2d6 Thunder damage. The buzz ends if you drop or sheathe the weapon or speak the command word again as a Bonus Action.",
+          "Conversion notes": "The source’s Buzzing Blade applies to swords and axes. This card uses the 2024 Greatsword profile.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 17."
+        }
+      }
+    ],
+    "open5e-vom:vom_buzzing-handaxe": [
+      {
+        "label": "D&D 2024 adaptation · Buzzing Handaxe",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Light, Thrown",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Speak the command word as a Bonus Action to start the buzz, audible up to 100 feet away. While it buzzes, each hit deals an extra 2d6 Thunder damage. The buzz ends if you drop or sheathe the weapon or speak the command word again as a Bonus Action.",
+          "Conversion notes": "The source’s Buzzing Blade applies to swords and axes. This card uses the 2024 Handaxe profile.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 17."
+        }
+      }
+    ],
+    "open5e-vom:vom_buzzing-longsword": [
+      {
+        "label": "D&D 2024 adaptation · Buzzing Longsword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Speak the command word as a Bonus Action to start the buzz, audible up to 100 feet away. While it buzzes, each hit deals an extra 2d6 Thunder damage. The buzz ends if you drop or sheathe the weapon or speak the command word again as a Bonus Action.",
+          "Conversion notes": "The source’s Buzzing Blade applies to swords and axes. This card uses the 2024 Longsword profile.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 17."
+        }
+      }
+    ],
+    "open5e-vom:vom_buzzing-rapier": [
+      {
+        "label": "D&D 2024 adaptation · Buzzing Rapier",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_rapier",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Speak the command word as a Bonus Action to start the buzz, audible up to 100 feet away. While it buzzes, each hit deals an extra 2d6 Thunder damage. The buzz ends if you drop or sheathe the weapon or speak the command word again as a Bonus Action.",
+          "Conversion notes": "The source’s Buzzing Blade applies to swords and axes. This card uses the 2024 Rapier profile.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 17."
+        }
+      }
+    ],
+    "open5e-vom:vom_buzzing-scimitar": [
+      {
+        "label": "D&D 2024 adaptation · Buzzing Scimitar",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scimitar",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Slashing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Speak the command word as a Bonus Action to start the buzz, audible up to 100 feet away. While it buzzes, each hit deals an extra 2d6 Thunder damage. The buzz ends if you drop or sheathe the weapon or speak the command word again as a Bonus Action.",
+          "Conversion notes": "The source’s Buzzing Blade applies to swords and axes. This card uses the 2024 Scimitar profile.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 17."
+        }
+      }
+    ],
+    "open5e-vom:vom_buzzing-shortsword": [
+      {
+        "label": "D&D 2024 adaptation · Buzzing Shortsword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Speak the command word as a Bonus Action to start the buzz, audible up to 100 feet away. While it buzzes, each hit deals an extra 2d6 Thunder damage. The buzz ends if you drop or sheathe the weapon or speak the command word again as a Bonus Action.",
+          "Conversion notes": "The source’s Buzzing Blade applies to swords and axes. This card uses the 2024 Shortsword profile.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 17."
+        }
+      }
+    ],
+    "open5e-vom:vom_brazen-bulwark": [
+      {
+        "label": "D&D 2024 adaptation · Brazen Bulwark",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Training": "Shield",
+          "Weight": "6 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Special powers": "While wielding the shield, it grants its normal +2 bonus to AC plus a magical +1. Use a Utilize action to don or doff it.",
+          "Conversion notes": "Uses the 2024 Shield (+1) total. The printed Brazen Bulwark requires attunement.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 17.",
+          "Armor class bonus": "+3"
+        }
+      }
+    ],
+    "open5e-vom:vom_bullseye-arrow": [
+      {
+        "label": "D&D 2024 adaptation · Bullseye Arrow",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open 2024 Longbow example"
+        },
+        "fields": {
+          "Category": "Ammunition (arrow)",
+          "Damage": "None on the initial hit.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient with the bow + 1. Apply any launcher enhancement.",
+          "Range": "Shortbow 80/320 feet or Longbow 150/600 feet.",
+          "Properties": "Compatible with weapons that use arrows.",
+          "Mastery": "Inherited from the launcher if you can use its mastery property.",
+          "Weight": "About 1/20 lb per arrow.",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Activation": "Expend the arrow as part of a ranged weapon attack with the bow.",
+          "Special powers": "On a hit, the arrow deals no damage and marks the target with a red dot for 1 minute. While marked, ranged attack hits deal an extra 1d4 of the attack’s damage type. Ranged weapon attacks against it score a Critical Hit on a roll of 19 or 20. The arrow is destroyed when it hits.",
+          "Conversion notes": "This is ammunition for a Shortbow or Longbow. Use the bow’s range, proficiency, and mastery. The mark replaces the triggering shot’s damage.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 17."
+        }
+      }
+    ],
     "open5e-vom:vom_blade-of-petals": [
       {
         "label": "D&D 2024 adaptation · Blade of Petals",

@@ -118,14 +118,15 @@ function syncCustomItemFields() {
 
 function editCustomItem(item) {
     editingCustomItem = true;
-    customItemId = item ? item.id : "";
+    customItemId = item && item.id || "";
     const form = byId("custom-item-form");
     form.reset();
     if (item) Object.keys(item).forEach(key => {
         if (form.elements.namedItem(key)) form.elements.namedItem(key).value = item[key];
     });
     syncCustomItemFields();
-    byId("custom-item-form-heading").textContent = item ? "Edit magic item" : "Create magic item";
+    byId("custom-item-form-heading").textContent = customItemId ? "Edit magic item"
+        : item ? "Customize a copy" : "Create magic item";
     byId("custom-item-details").hidden = true;
     byId("custom-item-status").textContent = "";
     byId("custom-item-panel").hidden = false;
@@ -141,21 +142,60 @@ function closeCustomItems() {
         return true;
     }
     byId("custom-items").hidden = true;
-    document.querySelector("main > .shelf").hidden = false;
+    byId("catalog-shelf").hidden = false;
     inspection.hidden = false;
     byId("about").hidden = false;
     byId("open-custom-items").focus();
     return true;
 }
 
-byId("open-custom-items").addEventListener("click", () => {
+function openCustomItems() {
+    closeMerchants();
+    closeShop();
     dismissInspection(false);
-    document.querySelector("main > .shelf").hidden = true;
+    byId("catalog-shelf").hidden = true;
     inspection.hidden = true;
     byId("about").hidden = true;
     byId("custom-items").hidden = false;
     showCustomItem(null);
-});
+    window.scrollTo(0, 0);
+}
+
+function customizeCatalogItem(item, sections, rules, source, sourceUrl, notes) {
+    const stats = sections.flatMap(section => Array.from(section.querySelectorAll("dt")));
+    const value = (...labels) => {
+        const match = stats.find(stat => labels.includes(stat.textContent.toLowerCase()));
+        return match ? match.nextElementSibling.textContent : "";
+    };
+    const itemTags = item.tags || [];
+    const type = item.type === "armor" && itemTags.includes("icon-type:shield") ? "shield" : item.type;
+    const selectedType = byId("custom-item-type");
+    const rarity = byId("custom-item-rarity");
+    const baseCost = item.market_price && item.market_price.base_cost_gp;
+    const tags = itemTags.filter(tag => tag.startsWith("property:")).map(tag => pretty(tag.slice(9)));
+    const properties = value("properties") || tags.join(", ");
+    const mastery = value("mastery") || sections.flatMap(section =>
+        Array.from(section.querySelectorAll("summary"), node => node.textContent)
+    ).find(label => label.endsWith(" · Mastery"));
+    const provenance = [source + " · " + item.name, sourceUrl].filter(Boolean).join("\n");
+    openCustomItems();
+    editCustomItem({
+        name: item.name.slice(0, 120),
+        type: Array.from(selectedType.options).some(option => option.value === type) ? type : "other",
+        rarity: Array.from(rarity.options).some(option => option.value === item.rarity) ? item.rarity : "varies",
+        attunement: (value("attunement") || (item.requires_attunement === true ? "Required"
+            : item.requires_attunement === false ? "None" : item.requires_attunement || "")).slice(0, 160),
+        price: baseCost == null ? "" : Math.min(10000000000, Number(baseCost)).toFixed(2),
+        damage: value("damage", "base damage", "weapon damage").slice(0, 120),
+        range: value("range", "reach", "range or reach").slice(0, 120),
+        properties: [properties, mastery].filter(Boolean).join(" · ").slice(0, 240),
+        ac: value("armor class", "armor class bonus", "ac bonus").slice(0, 120),
+        rules: [provenance, ...rules].filter(Boolean).join("\n\n").slice(0, 8000),
+        notes: notes.slice(0, 4000)
+    });
+}
+
+byId("open-custom-items").addEventListener("click", openCustomItems);
 byId("close-custom-items").addEventListener("click", () => {
     editingCustomItem = false;
     closeCustomItems();

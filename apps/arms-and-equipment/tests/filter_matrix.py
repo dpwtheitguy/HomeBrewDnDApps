@@ -1830,6 +1830,63 @@ def main():
                         if (!byId("custom-items").hidden) click("close-custom-items");
                     }
                 })()''',
+                'Customize copies playable catalog fields and saves edits independently': '''(async () => {
+                    const lance = "open5e-vom:vom_breaker-lance";
+                    const shield = "open5e-srd-2024:srd-2024_shield";
+                    const before = Armory.item(lance);
+                    const count = JSON.parse(Armory.customMagicItems()).length;
+                    const name = "QA Customized Lance " + Date.now();
+                    const field = name => byId("custom-item-" + name);
+                    const customize = async id => {
+                        inspect(id, grid.firstElementChild);
+                        const action = Array.from(inspection.querySelectorAll("button"))
+                            .find(button => button.textContent === "Customize");
+                        action.click();
+                        await Promise.all([itemDetails, bg3WeaponRules]);
+                        return !byId("custom-items").hidden && !field("form").hidden;
+                    };
+                    let saved;
+                    try {
+                        if (!await customize(shield) || field("type").value !== "shield"
+                            || !field("ac").value.includes("+2")) return false;
+                        field("cancel").click();
+                        if (JSON.parse(Armory.customMagicItems()).length !== count) return false;
+                        byId("close-custom-items").click();
+                        if (!await customize(lance) || field("name").value !== "Breaker Lance"
+                            || field("type").value !== "weapon" || field("rarity").value !== "rare"
+                            || !field("damage").value.includes("1d10 Piercing")
+                            || !field("range").value.includes("10 feet") || !field("properties").value.includes("Topple")
+                            || !field("rules").value.includes("3 charges")) return false;
+                        field("name").value = name;
+                        field("damage").value = "2d10 Piercing";
+                        field("save").click();
+                        saved = JSON.parse(Armory.customMagicItems()).find(item => item.name === name);
+                        return saved && saved.id !== lance && saved.damage === "2d10 Piercing"
+                            && saved.rules.includes("Breaker Lance") && Armory.item(lance) === before;
+                    } finally {
+                        if (saved) Armory.deleteCustomMagicItem(saved.id);
+                        if (!byId("custom-items").hidden) byId("close-custom-items").click();
+                        dismissInspection(false);
+                    }
+                })()''',
+                'Vault of Magic distinguishes Buzzing weapons, barriers and marked arrows': '''(async () => {
+                    for (const [id, terms] of [
+                        ["buzzing-greataxe", ["1d12 Slashing", "Cleave", "2d6 Thunder damage"]],
+                        ["buzzing-handaxe", ["20/60 feet", "Vex", "100 feet"]],
+                        ["breaker-lance", ["1d10 Piercing", "unless mounted", "DC 10 + the spell"]],
+                        ["bone-whip", ["DC 17 Constitution", "5 Temporary Hit Points"]],
+                        ["bonebreaker-mace", ["Vulnerable", "1d6 Radiant damage"]],
+                        ["brazen-bulwark", ["Armor class bonus+3", "attunement"]],
+                        ["bullseye-arrow", ["None on the initial hit", "80/320 feet", "19 or 20"]],
+                    ]) {
+                        inspect("open5e-vom:vom_" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) {
+                            throw new Error("Missing fields on " + id);
+                        }
+                    }
+                    return true;
+                })()''',
                 'Vault of Magic preserves Bloodprice reactions and weapon triggers': '''(async () => {
                     for (const [id, terms] of [
                         ["bloodprice-padded", ["11 + Dex modifier", "+1 to +10", "5 Hit Points"]],
