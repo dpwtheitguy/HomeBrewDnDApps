@@ -1740,6 +1740,35 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault upgrades display altered forms and distances': '''(async () => {
+                    const cases = [
+                        ["3fb45c92542b03d4", ["175/650 feet", "25 feet to the weapon’s normal range"]],
+                        ["8287f5f8bc2373f1", ["−1 penalty to AC, saving throws, and ability checks"]],
+                        ["a50600e56e0b86fa", ["another Simple or Martial melee weapon", "reverts after 1 minute"]],
+                        ["4a5ffc11309879b0", ["normal ammunition and loading requirements", "additional +2"]],
+                        ["054bab2b7123d9ec", ["up to 25 feet away", "does not grant extra attacks"]],
+                        ["955a1ef365ab3c41", ["cannot teleport until the end of your next turn"]],
+                        ["4c132cda032ebed5", ["non-Incapacitated ally", "within 5 feet of it"]],
+                        ["1662b1a58ac3bfe3", ["DC 15 Strength", "Elementals associated with earth subtract 5"]],
+                        ["ba98af93896fb34d", ["teleports to a space within 5 feet", "DC 16 Charisma"]],
+                        ["821caf7b8270887a", ["normal type and Force", "up to 5 feet"]],
+                        ["751905495de77b1f", ["push that creature up to 5 feet", "choose either that push"]],
+                        ["283dcfee946cda60", ["roll 1d6 and subtract 3", "including a negative result"]],
+                        ["643494eaa7efa6c8", ["pull it up to 15 feet", "Short or Long Rest"]],
+                        ["899607f3ff62393c", ["after its attack resolves", "Dexterity modifier"]],
+                        ["6b8cba6775d4ae03", ["pull it up to 5 feet", "official 4e errata"]],
+                        ["cfb55718964dd8ec", ["Healing Word", "5 plus your Wisdom modifier"]],
+                        ["ffec670af5fda118", ["Once per round", "within 5 feet of the first target"]],
+                        ["bc1888bb6a17a3b0", ["within 100 feet", "unspent Hit Point Die"]],
+                        ["783d7304bfe817e0", ["bonus ends if you hit", "do not increase the bonus beyond +1"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!["D&D 2024 weapon adaptation", ...terms].every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Adventurer’s Vault upgrades display movement, saves and damage limits': '''(async () => {
                     const cases = [
                         ["e4e402d11ba5c84e", ["Bloodied before the attack", "2 extra damage"]],
@@ -1778,7 +1807,7 @@ def main():
                         ["26ff6d54f903815e", ["reduces a hostile creature to 0 Hit Points", "1d8 Temporary Hit Points"]],
                         ["fce2e73fe26a4bdd", ["Each hit with it deals 2 extra damage"]],
                         ["8d5743f75c806ca1", ["lose 1 Hit Point", "Short or Long Rest", "official 4e errata"]],
-                        ["77510604cf6dd4f2", ["delayed damage repeats the extra d10 only"]],
+                        ["77510604cf6dd4f2", ["delayed damage uses a fresh 1d10 roll"]],
                         ["f4276be51570cc24", ["25-foot radius", "Dexterity saving throw", "as Radiant damage"]],
                         ["1cac57a1a959c90a", ["Half Cover", "native to the Shadowfell"]],
                     ];
