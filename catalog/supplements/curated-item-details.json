@@ -1,6 +1,50 @@
 {
   "schema_version": 1,
   "records": {
+    "dndbeyond:4047217": [
+      {
+        "label": "D&D 2024 adaptation · Dragon’s Wrath Weapon",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/4047217-dragons-wrath-weapon",
+        "fields": {
+          "Category": "Any base weapon · Rarity varies by state · Requires attunement",
+          "Damage": "Use base weapon dice and type. Add the enhancement and extra breath damage shown for the current state.",
+          "Range": "Use the base weapon’s reach or normal and long range. The Wakened cone reaches 30 feet and the Ascendant cone reaches 60 feet.",
+          "Attack bonus": "Use the base weapon’s attack formula, plus the current state’s enhancement.",
+          "Mastery": "Use the selected 2024 base weapon’s mastery if your feature grants it.",
+          "Activation": "Attack normally. At Wakened or Ascendant, take a Magic action to use the cone. It recharges at dawn.",
+          "Slumbering · Uncommon": "On a natural 20 with the weapon, each creature you choose within 5 feet of the target takes 5 damage of the infused breath type.",
+          "Stirring · Rare": "Keeps the natural-20 burst. Gain +1 to attack and damage rolls and deal an extra 1d6 of the infused breath type on each hit.",
+          "Wakened · Very Rare": "Keeps the burst. Enhancement becomes +2 and extra damage becomes 2d6. Each creature in a 30-foot Cone makes a DC 16 Dexterity save, taking 8d6 of the infused type on a failure or half on a success.",
+          "Ascendant · Legendary": "Keeps the burst. Enhancement becomes +3 and extra damage becomes 3d6. The cone becomes 60 feet, the Dexterity save becomes DC 18, and the damage becomes 12d6, half on a success.",
+          "Hoard progression": "Ordinarily, one year in a hoard attains the state allowed by its dragon: Young (Stirring), Adult (Wakened), or Ancient (Ascendant). Starting within 1 hour of the dragon’s death, 8 hours in the hoard in its lair raises the item by one state up to the age limit.",
+          "Hoard decay": "While unattuned and outside a dragon’s hoard, the item drops one state every 30 days until Slumbering.",
+          "Infused damage": "Use the breath damage type of the dragon whose hoard infused the weapon.",
+          "Conversion notes": "Uses 2024 base weapon stats and a Magic action for the cone. The hoard rules, states, and values are from Fizban’s Treasury of Dragons, chapter 2."
+        }
+      }
+    ],
+    "dndbeyond:5917281": [
+      {
+        "label": "D&D 2024 adaptation · Topaz Annihilator",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/5917281-topaz-annihilator",
+        "fields": {
+          "Category": "Martial ranged weapon (firearm) · Legendary · Requires attunement",
+          "Damage": "2d6 Necrotic + Dexterity modifier on a hit. Disintegrate deals 10d6 + 40 Force to a creature on a failed save.",
+          "Range": "100/300 feet for firearm attacks. Disintegrate targets a visible creature, nonmagical object, or creation of magical force within 60 feet.",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient. No additional enhancement.",
+          "Properties": "Two-Handed. The topaz scale powers shots without ammunition.",
+          "Mastery": "None assigned to this unique firearm in the conversion.",
+          "Activation": "Make a ranged attack with the firearm. While carrying it, take a Magic action to cast Disintegrate (DC 18 Dexterity against a creature). The spell use recharges at dawn.",
+          "Topaz shots": "When the shot’s damage reduces a creature or object to 0 Hit Points, it becomes dust. True Resurrection or Wish can restore a creature destroyed this way.",
+          "Spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#Disintegrate",
+          "Conversion notes": "Preserves the unique firearm’s published damage dice, range, and dust effect. Uses 2024 Martial ranged attack rules and the 2024 Disintegrate spell. Original item is in Fizban’s Treasury of Dragons, chapter 2."
+        }
+      }
+    ],
     "dndbeyond:4047184": [
       {
         "label": "D&D 2024 adaptation · Crystal Blade",

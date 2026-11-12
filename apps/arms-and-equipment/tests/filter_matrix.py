@@ -993,6 +993,20 @@ def main():
                     }
                     return true;
                 })()''',
+                'Fizban hoard states and the Topaz Annihilator show their own rules': '''(async () => {
+                    const cases = [
+                        ["4047217", ["Slumbering · Uncommon", "Wakened · Very Rare", "DC 16 Dexterity",
+                            "Ascendant · Legendary", "DC 18", "12d6", "every 30 days"]],
+                        ["5917281", ["2d6 Necrotic", "100/300 feet", "10d6 + 40 Force", "True Resurrection or Wish"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dndbeyond:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term)) ||
+                            inspection.textContent.includes("2024 provisional profile")) return false;
+                    }
+                    return true;
+                })()''',
                 'Fizban weapon adaptations keep their variants and powers': '''(async () => {
                     const cases = [
                         ["4047184", ["1d8 Radiant", "1d3 expended charges", "Dim Light alone for 10 feet"]],
