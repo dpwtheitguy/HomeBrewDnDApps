@@ -993,6 +993,19 @@ def main():
                     }
                     return true;
                 })()''',
+                'Hazirawn and Hellfire Weapon preserve their distinct triggers': '''(async () => {
+                    const cases = [
+                        ["5602", ["2d6 Slashing", "2d6 Necrotic instead of 1d6", "DC 15 Constitution", "at midnight"]],
+                        ["842365", ["kills a Humanoid", "River Styx", "immediately becomes a Lemure", "5-foot radius"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dndbeyond:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term)) ||
+                            inspection.textContent.includes("2024 provisional profile")) return false;
+                    }
+                    return true;
+                })()''',
                 'Enhanced boomerangs and yklwas show verified range and damage': '''(async () => {
                     const families = [
                         [["535335", "535336", "535339"], "1d4 Bludgeoning", "60/120 feet",

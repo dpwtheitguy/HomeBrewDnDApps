@@ -1,6 +1,54 @@
 {
   "schema_version": 1,
   "records": {
+    "dndbeyond:5602": [
+      {
+        "label": "D&D 2024 adaptation · Hazirawn",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/sae/hoard-of-the-dragon-queen#Hazirawnp94",
+        "fields": {
+          "Category": "Martial melee weapon (Greatsword) · Legendary · Attunement unlocks additional powers",
+          "Damage": "2d6 Slashing + Strength modifier + 1, plus 1d6 Necrotic. While attuned, use +2 instead of +1 and 2d6 Necrotic instead of 1d6.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient. Add +1, or +2 while attuned.",
+          "Range": "5 feet melee. Detection spells use their own range.",
+          "Properties": "Heavy, Two-Handed.",
+          "Mastery": "Graze.",
+          "Activation": "Make a melee attack. While attuned and holding the sword, you can also spend charges to cast its spells.",
+          "Wounding": "While attuned, a creature hit by the sword cannot regain Hit Points for 1 minute. It makes a DC 15 Constitution save at the end of each turn, ending the effect on a success.",
+          "Spells": "Detect Magic (1 charge), Detect Evil and Good (1), or Detect Thoughts (2). Use the spells’ 2024 casting times and Concentration rules.",
+          "Charges": "4 charges. Regain 1d4 expended charges at midnight.",
+          "Sentience": "Neutral Evil. Speaks Common and Netherese.",
+          "Adventure source": "Hoard of the Dragon Queen, appendix C, p. 94, with the official erratum.",
+          "Conversion notes": "Uses the 2024 Greatsword. The erratum confirms that the +1 enhancement and 1d6 Necrotic damage apply without attunement."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dndbeyond:842365": [
+      {
+        "label": "D&D 2024 adaptation · Hellfire Weapon",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/842365-hellfire-weapon",
+        "fields": {
+          "Category": "Any base weapon · Uncommon · No attunement",
+          "Damage": "Use the base weapon’s normal damage dice and damage type.",
+          "Attack bonus": "Use the base weapon’s normal attack formula. No magical attack or damage bonus.",
+          "Range": "Use the selected weapon’s reach or normal and long range.",
+          "Mastery": "Use the selected weapon’s mastery if eligible.",
+          "Activation": "Attack normally. The soul effect triggers when an attack made with the weapon kills a Humanoid.",
+          "Hellfire": "The slain Humanoid’s soul goes to the River Styx and immediately becomes a Lemure.",
+          "Light": "Veins of hellfire in the infernal iron shed Dim Light in a 5-foot radius.",
+          "Adventure source": "Baldur’s Gate: Descent into Avernus, appendix C, p. 223.",
+          "Conversion notes": "Keeps the original light and soul effects and uses the 2024 profile of the selected weapon.",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
     "dndbeyond:5533": [
       {
         "label": "D&D 2024 adaptation · Dawnbringer",
