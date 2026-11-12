@@ -1,6 +1,493 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-35-reference:52563a8190068a46": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Abjuration",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier, or 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient with Quarterstaffs.",
+          "Range": "5 feet for weapon attacks. Spells use their own range.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "5 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required by a Sorcerer, Warlock, or Wizard.",
+          "Activation": "While holding the staff, spend the indicated charges to cast a listed spell. Use your own spell attack modifier and spell save DC. Spells use their normal casting time, range, duration, and Concentration. No components are required except where stated.",
+          "Charges": "10 maximum. The staff regains 1d4 + 2 expended charges daily at dawn.",
+          "Spells and costs": "Shield (1 charge); Protection from Energy (3 charges); Dispel Magic (3 charges); Globe of Invulnerability (6 charges); Banishment (4 charges); Antilife Shell (5 charges).",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, printed pp. 243–244.",
+          "Conversion notes": "Protection from Energy, Globe of Invulnerability, Banishment, and Antilife Shell replace Resist Energy, Lesser Globe of Invulnerability, Dismissal, and Repulsion, respectively. Antilife Shell supplies the warding role with its own creature exclusions. Replaces the legacy fixed-use pool with dawn recharge.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spells",
+          "2024 spell descriptions (SRD)": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 item casting": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#SpellsCastfromItems",
+          "3.5 staff descriptions": "https://www.d20srd.org/srd/magicItems/staffs.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Published 2024 Quarterstaff comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:1954e64d2ffb22dd": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Conjuration",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier, or 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient with Quarterstaffs.",
+          "Range": "5 feet for weapon attacks. Spells use their own range.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "5 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required by a Sorcerer, Warlock, or Wizard.",
+          "Activation": "While holding the staff, spend the indicated charges to cast a listed spell. Use your own spell attack modifier and spell save DC. Spells use their normal casting time, range, duration, and Concentration. No components are required except where stated.",
+          "Charges": "10 maximum. The staff regains 1d4 + 2 expended charges daily at dawn.",
+          "Spells and costs": "Unseen Servant (1 charge); Conjure Animals (3 charges); Stinking Cloud (3 charges); Creation (5 charges); Cloudkill (5 charges); Conjure Elemental (5 charges).",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, printed pp. 244.",
+          "Conversion notes": "Conjure Animals, Creation, and Conjure Elemental replace Summon Swarm, Minor Creation, and Summon Monster VI. The modern summon options use their own targeting and Concentration. Replaces the legacy fixed-use pool with dawn recharge.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spells",
+          "2024 spell descriptions (SRD)": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 item casting": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#SpellsCastfromItems",
+          "3.5 staff descriptions": "https://www.d20srd.org/srd/magicItems/staffs.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Published 2024 Quarterstaff comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:259134c0461237c1": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Defense",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier, or 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient with Quarterstaffs.",
+          "Range": "5 feet for weapon attacks. Spells use their own range.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "5 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required by a Cleric or Paladin.",
+          "Activation": "While holding the staff, spend the indicated charges to cast a listed spell. Use your own spell attack modifier and spell save DC. Spells use their normal casting time, range, duration, and Concentration. No components are required except where stated.",
+          "Charges": "8 maximum. The staff regains 1d4 + 2 expended charges daily at dawn.",
+          "Spells and costs": "Shield (1 charge); Shield of Faith (1 charge); Warding Bond (2 charges); Beacon of Hope (3 charges).",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, printed pp. 244.",
+          "Conversion notes": "Warding Bond replaces Shield Other. Beacon of Hope supplies group protection in place of the alignment-dependent Shield of Law. This version uses the 3.5 staff’s repertoire. Replaces the legacy fixed-use pool with dawn recharge.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spells",
+          "2024 spell descriptions (SRD)": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 item casting": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#SpellsCastfromItems",
+          "3.5 staff descriptions": "https://www.d20srd.org/srd/magicItems/staffs.htm",
+          "Special powers": "Warding Bond requires the rings specified in the spell."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Published 2024 Quarterstaff comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:2cd040464d2c1fe8": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Divination",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier, or 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient with Quarterstaffs.",
+          "Range": "5 feet for weapon attacks. Spells use their own range.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "5 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required by a Cleric, Druid, or Wizard.",
+          "Activation": "While holding the staff, spend the indicated charges to cast a listed spell. Use your own spell attack modifier and spell save DC. Spells use their normal casting time, range, duration, and Concentration. No components are required except where stated.",
+          "Charges": "10 maximum. The staff regains 1d4 + 2 expended charges daily at dawn.",
+          "Spells and costs": "Locate Object (2 charges); Tongues (3 charges); Locate Creature (4 charges); Arcane Eye (4 charges); True Seeing (6 charges).",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, printed pp. 244.",
+          "Conversion notes": "Uses a short-range detection property for Detect Secret Doors and Arcane Eye for Prying Eyes. Replaces the legacy fixed-use pool with dawn recharge.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spells",
+          "2024 spell descriptions (SRD)": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 item casting": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#SpellsCastfromItems",
+          "3.5 staff descriptions": "https://www.d20srd.org/srd/magicItems/staffs.htm",
+          "Special powers": "Secret Doors. As a Magic action, spend 1 charge to learn the location of any concealed doors within 30 feet of you. This reveals the door’s location and has no effect on locks or traps."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Published 2024 Quarterstaff comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:7584c2117c70b124": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Earth and stone",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier, or 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient with Quarterstaffs.",
+          "Range": "5 feet for weapon attacks. Spells use their own range.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "5 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required by a Druid, Sorcerer, or Wizard.",
+          "Activation": "While holding the staff, spend the indicated charges to cast a listed spell. Use your own spell attack modifier and spell save DC. Spells use their normal casting time, range, duration, and Concentration. No components are required except where stated.",
+          "Charges": "8 maximum. The staff regains 1d4 + 2 expended charges daily at dawn.",
+          "Spells and costs": "Passwall (5 charges); Move Earth (6 charges).",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, printed pp. 244.",
+          "Conversion notes": "Preserves both original spells. Charge costs reflect modern spell levels. Move Earth keeps its normal casting time. Replaces the legacy fixed-use pool with dawn recharge.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spells",
+          "2024 spell descriptions (SRD)": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 item casting": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#SpellsCastfromItems",
+          "3.5 staff descriptions": "https://www.d20srd.org/srd/magicItems/staffs.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Published 2024 Quarterstaff comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:b7d6e2e2c1c3e28f": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Enchantment",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier, or 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient with Quarterstaffs.",
+          "Range": "5 feet for weapon attacks. Spells use their own range.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "5 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required by a Bard, Sorcerer, Warlock, or Wizard.",
+          "Activation": "While holding the staff, spend the indicated charges to cast a listed spell. Use your own spell attack modifier and spell save DC. Spells use their normal casting time, range, duration, and Concentration. No components are required except where stated.",
+          "Charges": "10 maximum. The staff regains 1d4 + 2 expended charges daily at dawn.",
+          "Spells and costs": "Sleep (1 charge); Hideous Laughter (1 charge); Suggestion (2 charges); Bane (level 3) (3 charges); Mass Suggestion (6 charges).",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, printed pp. 244.",
+          "Conversion notes": "Level 3 Bane substitutes for Crushing Despair. Mind Fog is an original 2024-style area effect inspired by the legacy spell. Replaces the legacy fixed-use pool with dawn recharge.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spells",
+          "2024 spell descriptions (SRD)": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 item casting": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#SpellsCastfromItems",
+          "3.5 staff descriptions": "https://www.d20srd.org/srd/magicItems/staffs.htm",
+          "Special powers": "Mind Fog. As a Magic action, spend 4 charges to fill a 20-foot-radius Sphere centered on a point within 90 feet. The fog lasts up to 1 minute with Concentration. A creature makes a Wisdom save against your spell save DC when it first enters the fog on a turn or starts its turn there. On a failure it has Disadvantage on Wisdom checks and Wisdom saves until the start of its next turn or until it leaves the fog."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Published 2024 Quarterstaff comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:ae1c20ffe5cb17d1": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Evocation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier, or 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient with Quarterstaffs.",
+          "Range": "5 feet for weapon attacks. Spells use their own range.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "5 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required by a Sorcerer or Wizard.",
+          "Activation": "While holding the staff, spend the indicated charges to cast a listed spell. Use your own spell attack modifier and spell save DC. Spells use their normal casting time, range, duration, and Concentration. No components are required except where stated.",
+          "Charges": "10 maximum. The staff regains 1d4 + 2 expended charges daily at dawn.",
+          "Spells and costs": "Magic Missile (1 charge); Shatter (2 charges); Fireball (3 charges); Ice Storm (4 charges); Wall of Force (5 charges); Chain Lightning (6 charges).",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, printed pp. 244.",
+          "Conversion notes": "Preserves all six spells. Charges scale with their 2024 spell levels. Replaces the legacy fixed-use pool with dawn recharge.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spells",
+          "2024 spell descriptions (SRD)": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 item casting": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#SpellsCastfromItems",
+          "3.5 staff descriptions": "https://www.d20srd.org/srd/magicItems/staffs.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Published 2024 Quarterstaff comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:194d8923e09c6796": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Illumination",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier, or 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient with Quarterstaffs.",
+          "Range": "5 feet for weapon attacks. Spells use their own range.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "5 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required by a Bard, Cleric, Druid, Sorcerer, or Wizard.",
+          "Activation": "While holding the staff, spend the indicated charges to cast a listed spell. Use your own spell attack modifier and spell save DC. Spells use their normal casting time, range, duration, and Concentration. No components are required except where stated.",
+          "Charges": "10 maximum. The staff regains 1d4 + 2 expended charges daily at dawn.",
+          "Spells and costs": "Dancing Lights (1 charge); Color Spray (1 charge); Daylight (3 charges); Sunburst (8 charges).",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, printed pp. 244.",
+          "Conversion notes": "Color Spray replaces Flare. Sunburst costs 8 charges and requires reserves beyond the maximum recovered in a single day. Replaces the legacy fixed-use pool with dawn recharge.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spells",
+          "2024 spell descriptions (SRD)": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 item casting": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#SpellsCastfromItems",
+          "3.5 staff descriptions": "https://www.d20srd.org/srd/magicItems/staffs.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Published 2024 Quarterstaff comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:9a2cf5d8bafbb698": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Illusion",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier, or 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient with Quarterstaffs.",
+          "Range": "5 feet for weapon attacks. Spells use their own range.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "5 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required by a Bard, Sorcerer, or Wizard.",
+          "Activation": "While holding the staff, spend the indicated charges to cast a listed spell. Use your own spell attack modifier and spell save DC. Spells use their normal casting time, range, duration, and Concentration. No components are required except where stated.",
+          "Charges": "10 maximum. The staff regains 1d4 + 2 expended charges daily at dawn.",
+          "Spells and costs": "Disguise Self (1 charge); Mirror Image (2 charges); Major Image (3 charges); Hypnotic Pattern (3 charges); Major Image (level 6) (6 charges); Mislead (5 charges).",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, printed pp. 244.",
+          "Conversion notes": "Hypnotic Pattern replaces Rainbow Pattern. Level 6 Major Image represents Persistent Image and uses that spell’s extended duration. Replaces the legacy fixed-use pool with dawn recharge.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spells",
+          "2024 spell descriptions (SRD)": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 item casting": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#SpellsCastfromItems",
+          "3.5 staff descriptions": "https://www.d20srd.org/srd/magicItems/staffs.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Published 2024 Quarterstaff comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:4498c7be9077c482": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Life",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier, or 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient with Quarterstaffs.",
+          "Range": "5 feet for weapon attacks. Spells use their own range.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "5 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required by a Cleric or Druid.",
+          "Activation": "While holding the staff, spend the indicated charges to cast a listed spell. Use your own spell attack modifier and spell save DC. Spells use their normal casting time, range, duration, and Concentration. No components are required except where stated.",
+          "Charges": "10 maximum. The staff regains 1d4 + 2 expended charges daily at dawn.",
+          "Spells and costs": "Heal (6 charges); Raise Dead (5 charges).",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, printed pp. 244.",
+          "Conversion notes": "Retains Heal and Raise Dead from the spell list. The original crafting prerequisites separately mention Resurrection. This adaptation retains the 2024 Raise Dead diamond cost. Replaces the legacy fixed-use pool with dawn recharge.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spells",
+          "2024 spell descriptions (SRD)": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 item casting": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#SpellsCastfromItems",
+          "3.5 staff descriptions": "https://www.d20srd.org/srd/magicItems/staffs.htm",
+          "Special powers": "Raise Dead requires and consumes the spell’s diamond worth at least 500 gp. Casting still takes 1 hour."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Published 2024 Quarterstaff comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:2eb0fcb4dc94fedf": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Necromancy",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier, or 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient with Quarterstaffs.",
+          "Range": "5 feet for weapon attacks. Spells use their own range.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "5 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required by a Warlock or Wizard.",
+          "Activation": "While holding the staff, spend the indicated charges to cast a listed spell. Use your own spell attack modifier and spell save DC. Spells use their normal casting time, range, duration, and Concentration. No components are required except where stated.",
+          "Charges": "10 maximum. The staff regains 1d4 + 2 expended charges daily at dawn.",
+          "Spells and costs": "Fear (3 charges); Hold Person (2 charges); Blight (4 charges); Ray of Enfeeblement (2 charges); Circle of Death (6 charges).",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, printed pp. 244–245.",
+          "Conversion notes": "Fear, Hold Person, Blight, and Ray of Enfeeblement take the roles of Cause Fear, Ghoul Touch, Enervation, and Waves of Fatigue. Halt Undead uses an authored 2024-style condition and saves. Replaces the legacy fixed-use pool with dawn recharge.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spells",
+          "2024 spell descriptions (SRD)": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 item casting": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#SpellsCastfromItems",
+          "3.5 staff descriptions": "https://www.d20srd.org/srd/magicItems/staffs.htm",
+          "Special powers": "Halt Undead. As a Magic action, spend 3 charges. Choose up to three Undead you can see within 60 feet. Each makes a Wisdom save against your spell save DC. On a failure it is Paralyzed for up to 1 minute with Concentration and repeats the save at the end of each of its turns, ending the effect on itself on a success."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Published 2024 Quarterstaff comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:6891fd64c4c53a03": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Passage",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier, or 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient with Quarterstaffs.",
+          "Range": "5 feet for weapon attacks. Spells use their own range.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "5 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required by a Sorcerer, Warlock, or Wizard.",
+          "Activation": "While holding the staff, spend the indicated charges to cast a listed spell. Use your own spell attack modifier and spell save DC. Spells use their normal casting time, range, duration, and Concentration. No components are required except where stated.",
+          "Charges": "12 maximum. The staff regains 1d4 + 2 expended charges daily at dawn.",
+          "Spells and costs": "Dimension Door (4 charges); Passwall (5 charges); Teleport (7 charges); Astral Projection (9 charges).",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, printed pp. 245.",
+          "Conversion notes": "Passwall also covers the barrier traversal role of Phase Door. Teleport replaces Greater Teleport and uses the 2024 destination rules. The original Astral Projection casting time and material cost apply. Replaces the legacy fixed-use pool with dawn recharge.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spells",
+          "2024 spell descriptions (SRD)": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 item casting": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#SpellsCastfromItems",
+          "3.5 staff descriptions": "https://www.d20srd.org/srd/magicItems/staffs.htm",
+          "Special powers": "Astral Projection requires and consumes the spell’s jacinth and silver bar for each target. Casting still takes 1 hour."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Published 2024 Quarterstaff comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:a7d07fe49281dfa7": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Size alteration",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier, or 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient with Quarterstaffs.",
+          "Range": "5 feet for weapon attacks. Spells use their own range.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "5 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required by a Bard, Druid, Sorcerer, or Wizard.",
+          "Activation": "While holding the staff, spend the indicated charges to cast a listed spell. Use your own spell attack modifier and spell save DC. Spells use their normal casting time, range, duration, and Concentration. No components are required except where stated.",
+          "Charges": "8 maximum. The staff regains 1d4 + 2 expended charges daily at dawn.",
+          "Spells and costs": "Enlarge/Reduce (2 charges).",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, printed pp. 245.",
+          "Conversion notes": "Enlarge/Reduce can shrink unattended objects, covering Shrink Item. Group Alteration covers both legacy mass spells. Replaces the legacy fixed-use pool with dawn recharge.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spells",
+          "2024 spell descriptions (SRD)": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 item casting": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#SpellsCastfromItems",
+          "3.5 staff descriptions": "https://www.d20srd.org/srd/magicItems/staffs.htm",
+          "Special powers": "Group Alteration. As a Magic action, spend 5 charges to cast Enlarge/Reduce on up to three creatures you can see within the spell’s range. Choose the same effect for every target. Use one Concentration for the whole effect. Each unwilling creature makes its own saving throw."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Published 2024 Quarterstaff comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:aa881e71fa73e961": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Transmutation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier, or 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient with Quarterstaffs.",
+          "Range": "5 feet for weapon attacks. Spells use their own range.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "5 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required by a Sorcerer or Wizard.",
+          "Activation": "While holding the staff, spend the indicated charges to cast a listed spell. Use your own spell attack modifier and spell save DC. Spells use their normal casting time, range, duration, and Concentration. No components are required except where stated.",
+          "Charges": "10 maximum. The staff regains 1d4 + 2 expended charges daily at dawn.",
+          "Spells and costs": "Expeditious Retreat (1 charge); Alter Self (2 charges); Blink (3 charges); Polymorph (4 charges); Disintegrate (6 charges).",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, printed pp. 245.",
+          "Conversion notes": "Consolidates the two legacy Polymorph spells into the 2024 spell. Keeps Disintegrate and rebalances its charge cost. Replaces the legacy fixed-use pool with dawn recharge.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spells",
+          "2024 spell descriptions (SRD)": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 item casting": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#SpellsCastfromItems",
+          "3.5 staff descriptions": "https://www.d20srd.org/srd/magicItems/staffs.htm",
+          "Special powers": "An unwilling target of Polymorph uses the spell’s normal Wisdom save. The staff can reshape an ally or temporarily transform an enemy."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Published 2024 Quarterstaff comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:86094b00ebd32f88": [
+      {
+        "label": "D&D 2024 adaptation · Staff of disintegration",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier, or 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient with Quarterstaffs.",
+          "Range": "5 feet for weapon attacks. Spells use their own range.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "5 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required by a Sorcerer or Wizard.",
+          "Activation": "While holding the staff, spend the indicated charges to cast a listed spell. Use your own spell attack modifier and spell save DC. Spells use their normal casting time, range, duration, and Concentration. No components are required except where stated.",
+          "Charges": "6 maximum. The staff regains 1d4 + 2 expended charges daily at dawn.",
+          "Spells and costs": "Disintegrate (6 charges).",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, printed pp. 14.",
+          "Conversion notes": "The DMG uses an unlimited-use staff as a cautionary example and supplies no finished stat block. This adaptation requires a full charge pool per casting. Replaces the legacy fixed-use pool with dawn recharge.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spells",
+          "2024 spell descriptions (SRD)": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 item casting": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#SpellsCastfromItems"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Published 2024 Quarterstaff comparison"
+        }
+      }
+    ],
     "dmg-35-reference:fbc00d78ce1aa528": [
       {
         "label": "D&D 2024 adaptation · Masterwork dire flail",

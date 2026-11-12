@@ -7,6 +7,7 @@ import re
 import sqlite3
 import string
 import subprocess
+import time
 import unicodedata
 import urllib.request
 from decimal import Decimal
@@ -300,15 +301,17 @@ def main():
         socket = create_connection(page['webSocketDebuggerUrl'], timeout=8, suppress_origin=True)
         try:
             dev = DevTools(socket)
-            dev.eval("""new Promise((resolve, reject) => {
-                const deadline = Date.now() + 5000;
-                function ready() {
-                    if (typeof byId === 'function' && typeof compactInspection !== 'undefined') resolve(true);
-                    else if (Date.now() >= deadline) reject(new Error('Armory guide script did not load'));
-                    else setTimeout(ready, 50);
-                }
-                ready();
-            })""")
+            deadline = time.monotonic() + 5
+            while True:
+                try:
+                    if dev.eval("typeof byId === 'function' && typeof compactInspection !== 'undefined'"):
+                        break
+                except AssertionError as error:
+                    if 'Execution context was destroyed' not in str(error):
+                        raise
+                if time.monotonic() >= deadline:
+                    raise AssertionError('Armory guide script did not load')
+                time.sleep(0.05)
             dev.eval(SETUP)
             if args.expect_layout:
                 assert dev.eval('compactInspection.matches') == (args.expect_layout == 'compact')
@@ -1778,6 +1781,33 @@ def main():
                     const header = document.querySelector(".masthead");
                     return document.title === title && header.querySelector("h1").textContent === title
                         && header.scrollWidth <= header.clientWidth;
+                })()''',
+                'Legacy magic staves display spell lists and charge rules': '''(async () => {
+                    const cases = [
+                        ["52563a8190068a46", ["Globe of Invulnerability (6 charges)", "Antilife Shell (5 charges)"]],
+                        ["1954e64d2ffb22dd", ["Conjure Animals (3 charges)", "Creation (5 charges)"]],
+                        ["259134c0461237c1", ["Warding Bond (2 charges)", "rings specified in the spell"]],
+                        ["2cd040464d2c1fe8", ["concealed doors within 30 feet", "Arcane Eye (4 charges)"]],
+                        ["7584c2117c70b124", ["Passwall (5 charges)", "Move Earth (6 charges)"]],
+                        ["b7d6e2e2c1c3e28f", ["Mind Fog", "20-foot-radius Sphere", "Mass Suggestion (6 charges)"]],
+                        ["ae1c20ffe5cb17d1", ["Fireball (3 charges)", "Chain Lightning (6 charges)"]],
+                        ["194d8923e09c6796", ["Color Spray (1 charge)", "Sunburst (8 charges)"]],
+                        ["9a2cf5d8bafbb698", ["Major Image (level 6) (6 charges)", "Hypnotic Pattern (3 charges)"]],
+                        ["4498c7be9077c482", ["Raise Dead (5 charges)", "diamond worth at least 500 gp"]],
+                        ["2eb0fcb4dc94fedf", ["Halt Undead", "three Undead", "Paralyzed"]],
+                        ["6891fd64c4c53a03", ["Astral Projection (9 charges)", "jacinth and silver bar"]],
+                        ["a7d07fe49281dfa7", ["Enlarge/Reduce (2 charges)", "Group Alteration"]],
+                        ["aa881e71fa73e961", ["Polymorph (4 charges)", "Disintegrate (6 charges)"]],
+                        ["86094b00ebd32f88", ["6 maximum", "Disintegrate (6 charges)", "cautionary example"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dmg-35-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const text = inspection.textContent;
+                        if (!terms.every(term => text.includes(term)) || !text.includes("expended charges daily at dawn")
+                            || !inspection.querySelector('a[href*="SRD_CC_v5.2.1.pdf"]')) return false;
+                    }
+                    return true;
                 })()''',
                 'Legacy double weapons and named variants show their actual rules': '''(async () => {
                     const cases = [
