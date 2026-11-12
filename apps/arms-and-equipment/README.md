@@ -8,12 +8,22 @@ Use JDK 17, Python 3.9+, Android SDK Platform 35, and Build Tools 35.0.0. Set `J
 
 ```sh
 apps/arms-and-equipment/build.sh
-adb install -r outputs/arms-and-equipment-guide-debug.apk
+apps/arms-and-equipment/deploy.sh
 ```
 
 Pass a different shared catalog ZIP as the first argument to pin a newer release. The build validates the input database checksum and derives an FTS4 search index for older Android SQLite versions. The app extracts its pinned database to private storage on first launch and opens it read-only. Field notes are saved separately by stable item ID. Changing the bundled catalog version currently requires building and installing a new APK. The shared catalog itself releases independently.
 
-The APK targets API 34 and declares API 23 as its minimum. Android System WebView is required. There are no Google Play Services dependencies or network permissions. API 23 and physical SM-T290/LineageOS compatibility still need device checks. Allow roughly 400 MiB of private storage for the extracted catalog.
+The APK targets API 34 and declares API 23 as its minimum. Android System WebView is required. There are no Google Play Services dependencies or network permissions. Build 0.4.153 was installed and launched on a physical SM-T290 running LineageOS. API 23 still needs a device check. Allow roughly 400 MiB of private storage for the extracted catalog.
+
+The deploy script selects the sole USB device by default. Pass `--serial SERIAL` for a specific target or `--apk PATH` for a specific built APK. It installs in place and verifies the installed version and foreground activity. For a shorter workstation command, link the script into a directory on your PATH.
+
+```sh
+mkdir -p ~/.local/bin
+ln -s "$(pwd)/apps/arms-and-equipment/deploy.sh" ~/.local/bin/armory-deploy
+armory-deploy
+```
+
+Codex can run the same workflow with the [armory-deploy skill](../../docs/skills/armory-deploy/SKILL.md).
 
 ## Publish a tester build
 
