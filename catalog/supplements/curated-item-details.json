@@ -1,6 +1,208 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:dc367942057bea5e": [
+      {
+        "label": "D&D 2024 adaptation · Red Steel (Longbow)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_weapons.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d8 Piercing + Dexterity modifier + 3.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "150/600 feet",
+          "Properties": "Ammunition (arrow), Heavy, Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "The bow’s base enhancement starts at +3. A hit within 50 feet deals an extra 2d8 Piercing. A hit beyond 50 feet and within 150 feet deals an extra 1d8 Piercing. If you are out of arrows, you may create one as part of making an attack. Each created arrow reduces the bow’s enhancement by 1 before that attack. At +0, the bow loses its magic, including the extra damage, until dawn. It then returns to +3.",
+          "Conversion notes": "Replaces the legacy +5 enhancement and damage multipliers with a +3 ceiling and fixed damage dice by range. Arrow creation is limited by the remaining enhancement.",
+          "Source locator": "Emanuele Betti, Unique Magic Weapons of Mystara, Vol. 2, PDF p. 10.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:6727ece52b93d20f": [
+      {
+        "label": "D&D 2024 adaptation · Crimson Wave",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_weapons.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_trident",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing (1d10 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Thrown, Versatile (1d10)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "The trident turns red when precious metals and gemstones worth more than 10,000 gp are gathered within 350 feet. When you hit a creature that can bleed, it makes a DC 16 Constitution save. On failure it takes 1d4 Necrotic damage at the start of each of its turns for up to 1 minute. It repeats the save at the end of each turn. Magical healing also ends this effect, and multiple wounds do not stack.",
+          "Conversion notes": "The original has persistent, stacking wounds. This draft uses a repeat save and a single condition per target.",
+          "Source locator": "Emanuele Betti, Unique Magic Weapons of Mystara, Vol. 2, PDF p. 4.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Obscure": "As a Magic action while underwater, cloud the water in a 30-foot-radius Sphere centered on your current space. The cloud stays in place, is Heavily Obscured to other creatures, and lasts 1 minute. It does not damage creatures made of water. Recharges at dawn."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:c9bb5b6dd4cd0971": [
+      {
+        "label": "D&D 2024 adaptation · Yniel",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_weapons.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_whip",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d4 Slashing + Strength or Dexterity modifier + 3.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "10 feet melee",
+          "Properties": "Finesse, Reach",
+          "Mastery": "Slow",
+          "Weight": "3 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "The whip smells of roses when a Goblin, Hobgoblin, or Bugbear is within 120 feet. On a hit against one of those creatures, deal an extra 1d6 Slashing. Once every seven days when you hit a Large or smaller creature, you can force a DC 17 Strength save. On a failure the whip wraps it and it is Paralyzed for up to 1 minute while you hold the whip and maintain Concentration. It repeats the save at the end of each turn. It needs no food, water, or air while affected. You cannot attack with the whip during the effect.",
+          "Conversion notes": "Uses the 2024 Whip. Extra dice replace the legacy +6 creature bonus. The draft uses a finite stasis with repeat saves.",
+          "Source locator": "Emanuele Betti, Unique Magic Weapons of Mystara, Vol. 2, PDF p. 5.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Full-moon seed": "At midnight on a full moon, the whip produces one seed. Plant it on soil within a month. After 1d4 rounds it sprouts and within 1 minute forms permanent ivy extending up to 20 feet from the seed along available surfaces. Use ordinary climbing rules on the ivy."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:a80100e794be3c80": [
+      {
+        "label": "D&D 2024 adaptation · Eternal Staff",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_weapons.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required by a Bard, Sorcerer, Warlock, or Wizard",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "The staff holds 4 charges and regains all at midnight. As a Magic action, spend 1 charge to cast Mirror Image, Invisibility, or Phantasmal Force (save DC 17). After finishing a Long Rest, you can also spend 1 charge to recover up to four total levels of expended spell slots, to a maximum of level 4 per slot. Use this recovery once per Long Rest. As a Bonus Action, turn its torchlike light on or off.",
+          "Conversion notes": "Spell-slot recovery replaces extra memorized spell levels. Use the ordinary spell descriptions and Concentration rules. The class list translates the source’s arcane spellcaster restriction.",
+          "Source locator": "Emanuele Betti, Unique Magic Weapons of Mystara, Vol. 2, PDF p. 6.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Light and durability": "While lit, it sheds Bright Light for 20 feet and Dim Light for 20 more. The staff is immune to damage while magical. As a draft exception, a successful Dispel Magic check against DC 17 can suppress the staff’s magic until dawn, during which time the staff can be damaged as an ordinary Quarterstaff."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:3cd1a7b87f14e9d2": [
+      {
+        "label": "D&D 2024 adaptation · Goldfang",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_weapons.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Piercing (1d8 in two hands) + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Thrown, Versatile (1d8)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "As a Magic action, cast Detect Magic or Detect Poison and Disease, each up to three times per dawn. When you hit a creature, it makes a DC 16 Constitution save or becomes Poisoned for up to 1 minute. At the start of each turn while affected, it takes 1d8 Poison damage. It repeats the save at the end of each turn. Antitoxin ends this effect as an item-specific exception.",
+          "Conversion notes": "Replaces the alignment-based attack bonus with a curse and a creature-specific reward. Repeat saves and a 1-minute limit replace the legacy duration.",
+          "Source locator": "Emanuele Betti, Unique Magic Weapons of Mystara, Vol. 2, PDF p. 13.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Sentience": "Goldfang speaks Common, Goblin, and Draconic and resents Gold Dragons. If it reduces a Gold Dragon to 0 Hit Points, increase its enhancement to +3 for 7 days.",
+          "Curse": "While attuned, the spear presses you to pursue Gold Dragons. When you willingly spare a hostile Gold Dragon you can see, make a DC 16 Wisdom save. On failure the spear’s spellcasting powers shut down until dawn. Remove Curse ends attunement and the curse."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:48d7bf9d2ebf9f86": [
+      {
+        "label": "D&D 2024 adaptation · Angel Death",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_weapons.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Bludgeoning + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Light",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "This +3 cestus is a Light melee weapon. While wearing it, gain Advantage on Strength (Athletics) checks to climb and Dexterity (Sleight of Hand) checks to pick pockets. As a Magic action, determine whether a secret door or sloping passage is within 15 feet. Once per dawn, take a Magic action to cast Disguise Self or make the cestus look like an ordinary glove for 1 hour.",
+          "Conversion notes": "Caps the legacy +4 at +3. Uses a light bludgeoning glove with Nick. A single bounded transfer replaces the legacy gold-per-damage theft formula.",
+          "Source locator": "Emanuele Betti, Unique Magic Weapons of Mystara, Vol. 2, PDF p. 14.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Theft": "Once per dawn, when the cestus rolls a 4 on its weapon damage die on a hit, choose a visible unsecured nonmagical object the target carries, weighing up to 1 pound. The target makes a DC 16 Dexterity save. On failure the object appears in your other hand if free, or drops at your feet."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:c0c392b31eb4fc49": [
+      {
+        "label": "D&D 2024 adaptation · Silver Song",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_weapons.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "4 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "A hit against a Celestial, Elemental, Fey, or Fiend deals an extra 2d6 Radiant damage. Once per dawn, on a hit against a creature away from its native plane, force a DC 17 Charisma save. On failure it is sent to its home plane for up to 1 minute while you maintain Concentration. If you maintain Concentration for the entire minute it stays there. If Concentration ends early it returns to its previous space or the nearest unoccupied space.",
+          "Conversion notes": "Uses the 2024 Mace. Extra dice replace the legacy bonus against enchanted creatures. The home-plane effect uses the 2024 Banishment model with a save for every eligible target.",
+          "Source locator": "Emanuele Betti, Unique Magic Weapons of Mystara, Vol. 2, PDF p. 23.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
     "mystara-fan-names-reference:2898c2823ac08f1e": [
       {
         "label": "D&D 2024 adaptation · Crossbow of the Treasures of Sind",

@@ -1871,6 +1871,23 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Mystara unique weapons show charges, stasis, and range riders': '''(async () => {
+                    for (const [id, terms] of [
+                        ["dc367942057bea5e", ["extra 2d8 Piercing", "reduces the bow’s enhancement", "returns to +3"]],
+                        ["6727ece52b93d20f", ["10,000 gp", "wounds do not stack", "30-foot-radius Sphere"]],
+                        ["c9bb5b6dd4cd0971", ["Paralyzed", "Full-moon seed", "DC 17 Strength"]],
+                        ["a80100e794be3c80", ["4 charges", "midnight", "Phantasmal Force", "spell slots"]],
+                        ["3cd1a7b87f14e9d2", ["Antitoxin", "Gold Dragon", "7 days"]],
+                        ["c0c392b31eb4fc49", ["DC 17 Charisma", "home plane", "Concentration"]],
+                    ]) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Mystara Treasures of Sind and unique weapons show their linked powers': '''(async () => {
                     for (const [id, terms] of [
                         ["2898c2823ac08f1e", ["within 30 feet", "maximum of +3 total", "Paralyzed", "secret passage"]],
