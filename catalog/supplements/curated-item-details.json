@@ -1,6 +1,948 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-35-reference:2ab96006dcaf2318": [
+      {
+        "label": "D&D 2024 adaptation · Bane (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "one designated creature type or legacy subgroup chosen when the weapon is made",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:95793331e64526f4": [
+      {
+        "label": "D&D 2024 adaptation · Bane against aberrations (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a creature with the Aberration type",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:76a5a4d170e089ce": [
+      {
+        "label": "D&D 2024 adaptation · Bane against animals (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a Beast that represents a natural animal, including giant and dire versions",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:e06e2cd976d85873": [
+      {
+        "label": "D&D 2024 adaptation · Bane against constructs (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a creature with the Construct type",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:8b4a65edfcd3074c": [
+      {
+        "label": "D&D 2024 adaptation · Bane against dragons (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a creature with the Dragon type, including a 2024 Kobold Warrior",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dragon-slayer",
+          "label": "Published 2024 Dragon Slayer comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:331d2d943de301dc": [
+      {
+        "label": "D&D 2024 adaptation · Bane against elementals (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a creature with the Elemental type",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:ca85e538ef3e1b5e": [
+      {
+        "label": "D&D 2024 adaptation · Bane against fey (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a creature with the Fey type",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:89137b45338f0042": [
+      {
+        "label": "D&D 2024 adaptation · Bane against giants (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a creature with the Giant type",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:13154d3c4c202479": [
+      {
+        "label": "D&D 2024 adaptation · Bane against humanoids, aquatic (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a Humanoid of an aquatic people, such as a merfolk",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:f43bd4d07085d5a6": [
+      {
+        "label": "D&D 2024 adaptation · Bane against humanoids, dwarf (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a Humanoid identified as a dwarf",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:f0991be484a6c963": [
+      {
+        "label": "D&D 2024 adaptation · Bane against humanoids, elf (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a creature identified as an elf, including drow, even if its current type is Fey",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:c02757d54356fd8a": [
+      {
+        "label": "D&D 2024 adaptation · Bane against humanoids, gnoll (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a creature identified as a gnoll, even if its current stat block lists it as a Fiend",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:87810a2200f0588a": [
+      {
+        "label": "D&D 2024 adaptation · Bane against humanoids, gnome (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a Humanoid identified as a gnome",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:24e5ac222422f19d": [
+      {
+        "label": "D&D 2024 adaptation · Bane against humanoids, goblinoid (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a creature identified as a goblin, hobgoblin, or bugbear, even if its current type is Fey",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:0caf7849cd8ac37a": [
+      {
+        "label": "D&D 2024 adaptation · Bane against humanoids, halfling (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a Humanoid identified as a halfling",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:dab5e6716ef33eea": [
+      {
+        "label": "D&D 2024 adaptation · Bane against humanoids, human (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a Humanoid identified as human",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:a4bd976c4f932bbd": [
+      {
+        "label": "D&D 2024 adaptation · Bane against humanoids, orc (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a Humanoid identified as an orc",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:177ada4c7961b108": [
+      {
+        "label": "D&D 2024 adaptation · Bane against humanoids, reptilian (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a creature of a legacy reptilian Humanoid people, such as a lizardfolk or kobold. A Kobold Warrior qualifies even though its current type is Dragon",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:7887ad92845f3ba8": [
+      {
+        "label": "D&D 2024 adaptation · Bane against magical beasts (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a Monstrosity representing a magical animal, such as an owlbear or griffon, or a creature identified as a Magical Beast in its original 3.5 stat block",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:4b441b4207384f6c": [
+      {
+        "label": "D&D 2024 adaptation · Bane against monstrous humanoids (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a creature belonging to a people listed as Monstrous Humanoids in 3.5, such as a harpy or medusa, regardless of its current type",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:2cde5b98e29c5af8": [
+      {
+        "label": "D&D 2024 adaptation · Bane against oozes (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a creature with the Ooze type",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:79f62880081f06a7": [
+      {
+        "label": "D&D 2024 adaptation · Bane against outsiders, air (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a Celestial, Fiend, or genie with an innate tie to elemental air, such as a djinni",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:86eb65eeb9b3da85": [
+      {
+        "label": "D&D 2024 adaptation · Bane against outsiders, chaotic (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a chaotic Celestial or Fiend, or another creature with the legacy chaotic outsider subtype",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:d728e9136dc2a1a1": [
+      {
+        "label": "D&D 2024 adaptation · Bane against outsiders, earth (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a Celestial, Fiend, or genie with an innate tie to elemental earth, such as a dao",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:6948a83da14fd81e": [
+      {
+        "label": "D&D 2024 adaptation · Bane against outsiders, evil (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "an evil Celestial or Fiend, or another creature with the legacy evil outsider subtype",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:1cab722583a62f9a": [
+      {
+        "label": "D&D 2024 adaptation · Bane against outsiders, fire (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a Celestial, Fiend, or genie with an innate tie to elemental fire, such as an efreeti",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:1cba2b10cfb74c25": [
+      {
+        "label": "D&D 2024 adaptation · Bane against outsiders, good (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a good Celestial or Fiend, or another creature with the legacy good outsider subtype",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:6e8809fd5f2ff2dd": [
+      {
+        "label": "D&D 2024 adaptation · Bane against outsiders, lawful (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a lawful Celestial or Fiend, or another creature with the legacy lawful outsider subtype",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:3456733cf2c8bc0b": [
+      {
+        "label": "D&D 2024 adaptation · Bane against outsiders, water (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a Celestial, Fiend, or genie with an innate tie to elemental water, such as a marid",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:0b35793d58861427": [
+      {
+        "label": "D&D 2024 adaptation · Bane against plants (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a creature with the Plant type",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:a54947bd00de462f": [
+      {
+        "label": "D&D 2024 adaptation · Bane against undead (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a creature with the Undead type",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:1f54e82c6d12eb7a": [
+      {
+        "label": "D&D 2024 adaptation · Bane against vermin (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Designated foe": "a Beast or swarm representing a natural invertebrate, such as a giant spider or swarm of insects",
+          "Damage": "Use the host weapon’s damage. A hit against a designated foe deals an extra 2d6 damage of the weapon’s normal damage type.",
+          "Activation": "On a hit with the weapon or ammunition fired from it. No action or saving throw.",
+          "Special powers": "The designated foe is fixed. Where a legacy subgroup is no longer a stat-block type, the DM decides borderline cases using the listed definition.",
+          "Rarity": "Rare for the property by itself. Review rarity separately if the host also has a magic bonus or another property.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities, Bane and its designated-foe table.",
+          "Conversion notes": "Keeps the legacy designated foe and extra 2d6. Omits the legacy conditional +2 to attack and damage to fit 2024 attack bonuses. Creature categories are mapped individually where 2024 uses different types.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#bane",
+          "2024 creature stat blocks": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
+    "dmg-35-reference:0078a61a48c0f616": [
+      {
+        "label": "D&D 2024 adaptation · Flaming (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Damage": "Use the host weapon’s damage. While the property is active, hits deal an extra 1d6 Fire damage.",
+          "Activation": "Speak the command word as a Bonus Action to activate or deactivate the property. It stays active until deactivated or your attunement ends.",
+          "Special powers": "The extra damage also applies to ammunition fired by an affected ranged weapon.",
+          "Rarity": "Uncommon",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, pp. 224–225 (PDF pp. 225–226), Weapon Special Abilities.",
+          "Conversion notes": "Keeps the command toggle and elemental damage. Uses a Bonus Action for the command.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#flaming"
+        }
+      }
+    ],
+    "dmg-35-reference:dd452c5b796c7fab": [
+      {
+        "label": "D&D 2024 adaptation · Flaming burst (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Damage": "Use the host weapon’s damage. While the property is active, hits deal an extra 1d6 Fire damage.",
+          "Activation": "Speak the command word as a Bonus Action to activate or deactivate the property. It stays active until deactivated or your attunement ends.",
+          "Special powers": "The extra damage also applies to ammunition fired by an affected ranged weapon. On a Critical Hit, also roll 1d10 Fire damage once, even if the property is inactive. If active, roll the extra 1d6 twice as part of the Critical Hit.",
+          "Rarity": "Rare",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, pp. 224–225 (PDF pp. 225–226), Weapon Special Abilities.",
+          "Conversion notes": "Keeps the command toggle and elemental damage. The burst uses a single die in place of scaling by the old weapon critical multiplier.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#flamingburst"
+        }
+      }
+    ],
+    "dmg-35-reference:b850843d4d71b96c": [
+      {
+        "label": "D&D 2024 adaptation · Frost (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Damage": "Use the host weapon’s damage. While the property is active, hits deal an extra 1d6 Cold damage.",
+          "Activation": "Speak the command word as a Bonus Action to activate or deactivate the property. It stays active until deactivated or your attunement ends.",
+          "Special powers": "The extra damage also applies to ammunition fired by an affected ranged weapon.",
+          "Rarity": "Uncommon",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, pp. 224–225 (PDF pp. 225–226), Weapon Special Abilities.",
+          "Conversion notes": "Keeps the command toggle and elemental damage. Uses a Bonus Action for the command.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#frost"
+        }
+      }
+    ],
+    "dmg-35-reference:91f0eb16d4163442": [
+      {
+        "label": "D&D 2024 adaptation · Icy burst (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Damage": "Use the host weapon’s damage. While the property is active, hits deal an extra 1d6 Cold damage.",
+          "Activation": "Speak the command word as a Bonus Action to activate or deactivate the property. It stays active until deactivated or your attunement ends.",
+          "Special powers": "The extra damage also applies to ammunition fired by an affected ranged weapon. On a Critical Hit, also roll 1d10 Cold damage once, even if the property is inactive. If active, roll the extra 1d6 twice as part of the Critical Hit.",
+          "Rarity": "Rare",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, pp. 224–225 (PDF pp. 225–226), Weapon Special Abilities.",
+          "Conversion notes": "Keeps the command toggle and elemental damage. The burst uses a single die in place of scaling by the old weapon critical multiplier.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#icyburst"
+        }
+      }
+    ],
+    "dmg-35-reference:892b7faacdc3afb0": [
+      {
+        "label": "D&D 2024 adaptation · Shock (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Damage": "Use the host weapon’s damage. While the property is active, hits deal an extra 1d6 Lightning damage.",
+          "Activation": "Speak the command word as a Bonus Action to activate or deactivate the property. It stays active until deactivated or your attunement ends.",
+          "Special powers": "The extra damage also applies to ammunition fired by an affected ranged weapon.",
+          "Rarity": "Uncommon",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, pp. 224–225 (PDF pp. 225–226), Weapon Special Abilities.",
+          "Conversion notes": "Keeps the command toggle and elemental damage. Uses a Bonus Action for the command.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#shock"
+        }
+      }
+    ],
+    "dmg-35-reference:19d518ba7c27cd1a": [
+      {
+        "label": "D&D 2024 adaptation · Shocking burst (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (melee or ranged host weapon)",
+          "Attack bonus": "Use the host weapon’s attack modifier and any separately granted magic bonus.",
+          "Range": "Use the host weapon’s reach or normal and long range.",
+          "Mastery": "Use the host weapon’s mastery if a feature grants access to it.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "2024 host weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Damage": "Use the host weapon’s damage. While the property is active, hits deal an extra 1d6 Lightning damage.",
+          "Activation": "Speak the command word as a Bonus Action to activate or deactivate the property. It stays active until deactivated or your attunement ends.",
+          "Special powers": "The extra damage also applies to ammunition fired by an affected ranged weapon. On a Critical Hit, also roll 1d10 Lightning damage once, even if the property is inactive. If active, roll the extra 1d6 twice as part of the Critical Hit.",
+          "Rarity": "Rare",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, pp. 224–225 (PDF pp. 225–226), Weapon Special Abilities.",
+          "Conversion notes": "Keeps the command toggle and elemental damage. The burst uses a single die in place of scaling by the old weapon critical multiplier.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#shockingburst"
+        }
+      }
+    ],
     "dmg-35-reference:1afb17b336476ec4": [
       {
         "label": "D&D 2024 adaptation · Revolver",

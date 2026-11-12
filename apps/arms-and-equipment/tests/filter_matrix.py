@@ -1740,6 +1740,27 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Legacy weapon upgrades resolve on eligible host weapons': '''(async () => {
+                    const cases = [
+                        ["2ab96006dcaf2318", ["fixed", "extra 2d6", "host weapon"]],
+                        ["8b4a65edfcd3074c", ["Dragon type", "2024 Kobold Warrior", "Published 2024 Dragon Slayer comparison"]],
+                        ["c02757d54356fd8a", ["gnoll", "Fiend"]],
+                        ["24e5ac222422f19d", ["goblin, hobgoblin, or bugbear", "Fey"]],
+                        ["177ada4c7961b108", ["Kobold Warrior qualifies", "Dragon"]],
+                        ["0078a61a48c0f616", ["extra 1d6 Fire", "Bonus Action"]],
+                        ["dd452c5b796c7fab", ["1d10 Fire damage once", "even if the property is inactive"]],
+                        ["91f0eb16d4163442", ["1d10 Cold damage once", "roll the extra 1d6 twice"]],
+                        ["19d518ba7c27cd1a", ["extra 1d6 Lightning", "1d10 Lightning damage once"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dmg-35-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))
+                            || !inspection.querySelector('a[href*="magicWeapons.htm#"]')
+                            || inspection.textContent.includes("upgrade’s item-specific 2024 rules still require review")) return false;
+                    }
+                    return true;
+                })()''',
                 'Optional DMG weapons show their conversion and source': '''(async () => {
                     const cases = [
                         ["1afb17b336476ec4", ["40/120 feet", "6 bullets", "Sap"]],

@@ -9,7 +9,7 @@ Scope is catalog records indexed with type weapon. Ammunition indexed separately
 | Evidence | Records |
 |---|---:|
 | base-weapon-draft | 2,876 |
-| item-specific-draft | 559 |
+| item-specific-draft | 597 |
 | improvised-fallback | 470 |
 | native-bg3 | 428 |
 | published-2024-attack | 322 |
@@ -17,10 +17,10 @@ Scope is catalog records indexed with type weapon. Ammunition indexed separately
 | published-2024-structured | 222 |
 | published-2024-cross-reference | 141 |
 | verified-2024-enhancement | 96 |
-| upgrade-dependent | 66 |
 | reference-object | 65 |
 | launcher-dependent | 48 |
 | verified-2024-ordinary-weapon | 36 |
+| upgrade-dependent | 28 |
 | verified-2024-enhancement-with-base-note | 12 |
 | documented-reference | 6 |
 | source-based-2024 | 1 |
