@@ -218,7 +218,9 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
                                    and (item['type'] == 'shield') == (target_armor.get('name') == 'Shield'))
             enhancement = re.search(r' \(\+([1-3])\)$', target.get('name', '')) if target.get('magic') else None
             family = modern_families.get(base_id) if mapping['profile_kind'] == 'published-armor-mapping' else None
-            bonus = mapping.get('enhancement_bonus') if public else int(enhancement[1]) if enhancement else 0
+            bonus = int(enhancement[1]) if enhancement else 0
+            if public or source_adaptation:
+                bonus = mapping.get('enhancement_bonus', bonus)
             if family:
                 bonus = family.get('bonus', 0)
             expected_status = 'original-draft' if adapted else 'published-reference'

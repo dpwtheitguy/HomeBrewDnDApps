@@ -220,6 +220,20 @@ def main():
         'vom_smoking-plate-of-heithmir': 37,
         'vom_spear-of-the-north': 37,
         'vom_spear-of-the-stilled-heart': 37,
+        'vom_spear-of-the-western-whale': 37,
+        'vom_spearbiter': 37,
+        'vom_adamantine-spearbiter': 37,
+        'vom_spectral-blade': 38,
+        'vom_steadfast-splint': 38,
+        'vom_stinger': 38,
+        'vom_survival-knife': 38,
+        'vom_sweet-nature': 38,
+        'vom_swarmfoe-hide': 38,
+        'vom_swarmfoe-leather': 38,
+        'vom_standard-of-divinity-glaive': 38,
+        'vom_standard-of-divinity-halberd': 38,
+        'vom_standard-of-divinity-lance': 38,
+        'vom_standard-of-divinity-pike': 38,
     }
     vault_weapon_corrections = {
         'vom_anchor-of-striking': ('Anchor of Striking', 'srd_war-pick', 11),
@@ -275,6 +289,11 @@ def main():
                         f = {**f, 'weight': '1.000'}
                     if raw['pk'].startswith('vom_slimeblade-'):
                         vault_page = 36
+                        f = {**f, 'rarity': 'rare'}
+                    if raw['pk'] in ('vom_spearbiter', 'vom_adamantine-spearbiter',
+                                     'vom_swarmfoe-hide', 'vom_swarmfoe-leather'):
+                        f = {**f, 'requires_attunement': True}
+                    if raw['pk'] == 'vom_spectral-blade':
                         f = {**f, 'rarity': 'rare'}
                     if raw['pk'] == 'vom_slipshod-hammer':
                         f = {**f, 'rarity': 'uncommon'}

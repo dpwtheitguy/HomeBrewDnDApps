@@ -1869,6 +1869,23 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Vault of Magic restores shield reactions, armor requirements, and the planted standard': '''(async () => {
+                    for (const [id, terms] of [
+                        ["spearbiter", ["Armor class bonus+2", "Reaction", "recharges at dawn", "AttunementRequired"]],
+                        ["adamantine-spearbiter", ["Roll with Advantage", "Reaction available"]],
+                        ["spectral-blade", ["Rare", "1d10 Force damage", "Difficult Terrain"]],
+                        ["standard-of-divinity-halberd", ["Cleric or Paladin", "Cleave"]],
+                        ["swarmfoe-hide", ["13 + Dex modifier", "1d4 + Strength modifier", "AttunementRequired"]],
+                        ["sweet-nature", ["24 hours", "within 30 feet", "Advantage on saving throws"]]
+                    ]) {
+                        inspect("open5e-vom:vom_" + id, grid.firstElementChild);
+                        await Promise.all([itemDetails, bg3WeaponRules]);
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Vault of Magic restores curses, ammunition, and smoke effects': '''(async () => {
                     for (const [id, terms] of [
                         ["spear-of-the-stilled-heart", ["at dusk", "3d6 Necrotic", "DC 12 Constitution", "Remove Curse"]],

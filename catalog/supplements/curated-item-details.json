@@ -1,6 +1,385 @@
 {
   "schema_version": 1,
   "records": {
+    "open5e-vom:vom_spear-of-the-western-whale": [
+      {
+        "label": "D&D 2024 adaptation · Spear of the Western Whale",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Piercing (1d8 with two hands in melee) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Thrown, Versatile (1d8)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While carrying the spear, gain Advantage on Wisdom (Survival) checks to catch fish for food and Strength (Athletics) checks to swim. On the ground, it spins until its point faces west. A hit with a throw in a westerly direction deals an extra 2d6 Cold damage.",
+          "Conversion notes": "Use the 2024 Spear. The DM determines whether the trajectory counts as westerly on the encounter map.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 37."
+        }
+      }
+    ],
+    "open5e-vom:vom_spearbiter": [
+      {
+        "label": "D&D 2024 adaptation · Spearbiter",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Special powers": "While wielding the shield, when a creature you can see within 5 feet makes a melee weapon attack against you, take a Reaction to snap at its weapon. Roll d20 + your Strength modifier + your Proficiency Bonus if trained with Shields. If your total exceeds the attacker’s total, its attack misses. Once used, this Reaction recharges at dawn.",
+          "Conversion notes": "The book requires attunement for both variants. The shield roll uses a melee attack modifier to resolve the defense and deals no damage.",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 37–38."
+        }
+      }
+    ],
+    "open5e-vom:vom_adamantine-spearbiter": [
+      {
+        "label": "D&D 2024 adaptation · Adamantine Spearbiter",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Special powers": "While wielding the shield, when a creature you can see within 5 feet makes a melee weapon attack against you, take a Reaction to snap at its weapon. Roll d20 + your Strength modifier + your Proficiency Bonus if trained with Shields. If your total exceeds the attacker’s total, its attack misses. Roll with Advantage. You may use it whenever you have a Reaction available.",
+          "Conversion notes": "The book requires attunement for both variants. The shield roll uses a melee attack modifier to resolve the defense and deals no damage.",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 37–38."
+        }
+      }
+    ],
+    "open5e-vom:vom_spectral-blade": [
+      {
+        "label": "D&D 2024 adaptation · Spectral Blade",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Choose Piercing or Force for each attack. While holding the blade, take a Magic action to become incorporeal until the start of your next turn. You can also do so as a Reaction when you damage a creature with the blade. During the effect, creatures and objects count as Difficult Terrain for your movement. Ending your turn inside an object deals 1d10 Force damage to you.",
+          "Conversion notes": "Restores printed Rare rarity. This draft places you in the nearest unoccupied space that fits you if the effect ends while you are inside a creature or object.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 38."
+        }
+      }
+    ],
+    "open5e-vom:vom_standard-of-divinity-glaive": [
+      {
+        "label": "D&D 2024 adaptation · Standard of Divinity (Glaive)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_glaive",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Slashing + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "6 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required by a Cleric or Paladin",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "The banner changes to bear the symbol and colors of your deity when you attune to the weapon. Its only combat bonus is the +1 already included in attack and damage.",
+          "Conversion notes": "Uses the 2024 Glaive profile and retains the printed class requirement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 38."
+        }
+      }
+    ],
+    "open5e-vom:vom_standard-of-divinity-halberd": [
+      {
+        "label": "D&D 2024 adaptation · Standard of Divinity (Halberd)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_halberd",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Slashing + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Cleave",
+          "Weight": "6 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required by a Cleric or Paladin",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "The banner changes to bear the symbol and colors of your deity when you attune to the weapon. Its only combat bonus is the +1 already included in attack and damage.",
+          "Conversion notes": "Uses the 2024 Halberd profile and retains the printed class requirement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 38."
+        }
+      }
+    ],
+    "open5e-vom:vom_standard-of-divinity-lance": [
+      {
+        "label": "D&D 2024 adaptation · Standard of Divinity (Lance)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_lance",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Piercing + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed (unless mounted)",
+          "Mastery": "Topple",
+          "Weight": "6 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required by a Cleric or Paladin",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "The banner changes to bear the symbol and colors of your deity when you attune to the weapon. Its only combat bonus is the +1 already included in attack and damage.",
+          "Conversion notes": "Uses the 2024 Lance profile and retains the printed class requirement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 38."
+        }
+      }
+    ],
+    "open5e-vom:vom_standard-of-divinity-pike": [
+      {
+        "label": "D&D 2024 adaptation · Standard of Divinity (Pike)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_pike",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Piercing + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Push",
+          "Weight": "18 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required by a Cleric or Paladin",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "The banner changes to bear the symbol and colors of your deity when you attune to the weapon. Its only combat bonus is the +1 already included in attack and damage.",
+          "Conversion notes": "Uses the 2024 Pike profile and retains the printed class requirement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 38."
+        }
+      }
+    ],
+    "open5e-vom:vom_steadfast-splint": [
+      {
+        "label": "D&D 2024 adaptation · Steadfast Splint",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "Strength 15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Special powers": "While wearing the armor, gain Advantage on saves against becoming Charmed or Frightened. You also have Advantage on checks and saves against spells and effects that would move you involuntarily.",
+          "Conversion notes": "Use 2024 Splint. The movement protection applies when an effect calls for a check or save.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 38."
+        }
+      }
+    ],
+    "open5e-vom:vom_stinger": [
+      {
+        "label": "D&D 2024 adaptation · Stinger",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When you hit a creature, you may spend a Bonus Action to inject venom. The creature makes a DC 15 Constitution save or is Paralyzed for 1 minute. It repeats the save at the end of each of its turns, ending the condition on a success. Creatures immune to Poison are immune to this venom. The power recharges at dawn.",
+          "Conversion notes": "Uses the 2024 Dagger profile. This draft treats immunity to Poison damage or the Poisoned condition as immunity to this venom.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 38."
+        }
+      }
+    ],
+    "open5e-vom:vom_survival-knife": [
+      {
+        "label": "D&D 2024 adaptation · Survival Knife",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While holding the knife or holding or touching its transformed form, take a Magic action to change it into a crowbar, fishing tackle, hunting trap, hatchet, or back into a dagger. Use the corresponding 2024 gear rules. A hatchet attack uses the listed Dagger statistics with Slashing damage.",
+          "Conversion notes": "The fishing rod uses the 2024 Fishing Tackle rules. The other gear forms are tools or objects.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 38."
+        }
+      }
+    ],
+    "open5e-vom:vom_swarmfoe-hide": [
+      {
+        "label": "D&D 2024 adaptation · Swarmfoe Hide",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "enhancement_bonus": 1,
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Special powers": "The listed AC includes the suit’s +1 bonus. While wearing it, you can make a melee attack with its scales within 5 feet. Add Strength and your Proficiency Bonus to hit. On a hit deal 1d4 + Strength modifier Slashing damage, ignoring a Swarm’s Resistance to that damage. If a Swarm occupies your space, you may make this attack as a Bonus Action.",
+          "Conversion notes": "Restores printed attunement. The scales grant proficiency with their attack and have no assigned mastery.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 38."
+        }
+      }
+    ],
+    "open5e-vom:vom_swarmfoe-leather": [
+      {
+        "label": "D&D 2024 adaptation · Swarmfoe Leather",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "enhancement_bonus": 1,
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Special powers": "The listed AC includes the suit’s +1 bonus. While wearing it, you can make a melee attack with its scales within 5 feet. Add Strength and your Proficiency Bonus to hit. On a hit deal 1d4 + Strength modifier Slashing damage, ignoring a Swarm’s Resistance to that damage. If a Swarm occupies your space, you may make this attack as a Bonus Action.",
+          "Conversion notes": "Restores printed attunement. The scales grant proficiency with their attack and have no assigned mastery.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 38."
+        }
+      }
+    ],
+    "open5e-vom:vom_sweet-nature": [
+      {
+        "label": "D&D 2024 adaptation · Sweet Nature",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_battleaxe",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "A hit against a Humanoid deals an extra 1d6 Slashing damage. After damaging a Plant creature or wooden object, the axe blade turns into honey for 24 hours and the axe cannot be used during that time. As a Magic action, plant the axe in the ground and choose up to six creatures, including yourself if desired. For 1 minute, those creatures have Advantage on saving throws while within 30 feet of the planted axe. You cannot attack with the axe while planted. The standard recharges at dawn.",
+          "Conversion notes": "Restores the Plant Standard ability missing from the upstream record. In this draft, removing the axe ends the aura.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 38."
+        }
+      }
+    ],
     "open5e-vom:vom_sickle-of-thorns": [
       {
         "label": "D&D 2024 adaptation · Sickle of Thorns",
