@@ -1,6 +1,65 @@
 {
   "schema_version": 1,
   "records": {
+    "tomb-annihilation-reference:9d8f64321a04877b": [
+      {
+        "label": "D&D 2024 adaptation · Scorpion Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://dnd5e.wikidot.com/wondrous-items:toa",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 Plate Armor"
+        },
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "No",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing it, gain +5 to Initiative unless Incapacitated. The armor imposes no Disadvantage on Dexterity (Stealth) checks or on saving throws against extreme heat.",
+          "Curse": "Whenever you don or doff the armor, make a DC 15 Constitution saving throw. Take 10d10 + 45 Poison damage on a failed save or half on a success. Only Wish removes the curse.",
+          "Don and doff": "Don in 10 minutes and doff in 5 minutes using the 2024 Heavy Armor timings. Resolve the curse even if you are not yet attuned.",
+          "Original item context": "Giant scorpion chitin plate from the adventure’s magic item appendix.",
+          "Source locator": "Tomb of Annihilation, Appendix C, printed p. 208 (viewer page 209).",
+          "Original item source": "https://online.anyflip.com/tqblu/jphj/files/basic-html/page209.html",
+          "Conversion notes": "Uses the 2024 Plate Armor chassis and the adventure’s initiative, Stealth, heat, and curse rules."
+        }
+      }
+    ],
+    "tomb-annihilation-reference:824b5e44206f1c30": [
+      {
+        "label": "D&D 2024 adaptation · Staff of the Forgotten One",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://online.anyflip.com/tqblu/jphj/files/basic-html/page209.html",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 Quarterstaff"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier + 3, plus 3d6 Necrotic on a hit.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Artifact",
+          "Attunement": "Required by a Sorcerer, Warlock, or Wizard.",
+          "Activation": "Make a weapon attack or use a Magic action for Invoke Curse.",
+          "Special powers": "While carrying it, double your Proficiency Bonus on Intelligence (Arcana) and Intelligence (History) checks on which you are proficient. You are immune to the Blinded, Charmed, Deafened, Frightened, Petrified, and Stunned conditions. Undead of CR 2 or lower leave you alone unless you harm them.",
+          "Invoke Curse": "The staff has 7 charges and regains 1d4 + 3 expended charges at dawn. As a Magic action spend 1 charge and choose one visible creature within 60 feet. It makes a Constitution save against your spell save DC. On a failure it cannot regain Hit Points and has Vulnerability to Necrotic damage until Remove Curse, Greater Restoration, or comparable magic ends the curse.",
+          "Possession": "When anyone other than Acererak spends a charge, roll 1d2. On a 1, the user makes a DC 20 Charisma save or the imprisoned archmage takes control of the user as an NPC. Dispel Evil and Good can end the possession and return the spirit to the staff.",
+          "Destruction": "As a Utilize action, break it against a solid surface or over your knee. Every creature in a 30-foot-radius Sphere centered on the staff makes a DC 18 Dexterity save, taking 24d10 Force on failure or half on success. The spirit is released. A Sphere of Annihilation destroys the staff and itself without the explosion.",
+          "Source locator": "Tomb of Annihilation, Appendix C, printed p. 208 (viewer page 209).",
+          "Conversion notes": "The 2024 Quarterstaff supplies mastery and the base weapon formula. Modern action names replace the legacy action language."
+        }
+      }
+    ],
     "dragons-den-reference:34a675fe69db49dc": [
       {
         "label": "D&D 2024 adaptation · Black Dragonscale Shield Cover",

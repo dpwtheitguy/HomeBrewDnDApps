@@ -205,9 +205,14 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
                 and bool(source_locator)
                 and bool(mapped_fields.get('Original item context'))
             )
+            reviewed_book_index = (
+                provenance.get('evidence', {}).get('kind') == 'secondary-book-name-index'
+                and mapped_fields.get('Original item source', '').startswith('https://')
+                and bool(mapped_fields.get('Original item context'))
+            )
             original_page = (mapping.get('source') == provenance.get('source_url')
                              and bool(source_locator)
-                             and (bool(provenance.get('locator')) or reviewed_online_section))
+                             and (bool(provenance.get('locator')) or reviewed_online_section or reviewed_book_index))
             verified_source = (item['source_id'] == 'dndbeyond-public-index'
                                and mapping.get('source') == provenance.get('source_url')
                                and target.get('magic') is False) if public else (

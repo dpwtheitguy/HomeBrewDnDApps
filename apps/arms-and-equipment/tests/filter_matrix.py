@@ -1871,6 +1871,17 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Tomb of Annihilation armor and staff preserve curse rules': '''(async () => {
+                    inspect("tomb-annihilation-reference:9d8f64321a04877b", grid.firstElementChild);
+                    await itemDetails;
+                    const armor = inspection.textContent;
+                    inspect("tomb-annihilation-reference:824b5e44206f1c30", grid.firstElementChild);
+                    await itemDetails;
+                    const staff = inspection.textContent;
+                    dismissInspection(false);
+                    return ["Armor class18", "+5 to Initiative", "10d10 + 45 Poison", "Only Wish"].every(term => armor.includes(term))
+                        && ["3d6 Necrotic", "DC 20 Charisma", "24d10 Force", "1d4 + 3"].every(term => staff.includes(term));
+                })()''',
                 'Dragon’s Den shield cover and chestplate show distinct protections': '''(async () => {
                     inspect("dragons-den-reference:34a675fe69db49dc", grid.firstElementChild);
                     await itemDetails;
