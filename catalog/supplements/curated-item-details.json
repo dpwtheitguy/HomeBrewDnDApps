@@ -1,6 +1,238 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:e7a812a9622d9dff": [
+      {
+        "label": "D&D 2024 adaptation · Khadril",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_swords.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Once per dawn as a Bonus Action, spend one available Hit Point Die to awaken the blade for 1 minute. Its enhancement becomes +3. The first time during this effect that you reduce a creature to 0 Hit Points with the sword, regain 2d6 Hit Points.",
+          "Conversion notes": "Spending a Hit Point Die represents the legacy cost. The increased enhancement and healing are capped for 2024 play.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 1, PDF pp. 3–4.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Curse": "After three days of attunement, the sentient sword begins speaking in dreams. After three days without a kill it starts demanding one. After a week without a kill, at the next Long Rest make a DC 16 Wisdom save. On failure, the sword’s awakening power is suppressed until your next dawn. Remove Curse ends attunement. The DM can portray the pressure in dreams without taking control of the character."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:39c327ff4e6a4ae3": [
+      {
+        "label": "D&D 2024 adaptation · Neanduril",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_swords.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "The blade is immune to damage while magical. Once per dawn, use a Magic action to cast Haste on yourself. Use the normal Concentration and ending effects.",
+          "Conversion notes": "Uses 2024 Haste. The spell-turning power becomes a single-target Reaction with a daily limit.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 1, PDF p. 5.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Spell turning": "Once per dawn when you succeed on a saving throw against a spell of level 7 or lower that targets only you, use a Reaction to negate its effect on you and reflect it at the caster. If the spell cannot target the caster, negate it without reflecting. Use the original caster’s spell save DC and attack modifier. Area spells are ineligible."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:a4a81c601b445fcb": [
+      {
+        "label": "D&D 2024 adaptation · Radiance",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_swords.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 Slashing + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "6 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Deal an extra 2d6 Radiant on a hit against a creature afflicted with lycanthropy. As a Magic action, cast Light or See Invisibility at will, or Detect Magic up to three times per dawn.",
+          "Conversion notes": "Extra Radiant dice replace the legacy +4 lycanthrope bonus. The trapped phoenix is represented by a bounded encounter summon.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 1, PDF p. 6.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Phoenix ashes": "As a Magic action, release the ashes into an unoccupied space within 5 feet. They become a Fire Elemental with a Fly Speed of 60 feet. It acts immediately after you, follows your verbal commands, and Dodges if given no command. It lasts 1 minute or until reduced to 0 Hit Points. The sword is nonmagical while it is released. The creature leaves ashes in its space when it disappears. As a Magic action, return them to the blade to restore its powers at the next dawn."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:1bd1659c21bb0854": [
+      {
+        "label": "D&D 2024 adaptation · Swan Glory",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_swords.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "The sword communicates telepathically with its wielder and glows when an Undead is within 20 feet. Hits against Undead deal an extra 2d6 Radiant. Up to three times per dawn, add 3d8 Radiant to a hit. Once per dawn, take a Magic action to regain 2d6 + 2 Hit Points.",
+          "Conversion notes": "Extra dice replace the legacy +6 against Undead and quadruple damage. The draft limits flying attacks to a fixed distance and three turns.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 1, PDF pp. 7–8.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Flying attack": "Up to three times per dawn after you attack a creature with the sword, launch it at that creature as a Bonus Action. At the end of each of your next three turns it makes one melee attack against that creature using your modifiers if it is within 30 feet of you. The sword returns after the third turn, if the target moves out of range or drops to 0 Hit Points, or if you recall it as a Bonus Action. It lands at your feet if you have no free hand. You cannot use the sword for other attacks while it flies."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:f0a60437d79bd25a": [
+      {
+        "label": "D&D 2024 adaptation · Inferi",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_swords.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Once per dawn as a Magic action, cast Light. Separately, once per dawn use a Bonus Action to ignite the blade for 1 minute. It sheds Bright Light for 20 feet and Dim Light for 20 more, ignites unattended flammable objects it hits, and deals an extra 2d6 Fire to a Plant or Undead it hits. Double the weapon damage dice on a hit against an unattended object.",
+          "Conversion notes": "The 2024 draft replaces unconditional cutting with object damage and one spell-barrier check. The blade’s magic can go dormant for months.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 1, PDF p. 9.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Cut a magical barrier": "As a Magic action while adjacent to an ongoing spell barrier, make a Strength check with DC 10 + the spell’s level. On success, end one barrier created by that spell. The sword becomes nonmagical for one month per spell level. This power cannot intercept a spell as it is cast."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:e4db8c2b5a95dfdd": [
+      {
+        "label": "D&D 2024 adaptation · Zanmato",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_swords.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 Slashing + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "6 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "When a hit with this blade rolls a natural 19 or 20 against a creature other than a Construct or Undead, the target makes a DC 17 Constitution save. On failure add 4d6 Slashing to the hit. On success add 2d6 Slashing. Roll the added dice once. A 19 counts only if it hits and does not expand the wielder’s critical range.",
+          "Conversion notes": "Uses a +3 Greatsword. The saving throw and additional dice replace the source’s instant death and triple damage.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 1, PDF p. 10.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:5fb881c6ec2681c5": [
+      {
+        "label": "D&D 2024 adaptation · Ice Age",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_swords.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Each hit adds 1d6 Cold, or 2d6 if the target has Immunity to Fire. At the start of each of your turns while holding the unsheathed sword, every creature within 10 feet, including you, takes 1 Cold damage. A lead-lined scabbard suppresses the aura.",
+          "Conversion notes": "Uses fixed damage in place of the legacy anti-fire enhancement. Short restraint replaces the original permanent ice transformation.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 1, PDF pp. 11–12.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Freeze": "Up to three times per dawn on a hit, force a DC 17 Constitution save. A Construct, Elemental, Undead, or a creature with Cold Resistance or Immunity automatically succeeds. On failure it is Restrained in ice until the end of its next turn. The condition ends early if the target takes Fire damage.",
+          "Cut through fire": "As a Magic action, extinguish nonmagical fire in one 5-foot Cube within reach or end an ongoing Wall of Fire spell that you can reach. This cannot intercept a spell as it is cast."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:721d39524bc602bc": [
+      {
+        "label": "D&D 2024 adaptation · Dazan Kogu",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_swords.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "While holding the sword, gain +2 to saves against spells. On a hit against a creature that can cast spells, deal an extra 1d6 Force. Up to three times per dawn on such a hit, force a DC 17 Constitution save. On failure the target loses Concentration and cannot cast spells until the start of your next turn.",
+          "Conversion notes": "The draft converts the legacy bonus against magic-users to Force damage and replaces permanent slot loss with an interruption.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 1, PDF p. 13.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Slicing": "On a hit against a creature other than a Construct or Undead, an unmodified 19 or 20 adds 2d8 Slashing damage. Roll the extra dice once. This trigger does not expand the critical range."
+        }
+      }
+    ],
     "mystara-fan-names-reference:bc189d6fdf4fd0b5": [
       {
         "label": "D&D 2024 adaptation · Sword of Nithia",

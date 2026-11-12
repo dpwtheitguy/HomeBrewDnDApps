@@ -1871,6 +1871,23 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Mystara early-volume swords show reflection, flight, and elemental control': '''(async () => {
+                    for (const [id, terms] of [
+                        ["e7a812a9622d9dff", ["Hit Point Die", "2d6 Hit Points", "Remove Curse"]],
+                        ["39c327ff4e6a4ae3", ["Spell turning", "level 7 or lower", "Area spells are ineligible"]],
+                        ["a4a81c601b445fcb", ["Phoenix ashes", "Fire Elemental", "lycanthropy"]],
+                        ["1bd1659c21bb0854", ["Flying attack", "3d8 Radiant", "30 feet"]],
+                        ["5fb881c6ec2681c5", ["lead-lined scabbard", "Restrained in ice", "Wall of Fire"]],
+                        ["721d39524bc602bc", ["DC 17 Constitution", "loses Concentration", "unmodified 19 or 20"]],
+                    ]) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Mystara swords show sealed powers and sentient effects': '''(async () => {
                     for (const [id, terms] of [
                         ["bc189d6fdf4fd0b5", ["DC 17 Wisdom", "three charges that never return", "Remove Curse"]],
