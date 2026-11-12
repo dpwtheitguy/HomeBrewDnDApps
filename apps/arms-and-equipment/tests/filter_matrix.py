@@ -1740,6 +1740,30 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault shields show healing, Bloodied and critical-hit rules': '''(async () => {
+                    const cases = [
+                        ["9efffeae699af78a", ["after resolving that attack", "+1 AC for 1 minute"]],
+                        ["dd50ce9ec628e1d7", ["unspent Hit Point Die", "Constitution modifier"]],
+                        ["6c2c535e80909584", ["Critical Hit", "by 5", "before applying Resistance"]],
+                        ["3b996bea3158d5bc", ["The chosen creature must be Bloodied", "by 5"]],
+                        ["423e623b4d24e3b8", ["by 2", "cease to be Bloodied"]],
+                        ["6880aabf814a9294", ["Intelligence, Wisdom, or Charisma", "Add 4"]],
+                        ["4002bbf4a5fa758a", ["additional +1 AC", "first round of combat"]],
+                        ["ea358717dc8cd707", ["Strength or Constitution", "Add 4"]],
+                        ["263216006fc71340", ["DC 15 Constitution", "Blinded"]],
+                        ["159304cfa86cac3f", ["Swim Speed", "while swimming on the surface"]],
+                        ["a5a5c31e3a514dae", ["within 60 feet", "rolled their maximum"]],
+                        ["603a066e2f2f8a36", ["DC 15 Wisdom", "end of each of its turns"]],
+                        ["d1c2564d442ac200", ["Resistance to Fire", "including against the triggering damage"]],
+                        ["51a18e8f85fb50b5", ["Critical Hit", "turn it into a normal hit", "Base cost410 gp"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!["Armor class bonus+2", ...terms].every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Draft magic armor and shield prices include only the mundane base': '''(async () => {
                     const cases = [
                         ["adventurers-vault-1-reference:64292fadc3c1368f", ["Base cost410 gp", "Base buy1025 gp", "Base sell164 gp", "Uncommon draft conversion plus 2024 Shield cost"]],

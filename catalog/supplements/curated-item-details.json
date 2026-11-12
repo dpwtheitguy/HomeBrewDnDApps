@@ -1,6 +1,356 @@
 {
   "schema_version": 1,
   "records": {
+    "adventurers-vault-1-reference:9efffeae699af78a": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Uncommon",
+          "Special powers": "While holding the shield, when an attack roll hits an ally within 5 feet of you, you can take a Reaction after resolving that attack. The ally gains +1 AC for 1 minute. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 114 (PDF p. 115), Angelsteel Shield.",
+          "Conversion notes": "Uses the original lowest-tier defense bonus. Attack rolls target AC in 2024, and a one-minute duration replaces the encounter duration. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:dd50ce9ec628e1d7": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Uncommon",
+          "Special powers": "While holding the shield, when an ally within 5 feet of you regains Hit Points, you can take a Reaction to let that ally immediately spend one unspent Hit Point Die. The ally rolls the die and regains Hit Points equal to the roll plus its Constitution modifier, with a minimum of 1 Hit Point. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 114 (PDF p. 115), Battleforged Shield.",
+          "Conversion notes": "Replaces the original healing surge with one Hit Point Die. Uses a Reaction for the triggered activation and the standard 2024 Shield for the original heavy shield. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:6c2c535e80909584": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "When you take a Critical Hit while holding the shield, you can take a Reaction before damage is rolled. From that hit through the end of your next turn, reduce the total damage you take from each attack, spell, or other effect by 5, to a minimum of 0. Apply the reduction once per instance of damage before applying Resistance or Vulnerability. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 114 (PDF p. 115), Bloodguard Shield.",
+          "Conversion notes": "Retains the original lowest-tier flat reduction and includes the triggering critical hit. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:3b996bea3158d5bc": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While holding the shield, take a Bonus Action to choose yourself or an ally within 5 feet of you. The chosen creature must be Bloodied. Until the end of your next turn, reduce the total damage that creature takes from each attack, spell, or other effect by 5, to a minimum of 0. Apply the reduction once per instance of damage before applying Resistance or Vulnerability. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 114 (PDF p. 115), Bloodshored Shield.",
+          "Conversion notes": "Retains the original flat reduction and checks the 2024 Bloodied threshold when choosing the recipient. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:423e623b4d24e3b8": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Uncommon",
+          "Special powers": "While holding the shield and Bloodied, you can take a Bonus Action to activate it. For 1 minute, reduce the total damage you take from each attack, spell, or other effect by 2, to a minimum of 0. Apply the reduction once per instance of damage before applying Resistance or Vulnerability. The effect ends early if you cease to be Bloodied. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 114 (PDF p. 115), Bloodsoaked Shield.",
+          "Conversion notes": "Retains the original lowest-tier flat reduction and early end condition. A one-minute duration replaces the encounter duration. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:6880aabf814a9294": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While holding the shield, when an ally within 5 feet of you fails an Intelligence, Wisdom, or Charisma saving throw, you can take a Reaction. Add 4 to the ally’s total for that save, potentially turning the failure into a success. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 116 (PDF p. 117), Cold Iron Shield.",
+          "Conversion notes": "Maps 4e Will defense to 2024 mental saving throws. Retains the original lowest-tier bonus for a single ally and uses the standard 2024 Shield for the original heavy shield. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:4002bbf4a5fa758a": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Uncommon",
+          "Special powers": "While holding the shield, you gain an additional +1 AC during the first round of combat. The bonus applies even if you are surprised.",
+          "Source locator": "Adventurer’s Vault (4e), p. 116 (PDF p. 117), Darkleaf Shield.",
+          "Conversion notes": "Retains the original lowest-tier AC bonus. The single first round covers 2024 surprise, which is handled through Initiative. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:ea358717dc8cd707": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While holding the shield, when an ally within 5 feet of you fails a Strength or Constitution saving throw, you can take a Reaction. Add 4 to the ally’s total for that save, potentially turning the failure into a success. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 117 (PDF p. 118), Direbeast Shield.",
+          "Conversion notes": "Maps 4e Fortitude defense to Strength and Constitution saving throws and retains the original lowest-tier bonus. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:263216006fc71340": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While holding the shield, when a creature you can see misses you with a melee attack, you can take a Reaction to flash light at the attacker. It must succeed on a DC 15 Constitution saving throw or have the Blinded condition until the end of your next turn. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 117 (PDF p. 118), Flaring Shield.",
+          "Conversion notes": "Retains the original trigger and duration and adds a Constitution save for the 2024 Blinded condition. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:159304cfa86cac3f": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Uncommon",
+          "Special powers": "While holding the shield, you stay on the surface of a liquid unless you choose to submerge. You have a Swim Speed equal to your Speed while swimming on the surface. You have Advantage on Strength (Athletics) checks to swim on the surface and Constitution checks to keep swimming for extended periods. The shield grants no protection from the liquid itself.",
+          "Source locator": "Adventurer’s Vault (4e), p. 117 (PDF p. 118), Floating Shield.",
+          "Conversion notes": "Replaces the original check bonuses with Advantage and preserves surface-only movement and voluntary submersion. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:a5a5c31e3a514dae": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While holding the shield, when you or an ally you can see within 60 feet of you would regain Hit Points, you can take a Reaction before the healing is applied. Treat any dice used for that instance of healing as having rolled their maximum. Increase the healing further by the higher of your Wisdom and Charisma modifiers, with a minimum bonus of 0. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 117 (PDF p. 118), Healer’s Shield.",
+          "Conversion notes": "Retains maximized healing and the original lowest-tier ability bonus. Uses a Reaction and caps the original line-of-sight range at 60 feet. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:603a066e2f2f8a36": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While holding the shield, when a creature within 5 feet that can see you misses you with a melee attack, you can take a Reaction. The attacker must succeed on a DC 15 Wisdom saving throw or become mesmerized for up to 1 minute. While mesmerized, it can move or take one action on its turn, but cannot do both, take a Bonus Action, or take a Reaction. It repeats the save at the end of each of its turns, ending the effect on a success. The effect also ends if it can no longer see you or is farther than 5 feet from you at the end of your turn. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 117 (PDF p. 118), Hypnotic Shield.",
+          "Conversion notes": "Models the action limits of 4e dazed as an item-specific effect. Adds a Wisdom save and duration cap, and preserves the proximity and sight limits. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:d1c2564d442ac200": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While holding the shield, you have Resistance to Fire damage. When an ally within 5 feet of you would take Fire damage, you can take a Reaction to grant it Resistance to Fire damage, including against the triggering damage, until the end of your next turn. The Reaction power recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 117 (PDF p. 118), Flamedrinker Shield.",
+          "Conversion notes": "Converts the original passive and triggered flat reductions to Fire Resistance. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:51a18e8f85fb50b5": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Uncommon",
+          "Special powers": "When you take a Critical Hit while holding the shield, you can take a Reaction before damage is rolled to turn it into a normal hit. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 122 (PDF p. 123), Wyrmguard Shield.",
+          "Conversion notes": "Retains the lowest-tier self-only trigger and converts the original daily interrupt into a 2024 Reaction. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
     "adventurers-vault-1-reference:ccce738f9a38793f": [
       {
         "label": "D&D 2024 shield adaptation",
