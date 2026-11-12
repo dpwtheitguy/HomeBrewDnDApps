@@ -168,6 +168,20 @@ In *Tomb of Annihilation*, a licensed consortium can handle sales on behalf of i
 | Zhanthi | Gems, jewelry, cloth, and armor. Record common retail separately from valuables in private collections. |
 | Malar’s Throat and Tiryki Anchorage | Published black-market areas. Stall identities and stock need additional sources or a generated profile. |
 
+### Baldur’s Gate 3 merchant profiles
+
+The community game-data index records trader tables and distinguishes fixed offers from randomized stock. Treat these as BG3-specific appearances and link to the existing catalog IDs. Keep game prices, attitudes, shop state, and unlocks in this profile. Any D&D 2024 prices or cash limits for these sellers would be estimates. Larian’s patch notes show that a trader’s eligible stock can change between game versions. [BG3 trader index](https://bg3.wiki/wiki/Traders) · [Larian trading API](https://docs.baldursgate3.game/index.php?title=ActivateTrade) · [Larian Patch 4](https://baldursgate3.game/news/patch-4-now-live_96)
+
+| Seller and location | Game data evidence and example catalog links | Suggested cash/stock |
+| --- | --- | --- |
+| Dammon, Emerald Grove | Act 1, `DEN_Weaponsmith_Trade`. Hunting Shortbow (`bg3-wiki:6871`) and Safeguard Shield (`bg3-wiki:7854`). [Dammon, Act 1](https://bg3.wiki/wiki/Dammon#Act_One) | Established |
+| Dammon, Last Light Inn | Act 2, `HAV_Weaponsmith_Trade`. Charge-Bound Warhammer (`bg3-wiki:9189`) and Darkfire Shortbow (`bg3-wiki:9092`). Crafting and trade can have different quest gates. [Dammon, Act 2](https://bg3.wiki/wiki/Dammon#Act_Two) | Established |
+| Dammon, Forge of the Nine | Act 3, `LOW_Weaponsmith_Trade`. Armour of Persistence (`bg3-wiki:8048`). Link all three locations to the same merchant, with availability following the party’s campaign state. [Dammon, Act 3](https://bg3.wiki/wiki/Dammon#Act_Three) | Specialist |
+| Derryth Bonecloak, Myconid Colony | Act 1, `UND_MycoVillage_AlchemistDwarf_Trade`. Caustic Band (`bg3-wiki:6889`), Amulet of Restoration (`bg3-wiki:8157`), and alchemical stock. [Derryth, store](https://bg3.wiki/wiki/Derryth_Bonecloak#Store) | Established |
+| Derryth Bonecloak, Bonecloak’s Apothecary | Act 3, Lower City. Noblestalk becomes available only if the party previously gave one to Derryth. Keep this as a fixed, state-gated offer outside daily rotation. [Derryth, store](https://bg3.wiki/wiki/Derryth_Bonecloak#Store) | Specialist |
+| A’jak’nir Jeera, Crèche Y’llek | Mountain Pass, `CRE_GithQuartermistress_Trade` and `CRE_MagicItem_Gith_Trader`. Knife of the Undermountain King (`bg3-wiki:8677`). [Jeera, shop](https://bg3.wiki/wiki/A%27jak%27nir_Jeera#Shop) | Specialist |
+| Exxvikyap, Rivington General | Act 3, `WYR_OrinsImpersonation_Smith`. The Dancing Breeze (`bg3-wiki:10888`), armor, and assorted specialty ammunition. [Exxvikyap, stock](https://bg3.wiki/wiki/Exxvikyap#Notable_items_sold) | Specialist |
+
 ## Generic stores and pricing for the prototype
 
 Provide low-cost, standard, and premium filters independently of shop type, locality, and wealth. A poor district can have a modestly priced specialist. A rich city can contain a cheap provisions stall. Estimate prices using the 2024 equipment base cost in integer copper, retaining the native game or edition price separately. Filter on the final price. A higher player budget should leave the merchant’s inventory and stable item IDs intact. [D&D 2024 Equipment](https://www.dndbeyond.com/sources/dnd/br-2024/equipment)
