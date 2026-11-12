@@ -20,7 +20,8 @@ const itemDetails = Promise.all([
     loadSupplement("bg3-armor-effects.json"),
     loadSupplement("core-armor-cross-references.json"),
     loadSupplement("core-magic-weapon-families.json"),
-    loadSupplement("diablo-2-base-armor-facts.json")
+    loadSupplement("diablo-2-base-armor-facts.json"),
+    loadSupplement("diablo-2-unique-armor-facts.json")
 ]);
 const equipmentRulesUrl = "https://www.dndbeyond.com/sources/dnd/br-2024/equipment";
 const magicItemRulesUrl = "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items";
@@ -330,7 +331,8 @@ function addLegacyDmgDetails(panel, item) {
 
 function addItemDetails(panel, item, supplements) {
     const [bg3, curated, spells, weapons, references, legacyGames, diabloWeapons, bg3Availability, enhancements,
-        diabloUniques, publishedFacts, publishedArmor, bg3Armor, coreArmor, magicFamilies, diabloArmor] = supplements;
+        diabloUniques, publishedFacts, publishedArmor, bg3Armor, coreArmor, magicFamilies, diabloArmor,
+        diabloUniqueArmor] = supplements;
     const legacyGame = (legacyGames && legacyGames.records[item.id]) ||
         (diabloWeapons && diabloWeapons.records[item.id]) ||
         (diabloUniques && diabloUniques.records[item.id]);
@@ -351,7 +353,8 @@ function addItemDetails(panel, item, supplements) {
     const entries = (curated && curated.records[item.id] || [])
         .concat(publishedFacts && publishedFacts.records[item.id] || [], familyEntries,
             coreArmor && coreArmor.public && coreArmor.public[item.id] || [],
-            diabloArmor && diabloArmor.records[item.id] || []);
+            diabloArmor && diabloArmor.records[item.id] || [],
+            diabloUniqueArmor && diabloUniqueArmor.records[item.id] || []);
     const hasPublishedCombatRules = entries.some(entry =>
         entry.status === "published-reference" &&
         ["Damage", "Range", "Activation"].every(field => entry.fields[field]));

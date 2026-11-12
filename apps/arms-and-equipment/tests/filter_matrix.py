@@ -937,6 +937,21 @@ def main():
                     }
                     return true;
                 })()''',
+                'Diablo II unique armor shows native facts and authored effects': '''(async () => {
+                    inspect("diablo-2-reference:2881788f41e838a7", grid.firstElementChild);
+                    await itemDetails;
+                    const shield = inspection.textContent;
+                    inspect("diablo-2-reference:e7a12ed5d7fa05c3", grid.firstElementChild);
+                    await itemDetails;
+                    const mail = inspection.textContent;
+                    inspect("diablo-2-reference:d499390f4ac17e61", grid.firstElementChild);
+                    await itemDetails;
+                    const gold = inspection.textContent;
+                    return ["Indestructible", "35% damage reduction", "reduce that damage by 2d8", "twice per Long Rest"]
+                        .every(term => shield.includes(term)) &&
+                        ["163-172", "DC 15 Constitution", "Speed is 0"].every(term => mail.includes(term)) &&
+                        gold.includes("356-405") && !gold.includes("D&D 2024 unique armor adaptation");
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

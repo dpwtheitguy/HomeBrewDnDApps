@@ -170,7 +170,8 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
                 native = [entry for entry in curated[item_id]
                           if entry.get('status') == 'source-reported' and entry.get('source') == mapping.get('source')]
                 verified_source = (mapping.get('source') == provenance.get('source_url')
-                                   and provenance.get('evidence', {}).get('kind') == 'official-base-item-table'
+                                   and provenance.get('evidence', {}).get('kind') in {
+                                       'official-base-item-table', 'official-unique-name-index'}
                                    and bool(mapped_fields.get('Source locator'))
                                    and len(native) == 1
                                    and bool(native[0]['fields'].get('Defense (game)'))
@@ -221,6 +222,8 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
                     fields.update(role='barding', weight=weight)
                 attuned_item = item if public else target
                 fields['attunement'] = 'Required' if attuned_item['requires_attunement'] else 'No'
+                if game_adaptation:
+                    fields['attunement'] = mapped_fields['Attunement'].rstrip('.')
                 variants.append(fields)
                 base_ids.append(base_id)
         if len(variants) > 1:
@@ -381,6 +384,7 @@ def main():
     bg3['shield_training'] = armor_rules['shield_training']
     curated = load(catalog, 'curated-item-details')['records']
     curated.update(load(catalog, 'diablo-2-base-armor-facts')['records'])
+    curated.update(load(catalog, 'diablo-2-unique-armor-facts')['records'])
     prices = load(catalog, 'item-prices')['records']
     published = load(catalog, 'published-2024-armor-facts')['records']
     core_path = catalog / 'supplements/core-armor-cross-references.json'
