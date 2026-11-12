@@ -1,6 +1,355 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-1e-reference:06a83e6ccff9f80d": [
+      {
+        "label": "Verified 2024 enhancement mapping",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "fields": {
+          "Category": "Martial melee weapon (Flail)",
+          "Damage": "1d8 Bludgeoning + Strength modifier + 1",
+          "Range": "5 feet",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "2 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack using the listed reach or thrown range.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, Table III.H, roll 52-56.",
+          "Original table": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_flail-plus-1",
+          "label": "Open published 2024 Flail +1"
+        }
+      }
+    ],
+    "dmg-1e-reference:0abe8105e39030c4": [
+      {
+        "label": "Verified 2024 enhancement mapping",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "fields": {
+          "Category": "Simple melee weapon (Javelin)",
+          "Damage": "1d6 Piercing + Strength modifier + 2",
+          "Range": "5 feet melee, 30/120 feet thrown",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Properties": "Thrown",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack using the listed reach or thrown range.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, Table III.H, roll 65-67.",
+          "Original table": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_javelin-plus-2",
+          "label": "Open published 2024 Javelin +2"
+        }
+      }
+    ],
+    "dmg-1e-reference:4f654cf7629f1ae1": [
+      {
+        "label": "Verified 2024 enhancement mapping",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "fields": {
+          "Category": "Simple melee weapon (Mace)",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 1",
+          "Range": "5 feet",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "4 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack using the listed reach or thrown range.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, Table III.H, roll 68-72.",
+          "Original table": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace-plus-1",
+          "label": "Open published 2024 Mace +1"
+        }
+      }
+    ],
+    "dmg-1e-reference:d50c91ec604924bb": [
+      {
+        "label": "Verified 2024 enhancement mapping",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "fields": {
+          "Category": "Simple melee weapon (Mace)",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 2",
+          "Range": "5 feet",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "4 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack using the listed reach or thrown range.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, Table III.H, roll 73-75.",
+          "Original table": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace-plus-2",
+          "label": "Open published 2024 Mace +2"
+        }
+      }
+    ],
+    "dmg-1e-reference:3e57f62d36ca845e": [
+      {
+        "label": "Verified 2024 enhancement mapping",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "fields": {
+          "Category": "Martial melee weapon (Scimitar)",
+          "Damage": "1d6 Slashing + Strength or Dexterity modifier + 2",
+          "Range": "5 feet",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack using the listed reach or thrown range.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, Table III.H, roll 84-88.",
+          "Original table": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source distinction": "The AD&D description on p. 168 also permits a random magic-sword table. This entry represents the printed +2 result."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scimitar-plus-2",
+          "label": "Open published 2024 Scimitar +2"
+        }
+      }
+    ],
+    "dmg-1e-reference:49d9eac15f2525af": [
+      {
+        "label": "Verified 2024 enhancement mapping",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "fields": {
+          "Category": "Simple melee weapon (Spear)",
+          "Damage": "1d6 Piercing + Strength modifier + 1. Use 1d8 for the base die with two hands.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Properties": "Thrown, Versatile (1d8)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack using the listed reach or thrown range.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, Table III.H, roll 90-94.",
+          "Original table": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear-plus-1",
+          "label": "Open published 2024 Spear +1"
+        }
+      }
+    ],
+    "dmg-1e-reference:73bc0e50ec079f18": [
+      {
+        "label": "Verified 2024 enhancement mapping",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "fields": {
+          "Category": "Simple melee weapon (Spear)",
+          "Damage": "1d6 Piercing + Strength modifier + 2. Use 1d8 for the base die with two hands.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Properties": "Thrown, Versatile (1d8)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack using the listed reach or thrown range.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, Table III.H, roll 95-96.",
+          "Original table": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear-plus-2",
+          "label": "Open published 2024 Spear +2"
+        }
+      }
+    ],
+    "dmg-1e-reference:102858a5fccc7369": [
+      {
+        "label": "Verified 2024 enhancement mapping",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "fields": {
+          "Category": "Simple melee weapon (Spear)",
+          "Damage": "1d6 Piercing + Strength modifier + 3. Use 1d8 for the base die with two hands.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Properties": "Thrown, Versatile (1d8)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack using the listed reach or thrown range.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, Table III.H, roll 97.",
+          "Original table": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear-plus-3",
+          "label": "Open published 2024 Spear +3"
+        }
+      }
+    ],
+    "dmg-1e-reference:cdf3a960d6197493": [
+      {
+        "label": "D&D 2024 adaptation · Dagger of Venom",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Dagger)",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier + 1",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack using the listed reach or thrown range.",
+          "Special powers": "When you hit with a natural 20, you can expend one of the dagger’s 6 charges to inject its magical venom. The creature makes a DC 15 Constitution saving throw. On a failure it takes 3d10 Poison damage and is Poisoned for 1 minute. On a success it takes half the poison damage and avoids the condition. It can repeat the save at the end of each of its turns, ending the condition on a success. The dagger regains 1d4 expended charges daily at dawn.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, p. 168, Dagger of Venom.",
+          "Conversion notes": "Keeps the legacy natural-20 trigger, +1 weapon and six-dose limit. Replaces instant death and physical refilling with a bounded poison effect and dawn recharge.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger-of-venom",
+          "label": "Published 2024 Dagger of Venom comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:f8a8e5b015a4ef82": [
+      {
+        "label": "D&D 2024 adaptation · Javelin of Lightning",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Javelin)",
+          "Damage": "1d6 Piercing + Strength modifier",
+          "Range": "5 feet melee, 30/120 feet thrown; lightning property within 90 feet",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Properties": "Thrown",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack using the listed reach or thrown range.",
+          "Special powers": "When a thrown attack hits a target within 90 feet, it takes an extra 4d8 Lightning damage and the javelin is consumed. A 5-foot-wide Line extends from the impact point up to 30 feet back toward you, ending before your space. Each other creature in the Line makes a DC 13 Dexterity save, taking 4d8 Lightning on a failure or half as much on a success. A miss leaves the javelin intact.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, pp. 148–149, Javelin of Lightning.",
+          "Conversion notes": "Keeps the source’s backward lightning stroke and consumption on a hit. The legacy +2 equivalency only determined whether it could harm protected creatures. It adds no numerical attack or damage bonus here.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_javelin-of-lightning",
+          "label": "Published 2024 Javelin of Lightning comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:37a68cb7f7ccdf98": [
+      {
+        "label": "D&D 2024 adaptation · Mace of Disruption",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Mace)",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 1",
+          "Range": "5 feet",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "4 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack using the listed reach or thrown range.",
+          "Special powers": "On a hit against an Undead or Fiend, add 2d6 Radiant. If it has 25 Hit Points or fewer afterward, it makes a DC 15 Wisdom saving throw. It is destroyed on a failure or Frightened until the end of your next turn on a success. The first time a creature of evil alignment touches the mace each day, it takes 2d8 Radiant damage.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, p. 168, Mace of Disruption.",
+          "Conversion notes": "Keeps the +1, harmful touch and anti-Undead and anti-Fiend role. Uses the 2024 Mace of Disruption’s Hit Point threshold and save in place of the cleric turning table.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace-of-disruption",
+          "label": "Published 2024 Mace of Disruption comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:388cabf7634222a0": [
+      {
+        "label": "D&D 2024 adaptation · Scimitar of Speed",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01107.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Scimitar)",
+          "Damage": "1d6 Slashing + Strength or Dexterity modifier + 2",
+          "Range": "5 feet",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Weight": "3 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack using the listed reach or thrown range.",
+          "Special powers": "You have Advantage on Initiative rolls if you are holding the scimitar when you roll. On each of your turns you can use a Bonus Action to make one attack with it. This attack is independent of Extra Attack or an Attack action granted by Haste.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Table 110, section 2, roll 12 and Scimitar of Speed description.",
+          "Conversion notes": "Uses the typical +2 treasure result. Advantage on Initiative replaces automatic first attack. The extra attack uses the 2024 Scimitar of Speed’s Bonus Action.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scimitar-of-speed",
+          "label": "Published 2024 Scimitar of Speed comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:49c267962d618915": [
+      {
+        "label": "D&D 2024 adaptation · Sun Blade",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01110.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword)",
+          "Damage": "1d8 Radiant + Strength or Dexterity modifier + 2. Use 1d10 for the base die with two hands.",
+          "Range": "5 feet",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Properties": "Finesse, Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "2 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack using the listed reach or thrown range.",
+          "Special powers": "A hit deals an extra 1d8 Radiant damage to a creature of evil alignment or an extra 2d8 Radiant to an Undead or a creature the DM identifies as drawing power from the Negative Plane. Apply only the highest applicable extra damage. Once per dawn, take a Magic action to start the Sunray. You shed sunlight as Bright Light in a 10-foot radius. It expands by 5 feet at the start of each of your next ten turns, to 60 feet. You can end the light on your turn without an action, and it ends automatically at the end of your tenth turn after activation. The last radius then sheds Dim Light for 1 minute.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Table 110, section 3, roll 1 and Sun Blade description.",
+          "Conversion notes": "Keeps the +2, the light handling and expanding sunray. Typed damage replaces the legacy conditional +4 and doubled damage. Finesse represents the lighter handling, using the published 2024 Sun Blade as a benchmark.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_sun-blade",
+          "label": "Published 2024 Sun Blade comparison"
+        }
+      }
+    ],
     "dmg-35-reference:730153223c036a0c": [
       {
         "label": "Verified 2024 equipment mapping",

@@ -355,10 +355,10 @@ function addItemDetails(panel, item, supplements) {
             coreArmor && coreArmor.public && coreArmor.public[item.id] || [],
             diabloArmor && diabloArmor.records[item.id] || [],
             diabloUniqueArmor && diabloUniqueArmor.records[item.id] || []);
-    const hasPublishedCombatRules = entries.some(entry =>
-        entry.status === "published-reference" &&
+    const hasReviewedCombatRules = entries.some(entry =>
+        (entry.status === "published-reference" || entry.profile_kind === "custom-2024-draft") &&
         ["Damage", "Range", "Activation"].every(field => entry.fields[field]));
-    if (!hasPublishedCombatRules && !addPublishedCrossReference(panel, item, references, enhancements)) {
+    if (!hasReviewedCombatRules && !addPublishedCrossReference(panel, item, references, enhancements)) {
         addWeaponProfile(panel, item, weapons);
     }
     entries.forEach((entry, index) => {

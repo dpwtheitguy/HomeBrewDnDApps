@@ -1782,6 +1782,26 @@ def main():
                     return document.title === title && header.querySelector("h1").textContent === title
                         && header.scrollWidth <= header.clientWidth;
                 })()''',
+                'AD&D magic weapons preserve edition-specific effects and verified enhancements': '''(async () => {
+                    const cases = [
+                        ["dmg-1e-reference:06a83e6ccff9f80d", ["Verified 2024 enhancement mapping", "1d8 Bludgeoning + Strength modifier + 1", "Sap"]],
+                        ["dmg-1e-reference:0abe8105e39030c4", ["1d6 Piercing + Strength modifier + 2", "30/120 feet thrown"]],
+                        ["dmg-1e-reference:3e57f62d36ca845e", ["1d6 Slashing", "printed +2 result", "Nick"]],
+                        ["dmg-1e-reference:102858a5fccc7369", ["1d6 Piercing + Strength modifier + 3", "Versatile (1d8)"]],
+                        ["dmg-1e-reference:cdf3a960d6197493", ["natural 20", "6 charges", "DC 15 Constitution"]],
+                        ["dmg-1e-reference:f8a8e5b015a4ef82", ["4d8 Lightning", "back toward you", "javelin is consumed"]],
+                        ["dmg-1e-reference:37a68cb7f7ccdf98", ["2d6 Radiant", "25 Hit Points or fewer", "evil alignment"]],
+                        ["dmg-2e-reference:388cabf7634222a0", ["Advantage on Initiative", "Bonus Action"]],
+                        ["dmg-2e-reference:49c267962d618915", ["2d8 Radiant", "60 feet", "Dim Light for 1 minute"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))
+                            || inspection.textContent.includes("Same name and item type in the 2024 SRD")) return false;
+                    }
+                    return true;
+                })()''',
                 '3.5 ranged weapon references open the verified 2024 rules': '''(async () => {
                     const cases = [
                         ["730153223c036a0c", ["1d6 Piercing", "30/120 feet", "Light, Loading", "Vex", "free hand"]],
