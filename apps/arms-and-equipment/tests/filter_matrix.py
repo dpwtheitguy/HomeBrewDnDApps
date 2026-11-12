@@ -532,6 +532,16 @@ def main():
                         ["DM review", "Bonus Action", "unless mounted", "45,000 ducats"]
                             .every(value => lance.includes(value));
                 })()''',
+                'Sparkling Spear and Black Eagle sword show their source-specific effects': '''(async () => {
+                    inspect("gazetteer-local-pdf-reference:5687931e1fb287f3", grid.firstElementChild);
+                    await itemDetails;
+                    const spear = inspection.textContent;
+                    inspect("gazetteer-local-pdf-reference:04e916215c2eb5ae", grid.firstElementChild);
+                    await itemDetails;
+                    const sword = inspection.textContent;
+                    return ["DM review", "300 ft", "See Invisibility", "2d6 Force"].every(value => spear.includes(value))
+                        && ["DM review", "DC 16 Wisdom", "Geas", "Remove Curse"].every(value => sword.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

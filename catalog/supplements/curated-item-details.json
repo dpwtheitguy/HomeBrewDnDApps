@@ -3068,6 +3068,83 @@
         },
         "profile_kind": "custom-2024-draft"
       }
+    ],
+    "gazetteer-local-pdf-reference:5687931e1fb287f3": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#SeeInvisibility",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Piercing one-handed or 1d8 two-handed, plus Strength modifier. Against a native of the Plane of Fire, add 3 to damage and add 2d6 Force if you are on that plane.",
+          "Range": "5 ft melee; 20/60 ft thrown; 300 ft for the warning.",
+          "Activation": "Make a normal spear attack. While holding the spear, use a Magic action to cast See Invisibility on yourself.",
+          "Attack bonus": "+3 to attack and damage rolls against a native of the Plane of Fire, such as an efreeti.",
+          "Properties": "Thrown, Versatile (1d8)",
+          "Mastery": "Sap",
+          "Attunement": "Required",
+          "Special powers": "The spear sparkles when a native of the Plane of Fire comes within 300 ft. The warning gives neither direction nor number.",
+          "Duration and recharge": "See Invisibility lasts 1 hour and recharges at dawn.",
+          "Legacy source": "GAZ2, p. 59, Fabled Treasures of Ylaruam. Farid’s spear grants +4 against Fire Plane denizens on the Prime Plane and +6 against them on the Plane of Fire. It reveals invisibility and warns at 300 ft.",
+          "Conversion notes": "The conversion caps the attack bonus at +3 and expresses the extra home-plane potency as Force damage."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:04e916215c2eb5ae": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#Geas",
+        "fields": {
+          "Category": "Cursed martial melee weapon",
+          "Damage": "1d8 Slashing one-handed or 1d10 two-handed, plus 2 and Strength modifier.",
+          "Range": "5 ft melee; touch triggers the curse.",
+          "Activation": "Make a normal weapon attack. A creature handling the sword makes a DC 16 Wisdom saving throw, at most once per 24 hours and only if it is not already under this curse.",
+          "Attack bonus": "+2 to attack and damage rolls.",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Attunement": "None",
+          "Special powers": "On a failed save, the handler is affected for 30 days by the 2024 Geas rules. The command is to travel to Shireton and attack the Karameikan ambassador. The sword delivers this curse without a separate casting action or components.",
+          "Escape": "Remove Curse ends the effect on the handler. A successful save protects that creature from this sword’s curse for 24 hours.",
+          "Legacy source": "GAZ8, p. 58, The Bones Out Back. Handling the +2 sword triggers a quest to attack the ambassador, with a −2 penalty to the legacy save.",
+          "Conversion notes": "Longsword is the chosen base. The 2024 Wisdom DC and Geas duration replace the legacy saving throw and quest procedure."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword-plus-2",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:823f55db7cfb22dc": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#DancingSword",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing one-handed or 1d10 two-handed plus Strength modifier. A hovering strike deals 1d8 Slashing plus Strength modifier.",
+          "Range": "5 ft held or within 5 ft of the hovering sword.",
+          "Activation": "Use a Bonus Action to release the sword or command it while hovering. Move it up to 30 ft to a point within 30 ft of you and make one melee weapon attack from its space.",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Attunement": "Required",
+          "Special powers": "A hovering attack can target only a creature with the Spellcasting trait or a magical action or trait identified by the DM. Use your normal attack modifier. The sword returns after four hovering attacks, when you grasp it, or when it is more than 30 ft from you. If it cannot return to your hand, it falls.",
+          "Light": "Use a Bonus Action while holding the sword to light or extinguish its fire. It sheds Bright Light in a 20 ft radius and Dim Light for another 20 ft.",
+          "Legacy source": "GAZ8, p. 57, The Old Sword. The story describes a floating blade that strikes magical creatures and ignites on command. The DM decides whether the legend is true.",
+          "Conversion notes": "Use this draft if the DM makes the legend real. The Dancing Sword supplies the movement and return benchmark."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 base equipment"
+        }
+      }
     ]
   }
 }
