@@ -704,6 +704,18 @@ def main():
                         && ["Dragon Slayer · Longbow", "Dragon Slayer · Dart", "3d6"]
                             .every(value => dragon.includes(value));
                 })()''',
+                'White Plume Mountain artifacts show their revised combat rules': '''(async () => {
+                    inspect("dndbeyond:9229201", grid.firstElementChild);
+                    await itemDetails;
+                    const whelm = inspection.textContent;
+                    inspect("dndbeyond:9229198", grid.firstElementChild);
+                    await itemDetails;
+                    const wave = inspection.textContent;
+                    return ["Published 2024 · Whelm", "60/180 ft", "4d8", "DC 20 Constitution", "returns"]
+                        .every(value => whelm.includes(value)) &&
+                        ["Published 2024 · Wave", "21 Necrotic", "DC 20", "level 9", "Topple"]
+                            .every(value => wave.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

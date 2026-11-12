@@ -3866,6 +3866,112 @@
           "label": "Open 2024 base equipment"
         }
       }
+    ],
+    "dndbeyond:9228360": [
+      {
+        "label": "Published 2024 · Blackrazor",
+        "status": "published-reference",
+        "source": "https://roll20.net/compendium/dnd5e/Items%3ABlackrazor?expansion=33359",
+        "fields": {
+          "Category": "Martial",
+          "Attunement": "Required",
+          "Attack bonus": "+3 to attack and damage rolls.",
+          "Rarity": "Artifact",
+          "Damage": "2d6 Slashing plus 3 and Strength modifier. On a hit against an Undead, you take 1d10 Necrotic and the target regains 1d10 HP.",
+          "Range": "5 ft melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Activation": "Make a normal Greatsword attack. Devour Soul triggers at 0 HP.",
+          "Devour Soul": "Reducing a creature to 0 HP with the sword slays it and consumes its soul, except for Constructs and Undead. If the sword’s Necrotic backlash reduces you to 0 HP, it consumes your soul. Only Wish can revive a consumed creature. When it consumes another soul, gain temporary HP equal to the slain creature’s HP maximum.",
+          "While held": "Immunity to Charmed and Frightened. Blindsight to 30 ft.",
+          "Haste": "The sword chooses when to cast Haste on you at the start of your turn, once per dawn. It lasts up to 1 minute without Concentration. The sword can end it at the end of any of your turns.",
+          "Sentience": "Chaotic Neutral; Intelligence 17, Wisdom 10, Charisma 19. Hearing and Darkvision to 120 ft. Speaks Common and communicates telepathically with its wielder. While attuned, it understands your languages.",
+          "Conflict": "If three or more days pass without a soul, conflict occurs at the next sunset.",
+          "Destruction": "The great gears of Mechanus can crush it. A sequence of tones known by Primus can also shatter it."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "dndbeyond:9229198": [
+      {
+        "label": "Published 2024 · Wave",
+        "status": "published-reference",
+        "source": "https://roll20.net/compendium/dnd5e/Items%3AWave?expansion=33359",
+        "fields": {
+          "Category": "Martial",
+          "Attunement": "Required",
+          "Attack bonus": "+3 to attack and damage rolls.",
+          "Rarity": "Artifact",
+          "Damage": "1d8 Piercing one-handed or 1d10 two-handed, plus 3 and Strength modifier. A natural 20 adds 21 Necrotic.",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Properties": "Thrown, Versatile (1d10)",
+          "Mastery": "Topple",
+          "Activation": "Make a normal Trident attack, or cast one of the item’s spells using its normal casting time.",
+          "While held": "Advantage on Initiative. You can breathe normally underwater.",
+          "Aquatic Command": "While carrying Wave, spend 1 charge to cast Dominate Beast (DC 20) on a Beast with a Swim Speed. Wave has 3 charges and regains 1d3 spent charges at dawn.",
+          "Globe of Invulnerability": "While holding Wave, cast the level 9 version of Globe of Invulnerability. This property recharges at dawn.",
+          "Sentience": "Neutral; Intelligence 14, Wisdom 10, Charisma 18. Hearing and Darkvision to 120 ft. Speaks Aquan and communicates telepathically with its wielder.",
+          "Conflict": "Wave promotes worship of sea gods and clashes with a wielder who fails to advance its aims.",
+          "Destruction": "It must be melted down on Thunderforge by a storm giant or someone imbued with a storm giant’s strength. Doing so angers a sea god."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_trident",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "dndbeyond:9229201": [
+      {
+        "label": "Published 2024 · Whelm",
+        "status": "published-reference",
+        "source": "https://roll20.net/compendium/dnd5e/Items%3AWhelm?expansion=33359",
+        "fields": {
+          "Category": "Martial",
+          "Attunement": "Required by a Dwarf or a creature attuned to a Belt of Dwarvenkind.",
+          "Attack bonus": "+3 to attack and damage rolls.",
+          "Rarity": "Artifact",
+          "Damage": "1d8 Bludgeoning one-handed or 1d10 two-handed, plus 3 and Strength modifier. A ranged hit adds 1d8 Force, or 4d8 against a Construct, Elemental, or Giant.",
+          "Range": "5 ft melee; 60/180 ft thrown",
+          "Properties": "Thrown, Versatile (1d10)",
+          "Mastery": "Push",
+          "Activation": "Make a normal attack. After a throw, the hammer returns on a hit or miss.",
+          "Shock Wave": "Use a Magic action to strike the ground. Chosen creatures on the ground within 60 ft of impact make a DC 20 Constitution save or become Stunned for 1 minute. Repeat the save at the end of each affected turn. Recharges at dawn.",
+          "Supernatural Awareness": "While held, it reveals the location of hidden doors within 30 ft. You can cast Detect Evil and Good or Locate Object, each once per dawn.",
+          "Sentience": "Lawful Neutral; Intelligence 15, Wisdom 12, Charisma 15. Hearing and Darkvision to 120 ft. Speaks Dwarvish, Giant, and Goblin and communicates telepathically with its wielder.",
+          "Conflict": "Whelm seeks to protect dwarves and return to the Mightyhammer clan. It clashes with wielders who reject that purpose.",
+          "Destruction": "The acidic bile of a recently slain ancient black dragon can dissolve it. The rightful Mightyhammer leader can melt it in the clan’s forges."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_warhammer",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "dndbeyond:9229111": [
+      {
+        "label": "Published 2024 · Sword of Answering",
+        "status": "published-reference",
+        "source": "https://roll20.net/compendium/dnd5e/Items%3ASword%20of%20Answering?expansion=33359",
+        "fields": {
+          "Category": "Martial",
+          "Attunement": "Required",
+          "Attack bonus": "+3 to attack and damage rolls.",
+          "Rarity": "Legendary",
+          "Damage": "1d8 Slashing one-handed or 1d10 two-handed, plus 3 and Strength modifier.",
+          "Range": "5 ft melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Activation": "While holding the sword, use a Reaction to make one melee attack with it against a creature in your reach that deals damage to you.",
+          "Special powers": "You have Advantage on the retaliatory attack. Its damage ignores the target’s Resistance and Immunity to that damage."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 base equipment"
+        }
+      }
     ]
   }
 }
