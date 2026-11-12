@@ -3501,6 +3501,93 @@
           "Legacy source": "GAZ2, p. 44, The Village of Kirkuk. Some Humum warriors carry +1 or +2 weapons inherited from forebears who fought with Al-Kalim."
         }
       }
+    ],
+    "gazetteer-local-pdf-reference:5ebc4c822e60b6be": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#RingofMindShielding",
+        "fields": {
+          "Category": "Rare magical dagger",
+          "Damage": "1d4 Piercing plus Strength or Dexterity modifier.",
+          "Range": "5 ft melee; 20/60 ft thrown. Soul capture requires a melee hit.",
+          "Activation": "Make a normal dagger attack. When a melee hit with it kills a Humanoid, you can take a Reaction to trap that creature’s soul.",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Attunement": "Required",
+          "Special powers": "The dagger can contain one soul for up to 24 hours. While trapped, the creature cannot be returned to life. You can release the soul as a Magic action while holding the dagger. Destroying the dagger also releases the soul.",
+          "Recharge": "After trapping a soul, this property cannot be used again until the next dawn, and the dagger must be empty.",
+          "Legacy source": "GAZ2, p. 44, The Village of Kirkuk. Barimoor’s apprentices made soul daggers to gather souls for an enchantment ritual.",
+          "Conversion notes": "The death trigger, duration, and release procedure are 2024 conversion choices. The legacy ritual remains a story use."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:6ae0af0ce1e9eb88": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#CreateorDestroyWater",
+        "fields": {
+          "Category": "Rare staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning one-handed or 1d8 two-handed, plus Strength modifier.",
+          "Range": "5 ft melee. Use the selected spell’s range.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Attunement": "Required by a Cleric.",
+          "Activation": "Make a normal staff attack, or cast one of its spells while holding it and spending the listed charges. Use the spell’s normal casting time and Concentration rules.",
+          "Spellcasting": "Create or Destroy Water (1 charge), Lesser Restoration (2), or Protection from Energy (3). Cast at base level using your spellcasting ability. No spell slot or components required.",
+          "Charges": "6 charges. Regain 1d4 + 2 spent charges at dawn, up to 6.",
+          "Legacy source": "GAZ2, p. 34, Dervishes. Saddam the Aged carries a staff charged with dervish clerical spells.",
+          "Conversion notes": "The source leaves the spells unspecified. The draft chooses three 2024 Cleric spells for desert travel and protection."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:6c3fe1b578371b62": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#AdventuringGear",
+        "fields": {
+          "Category": "Single-use magical festival prop",
+          "Damage": "No damage or condition.",
+          "Range": "Choose an unoccupied point you can see in the air within 60 ft.",
+          "Activation": "While holding the staff, take a Magic action to launch its one display. Afterward the staff is inert.",
+          "Special powers": "The display produces colored sparks at the chosen point and a report audible within 300 ft. It lasts until the end of your turn.",
+          "Attunement": "None",
+          "Legacy source": "GAZ3, p. 43, Glantri City by Night. The single-use staff makes noisy, colorful aerial explosions and costs 30 ducats.",
+          "Conversion notes": "The range and duration are tabletop defaults for a harmless display."
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:49aed8261f01cf1c": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#MagicMissile",
+        "fields": {
+          "Category": "Mounted magical weapon for a Dragonfly construct",
+          "Damage": "Three darts, each dealing 1d4 + 1 Force.",
+          "Range": "120 ft to visible creatures.",
+          "Activation": "A creature operating one mounted staff uses a Magic action and spends 1 charge to cast Magic Missile at level 1. Choose one or more visible targets for the three darts.",
+          "Special powers": "The darts strike without an attack roll or save. Shield can negate Magic Missile as described by that spell. Operate each swivel staff separately.",
+          "Charges": "3 charges per staff. Regain 1d3 spent charges at dawn, up to 3.",
+          "Attunement": "None",
+          "Legacy source": "GAZ3, p. 88, Apocalypse Then. The Dragonfly carries rapid-fire magic missile staffs, one mounted on each side.",
+          "Conversion notes": "The standard 2024 spell supplies the shot rules. The charge limit and operator action are conversion choices."
+        }
+      }
     ]
   }
 }

@@ -591,6 +591,17 @@ def main():
                             .every(value => symbol.includes(value)) &&
                         ![family, symbol].some(value => value.includes("2024 provisional profile"));
                 })()''',
+                'Soul Dagger and Dragonfly staff show their activation rules': '''(async () => {
+                    inspect("gazetteer-local-pdf-reference:5ebc4c822e60b6be", grid.firstElementChild);
+                    await itemDetails;
+                    const dagger = inspection.textContent;
+                    inspect("gazetteer-local-pdf-reference:49aed8261f01cf1c", grid.firstElementChild);
+                    await itemDetails;
+                    const staff = inspection.textContent;
+                    return ["DM review", "Reaction", "24 hours", "release the soul"].every(value => dagger.includes(value))
+                        && ["DM review", "1d4 + 1 Force", "120 ft", "spends 1 charge"]
+                            .every(value => staff.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
