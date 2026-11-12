@@ -88,6 +88,9 @@ PUBLIC_ARMOR_RULES = {
     'dndbeyond:3001260': 'https://anyflip.com/cwvnz/zdcr/basic/51-100',
     'dndbeyond:316637': 'https://online.anyflip.com/tqblu/plwt/files/basic-html/page180.html',
     'dndbeyond:316763': 'https://online.anyflip.com/tqblu/plwt/files/basic-html/page181.html',
+    'dndbeyond:4047224': 'https://anyflip.com/lbdvl/isae/basic',
+    'dndbeyond:842285': 'https://www.academia.edu/44600065/Baldurs_Gate_Descent_into_Avernus',
+    'dndbeyond:843176': 'https://www.academia.edu/44600065/Baldurs_Gate_Descent_into_Avernus',
     'dndbeyond:9228451': MAGIC + '#DemonArmor',
     'dndbeyond:9228541': 'https://roll20.net/compendium/dnd5e/Templates%3AEnspelled%20Armor?expansion=33359',
     'dndbeyond:9228837': 'https://roll20.net/compendium/dnd5e/Templates%3AMariner%27s%20Armor?expansion=33359',
@@ -99,6 +102,9 @@ PUBLIC_FIXED_BASES = {
     "Pariah's Shield": 'Shield',
     'Scorpion Armor': 'Plate Armor',
     'Serpent Scale Armor': 'Scale Mail',
+    'Sapphire Buckler': 'Shield',
+    'Obsidian Flint Dragon Plate': 'Plate Armor',
+    'Shield of the Hidden Lord': 'Shield',
 }
 
 PUBLIC_ARMOR = {
@@ -175,6 +181,32 @@ PUBLIC_ARMOR = {
         "Pariah's Shield", '316763-pariahs-shield', 0, True, 'Rare', {
             'Special powers': 'While wielding it, gain +1 AC for every two allies within 5 feet of you, up to +3 extra AC. When a creature you can see within 5 feet takes damage, you can take a Reaction to take that damage in its place. The transferred damage becomes Force damage.',
             'Publication': 'Guildmasters’ Guide to Ravnica, p. 180. Original powers on the 2024 Shield base.',
+        },
+    ),
+    'dndbeyond:4047224': (
+        'Sapphire Buckler', '4047224-sapphire-buckler', 0, True, 'Very Rare', {
+            'Special powers': 'While wielding this shield, you have Resistance to Psychic and Thunder damage. When a creature within 5 feet damages you, you can take a Reaction to deal 2d6 Thunder damage to it.',
+            'Aberration detection': 'Take a Magic action to detect the directions of Aberrations within 1 mile until the end of your next turn. The shield briefly hums if it detects any. This property recharges at dawn.',
+            'Publication': 'Fizban’s Treasury of Dragons, Dragon Magic, Sapphire Buckler. Uses 2024 Shield defenses and Magic action terminology.',
+        },
+    ),
+    'dndbeyond:842285': (
+        'Obsidian Flint Dragon Plate', '842285-obsidian-flint-dragon-plate', 2, False, 'Legendary', {
+            'Special powers': 'While wearing the armor, gain +2 AC and Resistance to Poison damage. You have Advantage on ability checks and saving throws made to avoid or end the Grappled condition on yourself.',
+            'Publication': 'Baldur’s Gate: Descent into Avernus, Appendix C, p. 224. Original powers on the 2024 Plate Armor base.',
+        },
+    ),
+    'dndbeyond:843176': (
+        'Shield of the Hidden Lord', '843176-shield-of-the-hidden-lord', 2, True, 'Legendary', {
+            'Special powers': 'While holding the shield, gain +2 AC in addition to its usual shield bonus and gain Resistance to Fire damage.',
+            'Spellcasting': 'While Gargauth is imprisoned, the shield has 3 charges and regains all spent charges at dawn. Take a Magic action to cast Fireball for 1 charge or Wall of Fire for 2 charges, both with save DC 21. This Wall of Fire lasts 1 minute without Concentration.',
+            'Aura of Dread': 'During your turn, Gargauth may activate a 20-foot aura for 1 minute. A creature hostile to you that starts its turn within the aura makes a DC 18 Wisdom saving throw. On a failure it is Frightened until its next turn starts. On a success it is immune to this aura for 24 hours. The aura recharges at dawn.',
+            'Sentience': 'While Gargauth is imprisoned, the shield has Intelligence 22, Wisdom 18, and Charisma 24. It hears and has Truesight to 120 feet, speaks and understands Common and Infernal, can read both, and can communicate telepathically with creatures it senses within 120 feet.',
+            'Gargauth': 'The trapped pit fiend pretends to be a captive angel, seeks release, and pushes its bearer toward cruelty and domination.',
+            'Freeing Gargauth': 'Dispel Evil and Good has a 1% chance to release Gargauth, or releases him automatically if cast by a solar, planetar, or archdevil. A god can also release him by touching the shield and speaking his name. He appears in a random unoccupied space as close to the shield as possible.',
+            'Fireball': 'https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#Fireball',
+            'Wall of Fire': 'https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#WallofFire',
+            'Publication': 'Baldur’s Gate: Descent into Avernus, Appendix C, p. 225. Uses 2024 Shield defenses, spell descriptions, and Magic action terminology.',
         },
     ),
     'dndbeyond:9228451': (

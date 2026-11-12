@@ -48,7 +48,13 @@ function statList(panel, entries) {
     entries.forEach(([name, value]) => {
         if (value === undefined || value === null || value === "") return;
         list.appendChild(element("dt", name));
-        list.appendChild(element("dd", feetText(value)));
+        const definition = element("dd");
+        if (typeof value === "string" && /^https?:\/\/\S+$/i.test(value)) {
+            definition.appendChild(sourceLink(value));
+        } else {
+            definition.textContent = feetText(value);
+        }
+        list.appendChild(definition);
     });
     if (list.children.length) panel.appendChild(list);
 }

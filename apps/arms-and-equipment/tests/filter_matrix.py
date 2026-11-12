@@ -711,6 +711,20 @@ def main():
                     }
                     return true;
                 })()''',
+                'Dragon armor and sentient shields show their complete combat rules': '''(async () => {
+                    const cases = [
+                        ["dndbeyond:4047224", ["Armor class bonus+2", "2d6 Thunder", "within 1 mile"]],
+                        ["dndbeyond:842285", ["Armor class20", "Resistance to Poison", "Grappled"]],
+                        ["dndbeyond:843176", ["Armor class bonus+4", "save DC 21", "DC 18 Wisdom", "120 feet", "1% chance"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    return [...inspection.querySelectorAll("a")].some(link => link.href.endsWith("#WallofFire"));
+                })()''',
                 'Public magic weapon cards distinguish bases and attunement': '''(async () => {
                     inspect("dndbeyond:9228714", grid.firstElementChild);
                     await itemDetails;
