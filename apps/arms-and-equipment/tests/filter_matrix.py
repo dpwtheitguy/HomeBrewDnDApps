@@ -1740,6 +1740,21 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault armor shows compatible bases and converted effects': '''(async () => {
+                    const cases = [
+                        ["be5eceafe26ff24d", ["Chain Mail", "Armor class18", "2 Piercing", "1 minute"]],
+                        ["6e983289cd873bc8", ["Armor class20", "Temporary Hit Points", "immediately after resolving"]],
+                        ["63d64294994e9d5f", ["Armor class20", "Swim Speed", "breathe underwater"]],
+                        ["a93d3e44b9c63bba", ["Armor class19", "+2 to Wisdom saving throws", "half your Hit Point maximum"]],
+                        ["f07d0f1c1a881dd5", ["Armor class20", "damage you take by 6", "end of your next turn"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'AD&D plate conversions show charge thresholds and hidden curse': '''(async () => {
                     inspect("dmg-2e-reference:5003ee3a0bd2f04d", grid.firstElementChild);
                     await itemDetails;

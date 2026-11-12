@@ -1,6 +1,292 @@
 {
   "schema_version": 1,
   "records": {
+    "adventurers-vault-1-reference:be5eceafe26ff24d": [
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to awaken its thorns for 1 minute. A creature that hits you with a melee attack while the thorns are active takes 2 Piercing damage. This property recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Briartwine Armor.",
+          "Conversion notes": "Uses the original entry’s lowest +2 enhancement and retaliation equal to that bonus. A one-minute duration replaces the encounter duration. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to awaken its thorns for 1 minute. A creature that hits you with a melee attack while the thorns are active takes 2 Piercing damage. This property recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Briartwine Armor.",
+          "Conversion notes": "Uses the original entry’s lowest +2 enhancement and retaliation equal to that bonus. A one-minute duration replaces the encounter duration. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "20",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to awaken its thorns for 1 minute. A creature that hits you with a melee attack while the thorns are active takes 2 Piercing damage. This property recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Briartwine Armor.",
+          "Conversion notes": "Uses the original entry’s lowest +2 enhancement and retaliation equal to that bonus. A one-minute duration replaces the encounter duration. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:6e983289cd873bc8": [
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When an attack hits and damages you while wearing this armor, take a Reaction immediately after resolving the damage to gain Temporary Hit Points equal to the damage you took. They expire at the end of your next turn. This property recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Champion’s Armor.",
+          "Conversion notes": "Uses the original entry’s lowest +2 enhancement and keeps its post-damage timing and Temporary Hit Point duration. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "20",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When an attack hits and damages you while wearing this armor, take a Reaction immediately after resolving the damage to gain Temporary Hit Points equal to the damage you took. They expire at the end of your next turn. This property recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Champion’s Armor.",
+          "Conversion notes": "Uses the original entry’s lowest +2 enhancement and keeps its post-damage timing and Temporary Hit Point duration. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:63d64294994e9d5f": [
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing the armor, you can breathe underwater and have a Swim Speed equal to your Speed. Underwater, you ignore the underwater combat restrictions on your attacks with weapons. The normal rules for range, cover, and unrelated sources of Disadvantage still apply.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Coral Armor.",
+          "Conversion notes": "Uses +2 AC in 2024 and preserves the original swimming and underwater attacks. The original starts at +3 in 4e. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "20",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing the armor, you can breathe underwater and have a Swim Speed equal to your Speed. Underwater, you ignore the underwater combat restrictions on your attacks with weapons. The normal rules for range, cover, and unrelated sources of Disadvantage still apply.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Coral Armor.",
+          "Conversion notes": "Uses +2 AC in 2024 and preserves the original swimming and underwater attacks. The original starts at +3 in 4e. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:a93d3e44b9c63bba": [
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing the armor and at or below half your Hit Point maximum, gain +2 to Wisdom saving throws.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Crystal Armor.",
+          "Conversion notes": "Uses the lowest published enhancement. The 4e Will defense bonus becomes a 2024 Wisdom save bonus. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing the armor and at or below half your Hit Point maximum, gain +2 to Wisdom saving throws.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Crystal Armor.",
+          "Conversion notes": "Uses the lowest published enhancement. The 4e Will defense bonus becomes a 2024 Wisdom save bonus. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:f07d0f1c1a881dd5": [
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing the armor, take a Bonus Action. Until the end of your next turn, reduce each instance of damage you take by 6, to a minimum of 0. This property recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Darkforged Armor.",
+          "Conversion notes": "Uses +2 AC in 2024. The original starts at +3 in 4e. A fixed six-point reduction preserves the original effect while keeping 2024 Resistance distinct. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing the armor, take a Bonus Action. Until the end of your next turn, reduce each instance of damage you take by 6, to a minimum of 0. This property recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Darkforged Armor.",
+          "Conversion notes": "Uses +2 AC in 2024. The original starts at +3 in 4e. A fixed six-point reduction preserves the original effect while keeping 2024 Resistance distinct. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "20",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing the armor, take a Bonus Action. Until the end of your next turn, reduce each instance of damage you take by 6, to a minimum of 0. This property recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Darkforged Armor.",
+          "Conversion notes": "Uses +2 AC in 2024. The original starts at +3 in 4e. A fixed six-point reduction preserves the original effect while keeping 2024 Resistance distinct. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
     "dndbeyond:5602": [
       {
         "label": "D&D 2024 adaptation · Hazirawn",
