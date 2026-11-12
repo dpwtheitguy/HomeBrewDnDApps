@@ -1869,6 +1869,23 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Vault of Magic retains axe powers and Chillblain curses': '''(async () => {
+                    for (const [id, terms] of [
+                        ["candied-axe", ["save DC 15", "immune to Poison", "120 feet", "After 7 days", "Remove Curse"]],
+                        ["chieftains-axe", ["Reaction", "Silvered", "Hostile"]],
+                        ["chainbreaker-greatsword", ["2d6 Slashing", "Graze", "metal object currently restraining"]],
+                        ["cephalopod-breastplate", ["15 + Dex modifier", "20-foot-radius", "significant current"]],
+                        ["chillblain-chain-shirt", ["14 + Dex modifier", "DC 15 Constitution", "Fire Vulnerability"]],
+                        ["chillblain-plate", ["Armor class19", "Critical Hit", "shatters it"]],
+                    ]) {
+                        inspect("open5e-vom:vom_" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) {
+                            throw new Error("Missing fields on " + id);
+                        }
+                    }
+                    return true;
+                })()''',
                 'Vault of Magic distinguishes Buzzing weapons, barriers and marked arrows': '''(async () => {
                     for (const [id, terms] of [
                         ["buzzing-greataxe", ["1d12 Slashing", "Cleave", "2d6 Thunder damage"]],

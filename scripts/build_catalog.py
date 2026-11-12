@@ -139,6 +139,9 @@ def main():
         'vom_brazen-bulwark': 17,
         'vom_breaker-lance': 17,
         'vom_bullseye-arrow': 17,
+        'vom_candied-axe': 18,
+        'vom_cephalopod-breastplate': 18,
+        'vom_chieftains-axe': 18,
     }
     vault_weapon_corrections = {
         'vom_anchor-of-striking': ('Anchor of Striking', 'srd_war-pick', 11),
@@ -168,8 +171,10 @@ def main():
                         vault_page = 16
                     if raw['pk'].startswith('vom_buzzing-'):
                         vault_page = 17
+                    if raw['pk'].startswith(('vom_chainbreaker-', 'vom_chillblain-')):
+                        vault_page = 18
                     if (raw['pk'] in ('vom_animated-chain-mail', 'vom_blood-soaked-hide', 'vom_brazen-bulwark')
-                            or raw['pk'].startswith('vom_bloodprice-')):
+                            or raw['pk'].startswith(('vom_bloodprice-', 'vom_chillblain-'))):
                         f = {**f, 'requires_attunement': True}
                 category=f.get('category') or f.get('type') or ('armor' if fn=='Armor.json' else 'weapon' if fn=='Weapon.json' else 'gear')
                 weapon=weapon_lookup.get(f.get('weapon'),{}) if ver=='v2' else (f if fn=='Weapon.json' else {})

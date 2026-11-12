@@ -1,6 +1,439 @@
 {
   "schema_version": 1,
   "records": {
+    "open5e-vom:vom_candied-axe": [
+      {
+        "label": "D&D 2024 adaptation · Candied Axe",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_battleaxe",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While attuned, you are immune to Poison damage and have Advantage on Charisma checks to interact with Beasts. Once per dawn while holding the axe, take a Magic action to cast Slow (Wisdom save DC 15) on up to six creatures in a 40-foot Cube within 120 feet. The spell requires Concentration and lasts up to 1 minute. Each affected target repeats its save at the end of each turn.",
+          "Conversion notes": "Preserves the source’s poison immunity, animal affinity, Slow, and cosmetic curse. Uses the 2024 Battleaxe and Slow.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 18.",
+          "Curse": "If you aren’t bearfolk, attuning makes your appearance and stature increasingly bear-like. After 7 days you resemble a typical bearfolk and retain your existing game traits. The curse survives ending attunement. Remove Curse or equivalent curse-breaking magic reverses the changes.",
+          "2024 spell": "https://www.dndbeyond.com/spells/2619066-slow"
+        }
+      }
+    ],
+    "open5e-vom:vom_chieftains-axe": [
+      {
+        "label": "D&D 2024 adaptation · Chieftain’s Axe",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_battleaxe",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Once per dawn, take a Magic action to raise the axe and shout. Each ally that can see and hear you can immediately use its Reaction to make one melee attack against a target it can reach.",
+          "Conversion notes": "Keeps the source’s line-of-sight and hearing limits and its silvered blade.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 18.",
+          "Material": "Silvered.",
+          "Bearfolk belonging": "If you are not bearfolk, bearfolk who see you carrying it become Hostile, and you have Disadvantage on Charisma checks to influence them. Returning it makes them Friendly if they do not know of you using it against bearfolk. They may offer help at the DM’s discretion."
+        }
+      }
+    ],
+    "open5e-vom:vom_chainbreaker-greatsword": [
+      {
+        "label": "D&D 2024 adaptation · Chainbreaker Greatsword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 Slashing + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "6 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "You have Advantage on an attack roll or ability check you make with the sword to break a chain, manacle, or similar metal object currently restraining a creature. The restraint is Vulnerable to this sword’s weapon damage. Target the restraint and use its own defenses.",
+          "Conversion notes": "Uses the 2024 Greatsword statistics and retains the source’s object-specific trigger.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 18."
+        }
+      }
+    ],
+    "open5e-vom:vom_chainbreaker-longsword": [
+      {
+        "label": "D&D 2024 adaptation · Chainbreaker Longsword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "You have Advantage on an attack roll or ability check you make with the sword to break a chain, manacle, or similar metal object currently restraining a creature. The restraint is Vulnerable to this sword’s weapon damage. Target the restraint and use its own defenses.",
+          "Conversion notes": "Uses the 2024 Longsword statistics and retains the source’s object-specific trigger.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 18."
+        }
+      }
+    ],
+    "open5e-vom:vom_chainbreaker-rapier": [
+      {
+        "label": "D&D 2024 adaptation · Chainbreaker Rapier",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_rapier",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "You have Advantage on an attack roll or ability check you make with the sword to break a chain, manacle, or similar metal object currently restraining a creature. The restraint is Vulnerable to this sword’s weapon damage. Target the restraint and use its own defenses.",
+          "Conversion notes": "Uses the 2024 Rapier statistics and retains the source’s object-specific trigger.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 18."
+        }
+      }
+    ],
+    "open5e-vom:vom_chainbreaker-scimitar": [
+      {
+        "label": "D&D 2024 adaptation · Chainbreaker Scimitar",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scimitar",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Slashing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "You have Advantage on an attack roll or ability check you make with the sword to break a chain, manacle, or similar metal object currently restraining a creature. The restraint is Vulnerable to this sword’s weapon damage. Target the restraint and use its own defenses.",
+          "Conversion notes": "Uses the 2024 Scimitar statistics and retains the source’s object-specific trigger.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 18."
+        }
+      }
+    ],
+    "open5e-vom:vom_chainbreaker-shortsword": [
+      {
+        "label": "D&D 2024 adaptation · Chainbreaker Shortsword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "You have Advantage on an attack roll or ability check you make with the sword to break a chain, manacle, or similar metal object currently restraining a creature. The restraint is Vulnerable to this sword’s weapon damage. Target the restraint and use its own defenses.",
+          "Conversion notes": "Uses the 2024 Shortsword statistics and retains the source’s object-specific trigger.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 18."
+        }
+      }
+    ],
+    "open5e-vom:vom_cephalopod-breastplate": [
+      {
+        "label": "D&D 2024 adaptation · Cephalopod Breastplate",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_breastplate-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Special powers": "Once per dawn, take a Magic action to speak the command word. A 20-foot-radius cloud fills the area around your current position with black mist above water or ink underwater. It is Heavily Obscured for 1 minute, and a wind of at least 10 miles per hour or a significant current disperses it early.",
+          "Conversion notes": "Uses the 2024 Breastplate (+1) profile and Heavily Obscured rules. The cloud stays where it formed until dispersed or expired.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 18."
+        }
+      }
+    ],
+    "open5e-vom:vom_chillblain-breastplate": [
+      {
+        "label": "D&D 2024 adaptation · Chillblain Breastplate",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_breastplate-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing the armor, you have Cold Resistance. When a creature hits you with a melee weapon attack, it makes a DC 15 Constitution save. On a failure, its Speed decreases by 10 feet and on its turn it can take an action or a Bonus Action, with a maximum of one of those two. Both restrictions last until the end of its next turn.",
+          "Conversion notes": "Uses the named 2024 armor with its +1 AC and preserves the source’s curse, including the fire critical-hit trigger.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 18.",
+          "Curse": "Identify or attuning reveals the curse. Attuning gives you Fire Vulnerability until Remove Curse or equivalent magic targets you. Removing the armor leaves the curse in place. While wearing the cursed armor, a Critical Hit against you that deals Fire damage shatters it."
+        }
+      }
+    ],
+    "open5e-vom:vom_chillblain-chain-mail": [
+      {
+        "label": "D&D 2024 adaptation · Chillblain Chain Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy",
+          "Strength requirement": "13. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing the armor, you have Cold Resistance. When a creature hits you with a melee weapon attack, it makes a DC 15 Constitution save. On a failure, its Speed decreases by 10 feet and on its turn it can take an action or a Bonus Action, with a maximum of one of those two. Both restrictions last until the end of its next turn.",
+          "Conversion notes": "Uses the named 2024 armor with its +1 AC and preserves the source’s curse, including the fire critical-hit trigger.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 18.",
+          "Curse": "Identify or attuning reveals the curse. Attuning gives you Fire Vulnerability until Remove Curse or equivalent magic targets you. Removing the armor leaves the curse in place. While wearing the cursed armor, a Critical Hit against you that deals Fire damage shatters it."
+        }
+      }
+    ],
+    "open5e-vom:vom_chillblain-chain-shirt": [
+      {
+        "label": "D&D 2024 adaptation · Chillblain Chain Shirt",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing the armor, you have Cold Resistance. When a creature hits you with a melee weapon attack, it makes a DC 15 Constitution save. On a failure, its Speed decreases by 10 feet and on its turn it can take an action or a Bonus Action, with a maximum of one of those two. Both restrictions last until the end of its next turn.",
+          "Conversion notes": "Uses the named 2024 armor with its +1 AC and preserves the source’s curse, including the fire critical-hit trigger.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 18.",
+          "Curse": "Identify or attuning reveals the curse. Attuning gives you Fire Vulnerability until Remove Curse or equivalent magic targets you. Removing the armor leaves the curse in place. While wearing the cursed armor, a Critical Hit against you that deals Fire damage shatters it."
+        }
+      }
+    ],
+    "open5e-vom:vom_chillblain-half-plate": [
+      {
+        "label": "D&D 2024 adaptation · Chillblain Half Plate",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_half-plate-armor-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing the armor, you have Cold Resistance. When a creature hits you with a melee weapon attack, it makes a DC 15 Constitution save. On a failure, its Speed decreases by 10 feet and on its turn it can take an action or a Bonus Action, with a maximum of one of those two. Both restrictions last until the end of its next turn.",
+          "Conversion notes": "Uses the named 2024 armor with its +1 AC and preserves the source’s curse, including the fire critical-hit trigger.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 18.",
+          "Curse": "Identify or attuning reveals the curse. Attuning gives you Fire Vulnerability until Remove Curse or equivalent magic targets you. Removing the armor leaves the curse in place. While wearing the cursed armor, a Critical Hit against you that deals Fire damage shatters it."
+        }
+      }
+    ],
+    "open5e-vom:vom_chillblain-plate": [
+      {
+        "label": "D&D 2024 adaptation · Chillblain Plate",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy",
+          "Strength requirement": "15. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing the armor, you have Cold Resistance. When a creature hits you with a melee weapon attack, it makes a DC 15 Constitution save. On a failure, its Speed decreases by 10 feet and on its turn it can take an action or a Bonus Action, with a maximum of one of those two. Both restrictions last until the end of its next turn.",
+          "Conversion notes": "Uses the named 2024 armor with its +1 AC and preserves the source’s curse, including the fire critical-hit trigger.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 18.",
+          "Curse": "Identify or attuning reveals the curse. Attuning gives you Fire Vulnerability until Remove Curse or equivalent magic targets you. Removing the armor leaves the curse in place. While wearing the cursed armor, a Critical Hit against you that deals Fire damage shatters it."
+        }
+      }
+    ],
+    "open5e-vom:vom_chillblain-ring-mail": [
+      {
+        "label": "D&D 2024 adaptation · Chillblain Ring Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_ring-mail-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "15",
+          "Training": "Heavy",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing the armor, you have Cold Resistance. When a creature hits you with a melee weapon attack, it makes a DC 15 Constitution save. On a failure, its Speed decreases by 10 feet and on its turn it can take an action or a Bonus Action, with a maximum of one of those two. Both restrictions last until the end of its next turn.",
+          "Conversion notes": "Uses the named 2024 armor with its +1 AC and preserves the source’s curse, including the fire critical-hit trigger.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 18.",
+          "Curse": "Identify or attuning reveals the curse. Attuning gives you Fire Vulnerability until Remove Curse or equivalent magic targets you. Removing the armor leaves the curse in place. While wearing the cursed armor, a Critical Hit against you that deals Fire damage shatters it."
+        }
+      }
+    ],
+    "open5e-vom:vom_chillblain-scale-mail": [
+      {
+        "label": "D&D 2024 adaptation · Chillblain Scale Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing the armor, you have Cold Resistance. When a creature hits you with a melee weapon attack, it makes a DC 15 Constitution save. On a failure, its Speed decreases by 10 feet and on its turn it can take an action or a Bonus Action, with a maximum of one of those two. Both restrictions last until the end of its next turn.",
+          "Conversion notes": "Uses the named 2024 armor with its +1 AC and preserves the source’s curse, including the fire critical-hit trigger.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 18.",
+          "Curse": "Identify or attuning reveals the curse. Attuning gives you Fire Vulnerability until Remove Curse or equivalent magic targets you. Removing the armor leaves the curse in place. While wearing the cursed armor, a Critical Hit against you that deals Fire damage shatters it."
+        }
+      }
+    ],
+    "open5e-vom:vom_chillblain-splint": [
+      {
+        "label": "D&D 2024 adaptation · Chillblain Splint",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy",
+          "Strength requirement": "15. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing the armor, you have Cold Resistance. When a creature hits you with a melee weapon attack, it makes a DC 15 Constitution save. On a failure, its Speed decreases by 10 feet and on its turn it can take an action or a Bonus Action, with a maximum of one of those two. Both restrictions last until the end of its next turn.",
+          "Conversion notes": "Uses the named 2024 armor with its +1 AC and preserves the source’s curse, including the fire critical-hit trigger.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 18.",
+          "Curse": "Identify or attuning reveals the curse. Attuning gives you Fire Vulnerability until Remove Curse or equivalent magic targets you. Removing the armor leaves the curse in place. While wearing the cursed armor, a Critical Hit against you that deals Fire damage shatters it."
+        }
+      }
+    ],
     "open5e-vom:vom_bone-whip": [
       {
         "label": "D&D 2024 adaptation · Bone Whip",
