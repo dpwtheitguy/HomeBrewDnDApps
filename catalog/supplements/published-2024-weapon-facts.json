@@ -821,6 +821,34 @@
           "Publication": "Eberron: Forge of the Artificer, appendix: Magic Items."
         }
       }
+    ],
+    "dndbeyond:5428": [
+      {
+        "label": "Published 2024 counterpart · Wand of Orcus",
+        "status": "published-reference",
+        "source": "https://roll20.net/compendium/dnd5e/Items%3AWand%20of%20Orcus?expansion=33359",
+        "fields": {
+          "Category": "Artifact wand wieldable as a Simple melee weapon (Mace) · Requires attunement",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 3, plus 2d12 Necrotic on a hit.",
+          "Range": "5 feet melee. Call Undead reaches 300 feet. Spells use their own ranges.",
+          "Attack bonus": "+3 plus Strength modifier and Proficiency Bonus if proficient.",
+          "Mastery": "Sap, if your feature grants mastery with Maces.",
+          "Activation": "Attack as a Mace. While holding the wand, cast a listed spell at its normal casting time, or take a Magic action for Call Undead.",
+          "Attunement": "A creature other than Orcus makes a DC 17 Constitution save when attempting attunement. On a success it takes 10d6 Necrotic damage. On a failure it dies, and a Humanoid becomes a Zombie.",
+          "Protection": "While holding the wand, gain +3 AC. Holy Water within 10 feet is destroyed.",
+          "Charges": "7 charges. Regain 1d4 + 3 expended charges at dawn. For Orcus or an attuned follower blessed by him, reduce each cost by 2, to a minimum of 0.",
+          "Spells": "Save DC 18. Animate Dead (1), Speak with Dead (1), Blight (2), Circle of Death (3), Finger of Death (3), Power Word Kill (4).",
+          "Call Undead": "Summon 15 Skeletons and 15 Zombies in unoccupied spaces within 300 feet. They obey until destroyed or until dawn. Orcus can summon other Undead and retain them until he dismisses them. This power recharges at dawn.",
+          "Artifact properties": "Two minor and one major beneficial property. Two minor and one major detrimental property. Suppress detrimental properties when Orcus is attuned.",
+          "Sentience": "Chaotic Evil; Intelligence 16, Wisdom 12, Charisma 16. Hearing and Darkvision to 120 feet. Speaks Abyssal and Common and communicates telepathically with its wielder.",
+          "Destruction": "The resurrected hero whose skull crowns the wand must bring it to the Positive Energy Plane. Otherwise, bathing it in positive energy breaks it only until it reforms on Orcus’s layer of the Abyss.",
+          "Publication": "Dungeon Master’s Guide (2024). This counterpart uses the fixed Skeleton and Zombie summon for other wielders."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace",
+          "label": "Open 2024 Mace"
+        }
+      }
     ]
   }
 }

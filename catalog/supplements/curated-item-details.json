@@ -1,6 +1,32 @@
 {
   "schema_version": 1,
   "records": {
+    "dndbeyond:5533": [
+      {
+        "label": "D&D 2024 adaptation · Dawnbringer",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://anyflip.com/jxoqr/rbab/basic/51-63",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword) · Legendary · Requires attunement by a non-Evil creature",
+          "Damage": "1d8 Radiant (1d10 in two hands) + Strength or Dexterity modifier + 2. Add 1d8 Radiant against Undead.",
+          "Attack bonus": "+2 plus Strength or Dexterity modifier and Proficiency Bonus if proficient with Longswords or Shortswords.",
+          "Range": "5 feet melee. Lesser Restoration uses Touch.",
+          "Properties": "Finesse, Versatile (1d10).",
+          "Mastery": "Sap if your feature grants mastery with Longswords.",
+          "Activation": "While grasping the hilt, use a Bonus Action to manifest or dismiss the blade. Use a Magic action to touch a creature with the blade and cast Lesser Restoration. The spell use recharges at dawn.",
+          "Light": "The active blade sheds sunlight. Bright Light extends 15 feet and Dim Light another 15 feet. A Magic action adjusts both by 5 feet, within 10 to 30 feet each.",
+          "Sentience": "Neutral Good; Intelligence 12, Wisdom 15, Charisma 14. Hearing and Darkvision to 120 feet. Speaks, reads, and understands Common and knows your languages while attuned. Communicates telepathically with its wielder.",
+          "Acquisition": "The gilded hilt lies in the Lost Tomb of Khaem. Dawnbringer fears the dark and resists being separated from its wielder.",
+          "Conversion notes": "Uses the 2024 Sun Blade and Lesser Restoration. The item retains its original action cost for casting the spell.",
+          "2024 Sun Blade rules": "https://www.dndbeyond.com/magic-items/9229110-sun-blade"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_sun-blade",
+          "label": "Open 2024 Sun Blade"
+        }
+      }
+    ],
     "dndbeyond:5589": [
       {
         "label": "D&D 2024 adaptation · Orcsplitter",

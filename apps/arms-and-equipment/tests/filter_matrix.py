@@ -993,6 +993,18 @@ def main():
                     }
                     return true;
                 })()''',
+                'Orcus and Dawnbringer cards preserve their named effects': '''(async () => {
+                    const cases = [
+                        ["5428", ["2024 counterpart", "2d12 Necrotic", "15 Skeletons and 15 Zombies", "1d4 + 3"]],
+                        ["5533", ["1d8 Radiant", "Lesser Restoration", "Magic action", "Lost Tomb of Khaem"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dndbeyond:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Apocalypse weapons show sentience and special throwing rules': '''(async () => {
                     const cases = [
                         ["5589", ["1d12 Slashing", "DC 17 Constitution", "Initiative roll", "Torhild Flametongue"]],
