@@ -1,6 +1,219 @@
 {
   "schema_version": 1,
   "records": {
+    "adventurers-vault-1-reference:b73a33894e7e865b": [
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing the armor, when a spell or class feature uses your Intelligence modifier to determine a value other than an attack roll, add 1 to that value. Apply the bonus once per calculation. Your Intelligence score and modifier are unchanged for other purposes.",
+          "Source locator": "Adventurer’s Vault (4e), p. 54 (PDF p. 55), Tactician’s Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement and maps powers to 2024 spells and class features. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing the armor, when a spell or class feature uses your Intelligence modifier to determine a value other than an attack roll, add 1 to that value. Apply the bonus once per calculation. Your Intelligence score and modifier are unchanged for other purposes.",
+          "Source locator": "Adventurer’s Vault (4e), p. 54 (PDF p. 55), Tactician’s Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement and maps powers to 2024 spells and class features. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing the armor, when a spell or class feature uses your Intelligence modifier to determine a value other than an attack roll, add 1 to that value. Apply the bonus once per calculation. Your Intelligence score and modifier are unchanged for other purposes.",
+          "Source locator": "Adventurer’s Vault (4e), p. 54 (PDF p. 55), Tactician’s Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement and maps powers to 2024 spells and class features. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:96b933e0f32db536": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "14 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While wearing the armor, take a Magic action to become vapor for up to 1 minute. You have a Fly Speed of 30 feet and can hover. You can pass through narrow openings and occupied spaces, but you must end each turn in an unoccupied space. In this form you have Resistance to Bludgeoning, Piercing, and Slashing damage and cannot attack, cast spells, or take actions other than ending the effect. At the start of each of your turns you lose 5 Hit Points. The form ends early when you reach 0 Hit Points or dismiss it on your turn without an action. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 54 (PDF p. 55), Vaporform Armor.",
+          "Conversion notes": "Maps cloth to Padded Armor and caps enhancement at +3. Converts insubstantiality to physical damage Resistance and sets a one-minute limit. The original five damage per turn becomes Hit Point loss. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-3",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "14 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While wearing the armor, take a Magic action to become vapor for up to 1 minute. You have a Fly Speed of 30 feet and can hover. You can pass through narrow openings and occupied spaces, but you must end each turn in an unoccupied space. In this form you have Resistance to Bludgeoning, Piercing, and Slashing damage and cannot attack, cast spells, or take actions other than ending the effect. At the start of each of your turns you lose 5 Hit Points. The form ends early when you reach 0 Hit Points or dismiss it on your turn without an action. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 54 (PDF p. 55), Vaporform Armor.",
+          "Conversion notes": "Maps cloth to Padded Armor and caps enhancement at +3. Converts insubstantiality to physical damage Resistance and sets a one-minute limit. The original five damage per turn becomes Hit Point loss. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-3",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While wearing the armor, take a Magic action to become vapor for up to 1 minute. You have a Fly Speed of 30 feet and can hover. You can pass through narrow openings and occupied spaces, but you must end each turn in an unoccupied space. In this form you have Resistance to Bludgeoning, Piercing, and Slashing damage and cannot attack, cast spells, or take actions other than ending the effect. At the start of each of your turns you lose 5 Hit Points. The form ends early when you reach 0 Hit Points or dismiss it on your turn without an action. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 54 (PDF p. 55), Vaporform Armor.",
+          "Conversion notes": "Maps cloth to Padded Armor and caps enhancement at +3. Converts insubstantiality to physical damage Resistance and sets a one-minute limit. The original five damage per turn becomes Hit Point loss. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-3",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:e3dbecff318dbc4d": [
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing the armor, you have Resistance to Radiant damage. Take a Bonus Action to replace that Resistance with Resistance to Fire, Lightning, or Thunder for 1 minute. Radiant Resistance returns when the effect ends. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Whiteflame Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement and 2024 Resistance. A one-minute duration replaces the original encounter duration. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing the armor, you have Resistance to Radiant damage. Take a Bonus Action to replace that Resistance with Resistance to Fire, Lightning, or Thunder for 1 minute. Radiant Resistance returns when the effect ends. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Whiteflame Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement and 2024 Resistance. A one-minute duration replaces the original encounter duration. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing the armor, you have Resistance to Radiant damage. Take a Bonus Action to replace that Resistance with Resistance to Fire, Lightning, or Thunder for 1 minute. Radiant Resistance returns when the effect ends. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Whiteflame Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement and 2024 Resistance. A one-minute duration replaces the original encounter duration. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
     "adventurers-vault-1-reference:02d1e62551e106b0": [
       {
         "label": "D&D 2024 adaptation · Chain Mail",

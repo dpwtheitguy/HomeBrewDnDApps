@@ -1740,6 +1740,19 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault tactical and transformation armor shows its limits': '''(async () => {
+                    const cases = [
+                        ["b73a33894e7e865b", ["Armor class19", "Intelligence modifier", "other than an attack roll"]],
+                        ["96b933e0f32db536", ["Padded Armor", "Fly Speed of 30 feet", "lose 5 Hit Points", "up to 1 minute"]],
+                        ["e3dbecff318dbc4d", ["Armor class19", "Radiant Resistance returns", "Fire, Lightning, or Thunder"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Adventurer’s Vault defensive armor shows its triggers and targets': '''(async () => {
                     const cases = [
                         ["02d1e62551e106b0", ["Armor class21", "25-foot Emanation", "DC 17 Wisdom", "end of each of its turns"]],
