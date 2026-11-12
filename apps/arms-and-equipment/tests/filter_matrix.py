@@ -1782,6 +1782,28 @@ def main():
                     return document.title === title && header.querySelector("h1").textContent === title
                         && header.scrollWidth <= header.clientWidth;
                 })()''',
+                'AD&D axes, hammers and bows retain their source distinctions': '''(async () => {
+                    const cases = [
+                        ["9c8b9917c926080f", ["Handaxe", "Omit the +1 from thrown damage"]],
+                        ["c87ac3f00dff23d9", ["Omit the +2 from thrown damage", "Vex"]],
+                        ["9cb257537606a013", ["Omit the +3 from thrown damage", "20/60 feet"]],
+                        ["0ced01bd2ed7898b", ["Battleaxe", "Versatile (1d10)", "Topple"]],
+                        ["d93b9fbc38c2896c", ["Shortbow 80/320 feet", "longbow 150/600 feet", "separately enchanted arrow"]],
+                        ["5951496537fdc6a0", ["Light Hammer", "roll 61–62", "Nick"]],
+                        ["1741233deaf7c1fe", ["1d8 Piercing + Strength modifier + 1", "Sap"]],
+                        ["f365c467d111a4ca", ["+4 to damage", "+3 to attack rolls"]],
+                        ["31ba46f9904b6a56", ["bullet counts as +1", "+2 on attack and damage rolls"]],
+                        ["6bfed38d98ae256c", ["dormant +2", "awaken", "2d8 against a Giant"]],
+                        ["f3e3aa8bc9a5c8f4", ["5 charges", "both a Belt of Giant Strength", "DC 17 Constitution"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dmg-1e-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))
+                            || !inspection.querySelector('a[href*="Dungeon%20Masters%20Guide"]')) return false;
+                    }
+                    return true;
+                })()''',
                 'AD&D weapon variants display range, size, and curse mechanics': '''(async () => {
                     const cases = [
                         ["c4427703cb9e533c", ["80/320 feet (light form)", "100/400 feet (heavy form)", "solely from range"]],

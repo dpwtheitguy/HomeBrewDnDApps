@@ -1,6 +1,312 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-1e-reference:9c8b9917c926080f": [
+      {
+        "label": "D&D 2024 adaptation · Axe +1",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Handaxe)",
+          "Damage": "1d6 Slashing + Strength modifier + 1 in melee. Omit the +1 from thrown damage.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Light, Thrown",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a melee or thrown weapon attack.",
+          "Special powers": "The magic attack bonus applies in melee and when thrown. Only melee hits add it to damage.",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed pp. 125, 168; III.H Miscellaneous Weapons, roll 16-20.",
+          "Conversion notes": "The legacy text identifies these axes as hand axes and limits the magical damage bonus to melee. Uses the 2024 Handaxe’s range and mastery.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Published 2024 Handaxe comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:c87ac3f00dff23d9": [
+      {
+        "label": "D&D 2024 adaptation · Axe +2",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Handaxe)",
+          "Damage": "1d6 Slashing + Strength modifier + 2 in melee. Omit the +2 from thrown damage.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Light, Thrown",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a melee or thrown weapon attack.",
+          "Special powers": "The magic attack bonus applies in melee and when thrown. Only melee hits add it to damage.",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed pp. 125, 168; III.H Miscellaneous Weapons, roll 21-22.",
+          "Conversion notes": "The legacy text identifies these axes as hand axes and limits the magical damage bonus to melee. Uses the 2024 Handaxe’s range and mastery.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Published 2024 Handaxe comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:9cb257537606a013": [
+      {
+        "label": "D&D 2024 adaptation · Axe +3",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Handaxe)",
+          "Damage": "1d6 Slashing + Strength modifier + 3 in melee. Omit the +3 from thrown damage.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Light, Thrown",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a melee or thrown weapon attack.",
+          "Special powers": "The magic attack bonus applies in melee and when thrown. Only melee hits add it to damage.",
+          "Rarity": "Very Rare",
+          "Attunement": "None",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed pp. 125, 168; III.H Miscellaneous Weapons, roll 24.",
+          "Conversion notes": "The legacy text identifies these axes as hand axes and limits the magical damage bonus to melee. Uses the 2024 Handaxe’s range and mastery.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Published 2024 Handaxe comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:0ced01bd2ed7898b": [
+      {
+        "label": "D&D 2024 adaptation · Battle Axe +1",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Battleaxe)",
+          "Damage": "1d8 Slashing + Strength modifier + 1, or use 1d10 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Activation": "Make a melee weapon attack.",
+          "Special powers": "The +1 applies to attack and damage rolls. This axe has no Thrown property.",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed pp. 125, 168; III.H Miscellaneous Weapons, roll 25-27.",
+          "Conversion notes": "The source lists Battle Axe separately from the hand axes. Maps the stated +1 to the published 2024 Battleaxe.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_battleaxe",
+          "label": "Published 2024 Battleaxe comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:d93b9fbc38c2896c": [
+      {
+        "label": "D&D 2024 adaptation · Bow +1",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Simple ranged weapon (shortbow) or Martial ranged weapon (longbow)",
+          "Damage": "Shortbow: 1d6 Piercing + Dexterity modifier + 1. Longbow: 1d8 Piercing + Dexterity modifier + 1.",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient with the chosen bow, plus 1.",
+          "Range": "Shortbow 80/320 feet; longbow 150/600 feet.",
+          "Properties": "Ammunition (arrows), Two-Handed. Longbow also has Heavy.",
+          "Mastery": "Vex (shortbow), Slow (longbow)",
+          "Weight": "2 lb",
+          "Activation": "The DM chooses the bow form when it is found. Spend one arrow per attack.",
+          "Special powers": "The +1 applies to attack and damage. A separately enchanted arrow can add its own bonus. For a composite bow, choose the matching catalog profile and add the same +1 if that profile has no enhancement.",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed pp. 125, 168; III.H Miscellaneous Weapons, roll 33-35.",
+          "Conversion notes": "The source leaves the bow type to the campaign and explicitly allows its bonus to stack with magic arrows. Provides two published base profiles and a route to composite variants.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-1e-reference:5951496537fdc6a0": [
+      {
+        "label": "D&D 2024 adaptation · Hammer +2",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Light Hammer)",
+          "Damage": "1d4 Bludgeoning + Strength modifier + 2 in melee. Omit the +2 from thrown damage.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "2 lb",
+          "Activation": "Make a melee or thrown weapon attack.",
+          "Special powers": "The attack bonus applies when thrown. The magical damage bonus applies in melee.",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed pp. 125, 169; III.H Miscellaneous Weapons, roll 61-62.",
+          "Conversion notes": "This is Table III.H’s roll 61–62. The text allows hammers to be thrown like hand axes. Uses the 2024 Light Hammer as the closest ordinary throwing profile.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_light-hammer",
+          "label": "Published 2024 Light Hammer comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:1741233deaf7c1fe": [
+      {
+        "label": "D&D 2024 adaptation · Morning Star +1",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Morningstar)",
+          "Damage": "1d8 Piercing + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "4 lb",
+          "Activation": "Make a melee weapon attack.",
+          "Special powers": "The +1 applies to attack and damage rolls.",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed p. 125; III.H Miscellaneous Weapons, roll 81-83.",
+          "Conversion notes": "Applies the original table’s +1 to the 2024 Morningstar’s equipment profile.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_morningstar",
+          "label": "Published 2024 Morningstar comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:f365c467d111a4ca": [
+      {
+        "label": "D&D 2024 adaptation · Mace +4",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Mace)",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 4.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "4 lb",
+          "Activation": "Make a melee weapon attack.",
+          "Special powers": "Adds +4 to damage and +3 to attack rolls.",
+          "Rarity": "Legendary",
+          "Attunement": "None",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed p. 125; III.H Miscellaneous Weapons, roll 77.",
+          "Conversion notes": "Retains the 1e +4 damage identity and caps the accuracy bonus at +3 for 2024 bounded accuracy.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace",
+          "label": "Published 2024 Mace comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:31ba46f9904b6a56": [
+      {
+        "label": "D&D 2024 adaptation · Sling of Seeking +2",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Simple ranged weapon (Sling)",
+          "Damage": "1d4 Bludgeoning + Dexterity modifier + 2.",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "30/120 feet",
+          "Properties": "Ammunition (sling bullets)",
+          "Mastery": "Slow",
+          "Weight": "Negligible",
+          "Activation": "Make a ranged weapon attack, expending one sling bullet.",
+          "Special powers": "In a campaign that uses minimum magic-enhancement thresholds, a bullet counts as +1 for meeting that threshold. The sling still grants +2 on attack and damage rolls.",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed p. 169, Miscellaneous Weapons; III.H Miscellaneous Weapons, roll 89.",
+          "Conversion notes": "Preserves the original distinction between the attack and damage bonus and its legacy ability to harm certain creatures. The conversion adds no homing or sight benefit.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_sling",
+          "label": "Published 2024 Sling comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:6bfed38d98ae256c": [
+      {
+        "label": "D&D 2024 adaptation · Hammer +3, Dwarven Thrower",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Warhammer)",
+          "Damage": "1d8 Bludgeoning + Strength modifier + 2, or use 1d10 with two hands. An awakened hammer uses +3.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2 (+3 when awakened).",
+          "Range": "5 feet melee; 20/60 feet thrown when awakened.",
+          "Properties": "Versatile (1d10). Gains Thrown when awakened.",
+          "Mastery": "Push",
+          "Weight": "5 lb",
+          "Activation": "A Dwarf with proficiency in Warhammers can attune to this hammer and speak its command word as a Magic action to awaken it. It stays awakened for that wielder until their attunement ends.",
+          "Special powers": "In its awakened state, it returns to your hand immediately after a thrown attack hits or misses. On a thrown hit it deals an extra 1d8 Force damage, or 2d8 against a Giant.",
+          "Rarity": "Very Rare",
+          "Attunement": "Required to awaken. The +2 melee form works without attunement.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed p. 168; III.H Miscellaneous Weapons, roll 63.",
+          "Conversion notes": "Preserves the dormant +2 and the command-word unlock. Warhammer proficiency replaces the original fighter-class gate. Uses the 2024 item’s Force dice instead of doubling or tripling all damage.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#DwarvenThrower"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dwarven-thrower",
+          "label": "Published 2024 Dwarven Thrower comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:f3e3aa8bc9a5c8f4": [
+      {
+        "label": "D&D 2024 adaptation · Hammer of Thunderbolts",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Maul)",
+          "Damage": "2d6 Bludgeoning + Strength modifier + 3 while attuned.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3 while attuned.",
+          "Range": "5 feet melee; 20/60 feet thrown with a charge.",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Topple",
+          "Weight": "10 lb",
+          "Activation": "Make a melee attack. While attuned, you can instead spend one charge to throw the hammer as one attack. It returns to your hand immediately after hitting or missing.",
+          "Special powers": "The hammer has 5 charges and regains 1d4 + 1 expended charges at dawn. On a thrown hit, creatures within 30 feet of the target, including the target but excluding you, make a DC 17 Constitution save or are Stunned until the end of your next turn. If you are wearing and attuned to both a Belt of Giant Strength and Gauntlets of Ogre Power and know the hammer’s true name, a natural 20 against a Giant forces it to make a DC 17 Constitution save or die.",
+          "Rarity": "Legendary",
+          "Attunement": "Required by a creature with a Strength score of 19 or higher.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed pp. 168–169; III.H Miscellaneous Weapons, roll 64.",
+          "Conversion notes": "Keeps the strong-wielder requirement, +3 and the original paired gear and true-name gates. Replaces legacy +5, damage multiplication and instant kills on ordinary hits with 2024-style charges, a natural-20 trigger and saves.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#HammerofThunderbolts"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_maul",
+          "label": "Published 2024 Maul comparison"
+        }
+      }
+    ],
     "dmg-1e-reference:c4427703cb9e533c": [
       {
         "label": "D&D 2024 adaptation · Crossbow of Accuracy, +3",
