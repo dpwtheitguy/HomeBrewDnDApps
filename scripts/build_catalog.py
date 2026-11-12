@@ -191,6 +191,16 @@ def main():
         'vom_poison-strand': 30,
         'vom_primordial-scale': 31,
         'vom_rain-of-chaos': 31,
+        'vom_ravagers-axe': 31,
+        'vom_reef-splitter': 31,
+        'vom_retribution-armor': 31,
+        'vom_riverine-blade': 32,
+        'vom_rowdys-club': 32,
+        'vom_ruby-crusher': 32,
+        'vom_rust-monster-shell': 32,
+        'vom_sand-arrow': 33,
+        'vom_sand-suit': 33,
+        'vom_sanguine-lance': 33,
     }
     vault_weapon_corrections = {
         'vom_anchor-of-striking': ('Anchor of Striking', 'srd_war-pick', 11),
@@ -251,7 +261,8 @@ def main():
                     if (raw['pk'] in ('vom_animated-chain-mail', 'vom_blood-soaked-hide', 'vom_brazen-bulwark',
                                       'vom_crusaders-shield', 'vom_fellforged-armor', 'vom_fountmail',
                                       'vom_goblin-shield', 'vom_gorgon-scale', 'vom_grasping-shield', 'vom_larkmail',
-                                      'vom_living-juggernaut', 'vom_mail-of-the-sword-master', 'vom_primordial-scale')
+                                      'vom_living-juggernaut', 'vom_mail-of-the-sword-master', 'vom_primordial-scale',
+                                      'vom_retribution-armor', 'vom_rust-monster-shell', 'vom_sand-suit')
                             or raw['pk'].startswith(('vom_bloodprice-', 'vom_chillblain-', 'vom_encouraging-',
                                                      'vom_grave-ward-'))):
                         f = {**f, 'requires_attunement': True}

@@ -1869,6 +1869,26 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Vault of Magic shows retaliation, corrosion and water-specific attacks': '''(async () => {
+                    for (const [id, terms] of [
+                        ["retribution-armor", ["15 + Dex modifier", "Retributive Resurrection", "1 Hit Point", "1,000 feet", "True Resurrection"]],
+                        ["rust-monster-shell", ["15 + Dex modifier", "cumulative −1", "At −5", "AttunementRequired"]],
+                        ["sand-suit", ["12 + Dex modifier", "nonmagical, unworked earth", "Fiend", "1d12"]],
+                        ["ravagers-axe", ["Critical Hit", "natural 20", "1d10 Cold", "1d10 Necrotic"]],
+                        ["reef-splitter", ["4d6 Fire", "underwater", "2d6 Fire"]],
+                        ["rowdys-club", ["Rowdy’s Ring", "DC 13 Wisdom", "three times per dawn"]],
+                        ["ruby-crusher", ["DC 17 Constitution", "30 feet away", "per full 10 feet"]],
+                        ["sand-arrow", ["80/320 feet", "DC 11 Constitution", "metal armor"]],
+                        ["sanguine-lance", ["unless mounted", "1d6 Necrotic", "rounded down"]],
+                    ]) {
+                        inspect("open5e-vom:vom_" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) {
+                            throw new Error("Missing fields on " + id);
+                        }
+                    }
+                    return true;
+                })()''',
                 'Vault of Magic separates quiet armor, weapon riders, and recovery saves': '''(async () => {
                     for (const [id, terms] of [
                         ["muffled-plate", ["Armor class18", "Stealth disadvantageNo", "15. Below"]],
