@@ -663,6 +663,20 @@ def main():
                         && ["Armor class18", "Abjuration or Illusion", "6 charges", "DC 18, +10"]
                             .every(value => enspelled.includes(value));
                 })()''',
+                'Cast-Off and Gleaming armor show eligible suits and readable rules links': '''(async () => {
+                    inspect("dndbeyond:9228382", grid.firstElementChild);
+                    await itemDetails;
+                    const castoff = inspection.textContent;
+                    const sourceLink = Array.from(inspection.querySelectorAll("a")).some(link =>
+                        link.textContent === "Read published rules" && link.href.includes("roll20.net"));
+                    inspect("dndbeyond:9228349", grid.firstElementChild);
+                    await itemDetails;
+                    const gleaming = inspection.textContent;
+                    return sourceLink && ["armor rules · Padded Armor", "armor rules · Plate Armor",
+                        "Magic action to doff", "Armor class18"].every(value => castoff.includes(value))
+                        && ["never gets dirty", "armor rules · Chain Shirt", "13 + Dex modifier (max +2)"]
+                            .every(value => gleaming.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

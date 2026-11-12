@@ -363,6 +363,9 @@ function addItemDetails(panel, item, supplements) {
                 (entry.fields.Training && (entry.fields["Armor class"] || entry.fields["Armor class bonus"])));
         const details = itemDetailsSection(panel, label, Object.entries(entry.fields), entry.source,
             entry.status !== "original-draft" || playableDraft);
+        if (entry.rules_source) {
+            details.appendChild(sourceLink(entry.rules_source, "Read published rules"));
+        }
         if (entry.related_item) {
             const button = element("button", entry.related_item.label);
             button.addEventListener("click", () => inspect(entry.related_item.id, returnFocus));

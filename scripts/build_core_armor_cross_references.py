@@ -72,7 +72,25 @@ def same_base(left, right):
             and 'increases your Armor Class by 2' in left['description'])
 
 
+PUBLIC_ARMOR_RULES = {
+    'dndbeyond:9228349': 'https://roll20.net/compendium/dnd5e/Templates%3AArmor%20of%20Gleaming?expansion=33359',
+    'dndbeyond:9228382': 'https://roll20.net/compendium/dnd5e/Templates%3ACast-Off%20Armor?expansion=33359',
+    'dndbeyond:9228451': MAGIC + '#DemonArmor',
+    'dndbeyond:9228541': 'https://roll20.net/compendium/dnd5e/Templates%3AEnspelled%20Armor?expansion=33359',
+    'dndbeyond:9228837': 'https://roll20.net/compendium/dnd5e/Templates%3AMariner%27s%20Armor?expansion=33359',
+}
+
 PUBLIC_ARMOR = {
+    'dndbeyond:9228349': (
+        'Armor of Gleaming', '9228349-armor-of-gleaming', 0, False, 'Common', {
+            'Special powers': 'The armor never gets dirty. Use the base suit’s normal AC, training, and donning rules.',
+        },
+    ),
+    'dndbeyond:9228382': (
+        'Cast-Off Armor', '9228382-cast-off-armor', 0, False, 'Common', {
+            'Special powers': 'While wearing the armor, take a Magic action to doff it. Use the base suit’s normal donning time.',
+        },
+    ),
     'dndbeyond:9228451': (
         'Demon Armor', '9228451-demon-armor', 1, True, 'Very Rare', {
             'Special powers': 'While worn, you know Abyssal. The clawed gauntlets let your Unarmed Strikes deal 1d8 Slashing and grant +1 to their attack and damage rolls.',
@@ -127,6 +145,7 @@ def public_armor_variants(items):
             variants.append({
                 'label': 'Verified 2024 armor rules · ' + armor['name'], 'status': 'published-reference',
                 'profile_kind': 'published-public-armor', 'source': source, 'enhancement_bonus': bonus,
+                'rules_source': PUBLIC_ARMOR_RULES[item['id']],
                 'fields': fields, 'related_item': {'id': base['id'], 'label': 'Open 2024 base equipment'},
             })
         records[item['id']] = variants
