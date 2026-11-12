@@ -1008,6 +1008,21 @@ def main():
                     }
                     return true;
                 })()''',
+                'Wrath artifact cards show action costs saves and recovery': '''(async () => {
+                    const cases = [
+                        ["911442c04239a270", ["natural 19 or 20", "DC 17 Constitution", "4d6 Slashing"]],
+                        ["48c0d2e9e1eadad9", ["No direct damage", "DC 10 Strength", "30 feet with Flying", "stays in place"]],
+                        ["db6a70a41c17e186", ["1d10 Bludgeoning", "3 charges", "Rheddrian directly", "randomly chosen prepared spell"]],
+                        ["41e442619c114b08", ["portion of its +3 enhancement to AC", "can breathe water", "1d8 Piercing"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("wrath-of-the-immortals-local:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const details = inspection.textContent;
+                        if (!terms.every(term => details.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
