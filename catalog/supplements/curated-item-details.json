@@ -1,6 +1,112 @@
 {
   "schema_version": 1,
   "records": {
+    "dndbeyond:9379": [
+      {
+        "label": "D&D 2024 adaptation · Spear of Backbiting",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dodgy.dog/DnD/Dungeon%20Master/Tales%20from%20the%20Yawning%20Portal.pdf#page=230",
+        "fields": {
+          "Category": "Simple melee weapon (Spear) · Very Rare · Requires attunement",
+          "Damage": "1d6 Piercing + Strength modifier + 2 in melee (1d8 with two hands). A thrown hit deals 2d6 Piercing + Strength modifier + 2.",
+          "Attack bonus": "+2 plus Strength modifier and Proficiency Bonus if proficient.",
+          "Range": "5 feet melee. Thrown 50/90 feet.",
+          "Properties": "Thrown, Versatile (1d8).",
+          "Mastery": "Sap",
+          "Activation": "Attack normally. The weapon returns to your hand immediately after a thrown hit or miss.",
+          "Curse": "Attuning curses you until Remove Curse or similar magic breaks it. Keep the weapon within reach and remain unwilling to part with it. You have Disadvantage on attack rolls with other weapons.",
+          "Backbite": "On a natural 1 with this weapon, make a new attack roll with Advantage against your own AC. On a hit, take the weapon damage for the original attack mode. This redirected roll does not start another backbite.",
+          "Conversion notes": "Uses the named 2024 base weapon, adds 30 feet to both thrown ranges, and retains the source’s extra thrown die and curse. The conversion resolves one redirected attack per trigger.",
+          "Legacy source": "Tales from the Yawning Portal, appendix A, p. 229.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dndbeyond:9390": [
+      {
+        "label": "D&D 2024 adaptation · Javelin of Backbiting",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dodgy.dog/DnD/Dungeon%20Master/Tales%20from%20the%20Yawning%20Portal.pdf#page=230",
+        "fields": {
+          "Category": "Simple melee weapon (Javelin) · Very Rare · Requires attunement",
+          "Damage": "1d6 Piercing + Strength modifier + 2 in melee. A thrown hit deals 2d6 Piercing + Strength modifier + 2.",
+          "Attack bonus": "+2 plus Strength modifier and Proficiency Bonus if proficient.",
+          "Range": "5 feet melee. Thrown 60/150 feet.",
+          "Properties": "Thrown.",
+          "Mastery": "Slow",
+          "Activation": "Attack normally. The weapon returns to your hand immediately after a thrown hit or miss.",
+          "Curse": "Attuning curses you until Remove Curse or similar magic breaks it. Keep the weapon within reach and remain unwilling to part with it. You have Disadvantage on attack rolls with other weapons.",
+          "Backbite": "On a natural 1 with this weapon, make a new attack roll with Advantage against your own AC. On a hit, take the weapon damage for the original attack mode. This redirected roll does not start another backbite.",
+          "Conversion notes": "Uses the named 2024 base weapon, adds 30 feet to both thrown ranges, and retains the source’s extra thrown die and curse. The conversion resolves one redirected attack per trigger.",
+          "Legacy source": "Tales from the Yawning Portal, appendix A, p. 229.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_javelin",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dndbeyond:9320": [
+      {
+        "label": "D&D 2024 adaptation · Shatterspike",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dodgy.dog/DnD/Dungeon%20Master/Tales%20from%20the%20Yawning%20Portal.pdf#page=230",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword) · Uncommon · Requires attunement",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 1. On an object hit, roll Critical Hit weapon dice and choose Bludgeoning or Slashing.",
+          "Attack bonus": "+1 plus Strength modifier and Proficiency Bonus if proficient.",
+          "Range": "5 feet melee.",
+          "Properties": "Versatile (1d10).",
+          "Mastery": "Sap.",
+          "Activation": "Make a melee attack. A hit against an object is automatically a Critical Hit.",
+          "Durability": "Damage from nonmagical sources cannot harm Shatterspike.",
+          "Conversion notes": "Uses the 2024 Longsword and preserves the published object-hit exception. Objects still use their applicable defenses.",
+          "Legacy source": "Tales from the Yawning Portal, appendix A, p. 229.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dndbeyond:9349": [
+      {
+        "label": "D&D 2024 adaptation · Waythe",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dodgy.dog/DnD/Dungeon%20Master/Tales%20from%20the%20Yawning%20Portal.pdf#page=230",
+        "fields": {
+          "Category": "Martial melee weapon (Greatsword) · Legendary · Requires attunement",
+          "Damage": "2d6 Slashing + Strength modifier + 1. A hit against a Giant deals an extra 2d6 Slashing.",
+          "Attack bonus": "+1 plus Strength modifier and Proficiency Bonus if proficient.",
+          "Range": "5 feet melee. Enemy detection reaches 60 feet.",
+          "Properties": "Heavy, Two-Handed.",
+          "Mastery": "Graze.",
+          "Activation": "Attack normally. On a hit against a Giant, it makes a DC 15 Strength save or falls Prone.",
+          "Enemy detection": "While holding Waythe, take a Magic action and spend 1 of 7 charges. For 1 minute you know the direction of the nearest Hostile creature within 60 feet, even if it is Invisible, ethereal, disguised, or hidden. The effect ends if you stop holding the sword.",
+          "Charges": "Regain all expended charges at dawn. Using the last charge does not destroy the sword.",
+          "Sentience": "Neutral Good; Intelligence 12, Wisdom 2, Charisma 14. Hearing and Darkvision to 120 feet. Speaks Giant and Common and communicates telepathically with its wielder. It prizes freedom, protects friends, and urges bold action.",
+          "Attunement": "A Good-aligned creature can attune in 1 minute.",
+          "Conversion notes": "Uses the 2024 Greatsword and Wand of Enemy Detection while retaining Waythe’s special recharge and sentience.",
+          "Detection rules": "https://www.dndbeyond.com/magic-items/9229184-wand-of-enemy-detection",
+          "Legacy source": "Tales from the Yawning Portal, appendix A, p. 229.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
     "dndbeyond:7526657": [
       {
         "label": "D&D 2024 adaptation · Fate Cutter Shears",

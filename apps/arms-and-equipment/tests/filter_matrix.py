@@ -993,6 +993,21 @@ def main():
                     }
                     return true;
                 })()''',
+                'Yawning Portal weapons show curse and object hit rules': '''(async () => {
+                    const cases = [
+                        ["9379", ["Thrown 50/90 feet", "2d6 Piercing", "against your own AC"]],
+                        ["9390", ["Thrown 60/150 feet", "2d6 Piercing", "against your own AC"]],
+                        ["9320", ["automatically a Critical Hit", "Bludgeoning or Slashing", "nonmagical sources"]],
+                        ["9349", ["2d6 Slashing", "DC 15 Strength", "1 of 7 charges", "Wisdom 2"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dndbeyond:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term)) ||
+                            ![...inspection.querySelectorAll("a")].some(link => link.href.includes("Portal.pdf#page=230"))) return false;
+                    }
+                    return true;
+                })()''',
                 'Remaining Book of Many Things weapons show their original effects': '''(async () => {
                     const cases = [
                         ["7526657", ["Sever Threads", "natural 19 or 20", "any attacker"]],
