@@ -627,6 +627,18 @@ def main():
                             .every(value => vorpal.includes(value)) &&
                         !vorpal.includes("Vorpal Sword · Shortsword");
                 })()''',
+                'Public armor cards show Cavalier shield and Metal Shell rules': '''(async () => {
+                    inspect("dndbeyond:9058943", grid.firstElementChild);
+                    await itemDetails;
+                    const shield = inspection.textContent;
+                    inspect("dndbeyond:9228350", grid.firstElementChild);
+                    await itemDetails;
+                    const armor = inspection.textContent;
+                    return ["Verified 2024 armor rules", "Armor class bonus+4", "Forceful Bash", "Protective Field"]
+                        .every(value => shield.includes(value)) &&
+                        ["Verified 2024 armor rules", "Armor class18", "Metal Shell", "10 minutes"]
+                            .every(value => armor.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

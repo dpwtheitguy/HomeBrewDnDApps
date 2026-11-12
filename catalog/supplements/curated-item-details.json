@@ -3627,6 +3627,51 @@
           "Conversion notes": "This draft uses the 2024 Acid item as its throw benchmark and gives the slime one brief follow-up effect."
         }
       }
+    ],
+    "dndbeyond:9228350": [
+      {
+        "label": "Verified 2024 armor rules",
+        "status": "published-reference",
+        "profile_kind": "published-public-armor",
+        "source": "https://www.dndbeyond.com/magic-items/9228350-armor-of-invulnerability",
+        "enhancement_bonus": 0,
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Special powers": "While wearing the armor, resist Bludgeoning, Piercing, and Slashing damage.",
+          "Metal Shell": "Use a Magic action to become immune to those three damage types for 10 minutes. The effect ends if you remove the armor. Recharges at dawn."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "dndbeyond:9058943": [
+      {
+        "label": "Verified 2024 armor rules",
+        "status": "published-reference",
+        "profile_kind": "published-public-armor",
+        "source": "https://www.dndbeyond.com/magic-items/9058943-shield-of-the-cavalier",
+        "enhancement_bonus": 2,
+        "fields": {
+          "Armor class bonus": "+4",
+          "Training": "Shield",
+          "Attunement": "Required",
+          "Special powers": "While wielding it, add +2 AC on top of the shield’s usual +2. Shield training is required for the AC benefit.",
+          "Forceful Bash": "During the Attack action, use one attack to bash a target within 5 ft. Roll with Strength and proficiency. On a hit deal 2d6 + 2 + Strength modifier Force damage. You may push a creature up to 10 ft directly away and also knock it Prone if it is your size or smaller.",
+          "Protective Field": "Use a Reaction when you or a visible ally within 5 ft is targeted by an attack or rolls a save against an area effect. A stationary 5 ft Emanation forms around you and lasts for up to 1 minute with Concentration. Anything partly outside is pushed into the nearest unoccupied space outside.",
+          "Field protection": "The triggering effect cannot affect anything inside. Nothing can cross the field, and effects and attacks cannot deal damage across it in either direction. Recharges at dawn."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 base equipment"
+        }
+      }
     ]
   }
 }
