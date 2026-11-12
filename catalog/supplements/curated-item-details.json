@@ -35318,11 +35318,12 @@
           "Weight": "6 lb",
           "Attunement": "Required",
           "Rarity": "Rare",
-          "Special powers": "While wielding the shield with training and attunement, add +3 AC normally, or +5 AC total against ranged weapon attack rolls. When Magic Missile targets you while you wield this shield, you can take a Reaction and roll a d10. On 1–2, negate the darts that target you. Other targets resolve their darts normally.",
+          "Special powers": "While wielding the shield with training and attunement, add +3 AC normally, or +5 AC total against ranged weapon attack rolls. When Magic Missile targets you while wielding this shield, you can take a Reaction and roll a d10. On 1–2, negate the darts that target you. Resolve darts aimed at other targets normally.",
           "Source locator": "AD&D 1e DMG, table III.F Armor and Shield, roll 97.",
-          "Conversion notes": "Keeps the general enhancement and the original one-in-five chance against Magic Missile. Uses a Reaction to model actively interposing the shield.",
-          "2024 counterpart": "https://www.dndbeyond.com/magic-items/4577-arrow-catching-shield",
-          "Original item rules": "https://1eonline.info/3dmg/mgi/shieldlarge%2B1%2B4versusmissiles.htm"
+          "Conversion notes": "Retains the +1 general enhancement and one-in-five chance to negate Magic Missile. Caps the legacy +4 missile-specific enhancement at +3 above the ordinary +2 Shield bonus. The 2024 rules use a Reaction for active interception and omit facing by default.",
+          "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#ArrowCatchingShield",
+          "Original item rules": "https://1eonline.info/3dmg/mgi/shieldlarge%2B1%2B4versusmissiles.htm",
+          "Original book scan": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf"
         },
         "related_item": {
           "id": "open5e-srd-2024:srd-2024_shield-plus-1",
@@ -35344,12 +35345,13 @@
           "Weight": "65 lb",
           "Attunement": "Required",
           "Rarity": "Legendary",
-          "Special powers": "While wearing and attuned to the armor, take a Magic action and speak its command word to expend 1 charge and gain the effect of Etherealness for up to 8 hours. Removing the armor or repeating its command word as a Magic action ends the effect. Dispel Magic can end this effect as a level 7 spell. If it does, this property is suppressed until the next dawn. The suit starts with 20 charges and cannot regain them. Its AC is 21 with 11–20 charges, 20 with 6–10, and 19 with 0–5.",
+          "Special powers": "While wearing and attuned to the armor, take a Magic action and speak its command word to expend 1 charge and gain the effect of Etherealness for up to 8 hours. Doffing the armor or repeating its command word as a Magic action ends the effect. Dispel Magic can end the effect as a level 7 spell if the caster can legally target it. A successful dispel suppresses this property until the next dawn. The armor has 20 charges when found and never regains them. Recalculate AC immediately after spending a charge.",
           "Source locator": "AD&D 1e DMG, table III.F Armor and Shield, roll 39.",
-          "Conversion notes": "Caps the original enhancement at +3. The original five-use thresholds resume below that cap. The 2024 spell supplies duration and plane interaction. A successful Dispel Magic substitutes for the original Phase Door countermeasure. The listed AC is for a fresh suit.",
+          "Conversion notes": "The 1e bonus drops from +5 to +4, +3, +2, and +1 at 5, 10, 15, and 20 uses. The modern profile caps the bonus at +3 and retains the last two decreases. Dispel Magic substitutes for the legacy Phase Door countermeasure.",
           "2024 counterpart": "https://www.dndbeyond.com/magic-items/9228928-plate-armor-of-etherealness",
-          "Original item rules": "https://www.1eonline.info/3dmg/platemailofetherealness.htm",
-          "Armor class by charges": "21 with 11–20 charges, 20 with 6–10 charges, 19 with 0–5 charges."
+          "Original item rules": "https://www.1eonline.info/3dmg/mgi/platemailofetherealness.htm",
+          "Armor class by charges": "21 with 6–20 charges, 20 with 1–5 charges, and 19 with 0 charges.",
+          "Original book scan": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf"
         },
         "related_item": {
           "id": "open5e-srd-2024:srd-2024_plate-armor-plus-3",
@@ -35398,12 +35400,13 @@
           "Weight": "65 lb",
           "Attunement": "Required",
           "Rarity": "Rare",
-          "Special powers": "When placing the armor, the DM chooses a cursed AC of 14, 15, or 16 (default 16). Before the curse is revealed, the suit appears to be Plate Armor with a magical bonus equal to 17 minus its cursed AC. Identify reports the apparent bonus. Use AC 18 before the curse is revealed. The first hit by a hostile creature while the attuned wearer wears the suit reveals the curse after that hit resolves. From then on, use the chosen cursed AC. If a hostile attacker rolls a natural 20 and hits the attuned wearer, resolve the hit and then the suit breaks, including on the hit that reveals the curse. Remove Curse or similar magic ends the curse on the wearer. Doffing or breaking the suit does not end it.",
+          "Special powers": "When placing the armor, choose cursed AC 14, 15, or 16 (default 16). It appears to be Plate Armor with a bonus of +3, +2, or +1 respectively, and Identify reports that apparent bonus. Its actual AC is 18 before the curse is revealed. The first hit by a hostile creature while the attuned wearer wears the suit reveals the curse after the hit resolves. Use the chosen cursed AC on subsequent attacks. A natural 20 that hits the attuned wearer breaks the suit after resolving the attack, including on the hit that reveals it. A broken suit provides no AC. Remove Curse ends the binding and allows the suit to be discarded. The curse remains on the item.",
           "Source locator": "AD&D 1e DMG, table III.F Armor and Shield, roll 40-44.",
-          "Conversion notes": "Preserves the hidden curse, the original range of penalties, and natural-20 breakage. Attunement binds the curse to the wearer. The AC field shows ordinary plate before the curse is revealed.",
+          "Conversion notes": "Keeps the false positive enhancement, hidden curse, and natural-20 breakage. Ordinary plate AC is an explicit conversion choice before the first hostile hit reveals the true penalty.",
           "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#ArmorofVulnerability",
           "Original item rules": "https://www.1eonline.info/3dmg/mgi/platemailofvulnerability.htm",
-          "Cursed armor class": "14, 15, or 16 once the curse is revealed, while wearing the intact suit."
+          "Cursed armor class": "14, 15, or 16 once the curse is revealed, while wearing the intact suit.",
+          "Original book scan": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf"
         },
         "related_item": {
           "id": "open5e-srd-2024:srd-2024_plate-armor",

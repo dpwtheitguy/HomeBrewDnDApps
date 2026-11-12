@@ -1524,7 +1524,7 @@ def main():
                 })()''',
                 'Legacy DMG special armor shows charges curses and reactions': '''(async () => {
                     const cases = [
-                        ["dmg-1e-reference:5003ee3a0bd2f04d", ["Armor class by charges", "cannot regain", "up to 8 hours"]],
+                        ["dmg-1e-reference:5003ee3a0bd2f04d", ["Armor class by charges", "never regains", "up to 8 hours", "20 with 1–5 charges", "19 with 0 charges"]],
                         ["dmg-2e-reference:e030cf575bdcef9b", ["Cursed armor class14, 15, or 16", "natural 20"]],
                         ["dmg-2e-reference:62ade0786a04042d", ["Cursed shield bonus+0", "within 10 feet"]],
                         ["dmg-2e-reference:2423313ed73a2e69", ["+5 AC total", "roll a d10"]],
@@ -2976,7 +2976,7 @@ def main():
                     await itemDetails;
                     const cursed = inspection.textContent;
                     return ethereal.includes("21 with 6–20 charges") && ethereal.includes("level 7 spell")
-                        && cursed.includes("Identify reports the apparent bonus")
+                        && cursed.includes("Identify reports that apparent bonus") && cursed.includes("broken suit provides no AC")
                         && cursed.includes("natural 20") && cursed.includes("14, 15, or 16");
                 })()''',
                 'Armor cards distinguish shield bonuses and worn AC': '''(async () => {
