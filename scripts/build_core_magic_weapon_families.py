@@ -8,6 +8,7 @@ from build_core_enhancement_cross_references import CATALOG, CURRENT, LEGACY, RE
 RULES = 'https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z'
 FAMILIES = {
     'Moonblade': {
+        'change': 'The revised blade chooses its bearer and uses the 2024 rune table.',
         'published_bases': ('Greatsword', 'Longsword', 'Rapier', 'Scimitar', 'Shortsword'),
         'source': 'https://roll20.net/compendium/dnd5e/Templates%3AMoonblade?expansion=33359',
         'damage': 'The first rune adds 1 to damage. Further runes may raise the bonus or add Force damage.',
@@ -27,6 +28,7 @@ FAMILIES = {
         'Rarity': 'Legendary',
     },
     'Axe of the Dwarvish Lords': {
+        'change': 'The revised axe uses the 2024 Battleaxe profile and adds the published thrown, critical-hit, and artifact effects.',
         'published_bases': ('Battleaxe',),
         'source': 'https://roll20.net/compendium/dnd5e/Items%3AAxe%20of%20the%20Dwarvish%20Lords?expansion=33359',
         'damage': 'Add 3 to normal damage. A natural 20 against a creature adds 20 Slashing. A thrown hit adds 1d8 Force, or 2d8 against a Giant.',
@@ -56,6 +58,7 @@ FAMILIES = {
         'Rarity': 'Common',
     },
     'Weapon of Warning': {
+        'change': 'The revised aura works while the attuned weapon is within reach. Its alarm wakes creatures from natural sleep.',
         'source': 'https://app.roll20.net/compendium/dnd5e/Templates%3AWeapon%20of%20Warning?expansion=33359',
         'damage': 'Use the normal damage of the base weapon.',
         'activation': 'While attuned and the weapon is within your reach, its benefits apply to you and allies within 30 ft of you.',
@@ -97,6 +100,7 @@ FAMILIES = {
         'Rarity': 'Very Rare',
     },
     'Sword of Kas': {
+        'change': 'The revised artifact uses a Longsword and the 2024 Bloodthirst and Spirit of Kas rules.',
         'published_bases': ('Longsword',),
         'source': 'https://roll20.net/compendium/dnd5e/Items%3ASword%20of%20Kas?expansion=33359',
         'damage': 'Add 3 to normal damage, plus 2d10 Slashing on a hit against an Undead.',
@@ -363,6 +367,8 @@ PUBLIC_WEAPON_PAGES = {
 # Exact public-index pages for the older item. These show the revised counterpart
 # without presenting revised mechanics as part of the original publication.
 LEGACY_PUBLIC_WEAPON_PAGES = {
+    'Axe of the Dwarvish Lords': 5422, 'Sword of Kas': 5427, 'Moonblade': 5430,
+    'Weapon of Warning': 5504,
     'Dagger of Venom': 4613, 'Dwarven Thrower': 4627, 'Hammer of Thunderbolts': 4649,
     'Javelin of Lightning': 4667, 'Mace of Disruption': 4670, 'Mace of Smiting': 4671,
     'Mace of Terror': 4672, 'Oathbow': 4686, 'Scimitar of Speed': 4752, 'Sun Blade': 4774,
@@ -382,6 +388,39 @@ PUBLIC_BASES = {
     'Frost Brand': ('Glaive', 'Greatsword', 'Longsword', 'Rapier', 'Scimitar', 'Shortsword'),
     'Luck Blade': ('Glaive', 'Greatsword', 'Longsword', 'Rapier', 'Scimitar', 'Sickle', 'Shortsword'),
 }
+
+
+CURATED_LEGACY_COUNTERPARTS = {
+    'dndbeyond:5429': 'dndbeyond:9228360',
+    'dndbeyond:5431': 'dndbeyond:9229198',
+    'dndbeyond:5432': 'dndbeyond:9229201',
+    'dndbeyond:5506': 'dndbeyond:9229111',
+}
+
+
+def curated_legacy_counterparts(items):
+    indexed = {item['id']: item for item in items}
+    curated = json.loads((CATALOG / 'supplements/curated-item-details.json').read_text())['records']
+    records = {}
+    for legacy_id, modern_id in CURATED_LEGACY_COUNTERPARTS.items():
+        if legacy_id not in indexed:
+            continue
+        legacy, modern = indexed[legacy_id], indexed[modern_id]
+        name = legacy['name']
+        slug = name.lower().replace(' ', '-')
+        source = f"https://www.dndbeyond.com/magic-items/{legacy_id.split(':')[1]}-{slug}"
+        if name != modern['name'] or legacy['provenance'].get('source_url') != source:
+            raise ValueError(f'Legacy weapon identity mismatch: {legacy_id}')
+        entries = curated[modern_id]
+        if not entries or any(entry['status'] != 'published-reference' for entry in entries):
+            raise ValueError(f'Missing verified weapon counterpart: {modern_id}')
+        records[legacy_id] = [
+            {**entry, 'source': source, 'rules_source': entry['source'],
+             'label': '2024 counterpart · ' + name,
+             'related_item': {'id': modern_id, 'label': 'Open published 2024 item'}}
+            for entry in entries
+        ]
+    return records
 
 
 def is_ranged_weapon(mechanics):
@@ -549,6 +588,9 @@ def main():
             for base, mechanics in bases.items()
         ]
         legacy_public_count += 1
+    curated_counterparts = curated_legacy_counterparts(items)
+    records.update(curated_counterparts)
+    legacy_public_count += len(curated_counterparts)
     (CATALOG / 'supplements/core-magic-weapon-families.json').write_text(
         json.dumps({'schema_version': 1, 'records': records}, ensure_ascii=False, separators=(',', ':')) + '\n')
     print(f'{legacy_count} legacy counterparts and {len(targets)} published 2024 variants, {public_count} verified public-index pages, {legacy_public_count} indexed legacy counterparts.')

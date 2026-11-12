@@ -823,6 +823,21 @@ def main():
                         ["Armor class13 + Dex modifier", "Bonus Action", "Weight and bulk stay the same"]
                             .every(value => glamour.includes(value));
                 })()''',
+                'Legacy artifact cards show 2024 rules and preserve their source links': '''(async () => {
+                    inspect("dndbeyond:5432", grid.firstElementChild);
+                    await itemDetails;
+                    const whelm = inspection.textContent;
+                    const links = Array.from(inspection.querySelectorAll("a")).map(link => link.href);
+                    inspect("dndbeyond:5430", grid.firstElementChild);
+                    await itemDetails;
+                    const moonblade = inspection.textContent;
+                    return ["2024 counterpart · Whelm", "60/180 ft", "Open published 2024 item"]
+                        .every(value => whelm.includes(value)) &&
+                        links.some(url => url.includes("5432-whelm")) &&
+                        links.some(url => url.includes("roll20.net")) &&
+                        ["2024 counterpart · Moonblade · Rapier", "76–80", "The revised blade chooses its bearer"]
+                            .every(value => moonblade.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
