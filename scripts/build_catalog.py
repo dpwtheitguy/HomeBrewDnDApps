@@ -120,6 +120,12 @@ def main():
                 f=r['fields']; prop_assign[f.get('weapon')].append(f)
     armor_facts = read(CAT/'supplements/published-2024-armor-facts.json')
     vault_pages = {
+        'vom_bludgeon-of-nightmares': 16,
+        'vom_consuming-rod': 20,
+        'vom_labrys-of-the-raging-bull-battleaxe': 27,
+        'vom_labrys-of-the-raging-bull-greataxe': 27,
+        'vom_sacrificial-knife': 33,
+        'vom_ceremonial-sacrificial-knife': 33,
         'vom_brawn-armor': 17,
         'vom_longbow-of-accuracy': 17,
         'vom_shortbow-of-accuracy': 17,

@@ -1871,6 +1871,23 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Vault weapon cards show curse, swallowing, shove, and ritual rules': '''(async () => {
+                    for (const [id, terms] of [
+                        ["bludgeon-of-nightmares", ["Morningstar variant", "Intelligence 5", "Exhaustion", "Remove Curse"]],
+                        ["consuming-rod", ["8 charges", "DC 15 Dexterity", "Total Cover", "falls Prone"]],
+                        ["labrys-of-the-raging-bull-battleaxe", ["Topple", "two sizes larger", "Unarmed Strike"]],
+                        ["labrys-of-the-raging-bull-greataxe", ["Cleave", "two sizes larger", "Disadvantage"]],
+                        ["sacrificial-knife", ["Spellcasting Focus", "Nick"]],
+                        ["ceremonial-sacrificial-knife", ["Short Rest", "level 1 spell slot", "level 2 spell slot"]],
+                    ]) {
+                        inspect("open5e-vom:vom_" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Vault armor uses item-specific Dexterity caps, charges, and forms': '''(async () => {
                     for (const [id, terms] of [
                         ["agile-plate", ["18 + Dex modifier (max +1)", "negative modifier"]],

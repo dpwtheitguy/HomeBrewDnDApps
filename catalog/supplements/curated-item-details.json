@@ -1,6 +1,178 @@
 {
   "schema_version": 1,
   "records": {
+    "open5e-vom:vom_bludgeon-of-nightmares": [
+      {
+        "label": "D&D 2024 adaptation · Bludgeon of Nightmares",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "4 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "This +2 weapon presents itself as a Mace of Disruption, including when examined with Identify. The printed item can be a Mace, Flail, or Morningstar. Use the corresponding attack profile.",
+          "Conversion notes": "Uses the 2024 base weapons. The curse starts with the first qualifying kill. Once active, count every creature of Intelligence 5 or higher that you have reduced to 0 Hit Points with this weapon for the rest save.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 16.",
+          "Curse": "Attuning curses you. While cursed, you keep the weapon on your person and refuse to part with it. While attuned, attacks with other weapons have Disadvantage. The first time you kill a creature with Intelligence 5 or higher using this weapon, recurring nightmares begin. At the end of each Long Rest thereafter, make a Wisdom save before gaining its benefits. The DC is 10 plus the number of creatures with Intelligence 5 or higher you have reduced to 0 Hit Points with the weapon. On a failure, gain no rest benefits and gain 1 level of Exhaustion. Remove Curse can break the curse.",
+          "Flail variant": "Martial melee, 5 feet. Hit: 1d8 + Strength modifier + 2 Bludgeoning. Sap. 2 lb.",
+          "Morningstar variant": "Martial melee, 5 feet. Hit: 1d8 + Strength modifier + 2 Piercing. Sap. 4 lb."
+        }
+      }
+    ],
+    "open5e-vom:vom_consuming-rod": [
+      {
+        "label": "D&D 2024 adaptation · Consuming Rod",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "4 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When the mace hits a creature, its bite adds 1d6 Piercing damage. It holds 8 charges and recovers 1d6 + 2 at dawn. On a hit, use a Reaction and spend 1 charge to regain Hit Points equal to the Piercing damage actually dealt by the bite. Alternatively, on a hit against a Medium or smaller creature, use a Reaction and spend 5 charges to force a DC 15 Dexterity save. On a failure the mace swallows the creature, which can breathe but is Blinded and Restrained, with Total Cover against effects originating outside the mace.",
+          "Conversion notes": "Uses the 2024 Mace. This draft allows only one swallowed creature at a time, following the book’s singular release rule.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 20.",
+          "Release": "Take a Magic action to release the swallowed creature into an unoccupied space within 5 feet of the mace, where it falls Prone. The mace automatically releases it at dawn."
+        }
+      }
+    ],
+    "open5e-vom:vom_labrys-of-the-raging-bull-battleaxe": [
+      {
+        "label": "D&D 2024 adaptation · Labrys of the Raging Bull (Battleaxe)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_battleaxe",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While wielding the axe, you can use the Shove option of an Unarmed Strike against a creature up to two sizes larger than you. The target has Disadvantage on its Strength or Dexterity save. On a failed save, push it 5 feet away or knock it Prone. The save DC is 8 + your Strength modifier + Proficiency Bonus.",
+          "Conversion notes": "This draft converts the legacy Advantage on your Shove check to Disadvantage on the target’s save. Shove is a separate Unarmed Strike, and the size extension does not change any mastery’s restrictions.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 27."
+        }
+      }
+    ],
+    "open5e-vom:vom_labrys-of-the-raging-bull-greataxe": [
+      {
+        "label": "D&D 2024 adaptation · Labrys of the Raging Bull (Greataxe)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greataxe",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d12 Slashing + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Cleave",
+          "Weight": "7 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While wielding the axe, you can use the Shove option of an Unarmed Strike against a creature up to two sizes larger than you. The target has Disadvantage on its Strength or Dexterity save. On a failed save, push it 5 feet away or knock it Prone. The save DC is 8 + your Strength modifier + Proficiency Bonus.",
+          "Conversion notes": "This draft converts the legacy Advantage on your Shove check to Disadvantage on the target’s save. Shove is a separate Unarmed Strike, and the size extension does not change any mastery’s restrictions.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 27."
+        }
+      }
+    ],
+    "open5e-vom:vom_sacrificial-knife": [
+      {
+        "label": "D&D 2024 adaptation · Sacrificial Knife",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Rarity": "Common",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While attuned, you can use this dagger as a Spellcasting Focus for your spells.",
+          "Conversion notes": "Uses the 2024 Dagger. The printed Common variant provides the focus property.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 33."
+        }
+      }
+    ],
+    "open5e-vom:vom_ceremonial-sacrificial-knife": [
+      {
+        "label": "D&D 2024 adaptation · Ceremonial Sacrificial Knife",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While attuned, you can use the dagger as a Spellcasting Focus. During a Short Rest, use it to perform the item’s sacrificial ritual. A Tiny or Small creature restores one expended level 1 spell slot. A Medium or larger creature restores one expended level 2 spell slot.",
+          "Conversion notes": "The draft carries forward the ordinary knife’s focus property and resolves one ritual at the end of the Short Rest.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 33."
+        }
+      }
+    ],
     "open5e-vom:vom_agile-breastplate": [
       {
         "label": "D&D 2024 adaptation · Agile Breastplate",
