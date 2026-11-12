@@ -133,7 +133,7 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
                                                   'adapted-barding', 'adapted-game-armor', 'adapted-source-armor'}]
     encounter = [entry for entry in curated.get(item_id, [])
                  if entry.get('profile_kind') in {'armor-encounter-construct', 'documented-armor-accessory',
-                                                  'adapted-protective-garment', 'adapted-protective-implement'}]
+                                                  'adapted-protective-garment', 'adapted-protective-implement', 'adapted-partial-armor'}]
     if item['ruleset'] == 'bg3':
         evidence = 'native-bg3'
         fields.update(read_bg3(bg3['records'].get(item_id, {}), bg3['effects'], bg3['shield_training'], errors, gaps))
@@ -161,7 +161,8 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
         details = entry.get('fields', {})
         provenance = item['provenance']
         profile = entry['profile_kind']
-        protective = profile in {'adapted-protective-garment', 'adapted-protective-implement'}
+        partial = profile == 'adapted-partial-armor'
+        protective = partial or profile in {'adapted-protective-garment', 'adapted-protective-implement'}
         construct = profile == 'armor-encounter-construct'
         effect_key = 'Creature defenses' if construct else 'Special powers'
         verified = entry.get('source') == provenance.get('source_url') and provenance.get('locator')
@@ -172,10 +173,16 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
                 or not verified
                 or not all(details.get(key) for key in ('Source locator', effect_key, 'Use as armor'))):
             errors.append('armor reference needs source and explicit equipment applicability')
+        if partial and not all(details.get(key) for key in (
+                'Armor class', 'Training', 'Protection points', 'Weight and value', 'Conversion notes')):
+            errors.append('partial armor needs a complete coverage and training formula')
         evidence = 'documented-armor-construct' if construct else profile
         role = {'armor-encounter-construct': 'encounter construct', 'documented-armor-accessory': 'armor accessory',
-                'adapted-protective-garment': 'protective garment', 'adapted-protective-implement': 'protective implement'}
+                'adapted-protective-garment': 'protective garment', 'adapted-protective-implement': 'protective implement',
+                'adapted-partial-armor': 'partial armor kit'}
         fields = {'role': role[profile], 'effects': details.get(effect_key)}
+        if partial:
+            fields.update(armor_class=details.get('Armor class'), training=details.get('Training'))
         if protective:
             fields.update(attunement=details.get('Attunement'), weight=details.get('Weight'))
             gaps.append(f'item-specific {role[profile]} draft requires DM review')

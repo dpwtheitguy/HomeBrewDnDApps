@@ -1,6 +1,56 @@
 {
   "schema_version": 1,
   "records": {
+    "gazetteer-equipment-reference:84c7f61c8e7a856c": [
+      {
+        "label": "D&D 2024 adaptation · Ethengaran Lamellar Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://anyflip.com/myubd/hwtp/basic",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail",
+          "label": "Open 2024 Scale Mail baseline"
+        },
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "None",
+          "Special powers": "This is mundane armor. Use the 2024 Scale Mail rules for wearing, donning, and doffing it.",
+          "Original rules": "The Ethengar starting-equipment table lists lamellar at descending AC 4, next to chain mail at AC 5.",
+          "Conversion notes": "Scale Mail supplies a published medium-armor baseline. Its ascending AC formula and weight are 2024 values. The printed clan and class restrictions apply to starting gear in that campaign.",
+          "Source locator": "GAZ12, The Golden Khan of Ethengar, Players’ Guide, Clan Wealth, Starting Equipment Table."
+        }
+      }
+    ],
+    "gazetteer-publisher-preview-reference:07c3838050aebc33": [
+      {
+        "label": "D&D 2024 adaptation · Broken Lands Partial Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-partial-armor",
+        "source": "https://www.scribd.com/document/361834929/GAZ10-The-Orcs-of-Thar-9241-pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "fields": {
+          "Use as armor": "Use fitted, nonoverlapping pieces as one kit. Choose the kit’s AC formula or another available formula. A wielded 2024 Shield gives its normal +2 AC separately and contributes no coverage.",
+          "Armor class": "10 + Dexterity modifier + coverage bonus. For a kit containing metal armor pieces, cap the Dexterity contribution at +2.",
+          "Training": "Light armor for padded fur or leather only. Medium armor if any piece is Chain Mail or Plate. Pieces that grant no coverage bonus can be worn as clothing.",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes if the kit includes a Chain Mail or Plate torso piece. Otherwise no.",
+          "Weight": "Varies by fitted pieces. Total the fractions below.",
+          "Attunement": "None",
+          "Special powers": "Add the protection points of each fitted piece and divide by 10, rounding down. The result is the coverage bonus, capped at +1 for a light kit or +4 for a medium kit.",
+          "Protection points": "Head or torso / each other piece: padded fur 2 / 0.5, leather 4 / 1, chain 6 / 2, plate 8 / 3. Count an item covering both hands, both elbows, both knees, or both feet once.",
+          "Weight and value": "A head or torso piece uses 25% of its corresponding 2024 suit’s listed cost and weight. Each other piece or pair uses 10%. Use Padded Armor for padded fur and ordinary Leather Armor, Chain Mail, or Plate for the other grades. Sum the pieces. Price a shield separately.",
+          "Example": "A chain helmet, one plate shoulder, and two leather arm pieces give 11 points, for AC 11 + Dexterity modifier (max +2) before a shield. Using 2024 equipment values, the pieces total 170.75 gp and 22.25 lb.",
+          "Don and doff": "Use the time for the resulting armor category. Light takes 1 minute to don or doff. Medium takes 5 minutes to don and 1 minute to doff.",
+          "Conversion notes": "The original p. 44 uses descending AC and its own shield rules. The 2024 conversion preserves the component weights as fractions and the 10-point threshold. Training, Dexterity limits, Stealth, and coverage caps are adaptation choices. Optional armor failure and size charts are outside this profile.",
+          "Source locator": "GAZ10, The Orcs of Thar, printed p. 44, Humanoid Armor (Optional)."
+        }
+      }
+    ],
     "open5e-vom:vom_bludgeon-of-nightmares": [
       {
         "label": "D&D 2024 adaptation · Bludgeon of Nightmares",

@@ -1871,6 +1871,21 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Mystara lamellar and partial armor show playable Gazetteer conversions': '''(async () => {
+                    for (const [id, terms] of [
+                        ["gazetteer-equipment-reference:84c7f61c8e7a856c",
+                            ["14 + Dex modifier (max +2)", "descending AC 4", "Starting Equipment Table"]],
+                        ["gazetteer-publisher-preview-reference:07c3838050aebc33",
+                            ["coverage bonus", "divide by 10", "170.75 gp", "22.25 lb", "printed p. 44", "+2 AC separately"]],
+                    ]) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Vault weapon cards show curse, swallowing, shove, and ritual rules': '''(async () => {
                     for (const [id, terms] of [
                         ["bludgeon-of-nightmares", ["Morningstar variant", "Intelligence 5", "Exhaustion", "Remove Curse"]],

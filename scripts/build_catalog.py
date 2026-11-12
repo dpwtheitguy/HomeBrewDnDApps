@@ -605,6 +605,22 @@ def main():
     extra_associations=read(association_path) if association_path.exists() else {}
     for item in items:
         if item['id'] in extra_associations:item.setdefault('associations',[]).extend(extra_associations[item['id']])
+    armor_source_checks = read(CAT/'settings/mystara/armor-source-checks.json')
+    by_id = {item['id']: item for item in items}
+    for item_id, check in armor_source_checks.items():
+        item = by_id[item_id]
+        provenance = item['provenance']
+        provenance.setdefault('additional_sources', []).append({
+            'url': provenance['source_url'], 'kind': 'original-catalog-reference',
+            'locator': provenance.get('locator'),
+        })
+        locator = {field: check[field] for field in ('book', 'section', 'printed_page') if field in check}
+        provenance.update(source_url=check['url'], locator=locator, original_publication_verified=True,
+                          verified_fields=check['fields'], verification_scope='Listed rules checked in the original Gazetteer.')
+        metadata = item['mechanics']['reference_metadata']
+        metadata['aliases'] = sorted(set(metadata.get('aliases', [])) | set(check['aliases']))
+        item.update(magic=False, requires_attunement=False, content_status='original-conversion-draft',
+                    tabletop_status='draft-dm-review-required')
     items=apply_local_verifications(items,ROOT)
     taxonomy=Taxonomy(CAT/'taxonomy/entities.json')
     items=[associate(enrich(i),taxonomy) for i in items]
