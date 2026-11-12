@@ -98,6 +98,18 @@ PUBLIC_ARMOR_RULES = {
     'dndbeyond:4047224': 'https://anyflip.com/lbdvl/isae/basic',
     'dndbeyond:842285': 'https://www.academia.edu/44600065/Baldurs_Gate_Descent_into_Avernus',
     'dndbeyond:843176': 'https://www.academia.edu/44600065/Baldurs_Gate_Descent_into_Avernus',
+    'dndbeyond:7102410': 'https://www.dndbeyond.com/sources/dnd/gotg',
+    'dndbeyond:7102439': 'https://www.dndbeyond.com/sources/dnd/gotg',
+    'dndbeyond:7102441': 'https://www.dndbeyond.com/sources/dnd/gotg',
+    'dndbeyond:7102449': 'https://www.dndbeyond.com/sources/dnd/gotg',
+    'dndbeyond:1752526': 'https://www.dndbeyond.com/sources/dnd/moot',
+    'dndbeyond:982693': 'https://www.dndbeyond.com/sources/dnd/erftlw',
+    'dndbeyond:382908': 'https://www.dndbeyond.com/sources/dnd/vgtm',
+    'dndbeyond:382914': 'https://www.dndbeyond.com/sources/dnd/vgtm',
+    'dndbeyond:10886056': 'https://marketplace.dndbeyond.com/category/5147000',
+    'dndbeyond:12467': 'https://www.dndbeyond.com/sources/lmop',
+    'dndbeyond:7247069': 'https://www.dndbeyond.com/sources/dnd/pbtso',
+    'dndbeyond:5554585': 'https://online.anyflip.com/rhoba/pyxn/files/basic-html/page69.html',
     'dndbeyond:9228451': MAGIC + '#DemonArmor',
     'dndbeyond:9228541': 'https://roll20.net/compendium/dnd5e/Templates%3AEnspelled%20Armor?expansion=33359',
     'dndbeyond:9228837': 'https://roll20.net/compendium/dnd5e/Templates%3AMariner%27s%20Armor?expansion=33359',
@@ -105,22 +117,32 @@ PUBLIC_ARMOR_RULES = {
 
 METAL_ARMOR_FAMILIES = {'Adamantine Armor', 'Mithral Armor', 'Mizzium Armor'}
 PUBLIC_FIXED_BASES = {
-    'Shield of Expression': 'Shield',
-    "Pariah's Shield": 'Shield',
-    'Scorpion Armor': 'Plate Armor',
-    'Serpent Scale Armor': 'Scale Mail',
-    'Sapphire Buckler': 'Shield',
-    'Obsidian Flint Dragon Plate': 'Plate Armor',
-    'Shield of the Hidden Lord': 'Shield',
-    'Boomerang Shield': 'Shield',
-    "Euryale's Aegis": 'Shield',
-    'Shield of the Tortoise': 'Shield',
-    'Breastplate of Balance': 'Breastplate',
-    "Plate of Knight's Fellowship": 'Plate Armor',
-    'Voidwalker Armor': 'Studded Leather Armor',
+    'Shield of Expression': {'Shield'},
+    "Pariah's Shield": {'Shield'},
+    'Scorpion Armor': {'Plate Armor'},
+    'Serpent Scale Armor': {'Scale Mail'},
+    'Sapphire Buckler': {'Shield'},
+    'Obsidian Flint Dragon Plate': {'Plate Armor'},
+    'Shield of the Hidden Lord': {'Shield'},
+    'Boomerang Shield': {'Shield'},
+    "Euryale's Aegis": {'Shield'},
+    'Shield of the Tortoise': {'Shield'},
+    'Breastplate of Balance': {'Breastplate'},
+    "Plate of Knight's Fellowship": {'Plate Armor'},
+    'Voidwalker Armor': {'Studded Leather Armor'},
+    'Shield of the Blazing Dreadnought': {'Shield'},
+    "Stonebreaker's Breastplate": {'Breastplate'},
+    'Molten Bronze Skin': {'Breastplate', 'Half Plate Armor', 'Plate Armor'},
+    'Shield of Far Sight': {'Shield'},
+    'Repulsion Shield': {'Shield'},
+    'Dragonguard': {'Breastplate'},
+    'Shield of the Silver Dragon': {'Shield'},
 }
 
 PUBLIC_TRAINING_LIMITS = {
+    'Armor of Safeguarding': {'Heavy armor'},
+    'Zephyr Armor': {'Light armor'},
+    'Mind Carapace Armor': {'Heavy armor'},
     'Armor of Fungal Spores': {'Medium armor'},
     'Armor of the Fallen': {'Medium armor', 'Heavy armor'},
     'Clockwork Armor': {'Heavy armor'},
@@ -314,6 +336,83 @@ PUBLIC_ARMOR = {
             'Publication': 'The Book of Many Things, p. 39.',
         },
     ),
+    'dndbeyond:7102410': (
+        'Armor of Safeguarding', '7102410-armor-of-safeguarding', 0, True, 'Very Rare', {
+            'Special powers': 'While worn, your Hit Point maximum increases by 10 + your level. Take a Magic action to cast Beacon of Hope. It lasts 1 minute without Concentration and recharges at dawn.',
+            'Publication': 'Bigby Presents: Glory of the Giants, p. 111.',
+        },
+    ),
+    'dndbeyond:7102439': (
+        'Shield of the Blazing Dreadnought', '7102439-shield-of-the-blazing-dreadnought', 0, True, 'Legendary', {
+            'Special powers': 'Use a Bonus Action to activate the shield for 1 minute. While active you have Immunity to Fire damage. Activation recharges at dawn.',
+            'Cleansing Fire': 'While active, take a Magic action to end one disease or one of these conditions on a creature you can see within 30 feet, including yourself: Blinded, Charmed, Deafened, or Poisoned.',
+            'Shield Bash': 'Once per turn while active, replace one attack in your Attack action with a bash against a creature you can see within 5 feet. It makes a Strength saving throw (DC 8 + your Proficiency Bonus + your Strength modifier). On a failure it takes 3d6 Bludgeoning plus 3d6 Fire damage and falls Prone. On a success it takes half damage only.',
+            'Publication': 'Bigby Presents: Glory of the Giants, p. 116.',
+        },
+    ),
+    'dndbeyond:7102441': (
+        "Stonebreaker's Breastplate", '7102441-stonebreakers-breastplate', 0, True, 'Legendary', {
+            'Special powers': 'While worn, you have Resistance to Bludgeoning, Piercing, and Slashing damage, and you cannot be knocked Prone. As a Magic action, cast Wall of Stone (save DC 14) with Advantage on saving throws to maintain Concentration on that casting. The spell use recharges at dawn.',
+            'Publication': 'Bigby Presents: Glory of the Giants, p. 116.',
+        },
+    ),
+    'dndbeyond:7102449': (
+        'Zephyr Armor', '7102449-zephyr-armor', 0, True, 'Rare', {
+            'Special powers': 'While worn, you have Advantage on Dexterity (Acrobatics) checks and Dexterity saving throws. Take a Magic action to cast Wind Wall (save DC 15). This use recharges at dawn.',
+            'Publication': 'Bigby Presents: Glory of the Giants, p. 117.',
+        },
+    ),
+    'dndbeyond:1752526': (
+        'Molten Bronze Skin', '1752526-molten-bronze-skin', 0, True, 'Rare', {
+            'Special powers': 'When you attune to the bronze, it conforms to your body. You can wear it under clothing. You choose when to remove it. While worn, you have Resistance to Fire damage and the armor imposes no Stealth disadvantage.',
+            'Publication': 'Mythic Odysseys of Theros, p. 197.',
+        },
+    ),
+    'dndbeyond:982693': (
+        'Living Armor', '982693-living-armor', 1, True, 'Very Rare', {
+            'Special powers': 'While worn, gain +1 AC and Resistance to Necrotic, Poison, and Psychic damage.',
+            'Symbiosis': 'Wear the armor for the entire attunement period. While attuned, you cannot doff it or voluntarily end attunement. A spell that ends a curse on you ends the attunement and detaches it.',
+            'Feeding': 'Immediately after each Long Rest, expend half your remaining Hit Point Dice (round up) or gain 1 level of Exhaustion.',
+            'Publication': 'Eberron: Rising from the Last War, p. 278.',
+        },
+    ),
+    'dndbeyond:382908': (
+        'Mind Carapace Armor', '382908-mind-carapace-armor', 0, True, 'Uncommon', {
+            'Special powers': 'Only the specific mind flayer or thrall for whom the armor was made can attune to it. That wearer gains Advantage on Intelligence, Wisdom, and Charisma saves and Immunity to the Frightened condition. For other wearers, use the underlying mundane armor rules.',
+            'Publication': 'Volo’s Guide to Monsters, p. 81.',
+            'Attunement': 'Only the specific mind flayer or thrall for whom it was made.',
+        },
+    ),
+    'dndbeyond:382914': (
+        'Shield of Far Sight', '382914-shield-of-far-sight', 0, False, 'Rare', {
+            'Special powers': 'On the same plane, the mind flayer who made this shield can see through its eye, which has Darkvision to 60 feet. While looking through it, that mind flayer can use Mind Blast as though standing behind the shield. If it is destroyed, its maker is Blinded for 2d12 hours.',
+            'Publication': 'Volo’s Guide to Monsters, p. 81.',
+        },
+    ),
+    'dndbeyond:10886056': (
+        'Repulsion Shield', '10886056-repulsion-shield', 1, False, 'Uncommon', {
+            'Special powers': 'While wielding it, gain +1 AC in addition to its normal shield bonus. When a Large or smaller creature within 5 feet hits you with a melee attack roll, take a Reaction and spend 1 charge to push it up to 15 feet straight away. The shield has 4 charges and regains 1d4 spent charges at dawn.',
+            'Publication': 'Eberron: Forge of the Artificer, p. 112.',
+        },
+    ),
+    'dndbeyond:12467': (
+        'Dragonguard', '12467-dragonguard', 1, False, 'Rare', {
+            'Special powers': 'While wearing this breastplate, gain +1 AC and Advantage on saving throws against breath weapons used by creatures of the Dragon type.',
+            'Publication': 'Lost Mine of Phandelver, p. 48.',
+        },
+    ),
+    'dndbeyond:7247069': (
+        'Dragonguard', '7247069-dragonguard', 1, False, 'Rare', {
+            'Special powers': 'While wearing this breastplate, gain +1 AC and Advantage on saving throws against breath weapons used by creatures of the Dragon type.',
+            'Publication': 'Phandelver and Below: The Shattered Obelisk, p. 72.',
+        },
+    ),
+    'dndbeyond:5554585': (
+        'Shield of the Silver Dragon', '5554585-shield-of-the-silver-dragon', 2, False, 'Unspecified', {
+            'Special powers': 'While holding this shield, gain +2 AC in addition to its normal shield bonus. Its whispered warnings grant +2 to Initiative unless you are Incapacitated.',
+            'Publication': 'Curse of Strahd, p. 68.',
+        },
+    ),
     'dndbeyond:9228451': (
         'Demon Armor', '9228451-demon-armor', 1, True, 'Very Rare', {
             'Special powers': 'While worn, you know Abyssal. The clawed gauntlets let your Unarmed Strikes deal 1d8 Slashing and grant +1 to their attack and damage rolls.',
@@ -352,7 +451,7 @@ def public_armor_variants(items):
             armor = base['mechanics']['armor']
             shield = armor['name'] == 'Shield'
             fixed_base = PUBLIC_FIXED_BASES.get(name)
-            if (fixed_base and armor['name'] != fixed_base) or (not fixed_base and shield):
+            if (fixed_base and armor['name'] not in fixed_base) or (not fixed_base and shield):
                 continue
             cap = armor['ac_cap_dexmod']
             if name in METAL_ARMOR_FAMILIES and (
@@ -360,7 +459,7 @@ def public_armor_variants(items):
             ):
                 continue
             mithral = name == 'Mithral Armor'
-            stealth_exception = name in {'Scorpion Armor', 'Serpent Scale Armor'}
+            stealth_exception = name in {'Scorpion Armor', 'Serpent Scale Armor', 'Molten Bronze Skin'}
             uncapped_dexterity = name == 'Serpent Scale Armor'
             formula = str(armor['ac_base'] + bonus)
             if armor['ac_add_dexmod']:

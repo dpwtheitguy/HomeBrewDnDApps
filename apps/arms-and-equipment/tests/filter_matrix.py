@@ -744,6 +744,23 @@ def main():
                     }
                     return true;
                 })()''',
+                'Expanded armor cards preserve runes and published shield reactions': '''(async () => {
+                    const cases = [
+                        ["dndbeyond:7102439", ["Immunity to Fire", "3d6 Bludgeoning plus 3d6 Fire", "once per turn"]],
+                        ["dndbeyond:1752526", ["Stealth disadvantageNo", "Resistance to Fire", "Plate Armor"]],
+                        ["dndbeyond:382908", ["specific mind flayer or thrall", "Charisma saves"]],
+                        ["dndbeyond:10886056", ["Armor class bonus+3", "Large or smaller", "15 feet"]],
+                        ["dndbeyond:5554585", ["Armor class bonus+4", "+2 to Initiative", "Incapacitated"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        const details = inspection.textContent.toLowerCase();
+                        const missing = terms.filter(term => !details.includes(term.toLowerCase()));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    return true;
+                })()''',
                 'Public magic weapon cards distinguish bases and attunement': '''(async () => {
                     inspect("dndbeyond:9228714", grid.firstElementChild);
                     await itemDetails;
