@@ -120,6 +120,12 @@ def main():
                 f=r['fields']; prop_assign[f.get('weapon')].append(f)
     armor_facts = read(CAT/'supplements/published-2024-armor-facts.json')
     vault_pages = {
+        'vom_brawn-armor': 17,
+        'vom_longbow-of-accuracy': 17,
+        'vom_shortbow-of-accuracy': 17,
+        'vom_crocodile-hide-armor': 20,
+        'vom_crocodile-leather-armor': 20,
+        'vom_serpents-scales': 34,
         'vom_akaasit-blade': 11,
         'vom_black-and-white-daggers': 14,
         'vom_blackguards-dagger': 14,
@@ -317,6 +323,15 @@ def main():
                     if correction := vault_weapon_corrections.get(raw['pk']):
                         corrected_name, corrected_weapon, vault_page = correction
                         f = {**f, 'name': corrected_name, 'weapon': corrected_weapon}
+                    if raw['pk'].startswith('vom_agile-'):
+                        vault_page = 11
+                        f = {**f, 'armor': 'srd_' + raw['pk'].removeprefix('vom_agile-')}
+                    if raw['pk'].endswith('-of-the-leaf'):
+                        vault_page = 12
+                    if raw['pk'].startswith('vom_molten-hellfire-'):
+                        vault_page = 25
+                    if raw['pk'] in ('vom_brawn-armor', 'vom_serpents-scales'):
+                        f = {**f, 'requires_attunement': True}
                     if raw['pk'].startswith('vom_bloodfuel-'):
                         vault_page = 15
                     if raw['pk'].startswith('vom_bloodthirsty-'):

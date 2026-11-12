@@ -1,6 +1,702 @@
 {
   "schema_version": 1,
   "records": {
+    "open5e-vom:vom_agile-breastplate": [
+      {
+        "label": "D&D 2024 adaptation · Agile Breastplate",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_breastplate",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +3)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Special powers": "While wearing this armor, your Dexterity contribution to AC is capped at +3.",
+          "Conversion notes": "Uses the 2024 armor base with the printed higher Dexterity cap.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 11."
+        },
+        "dexterity_cap_override": 3
+      }
+    ],
+    "open5e-vom:vom_agile-chain-mail": [
+      {
+        "label": "D&D 2024 adaptation · Agile Chain Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +1)",
+          "Training": "Heavy armor",
+          "Strength requirement": "Strength 13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Special powers": "While wearing this armor, add up to +1 from a positive Dexterity modifier. A zero or negative modifier leaves the listed base AC unchanged.",
+          "Conversion notes": "Uses the 2024 heavy armor base. This draft preserves the ordinary AC floor when Dexterity is negative.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 11."
+        },
+        "dexterity_cap_override": 1
+      }
+    ],
+    "open5e-vom:vom_agile-chain-shirt": [
+      {
+        "label": "D&D 2024 adaptation · Agile Chain Shirt",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +3)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Special powers": "While wearing this armor, your Dexterity contribution to AC is capped at +3.",
+          "Conversion notes": "Uses the 2024 armor base with the printed higher Dexterity cap.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 11."
+        },
+        "dexterity_cap_override": 3
+      }
+    ],
+    "open5e-vom:vom_agile-half-plate": [
+      {
+        "label": "D&D 2024 adaptation · Agile Half Plate",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_half-plate-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +3)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Special powers": "While wearing this armor, your Dexterity contribution to AC is capped at +3.",
+          "Conversion notes": "Uses the 2024 armor base with the printed higher Dexterity cap.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 11."
+        },
+        "dexterity_cap_override": 3
+      }
+    ],
+    "open5e-vom:vom_agile-hide": [
+      {
+        "label": "D&D 2024 adaptation · Agile Hide",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "12 + Dex modifier (max +3)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Special powers": "While wearing this armor, your Dexterity contribution to AC is capped at +3.",
+          "Conversion notes": "Uses the 2024 armor base with the printed higher Dexterity cap.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 11."
+        },
+        "dexterity_cap_override": 3
+      }
+    ],
+    "open5e-vom:vom_agile-plate": [
+      {
+        "label": "D&D 2024 adaptation · Agile Plate",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "18 + Dex modifier (max +1)",
+          "Training": "Heavy armor",
+          "Strength requirement": "Strength 15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Special powers": "While wearing this armor, add up to +1 from a positive Dexterity modifier. A zero or negative modifier leaves the listed base AC unchanged.",
+          "Conversion notes": "Uses the 2024 heavy armor base. This draft preserves the ordinary AC floor when Dexterity is negative.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 11."
+        },
+        "dexterity_cap_override": 1
+      }
+    ],
+    "open5e-vom:vom_agile-ring-mail": [
+      {
+        "label": "D&D 2024 adaptation · Agile Ring Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_ring-mail",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +1)",
+          "Training": "Heavy armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Special powers": "While wearing this armor, add up to +1 from a positive Dexterity modifier. A zero or negative modifier leaves the listed base AC unchanged.",
+          "Conversion notes": "Uses the 2024 heavy armor base. This draft preserves the ordinary AC floor when Dexterity is negative.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 11."
+        },
+        "dexterity_cap_override": 1
+      }
+    ],
+    "open5e-vom:vom_agile-scale-mail": [
+      {
+        "label": "D&D 2024 adaptation · Agile Scale Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +3)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Special powers": "While wearing this armor, your Dexterity contribution to AC is capped at +3.",
+          "Conversion notes": "Uses the 2024 armor base with the printed higher Dexterity cap.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 11."
+        },
+        "dexterity_cap_override": 3
+      }
+    ],
+    "open5e-vom:vom_agile-splint": [
+      {
+        "label": "D&D 2024 adaptation · Agile Splint",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "17 + Dex modifier (max +1)",
+          "Training": "Heavy armor",
+          "Strength requirement": "Strength 15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Special powers": "While wearing this armor, add up to +1 from a positive Dexterity modifier. A zero or negative modifier leaves the listed base AC unchanged.",
+          "Conversion notes": "Uses the 2024 heavy armor base. This draft preserves the ordinary AC floor when Dexterity is negative.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 11."
+        },
+        "dexterity_cap_override": 1
+      }
+    ],
+    "open5e-vom:vom_crocodile-hide-armor": [
+      {
+        "label": "D&D 2024 adaptation · Crocodile Hide Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Special powers": "While wearing it, gain the +1 AC already included in the formula. You can hold your breath for 15 minutes and have a Swim Speed equal to your walking Speed.",
+          "Conversion notes": "Uses the 2024 armor base and retains the printed passive benefits.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 20."
+        },
+        "enhancement_bonus": 1
+      }
+    ],
+    "open5e-vom:vom_crocodile-leather-armor": [
+      {
+        "label": "D&D 2024 adaptation · Crocodile Leather Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Special powers": "While wearing it, gain the +1 AC already included in the formula. You can hold your breath for 15 minutes and have a Swim Speed equal to your walking Speed.",
+          "Conversion notes": "Uses the 2024 armor base and retains the printed passive benefits.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 20."
+        },
+        "enhancement_bonus": 1
+      }
+    ],
+    "open5e-vom:vom_hide-armor-of-the-leaf": [
+      {
+        "label": "D&D 2024 adaptation · Hide Armor of the Leaf",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "12 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required by a Ranger",
+          "Special powers": "While wearing the armor in forest terrain, gain Advantage on Strength (Athletics) and Dexterity (Stealth) checks. As a Magic action, transform it into swirling leaves. Each creature other than you within 10 feet makes a DC 13 Dexterity save or takes 2d8 Slashing damage. For up to 1 minute the moving 10-foot-radius cloud Lightly Obscures the area for others. Wind of at least 10 mph ends it early. During the effect, calculate your AC without this suit. Recharges at dawn.",
+          "Conversion notes": "This draft resolves the damage once on activation, excludes the wearer, and restores the armor when the cloud ends. Any base Stealth Disadvantage still applies while wearing the armor.",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 12–13."
+        }
+      }
+    ],
+    "open5e-vom:vom_leather-armor-of-the-leaf": [
+      {
+        "label": "D&D 2024 adaptation · Leather Armor of the Leaf",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "11 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required by a Ranger",
+          "Special powers": "While wearing the armor in forest terrain, gain Advantage on Strength (Athletics) and Dexterity (Stealth) checks. As a Magic action, transform it into swirling leaves. Each creature other than you within 10 feet makes a DC 13 Dexterity save or takes 2d8 Slashing damage. For up to 1 minute the moving 10-foot-radius cloud Lightly Obscures the area for others. Wind of at least 10 mph ends it early. During the effect, calculate your AC without this suit. Recharges at dawn.",
+          "Conversion notes": "This draft resolves the damage once on activation, excludes the wearer, and restores the armor when the cloud ends. Any base Stealth Disadvantage still applies while wearing the armor.",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 12–13."
+        }
+      }
+    ],
+    "open5e-vom:vom_molten-hellfire-breastplate": [
+      {
+        "label": "D&D 2024 adaptation · Molten Hellfire Breastplate",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_breastplate",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Special powers": "While wearing the armor, take a Magic action to make it glow like a candle. The light lasts until you end it as a Bonus Action. You may spend 1 of its 3 charges as part of the Magic action to make it hot for up to 1 minute. While hot, a creature that touches you or hits you with a melee attack from within 5 feet takes 1d4 Fire damage. You are immune to the heat. It regains all charges at dawn.",
+          "Conversion notes": "Uses the 2024 armor base. Candle light is Bright Light for 5 feet and Dim Light for 5 more. Ending the glow also ends the heat in this draft.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 25."
+        }
+      }
+    ],
+    "open5e-vom:vom_molten-hellfire-chain-mail": [
+      {
+        "label": "D&D 2024 adaptation · Molten Hellfire Chain Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "16",
+          "Training": "Heavy armor",
+          "Strength requirement": "Strength 13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Special powers": "While wearing the armor, take a Magic action to make it glow like a candle. The light lasts until you end it as a Bonus Action. You may spend 1 of its 3 charges as part of the Magic action to make it hot for up to 1 minute. While hot, a creature that touches you or hits you with a melee attack from within 5 feet takes 1d4 Fire damage. You are immune to the heat. It regains all charges at dawn.",
+          "Conversion notes": "Uses the 2024 armor base. Candle light is Bright Light for 5 feet and Dim Light for 5 more. Ending the glow also ends the heat in this draft.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 25."
+        }
+      }
+    ],
+    "open5e-vom:vom_molten-hellfire-chain-shirt": [
+      {
+        "label": "D&D 2024 adaptation · Molten Hellfire Chain Shirt",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Special powers": "While wearing the armor, take a Magic action to make it glow like a candle. The light lasts until you end it as a Bonus Action. You may spend 1 of its 3 charges as part of the Magic action to make it hot for up to 1 minute. While hot, a creature that touches you or hits you with a melee attack from within 5 feet takes 1d4 Fire damage. You are immune to the heat. It regains all charges at dawn.",
+          "Conversion notes": "Uses the 2024 armor base. Candle light is Bright Light for 5 feet and Dim Light for 5 more. Ending the glow also ends the heat in this draft.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 25."
+        }
+      }
+    ],
+    "open5e-vom:vom_molten-hellfire-half-plate": [
+      {
+        "label": "D&D 2024 adaptation · Molten Hellfire Half Plate",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_half-plate-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Special powers": "While wearing the armor, take a Magic action to make it glow like a candle. The light lasts until you end it as a Bonus Action. You may spend 1 of its 3 charges as part of the Magic action to make it hot for up to 1 minute. While hot, a creature that touches you or hits you with a melee attack from within 5 feet takes 1d4 Fire damage. You are immune to the heat. It regains all charges at dawn.",
+          "Conversion notes": "Uses the 2024 armor base. Candle light is Bright Light for 5 feet and Dim Light for 5 more. Ending the glow also ends the heat in this draft.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 25."
+        }
+      }
+    ],
+    "open5e-vom:vom_molten-hellfire-plate": [
+      {
+        "label": "D&D 2024 adaptation · Molten Hellfire Plate",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "Strength 15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Special powers": "While wearing the armor, take a Magic action to make it glow like a candle. The light lasts until you end it as a Bonus Action. You may spend 1 of its 3 charges as part of the Magic action to make it hot for up to 1 minute. While hot, a creature that touches you or hits you with a melee attack from within 5 feet takes 1d4 Fire damage. You are immune to the heat. It regains all charges at dawn.",
+          "Conversion notes": "Uses the 2024 armor base. Candle light is Bright Light for 5 feet and Dim Light for 5 more. Ending the glow also ends the heat in this draft.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 25."
+        }
+      }
+    ],
+    "open5e-vom:vom_molten-hellfire-ring-mail": [
+      {
+        "label": "D&D 2024 adaptation · Molten Hellfire Ring Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_ring-mail",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "14",
+          "Training": "Heavy armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Special powers": "While wearing the armor, take a Magic action to make it glow like a candle. The light lasts until you end it as a Bonus Action. You may spend 1 of its 3 charges as part of the Magic action to make it hot for up to 1 minute. While hot, a creature that touches you or hits you with a melee attack from within 5 feet takes 1d4 Fire damage. You are immune to the heat. It regains all charges at dawn.",
+          "Conversion notes": "Uses the 2024 armor base. Candle light is Bright Light for 5 feet and Dim Light for 5 more. Ending the glow also ends the heat in this draft.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 25."
+        }
+      }
+    ],
+    "open5e-vom:vom_molten-hellfire-scale-mail": [
+      {
+        "label": "D&D 2024 adaptation · Molten Hellfire Scale Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Special powers": "While wearing the armor, take a Magic action to make it glow like a candle. The light lasts until you end it as a Bonus Action. You may spend 1 of its 3 charges as part of the Magic action to make it hot for up to 1 minute. While hot, a creature that touches you or hits you with a melee attack from within 5 feet takes 1d4 Fire damage. You are immune to the heat. It regains all charges at dawn.",
+          "Conversion notes": "Uses the 2024 armor base. Candle light is Bright Light for 5 feet and Dim Light for 5 more. Ending the glow also ends the heat in this draft.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 25."
+        }
+      }
+    ],
+    "open5e-vom:vom_molten-hellfire-splint": [
+      {
+        "label": "D&D 2024 adaptation · Molten Hellfire Splint",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "Strength 15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Special powers": "While wearing the armor, take a Magic action to make it glow like a candle. The light lasts until you end it as a Bonus Action. You may spend 1 of its 3 charges as part of the Magic action to make it hot for up to 1 minute. While hot, a creature that touches you or hits you with a melee attack from within 5 feet takes 1d4 Fire damage. You are immune to the heat. It regains all charges at dawn.",
+          "Conversion notes": "Uses the 2024 armor base. Candle light is Bright Light for 5 feet and Dim Light for 5 more. Ending the glow also ends the heat in this draft.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 25."
+        }
+      }
+    ],
+    "open5e-vom:vom_padded-armor-of-the-leaf": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor of the Leaf",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "11 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required by a Ranger",
+          "Special powers": "While wearing the armor in forest terrain, gain Advantage on Strength (Athletics) and Dexterity (Stealth) checks. As a Magic action, transform it into swirling leaves. Each creature other than you within 10 feet makes a DC 13 Dexterity save or takes 2d8 Slashing damage. For up to 1 minute the moving 10-foot-radius cloud Lightly Obscures the area for others. Wind of at least 10 mph ends it early. During the effect, calculate your AC without this suit. Recharges at dawn.",
+          "Conversion notes": "This draft resolves the damage once on activation, excludes the wearer, and restores the armor when the cloud ends. Any base Stealth Disadvantage still applies while wearing the armor.",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 12–13."
+        }
+      }
+    ],
+    "open5e-vom:vom_studded-leather-armor-of-the-leaf": [
+      {
+        "label": "D&D 2024 adaptation · Studded Leather Armor of the Leaf",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_studded-leather-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "13 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required by a Ranger",
+          "Special powers": "While wearing the armor in forest terrain, gain Advantage on Strength (Athletics) and Dexterity (Stealth) checks. As a Magic action, transform it into swirling leaves. Each creature other than you within 10 feet makes a DC 13 Dexterity save or takes 2d8 Slashing damage. For up to 1 minute the moving 10-foot-radius cloud Lightly Obscures the area for others. Wind of at least 10 mph ends it early. During the effect, calculate your AC without this suit. Recharges at dawn.",
+          "Conversion notes": "This draft resolves the damage once on activation, excludes the wearer, and restores the armor when the cloud ends. Any base Stealth Disadvantage still applies while wearing the armor.",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 12–13."
+        }
+      }
+    ],
+    "open5e-vom:vom_brawn-armor": [
+      {
+        "label": "D&D 2024 adaptation · Brawn Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing the armor, gain the listed +1 AC. When you try to Grapple with an Unarmed Strike, the target has Disadvantage on the initial save. You have Advantage on checks to maintain a grapple if a rule calls for one. The armor has 3 charges and recovers all at dawn. As a Bonus Action, spend 1 charge to deal your normal Unarmed Strike damage to a creature you are grappling, with no attack roll.",
+          "Conversion notes": "Translates Advantage on initiating a grapple to Disadvantage on the target’s initial save under 2024 rules.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 17."
+        },
+        "enhancement_bonus": 1
+      }
+    ],
+    "open5e-vom:vom_serpents-scales": [
+      {
+        "label": "D&D 2024 adaptation · Serpent’s Scales",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing the armor, gain the listed +1 AC and Poison Resistance. As a Magic action, cast Polymorph on yourself as a Giant Venomous Snake for up to 1 hour without Concentration. Retain your Intelligence, Wisdom, and Charisma scores. The form ends if you use a Bonus Action to revert, lose the form’s Temporary Hit Points, drop to 0 Hit Points, or die. Recharges at dawn.",
+          "Conversion notes": "Uses 2024 Scale Mail and Polymorph. The snake form grants 11 Temporary Hit Points. Any remaining Temporary Hit Points granted by the spell end with the form.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 34.",
+          "Giant Venomous Snake": "https://www.dndbeyond.com/monsters/5195030-giant-venomous-snake",
+          "Polymorph": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#Polymorph"
+        },
+        "enhancement_bonus": 1
+      }
+    ],
+    "open5e-vom:vom_longbow-of-accuracy": [
+      {
+        "label": "D&D 2024 adaptation · Longbow of Accuracy",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d8 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "300/600 feet",
+          "Properties": "Ammunition (arrows), Heavy, Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "The bow doubles its normal range. Long range is unchanged. Attacks beyond the normal range still have Disadvantage.",
+          "Conversion notes": "Applies the printed effect to the 2024 Longbow and retains its ammunition, attack modifier, and mastery.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 17."
+        }
+      }
+    ],
+    "open5e-vom:vom_shortbow-of-accuracy": [
+      {
+        "label": "D&D 2024 adaptation · Shortbow of Accuracy",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortbow",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple ranged weapon",
+          "Damage": "1d6 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "160/320 feet",
+          "Properties": "Ammunition (arrows), Two-Handed",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "The bow doubles its normal range. Long range is unchanged. Attacks beyond the normal range still have Disadvantage.",
+          "Conversion notes": "Applies the printed effect to the 2024 Shortbow and retains its ammunition, attack modifier, and mastery.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 17."
+        }
+      }
+    ],
     "open5e-vom:vom_bloodfuel-battleaxe": [
       {
         "label": "D&D 2024 adaptation · Bloodfuel Battleaxe",

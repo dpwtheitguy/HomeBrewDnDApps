@@ -1871,6 +1871,24 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Vault armor uses item-specific Dexterity caps, charges, and forms': '''(async () => {
+                    for (const [id, terms] of [
+                        ["agile-plate", ["18 + Dex modifier (max +1)", "negative modifier"]],
+                        ["agile-breastplate", ["14 + Dex modifier (max +3)"]],
+                        ["molten-hellfire-splint", ["1d4 Fire", "3 charges", "Strength 15"]],
+                        ["hide-armor-of-the-leaf", ["Ranger", "2d8 Slashing", "without this suit"]],
+                        ["brawn-armor", ["initial save", "Unarmed Strike", "AttunementRequired"]],
+                        ["serpents-scales", ["Giant Venomous Snake", "11 Temporary Hit Points", "AttunementRequired"]],
+                        ["longbow-of-accuracy", ["300/600 feet", "Long range is unchanged"]],
+                    ]) {
+                        inspect("open5e-vom:vom_" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Vault Bloodfuel, Bloodthirsty, and Warding keep their distinct triggers': '''(async () => {
                     for (const [id, terms] of [
                         ["bloodfuel-crossbow-hand", ["30/120 feet", "Hit Point Dice", "extra Necrotic damage", "Vex"]],
