@@ -110,6 +110,16 @@ PUBLIC_ARMOR_RULES = {
     'dndbeyond:12467': 'https://www.dndbeyond.com/sources/lmop',
     'dndbeyond:7247069': 'https://www.dndbeyond.com/sources/dnd/pbtso',
     'dndbeyond:5554585': 'https://online.anyflip.com/rhoba/pyxn/files/basic-html/page69.html',
+    'dndbeyond:351902': 'https://www.dndbeyond.com/sources/dnd/llok',
+    'dndbeyond:351912': 'https://www.dndbeyond.com/sources/dnd/llok',
+    'dndbeyond:351921': 'https://www.dndbeyond.com/sources/dnd/llok',
+    'dndbeyond:342867': 'https://www.dndbeyond.com/sources/dnd/wdotmm',
+    'dndbeyond:8225886': 'https://www.dndbeyond.com/magic-items/8225886-demon-skin',
+    'dndbeyond:10674160': 'https://www.dndbeyond.com/sources/dnd/wthc',
+    'dndbeyond:11914544': 'https://www.dndbeyond.com/sources/dnd/aud',
+    'dndbeyond:11914433': 'https://www.dndbeyond.com/sources/dnd/au',
+    'dndbeyond:12133285': 'https://www.dndbeyond.com/sources/dnd/wow',
+    'dndbeyond:12133294': 'https://www.dndbeyond.com/sources/dnd/wow',
     'dndbeyond:9228451': MAGIC + '#DemonArmor',
     'dndbeyond:9228541': 'https://roll20.net/compendium/dnd5e/Templates%3AEnspelled%20Armor?expansion=33359',
     'dndbeyond:9228837': 'https://roll20.net/compendium/dnd5e/Templates%3AMariner%27s%20Armor?expansion=33359',
@@ -117,6 +127,13 @@ PUBLIC_ARMOR_RULES = {
 
 METAL_ARMOR_FAMILIES = {'Adamantine Armor', 'Mithral Armor', 'Mizzium Armor'}
 PUBLIC_FIXED_BASES = {
+    "Heward's Hireling Armor": {'Leather Armor'},
+    'Leather Golem Armor': {'Leather Armor'},
+    'Powered Armor': {'Plate Armor'},
+    'Shield of the Uven Rune': {'Shield'},
+    'Spiked Shield': {'Shield'},
+    'Defias Leather': {'Leather Armor'},
+    'Judgment Armor': {'Plate Armor'},
     'Shield of Expression': {'Shield'},
     "Pariah's Shield": {'Shield'},
     'Scorpion Armor': {'Plate Armor'},
@@ -140,6 +157,8 @@ PUBLIC_FIXED_BASES = {
 }
 
 PUBLIC_TRAINING_LIMITS = {
+    'Demon Skin': {'Heavy armor'},
+    'Tramontane Armor': {'Light armor', 'Medium armor'},
     'Armor of Safeguarding': {'Heavy armor'},
     'Zephyr Armor': {'Light armor'},
     'Mind Carapace Armor': {'Heavy armor'},
@@ -413,6 +432,81 @@ PUBLIC_ARMOR = {
             'Publication': 'Curse of Strahd, p. 68.',
         },
     ),
+    'dndbeyond:351902': (
+        "Heward's Hireling Armor", '351902-hewards-hireling-armor', 1, True, 'Very Rare', {
+            'Special powers': 'While wearing the armor, gain +1 AC. Whenever you could draw or stow one one-handed weapon, you can draw or stow two instead.',
+            'Pockets': 'Six extradimensional pockets each hold up to 20 lb and 2 cubic feet. The armor still weighs 10 lb. Use the normal rules to insert an item. Retrieving an item takes an action, and the requested item is always on top.',
+            'Extradimensional hazard': 'Putting this armor into a Bag of Holding or another extradimensional storage space destroys both items and briefly opens a one-way gate. Creatures within 10 feet are pulled through to a random Astral Plane location.',
+            'Publication': 'Lost Laboratory of Kwalish, p. 55.',
+        },
+    ),
+    'dndbeyond:351912': (
+        'Leather Golem Armor', '351912-leather-golem-armor', 1, True, 'Rare', {
+            'Special powers': 'While worn, gain +1 AC and +1 to saving throws against spells and other magical effects. You are immune to effects that change your form. You have Resistance to Lightning damage and gain 5 Temporary Hit Points whenever you take Lightning damage.',
+            'Curse': 'Attuning curses you and makes you unwilling to part with the armor until Remove Curse or similar magic breaks the curse. Taking Fire damage gives you Disadvantage on attack rolls and ability checks until the end of your next turn.',
+            'Berserk': 'When you suffer a Critical Hit, roll a d6. On a 6, the armor cannot be removed and you go berserk. Each turn, attack the nearest creature you can see, moving toward it if needed. If none is reachable, attack an object, preferring one smaller than you. The effect ends if you are Incapacitated or another creature calms you with suitable magic or a successful DC 15 Charisma (Persuasion) check.',
+            'Publication': 'Lost Laboratory of Kwalish, p. 55.',
+        },
+    ),
+    'dndbeyond:351921': (
+        'Powered Armor', '351921-powered-armor', 1, True, 'Legendary', {
+            'Special powers': 'While worn, gain +1 AC and Advantage on death saving throws. Your Strength becomes 18 if it is lower.',
+            'Power supply': 'The suit accepts one energy cell at a time and is found with an installed cell holding 2d10 charges. As a Bonus Action, spend 1 charge or sacrifice 5 HP to activate one mode.',
+            'Defense and movement': 'Gain 2d6 + 5 Temporary Hit Points, or gain a 15-foot Fly Speed for 1 minute.',
+            'Arm laser': 'Make a ranged weapon attack at +8 to hit against one target within 120 feet. On a hit, deal 2d6 Radiant damage.',
+            'Utility modes': 'Translate up to 1,000 visible words in a nonmagical language over 1 minute, breathe normally in any environment for up to 1 hour, or gain Darkvision to 60 feet for up to 1 hour.',
+            'Encounter variants': 'The adventure separately describes optional automatic defenses, possession, stasis, and alternative power sources for the DM.',
+            'Publication': 'Lost Laboratory of Kwalish, p. 56. Kwalish’s attunement variant.',
+        },
+    ),
+    'dndbeyond:342867': (
+        'Shield of the Uven Rune', '342867-shield-of-the-uven-rune', 0, True, 'Very Rare', {
+            'Special powers': 'While holding the shield, you are immune to Cold damage. Immediately after a creature hits you with a melee attack, take a Reaction to deal 3d6 Necrotic damage to it.',
+            'Bane': 'Cast Bane from the shield (save DC 17). It lasts 1 minute without Concentration. The use returns after a Short or Long Rest.',
+            'Gift of Vengeance': 'Trace the rune on a nonmagical weapon and work for 8 hours with both items within 5 feet of each other. The shield is destroyed. The weapon becomes a Rare +1 weapon requiring Attunement. At creation, choose Aberrations, Celestials, Constructs, Dragons, Elementals, Fey, Fiends, Giants, or Undead. The weapon’s attack and damage bonus is +3 against the chosen type.',
+            'Identifying the rune': 'A successful DC 20 Intelligence (History) check identifies the Giant rune for enemy.',
+            'Publication': 'Waterdeep: Dungeon of the Mad Mage, p. 299.',
+        },
+    ),
+    'dndbeyond:8225886': (
+        'Demon Skin', '8225886-demon-skin', 0, True, 'Rare', {
+            'Special powers': 'On attunement, the pot disappears and the ichor conforms to your body. It fits beneath ordinary clothing, grants Resistance to Poison damage, and imposes no Stealth disadvantage. Only you can choose to remove it. On removal or your death, the pot reappears and the ichor returns to it.',
+            'Publication': 'Descent into the Lost Caverns of Tsojcanth, p. 14.',
+        },
+    ),
+    'dndbeyond:10674160': (
+        'Spiked Shield', '10674160-spiked-shield', 0, True, 'Uncommon', {
+            'Special powers': 'While holding the shield, you can replace one attack of the Attack action with a bash against a target within 5 feet. Add your Proficiency Bonus and Strength modifier to the attack roll. On a hit, deal 2d6 + your Strength modifier Piercing damage.',
+            'Spike Salvo': 'As a Magic action, each creature in a 30-foot Cone makes a DC 13 Dexterity saving throw. It takes 3d6 Piercing damage on a failure or half on a success. This use recharges at dawn.',
+            'Publication': 'Stranger Things: Welcome to the Hellfire Club, Spiked Shield.',
+        },
+    ),
+    'dndbeyond:11914544': (
+        'Spell-Fueling Armor', '11914544-spell-fueling-armor', 0, True, 'Very Rare', {
+            'Special powers': 'While wearing the armor, you can treat each 1 on a spell damage die as a 2. After a Short Rest while wearing it, recover expended spell slots whose levels total 3 or less. This recovery recharges at dawn.',
+            'Attunement': 'Required by a spellcaster.',
+            'Publication': 'Arcana Unleashed: Deadfall, p. 119.',
+        },
+    ),
+    'dndbeyond:11914433': (
+        'Tramontane Armor', '11914433-tramontane-armor', 1, True, 'Very Rare', {
+            'Special powers': 'While worn, gain +1 AC. The armor resembles scholarly or priestly robes. Heavy snow, ice, rubble and undergrowth that are Difficult Terrain cost you no extra movement.',
+            'Grasping Tendrils': 'Use a Magic action to activate the armor for 1 minute, or use another Magic action to end the effect early. While active, as a Bonus Action choose creatures in a 20-foot Emanation centered on you. Each makes a DC 15 Strength save. On a failure it is Grappled (escape DC 15) and pulled up to 20 feet straight toward you. Activation recharges at dawn.',
+            'Publication': 'Arcana Unleashed, p. 124.',
+        },
+    ),
+    'dndbeyond:12133285': (
+        'Defias Leather', '12133285-defias-leather', 0, False, 'Rare', {
+            'Special powers': 'While worn, gain Advantage on Dexterity (Stealth) checks to hide behind stone objects and structures. You can cast Meld into Stone from the armor. The casting recharges at dawn.',
+            'Publication': 'World of Warcraft, p. 108.',
+        },
+    ),
+    'dndbeyond:12133294': (
+        'Judgment Armor', '12133294-judgment-armor', 0, False, 'Legendary', {
+            'Special powers': 'While wearing the armor, you gain the effects of Detect Evil and Good and Protection from Evil and Good without Concentration. A Paladin wearer can also extend the protection to creatures of their choice in their Aura of Protection.',
+            'Publication': 'World of Warcraft, p. 110.',
+        },
+    ),
     'dndbeyond:9228451': (
         'Demon Armor', '9228451-demon-armor', 1, True, 'Very Rare', {
             'Special powers': 'While worn, you know Abyssal. The clawed gauntlets let your Unarmed Strikes deal 1d8 Slashing and grant +1 to their attack and damage rolls.',
@@ -459,7 +553,7 @@ def public_armor_variants(items):
             ):
                 continue
             mithral = name == 'Mithral Armor'
-            stealth_exception = name in {'Scorpion Armor', 'Serpent Scale Armor', 'Molten Bronze Skin'}
+            stealth_exception = name in {'Scorpion Armor', 'Serpent Scale Armor', 'Molten Bronze Skin', 'Demon Skin'}
             uncapped_dexterity = name == 'Serpent Scale Armor'
             formula = str(armor['ac_base'] + bonus)
             if armor['ac_add_dexmod']:

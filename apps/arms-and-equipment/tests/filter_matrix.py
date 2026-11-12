@@ -761,6 +761,22 @@ def main():
                     }
                     return true;
                 })()''',
+                'Expanded item cards distinguish source-specific powers': '''(async () => {
+                    const cases = [
+                        ["dndbeyond:351921", ["Armor class19", "2d10 charges", "5 HP", "+8 to hit"]],
+                        ["dndbeyond:342867", ["3d6 Necrotic", "DC 17", "8 hours"]],
+                        ["dndbeyond:10674160", ["2d6", "30-foot Cone", "DC 13 Dexterity"]],
+                        ["dndbeyond:11914544", ["Required by a spellcaster", "levels total 3"]],
+                        ["dndbeyond:12133294", ["Armor class18", "Aura of Protection"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    return true;
+                })()''',
                 'Public magic weapon cards distinguish bases and attunement': '''(async () => {
                     inspect("dndbeyond:9228714", grid.firstElementChild);
                     await itemDetails;
