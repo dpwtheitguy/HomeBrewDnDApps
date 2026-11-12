@@ -1,6 +1,457 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-2e-reference:a6b9d4b636ef424c": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Command",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00835.htm.php.html",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier, or use 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet for weapon attacks. Special powers use their listed ranges.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb (2024 Quarterstaff)",
+          "Attunement": "Required by a Cleric or Wizard.",
+          "Rarity": "Very Rare",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Staves.",
+          "2024 spell and creature rules": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 magic item rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items",
+          "Charges": "10 maximum. Regains 1d4 + 2 expended charges at dawn.",
+          "Activation": "While holding the staff, spend the listed charges to cast a spell. Use your spell attack modifier and spell save DC. Spells use their normal casting time, range, duration, and Concentration, with no components except where stated.",
+          "Spells and costs": "Charm Person (1 charge), Suggestion (2 charges), Dominate Beast (4 charges), Speak with Plants (3 charges). Only a Cleric can cast Speak with Plants from the staff. A Wizard can target only a mammal with Dominate Beast.",
+          "Conversion notes": "Retains the different class permissions, with 2024 spells for influence, animal control, and plant manipulation.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:3ff0ffaa35076c4a": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Curing",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00836.htm.php.html",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier, or use 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet for weapon attacks. Special powers use their listed ranges.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb (2024 Quarterstaff)",
+          "Attunement": "Required by a Cleric.",
+          "Rarity": "Rare",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Staves.",
+          "2024 spell and creature rules": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 magic item rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items",
+          "Charges": "8 maximum. Regains 1d4 + 4 expended charges at dawn.",
+          "Activation": "While holding the staff, touch a creature as a Magic action and spend 1 charge to use one of its four functions. Each function can be used twice between dawns. A creature can benefit from the staff only once between dawns.",
+          "Special powers": "Heal wounds: restore 3d6 + 3 Hit Points. Restore sight: end the Blinded condition. Cure disease: end a nonmagical disease or a contagion whose rules permit a disease-curing effect. Soothe the mind: end one Charmed or Frightened condition, or one madness effect the DM designates as curable.",
+          "Conversion notes": "Keeps the original healing dice, four functions, and limits per recipient and function. Translates the older condition categories to current rules.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:b779a5528d55b84c": [
+      {
+        "label": "D&D 2024 adaptation · Staff of the Magi",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00837.htm.php.html",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier, or use 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet for weapon attacks. Special powers use their listed ranges.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb (2024 Quarterstaff)",
+          "Attunement": "Required by a Sorcerer, Warlock, or Wizard.",
+          "Rarity": "Legendary",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Staves.",
+          "2024 spell and creature rules": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 magic item rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items",
+          "Charges": "25 maximum. Found with 1d20 charges. Spell Absorption is its only recharge.",
+          "Activation": "While holding the staff, spend the listed charges to cast a spell. Use your spell attack modifier and spell save DC. Spells use their normal casting time, range, duration, and Concentration, with no components except where stated.",
+          "Spells without charges": "Detect Magic, Enlarge/Reduce (enlarge only), Light, and Protection from Evil and Good.",
+          "Spells and costs": "Invisibility (2 charges), Knock (2), Blindness/Deafness (2), Web (2), Dispel Magic (3), Fireball (3), Lightning Bolt (3), Ice Storm (4), Wall of Fire (4), Passwall (5), Plane Shift (7), Conjure Elemental (5), and Telekinesis (5). Plane Shift requires its attuned fork. Cast Conjure Elemental at most once between dawns.",
+          "Hold Portal": "As a Magic action, magically seal a closed door or gate you touch for up to 1 minute with Concentration. It takes a successful Strength check against your spell save DC to force it open. Knock also opens it and ends the effect.",
+          "Whirlwind": "As a Magic action, spend 5 charges to create a 10-foot-radius, 30-foot-high Cylinder centered within 60 feet. It lasts up to 1 minute with Concentration. The first time a creature enters it on a turn or starts its turn there, it makes a Strength save against your spell save DC. On a failure it takes 3d8 Bludgeoning and falls Prone. On a success it takes half damage. On later turns you can move the Cylinder up to 20 feet as a Bonus Action, keeping its center within 60 feet.",
+          "Spell Absorption": "While holding the staff you gain +2 to saves against spells. When a spell targets only you, you can use a Reaction to negate it and gain charges equal to its level. The DM can keep that level hidden until after you choose. If the charges would exceed 25, the staff breaks and resolves Retributive Strike with 25 charges.",
+          "Retributive Strike": "As a Magic action, break the staff over a solid surface or your knee. It is destroyed. There is a 50% chance you travel to a random plane and escape the blast. Otherwise you take 16 Force damage per remaining charge. Each other creature within 30 feet makes a DC 17 Dexterity save, taking Force damage equal to 8 times the remaining charges within 10 feet, 6 times within 20 feet, or 4 times beyond 20 feet. A success halves that creature’s damage.",
+          "Conversion notes": "Keeps absorption-only recharge, dangerous overflow, free utility and the legacy blast bands. Blindness/Deafness takes Pyrotechnics’s blinding role. Hold Portal and Whirlwind use authored 2024-style rules.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:30a4f2dd8859e520": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Striking",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00841.htm.php.html",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 3, or use 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet for weapon attacks. Special powers use their listed ranges.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb (2024 Quarterstaff)",
+          "Attunement": "Required.",
+          "Rarity": "Very Rare",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Staves.",
+          "2024 spell and creature rules": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 magic item rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items",
+          "Charges": "10 maximum. Regains 1d6 + 4 expended charges at dawn.",
+          "Activation": "When you hit with the staff, you may spend 1–3 charges.",
+          "Special powers": "The hit deals an extra 1d6 Force damage per charge spent.",
+          "Conversion notes": "Keeps the +3 enhancement and three levels of strike. Uses the current Staff of Striking’s extra-die convention.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:ac6c9d3b58abfb16": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Withering",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00844.htm.php.html",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 1, or use 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet for weapon attacks. Special powers use their listed ranges.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb (2024 Quarterstaff)",
+          "Attunement": "Required by a Cleric.",
+          "Rarity": "Very Rare",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Staves.",
+          "2024 spell and creature rules": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 magic item rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items",
+          "Charges": "8 maximum. Regains 1d4 + 2 expended charges at dawn.",
+          "Activation": "On a melee hit, spend 2 charges to Age or 3 charges to Age and Wither. Use one save for both effects.",
+          "Special powers": "The target makes a DC 15 Constitution save. On a failure, it takes 2d8 Necrotic and gains 1 level of Exhaustion. Spending 3 charges also halves its Speed and gives it Disadvantage on Strength-based attacks until the end of your next turn. Ageless creatures, including Undead and Fiends, are immune to these extra effects.",
+          "Conversion notes": "Retains the cumulative two- and three-charge effects and immunity for ageless creatures. Exhaustion and temporary penalties replace aging and permanent limb loss. Uses 2024 Quarterstaff dice.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:6d0145af91b7734b": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Serpent",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00839.htm.php.html",
+        "fields": {
+          "Category": "Simple melee weapon (Quarterstaff)",
+          "Damage": "Python: 1d6 Bludgeoning + Strength modifier + 2. Adder: 1d6 Bludgeoning + Strength modifier + 1. Either can use 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2 for Python or 1 for Adder.",
+          "Range": "5 feet melee.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Attunement": "Cleric; the Adder also requires evil alignment.",
+          "Rarity": "Rare",
+          "Charges": "None.",
+          "Activation": "Determine the variant when found (d100: 01–60 Python, 61–100 Adder).",
+          "Python": "As a Magic action, place or toss the staff into an unoccupied space within 10 feet. It becomes a Giant Constrictor Snake, acts after your turn, and obeys verbal commands. Without a command it Dodges. As a Bonus Action while it is within 60 feet, command it to revert in its space. The staff is destroyed if the snake reaches 0 Hit Points.",
+          "Adder": "As a Bonus Action, animate the head for 1 minute. Each hit then forces a DC 15 Constitution save for 3d6 Poison damage on a failure or half on a success. The active head can be targeted separately (AC 15, 20 Hit Points). At 0 Hit Points the staff is destroyed. The head regains its Hit Points when it reverts.",
+          "Conversion notes": "Keeps the original variant odds, bonuses, class limits, and destruction risks. Uses current snake rules and poison damage for the legacy lethal save.",
+          "2024 creature rules": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Staves.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:07d526d9484a7bff": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Slinging",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00840.htm.php.html",
+        "fields": {
+          "Category": "Simple melee weapon (Quarterstaff)",
+          "Damage": "Melee 1d6 Bludgeoning (1d8 with two hands) + Strength modifier + 1. Sling shot 1d8 Bludgeoning + Strength modifier + 1. Charged shot 3d10 + 3 Bludgeoning.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee, 60/180 feet for sling shots, 300 feet for the charged shot.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Attunement": "Required. Only a Druid can use the ranged attacks.",
+          "Rarity": "Rare",
+          "Activation": "With two hands, touch the staff to a roughly round object up to 9 inches across and 5 lb to load it as part of a ranged weapon attack. Use Strength and proficiency with the staff for the ranged attack. The staff gives +1 to hit.",
+          "Special powers": "As a Magic action, spend 1 charge to load and launch an ordinary rock up to 30 lb at one target within 300 feet. Make one ranged weapon attack using the staff bonus. A projectile is expended with either ranged attack.",
+          "Charges": "5 maximum. Regains 1d4 + 1 at dawn.",
+          "Conversion notes": "Keeps the Druid-only sling, standard and charged maximum distances, and legacy +1 per die on the charged shot. The 30 lb limit and dawn recharge are conversion choices.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Staves.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:749cd4586909c31f": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Thunder & Lightning",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00843.htm.php.html",
+        "fields": {
+          "Category": "Simple melee weapon (Quarterstaff)",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 2, or use 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet melee.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Attunement": "Required.",
+          "Rarity": "Very Rare",
+          "Charges": "8 maximum. Regains 1d4 + 2 at dawn.",
+          "Activation": "While attuned, use one strike option per attack or one discharge as a Magic action.",
+          "Thunder (1 charge)": "Before rolling a melee attack, spend 1 charge to use +3 instead of +2 for the attack and damage. On a hit, the target makes a DC 16 Constitution save or is Stunned until the start of your next turn.",
+          "Lightning (1 charge)": "On a melee hit, spend 1 charge to add 2d6 Lightning damage.",
+          "Thunderclap (2 charges)": "Each creature in a 40-foot Cone makes a DC 16 Constitution save. Failure causes Stunned until the start of your next turn. Each creature in the cone is Deafened until the end of your next turn.",
+          "Lightning Stroke (2 charges)": "Cast Lightning Bolt (DC 16 Dexterity, 8d6 Lightning, half on a success).",
+          "Thunder & Lightning (4 charges)": "Resolve both the Thunderclap and Lightning Stroke from your space using the same chosen direction. Creatures in both areas make both saves.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#LightningBolt",
+          "Conversion notes": "Keeps all five powers and their relative costs. Uses standard Cone and Line rules, one Lightning Bolt line, and short durations for the control effects.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Staves.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:028a1524a53d4bc4": [
+      {
+        "label": "D&D 2024 adaptation · Staff-Mace",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00833.htm.php.html",
+        "fields": {
+          "Category": "Simple melee weapon (Quarterstaff)",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 3, or use 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet melee.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Attunement": "Required by a Cleric.",
+          "Rarity": "Very Rare",
+          "Activation": "While holding it, speak the command word as a Bonus Action to choose one of three forms. The form lasts until changed.",
+          "Quarterstaff form": "Simple melee weapon, +3 to attack and damage. 1d6 Bludgeoning, Versatile (1d8), Topple.",
+          "Mace form": "Simple melee weapon, +2 to attack and damage. 1d6 Bludgeoning, Sap.",
+          "Great mace form": "Martial melee weapon, +1 to attack and damage. 2d6 Bludgeoning, Heavy, Two-Handed, Topple. Use Maul proficiency and mastery.",
+          "Conversion notes": "Retains all three forms and bonuses. The Maul represents the two-handed great mace.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Staves.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:90882d9d6a06db49": [
+      {
+        "label": "D&D 2024 adaptation · Staff of the Woodlands",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00845.htm.php.html",
+        "fields": {
+          "Category": "Simple melee weapon (Quarterstaff)",
+          "Damage": "1d6 Bludgeoning + Strength modifier + the rolled enhancement, or use 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus the rolled enhancement (maximum +3).",
+          "Range": "5 feet melee.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Attunement": "Required by a Druid.",
+          "Rarity": "Very Rare",
+          "Charges": "8 maximum. Regains 1d4 + 2 at dawn.",
+          "Activation": "While holding the staff, use its spell powers with your Druid spell save DC, normal casting times and Concentration. Animate Tree uses a Magic action.",
+          "Spells and costs": "Wall of Thorns (6 charges). Animal Friendship (1 charge); casting it this way also casts Speak with Animals as part of the same action, without extra charges.",
+          "Animate Tree (4 charges)": "Choose a nonmagical Large or Huge tree within 60 feet. It animates for 1 minute with the Animated Tree stat block from the Treant’s Animate Trees action. It acts immediately after you and obeys verbal commands. Without commands it Dodges. Only one tree can be animated by this staff at a time. It roots again when the effect ends if it survives.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "2024 benchmark": "https://www.dndbeyond.com/magic-items/9229103-staff-of-the-woodlands",
+          "Conversion notes": "Retains Druid attunement, the treant-style animation and the trade-off between weapon bonus and utility. Uses 2024 spell-based charge costs. Legacy +4 grants +3 to hit and +4 to damage.",
+          "Daily powers": "Roll 1d4 when found for the enhancement. +1 grants Pass without Trace, Barkskin, and Tree Shape. +2 grants Pass without Trace and Barkskin. +3 grants Pass without Trace. +4 grants no daily powers. Each listed power is usable once per dawn at no charge cost.",
+          "Tree Shape": "As a Magic action, become a Large ordinary tree in your space for up to 1 hour (Concentration). You remain aware of your surroundings, have Speed 0, and cannot take actions or reactions in that form. Revert when Concentration ends or when reduced to 0 Hit Points. You retain your own Hit Points and AC.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Staves.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:587f6cb1b007440f": [
+      {
+        "label": "D&D 2024 adaptation · Staff of the Woodlands (+1)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00845.htm.php.html",
+        "fields": {
+          "Category": "Simple melee weapon (Quarterstaff)",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 1, or use 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Attunement": "Required by a Druid.",
+          "Rarity": "Very Rare",
+          "Charges": "8 maximum. Regains 1d4 + 2 at dawn.",
+          "Activation": "While holding the staff, use its spell powers with your Druid spell save DC, normal casting times and Concentration. Animate Tree uses a Magic action.",
+          "Spells and costs": "Wall of Thorns (6 charges). Animal Friendship (1 charge); casting it this way also casts Speak with Animals as part of the same action, without extra charges.",
+          "Animate Tree (4 charges)": "Choose a nonmagical Large or Huge tree within 60 feet. It animates for 1 minute with the Animated Tree stat block from the Treant’s Animate Trees action. It acts immediately after you and obeys verbal commands. Without commands it Dodges. Only one tree can be animated by this staff at a time. It roots again when the effect ends if it survives.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "2024 benchmark": "https://www.dndbeyond.com/magic-items/9229103-staff-of-the-woodlands",
+          "Conversion notes": "Retains Druid attunement, the treant-style animation and the trade-off between weapon bonus and utility. Uses 2024 spell-based charge costs. Legacy +4 grants +3 to hit and +4 to damage.",
+          "Daily powers": "Pass without Trace, Barkskin, and Tree Shape. Each listed power is usable once per dawn at no charge cost.",
+          "Tree Shape": "As a Magic action, become a Large ordinary tree in your space for up to 1 hour (Concentration). You remain aware of your surroundings, have Speed 0, and cannot take actions or reactions in that form. Revert when Concentration ends or when reduced to 0 Hit Points. You retain your own Hit Points and AC.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Staves.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:3f4ec707163ad1aa": [
+      {
+        "label": "D&D 2024 adaptation · Staff of the Woodlands (+2)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00845.htm.php.html",
+        "fields": {
+          "Category": "Simple melee weapon (Quarterstaff)",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 2, or use 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet melee.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Attunement": "Required by a Druid.",
+          "Rarity": "Very Rare",
+          "Charges": "8 maximum. Regains 1d4 + 2 at dawn.",
+          "Activation": "While holding the staff, use its spell powers with your Druid spell save DC, normal casting times and Concentration. Animate Tree uses a Magic action.",
+          "Spells and costs": "Wall of Thorns (6 charges). Animal Friendship (1 charge); casting it this way also casts Speak with Animals as part of the same action, without extra charges.",
+          "Animate Tree (4 charges)": "Choose a nonmagical Large or Huge tree within 60 feet. It animates for 1 minute with the Animated Tree stat block from the Treant’s Animate Trees action. It acts immediately after you and obeys verbal commands. Without commands it Dodges. Only one tree can be animated by this staff at a time. It roots again when the effect ends if it survives.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "2024 benchmark": "https://www.dndbeyond.com/magic-items/9229103-staff-of-the-woodlands",
+          "Conversion notes": "Retains Druid attunement, the treant-style animation and the trade-off between weapon bonus and utility. Uses 2024 spell-based charge costs. Legacy +4 grants +3 to hit and +4 to damage.",
+          "Daily powers": "Pass without Trace and Barkskin. Each listed power is usable once per dawn at no charge cost.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Staves.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:907c88eb5f1cb9b3": [
+      {
+        "label": "D&D 2024 adaptation · Staff of the Woodlands (+3)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00845.htm.php.html",
+        "fields": {
+          "Category": "Simple melee weapon (Quarterstaff)",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 3, or use 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet melee.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Attunement": "Required by a Druid.",
+          "Rarity": "Very Rare",
+          "Charges": "8 maximum. Regains 1d4 + 2 at dawn.",
+          "Activation": "While holding the staff, use its spell powers with your Druid spell save DC, normal casting times and Concentration. Animate Tree uses a Magic action.",
+          "Spells and costs": "Wall of Thorns (6 charges). Animal Friendship (1 charge); casting it this way also casts Speak with Animals as part of the same action, without extra charges.",
+          "Animate Tree (4 charges)": "Choose a nonmagical Large or Huge tree within 60 feet. It animates for 1 minute with the Animated Tree stat block from the Treant’s Animate Trees action. It acts immediately after you and obeys verbal commands. Without commands it Dodges. Only one tree can be animated by this staff at a time. It roots again when the effect ends if it survives.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "2024 benchmark": "https://www.dndbeyond.com/magic-items/9229103-staff-of-the-woodlands",
+          "Conversion notes": "Retains Druid attunement, the treant-style animation and the trade-off between weapon bonus and utility. Uses 2024 spell-based charge costs. Legacy +4 grants +3 to hit and +4 to damage.",
+          "Daily powers": "Pass without Trace. Each listed power is usable once per dawn at no charge cost.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Staves.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:835170a4e73f22fd": [
+      {
+        "label": "D&D 2024 adaptation · Staff of the Woodlands (+4)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00845.htm.php.html",
+        "fields": {
+          "Category": "Simple melee weapon (Quarterstaff)",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 4, or use 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet melee.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Attunement": "Required by a Druid.",
+          "Rarity": "Very Rare",
+          "Charges": "8 maximum. Regains 1d4 + 2 at dawn.",
+          "Activation": "While holding the staff, use its spell powers with your Druid spell save DC, normal casting times and Concentration. Animate Tree uses a Magic action.",
+          "Spells and costs": "Wall of Thorns (6 charges). Animal Friendship (1 charge); casting it this way also casts Speak with Animals as part of the same action, without extra charges.",
+          "Animate Tree (4 charges)": "Choose a nonmagical Large or Huge tree within 60 feet. It animates for 1 minute with the Animated Tree stat block from the Treant’s Animate Trees action. It acts immediately after you and obeys verbal commands. Without commands it Dodges. Only one tree can be animated by this staff at a time. It roots again when the effect ends if it survives.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "2024 benchmark": "https://www.dndbeyond.com/magic-items/9229103-staff-of-the-woodlands",
+          "Conversion notes": "Retains Druid attunement, the treant-style animation and the trade-off between weapon bonus and utility. Uses 2024 spell-based charge costs. Legacy +4 grants +3 to hit and +4 to damage.",
+          "Daily powers": "None. Each listed power is usable once per dawn at no charge cost.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Staves.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
     "dmg-2e-reference:4e377c4455cc3052": [
       {
         "label": "D&D 2024 adaptation · Sword +1, cursed",

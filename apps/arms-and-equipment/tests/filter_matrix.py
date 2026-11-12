@@ -1830,6 +1830,26 @@ def main():
                         if (!byId("custom-items").hidden) click("close-custom-items");
                     }
                 })()''',
+                'AD&D 2e staves show class gates, charges, and variant powers': '''(async () => {
+                    const cases = [
+                        ["a6b9d4b636ef424c", ["Only a Cleric can cast Speak with Plants", "only a mammal"]],
+                        ["3ff0ffaa35076c4a", ["3d6 + 3 Hit Points", "twice between dawns"]],
+                        ["6d0145af91b7734b", ["01–60 Python", "3d6 Poison"]],
+                        ["07d526d9484a7bff", ["Only a Druid", "60/180 feet", "3d10 + 3"]],
+                        ["749cd4586909c31f", ["Thunderclap (2 charges)", "both saves"]],
+                        ["ac6c9d3b58abfb16", ["Age and Wither", "Ageless creatures"]],
+                        ["587f6cb1b007440f", ["Animate Tree (4 charges)", "Barkskin", "Tree Shape"]],
+                        ["835170a4e73f22fd", ["modifier + 4", "plus 3"]],
+                        ["028a1524a53d4bc4", ["Great mace form", "Maul proficiency"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dmg-2e-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))
+                            || inspection.textContent.includes("2024 provisional profile")) return false;
+                    }
+                    return true;
+                })()''',
                 'AD&D 2e cursed weapons and tridents show triggers and remedies': '''(async () => {
                     const cases = [
                         ["4e377c4455cc3052", ["Dash toward the nearest one", "Remove Curse is cast on you"]],
