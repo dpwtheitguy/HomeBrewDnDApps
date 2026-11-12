@@ -1740,6 +1740,27 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault late upgrades display relocation and ongoing effects': '''(async () => {
+                    const cases = [
+                        ["08047318633f9e93", ["original DC", "transfers to the target with its remaining duration"]],
+                        ["96f1220f44b3a7bc", ["DC 16 Charisma", "simultaneously teleport"]],
+                        ["4c2464e31315f131", ["even if the creature stays within your reach", "halve its Speed"]],
+                        ["f2b4a7688dcf0775", ["Blinded, Prone, Restrained, or Unconscious", "also falls Prone"]],
+                        ["dc7df0c7d01bf938", ["normal hit damage becomes Necrotic", "extra damage after applying the target’s defenses"]],
+                        ["22561f12cd1f016c", ["10 feet straight toward", "each ally within 50 feet"]],
+                        ["e5297a2efb6586bb", ["Bloodied before the hit", "attacks you make with this weapon", "official 4e errata"]],
+                        ["3fddf25f85a518ab", ["extradimensional space", "within 15 feet of you"]],
+                        ["89c7193ebeacfec4", ["normal surface range rules", "Swim Speed or can breathe underwater"]],
+                        ["2f3cf054f3b31323", ["cumulative −1 penalty", "up to −3", "entire penalty ends"]],
+                        ["da0dbe46397588c7", ["5 damage of the weapon’s type", "DC 15 Constitution saving throw with a −1 penalty"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!["D&D 2024 weapon adaptation", ...terms].every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Adventurer’s Vault upgrades show ranged exceptions and recharge': '''(async () => {
                     const cases = [
                         ["4d1ff22c9f50f3d2", ["within 25 feet", "5 Acid damage"]],
