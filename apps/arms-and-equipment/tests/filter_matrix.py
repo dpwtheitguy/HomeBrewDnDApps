@@ -575,7 +575,7 @@ def main():
                     const helm = inspection.textContent;
                     return ["DM review", "1 HP", "Unconscious", "DC 10 Wisdom"]
                         .every(value => weapon.includes(value)) &&
-                        ["DM review", "Armor class bonus+0", "no separate AC"]
+                        ["Armor accessory", "Use as armor+0", "no separate AC"]
                             .every(value => helm.includes(value));
                 })()''',
                 'Mystara reference cards explain the chosen weapon and ceremonial focus': '''(async () => {
@@ -961,6 +961,22 @@ def main():
                     const tyrael = inspection.textContent;
                     return ["DC 16 Dexterity save", "within 10 feet", "4d6 Fire"].every(term => corpse.includes(term)) &&
                         ["Armor class18", "Strength requirementNone.", "1d8 Radiant"].every(term => tyrael.includes(term));
+                })()''',
+                'Mystara armor shows verified enhancements and distinct local rules': '''(async () => {
+                    const cases = [
+                        ["wrath-of-the-immortals-local:ebd0772d6f50f49a", ["Armor class19", "Legendary", "cosmetic"]],
+                        ["wrath-of-the-immortals-local:ffda5c5377ad0e7f", ["13 + Dex modifier", "Very Rare", "personal Dexterity bonus"]],
+                        ["gazetteer-local-pdf-reference:579294a755b5b670", ["Armor class18", "10 lb", "Linias"]],
+                        ["gazetteer-local-pdf-reference:6a9440c634d1adb8", ["Armor class bonus+2", "2d4 Slashing", "20/60 ft", "does not return"]],
+                        ["gazetteer-local-pdf-reference:d40bbd47d4ca7ecd", ["Armor accessory", "no separate AC"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        const details = inspection.textContent;
+                        if (!terms.every(term => details.includes(term))) return false;
+                    }
+                    return true;
                 })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);

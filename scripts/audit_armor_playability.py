@@ -130,9 +130,9 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
             base_id = source_id
     mappings = [entry for entry in curated.get(item_id, [])
                 if entry.get('profile_kind') in {'published-armor-mapping', 'published-public-armor',
-                                                  'adapted-barding', 'adapted-game-armor'}]
+                                                  'adapted-barding', 'adapted-game-armor', 'adapted-source-armor'}]
     encounter = [entry for entry in curated.get(item_id, [])
-                 if entry.get('profile_kind') == 'armor-encounter-construct']
+                 if entry.get('profile_kind') in {'armor-encounter-construct', 'documented-armor-accessory'}]
     if item['ruleset'] == 'bg3':
         evidence = 'native-bg3'
         fields.update(read_bg3(bg3['records'].get(item_id, {}), bg3['effects'], bg3['shield_training'], errors, gaps))
@@ -140,13 +140,16 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
         entry = encounter[0]
         details = entry.get('fields', {})
         provenance = item['provenance']
+        accessory = entry['profile_kind'] == 'documented-armor-accessory'
+        effect_key = 'Special powers' if accessory else 'Creature defenses'
         if (len(encounter) != 1 or entry.get('status') != 'source-reported'
                 or entry.get('source') != provenance.get('source_url')
                 or not provenance.get('locator')
-                or not all(details.get(key) for key in ('Source locator', 'Creature defenses', 'Use as armor'))):
-            errors.append('construct reference needs source and explicit equipment applicability')
-        evidence = 'documented-armor-construct'
-        fields = {'role': 'encounter construct', 'effects': details.get('Creature defenses')}
+                or not all(details.get(key) for key in ('Source locator', effect_key, 'Use as armor'))):
+            errors.append('armor reference needs source and explicit equipment applicability')
+        evidence = 'documented-armor-accessory' if accessory else 'documented-armor-construct'
+        fields = {'role': 'armor accessory' if accessory else 'encounter construct',
+                  'effects': details.get(effect_key)}
     elif mappings:
         variants = []
         base_ids = []
@@ -157,7 +160,8 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
             mapped_fields = mapping['fields']
             public = mapping['profile_kind'] == 'published-public-armor'
             game_adaptation = mapping['profile_kind'] == 'adapted-game-armor'
-            adapted = game_adaptation or mapping['profile_kind'] == 'adapted-barding'
+            source_adaptation = mapping['profile_kind'] == 'adapted-source-armor'
+            adapted = game_adaptation or source_adaptation or mapping['profile_kind'] == 'adapted-barding'
             provenance = item['provenance']
             original_page = (mapping.get('source') == provenance.get('source_url')
                              and bool(provenance.get('locator'))
@@ -177,8 +181,8 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
                                    and bool(native[0]['fields'].get('Defense (game)'))
                                    and bool(target_armor)
                                    and (item['type'] == 'shield') == (target_armor.get('name') == 'Shield'))
-            bonus = mapping.get('enhancement_bonus') if public else int(
-                bool(target.get('magic') and target.get('name', '').endswith(' (+1)')))
+            enhancement = re.search(r' \(\+([1-3])\)$', target.get('name', '')) if target.get('magic') else None
+            bonus = mapping.get('enhancement_bonus') if public else int(enhancement[1]) if enhancement else 0
             expected_status = 'original-draft' if adapted else 'published-reference'
             if (mapping['status'] != expected_status or not mapping.get('source')
                     or target.get('source_id') != 'open5e-srd-2024' or not target_armor
@@ -190,6 +194,9 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
                 if game_adaptation:
                     evidence = 'item-specific-game-armor-draft'
                     gaps.append('item-specific game armor draft requires DM review')
+                elif source_adaptation:
+                    evidence = 'item-specific-source-armor-draft'
+                    gaps.append('item-specific source armor draft requires DM review')
                 elif adapted:
                     evidence = 'item-specific-barding-draft'
                     gaps.append('item-specific barding draft requires DM review')
@@ -212,10 +219,12 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
                 if mapping.get('mithral'):
                     fields.update(strength_requirement='None', stealth_disadvantage='No')
                 fields['effects'] = mapped_fields['Special powers']
-                if game_adaptation:
+                if game_adaptation or source_adaptation:
                     fields['weight'] = mapped_fields['Weight']
-                    if fields['role'] != 'shield' and mapped_fields['Strength requirement'] == 'None.':
+                    if fields['role'] != 'shield' and mapped_fields['Strength requirement'].rstrip('.') == 'None':
                         fields['strength_requirement'] = 'None'
+                    if source_adaptation and fields['role'] != 'shield':
+                        fields['stealth_disadvantage'] = mapped_fields['Stealth disadvantage']
                 if mapping.get('barding'):
                     weight = mapped_fields.get('Weight', '')
                     if (target_armor.get('name') == 'Shield'
@@ -224,7 +233,7 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
                     fields.update(role='barding', weight=weight)
                 attuned_item = item if public else target
                 fields['attunement'] = 'Required' if attuned_item['requires_attunement'] else 'No'
-                if game_adaptation:
+                if game_adaptation or source_adaptation:
                     fields['attunement'] = mapped_fields['Attunement'].rstrip('.')
                 variants.append(fields)
                 base_ids.append(base_id)

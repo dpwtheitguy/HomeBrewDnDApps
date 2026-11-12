@@ -2530,9 +2530,9 @@
     ],
     "gazetteer-local-pdf-reference:579294a755b5b670": [
       {
-        "label": "D&D 2024 tabletop conversion",
+        "label": "D&D 2024 adaptation · Guild Elsan Seashell Armor",
         "status": "original-draft",
-        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "source": "https://www.dmsguild.com/product/17346/GAZ9-The-Minrothad-Guilds-Basic",
         "fields": {
           "Armor class": "18",
           "Training": "Heavy armor",
@@ -2541,13 +2541,15 @@
           "Weight": "10 lb",
           "Attunement": "None",
           "Special powers": "Kelar’s suit uses Plate Armor rules at the weight of Leather Armor. Strength below 15 reduces Speed by 10 ft.",
-          "Legacy source": "GAZ9, pp. 21 and 61–62. Guild Elsan makes shell armor. Captain Kelar’s suit protects like plate and has leather encumbrance.",
-          "Conversion notes": "This profile represents Kelar’s unenhanced suit. The 10 lb weight uses the 2024 Leather Armor benchmark. The separate +1 example worn by Linias is recorded on p. 57."
+          "Conversion notes": "This profile represents Kelar’s unenhanced suit. The 10 lb weight uses the 2024 Leather Armor benchmark. The separate +1 example worn by Linias is recorded on p. 57.",
+          "Source locator": "GAZ9, pp. 21 and 61–62. Guild Elsan makes shell armor. Captain Kelar’s suit protects like plate and has leather encumbrance. Supplied PDF p. 23."
         },
         "related_item": {
           "id": "open5e-srd-2024:srd-2024_plate-armor",
           "label": "Open 2024 base equipment"
-        }
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "profile_kind": "adapted-source-armor"
       }
     ],
     "gazetteer-local-pdf-reference:93308291f01740fb": [
@@ -2715,9 +2717,9 @@
     ],
     "gazetteer-local-pdf-reference:035ee0dce0d8fb0b": [
       {
-        "label": "D&D 2024 tabletop conversion",
+        "label": "D&D 2024 adaptation · Makistani Lamellar Armor",
         "status": "original-draft",
-        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "source": "https://www.dmsguild.com/product/124832/GAZ2-The-Emirates-of-Ylaruam-Basic",
         "fields": {
           "Armor class": "14 + Dex modifier (max +2)",
           "Training": "Medium armor",
@@ -2726,13 +2728,15 @@
           "Weight": "45 lb",
           "Attunement": "None",
           "Special powers": "Use Scale Mail training and donning rules for this suit of overlapping plates.",
-          "Legacy source": "GAZ2, p. 12, Makistan. The local warriors favor lamellar armor.",
-          "Conversion notes": "Scale Mail is the chosen 2024 base for the legacy lamellar description."
+          "Conversion notes": "Scale Mail is the chosen 2024 base for the legacy lamellar description.",
+          "Source locator": "GAZ2, p. 12, Makistan. The local warriors favor lamellar armor. Supplied PDF p. 13."
         },
         "related_item": {
           "id": "open5e-srd-2024:srd-2024_scale-mail",
           "label": "Open 2024 base equipment"
-        }
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "profile_kind": "adapted-source-armor"
       }
     ],
     "gazetteer-local-pdf-reference:d7be5f2ecfb34fa1": [
@@ -3270,11 +3274,11 @@
     ],
     "gazetteer-local-pdf-reference:6a9440c634d1adb8": [
       {
-        "label": "D&D 2024 tabletop conversion",
+        "label": "D&D 2024 adaptation · Karst’s Razor-Edged Throwing Shield",
         "status": "original-draft",
-        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "source": "https://www.acaeum.com/indexes/miscellaneous/gaz.html",
         "fields": {
-          "Armor class bonus": "+2 while wielded with Shield training.",
+          "Armor class bonus": "+2",
           "Training": "Shield",
           "Strength requirement": "None",
           "Stealth disadvantage": "No",
@@ -3283,21 +3287,24 @@
           "Damage": "2d4 Slashing plus Strength modifier.",
           "Range": "20/60 ft thrown.",
           "Activation": "If you are wielding the shield, you can replace one attack during the Attack action with throwing it. Make a ranged attack using Strength. Add your proficiency bonus if you have Shield training.",
-          "Special powers": "Throwing ends your AC bonus immediately. The shield lands in the target’s space on a hit or miss, and it does not return by itself. Recover it and use a Utilize action to don it again.",
-          "Legacy source": "GAZ8, p. 48, Rundegos. Karst sells the spinning razor-edged shield for 1 gp. The source gives 2–8 damage.",
-          "Conversion notes": "Preserves the source’s damage as 2d4. Uses the 2024 Shield’s AC and donning rules. Range and attack procedure are conversion choices."
+          "Special powers": "With Shield training, gain +2 AC while wielding it. Throwing ends your AC bonus immediately. The shield lands in the target’s space on a hit or miss, and it does not return by itself. Recover it and use a Utilize action to don it again.",
+          "Conversion notes": "Preserves the source’s damage as 2d4. Uses the 2024 Shield’s AC and donning rules. Range and attack procedure are conversion choices.",
+          "Source locator": "GAZ8, p. 48, Rundegos. Karst sells the spinning razor-edged shield for 1 gp. The source gives 2–8 damage. Supplied PDF p. 73.",
+          "Mastery": "None."
         },
         "related_item": {
           "id": "open5e-srd-2024:srd-2024_shield",
           "label": "Open 2024 base equipment"
-        }
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "profile_kind": "adapted-source-armor"
       }
     ],
     "gazetteer-local-pdf-reference:65281be9fe29138e": [
       {
-        "label": "D&D 2024 tabletop conversion",
+        "label": "D&D 2024 adaptation · Guildmaster’s Guard Magical Armor",
         "status": "original-draft",
-        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+        "source": "https://www.acaeum.com/indexes/miscellaneous/gaz.html",
         "fields": {
           "Armor class": "17",
           "Training": "Heavy armor",
@@ -3306,13 +3313,16 @@
           "Weight": "55 lb",
           "Attunement": "None",
           "Special powers": "Use Chain Mail +1 for the guard’s magical armor. Strength below 13 reduces Speed by 10 ft.",
-          "Legacy source": "GAZ11, p. 51, Guard Room. The magical armor grants legacy AC 3. The entry gives no base armor type.",
-          "Conversion notes": "Chain Mail +1 supplies modern AC 17 as the chosen heavy-armor profile."
+          "Conversion notes": "Chain Mail +1 supplies modern AC 17 as the chosen heavy-armor profile.",
+          "Source locator": "GAZ11, p. 51, Guard Room. The magical armor grants legacy AC 3. The entry gives no base armor type. Supplied PDF p. 52.",
+          "Rarity": "Rare."
         },
         "related_item": {
           "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
           "label": "Open 2024 base equipment"
-        }
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+        "profile_kind": "adapted-source-armor"
       }
     ],
     "gazetteer-local-pdf-reference:3bded5794e3835eb": [
@@ -3387,9 +3397,9 @@
     ],
     "gazetteer-local-pdf-reference:b27c92b4aef54915": [
       {
-        "label": "D&D 2024 tabletop conversion",
+        "label": "D&D 2024 adaptation · Belcadiz Light Metal Armor",
         "status": "original-draft",
-        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "source": "https://www.acaeum.com/indexes/miscellaneous/gaz.html",
         "fields": {
           "Armor class": "13 + Dex modifier (max +2)",
           "Training": "Medium armor",
@@ -3398,13 +3408,15 @@
           "Weight": "20 lb",
           "Attunement": "None",
           "Special powers": "Use the Chain Shirt’s standard donning and doffing rules.",
-          "Legacy source": "GAZ3, p. 10, The Glantrian Economy. Belcadiz metalworkers specialize in light metal armor.",
-          "Conversion notes": "Chain Shirt is the chosen 2024 profile for a light metal suit. Its training category is Medium armor."
+          "Conversion notes": "Chain Shirt is the chosen 2024 profile for a light metal suit. Its training category is Medium armor.",
+          "Source locator": "GAZ3, p. 10, The Glantrian Economy. Belcadiz metalworkers specialize in light metal armor. Supplied PDF p. 11."
         },
         "related_item": {
           "id": "open5e-srd-2024:srd-2024_chain-shirt",
           "label": "Open 2024 base equipment"
-        }
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "profile_kind": "adapted-source-armor"
       }
     ],
     "gazetteer-local-pdf-reference:db6c9b50d292fa40": [
@@ -3433,17 +3445,19 @@
     ],
     "gazetteer-local-pdf-reference:d40bbd47d4ca7ecd": [
       {
-        "label": "D&D 2024 tabletop conversion",
-        "status": "original-draft",
-        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "label": "Armor accessory · Nob Nar’s Bone Helm",
+        "status": "source-reported",
+        "source": "https://www.acaeum.com/indexes/miscellaneous/gaz.html",
         "fields": {
-          "Armor class bonus": "+0. Use the AC of any armor worn with it.",
           "Training": "No separate training.",
           "Attunement": "None",
           "Special powers": "The helm is a piece of costume or armor trim. It grants no separate AC or magical protection.",
-          "Legacy source": "GAZ8, p. 16, The Ballad of Nob Nar. The verse describes an old bone helm.",
-          "Conversion notes": "The 2024 armor table has no separate helmet AC. A suit of armor can include this helm as part of its appearance."
-        }
+          "Conversion notes": "The 2024 armor table has no separate helmet AC. A suit of armor can include this helm as part of its appearance.",
+          "Source locator": "GAZ8, p. 16, The Ballad of Nob Nar. The verse describes an old bone helm. Supplied PDF p. 17.",
+          "Use as armor": "+0. Use the AC of any armor worn with it."
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "profile_kind": "documented-armor-accessory"
       }
     ],
     "gazetteer-local-pdf-reference:094b8e35215c6610": [
@@ -5116,6 +5130,54 @@
         "related_item": {
           "id": "open5e-srd-2024:srd-2024_splint-armor",
           "label": "Open 2024 Splint Armor"
+        }
+      }
+    ],
+    "wrath-of-the-immortals-local:ebd0772d6f50f49a": [
+      {
+        "label": "2024 counterpart · Chain Mail (+3)",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "source": "https://www.drivethrurpg.com/en/product/284479/wrath-of-the-immortals",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-3",
+          "label": "Open 2024 Chain Mail (+3)"
+        },
+        "fields": {
+          "Source locator": "Wrath of the Immortals, The Immortals’ Fury, printed p. 53 (supplied PDF p. 188).",
+          "Armor class": "19",
+          "Training": "Heavy",
+          "Strength requirement": "13. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Rarity": "Legendary",
+          "Attunement": "None.",
+          "Special powers": "Kelter Zerben wears blackened Chain Mail +3. Its dull finish is cosmetic. The armor’s magic bonus is included in the displayed AC."
+        }
+      }
+    ],
+    "wrath-of-the-immortals-local:ffda5c5377ad0e7f": [
+      {
+        "label": "2024 counterpart · Leather Armor (+2)",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "source": "https://www.drivethrurpg.com/en/product/284479/wrath-of-the-immortals",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-2",
+          "label": "Open 2024 Leather Armor (+2)"
+        },
+        "fields": {
+          "Source locator": "Wrath of the Immortals, The Immortals’ Fury, printed p. 36 (supplied PDF p. 171).",
+          "Armor class": "13 + Dex modifier",
+          "Training": "Light",
+          "Strength requirement": "None.",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "None.",
+          "Special powers": "Prince Dromedon’s combat notes specify Leather Armor +2. His personal Dexterity bonus is separate from the item. The armor’s magic bonus is included in the displayed AC."
         }
       }
     ]
