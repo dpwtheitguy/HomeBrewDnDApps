@@ -1871,6 +1871,23 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Mystara swords show creature riders, utility powers, and multiple masteries': '''(async () => {
+                    for (const [id, terms] of [
+                        ["c14a727e06271c70", ["120 feet", "Hit Point Die", "Petrified"]],
+                        ["6295c48febd33137", ["highest applicable benefit", "extra 1d12", "Regeneration"]],
+                        ["da58115cefada575", ["Beast with a corporeal body", "ten days of rations"]],
+                        ["20367dbfa0c5148d", ["2d6 Force", "10-foot Cube", "Animate Objects"]],
+                        ["e4c0c7014f499382", ["Elemental", "Giruvegan", "Ixion"]],
+                        ["8b14dd8ed6cb6bd4", ["Daggers or Shortswords", "20/60 feet", "Nick or Vex"]],
+                    ]) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Mystara named swords show twin powers, spell storage, and flight': '''(async () => {
                     for (const [id, terms] of [
                         ["3f676c7b16bc61ce", ["1d10 Slashing", "Flying attack", "next three turns"]],

@@ -1,6 +1,206 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:c14a727e06271c70": [
+      {
+        "label": "D&D 2024 adaptation · Obsidian the Destroyer",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/UniqueMagicSwords2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "While holding the sword, you have Darkvision to 120 feet. Up to three times per dawn, use a Bonus Action to take shadow form for 1 minute. During that time you have Advantage on Dexterity (Stealth) checks in Dim Light or Darkness. Once per dawn when you roll a natural 20 on an attack with the sword, you can spend one available Hit Point Die to force the target to make a DC 17 Constitution save. On a failure it is Petrified in obsidian until the end of its next turn. Greater Restoration can end the effect early.",
+          "Conversion notes": "The draft replaces lost experience levels with one Hit Point Die and the permanent transformation with a short condition. Its Darkvision follows the usual rules for magical Darkness.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 5, PDF p. 7.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Curse": "The sword resents Alfheim and whispers to its wielder. If a hostile clanmaster or treekeeper is within reach when you roll a natural 20 with the sword against that creature, make a DC 17 Wisdom save if the crystal power is available. On failure you must use the power, spending a Hit Point Die if you have one. Remove Curse ends the attunement."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:6f249b709a4ed24b": [
+      {
+        "label": "D&D 2024 adaptation · Spike of the Ancient",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/UniqueMagicSwords2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "When you roll Initiative while holding the sword, roll 1d20. On a 1, roll 1d10. On 1–4 the sword’s enhancement becomes +2. On 5–10 it becomes +3. The changed enhancement lasts 1 minute or until that combat ends. As a Magic action, cast Locate Object from the sword up to three times per dawn.",
+          "Conversion notes": "Uses 2024 Longsword and Locate Object rules. The +3 cap folds the legacy higher results into the top outcome.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 5, PDF p. 7.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:6295c48febd33137": [
+      {
+        "label": "D&D 2024 adaptation · Plum Blossom",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/UniqueMagicSwords2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Use the highest applicable benefit. On a hit against a Goblin, Hobgoblin, or Bugbear, deal an extra 1d4 Slashing. Against an Undead, use an extra 1d6. Against a Giant, use an extra 1d8. Against a Dragon, use an extra 1d10. Against a creature with a Regeneration trait, use an extra 1d12.",
+          "Conversion notes": "Uses the 2024 Longsword. Extra dice replace the escalating legacy attack and damage modifiers. The rider does not itself prevent regeneration.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 5, PDF p. 8.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:da58115cefada575": [
+      {
+        "label": "D&D 2024 adaptation · Banquet",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/UniqueMagicSwords2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "When this sword kills a Beast with a corporeal body, you may turn the body into one day of safe, preserved rations per Hit Point Die in its stat block, up to ten days of rations. No corpse remains. Its worn or carried equipment stays behind.",
+          "Conversion notes": "Uses 2024 Longsword rules. The Beast restriction, ten-ration limit, and choice to activate are draft constraints on the legacy transformation.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 5, PDF p. 8.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:20367dbfa0c5148d": [
+      {
+        "label": "D&D 2024 adaptation · Sword of Benekander",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/UniqueMagicSwords2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 3.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "A hit against a Construct deals an extra 2d6 Force. The blade is immune to damage. Up to three times per dawn as a Magic action, cast Find Traps from it. As a Magic action, touch a page to translate its writing into a language you know. Mundane ciphers can be deciphered this way with a successful DC 15 Intelligence (Investigation) check. Magical wards and deliberately false statements remain in effect.",
+          "Conversion notes": "Uses the 2024 Shortsword. Extra dice replace the +6 Construct enhancement. Repair and energy are bounded versions of the source’s utility powers.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 5, PDF p. 9.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Repair": "Up to three times per dawn, spend 1 minute touching a broken nonmagical object no larger than a 10-foot Cube. If all its parts are present, rejoin them. This cannot restore disintegrated material.",
+          "Inherent energy": "Once per dawn as a Magic action, seat the sword in a compatible dormant device or an unattended Medium or smaller statue. It powers the device for up to 1 hour, or animates the statue using 2024 Animate Objects for up to 1 minute with Concentration. Removing the blade ends either effect. The blade cannot be used to attack while seated."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:e4c0c7014f499382": [
+      {
+        "label": "D&D 2024 adaptation · Carnelian Shard",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/UniqueMagicSwords2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 Slashing + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "6 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "A hit against an Elemental deals an extra 2d6 Slashing. In the Hall of the King at Giruvegan, use a Magic action to place the sword in the carnelian statue’s hands. The portal to Ixion’s chamber opens until the sword is removed. The DM adjudicates the chamber and any audience with Ixion.",
+          "Conversion notes": "The 2024 Greatsword caps the legacy +4 enhancement at +3 and uses extra dice in place of +8 against Elementals. The portal requires its named story location.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 5, PDF p. 10.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:8b14dd8ed6cb6bd4": [
+      {
+        "label": "D&D 2024 adaptation · Domino",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/UniqueMagicSwords2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 3.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick or Vex, as described below",
+          "Weight": "2 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Proficiency with Daggers or Shortswords applies to Domino. It can be thrown at 20/60 feet. Use Nick if your mastery feature unlocks Dagger for this weapon, or Vex if it unlocks Shortsword. If both are available, choose one when you attack. As a Magic action, cast Detect Magic, Comprehend Languages, or See Invisibility. Each spell is usable three times per dawn.",
+          "Conversion notes": "Uses the 2024 Shortsword die and Dagger throwing range. Comprehend Languages replaces Read Magic. The draft uses a choice of two 2024 masteries for the legacy combined weapon mastery.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 5, PDF p. 11.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Weapon proficiency": "Dagger or Shortsword proficiency. Use the same ability for attack and damage."
+        }
+      }
+    ],
     "mystara-fan-names-reference:9ae2f00bba5dc369": [
       {
         "label": "D&D 2024 adaptation · The Butcher",
