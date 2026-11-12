@@ -1871,6 +1871,20 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Mystara shields distinguish passive AC and spell reactions': '''(async () => {
+                    for (const [id, terms] of [
+                        ["hail-the-heroes-preview-reference:4048ea4b6225cd63", ["Armor class bonus+3", "+4 at character level 5", "+5 at level 11"]],
+                        ["goblins-lair-preview-reference:c2448c6dffb1a509", ["Armor class bonus+2", "Red Hand emblem"]],
+                        ["gaz5-original-reference:24417ba063c849f8", ["No passive AC", "Reaction to cast Shield", "returns at dawn"]],
+                    ]) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Death House and Mystara defenses show their equipment and encounter rules': '''(async () => {
                     for (const [id, terms] of [
                         ["curse-of-strahd-death-house:8368a50c5cddc9ad", ["33 Hit Points", "within 5 feet", "AC does not apply to a wearer"]],

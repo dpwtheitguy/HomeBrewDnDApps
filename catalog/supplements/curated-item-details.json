@@ -1,6 +1,73 @@
 {
   "schema_version": 1,
   "records": {
+    "hail-the-heroes-preview-reference:4048ea4b6225cd63": [
+      {
+        "label": "D&D 2024 adaptation · Shield of Halav",
+        "source": "https://d1vzi28wh99zvq.cloudfront.net/pdf_previews/17351-sample.pdf",
+        "profile_kind": "adapted-source-armor",
+        "status": "original-draft",
+        "fields": {
+          "Armor class bonus": "+3",
+          "Training": "Shield training",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "None",
+          "Special powers": "While wielding the bronze shield, gain +3 AC total. If the Church of Traladara names you Champion of Halav in its ceremony, the total becomes +4 at character level 5 and +5 at level 11 while you wield it. It returns to +3 for other wielders or if the church withdraws recognition after a betrayal of its teachings.",
+          "Conversion notes": "The default is a 2024 Shield +1. The ceremonial progression retains the source’s champion requirement and uses the 2024 +3 enhancement ceiling. Levels 5 and 11 are conversion thresholds.",
+          "Source locator": "Tim Beach, Hail the Heroes, p. 5, The Shield of Halav sidebar.",
+          "Rarity": "Uncommon in its default state"
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "enhancement_bonus": 1
+      }
+    ],
+    "goblins-lair-preview-reference:c2448c6dffb1a509": [
+      {
+        "label": "Published 2024 equipment comparison · Red Hand Goblin Shield",
+        "source": "https://d1vzi28wh99zvq.cloudfront.net/pdf_previews/17156-sample.pdf",
+        "profile_kind": "published-armor-mapping",
+        "status": "published-reference",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield training",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "None",
+          "Special powers": "A mundane shield painted with the Red Hand emblem. It provides the normal Shield AC bonus while wielded. The emblem grants no special combat effect.",
+          "Conversion notes": "Maps the indexed standard shield to the published 2024 Shield rules.",
+          "Source locator": "Goblin’s Lair, Trouble Below, printed p. 3, Goblin Equipment and Treasure, as indexed in catalog provenance."
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        }
+      }
+    ],
+    "gaz5-original-reference:24417ba063c849f8": [
+      {
+        "label": "D&D 2024 adaptation · Blue Hood Bracers of Shield",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/D%26D%20Basic%20%28Holmes%2C%20B%2C%20X%2C%20BECMI%29/Modules/Gazetteer/GAZ5%20-%20The%20Elves%20of%20Alfheim.pdf",
+        "profile_kind": "adapted-protective-implement",
+        "status": "original-draft",
+        "fields": {
+          "Source locator": "GAZ5, The Elves of Alfheim, The Assassins’ Lair, indexed lines 3611–3621.",
+          "Use as armor": "No passive AC. The bracers are a wondrous item and require no armor or Shield training.",
+          "Special powers": "While wearing the attuned bracers, when an attack hits you or Magic Missile targets you, use a Reaction to cast Shield on yourself without components. Gain +5 AC until the start of your next turn, including against the triggering attack, and take no damage from Magic Missile for the duration. Once used, this power returns at dawn.",
+          "Attunement": "Required",
+          "Rarity": "Uncommon",
+          "Conversion notes": "Preserves the indexed once-per-day spell effect and uses the 2024 Shield spell trigger and duration. Attunement is a conversion requirement."
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#Shield"
+      }
+    ],
     "curse-of-strahd-death-house:8368a50c5cddc9ad": [
       {
         "label": "Encounter creature · Death House Animated Armor",
