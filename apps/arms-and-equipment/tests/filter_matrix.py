@@ -1830,6 +1830,24 @@ def main():
                         if (!byId("custom-items").hidden) click("close-custom-items");
                     }
                 })()''',
+                'AD&D throwing weapons and crossbows preserve distinct enchantments': '''(async () => {
+                    const cases = [
+                        ["d247d4f988f69957", ["Roll 1d20", "2d6 Slashing", "hits or misses"]],
+                        ["c0a1e23077d7acf1", ["2d6 Slashing", "+5", "plus 3"]],
+                        ["ccd1a997803b69b0", ["Roll 1d100", "2d4 Piercing", "Retrieve the dagger normally"]],
+                        ["c4427703cb9e533c", ["plus 3", "no damage bonus", "no Disadvantage for distance"]],
+                        ["cd91d030bb55dadc", ["200/800 feet", "10%"]],
+                        ["c0eeba477af6f9c2", ["Ignore the Loading property", "Bonus Action"]],
+                        ["ab37563d783fe63c", ["wooden or stone object", "Shortsword form uses 1d6"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dmg-2e-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))
+                            || inspection.textContent.includes("2024 provisional profile")) return false;
+                    }
+                    return true;
+                })()''',
                 'AD&D arrows distinguish slaying targets from exploration magic': '''(async () => {
                     const cases = [
                         ["1df79b6358449dde", ["6d10 Force", "DC 17 Constitution", "150/600 feet", "becomes nonmagical"]],

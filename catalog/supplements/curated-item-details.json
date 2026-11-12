@@ -1,6 +1,517 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-2e-reference:d247d4f988f69957": [
+      {
+        "label": "D&D 2024 adaptation · Axe of Hurling",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01088.htm.php.html",
+        "fields": {
+          "Category": "Simple melee weapon (Handaxe)",
+          "Damage": "1d6 Slashing in melee or 2d6 Slashing when thrown. Add your Strength modifier and the full rolled bonus.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus the rolled bonus (maximum +3).",
+          "Range": "5 feet melee, 60/180 feet thrown.",
+          "Properties": "Light, Thrown",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a melee or thrown weapon attack while attuned.",
+          "Special powers": "Immediately after a throw hits or misses, the axe returns to your hand. If you have no free hand, it lands in your space.",
+          "Attunement": "Required",
+          "Rarity": "Varies",
+          "Conversion notes": "Retains the legacy maximum throwing distance and higher thrown damage. Uses the same base weapon dice for all target sizes. The attack bonus caps at +3, with legacy +4 and +5 retained as damage bonuses.",
+          "Legacy distribution": "Roll 1d20 when found. 1–5 gives +1, 6–10 gives +2, 11–15 gives +3, 16–19 gives legacy +4, and 20 gives legacy +5.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Axe of Hurling.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:f32055151b8b0a6d": [
+      {
+        "label": "D&D 2024 adaptation · Axe of Hurling (+1)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01088.htm.php.html",
+        "fields": {
+          "Category": "Simple melee weapon (Handaxe)",
+          "Damage": "1d6 Slashing in melee or 2d6 Slashing when thrown. Add your Strength modifier and +1.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee, 60/180 feet thrown.",
+          "Properties": "Light, Thrown",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a melee or thrown weapon attack while attuned.",
+          "Special powers": "Immediately after a throw hits or misses, the axe returns to your hand. If you have no free hand, it lands in your space.",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Conversion notes": "Retains the legacy maximum throwing distance and higher thrown damage. Uses the same base weapon dice for all target sizes. The attack bonus caps at +3, with legacy +4 and +5 retained as damage bonuses.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Axe of Hurling.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:0387be949e938c4a": [
+      {
+        "label": "D&D 2024 adaptation · Axe of Hurling (+2)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01088.htm.php.html",
+        "fields": {
+          "Category": "Simple melee weapon (Handaxe)",
+          "Damage": "1d6 Slashing in melee or 2d6 Slashing when thrown. Add your Strength modifier and +2.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet melee, 60/180 feet thrown.",
+          "Properties": "Light, Thrown",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a melee or thrown weapon attack while attuned.",
+          "Special powers": "Immediately after a throw hits or misses, the axe returns to your hand. If you have no free hand, it lands in your space.",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Conversion notes": "Retains the legacy maximum throwing distance and higher thrown damage. Uses the same base weapon dice for all target sizes. The attack bonus caps at +3, with legacy +4 and +5 retained as damage bonuses.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Axe of Hurling.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:3ab0154283156849": [
+      {
+        "label": "D&D 2024 adaptation · Axe of Hurling (+3)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01088.htm.php.html",
+        "fields": {
+          "Category": "Simple melee weapon (Handaxe)",
+          "Damage": "1d6 Slashing in melee or 2d6 Slashing when thrown. Add your Strength modifier and +3.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet melee, 60/180 feet thrown.",
+          "Properties": "Light, Thrown",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a melee or thrown weapon attack while attuned.",
+          "Special powers": "Immediately after a throw hits or misses, the axe returns to your hand. If you have no free hand, it lands in your space.",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Conversion notes": "Retains the legacy maximum throwing distance and higher thrown damage. Uses the same base weapon dice for all target sizes. The attack bonus caps at +3, with legacy +4 and +5 retained as damage bonuses.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Axe of Hurling.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:7a165a7136ab9dab": [
+      {
+        "label": "D&D 2024 adaptation · Axe of Hurling (+4)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01088.htm.php.html",
+        "fields": {
+          "Category": "Simple melee weapon (Handaxe)",
+          "Damage": "1d6 Slashing in melee or 2d6 Slashing when thrown. Add your Strength modifier and +4.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet melee, 60/180 feet thrown.",
+          "Properties": "Light, Thrown",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a melee or thrown weapon attack while attuned.",
+          "Special powers": "Immediately after a throw hits or misses, the axe returns to your hand. If you have no free hand, it lands in your space.",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Conversion notes": "Retains the legacy maximum throwing distance and higher thrown damage. Uses the same base weapon dice for all target sizes. The attack bonus caps at +3, with legacy +4 and +5 retained as damage bonuses.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Axe of Hurling.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:c0a1e23077d7acf1": [
+      {
+        "label": "D&D 2024 adaptation · Axe of Hurling (+5)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01088.htm.php.html",
+        "fields": {
+          "Category": "Simple melee weapon (Handaxe)",
+          "Damage": "1d6 Slashing in melee or 2d6 Slashing when thrown. Add your Strength modifier and +5.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet melee, 60/180 feet thrown.",
+          "Properties": "Light, Thrown",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a melee or thrown weapon attack while attuned.",
+          "Special powers": "Immediately after a throw hits or misses, the axe returns to your hand. If you have no free hand, it lands in your space.",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Conversion notes": "Retains the legacy maximum throwing distance and higher thrown damage. Uses the same base weapon dice for all target sizes. The attack bonus caps at +3, with legacy +4 and +5 retained as damage bonuses.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Axe of Hurling.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:ccd1a997803b69b0": [
+      {
+        "label": "D&D 2024 adaptation · Dagger of Throwing",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01094.htm.php.html",
+        "fields": {
+          "Category": "Simple melee weapon (Dagger)",
+          "Damage": "1d4 Piercing in melee or 2d4 Piercing when thrown. Add your Strength or Dexterity modifier and the full rolled bonus.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus the rolled bonus (maximum +3).",
+          "Range": "5 feet melee, 60/180 feet thrown.",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Activation": "Make a melee or thrown weapon attack while attuned.",
+          "Special powers": "Retrieve the dagger normally after throwing it. The enchantment doubles the base damage dice only when thrown.",
+          "Attunement": "Required",
+          "Rarity": "Varies",
+          "Conversion notes": "Retains the legacy maximum throwing distance and higher thrown damage. Uses the same base weapon dice for all target sizes. The attack bonus caps at +3, with legacy +4 and +5 retained as damage bonuses.",
+          "Legacy distribution": "Roll 1d100 when found. 01–35 gives +1, 36–65 gives +2, 66–90 gives +3, and 91–100 gives legacy +4.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Dagger of Throwing.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:278d51b7fe691548": [
+      {
+        "label": "D&D 2024 adaptation · Dagger of Throwing (+1)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01094.htm.php.html",
+        "fields": {
+          "Category": "Simple melee weapon (Dagger)",
+          "Damage": "1d4 Piercing in melee or 2d4 Piercing when thrown. Add your Strength or Dexterity modifier and +1.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee, 60/180 feet thrown.",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Activation": "Make a melee or thrown weapon attack while attuned.",
+          "Special powers": "Retrieve the dagger normally after throwing it. The enchantment doubles the base damage dice only when thrown.",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Conversion notes": "Retains the legacy maximum throwing distance and higher thrown damage. Uses the same base weapon dice for all target sizes. The attack bonus caps at +3, with legacy +4 and +5 retained as damage bonuses.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Dagger of Throwing.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:ad97c6e3438f13f5": [
+      {
+        "label": "D&D 2024 adaptation · Dagger of Throwing (+2)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01094.htm.php.html",
+        "fields": {
+          "Category": "Simple melee weapon (Dagger)",
+          "Damage": "1d4 Piercing in melee or 2d4 Piercing when thrown. Add your Strength or Dexterity modifier and +2.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet melee, 60/180 feet thrown.",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Activation": "Make a melee or thrown weapon attack while attuned.",
+          "Special powers": "Retrieve the dagger normally after throwing it. The enchantment doubles the base damage dice only when thrown.",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Conversion notes": "Retains the legacy maximum throwing distance and higher thrown damage. Uses the same base weapon dice for all target sizes. The attack bonus caps at +3, with legacy +4 and +5 retained as damage bonuses.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Dagger of Throwing.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:293fb37f06e28da6": [
+      {
+        "label": "D&D 2024 adaptation · Dagger of Throwing (+3)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01094.htm.php.html",
+        "fields": {
+          "Category": "Simple melee weapon (Dagger)",
+          "Damage": "1d4 Piercing in melee or 2d4 Piercing when thrown. Add your Strength or Dexterity modifier and +3.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet melee, 60/180 feet thrown.",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Activation": "Make a melee or thrown weapon attack while attuned.",
+          "Special powers": "Retrieve the dagger normally after throwing it. The enchantment doubles the base damage dice only when thrown.",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Conversion notes": "Retains the legacy maximum throwing distance and higher thrown damage. Uses the same base weapon dice for all target sizes. The attack bonus caps at +3, with legacy +4 and +5 retained as damage bonuses.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Dagger of Throwing.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:a0d86e5868484ec3": [
+      {
+        "label": "D&D 2024 adaptation · Dagger of Throwing (+4)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01094.htm.php.html",
+        "fields": {
+          "Category": "Simple melee weapon (Dagger)",
+          "Damage": "1d4 Piercing in melee or 2d4 Piercing when thrown. Add your Strength or Dexterity modifier and +4.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet melee, 60/180 feet thrown.",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Activation": "Make a melee or thrown weapon attack while attuned.",
+          "Special powers": "Retrieve the dagger normally after throwing it. The enchantment doubles the base damage dice only when thrown.",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Conversion notes": "Retains the legacy maximum throwing distance and higher thrown damage. Uses the same base weapon dice for all target sizes. The attack bonus caps at +3, with legacy +4 and +5 retained as damage bonuses.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Dagger of Throwing.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:7e27d95426bd4024": [
+      {
+        "label": "D&D 2024 adaptation · Axe +2, Throwing",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01087.htm.php.html",
+        "fields": {
+          "Category": "Simple melee weapon (Handaxe)",
+          "Damage": "1d6 Slashing + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet melee, 60/180 feet thrown.",
+          "Properties": "Light, Thrown",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a melee or thrown weapon attack.",
+          "Special powers": "The +2 applies to attacks and damage in melee and when thrown.",
+          "Attunement": "None",
+          "Rarity": "Rare",
+          "Conversion notes": "Retains the explicitly stated bonus to thrown damage. Extends the 2024 Handaxe’s range to represent the legacy throwing specialization.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Axe +2, Throwing.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:cd91d030bb55dadc": [
+      {
+        "label": "D&D 2024 adaptation · Crossbow of Distance",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01091.htm.php.html",
+        "fields": {
+          "Category": "Simple ranged weapon (light form), or Martial (heavy form)",
+          "Damage": "1d8 Piercing + Dexterity modifier + 1 in light form. See Heavy form for its damage.",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "160/640 feet (light form), or 200/800 feet (heavy form).",
+          "Properties": "Ammunition (bolts), Loading, Two-Handed (light form).",
+          "Mastery": "Slow (light form); Push (heavy form)",
+          "Weight": "5 lb (light form); 18 lb (heavy form)",
+          "Activation": "Choose light or heavy when the item is found. Make a ranged weapon attack, expending one bolt.",
+          "Special powers": "Both normal and long range are doubled. Attacks beyond normal range still have Disadvantage unless another rule says otherwise.",
+          "Heavy form": "Martial ranged weapon. 1d10 Piercing + Dexterity modifier + 1. Range 200/800 feet. Ammunition (bolts), Heavy, Loading, Two-Handed. Push mastery. 18 lb.",
+          "Legacy distribution": "The 2e source makes 10% of these crossbows heavy.",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Conversion notes": "Retains +1 and doubles both 2024 range bands for the chosen base form.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Crossbow of Distance.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_light-crossbow",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:c0eeba477af6f9c2": [
+      {
+        "label": "D&D 2024 adaptation · Crossbow of Speed",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01092.htm.php.html",
+        "fields": {
+          "Category": "Simple ranged weapon (light form), or Martial (heavy form)",
+          "Damage": "1d8 Piercing + Dexterity modifier + 1 in light form. See Heavy form for its damage.",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "80/320 feet (light form), or 100/400 feet (heavy form).",
+          "Properties": "Ammunition (bolts), Two-Handed (light form).",
+          "Mastery": "Slow (light form); Push (heavy form)",
+          "Weight": "5 lb (light form); 18 lb (heavy form)",
+          "Activation": "Choose light or heavy when the item is found. Make a ranged weapon attack, expending one bolt.",
+          "Special powers": "The crossbow cocks itself while held. Ignore the Loading property for attacks with this weapon. You must still expend a bolt for each attack. When you fire the crossbow as part of the Attack action on your turn, you may fire it once more as a Bonus Action. If you are holding it when you roll Initiative and are not surprised, you have Advantage on that roll.",
+          "Heavy form": "Martial ranged weapon. 1d10 Piercing + Dexterity modifier + 1. Range 100/400 feet. Ammunition (bolts), Heavy, Two-Handed. Push mastery. 18 lb.",
+          "Legacy distribution": "The 2e source makes 10% of these crossbows heavy.",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Conversion notes": "Extra Attack compatibility and one Bonus Action shot replace double legacy rate of fire. Initiative Advantage represents first fire without creating a separate surprise phase.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Crossbow of Speed.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_light-crossbow",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:6c1e3ae59d0adb5d": [
+      {
+        "label": "D&D 2024 adaptation · Dagger +1, +2 vs. Tiny or Small creatures",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00698.htm.php.html",
+        "fields": {
+          "Category": "Simple melee weapon (Dagger)",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier + 1. Use +2 instead against Small or Tiny creatures.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus 1. Use +2 instead against Small or Tiny creatures.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Activation": "Make a melee or thrown weapon attack. Use the target’s current size to determine the weapon’s bonus.",
+          "Special powers": "The +2 replaces the normal +1 on both attack and damage rolls against a Small or Tiny creature.",
+          "Attunement": "None",
+          "Rarity": "Rare",
+          "Conversion notes": "Retains both enhancement values. Uses 2024 size categories in place of the AD&D size comparison.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 2, Table 110.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:93abeb4177f895df": [
+      {
+        "label": "D&D 2024 adaptation · Dagger +2, +3 vs. larger than man-sized",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00698.htm.php.html",
+        "fields": {
+          "Category": "Simple melee weapon (Dagger)",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier + 2. Use +3 instead against Large, Huge, or Gargantuan creatures.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus 2. Use +3 instead against Large, Huge, or Gargantuan creatures.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Activation": "Make a melee or thrown weapon attack. Use the target’s current size to determine the weapon’s bonus.",
+          "Special powers": "The +3 replaces the normal +2 on both attack and damage rolls against a Large, Huge, or Gargantuan creature.",
+          "Attunement": "None",
+          "Rarity": "Very Rare",
+          "Conversion notes": "Retains both enhancement values. Uses 2024 size categories in place of the AD&D size comparison.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 2, Table 110.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:c4427703cb9e533c": [
+      {
+        "label": "D&D 2024 adaptation · Crossbow of Accuracy, +3",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01090.htm.php.html",
+        "fields": {
+          "Category": "Simple ranged weapon (light form), or Martial (heavy form)",
+          "Damage": "1d8 Piercing + Dexterity modifier (light) or 1d10 Piercing + Dexterity modifier (heavy).",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "80/320 feet (light), or 100/400 feet (heavy).",
+          "Properties": "Ammunition (bolts), Loading, Two-Handed. Heavy form also has Heavy.",
+          "Mastery": "Slow (light form); Push (heavy form)",
+          "Weight": "5 lb (light form); 18 lb (heavy form)",
+          "Activation": "Make a ranged attack, expending one bolt. Fix the weapon form when found.",
+          "Special powers": "Attacking beyond normal range with this crossbow imposes no Disadvantage for distance. Other sources of Disadvantage still apply.",
+          "Legacy distribution": "The 2e source makes 10% of these crossbows heavy.",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Conversion notes": "Preserves the +3 to hit and treats both 2024 range bands as normal for the attack. The enchantment grants no damage bonus.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Crossbow of Accuracy, +3.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_light-crossbow",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:ab37563d783fe63c": [
+      {
+        "label": "D&D 2024 adaptation · Dagger +2, Longtooth",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01093.htm.php.html",
+        "fields": {
+          "Category": "Simple melee weapon (Dagger); Martial melee weapon (Shortsword form)",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier + 2 as a dagger. Shortsword form uses 1d6 Piercing with the same modifiers.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient with the current form, plus 2.",
+          "Range": "5 feet melee in either form, 20/60 feet thrown in dagger form.",
+          "Properties": "Finesse, Light. Only dagger form has Thrown.",
+          "Mastery": "Nick (dagger); Vex (shortsword)",
+          "Weight": "1 lb in either form",
+          "Activation": "A Small creature holding the dagger can change its form once per turn without an action. It reverts to a dagger when released. Resolve a thrown attack using dagger form.",
+          "Special powers": "On a hit against a wooden or stone object in either form, use the highest result on each weapon damage die. The attack still needs to hit the object’s AC and meet any damage threshold.",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Conversion notes": "Uses Small size as the modern eligibility rule. Retains the +2, compact weight, and exceptional ability to damage wood and stone.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Dagger +2, Longtooth.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
     "dmg-2e-reference:eda855574bac5128": [
       {
         "label": "Published 2024 counterpart · Arrow of Slaying",
