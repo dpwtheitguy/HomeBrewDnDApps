@@ -1,6 +1,266 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-2e-reference:610bfbead9f30de4": [
+      {
+        "label": "D&D 2024 adaptation · Sword of Dancing",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01126.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing plus Strength modifier and its current magic bonus. Use 1d10 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, with its current magic bonus applied.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee weapon attack. See Special powers for triggers and exceptions.",
+          "Special powers": "While held, the sword starts at +1. At the end of a turn in which you attacked with it, advance to the next stage: +2, +3, then +3 to attack and +4 to damage. After the fourth stage it returns to +1. On your next turn, you can then release it as a Bonus Action. While dancing it hovers within 30 feet of you. On release, and as a Bonus Action on each of your next three turns, you can move it up to 30 feet to a space within 30 feet of you and make one melee attack against a target within 5 feet of it, using your normal modifiers. Each dancing turn uses the next bonus stage in the same sequence. It cannot make Opportunity Attacks. At the end of the fourth turn, if you are Incapacitated, or if you end a turn without using its dancing attack, it returns to a free hand or falls in its space and resets to +1. If you move more than 30 feet away, it immediately falls in its space and resets to +1. Use it in hand through four more attack turns before releasing it again.",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword of Dancing.",
+          "Conversion notes": "Retains the four-stage attack cycle and four-turn dance. The fourth stage’s attack bonus is capped at +3 and the autonomous attacks use Bonus Actions. Uses a 2024 Longsword as the default form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Dancing range": "The sword can move up to 30 feet per use, remain within 30 feet of you, and attack within 5 feet of its position."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:4f291977ed5d9c72": [
+      {
+        "label": "D&D 2024 adaptation · Sword of Life Stealing",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01128.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing plus Strength modifier and +2. Use 1d10 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, with +2 applied.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee weapon attack. See Special powers for triggers and exceptions.",
+          "Special powers": "When you roll a natural 20 on an attack against a living creature that is neither Undead nor Construct, it takes an extra 15 Necrotic damage. You regain Hit Points equal to the Necrotic damage it takes, up to your Hit Point maximum.",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword of Life Stealing.",
+          "Conversion notes": "Keeps the +2, natural-20 life drain and real healing. Replaces the loss of a level or Hit Die with the 2024 counterpart’s fixed Necrotic damage. Uses a 2024 Longsword as the default form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#SwordofLifeStealing"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:2610b2f0eb7a4bd0": [
+      {
+        "label": "D&D 2024 adaptation · Sword of Sharpness",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01129.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing plus Strength modifier and +1. Use 1d10 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, with +1 applied.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee weapon attack. See Special powers for triggers and exceptions.",
+          "Special powers": "When you roll a natural 20 against a creature, add 14 Slashing damage and it gains 1 level of Exhaustion. In a campaign with minimum magic-enhancement thresholds, the sword counts as +3 solely for meeting that threshold. As a Bonus Action while holding it, choose no light, Dim Light to 5 feet, Bright Light to 15 feet, or Bright Light to 30 feet. Each bright setting sheds Dim Light for the same distance beyond its bright radius.",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword of Sharpness.",
+          "Conversion notes": "Retains +1, the legacy +3 eligibility threshold and selectable light. Uses the 2024 Sword of Sharpness’s damage and Exhaustion in place of permanent limb loss. Uses a 2024 Longsword as the default form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#SwordofSharpness"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:b24a7315a54efc33": [
+      {
+        "label": "D&D 2024 adaptation · Sword of Wounding",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01127.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing plus Strength modifier and +1. Use 1d10 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, with +1 applied.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee weapon attack. See Special powers for triggers and exceptions.",
+          "Special powers": "On a hit against a creature, inflict a wound. At the start of each of its turns it takes 1 Necrotic damage per open wound, and its Hit Point maximum decreases by the Necrotic damage it takes. Each wound stops after 10 rounds, or all wounds stop if the creature or an ally within 5 feet spends an action and succeeds on a DC 15 Wisdom (Medicine) check to bandage them. A Long Rest restores Hit Point maximum lost to these wounds. Regeneration and other healing cannot raise current Hit Points above the reduced maximum. Wish can also restore the Hit Point maximum lost to these wounds.",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword of Wounding.",
+          "Conversion notes": "Keeps the +1, stacking one-point wounds and ten-round duration. Uses a Medicine check and temporary maximum reduction to represent treatment and limits on magical healing. Uses a 2024 Longsword as the default form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#SwordofWounding"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:b507dafb230edb84": [
+      {
+        "label": "D&D 2024 adaptation · Sword, +4 Defender",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01123.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing plus Strength modifier and +3 before allocation. Use 1d10 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, with +3 before allocation applied.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee weapon attack. See Special powers for triggers and exceptions.",
+          "Special powers": "The sword has a defense pool of 4. The first time you attack with the sword on your turn, choose how many pool points to allocate to defense, from zero to 4. Your attack and damage bonus becomes the unallocated remainder, capped at +3. The allocated points add to AC only against melee attacks made with a held weapon while you hold the Defender. These adjustments last until the start of your next turn. Bonuses from multiple Defenders do not stack.",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword, +4 Defender.",
+          "Conversion notes": "Keeps the 4-point allocation and the original protection against held melee weapons. Caps the attack and damage bonus at +3. Uses the published 2024 Defender’s allocation timing. The 2e description specifies both the +4 and +5 variants. Uses a 2024 Longsword as the default form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Defender"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:690b4323e8b76f65": [
+      {
+        "label": "D&D 2024 adaptation · Sword +5, Defender",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01123.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing plus Strength modifier and +3 before allocation. Use 1d10 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, with +3 before allocation applied.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee weapon attack. See Special powers for triggers and exceptions.",
+          "Special powers": "The sword has a defense pool of 5. The first time you attack with the sword on your turn, choose how many pool points to allocate to defense, from zero to 5. Your attack and damage bonus becomes the unallocated remainder, capped at +3. The allocated points add to AC only against melee attacks made with a held weapon while you hold the Defender. These adjustments last until the start of your next turn. Bonuses from multiple Defenders do not stack.",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword +5, Defender.",
+          "Conversion notes": "Keeps the 5-point allocation and the original protection against held melee weapons. Caps the attack and damage bonus at +3. Uses the published 2024 Defender’s allocation timing. The 2e description specifies both the +4 and +5 variants. Uses a 2024 Longsword as the default form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Defender"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:0537659b1f48eb52": [
+      {
+        "label": "D&D 2024 adaptation · Sword, +5 Holy Avenger",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01124.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 2, or use 1d10 with two hands. An attuned Paladin uses +3 instead.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2 (+3 for an attuned Paladin).",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee attack. An attuned Paladin can also use the aura and dispelling powers.",
+          "Special powers": "While held by an attuned Paladin, the sword adds 10 Radiant damage on a hit against a Chaotic Evil creature. The Paladin and allies within 5 feet have Advantage on saving throws against spells and other magical effects. The Paladin can spend 1 of 3 charges to cast Dispel Magic on one target within 5 feet, using Charisma. The sword regains all charges at dawn.",
+          "Rarity": "Legendary",
+          "Attunement": "Required by a Paladin for the full powers. The +2 form works without attunement.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword, +5 Holy Avenger.",
+          "Conversion notes": "Keeps the dormant +2, Paladin gate, short aura and bonus against Chaotic Evil foes. Caps the original +5 at +3, uses Advantage for magic resistance, and gives the dispel a daily limit.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#HolyAvenger"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:0bbcfcfcc1eb2787": [
+      {
+        "label": "D&D 2024 adaptation · Sword of the Planes",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01131.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword)",
+          "Range": "5 feet",
+          "Mastery": "Sap",
+          "Properties": "Versatile (1d10)",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Damage": "1d8 Slashing + Strength modifier and the planar bonus, or use 1d10 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient and the planar bonus, capped at +3.",
+          "Activation": "Make a melee attack. Determine the bonus from the plane you occupy and the target’s native plane. Apply the higher bonus only.",
+          "Planar bonus": "+1 by default. +2 on an Inner Plane or against a creature native to one. +3 on an Outer Plane or against a creature native to one. On the Astral or Ethereal Plane or against a creature native to either, use +3 to hit and +4 to damage.",
+          "Conversion notes": "Preserves the 2e weapon’s planar tiers and caps the highest attack bonus at +3. The legacy +4 tier remains on damage.",
+          "Related item in later lore": "https://www.dndbeyond.com/magic-items/7526777-sword-of-the-planes",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword of the Planes.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:f5f4d19a393a9ebf": [
+      {
+        "label": "D&D 2024 adaptation · Sword, Short, of Quickness (+2)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01120.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Shortsword)",
+          "Range": "5 feet",
+          "Mastery": "Vex",
+          "Properties": "Finesse, Light",
+          "Weight": "2 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 2.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Activation": "Make a melee attack. The Initiative benefit applies while holding the attuned sword when you roll Initiative.",
+          "Special powers": "You have Advantage on Initiative rolls while holding the sword. On the first turn of each combat, your first attack with the sword has Advantage if you are not Incapacitated.",
+          "Conversion notes": "Uses Initiative Advantage and a first-turn attack benefit for the legacy automatic first strike. Keeps the +2 enhancement and shortsword form.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword, Short, of Quickness (+2).",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
     "dmg-2e-reference:a6b9d4b636ef424c": [
       {
         "label": "D&D 2024 adaptation · Staff of Command",

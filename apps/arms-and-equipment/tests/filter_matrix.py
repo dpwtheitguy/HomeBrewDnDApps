@@ -1830,6 +1830,26 @@ def main():
                         if (!byId("custom-items").hidden) click("close-custom-items");
                     }
                 })()''',
+                'AD&D 2e named swords retain their distinctive rules': '''(async () => {
+                    const cases = [
+                        ["610bfbead9f30de4", ["Dancing range", "four more attack turns"]],
+                        ["4f291977ed5d9c72", ["15 Necrotic damage", "regain Hit Points"]],
+                        ["2610b2f0eb7a4bd0", ["14 Slashing damage", "1 level of Exhaustion"]],
+                        ["b24a7315a54efc33", ["1 Necrotic damage per open wound", "Wish can also restore"]],
+                        ["b507dafb230edb84", ["defense pool of 4", "held weapon"]],
+                        ["690b4323e8b76f65", ["defense pool of 5", "held weapon"]],
+                        ["0537659b1f48eb52", ["10 Radiant damage", "Dispel Magic"]],
+                        ["0bbcfcfcc1eb2787", ["Astral or Ethereal", "+3 to hit and +4 to damage"]],
+                        ["f5f4d19a393a9ebf", ["1d6 Piercing", "Advantage on Initiative"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dmg-2e-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))
+                            || inspection.textContent.includes("2024 provisional profile")) return false;
+                    }
+                    return true;
+                })()''',
                 'AD&D 2e staves show class gates, charges, and variant powers': '''(async () => {
                     const cases = [
                         ["a6b9d4b636ef424c", ["Only a Cleric can cast Speak with Plants", "only a mammal"]],
