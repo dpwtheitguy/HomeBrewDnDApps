@@ -358,8 +358,22 @@ PUBLIC_WEAPON_PAGES = {
 }
 
 
+# Exact public-index pages for the older item. These show the revised counterpart
+# without presenting revised mechanics as part of the original publication.
+LEGACY_PUBLIC_WEAPON_PAGES = {
+    'Dagger of Venom': 4613, 'Dwarven Thrower': 4627, 'Hammer of Thunderbolts': 4649,
+    'Javelin of Lightning': 4667, 'Mace of Disruption': 4670, 'Mace of Smiting': 4671,
+    'Mace of Terror': 4672, 'Oathbow': 4686, 'Scimitar of Speed': 4752, 'Sun Blade': 4774,
+    'Trident of Fish Command': 4784, 'Dancing Sword': 5383, 'Defender': 5384,
+    'Dragon Slayer': 5385, 'Flame Tongue': 5386, 'Frost Brand': 5387, 'Giant Slayer': 5388,
+    'Holy Avenger': 5389, 'Sword of Life Stealing': 5390, 'Sword of Sharpness': 5391,
+    'Sword of Wounding': 5392, 'Luck Blade': 5393, 'Nine Lives Stealer': 5394,
+    'Vorpal Sword': 5397, 'Vicious Weapon': 5399,
+}
+
 PUBLIC_ANY_SIMPLE_OR_MARTIAL = {
     'Dragon Slayer', 'Holy Avenger', 'Vicious Weapon', 'Silvered Weapon', 'Weapon of Warning', 'Enspelled Weapon',
+    'Giant Slayer', 'Nine Lives Stealer',
 }
 
 PUBLIC_BASES = {
@@ -462,10 +476,12 @@ def main():
             entry['related_item'] = {'id': target['id'], 'label': 'Open published 2024 item'}
         records[item['id']] = [entry]
         legacy_count += 1
-    public_count = 0
+    public_count = legacy_public_count = 0
     for item in items:
         family = item['name']
-        page = PUBLIC_WEAPON_PAGES.get(family)
+        old_id = LEGACY_PUBLIC_WEAPON_PAGES.get(family)
+        legacy_page = old_id is not None and item['id'] == f'dndbeyond:{old_id}'
+        page = f"{old_id}-{family.lower().replace(' ', '-')}" if legacy_page else PUBLIC_WEAPON_PAGES.get(family)
         if item['source_id'] != PUBLIC_INDEX or not page:
             continue
         source = 'https://www.dndbeyond.com/magic-items/' + page
@@ -483,7 +499,13 @@ def main():
         for base in eligible:
             entry = details(item, family, rules, bases[base])
             entry['label'] += ' · ' + base
-            entry['source'] = rules.get('source') or source
+            if legacy_page:
+                entry['label'] = '2024 counterpart · ' + family + ' · ' + base
+                entry['fields']['Edition comparison'] = rules['change']
+                entry['rules_source'] = entry['source']
+                entry['source'] = source
+            else:
+                entry['source'] = rules.get('source') or source
             variants.append(entry)
         if family == 'Adamantine Weapon':
             variants.append({
@@ -498,10 +520,13 @@ def main():
                 },
             })
         records[item['id']] = variants
-        public_count += 1
+        if legacy_page:
+            legacy_public_count += 1
+        else:
+            public_count += 1
     (CATALOG / 'supplements/core-magic-weapon-families.json').write_text(
         json.dumps({'schema_version': 1, 'records': records}, ensure_ascii=False, separators=(',', ':')) + '\n')
-    print(f'{legacy_count} legacy counterparts and {len(targets)} published 2024 variants, {public_count} verified public-index pages.')
+    print(f'{legacy_count} legacy counterparts and {len(targets)} published 2024 variants, {public_count} verified public-index pages, {legacy_public_count} indexed legacy counterparts.')
 
 
 if __name__ == '__main__':

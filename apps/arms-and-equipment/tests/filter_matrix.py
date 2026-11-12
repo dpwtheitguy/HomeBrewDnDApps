@@ -777,6 +777,21 @@ def main():
                             .every(value => adamantine.includes(value)) &&
                         !adamantine.includes("armor counterpart · Hide Armor");
                 })()''',
+                'Legacy public weapons show revised counterparts and separate citations': '''(async () => {
+                    inspect("dndbeyond:4613", grid.firstElementChild);
+                    await itemDetails;
+                    const dagger = inspection.textContent;
+                    const links = Array.from(inspection.querySelectorAll("a")).map(link => link.href);
+                    inspect("dndbeyond:5388", grid.firstElementChild);
+                    await itemDetails;
+                    const giant = inspection.textContent;
+                    return ["2024 counterpart · Dagger of Venom", "Bonus Action", "next dawn"]
+                        .every(value => dagger.includes(value)) &&
+                        links.some(url => url.includes("4613-dagger-of-venom")) &&
+                        links.some(url => url.includes("br-2024")) &&
+                        ["2024 counterpart · Giant Slayer · Longbow", "DC 15 Strength", "Prone"]
+                            .every(value => giant.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
