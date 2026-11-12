@@ -1871,6 +1871,22 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Mystara named weapons show distinct artifact and throwing rules': '''(async () => {
+                    for (const [id, terms] of [
+                        ["4bfcbed5124918b0", ["12-mile blast", "20d12 Force"]],
+                        ["9ca1c7a258428dc4", ["2d6 Radiant", "dormant", "20-foot radius"]],
+                        ["9909dc462247254b", ["Temporary Hit Points", "defer up to 10", "DC 17 Wisdom"]],
+                        ["379643e920b2e94d", ["30/90 feet", "clear flight path"]],
+                        ["604227a283656dd0", ["10 feet of movement", "1d8 Piercing"]],
+                    ]) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Mystara combat rods show individual attacks and powers': '''(async () => {
                     for (const [id, terms] of [
                         ["140c71b6bb0be277", ["8,000 pounds", "20/60 feet thrown", "Suspended throw"]],

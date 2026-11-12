@@ -1,6 +1,147 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:4bfcbed5124918b0": [
+      {
+        "label": "D&D 2024 adaptation · Annihilator",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/annihil.html",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Artifact",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "As a Magic action while attuned and holding the blade in your right hand, speak its command word to trigger the original 12-mile blast. This destroys the bearer and devastates the surrounding area. Treat activation as a campaign event under DM control. If the DM resolves a protected creature’s immediate exposure in initiative, it makes a DC 25 Constitution save, taking 20d12 Force damage on a failure or half on a success. No save protects the bearer. The blade survives, loses the blast power, and retains its +1 enhancement.",
+          "Conversion notes": "The source presents the sword as a Thyatian deterrent. The attack uses the 2024 Longsword. The one-use limit and save for protected creatures are conversion rules.",
+          "Source locator": "Jeff Daly, Annihilator, Powers.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "History": "Thyatian mages created the weapon to deter Alphatian aggression. Its construction records are held in the imperial vaults."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:9ca1c7a258428dc4": [
+      {
+        "label": "D&D 2024 adaptation · Arbus the White Avenger",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.pandius.com/arbus.html",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 Slashing + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "6 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required by a Paladin",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "On a hit against an Orc, Undead, or Dragon, deal an extra 2d6 Radiant damage. As a Bonus Action once per dawn, awaken its extraordinary power for 1 minute. During that time the first hit on each of your turns deals a further 2d6 Radiant damage.",
+          "Conversion notes": "Extra dice replace the legacy situational +5 and quadruple damage. The full and dormant states preserve the history of the blade being suppressed.",
+          "Source locator": "Demos Sachlas, Arbus the White Avenger, Powers and History.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Revelation": "Three times per dawn each, use a Magic action to shed Bright Light for 15 feet and Dim Light for another 15 feet for 1 hour, or to cast Detect Magic with a 20-foot radius. As a Magic action once per dawn, for 1 minute with Concentration, you see Invisible creatures and objects within 20 feet and gain Advantage on Wisdom (Perception) checks to locate other hidden creatures and objects within that distance.",
+          "Sentience and history": "The blade speaks and reads Common, Goblin, Orc, and Draconic. It was forged in Blackmoor and passed through Thonia, Nithia, Ierendi, and Glantri. If found dormant after the shadowelf’s dispelling, only its light power is available until the DM resolves a restoration quest."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:9909dc462247254b": [
+      {
+        "label": "D&D 2024 adaptation · Ferrum Nigrum",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Ferrum_Nigrum.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Artifact",
+          "Attunement": "Required (cursed)",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "While holding the sword your Strength is at least 18. Once per turn when a sword hit reduces a hostile creature to 0 HP, gain Temporary Hit Points equal to half its Hit Point maximum, rounded down, up to 25. These expire after 1 minute. A creature killed with the blade can return to life only by divine intervention adjudicated by the DM.",
+          "Conversion notes": "Bounded Temporary Hit Points replace the transfer of a slain foe’s full Hit Points. The curse uses a limited damage delay and a defined end-of-frenzy save.",
+          "Source locator": "Ferrum Nigrum, p. 1, Abilities and Penalties.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Frenzy": "The first time you attack with the sword in an encounter, you enter a frenzy for up to 1 minute. Once each round while frenzied, when a melee attack damages you, you may defer up to 10 of that damage, after all modifiers. Apply all deferred damage when the frenzy ends. It ends early if you are Incapacitated or finish a turn with no conscious hostile creature within 60 feet. Then make a DC 17 Wisdom save. On failure you must spend your next turn moving toward and making one sword attack against the nearest creature you can reach. On success, make a DC 17 Constitution save or be Incapacitated until the end of your next turn.",
+          "Curse and sentience": "The sword speaks telepathically to its wielder in any language. If a week passes without killing a living creature with the sword, make a DC 17 Wisdom save or be unable to willingly draw any other weapon for the next day. The sword prevents voluntary ending of attunement. Divine intervention can end it."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:379643e920b2e94d": [
+      {
+        "label": "D&D 2024 adaptation · Figure-Eight Magic Boomerang",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=5",
+        "fields": {
+          "Category": "Simple ranged weapon",
+          "Damage": "1d4 Bludgeoning + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "30/90 feet",
+          "Properties": "Thrown",
+          "Mastery": "Slow",
+          "Weight": "1 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Activation": "Make a ranged weapon attack. The return attack is part of the same throw.",
+          "Special powers": "Once per turn when you miss with a throw, you may immediately roll one more attack against the same target as the boomerang curves back. Add +2 to that second attack if the target did not see you throw. Resolve cover from the boomerang’s approach. The return attack must have a clear flight path within the weapon’s long range. After a miss outdoors it returns to you at the end of the turn, landing at your feet if you have no free hand. A hit ends the flight and the weapon lands in the target’s space.",
+          "Conversion notes": "The Wallaran returning throw uses a distinct ranged profile. The legacy bonus on an unaware target is preserved.",
+          "Source locator": "Colin Davidson, Extended Equipment List, PDF p. 5, Boomerang.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:604227a283656dd0": [
+      {
+        "label": "D&D 2024 adaptation · Foot-Thrown Barbed Spear",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Maganshire_Resource_Book.pdf#page=123",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Piercing (1d8 in two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee or 20/60 feet thrown",
+          "Properties": "Thrown, Versatile (1d8)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Mundane",
+          "Attunement": "None",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "If you are proficient with spears, you may take an action to make one special thrown attack with this spear. You must have at least 10 feet of movement remaining and expend that movement to brace and launch it. On a hit add 1d8 Piercing damage. The throw uses the normal spear range and Strength attack modifier.",
+          "Conversion notes": "The added die replaces the legacy whole-Strength-score damage bonus and the action cost preserves the slower throw. The source lists a price of 9 gp and associates the technique with Caltia, Denagoth, and Yannifey.",
+          "Source locator": "Maganshire Resource Book, PDF p. 123, Gae-Bolga and Del-Chliss.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
     "mystara-fan-names-reference:140c71b6bb0be277": [
       {
         "label": "D&D 2024 adaptation · Rod of Inertia",
