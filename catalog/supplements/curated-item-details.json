@@ -1,6 +1,38 @@
 {
   "schema_version": 1,
   "records": {
+    "tomb-annihilation-reference:833477bad0bf5aff": [
+      {
+        "label": "D&D 2024 adaptation · Bookmark",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://online.anyflip.com/tqblu/jphj/files/basic-html/page207.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 Dagger"
+        },
+        "appraise_as_magic_weapon": true,
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier + 3.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee or 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack, or use a Bonus Action while holding the drawn dagger to activate one of its powers.",
+          "Light and direction": "Toggle the pommel gem’s light on or off. It sheds Bright Light for 20 feet and Dim Light for another 20 feet. Alternatively, turn the dagger into a compass that points north when resting on your palm. It remains a dagger.",
+          "Dimension Door": "Cast Dimension Door from the dagger without components once per dawn. Use the spell’s normal 500-foot range and passenger rules.",
+          "Spider Compulsion": "Cast Compulsion without components once per dawn (Wisdom save DC 15, range 90 feet). The spell can target only spiders with the Beast creature type. Use the 2024 spell’s normal Concentration and movement rules.",
+          "History": "The dagger belongs to Artus Cimber in the adventure.",
+          "Source locator": "Tomb of Annihilation, Appendix C, printed p. 206 (viewer page 207), Bookmark.",
+          "Conversion notes": "Uses the 2024 Dagger and spell rules. The item’s Bonus Action casting, expanded Compulsion range, and separate dawn recharges come from the adventure."
+        }
+      }
+    ],
     "tomb-annihilation-reference:9d8f64321a04877b": [
       {
         "label": "D&D 2024 adaptation · Scorpion Armor",

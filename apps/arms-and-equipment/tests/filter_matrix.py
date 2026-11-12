@@ -1871,6 +1871,14 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Bookmark shows its dagger profile and separate dawn powers': '''(async () => {
+                    inspect("tomb-annihilation-reference:833477bad0bf5aff", grid.firstElementChild);
+                    await itemDetails;
+                    const detail = inspection.textContent;
+                    dismissInspection(false);
+                    return ["1d4 Piercing", "20/60 feet", "Nick", "500-foot range", "Wisdom save DC 15, range 90 feet",
+                        "spiders with the Beast creature type", "separate dawn recharges"].every(term => detail.includes(term));
+                })()''',
                 'Tomb of Annihilation armor and staff preserve curse rules': '''(async () => {
                     inspect("tomb-annihilation-reference:9d8f64321a04877b", grid.firstElementChild);
                     await itemDetails;
