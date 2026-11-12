@@ -183,9 +183,9 @@ function dismissInspection(restoreFocus = true) {
     if (restoreFocus && returnFocus && returnFocus.isConnected) returnFocus.focus();
     return true;
 }
-window.closeInspection = () => dismissInspection() || closeCustomItems() || closeShop();
+window.closeInspection = () => dismissInspection() || closeCustomItems() || closeMerchants() || closeShop();
 
-function inspect(id, trigger) {
+function inspect(id, trigger, shopOffer) {
     const item = JSON.parse(Armory.item(id));
     if (!item.name) {
         byId("status").textContent = item.error || "This entry is unavailable.";
@@ -221,6 +221,9 @@ function inspect(id, trigger) {
     if (propertiesText) inspection.appendChild(element("p", propertiesText, "rule"));
     const status = [pretty(item.content_status), pretty(item.tabletop_status)].filter(Boolean).join(" · ");
     if (status) inspection.appendChild(element("p", status, "meta"));
+    if (shopOffer) {
+        inspection.appendChild(element("p", "Shop price · " + coins(shopOffer.price) + " · " + shopOffer.name, "rule"));
+    }
     const price = item.market_price;
     const priceRows = price ? [
         ["Base cost", price.base_cost_gp + " gp"],
@@ -388,6 +391,7 @@ function start() {
     metadata.sources.forEach(row => sources[row.id] = row.name);
     metadata.taxonomy.entities.forEach(row => entities[row.id] = row.label);
     setupShop();
+    setupMerchants();
     facet("scope", "Search in", [["name","Item name"],["exact","Exact item name"]]);
     facets.scope.options[0].text = "All indexed text";
     facet("proficiency", "Class proficiency or training", [["rogue-2024","Rogue · 2024"],["fighter-2024","Fighter · 2024"]]);

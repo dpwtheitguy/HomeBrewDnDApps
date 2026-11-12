@@ -80,6 +80,7 @@ function renderBasket() {
 }
 
 function openShop() {
+    closeMerchants();
     dismissInspection();
     const shop = byId("blinsky-shop");
     const stock = byId("shop-stock");

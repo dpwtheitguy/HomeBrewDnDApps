@@ -184,3 +184,6 @@ summary{min-height:44px;display:list-item;padding:10px 0;cursor:pointer;color:va
     #jack-box.jack-open .jack-face { animation: none; transform: translateX(-50%); }
     #shop-eye span { transition: none; }
 }
+#merchants .merchant-picker{display:grid;gap:6px;margin:14px 0;max-width:420px}
+#merchants h2{margin:16px 0 0;color:var(--gold)}
+#merchant-stock .card{width:100%}

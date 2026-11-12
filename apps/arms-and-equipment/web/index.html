@@ -9,6 +9,7 @@
 <script src="weapon-rules.js" defer></script>
 <script src="item-details.js" defer></script>
 <script src="shop.js" defer></script>
+<script src="merchants.js" defer></script>
 <script src="guide.js" defer></script>
 <script src="custom-items.js" defer></script>
 </head>
@@ -17,13 +18,14 @@
   <h1>Kahn’s Complete Guide to Arms and Equipment</h1>
 </header>
 <main>
-  <section class="shelf" aria-label="Catalog">
+  <section id="catalog-shelf" class="shelf" aria-label="Catalog">
     <div class="searchbar">
       <input id="search" type="search" maxlength="120" placeholder="Search the armory" aria-label="Search equipment" autocomplete="off">
       <button id="filter-toggle" aria-expanded="false" aria-controls="filters">Filters</button>
     </div>
     <nav id="categories" aria-label="Equipment categories"></nav>
     <button id="open-custom-items" type="button">My magic items</button>
+    <button id="open-merchants" type="button">Shops</button>
     <section id="filters" hidden aria-label="Filter results">
       <div id="facets"></div>
       <fieldset id="budget">
@@ -112,6 +114,27 @@
         <p id="custom-item-status" class="meta" role="status"></p>
       </div>
     </div>
+  </section>
+  <section id="merchants" class="shelf" hidden aria-label="Shops">
+    <button id="merchant-back" type="button">Back to catalog</button>
+    <label class="merchant-picker">Shop
+      <select id="merchant-choice">
+        <optgroup label="Barovia">
+          <option value="bildrath">Bildrath’s Mercantile</option>
+        </optgroup>
+        <optgroup label="Thyatis City">
+          <option value="budget">Market Provisioner · Budget</option>
+          <option value="standard">City Outfitter · Standard</option>
+          <option value="premium">Imperial Armorer · Premium</option>
+        </optgroup>
+      </select>
+    </label>
+    <h2 id="merchant-name"></h2>
+    <p id="merchant-location" class="meta"></p>
+    <p id="merchant-policy"></p>
+    <button id="merchant-source" type="button" hidden></button>
+    <p id="merchant-date" class="meta"></p>
+    <div id="merchant-stock" class="grid"></div>
   </section>
   <section id="blinsky-shop" class="shelf" hidden aria-label="Blinsky’s Toys">
     <div class="shop-controls">

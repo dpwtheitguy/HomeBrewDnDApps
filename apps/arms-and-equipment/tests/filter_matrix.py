@@ -3012,6 +3012,43 @@ def main():
                 'Reject inverted buy budget': '''(() => {const prior=searchId;byId("price-min").value="30";byId("price-max").value="10";
                     byId("price-max").dispatchEvent(new Event("change"));
                     return !byId("budget-error").hidden && searchId===prior;})()''',
+                'Shops expose Barovia and three Thyatis price tiers': '''(async () => {
+                    const choose = id => {
+                        const picker = byId("merchant-choice");
+                        picker.value = id;
+                        picker.dispatchEvent(new Event("change"));
+                    };
+                    const offers = () => Array.from(byId("merchant-stock").children);
+                    const price = slug => Number(offers().find(card => card.dataset.id.endsWith("_" + slug)).dataset.copper);
+                    byId("open-merchants").click();
+                    try {
+                        choose("bildrath");
+                        if (offers().length !== 7 || price("rope") !== 1000 || price("torch") !== 10
+                            || merchantPrice({originalPrices:{test:2500}}, "test", {}) !== null
+                            || byId("merchant-source").hidden) return false;
+                        offers()[0].click();
+                        await itemDetails;
+                        if (!inspection.textContent.includes("Shop price · 10 gp")) return false;
+                        if (!window.closeInspection() || byId("merchants").hidden) return false;
+                        for (const [id, slug, copper] of [["budget","dagger",180],["standard","shield",1000],["premium","plate-armor",187500]]) {
+                            choose(id);
+                            if (offers().length !== 6 || price(slug) !== copper || !byId("merchant-source").hidden) return false;
+                        }
+                        return window.closeInspection() && byId("merchants").hidden && !byId("catalog-shelf").hidden;
+                    } finally {
+                        closeMerchants();
+                    }
+                })()''',
+                'Merchant stock stays stable by civil date and rotates gradually': '''(() => {
+                    return Object.values(merchantShops).every(shop => {
+                        const first = merchantStockIds(shop, new Date(2026, 11, 28, 1));
+                        const same = merchantStockIds(shop, new Date(2026, 11, 28, 23));
+                        const next = merchantStockIds(shop, new Date(2027, 0, 4));
+                        const overlap = first.filter(id => next.includes(id));
+                        return first.join() === same.join() && new Set(first).size === first.length
+                            && overlap.length === shop.staples.length && shop.staples.every(id => overlap.includes(id));
+                    });
+                })()''',
                 'Blinsky hidden under About': '''!byId("about").open && byId("blinsky-shop").hidden
                     && byId("visit-blinsky").closest("#about")===byId("about")''',
                 'Blinsky stock and source prices': '''byId("about").open=true;byId("visit-blinsky").click();
