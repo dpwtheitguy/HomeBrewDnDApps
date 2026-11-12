@@ -3338,6 +3338,113 @@
         },
         "profile_kind": "custom-2024-draft"
       }
+    ],
+    "gazetteer-local-pdf-reference:4afe35e28d429453": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing one-handed or 1d10 two-handed, plus Strength modifier.",
+          "Range": "5 ft melee",
+          "Activation": "Make a normal weapon attack.",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Attunement": "None",
+          "Legacy source": "GAZ3, p. 10, The Glantrian Economy. Fine swords are a specialty of Belcadiz metalworkers.",
+          "Conversion notes": "Longsword is the base chosen for this example. Fine workmanship adds no combat bonus."
+        },
+        "profile_kind": "custom-2024-draft",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:bf56be2652349ee1": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d8 Piercing plus Dexterity modifier.",
+          "Range": "150/600 ft",
+          "Activation": "Make a normal ranged weapon attack using an arrow.",
+          "Properties": "Ammunition (Arrow), Heavy, Two-Handed",
+          "Mastery": "Slow",
+          "Attunement": "None",
+          "Legacy source": "GAZ3, p. 11, Wealth of the Principalities. Erewan bowyers produce small quantities of excellent bows.",
+          "Conversion notes": "Longbow is the base chosen for this example. Workmanship adds no combat bonus."
+        },
+        "profile_kind": "custom-2024-draft",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:b27c92b4aef54915": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "None",
+          "Special powers": "Use the Chain Shirt’s standard donning and doffing rules.",
+          "Legacy source": "GAZ3, p. 10, The Glantrian Economy. Belcadiz metalworkers specialize in light metal armor.",
+          "Conversion notes": "Chain Shirt is the chosen 2024 profile for a light metal suit. Its training category is Medium armor."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:db6c9b50d292fa40": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/playing-the-game#Droppingto0HitPoints",
+        "fields": {
+          "Category": "Simple melee training weapon",
+          "Damage": "1d4 Bludgeoning plus Strength modifier.",
+          "Range": "5 ft melee",
+          "Activation": "Make a melee attack. If you would reduce a creature to 0 HP, you can instead leave it at 1 HP and give it the Unconscious condition.",
+          "Properties": "Light",
+          "Mastery": "Slow",
+          "Attunement": "None",
+          "Special powers": "The knocked-out creature begins a Short Rest. It wakes at the end of that rest, if it regains HP, or if someone uses an action and succeeds on a DC 10 Wisdom (Medicine) check to give first aid.",
+          "Legacy source": "GAZ2, p. 47. The mock-war contests use blunted arms.",
+          "Conversion notes": "A Club is the chosen sample blunted weapon. Use the 2024 knockout procedure."
+        },
+        "profile_kind": "custom-2024-draft",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:d40bbd47d4ca7ecd": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "fields": {
+          "Armor class bonus": "+0. Use the AC of any armor worn with it.",
+          "Training": "No separate training.",
+          "Attunement": "None",
+          "Special powers": "The helm is a piece of costume or armor trim. It grants no separate AC or magical protection.",
+          "Legacy source": "GAZ8, p. 16, The Ballad of Nob Nar. The verse describes an old bone helm.",
+          "Conversion notes": "The 2024 armor table has no separate helmet AC. A suit of armor can include this helm as part of its appearance."
+        }
+      }
     ]
   }
 }

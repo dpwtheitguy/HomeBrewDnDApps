@@ -566,6 +566,18 @@ def main():
                         ["DM review", "scabbard", "+11", "2d8 Slashing", "until dawn"]
                             .every(value => sword.includes(value));
                 })()''',
+                'Mystara training weapon and bone helm show their tabletop roles': '''(async () => {
+                    inspect("gazetteer-local-pdf-reference:db6c9b50d292fa40", grid.firstElementChild);
+                    await itemDetails;
+                    const weapon = inspection.textContent;
+                    inspect("gazetteer-local-pdf-reference:d40bbd47d4ca7ecd", grid.firstElementChild);
+                    await itemDetails;
+                    const helm = inspection.textContent;
+                    return ["DM review", "1 HP", "Unconscious", "DC 10 Wisdom"]
+                        .every(value => weapon.includes(value)) &&
+                        ["DM review", "Armor class bonus+0", "no separate AC"]
+                            .every(value => helm.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
