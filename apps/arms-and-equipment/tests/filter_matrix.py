@@ -1740,6 +1740,32 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault staffs retain spell damage, range, and targeting rules': '''(async () => {
+                    const cases = [
+                        ["4cf1e3385708dd6c", ["Fire damage dealt by spells cast through it to Acid"]],
+                        ["aeea4daa7b94db22", ["extra 1d6 Acid damage", "must use the new result"]],
+                        ["1e58435aa5365faf", ["within 10 feet", "including against the triggering damage"]],
+                        ["4e6d7ba5336fe75c", ["halve all damage", "+10 damage"]],
+                        ["d369958b422dec8a", ["Light cantrip", "1 Radiant damage"]],
+                        ["584d8fb564f75a0b", ["one additional dart", "exactly two creatures within 25 feet"]],
+                        ["9d0e4924b4960f33", ["one damage roll per casting", "1d10 extra damage"]],
+                        ["fd47ffe30df1c326", ["recurring Fire damage", "5 extra Fire damage"]],
+                        ["7757ce6d0bfe0388", ["up to two hands", "10-pound carrying limit"]],
+                        ["abcc6341f8dd8ca9", ["within 25 feet", "normal save and DC"]],
+                        ["061b888dc3dbe1c6", ["extra 1d6 Poison damage", "DC 15 Constitution"]],
+                        ["e2585ec93a87ac0d", ["willing ally", "closest unoccupied space outside it"]],
+                        ["1b0624e09f1b5a46", ["cast Shield", "add 1 to the AC bonus"]],
+                        ["e562b1cf2bd81d68", ["increase that range by 5 feet", "does not change the area’s dimensions"]],
+                        ["90fa8a7e5e547dc6", ["neither deals damage nor calls for an attack roll or saving throw"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const details = inspection.textContent;
+                        if (!["1d6 Bludgeoning", "Topple", "draft conversion plus 2024 Quarterstaff cost", ...terms].every(term => details.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Adventurer’s Vault staffs show separate melee and spell rules': '''(async () => {
                     const cases = [
                         ["051dc26c9d98c71d", ["contiguous 5-foot section", "one 5-foot section stays in place"]],
