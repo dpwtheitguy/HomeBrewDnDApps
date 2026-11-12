@@ -850,6 +850,23 @@ def main():
                         ["Sword of Vengeance · Rapier", "DC 15 Wisdom", "Banishment", "0 HP"]
                             .every(value => sword.includes(value));
                 })()''',
+                'Curse of Strahd conversions preserve adventure-specific combat rules': '''(async () => {
+                    const cases = [
+                        ["curse-of-strahd-reference:0d78caf0c91ed39e", ["2d6 Temporary Hit Points", "20/60 feet", "Kavan"]],
+                        ["dndbeyond:5531", ["2d6 Radiant", "DC 15 Wisdom", "crumbles when that battle ends"]],
+                        ["curse-of-strahd-reference:919ef60581cee5bc", ["1d8 Radiant", "sunlight", "Communicates emotions"]],
+                        ["dndbeyond:5528", ["1d6 + 4", "DC 12 Wisdom", "300 feet"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        const details = inspection.textContent;
+                        const links = Array.from(inspection.querySelectorAll("a"));
+                        if (!terms.every(term => details.includes(term)) ||
+                            !links.some(link => link.href.includes("/cos/treasures"))) return false;
+                    }
+                    return true;
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
