@@ -142,10 +142,13 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
         entry = properties[0]
         details = entry.get('fields', {})
         provenance = item['provenance']
-        expected_host = 'One shield' if item['type'] == 'shield' else 'One suit of Light, Medium, or Heavy armor'
+        allowed_hosts = {'One shield'} if item['type'] == 'shield' else {
+            'One suit of Light, Medium, or Heavy armor', 'One suit of Plate Armor',
+            'One suit of Half Plate or Plate Armor',
+        }
         if (len(properties) != 1 or mappings or encounter or entry.get('status') != 'original-draft'
                 or entry.get('source') != provenance.get('source_url') or not provenance.get('locator')
-                or details.get('Applies to') != expected_host
+                or details.get('Applies to') not in allowed_hosts
                 or not all(details.get(key) for key in ('Source locator', 'Special powers', 'Armor class effect',
                                                         'Attunement', 'Conversion notes'))):
             errors.append('armor enchantment needs an applicable host, rules, and source')

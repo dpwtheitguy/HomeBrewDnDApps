@@ -1163,12 +1163,18 @@ def main():
                         ["dmg-35-reference:084a0eb692ad1954", ["Armor class18", "Resistance to Lightning"]],
                         ["dmg-35-reference:17c64070fe4b05b8", ["One shield", "Thunder damage", "reduce that damage by 10"]],
                         ["dmg-35-reference:533684ed1ebd3331", ["adds no AC", "reduce that damage by 20", "next dawn"]],
+                        ["dmg-35-reference:9e59bcb13de27714", ["Bonus Action", "freeing both hands", "1 minute"]],
+                        ["dmg-35-reference:a826105644abdcdc", ["level 9 or lower", "Spell attack rolls", "Disadvantage"]],
+                        ["dmg-35-reference:eba10ceab91d6d09", ["Critical Hit", "normal hit"]],
+                        ["dmg-35-reference:ad7ff581e80e999f", ["Armor class bonus+3", "1d4", "Piercing"]],
+                        ["dmg-35-reference:de0ab3aecec8b9db", ["Half Plate or Plate Armor", "8 hours", "recharges at dawn"]],
                     ];
                     for (const [id, terms] of cases) {
                         inspect(id, grid.firstElementChild);
                         await itemDetails;
                         const details = inspection.textContent;
-                        if (!terms.every(term => details.includes(term))) return false;
+                        const missing = terms.filter(term => !details.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
                     }
                     return true;
                 })()''',
