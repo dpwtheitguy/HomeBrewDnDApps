@@ -1869,6 +1869,23 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Vault of Magic shows dragon rituals, shield colors, cursed blades, and trident rules': '''(async () => {
+                    for (const [id, terms] of [
+                        ["greatsword-of-fallen-saints", ["Graze", "Gentle Repose"]],
+                        ["longsword-of-volsung", ["Fighter or Paladin", "Dragon Heart Ritual", "1d4 + 1 hours"]],
+                        ["tarian-graddfeydd-ddraig", ["Armor class bonus+4", "30-foot Cone", "6 Shadow"]],
+                        ["thirsting-scalpel", ["1d4 Slashing", "DC 11 Wisdom", "Banishment"]],
+                        ["troll-skin-hide", ["13 + Dex modifier", "become Stable", "AttunementRequired"]],
+                        ["trident-of-the-yearning-tide", ["Topple", "save DC 17", "water-breathing beasts"]],
+                    ]) {
+                        inspect("open5e-vom:vom_" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Vault of Magic restores shield reactions, armor requirements, and the planted standard': '''(async () => {
                     for (const [id, terms] of [
                         ["spearbiter", ["Armor class bonus+2", "Reaction", "recharges at dawn", "AttunementRequired"]],

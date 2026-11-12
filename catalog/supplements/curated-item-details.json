@@ -1,6 +1,540 @@
 {
   "schema_version": 1,
   "records": {
+    "open5e-vom:vom_greatsword-of-fallen-saints": [
+      {
+        "label": "D&D 2024 adaptation · Greatsword of Fallen Saints",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 Slashing + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "6 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "If you die while attuned to the sword, your corpse gains the effects of Gentle Repose until another creature attunes to it. Your remains are protected from decay and becoming Undead, and the time under this effect is excluded from the time limit for spells that raise the dead.",
+          "Conversion notes": "Uses the 2024 Greatsword profile and Gentle Repose. Death triggers the effect without an action or components.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 39."
+        }
+      }
+    ],
+    "open5e-vom:vom_longsword-of-fallen-saints": [
+      {
+        "label": "D&D 2024 adaptation · Longsword of Fallen Saints",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "If you die while attuned to the sword, your corpse gains the effects of Gentle Repose until another creature attunes to it. Your remains are protected from decay and becoming Undead, and the time under this effect is excluded from the time limit for spells that raise the dead.",
+          "Conversion notes": "Uses the 2024 Longsword profile and Gentle Repose. Death triggers the effect without an action or components.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 39."
+        }
+      }
+    ],
+    "open5e-vom:vom_rapier-of-fallen-saints": [
+      {
+        "label": "D&D 2024 adaptation · Rapier of Fallen Saints",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_rapier",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "If you die while attuned to the sword, your corpse gains the effects of Gentle Repose until another creature attunes to it. Your remains are protected from decay and becoming Undead, and the time under this effect is excluded from the time limit for spells that raise the dead.",
+          "Conversion notes": "Uses the 2024 Rapier profile and Gentle Repose. Death triggers the effect without an action or components.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 39."
+        }
+      }
+    ],
+    "open5e-vom:vom_scimitar-of-fallen-saints": [
+      {
+        "label": "D&D 2024 adaptation · Scimitar of Fallen Saints",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scimitar",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Slashing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Weight": "3 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "If you die while attuned to the sword, your corpse gains the effects of Gentle Repose until another creature attunes to it. Your remains are protected from decay and becoming Undead, and the time under this effect is excluded from the time limit for spells that raise the dead.",
+          "Conversion notes": "Uses the 2024 Scimitar profile and Gentle Repose. Death triggers the effect without an action or components.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 39."
+        }
+      }
+    ],
+    "open5e-vom:vom_shortsword-of-fallen-saints": [
+      {
+        "label": "D&D 2024 adaptation · Shortsword of Fallen Saints",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "If you die while attuned to the sword, your corpse gains the effects of Gentle Repose until another creature attunes to it. Your remains are protected from decay and becoming Undead, and the time under this effect is excluded from the time limit for spells that raise the dead.",
+          "Conversion notes": "Uses the 2024 Shortsword profile and Gentle Repose. Death triggers the effect without an action or components.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 39."
+        }
+      }
+    ],
+    "open5e-vom:vom_greatsword-of-volsung": [
+      {
+        "label": "D&D 2024 adaptation · Greatsword of Volsung",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 Slashing + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "6 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required by a Fighter or Paladin",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While holding or carrying the sword, you cannot be Frightened. Each hit against a Dragon deals an extra 1d6 Slashing damage. As a Bonus Action, awaken the sword for 24 hours. During that time its enhancement becomes +3 and its extra damage against Dragons becomes 3d6 Slashing. This normally recharges after 3 days. After the ritual, you can also spend 2 charges to awaken it as a Bonus Action.",
+          "Conversion notes": "The awakened bonuses replace the normal bonuses. The draft treats the three ritual charges as the sword’s maximum and the 24-hour exception as independent of charge availability. Use the Dragon creature type.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 39, 152.",
+          "Dragon Heart Ritual": "While also attuned to the Locket of Dragon Vitality, spend a Long Rest transferring 3 charges and reattuning to the sword. The locket breaks permanently. The sword gains 3 charges and regains expended charges when you slay a Dragon. While you carry the sword, dropping to 0 Hit Points without dying outright grants Temporary Hit Points equal to your level plus Constitution modifier once per 24 hours. The sword survives. When damage first takes you from above half your Hit Point maximum to half or below, the sword spends 1 charge if available. It ends existing blood-loss effects and grants immunity to them for 1d4 + 1 hours.",
+          "Locket reference": "https://anyflip.com/jfxvv/yvie/basic/151-200"
+        }
+      }
+    ],
+    "open5e-vom:vom_longsword-of-volsung": [
+      {
+        "label": "D&D 2024 adaptation · Longsword of Volsung",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required by a Fighter or Paladin",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While holding or carrying the sword, you cannot be Frightened. Each hit against a Dragon deals an extra 1d6 Slashing damage. As a Bonus Action, awaken the sword for 24 hours. During that time its enhancement becomes +3 and its extra damage against Dragons becomes 3d6 Slashing. This normally recharges after 3 days. After the ritual, you can also spend 2 charges to awaken it as a Bonus Action.",
+          "Conversion notes": "The awakened bonuses replace the normal bonuses. The draft treats the three ritual charges as the sword’s maximum and the 24-hour exception as independent of charge availability. Use the Dragon creature type.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 39, 152.",
+          "Dragon Heart Ritual": "While also attuned to the Locket of Dragon Vitality, spend a Long Rest transferring 3 charges and reattuning to the sword. The locket breaks permanently. The sword gains 3 charges and regains expended charges when you slay a Dragon. While you carry the sword, dropping to 0 Hit Points without dying outright grants Temporary Hit Points equal to your level plus Constitution modifier once per 24 hours. The sword survives. When damage first takes you from above half your Hit Point maximum to half or below, the sword spends 1 charge if available. It ends existing blood-loss effects and grants immunity to them for 1d4 + 1 hours.",
+          "Locket reference": "https://anyflip.com/jfxvv/yvie/basic/151-200"
+        }
+      }
+    ],
+    "open5e-vom:vom_tamers-whip": [
+      {
+        "label": "D&D 2024 adaptation · Tamer’s Whip",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_whip",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d4 Slashing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "10 feet melee",
+          "Properties": "Finesse, Reach",
+          "Mastery": "Slow",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Gain Advantage on attacks with this whip against Beasts. On a natural 20 against a Beast, it makes a DC 15 Wisdom save. On a failure, choose Charmed or Frightened by you for 1 minute. It repeats the save at the end of each of its turns. A Charmed Beast understands and follows your one-word orders. If you share a language, it can follow more detailed orders in that language.",
+          "Conversion notes": "Retains the printed natural-20 trigger. This draft applies the language exception when the Beast understands the language used for the order.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 39."
+        }
+      }
+    ],
+    "open5e-vom:vom_tarian-graddfeydd-ddraig": [
+      {
+        "label": "D&D 2024 adaptation · Tarian Graddfeydd Ddraig",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While wielding the shield, its +2 enhancement combines with the normal +2 shield bonus. Gain Resistance to Acid, Cold, Fire, Lightning, Necrotic, and Poison damage from Dragon breath weapons. As a Magic action in Dim Light or Bright Light, flash a 15-foot Cone in Dim Light or a 30-foot Cone in Bright Light. Each creature in it makes a DC 17 Dexterity save. Roll separately for each creature on the color table. A successful save halves the initial damage and avoids the additional effect. This recharges at dawn.",
+          "Conversion notes": "Uses the 2024 Shield baseline. Check the light at the wielder’s space. The breath protection applies only to the listed damage types.",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 39–40.",
+          "Armor class bonus": "+4",
+          "Color table (d6)": "1 Red: 6d6 Fire. 2 White: 4d6 Cold and Restrained until your next turn starts. 3 Blue: 4d6 Lightning and Paralyzed until your next turn starts. 4 Black: 4d6 Acid plus 2d6 Acid at the start of your next turn on a failed save. 5 Green: 4d6 Poison and Poisoned until your next turn starts. 6 Shadow: 4d6 Necrotic and Strength reduced by 1d4 until a Short or Long Rest. A creature whose Strength reaches 0 this way dies."
+        },
+        "enhancement_bonus": 2
+      }
+    ],
+    "open5e-vom:vom_tenebrous-flail-of-screams": [
+      {
+        "label": "D&D 2024 adaptation · Tenebrous Flail of Screams",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_flail",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Bludgeoning + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Each hit against a creature deals an extra 1d6 Psychic damage. On a natural 20 against it, the creature must pass a DC 15 Wisdom save or be Incapacitated until the end of its next turn.",
+          "Conversion notes": "Uses the 2024 Flail. The save triggers on a natural 20 even if another feature expands your critical range.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 40."
+        }
+      }
+    ],
+    "open5e-vom:vom_thirsting-scalpel": [
+      {
+        "label": "D&D 2024 adaptation · Thirsting Scalpel",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Slashing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "On a natural 20 against a creature, add 2d6 Slashing damage. Unless the target is a Construct or Undead, it must pass a DC 13 Constitution save or lose 2d6 Hit Points at the start of each of its turns. A creature can take an action and succeed on a DC 11 Wisdom (Medicine) check to close the wound. Magical healing closes it as well.",
+          "Conversion notes": "Uses the 2024 Dagger with Slashing damage. For this draft, roll the explicit 2d6 natural-20 rider once in addition to the normal critical hit dice.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 40.",
+          "Curse": "Attuning binds you to the scalpel and makes you keep it on your person. While attuned, you have Disadvantage on attacks with other weapons. Every 7 days while carrying it, make a DC 15 Charisma save. On a failure, gain Advantage with the scalpel until you roll a natural 20 with it, deal 14 Slashing damage with it, or 1 hour passes. If the hour passes without either attack threshold, it deals 14 Slashing damage to you that cannot be healed for 24 hours. Remove Curse frees you and ends attunement. The book also allows Banishment to target the scalpel and expel its devil, leaving an ordinary +1 Dagger."
+        }
+      }
+    ],
+    "open5e-vom:vom_thirsting-thorn": [
+      {
+        "label": "D&D 2024 adaptation · Thirsting Thorn",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While carrying the sword, you have Resistance to Necrotic damage. When you reduce a creature to 0 Hit Points with it, you can regain 2d8 + 2 Hit Points. If you do, make a DC 12 Wisdom save or be Incapacitated until the end of your next turn. If the healing restores you to your Hit Point maximum, you fail automatically.",
+          "Conversion notes": "Uses the 2024 Shortsword and standard curse removal. The healing trigger requires reducing a creature to 0 Hit Points with this weapon.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 40–41.",
+          "Curse": "While cursed, you refuse to part with the sword and keep it within reach. If you have dealt no damage to a creature with it in the past 24 hours, attacks with other weapons have Disadvantage."
+        }
+      }
+    ],
+    "open5e-vom:vom_tipstaff": [
+      {
+        "label": "D&D 2024 adaptation · Tipstaff",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Bludgeoning + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Light",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Holds 5 charges and recovers 1d4 + 1 each dawn. On a melee hit against a creature, you may spend 1 charge. The creature makes a DC 15 Constitution save with Disadvantage if it took at least 20 damage from the attack. On a failure it is Paralyzed for 1 minute and repeats the save at the end of each of its turns. As an action, attach one official warrant naming up to three creatures. A hit on a creature named on the attached warrant deals an extra 1d6 Bludgeoning damage.",
+          "Conversion notes": "Uses the 2024 Club. Use actual damage from the triggering hit, including any warrant damage, for the 20-damage threshold.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 41."
+        }
+      }
+    ],
+    "open5e-vom:vom_tracking-dart": [
+      {
+        "label": "D&D 2024 adaptation · Tracking Dart",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dart",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple ranged weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "20/60 feet thrown",
+          "Properties": "Finesse, Thrown",
+          "Mastery": "Vex",
+          "Weight": "1/4 lb",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "A hit on a Large or smaller creature marks it with glowing paint for 1 minute. Pick the color. An attacker who can see the marked creature has Advantage on attacks against it. The creature gains no benefits from the Invisible condition while marked, and can spend an action wiping the paint away.",
+          "Conversion notes": "Uses the 2024 Dart and translates the source’s invisibility exception to the Invisible condition.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 41."
+        }
+      }
+    ],
+    "open5e-vom:vom_troll-skin-hide": [
+      {
+        "label": "D&D 2024 adaptation · Troll Skin Hide",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Special powers": "The listed AC includes the armor’s +1 bonus. If you start your turn wearing it and are dying, you become Stable. While wearing it, take a Magic action to regenerate for 1 minute. While the regeneration lasts, regain 2 Hit Points at the start of each of your turns. This power recharges at dawn.",
+          "Conversion notes": "Restores printed attunement. Apply the stabilization before the death saving throw.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 41."
+        },
+        "enhancement_bonus": 1
+      }
+    ],
+    "open5e-vom:vom_troll-skin-leather": [
+      {
+        "label": "D&D 2024 adaptation · Troll Skin Leather",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Special powers": "The listed AC includes the armor’s +1 bonus. If you start your turn wearing it and are dying, you become Stable. While wearing it, take a Magic action to regenerate for 1 minute. While the regeneration lasts, regain 2 Hit Points at the start of each of your turns. This power recharges at dawn.",
+          "Conversion notes": "Restores printed attunement. Apply the stabilization before the death saving throw.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 41."
+        },
+        "enhancement_bonus": 1
+      }
+    ],
+    "open5e-vom:vom_trident-of-the-vortex": [
+      {
+        "label": "D&D 2024 adaptation · Trident of the Vortex",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_trident",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing (1d10 with two hands in melee) + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Thrown, Versatile (1d10)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While wielding the trident underwater, take a Magic action and speak its command word to create a whirlpool that follows you for 1 minute. Each creature entering or starting its turn within 10 feet makes a DC 15 Strength save or is Restrained by the whirlpool and moves with it. A trapped creature can take an action and pass a DC 15 Strength check to escape to a space of its choice within 5 feet of the whirlpool. A creature within 5 feet of the whirlpool can use an action and pass the same check to pull a trapped creature out. Recharges at dawn.",
+          "Conversion notes": "Uses the 2024 Trident. The draft treats the wielder as outside the whirlpool’s targeting and ends any remaining restraint when the whirlpool ends.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 41."
+        }
+      }
+    ],
+    "open5e-vom:vom_trident-of-the-yearning-tide": [
+      {
+        "label": "D&D 2024 adaptation · Trident of the Yearning Tide",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_trident",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing (1d10 with two hands in melee) + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Thrown, Versatile (1d10)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While holding it, you can breathe underwater. It holds 3 charges and regains 1d3 at dawn. Take a Magic action and spend 3 charges to cast 2024 Conjure Animals (save DC 17). Its spirits appear as water-breathing beasts. On a melee hit, you can spend a Bonus Action and 1 charge to force a DC 17 Wisdom save. On a failure the target uses its next turn to enter the nearest body of water it can see and swim toward the bottom. A creature that can breathe underwater or cannot see any water succeeds automatically.",
+          "Conversion notes": "Call Sealife uses the 2024 spell’s aquatic spirits in place of the legacy summoned creatures. This draft uses the same DC 17 as Yearn for the Tide. The failed save directs movement for one turn.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 41.",
+          "Conjure Animals": "https://www.dndbeyond.com/spells/2619044-conjure-animals"
+        }
+      }
+    ],
+    "open5e-vom:vom_tyrants-whip": [
+      {
+        "label": "D&D 2024 adaptation · Tyrant’s Whip",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_whip",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d4 Slashing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Properties": "Finesse, Reach",
+          "Mastery": "Slow",
+          "Weight": "3 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "The whip holds 3 charges and regains all expended charges at dawn. When you hit a creature with the whip, you can use a Bonus Action and spend 1 charge to cast Command on it (DC 13 Wisdom save). The target saves with Disadvantage if the hit was a critical hit.",
+          "Conversion notes": "Uses the 2024 Whip and Command options. The whip targets only the creature it hit.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 41–42."
+        }
+      }
+    ],
     "open5e-vom:vom_spear-of-the-western-whale": [
       {
         "label": "D&D 2024 adaptation · Spear of the Western Whale",

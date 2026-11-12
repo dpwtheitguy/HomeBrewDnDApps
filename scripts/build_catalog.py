@@ -234,6 +234,25 @@ def main():
         'vom_standard-of-divinity-halberd': 38,
         'vom_standard-of-divinity-lance': 38,
         'vom_standard-of-divinity-pike': 38,
+        'vom_tamers-whip': 39,
+        'vom_tarian-graddfeydd-ddraig': 39,
+        'vom_greatsword-of-fallen-saints': 39,
+        'vom_longsword-of-fallen-saints': 39,
+        'vom_rapier-of-fallen-saints': 39,
+        'vom_scimitar-of-fallen-saints': 39,
+        'vom_shortsword-of-fallen-saints': 39,
+        'vom_greatsword-of-volsung': 39,
+        'vom_longsword-of-volsung': 39,
+        'vom_tenebrous-flail-of-screams': 40,
+        'vom_thirsting-scalpel': 40,
+        'vom_thirsting-thorn': 40,
+        'vom_tipstaff': 41,
+        'vom_tracking-dart': 41,
+        'vom_trident-of-the-vortex': 41,
+        'vom_trident-of-the-yearning-tide': 41,
+        'vom_troll-skin-hide': 41,
+        'vom_troll-skin-leather': 41,
+        'vom_tyrants-whip': 41,
     }
     vault_weapon_corrections = {
         'vom_anchor-of-striking': ('Anchor of Striking', 'srd_war-pick', 11),
@@ -291,7 +310,8 @@ def main():
                         vault_page = 36
                         f = {**f, 'rarity': 'rare'}
                     if raw['pk'] in ('vom_spearbiter', 'vom_adamantine-spearbiter',
-                                     'vom_swarmfoe-hide', 'vom_swarmfoe-leather'):
+                                     'vom_swarmfoe-hide', 'vom_swarmfoe-leather',
+                                     'vom_tarian-graddfeydd-ddraig', 'vom_troll-skin-hide', 'vom_troll-skin-leather'):
                         f = {**f, 'requires_attunement': True}
                     if raw['pk'] == 'vom_spectral-blade':
                         f = {**f, 'rarity': 'rare'}

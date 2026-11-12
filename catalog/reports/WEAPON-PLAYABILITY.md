@@ -8,8 +8,8 @@ Scope is catalog records indexed with type weapon. Ammunition indexed separately
 
 | Evidence | Records |
 |---|---:|
-| base-weapon-draft | 2,500 |
-| item-specific-draft | 1,002 |
+| base-weapon-draft | 2,484 |
+| item-specific-draft | 1,018 |
 | improvised-fallback | 453 |
 | native-bg3 | 428 |
 | published-2024-attack | 355 |
