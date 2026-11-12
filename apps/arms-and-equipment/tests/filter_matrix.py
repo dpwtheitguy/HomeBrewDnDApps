@@ -1740,6 +1740,32 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault upgrades display reactions and hit effects': '''(async () => {
+                    const cases = [
+                        ["fb5fd130405630e0", ["Allies within 5 feet", "add 1 to their damage rolls"]],
+                        ["4a1dc756fd1c08b1", ["19 or 20", "10 damage", "official errata"]],
+                        ["be1331192cd39f3c", ["deals half damage", "cannot take Bonus Actions or Reactions"]],
+                        ["636b9510488fe1a6", ["take one additional action", "cannot take the Magic action"]],
+                        ["12a77fbf8aab183a", ["first repeat fails", "falls Unconscious"]],
+                        ["69d9257636c8f2c2", ["proficient with Simple weapons", "regain one expended Superiority Die"]],
+                        ["ebb0a931605a05b7", ["first 5 feet of that movement", "Construct or object"]],
+                        ["a4819e0982d6d97c", ["within 50 feet", "expires after 1 minute"]],
+                        ["5f8f55e0bfd90b74", ["half its hit damage", "Wisdom saving throw"]],
+                        ["8da201e62b887e91", ["worship Moradin", "10-foot Emanation", "falls Prone"]],
+                        ["c6016cb3c2fa2dd8", ["10 extra Necrotic damage", "next time"]],
+                        ["a0640ce68fb8470c", ["as part of that Reaction", "1d12 if the hit is an Opportunity Attack"]],
+                        ["47f7b870d6f6ffeb", ["15 feet melee, 5 feet for Opportunity Attacks"]],
+                        ["ba7e502687cbb81c", ["Speed is 0", "immune to Poison damage"]],
+                        ["9e1b79efff38ff44", ["exceeds the triggering attack roll", "parry roll deals no damage"]],
+                        ["f30f2bb2483bf10d", ["1 plus your Dexterity modifier", "DC 15 Constitution"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!["D&D 2024 weapon adaptation", ...terms].every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Adventurer’s Vault upgrades display altered forms and distances': '''(async () => {
                     const cases = [
                         ["3fb45c92542b03d4", ["175/650 feet", "25 feet to the weapon’s normal range"]],
