@@ -1,6 +1,345 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:7da4a07a9aad92f3": [
+      {
+        "label": "D&D 2024 adaptation · \"Riposte\"",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/magcitem.html#riposte",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier + 2.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "None",
+          "Rarity": "Rare",
+          "Source locator": "Magical Items of Mystara, Darokin, \"Riposte\".",
+          "Conversion notes": "Uses the source’s explicit +2 Dagger fallback for the main-gauche.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 weapon baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:8286451b61a954d5": [
+      {
+        "label": "D&D 2024 adaptation · Borfir Axe's",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/magcitem.html#borfir",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Slashing + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Light, Thrown",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Source locator": "Magical Items of Mystara, Rockhome, Borfir Axe's.",
+          "Conversion notes": "Retains the workmanship bonus and a separate damage bonus against planar foes.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Special powers": "On a hit against an Undead or a creature native to an Inner or Outer Plane, deal an extra 2 Slashing damage. Apply this bonus once even if both descriptions fit."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Open 2024 weapon baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:11060c62afa7bba1": [
+      {
+        "label": "D&D 2024 adaptation · Corrupter",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/magcitem.html#corrupter",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing (1d10 with two hands in melee) + Strength modifier − 2, minimum 0.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Thrown, Versatile (1d10)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Source locator": "Magical Items of Mystara, Thyatis, Corrupter.",
+          "Conversion notes": "Preserves the separate attack and damage modifiers, curse duration, and remedy.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Special powers": "When you hit a living creature, it must succeed on a DC 16 Charisma save or be unable to knowingly tell the truth for 2d20 days. It can stay silent. Remove Curse ends the effect.",
+          "Binding": "Attuning binds the weapon to you. You cannot willingly discard it. Remove Curse breaks the binding."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_trident",
+          "label": "Open 2024 weapon baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:63fcb17bbb121f22": [
+      {
+        "label": "D&D 2024 adaptation · Desert Scourge",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/magcitem.html#scourge",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Slashing + Strength or Dexterity modifier + 2.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Weight": "3 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Source locator": "Magical Items of Mystara, Ylaruam, Desert Scourge.",
+          "Conversion notes": "Uses the published 2024 Scimitar of Speed rules. The sapphires and platinum are part of the source design.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Special powers": "On each of your turns, you can make one attack with this weapon as a Bonus Action, even without taking the Attack action.",
+          "2024 benchmark": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#ScimitarofSpeed"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scimitar",
+          "label": "Open 2024 weapon baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:481fc2109b9ebd52": [
+      {
+        "label": "D&D 2024 adaptation · Grim Jaw",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/magcitem.html#grimjaw",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Source locator": "Magical Items of Mystara, Atruaghin Plateau, Grim Jaw.",
+          "Conversion notes": "Uses the source’s battleaxe statistics and keeps the target-specific +3.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Special powers": "Against a Humanoid, use +3 instead of +2 on attack and damage rolls."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_battleaxe",
+          "label": "Open 2024 weapon baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:d425ba820dd52090": [
+      {
+        "label": "D&D 2024 adaptation · Gunsen of Deception",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/magcitem.html#gunsen",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Source locator": "Magical Items of Mystara, Ochalea, Gunsen of Deception.",
+          "Conversion notes": "Uses the source’s Shortsword comparison and 2024 illusion rules for the disguise.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Special powers": "As a Magic action, open the fan and cast Disguise Self from it (DC 15 Intelligence (Investigation) to discern it). Your apparent height and size stay the same, and the open fan remains visible. The effect ends if you close or release it."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 weapon baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:5871b95d01aa3d6a": [
+      {
+        "label": "D&D 2024 adaptation · Journey's End",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/magcitem.html#journeysend",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d8 Piercing + Dexterity modifier + 2.",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "150/600 feet",
+          "Properties": "Ammunition (arrows), Heavy, Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Activation": "Make a weapon attack using the listed range. Expend one arrow per attack.",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Source locator": "Magical Items of Mystara, Graakhalia, Journey's End.",
+          "Conversion notes": "Uses the 2024 Longbow for the composite bow. Keeps the target-specific enhancement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Special powers": "Against a gnoll, use +3 instead of +2 on attack and damage rolls."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open 2024 weapon baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:c2b223e55829b1ee": [
+      {
+        "label": "D&D 2024 adaptation · Njal's Spear",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/magcitem.html#njal",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Piercing (1d8 with two hands in melee) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Thrown, Versatile (1d8)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "None",
+          "Rarity": "Uncommon",
+          "Source locator": "Magical Items of Mystara, Northern Reaches, Njal's Spear.",
+          "Conversion notes": "Keeps the +1 craftsmanship and permanent light as separate effects.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Special powers": "The spearhead sheds Bright Light within 30 feet and Dim Light for another 30 feet. It is a level 6 Continual Flame effect for purposes of dispelling and interaction with magical darkness."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 weapon baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:a7357dd4d93de2ac": [
+      {
+        "label": "D&D 2024 adaptation · Serpent Blade",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/magcitem.html#serpent",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Slashing + Strength modifier + 1 (1d8 with two hands).",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Source locator": "Magical Items of Mystara, Alfheim, Serpent Blade.",
+          "Conversion notes": "Keeps the legacy weapon’s 1d6 + 1 damage profile without an attack enhancement. Adapts danger detection with a bounded area and recharge.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Special powers": "As a Magic action, focus on an object or a visible point within 30 feet. The blade glows if a trap or immediate physical hazard exists within 10 feet of that point or on the object. Brighter light indicates an imminent danger. This gives no direction or mechanism. Use it three times per dawn."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 weapon baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:1d6723d63e79cd6f": [
+      {
+        "label": "D&D 2024 adaptation · Spear of Kobos",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/magcitem.html#kobos",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Piercing (1d8 with two hands in melee) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Thrown, Versatile (1d8)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Source locator": "Magical Items of Mystara, Ierendi, Spear of Kobos.",
+          "Conversion notes": "Retains the +1 enhancement and the bonus against giant counterparts of ordinary animals.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Special powers": "Against a Beast that is a giant counterpart of an ordinary animal, use +3 instead of +1 on attack and damage rolls."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 weapon baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:347d7e378f221449": [
+      {
+        "label": "D&D 2024 adaptation · The Black Spear",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/magcitem.html#blackspear",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Piercing (1d8 with two hands in melee) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Thrown, Versatile (1d8)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "None; the curse binds on its own trigger.",
+          "Rarity": "Very Rare",
+          "Source locator": "Magical Items of Mystara, Sind, The Black Spear.",
+          "Conversion notes": "Applies the catalog’s 2024 Cursed Backbiter conversion to the source’s +3 version.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Special powers": "Before the first attack with the spear each turn, roll 1d20 against a threshold that starts at 1. On a roll at or below the threshold, the attack hits you instead and the threshold resets to 1. Take normal weapon damage, doubled if thrown. Otherwise resolve the attack normally and increase the threshold by 1, to a maximum of 20.",
+          "Binding": "After the first backbite, you cannot willingly part with the spear. When thrown it returns to you. Remove Curse breaks the binding and resets the threshold."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 weapon baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:b5eefc05864d274a": [
+      {
+        "label": "D&D 2024 adaptation · Zargon's Returning Spear",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_armors_and_shields.pdf",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Piercing (1d8 with two hands in melee) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Thrown, Versatile (1d8)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a weapon attack using the listed range.",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Source locator": "Emanuele Betti, Unique Magic Armors and Shields, PDF pp. 7–8.",
+          "Conversion notes": "Caps the legacy +6 at +3 and adds extra damage against sea creatures. Keeps the source’s return-on-miss rule.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Special powers": "On a hit against a creature native to the sea with a Swim Speed, add 2d6 Piercing damage. After a thrown attack misses, the spear returns to your free hand or lands at your feet.",
+          "Sentience": "Neutral; Intelligence 6, Wisdom 16, Charisma 17. It speaks telepathically with you and can initiate a sentient-item conflict if you knowingly separate it from Zargon’s Suit Plate or refuse to fight an immediate sea-monster threat."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 weapon baseline"
+        }
+      }
+    ],
     "mystara-fan-names-reference:e8e59de85438a4d3": [
       {
         "label": "D&D 2024 adaptation · Centaur Armour",

@@ -1830,6 +1830,23 @@ def main():
                         if (!byId("custom-items").hidden) click("close-custom-items");
                     }
                 })()''',
+                'Mystara named weapons show their distinct attack and curse rules': '''(async () => {
+                    const cases = [
+                        ["11060c62afa7bba1", ["modifier − 2", "DC 16 Charisma", "2d20 days"]],
+                        ["a7357dd4d93de2ac", ["1d6 Slashing", "immediate physical hazard"]],
+                        ["347d7e378f221449", ["threshold that starts at 1", "doubled if thrown"]],
+                        ["b5eefc05864d274a", ["2d6 Piercing damage", "thrown attack misses", "Zargon’s Suit Plate"]],
+                        ["63fcb17bbb121f22", ["Bonus Action", "Scimitar of Speed"]],
+                        ["5871b95d01aa3d6a", ["150/600 feet", "Against a gnoll"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))
+                            || inspection.textContent.includes("2024 provisional profile")) return false;
+                    }
+                    return true;
+                })()''',
                 'Mystara fitted armor and accessories show their conditions': '''(async () => {
                     const cases = [
                         ["e8e59de85438a4d3", ["Armor class16", "110 lb", "600 gp"]],
