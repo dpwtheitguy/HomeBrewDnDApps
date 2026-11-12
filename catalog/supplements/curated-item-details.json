@@ -1,6 +1,276 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:f1b7d23796b5478d": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Cold",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Very rare",
+          "Attunement": "Required by a spellcaster",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "As a Bonus Action spend 1 charge to gain Resistance to Fire damage for 10 minutes.",
+          "Conversion notes": "Ray of Frost consolidates the legacy minor cold effects. Updated spells and the daily charge economy are authored conversions.",
+          "Source locator": "Cyclopaedic Compendium, Vol. 2 (fan campaign guide), Novel Staff Descriptions, printed p. 93 (PDF page 92).",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Charges": "10 charges. Regains 1d6 + 4 expended charges daily at dawn, up to its maximum.",
+          "Spells": "While holding the staff, expend the listed charges to cast the following spells. Use each spell’s normal casting time, range, and Concentration rules, without components. Ray of Frost (1 charge, 2d8 Cold on a hit), Ice Storm (4), Cone of Cold (5), or Wall of Ice (6). Spell save DC 16, spell attack bonus +8."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:19652604dcafe1ae": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Constructing",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required by a spellcaster",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "As a Magic action spend 1 charge to reshape an unattended nonmagical piece of cloth or wood you touch that fits in a 5-foot cube. The result uses the same material and cannot increase its mass or duplicate skilled workmanship unless you have the relevant tool proficiency.",
+          "Conversion notes": "Stone Shape and a small-scale shaping power replace legacy material-specific spells. Fabricate keeps its original crafting restrictions.",
+          "Source locator": "Cyclopaedic Compendium, Vol. 2 (fan campaign guide), Novel Staff Descriptions, printed p. 93 (PDF page 92).",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Charges": "8 charges. Regains 1d4 + 2 expended charges daily at dawn, up to its maximum.",
+          "Spells": "While holding the staff, expend the listed charges to cast the following spells. Use each spell’s normal casting time, range, and Concentration rules, without components. Fabricate (4 charges), Stone Shape (4), or Move Earth (6)."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:86ba22fc003c2006": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Creating",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Very rare",
+          "Attunement": "Required by a spellcaster",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "As a Magic action spend 2 charges to create one permanent, nonmagical weapon or equipment item you have seen in an unoccupied space within 5 feet. It must weigh at most 15 pounds and cost at most 100 gp, and cannot be a siege weapon, currency, or a spell component with a listed cost. This power can be used once per dawn.",
+          "Conversion notes": "Published summon spells replace open-ended creature creation. The original item weight and value ceilings remain, with a daily limit and exclusions.",
+          "Source locator": "Cyclopaedic Compendium, Vol. 2 (fan campaign guide), Novel Staff Descriptions, printed p. 93 (PDF page 92).",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Charges": "8 charges. Regains 1d4 + 2 expended charges daily at dawn, up to its maximum.",
+          "Spells": "While holding the staff, expend the listed charges to cast the following spells. Use each spell’s normal casting time, range, and Concentration rules, without components. Summon Beast (2 charges), Summon Fey (3), or Summon Elemental (4). Spell attack bonus +8."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:8815e99168020a6c": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Electrifying",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Very rare",
+          "Attunement": "Required by a spellcaster",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "As a Bonus Action spend 3 charges. For 1 minute the staff’s attack and damage bonus is +3 instead of +1. Its staff attacks deal Lightning damage in place of Bludgeoning while empowered.",
+          "Conversion notes": "Witch Bolt and the Lightning wall model the legacy sparks, ball lightning, and wall. The +3 mode replaces the base enhancement temporarily.",
+          "Source locator": "Cyclopaedic Compendium, Vol. 2 (fan campaign guide), Novel Staff Descriptions, printed p. 93 (PDF page 92).",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Charges": "9 charges. Regains 1d6 + 3 expended charges daily at dawn, up to its maximum.",
+          "Spells": "While holding the staff, expend the listed charges to cast the following spells. Use each spell’s normal casting time, range, and Concentration rules, without components. Witch Bolt (1 charge), Lightning Bolt (3), or Wall of Fire (4, dealing Lightning damage instead of Fire). Spell save DC 16, spell attack bonus +8."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:b898e726f24ac264": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Fire",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Very rare",
+          "Attunement": "Required by a spellcaster",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "As a Bonus Action spend 1 charge to either gain Resistance to Cold for 10 minutes or ignite both ends for 1 minute. While ignited, the staff deals an extra 1d4 Fire damage on each melee hit and sheds Bright Light for 10 feet and Dim Light for another 10 feet.",
+          "Conversion notes": "Uses the Mystara fan variant’s enhancement and temporary protection. Scorching Ray models flame bolts.",
+          "Source locator": "Cyclopaedic Compendium, Vol. 2 (fan campaign guide), Novel Staff Descriptions, printed p. 93 (PDF page 92).",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Charges": "10 charges. Regains 1d6 + 4 expended charges daily at dawn, up to its maximum.",
+          "Spells": "While holding the staff, expend the listed charges to cast the following spells. Use each spell’s normal casting time, range, and Concentration rules, without components. Fire Bolt (1 charge, 2d10 Fire on a hit), Scorching Ray (2), Fireball (3), or Wall of Fire (4). Spell save DC 16, spell attack bonus +8."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:9a008409b04c20cd": [
+      {
+        "label": "D&D 2024 adaptation · Staff of the Ocean",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Very rare",
+          "Attunement": "Required by a spellcaster",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "For 1 charge, cast Speak with Animals as a Magic action, limited to aquatic Beasts and lasting 30 minutes. As a Magic action spend 1 charge to disperse nonmagical fog in a 20-foot-radius Sphere centered at a point within 60 feet. Fog that continues to flow in can refill the area after 1 minute.",
+          "Conversion notes": "Control Water covers lowering and calming water. Gaseous Form supplies rules for the watery transformation, and the local fog effect and aquatic speech are bespoke.",
+          "Source locator": "Cyclopaedic Compendium, Vol. 2 (fan campaign guide), Novel Staff Descriptions, printed pp. 93–94 (PDF pages 92–93).",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Charges": "10 charges. Regains 1d6 + 4 expended charges daily at dawn, up to its maximum.",
+          "Spells": "While holding the staff, expend the listed charges to cast the following spells. Use each spell’s normal casting time, range, and Concentration rules, without components. Gust of Wind (2 charges), Gaseous Form (3, appearing as water mist), Control Water (4), or Control Weather (8). Spell save DC 16, spell attack bonus +8."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:d20725dea0139b08": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Trade",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "While holding the staff you gain a +1 bonus to Charisma (Persuasion) checks to negotiate trade. As a Magic action spend 1 charge to inventory up to 50 visible objects within 20 feet, learning their apparent quantity and condition. Alternatively, spend 1 charge as a Bonus Action to gain Advantage on the next Charisma (Persuasion), Charisma (Deception), or Dexterity (Sleight of Hand) check within 10 minutes concerning trade or passage of goods.",
+          "Conversion notes": "Replaces the broker subsystem with a bounded check bonus, and consolidates the travel, watch, inventory, and smuggling powers.",
+          "Source locator": "Cyclopaedic Compendium, Vol. 2 (fan campaign guide), Novel Staff Descriptions, printed p. 94 (PDF page 93).",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Charges": "6 charges. Regains 1d4 + 2 expended charges daily at dawn, up to its maximum.",
+          "Spells": "While holding the staff, expend the listed charges to cast the following spells. Use each spell’s normal casting time, range, and Concentration rules, without components. Longstrider (1 charge, self only) or Darkvision (2, self only)."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:b2123a3169014f02": [
+      {
+        "label": "D&D 2024 adaptation · Staff of the War Priest",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Very rare",
+          "Attunement": "Required by a Cleric or Paladin",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "When you first attack with the staff on your turn, you may transfer either or both points of its enhancement to AC until the start of your next turn while holding it. On a staff hit you may spend 1 charge for an extra 1d8 Radiant damage. As a Magic action spend 2 charges and expend up to two Hit Point Dice to roll the expended dice and restore their total plus your Wisdom modifier (minimum 1) to a willing creature you touch. While holding it, willing followers within 10 feet gain +1 to saving throws against the Frightened condition.",
+          "Conversion notes": "The defense allocation uses the 2024 Defender pattern. Tidal Wave, radiant striking, the healing sacrifice, and the fear-save bonus adapt the older effects.",
+          "Source locator": "Cyclopaedic Compendium, Vol. 2 (fan campaign guide), Novel Staff Descriptions, printed p. 94 (PDF page 93).",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Charges": "10 charges. Regains 1d6 + 4 expended charges daily at dawn, up to its maximum.",
+          "Spells": "While holding the staff, expend the listed charges to cast the following spells. Use each spell’s normal casting time, range, and Concentration rules, without components. Bless (1 charge), Hold Person (2), Crusader’s Mantle (3), Tidal Wave (3), or Insect Plague (5). Spell save DC 17, spell attack bonus +9."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:a1583a5708cfe0da": [
+      {
+        "label": "D&D 2024 adaptation · Staff of the Woodland Defender",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Very rare",
+          "Attunement": "Required by a spellcaster",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "As a Reaction when you take Bludgeoning, Piercing, or Slashing damage from a nonmagical ranged weapon attack while holding the staff, spend 1 charge to gain Resistance to that damage. Gain +1 on Charisma (Persuasion) or Wisdom (Animal Handling) checks to influence woodland creatures that can see the staff.",
+          "Conversion notes": "Uses modern spell timings. A limited Reaction replaces protection from normal missiles, and a check bonus replaces the legacy reaction-roll modifier.",
+          "Source locator": "Cyclopaedic Compendium, Vol. 2 (fan campaign guide), Novel Staff Descriptions, printed p. 94 (PDF page 93).",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Charges": "10 charges. Regains 1d6 + 4 expended charges daily at dawn, up to its maximum.",
+          "Spells": "While holding the staff, expend the listed charges to cast the following spells. Use each spell’s normal casting time, range, and Concentration rules, without components. Heat Metal (2 charges), Call Lightning (3), Magic Weapon (2, at level 2), Confusion (4), or Wall of Fire (4). Spell save DC 16, spell attack bonus +8."
+        }
+      }
+    ],
     "mystara-fan-names-reference:3f5bab1e49197d6d": [
       {
         "label": "D&D 2024 adaptation · Alhambra",

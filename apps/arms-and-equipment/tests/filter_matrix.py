@@ -1871,6 +1871,26 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Mystara staves show distinct powers and charge economies': '''(async () => {
+                    for (const [id, terms] of [
+                        ["f1b7d23796b5478d", ["Cone of Cold", "Resistance to Fire", "10 charges"]],
+                        ["19652604dcafe1ae", ["Fabricate", "tool proficiency"]],
+                        ["86ba22fc003c2006", ["Summon Fey", "100 gp", "once per dawn"]],
+                        ["8815e99168020a6c", ["Witch Bolt", "+3 instead of +1"]],
+                        ["b898e726f24ac264", ["Scorching Ray", "1d4 Fire"]],
+                        ["9a008409b04c20cd", ["Control Weather", "aquatic Beasts"]],
+                        ["d20725dea0139b08", ["negotiate trade", "50 visible objects"]],
+                        ["b2123a3169014f02", ["Insect Plague", "Hit Point Dice"]],
+                        ["a1583a5708cfe0da", ["Heat Metal", "nonmagical ranged weapon"]],
+                    ]) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Mystara early-volume swords show resource limits and distinct transformations': '''(async () => {
                     for (const [id, terms] of [
                         ["7b5dd2720c9bcdeb", ["10 charges", "Rune portal", "Lightning Bolt"]],
