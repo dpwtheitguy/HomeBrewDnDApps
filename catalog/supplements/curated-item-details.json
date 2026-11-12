@@ -1,6 +1,471 @@
 {
   "schema_version": 1,
   "records": {
+    "adventurers-vault-1-reference:1258914b58aaf463": [
+      {
+        "appraise_as_magic_weapon": true,
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Mace)",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 1",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "4 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While holding the mace, when a spell or class feature you use restores Hit Points to one or more allies, choose one of those allies. That ally regains 1 additional Hit Point from that use.",
+          "Critical hits": "On a Critical Hit, add 1d6 extra Bludgeoning damage after doubling the normal damage dice.",
+          "Source locator": "Adventurer’s Vault (4e), p. 72 (PDF p. 73), Mace of Healing.",
+          "Conversion notes": "Uses the converted enhancement for the ally healing bonus, once per use. Uses a single +1 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace",
+          "label": "Open 2024 Mace"
+        }
+      }
+    ],
+    "adventurers-vault-1-reference:d85019bb2e131e33": [
+      {
+        "appraise_as_magic_weapon": true,
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Warhammer)",
+          "Damage": "1d8 Bludgeoning (1d10 with two hands) + Strength modifier + 1",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Push",
+          "Weight": "2 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "If you are a Dwarf with Pact Magic, you can use this weapon as a spellcasting focus for your Warlock spells. Pact of the Blade applies normally if you bond with this hammer. Its +1 applies to weapon attacks and weapon damage.",
+          "Critical hits": "On a Critical Hit, add 1d6 extra damage of the weapon’s type after doubling its normal damage dice.",
+          "Source locator": "Adventurer’s Vault (4e), p. 74 (PDF p. 75), Pact Hammer.",
+          "Conversion notes": "Retains the Dwarf focus property. The official 4e errata removes the printed extra Curse damage. Uses a single +1 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Eligible 2024 forms": "Light Hammer, Warhammer, or Maul. Other forms use the selected base’s category, damage die, ability modifier, range, properties, and mastery, with the same +1 bonus and item powers.",
+          "4e errata": "https://static.wikia.nocookie.net/dnd4/images/5/5c/CompiledUpdates.pdf/revision/latest"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_warhammer",
+          "label": "Open 2024 Warhammer"
+        }
+      }
+    ],
+    "adventurers-vault-1-reference:1f673b4a1b7ac866": [
+      {
+        "appraise_as_magic_weapon": true,
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword)",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 1",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "If you are an eladrin with Pact Magic, you can use this sword as a spellcasting focus for your Warlock spells. When you hit a creature affected by your Hex spell with the sword, you can force it to make a Charisma saving throw against your Warlock spell save DC. On a failure, teleport it up to 10 feet to an unoccupied space you can see. This requires no action and recharges at dawn.",
+          "Critical hits": "On a Critical Hit, add 1d6 extra Slashing damage after doubling the normal damage dice.",
+          "Source locator": "Adventurer’s Vault (4e), p. 74 (PDF p. 75), Pact Sword.",
+          "Conversion notes": "Retains the eladrin focus and 10-foot teleport. Uses your Hex spell as the 2024 equivalent of your Warlock’s Curse and adds a saving throw. Uses a single +1 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        }
+      }
+    ],
+    "adventurers-vault-1-reference:635a308df1acf9c3": [
+      {
+        "appraise_as_magic_weapon": true,
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword)",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 1",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When a target’s Resistance reduces Bludgeoning, Piercing, or Slashing damage dealt by this weapon, add 2 damage of that type after the reduction, up to the damage the target would have taken without Resistance. This property has no effect on Immunity.",
+          "Critical hits": "On a Critical Hit, add 1d10 extra damage of the weapon’s type after doubling normal damage dice.",
+          "Source locator": "Adventurer’s Vault (4e), p. 63 (PDF p. 64), Adamantine Weapon.",
+          "Conversion notes": "Converts the 4e resistance bypass to a partial offset under 2024 Resistance. Uses the Adventurer’s Vault enchantment. Uses a single +1 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Eligible 2024 forms": "Any melee weapon. Other forms use the selected base’s category, damage die, ability modifier, range, properties, and mastery, with the same +1 bonus and item powers."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        }
+      }
+    ],
+    "adventurers-vault-1-reference:2ee24c05b16c7240": [
+      {
+        "appraise_as_magic_weapon": true,
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Shortsword)",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 1",
+          "Attack bonus": "Strength or dexterity modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Once per dawn when you hit a creature with this weapon, you can coat it in venom without taking an action. The creature makes a DC 15 Constitution saving throw. On a failure, its Speed is halved and it takes 5 Poison damage at the start of each turn for up to 1 minute. It repeats the save at the end of each turn, ending both effects on a success.",
+          "Critical hits": "A Critical Hit can apply the same recurring Poison damage without expending the daily use, but does not halve Speed. The effects from this weapon do not stack.",
+          "Source locator": "Adventurer’s Vault (4e), p. 63 (PDF p. 64), Assassin’s Weapon.",
+          "Conversion notes": "Keeps the lowest-tier poison damage and uses a 2024 saving throw and Speed penalty. Uses a single +1 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Eligible 2024 forms": "Dagger or Shortsword. Other forms use the selected base’s category, damage die, ability modifier, range, properties, and mastery, with the same +1 bonus and item powers."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 Shortsword"
+        }
+      }
+    ],
+    "adventurers-vault-1-reference:fa5bc8f7e3d0b569": [
+      {
+        "appraise_as_magic_weapon": true,
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Warhammer)",
+          "Damage": "1d8 Bludgeoning (1d10 with two hands) + Strength modifier + 2",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Push",
+          "Weight": "2 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While holding this weapon, take a Magic action to send a shock through a 15-foot Cone. Make a separate melee attack roll with the weapon against each hostile creature in the Cone that lacks Total Cover from you, ignoring the weapon’s normal reach. Each hit deals the weapon’s normal damage. Recharges at dawn.",
+          "Critical hits": "No additional critical effect.",
+          "Source locator": "Adventurer’s Vault (4e), p. 63 (PDF p. 64), Battering Weapon.",
+          "Conversion notes": "Uses a 15-foot Cone for the original blast and preserves a separate weapon attack against each enemy. Uses a single +2 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Eligible 2024 forms": "Light Hammer, Warhammer, or Maul. Other forms use the selected base’s category, damage die, ability modifier, range, properties, and mastery, with the same +2 bonus and item powers."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_warhammer",
+          "label": "Open 2024 Warhammer"
+        }
+      }
+    ],
+    "adventurers-vault-1-reference:f78861ff73dbd0d6": [
+      {
+        "appraise_as_magic_weapon": true,
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Battleaxe)",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 1",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While Bloodied, your hits with this weapon deal 1d6 extra damage of the weapon’s type. As a Bonus Action, you can lose Hit Points equal to half your level, rounded down (minimum 1). Until the end of your next turn, you count as Bloodied for this weapon’s extra damage. This power recharges at dawn.",
+          "Critical hits": "On a Critical Hit, add 1d6 extra damage of the weapon’s type after doubling its normal damage dice.",
+          "Source locator": "Adventurer’s Vault (4e), p. 64 (PDF p. 65), Battlecrazed Weapon.",
+          "Conversion notes": "Preserves the Bloodied damage and self-cost. Limits the temporary Bloodied status to the weapon’s own power. Uses a single +1 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Eligible 2024 forms": "Handaxe, Battleaxe, Greataxe, Longsword, Greatsword, or Glaive. Other forms use the selected base’s category, damage die, ability modifier, range, properties, and mastery, with the same +1 bonus and item powers."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_battleaxe",
+          "label": "Open 2024 Battleaxe"
+        }
+      }
+    ],
+    "adventurers-vault-1-reference:626ab71239f79fa6": [
+      {
+        "appraise_as_magic_weapon": true,
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword)",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 2",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While holding this weapon, take a Bonus Action to recover one expended Superiority Die if you have the Battle Master’s Combat Superiority feature. Recharges at dawn.",
+          "Critical hits": "On a Critical Hit, add 1d6 extra damage of the weapon’s type after doubling its normal damage dice.",
+          "Source locator": "Adventurer’s Vault (4e), p. 64 (PDF p. 65), Battlemaster’s Weapon.",
+          "Conversion notes": "Uses a Superiority Die as the limited martial resource corresponding to the original encounter power. Uses a single +2 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Eligible 2024 forms": "Any weapon. Other forms use the selected base’s category, damage die, ability modifier, range, properties, and mastery, with the same +2 bonus and item powers."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        }
+      }
+    ],
+    "adventurers-vault-1-reference:87f59e6353f2e5dc": [
+      {
+        "appraise_as_magic_weapon": true,
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword)",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 2",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When you hit with a melee attack using this weapon, you can mark the target with venom without taking an action. At the start of your next turn, it takes Poison damage equal to the damage it actually took from the weapon hit, excluding damage from spells and other features. Recharges at dawn.",
+          "Critical hits": "On a Critical Hit, add 1d6 extra Poison damage after doubling the normal damage dice.",
+          "Source locator": "Adventurer’s Vault (4e), p. 64 (PDF p. 65), Bilethorn Weapon.",
+          "Conversion notes": "Retains the delayed replay as Poison damage and uses the weapon’s damage for the replay. Uses a single +2 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Eligible 2024 forms": "Any melee weapon. Other forms use the selected base’s category, damage die, ability modifier, range, properties, and mastery, with the same +2 bonus and item powers."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        }
+      }
+    ],
+    "adventurers-vault-1-reference:26ff6d54f903815e": [
+      {
+        "appraise_as_magic_weapon": true,
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Battleaxe)",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 1",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When an attack with this weapon reduces a hostile creature to 0 Hit Points, shadows obscure you. Attack rolls against you have Disadvantage until the end of your next turn.",
+          "Critical hits": "On a Critical Hit, gain 1d8 Temporary Hit Points.",
+          "Source locator": "Adventurer’s Vault (4e), p. 64 (PDF p. 65), Blackshroud Weapon.",
+          "Conversion notes": "Retains the defeat-triggered concealment and the original critical-hit benefit. Uses a single +1 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Eligible 2024 forms": "Handaxe, Battleaxe, Greataxe, Dagger, Shortsword, Longsword, Greatsword, or Glaive. Other forms use the selected base’s category, damage die, ability modifier, range, properties, and mastery, with the same +1 bonus and item powers."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_battleaxe",
+          "label": "Open 2024 Battleaxe"
+        }
+      }
+    ],
+    "adventurers-vault-1-reference:fce2e73fe26a4bdd": [
+      {
+        "appraise_as_magic_weapon": true,
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Warhammer)",
+          "Damage": "1d8 Bludgeoning (1d10 with two hands) + Strength modifier + 2",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Push",
+          "Weight": "2 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While holding this weapon, take a Bonus Action to empower it until the end of your next turn. Each hit with it deals 2 extra damage of the weapon’s type during that time. Recharges at dawn.",
+          "Critical hits": "No additional critical effect.",
+          "Source locator": "Adventurer’s Vault (4e), p. 64 (PDF p. 65), Blacksmelt Weapon.",
+          "Conversion notes": "Retains the short damage boost and uses the converted enhancement for its amount. Uses a single +2 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Eligible 2024 forms": "Flail, Light Hammer, Warhammer, Maul, or Mace. Other forms use the selected base’s category, damage die, ability modifier, range, properties, and mastery, with the same +2 bonus and item powers."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_warhammer",
+          "label": "Open 2024 Warhammer"
+        }
+      }
+    ],
+    "adventurers-vault-1-reference:8d5743f75c806ca1": [
+      {
+        "appraise_as_magic_weapon": true,
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword)",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 1",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When you hit with a melee attack using this weapon, you can lose 1 Hit Point without taking an action. The target takes 2 extra damage of the weapon’s type, or 3 extra damage if you wielded the weapon with two hands for the attack. Recharges when you finish a Short or Long Rest.",
+          "Critical hits": "On a Critical Hit, add 1d6 extra damage of the weapon’s type after doubling its normal damage dice.",
+          "Source locator": "Adventurer’s Vault (4e), p. 65 (PDF p. 66), Bloodclaw Weapon.",
+          "Conversion notes": "Follows the official 4e errata’s on-hit trigger and encounter limit. Uses rest recharge and preserves the one-hand and two-hand damage ratios. Uses a single +1 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Eligible 2024 forms": "Any melee weapon. Other forms use the selected base’s category, damage die, ability modifier, range, properties, and mastery, with the same +1 bonus and item powers.",
+          "4e errata": "https://static.wikia.nocookie.net/dnd4/images/5/5c/CompiledUpdates.pdf/revision/latest"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        }
+      }
+    ],
+    "adventurers-vault-1-reference:77510604cf6dd4f2": [
+      {
+        "appraise_as_magic_weapon": true,
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword)",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 2",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When you score a Critical Hit with this weapon, roll 1d10 of extra damage of the weapon’s type after doubling its normal damage dice. At the start of your next turn the same target takes damage of that type equal to the d10 result. Apply the target’s defenses separately to each instance.",
+          "Critical hits": "The delayed damage repeats the extra d10 only.",
+          "Source locator": "Adventurer’s Vault (4e), p. 65 (PDF p. 66), Bloodiron Weapon.",
+          "Conversion notes": "Retains the original extra critical die and its delayed repeat. Uses a single +2 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Eligible 2024 forms": "Any weapon. Other forms use the selected base’s category, damage die, ability modifier, range, properties, and mastery, with the same +2 bonus and item powers."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        }
+      }
+    ],
+    "adventurers-vault-1-reference:f4276be51570cc24": [
+      {
+        "appraise_as_magic_weapon": true,
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword)",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 3",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While unsheathed and uncovered, the weapon sheds Bright Light in a 25-foot radius. On your turn, you can switch its damage between its normal type and Radiant without taking an action. When you would make a weapon attack with it, you can instead choose a creature within its normal reach or range. The creature makes a Dexterity saving throw against DC 8 plus your Proficiency Bonus plus the ability modifier you would use for the attack. On a failure it takes the weapon’s normal damage as Radiant damage. This use recharges when you finish a Short or Long Rest.",
+          "Critical hits": "On a Critical Hit with a weapon attack, add 1d10 extra Radiant damage after doubling the normal damage dice.",
+          "Source locator": "Adventurer’s Vault (4e), p. 65 (PDF p. 66), Brilliant Energy Weapon.",
+          "Conversion notes": "Maps the original Reflex option to a Dexterity save and retains light and the at-will damage toggle. Uses a single +3 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Eligible 2024 forms": "Any weapon. Other forms use the selected base’s category, damage die, ability modifier, range, properties, and mastery, with the same +3 bonus and item powers."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        }
+      }
+    ],
+    "adventurers-vault-1-reference:1cac57a1a959c90a": [
+      {
+        "appraise_as_magic_weapon": true,
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword)",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 1",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When you hit a creature with this weapon, you can outline it in light without taking an action. For up to 1 minute, it cannot benefit from the Invisible condition on attack rolls and gains no AC bonus from Half Cover. Three-Quarters Cover and Total Cover apply normally. If it is native to the Shadowfell, it also subtracts 2 from attack rolls. It makes a DC 15 Constitution saving throw at the end of each turn, ending the effect on a success. Recharges at dawn.",
+          "Critical hits": "On a Critical Hit, add 1d6 extra damage of the weapon’s type, or 1d10 if the target is native to the Shadowfell, after doubling normal damage dice.",
+          "Source locator": "Adventurer’s Vault (4e), p. 65 (PDF p. 66), Bronzewood Weapon.",
+          "Conversion notes": "Uses Shadowfell origin for 4e shadow creatures and translates the original cover and concealment effects. Uses a single +1 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Eligible 2024 forms": "Any melee weapon. Other forms use the selected base’s category, damage die, ability modifier, range, properties, and mastery, with the same +1 bonus and item powers."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        }
+      }
+    ],
     "adventurers-vault-1-reference:4cf1e3385708dd6c": [
       {
         "label": "D&D 2024 staff adaptation",

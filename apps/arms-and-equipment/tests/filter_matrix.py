@@ -1740,6 +1740,31 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault pact weapons and early upgrades display source rules': '''(async () => {
+                    const cases = [
+                        ["1258914b58aaf463", ["1 additional Hit Point", "Base cost4005 gp"]],
+                        ["d85019bb2e131e33", ["Dwarf with Pact Magic", "errata removes"]],
+                        ["1f673b4a1b7ac866", ["your Hex spell", "Charisma saving throw", "teleport it up to 10 feet"]],
+                        ["635a308df1acf9c3", ["add 2 damage of that type after the reduction", "Immunity"]],
+                        ["2ee24c05b16c7240", ["5 Poison damage", "does not halve Speed"]],
+                        ["fa5bc8f7e3d0b569", ["15-foot Cone", "separate melee attack roll"]],
+                        ["f78861ff73dbd0d6", ["While Bloodied", "lose Hit Points equal to half your level"]],
+                        ["626ab71239f79fa6", ["recover one expended Superiority Die"]],
+                        ["87f59e6353f2e5dc", ["At the start of your next turn", "damage it actually took"]],
+                        ["26ff6d54f903815e", ["reduces a hostile creature to 0 Hit Points", "1d8 Temporary Hit Points"]],
+                        ["fce2e73fe26a4bdd", ["Each hit with it deals 2 extra damage"]],
+                        ["8d5743f75c806ca1", ["lose 1 Hit Point", "Short or Long Rest", "official 4e errata"]],
+                        ["77510604cf6dd4f2", ["delayed damage repeats the extra d10 only"]],
+                        ["f4276be51570cc24", ["25-foot radius", "Dexterity saving throw", "as Radiant damage"]],
+                        ["1cac57a1a959c90a", ["Half Cover", "native to the Shadowfell"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!["D&D 2024 weapon adaptation", ...terms].every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Adventurer’s Vault staffs retain spell damage, range, and targeting rules': '''(async () => {
                     const cases = [
                         ["4cf1e3385708dd6c", ["Fire damage dealt by spells cast through it to Acid"]],
