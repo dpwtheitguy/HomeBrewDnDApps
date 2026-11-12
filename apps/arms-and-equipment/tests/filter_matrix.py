@@ -1740,6 +1740,30 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault upgrades display movement, saves and damage limits': '''(async () => {
+                    const cases = [
+                        ["e4e402d11ba5c84e", ["Bloodied before the attack", "2 extra damage"]],
+                        ["a427426381491d45", ["up to the unresisted amount", "variable Resistance"]],
+                        ["0326e52d7e2ca1d4", ["The first hit makes the weapon visible", "Short or Long Rest"]],
+                        ["73752cbc463faac6", ["Speed becomes 0", "Fey", "1d10 extra damage"]],
+                        ["828bf08595e9fc18", ["within 25 feet", "before the result is announced"]],
+                        ["efdc6a18b41d226c", ["10 feet melee", "increase the distance by 5 feet"]],
+                        ["687348412bcd0a46", ["rounded down, becomes Radiant", "expended use of your Channel Divinity"]],
+                        ["064dceea5ce0969c", ["first repeated save", "official 4e errata"]],
+                        ["d386a3d39d62d2e2", ["5 Necrotic damage", "DC 15 Constitution"]],
+                        ["40a250f113d8956e", ["Intelligence, Wisdom, and Charisma saving throws", "penalties do not stack"]],
+                        ["820bf9143308dc74", ["Dodge action", "Second Wind"]],
+                        ["a78a5772fa29752c", ["gain +5 on the roll", "Immunity still applies"]],
+                        ["93f50d0a9a94d2a8", ["maximum penalty of −3", "without this penalty"]],
+                        ["6f0d5982f8ea2f46", ["5 feet times the higher", "repeat the thrown attack", "returns to your hand"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!["D&D 2024 weapon adaptation", ...terms].every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Adventurer’s Vault pact weapons and early upgrades display source rules': '''(async () => {
                     const cases = [
                         ["1258914b58aaf463", ["1 additional Hit Point", "Base cost4005 gp"]],
