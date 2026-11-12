@@ -1740,6 +1740,31 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault upgrades show ranged exceptions and recharge': '''(async () => {
+                    const cases = [
+                        ["4d1ff22c9f50f3d2", ["within 25 feet", "5 Acid damage"]],
+                        ["51d834902c24bacf", ["halve its Fly Speed", "50 feet straight down"]],
+                        ["0592834c055b7cb9", ["no long-range Disadvantage", "Wisdom modifier"]],
+                        ["ec0a714df768be4f", ["within 5 feet of the first target", "1 plus your Dexterity modifier"]],
+                        ["9808dc1180daf57c", ["increase that distance by 5 feet", "falls Prone"]],
+                        ["4f8d906e5c9e29ce", ["within 50 feet", "takes 2 Lightning damage"]],
+                        ["611c0bdab63ff4c5", ["Constitution saving throw", "weapon’s normal hit damage"]],
+                        ["cedba87e3380b6f5", ["reduce your outgoing weapon damage"]],
+                        ["ab3fcc35628d3472", ["attack roll with Advantage", "official 4e errata"]],
+                        ["cb70d035ae46259a", ["ignores its Loading property", "recharges at dawn"]],
+                        ["e61a73b904193288", ["give yourself Advantage", "Short or Long Rest"]],
+                        ["e5e63d1825c8ac28", ["Sleight of Hand", "Passive Perception"]],
+                        ["bf48c70cca6aa548", ["yes-or-no question", "Wisdom saving throw"]],
+                        ["c2e55f1ed0434e79", ["within 50 feet of the first target", "no additional ammunition"]],
+                        ["9d51976a0f2accb2", ["10 feet straight toward", "1d6 extra Thunder damage"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!["D&D 2024 weapon adaptation", ...terms].every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Adventurer’s Vault paired, ranged, and critical weapon effects are displayed': '''(async () => {
                     const cases = [
                         ["c373e34ca3739e92", ["split it into two identical weapons", "share one attunement"]],
@@ -1932,7 +1957,7 @@ def main():
                         ["30a62439e0fa782c", ["20/60 feet thrown", "gain the Invisible condition"]],
                         ["024bafbdda5d59eb", ["DC 15 Constitution", "1d12 if the target is currently transformed"]],
                         ["187e2a059ef1cb3b", ["100-foot radius", "5-foot Emanation", "1d8 Radiant"]],
-                        ["4eeb7421819f92e6", ["1d6 Piercing per gauntlet hit", "one melee attack with each gauntlet"]],
+                        ["4eeb7421819f92e6", ["1d6 Piercing per gauntlet hit", "one melee attack with each gauntlet", "Recharges at dawn"]],
                     ];
                     for (const [id, terms] of cases) {
                         inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
