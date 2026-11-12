@@ -1142,6 +1142,21 @@ def main():
                     }
                     return true;
                 })()''',
+                'D&D 3.5 armor shows verified and converted AC': '''(async () => {
+                    const cases = [
+                        ["dmg-35-reference:0c35cd5327472d87", ["16 + Dex modifier (max +2)", "Very Rare", "p. 113"]],
+                        ["dmg-35-reference:6dbb586e767df27a", ["Armor class bonus+3", "Uncommon", "Verified 2024 equipment mapping"]],
+                        ["dmg-35-reference:db4f44212c1486c7", ["17 + Dex modifier (max +2)", "Legendary", "conversion draft"]],
+                        ["dmg-35-reference:a153508f6388f498", ["Armor class bonus+4", "occupies one hand", "conversion draft"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        const details = inspection.textContent;
+                        if (!terms.every(term => details.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
