@@ -1782,6 +1782,26 @@ def main():
                     return document.title === title && header.querySelector("h1").textContent === title
                         && header.scrollWidth <= header.clientWidth;
                 })()''',
+                'AD&D weapon variants display range, size, and curse mechanics': '''(async () => {
+                    const cases = [
+                        ["c4427703cb9e533c", ["80/320 feet (light form)", "100/400 feet (heavy form)", "solely from range"]],
+                        ["cd91d030bb55dadc", ["160/640 feet", "200/800 feet", "10%"]],
+                        ["c0eeba477af6f9c2", ["Ignore the Loading property", "Bonus Action", "Advantage"]],
+                        ["331efaa34e0b2cbe", ["Small or Tiny", "normal +1"]],
+                        ["db44fbeec9c8c94b", ["Large, Huge, or Gargantuan", "normal +2"]],
+                        ["7e27d95426bd4024", ["60/120 feet thrown", "attacks and damage"]],
+                        ["124740dbbcbe3db3", ["threshold by 1", "doubled if you threw it", "Remove Curse"]],
+                        ["dc1f27dbe6e1a12f", ["military fork 10 feet melee", "speak its command word"]],
+                        ["ef118c1af6ae8609", ["activation 60 feet", "hit or miss", "normal javelin"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dmg-1e-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))
+                            || !inspection.querySelector('a[href*="Dungeon%20Masters%20Guide"]')) return false;
+                    }
+                    return true;
+                })()''',
                 'AD&D magic weapons preserve edition-specific effects and verified enhancements': '''(async () => {
                     const cases = [
                         ["dmg-1e-reference:06a83e6ccff9f80d", ["Verified 2024 enhancement mapping", "1d8 Bludgeoning + Strength modifier + 1", "Sap"]],

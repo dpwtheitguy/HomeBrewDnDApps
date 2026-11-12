@@ -1,6 +1,264 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-1e-reference:c4427703cb9e533c": [
+      {
+        "label": "D&D 2024 adaptation · Crossbow of Accuracy, +3",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Simple ranged weapon (light form), or Martial (heavy form)",
+          "Damage": "1d8 Piercing + Dexterity modifier + 3 in light form. See Heavy form for its damage.",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "80/320 feet (light form), or 100/400 feet (heavy form).",
+          "Properties": "Ammunition (bolts), Loading, Two-Handed (light form).",
+          "Mastery": "Slow (light form); Push (heavy form)",
+          "Weight": "5 lb (light form); 18 lb (heavy form)",
+          "Activation": "Choose light or heavy when the item is found. Make a ranged weapon attack, expending one bolt.",
+          "Special powers": "Attacks within the long range do not have Disadvantage solely from range. Other causes of Disadvantage still apply.",
+          "Heavy form": "Martial ranged weapon. 1d10 Piercing + Dexterity modifier + 3. Range 100/400 feet. Ammunition (bolts), Heavy, Loading, Two-Handed. Push mastery. 18 lb.",
+          "Legacy distribution": "The 1e source makes 10% of these crossbows heavy.",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Conversion notes": "Preserves +3 and the legacy rule that every range band counts as short. Uses the normal maximum range of each base crossbow.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed p. 168, Miscellaneous Weapons.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_light-crossbow",
+          "label": "Published 2024 Light Crossbow comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:cd91d030bb55dadc": [
+      {
+        "label": "D&D 2024 adaptation · Crossbow of Distance",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Simple ranged weapon (light form), or Martial (heavy form)",
+          "Damage": "1d8 Piercing + Dexterity modifier + 1 in light form. See Heavy form for its damage.",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "160/640 feet (light form), or 200/800 feet (heavy form).",
+          "Properties": "Ammunition (bolts), Loading, Two-Handed (light form).",
+          "Mastery": "Slow (light form); Push (heavy form)",
+          "Weight": "5 lb (light form); 18 lb (heavy form)",
+          "Activation": "Choose light or heavy when the item is found. Make a ranged weapon attack, expending one bolt.",
+          "Special powers": "Both normal and long range are doubled. Attacks beyond normal range still have Disadvantage unless another rule says otherwise.",
+          "Heavy form": "Martial ranged weapon. 1d10 Piercing + Dexterity modifier + 1. Range 200/800 feet. Ammunition (bolts), Heavy, Loading, Two-Handed. Push mastery. 18 lb.",
+          "Legacy distribution": "The 1e source makes 10% of these crossbows heavy.",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Conversion notes": "Retains +1 and doubles both 2024 range bands for the chosen base form.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed p. 168, Miscellaneous Weapons.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_light-crossbow",
+          "label": "Published 2024 Light Crossbow comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:c0eeba477af6f9c2": [
+      {
+        "label": "D&D 2024 adaptation · Crossbow of Speed",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Simple ranged weapon (light form), or Martial (heavy form)",
+          "Damage": "1d8 Piercing + Dexterity modifier + 1 in light form. See Heavy form for its damage.",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "80/320 feet (light form), or 100/400 feet (heavy form).",
+          "Properties": "Ammunition (bolts), Two-Handed (light form).",
+          "Mastery": "Slow (light form); Push (heavy form)",
+          "Weight": "5 lb (light form); 18 lb (heavy form)",
+          "Activation": "Choose light or heavy when the item is found. Make a ranged weapon attack, expending one bolt.",
+          "Special powers": "The crossbow cocks itself while held. Ignore the Loading property for attacks with this weapon. You must still expend a bolt for each attack. When you fire the crossbow as part of the Attack action on your turn, you may fire it once more as a Bonus Action. If you are holding it when you roll Initiative and are not surprised, you have Advantage on that roll.",
+          "Heavy form": "Martial ranged weapon. 1d10 Piercing + Dexterity modifier + 1. Range 100/400 feet. Ammunition (bolts), Heavy, Two-Handed. Push mastery. 18 lb.",
+          "Legacy distribution": "The 1e source makes 10% of these crossbows heavy.",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Conversion notes": "Extra Attack compatibility and one Bonus Action shot replace double legacy rate of fire. Initiative Advantage represents first fire without creating a separate surprise phase.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed p. 168, Miscellaneous Weapons.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_light-crossbow",
+          "label": "Published 2024 Light Crossbow comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:331efaa34e0b2cbe": [
+      {
+        "label": "D&D 2024 adaptation · Dagger +1, +2 vs. creatures smaller than man-sized",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Dagger)",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier + 1. Use +2 instead against Small or Tiny creatures.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus 1. Use +2 instead against Small or Tiny creatures.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Activation": "Make a melee or thrown weapon attack. Use the target’s current size to determine the weapon’s bonus.",
+          "Special powers": "The +2 replaces the normal +1 on both attack and damage rolls against a Small or Tiny creature.",
+          "Attunement": "None",
+          "Rarity": "Rare",
+          "Conversion notes": "Retains both enhancement values. Uses 2024 size categories in place of the AD&D size comparison.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed Table III.H, Miscellaneous Weapons.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Published 2024 Dagger comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:db44fbeec9c8c94b": [
+      {
+        "label": "D&D 2024 adaptation · Dagger +2, +3 vs. creatures larger than man-sized",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Dagger)",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier + 2. Use +3 instead against Large, Huge, or Gargantuan creatures.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus 2. Use +3 instead against Large, Huge, or Gargantuan creatures.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Activation": "Make a melee or thrown weapon attack. Use the target’s current size to determine the weapon’s bonus.",
+          "Special powers": "The +3 replaces the normal +2 on both attack and damage rolls against a Large, Huge, or Gargantuan creature.",
+          "Attunement": "None",
+          "Rarity": "Very Rare",
+          "Conversion notes": "Retains both enhancement values. Uses 2024 size categories in place of the AD&D size comparison.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed Table III.H, Miscellaneous Weapons.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Published 2024 Dagger comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:7e27d95426bd4024": [
+      {
+        "label": "D&D 2024 adaptation · Axe +2, Throwing",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Handaxe)",
+          "Damage": "1d6 Slashing + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet melee, 60/120 feet thrown.",
+          "Properties": "Light, Thrown",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a melee or thrown weapon attack.",
+          "Special powers": "The +2 applies to attacks and damage in melee and when thrown.",
+          "Attunement": "None",
+          "Rarity": "Rare",
+          "Conversion notes": "Retains the explicitly stated bonus to thrown damage. Extends the 2024 Handaxe’s range to represent the legacy throwing specialization.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed p. 168, Miscellaneous Weapons.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Published 2024 Handaxe comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:124740dbbcbe3db3": [
+      {
+        "label": "D&D 2024 adaptation · Spear, Cursed Backbiter",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Spear)",
+          "Damage": "1d6 Piercing + Strength modifier + 1, or 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee, 20/60 feet thrown.",
+          "Properties": "Thrown, Versatile (1d8)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee or thrown weapon attack. The first time you make an attack with the spear on a turn, roll a d20 before resolving it.",
+          "Special powers": "The curse starts at a threshold of 1. If your curse roll is at or below the threshold, the attack hits you instead and you take its normal damage, doubled if you threw it. The threshold resets to 1. Otherwise, resolve the attack normally and increase the threshold by 1, to a maximum of 20. After the first backbite you cannot willingly part with the spear. If thrown, it returns immediately to your hand. Remove Curse ends the binding and resets the threshold. The spear itself remains cursed.",
+          "Attunement": "None; the curse binds on its first trigger.",
+          "Rarity": "Rare",
+          "Conversion notes": "Uses the default +1 form and keeps the cumulative risk and doubled thrown damage. The curse roll replaces special legacy Armor Class rules. Checks occur once per turn to account for Extra Attack.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed p. 169, Miscellaneous Weapons.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Published 2024 Spear comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:dc1f27dbe6e1a12f": [
+      {
+        "label": "D&D 2024 adaptation · Trident (Military Fork) +3",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing + Strength modifier + 3. Use 1d10 in two-handed trident grip or in military fork form.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "Trident 5 feet melee or 20/60 feet thrown; military fork 10 feet melee.",
+          "Properties": "Trident: Thrown, Versatile (1d10). Military fork: Reach, Two-Handed.",
+          "Mastery": "Topple in either form",
+          "Weight": "4 lb",
+          "Activation": "While holding the weapon, use a Magic action and speak its command word to change form.",
+          "Special powers": "The center tine retracts and the shaft extends in military fork form. The weapon cannot make a thrown attack in that form.",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Conversion notes": "Retains the +3 and the command-driven change of form. The military fork uses a two-handed Reach profile.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed p. 169, Miscellaneous Weapons.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_trident",
+          "label": "Published 2024 Trident comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:ef118c1af6ae8609": [
+      {
+        "label": "D&D 2024 adaptation · Javelin of Piercing",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Javelin)",
+          "Damage": "1d6 Piercing + Strength modifier; 2d6 Piercing + Strength modifier + 3 when activated.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient. Add 3 when activated.",
+          "Range": "5 feet melee or 30/120 feet thrown; activation 60 feet.",
+          "Properties": "Thrown",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Activation": "As a Magic action while holding it, speak its command word and choose a target within 60 feet. Make a ranged weapon attack against that target using Strength. This activation has no long-range Disadvantage.",
+          "Special powers": "The javelin propels itself for the activated attack. After resolving it, hit or miss, it loses its magic and becomes a normal javelin.",
+          "Attunement": "None",
+          "Rarity": "Uncommon",
+          "Conversion notes": "Preserves the self-launch and single use. Replaces the legacy +6 attack bonus and flat damage range with a +3 attack bonus and a damage roll.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed p. 149, Javelin of Piercing.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_javelin",
+          "label": "Published 2024 Javelin comparison"
+        }
+      }
+    ],
     "dmg-1e-reference:06a83e6ccff9f80d": [
       {
         "label": "Verified 2024 enhancement mapping",
