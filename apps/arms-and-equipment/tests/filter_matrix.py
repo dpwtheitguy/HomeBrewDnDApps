@@ -1869,6 +1869,27 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Vault of Magic restores wind strike, shark form, and shield triggers': '''(async () => {
+                    for (const [id, terms] of [
+                        ["scimitar-of-the-desert-winds", ["150°F", "DC 15 Strength", "15 feet away"]],
+                        ["scourge-of-devotion", ["1d8 Slashing", "2d8", "Concentration"]],
+                        ["sea-witchs-blade", ["Very Rare", "DC 15 Wisdom", "each prior attempt since dawn"]],
+                        ["searing-whip", ["5-foot-wide Line", "30 feet", "Daylight"]],
+                        ["sharkskin-vest", ["12 + Dex modifier", "Reef Shark", "Temporary Hit Points"]],
+                        ["shepherds-flail", ["Crook of the Flock", "3d6 Bludgeoning", "24 hours"]],
+                        ["shield-of-gnawing", ["Armor class bonus+3", "Barbarian", "DC 8 +"]],
+                        ["shield-of-missile-reversal", ["Armor class bonus+3", "Reaction", "original attacker"]],
+                        ["shield-of-the-fallen", ["Armor class bonus+2", "Floating Disk", "1d12 hours"]],
+                    ]) {
+                        inspect("open5e-vom:vom_" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) {
+                            throw new Error("Missing fields on " + id);
+                        }
+                    }
+                    const scourge = JSON.parse(Armory.item("open5e-vom:vom_scourge-of-devotion"));
+                    return scourge.rarity === "rare" && scourge.tags.includes("damage:slashing");
+                })()''',
                 'Vault of Magic shows retaliation, corrosion and water-specific attacks': '''(async () => {
                     for (const [id, terms] of [
                         ["retribution-armor", ["15 + Dex modifier", "Retributive Resurrection", "1 Hit Point", "1,000 feet", "True Resurrection"]],

@@ -1,6 +1,272 @@
 {
   "schema_version": 1,
   "records": {
+    "open5e-vom:vom_scimitar-of-the-desert-winds": [
+      {
+        "label": "D&D 2024 adaptation · Scimitar of the Desert Winds",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scimitar",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Slashing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While carrying the sword, you tolerate environmental temperatures from −50°F to 150°F without extra protection. Once per dawn when you hit a creature, use a Bonus Action to force a DC 15 Strength save. On a failure, push it up to 15 feet away in a direction you choose and knock it Prone.",
+          "Conversion notes": "Restores the printed Wind Strike. The temperature protection covers environmental exposure and does not grant damage Resistance.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 33."
+        }
+      }
+    ],
+    "open5e-vom:vom_scourge-of-devotion": [
+      {
+        "label": "D&D 2024 adaptation · Scourge of Devotion",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_flail",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Spend 10 minutes performing the scourge’s ritual, including during a Short Rest if desired. Reduce your Hit Point maximum by 2d8 until you finish a Long Rest. While it is reduced this way, you have Advantage on Constitution saves to maintain Concentration after taking damage. Greater Restoration and similar magic cannot remove this reduction.",
+          "Conversion notes": "The printed weapon is a Rare flail that deals Slashing instead of Bludgeoning.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 33."
+        }
+      }
+    ],
+    "open5e-vom:vom_sea-witchs-blade": [
+      {
+        "label": "D&D 2024 adaptation · Sea Witch’s Blade",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Speak the command word as a Bonus Action to give the blade violet Bright Light in a 20-foot radius and Dim Light for another 20 feet. While glowing, its hits deal an extra 2d6 Psychic damage. Repeat the command as a Bonus Action, drop it, or stow it to end the glow. When a creature takes Psychic damage from this sword, you can force a DC 15 Wisdom save. On a failure it is Stunned until the end of its next turn and you take 2d6 Psychic damage, plus 2d6 for each prior attempt since dawn.",
+          "Conversion notes": "Restores the printed Very Rare classification. Count attempts even if the target saves. The risk escalates rather than preventing repeated uses, and the counter resets at dawn.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 34."
+        }
+      }
+    ],
+    "open5e-vom:vom_searing-whip": [
+      {
+        "label": "D&D 2024 adaptation · Searing Whip",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_whip",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d4 Slashing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "10 feet melee",
+          "Properties": "Finesse, Reach",
+          "Mastery": "Slow",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "A normal hit deals an extra 1d4 Radiant damage. On a natural 20 the target is Blinded until the end of its next turn. The whip holds up to 3 charges and regains 1d3 expended charges at dawn or after 1 minute of exposure to the Daylight spell.",
+          "Conversion notes": "Uses 2024 Whip and Blinded rules. The beam rolls against its chosen target only. Apply a critical-hit rider to that target, and resolve ordinary radiant damage on the other creatures in the line.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 34.",
+          "Light beam": "As a Magic action, spend 1 charge and choose one visible creature within 30 feet. Make a whip attack against it, with Advantage if it is Undead. On a hit, it and each other creature in the 5-foot-wide Line between you and it take the whip’s hit damage, converted entirely to Radiant."
+        }
+      }
+    ],
+    "open5e-vom:vom_serpents-tooth": [
+      {
+        "label": "D&D 2024 adaptation · Serpent’s Tooth",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Piercing (1d8 with two hands in melee) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Thrown, Versatile (1d8)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "On a hit, add 1d6 Poison damage. While holding the spear, you have Advantage on Dexterity (Acrobatics) checks.",
+          "Conversion notes": "Uses the 2024 Spear and keeps the two source effects independent.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 34."
+        }
+      }
+    ],
+    "open5e-vom:vom_shepherds-flail": [
+      {
+        "label": "D&D 2024 adaptation · Shepherd’s Flail",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_flail",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Bludgeoning + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "2 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Only for True Authority. Requires attunement to a Crook of the Flock.",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While holding the flail and attuned to it, your Charisma increases by 4, to a maximum of 30. Its hits against Beasts deal an extra 3d6 Bludgeoning damage.",
+          "Conversion notes": "The +1 weapon enhancement functions without attunement. True Authority ends if your attunement to the Crook of the Flock ends.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 35.",
+          "True Authority": "The flail holds 5 charges and regains 1d4 + 1 expended charges at dawn. While attuned, when you reduce a Humanoid to 0 Hit Points with the flail, you can spend 1 charge. It stabilizes, regains 1 Hit Point, and is Charmed by you for 24 hours. It regards you as its trusted leader. This effect ends if you or your companions harm it, or if you command it to act against its nature."
+        }
+      }
+    ],
+    "open5e-vom:vom_sharkskin-vest": [
+      {
+        "label": "D&D 2024 adaptation · Sharkskin Vest",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Special powers": "You have Advantage on Strength (Athletics) checks to swim. Once per dawn while underwater, take a Magic action to cast Polymorph on yourself into a Reef Shark for up to 1 hour without Concentration. You keep your Intelligence, Wisdom, and Charisma scores. You can end the form as a Bonus Action. It also ends if you die, drop to 0 Hit Points, or lose the form’s Temporary Hit Points.",
+          "Conversion notes": "Uses 2024 Leather Armor (+1) and Polymorph, including its Temporary Hit Point rules. Any remaining Temporary Hit Points from the spell vanish when the form ends.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 34.",
+          "2024 spell": "https://www.dndbeyond.com/spells/2618876-polymorph"
+        }
+      }
+    ],
+    "open5e-vom:vom_shield-of-gnawing": [
+      {
+        "label": "D&D 2024 adaptation · Shield of Gnawing",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Training": "Shield",
+          "Weight": "6 lb",
+          "Rarity": "Rare",
+          "Attunement": "Barbarian",
+          "Special powers": "While wielding the shield and Raging, you can take a Bonus Action to Shove a creature within your Unarmed Strike reach. It can be no more than one size larger than you. It chooses a Strength or Dexterity save against DC 8 + your Strength modifier + Proficiency Bonus. On a failure, knock it Prone or push it 5 feet away.",
+          "Conversion notes": "Converts the source’s Bonus Action Shove to the 2024 save-based Shove. Its +3 AC includes the ordinary shield bonus.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 35.",
+          "Armor class bonus": "+3"
+        }
+      }
+    ],
+    "open5e-vom:vom_shield-of-missile-reversal": [
+      {
+        "label": "D&D 2024 adaptation · Shield of Missile Reversal",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Training": "Shield",
+          "Weight": "6 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Special powers": "When a physical missile from a ranged attack would hit you, you can use a Reaction to redirect it, preventing the hit on you. Make a ranged weapon attack against the original attacker using the original attack’s bonuses. On a hit, apply the missile’s normal damage and the original attacker’s damage bonuses.",
+          "Conversion notes": "Uses the printed +1 shield enhancement. The conversion treats physical missiles as eligible and resolves the redirected attack independently, with no damage to you even if it misses.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 35.",
+          "Armor class bonus": "+3"
+        }
+      }
+    ],
+    "open5e-vom:vom_shield-of-the-fallen": [
+      {
+        "label": "D&D 2024 adaptation · Shield of the Fallen",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Training": "Shield",
+          "Weight": "6 lb",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Special powers": "A creature can lay you on the shield if you are Paralyzed, Petrified, or Unconscious. It then levitates with you and your carried equipment and follows that creature for up to 1 hour before lowering gently. It otherwise follows the 2024 Floating Disk movement rules. After use it recharges in 1d12 hours.",
+          "Conversion notes": "Uses standard 2024 Shield AC. The floating mode replaces the shield’s wielded use.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 36.",
+          "Armor class bonus": "+2",
+          "2024 spell": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#FloatingDisk"
+        }
+      }
+    ],
     "open5e-vom:vom_ravagers-axe": [
       {
         "label": "D&D 2024 adaptation · Ravager’s Axe",

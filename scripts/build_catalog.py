@@ -201,6 +201,16 @@ def main():
         'vom_sand-arrow': 33,
         'vom_sand-suit': 33,
         'vom_sanguine-lance': 33,
+        'vom_scimitar-of-the-desert-winds': 33,
+        'vom_scourge-of-devotion': 33,
+        'vom_sea-witchs-blade': 34,
+        'vom_searing-whip': 34,
+        'vom_serpents-tooth': 34,
+        'vom_sharkskin-vest': 34,
+        'vom_shepherds-flail': 35,
+        'vom_shield-of-gnawing': 35,
+        'vom_shield-of-missile-reversal': 35,
+        'vom_shield-of-the-fallen': 36,
     }
     vault_weapon_corrections = {
         'vom_anchor-of-striking': ('Anchor of Striking', 'srd_war-pick', 11),
@@ -254,6 +264,10 @@ def main():
                     if raw['pk'].startswith('vom_ghost-barding-'):
                         vault_page = 24
                         f = {**f, 'weight': '1.000'}
+                    if raw['pk'] == 'vom_scourge-of-devotion':
+                        f = {**f, 'rarity': 'rare'}
+                    if raw['pk'] == 'vom_sea-witchs-blade':
+                        f = {**f, 'rarity': 'very-rare'}
                     if raw['pk'] == 'vom_hidden-armament':
                         f = {**f, 'weapon': None}
                     if raw['pk'] == 'vom_fountmail':
@@ -262,12 +276,15 @@ def main():
                                       'vom_crusaders-shield', 'vom_fellforged-armor', 'vom_fountmail',
                                       'vom_goblin-shield', 'vom_gorgon-scale', 'vom_grasping-shield', 'vom_larkmail',
                                       'vom_living-juggernaut', 'vom_mail-of-the-sword-master', 'vom_primordial-scale',
-                                      'vom_retribution-armor', 'vom_rust-monster-shell', 'vom_sand-suit')
+                                      'vom_retribution-armor', 'vom_rust-monster-shell', 'vom_sand-suit',
+                                      'vom_sharkskin-vest', 'vom_shield-of-gnawing', 'vom_shield-of-missile-reversal')
                             or raw['pk'].startswith(('vom_bloodprice-', 'vom_chillblain-', 'vom_encouraging-',
                                                      'vom_grave-ward-'))):
                         f = {**f, 'requires_attunement': True}
                 category=f.get('category') or f.get('type') or ('armor' if fn=='Armor.json' else 'weapon' if fn=='Weapon.json' else 'gear')
                 weapon=weapon_lookup.get(f.get('weapon'),{}) if ver=='v2' else (f if fn=='Weapon.json' else {})
+                if iid == 'open5e-vom:vom_scourge-of-devotion' and weapon:
+                    weapon = {**weapon, 'damage_type': 'slashing'}
                 armor=armor_lookup.get(f.get('armor'),{}) if ver=='v2' else (f if fn=='Armor.json' else {})
                 armor_fact = armor_facts['records'].get(iid)
                 if armor_fact:
@@ -278,7 +295,8 @@ def main():
                     category = 'medium-armor'
                 typ,icon=classify(f['name'],category,weapon.get('name','')+' '+armor.get('name',''))
                 if iid in {'open5e-vom:vom_goblin-shield', 'open5e-vom:vom_grasping-shield',
-                           'open5e-vom:vom_grim-escutcheon'}:
+                           'open5e-vom:vom_grim-escutcheon', 'open5e-vom:vom_shield-of-gnawing',
+                           'open5e-vom:vom_shield-of-missile-reversal', 'open5e-vom:vom_shield-of-the-fallen'}:
                     icon = 'shield'
                 properties=[]
                 for a in prop_assign.get(f.get('weapon'),[]):
