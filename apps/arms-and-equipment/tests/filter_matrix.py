@@ -1871,6 +1871,23 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Mystara unusual melee weapons show their individual rules': '''(async () => {
+                    for (const [id, terms] of [
+                        ["2fb925a0d709ff20", ["DC 15 Intelligence", "Shortsword"]],
+                        ["bff4edaca74a1fcc", ["10 feet melee", "spiked striking stick"]],
+                        ["b9b501312112674b", ["Verbal components", "Deflect"]],
+                        ["49681048ad29229c", ["30-charge power cell", "6 charges"]],
+                        ["3c1f37ec63e39dbd", ["manufactured armor", "2d6 Slashing"]],
+                        ["71f514e5d09f8030", ["10 powered hits", "DC 16 Constitution"]],
+                    ]) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Mystara ordinary weapons link to published 2024 profiles': '''(async () => {
                     for (const [id, terms] of [
                         ["9ab9df225a4bb029", ["Open 2024 Battleaxe", "Topple"]],

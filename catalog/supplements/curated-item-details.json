@@ -1,6 +1,175 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:2fb925a0d709ff20": [
+      {
+        "label": "D&D 2024 adaptation · Sword Cane",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=10",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Mundane",
+          "Attunement": "None",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "The blade is concealed inside the cane. A creature examining it can identify it with a DC 15 Intelligence (Investigation) check. Draw the blade under the normal weapon-equipping rules. While sheathed it functions as a walking stick. The exposed blade uses the Shortsword profile.",
+          "Conversion notes": "The source lists a hidden short sword and a price of 25 gp. The concealment check is a 2024 conversion.",
+          "Source locator": "Colin Davidson, Extended Equipment List, PDF p. 10, Clothing, Footwear and Accessories.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:bff4edaca74a1fcc": [
+      {
+        "label": "D&D 2024 adaptation · Pyeongon",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=3",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_halberd",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Bludgeoning + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "7 lb",
+          "Rarity": "Mundane",
+          "Attunement": "None",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "This pole flail uses a long haft and a short, spiked striking stick connected by a chain. It has no extra action or damage rider.",
+          "Conversion notes": "The legacy 1d10 two-handed profile and 15 gp price are retained. Reach and Graze model the long swinging head. Use the linked Halberd as an equipment comparison.",
+          "Source locator": "Colin Davidson, Extended Equipment List, PDF pp. 3 and 5, weapon table and Pyeongon description.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:b9b501312112674b": [
+      {
+        "label": "D&D 2024 adaptation · Silent Knight’s Hooked Club",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=70",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatclub",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d8 Bludgeoning + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Two-Handed",
+          "Mastery": "Push",
+          "Weight": "10 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Once on each of your turns when you hit a creature with the club, it makes a DC 15 Constitution save. On a failure it cannot produce audible sound or cast spells with Verbal components until the end of your next turn. A later failed save extends the effect by 1 round, up to a total of 3 rounds remaining. This affects only the struck creature.",
+          "Conversion notes": "The source’s escalating silence becomes a save and capped duration. The club’s defense uses a single reaction.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, PDF p. 70, Silent Knight.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Deflect": "While holding the club, use a Reaction when a melee attack hits you to add +2 to your AC against that attack, potentially turning the hit into a miss."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:49681048ad29229c": [
+      {
+        "label": "D&D 2024 adaptation · Sathar Light Sabre",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=67",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Radiant (1d10 in two hands) + Strength modifier, plus any charge damage.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Very rare",
+          "Attunement": "None",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "The weapon has a 30-charge power cell. After a hit, expend up to 6 charges to add 1d6 Radiant per charge. Only one hit per turn can spend charges. While powered, the blade counts as magical for overcoming Resistance and Immunity to attacks. Replace the cell with an action. A depleted blade cannot attack until fitted with a charged cell.",
+          "Conversion notes": "Keeps the legacy 30-charge reserve and six-charge discharge. Radiant damage and the magical-attack interaction replace legacy numeric immunity thresholds.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, PDF p. 67, Sathar.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:3c1f37ec63e39dbd": [
+      {
+        "label": "D&D 2024 adaptation · Vibrosword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=78",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 Slashing + Strength modifier while powered. Unpowered, 1d8 Slashing (1d10 in two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient. Add +2 against manufactured armor while powered.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10 when unpowered)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "While powered, the blade grants a +2 bonus to attack rolls against a target wearing manufactured armor. It gives no attack bonus against natural armor or shields alone. The cell powers the weapon for up to 1 hour of active use. Toggle power as a Bonus Action. Replace a depleted cell as an action. Unpowered, use the ordinary 2024 Longsword profile.",
+          "Conversion notes": "Retains 2d6 powered damage and models the legacy armor bypass with a bounded bonus against worn armor.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, PDF p. 78, Vrusk.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:71f514e5d09f8030": [
+      {
+        "label": "D&D 2024 adaptation · Octospider Vibro-Axe",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=63",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_battleaxe",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 Slashing + Strength modifier while powered. Unpowered, 1d8 Slashing (1d10 in two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10 when unpowered)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Very rare",
+          "Attunement": "None",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "When you score a Critical Hit with the powered axe, the target makes a DC 16 Constitution save. On a failure it takes an additional 2d6 Slashing damage after the critical damage. Resolve those extra dice once. The weapon has 10 powered hits per cell. Replace a depleted cell as an action. Unpowered, use the ordinary Battleaxe profile.",
+          "Conversion notes": "The source’s instant-death rider becomes a bounded critical-hit effect. The powered attack converts the original 4d6 to 2d6 on a regular hit, before Critical Hit dice.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, PDF p. 63, Octospider.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
     "mystara-fan-names-reference:9ab9df225a4bb029": [
       {
         "label": "Published D&D 2024 counterpart · Battleaxe",
