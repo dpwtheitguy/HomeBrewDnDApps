@@ -203,7 +203,28 @@ def price_catalog(items, curated=None):
     by_id = {item['id']: item for item in items}
     direct = {item['id']: source_price(item) for item in items}
     barding_prices = {}
+    adapted_armor_prices = {}
     for item_id, entries in (curated or {}).items():
+        variants = [entry for entry in entries if entry.get('profile_kind') == 'adapted-source-armor']
+        item = by_id.get(item_id)
+        if variants and item and item['type'] in ('armor', 'shield') and item['magic'] is not False:
+            bases_and_rarities = {
+                (entry.get('related_item', {}).get('id'), rarity_key({'rarity': entry['fields'].get('Rarity')}).rstrip('.'))
+                for entry in variants
+            }
+            if len(bases_and_rarities) == 1:
+                base_id, rarity = bases_and_rarities.pop()
+                base = by_id.get(base_id)
+                if base and base['ruleset'] == 'dnd-2024' and base['magic'] is True:
+                    source_armor = base['mechanics'].get('source_fields', {}).get('armor')
+                    base_id = f"{base['source_id']}:{source_armor}"
+                    base = by_id.get(base_id)
+                if (rarity in RARITY and base and base['ruleset'] == 'dnd-2024'
+                        and base['magic'] is False and base['mechanics'].get('armor')
+                        and direct[base_id]):
+                    adapted_armor_prices[item_id] = (
+                        direct[base_id][0], rarity, base['name'],
+                    )
         for entry in entries:
             if not entry.get('barding') or entry.get('profile_kind') != 'published-armor-mapping':
                 continue
@@ -291,7 +312,17 @@ def price_catalog(items, curated=None):
     ornament_counts = Counter()
     for item in items:
         kind = normalized_type(item)
-        value, method, economy, basis = direct[item['id']] or barding_prices.get(item['id']) or estimate(item, kind)
+        item_id = item['id']
+        appraisal = direct[item_id] or barding_prices.get(item_id)
+        adapted_physical_cost = None
+        if appraisal is None and item_id in adapted_armor_prices:
+            adapted_physical_cost, rarity, base_name = adapted_armor_prices[item_id]
+            rarity_label = rarity.replace('-', ' ').title()
+            appraisal = (
+                adapted_physical_cost + Decimal(RARITY[rarity]), 'magic-rarity', 'dnd-2024-appraisal',
+                f'{rarity_label} draft conversion plus 2024 {base_name} cost',
+            )
+        value, method, economy, basis = appraisal or estimate(item, kind)
         ornament = None
         if direct[item['id']] is None and not construction(item):
             # A decoration only increases the physical item's appraisal. Any magical
@@ -300,10 +331,10 @@ def price_catalog(items, curated=None):
             if method in ('magic-rarity', 'exceptional'):
                 key = name_key(item['name'])
                 base = direct.get(item.get('base_item_id'))
-                physical_cost = base[0] if base and base[2] == 'dnd-2024' else next(
+                physical_cost = adapted_physical_cost or (base[0] if base and base[2] == 'dnd-2024' else next(
                     (cost for pattern, _, cost in equipment_patterns[kind] if pattern.search(key)),
                     Decimal(TYPE_VALUES.get(kind, 5)),
-                )
+                ))
             premium = decoration_premium(item, kind, physical_cost)
             if premium:
                 increment, label, source = premium

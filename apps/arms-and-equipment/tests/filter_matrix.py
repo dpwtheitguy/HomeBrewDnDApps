@@ -1740,6 +1740,21 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Draft magic armor and shield prices include only the mundane base': '''(async () => {
+                    const cases = [
+                        ["adventurers-vault-1-reference:64292fadc3c1368f", ["Base cost410 gp", "Base buy1025 gp", "Base sell164 gp", "Uncommon draft conversion plus 2024 Shield cost"]],
+                        ["adventurers-vault-1-reference:ccce738f9a38793f", ["Base cost4010 gp", "Rare draft conversion plus 2024 Shield cost"]],
+                        ["adventurers-vault-1-reference:ffa51a050b229967", ["Base cost40010 gp", "Very Rare draft conversion plus 2024 Shield cost"]],
+                        ["adventurers-vault-1-reference:82aa9792b6fd9c06", ["Base cost5500 gp", "Rare draft conversion plus 2024 Plate Armor cost"]],
+                        ["open5e-srd-2024:srd-2024_shield", ["Base cost10 gp"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Adventurer’s Vault shields show area defense, wall statistics and attacks': '''(async () => {
                     const cases = [
                         ["ccce738f9a38793f", ["saving throws against the same area effect", "Resolve the effect against you"]],
