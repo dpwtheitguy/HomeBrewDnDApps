@@ -1085,6 +1085,21 @@ def main():
                     }
                     return true;
                 })()''',
+                'Atruaghin cards show poison modes and armor exceptions': '''(async () => {
+                    const cases = [
+                        ["atruaghin-dmg-local:e43c4640017428d7", ["DC 15 Constitution", "2d10 Poison", "Sleep", "Paralyzed"]],
+                        ["atruaghin-dmg-local:736f119cc8cd0497", ["3 lb", "14 + Dex modifier", "unravels"]],
+                        ["atruaghin-dmg-local:a8d7c57c3bca2d66", ["no ordinary shield bonus", "incorporeal Undead", "Disadvantage"]],
+                        ["atruaghin-players-guide-local:10b30d0b2584c423", ["1d8 Fire", "Proficiency Bonus", "spectral arrow"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        const details = inspection.textContent;
+                        if (!terms.every(term => details.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

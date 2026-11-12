@@ -133,7 +133,7 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
                                                   'adapted-barding', 'adapted-game-armor', 'adapted-source-armor'}]
     encounter = [entry for entry in curated.get(item_id, [])
                  if entry.get('profile_kind') in {'armor-encounter-construct', 'documented-armor-accessory',
-                                                  'adapted-protective-garment'}]
+                                                  'adapted-protective-garment', 'adapted-protective-implement'}]
     if item['ruleset'] == 'bg3':
         evidence = 'native-bg3'
         fields.update(read_bg3(bg3['records'].get(item_id, {}), bg3['effects'], bg3['shield_training'], errors, gaps))
@@ -142,24 +142,24 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
         details = entry.get('fields', {})
         provenance = item['provenance']
         profile = entry['profile_kind']
-        garment = profile == 'adapted-protective-garment'
+        protective = profile in {'adapted-protective-garment', 'adapted-protective-implement'}
         construct = profile == 'armor-encounter-construct'
         effect_key = 'Creature defenses' if construct else 'Special powers'
-        if garment:
-            verified = any(ev.get('url') == entry.get('source') and ev.get('locator', {}).get('pdf_page')
-                           for ev in item.get('source_verifications', []))
-        else:
-            verified = entry.get('source') == provenance.get('source_url') and provenance.get('locator')
-        if (len(encounter) != 1 or entry.get('status') != ('original-draft' if garment else 'source-reported')
+        verified = entry.get('source') == provenance.get('source_url') and provenance.get('locator')
+        if protective:
+            verified = verified or any(ev.get('url') == entry.get('source') and ev.get('locator', {}).get('pdf_page')
+                                       for ev in item.get('source_verifications', []))
+        if (len(encounter) != 1 or entry.get('status') != ('original-draft' if protective else 'source-reported')
                 or not verified
                 or not all(details.get(key) for key in ('Source locator', effect_key, 'Use as armor'))):
             errors.append('armor reference needs source and explicit equipment applicability')
         evidence = 'documented-armor-construct' if construct else profile
-        fields = {'role': 'encounter construct' if construct else 'protective garment' if garment else 'armor accessory',
-                  'effects': details.get(effect_key)}
-        if garment:
+        role = {'armor-encounter-construct': 'encounter construct', 'documented-armor-accessory': 'armor accessory',
+                'adapted-protective-garment': 'protective garment', 'adapted-protective-implement': 'protective implement'}
+        fields = {'role': role[profile], 'effects': details.get(effect_key)}
+        if protective:
             fields.update(attunement=details.get('Attunement'), weight=details.get('Weight'))
-            gaps.append('item-specific protective garment draft requires DM review')
+            gaps.append(f'item-specific {role[profile]} draft requires DM review')
     elif mappings:
         variants = []
         base_ids = []

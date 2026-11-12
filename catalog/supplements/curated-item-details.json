@@ -9084,6 +9084,509 @@
           "Special powers": "The +2 armor enhancement is included in AC 20. Ludwig’s separate Sword +2 does not affect this armor."
         }
       }
+    ],
+    "atruaghin-dmg-local:e43c4640017428d7": [
+      {
+        "label": "D&D 2024 adaptation · Blowgun of the Serpent",
+        "status": "original-draft",
+        "source": "https://freemystara.com/pdfs/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_blowgun",
+          "label": "Open 2024 Blowgun"
+        },
+        "fields": {
+          "Base weapon": "Blowgun",
+          "Damage": "1 Piercing + the Dexterity modifier used for the attack + 2",
+          "Attack bonus": "Dexterity modifier plus proficiency bonus if proficient, plus 2.",
+          "Range": "25/100 ft",
+          "Category": "Martial",
+          "Properties": "Ammunition (Needle), Loading, Two-Handed.",
+          "Mastery": "Vex",
+          "Activation": "Make a normal Blowgun attack. Expend one piece of compatible ammunition.",
+          "Attunement": "Required for this adaptation.",
+          "Source locator": "Glen Welch’s Atruaghin Dungeon Master’s Guide (fan publication), Atruaghin Magic Items, supplied PDF p. 55.",
+          "Legacy facts": "Two-handed +2 blowgun that spends charges to treat darts with toxin, sleep poison or paralysis poison.",
+          "Conversion notes": "Preserves the two-handed design and three poison modes. This draft limits the recharge and converts the poison saves and durations to 2024 play.",
+          "Special powers": "Has 3 charges and regains 1d3 at dawn. When you fire a needle, you can spend 1 charge and choose a poison. A creature hit makes a DC 15 Constitution save. On a failure, apply the chosen effect. A miss still spends the charge.",
+          "Poison modes": "Toxin: 2d10 Poison damage. Sleep: Unconscious until the end of the target’s next turn, until it takes damage, or until someone uses an action to wake it. Hold: Paralyzed until the start of your next turn.",
+          "Rarity": "Very Rare"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "atruaghin-dmg-local:d2ad52dc134d0355": [
+      {
+        "label": "D&D 2024 adaptation · Club of the Old Ways",
+        "status": "original-draft",
+        "source": "https://freemystara.com/pdfs/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 Club"
+        },
+        "fields": {
+          "Base weapon": "Club",
+          "Damage": "1d4 Bludgeoning + the Strength modifier used for the attack + 1",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient, plus 1.",
+          "Range": "5 ft melee",
+          "Category": "Simple",
+          "Properties": "Light",
+          "Mastery": "Slow",
+          "Activation": "Make a normal Club attack.",
+          "Attunement": "Required for this adaptation.",
+          "Source locator": "Glen Welch’s Atruaghin Dungeon Master’s Guide (fan publication), Atruaghin Magic Items, supplied PDF p. 56.",
+          "Legacy facts": "A +1 club that acts as +4 against targets wearing metal armor.",
+          "Conversion notes": "Keeps the ordinary +1 and represents the legacy +4 against metal armor with a damage rider.",
+          "Special powers": "When you hit a creature wearing armor predominantly made of metal, deal an extra 1d6 Bludgeoning damage.",
+          "Rarity": "Rare"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "atruaghin-dmg-local:9992198d778d26b7": [
+      {
+        "label": "D&D 2024 adaptation · Kachina Tomahawk",
+        "status": "original-draft",
+        "source": "https://freemystara.com/pdfs/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Open 2024 Handaxe"
+        },
+        "fields": {
+          "Base weapon": "Handaxe",
+          "Damage": "1d4 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Category": "Simple",
+          "Properties": "Light, Thrown (Range 20/60)",
+          "Mastery": "Vex",
+          "Activation": "Make a normal Handaxe attack.",
+          "Attunement": "Required for this adaptation.",
+          "Source locator": "Glen Welch’s Atruaghin Dungeon Master’s Guide (fan publication), Kachina, supplied PDF p. 61.",
+          "Legacy facts": "The kachina wields a magical tomahawk. In the source, a non-lawful creature hit must save against spells or become Lawful for 24 hours. Remove curse ends the effect. Modern mechanics require adaptation.",
+          "Conversion notes": "Uses a Handaxe as the tomahawk base and keeps the source’s 1d4 hit die. A brief restraint on hostile reactions replaces the original 24-hour alignment change.",
+          "Special powers": "Once per Long Rest, on a hit you can force the target to make a DC 14 Wisdom save. On a failure it cannot take Reactions until the end of its next turn.",
+          "Rarity": "Uncommon"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "atruaghin-dmg-local:abdb327258ff6132": [
+      {
+        "label": "D&D 2024 adaptation · Darna Spiderbane’s Jagged Blade",
+        "status": "original-draft",
+        "source": "https://freemystara.com/pdfs/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 Shortsword"
+        },
+        "fields": {
+          "Base weapon": "Shortsword",
+          "Damage": "1d6 Piercing + the Strength or Dexterity modifier used for the attack",
+          "Attack bonus": "Strength or Dexterity modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee",
+          "Category": "Martial",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Activation": "Make a normal Shortsword attack.",
+          "Attunement": "None.",
+          "Source locator": "Glen Welch’s Atruaghin Dungeon Master’s Guide (fan publication), Darna Spiderbane, supplied PDF p. 52.",
+          "Legacy facts": "Darna wields a jagged blade against opponents many times her size. The blade type and mechanics are unspecified.",
+          "Conversion notes": "Shortsword is the chosen analogue for the unspecified blade. Darna’s ability to fight larger creatures is part of her story.",
+          "Special powers": "No additional power is described."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "atruaghin-dmg-local:e751c416d3320ad4": [
+      {
+        "label": "2024 counterpart · Pistol",
+        "status": "published-reference",
+        "source": "https://freemystara.com/pdfs/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_pistol",
+          "label": "Open 2024 Pistol"
+        },
+        "fields": {
+          "Base weapon": "Pistol",
+          "Damage": "1d10 Piercing + the Dexterity modifier used for the attack",
+          "Attack bonus": "Dexterity modifier plus proficiency bonus if proficient.",
+          "Range": "30/90 ft",
+          "Category": "Martial",
+          "Properties": "Ammunition (Range 30/90; Bullet), Loading",
+          "Mastery": "Vex",
+          "Activation": "Make a normal Pistol attack. Expend one piece of compatible ammunition.",
+          "Attunement": "None.",
+          "Source locator": "Glen Welch’s Atruaghin Dungeon Master’s Guide (fan publication), Indigo Jack Callahan, supplied PDF p. 52.",
+          "Legacy facts": "Callahan wears a pair of pistols from his days with the Merry Pirates.",
+          "Quantity": "Two pistols. The damage and range apply to each pistol independently. Each shot uses one bullet. The Loading property applies normally."
+        }
+      }
+    ],
+    "atruaghin-dmg-local:51bce6b6acb9a973": [
+      {
+        "label": "D&D 2024 adaptation · Whale Bone Island Silvered Spear",
+        "status": "original-draft",
+        "source": "https://freemystara.com/pdfs/",
+        "rules_source": "https://www.dndbeyond.com/posts/1842-10-more-new-magic-items-from-the-dungeon-masters#7SilveredWeapon",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 Spear"
+        },
+        "fields": {
+          "Base weapon": "Spear",
+          "Damage": "1d6 Piercing (1d8 with two hands for a melee attack) + the Strength modifier used for the attack",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Category": "Simple",
+          "Properties": "Thrown (Range 20/60), Versatile (1d8)",
+          "Mastery": "Sap",
+          "Activation": "Make a normal Spear attack.",
+          "Attunement": "None.",
+          "Source locator": "Glen Welch’s Atruaghin Dungeon Master’s Guide (fan publication), Kusinet Blue Lung, supplied PDF p. 50.",
+          "Legacy facts": "Kusinet keeps silvered spears at several points on Whale Bone Island in case elementals arrive from the Island of Spirits. The guide gives no special statistics.",
+          "Conversion notes": "Preserves the silvered construction and uses the 2024 Silvered Weapon rule. The encounter does not give the spear a special bonus against Elementals.",
+          "Special powers": "When you score a Critical Hit with it against a creature that is shape-shifted, add one weapon damage die.",
+          "Rarity": "Common"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "atruaghin-dmg-local:b6e6d6dbd3b2ce4f": [
+      {
+        "label": "D&D 2024 adaptation · Whale Bone Island Whaling Harpoon",
+        "status": "original-draft",
+        "source": "https://freemystara.com/pdfs/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 Spear"
+        },
+        "fields": {
+          "Base weapon": "Spear",
+          "Damage": "1d6 Piercing (1d8 with two hands for a melee attack) + the Strength modifier used for the attack",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Category": "Simple",
+          "Properties": "Thrown (Range 20/60), Versatile (1d8)",
+          "Mastery": "Sap",
+          "Activation": "Make a normal Spear attack.",
+          "Attunement": "None.",
+          "Source locator": "Glen Welch’s Atruaghin Dungeon Master’s Guide (fan publication), Whale Bone Island, supplied PDF p. 14.",
+          "Legacy facts": "Turtle Clan whalers use harpoons and ropes together to dispatch beached whales before rendering the catch. The source gives no weapon statistics.",
+          "Conversion notes": "Uses Spear as the base and adds a retrieval rule for the rope used by the whalers.",
+          "Special powers": "If attached to a rope whose free end you hold, retrieve a missed throw as a Utilize action when the rope is unobstructed and the harpoon is within 20 feet. A hit applies the normal damage only."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "atruaghin-dmg-local:4d25d81b22f4598f": [
+      {
+        "label": "D&D 2024 adaptation · Sea Lion Alfheim Ironwood Arms",
+        "status": "original-draft",
+        "source": "https://freemystara.com/pdfs/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 Club"
+        },
+        "fields": {
+          "Base weapon": "Club",
+          "Damage": "1d4 Bludgeoning + the Strength modifier used for the attack",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee",
+          "Category": "Simple",
+          "Properties": "Light",
+          "Mastery": "Slow",
+          "Activation": "Make a normal Club attack.",
+          "Attunement": "None.",
+          "Source locator": "Glen Welch’s Atruaghin Dungeon Master’s Guide (fan publication), Chief Tyee Gold Hands, supplied PDF p. 49.",
+          "Legacy facts": "Tyee armed the Sea Lion Tribe with traditional weapons made from rare Alfheim ironwood. The guide does not identify individual weapon forms.",
+          "Conversion notes": "The source describes a group of traditional weapons without naming the forms. The Club is a worked example. For another ironwood weapon choose its normal 2024 weapon profile.",
+          "Special powers": "The ironwood material adds no attack or damage bonus in this adaptation."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "atruaghin-players-guide-local:6ba45cae94e2837f": [
+      {
+        "label": "D&D 2024 adaptation · Hattani Stoneclaw Shamani Stone War Hammer",
+        "status": "original-draft",
+        "source": "https://freemystara.com/pdfs/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_warhammer",
+          "label": "Open 2024 Warhammer"
+        },
+        "fields": {
+          "Base weapon": "Warhammer",
+          "Damage": "1d8 Bludgeoning (1d10 with two hands for a melee attack) + the Strength modifier used for the attack",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee",
+          "Category": "Martial",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Push",
+          "Activation": "Make a normal Warhammer attack.",
+          "Attunement": "None.",
+          "Source locator": "Atruaghin Player’s Guide (fan publication), Hattani Stoneclaw, supplied PDF p. 30.",
+          "Legacy facts": "Stone war hammers are traditional weapons of his shamani.",
+          "Conversion notes": "Uses the standard Warhammer profile for the stone-headed ceremonial weapon.",
+          "Special powers": "Stone construction and religious use do not change the weapon’s combat statistics."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "atruaghin-players-guide-local:74021dd3078e7600": [
+      {
+        "label": "D&D 2024 adaptation · Tahkati Stormtamer Shamani Bone Knife",
+        "status": "original-draft",
+        "source": "https://freemystara.com/pdfs/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 Dagger"
+        },
+        "fields": {
+          "Base weapon": "Dagger",
+          "Damage": "1d4 Piercing + the Strength or Dexterity modifier used for the attack",
+          "Attack bonus": "Strength or Dexterity modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Category": "Simple",
+          "Properties": "Finesse, Light, Thrown (Range 20/60)",
+          "Mastery": "Nick",
+          "Activation": "Make a normal Dagger attack.",
+          "Attunement": "None.",
+          "Source locator": "Atruaghin Player’s Guide (fan publication), Tahkati Stormtamer, supplied PDF p. 32.",
+          "Legacy facts": "His shamani may use a bone knife as a weapon.",
+          "Conversion notes": "Uses the standard Dagger profile for the described bone knife.",
+          "Special powers": "Bone construction adds no combat bonus."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "atruaghin-players-guide-local:10b30d0b2584c423": [
+      {
+        "label": "D&D 2024 adaptation · Shamani Firebow",
+        "status": "original-draft",
+        "source": "https://freemystara.com/pdfs/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open 2024 Longbow"
+        },
+        "fields": {
+          "Base weapon": "Longbow",
+          "Damage": "Spectral arrow: 1d8 Fire + Dexterity modifier. Ordinary arrow: 1d8 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier plus proficiency bonus if proficient.",
+          "Range": "150/600 ft",
+          "Category": "Martial",
+          "Properties": "Ammunition (Range 150/600; Arrow), Heavy, Two-Handed",
+          "Mastery": "Slow",
+          "Activation": "Make a Longbow attack. Choose whether to expend one spectral arrow or one ordinary arrow.",
+          "Attunement": "None.",
+          "Source locator": "Atruaghin Player’s Guide (fan publication), Firebow, supplied PDF p. 12.",
+          "Legacy facts": "A wooden bow temporarily enchanted to create spectral flaming arrows when drawn, up to one per Shamani level. The original rules give 1d8 damage and allow the arrows to hit targets that require magical weapons.",
+          "Conversion notes": "Uses Longbow range and mastery for the example. The source’s level-scaled arrow count is adapted to Proficiency Bonus for a Shamani’s enchantment.",
+          "Special powers": "As a Magic action, a Shamani can enchant a wooden longbow. It can create a number of spectral arrows equal to the Shamani’s Proficiency Bonus. Draw and fire one as part of a normal attack, without using an ordinary arrow. The arrows deal Fire damage instead of Piercing. Unused arrows vanish at the next dawn or if the bow is enchanted again."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "atruaghin-players-guide-local:9c8a84586334d12c": [
+      {
+        "label": "D&D 2024 adaptation · Shamani Sanctified Weapon",
+        "status": "original-draft",
+        "source": "https://freemystara.com/pdfs/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 Club"
+        },
+        "fields": {
+          "Base weapon": "Club",
+          "Damage": "1d4 Bludgeoning + the Strength modifier used for the attack",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee",
+          "Category": "Simple",
+          "Properties": "Light",
+          "Mastery": "Slow",
+          "Activation": "Make a normal attack with the treated weapon. The treatment adds no bonus to attack or damage rolls.",
+          "Attunement": "None.",
+          "Source locator": "Atruaghin Player’s Guide (fan publication), Sanctify, supplied PDF p. 13.",
+          "Legacy facts": "A weapon sanctified during a rite can strike targets normally harmed only by magical weapons. Unlike Minor Blessing, the enchantment is permanent in the source.",
+          "Conversion notes": "Uses a Club as a worked example of a weapon treatment. Keep the chosen weapon’s own 2024 damage, training, properties and mastery.",
+          "Special powers": "After a Shamani performs the rite on a weapon, attacks made with it count as magical. This lasts until the enchantment is dispelled."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "atruaghin-players-guide-local:cb30d6646916ae4d": [
+      {
+        "label": "D&D 2024 adaptation · Shamani Minor-Blessed Weapon",
+        "status": "original-draft",
+        "source": "https://freemystara.com/pdfs/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 Club"
+        },
+        "fields": {
+          "Base weapon": "Club",
+          "Damage": "1d4 Bludgeoning + the Strength modifier used for the attack",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee",
+          "Category": "Simple",
+          "Properties": "Light",
+          "Mastery": "Slow",
+          "Activation": "Make a normal attack with the treated weapon. The treatment adds no bonus to attack or damage rolls.",
+          "Attunement": "None.",
+          "Source locator": "Atruaghin Player’s Guide (fan publication), Minor Blessing, supplied PDF p. 11.",
+          "Legacy facts": "A weapon with the blessing can harm creatures that require magical weapons. Doing so consumes the blessing in the source rules.",
+          "Conversion notes": "Uses a Club as a worked example of a weapon treatment. Keep the chosen weapon’s own 2024 damage, training, properties and mastery.",
+          "Special powers": "After a Shamani performs the rite on a weapon, attacks made with it count as magical. The blessing ends after the first hit for which magical weapon status changes the target’s resistance or immunity."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "atruaghin-dmg-local:736f119cc8cd0497": [
+      {
+        "label": "D&D 2024 adaptation · Armor of Feathers",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://freemystara.com/pdfs/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail",
+          "label": "Open 2024 Scale Mail"
+        },
+        "fields": {
+          "Source locator": "Atruaghin fan guide, Atruaghin Magic Items, supplied PDF p. 55.",
+          "Legacy facts": "Tiger Clan feathered shirt that acts as scale mail, weighs three pounds and falls apart if the wearer dies.",
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "3 lb",
+          "Attunement": "Required.",
+          "Special powers": "The feathered shirt unravels and is destroyed if its attuned wearer dies while wearing it.",
+          "Conversion notes": "Uses Scale Mail protection and training, preserving the original three-pound weight and destruction trigger.",
+          "Rarity": "Uncommon"
+        }
+      }
+    ],
+    "atruaghin-dmg-local:04078b4c709b007b": [
+      {
+        "label": "D&D 2024 adaptation · Armor of the Old Ways",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://freemystara.com/pdfs/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "fields": {
+          "Source locator": "Atruaghin fan guide, Atruaghin Magic Items, supplied PDF p. 55.",
+          "Legacy facts": "The source gives this sacred leather armor a +1 enhancement and penalizes attacks made against the wearer with metal weapons.",
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light",
+          "Strength requirement": "None.",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required.",
+          "Special powers": "Twice per Long Rest when a creature hits you with a metal weapon, use a Reaction to add 2 to your AC against that attack only, potentially turning it into a miss.",
+          "Conversion notes": "Preserves the +1 leather profile. A limited defensive Reaction replaces the original −4 penalty on attacks with metal weapons.",
+          "Rarity": "Rare"
+        }
+      }
+    ],
+    "atruaghin-players-guide-local:82505948fc0cd8ba": [
+      {
+        "label": "D&D 2024 adaptation · Atruaghin Bone Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://freemystara.com/pdfs/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor",
+          "label": "Open 2024 Hide Armor"
+        },
+        "fields": {
+          "Source locator": "Atruaghin fan guide, Atruaghin Classes — Fighter, supplied PDF p. 8.",
+          "Legacy facts": "Bone is a separate listed armor material for Turtle and Horse Clan fighters.",
+          "Armor class": "12 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None.",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "None.",
+          "Special powers": "No special power. The bone components provide the described construction.",
+          "Conversion notes": "Uses Hide Armor as the medium armor benchmark for a suit made from bone."
+        }
+      }
+    ],
+    "atruaghin-players-guide-local:cd9096420e81e9e4": [
+      {
+        "label": "D&D 2024 adaptation · Atruaghin Turtle-Shell Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://freemystara.com/pdfs/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail",
+          "label": "Open 2024 Scale Mail"
+        },
+        "fields": {
+          "Source locator": "Atruaghin fan guide, Atruaghin Classes — Fighter, supplied PDF p. 8.",
+          "Legacy facts": "Turtle and Horse Clan fighters are described using armor made from turtle shell or bone.",
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "None.",
+          "Special powers": "No special power. The shell pieces provide the described construction.",
+          "Conversion notes": "Uses Scale Mail as a benchmark for a suit of overlapping turtle-shell pieces."
+        }
+      }
+    ],
+    "atruaghin-dmg-local:d23194765da73659": [
+      {
+        "label": "D&D 2024 adaptation · Armor of the Ghost Bear",
+        "status": "original-draft",
+        "profile_kind": "adapted-protective-garment",
+        "source": "https://freemystara.com/pdfs/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "fields": {
+          "Source locator": "Glen Welch’s Atruaghin Dungeon Master’s Guide (fan publication), supplied PDF p. 55.",
+          "Use as armor": "Wear this bone chest piece. It grants no AC bonus and requires no armor training.",
+          "Attunement": "Required.",
+          "Rarity": "Rare",
+          "Special powers": "While wearing it, you have Resistance to damage from nonmagical ammunition fired from ranged weapons.",
+          "Conversion notes": "Converts the original protection from normal missiles to Resistance against the corresponding damage."
+        }
+      }
+    ],
+    "atruaghin-dmg-local:a8d7c57c3bca2d66": [
+      {
+        "label": "D&D 2024 adaptation · Spirit Shield",
+        "status": "original-draft",
+        "profile_kind": "adapted-protective-implement",
+        "source": "https://freemystara.com/pdfs/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "fields": {
+          "Source locator": "Glen Welch’s Atruaghin Dungeon Master’s Guide (fan publication), supplied PDF p. 57.",
+          "Use as armor": "Hold this frame in one hand. It gives no ordinary shield bonus and requires no Shield training.",
+          "Attunement": "Required.",
+          "Rarity": "Rare",
+          "Special powers": "While holding it, attack rolls against you by incorporeal Undead have Disadvantage.",
+          "Conversion notes": "Uses incorporeal Undead as a defined target for the original protection against spirits."
+        }
+      }
     ]
   }
 }
