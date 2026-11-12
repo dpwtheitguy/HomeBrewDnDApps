@@ -1,6 +1,110 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-35-reference:730153223c036a0c": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d6 Piercing + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "30/120 feet",
+          "Properties": "Ammunition (Bolts), Light, Loading",
+          "Mastery": "Vex",
+          "Weight": "3 lb",
+          "Activation": "Make a ranged weapon attack. Spend one bolt per attack. Loading limits firing to one bolt per action, Bonus Action, or Reaction unless a feature overrides it. You need a free hand to load this one-handed weapon.",
+          "Attunement": "None",
+          "Published 2024 price": "75 gp",
+          "Legacy source": "D&D 3.5 Dungeon Master’s Guide, p. 180 (PDF p. 181), Assassin.",
+          "Legacy equipment rules": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "Comparison notes": "The 3.5 Assassin proficiency list names the ordinary Hand Crossbow. The 2024 version changes the legacy 1d4 damage to 1d6 and supplies Light and Vex."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hand-crossbow",
+          "label": "Open published 2024 Hand Crossbow"
+        }
+      }
+    ],
+    "dmg-35-reference:8575418a34b70216": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d10 Piercing + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "100/400 feet",
+          "Properties": "Ammunition (Bolts), Heavy, Loading, Two-Handed",
+          "Mastery": "Push",
+          "Weight": "18 lb",
+          "Activation": "Make a ranged weapon attack. Spend one bolt per attack. Loading limits firing to one bolt per action, Bonus Action, or Reaction unless a feature overrides it. Heavy imposes Disadvantage if your Dexterity score is below 13.",
+          "Attunement": "None",
+          "Published 2024 price": "50 gp",
+          "Legacy source": "D&D 3.5 Dungeon Master’s Guide, p. 180 (PDF p. 181), Assassin.",
+          "Legacy equipment rules": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "Comparison notes": "The 3.5 Assassin proficiency list names the ordinary Heavy Crossbow. The 2024 version retains 1d10 damage and replaces the legacy range increment with normal and long range."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_heavy-crossbow",
+          "label": "Open published 2024 Heavy Crossbow"
+        }
+      }
+    ],
+    "dmg-35-reference:981442a7630f5c28": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Simple ranged weapon",
+          "Damage": "1d8 Piercing + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "80/320 feet",
+          "Properties": "Ammunition (Bolts), Loading, Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "5 lb",
+          "Activation": "Make a ranged weapon attack. Spend one bolt per attack. Loading limits firing to one bolt per action, Bonus Action, or Reaction unless a feature overrides it.",
+          "Attunement": "None",
+          "Published 2024 price": "25 gp",
+          "Legacy source": "D&D 3.5 Dungeon Master’s Guide, p. 180 (PDF p. 181), Assassin.",
+          "Legacy equipment rules": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "Comparison notes": "The 3.5 Assassin proficiency list names the ordinary Light Crossbow. The 2024 version retains 1d8 damage and uses the Simple category. The item’s name does not confer the Light property."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_light-crossbow",
+          "label": "Open published 2024 Light Crossbow"
+        }
+      }
+    ],
+    "dmg-35-reference:4b95e69131ad7b6a": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d8 Piercing + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "150/600 feet",
+          "Properties": "Ammunition (Arrows), Heavy, Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Activation": "Make a ranged weapon attack. Spend one arrow per attack. Heavy imposes Disadvantage if your Dexterity score is below 13.",
+          "Attunement": "None",
+          "Published 2024 price": "50 gp",
+          "Legacy source": "D&D 3.5 Dungeon Master’s Guide, p. 133 (PDF p. 134), War.",
+          "Legacy equipment rules": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "Comparison notes": "The 3.5 troop example names an ordinary Longbow. The 2024 version retains 1d8 damage and gives normal and long range. Composite bow variants have separate records."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open published 2024 Longbow"
+        }
+      }
+    ],
     "dmg-35-reference:7ff74e3ff671bbb8": [
       {
         "label": "D&D 2024 adaptation · Renaissance pistol",

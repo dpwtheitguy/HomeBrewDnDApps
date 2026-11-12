@@ -1782,6 +1782,27 @@ def main():
                     return document.title === title && header.querySelector("h1").textContent === title
                         && header.scrollWidth <= header.clientWidth;
                 })()''',
+                '3.5 ranged weapon references open the verified 2024 rules': '''(async () => {
+                    const cases = [
+                        ["730153223c036a0c", ["1d6 Piercing", "30/120 feet", "Light, Loading", "Vex", "free hand"]],
+                        ["8575418a34b70216", ["1d10 Piercing", "100/400 feet", "Heavy, Loading, Two-Handed", "Push"]],
+                        ["981442a7630f5c28", ["1d8 Piercing", "80/320 feet", "Simple ranged weapon", "Slow"]],
+                        ["4b95e69131ad7b6a", ["1d8 Piercing", "150/600 feet", "Ammunition (Arrows)", "Slow"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dmg-35-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const text = inspection.textContent;
+                        if (!terms.every(term => text.includes(term))
+                            || !text.includes("Verified 2024 equipment mapping")
+                            || !inspection.querySelector('a[href*="br-2024/equipment#Weapons"]')) return false;
+                    }
+                    Array.from(inspection.querySelectorAll("button"))
+                        .find(button => button.textContent === "Open published 2024 Longbow").click();
+                    await itemDetails;
+                    return inspection.querySelector("h2").textContent === "Longbow"
+                        && inspection.textContent.includes("2024 weapon rules");
+                })()''',
                 'Remaining 3.5 DMG weapons distinguish combat rules from the adventure hook': '''(async () => {
                     const cases = [
                         ["7ff74e3ff671bbb8", ["1d10 Piercing", "30/90 feet", "Loading"]],
