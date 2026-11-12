@@ -1,6 +1,24 @@
 {
   "schema_version": 1,
   "records": {
+    "dndbeyond:36838": [
+      {
+        "label": "D&D 2024 adaptation · Unbreakable Arrow",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/36838-unbreakable-arrow",
+        "fields": {
+          "Category": "Arrow · Common · No attunement",
+          "Damage": "Use the bow’s normal damage. The arrow adds no damage.",
+          "Attack bonus": "Use the bow’s attack modifier. The arrow adds no attack bonus.",
+          "Range": "Shortbow 80/320 feet; Longbow 150/600 feet.",
+          "Activation": "Fire it from a Shortbow or Longbow as part of a ranged attack.",
+          "Special powers": "The arrow cannot be broken outside an Antimagic Field. If recovered intact, it can be fired again.",
+          "Legacy source": "Xanathar’s Guide to Everything, p. 139; also printed in Ice Road Trackers, appendix C.",
+          "Conversion notes": "Retains the original durability and uses the 2024 bow rules, including normal ammunition recovery. Durability does not make the arrow return or guarantee recovery."
+        }
+      }
+    ],
     "dndbeyond:5554570": [
       {
         "label": "D&D 2024 adaptation · Curse of Strahd",

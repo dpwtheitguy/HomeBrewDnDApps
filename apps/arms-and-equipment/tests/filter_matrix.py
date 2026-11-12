@@ -993,6 +993,24 @@ def main():
                     }
                     return true;
                 })()''',
+                'Published weapon variants and ammunition show exact rules': '''(async () => {
+                    const cases = [
+                        ["36822", ["Moon-Touched Sword · Glaive", "Moon-Touched Sword · Shortsword",
+                            "10 feet melee with Reach", "1d8 Piercing", "In Darkness"]],
+                        ["36839", ["DC 10 Strength saving throw", "falls Prone", "compatible launcher"]],
+                        ["11295689", ["Launcher damage +1", "Launcher damage +2", "Launcher damage +3",
+                            "loses its magic", "lots of 10 or 20"]],
+                        ["36838", ["Antimagic Field", "150/600 feet", "normal ammunition recovery"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dndbeyond:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const details = inspection.textContent;
+                        if (!terms.every(term => details.includes(term)) ||
+                            details.includes("2024 provisional profile")) return false;
+                    }
+                    return true;
+                })()''',
                 'Ravenloft shortsword and axe retain their source-specific powers': '''(async () => {
                     const cases = [
                         ["5554570", "82", ["1d6 Piercing", "30-foot Emanation", "recharges at dawn", "K74h"]],

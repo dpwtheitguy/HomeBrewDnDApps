@@ -488,6 +488,187 @@
           "Saving throw": "DC 15 for the spell."
         }
       }
+    ],
+    "dndbeyond:36822": [
+      {
+        "label": "Published 2024 Moon-Touched Sword · Glaive",
+        "status": "published-reference",
+        "source": "https://roll20.net/compendium/dnd5e/Templates%3AMoon-Touched%20Sword?expansion=33359",
+        "fields": {
+          "Base weapon": "Glaive",
+          "Category": "Martial melee weapon · Common · No attunement",
+          "Damage": "1d10 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "10 feet melee with Reach.",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Graze",
+          "Activation": "Unsheathe the blade for its light. Attack as normal for the base weapon.",
+          "Light": "In Darkness, the unsheathed blade casts Bright Light to 15 feet and Dim Light for 15 feet beyond that."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_glaive",
+          "label": "Open 2024 base weapon"
+        }
+      },
+      {
+        "label": "Published 2024 Moon-Touched Sword · Greatsword",
+        "status": "published-reference",
+        "source": "https://roll20.net/compendium/dnd5e/Templates%3AMoon-Touched%20Sword?expansion=33359",
+        "fields": {
+          "Base weapon": "Greatsword",
+          "Category": "Martial melee weapon · Common · No attunement",
+          "Damage": "2d6 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet melee.",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Activation": "Unsheathe the blade for its light. Attack as normal for the base weapon.",
+          "Light": "In Darkness, the unsheathed blade casts Bright Light to 15 feet and Dim Light for 15 feet beyond that."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 base weapon"
+        }
+      },
+      {
+        "label": "Published 2024 Moon-Touched Sword · Longsword",
+        "status": "published-reference",
+        "source": "https://roll20.net/compendium/dnd5e/Templates%3AMoon-Touched%20Sword?expansion=33359",
+        "fields": {
+          "Base weapon": "Longsword",
+          "Category": "Martial melee weapon · Common · No attunement",
+          "Damage": "1d8 (1d10 with two hands) Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet melee.",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Activation": "Unsheathe the blade for its light. Attack as normal for the base weapon.",
+          "Light": "In Darkness, the unsheathed blade casts Bright Light to 15 feet and Dim Light for 15 feet beyond that."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 base weapon"
+        }
+      },
+      {
+        "label": "Published 2024 Moon-Touched Sword · Rapier",
+        "status": "published-reference",
+        "source": "https://roll20.net/compendium/dnd5e/Templates%3AMoon-Touched%20Sword?expansion=33359",
+        "fields": {
+          "Base weapon": "Rapier",
+          "Category": "Martial melee weapon · Common · No attunement",
+          "Damage": "1d8 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet melee.",
+          "Properties": "Finesse",
+          "Mastery": "Vex",
+          "Activation": "Unsheathe the blade for its light. Attack as normal for the base weapon.",
+          "Light": "In Darkness, the unsheathed blade casts Bright Light to 15 feet and Dim Light for 15 feet beyond that."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_rapier",
+          "label": "Open 2024 base weapon"
+        }
+      },
+      {
+        "label": "Published 2024 Moon-Touched Sword · Scimitar",
+        "status": "published-reference",
+        "source": "https://roll20.net/compendium/dnd5e/Templates%3AMoon-Touched%20Sword?expansion=33359",
+        "fields": {
+          "Base weapon": "Scimitar",
+          "Category": "Martial melee weapon · Common · No attunement",
+          "Damage": "1d6 Slashing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet melee.",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Activation": "Unsheathe the blade for its light. Attack as normal for the base weapon.",
+          "Light": "In Darkness, the unsheathed blade casts Bright Light to 15 feet and Dim Light for 15 feet beyond that."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scimitar",
+          "label": "Open 2024 base weapon"
+        }
+      },
+      {
+        "label": "Published 2024 Moon-Touched Sword · Shortsword",
+        "status": "published-reference",
+        "source": "https://roll20.net/compendium/dnd5e/Templates%3AMoon-Touched%20Sword?expansion=33359",
+        "fields": {
+          "Base weapon": "Shortsword",
+          "Category": "Martial melee weapon · Common · No attunement",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet melee.",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Activation": "Unsheathe the blade for its light. Attack as normal for the base weapon.",
+          "Light": "In Darkness, the unsheathed blade casts Bright Light to 15 feet and Dim Light for 15 feet beyond that."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dndbeyond:36839": [
+      {
+        "label": "Published 2024 Walloping Ammunition",
+        "status": "published-reference",
+        "source": "https://roll20.net/compendium/dnd5e/Items%3AWalloping%20Arrow?expansion=33359",
+        "fields": {
+          "Category": "Ammunition · Common · No attunement",
+          "Damage": "Use the compatible launcher’s damage. The ammunition adds no damage.",
+          "Attack bonus": "Use the launcher’s attack modifier. No additional bonus.",
+          "Range": "Use the compatible launcher’s normal and long range.",
+          "Activation": "Fire it from a compatible launcher as part of a ranged attack.",
+          "Special powers": "When a creature is hit, it falls Prone unless it succeeds on a DC 10 Strength saving throw."
+        }
+      }
+    ],
+    "dndbeyond:11295689": [
+      {
+        "label": "Published 2024 Ammunition +1",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Ammunition12or3",
+        "fields": {
+          "Category": "Ammunition · Uncommon · No attunement",
+          "Damage": "Launcher damage +1.",
+          "Attack bonus": "Add +1 to the launcher’s attack roll.",
+          "Range": "Use the compatible launcher’s normal and long range.",
+          "Activation": "Fire one piece from a compatible launcher as part of a ranged attack.",
+          "Special powers": "After it hits a target, the piece loses its magic.",
+          "Quantity and value": "Often found or sold in lots of 10 or 20. A lot of 10 has the value of one potion of the same rarity."
+        }
+      },
+      {
+        "label": "Published 2024 Ammunition +2",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Ammunition12or3",
+        "fields": {
+          "Category": "Ammunition · Rare · No attunement",
+          "Damage": "Launcher damage +2.",
+          "Attack bonus": "Add +2 to the launcher’s attack roll.",
+          "Range": "Use the compatible launcher’s normal and long range.",
+          "Activation": "Fire one piece from a compatible launcher as part of a ranged attack.",
+          "Special powers": "After it hits a target, the piece loses its magic.",
+          "Quantity and value": "Often found or sold in lots of 10 or 20. A lot of 10 has the value of one potion of the same rarity."
+        }
+      },
+      {
+        "label": "Published 2024 Ammunition +3",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Ammunition12or3",
+        "fields": {
+          "Category": "Ammunition · Very Rare · No attunement",
+          "Damage": "Launcher damage +3.",
+          "Attack bonus": "Add +3 to the launcher’s attack roll.",
+          "Range": "Use the compatible launcher’s normal and long range.",
+          "Activation": "Fire one piece from a compatible launcher as part of a ranged attack.",
+          "Special powers": "After it hits a target, the piece loses its magic.",
+          "Quantity and value": "Often found or sold in lots of 10 or 20. A lot of 10 has the value of one potion of the same rarity."
+        }
+      }
     ]
   }
 }
