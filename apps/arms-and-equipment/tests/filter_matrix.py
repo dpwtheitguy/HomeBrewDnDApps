@@ -909,6 +909,20 @@ def main():
                     return ["130 lb", "Base cost6000 gp", "Open 2024 Plate Armor"].every(term => plate.includes(term)) &&
                         ["110 lb", "300 gp", "Base cost150 gp"].every(term => chain.includes(term));
                 })()''',
+                'Barding adaptations show legacy facts and 2024 rules': '''(async () => {
+                    const cases = [
+                        ["dawn-of-the-emperors-local:d294223f54d5ea0b", ["2,500 cn", "250 lb", "carrying capacity", "11 + Dex modifier"]],
+                        ["mystara-fan-names-reference:afe258c608a2edc8", ["0 [19]", "130 lb", "tournament suit"]],
+                        ["dmg-35-reference:c5deb249aa77ccd1", ["masterwork banded mail", "120 lb", "Splint Armor"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        const details = inspection.textContent;
+                        if (!terms.every(term => details.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

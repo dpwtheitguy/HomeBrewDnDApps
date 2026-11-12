@@ -4962,6 +4962,162 @@
         "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Barding",
         "barding": true
       }
+    ],
+    "dawn-of-the-emperors-local:d294223f54d5ea0b": [
+      {
+        "label": "D&D 2024 barding adaptation · Leather Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-barding",
+        "barding": true,
+        "source": "https://www.acaeum.com/indexes/miscellaneous/gaz.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Barding",
+        "fields": {
+          "Source locator": "Dawn of the Emperors, Flying Mounts Chart and example (printed p. 27, supplied PDF p. 157).",
+          "Legacy facts": "The fitted Large Roc suit costs 400 gp and weighs 2,500 cn. The earlier catalog note used 250 cn, which is the unscaled horse-barding weight.",
+          "Armor class": "11 + Dex modifier",
+          "Training": "Light armor for the wearer.",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "250 lb",
+          "Attunement": "None.",
+          "Special powers": "Fits a Large Roc and is designed to leave its wings free. Flight is subject to the roc’s normal carrying capacity, including the 250 lb suit, rider, and cargo.",
+          "Conversion notes": "Use the 2024 Leather Armor AC formula. This conversion keeps the boxed set’s special fitted weight, using the legacy 10 cn per pound convention."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor",
+          "label": "Open 2024 Leather Armor"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:d64f3f9e6f08f167": [
+      {
+        "label": "D&D 2024 barding adaptation · Splint Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-barding",
+        "barding": true,
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Barding",
+        "fields": {
+          "Source locator": "Colin Davidson, Extended Equipment List (OSE), fan compilation, PDF p. 16, Barding (Horse), Banded row.",
+          "Legacy facts": "The fan table lists AC 4 [15] and 400 gp.",
+          "Armor class": "17",
+          "Training": "Heavy armor for the wearer.",
+          "Strength requirement": "15. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "120 lb",
+          "Attunement": "None.",
+          "Special powers": "Fits a horse of the intended size. Uses normal 2024 barding and carrying rules.",
+          "Conversion notes": "Use Splint for a suit made with reinforcing metal bands. Weight is twice the matching 2024 armor weight."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor",
+          "label": "Open 2024 Splint Armor"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:f1ce4c4363e2d5c5": [
+      {
+        "label": "D&D 2024 barding adaptation · Plate Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-barding",
+        "barding": true,
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Barding",
+        "fields": {
+          "Source locator": "Colin Davidson, Extended Equipment List (OSE), fan compilation, PDF p. 16, Barding (Horse), Field row.",
+          "Legacy facts": "The fan table lists AC 2 [17] and 600 gp.",
+          "Armor class": "18",
+          "Training": "Heavy armor for the wearer.",
+          "Strength requirement": "15. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "130 lb",
+          "Attunement": "None.",
+          "Special powers": "Fits a horse of the intended size. Uses normal 2024 barding and carrying rules.",
+          "Conversion notes": "Use Plate for articulated armor fitted for field use. Weight is twice the matching 2024 armor weight."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 Plate Armor"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:afe258c608a2edc8": [
+      {
+        "label": "D&D 2024 barding adaptation · Plate Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-barding",
+        "barding": true,
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Barding",
+        "fields": {
+          "Source locator": "Colin Davidson, Extended Equipment List (OSE), fan compilation, PDF p. 16, Barding (Horse), Joust row.",
+          "Legacy facts": "The fan table lists AC 0 [19] and 700 gp.",
+          "Armor class": "18",
+          "Training": "Heavy armor for the wearer.",
+          "Strength requirement": "15. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "130 lb",
+          "Attunement": "None.",
+          "Special powers": "Fits a horse of the intended size. Uses normal 2024 barding and carrying rules.",
+          "Conversion notes": "Use Plate for the tournament suit. The conversion uses standard Plate AC and preserves the jousting fit as a descriptive feature. Weight is twice the matching 2024 armor weight."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 Plate Armor"
+        }
+      }
+    ],
+    "dmg-35-reference:2bd59a0d5d5ddfa2": [
+      {
+        "label": "D&D 2024 barding adaptation · Scale Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-barding",
+        "barding": true,
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Barding",
+        "fields": {
+          "Source locator": "Dungeon Master’s Guide v.3.5, sample NPC Paladin, printed p. 120, PDF p. 121.",
+          "Legacy facts": "The sample paladin carries masterwork scale mail barding for the mount.",
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor for the wearer.",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "90 lb",
+          "Attunement": "None.",
+          "Special powers": "The masterwork finish denotes craftsmanship. Use the listed standard AC and Stealth rules with no magical enhancement.",
+          "Conversion notes": "Use Scale Mail as the 2024 armor profile. Weight is twice the published armor weight. The 3.5 armor check penalty has no direct 2024 counterpart."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail",
+          "label": "Open 2024 Scale Mail"
+        }
+      }
+    ],
+    "dmg-35-reference:c5deb249aa77ccd1": [
+      {
+        "label": "D&D 2024 barding adaptation · Splint Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-barding",
+        "barding": true,
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Barding",
+        "fields": {
+          "Source locator": "Dungeon Master’s Guide v.3.5, sample NPC Paladin, printed p. 121, PDF p. 122.",
+          "Legacy facts": "The sample paladin carries masterwork banded mail barding for the mount.",
+          "Armor class": "17",
+          "Training": "Heavy armor for the wearer.",
+          "Strength requirement": "15. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "120 lb",
+          "Attunement": "None.",
+          "Special powers": "The masterwork finish denotes craftsmanship. Use the listed standard AC and Stealth rules with no magical enhancement.",
+          "Conversion notes": "Use Splint Armor as the 2024 armor profile. Weight is twice the published armor weight. The 3.5 armor check penalty has no direct 2024 counterpart."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor",
+          "label": "Open 2024 Splint Armor"
+        }
+      }
     ]
   }
 }

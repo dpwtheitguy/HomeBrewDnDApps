@@ -129,7 +129,7 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
         if source_id in indexed and source_id != item_id:
             base_id = source_id
     mappings = [entry for entry in curated.get(item_id, [])
-                if entry.get('profile_kind') in {'published-armor-mapping', 'published-public-armor'}]
+                if entry.get('profile_kind') in {'published-armor-mapping', 'published-public-armor', 'adapted-barding'}]
     encounter = [entry for entry in curated.get(item_id, [])
                  if entry.get('profile_kind') == 'armor-encounter-construct']
     if item['ruleset'] == 'bg3':
@@ -155,6 +155,7 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
             target_armor = target.get('mechanics', {}).get('armor')
             mapped_fields = mapping['fields']
             public = mapping['profile_kind'] == 'published-public-armor'
+            adapted = mapping['profile_kind'] == 'adapted-barding'
             provenance = item['provenance']
             original_page = (mapping.get('source') == provenance.get('source_url')
                              and bool(provenance.get('locator'))
@@ -165,12 +166,16 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
                                    provenance.get('original_publication_verified') or original_page)
             bonus = mapping.get('enhancement_bonus') if public else int(
                 bool(target.get('magic') and target.get('name', '').endswith(' (+1)')))
-            if (mapping['status'] != 'published-reference' or not mapping.get('source')
+            expected_status = 'original-draft' if adapted else 'published-reference'
+            if (mapping['status'] != expected_status or not mapping.get('source')
                     or target.get('source_id') != 'open5e-srd-2024' or not target_armor
-                    or not verified_source or type(bonus) is not int or not 0 <= bonus <= 3):
-                errors.append('invalid verified published armor mapping')
+                    or not verified_source or type(bonus) is not int or not 0 <= bonus <= 3
+                    or (adapted and (not mapping.get('barding') or not mapped_fields.get('Conversion notes')))):
+                errors.append('invalid armor mapping or barding adaptation')
             else:
-                evidence = 'verified-2024-armor-mapping'
+                evidence = 'item-specific-barding-draft' if adapted else 'verified-2024-armor-mapping'
+                if adapted:
+                    gaps.append('item-specific barding draft requires DM review')
                 fields = read_armor(target_armor, modern=True, errors=errors)
                 if bonus:
                     fields['enhancement_bonus'] = f'+{bonus}'
