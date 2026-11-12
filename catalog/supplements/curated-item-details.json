@@ -10572,6 +10572,260 @@
         },
         "profile_kind": "adapted-source-armor"
       }
+    ],
+    "dmg-2e-reference:2e3a515dad808b1d": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00694.htm.php.html",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "Attuning curses you until Remove Curse or similar magic ends the curse. While cursed and wearing the armor, you have Disadvantage on Charisma checks made to Influence other creatures. Friendly creatures within 30 feet that can see you have Disadvantage on saves against being Frightened. The curse is revealed by Identify or by attuning. Doffing the armor suppresses its effects while it is unworn.",
+          "Source locator": "AD&D 2e DMG, table 107, roll 7-8.",
+          "Conversion notes": "Preserves +1 Plate protection and the adverse social and morale effects. Uses 2024 Influence checks and Frightened saves.",
+          "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#ArmorofVulnerability",
+          "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01075.htm.php.html"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-2e-reference:6421e048b091ab37": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00692.htm.php.html",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "None",
+          "Special powers": "A fitted suit of articulated plates. Use the 2024 Plate Armor rules.",
+          "Source locator": "AD&D 2e DMG, table 105, roll 6.",
+          "Conversion notes": "Uses the shared 2024 plate profile for this advanced harness. The historical distinction is the construction and fitting.",
+          "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Original item rules": "https://www.1eonline.info/2ph/armor.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-2e-reference:9f0e259e0ad010e7": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00694.htm.php.html",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "The suit has 2d6 charges when found. While wearing and attuned to it, take a Magic action and speak its command word to expend 1 charge. Each other creature in a 30-foot Emanation makes a DC 15 Wisdom saving throw. On a failure it is Frightened of you for 1 minute. On its turn it must move away from you by the safest available route if it can, using Dash if needed. It repeats the save at the end of each turn, ending the effect on a success. Charges never return. The armor remains +1 Plate when empty.",
+          "Source locator": "AD&D 2e DMG, table 107, roll 13-14.",
+          "Conversion notes": "Preserves a finite stock and an indiscriminate fear burst. The consulted transcription gives an ambiguous charge expression, so 2d6 is an authored value.",
+          "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01078.htm.php.html"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-2e-reference:a7d39d7d8edaa926": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00694.htm.php.html",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "Attuning curses you until Remove Curse or similar magic ends the curse. While cursed and wearing the suit, its AC is 18 against ranged weapon attacks and 19 against other attacks. When a ranged weapon attack targets another creature within 10 feet of you, you become its target if you are a legal target. This redirection continues after you doff the armor.",
+          "Source locator": "AD&D 2e DMG, table 107, roll 5-6.",
+          "Conversion notes": "Uses +1 Plate as one example of the original randomly determined base. Retains the failure of the magic bonus against missiles and replaces the legacy target weighting with automatic redirection.",
+          "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#ShieldofMissileAttraction",
+          "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01074.htm.php.html"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-2e-reference:a90a7727f4a39e25": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00314.htm.php.html",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "None",
+          "Special powers": "Bronze plates protect the torso and limbs. Use the 2024 Half Plate rules.",
+          "Source locator": "AD&D 2e DMG, table 23, Bronze Plate Mail.",
+          "Conversion notes": "Uses Half Plate to place this bronze harness below steel full plate while retaining protection for a mobile wearer.",
+          "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Original item rules": "https://www.1eonline.info/2ph/armor.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_half-plate-armor",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-2e-reference:aef79c18677bac3c": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00694.htm.php.html",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "None",
+          "Rarity": "Rare",
+          "Special powers": "While wearing the suit, take a Bonus Action to speak its command word and give it the appearance of ordinary clothing of your choice. The disguise lasts until you use the property again or doff the suit. Truesight reveals the armor. Its weight, protection, Strength requirement and Stealth disadvantage still apply.",
+          "Source locator": "AD&D 2e DMG, table 107, roll 3-4.",
+          "Conversion notes": "The source allows a randomly determined armor type and enhancement. This catalog variant uses +1 Chain Mail and takes its activation timing from the 2024 glamour item.",
+          "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#GlamouredStuddedLeather",
+          "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01072.htm.php.html"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-2e-reference:becea0ac234f0546": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00692.htm.php.html",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Attunement": "None",
+          "Special powers": "Plate reinforcement over mail and padding. Use the 2024 Splint Armor rules.",
+          "Source locator": "AD&D 2e DMG, table 105, roll 9-12.",
+          "Conversion notes": "Uses the AC 17 heavy armor tier to keep ordinary plate mail below full plate in 2024.",
+          "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Original item rules": "https://www.1eonline.info/2ph/armor.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-2e-reference:c3377e7c6f6e7771": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00694.htm.php.html",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While attuned, wearing the armor and visibly displaying it, you have Advantage on Charisma (Persuasion) checks made to Influence creatures that can see you. Allies of your choice within 30 feet who can see you have Advantage on saving throws to avoid or end the Frightened condition. These benefits are passive and are suppressed while you or the armor are concealed from the affected creature.",
+          "Source locator": "AD&D 2e DMG, table 107, roll 1-2.",
+          "Conversion notes": "Replaces fixed encounter Charisma with Advantage on suitable Influence checks. Expresses troop morale as a visible 30-foot aura against fear.",
+          "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01073.htm.php.html"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-2e-reference:d806f12fc32ae2c7": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00692.htm.php.html",
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "None",
+          "Special powers": "Small plates are riveted inside the garment. Use the 2024 Scale Mail rules.",
+          "Source locator": "AD&D 2e DMG, table 105, roll 2.",
+          "Conversion notes": "Uses the medium armor and Dexterity cap of Scale Mail as a mechanical baseline for the plated garment.",
+          "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-2e-reference:df9bf8d39c729865": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00692.htm.php.html",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Attunement": "None",
+          "Special powers": "Overlapping bands reinforce the backing. Use the 2024 Splint Armor rules.",
+          "Source locator": "AD&D 2e DMG, table 105, roll 1.",
+          "Conversion notes": "Uses the same heavy armor tier as the catalog’s other reinforced mail.",
+          "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Original item rules": "https://www.1eonline.info/2ph/armor.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
     ]
   }
 }

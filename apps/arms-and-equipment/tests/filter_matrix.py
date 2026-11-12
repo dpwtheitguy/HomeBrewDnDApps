@@ -1123,6 +1123,12 @@ def main():
                         ["dmg-2e-reference:62ade0786a04042d", ["Cursed shield bonus+0", "within 10 feet"]],
                         ["dmg-2e-reference:2423313ed73a2e69", ["+5 AC total", "roll a d10"]],
                         ["dmg-2e-reference:de359f74f62a0dee", ["14 + Dex modifier (max +2)", "count as trained"]],
+                        ["dmg-2e-reference:9f0e259e0ad010e7", ["2d6 charges", "DC 15 Wisdom", "30-foot Emanation"]],
+                        ["dmg-2e-reference:aef79c18677bac3c", ["Bonus Action", "Truesight", "Armor class17"]],
+                        ["dmg-2e-reference:c3377e7c6f6e7771", ["Charisma (Persuasion)", "Frightened condition"]],
+                        ["dmg-2e-reference:a7d39d7d8edaa926", ["18 against ranged weapon attacks", "19 against other attacks"]],
+                        ["dmg-2e-reference:2e3a515dad808b1d", ["Disadvantage on Charisma", "Remove Curse"]],
+                        ["dmg-2e-reference:a90a7727f4a39e25", ["15 + Dex modifier (max +2)", "Medium armor"]],
                     ];
                     for (const [id, terms] of cases) {
                         inspect(id, grid.firstElementChild);
