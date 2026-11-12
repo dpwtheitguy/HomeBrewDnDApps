@@ -1,6 +1,143 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-2e-reference:535dc1def22a4aec": [
+      {
+        "label": "Verified 2024 siege equipment mapping · Large Catapult",
+        "status": "published-reference",
+        "profile_kind": "siege-engine",
+        "source": "https://roll20.net/compendium/dnd5e/Items%3AMangonel?expansion=33359",
+        "fields": {
+          "Category": "Siege equipment (Large object)",
+          "Armor class": "15",
+          "Hit points": "100",
+          "Damage": "5d10 Bludgeoning (average 27) on a hit.",
+          "Attack bonus": "+5 ranged attack",
+          "Range": "200/800 feet, minimum 60 feet",
+          "Activation": "Spend two Utilize actions to load and two more to aim. A crew member then uses the Mangonel Stone action. Repeat load and aim before the next shot.",
+          "Ammunition": "One mangonel stone per attack.",
+          "Attunement": "None",
+          "Comparison notes": "The 2e table supplies structural saving throws. Use the 2024 Mangonel for modern play. Its high arc can reach targets behind intervening walls.",
+          "Legacy source": "AD&D 2e, Table 52, Large Catapult.",
+          "Legacy table": "https://naggaroth.daerma.com/2e/corerule-page=DD00505.htm.php.html",
+          "AD&D source scan": "https://frpworld.com/downloads/ruleandaccs/dl/Advanced%20Dungeons%26Dragons%202nd%20Edition%20Player%27s%20Handbook.PDF"
+        },
+        "related_item": {
+          "id": "dmg-2e-reference:4615e9a1ab567a11",
+          "label": "Compare the Small Catapult"
+        }
+      }
+    ],
+    "dmg-2e-reference:7f783c42164d6267": [
+      {
+        "label": "Verified 2024 siege equipment mapping · Siege Ram",
+        "status": "published-reference",
+        "profile_kind": "siege-engine",
+        "source": "https://roll20.net/compendium/dnd5e/Items%3ARam?expansion=33359",
+        "fields": {
+          "Category": "Siege equipment (Large object)",
+          "Armor class": "15",
+          "Hit points": "100",
+          "Damage": "3d10 Bludgeoning (average 16) on a hit.",
+          "Attack bonus": "+8 melee attack",
+          "Range": "5 feet",
+          "Activation": "Position the ram with three Utilize actions. A crew member can then use the Ram action from that position. Reposition before attacking from another location.",
+          "Cover": "Its gallery gives its operators Total Cover against attacks and effects from above.",
+          "Attunement": "None",
+          "Comparison notes": "Use the published 2024 Ram. The 2e structural saves are legacy reference data.",
+          "Legacy source": "AD&D 2e, Table 52, Ram.",
+          "Legacy table": "https://naggaroth.daerma.com/2e/corerule-page=DD00505.htm.php.html",
+          "AD&D source scan": "https://frpworld.com/downloads/ruleandaccs/dl/Advanced%20Dungeons%26Dragons%202nd%20Edition%20Player%27s%20Handbook.PDF"
+        }
+      }
+    ],
+    "dmg-2e-reference:4615e9a1ab567a11": [
+      {
+        "label": "D&D 2024 adaptation · Small Catapult",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00505.htm.php.html",
+        "fields": {
+          "Category": "Siege equipment (Large object)",
+          "Armor class": "15",
+          "Hit points": "60",
+          "Damage": "3d10 Bludgeoning (average 16) on a hit.",
+          "Attack bonus": "+5 ranged attack",
+          "Range": "150/600 feet, minimum 40 feet",
+          "Activation": "Spend one Utilize action to load and one to aim. A crew member then uses the Small Catapult Stone action to make the attack. Repeat load and aim before the next shot.",
+          "Ammunition": "One small catapult stone per attack.",
+          "Attunement": "None",
+          "Special powers": "Its high arc can reach a target behind an intervening wall if the arc is unobstructed.",
+          "Conversion notes": "The 2e table distinguishes the smaller engine from the large one. This adaptation reduces damage, reach, durability, and the action count from the Mangonel benchmark.",
+          "2024 benchmark": "https://roll20.net/compendium/dnd5e/Items%3AMangonel?expansion=33359",
+          "Legacy source": "AD&D 2e, Table 52, Small Catapult.",
+          "Legacy table": "https://naggaroth.daerma.com/2e/corerule-page=DD00505.htm.php.html",
+          "AD&D source scan": "https://frpworld.com/downloads/ruleandaccs/dl/Advanced%20Dungeons%26Dragons%202nd%20Edition%20Player%27s%20Handbook.PDF"
+        },
+        "related_item": {
+          "id": "dmg-2e-reference:535dc1def22a4aec",
+          "label": "Compare the Large Catapult"
+        }
+      }
+    ],
+    "dmg-2e-reference:c1cb26fc97262afd": [
+      {
+        "label": "D&D 2024 adaptation · Siege Screw or Drill",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00505.htm.php.html",
+        "fields": {
+          "Category": "Siege equipment (Large object)",
+          "Armor class": "15",
+          "Hit points": "80",
+          "Damage": "3d10 Piercing (average 16) on a hit.",
+          "Attack bonus": "+8 melee attack",
+          "Range": "5 feet",
+          "Activation": "Spend three Utilize actions to position the drill against a fixed structure. A crew member can then use the Drill action to attack a single wall, gate, or other fixed object. Reposition before attacking a different target.",
+          "Special powers": "Only targets stationary objects and structures. Use the target’s object AC and damage threshold. The gallery offers its operators Total Cover from above.",
+          "Attunement": "None",
+          "Conversion notes": "Table 52 identifies the screw or drill as a structural attack. The Ram supplies the 2024 action benchmark. The object-only limit, Piercing damage and reduced Hit Points distinguish this draft.",
+          "2024 benchmark": "https://roll20.net/compendium/dnd5e/Items%3ARam?expansion=33359",
+          "Legacy source": "AD&D 2e, Table 52, Screw or Drill.",
+          "Legacy table": "https://naggaroth.daerma.com/2e/corerule-page=DD00505.htm.php.html",
+          "AD&D source scan": "https://frpworld.com/downloads/ruleandaccs/dl/Advanced%20Dungeons%26Dragons%202nd%20Edition%20Player%27s%20Handbook.PDF"
+        },
+        "related_item": {
+          "id": "dmg-2e-reference:7f783c42164d6267",
+          "label": "Compare the Siege Ram"
+        }
+      }
+    ],
+    "dmg-2e-reference:1b3c5866a7f42776": [
+      {
+        "label": "D&D 2024 adaptation · Arquebus",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00314.htm.php.html",
+        "fields": {
+          "Category": "Martial ranged weapon (optional firearm)",
+          "Damage": "1d10 Piercing + Dexterity modifier. If the base damage die rolls a 10, add one extra d10 once.",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if the DM grants firearm proficiency.",
+          "Range": "50/210 feet",
+          "Properties": "Ammunition (firearm bullet), Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "10 lb (2024 Musket comparison)",
+          "Activation": "Make a ranged weapon attack, expending one bullet. After firing, spend a Utilize action on each of two different turns before you can fire again.",
+          "Special powers": "If the d20 used for the attack is a natural 1 or 2, the shot misses, you take 1d6 Fire damage, and the weapon jams. Clear the jam by spending 30 minutes of downtime.",
+          "Attunement": "None",
+          "Conversion notes": "Retains the AD&D three-round cadence and backfire. Caps the legacy exploding damage die at one extra roll. Uses two 2024 range bands and the Musket’s mastery.",
+          "Legacy item description": "AD&D 2e Player’s Handbook, pp. 73–74, Arquebus.",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Legacy source": "AD&D 2e, Table 23, Arquebus.",
+          "Legacy table": "https://naggaroth.daerma.com/2e/corerule-page=DD00314.htm.php.html",
+          "AD&D source scan": "https://frpworld.com/downloads/ruleandaccs/dl/Advanced%20Dungeons%26Dragons%202nd%20Edition%20Player%27s%20Handbook.PDF"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_musket",
+          "label": "Compare the 2024 Musket"
+        }
+      }
+    ],
     "dmg-1e-reference:a920b880cce165eb": [
       {
         "label": "D&D 2024 adaptation · Sword +1",

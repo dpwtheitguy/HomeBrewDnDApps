@@ -1830,6 +1830,23 @@ def main():
                         if (!byId("custom-items").hidden) click("close-custom-items");
                     }
                 })()''',
+                'AD&D siege engines and arquebus show their operating rules': '''(async () => {
+                    const cases = [
+                        ["535dc1def22a4aec", ["5d10 Bludgeoning", "200/800 feet", "two Utilize actions to load"]],
+                        ["7f783c42164d6267", ["3d10 Bludgeoning", "+8 melee attack", "Total Cover"]],
+                        ["4615e9a1ab567a11", ["3d10 Bludgeoning", "minimum 40 feet", "one Utilize action to load"]],
+                        ["c1cb26fc97262afd", ["3d10 Piercing", "only targets stationary objects", "damage threshold"]],
+                        ["1b3c5866a7f42776", ["1d10 Piercing", "two different turns", "natural 1 or 2"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dmg-2e-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const card = inspection.textContent.toLowerCase();
+                        if (!terms.every(term => card.includes(term.toLowerCase()))
+                            || card.includes("2024 provisional profile")) return false;
+                    }
+                    return true;
+                })()''',
                 'Final AD&D 1e weapon profiles distinguish form and enhancement': '''(async () => {
                     const cases = [
                         ["a920b880cce165eb", ["Longsword default", "Shortsword uses 1d6 Piercing"]],

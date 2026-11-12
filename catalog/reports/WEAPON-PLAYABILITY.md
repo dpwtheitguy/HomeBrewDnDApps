@@ -1,6 +1,6 @@
 # Weapon playability audit
 
-5,611 weapon records scanned. Structural errors affect 0 records. Content review is queued for 4,217 records.
+5,611 weapon records scanned. Structural errors affect 0 records. Content review is queued for 4,215 records.
 
 Scope is catalog records indexed with type weapon. Ammunition indexed separately has its own field audit. This scan checks weapon fields, profile references, BG3 variant structure, and positive prices. Full catalog schema validation is a separate check. Drafts, original game statistics, and base weapon comparisons retain their own evidence labels.
 
@@ -9,10 +9,10 @@ Scope is catalog records indexed with type weapon. Ammunition indexed separately
 | Evidence | Records |
 |---|---:|
 | base-weapon-draft | 2,748 |
-| item-specific-draft | 757 |
-| improvised-fallback | 470 |
+| item-specific-draft | 760 |
+| improvised-fallback | 465 |
 | native-bg3 | 428 |
-| published-2024-attack | 334 |
+| published-2024-attack | 336 |
 | published-2024-reference | 256 |
 | published-2024-structured | 222 |
 | published-2024-cross-reference | 124 |
@@ -42,7 +42,7 @@ Scope is catalog records indexed with type weapon. Ammunition indexed separately
 | baldurs-gate-2-reference | 174 |
 | adventurers-vault-1-reference | 143 |
 | dndbeyond-public-index | 133 |
-| dmg-2e-reference | 125 |
+| dmg-2e-reference | 123 |
 | planescape-torment-reference | 115 |
 | diablo-4-reference | 74 |
 
