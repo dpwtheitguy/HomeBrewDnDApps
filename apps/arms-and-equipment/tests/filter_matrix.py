@@ -1830,6 +1830,21 @@ def main():
                         if (!byId("custom-items").hidden) click("close-custom-items");
                     }
                 })()''',
+                'Karameikos named armor uses its source enhancement and published AC': '''(async () => {
+                    const cases = [
+                        ["633570fe6b27d9ae", ["Armor class19", "printed p. 45", "55 lb"]],
+                        ["c4fd50d0c207a130", ["Armor class20", "black-enamelled", "Strength requirement15"]],
+                        ["8892fffbb4ab25b8", ["Armor class bonus+4", "Shield training"]],
+                        ["db1d03bdc5184881", ["13 + Dex modifier", "Light armor"]],
+                        ["218a24f4bdb2b26b", ["+2 to AC", "wear no armor and use no Shield", "descending AC 2"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("gaz1-karameikos-local:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'AD&D 2e armor shows verified charge counts and conditional AC': '''(async () => {
                     const cases = [
                         ["5003ee3a0bd2f04d", ["21 with 6–20 charges", "20 with 1–5 charges", "19 with 0 charges"]],
