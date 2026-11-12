@@ -1529,7 +1529,7 @@ def main():
                         ["dmg-2e-reference:62ade0786a04042d", ["Cursed shield bonus+0", "within 10 feet"]],
                         ["dmg-2e-reference:2423313ed73a2e69", ["+5 AC total", "roll a d10"]],
                         ["dmg-2e-reference:de359f74f62a0dee", ["14 + Dex modifier (max +2)", "treated as trained", "Published 2024 counterpart"]],
-                        ["dmg-2e-reference:9f0e259e0ad010e7", ["2d6 charges", "DC 15 Wisdom", "30-foot Emanation"]],
+                        ["dmg-2e-reference:9f0e259e0ad010e7", ["2d12 charges", "DC 15 Wisdom", "30-foot Emanation"]],
                         ["dmg-2e-reference:aef79c18677bac3c", ["Bonus Action", "Truesight", "Armor class17"]],
                         ["dmg-2e-reference:c3377e7c6f6e7771", ["Charisma (Persuasion)", "Frightened condition"]],
                         ["dmg-2e-reference:a7d39d7d8edaa926", ["18 against ranged weapon attacks", "19 against other attacks"]],
@@ -1829,6 +1829,20 @@ def main():
                         if (id) Armory.deleteCustomMagicItem(id);
                         if (!byId("custom-items").hidden) click("close-custom-items");
                     }
+                })()''',
+                'AD&D 2e armor shows verified charge counts and conditional AC': '''(async () => {
+                    const cases = [
+                        ["5003ee3a0bd2f04d", ["21 with 6–20 charges", "20 with 1–5 charges", "19 with 0 charges"]],
+                        ["9f0e259e0ad010e7", ["2d12 charges", "1d4 + 1 rounds", "30-foot Emanation"]],
+                        ["e030cf575bdcef9b", ["+3, +2, or +1 respectively", "broken suit provides no AC"]],
+                        ["2423313ed73a2e69", ["+5 AC total", "On 1–2, negate the darts"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dmg-2e-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
                 })()''',
                 'AD&D 2e weapon forms show 2024 comparisons and exceptions': '''(async () => {
                     const cases = [
@@ -2961,7 +2975,7 @@ def main():
                     inspect("dmg-1e-reference:e030cf575bdcef9b", grid.firstElementChild);
                     await itemDetails;
                     const cursed = inspection.textContent;
-                    return ethereal.includes("21 with 11–20 charges") && ethereal.includes("level 7 spell")
+                    return ethereal.includes("21 with 6–20 charges") && ethereal.includes("level 7 spell")
                         && cursed.includes("Identify reports the apparent bonus")
                         && cursed.includes("natural 20") && cursed.includes("14, 15, or 16");
                 })()''',
