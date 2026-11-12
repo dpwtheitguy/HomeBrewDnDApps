@@ -1122,7 +1122,7 @@ def main():
                         ["dmg-2e-reference:e030cf575bdcef9b", ["Cursed armor class16", "natural 20"]],
                         ["dmg-2e-reference:62ade0786a04042d", ["Cursed shield bonus+0", "within 10 feet"]],
                         ["dmg-2e-reference:2423313ed73a2e69", ["+5 AC total", "roll a d10"]],
-                        ["dmg-2e-reference:de359f74f62a0dee", ["14 + Dex modifier (max +2)", "count as trained"]],
+                        ["dmg-2e-reference:de359f74f62a0dee", ["14 + Dex modifier (max +2)", "treated as trained", "Published 2024 counterpart"]],
                         ["dmg-2e-reference:9f0e259e0ad010e7", ["2d6 charges", "DC 15 Wisdom", "30-foot Emanation"]],
                         ["dmg-2e-reference:aef79c18677bac3c", ["Bonus Action", "Truesight", "Armor class17"]],
                         ["dmg-2e-reference:c3377e7c6f6e7771", ["Charisma (Persuasion)", "Frightened condition"]],
@@ -1131,7 +1131,7 @@ def main():
                         ["dmg-2e-reference:a90a7727f4a39e25", ["15 + Dex modifier (max +2)", "Medium armor"]],
                         ["dmg-2e-reference:edcdfbe057a290bd", ["Armor class14", "130 lb", "Table 27"]],
                         ["dmg-2e-reference:bafc45cdb54d9584", ["48.75 lb", "Critical Hit", "25%"]],
-                        ["dmg-2e-reference:c1819e413941a417", ["6 feet 6 inches", "250 lb", "14 + Dex modifier"]],
+                        ["dmg-2e-reference:c1819e413941a417", ["6 feet 6 inches", "250 lb", "14 + Dex modifier", "Open published 2024 counterpart"]],
                         ["dmg-2e-reference:828266aa4a13406d", ["no separate AC bonus", "Great Helm row"]],
                     ];
                     for (const [id, terms] of cases) {

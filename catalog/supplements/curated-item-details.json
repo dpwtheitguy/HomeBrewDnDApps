@@ -10522,8 +10522,8 @@
     ],
     "dmg-2e-reference:de359f74f62a0dee": [
       {
-        "label": "D&D 2024 conversion draft",
-        "status": "original-draft",
+        "label": "Published 2024 counterpart",
+        "status": "published-reference",
         "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00694.htm.php.html",
         "fields": {
           "Armor class": "14 + Dex modifier (max +2)",
@@ -10533,17 +10533,17 @@
           "Weight": "20 lb",
           "Attunement": "None",
           "Rarity": "Rare",
-          "Special powers": "While wearing the armor, add +1 to its base AC. You count as trained with this armor, and its fine links can be concealed under ordinary clothes. The suit must fit the wearer.",
+          "Special powers": "The wearer is treated as trained with this armor.",
           "Source locator": "AD&D 2e DMG, table 107, roll 9-10.",
-          "Conversion notes": "Uses the 2024 chain shirt form of Elven Chain to represent lightweight concealed mail. Keeps the legacy tailoring requirement.",
           "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#ElvenChain",
-          "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01076.htm.php.html"
+          "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01076.htm.php.html",
+          "Edition notes": "Use the 2024 Elven Chain Shirt for the source’s lightweight mail. The original size table describes tailoring. Use the 2024 rules for equipment fit."
         },
         "related_item": {
-          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-1",
-          "label": "Open 2024 AC baseline"
+          "id": "open5e-srd-2024:srd-2024_elven-chain-shirt",
+          "label": "Open published 2024 counterpart"
         },
-        "profile_kind": "adapted-source-armor"
+        "profile_kind": "published-armor-mapping"
       }
     ],
     "dmg-2e-reference:e030cf575bdcef9b": [
@@ -11014,8 +11014,8 @@
     ],
     "dmg-2e-reference:b468f464a3e85223": [
       {
-        "label": "D&D 2024 conversion draft",
-        "status": "original-draft",
+        "label": "Published 2024 counterpart",
+        "status": "published-reference",
         "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01076.htm.php.html",
         "fields": {
           "Armor class": "14 + Dex modifier (max +2)",
@@ -11025,24 +11025,24 @@
           "Weight": "20 lb",
           "Attunement": "None",
           "Rarity": "Rare",
-          "Special powers": "While wearing the armor, add +1 to its base AC. You count as trained with this armor, and its fine links can be concealed under ordinary clothes. The suit must fit the wearer.",
+          "Special powers": "The wearer is treated as trained with this armor.",
           "Source locator": "AD&D 2e DMG, Elven Chain Mail sizing table, d100 roll 01-10.",
-          "Conversion notes": "Uses the 2024 Elven Chain Shirt profile. Check the actual tailoring for fit. The source table’s ancestry labels describe the original tailoring and confer no game trait.",
           "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#ElvenChain",
           "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01076.htm.php.html",
-          "Legacy fit": "Small tailoring for a gnome or Hairfoot halfling."
+          "Legacy fit": "Small tailoring for a gnome or Hairfoot halfling.",
+          "Edition notes": "Use the 2024 Elven Chain Shirt for the source’s lightweight mail. The original size table describes tailoring. Use the 2024 rules for equipment fit."
         },
         "related_item": {
-          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-1",
-          "label": "Open 2024 AC baseline"
+          "id": "open5e-srd-2024:srd-2024_elven-chain-shirt",
+          "label": "Open published 2024 counterpart"
         },
-        "profile_kind": "adapted-source-armor"
+        "profile_kind": "published-armor-mapping"
       }
     ],
     "dmg-2e-reference:f079689044fb535e": [
       {
-        "label": "D&D 2024 conversion draft",
-        "status": "original-draft",
+        "label": "Published 2024 counterpart",
+        "status": "published-reference",
         "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01076.htm.php.html",
         "fields": {
           "Armor class": "14 + Dex modifier (max +2)",
@@ -11052,24 +11052,24 @@
           "Weight": "20 lb",
           "Attunement": "None",
           "Rarity": "Rare",
-          "Special powers": "While wearing the armor, add +1 to its base AC. You count as trained with this armor, and its fine links can be concealed under ordinary clothes. The suit must fit the wearer.",
+          "Special powers": "The wearer is treated as trained with this armor.",
           "Source locator": "AD&D 2e DMG, Elven Chain Mail sizing table, d100 roll 11-15.",
-          "Conversion notes": "Uses the 2024 Elven Chain Shirt profile. Check the actual tailoring for fit. The source table’s ancestry labels describe the original tailoring and confer no game trait.",
           "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#ElvenChain",
           "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01076.htm.php.html",
-          "Legacy fit": "Tailoring for a dwarf or a Stout or Tallfellow halfling."
+          "Legacy fit": "Tailoring for a dwarf or a Stout or Tallfellow halfling.",
+          "Edition notes": "Use the 2024 Elven Chain Shirt for the source’s lightweight mail. The original size table describes tailoring. Use the 2024 rules for equipment fit."
         },
         "related_item": {
-          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-1",
-          "label": "Open 2024 AC baseline"
+          "id": "open5e-srd-2024:srd-2024_elven-chain-shirt",
+          "label": "Open published 2024 counterpart"
         },
-        "profile_kind": "adapted-source-armor"
+        "profile_kind": "published-armor-mapping"
       }
     ],
     "dmg-2e-reference:44b327358a474d6f": [
       {
-        "label": "D&D 2024 conversion draft",
-        "status": "original-draft",
+        "label": "Published 2024 counterpart",
+        "status": "published-reference",
         "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01076.htm.php.html",
         "fields": {
           "Armor class": "14 + Dex modifier (max +2)",
@@ -11079,24 +11079,24 @@
           "Weight": "20 lb",
           "Attunement": "None",
           "Rarity": "Rare",
-          "Special powers": "While wearing the armor, add +1 to its base AC. You count as trained with this armor, and its fine links can be concealed under ordinary clothes. The suit must fit the wearer.",
+          "Special powers": "The wearer is treated as trained with this armor.",
           "Source locator": "AD&D 2e DMG, Elven Chain Mail sizing table, d100 roll 16-80.",
-          "Conversion notes": "Uses the 2024 Elven Chain Shirt profile. Check the actual tailoring for fit. The source table’s ancestry labels describe the original tailoring and confer no game trait.",
           "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#ElvenChain",
           "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01076.htm.php.html",
-          "Legacy fit": "Tailoring for an elf or half-elf."
+          "Legacy fit": "Tailoring for an elf or half-elf.",
+          "Edition notes": "Use the 2024 Elven Chain Shirt for the source’s lightweight mail. The original size table describes tailoring. Use the 2024 rules for equipment fit."
         },
         "related_item": {
-          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-1",
-          "label": "Open 2024 AC baseline"
+          "id": "open5e-srd-2024:srd-2024_elven-chain-shirt",
+          "label": "Open published 2024 counterpart"
         },
-        "profile_kind": "adapted-source-armor"
+        "profile_kind": "published-armor-mapping"
       }
     ],
     "dmg-2e-reference:b677616aaefa7124": [
       {
-        "label": "D&D 2024 conversion draft",
-        "status": "original-draft",
+        "label": "Published 2024 counterpart",
+        "status": "published-reference",
         "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01076.htm.php.html",
         "fields": {
           "Armor class": "14 + Dex modifier (max +2)",
@@ -11106,24 +11106,24 @@
           "Weight": "20 lb",
           "Attunement": "None",
           "Rarity": "Rare",
-          "Special powers": "While wearing the armor, add +1 to its base AC. You count as trained with this armor, and its fine links can be concealed under ordinary clothes. The suit must fit the wearer.",
+          "Special powers": "The wearer is treated as trained with this armor.",
           "Source locator": "AD&D 2e DMG, Elven Chain Mail sizing table, d100 roll 81-95.",
-          "Conversion notes": "Uses the 2024 Elven Chain Shirt profile. Check the actual tailoring for fit. The source table’s ancestry labels describe the original tailoring and confer no game trait.",
           "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#ElvenChain",
           "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01076.htm.php.html",
-          "Legacy fit": "Human-sized tailoring up to 6 feet tall and 200 lb."
+          "Legacy fit": "Human-sized tailoring up to 6 feet tall and 200 lb.",
+          "Edition notes": "Use the 2024 Elven Chain Shirt for the source’s lightweight mail. The original size table describes tailoring. Use the 2024 rules for equipment fit."
         },
         "related_item": {
-          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-1",
-          "label": "Open 2024 AC baseline"
+          "id": "open5e-srd-2024:srd-2024_elven-chain-shirt",
+          "label": "Open published 2024 counterpart"
         },
-        "profile_kind": "adapted-source-armor"
+        "profile_kind": "published-armor-mapping"
       }
     ],
     "dmg-2e-reference:c1819e413941a417": [
       {
-        "label": "D&D 2024 conversion draft",
-        "status": "original-draft",
+        "label": "Published 2024 counterpart",
+        "status": "published-reference",
         "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01076.htm.php.html",
         "fields": {
           "Armor class": "14 + Dex modifier (max +2)",
@@ -11133,18 +11133,18 @@
           "Weight": "20 lb",
           "Attunement": "None",
           "Rarity": "Rare",
-          "Special powers": "While wearing the armor, add +1 to its base AC. You count as trained with this armor, and its fine links can be concealed under ordinary clothes. The suit must fit the wearer.",
+          "Special powers": "The wearer is treated as trained with this armor.",
           "Source locator": "AD&D 2e DMG, Elven Chain Mail sizing table, d100 roll 96-00.",
-          "Conversion notes": "Uses the 2024 Elven Chain Shirt profile. Check the actual tailoring for fit. The source table’s ancestry labels describe the original tailoring and confer no game trait.",
           "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#ElvenChain",
           "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01076.htm.php.html",
-          "Legacy fit": "Large human-sized tailoring up to 6 feet 6 inches tall and 250 lb."
+          "Legacy fit": "Large human-sized tailoring up to 6 feet 6 inches tall and 250 lb.",
+          "Edition notes": "Use the 2024 Elven Chain Shirt for the source’s lightweight mail. The original size table describes tailoring. Use the 2024 rules for equipment fit."
         },
         "related_item": {
-          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-1",
-          "label": "Open 2024 AC baseline"
+          "id": "open5e-srd-2024:srd-2024_elven-chain-shirt",
+          "label": "Open published 2024 counterpart"
         },
-        "profile_kind": "adapted-source-armor"
+        "profile_kind": "published-armor-mapping"
       }
     ],
     "dmg-2e-reference:828266aa4a13406d": [
