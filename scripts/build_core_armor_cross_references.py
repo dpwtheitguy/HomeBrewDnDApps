@@ -82,6 +82,8 @@ PUBLIC_ARMOR_RULES = {
     'dndbeyond:5381': MAGIC + '#MithralArmor',
     'dndbeyond:9228349': 'https://roll20.net/compendium/dnd5e/Templates%3AArmor%20of%20Gleaming?expansion=33359',
     'dndbeyond:9228382': 'https://roll20.net/compendium/dnd5e/Templates%3ACast-Off%20Armor?expansion=33359',
+    'dndbeyond:36837': 'https://roll20.net/compendium/dnd5e/Templates%3ASmoldering%20Armor?expansion=33359',
+    'dndbeyond:27116': 'https://roll20.net/compendium/dnd5e/Items%3AShield%20of%20Expression?expansion=33359',
     'dndbeyond:9228451': MAGIC + '#DemonArmor',
     'dndbeyond:9228541': 'https://roll20.net/compendium/dnd5e/Templates%3AEnspelled%20Armor?expansion=33359',
     'dndbeyond:9228837': 'https://roll20.net/compendium/dnd5e/Templates%3AMariner%27s%20Armor?expansion=33359',
@@ -130,6 +132,16 @@ PUBLIC_ARMOR = {
             'Special powers': 'While wearing the armor, take a Magic action to doff it. Use the base suit’s normal donning time.',
         },
     ),
+    'dndbeyond:36837': (
+        'Smoldering Armor', '36837-smoldering-armor', 0, False, 'Common', {
+            'Special powers': 'While worn, the armor gives off small wisps of harmless, odorless smoke. Use the base suit’s normal defenses.',
+        },
+    ),
+    'dndbeyond:27116': (
+        'Shield of Expression', '27116-shield-of-expression', 0, False, 'Common', {
+            'Special powers': 'While carrying the shield, take a Bonus Action to change the expression of the face on its front.',
+        },
+    ),
     'dndbeyond:9228451': (
         'Demon Armor', '9228451-demon-armor', 1, True, 'Very Rare', {
             'Special powers': 'While worn, you know Abyssal. The clawed gauntlets let your Unarmed Strikes deal 1d8 Slashing and grant +1 to their attack and damage rolls.',
@@ -153,7 +165,7 @@ PUBLIC_ARMOR = {
 
 def public_armor_variants(items):
     bases = [item for item in items if item['source_id'] == CURRENT and item['magic'] is False
-             and item['mechanics'].get('armor') and item['mechanics']['armor']['name'] != 'Shield']
+             and item['mechanics'].get('armor')]
     records = {}
     for item in items:
         if item['source_id'] != 'dndbeyond-public-index' or item['id'] not in PUBLIC_ARMOR:
@@ -166,6 +178,9 @@ def public_armor_variants(items):
         variants = []
         for base in bases:
             armor = base['mechanics']['armor']
+            shield = armor['name'] == 'Shield'
+            if shield != (name == 'Shield of Expression'):
+                continue
             cap = armor['ac_cap_dexmod']
             if name in METAL_ARMOR_FAMILIES and (
                 armor['name'] == 'Hide Armor' or (armor['ac_add_dexmod'] and cap is None)
@@ -180,7 +195,8 @@ def public_armor_variants(items):
             training = ('Medium armor' if cap is not None else 'Light armor'
                         if armor['ac_add_dexmod'] else 'Heavy armor')
             fields = {
-                'Armor class': formula, 'Training': training,
+                'Armor class bonus' if shield else 'Armor class': '+' + formula if shield else formula,
+                'Training': 'Shield' if shield else training,
                 'Strength requirement': 'None' if mithral else str(armor['strength_score_required'] or 'None'),
                 'Stealth disadvantage': 'Yes' if armor['grants_stealth_disadvantage'] and not mithral else 'No',
                 'Weight': f"{float(base['mechanics']['source_fields']['weight']):g} lb",
@@ -200,6 +216,8 @@ def public_armor_variants(items):
 
 
 LEGACY_ARMOR_COUNTERPARTS = {
+    'dndbeyond:36571': ('dndbeyond:9228349', PUBLIC_ARMOR_RULES['dndbeyond:9228349']),
+    'dndbeyond:36589': ('dndbeyond:9228382', PUBLIC_ARMOR_RULES['dndbeyond:9228382']),
     'dndbeyond:4574': ('dndbeyond:9228350', MAGIC + '#ArmorofInvulnerability'),
     'dndbeyond:4619': ('dndbeyond:9228451', MAGIC + '#DemonArmor'),
     'dndbeyond:5380': ('dndbeyond:9228477', MAGIC + '#DragonScaleMail'),

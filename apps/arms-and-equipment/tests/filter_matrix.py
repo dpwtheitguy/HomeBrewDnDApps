@@ -677,6 +677,23 @@ def main():
                         && ["never gets dirty", "armor rules · Chain Shirt", "13 + Dex modifier (max +2)"]
                             .every(value => gleaming.includes(value));
                 })()''',
+                'Four public common armor entries show their published rules': '''(async () => {
+                    const cases = [
+                        ["dndbeyond:36571", ["never gets dirty", "13 + Dex modifier", "2024 armor counterpart"]],
+                        ["dndbeyond:36589", ["Magic action to doff", "Armor class18"]],
+                        ["dndbeyond:36837", ["harmless, odorless smoke", "Armor class18"]],
+                        ["dndbeyond:27116", ["Armor class bonus+2", "TrainingShield", "Bonus Action"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                        if (![...inspection.querySelectorAll("a")].some(link =>
+                            link.textContent === "Read published rules" && link.href.includes("roll20.net"))) return false;
+                    }
+                    return true;
+                })()''',
                 'Public magic weapon cards distinguish bases and attunement': '''(async () => {
                     inspect("dndbeyond:9228714", grid.firstElementChild);
                     await itemDetails;
