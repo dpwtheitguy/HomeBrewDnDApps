@@ -389,7 +389,7 @@ function addItemDetails(panel, item, supplements) {
             locations.forEach(title => acquisition.appendChild(sourceLink(wikiLink(title), title)));
         }
     }
-    if (!entries.some(entry => entry.profile_kind === "adapted-barding")) {
+    if (!entries.some(entry => entry.profile_kind === "adapted-barding" || entry.dexterity_cap_override)) {
         addPublishedEquipment(panel, item, publishedArmor, coreArmor);
     }
     addSpellReference(panel, item, spells);

@@ -1869,6 +1869,26 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Vault of Magic restores alternate attack modes and armor limits': '''(async () => {
+                    for (const [id, terms] of [
+                        ["manticores-tail", ["5 feet melee", "100/200 feet", "ten regrow at dawn", "Bludgeoning"]],
+                        ["mail-of-the-sword-master", ["15 + Dex modifier (max +4)", "+2 to damage rolls", "AttunementRequired"]],
+                        ["living-juggernaut", ["Armor class19", "when you Dash", "DC 15 Dexterity", "Opportunity Attack"]],
+                        ["meteoric-plate", ["Armor class18", "halve your falling damage", "20-foot-radius Sphere"]],
+                        ["mordant-halberd", ["Cleave", "2d6 Acid damage", "Bonus Action"]],
+                        ["moonsteel-rapier", ["DC 13 Charisma", "true form", "1d6 Radiant"]],
+                        ["mountaineers-heavy-crossbow", ["100/400 feet", "1,000 lb", "20 Hit Points", "24 hours"]],
+                    ]) {
+                        inspect("open5e-vom:vom_" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))
+                            || (id === "mail-of-the-sword-master" && inspection.textContent.includes("max +2"))) {
+                            throw new Error("Missing or conflicting fields on " + id);
+                        }
+                    }
+                    const manticore = JSON.parse(Armory.item("open5e-vom:vom_manticores-tail"));
+                    return manticore.mechanics.weapon.name === "Morningstar" && !manticore.tags.includes("property:reach");
+                })()''',
                 'Vault of Magic distinguishes conditional barding and embedded weapon damage': '''(async () => {
                     for (const [id, terms] of [
                         ["ghost-barding-plate", ["Armor class18", "1 lb", "only against attacks made by Undead", "A Beast"]],

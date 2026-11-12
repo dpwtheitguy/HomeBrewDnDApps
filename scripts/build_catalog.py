@@ -176,10 +176,17 @@ def main():
         'vom_knockabout-billet': 27,
         'vom_kyshaarths-fang': 27,
         'vom_larkmail': 27,
+        'vom_living-juggernaut': 27,
+        'vom_lockbreaker': 28,
+        'vom_mail-of-the-sword-master': 28,
+        'vom_masher-basher': 28,
+        'vom_meteoric-plate': 28,
+        'vom_mountain-hewer': 29,
     }
     vault_weapon_corrections = {
         'vom_anchor-of-striking': ('Anchor of Striking', 'srd_war-pick', 11),
         'vom_anointing-mace': ('Anointing Mace', 'srd_maul', 12),
+        'vom_manticores-tail': ("Manticore's Tail", 'srd_morningstar', 28),
         'vom_asps-kiss': ("Asp's Kiss", 'srd_shortsword', 13),
         'vom_blackguards-handaxe': ('Axe of the Ancients', 'srd_handaxe', 14),
     }
@@ -221,6 +228,10 @@ def main():
                         vault_page = 26
                     if raw['pk'].startswith(('vom_impaling-', 'vom_leaf-bladed-')):
                         vault_page = 27
+                    if raw['pk'].startswith(('vom_mirrored-', 'vom_moonsteel-')):
+                        vault_page = 28
+                    if raw['pk'].startswith(('vom_mordant-', 'vom_mountaineers-')):
+                        vault_page = 29
                     if raw['pk'].startswith('vom_ghost-barding-'):
                         vault_page = 24
                         f = {**f, 'weight': '1.000'}
@@ -230,7 +241,8 @@ def main():
                         f = {**f, 'armor': 'srd_chain-mail', 'weight': '55.000'}
                     if (raw['pk'] in ('vom_animated-chain-mail', 'vom_blood-soaked-hide', 'vom_brazen-bulwark',
                                       'vom_crusaders-shield', 'vom_fellforged-armor', 'vom_fountmail',
-                                      'vom_goblin-shield', 'vom_gorgon-scale', 'vom_grasping-shield', 'vom_larkmail')
+                                      'vom_goblin-shield', 'vom_gorgon-scale', 'vom_grasping-shield', 'vom_larkmail',
+                                      'vom_living-juggernaut', 'vom_mail-of-the-sword-master')
                             or raw['pk'].startswith(('vom_bloodprice-', 'vom_chillblain-', 'vom_encouraging-',
                                                      'vom_grave-ward-'))):
                         f = {**f, 'requires_attunement': True}

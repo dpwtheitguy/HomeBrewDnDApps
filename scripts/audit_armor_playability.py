@@ -258,6 +258,13 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
                     if target_armor['ac_add_dexmod']:
                         formula += ' + Dex modifier'
                         cap = target_armor['ac_cap_dexmod']
+                        override = mapping.get('dexterity_cap_override')
+                        if override is not None:
+                            if not source_adaptation or type(override) is not int or not cap or override < 1:
+                                errors.append('invalid source armor Dexterity cap override')
+                            else:
+                                cap = override
+                                fields['dexterity'] = f'Dexterity modifier, maximum +{cap}'
                         if cap and not (public and mapping.get('uncapped_dexterity')):
                             formula += f' (max +{cap})'
                     valid_ac = mapped_fields.get('Armor class') == formula
