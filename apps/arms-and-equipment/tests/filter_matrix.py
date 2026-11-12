@@ -1830,6 +1830,24 @@ def main():
                         if (!byId("custom-items").hidden) click("close-custom-items");
                     }
                 })()''',
+                'AD&D slayer swords keep the target-specific rules': '''(async () => {
+                    const cases = [
+                        ["fa0baa196a077ad0", ["Roll 1d10", "3d6 Slashing instead of 1d6"]],
+                        ["8907cfee6f377022", ["Black Dragons of any age", "3d6 Slashing"]],
+                        ["b405cd23f3e669b2", ["Red Dragons of any age", "Drakes and wyverns do not qualify"]],
+                        ["9c1e2f19d62d3f0e", ["Casting only through a magic item does not qualify"]],
+                        ["0b1fe89e96af163a", ["currently transformed by a spell"]],
+                        ["5f951a6839ca5999", ["active Regeneration trait", "Ring of Regeneration"]],
+                        ["3e3ae57dab4d520a", ["+3 to attack and +4 to damage", "hydras"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dmg-2e-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))
+                            || inspection.textContent.includes("2024 provisional profile")) return false;
+                    }
+                    return true;
+                })()''',
                 'AD&D concealment, speed, and ranged variants show their specific rules': '''(async () => {
                     const cases = [
                         ["84001f0403e8996e", ["modifier + 5", "plus 3", "Bonus Action"]],

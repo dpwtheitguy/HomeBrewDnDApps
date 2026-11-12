@@ -1,6 +1,459 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-2e-reference:02604a989b045298": [
+      {
+        "label": "D&D 2024 adaptation · Sword +2, Dragon Slayer (White)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01118.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 2, or use 1d10 with two hands. See Special powers for target-specific changes.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2. See Special powers for conditional bonuses.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Make a melee weapon attack. Apply the listed target and trigger rules.",
+          "Special powers": "Against a true dragon, use +3 instead of +2 on the attack roll and deal an extra 1d6 Slashing on a hit. Against the keyed dragon kind, deal an extra 3d6 Slashing instead of 1d6. The normal +2 still applies to weapon damage.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword +2, Dragon Slayer.",
+          "Conversion notes": "The 2024 Dragon Slayer’s extra dice replace the legacy multiplier. This conversion preserves the +2 base and keys the full 3d6 to one dragon kind. It caps the legacy +4 attack bonus at +3.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#DragonSlayer",
+          "Keyed dragon kind": "White Dragons of any age.",
+          "True dragons": "Apply the conditional bonus to creatures identified as true dragons, including the listed chromatic and metallic kinds. Drakes and wyverns do not qualify."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dragon-slayer",
+          "label": "Published 2024 Dragon Slayer comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:4625f8d5f9bfa496": [
+      {
+        "label": "D&D 2024 adaptation · Sword +2, Dragon Slayer (Gold)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01118.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 2, or use 1d10 with two hands. See Special powers for target-specific changes.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2. See Special powers for conditional bonuses.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Make a melee weapon attack. Apply the listed target and trigger rules.",
+          "Special powers": "Against a true dragon, use +3 instead of +2 on the attack roll and deal an extra 1d6 Slashing on a hit. Against the keyed dragon kind, deal an extra 3d6 Slashing instead of 1d6. The normal +2 still applies to weapon damage.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword +2, Dragon Slayer.",
+          "Conversion notes": "The 2024 Dragon Slayer’s extra dice replace the legacy multiplier. This conversion preserves the +2 base and keys the full 3d6 to one dragon kind. It caps the legacy +4 attack bonus at +3.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#DragonSlayer",
+          "Keyed dragon kind": "Gold Dragons of any age.",
+          "True dragons": "Apply the conditional bonus to creatures identified as true dragons, including the listed chromatic and metallic kinds. Drakes and wyverns do not qualify."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dragon-slayer",
+          "label": "Published 2024 Dragon Slayer comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:46eae8b2260f6ebc": [
+      {
+        "label": "D&D 2024 adaptation · Sword +2, Dragon Slayer (Silver)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01118.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 2, or use 1d10 with two hands. See Special powers for target-specific changes.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2. See Special powers for conditional bonuses.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Make a melee weapon attack. Apply the listed target and trigger rules.",
+          "Special powers": "Against a true dragon, use +3 instead of +2 on the attack roll and deal an extra 1d6 Slashing on a hit. Against the keyed dragon kind, deal an extra 3d6 Slashing instead of 1d6. The normal +2 still applies to weapon damage.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword +2, Dragon Slayer.",
+          "Conversion notes": "The 2024 Dragon Slayer’s extra dice replace the legacy multiplier. This conversion preserves the +2 base and keys the full 3d6 to one dragon kind. It caps the legacy +4 attack bonus at +3.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#DragonSlayer",
+          "Keyed dragon kind": "Silver Dragons of any age.",
+          "True dragons": "Apply the conditional bonus to creatures identified as true dragons, including the listed chromatic and metallic kinds. Drakes and wyverns do not qualify."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dragon-slayer",
+          "label": "Published 2024 Dragon Slayer comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:4b0cbc7058695cbe": [
+      {
+        "label": "D&D 2024 adaptation · Sword +2, Dragon Slayer (Bronze)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01118.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 2, or use 1d10 with two hands. See Special powers for target-specific changes.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2. See Special powers for conditional bonuses.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Make a melee weapon attack. Apply the listed target and trigger rules.",
+          "Special powers": "Against a true dragon, use +3 instead of +2 on the attack roll and deal an extra 1d6 Slashing on a hit. Against the keyed dragon kind, deal an extra 3d6 Slashing instead of 1d6. The normal +2 still applies to weapon damage.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword +2, Dragon Slayer.",
+          "Conversion notes": "The 2024 Dragon Slayer’s extra dice replace the legacy multiplier. This conversion preserves the +2 base and keys the full 3d6 to one dragon kind. It caps the legacy +4 attack bonus at +3.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#DragonSlayer",
+          "Keyed dragon kind": "Bronze Dragons of any age.",
+          "True dragons": "Apply the conditional bonus to creatures identified as true dragons, including the listed chromatic and metallic kinds. Drakes and wyverns do not qualify."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dragon-slayer",
+          "label": "Published 2024 Dragon Slayer comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:56d7be57759c2188": [
+      {
+        "label": "D&D 2024 adaptation · Sword +2, Dragon Slayer (Green)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01118.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 2, or use 1d10 with two hands. See Special powers for target-specific changes.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2. See Special powers for conditional bonuses.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Make a melee weapon attack. Apply the listed target and trigger rules.",
+          "Special powers": "Against a true dragon, use +3 instead of +2 on the attack roll and deal an extra 1d6 Slashing on a hit. Against the keyed dragon kind, deal an extra 3d6 Slashing instead of 1d6. The normal +2 still applies to weapon damage.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword +2, Dragon Slayer.",
+          "Conversion notes": "The 2024 Dragon Slayer’s extra dice replace the legacy multiplier. This conversion preserves the +2 base and keys the full 3d6 to one dragon kind. It caps the legacy +4 attack bonus at +3.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#DragonSlayer",
+          "Keyed dragon kind": "Green Dragons of any age.",
+          "True dragons": "Apply the conditional bonus to creatures identified as true dragons, including the listed chromatic and metallic kinds. Drakes and wyverns do not qualify."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dragon-slayer",
+          "label": "Published 2024 Dragon Slayer comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:72ee4bd6e8d64cc3": [
+      {
+        "label": "D&D 2024 adaptation · Sword +2, Dragon Slayer (Blue)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01118.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 2, or use 1d10 with two hands. See Special powers for target-specific changes.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2. See Special powers for conditional bonuses.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Make a melee weapon attack. Apply the listed target and trigger rules.",
+          "Special powers": "Against a true dragon, use +3 instead of +2 on the attack roll and deal an extra 1d6 Slashing on a hit. Against the keyed dragon kind, deal an extra 3d6 Slashing instead of 1d6. The normal +2 still applies to weapon damage.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword +2, Dragon Slayer.",
+          "Conversion notes": "The 2024 Dragon Slayer’s extra dice replace the legacy multiplier. This conversion preserves the +2 base and keys the full 3d6 to one dragon kind. It caps the legacy +4 attack bonus at +3.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#DragonSlayer",
+          "Keyed dragon kind": "Blue Dragons of any age.",
+          "True dragons": "Apply the conditional bonus to creatures identified as true dragons, including the listed chromatic and metallic kinds. Drakes and wyverns do not qualify."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dragon-slayer",
+          "label": "Published 2024 Dragon Slayer comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:8907cfee6f377022": [
+      {
+        "label": "D&D 2024 adaptation · Sword +2, Dragon Slayer (Black)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01118.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 2, or use 1d10 with two hands. See Special powers for target-specific changes.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2. See Special powers for conditional bonuses.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Make a melee weapon attack. Apply the listed target and trigger rules.",
+          "Special powers": "Against a true dragon, use +3 instead of +2 on the attack roll and deal an extra 1d6 Slashing on a hit. Against the keyed dragon kind, deal an extra 3d6 Slashing instead of 1d6. The normal +2 still applies to weapon damage.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword +2, Dragon Slayer.",
+          "Conversion notes": "The 2024 Dragon Slayer’s extra dice replace the legacy multiplier. This conversion preserves the +2 base and keys the full 3d6 to one dragon kind. It caps the legacy +4 attack bonus at +3.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#DragonSlayer",
+          "Keyed dragon kind": "Black Dragons of any age.",
+          "True dragons": "Apply the conditional bonus to creatures identified as true dragons, including the listed chromatic and metallic kinds. Drakes and wyverns do not qualify."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dragon-slayer",
+          "label": "Published 2024 Dragon Slayer comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:9dea408098edc632": [
+      {
+        "label": "D&D 2024 adaptation · Sword +2, Dragon Slayer (Copper)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01118.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 2, or use 1d10 with two hands. See Special powers for target-specific changes.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2. See Special powers for conditional bonuses.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Make a melee weapon attack. Apply the listed target and trigger rules.",
+          "Special powers": "Against a true dragon, use +3 instead of +2 on the attack roll and deal an extra 1d6 Slashing on a hit. Against the keyed dragon kind, deal an extra 3d6 Slashing instead of 1d6. The normal +2 still applies to weapon damage.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword +2, Dragon Slayer.",
+          "Conversion notes": "The 2024 Dragon Slayer’s extra dice replace the legacy multiplier. This conversion preserves the +2 base and keys the full 3d6 to one dragon kind. It caps the legacy +4 attack bonus at +3.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#DragonSlayer",
+          "Keyed dragon kind": "Copper Dragons of any age.",
+          "True dragons": "Apply the conditional bonus to creatures identified as true dragons, including the listed chromatic and metallic kinds. Drakes and wyverns do not qualify."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dragon-slayer",
+          "label": "Published 2024 Dragon Slayer comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:b405cd23f3e669b2": [
+      {
+        "label": "D&D 2024 adaptation · Sword +2, Dragon Slayer (Red)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01118.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 2, or use 1d10 with two hands. See Special powers for target-specific changes.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2. See Special powers for conditional bonuses.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Make a melee weapon attack. Apply the listed target and trigger rules.",
+          "Special powers": "Against a true dragon, use +3 instead of +2 on the attack roll and deal an extra 1d6 Slashing on a hit. Against the keyed dragon kind, deal an extra 3d6 Slashing instead of 1d6. The normal +2 still applies to weapon damage.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword +2, Dragon Slayer.",
+          "Conversion notes": "The 2024 Dragon Slayer’s extra dice replace the legacy multiplier. This conversion preserves the +2 base and keys the full 3d6 to one dragon kind. It caps the legacy +4 attack bonus at +3.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#DragonSlayer",
+          "Keyed dragon kind": "Red Dragons of any age.",
+          "True dragons": "Apply the conditional bonus to creatures identified as true dragons, including the listed chromatic and metallic kinds. Drakes and wyverns do not qualify."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dragon-slayer",
+          "label": "Published 2024 Dragon Slayer comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:ee806816a5211eb7": [
+      {
+        "label": "D&D 2024 adaptation · Sword +2, Dragon Slayer (Brass)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01118.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 2, or use 1d10 with two hands. See Special powers for target-specific changes.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2. See Special powers for conditional bonuses.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Make a melee weapon attack. Apply the listed target and trigger rules.",
+          "Special powers": "Against a true dragon, use +3 instead of +2 on the attack roll and deal an extra 1d6 Slashing on a hit. Against the keyed dragon kind, deal an extra 3d6 Slashing instead of 1d6. The normal +2 still applies to weapon damage.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword +2, Dragon Slayer.",
+          "Conversion notes": "The 2024 Dragon Slayer’s extra dice replace the legacy multiplier. This conversion preserves the +2 base and keys the full 3d6 to one dragon kind. It caps the legacy +4 attack bonus at +3.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#DragonSlayer",
+          "Keyed dragon kind": "Brass Dragons of any age.",
+          "True dragons": "Apply the conditional bonus to creatures identified as true dragons, including the listed chromatic and metallic kinds. Drakes and wyverns do not qualify."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dragon-slayer",
+          "label": "Published 2024 Dragon Slayer comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:fa0baa196a077ad0": [
+      {
+        "label": "D&D 2024 adaptation · Sword +2, Dragon Slayer",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01118.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 2, or use 1d10 with two hands. See Special powers for target-specific changes.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2. See Special powers for conditional bonuses.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Make a melee weapon attack. Apply the listed target and trigger rules.",
+          "Special powers": "Against a true dragon, use +3 instead of +2 on the attack roll and deal an extra 1d6 Slashing on a hit. Against the keyed dragon kind, deal an extra 3d6 Slashing instead of 1d6. The normal +2 still applies to weapon damage.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword +2, Dragon Slayer.",
+          "Conversion notes": "The 2024 Dragon Slayer’s extra dice replace the legacy multiplier. This conversion preserves the +2 base and keys the full 3d6 to one dragon kind. It caps the legacy +4 attack bonus at +3.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#DragonSlayer",
+          "Keyed dragon kind": "Roll 1d10 when found. 1 Black, 2 Blue, 3 Brass, 4 Bronze, 5 Copper, 6 Gold, 7 Green, 8 Red, 9 Silver, 10 White.",
+          "True dragons": "Apply the conditional bonus to creatures identified as true dragons, including the listed chromatic and metallic kinds. Drakes and wyverns do not qualify."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dragon-slayer",
+          "label": "Published 2024 Dragon Slayer comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:9c1e2f19d62d3f0e": [
+      {
+        "label": "D&D 2024 adaptation · Sword +1, +2 vs. magic-using and enchanted creatures",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01111.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 1, or use 1d10 with two hands. See Special powers for target-specific changes.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1. See Special powers for conditional bonuses.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Activation": "Make a melee weapon attack. Apply the listed target and trigger rules.",
+          "Special powers": "Use +2 instead of +1 on attack and damage rolls against a creature that can cast spells using its own traits or class features, or that is currently created, summoned, or brought to the battlefield by a spell or magical effect. Casting only through a magic item does not qualify.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword +1, +2 vs. magic-using and enchanted creatures.",
+          "Conversion notes": "Retains the +2 target rule and the original exception for creatures that get spellcasting solely from an item. Uses the longsword, the source table’s most common sword form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:0b1fe89e96af163a": [
+      {
+        "label": "D&D 2024 adaptation · Sword +1, +3 vs. lycanthropes and shape changers",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01112.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 1, or use 1d10 with two hands. See Special powers for target-specific changes.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1. See Special powers for conditional bonuses.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Make a melee weapon attack. Apply the listed target and trigger rules.",
+          "Special powers": "Use +3 instead of +1 on attack and damage rolls against lycanthropes, creatures with a feature or action that transforms them into another creature’s form, or creatures currently transformed by a spell such as Polymorph.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword +1, +3 vs. lycanthropes and shape changers.",
+          "Conversion notes": "Retains the original +3 against shape changers and currently transformed targets. Uses the longsword, the source table’s most common sword form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:5f951a6839ca5999": [
+      {
+        "label": "D&D 2024 adaptation · Sword +1, +3 vs. regenerating creatures",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01113.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 1, or use 1d10 with two hands. See Special powers for target-specific changes.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1. See Special powers for conditional bonuses.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Make a melee weapon attack. Apply the listed target and trigger rules.",
+          "Special powers": "Use +3 instead of +1 on attack and damage rolls against a creature with an active Regeneration trait or another effect that automatically restores Hit Points at intervals, such as a Ring of Regeneration. Ordinary healing spells and potions do not qualify.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword +1, +3 vs. regenerating creatures.",
+          "Conversion notes": "The treasure table names regenerating creatures and the prose supplies the +3, including regeneration from a magic item. Uses the longsword, the source table’s most common sword form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
+    "dmg-2e-reference:3e3ae57dab4d520a": [
+      {
+        "label": "D&D 2024 adaptation · Sword +1, +4 vs. reptiles",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01114.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 1, or use 1d10 with two hands. See Special powers for target-specific changes.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1. See Special powers for conditional bonuses.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Make a melee weapon attack. Apply the listed target and trigger rules.",
+          "Special powers": "Against a reptilian creature, use +3 to attack and +4 to damage instead of the normal +1. The DM decides edge cases. The legacy examples include dinosaurs, true dragons, hydras, lizards, snakes, and wyverns.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword +1, +4 vs. reptiles.",
+          "Conversion notes": "Retains the +4 damage identity while limiting the conditional attack bonus to +3. Preserves the broad legacy foe group. Uses the longsword, the source table’s most common sword form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
     "dmg-2e-reference:72461712976588cf": [
       {
         "label": "D&D 2024 adaptation · Scimitar of Speed (+1)",
