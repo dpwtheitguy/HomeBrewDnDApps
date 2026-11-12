@@ -867,6 +867,23 @@ def main():
                     }
                     return true;
                 })()''',
+                'Ravenloft cards distinguish weapon rules from encounter effects': '''(async () => {
+                    const cases = [
+                        ["d01396b5ec856e1c", ["One charge remains", "escape Barovia fails"]],
+                        ["16885f3067840a8a", ["2024 base weapon rules", "4d10 Lightning", "crypt mechanism"]],
+                        ["9edb3e613b296ebe", ["Cone of Cold (5)", "Resistance to Cold", "overriding thirst"]],
+                        ["f9580784d28dcdbc", ["DC 14 Dexterity", "40 pounds", "resets after 1 minute"]],
+                        ["1f01af15fd48f8ea", ["30/120 feet", "250 gp", "separate treasure"]],
+                        ["364d99c685736ae0", ["Cane: 1d6 Bludgeoning", "Blade: 1d6 Piercing", "shape-shifted"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("curse-of-strahd-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const details = inspection.textContent;
+                        if (!terms.every(term => details.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

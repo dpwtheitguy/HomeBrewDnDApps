@@ -4509,6 +4509,252 @@
           "Source locator": "Curse of Strahd, Wizard of Wines (area W16) and appendix C (p. 221). Short-Term Madness: 2014 Dungeon Master’s Guide, chapter 8."
         }
       }
+    ],
+    "curse-of-strahd-reference:ff52c1ef3d5a3a4e": [
+      {
+        "label": "D&D 2024 adaptation · Curse of Strahd",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/posts/1842-10-more-new-magic-items-from-the-dungeon-masters#7SilveredWeapon",
+        "fields": {
+          "Category": "Martial melee weapon (Rapier) · Common · No attunement",
+          "Damage": "1d8 Piercing + the ability modifier used for the attack.",
+          "Attack bonus": "Strength or Dexterity modifier plus proficiency bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse",
+          "Mastery": "Vex",
+          "Activation": "Make a Rapier attack.",
+          "Silvered Weapon": "A Critical Hit against a shape-shifted creature adds one extra d8, for 3d8 before modifiers.",
+          "Conversion notes": "Uses the 2024 magical Silvered Weapon rule. The glass hilt is decorative."
+        },
+        "profile_kind": "custom-2024-draft"
+      },
+      {
+        "label": "Original adventure",
+        "status": "source-reported",
+        "source": "https://www.dndbeyond.com/sources/dnd/cos/the-amber-temple",
+        "fields": {
+          "Source locator": "Amber Temple, X40, treasure pile 2 (p. 195).",
+          "Appearance": "A pink glass hilt distinguishes the silvered rapier in the treasury."
+        }
+      }
+    ],
+    "curse-of-strahd-reference:d01396b5ec856e1c": [
+      {
+        "label": "D&D 2024 adaptation · Curse of Strahd",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/magic-items/9228832-luck-blade",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword) · Legendary · Requires attunement",
+          "Damage": "1d8 Slashing or 1d10 with two hands, plus Strength modifier and 1.",
+          "Attack bonus": "+1, plus Strength modifier and proficiency bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Activation": "Make a weapon attack, or hold the blade and take a Magic action to cast Wish using its remaining charge.",
+          "While carried": "+1 to saving throws. Once per dawn, if you are not Incapacitated, you can reroll a failed D20 Test without an action. Use the new roll.",
+          "Wish": "One charge remains and it does not recharge. A wish to escape Barovia fails. A wish to destroy Strahd instead teleports him to within 5 feet of the blade.",
+          "Conversion notes": "The adventure leaves the blade type unspecified. Longsword is the default for this conversion. A DM can choose another sword allowed by the 2024 Luck Blade and use that sword’s base profile."
+        },
+        "profile_kind": "custom-2024-draft"
+      },
+      {
+        "label": "Original adventure",
+        "status": "source-reported",
+        "source": "https://www.dndbeyond.com/sources/dnd/cos/castle-ravenloft",
+        "fields": {
+          "Source locator": "Castle Ravenloft, K84, crypt 29 (p. 91).",
+          "Acquisition": "Buried in brown mold beside Baron Driif’s bones."
+        }
+      }
+    ],
+    "curse-of-strahd-reference:16885f3067840a8a": [
+      {
+        "label": "2024 base weapon rules",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Simple melee weapon (Quarterstaff) · No attunement",
+          "Damage": "1d6 Bludgeoning or 1d8 with two hands, plus Strength modifier.",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Activation": "Make a Quarterstaff attack."
+        }
+      },
+      {
+        "label": "Original adventure",
+        "status": "source-reported",
+        "source": "https://www.dndbeyond.com/sources/dnd/cos/castle-ravenloft",
+        "fields": {
+          "Source locator": "Castle Ravenloft, K84, crypt 37 (p. 92).",
+          "Crypt mechanism": "Place the marble knob in the slab’s recess to raise the slab 5 feet for 1 minute, revealing a hidden compartment. Inserting the brass knob deals 4d10 Lightning damage to the holder. These effects come from the crypt mechanism."
+        }
+      }
+    ],
+    "curse-of-strahd-reference:9edb3e613b296ebe": [
+      {
+        "label": "D&D 2024 adaptation · Curse of Strahd",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#StaffofFrost",
+        "fields": {
+          "Category": "Staff · Very Rare · Attunement by a Druid, Sorcerer, Warlock, or Wizard",
+          "Damage": "As a Quarterstaff, 1d6 Bludgeoning or 1d8 with two hands, plus Strength modifier.",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient.",
+          "Range": "5 feet melee. Spell range follows the spell.",
+          "Properties": "Versatile (1d8) in melee",
+          "Mastery": "Topple when wielded as a Quarterstaff",
+          "Activation": "While holding the staff, expend charges to cast one listed spell using its casting time and your spell save DC.",
+          "Spells": "Fog Cloud (1 charge), Ice Storm (4), Wall of Ice (4), Cone of Cold (5).",
+          "Charges": "10 charges. Regain 1d6 + 4 expended charges at dawn. On expending the last charge, roll 1d20. On a 1 the staff melts and is destroyed.",
+          "While held": "Resistance to Cold damage.",
+          "First touch": "The first character to touch the staff acquires Jakarion’s overriding thirst for power as a personality flaw. Attunement is unnecessary for this trigger.",
+          "Conversion notes": "Uses the 2024 Staff of Frost and preserves the adventure’s first-touch flaw."
+        },
+        "profile_kind": "custom-2024-draft"
+      },
+      {
+        "label": "Original adventure",
+        "status": "source-reported",
+        "source": "https://www.dndbeyond.com/sources/dnd/cos/the-amber-temple",
+        "fields": {
+          "Source locator": "Amber Temple, X17 (p. 187).",
+          "Acquisition": "Jakarion’s body lies in a hall guarded by three flameskulls."
+        }
+      }
+    ],
+    "curse-of-strahd-reference:f9580784d28dcdbc": [
+      {
+        "label": "D&D 2024 adaptation · Curse of Strahd",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Mechanical trap · Dragon-head mace",
+          "Damage": "2d6 Bludgeoning on a failed DC 14 Dexterity save. A detached mace uses 1d6 Bludgeoning + Strength modifier if the DM allows salvage.",
+          "Attack bonus": "The trap uses a saving throw. A salvaged mace uses Strength and adds proficiency if proficient.",
+          "Range": "Trap affects a creature standing on its plate. Detached mace has 5 feet of melee reach.",
+          "Properties": "Pressure plate",
+          "Mastery": "Sap applies only to the detached mace profile if mastered.",
+          "Activation": "At least 40 pounds on a plate triggers the adjacent suit. It retracts after the attack and its plate resets after 1 minute.",
+          "Conversion notes": "Preserves the printed trap procedure. The detached 2024 Mace profile is an optional salvage ruling."
+        },
+        "profile_kind": "custom-2024-draft"
+      },
+      {
+        "label": "Original adventure",
+        "status": "source-reported",
+        "source": "https://www.dndbeyond.com/sources/dnd/cos/castle-ravenloft",
+        "fields": {
+          "Source locator": "Castle Ravenloft, K19, Grand Landing (p. 58).",
+          "Detection": "DC 15 Wisdom (Perception) while searching for traps at the alcoves."
+        }
+      }
+    ],
+    "curse-of-strahd-reference:db28fad9530cc1d0": [
+      {
+        "label": "2024 base weapon rules",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword) · No attunement",
+          "Damage": "1d8 Slashing or 1d10 with two hands, plus Strength modifier.",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Activation": "Make a Longsword attack."
+        }
+      },
+      {
+        "label": "Original adventure",
+        "status": "source-reported",
+        "source": "https://www.dndbeyond.com/sources/dnd/cos/castle-ravenloft",
+        "fields": {
+          "Source locator": "Castle Ravenloft, random encounters, Wights (p. 52).",
+          "Acquisition": "Carried by wights who once captained the Ravenloft guard. The Barovian crest is worked into the crossguard."
+        }
+      }
+    ],
+    "curse-of-strahd-reference:1f01af15fd48f8ea": [
+      {
+        "label": "2024 base weapon rules",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon (Hand Crossbow) · No attunement",
+          "Damage": "1d6 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier plus proficiency bonus if proficient.",
+          "Range": "30/120 feet",
+          "Properties": "Ammunition (Bolt), Light, Loading",
+          "Mastery": "Vex",
+          "Activation": "Make a ranged attack and expend one bolt. You need a free hand to load it."
+        }
+      },
+      {
+        "label": "Original adventure",
+        "status": "source-reported",
+        "source": "https://www.dndbeyond.com/sources/dnd/cos/the-town-of-vallaki",
+        "fields": {
+          "Source locator": "Vallaki, N5, Arasek Stockyard (p. 116).",
+          "Acquisition": "Concealed under the front seat of Rictavio’s wagon. The nearby silvered bolts are separate treasure.",
+          "Published value": "250 gp for the decorated crossbow."
+        }
+      }
+    ],
+    "curse-of-strahd-reference:364d99c685736ae0": [
+      {
+        "label": "D&D 2024 adaptation · Curse of Strahd",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/posts/1842-10-more-new-magic-items-from-the-dungeon-masters#7SilveredWeapon",
+        "fields": {
+          "Category": "Sword cane · Simple melee weapon in cane mode or Martial melee weapon in blade mode",
+          "Damage": "Cane: 1d6 Bludgeoning + Strength modifier. Blade: 1d6 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Cane uses Strength. Blade uses Strength or Dexterity. Add proficiency with the weapon mode used.",
+          "Range": "5 feet melee",
+          "Properties": "Blade has Finesse. Both modes require one hand.",
+          "Mastery": "Slow (cane) or Vex (blade), if mastered.",
+          "Activation": "Choose the cane or the drawn blade for each attack. Use normal weapon equipping rules to draw or stow the blade.",
+          "Silvered blade": "A Critical Hit with the blade against a shape-shifted creature adds one extra d6.",
+          "Conversion notes": "Uses Club proficiency and mastery for the cane and Shortsword proficiency and mastery for the blade. Keeps the adventure’s cane damage die. The combined weapon cannot be used to qualify for a Light weapon extra attack."
+        },
+        "profile_kind": "custom-2024-draft"
+      },
+      {
+        "label": "Original adventure",
+        "status": "source-reported",
+        "source": "https://www.dndbeyond.com/sources/dnd/cos/monsters-and-npcs",
+        "fields": {
+          "Source locator": "Appendix D, Rictavio (p. 238).",
+          "NPC profile": "Rictavio has +4 to hit and deals 1d6 + 1 with either mode. The blade is silvered."
+        }
+      }
+    ],
+    "curse-of-strahd-reference:0b074ea6bb280239": [
+      {
+        "label": "D&D 2024 adaptation · Curse of Strahd",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Simple ranged weapon (Shortbow) · No attunement",
+          "Damage": "1d6 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier plus proficiency bonus if proficient.",
+          "Range": "80/320 feet",
+          "Properties": "Ammunition (Arrow), Two-Handed",
+          "Mastery": "Vex",
+          "Activation": "Make a ranged attack and expend one arrow.",
+          "Conversion notes": "Uses a Shortbow as the default for this adaptation. The notches have no mechanical effect."
+        },
+        "profile_kind": "custom-2024-draft"
+      },
+      {
+        "label": "Original adventure",
+        "status": "source-reported",
+        "source": "https://www.dndbeyond.com/sources/dnd/cos/the-town-of-vallaki",
+        "fields": {
+          "Source locator": "Vallaki, N2, Blue Water Inn (p. 100).",
+          "History": "Szoldar marks the bow for each wolf he kills. The text leaves the bow type unspecified."
+        }
+      }
     ]
   }
 }
