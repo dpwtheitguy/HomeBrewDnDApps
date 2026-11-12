@@ -1782,6 +1782,27 @@ def main():
                     return document.title === title && header.querySelector("h1").textContent === title
                         && header.scrollWidth <= header.clientWidth;
                 })()''',
+                'AD&D cursed and defensive swords show their limits and triggers': '''(async () => {
+                    const cases = [
+                        ["c5dbe9879aab6cd4", ["cannot drop or stow", "binding persists until Remove Curse"]],
+                        ["616a28c5152d9ed9", ["at least 1 damage", "Wish can end the binding", "Subtract 2"]],
+                        ["5a7b32d6e4f87288", ["enter a frenzy", "including an ally", "Remove Curse or Wish"]],
+                        ["0b1fc58846b16ed0", ["+3 to attack and +4 to damage", "next three turns", "cannot make Opportunity Attacks"]],
+                        ["41a012dcad4cfd95", ["15 Necrotic damage", "regain Hit Points"]],
+                        ["b53683ab23e39c6c", ["14 Slashing", "level of Exhaustion", "Bright Light to 30 feet"]],
+                        ["57f2fe239052b91a", ["1 Necrotic damage per open wound", "10 rounds", "DC 15 Wisdom (Medicine)"]],
+                        ["2020ed63c7378e48", ["natural 20", "30 Slashing damage", "Legendary Resistance"]],
+                        ["d43e82bbfddd7932", ["defense pool of 4", "melee attacks made with a held weapon"]],
+                        ["27a7f5a1ccdc35bc", ["defense pool of 5", "capped at +3", "start of your next turn"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dmg-1e-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))
+                            || !inspection.querySelector('a[href*="Dungeon%20Masters%20Guide"]')) return false;
+                    }
+                    return true;
+                })()''',
                 'AD&D slayer swords display their distinct target rules': '''(async () => {
                     const cases = [
                         ["b6170aed662ecfed", ["can cast spells using its own traits", "solely from an item"]],

@@ -1,6 +1,292 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-1e-reference:c5dbe9879aab6cd4": [
+      {
+        "label": "D&D 2024 adaptation · Sword +1, Cursed",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing plus Strength modifier and +1. Use 1d10 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, with +1 applied.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee weapon attack. See Special powers for triggers and exceptions.",
+          "Special powers": "Curse. The first time you draw or attack with the sword, it binds to you. When you roll Initiative while a hostile creature is present, the sword appears in your hand if you have a free hand. If both hands are occupied, it replaces one held object of your choice, dropping that object in your space. While fighting a hostile creature you cannot drop or stow the sword. On each of your turns, if able, use your action to attack a hostile creature with it or Dash toward the nearest one if you cannot reach any. Once no conscious hostile creature remains within 60 feet, the compulsion ends. The binding persists until Remove Curse is cast on you.",
+          "Rarity": "Rare",
+          "Attunement": "None; the curse binds on its own trigger.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, pp. 124 and 167; III.G Swords, roll 86-90.",
+          "Conversion notes": "Retains +1, compulsory fighting and the sword returning to the wielder’s hand. Uses initiative, a defined encounter boundary, and Remove Curse in place of exorcism. Uses the longsword, the source table’s most common sword form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:616a28c5152d9ed9": [
+      {
+        "label": "D&D 2024 adaptation · Sword -2, Cursed",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier, or use 1d10 with two hands. Subtract 2 from damage against creatures in combat.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient. Subtract 2 against creatures in combat.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee weapon attack. See Special powers for triggers and exceptions.",
+          "Special powers": "Curse. The sword displays ordinary magic and reveals its penalty only when used against a creature in combat. On the first such attack it binds to you. Whenever you roll Initiative with hostile creatures present, it returns to your hand. If necessary you drop one held object of your choice to make room. While a hostile creature is within 60 feet, you cannot willingly drop or stow the sword or attack with another weapon. Its −2 applies to attack and damage rolls against creatures in combat. It deals at least 1 damage on a hit before Resistance or Immunity. A Wish can end the binding.",
+          "Rarity": "Rare",
+          "Attunement": "None; the curse binds on its own trigger.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, pp. 124 and 167; III.G Swords, roll 91-95.",
+          "Conversion notes": "Keeps the hidden attack and damage penalty, minimum damage, and forced use. Wish is the current counterpart of the original limited wish, wish, or alter reality remedies. Uses the longsword, the source table’s most common sword form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:5a7b32d6e4f87288": [
+      {
+        "label": "D&D 2024 adaptation · Sword, Cursed Berserking",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing plus Strength modifier and +2. Use 1d10 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, with +2 applied.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee weapon attack. See Special powers for triggers and exceptions.",
+          "Special powers": "Curse. When you first attack a creature with this sword in combat, it binds to you. It appears in your hand when you roll Initiative while bound, displacing one held object of your choice if necessary. When the sword first binds or you roll Initiative while bound, you enter a frenzy. During it you cannot willingly stow or drop the sword. While another living creature is within 60 feet, use your movement and action, if able, to approach and attack the nearest such creature with this sword, including an ally. Break ties at random. If you cannot reach it, use your action to Dash toward it. The compulsion ends if you are Incapacitated or no other living creature remains within 60 feet. Remove Curse or Wish can end the binding.",
+          "Rarity": "Rare",
+          "Attunement": "None; the curse binds on its own trigger.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, pp. 124 and 167; III.G Swords, roll 96-00.",
+          "Conversion notes": "Keeps +2, forced attacks on the closest living creature, and the exorcism or wish remedy. Defines the compulsion with 2024 movement and action rules. Uses the longsword, the source table’s most common sword form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:0b1fc58846b16ed0": [
+      {
+        "label": "D&D 2024 adaptation · Sword of Dancing",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing plus Strength modifier and its current magic bonus. Use 1d10 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, with its current magic bonus applied.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee weapon attack. See Special powers for triggers and exceptions.",
+          "Special powers": "While held, the sword starts at +1. At the end of a turn in which you attacked with it, advance to the next stage: +2, +3, then +3 to attack and +4 to damage. After the fourth stage it returns to +1. On your next turn, you can then release it as a Bonus Action. While dancing it hovers within 30 feet of you. On release, and as a Bonus Action on each of your next three turns, you can move it up to 30 feet to a space within 30 feet of you and make one melee attack against a target within 5 feet of it, using your normal modifiers. Each dancing turn uses the next bonus stage in the same sequence. It cannot make Opportunity Attacks. At the end of the fourth turn, if you are Incapacitated, or if it leaves the 30-foot limit, it returns to a free hand or falls in its space and resets to +1. Use it in hand through four more attack turns before releasing it again.",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, pp. 124 and 165–166; III.G Swords, roll 81.",
+          "Conversion notes": "Retains the four-stage attack cycle and four-turn dance. The fourth stage’s attack bonus is capped at +3 and the autonomous attacks use Bonus Actions. Uses the longsword, the source table’s most common sword form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:41a012dcad4cfd95": [
+      {
+        "label": "D&D 2024 adaptation · Sword of Life Stealing",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing plus Strength modifier and +2. Use 1d10 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, with +2 applied.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee weapon attack. See Special powers for triggers and exceptions.",
+          "Special powers": "When you roll a natural 20 on an attack against a living creature that is neither Undead nor Construct, it takes an extra 15 Necrotic damage. You regain Hit Points equal to the Necrotic damage it takes, up to your Hit Point maximum.",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, pp. 124 and 166; III.G Swords, roll 83.",
+          "Conversion notes": "Keeps the +2, natural-20 life drain and real healing. Replaces the loss of a level or Hit Die with the 2024 counterpart’s fixed Necrotic damage. Uses the longsword, the source table’s most common sword form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#SwordofLifeStealing"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:b53683ab23e39c6c": [
+      {
+        "label": "D&D 2024 adaptation · Sword of Sharpness",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing plus Strength modifier and +1. Use 1d10 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, with +1 applied.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee weapon attack. See Special powers for triggers and exceptions.",
+          "Special powers": "When you roll a natural 20 against a creature, add 14 Slashing damage and it gains 1 level of Exhaustion. In a campaign with minimum magic-enhancement thresholds, the sword counts as +3 solely for meeting that threshold. As a Bonus Action while holding it, choose no light, Dim Light to 5 feet, Bright Light to 15 feet, or Bright Light to 30 feet. Each bright setting sheds Dim Light for the same distance beyond its bright radius.",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, pp. 124 and 166; III.G Swords, roll 84.",
+          "Conversion notes": "Retains +1, the legacy +3 eligibility threshold and selectable light. Uses the 2024 Sword of Sharpness’s damage and Exhaustion in place of permanent limb loss. Uses the longsword, the source table’s most common sword form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#SwordofSharpness"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:57f2fe239052b91a": [
+      {
+        "label": "D&D 2024 adaptation · Sword of Wounding",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing plus Strength modifier and +1. Use 1d10 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, with +1 applied.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee weapon attack. See Special powers for triggers and exceptions.",
+          "Special powers": "On a hit against a creature, inflict a wound. At the start of each of its turns it takes 1 Necrotic damage per open wound, and its Hit Point maximum decreases by the Necrotic damage it takes. Each wound stops after 10 rounds, or all wounds stop if the creature or an ally within 5 feet spends an action and succeeds on a DC 15 Wisdom (Medicine) check to bandage them. A Long Rest restores Hit Point maximum lost to these wounds. Regeneration and other healing cannot raise current Hit Points above the reduced maximum.",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, pp. 124 and 166; III.G Swords, roll 82.",
+          "Conversion notes": "Keeps the +1, stacking one-point wounds and ten-round duration. Uses a Medicine check and temporary maximum reduction to represent treatment and limits on magical healing. Uses the longsword, the source table’s most common sword form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#SwordofWounding"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:2020ed63c7378e48": [
+      {
+        "label": "D&D 2024 adaptation · Sword, Vorpal Weapon",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing plus Strength modifier and +3. Use 1d10 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, with +3 applied.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee weapon attack. See Special powers for triggers and exceptions.",
+          "Special powers": "The sword ignores Resistance to Slashing damage. When you roll a natural 20 against a creature, sever one head. The target dies if it cannot survive without that head. If it has no head, can survive without its head, has Immunity to Slashing, or is too large to decapitate at the DM’s discretion, the attack instead adds 30 Slashing damage. A target can also expend one use of Legendary Resistance to take the extra damage in place of losing its head.",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, pp. 124 and 166; III.G Swords, roll 85.",
+          "Conversion notes": "Keeps +3 and the source’s anatomical exceptions. Uses the published 2024 natural-20 trigger, fixed fallback and Legendary Resistance rather than separate legacy attack thresholds. Uses the longsword, the source table’s most common sword form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#VorpalSword"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:d43e82bbfddd7932": [
+      {
+        "label": "D&D 2024 adaptation · Sword +4, Defender",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing plus Strength modifier and +3 before allocation. Use 1d10 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, with +3 before allocation applied.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee weapon attack. See Special powers for triggers and exceptions.",
+          "Special powers": "The sword has a defense pool of 4. The first time you attack with the sword on your turn, choose how many pool points to allocate to defense, from zero to 4. Your attack and damage bonus becomes the unallocated remainder, capped at +3. The allocated points add to AC only against melee attacks made with a held weapon while you hold the Defender. These adjustments last until the start of your next turn. Bonuses from multiple Defenders do not stack.",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, pp. 124 and 165; III.G Swords, roll 77.",
+          "Conversion notes": "Keeps the 4-point allocation and the original protection against held melee weapons. Caps the attack and damage bonus at +3. Uses the published 2024 Defender’s allocation timing. The AD&D prose describes the +4 version and the treasure table also lists the +5 version. Uses the longsword, the source table’s most common sword form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Defender"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
+    "dmg-1e-reference:27a7f5a1ccdc35bc": [
+      {
+        "label": "D&D 2024 adaptation · Sword +5, Defender",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing plus Strength modifier and +3 before allocation. Use 1d10 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, with +3 before allocation applied.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee weapon attack. See Special powers for triggers and exceptions.",
+          "Special powers": "The sword has a defense pool of 5. The first time you attack with the sword on your turn, choose how many pool points to allocate to defense, from zero to 5. Your attack and damage bonus becomes the unallocated remainder, capped at +3. The allocated points add to AC only against melee attacks made with a held weapon while you hold the Defender. These adjustments last until the start of your next turn. Bonuses from multiple Defenders do not stack.",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, pp. 124 and 165; III.G Swords, roll 79.",
+          "Conversion notes": "Keeps the 5-point allocation and the original protection against held melee weapons. Caps the attack and damage bonus at +3. Uses the published 2024 Defender’s allocation timing. The AD&D prose describes the +4 version and the treasure table also lists the +5 version. Uses the longsword, the source table’s most common sword form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Defender"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
     "dmg-1e-reference:b6170aed662ecfed": [
       {
         "label": "D&D 2024 adaptation · Sword +1, +2 vs. magic-using & enchanted creatures",
