@@ -993,6 +993,22 @@ def main():
                     }
                     return true;
                 })()''',
+                'Book of Many Things weapons show item-specific triggers': '''(async () => {
+                    const cases = [
+                        ["7526614", ["natural 19 or 20", "DC 15 Constitution", "6d6 Necrotic"]],
+                        ["7526617", ["half your Hit Point maximum", "+2", "Cleave"]],
+                        ["7526618", ["Advantage against a creature below its Hit Point maximum", "compatible launcher"]],
+                        ["7526628", ["150/600 feet", "1d6 Fire", "Utilize action"]],
+                        ["7526629", ["Melody of Precision", "Expertise in Performance", "Melody of Reverberation", "Charisma modifier"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dndbeyond:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term)) ||
+                            ![...inspection.querySelectorAll("a")].some(link => link.href.includes("/magic-items/" + id))) return false;
+                    }
+                    return true;
+                })()''',
                 'Fizban hoard states and the Topaz Annihilator show their own rules': '''(async () => {
                     const cases = [
                         ["4047217", ["Slumbering · Uncommon", "Wakened · Very Rare", "DC 16 Dexterity",

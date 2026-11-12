@@ -1,6 +1,117 @@
 {
   "schema_version": 1,
   "records": {
+    "dndbeyond:7526614": [
+      {
+        "label": "D&D 2024 adaptation · Baleful Talon",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/7526614-baleful-talon",
+        "fields": {
+          "Category": "Simple melee weapon (Dagger) · Very Rare · No attunement",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "+1 plus Strength or Dexterity modifier and Proficiency Bonus if proficient.",
+          "Range": "5 feet melee. Thrown 20/60 feet.",
+          "Properties": "Finesse, Light, Thrown.",
+          "Mastery": "Nick.",
+          "Activation": "Attack with the dagger. The curse triggers only on a hit against a creature with a natural 19 or 20.",
+          "Special powers": "The target makes a DC 15 Constitution save, taking 6d6 Necrotic damage on a failure or half on a success. If that Necrotic damage reduces it to 0 Hit Points, it turns to dust.",
+          "Legacy source": "The Book of Many Things, p. 34.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Conversion notes": "Uses the 2024 weapon and attack rules while retaining the source effect."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dndbeyond:7526617": [
+      {
+        "label": "D&D 2024 adaptation · Bloodrage Greataxe",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/7526617-bloodrage-greataxe",
+        "fields": {
+          "Category": "Martial melee weapon (Greataxe) · Uncommon · No attunement",
+          "Damage": "1d12 Slashing + Strength modifier. Add +2 while at or below half your Hit Point maximum.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient. Add +2 while at or below half your Hit Point maximum.",
+          "Range": "5 feet melee.",
+          "Properties": "Heavy, Two-Handed.",
+          "Mastery": "Cleave.",
+          "Activation": "Attack normally. Check your current Hit Points for the conditional bonus.",
+          "Legacy source": "The Book of Many Things, p. 66.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Conversion notes": "Uses the 2024 weapon and attack rules while retaining the source effect."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greataxe",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dndbeyond:7526618": [
+      {
+        "label": "D&D 2024 adaptation · Bloodseeker Ammunition",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/7526618-bloodseeker-ammunition",
+        "fields": {
+          "Category": "Any ammunition · Very Rare · No attunement",
+          "Damage": "Use the compatible launcher’s damage. No extra damage.",
+          "Attack bonus": "Use the launcher’s attack modifier. The roll has Advantage against a creature below its Hit Point maximum.",
+          "Range": "Use the compatible launcher’s normal and long range.",
+          "Activation": "Fire the piece from a compatible launcher as part of a ranged attack.",
+          "Special powers": "Advantage applies only to the attack that uses this piece. Resolve other sources of Advantage or Disadvantage normally.",
+          "Legacy source": "The Book of Many Things, p. 66.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Conversion notes": "Uses the 2024 weapon and attack rules while retaining the source effect."
+        }
+      }
+    ],
+    "dndbeyond:7526628": [
+      {
+        "label": "D&D 2024 adaptation · Bow of Conflagration",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/7526628-bow-of-conflagration",
+        "fields": {
+          "Category": "Shortbow (Simple) or Longbow (Martial) · Rare · Requires attunement",
+          "Damage": "Shortbow 1d6 Piercing or Longbow 1d8 Piercing, plus Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "Shortbow 80/320 feet. Longbow 150/600 feet.",
+          "Properties": "Ammunition and Two-Handed. Longbow also has Heavy.",
+          "Mastery": "Shortbow Vex. Longbow Slow.",
+          "Activation": "Make a ranged attack with an arrow. On a hit, add 1d6 Fire damage.",
+          "Special powers": "A flammable nonmagical object hit by the bow catches fire. It takes 1d6 Fire damage at the start of each of your turns until a creature takes the Utilize action to extinguish it.",
+          "Legacy source": "The Book of Many Things, p. 66.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Conversion notes": "Uses the 2024 weapon and attack rules while retaining the source effect. Uses the 2024 Utilize action for extinguishing the object."
+        }
+      }
+    ],
+    "dndbeyond:7526629": [
+      {
+        "label": "D&D 2024 adaptation · Bow of Melodies",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/7526629-bow-of-melodies",
+        "fields": {
+          "Category": "Shortbow (Simple) or Longbow (Martial) · Very Rare · Requires attunement",
+          "Damage": "Shortbow 1d6 Piercing or Longbow 1d8 Piercing, plus Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "Shortbow 80/320 feet. Longbow 150/600 feet.",
+          "Properties": "Ammunition and Two-Handed. Longbow also has Heavy.",
+          "Mastery": "Shortbow Vex. Longbow Slow.",
+          "Activation": "Choose up to one melody before each ranged attack roll. Playing it is part of the attack.",
+          "Melody of Precision": "Add +1 to the attack roll if proficient in Performance, or +2 if you have Expertise in Performance.",
+          "Melody of Reverberation": "On a hit, add Thunder damage equal to your Charisma modifier. A modifier of 0 or less adds no damage.",
+          "Legacy source": "The Book of Many Things, p. 66.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Conversion notes": "Uses the 2024 weapon and attack rules while retaining the source effect. Treats a negative Charisma modifier as no extra Thunder damage."
+        }
+      }
+    ],
     "dndbeyond:4047217": [
       {
         "label": "D&D 2024 adaptation · Dragon’s Wrath Weapon",
