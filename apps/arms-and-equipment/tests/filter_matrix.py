@@ -1023,6 +1023,21 @@ def main():
                     }
                     return true;
                 })()''',
+                'Mystara weapon cards show senses storage and target-specific damage': '''(async () => {
+                    const cases = [
+                        ["dawn-of-the-emperors-local:9c32c49ff44a95f8", ["Intelligence 7", "Invisible condition within 20 feet", "extra 1d6 Fire"]],
+                        ["mystara-monstrous-compendium-local:25cd4d9c2e6f57e1", ["holds up to three spells", "A Nagpa deals 1d8"]],
+                        ["mystara-monstrous-compendium-local:2e9fcab3fdc37823", ["hit an Efreeti", "2d6 Cold"]],
+                        ["local-mystara-handbook-tables:d5539f39f66f07b3", ["1d4 Bludgeoning", "Finesse, Light", "Nick"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        const details = inspection.textContent;
+                        if (!terms.every(term => details.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

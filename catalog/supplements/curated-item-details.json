@@ -7453,6 +7453,269 @@
           "Conversion notes": "Uses the 2024 Net procedure. The legacy +1 attack bonus has no direct equivalent on this saving throw profile."
         }
       }
+    ],
+    "dawn-of-the-emperors-local:9c32c49ff44a95f8": [
+      {
+        "label": "D&D 2024 adaptation · Thrainkell",
+        "status": "original-draft",
+        "source": "https://www.acaeum.com/indexes/miscellaneous/gaz.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        },
+        "fields": {
+          "Base weapon": "Longsword",
+          "Damage": "1d8 Slashing (1d10 with two hands for a melee attack) + the Strength modifier used for the attack + 1",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient, plus 1.",
+          "Range": "5 ft melee",
+          "Category": "Martial",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Activation": "Make a normal Longsword attack.",
+          "Attunement": "Required for this adaptation.",
+          "Source locator": "Dawn of the Emperors, Stefania Torion, supplied PDF p. 26.",
+          "Legacy facts": "Intelligent chaotic sword +1 that flames on command and sees invisible creatures. The source gives Intelligence 7.",
+          "Conversion notes": "The original names a chaotic intelligent sword with command flames and detection of invisible creatures. Longsword, bounded flame damage, and the sensing range are conversion choices.",
+          "Special powers": "While holding the sword, take a Bonus Action to speak its command and ignite it for 1 minute or dismiss the flames. Once per turn while lit, a hit deals an extra 1d6 Fire. Ignite twice per Long Rest.",
+          "Rarity": "Very Rare",
+          "Sentience": "Intelligence 7, chaotic. It conveys impressions to its attuned wielder. While holding it, you know the location of creatures with the Invisible condition within 20 feet that are not behind Total Cover. This awareness grants no vision."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "dawn-of-the-emperors-local:ab13f31fd3d4b2da": [
+      {
+        "label": "D&D 2024 adaptation · Trention’s Evil-Detecting Sword +2",
+        "status": "original-draft",
+        "source": "https://www.acaeum.com/indexes/miscellaneous/gaz.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        },
+        "fields": {
+          "Base weapon": "Longsword",
+          "Damage": "1d8 Slashing (1d10 with two hands for a melee attack) + the Strength modifier used for the attack + 2",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient, plus 2.",
+          "Range": "5 ft melee",
+          "Category": "Martial",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Activation": "Make a normal Longsword attack.",
+          "Attunement": "Required for this adaptation.",
+          "Source locator": "Dawn of the Emperors, Sample Magic Item Creation Sheet, supplied PDF p. 125.",
+          "Legacy facts": "Sample sword +2 with permanent evil detection out to 20 feet. The creation sheet prices the complete item at 18,000 gp.",
+          "Conversion notes": "Uses a Longsword for the sample sword. The 20-foot legacy detection is converted to a defined set of creature types using Detect Evil and Good as a benchmark.",
+          "Special powers": "While holding the drawn sword, you sense whether a Celestial, Elemental, Fey, Fiend, or Undead is within 20 feet and know its location unless it is behind Total Cover. The sense does not reveal alignment.",
+          "Rarity": "Very Rare",
+          "Crafting source": "The sample sheet lists 18,000 gp for the complete legacy item."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "local-mystara-handbook-tables:b28135944577521c": [
+      {
+        "label": "D&D 2024 adaptation · Zanna",
+        "status": "original-draft",
+        "source": "https://glen.stelio.net/MPH.pdf#page=100",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_rapier",
+          "label": "Open 2024 Rapier"
+        },
+        "fields": {
+          "Base weapon": "Rapier",
+          "Damage": "1d8 Piercing + the Strength or Dexterity modifier used for the attack",
+          "Attack bonus": "Strength or Dexterity modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee",
+          "Category": "Martial",
+          "Properties": "Finesse",
+          "Mastery": "Vex",
+          "Activation": "Make a normal Rapier attack.",
+          "Attunement": "None.",
+          "Source locator": "Mystara fan handbook, Nob Nar, supplied PDF p. 100.",
+          "Legacy facts": "Nob Nar’s magical rapier fashioned from a dragon tooth. The text gives no enhancement bonus, additional powers, or price.",
+          "Conversion notes": "Keeps the described dragon-tooth construction and magic. The source does not give an enhancement or further powers.",
+          "Special powers": "The rapier’s attacks are magical. It has no bonus to attack or damage rolls.",
+          "Rarity": "Uncommon"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "local-mystara-handbook-tables:d5539f39f66f07b3": [
+      {
+        "label": "D&D 2024 adaptation · Cestus",
+        "status": "original-draft",
+        "source": "https://glen.stelio.net/MPH.pdf#page=144",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 Club"
+        },
+        "fields": {
+          "Base weapon": "Cestus",
+          "Damage": "1d4 Bludgeoning + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee",
+          "Category": "Simple",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Activation": "Make a melee weapon attack with the equipped Cestus.",
+          "Attunement": "None.",
+          "Source locator": "Mystara fan handbook, weapon table, supplied PDF p. 144.",
+          "Legacy facts": "The fan handbook lists 1d4 Bludgeoning, Finesse, Light, 1 lb, and 1 gp.",
+          "Conversion notes": "Retains the fan handbook’s Cestus damage, Finesse, Light, and weight. Simple training and Nick are the adaptation choices.",
+          "Special powers": "Counts as a weapon attack. It occupies the hand while equipped.",
+          "Weight": "1 lb"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "local-mystara-handbook-tables:f95e1042f3ca246e": [
+      {
+        "label": "D&D 2024 adaptation · Kasas",
+        "status": "original-draft",
+        "source": "https://glen.stelio.net/MPH.pdf#page=144",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scimitar",
+          "label": "Open 2024 Scimitar"
+        },
+        "fields": {
+          "Base weapon": "Kasas",
+          "Damage": "1d6 Slashing + the Strength or Dexterity modifier used for the attack",
+          "Attack bonus": "Strength or Dexterity modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee",
+          "Category": "Martial",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Activation": "Make a melee weapon attack with the equipped Kasas.",
+          "Attunement": "None.",
+          "Source locator": "Mystara fan handbook, weapon table, supplied PDF p. 144.",
+          "Legacy facts": "The fan handbook lists 1d6 Slashing, Finesse, Light, 3 lb, and 25 gp.",
+          "Conversion notes": "The fan handbook’s manufactured Rakasta claws retain their damage and properties. This draft uses Martial training and Nick.",
+          "Special powers": "Wear the claw on one hand. It occupies that hand while equipped and uses a weapon attack.",
+          "Weight": "3 lb"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "local-mystara-handbook-tables:f7ef76dfc585a63e": [
+      {
+        "label": "D&D 2024 adaptation · Rose Cobblecreek’s Self-Igniting Handaxe",
+        "status": "original-draft",
+        "source": "https://glen.stelio.net/MPH.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Open 2024 Handaxe"
+        },
+        "fields": {
+          "Base weapon": "Handaxe",
+          "Damage": "1d6 Slashing + the Strength modifier used for the attack",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Category": "Simple",
+          "Properties": "Light, Thrown (Range 20/60)",
+          "Mastery": "Vex",
+          "Activation": "Make a normal Handaxe attack.",
+          "Attunement": "Required for this adaptation.",
+          "Source locator": "Mystara fan handbook, Hin Master, supplied PDF p. 39.",
+          "Legacy facts": "Rose describes a handaxe that catches fire on its own. The source specifies no activation, fire damage, or enchantment bonus.",
+          "Conversion notes": "The story gives the self-igniting behavior without damage or a trigger. This adaptation makes it ignite on its first hit and uses the 2024 Flame Tongue as a benchmark.",
+          "Special powers": "Once per Short or Long Rest, when you hit with the axe, it ignites and deals an extra 1d6 Fire on that hit. It then sheds Bright Light for 10 feet and Dim Light for another 10 feet for 1 minute, or until you dismiss the flames as a Bonus Action.",
+          "Rarity": "Uncommon"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "mystara-monstrous-compendium-local:25cd4d9c2e6f57e1": [
+      {
+        "label": "D&D 2024 adaptation · Nagpa Spell-Storing Staff",
+        "status": "original-draft",
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 Quarterstaff"
+        },
+        "fields": {
+          "Base weapon": "Quarterstaff",
+          "Damage": "1d6 Bludgeoning + Strength modifier for most wielders. A Nagpa deals 1d8 Bludgeoning + Strength modifier.",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee",
+          "Category": "Simple",
+          "Properties": "Use one or two hands. The wielder’s damage die is the same in either grip.",
+          "Mastery": "Topple",
+          "Activation": "Make a normal Quarterstaff attack.",
+          "Attunement": "Required for this adaptation.",
+          "Source locator": "Monstrous Compendium: Mystara Appendix, Nagpa, Combat, supplied PDF p. 83.",
+          "Legacy facts": "Iron and wood swirl together in a heavy staff that deals 1d8 in a nagpa’s hands or 1d6 for another wielder. It stores three spells of levels 1 through 3, usable by others and cast at 8th level under the original rules.",
+          "Conversion notes": "Preserves the three-spell capacity and the Nagpa’s larger damage die. Replaces the legacy caster level with the 2024 spell-storing convention.",
+          "Special powers": "The staff holds up to three spells, each cast with a slot of level 1–3. A creature can cast a spell into it while touching it. The spell is stored instead of taking effect. If all three spaces are occupied, the spell is expended without effect. While attuned and holding the staff, cast a stored spell using its normal casting time, the original caster’s slot level, save DC and spell attack bonus. Casting empties that space.",
+          "Rarity": "Very Rare"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "mystara-monstrous-compendium-local:2e9fcab3fdc37823": [
+      {
+        "label": "D&D 2024 adaptation · Sun Brotherhood Efreeti-Slaying Long Sword",
+        "status": "original-draft",
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        },
+        "fields": {
+          "Base weapon": "Longsword",
+          "Damage": "1d8 Slashing (1d10 with two hands for a melee attack) + the Strength modifier used for the attack + 3",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient, plus 3.",
+          "Range": "5 ft melee",
+          "Category": "Martial",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Activation": "Make a normal Longsword attack.",
+          "Attunement": "Required for this adaptation.",
+          "Source locator": "Monstrous Compendium: Mystara Appendix, Sollux, Combat, supplied PDF p. 101.",
+          "Legacy facts": "The order’s leader is said to wield a +3 long sword of efreeti slaying. The profile gives no additional damage formula or saving throw.",
+          "Conversion notes": "Preserves the listed +3 and defines the source’s efreeti-slaying specialization as a damage rider.",
+          "Special powers": "When you hit an Efreeti with this sword, the attack deals an extra 2d6 Cold damage.",
+          "Rarity": "Legendary"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "mystara-monstrous-compendium-local:965176087aef0d60": [
+      {
+        "label": "D&D 2024 adaptation · Hephaeston-Forged Weapon",
+        "status": "original-draft",
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        },
+        "fields": {
+          "Base weapon": "Longsword",
+          "Damage": "Longsword example: 1d8 Slashing + Strength modifier + 2, or 1d10 Slashing + Strength modifier + 2 with two hands for a melee attack.",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee",
+          "Category": "Martial",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Activation": "Make a normal Longsword attack.",
+          "Attunement": "None.",
+          "Source locator": "Monstrous Compendium: Mystara Appendix, Hephaeston, Ecology, supplied PDF p. 51.",
+          "Legacy facts": "A human-sized steel or iron weapon made by a hephaeston has a legacy +2 to damage and +2 on item saving throws. It sells for three to five times the normal weapon price.",
+          "Conversion notes": "This is a forging template. The Longsword is a worked example. For any other human-sized iron or steel weapon, use its own 2024 proficiency, range, properties, mastery, and damage dice.",
+          "Special powers": "The forged weapon adds +2 to damage rolls. It has Resistance to Bludgeoning, Piercing, and Slashing damage when directly attacked as an object.",
+          "Price source": "The legacy source reports a sale price of three to five times the corresponding ordinary weapon price."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
     ]
   }
 }
