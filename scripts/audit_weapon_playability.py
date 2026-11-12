@@ -193,6 +193,9 @@ def audit_row(item, all_items, profiles, game, curated, exact, prices, legacy_ga
             'attack_bonus': published[0].get('Attack bonus'), 'activation': published[0]['Activation'],
             'training': published[0].get('Category'), 'mastery': published[0].get('Mastery'),
         }
+        if len(published) > 1 and all(row.get('Base weapon') for row in published):
+            for column, label in (('damage', 'Damage'), ('range', 'Range'), ('mastery', 'Mastery')):
+                fields[column] = ' / '.join(f"{row['Base weapon']}: {row.get(label, '')}" for row in published)
     elif kind == 'documented-reference':
         evidence = 'documented-reference'
         entries = [entry for entry in curated.get(item_id, [])

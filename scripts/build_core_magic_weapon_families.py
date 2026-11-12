@@ -223,6 +223,15 @@ FAMILIES = {
 }
 
 
+PUBLIC_INDEX = 'dndbeyond-public-index'
+PUBLIC_WEAPON_PAGES = {
+    'Sword of Life Stealing': '9229113-sword-of-life-stealing',
+    'Sword of Sharpness': '9229114-sword-of-sharpness',
+    'Sword of Wounding': '9229115-sword-of-wounding',
+    'Vorpal Sword': '9229181-vorpal-sword',
+}
+
+
 def is_ranged_weapon(mechanics):
     # Dart is ranged despite having Thrown instead of Ammunition.
     return mechanics['weapon']['name'] == 'Dart' or any(
@@ -263,8 +272,8 @@ def main():
     database = (CATALOG / 'indexes/items.sqlite3').resolve()
     with sqlite3.connect(database.as_uri() + '?mode=ro', uri=True) as db:
         items = [json.loads(raw) for (raw,) in db.execute(
-            "SELECT data_json FROM items WHERE type='weapon' AND source_id IN (?, ?) ORDER BY id",
-            (LEGACY, CURRENT))]
+            "SELECT data_json FROM items WHERE type='weapon' AND source_id IN (?, ?, ?) ORDER BY id",
+            (LEGACY, CURRENT, PUBLIC_INDEX))]
     bases = {item['name']: item['mechanics'] for item in items
              if item['source_id'] == CURRENT and item['magic'] is False and item['mechanics'].get('weapon')}
     records, targets, generic_targets = {}, {}, {}
@@ -317,9 +326,28 @@ def main():
             entry['related_item'] = {'id': target['id'], 'label': 'Open published 2024 item'}
         records[item['id']] = [entry]
         legacy_count += 1
+    public_count = 0
+    for item in items:
+        family = item['name']
+        page = PUBLIC_WEAPON_PAGES.get(family)
+        if item['source_id'] != PUBLIC_INDEX or not page:
+            continue
+        source = 'https://www.dndbeyond.com/magic-items/' + page
+        if (item['id'] != 'dndbeyond:' + page.partition('-')[0]
+                or item['provenance'].get('source_url') != source):
+            continue
+        rules = FAMILIES[family]
+        variants = []
+        for base in rules['published_bases']:
+            entry = details(None, family, rules, bases[base])
+            entry['label'] += ' · ' + base
+            entry['source'] = source
+            variants.append(entry)
+        records[item['id']] = variants
+        public_count += 1
     (CATALOG / 'supplements/core-magic-weapon-families.json').write_text(
         json.dumps({'schema_version': 1, 'records': records}, ensure_ascii=False, separators=(',', ':')) + '\n')
-    print(f'{legacy_count} legacy counterparts and {len(targets)} published 2024 variants.')
+    print(f'{legacy_count} legacy counterparts and {len(targets)} published 2024 variants, {public_count} verified public-index pages.')
 
 
 if __name__ == '__main__':

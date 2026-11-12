@@ -614,6 +614,19 @@ def main():
                         ["DM review", "2d6 Acid", "20 ft", "Utilize action"]
                             .every(value => slime.includes(value));
                 })()''',
+                '2024 public sword pages show eligible variants and distinct masteries': '''(async () => {
+                    inspect("dndbeyond:9229115", grid.firstElementChild);
+                    await itemDetails;
+                    const wounding = inspection.textContent;
+                    inspect("dndbeyond:9229181", grid.firstElementChild);
+                    await itemDetails;
+                    const vorpal = inspection.textContent;
+                    return ["Sword of Wounding · Glaive", "Sword of Wounding · Rapier", "10 ft melee", "Vex", "2d6 Necrotic"]
+                        .every(value => wounding.includes(value)) &&
+                        ["Vorpal Sword · Scimitar", "Vorpal Sword · Longsword", "30 Slashing"]
+                            .every(value => vorpal.includes(value)) &&
+                        !vorpal.includes("Vorpal Sword · Shortsword");
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
