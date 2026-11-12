@@ -1,6 +1,224 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:36239dd6321abd67": [
+      {
+        "label": "D&D 2024 adaptation · Castle Suit Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/Unique_magic_armors_and_shields.pdf",
+        "fields": {
+          "Armor class": "21",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While wearing this attuned suit, your AC is 21. Its adamantium construction is the source of its unusually strong protection.",
+          "Source locator": "Emanuele Betti, Unique Magic Armors and Shields, PDF p. 19, Castle Suit Armor.",
+          "Conversion notes": "Uses the published +3 Plate Armor ceiling for the legacy +7 suit. The source gives it no separate combat power.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 spells": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "History": "The fan account traces the shell to Adamantart and the armor to the Empire of Millennia."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-3",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:66cb001e2f200102": [
+      {
+        "label": "D&D 2024 adaptation · Hunter's Coat",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/Unique_magic_armors_and_shields.pdf",
+        "fields": {
+          "Armor class": "14 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While wearing the attuned coat, you have Advantage on Dexterity (Stealth) checks to Hide or move quietly, and on Wisdom (Survival) checks to track creatures. Your footsteps are silent. Sounds you cause by interacting with objects remain audible.",
+          "Source locator": "Emanuele Betti, Unique Magic Armors and Shields, PDF p. 13, Hunter's Coat.",
+          "Conversion notes": "Replaces legacy percentile bonuses with Advantage and models improved aim with a stationary shot.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 spells": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Aim": "As a Bonus Action, if you have not moved on this turn, gain Advantage on your next ranged weapon attack roll this turn. Your Speed becomes 0 until the end of the turn.",
+          "History": "Attributed to an Ethengarian shaman in the fan account."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-3",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:a98b34cf26f57884": [
+      {
+        "label": "D&D 2024 adaptation · Polar Coat",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/Unique_magic_armors_and_shields.pdf",
+        "fields": {
+          "Armor class": "14 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While wearing the attuned coat, you have Cold Resistance and ignore the effects of Extreme Cold.",
+          "Source locator": "Emanuele Betti, Unique Magic Armors and Shields, PDF p. 6, Polar Coat.",
+          "Conversion notes": "Uses +3 Leather Armor for the fur coat and replaces the legacy cold damage adjustments with Cold Resistance.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 spells": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Control Arctic beast": "Once per dawn, cast Dominate Beast as a Magic action (DC 16 Wisdom, Concentration up to 1 minute). Choose one Beast native to a snowy or frozen environment within the spell’s normal range."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-3",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:d902941b2073d753": [
+      {
+        "label": "D&D 2024 adaptation · The Ram",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/Unique_magic_armors_and_shields.pdf",
+        "fields": {
+          "Armor class bonus": "+3",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "The shield requires Strength 15 to wield. While wielding it with Shield training, add +3 AC total. Reduce Bludgeoning, Piercing, or Slashing damage from a nonmagical attack that hits you by 1, to a minimum of 0.",
+          "Source locator": "Emanuele Betti, Unique Magic Armors and Shields, PDF p. 16, The Ram.",
+          "Conversion notes": "Retains the +1 enhancement and nonmagical damage reduction. Uses a once-per-turn bonus die for the legacy charge.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 spells": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Charge": "Once per turn, when you move at least 40 feet straight toward a creature on foot and immediately hit it with a melee weapon attack, add 1d8 damage of the weapon’s type.",
+          "Wielding requirement": "Strength 15."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield-plus-1",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:27c6247de31ff179": [
+      {
+        "label": "D&D 2024 adaptation · Sematary",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/Unique_magic_armors_and_shields.pdf",
+        "fields": {
+          "Armor class": "20",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While wearing the attuned armor, gain Advantage on Charisma checks to Influence Undead. An attuned Cleric who is Chaotic adds 2 to the saving throw DC of Turn Undead.",
+          "Source locator": "Emanuele Betti, Unique Magic Armors and Shields, PDF p. 10, Sematary.",
+          "Conversion notes": "Uses Splint Armor for banded mail, represents the legacy Dark element as Necrotic damage, and preserves the post-death transformation as a DM-controlled consequence.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 spells": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Dark absorption": "When you would take Necrotic damage while wearing the armor, take none and regain Hit Points equal to that damage, up to your maximum.",
+          "Undeath": "If you die while wearing it, after 1d4 rounds your body rises as a DM-controlled Undead. The DM chooses a stat block with CR no higher than half your level, rounded down. This transformation is permanent and is not a resurrection."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor-plus-3",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:33d0de9244d90ce6": [
+      {
+        "label": "D&D 2024 adaptation · Zargon's Suit Plate",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/Unique_magic_armors_and_shields.pdf",
+        "fields": {
+          "Armor class": "21",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While wearing the attuned armor, you gain a Swim Speed equal to your walking Speed. Its normal Strength requirement still applies.",
+          "Source locator": "Emanuele Betti, Unique Magic Armors and Shields, PDF p. 7, Zargon's Suit Plate.",
+          "Conversion notes": "Keeps the +3, swimming, and connection to the spear. Uses sentient-item conflict instead of automatic loss of character control.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 spells": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Sentience": "Neutral armor, Intelligence 9, Wisdom 16, Charisma 14. It communicates telepathically with its wearer and wants to reunite with the returning spear and rescue people lost at sea.",
+          "Separated pair": "If the spear is on the same plane, once per dawn you can take a Magic action to sense its general direction. The armor can initiate a sentient-item conflict if you knowingly separate the pair or refuse a rescue.",
+          "History": "The fan account places the lost armor aboard Zargon’s ship in the Sea of Dawn."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-3",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:a6a5ba9e66ed8dad": [
+      {
+        "label": "D&D 2024 adaptation · Mail of the Prophet",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/Unique_magic_armors_and_shields.pdf",
+        "fields": {
+          "Armor class": "21",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While attuned and wearing both the mail and its matching helm, you have Immunity to Radiant damage. If you are a Lawful Cleric or Paladin with Turn Undead, increase that ability’s save DC by 3. Without the matching helm, the mail provides AC 19 and its set powers are dormant.",
+          "Source locator": "Emanuele Betti, Unique Magic Armors and Shields, PDF p. 22, Mail of the Prophet.",
+          "Conversion notes": "Caps the legacy +4 at +3 for the complete set. Models Holy damage as Radiant and preserves the paired-item requirement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 spells": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Set powers": "With both pieces worn, take a Magic action to regain 2d6 + 2 Hit Points, or cast Haste on yourself. Each power recharges separately at dawn. Haste uses its normal Concentration and duration.",
+          "Matching helm": "The source pairs this suit with a helm of Truesight and Detect Lies. The listed AC 21 is for the mail in the complete set before the helm’s own bonus.",
+          "History": "Attributed to Suleiman Al-Kalim in the fan account."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-3",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:b982c4e680a34a68": [
+      {
+        "label": "D&D 2024 adaptation · Robe of Zanar",
+        "status": "original-draft",
+        "profile_kind": "adapted-protective-garment",
+        "source": "https://pandius.com/Unique_magic_armors_and_shields.pdf",
+        "fields": {
+          "Source locator": "Emanuele Betti, Unique Magic Armors and Shields, PDF p. 15, Robe of Zanar.",
+          "Use as armor": "Wondrous garment. While attuned and wearing no armor, your base AC is 14 + Dex modifier.",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While wearing the attuned robe, you understand, speak, read, and write any language you hear or read except languages reserved for Immortals. You can cast Fly on yourself three times per dawn and Identify once per dawn. Use normal casting times and Concentration.",
+          "Arcane memories": "If you have Spellcasting, roll 1d20 after a Long Rest. On a 20, the DM chooses one spell from your class list of a level you can cast. You can cast it once before your next Long Rest without expending a spell slot, using your spellcasting ability and any costly components. You cannot copy it from this memory.",
+          "Conversion notes": "Uses an unarmored formula to represent the legacy +4 silk tunic. Preserves its spell, language, and memory powers.",
+          "2024 spells": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_robe-of-the-archmagi",
+          "label": "Open 2024 protective robe comparison"
+        }
+      }
+    ],
     "mystara-fan-names-reference:5975fca564494668": [
       {
         "label": "D&D 2024 adaptation · Armor of the Night",

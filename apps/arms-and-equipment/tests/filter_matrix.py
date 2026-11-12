@@ -1830,6 +1830,24 @@ def main():
                         if (!byId("custom-items").hidden) click("close-custom-items");
                     }
                 })()''',
+                'Mystara relic armor shows set, charge, and unarmored rules': '''(async () => {
+                    const cases = [
+                        ["36239dd6321abd67", ["Armor class21", "Adamantart"]],
+                        ["66cb001e2f200102", ["Wisdom (Survival)", "Speed becomes 0"]],
+                        ["a98b34cf26f57884", ["Cold Resistance", "Dominate Beast"]],
+                        ["d902941b2073d753", ["Armor class bonus+3", "40 feet straight", "Strength 15"]],
+                        ["27c6247de31ff179", ["Dark absorption", "1d4 rounds", "DM-controlled Undead"]],
+                        ["33d0de9244d90ce6", ["Swim Speed", "returning spear"]],
+                        ["a6a5ba9e66ed8dad", ["matching helm", "AC 19", "Immunity to Radiant"]],
+                        ["b982c4e680a34a68", ["14 + Dex modifier", "Arcane memories", "three times per dawn"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Mystara named suits show transformations, curses, and reactive armor': '''(async () => {
                     const cases = [
                         ["5975fca564494668", ["14 + Dex modifier", "Faceless hood", "Truesight"]],
