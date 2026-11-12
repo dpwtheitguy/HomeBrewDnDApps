@@ -1740,6 +1740,27 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault armor displays its saves, transformations and stacking limits': '''(async () => {
+                    const cases = [
+                        ["9cb56e59b7f76040", ["Intelligence, Wisdom, or Charisma", "must use the new result", "Studded Leather Armor", "Splint Armor"]],
+                        ["364350cb65d6106f", ["within 50 feet", "soil or sand", "DC 15 Strength"]],
+                        ["7c8a91c0c166612c", ["2d6 Necrotic damage", "Strength and Constitution saving throws"]],
+                        ["f9cdb5b2afa0846d", ["While Bloodied", "20 minus your number of unspent Hit Point Dice"]],
+                        ["a0bf4a42b16a4917", ["including against the triggering attack", "do not stack"]],
+                        ["bbf1c166276ae6c1", ["second combat encounter", "fourth such combat", "returns to +1"]],
+                        ["6ee9861683df5c29", ["within 25 feet", "original range and targeting rules"]],
+                        ["c6fd247e0baaadee", ["Resistance to Fire and Radiant"]],
+                        ["05982260952338ee", ["Tiny rat", "Climb Speed of 20 feet", "up to 1 hour total", "cannot attack, speak, or cast"]],
+                        ["172f6f0dc6d92175", ["AC contribution minus 10", "exclude bonuses from shields"]],
+                        ["d601df76f8fb1afd", ["+1 AC and +1 on saving throws", "start of your next turn"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Adventurer’s Vault defensive armor keeps each equipment variant and trigger': '''(async () => {
                     const cases = [
                         ["22b6eb6e1f0a8316", ["Armor class17", "Armor class19", "Armor class15 + Dex modifier (max +2)", "recurring Acid damage"]],

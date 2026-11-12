@@ -1,6 +1,811 @@
 {
   "schema_version": 1,
   "records": {
+    "adventurers-vault-1-reference:9cb56e59b7f76040": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, immediately after a creature succeeds on an Intelligence, Wisdom, or Charisma saving throw against a spell or class feature you used, you can force that creature to reroll the save without taking an action. The creature subtracts 1 from the new roll and must use the new result. If several creatures saved against the effect, choose only one. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 47 (PDF p. 48), Irrefutable Armor.",
+          "Conversion notes": "Maps a missed attack against Will to a successful mental save by one target. The reroll penalty follows the converted enhancement’s magnitude. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, immediately after a creature succeeds on an Intelligence, Wisdom, or Charisma saving throw against a spell or class feature you used, you can force that creature to reroll the save without taking an action. The creature subtracts 1 from the new roll and must use the new result. If several creatures saved against the effect, choose only one. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 47 (PDF p. 48), Irrefutable Armor.",
+          "Conversion notes": "Maps a missed attack against Will to a successful mental save by one target. The reroll penalty follows the converted enhancement’s magnitude. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Studded Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "13 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, immediately after a creature succeeds on an Intelligence, Wisdom, or Charisma saving throw against a spell or class feature you used, you can force that creature to reroll the save without taking an action. The creature subtracts 1 from the new roll and must use the new result. If several creatures saved against the effect, choose only one. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 47 (PDF p. 48), Irrefutable Armor.",
+          "Conversion notes": "Maps a missed attack against Will to a successful mental save by one target. The reroll penalty follows the converted enhancement’s magnitude. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_studded-leather-armor-plus-1",
+          "label": "Open 2024 Studded Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, immediately after a creature succeeds on an Intelligence, Wisdom, or Charisma saving throw against a spell or class feature you used, you can force that creature to reroll the save without taking an action. The creature subtracts 1 from the new roll and must use the new result. If several creatures saved against the effect, choose only one. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 47 (PDF p. 48), Irrefutable Armor.",
+          "Conversion notes": "Maps a missed attack against Will to a successful mental save by one target. The reroll penalty follows the converted enhancement’s magnitude. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 Hide Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Shirt",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, immediately after a creature succeeds on an Intelligence, Wisdom, or Charisma saving throw against a spell or class feature you used, you can force that creature to reroll the save without taking an action. The creature subtracts 1 from the new roll and must use the new result. If several creatures saved against the effect, choose only one. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 47 (PDF p. 48), Irrefutable Armor.",
+          "Conversion notes": "Maps a missed attack against Will to a successful mental save by one target. The reroll penalty follows the converted enhancement’s magnitude. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-1",
+          "label": "Open 2024 Chain Shirt (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, immediately after a creature succeeds on an Intelligence, Wisdom, or Charisma saving throw against a spell or class feature you used, you can force that creature to reroll the save without taking an action. The creature subtracts 1 from the new roll and must use the new result. If several creatures saved against the effect, choose only one. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 47 (PDF p. 48), Irrefutable Armor.",
+          "Conversion notes": "Maps a missed attack against Will to a successful mental save by one target. The reroll penalty follows the converted enhancement’s magnitude. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Breastplate",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, immediately after a creature succeeds on an Intelligence, Wisdom, or Charisma saving throw against a spell or class feature you used, you can force that creature to reroll the save without taking an action. The creature subtracts 1 from the new roll and must use the new result. If several creatures saved against the effect, choose only one. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 47 (PDF p. 48), Irrefutable Armor.",
+          "Conversion notes": "Maps a missed attack against Will to a successful mental save by one target. The reroll penalty follows the converted enhancement’s magnitude. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_breastplate-plus-1",
+          "label": "Open 2024 Breastplate (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Half Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, immediately after a creature succeeds on an Intelligence, Wisdom, or Charisma saving throw against a spell or class feature you used, you can force that creature to reroll the save without taking an action. The creature subtracts 1 from the new roll and must use the new result. If several creatures saved against the effect, choose only one. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 47 (PDF p. 48), Irrefutable Armor.",
+          "Conversion notes": "Maps a missed attack against Will to a successful mental save by one target. The reroll penalty follows the converted enhancement’s magnitude. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_half-plate-armor-plus-1",
+          "label": "Open 2024 Half Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Ring Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15",
+          "Training": "Heavy armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, immediately after a creature succeeds on an Intelligence, Wisdom, or Charisma saving throw against a spell or class feature you used, you can force that creature to reroll the save without taking an action. The creature subtracts 1 from the new roll and must use the new result. If several creatures saved against the effect, choose only one. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 47 (PDF p. 48), Irrefutable Armor.",
+          "Conversion notes": "Maps a missed attack against Will to a successful mental save by one target. The reroll penalty follows the converted enhancement’s magnitude. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_ring-mail-plus-1",
+          "label": "Open 2024 Ring Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, immediately after a creature succeeds on an Intelligence, Wisdom, or Charisma saving throw against a spell or class feature you used, you can force that creature to reroll the save without taking an action. The creature subtracts 1 from the new roll and must use the new result. If several creatures saved against the effect, choose only one. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 47 (PDF p. 48), Irrefutable Armor.",
+          "Conversion notes": "Maps a missed attack against Will to a successful mental save by one target. The reroll penalty follows the converted enhancement’s magnitude. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 Chain Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Splint Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, immediately after a creature succeeds on an Intelligence, Wisdom, or Charisma saving throw against a spell or class feature you used, you can force that creature to reroll the save without taking an action. The creature subtracts 1 from the new roll and must use the new result. If several creatures saved against the effect, choose only one. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 47 (PDF p. 48), Irrefutable Armor.",
+          "Conversion notes": "Maps a missed attack against Will to a successful mental save by one target. The reroll penalty follows the converted enhancement’s magnitude. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor-plus-1",
+          "label": "Open 2024 Splint Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, immediately after a creature succeeds on an Intelligence, Wisdom, or Charisma saving throw against a spell or class feature you used, you can force that creature to reroll the save without taking an action. The creature subtracts 1 from the new roll and must use the new result. If several creatures saved against the effect, choose only one. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 47 (PDF p. 48), Irrefutable Armor.",
+          "Conversion notes": "Maps a missed attack against Will to a successful mental save by one target. The reroll penalty follows the converted enhancement’s magnitude. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:364350cb65d6106f": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to choose one creature you can see within 50 feet that is standing on soil or sand. It must succeed on a DC 15 Strength saving throw or have the Restrained condition for up to 1 minute. At the end of each of its turns, it repeats the save, ending the effect on a success. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 47 (PDF p. 48), Loamweave Armor.",
+          "Conversion notes": "Preserves the 50-foot range and terrain requirement. Adds an initial Strength save, end-of-turn escape saves, and a duration cap. Padded Armor represents the original cloth armor. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:7c8a91c0c166612c": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to Necrotic damage. Immediately after a creature hits you with a melee attack, you can take a Reaction. The attacker takes 2d6 Necrotic damage and subtracts 2 from its Strength and Constitution saving throws until the end of your next turn. The Reaction recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 47 (PDF p. 48), Laughing Death Armor.",
+          "Conversion notes": "Converts flat Necrotic protection to Resistance and the Fortitude penalty to Strength and Constitution save penalties. Keeps the 2d6 lowest-tier retaliation and maps cloth armor to Padded Armor. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to Necrotic damage. Immediately after a creature hits you with a melee attack, you can take a Reaction. The attacker takes 2d6 Necrotic damage and subtracts 2 from its Strength and Constitution saving throws until the end of your next turn. The Reaction recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 47 (PDF p. 48), Laughing Death Armor.",
+          "Conversion notes": "Converts flat Necrotic protection to Resistance and the Fortitude penalty to Strength and Constitution save penalties. Keeps the 2d6 lowest-tier retaliation and maps cloth armor to Padded Armor. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to Necrotic damage. Immediately after a creature hits you with a melee attack, you can take a Reaction. The attacker takes 2d6 Necrotic damage and subtracts 2 from its Strength and Constitution saving throws until the end of your next turn. The Reaction recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 47 (PDF p. 48), Laughing Death Armor.",
+          "Conversion notes": "Converts flat Necrotic protection to Resistance and the Fortitude penalty to Strength and Constitution save penalties. Keeps the 2d6 lowest-tier retaliation and maps cloth armor to Padded Armor. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 Hide Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:f9cdb5b2afa0846d": [
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to Necrotic damage. While Bloodied, take a Bonus Action to regain Hit Points equal to 20 minus your number of unspent Hit Point Dice, with a minimum of 1. This power does not expend any dice. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 47 (PDF p. 48), Lifegiving Armor.",
+          "Conversion notes": "Preserves the original healing formula and Bloodied requirement, using unspent Hit Point Dice in place of remaining healing surges. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:a0bf4a42b16a4917": [
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, you can take a Bonus Action to grant each ally within 5 feet of you +1 AC. When an attack targets an ally within 5 feet of you, you can take a Reaction before the attack roll to grant that ally +1 AC, including against the triggering attack. Either use gives you a −1 AC penalty and lasts until the end of your next turn. You can use the Bonus Action at will. The Reaction recharges at dawn. Multiple uses of this armor do not stack their bonuses or penalties.",
+          "Source locator": "Adventurer’s Vault (4e), p. 47 (PDF p. 48), Martyr’s Armor.",
+          "Conversion notes": "Retains the original two activations. Both use the converted +1 enhancement for the armor tradeoff. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, you can take a Bonus Action to grant each ally within 5 feet of you +1 AC. When an attack targets an ally within 5 feet of you, you can take a Reaction before the attack roll to grant that ally +1 AC, including against the triggering attack. Either use gives you a −1 AC penalty and lasts until the end of your next turn. You can use the Bonus Action at will. The Reaction recharges at dawn. Multiple uses of this armor do not stack their bonuses or penalties.",
+          "Source locator": "Adventurer’s Vault (4e), p. 47 (PDF p. 48), Martyr’s Armor.",
+          "Conversion notes": "Retains the original two activations. Both use the converted +1 enhancement for the armor tradeoff. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:bbf1c166276ae6c1": [
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, after you finish your second combat encounter since your last Long Rest, its magical AC bonus increases from +1 to +2. After your fourth such combat, the bonus increases to +3. The DM determines when an encounter qualifies. The bonus returns to +1 when you finish a Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 47 (PDF p. 48), Meliorating Armor.",
+          "Conversion notes": "Maps the original milestone mechanic to successive pairs of combat encounters and caps the enhancement at +3. The displayed AC is the resting +1 value. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 Chain Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, after you finish your second combat encounter since your last Long Rest, its magical AC bonus increases from +1 to +2. After your fourth such combat, the bonus increases to +3. The DM determines when an encounter qualifies. The bonus returns to +1 when you finish a Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 47 (PDF p. 48), Meliorating Armor.",
+          "Conversion notes": "Maps the original milestone mechanic to successive pairs of combat encounters and caps the enhancement at +3. The displayed AC is the resting +1 value. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, after you finish your second combat encounter since your last Long Rest, its magical AC bonus increases from +1 to +2. After your fourth such combat, the bonus increases to +3. The DM determines when an encounter qualifies. The bonus returns to +1 when you finish a Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 47 (PDF p. 48), Meliorating Armor.",
+          "Conversion notes": "Maps the original milestone mechanic to successive pairs of combat encounters and caps the enhancement at +3. The displayed AC is the resting +1 value. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:6ee9861683df5c29": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you gain +2 AC against attack rolls that would deal Radiant damage or come from an effect that requires you to see the attacker or its gaze. You also gain +2 on saving throws against such effects. If a creature hits you with such an attack or you fail such a save against its effect, that creature subtracts 2 from attack rolls until the end of its next turn. When a ranged attack roll targets only you, you can take a Reaction before the roll to redirect it to a different valid target you can see within 25 feet of you, other than the attacker. The attacker resolves the roll against the new target using the original range and targeting rules. The Reaction recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 48 (PDF p. 49), Mirrorsheen Coat.",
+          "Conversion notes": "Translates the original defenses and gaze keyword to attack rolls and saves against radiant and sight-dependent effects. Retains pre-roll redirection and the 25-foot retargeting limit. Padded Armor represents cloth. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you gain +2 AC against attack rolls that would deal Radiant damage or come from an effect that requires you to see the attacker or its gaze. You also gain +2 on saving throws against such effects. If a creature hits you with such an attack or you fail such a save against its effect, that creature subtracts 2 from attack rolls until the end of its next turn. When a ranged attack roll targets only you, you can take a Reaction before the roll to redirect it to a different valid target you can see within 25 feet of you, other than the attacker. The attacker resolves the roll against the new target using the original range and targeting rules. The Reaction recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 48 (PDF p. 49), Mirrorsheen Coat.",
+          "Conversion notes": "Translates the original defenses and gaze keyword to attack rolls and saves against radiant and sight-dependent effects. Retains pre-roll redirection and the 25-foot retargeting limit. Padded Armor represents cloth. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you gain +2 AC against attack rolls that would deal Radiant damage or come from an effect that requires you to see the attacker or its gaze. You also gain +2 on saving throws against such effects. If a creature hits you with such an attack or you fail such a save against its effect, that creature subtracts 2 from attack rolls until the end of its next turn. When a ranged attack roll targets only you, you can take a Reaction before the roll to redirect it to a different valid target you can see within 25 feet of you, other than the attacker. The attacker resolves the roll against the new target using the original range and targeting rules. The Reaction recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 48 (PDF p. 49), Mirrorsheen Coat.",
+          "Conversion notes": "Translates the original defenses and gaze keyword to attack rolls and saves against radiant and sight-dependent effects. Retains pre-roll redirection and the 25-foot retargeting limit. Padded Armor represents cloth. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 Hide Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:c6fd247e0baaadee": [
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to Fire and Radiant damage.",
+          "Source locator": "Adventurer’s Vault (4e), p. 48 (PDF p. 49), Pelaurum Armor.",
+          "Conversion notes": "Maps the original two flat reductions to 2024 Resistance. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 Chain Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to Fire and Radiant damage.",
+          "Source locator": "Adventurer’s Vault (4e), p. 48 (PDF p. 49), Pelaurum Armor.",
+          "Conversion notes": "Maps the original two flat reductions to 2024 Resistance. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to Fire and Radiant damage.",
+          "Source locator": "Adventurer’s Vault (4e), p. 48 (PDF p. 49), Pelaurum Armor.",
+          "Conversion notes": "Maps the original two flat reductions to 2024 Resistance. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:05982260952338ee": [
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, take a Magic action to transform yourself and your gear into a Tiny rat until the end of your next turn. On each of your turns you can use another Magic action to extend the duration until the end of your following turn, up to 1 hour total. In this form you have a Speed and Climb Speed of 20 feet, Darkvision to 30 feet, and a +5 bonus to Dexterity (Stealth) checks. You retain your AC, Hit Points, ability scores, and saving throws. Your equipment merges into the form and cannot be used. You cannot attack, speak, or cast spells. You can revert on your turn without taking an action and revert automatically if you become Unconscious or drop to 0 Hit Points. The initial transformation recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 48 (PDF p. 49), Rat Form Armor.",
+          "Conversion notes": "Keeps the original defenses, gear restrictions, Stealth bonus, and turn-by-turn sustain. Uses the 2024 Rat’s size, movement, and Darkvision as benchmarks for the form. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 benchmark": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#Rat"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:172f6f0dc6d92175": [
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, when you are about to make a Dexterity saving throw, you can take a Reaction. For that save and each Dexterity save you make through the end of your next turn, you can substitute the armor’s current AC contribution minus 10 for your normal Dexterity saving throw modifier. Calculate the armor’s AC using its listed formula, including its magic bonus and any allowed Dexterity modifier, and exclude bonuses from shields, spells, and other gear. Any applicable Advantage or Disadvantage still applies. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 48 (PDF p. 49), Reflexive Armor.",
+          "Conversion notes": "Converts defending with AC against Reflex attacks to using the armor’s AC as a saving throw modifier. Limits the calculation to the armor so external AC bonuses do not inflate the save. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 Chain Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, when you are about to make a Dexterity saving throw, you can take a Reaction. For that save and each Dexterity save you make through the end of your next turn, you can substitute the armor’s current AC contribution minus 10 for your normal Dexterity saving throw modifier. Calculate the armor’s AC using its listed formula, including its magic bonus and any allowed Dexterity modifier, and exclude bonuses from shields, spells, and other gear. Any applicable Advantage or Disadvantage still applies. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 48 (PDF p. 49), Reflexive Armor.",
+          "Conversion notes": "Converts defending with AC against Reflex attacks to using the armor’s AC as a saving throw modifier. Limits the calculation to the armor so external AC bonuses do not inflate the save. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, when you are about to make a Dexterity saving throw, you can take a Reaction. For that save and each Dexterity save you make through the end of your next turn, you can substitute the armor’s current AC contribution minus 10 for your normal Dexterity saving throw modifier. Calculate the armor’s AC using its listed formula, including its magic bonus and any allowed Dexterity modifier, and exclude bonuses from shields, spells, and other gear. Any applicable Advantage or Disadvantage still applies. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 48 (PDF p. 49), Reflexive Armor.",
+          "Conversion notes": "Converts defending with AC against Reflex attacks to using the armor’s AC as a saving throw modifier. Limits the calculation to the armor so external AC bonuses do not inflate the save. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:d601df76f8fb1afd": [
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, when a melee attack deals damage to you, you gain +1 AC and +1 on saving throws until the start of your next turn. Further hits during that period do not increase these bonuses.",
+          "Source locator": "Adventurer’s Vault (4e), p. 48 (PDF p. 49), Reinforcing Armor.",
+          "Conversion notes": "Translates the original all-defense bonus into a bonus to AC and saving throws. Keeps the original melee damage trigger and duration. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, when a melee attack deals damage to you, you gain +1 AC and +1 on saving throws until the start of your next turn. Further hits during that period do not increase these bonuses.",
+          "Source locator": "Adventurer’s Vault (4e), p. 48 (PDF p. 49), Reinforcing Armor.",
+          "Conversion notes": "Translates the original all-defense bonus into a bonus to AC and saving throws. Keeps the original melee damage trigger and duration. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
     "adventurers-vault-1-reference:22b6eb6e1f0a8316": [
       {
         "label": "D&D 2024 adaptation · Chain Mail",
