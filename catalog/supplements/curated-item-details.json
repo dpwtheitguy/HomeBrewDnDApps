@@ -15457,6 +15457,450 @@
           "label": "Open published 2024 weapon"
         }
       }
+    ],
+    "dmg-35-reference:cdf3a960d6197493": [
+      {
+        "label": "Verified 2024 counterpart · Dagger",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#DaggerofVenom",
+        "fields": {
+          "Base weapon": "Dagger",
+          "Damage": "Base 1d4 Piercing. Add 1 to normal damage. A failed save against the coating adds 2d10 Poison damage.",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Properties": "Finesse, Light, Thrown (Range 20/60)",
+          "Activation": "Use a Bonus Action to coat the dagger. The first hit against a creature expends the coating.",
+          "Category": "Simple",
+          "Mastery": "Nick",
+          "Attunement": "None",
+          "Attack bonus": "+1 to attack and damage rolls.",
+          "Saving throw": "DC 15 Constitution. On a failure the target also has the Poisoned condition for 1 minute.",
+          "Duration": "Coating lasts up to 1 minute. Recharge at the next dawn.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 227, table 7–16.",
+          "Edition notes": "The 2024 coating uses a Bonus Action and a fixed Poison damage rider."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger-of-venom",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:2908af3f4ee1599b": [
+      {
+        "label": "Verified 2024 counterpart · Longbow",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/magic-items/9228907-oathbow",
+        "fields": {
+          "Base weapon": "Longbow",
+          "Damage": "Base 1d8 Piercing. A hit against your sworn enemy adds 3d6 Piercing.",
+          "Range": "150/600 ft",
+          "Properties": "Ammunition (Range 150/600; Arrow), Heavy, Two-Handed",
+          "Activation": "When making a ranged attack, speak or sign the oath to designate the target as your sworn enemy.",
+          "Category": "Martial",
+          "Mastery": "Slow",
+          "Attunement": "Required",
+          "Duration": "One sworn enemy at a time, until it dies or dawn seven days later. After it dies, choose a new enemy after the next dawn.",
+          "Special powers": "Against the sworn enemy, gain Advantage with this bow, ignore Half and Three-Quarters Cover, and ignore Disadvantage from long range. While that enemy lives, attacks with other weapons have Disadvantage.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 227, table 7–16.",
+          "Edition notes": "Uses the Longbow variant for the original composite longbow. Use the published sworn-enemy timing and damage."
+        },
+        "related_item": {
+          "id": "dndbeyond:9228907",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:3a7c44ca206643f2": [
+      {
+        "label": "Verified 2024 counterpart · Longsword",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#NineLivesStealer",
+        "fields": {
+          "Base weapon": "Longsword",
+          "Damage": "Base 1d8 Slashing. Add 2 to normal damage.",
+          "Range": "5 ft melee",
+          "Properties": "Versatile (1d10)",
+          "Activation": "When you roll a natural 20 on an attack against a creature with fewer than 100 HP.",
+          "Category": "Martial",
+          "Mastery": "Sap",
+          "Attunement": "Required",
+          "Attack bonus": "+2 to attack and damage rolls.",
+          "Saving throw": "DC 15 Constitution or die instantly. Constructs and Undead succeed automatically.",
+          "Charges": "Starts with 1d8 + 1 charges. Spend one only if the effect kills the target. The effect is lost at zero charges.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 227, table 7–16.",
+          "Edition notes": "Retains the longsword form. Use the 2024 Hit Point threshold, save and charge expenditure."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_nine-lives-stealer-longsword",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:49c267962d618915": [
+      {
+        "label": "Verified 2024 counterpart · Longsword",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#SunBlade",
+        "fields": {
+          "Base weapon": "Longsword",
+          "Damage": "1d8 Radiant one-handed or 1d10 Radiant two-handed, plus 2. Add 1d8 Radiant on a hit against an Undead.",
+          "Range": "5 ft melee",
+          "Properties": "Finesse, Versatile (1d10)",
+          "Activation": "While gripping the hilt, use a Bonus Action to create or dismiss the blade. While it exists, use a Magic action to adjust the light.",
+          "Category": "Martial",
+          "Mastery": "Sap",
+          "Attunement": "Required",
+          "Attack bonus": "+2 to attack and damage rolls.",
+          "Training": "Longsword or Shortsword proficiency applies.",
+          "Area": "Sunlight. 15 ft Bright Light plus another 15 ft Dim Light. Adjust both bands in 5 ft steps, from 10 ft to 30 ft each.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 227, table 7–16.",
+          "Edition notes": "Uses the published 2024 radiant longsword in place of the legacy bastard-sword form."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_sun-blade",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:4f291977ed5d9c72": [
+      {
+        "label": "Verified 2024 counterpart · Longsword",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/magic-items/9229113-sword-of-life-stealing",
+        "fields": {
+          "Base weapon": "Longsword",
+          "Damage": "Base 1d8 Slashing. A natural 20 adds 15 Necrotic damage against a creature other than a Construct or Undead.",
+          "Range": "5 ft melee",
+          "Properties": "Versatile (1d10)",
+          "Activation": "When the attack die rolls 20 against an eligible creature.",
+          "Category": "Martial",
+          "Mastery": "Sap",
+          "Attunement": "Required",
+          "Special powers": "Gain temporary HP equal to the Necrotic damage the target actually takes.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 227, table 7–16.",
+          "Edition notes": "Retains the longsword form. The 2024 version deals Necrotic damage and grants Temporary Hit Points in place of negative levels."
+        },
+        "related_item": {
+          "id": "dndbeyond:9229113",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:69403c69a330fc0c": [
+      {
+        "label": "Verified 2024 counterpart · Longsword",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#FlameTongue",
+        "fields": {
+          "Base weapon": "Longsword",
+          "Damage": "Base 1d8 Slashing. Add 2d6 Fire on a hit while the weapon is ablaze.",
+          "Range": "5 ft melee",
+          "Properties": "Versatile (1d10)",
+          "Activation": "While holding it, use a Bonus Action and the command word to light or extinguish it.",
+          "Category": "Martial",
+          "Mastery": "Sap",
+          "Attunement": "Required",
+          "Area": "40 ft of Bright Light and another 40 ft of Dim Light while lit.",
+          "Duration": "Remains lit until dismissed, dropped, stowed, or sheathed.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 227, table 7–16.",
+          "Edition notes": "Retains the longsword form. The 2024 flames replace the legacy flaming burst enhancement and daily ray."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_flame-tongue-longsword",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:69e391b799e78a29": [
+      {
+        "label": "Verified 2024 counterpart · Greatsword",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#FrostBrand",
+        "fields": {
+          "Base weapon": "Greatsword",
+          "Damage": "Base 2d6 Slashing. Add 1d6 Cold on a hit.",
+          "Range": "5 ft melee",
+          "Properties": "Heavy, Two-Handed",
+          "Activation": "On a weapon hit. Drawing it can also extinguish nonmagical flames within 30 ft, once per hour.",
+          "Category": "Martial",
+          "Mastery": "Graze",
+          "Attunement": "Required",
+          "Special powers": "Resistance to Fire damage while held.",
+          "Area": "In freezing temperatures, 10 ft of Bright Light and another 10 ft of Dim Light.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 227, table 7–16.",
+          "Edition notes": "Retains the greatsword form and uses the 2024 cold damage, Fire Resistance and extinguishing rules."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_frost-brand-greatsword",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:70243a6190019dbe": [
+      {
+        "label": "Verified 2024 counterpart · Warhammer",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#DwarvenThrower",
+        "fields": {
+          "Base weapon": "Warhammer",
+          "Damage": "Base 1d8 Bludgeoning. Add 3 to normal damage. A ranged hit adds 1d8 Force, or 2d8 Force against a Giant.",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Properties": "Versatile (1d10)",
+          "Activation": "Make a melee or thrown weapon attack. After a throw, it returns to your hand on a hit or miss.",
+          "Category": "Martial",
+          "Mastery": "Push",
+          "Attunement": "Required by a Dwarf or a creature attuned to a Belt of Dwarvenkind.",
+          "Attack bonus": "+3 to attack and damage rolls.",
+          "Added property": "Thrown (20/60 ft)",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 227, table 7–16.",
+          "Edition notes": "Uses the published returning Warhammer. Check the 2024 attunement eligibility and Force damage."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dwarven-thrower",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:90244442547ca77d": [
+      {
+        "label": "Verified 2024 counterpart · Longsword",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#HolyAvenger",
+        "fields": {
+          "Base weapon": "Longsword",
+          "Damage": "Base 1d8 Slashing. Add 3 to normal damage, plus 2d10 Radiant on a hit against a Fiend or Undead.",
+          "Range": "5 ft melee",
+          "Properties": "Versatile (1d10)",
+          "Activation": "Extra damage on a qualifying hit. The aura is active while you hold the drawn weapon.",
+          "Category": "Martial",
+          "Mastery": "Sap",
+          "Attunement": "Required by a Paladin",
+          "Attack bonus": "+3 to attack and damage rolls.",
+          "Area": "10 ft Emanation centered on you, increasing to 30 ft at Paladin level 17.",
+          "Special powers": "You and Friendly creatures in the aura have Advantage on saves against spells and other magical effects.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 227, table 7–16.",
+          "Edition notes": "Retains the longsword form. Uses the published 2024 enhancement, Radiant damage and Paladin aura."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_holy-avenger-longsword",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:9aab5d05003a19c4": [
+      {
+        "label": "Verified 2024 counterpart · Glaive",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/magic-items/9229181-vorpal-sword",
+        "fields": {
+          "Base weapon": "Glaive",
+          "Damage": "Base 1d10 Slashing. Add 3 to normal damage and ignore Slashing Resistance. A qualifying natural 20 can sever a head or deal an extra 30 Slashing instead.",
+          "Range": "10 ft melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Activation": "On a natural 20 when attacking a creature with at least one head. Losing the head kills a creature that needs it to survive.",
+          "Category": "Martial",
+          "Mastery": "Graze",
+          "Attunement": "Required",
+          "Attack bonus": "+3 to attack and damage rolls.",
+          "Exceptions": "A creature immune to Slashing, one that does not need its head, or one the DM judges too large to decapitate takes the extra damage instead.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 13, Moderating.",
+          "Edition notes": "The original passage names the family. The cards below show its published 2024 weapon bases."
+        },
+        "related_item": {
+          "id": "dndbeyond:9229181",
+          "label": "Open published 2024 weapon"
+        }
+      },
+      {
+        "label": "Verified 2024 counterpart · Greatsword",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/magic-items/9229181-vorpal-sword",
+        "fields": {
+          "Base weapon": "Greatsword",
+          "Damage": "Base 2d6 Slashing. Add 3 to normal damage and ignore Slashing Resistance. A qualifying natural 20 can sever a head or deal an extra 30 Slashing instead.",
+          "Range": "5 ft melee",
+          "Properties": "Heavy, Two-Handed",
+          "Activation": "On a natural 20 when attacking a creature with at least one head. Losing the head kills a creature that needs it to survive.",
+          "Category": "Martial",
+          "Mastery": "Graze",
+          "Attunement": "Required",
+          "Attack bonus": "+3 to attack and damage rolls.",
+          "Exceptions": "A creature immune to Slashing, one that does not need its head, or one the DM judges too large to decapitate takes the extra damage instead.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 13, Moderating.",
+          "Edition notes": "The original passage names the family. The cards below show its published 2024 weapon bases."
+        },
+        "related_item": {
+          "id": "dndbeyond:9229181",
+          "label": "Open published 2024 weapon"
+        }
+      },
+      {
+        "label": "Verified 2024 counterpart · Longsword",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/magic-items/9229181-vorpal-sword",
+        "fields": {
+          "Base weapon": "Longsword",
+          "Damage": "Base 1d8 Slashing. Add 3 to normal damage and ignore Slashing Resistance. A qualifying natural 20 can sever a head or deal an extra 30 Slashing instead.",
+          "Range": "5 ft melee",
+          "Properties": "Versatile (1d10)",
+          "Activation": "On a natural 20 when attacking a creature with at least one head. Losing the head kills a creature that needs it to survive.",
+          "Category": "Martial",
+          "Mastery": "Sap",
+          "Attunement": "Required",
+          "Attack bonus": "+3 to attack and damage rolls.",
+          "Exceptions": "A creature immune to Slashing, one that does not need its head, or one the DM judges too large to decapitate takes the extra damage instead.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 13, Moderating.",
+          "Edition notes": "The original passage names the family. The cards below show its published 2024 weapon bases."
+        },
+        "related_item": {
+          "id": "dndbeyond:9229181",
+          "label": "Open published 2024 weapon"
+        }
+      },
+      {
+        "label": "Verified 2024 counterpart · Scimitar",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/magic-items/9229181-vorpal-sword",
+        "fields": {
+          "Base weapon": "Scimitar",
+          "Damage": "Base 1d6 Slashing. Add 3 to normal damage and ignore Slashing Resistance. A qualifying natural 20 can sever a head or deal an extra 30 Slashing instead.",
+          "Range": "5 ft melee",
+          "Properties": "Finesse, Light",
+          "Activation": "On a natural 20 when attacking a creature with at least one head. Losing the head kills a creature that needs it to survive.",
+          "Category": "Martial",
+          "Mastery": "Nick",
+          "Attunement": "Required",
+          "Attack bonus": "+3 to attack and damage rolls.",
+          "Exceptions": "A creature immune to Slashing, one that does not need its head, or one the DM judges too large to decapitate takes the extra damage instead.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 13, Moderating.",
+          "Edition notes": "The original passage names the family. The cards below show its published 2024 weapon bases."
+        },
+        "related_item": {
+          "id": "dndbeyond:9229181",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:cf5c6eb798d3e197": [
+      {
+        "label": "Verified 2024 counterpart · Mace",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/magic-items/9228835-mace-of-terror",
+        "fields": {
+          "Base weapon": "Mace",
+          "Damage": "Base 1d6 Bludgeoning. The fear effect deals no damage.",
+          "Range": "5 ft melee",
+          "Properties": "None",
+          "Activation": "While holding the mace, use a Magic action and spend 1 charge.",
+          "Category": "Simple",
+          "Mastery": "Sap",
+          "Attunement": "Required",
+          "Area": "Choose creatures within 30 ft of you.",
+          "Saving throw": "DC 15 Wisdom. Repeat at the end of each affected turn to end the effect on a success.",
+          "Duration": "Up to 1 minute. Frightened targets try to move away and cannot make Opportunity Attacks. Their action is limited to Dash or trying to escape restraint on movement. If they cannot move anywhere, they can Dodge.",
+          "Charges": "3 charges. Regain 1d3 spent charges at dawn.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 227, table 7–16.",
+          "Edition notes": "Uses the 2024 charge pool, fear duration and repeat saving throws."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace-of-terror",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:ddd46d101174da4c": [
+      {
+        "label": "Verified 2024 counterpart · Trident",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#TridentofFishCommand",
+        "fields": {
+          "Base weapon": "Trident",
+          "Damage": "Base 1d8 Piercing. Dominate Beast deals no damage.",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Properties": "Thrown (Range 20/60), Versatile (1d10)",
+          "Activation": "While carrying the trident, spend 1 charge to cast Dominate Beast as an action.",
+          "Category": "Martial",
+          "Mastery": "Topple",
+          "Attunement": "Required",
+          "Spell target": "One Beast with a Swim Speed that you can see within 60 ft.",
+          "Special powers": "On a failed save, the Beast is Charmed. On the same plane, you can give it telepathic orders on your turn without an action. Spend your own Reaction to order it to take a Reaction.",
+          "Saving throw": "DC 15 Wisdom. The Beast has Advantage if you or your allies are fighting it. It repeats the save whenever it takes damage, ending the spell on a success.",
+          "Duration": "Concentration, up to 1 minute.",
+          "Charges": "3 charges. Regain 1d3 spent charges at dawn.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 227, table 7–16.",
+          "Edition notes": "Uses the published 2024 Trident and aquatic creature command rules."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_trident-of-fish-command",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:f8a8e5b015a4ef82": [
+      {
+        "label": "Verified 2024 counterpart · Javelin",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#JavelinofLightning",
+        "fields": {
+          "Base weapon": "Javelin",
+          "Damage": "Base 1d6 Piercing. On a normal hit, choose Piercing or Lightning. The bolt deals 4d6 Lightning, halved on a successful save.",
+          "Range": "5 ft melee; 30/120 ft thrown",
+          "Properties": "Thrown (Range 30/120)",
+          "Activation": "When throwing at a target within 120 ft, replace the ranged attack roll with the bolt.",
+          "Category": "Simple",
+          "Mastery": "Slow",
+          "Attunement": "None",
+          "Area": "A 5 ft wide line from you to the target, excluding you.",
+          "Saving throw": "DC 13 Dexterity for the target and each other creature in the line.",
+          "Recharge": "The bolt recharges at dawn. The javelin reappears in your hand after the bolt resolves.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 227, table 7–16.",
+          "Edition notes": "Uses the 2024 Lightning line, save and ordinary javelin attack."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_javelin-of-lightning",
+          "label": "Open published 2024 weapon"
+        }
+      }
+    ],
+    "dmg-35-reference:fffbf349e554fddb": [
+      {
+        "label": "Verified 2024 counterpart · Mace",
+        "status": "published-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#MaceofSmiting",
+        "fields": {
+          "Base weapon": "Mace",
+          "Damage": "Base 1d6 Bludgeoning. Add 1 to damage, or 3 against a Construct. A natural 20 adds another 7 Bludgeoning, or 14 against a Construct.",
+          "Range": "5 ft melee",
+          "Properties": "None",
+          "Activation": "When you roll a 20 on an attack, a Construct at 25 HP or fewer after the damage is destroyed.",
+          "Category": "Simple",
+          "Mastery": "Sap",
+          "Attunement": "None",
+          "Attack bonus": "+1 to attack and damage, increasing to +3 against Constructs.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 227, table 7–16.",
+          "Edition notes": "The 2024 weapon uses the Mace base and the modern extra damage and Construct destruction thresholds."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace-of-smiting",
+          "label": "Open published 2024 weapon"
+        }
+      }
     ]
   }
 }

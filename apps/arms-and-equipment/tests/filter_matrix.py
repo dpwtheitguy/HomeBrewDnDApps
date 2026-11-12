@@ -1305,6 +1305,22 @@ def main():
                     }
                     return true;
                 })()''',
+                'Named DMG weapons display their published 2024 effects': '''(async () => {
+                    const cases = [
+                        ["dmg-35-reference:2908af3f4ee1599b", ["150/600 ft", "3d6 Piercing", "seven days"]],
+                        ["dmg-35-reference:3a7c44ca206643f2", ["fewer than 100 HP", "DC 15 Constitution", "1d8 + 1 charges"]],
+                        ["dmg-35-reference:70243a6190019dbe", ["20/60 ft", "2d8 Force", "Dwarf"]],
+                        ["dmg-35-reference:9aab5d05003a19c4", ["30 Slashing", "natural 20", "Verified 2024 counterpart"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    return [...inspection.querySelectorAll("button")].some(button =>
+                        button.textContent === "Open published 2024 weapon");
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
