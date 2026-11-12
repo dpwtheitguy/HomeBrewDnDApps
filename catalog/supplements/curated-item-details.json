@@ -1,6 +1,136 @@
 {
   "schema_version": 1,
   "records": {
+    "adventurers-vault-1-reference:5ec193393b794d38": [
+      {
+        "label": "D&D 2024 adaptation · Black Dragonscale Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to Acid damage. Once per dawn, immediately after you hit with a melee attack on your turn, you can shroud yourself in shadow without taking an action. Until the end of your next turn, attack rolls against you have Disadvantage. Each time a hostile creature hits you with a melee attack during this effect, it takes Acid damage equal to 1d6 plus your Constitution modifier (minimum 0 damage).",
+          "Source locator": "Adventurer’s Vault (4e), p. 44 (PDF p. 45), Dragonscale Armor, Black.",
+          "Conversion notes": "Maps concealment to Disadvantage on incoming attack rolls and keeps the original retaliation die, trigger, and duration. Uses +1 Scale Mail, Very Rare rarity, and attunement as benchmarks from 2024 Dragon Scale Mail. The daily power is specific to this conversion.",
+          "2024 benchmark": "https://www.dndbeyond.com/magic-items/9228477-dragon-scale-mail",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:f0b8e04c763c2f08": [
+      {
+        "label": "D&D 2024 adaptation · Blue Dragonscale Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to Lightning damage. Once per dawn, immediately after you hit a creature with a melee attack on your turn, you can arc lightning to up to two other creatures you can see within 25 feet of you, without taking an action. Each chosen creature takes Lightning damage equal to 1d8 plus your Constitution modifier (minimum 0 damage). No saving throw.",
+          "Source locator": "Adventurer’s Vault (4e), p. 44 (PDF p. 45), Dragonscale Armor, Blue.",
+          "Conversion notes": "Keeps the original lowest-tier dice, two secondary targets, and automatic damage. Five 4e squares become 25 feet. Uses +1 Scale Mail, Very Rare rarity, and attunement as benchmarks from 2024 Dragon Scale Mail. The daily power is specific to this conversion.",
+          "2024 benchmark": "https://www.dndbeyond.com/magic-items/9228477-dragon-scale-mail",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:bb2b1f54c42efe91": [
+      {
+        "label": "D&D 2024 adaptation · Green Dragonscale Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to Poison damage. Once per dawn, immediately after you hit a creature with a melee attack on your turn, you can release poison centered on it without taking an action. Each hostile creature in a 10-foot Emanation from the target, including the target if hostile, makes a Constitution saving throw (DC 8 plus your Proficiency Bonus plus your Constitution modifier). Roll 1d6 plus your Constitution modifier (minimum 0). On a failed save, the creature takes that much Poison damage. Until the start of your next turn, it cannot take Reactions or Bonus Actions, and on its turn it can either move or take one action. On a successful save it takes half as much damage only.",
+          "Source locator": "Adventurer’s Vault (4e), p. 44 (PDF p. 45), Dragonscale Armor, Green.",
+          "Conversion notes": "Maps the original close burst to an Emanation, Fortitude defense to a Constitution save, and Dazed to a defined movement and action limit. Retains half damage on a successful defense. Uses +1 Scale Mail, Very Rare rarity, and attunement as benchmarks from 2024 Dragon Scale Mail. The daily power is specific to this conversion.",
+          "2024 benchmark": "https://www.dndbeyond.com/magic-items/9228477-dragon-scale-mail",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:fd201a63831513bd": [
+      {
+        "label": "D&D 2024 adaptation · Red Dragonscale Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to Fire damage. Once per dawn, immediately after you hit a creature with a melee attack on your turn, you can bind it in flame without taking an action. Its Speed is 0 for up to 1 minute. At the start of each of its turns while bound, it takes Fire damage equal to 5 plus your Constitution modifier (minimum 0 damage). At the end of each of those turns it makes a Constitution saving throw (DC 8 plus your Proficiency Bonus plus your Constitution modifier). On a success, both effects end.",
+          "Source locator": "Adventurer’s Vault (4e), p. 45 (PDF p. 46), Dragonscale Armor, Red.",
+          "Conversion notes": "Translates Immobilized to Speed 0 and uses an end-of-turn Constitution save to end both effects. Keeps the original lowest-tier damage and adds a one-minute cap. Uses +1 Scale Mail, Very Rare rarity, and attunement as benchmarks from 2024 Dragon Scale Mail. The daily power is specific to this conversion.",
+          "2024 benchmark": "https://www.dndbeyond.com/magic-items/9228477-dragon-scale-mail",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:7851171cdef9967f": [
+      {
+        "label": "D&D 2024 adaptation · White Dragonscale Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to Cold damage. Once per dawn, immediately after you hit a creature with a melee attack on your turn, you can release a burst of frost without taking an action. The target and each of its allies within 5 feet of it take Cold damage equal to 1d4 plus your Constitution modifier (minimum 0 damage). No saving throw.",
+          "Source locator": "Adventurer’s Vault (4e), p. 45 (PDF p. 46), Dragonscale Armor, White.",
+          "Conversion notes": "Keeps the original lowest-tier damage, automatic effect, and target’s adjacent allies. Adjacent squares become 5 feet. Uses +1 Scale Mail, Very Rare rarity, and attunement as benchmarks from 2024 Dragon Scale Mail. The daily power is specific to this conversion.",
+          "2024 benchmark": "https://www.dndbeyond.com/magic-items/9228477-dragon-scale-mail",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
     "adventurers-vault-1-reference:8266a9c12c0eae85": [
       {
         "label": "D&D 2024 shield adaptation",

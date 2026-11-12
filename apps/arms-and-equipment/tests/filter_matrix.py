@@ -1740,6 +1740,21 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault chromatic armor keeps distinct resistances and powers': '''(async () => {
+                    const cases = [
+                        ["5ec193393b794d38", ["Resistance to Acid", "attack rolls against you have Disadvantage", "1d6"]],
+                        ["f0b8e04c763c2f08", ["Resistance to Lightning", "two other creatures", "within 25 feet", "1d8"]],
+                        ["bb2b1f54c42efe91", ["Resistance to Poison", "10-foot Emanation", "Constitution saving throw", "half as much damage"]],
+                        ["fd201a63831513bd", ["Resistance to Fire", "Speed is 0", "5 plus your Constitution modifier", "end of each of those turns"]],
+                        ["7851171cdef9967f", ["Resistance to Cold", "its allies within 5 feet", "1d4"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!["Armor class15 + Dex modifier (max +2)", "Base cost40050 gp", "Once per dawn", ...terms].every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Adventurer’s Vault shields show charge, volleys, and redirected attacks': '''(async () => {
                     const cases = [
                         ["8266a9c12c0eae85", ["Opportunity Attack", "10 feet straight", "cannot be pushed or pulled"]],
