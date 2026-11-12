@@ -752,6 +752,18 @@ def main():
                         && ["Ammunition of Slaying", "6d10 Force", "DC 17 Constitution", "becomes nonmagical"]
                             .every(value => slaying.includes(value));
                 })()''',
+                'Indexed shields distinguish conditional and permanent AC bonuses': '''(async () => {
+                    inspect("dndbeyond:4577", grid.firstElementChild);
+                    await itemDetails;
+                    const catcher = inspection.textContent;
+                    inspect("dndbeyond:5158", grid.firstElementChild);
+                    await itemDetails;
+                    const enhanced = inspection.textContent;
+                    return ["Verified 2024 shield counterpart", "Armor class bonus+2", "additional AC against ranged",
+                        "within 5 ft"].every(value => catcher.includes(value)) &&
+                        ["Armor class bonus+5", "normal +2 shield bonus", "Read published rules"]
+                            .every(value => enhanced.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
