@@ -578,6 +578,19 @@ def main():
                         ["DM review", "Armor class bonus+0", "no separate AC"]
                             .every(value => helm.includes(value));
                 })()''',
+                'Mystara reference cards explain the chosen weapon and ceremonial focus': '''(async () => {
+                    inspect("gazetteer-local-pdf-reference:54427e4f83d487c5", grid.firstElementChild);
+                    await itemDetails;
+                    const family = inspection.textContent;
+                    inspect("gazetteer-local-pdf-reference:094b8e35215c6610", grid.firstElementChild);
+                    await itemDetails;
+                    const symbol = inspection.textContent;
+                    return ["2024 use and source context", "+1 or +2 enhancement", "attack and damage"]
+                        .every(value => family.includes(value)) &&
+                        ["2024 use and source context", "Spellcasting Focus", "ceremonial role"]
+                            .every(value => symbol.includes(value)) &&
+                        ![family, symbol].some(value => value.includes("2024 provisional profile"));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

@@ -18,7 +18,7 @@ CATALOG = Path(__file__).resolve().parents[1] / 'catalog'
 PROFILE_KINDS = {
     'native-2024', 'source-2024-text', 'native-bg3', 'source-based-2024',
     'draft-2024-base', 'improvised-2024', 'siege-engine', 'launcher',
-    'weapon-upgrade', 'reference-object', 'custom-2024-draft',
+    'weapon-upgrade', 'reference-object', 'custom-2024-draft', 'documented-reference',
 }
 BASE_PROFILE_KINDS = {'draft-2024-base', 'source-based-2024'}
 DICE = re.compile(r'(?:\d+d\d+|\d+)(?:\s*[+-]\s*\d+)?', re.I)
@@ -193,6 +193,16 @@ def audit_row(item, all_items, profiles, game, curated, exact, prices, legacy_ga
             'attack_bonus': published[0].get('Attack bonus'), 'activation': published[0]['Activation'],
             'training': published[0].get('Category'), 'mastery': published[0].get('Mastery'),
         }
+    elif kind == 'documented-reference':
+        evidence = 'documented-reference'
+        entries = [entry for entry in curated.get(item_id, [])
+                   if entry.get('profile_kind') == kind and entry.get('status') == 'source-reported']
+        required = ('Role', 'Tabletop use', 'Combat rules', 'Legacy source')
+        if (len(entries) != 1 or not entries[0].get('source')
+                or not all(entries[0].get('fields', {}).get(key) for key in required)
+                or not item['provenance'].get('original_publication_verified')):
+            errors.append('documented reference needs verified provenance and explicit tabletop use')
+            gaps.append('verify the documented reference role')
     elif kind == 'custom-2024-draft':
         evidence = 'item-specific-draft'
         if len(custom) != 1 or not all(custom[0].get(key) for key in ('Damage', 'Range', 'Activation')):

@@ -71,7 +71,7 @@ def build():
         name = words(item['name'])
         source_type = str(mechanics.get('source_type') or '').lower()
         explicit_kind = next((entry['profile_kind'] for entry in details.get(item_id, [])
-                              if entry.get('profile_kind') in {'siege-engine', 'custom-2024-draft'}), None)
+                              if entry.get('profile_kind') in {'siege-engine', 'custom-2024-draft', 'documented-reference'}), None)
         if explicit_kind:
             profiles[item_id] = {'kind': explicit_kind}
             continue
