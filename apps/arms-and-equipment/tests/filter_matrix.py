@@ -1740,6 +1740,19 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault movement and retaliation armor shows its limits': '''(async () => {
+                    const cases = [
+                        ["b5f750576f0c162e", ["Leather Armor", "Hide Armor", "15 feet", "unoccupied space"]],
+                        ["287096c8ad3294a5", ["Armor class19", "10 damage per instance", "cannot trigger another"]],
+                        ["38aa0dc168f1b370", ["Armor class21", "misses you with a melee attack", "equal to your character level"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Adventurer’s Vault reactive armor shows its timing and AC': '''(async () => {
                     const cases = [
                         ["e5244b228b352ee0", ["before the damage is applied", "Armor class20", "Armor class13 + Dex modifier"]],

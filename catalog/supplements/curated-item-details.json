@@ -1,6 +1,403 @@
 {
   "schema_version": 1,
   "records": {
+    "adventurers-vault-1-reference:b5f750576f0c162e": [
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing the armor, take a Bonus Action to move up to 15 feet, spending movement normally. This movement does not provoke Opportunity Attacks and can pass through enemy spaces without treating them as Difficult Terrain. You must end in an unoccupied space. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 51 (PDF p. 52), Serpentskin Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement and turns the three-square shift into a 15-foot move. The source’s poison reference is descriptive. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing the armor, take a Bonus Action to move up to 15 feet, spending movement normally. This movement does not provoke Opportunity Attacks and can pass through enemy spaces without treating them as Difficult Terrain. You must end in an unoccupied space. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 51 (PDF p. 52), Serpentskin Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement and turns the three-square shift into a 15-foot move. The source’s poison reference is descriptive. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:287096c8ad3294a5": [
+      {
+        "label": "D&D 2024 adaptation · Breastplate",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "When an attack by a creature applies an effect to you that deals damage repeatedly on later turns, you can take a Reaction to link that creature to the effect for 1 minute. Whenever you take damage from that effect during the link, the attacker takes the same amount and type, up to 10 damage per instance. The link ends early when the original effect ends. Damage from this property cannot trigger another Shared Suffering link. Recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 51 (PDF p. 52), Shared Suffering Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Replaces untyped ongoing damage with a capped reflection of actual recurring damage. Short or Long Rest recharge replaces encounter recharge. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_breastplate-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "When an attack by a creature applies an effect to you that deals damage repeatedly on later turns, you can take a Reaction to link that creature to the effect for 1 minute. Whenever you take damage from that effect during the link, the attacker takes the same amount and type, up to 10 damage per instance. The link ends early when the original effect ends. Damage from this property cannot trigger another Shared Suffering link. Recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 51 (PDF p. 52), Shared Suffering Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Replaces untyped ongoing damage with a capped reflection of actual recurring damage. Short or Long Rest recharge replaces encounter recharge. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Shirt",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "When an attack by a creature applies an effect to you that deals damage repeatedly on later turns, you can take a Reaction to link that creature to the effect for 1 minute. Whenever you take damage from that effect during the link, the attacker takes the same amount and type, up to 10 damage per instance. The link ends early when the original effect ends. Damage from this property cannot trigger another Shared Suffering link. Recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 51 (PDF p. 52), Shared Suffering Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Replaces untyped ongoing damage with a capped reflection of actual recurring damage. Short or Long Rest recharge replaces encounter recharge. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Half Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "When an attack by a creature applies an effect to you that deals damage repeatedly on later turns, you can take a Reaction to link that creature to the effect for 1 minute. Whenever you take damage from that effect during the link, the attacker takes the same amount and type, up to 10 damage per instance. The link ends early when the original effect ends. Damage from this property cannot trigger another Shared Suffering link. Recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 51 (PDF p. 52), Shared Suffering Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Replaces untyped ongoing damage with a capped reflection of actual recurring damage. Short or Long Rest recharge replaces encounter recharge. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_half-plate-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "When an attack by a creature applies an effect to you that deals damage repeatedly on later turns, you can take a Reaction to link that creature to the effect for 1 minute. Whenever you take damage from that effect during the link, the attacker takes the same amount and type, up to 10 damage per instance. The link ends early when the original effect ends. Damage from this property cannot trigger another Shared Suffering link. Recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 51 (PDF p. 52), Shared Suffering Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Replaces untyped ongoing damage with a capped reflection of actual recurring damage. Short or Long Rest recharge replaces encounter recharge. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "When an attack by a creature applies an effect to you that deals damage repeatedly on later turns, you can take a Reaction to link that creature to the effect for 1 minute. Whenever you take damage from that effect during the link, the attacker takes the same amount and type, up to 10 damage per instance. The link ends early when the original effect ends. Damage from this property cannot trigger another Shared Suffering link. Recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 51 (PDF p. 52), Shared Suffering Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Replaces untyped ongoing damage with a capped reflection of actual recurring damage. Short or Long Rest recharge replaces encounter recharge. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "When an attack by a creature applies an effect to you that deals damage repeatedly on later turns, you can take a Reaction to link that creature to the effect for 1 minute. Whenever you take damage from that effect during the link, the attacker takes the same amount and type, up to 10 damage per instance. The link ends early when the original effect ends. Damage from this property cannot trigger another Shared Suffering link. Recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 51 (PDF p. 52), Shared Suffering Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Replaces untyped ongoing damage with a capped reflection of actual recurring damage. Short or Long Rest recharge replaces encounter recharge. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "When an attack by a creature applies an effect to you that deals damage repeatedly on later turns, you can take a Reaction to link that creature to the effect for 1 minute. Whenever you take damage from that effect during the link, the attacker takes the same amount and type, up to 10 damage per instance. The link ends early when the original effect ends. Damage from this property cannot trigger another Shared Suffering link. Recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 51 (PDF p. 52), Shared Suffering Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Replaces untyped ongoing damage with a capped reflection of actual recurring damage. Short or Long Rest recharge replaces encounter recharge. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Ring Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15",
+          "Training": "Heavy armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "When an attack by a creature applies an effect to you that deals damage repeatedly on later turns, you can take a Reaction to link that creature to the effect for 1 minute. Whenever you take damage from that effect during the link, the attacker takes the same amount and type, up to 10 damage per instance. The link ends early when the original effect ends. Damage from this property cannot trigger another Shared Suffering link. Recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 51 (PDF p. 52), Shared Suffering Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Replaces untyped ongoing damage with a capped reflection of actual recurring damage. Short or Long Rest recharge replaces encounter recharge. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_ring-mail-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "When an attack by a creature applies an effect to you that deals damage repeatedly on later turns, you can take a Reaction to link that creature to the effect for 1 minute. Whenever you take damage from that effect during the link, the attacker takes the same amount and type, up to 10 damage per instance. The link ends early when the original effect ends. Damage from this property cannot trigger another Shared Suffering link. Recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 51 (PDF p. 52), Shared Suffering Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Replaces untyped ongoing damage with a capped reflection of actual recurring damage. Short or Long Rest recharge replaces encounter recharge. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Splint Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "When an attack by a creature applies an effect to you that deals damage repeatedly on later turns, you can take a Reaction to link that creature to the effect for 1 minute. Whenever you take damage from that effect during the link, the attacker takes the same amount and type, up to 10 damage per instance. The link ends early when the original effect ends. Damage from this property cannot trigger another Shared Suffering link. Recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 51 (PDF p. 52), Shared Suffering Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Replaces untyped ongoing damage with a capped reflection of actual recurring damage. Short or Long Rest recharge replaces encounter recharge. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Studded Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "13 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "When an attack by a creature applies an effect to you that deals damage repeatedly on later turns, you can take a Reaction to link that creature to the effect for 1 minute. Whenever you take damage from that effect during the link, the attacker takes the same amount and type, up to 10 damage per instance. The link ends early when the original effect ends. Damage from this property cannot trigger another Shared Suffering link. Recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 51 (PDF p. 52), Shared Suffering Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Replaces untyped ongoing damage with a capped reflection of actual recurring damage. Short or Long Rest recharge replaces encounter recharge. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_studded-leather-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:38aa0dc168f1b370": [
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "When an enemy misses you with a melee attack roll while you wear the armor, take a Reaction to deal Lightning damage to that enemy equal to your character level. This property recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 51 (PDF p. 52), Shocking Armor.",
+          "Conversion notes": "Caps the original +6 enhancement at +3 and keeps the published level-based retaliation. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-3",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "21",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "When an enemy misses you with a melee attack roll while you wear the armor, take a Reaction to deal Lightning damage to that enemy equal to your character level. This property recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 51 (PDF p. 52), Shocking Armor.",
+          "Conversion notes": "Caps the original +6 enhancement at +3 and keeps the published level-based retaliation. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-3",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "When an enemy misses you with a melee attack roll while you wear the armor, take a Reaction to deal Lightning damage to that enemy equal to your character level. This property recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 51 (PDF p. 52), Shocking Armor.",
+          "Conversion notes": "Caps the original +6 enhancement at +3 and keeps the published level-based retaliation. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-3",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
     "adventurers-vault-1-reference:e5244b228b352ee0": [
       {
         "label": "D&D 2024 adaptation · Breastplate",
