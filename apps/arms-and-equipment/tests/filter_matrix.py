@@ -1129,6 +1129,10 @@ def main():
                         ["dmg-2e-reference:a7d39d7d8edaa926", ["18 against ranged weapon attacks", "19 against other attacks"]],
                         ["dmg-2e-reference:2e3a515dad808b1d", ["Disadvantage on Charisma", "Remove Curse"]],
                         ["dmg-2e-reference:a90a7727f4a39e25", ["15 + Dex modifier (max +2)", "Medium armor"]],
+                        ["dmg-2e-reference:edcdfbe057a290bd", ["Armor class14", "130 lb", "Table 27"]],
+                        ["dmg-2e-reference:bafc45cdb54d9584", ["48.75 lb", "Critical Hit", "25%"]],
+                        ["dmg-2e-reference:c1819e413941a417", ["6 feet 6 inches", "250 lb", "14 + Dex modifier"]],
+                        ["dmg-2e-reference:828266aa4a13406d", ["no separate AC bonus", "Great Helm row"]],
                     ];
                     for (const [id, terms] of cases) {
                         inspect(id, grid.firstElementChild);

@@ -218,7 +218,13 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
                 if fields['role'] == 'shield':
                     valid_ac = mapped_fields.get('Armor class bonus') == f"+{target_armor['ac_base'] + bonus}"
                 else:
-                    formula = str(target_armor['ac_base'] + bonus)
+                    adjustment = mapping.get('armor_class_adjustment', 0)
+                    if type(adjustment) is not int or (adjustment and (
+                            not source_adaptation or bonus or not -4 <= adjustment <= -1)):
+                        errors.append('invalid armor material AC adjustment')
+                        adjustment = 0
+                    fields['armor_class'] += adjustment
+                    formula = str(fields['armor_class'] + bonus)
                     if target_armor['ac_add_dexmod']:
                         formula += ' + Dex modifier'
                         if cap := target_armor['ac_cap_dexmod']:

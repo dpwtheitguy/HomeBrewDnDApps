@@ -10826,6 +10826,340 @@
         },
         "profile_kind": "adapted-source-armor"
       }
+    ],
+    "dmg-2e-reference:bafc45cdb54d9584": [
+      {
+        "label": "D&D 2024 armor material conversion",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00327.htm.php.html",
+        "fields": {
+          "Armor class": "18",
+          "Finished plate example": "AC 18, 48.75 lb",
+          "Training": "Heavy armor for the plate example. For other suits use the base armor training.",
+          "Strength requirement": "15 for the plate example. For other suits use the base armor requirement.",
+          "Stealth disadvantage": "Yes for the plate example. For other suits use the base armor rules.",
+          "Weight": "48.75 lb",
+          "Attunement": "None",
+          "Special powers": "Reduce the finished suit’s weight by 25%. A Critical Hit against its wearer becomes a normal hit. Use the base suit’s AC. Apply only to Medium or Heavy armor other than Hide Armor.",
+          "Source locator": "AD&D 2e DMG, Table 27, Adamantite row.",
+          "Legacy modifiers": "+1 AC, 25% lighter, 500× cost",
+          "Conversion notes": "Uses the 2024 Adamantine Armor critical-hit rule for the legacy increase in protection. The 25% weight reduction is a retained conversion rule. Apply the material once to a mundane suit before calculating the finished statistics.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AdamantineArmor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open example base armor"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-2e-reference:8961fa18eefb0845": [
+      {
+        "label": "D&D 2024 armor material conversion",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00327.htm.php.html",
+        "fields": {
+          "Armor class": "17",
+          "Finished plate example": "AC 17, 65 lb",
+          "Training": "Heavy armor for the plate example. For other suits use the base armor training.",
+          "Strength requirement": "15 for the plate example. For other suits use the base armor requirement.",
+          "Stealth disadvantage": "Yes for the plate example. For other suits use the base armor rules.",
+          "Weight": "65 lb",
+          "Attunement": "None",
+          "Special powers": "Reduce the finished suit’s listed AC by 1. Its weight is unchanged. Apply only to armor whose protection normally comes from steel plates or links.",
+          "Source locator": "AD&D 2e DMG, Table 27, Bronze row.",
+          "Legacy modifiers": "−1 AC, standard weight, two-thirds cost",
+          "Conversion notes": "Carries over the source’s protection penalty in modern AC. This is a mundane material variant. Apply the material once to a mundane suit before calculating the finished statistics.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open example base armor"
+        },
+        "profile_kind": "adapted-source-armor",
+        "armor_class_adjustment": -1
+      }
+    ],
+    "dmg-2e-reference:19df3d85687da9e4": [
+      {
+        "label": "D&D 2024 armor material conversion",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00327.htm.php.html",
+        "fields": {
+          "Armor class": "18",
+          "Finished plate example": "AC 18, 32.5 lb",
+          "Training": "Heavy armor for the plate example. For other suits use the base armor training.",
+          "Strength requirement": "15 for the plate example. For other suits use the base armor requirement.",
+          "Stealth disadvantage": "Yes for the plate example. For other suits use the base armor rules.",
+          "Weight": "32.5 lb",
+          "Attunement": "None",
+          "Special powers": "Halve the finished suit’s weight. Keep its normal AC, training, Strength requirement and Stealth disadvantage.",
+          "Source locator": "AD&D 2e DMG, Table 27, Elven Steel row.",
+          "Legacy modifiers": "Standard AC, 50% lighter, normally a gift",
+          "Conversion notes": "Retains the lower weight and gift tradition from Table 27. This material has no intrinsic magic. Apply the material once to a mundane suit before calculating the finished statistics.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open example base armor"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-2e-reference:a395cd5f6f3bb27b": [
+      {
+        "label": "D&D 2024 armor material conversion",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00327.htm.php.html",
+        "fields": {
+          "Armor class": "18",
+          "Finished plate example": "AC 18, 58.5 lb",
+          "Training": "Heavy armor for the plate example. For other suits use the base armor training.",
+          "Strength requirement": "15 for the plate example. For other suits use the base armor requirement.",
+          "Stealth disadvantage": "Yes for the plate example. For other suits use the base armor rules.",
+          "Weight": "58.5 lb",
+          "Attunement": "None",
+          "Special powers": "Reduce the finished suit’s weight by 10%. Keep its normal AC, training, Strength requirement and Stealth disadvantage.",
+          "Source locator": "AD&D 2e DMG, Table 27, Fine Steel row.",
+          "Legacy modifiers": "Standard AC, 10% lighter, double cost",
+          "Conversion notes": "Carries over the source’s weight adjustment as mundane workmanship. Apply the material once to a mundane suit before calculating the finished statistics.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open example base armor"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-2e-reference:aee376e5a62485b6": [
+      {
+        "label": "D&D 2024 armor material conversion",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00327.htm.php.html",
+        "fields": {
+          "Armor class": "18",
+          "Finished plate example": "AC 18, 81.25 lb",
+          "Training": "Heavy armor for the plate example. For other suits use the base armor training.",
+          "Strength requirement": "15 for the plate example. For other suits use the base armor requirement.",
+          "Stealth disadvantage": "Yes for the plate example. For other suits use the base armor rules.",
+          "Weight": "81.25 lb",
+          "Attunement": "None",
+          "Special powers": "Increase the finished suit’s weight by 25%. Keep its normal AC, training, Strength requirement and Stealth disadvantage.",
+          "Source locator": "AD&D 2e DMG, Table 27, Iron row.",
+          "Legacy modifiers": "Standard AC, 25% heavier, cost entry printed as 0",
+          "Conversion notes": "Carries over the source’s weight adjustment. Use the base suit’s price for a tabletop appraisal because the source lists a cost entry of 0. Apply the material once to a mundane suit before calculating the finished statistics.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open example base armor"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-2e-reference:e77e47a70e72cf96": [
+      {
+        "label": "D&D 2024 armor material conversion",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00327.htm.php.html",
+        "fields": {
+          "Armor class": "16",
+          "Finished plate example": "AC 16, 65 lb",
+          "Training": "Heavy armor for the plate example. For other suits use the base armor training.",
+          "Strength requirement": "15 for the plate example. For other suits use the base armor requirement.",
+          "Stealth disadvantage": "Yes for the plate example. For other suits use the base armor rules.",
+          "Weight": "65 lb",
+          "Attunement": "None",
+          "Special powers": "Reduce the finished suit’s listed AC by 2. Its weight is unchanged. Wearing it confers no effect associated with a silvered weapon.",
+          "Source locator": "AD&D 2e DMG, Table 27, Silver row.",
+          "Legacy modifiers": "−2 AC, standard weight, double fabrication cost plus supplied metal",
+          "Conversion notes": "Carries over the source’s protection penalty and keeps the metal mundane. Apply the material once to a mundane suit before calculating the finished statistics.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open example base armor"
+        },
+        "profile_kind": "adapted-source-armor",
+        "armor_class_adjustment": -2
+      }
+    ],
+    "dmg-2e-reference:edcdfbe057a290bd": [
+      {
+        "label": "D&D 2024 armor material conversion",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00327.htm.php.html",
+        "fields": {
+          "Armor class": "14",
+          "Finished plate example": "AC 14, 130 lb",
+          "Training": "Heavy armor for the plate example. For other suits use the base armor training.",
+          "Strength requirement": "15 for the plate example. For other suits use the base armor requirement.",
+          "Stealth disadvantage": "Yes for the plate example. For other suits use the base armor rules.",
+          "Weight": "130 lb",
+          "Attunement": "None",
+          "Special powers": "Reduce the finished suit’s listed AC by 4 and double its weight. It is suitable for ceremonial wear and retains the base suit’s training, Strength requirement and Stealth disadvantage.",
+          "Source locator": "AD&D 2e DMG, Table 27, Gold row.",
+          "Legacy modifiers": "−4 AC, double weight, triple fabrication cost plus supplied metal",
+          "Conversion notes": "Carries over the source’s protection and weight adjustments. A gold suit is a mundane display of wealth. Apply the material once to a mundane suit before calculating the finished statistics.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open example base armor"
+        },
+        "profile_kind": "adapted-source-armor",
+        "armor_class_adjustment": -4
+      }
+    ],
+    "dmg-2e-reference:b468f464a3e85223": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01076.htm.php.html",
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor (granted by this item)",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "None",
+          "Rarity": "Rare",
+          "Special powers": "While wearing the armor, add +1 to its base AC. You count as trained with this armor, and its fine links can be concealed under ordinary clothes. The suit must fit the wearer.",
+          "Source locator": "AD&D 2e DMG, Elven Chain Mail sizing table, d100 roll 01-10.",
+          "Conversion notes": "Uses the 2024 Elven Chain Shirt profile. Check the actual tailoring for fit. The source table’s ancestry labels describe the original tailoring and confer no game trait.",
+          "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#ElvenChain",
+          "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01076.htm.php.html",
+          "Legacy fit": "Small tailoring for a gnome or Hairfoot halfling."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-2e-reference:f079689044fb535e": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01076.htm.php.html",
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor (granted by this item)",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "None",
+          "Rarity": "Rare",
+          "Special powers": "While wearing the armor, add +1 to its base AC. You count as trained with this armor, and its fine links can be concealed under ordinary clothes. The suit must fit the wearer.",
+          "Source locator": "AD&D 2e DMG, Elven Chain Mail sizing table, d100 roll 11-15.",
+          "Conversion notes": "Uses the 2024 Elven Chain Shirt profile. Check the actual tailoring for fit. The source table’s ancestry labels describe the original tailoring and confer no game trait.",
+          "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#ElvenChain",
+          "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01076.htm.php.html",
+          "Legacy fit": "Tailoring for a dwarf or a Stout or Tallfellow halfling."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-2e-reference:44b327358a474d6f": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01076.htm.php.html",
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor (granted by this item)",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "None",
+          "Rarity": "Rare",
+          "Special powers": "While wearing the armor, add +1 to its base AC. You count as trained with this armor, and its fine links can be concealed under ordinary clothes. The suit must fit the wearer.",
+          "Source locator": "AD&D 2e DMG, Elven Chain Mail sizing table, d100 roll 16-80.",
+          "Conversion notes": "Uses the 2024 Elven Chain Shirt profile. Check the actual tailoring for fit. The source table’s ancestry labels describe the original tailoring and confer no game trait.",
+          "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#ElvenChain",
+          "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01076.htm.php.html",
+          "Legacy fit": "Tailoring for an elf or half-elf."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-2e-reference:b677616aaefa7124": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01076.htm.php.html",
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor (granted by this item)",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "None",
+          "Rarity": "Rare",
+          "Special powers": "While wearing the armor, add +1 to its base AC. You count as trained with this armor, and its fine links can be concealed under ordinary clothes. The suit must fit the wearer.",
+          "Source locator": "AD&D 2e DMG, Elven Chain Mail sizing table, d100 roll 81-95.",
+          "Conversion notes": "Uses the 2024 Elven Chain Shirt profile. Check the actual tailoring for fit. The source table’s ancestry labels describe the original tailoring and confer no game trait.",
+          "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#ElvenChain",
+          "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01076.htm.php.html",
+          "Legacy fit": "Human-sized tailoring up to 6 feet tall and 200 lb."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-2e-reference:c1819e413941a417": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01076.htm.php.html",
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor (granted by this item)",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "None",
+          "Rarity": "Rare",
+          "Special powers": "While wearing the armor, add +1 to its base AC. You count as trained with this armor, and its fine links can be concealed under ordinary clothes. The suit must fit the wearer.",
+          "Source locator": "AD&D 2e DMG, Elven Chain Mail sizing table, d100 roll 96-00.",
+          "Conversion notes": "Uses the 2024 Elven Chain Shirt profile. Check the actual tailoring for fit. The source table’s ancestry labels describe the original tailoring and confer no game trait.",
+          "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#ElvenChain",
+          "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01076.htm.php.html",
+          "Legacy fit": "Large human-sized tailoring up to 6 feet 6 inches tall and 250 lb."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-2e-reference:828266aa4a13406d": [
+      {
+        "label": "Armor accessory",
+        "status": "source-reported",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00314.htm.php.html",
+        "fields": {
+          "Source locator": "AD&D 2e DMG, Table 23, Great Helm row.",
+          "Special powers": "A mundane helmet protects the head as part of a suit or as costume equipment.",
+          "Use as armor": "Under the 2024 armor rules use the suit’s normal AC and training. The helmet has no separate AC bonus.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "profile_kind": "documented-armor-accessory"
+      }
     ]
   }
 }
