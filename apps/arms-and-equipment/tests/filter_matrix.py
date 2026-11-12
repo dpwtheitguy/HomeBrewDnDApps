@@ -1740,6 +1740,26 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Legacy martial weapons and treasure categories show their respective uses': '''(async () => {
+                    const cases = [
+                        ["dmg-35-reference:f7e1ad58f819727d", ["1d6 Slashing + Strength modifier + 1", "Topple"]],
+                        ["dmg-35-reference:7753bc0c55462ecb", ["1d6 Slashing + Strength modifier + 3"]],
+                        ["dmg-35-reference:90249fd63791fd55", ["10 feet, including adjacent targets", "forgo the hit’s damage"]],
+                        ["dmg-35-reference:5e12c800e8dee80a", ["1d6 Bludgeoning", "knock it out"]],
+                        ["dmg-35-reference:3769003d428a358b", ["2d6 Necrotic", "separately specified enhancement"]],
+                        ["dmg-2e-reference:07bdcc4aa293a4ae", ["1d4 Bludgeoning", "Unarmed Strike"]],
+                        ["dmg-2e-reference:304fdfbd05f233c3", ["Only captures Medium creatures", "Grappled and Restrained", "1d2 Piercing"]],
+                        ["dmg-2e-reference:b93711e98661a11f", ["1d10 Slashing", "cleaver-headed polearm", "Cleave"]],
+                        ["dmg-35-reference:105afc5f4ed2b075", ["Provenance and shop category", "smith mark identifies its origin"]],
+                        ["dmg-2e-reference:de2bcb3f7fd9932d", ["Random treasure weapon category", "Glaive, Halberd, or Pike"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'D&D 3.5 named weapons display sentience and their signature powers': '''(async () => {
                     const cases = [
                         ["7393feb7a0a98bfa", ["Zone of Truth, Clairvoyance, or Slow", "19 or 20", "Blindsight out to 120 feet"]],

@@ -201,9 +201,14 @@ def audit_row(item, all_items, profiles, game, curated, exact, prices, legacy_ga
         entries = [entry for entry in curated.get(item_id, [])
                    if entry.get('profile_kind') == kind and entry.get('status') == 'source-reported']
         required = ('Role', 'Tabletop use', 'Combat rules', 'Legacy source')
+        provenance = item['provenance']
+        source_reviewed = len(entries) == 1 and bool(provenance.get('locator')) and (
+            entries[0].get('source') == provenance.get('source_url')
+            and entries[0].get('source_locator') == provenance['locator']
+        )
         if (len(entries) != 1 or not entries[0].get('source')
                 or not all(entries[0].get('fields', {}).get(key) for key in required)
-                or not item['provenance'].get('original_publication_verified')):
+                or not (provenance.get('original_publication_verified') or source_reviewed)):
             errors.append('documented reference needs verified provenance and explicit tabletop use')
             gaps.append('verify the documented reference role')
     elif kind == 'custom-2024-draft':

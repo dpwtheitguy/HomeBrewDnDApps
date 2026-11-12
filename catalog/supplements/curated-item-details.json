@@ -1,6 +1,264 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-35-reference:f7e1ad58f819727d": [
+      {
+        "label": "D&D 2024 adaptation · Kama +1",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Kama)",
+          "Damage": "1d6 Slashing + Strength modifier + 1",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet",
+          "Properties": "Light",
+          "Mastery": "Topple",
+          "Weight": "2 lb",
+          "Activation": "Make a melee weapon attack.",
+          "Special powers": "The +1 applies to attack and damage rolls. Topple represents the original hooked blade’s tripping function.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 118 (PDF p. 119), NPC Monk.",
+          "Conversion notes": "Keeps the sample monk’s actual +1 enchantment and uses the same weapon profile as the masterwork kama.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "3.5 weapon rules": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_sickle",
+          "label": "Open 2024 Sickle benchmark"
+        }
+      }
+    ],
+    "dmg-35-reference:7753bc0c55462ecb": [
+      {
+        "label": "D&D 2024 adaptation · Kama +3",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Kama)",
+          "Damage": "1d6 Slashing + Strength modifier + 3",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet",
+          "Properties": "Light",
+          "Mastery": "Topple",
+          "Weight": "2 lb",
+          "Activation": "Make a melee weapon attack.",
+          "Special powers": "The +3 applies to attack and damage rolls. Topple represents the original hooked blade’s tripping function.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 118 (PDF p. 119), NPC Monk.",
+          "Conversion notes": "Keeps the sample monk’s actual +3 enchantment and uses the same weapon profile as the masterwork kama.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Rarity": "Very Rare",
+          "Attunement": "None",
+          "3.5 weapon rules": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_sickle",
+          "label": "Open 2024 Sickle benchmark"
+        }
+      }
+    ],
+    "dmg-35-reference:90249fd63791fd55": [
+      {
+        "label": "D&D 2024 adaptation · Kusari-gama",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Kusari-gama)",
+          "Damage": "1d6 Slashing + Strength or Dexterity modifier",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "10 feet, including adjacent targets",
+          "Properties": "Finesse, Reach, Two-Handed",
+          "Mastery": "Topple",
+          "Weight": "3 lb",
+          "Activation": "Make a melee weapon attack.",
+          "Special powers": "Once per turn on a hit, you can forgo the hit’s damage and any mastery effect to try to disarm the target. It makes a Strength saving throw against DC 8 plus your Proficiency Bonus plus the ability modifier used for the attack. On a failure it drops one object of your choice that it is holding.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 145 (PDF p. 146), Table 5–3.",
+          "Conversion notes": "Retains the source die, reach, adjacent attacks and Dexterity option. Topple and the optional disarm represent the legacy maneuvers.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Attunement": "None",
+          "3.5 weapon rules": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        }
+      }
+    ],
+    "dmg-35-reference:5e12c800e8dee80a": [
+      {
+        "label": "D&D 2024 adaptation · Sap",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Sap)",
+          "Damage": "1d6 Bludgeoning + Strength modifier",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Light",
+          "Mastery": "Sap",
+          "Weight": "2 lb",
+          "Activation": "Make a melee weapon attack.",
+          "Special powers": "If a melee hit reduces a creature to 0 Hit Points, you can use the normal 2024 option to knock it out.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 180 (PDF p. 181), Assassin.",
+          "Conversion notes": "Uses the 3.5 sap’s damage and implements nonlethal attacks through the 2024 knockout rule. Matches the masterwork sap profile.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Attunement": "None",
+          "3.5 weapon rules": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 Club benchmark"
+        }
+      }
+    ],
+    "dmg-35-reference:3769003d428a358b": [
+      {
+        "label": "D&D 2024 adaptation · Silvered unholy weapon",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property (any silvered host)",
+          "Damage": "Use the chosen host’s damage. Add 2d6 Necrotic on a hit against a creature of good alignment.",
+          "Attack bonus": "Use the host weapon’s normal attack modifier and any separately specified enhancement.",
+          "Range": "Use the chosen host’s range or reach.",
+          "Properties": "The chosen weapon is silvered; use its normal properties.",
+          "Mastery": "Use the chosen host’s mastery.",
+          "Weight": "Use the chosen host’s weight.",
+          "Activation": "Make a normal attack with the selected host weapon.",
+          "Special powers": "A creature of good alignment that wields the weapon takes a −1 penalty to attack rolls, ability checks, and saving throws while it holds the weapon. The damage bonus and penalty both use the creature’s alignment as determined by the DM. Silver applies to defenses that explicitly mention silvered attacks.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 292 (PDF p. 293), Damage Reduction.",
+          "Conversion notes": "The source is a worked example with no base form or enhancement. Preserves both properties and translates the legacy negative level into a temporary penalty.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "3.5 unholy property": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm#unholy"
+        }
+      }
+    ],
+    "dmg-2e-reference:07bdcc4aa293a4ae": [
+      {
+        "label": "D&D 2024 adaptation · Brass Knuckles",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00430.htm.php.html",
+        "fields": {
+          "Category": "Worn equipment for Unarmed Strikes",
+          "Damage": "1d4 Bludgeoning + Strength modifier",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus for an Unarmed Strike.",
+          "Range": "5 feet",
+          "Properties": "Occupies the striking hand.",
+          "Mastery": "None",
+          "Weight": "Negligible",
+          "Activation": "Use the Damage option of an Unarmed Strike.",
+          "Special powers": "This die replaces the normal Unarmed Strike damage die or flat damage. If another feature sets the damage of your Unarmed Strike, choose which damage formula to use.",
+          "Source locator": "AD&D 2e, Table 43, Brass Knuckles.",
+          "Conversion notes": "Converts the legacy d3 to a d4 and retains the original punching role.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Attunement": "None",
+          "AD&D 2e Player’s Handbook": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/AD%26D%201e-2e%2C%20D%26D%2C%20OD%26D%20%28TSR%29/AD%26D%202e%20%28Selected%20Material%29/Player%27s%20Handbook%20Revised%20%28Premium%20Edition%29%20%282e%29.pdf"
+        }
+      }
+    ],
+    "dmg-2e-reference:304fdfbd05f233c3": [
+      {
+        "label": "D&D 2024 adaptation · Mancatcher",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00314.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Mancatcher)",
+          "Damage": "No damage on capture. A captured target takes 1d2 Piercing damage if moved by the weapon or if it breaks free.",
+          "Attack bonus": "No attack roll to capture. Dexterity save DC 8 + your Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet",
+          "Properties": "Reach, Two-Handed. Only captures Medium creatures.",
+          "Mastery": "None",
+          "Weight": "8 lb",
+          "Activation": "Replace one attack of the Attack action with a capture attempt against a Medium creature within reach. On a failed Dexterity save, it is Grappled and Restrained. You can hold one creature at a time.",
+          "Special powers": "On your turn while holding it, you can take an action to push or pull the captive 5 feet to an unoccupied space it can occupy within reach, dealing 1d2 Piercing damage. The captive can use an action to make a Strength (Athletics) check against the capture DC, taking 1d2 Piercing damage and ending both conditions on a success. Both conditions also end if you release the weapon or the target leaves reach.",
+          "Source locator": "AD&D 2e, Table 23, Mancatcher.",
+          "Conversion notes": "Keeps the size limit, capture role, and damage while moving or escaping. Replaces armor-ignoring attack and Bend Bars with 2024 saves and checks.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Attunement": "None",
+          "AD&D 2e Player’s Handbook": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/AD%26D%201e-2e%2C%20D%26D%2C%20OD%26D%20%28TSR%29/AD%26D%202e%20%28Selected%20Material%29/Player%27s%20Handbook%20Revised%20%28Premium%20Edition%29%20%282e%29.pdf"
+        }
+      }
+    ],
+    "dmg-2e-reference:b93711e98661a11f": [
+      {
+        "label": "D&D 2024 adaptation · Voulge",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00314.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Voulge)",
+          "Damage": "1d10 Slashing + Strength modifier",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "10 feet",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Cleave",
+          "Weight": "6 lb",
+          "Activation": "Make a melee weapon attack.",
+          "Special powers": "Use the 2024 Halberd’s combat profile for this cleaver-headed polearm.",
+          "Source locator": "AD&D 2e, Table 23, Voulge.",
+          "Conversion notes": "The AD&D 2e Player’s Handbook identifies the voulge as a cleaver on a long pole. The Halberd supplies an explicit 2024 comparison.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Attunement": "None",
+          "AD&D 2e Player’s Handbook": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/AD%26D%201e-2e%2C%20D%26D%2C%20OD%26D%20%28TSR%29/AD%26D%202e%20%28Selected%20Material%29/Player%27s%20Handbook%20Revised%20%28Premium%20Edition%29%20%282e%29.pdf"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_halberd",
+          "label": "Open 2024 Halberd benchmark"
+        }
+      }
+    ],
+    "dmg-35-reference:105afc5f4ed2b075": [
+      {
+        "label": "Source category · Clangeddin Smith-Marked Weapons",
+        "status": "source-reported",
+        "profile_kind": "documented-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "source_locator": {
+          "pdf_page": 165,
+          "printed_page": 164,
+          "section": "The Planes"
+        },
+        "fields": {
+          "Role": "Provenance and shop category",
+          "Tabletop use": "Choose a specific weapon and use its own 2024 equipment and enchantment rules. The smith mark identifies its origin.",
+          "Combat rules": "Damage, range, training, mastery, and magic depend on the selected weapon.",
+          "Legacy source": "D&D 3.5 Dungeon Master’s Guide p. 164 (PDF p. 165), Mount Clangeddin. The site sells weapons of any listed price and does not buy them.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-2e-reference:de2bcb3f7fd9932d": [
+      {
+        "label": "Source category · Pole Arm",
+        "status": "source-reported",
+        "profile_kind": "documented-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00696.htm.php.html",
+        "source_locator": {
+          "table": "108",
+          "table_results": [
+            {
+              "section": 2,
+              "roll": "3",
+              "description_url": null,
+              "source_label": "Pole Arm",
+              "source_xp_award": null
+            }
+          ]
+        },
+        "fields": {
+          "Role": "Random treasure weapon category",
+          "Tabletop use": "Choose a specific polearm such as a Glaive, Halberd, or Pike, then apply the separately determined magic properties.",
+          "Combat rules": "Damage, range, training, mastery, and magic depend on the selected weapon.",
+          "Legacy source": "AD&D 2e Dungeon Master’s Guide, Table 108, Subtable B, roll 3. The row determines a weapon group.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
     "dmg-35-reference:7393feb7a0a98bfa": [
       {
         "label": "D&D 2024 adaptation · Acrola, Watchful Tooth of Ashardalon",
