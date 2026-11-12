@@ -130,9 +130,22 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
             base_id = source_id
     mappings = [entry for entry in curated.get(item_id, [])
                 if entry.get('profile_kind') in {'published-armor-mapping', 'published-public-armor'}]
+    encounter = [entry for entry in curated.get(item_id, [])
+                 if entry.get('profile_kind') == 'armor-encounter-construct']
     if item['ruleset'] == 'bg3':
         evidence = 'native-bg3'
         fields.update(read_bg3(bg3['records'].get(item_id, {}), bg3['effects'], bg3['shield_training'], errors, gaps))
+    elif encounter:
+        entry = encounter[0]
+        details = entry.get('fields', {})
+        provenance = item['provenance']
+        if (len(encounter) != 1 or entry.get('status') != 'source-reported'
+                or entry.get('source') != provenance.get('source_url')
+                or not provenance.get('locator')
+                or not all(details.get(key) for key in ('Source locator', 'Creature defenses', 'Use as armor'))):
+            errors.append('construct reference needs source and explicit equipment applicability')
+        evidence = 'documented-armor-construct'
+        fields = {'role': 'encounter construct', 'effects': details.get('Creature defenses')}
     elif mappings:
         variants = []
         base_ids = []
@@ -143,9 +156,13 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
             mapped_fields = mapping['fields']
             public = mapping['profile_kind'] == 'published-public-armor'
             provenance = item['provenance']
+            original_page = (mapping.get('source') == provenance.get('source_url')
+                             and bool(provenance.get('locator'))
+                             and bool(mapped_fields.get('Source locator')))
             verified_source = (item['source_id'] == 'dndbeyond-public-index'
                                and mapping.get('source') == provenance.get('source_url')
-                               and target.get('magic') is False) if public else provenance.get('original_publication_verified')
+                               and target.get('magic') is False) if public else (
+                                   provenance.get('original_publication_verified') or original_page)
             bonus = mapping.get('enhancement_bonus') if public else int(
                 bool(target.get('magic') and target.get('name', '').endswith(' (+1)')))
             if (mapping['status'] != 'published-reference' or not mapping.get('source')
@@ -171,6 +188,12 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
                 if mapping.get('mithral'):
                     fields.update(strength_requirement='None', stealth_disadvantage='No')
                 fields['effects'] = mapped_fields['Special powers']
+                if mapping.get('barding'):
+                    weight = mapped_fields.get('Weight', '')
+                    if (target_armor.get('name') == 'Shield'
+                            or not re.fullmatch(r'[1-9]\d*(?:\.\d+)? lb', weight)):
+                        errors.append('barding needs a worn armor base and a positive weight')
+                    fields.update(role='barding', weight=weight)
                 attuned_item = item if public else target
                 fields['attunement'] = 'Required' if attuned_item['requires_attunement'] else 'No'
                 variants.append(fields)

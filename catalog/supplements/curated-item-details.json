@@ -4755,6 +4755,88 @@
           "History": "Szoldar marks the bow for each wolf he kills. The text leaves the bow type unspecified."
         }
       }
+    ],
+    "curse-of-strahd-reference:46fa332ea1bbfd53": [
+      {
+        "label": "2024 protection · Leather Armor",
+        "profile_kind": "published-armor-mapping",
+        "status": "published-reference",
+        "source": "https://online.anyflip.com/rhoba/pyxn/files/basic-html/page135.html",
+        "fields": {
+          "Source locator": "Curse of Strahd, Argynvostholt Q13 (p. 134).",
+          "Armor class": "11 + Dex modifier",
+          "Training": "Light armor for this conversion.",
+          "Strength requirement": "None.",
+          "Stealth disadvantage": "No.",
+          "Weight": "10 lb using the Leather Armor profile. The adventure gives no measured weight for the tattered mail.",
+          "Attunement": "None.",
+          "Special powers": "None. The adventure states that the chapel revenants’ tattered mail offers the protection of leather. For a player who salvages a usable suit, use the full 2024 Leather Armor profile."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor",
+          "label": "Open 2024 Leather Armor"
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      }
+    ],
+    "curse-of-strahd-reference:b7d42274e00db79a": [
+      {
+        "label": "2024 Half Plate Barding",
+        "profile_kind": "published-armor-mapping",
+        "status": "published-reference",
+        "source": "https://online.anyflip.com/rhoba/pyxn/files/basic-html/page116.html",
+        "fields": {
+          "Source locator": "Curse of Strahd, Vallaki N5 (p. 115).",
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor for the wearer.",
+          "Strength requirement": "None.",
+          "Stealth disadvantage": "Yes.",
+          "Weight": "80 lb",
+          "Attunement": "None.",
+          "Replacement cost": "3,000 gp using 2024 barding at four times the 750 gp Half Plate price.",
+          "Special powers": "None. The adventure’s saber-toothed tiger has AC 17 with this specially fitted barding. Use the armor formula for another suitably fitted wearer."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_half-plate-armor",
+          "label": "Open 2024 Half Plate Armor"
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#MountsandVehicles",
+        "barding": true
+      }
+    ],
+    "curse-of-strahd-reference:c0969d5dcc3473aa": [
+      {
+        "label": "Encounter creature · Khazan’s Animated Armor",
+        "profile_kind": "armor-encounter-construct",
+        "status": "source-reported",
+        "source": "https://online.anyflip.com/rhoba/pyxn/files/basic-html/page172.html",
+        "fields": {
+          "Source locator": "Curse of Strahd, Van Richten’s Tower V7 (p. 171).",
+          "Use as armor": "This encounter uses the suit as a creature. There is no player equipment AC. At 0 Hit Points it breaks apart and is destroyed.",
+          "Creature defenses": "AC 18, 33 Hit Points, Speed 25 feet. Use Animated Armor for the base stat block.",
+          "Command": "Speak “Khazan” within 10 feet to activate it. It follows the activating creature’s instructions and becomes Incapacitated again after 24 hours without a new instruction. The command can reactivate it.",
+          "Attacks": "It makes two Slam attacks. Each is +4 to hit at 5 feet and deals 1d6 + 2 Bludgeoning on a hit.",
+          "Rules note": "The 2024 Animated Armor stat block can be used with the adventure’s activation and shutdown rules. Use the 2014 stat block if retaining its Antimagic Susceptibility."
+        },
+        "rules_source": "https://www.dndbeyond.com/monsters/5194893-animated-armor"
+      }
+    ],
+    "curse-of-strahd-reference:04f9651b9a775b54": [
+      {
+        "label": "Encounter creature · Strahd’s Animated Armor",
+        "profile_kind": "armor-encounter-construct",
+        "status": "source-reported",
+        "source": "https://online.anyflip.com/rhoba/pyxn/files/basic-html/page228.html",
+        "fields": {
+          "Source locator": "Curse of Strahd, appendix D (p. 227).",
+          "Use as armor": "This suit is an independent construct in the adventure. Its natural Armor Class and defenses belong to the creature. The adventure supplies no player equipment profile.",
+          "Creature defenses": "AC 21, 112 Hit Points, Speed 30 feet. Resistance to Cold and Fire. Immunity to Lightning and Poison. Blindsight 60 feet.",
+          "Control": "It understands Common and obeys only Strahd. It appears to be ordinary armor while motionless.",
+          "Antimagic": "Incapacitated in an Antimagic Field. Dispel Magic forces a Constitution save against the caster’s spell save DC. On failure it falls Unconscious for 1 minute.",
+          "Attacks": "Two Greatsword attacks or two Shocking Bolts. Greatsword: +6 to hit, reach 5 feet, 2d6 + 3 Slashing plus 1d6 Lightning. Shocking Bolt: +4 to hit at 60 feet, 3d6 Lightning, with Advantage against a target wearing metal armor."
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/cos/monsters-and-npcs"
+      }
     ]
   }
 }

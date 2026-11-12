@@ -884,6 +884,21 @@ def main():
                     }
                     return true;
                 })()''',
+                'Ravenloft armor cards distinguish worn armor from constructs': '''(async () => {
+                    const cases = [
+                        ["46fa332ea1bbfd53", ["11 + Dex modifier", "Light armor", "Open 2024 Leather Armor"]],
+                        ["b7d42274e00db79a", ["15 + Dex modifier (max +2)", "AC 17", "80 lb", "3,000 gp"]],
+                        ["c0969d5dcc3473aa", ["AC 18", "24 hours", "no player equipment AC"]],
+                        ["04f9651b9a775b54", ["AC 21", "112 Hit Points", "no player equipment profile"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("curse-of-strahd-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const details = inspection.textContent;
+                        if (!terms.every(term => details.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
