@@ -520,6 +520,18 @@ def main():
                     return ["DM review", "2d6 Necrotic", "2d6 HP", "holds up to 3"].every(value => staff.includes(value))
                         && ["Verified 2024 equipment mapping", "library dome", "+2 to attack"].every(value => dagger.includes(value));
                 })()''',
+                'Glantrian crafting weapons show flight, speed, and legacy costs': '''(async () => {
+                    inspect("gazetteer-local-pdf-reference:01cb1241597f745d", grid.firstElementChild);
+                    await itemDetails;
+                    const hammer = inspection.textContent;
+                    inspect("gazetteer-local-pdf-reference:f98b5563265e99aa", grid.firstElementChild);
+                    await itemDetails;
+                    const lance = inspection.textContent;
+                    return ["DM review", "Fly Speed of 60 ft", "recharges at dawn", "24,250 ducats"]
+                        .every(value => hammer.includes(value)) &&
+                        ["DM review", "Bonus Action", "unless mounted", "45,000 ducats"]
+                            .every(value => lance.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

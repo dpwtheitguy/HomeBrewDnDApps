@@ -2950,6 +2950,124 @@
         },
         "profile_kind": "custom-2024-draft"
       }
+    ],
+    "gazetteer-local-pdf-reference:e300b6a19202db61": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing plus Strength or Dexterity modifier.",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Activation": "Make a normal weapon attack.",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Attunement": "None",
+          "Legacy source": "GAZ4, p. 49, Utter Island. The weapon is treated with the compound used to harden sand architecture.",
+          "Special powers": "The treatment is a construction detail. Use the published base weapon’s combat rules."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:68a1fa5eca553ee4": [
+      {
+        "label": "Verified 2024 equipment mapping",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Piercing one-handed or 1d8 two-handed, plus Strength modifier.",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Activation": "Make a normal weapon attack.",
+          "Properties": "Thrown, Versatile (1d8)",
+          "Mastery": "Sap",
+          "Attunement": "None",
+          "Legacy source": "GAZ4, p. 49, Utter Island. The weapon is treated with the compound used to harden sand architecture.",
+          "Special powers": "The treatment is a construction detail. Use the published base weapon’s combat rules."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:8fbca6c539497978": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing plus Strength or Dexterity modifier.",
+          "Range": "5 ft melee",
+          "Activation": "Make a normal weapon attack.",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Attunement": "None",
+          "Special powers": "The imitation does not qualify as a silvered or magical weapon.",
+          "Legacy source": "GAZ3, p. 84, Adventures in Glantri. A werewolf shopkeeper sells convincing imitation silver blades.",
+          "Conversion notes": "The source does not specify a blade type. Use a Shortsword for this example."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 base equipment"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-local-pdf-reference:01cb1241597f745d": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#Fly",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Bludgeoning one-handed or 1d10 two-handed, plus 3 and Strength modifier.",
+          "Range": "5 ft melee; self for flight",
+          "Activation": "Make a normal weapon attack. While holding the hammer, use a Magic action to invoke flight.",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Push",
+          "Attunement": "Required",
+          "Attack bonus": "+3 to attack and damage rolls.",
+          "Special powers": "Gain a Fly Speed of 60 ft with hover. Concentrate for up to 10 minutes, as if concentrating on a spell. The effect ends early if you stop holding the hammer.",
+          "Recharge": "Once used, flight recharges at dawn.",
+          "Legacy source": "GAZ3, p. 66, Generic List of Enchantment Costs. 24,250 ducats and 32 days.",
+          "Conversion notes": "The crafting table names the power without specifying its operation. The draft uses the 2024 Fly spell as its benchmark."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_warhammer-plus-3",
+          "label": "Open 2024 base equipment"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-local-pdf-reference:f98b5563265e99aa": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#ScimitarofSpeed",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Piercing plus 3 and Strength modifier.",
+          "Range": "10 ft melee",
+          "Activation": "You can make one attack with this lance as a Bonus Action on each of your turns.",
+          "Properties": "Heavy, Reach, Two-Handed unless mounted",
+          "Mastery": "Topple",
+          "Attunement": "Required",
+          "Attack bonus": "+3 to attack and damage rolls.",
+          "Legacy source": "GAZ3, p. 66, Generic List of Enchantment Costs. 45,000 ducats and 52 days.",
+          "Conversion notes": "The named speed enchantment uses the 2024 Scimitar of Speed’s Bonus Action attack as its benchmark."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_lance-plus-3",
+          "label": "Open 2024 base equipment"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
     ]
   }
 }
