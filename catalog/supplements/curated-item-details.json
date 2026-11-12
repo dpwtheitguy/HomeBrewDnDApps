@@ -1,6 +1,165 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-1e-reference:c1d5cf24c5644133": [
+      {
+        "label": "D&D 2024 adaptation · Net of Entrapment",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.1eonline.info/3dmg/mgi/netofentrapment.htm",
+        "fields": {
+          "Category": "Wondrous item (magic net)",
+          "Damage": "No direct damage.",
+          "Attack bonus": "No attack roll. Affected creatures make a DC 15 Dexterity saving throw.",
+          "Range": "20 feet to the center of a 10-foot square when thrown. An anchored net can be commanded within 30 feet.",
+          "Activation": "When you take the Attack action, replace one attack with throwing the net over a 10-foot square you can see whose center is within 20 feet. Each Large or smaller creature in the square makes the save. As an alternative, spend 1 minute spreading the net on the floor or hanging it overhead. While within 30 feet, take a Magic action to speak its command word and close the net around creatures in a 5-foot cube immediately above it on the floor or immediately below it overhead. Each Large or smaller creature in that cube makes the save. A creature that fails has the Restrained condition.",
+          "Escape": "The target or a creature within 5 feet can take an action to attempt a DC 20 Strength (Athletics) check, freeing one restrained creature on a success. The net has AC 19, 10 Hit Points, and Immunity to Bludgeoning, Poison, and Psychic damage. Destroying it frees everyone.",
+          "Release and reuse": "The user can take a Bonus Action to speak the release word from within 30 feet, freeing everyone. No recharge is required, but the intact net must be retrieved before it can be deployed again.",
+          "Mastery": "None",
+          "Attunement": "None",
+          "Rarity": "Rare",
+          "Source locator": "AD&D 1e Dungeon Master’s Guide, Net of Entrapment. Table III.E.4 and linked description.",
+          "Conversion notes": "Preserves the 20-foot throw, broad mesh, and two anchored modes. Replaces the edition’s legacy save with a Dexterity save, translates the Strength threshold into a check, and assigns 2024 object defenses. The anchored mode uses a 5-foot cube.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Net"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_net",
+          "label": "Open 2024 Net benchmark"
+        }
+      }
+    ],
+    "dmg-1e-reference:14b6a1738975af4e": [
+      {
+        "label": "D&D 2024 adaptation · Net of Snaring",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.1eonline.info/3dmg/mgi/netofsnaring.htm",
+        "fields": {
+          "Category": "Wondrous item (magic net)",
+          "Damage": "No direct damage.",
+          "Attack bonus": "No attack roll. Affected creatures make a DC 15 Dexterity saving throw.",
+          "Range": "30 feet underwater.",
+          "Activation": "While you and the net are underwater, take a Magic action to speak its command word. Choose one Large or smaller creature you can see underwater within 30 feet. The net shoots from your hand toward it and restrains it on a failed save. The net has no magical effect out of water.",
+          "Escape": "The target or a creature within 5 feet can take an action to attempt a DC 20 Strength (Athletics) check, freeing one restrained creature on a success. The net has AC 19, 10 Hit Points, and Immunity to Bludgeoning, Poison, and Psychic damage. Destroying it frees everyone.",
+          "Release and reuse": "The user can take a Bonus Action to speak the release word from within 30 feet, freeing everyone. No recharge is required, but the intact net must be retrieved before it can be deployed again.",
+          "Mastery": "None",
+          "Attunement": "None",
+          "Rarity": "Rare",
+          "Source locator": "AD&D 1e Dungeon Master’s Guide, Net of Snaring. Table III.E.4 and linked description.",
+          "Conversion notes": "Preserves the underwater-only command and uses the 2e statement of 30 feet for the modern range. Uses the 2024 Restrained condition and the legacy net’s durable construction as the benchmark.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Net"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_net",
+          "label": "Open 2024 Net benchmark"
+        }
+      }
+    ],
+    "dmg-2e-reference:c1d5cf24c5644133": [
+      {
+        "label": "D&D 2024 adaptation · Net of Entrapment",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/AD%26D%201e-2e%2C%20D%26D%2C%20OD%26D%20%28TSR%29/AD%26D%202e%20%28Selected%20Material%29/Dungeon%20Master%20Guide%20Revised%20%28Premium%20Edition%29%20%282e%29.pdf",
+        "fields": {
+          "Category": "Wondrous item (magic net)",
+          "Damage": "No direct damage.",
+          "Attack bonus": "No attack roll. Affected creatures make a DC 15 Dexterity saving throw.",
+          "Range": "20 feet to the center of a 10-foot square when thrown. An anchored net can be commanded within 30 feet.",
+          "Activation": "When you take the Attack action, replace one attack with throwing the net over a 10-foot square you can see whose center is within 20 feet. Each Large or smaller creature in the square makes the save. As an alternative, spend 1 minute spreading the net on the floor or hanging it overhead. While within 30 feet, take a Magic action to speak its command word and close the net around creatures in a 5-foot cube immediately above it on the floor or immediately below it overhead. Each Large or smaller creature in that cube makes the save. A creature that fails has the Restrained condition.",
+          "Escape": "The target or a creature within 5 feet can take an action to attempt a DC 20 Strength (Athletics) check, freeing one restrained creature on a success. The net has AC 19, 10 Hit Points, and Immunity to Bludgeoning, Poison, and Psychic damage. Destroying it frees everyone.",
+          "Release and reuse": "The user can take a Bonus Action to speak the release word from within 30 feet, freeing everyone. No recharge is required, but the intact net must be retrieved before it can be deployed again.",
+          "Mastery": "None",
+          "Attunement": "None",
+          "Rarity": "Rare",
+          "Source locator": "AD&D 2e Dungeon Master’s Guide, Net of Entrapment. Appendix 3, Table 110 and item description.",
+          "Conversion notes": "Preserves the 20-foot throw, broad mesh, and two anchored modes. Replaces the edition’s legacy save with a Dexterity save, translates the Strength threshold into a check, and assigns 2024 object defenses. The anchored mode uses a 5-foot cube.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Net"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_net",
+          "label": "Open 2024 Net benchmark"
+        }
+      }
+    ],
+    "dmg-2e-reference:14b6a1738975af4e": [
+      {
+        "label": "D&D 2024 adaptation · Net of Snaring",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/AD%26D%201e-2e%2C%20D%26D%2C%20OD%26D%20%28TSR%29/AD%26D%202e%20%28Selected%20Material%29/Dungeon%20Master%20Guide%20Revised%20%28Premium%20Edition%29%20%282e%29.pdf",
+        "fields": {
+          "Category": "Wondrous item (magic net)",
+          "Damage": "No direct damage.",
+          "Attack bonus": "No attack roll. Affected creatures make a DC 15 Dexterity saving throw.",
+          "Range": "30 feet underwater.",
+          "Activation": "While you and the net are underwater, take a Magic action to speak its command word. Choose one Large or smaller creature you can see underwater within 30 feet. The net shoots from your hand toward it and restrains it on a failed save. The net has no magical effect out of water.",
+          "Escape": "The target or a creature within 5 feet can take an action to attempt a DC 20 Strength (Athletics) check, freeing one restrained creature on a success. The net has AC 19, 10 Hit Points, and Immunity to Bludgeoning, Poison, and Psychic damage. Destroying it frees everyone.",
+          "Release and reuse": "The user can take a Bonus Action to speak the release word from within 30 feet, freeing everyone. No recharge is required, but the intact net must be retrieved before it can be deployed again.",
+          "Mastery": "None",
+          "Attunement": "None",
+          "Rarity": "Rare",
+          "Source locator": "AD&D 2e Dungeon Master’s Guide, Net of Snaring. Appendix 3, Table 110 and item description.",
+          "Conversion notes": "Preserves the underwater-only command and uses the 2e statement of 30 feet for the modern range. Uses the 2024 Restrained condition and the legacy net’s durable construction as the benchmark.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Net"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_net",
+          "label": "Open 2024 Net benchmark"
+        }
+      }
+    ],
+    "dmg-2e-reference:49f814d47541be34": [
+      {
+        "label": "D&D 2024 adaptation · Dart of Homing",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/AD%26D%201e-2e%2C%20D%26D%2C%20OD%26D%20%28TSR%29/AD%26D%202e%20%28Selected%20Material%29/Dungeon%20Master%20Guide%20Revised%20%28Premium%20Edition%29%20%282e%29.pdf",
+        "appraise_as_magic_weapon": true,
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dart",
+          "label": "Open 2024 Dart"
+        },
+        "fields": {
+          "Category": "Simple ranged weapon (Dart)",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 3.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "40/120 feet.",
+          "Properties": "Finesse, Thrown (40/120 feet)",
+          "Mastery": "Vex",
+          "Attunement": "None",
+          "Rarity": "Very Rare",
+          "Activation": "Make a ranged weapon attack with the dart.",
+          "Special powers": "Immediately after a hit, the dart returns to your hand if you have a free hand, otherwise it lands at your feet. After a miss it permanently becomes a mundane Dart and stays where it lands.",
+          "Source locator": "AD&D 2e Dungeon Master’s Guide, Appendix 3, Darts of Homing.",
+          "Conversion notes": "Keeps the original +3, d6, hit-only return, and loss of magic on a miss. Doubles both modern Dart ranges, using the original double-range rule.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-2e-reference:55e6b768e5d06354": [
+      {
+        "label": "D&D 2024 adaptation · Hornblade",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/AD%26D%201e-2e%2C%20D%26D%2C%20OD%26D%20%28TSR%29/AD%26D%202e%20%28Selected%20Material%29/Dungeon%20Master%20Guide%20Revised%20%28Premium%20Edition%29%20%282e%29.pdf",
+        "fields": {
+          "Category": "Simple melee (knife or dagger form) or Martial melee (scimitar form).",
+          "Damage": "Knife or dagger 1d4 Piercing, or scimitar 1d6 Slashing. Add the Strength or Dexterity modifier used for the attack and the weapon’s magic bonus.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient with the form, plus its magic bonus.",
+          "Range": "5 feet melee. Knife and dagger also have thrown range 20/60 feet.",
+          "Properties": "Finesse and Light in all forms. Only knife and dagger forms have Thrown.",
+          "Mastery": "Nick (use Dagger mastery for the knife or dagger, or Scimitar mastery for the large form).",
+          "Attunement": "None",
+          "Rarity": "Uncommon (+1), Rare (+2), or Very Rare (+3).",
+          "Activation": "As a Bonus Action while holding the hilt, press the concealed release to extend the blade or retract it. Make normal weapon attacks with the extended blade.",
+          "Special powers": "The form is fixed when the weapon is created. Knife and dagger variants are +1 or +2. Scimitar variants are +2 or +3. With the blade retracted the weapon resembles a short piece of horn. A creature inspecting the hilt can find the release with a successful DC 15 Intelligence (Investigation) check.",
+          "Source locator": "AD&D 2e Dungeon Master’s Guide, Appendix 3, Hornblade.",
+          "Conversion notes": "Keeps the original forms, enhancement ranges, concealable blade, and thrown restriction. Uses the 2024 Dagger for both small forms.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
     "adventurers-vault-1-reference:08047318633f9e93": [
       {
         "appraise_as_magic_weapon": true,

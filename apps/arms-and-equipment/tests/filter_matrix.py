@@ -1740,6 +1740,22 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'AD&D nets and concealed or returning weapons show their distinct rules': '''(async () => {
+                    const cases = [
+                        ["dmg-1e-reference:c1d5cf24c5644133", ["10-foot square", "5-foot cube", "DC 20 Strength", "7500 gp"]],
+                        ["dmg-2e-reference:c1d5cf24c5644133", ["DC 15 Dexterity", "hanging it overhead", "AC 19"]],
+                        ["dmg-1e-reference:14b6a1738975af4e", ["30 feet underwater", "no magical effect out of water", "6000 gp"]],
+                        ["dmg-2e-reference:14b6a1738975af4e", ["speak its command word", "Destroying it frees everyone"]],
+                        ["dmg-2e-reference:49f814d47541be34", ["1d6 Piercing", "40/120 feet", "After a miss it permanently becomes"]],
+                        ["dmg-2e-reference:55e6b768e5d06354", ["scimitar 1d6 Slashing", "20/60 feet", "Scimitar variants are +2 or +3"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!["D&D 2024 adaptation", ...terms].every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Adventurer’s Vault late upgrades display relocation and ongoing effects': '''(async () => {
                     const cases = [
                         ["08047318633f9e93", ["original DC", "transfers to the target with its remaining duration"]],
