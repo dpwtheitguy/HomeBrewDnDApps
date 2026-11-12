@@ -1,6 +1,355 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:3f5bab1e49197d6d": [
+      {
+        "label": "D&D 2024 adaptation · Alhambra",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_swords.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "A hit against a Dragon deals an extra 2d6 Slashing. Blood from a wound becomes harmless rose sprouts on exposed soil and grows into flowers after 1d4 rounds. If the sword kills a creature, the corpse is covered in roses. After 1d8 days the DM may have them become vampire roses. Vampire roses do not attack the attuned wielder unless attacked first.",
+          "Conversion notes": "The fan source’s higher bonus against Dragons becomes extra damage. Vampire roses use the campaign’s creature rules.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 1, PDF p. 14.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Wishes": "The sword has two charges that never return. While attuned, take a Magic action and spend 1 charge to cast Wish. Use the ordinary consequences of Wish."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:7b5dd2720c9bcdeb": [
+      {
+        "label": "D&D 2024 adaptation · Clockworks Mark 3",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_swords.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "The sword holds up to 10 charges. When you would take Lightning damage while holding it, use a Reaction to gain Resistance against that damage and add 2 charges. At dawn it loses 1 charge. At 0 charges its attack enhancement is suppressed, but it can still absorb Lightning.",
+          "Conversion notes": "Charge costs replace point-for-point storage and overload. Uses the 2024 Longsword.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 1, PDF pp. 15–16.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Discharge": "On a hit spend 1–3 charges to add 1d6 Lightning per charge. As a Magic action spend 3 charges to cast Lightning Bolt (DC 17).",
+          "Clockwork tools": "Spend 1 charge and 1 minute examining a mechanical lock or trap. You then have Advantage on the next check to open or disarm it within 1 minute.",
+          "Rune portal": "Once per dawn as a Magic action, spend 8 charges to create a two-way portal in an unoccupied space within 5 feet for 1 minute. On the Material Plane, the DM chooses an extraplanar destination unless you spend 2 additional charges and present an object linked to a specific plane. Outside the Material Plane, it opens to a location on the Material Plane chosen by the DM."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:cf83cf6786064e33": [
+      {
+        "label": "D&D 2024 adaptation · Zunar",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_swords.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "A hit against a Cleric or Paladin deals an extra 2d6 Necrotic. As a Magic action, cast See Invisibility or Detect Evil and Good at will. Cast Detect Magic, Major Image, or Telekinesis up to three times each per dawn and Teleport once per dawn. Use spell save DC 17 and a +5 modifier for spellcasting ability checks.",
+          "Conversion notes": "Adds damage in place of the legacy enhancement and replaces level loss with temporary Hit Point maximum reduction.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 1, PDF p. 17.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Energy drain": "On a hit, expend one of six charges that never return to add 3d8 Necrotic damage. Reduce the target’s Hit Point maximum by the Necrotic damage it actually took until it finishes a Long Rest.",
+          "Sentience": "The demon in Zunar speaks Common, Abyssal, Draconic, and Giant. It opposes the Church of Halav and can suppress its spellcasting powers if its wielder refuses its demands, at the DM’s discretion."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:8e0a643e8d7ce540": [
+      {
+        "label": "D&D 2024 adaptation · Leviathan",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_swords.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "While holding or carrying the sword, you can breathe underwater. A hit against a creature with a Swim Speed deals an extra 2d6 Slashing. At the start of your turn, transfer up to 3 points of the enhancement from attack and damage to AC until the start of your next turn while holding it. As a Magic action, cast Detect Evil and Good or sense the direction of gemstones within 30 feet. It is the key to the Hall of the Old Man of the Sea.",
+          "Conversion notes": "Extra damage replaces the legacy enhancement against water-dwellers. The sea dragon uses a bounded draft profile.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 1, PDF p. 18.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Sea dragon": "Once per dawn as a Magic action while within 30 feet of water, transform the sword into a Huge sea dragon in an unoccupied space in that water. AC 17, 100 HP, Swim Speed 60 feet, Water Breathing, and no movement on land. It acts immediately after you and follows verbal commands or Dodges. Its bite is +8 to hit, reach 10 feet, and deals 3d12 Piercing. The form lasts 10 minutes with Concentration, until you recall it as a Bonus Action, or until it reaches 0 HP. It reverts in its space. At 0 HP it loses all magic until repaired with a 1-hour ritual at the Hall."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:8e3ee36bbbfd9e67": [
+      {
+        "label": "D&D 2024 adaptation · Nanaki",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_swords.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 Slashing + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "6 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "When an attack roll with the sword is a natural 1, roll 1d6. On a 1 the blade breaks. Keep all pieces in its jade scabbard for seven days to restore it. While intact, cast Disguise Self at will or Telekinesis (spellcasting ability modifier +5) once per dawn as a Magic action.",
+          "Conversion notes": "Uses a +3 Greatsword. A single temporary Undead replaces the legacy menu of servants.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 1, PDF pp. 19–20.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Raise the slain": "Once per dawn after killing a Humanoid with the blade, take a Magic action within 5 feet of the corpse. It rises as a Zombie under your control for 1 hour, then collapses. It acts immediately after you and follows verbal commands or Dodges. Each use ages you by one year. If you die while holding the sword, your body rises as a hostile Zombie after 1d10 days unless the body was revived or destroyed."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:fa76f9b8424c09b8": [
+      {
+        "label": "D&D 2024 adaptation · Lancet",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_swords.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 Slashing + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "6 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "As a Magic action, cast Detect Magic or Hold Person (DC 17), each up to three times per dawn. Once per turn when you hit, you may force a DC 17 Constitution save. On failure the target ages by the result of the weapon’s damage dice instead of taking damage from this attack. This adds narrative age without ability penalties. On success resolve damage normally. While attuned and carrying Lancet, you do not age.",
+          "Conversion notes": "Uses the 2024 Greatsword. Its disappearance and the Clock of Repetition’s time travel remain story events controlled by the DM.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 1, PDF p. 21.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:588d5404b5c710ed": [
+      {
+        "label": "D&D 2024 adaptation · Ogromath the Beheader",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_swords.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 + 3 Slashing before special powers.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "20 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required by a creature with Strength 16 or higher",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "This stone sword requires Strength 16 to wield. Add Strength to the attack roll. For damage, use 2d6 + 3 and omit a positive Strength modifier. A hit against a Giant deals an extra 2d6 Slashing. Up to three times per dawn on a hit, add a further 3d6 Slashing. As a Magic action, cast Detect Magic up to three times per dawn.",
+          "Conversion notes": "Uses a +3 Greatsword. Extra dice replace the legacy enhancement and damage multipliers.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 1, PDF p. 22.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:3ba4fa780c078cab": [
+      {
+        "label": "D&D 2024 adaptation · Heartbeat",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_swords.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 Slashing + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "6 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required for the redeemed blade",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "The listed +2 is the redeemed profile. While cursed, the sword instead imposes −2 on its attack and damage rolls. When you first grasp it, make a DC 17 Wisdom save. On failure you cannot willingly part with it until Remove Curse frees you. A DM-led act of freely given protection can redeem the sword permanently.",
+          "Conversion notes": "The draft replaces the legacy escalating Charisma loss and compelled harm with an attachment curse. The redemption is a story event.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 1, PDF pp. 23–24.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Redeemed blade": "While attuned, at the start of your turn transfer up to 2 points of the attack and damage bonus to AC until the start of your next turn while holding it. You are immune to the Charmed condition. Once per dawn when you miss with the sword, reroll the attack and use the new result."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:55c975758d2948fc": [
+      {
+        "label": "D&D 2024 adaptation · Sahara",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_swords.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "While carrying Sahara, you need no water. When the unsheathed sword rests on soil or is immersed in water for an hour, it begins drying an area centered on itself. The dry area grows by 5 feet per hour up to a 30-foot radius. Within it, standing nonmagical water up to 1 foot deep evaporates and ordinary plants except desert plants wilt. Moving or sheathing the sword stops the effect. A flowing river can refill the area normally.",
+          "Conversion notes": "The draft limits the original regional effect to a local encounter. Widespread drought remains a campaign event.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 1, PDF p. 25.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:6abf2f386a30fca6": [
+      {
+        "label": "D&D 2024 adaptation · Maran",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_swords.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 3.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "On a hit against a creature wielding a weapon, deal an extra 1d6 Piercing. At the start of your turn transfer up to 3 points of the attack and damage bonus to AC until the start of your next turn while holding it. As a Magic action, sense the direction of metal within 30 feet. Maran speaks telepathically with its wielder and may withhold its powers outside the Five Shires at the DM’s discretion.",
+          "Conversion notes": "Extra dice replace the legacy weapon-user bonus. Flying attacks use a bounded distance and duration.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 1, PDF p. 26.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Flying attack": "Once per dawn after attacking a creature with the sword, launch it at that creature as a Bonus Action. At the end of each of your next three turns it attacks that creature once using your modifiers if it is within 30 feet of you. It returns after the third turn, when the target leaves that range or drops to 0 Hit Points, or when recalled as a Bonus Action. It lands at your feet if you lack a free hand. You cannot use it for other attacks while it flies."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:86d414ad544ea251": [
+      {
+        "label": "D&D 2024 adaptation · Destiny’s Mist",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_swords.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "The blade is immune to damage. While cursed, it consumes one coin of the highest denomination you carry per hit, or one gemstone if you have no coins. Once per night cast Fog Cloud as a Magic action with a 30-foot radius. While maintaining that fog, the sword consumes five coins or one gemstone at the start of each of your turns. When you cannot pay, the fog ends and the sword loses its enhancement until you carry treasure again.",
+          "Conversion notes": "The draft replaces damage-scaled currency drain and unlimited gemstone production with fixed costs and bounded rewards.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 1, PDF pp. 27–28.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Redemption": "A sustained, costly act of generosity approved by the DM ends the curse. The sword becomes +3, and its nightly fog costs nothing.",
+          "Redeemed powers": "As a Magic action, sense gems or metal within 30 feet at will. Each up to three times per dawn, detect the direction of a secret door within 30 feet, cast See Invisibility, Levitate, or Detect Thoughts (DC 17), or see through up to 1 foot of nonmagical material within 30 feet for 1 minute with Concentration. Once per dawn after the sword kills a hostile creature, one gemstone worth 1d6 × 10 gp appears."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:a9afc7ac0e3e01e4": [
+      {
+        "label": "D&D 2024 adaptation · Blessing",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_swords.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Radiant (1d10 in two hands) + Strength modifier + 3, plus 2d6 Radiant, against Undead only.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Against an Undead, the sword deals Radiant instead of Slashing damage and adds 2d6 Radiant. An Undead holding it takes 2d6 Radiant at the start of each of its turns. Against other creatures it deals no damage. Instead, as a Magic action touch a willing non-Undead creature and restore 1d8 + 3 Hit Points, up to three times per dawn.",
+          "Conversion notes": "Limited healing replaces the original unlimited healing attacks. Additional dice replace the legacy anti-Undead enhancement.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 1, PDF p. 29.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Holy aura": "An attuned Cleric or Paladin can use the sword as a Holy Symbol. If you have Turn Undead, add +2 to the save DC when you use that feature while holding the sword."
+        }
+      }
+    ],
     "mystara-fan-names-reference:e7a812a9622d9dff": [
       {
         "label": "D&D 2024 adaptation · Khadril",

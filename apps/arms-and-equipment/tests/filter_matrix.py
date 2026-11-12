@@ -1871,6 +1871,23 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Mystara early-volume swords show resource limits and distinct transformations': '''(async () => {
+                    for (const [id, terms] of [
+                        ["7b5dd2720c9bcdeb", ["10 charges", "Rune portal", "Lightning Bolt"]],
+                        ["8e0a643e8d7ce540", ["Sea dragon", "100 HP", "3d12 Piercing"]],
+                        ["8e3ee36bbbfd9e67", ["jade scabbard", "seven days", "Zombie"]],
+                        ["3ba4fa780c078cab", ["Redeemed blade", "DC 17 Wisdom", "Charmed"]],
+                        ["86d414ad544ea251", ["Redemption", "five coins", "1d6 × 10 gp"]],
+                        ["a9afc7ac0e3e01e4", ["against Undead only", "1d8 + 3 Hit Points", "Turn Undead"]],
+                    ]) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Mystara early-volume swords show reflection, flight, and elemental control': '''(async () => {
                     for (const [id, terms] of [
                         ["e7a812a9622d9dff", ["Hit Point Die", "2d6 Hit Points", "Remove Curse"]],
