@@ -1830,6 +1830,22 @@ def main():
                         if (!byId("custom-items").hidden) click("close-custom-items");
                     }
                 })()''',
+                'Mystara fan armor retains distinct wards, drawbacks, and AC': '''(async () => {
+                    const cases = [
+                        ["0dc6a22af269958e", ["Armor class bonus+5", "DC 17 Wisdom", "Once per new moon"]],
+                        ["fccb909cde95bd38", ["200,000 gp", "roll 1d4", "random-encounter die"]],
+                        ["50d31b7b990d80d6", ["two independent saves", "Zone of Truth"]],
+                        ["79b1b547e5df71e2", ["Armor class18", "including an ally", "1d6 + 1 Hit Points"]],
+                        ["875f1a4b7ad7d424", ["Armor class20", "Resistance to Necrotic", "Bright Light within 60 feet"]],
+                        ["4eb4e221f8c114eb", ["Armor class21", "breathe underwater", "weaponize water"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'GAZ13 staves and Firnafel’s bolts show activation and limits': '''(async () => {
                     const cases = [
                         ["70e65a05072c0b10", ["Dominate Beast (4 charges)", "Falanen"]],

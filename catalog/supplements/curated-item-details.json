@@ -1,6 +1,169 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:0dc6a22af269958e": [
+      {
+        "label": "D&D 2024 adaptation · Shield of Alphaks",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/Unique_magic_armors_and_shields.pdf",
+        "fields": {
+          "Armor class bonus": "+5",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While wielding the attuned shield, you can take a Magic action to project terror. Each other creature of your choice within 60 feet that can see you makes a DC 17 Wisdom save. On a failure it is Frightened of you for 1 minute and can repeat the save at the end of each of its turns. This power recharges at dawn.",
+          "Source locator": "Emanuele Betti, Unique Magic Armors and Shields, PDF p. 12, Shield of Alphaks.",
+          "Conversion notes": "Caps the legacy +4 at +3. Converts constant terror into a daily activation. Keeps the new-moon curse and the shield’s hostility toward Lawful wielders.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Curse": "Once per new moon, take a Magic action to cast Bestow Curse on a creature within 10 feet (DC 17 Wisdom). It lasts until removed without Concentration. A Lawful wielder takes 2d6 Necrotic damage at the start of each turn while wielding the shield.",
+          "History": "Crafted by the Black King and Black Queen on Alphaks Volcano for their Black General."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield-plus-3",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:fccb909cde95bd38": [
+      {
+        "label": "D&D 2024 adaptation · Shield of Gemstones",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/Unique_magic_armors_and_shields.pdf",
+        "fields": {
+          "Armor class bonus": "+5",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "When a spell would first affect you while you wield the attuned shield, roll 1d4. On 2–4, the spell has no effect on you for its duration. Other targets and the rest of its area are unaffected. This also applies to beneficial spells. You can stop wielding the shield before receiving a spell.",
+          "Source locator": "Emanuele Betti, Unique Magic Armors and Shields, PDF p. 9, Shield of Gemstones.",
+          "Conversion notes": "Caps the legacy +5 at +3 and translates the 75% chance to a d4. Preserves encounter risk and the ruby’s material value as a source estimate.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Encounter risk": "While the shield travels with the party, add one additional triggering face to each random-encounter die, up to the die’s maximum. After a year, recurring nightmares begin. Defeating Arik ends the encounter effect and nightmares.",
+          "Source material value": "200,000 gp for the materials alone in the fan source. This is a legacy figure.",
+          "History": "A ruby linked to Arik sits at the center of the shield."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield-plus-3",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:50d31b7b990d80d6": [
+      {
+        "label": "D&D 2024 adaptation · Virtue Shield",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/Unique_magic_armors_and_shields.pdf",
+        "fields": {
+          "Armor class bonus": "+5",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required by a Lawful Good creature.",
+          "Rarity": "Legendary",
+          "Special powers": "While wielding the attuned shield, make two independent saves against a Dragon’s breath weapon when it normally allows a save. For each success halve the damage, rounding down after each reduction. For effects other than damage, use the first save only. Apply Resistance normally after the reductions.",
+          "Source locator": "Emanuele Betti, Unique Magic Armors and Shields, PDF p. 4, Virtue Shield.",
+          "Conversion notes": "Caps the legacy +4 at +3. Keeps two independent saves and translates empathic demands into a defined sentient-item conflict.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Sentience": "Lawful Good shield, Intelligence 9, Wisdom 16, Charisma 14. It communicates emotions to its attuned wielder and urges them to protect people in danger.",
+          "Detect lies": "While wielding it, take a Magic action to cast Zone of Truth at will (DC 15 Charisma). If you knowingly speak a lie while wielding it, take 1d6 + 1 Psychic damage. This damage can occur once per turn."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield-plus-3",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:79b1b547e5df71e2": [
+      {
+        "label": "D&D 2024 adaptation · Crimson Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/Unique_magic_armors_and_shields.pdf",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When you roll Initiative while wearing the attuned armor and facing a hostile Humanoid, enter a frenzy. During it, gain +2 to melee weapon attack rolls against Humanoids. On your turns, move toward and attack the nearest creature you can perceive, including an ally, breaking ties randomly. Dash toward it if you cannot reach it. After no conscious hostile creature remains within 60 feet, make a DC 15 Wisdom save at the end of each of your turns to end the frenzy.",
+          "Source locator": "Emanuele Betti, Unique Magic Armors and Shields, PDF p. 5, Crimson Mail.",
+          "Conversion notes": "Keeps the legacy bonus, nearest-target compulsion, recovery save, and limited healing. The conversion represents the original alignment change as the armor’s ongoing influence.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Bloodlust": "While wearing the armor, take a Magic action to drink blood from a creature you slew within the last minute and regain 1d6 + 1 Hit Points. A corpse can fuel this power only once.",
+          "History": "Made by Atzanteotl in Aengmor. The fan account places it with Hool of Red Orcland."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-2",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:875f1a4b7ad7d424": [
+      {
+        "label": "D&D 2024 adaptation · Mail of Ranwood",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/Unique_magic_armors_and_shields.pdf",
+        "fields": {
+          "Armor class": "20",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While wearing the attuned armor you are immune to Frightened and Radiant damage, and have Resistance to Necrotic damage. If you are Chaotic, take 1d6 Fire damage at the start of each turn while wearing it.",
+          "Source locator": "Emanuele Betti, Unique Magic Armors and Shields, PDF p. 21, Mail of Ranwood.",
+          "Conversion notes": "Uses Splint as the base for banded mail and caps the legacy +4 at +3. Represents Light and Dark damage with Radiant and Necrotic.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Light": "As a Bonus Action, set the topaz bands to off, Dim Light within 10 feet, Bright Light within 30 feet, or Bright Light within 60 feet. The Bright Light settings also shed Dim Light for an equal distance beyond.",
+          "History": "Forged in Ranwood, Vestland, for a champion devoted to Odin."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor-plus-3",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:4eb4e221f8c114eb": [
+      {
+        "label": "D&D 2024 adaptation · Wave Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/Unique_magic_armors_and_shields.pdf",
+        "fields": {
+          "Armor class": "21",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While wearing the attuned armor, you can breathe underwater and gain a Swim Speed equal to your walking Speed. The suit is weightless while fully submerged, and its Strength requirement and Stealth disadvantage do not apply while submerged.",
+          "Source locator": "Emanuele Betti, Unique Magic Armors and Shields, PDF p. 11, Wave Mail.",
+          "Conversion notes": "Caps the legacy +5 at +3. Defines protection against water magic by an explicit trigger, since 2024 rules have no Water damage type.",
+          "2024 rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Water ward": "You have Advantage on saves against spells and magical effects that create, move, or weaponize water. You have Resistance to Bludgeoning damage dealt by those effects.",
+          "History": "A rumored treasure of the Old Man of the Sea, said to be guarded by Leviathan."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-3",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
     "gaz13-online-adaptation-reference:70e65a05072c0b10": [
       {
         "label": "D&D 2024 adaptation · Staff of Commanding",
