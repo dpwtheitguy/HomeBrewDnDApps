@@ -3267,6 +3267,77 @@
           "label": "Open 2024 base equipment"
         }
       }
+    ],
+    "gazetteer-local-pdf-reference:6a9440c634d1adb8": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "fields": {
+          "Armor class bonus": "+2 while wielded with Shield training.",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "None",
+          "Damage": "2d4 Slashing plus Strength modifier.",
+          "Range": "20/60 ft thrown.",
+          "Activation": "If you are wielding the shield, you can replace one attack during the Attack action with throwing it. Make a ranged attack using Strength. Add your proficiency bonus if you have Shield training.",
+          "Special powers": "Throwing ends your AC bonus immediately. The shield lands in the target’s space on a hit or miss, and it does not return by itself. Recover it and use a Utilize action to don it again.",
+          "Legacy source": "GAZ8, p. 48, Rundegos. Karst sells the spinning razor-edged shield for 1 gp. The source gives 2–8 damage.",
+          "Conversion notes": "Preserves the source’s damage as 2d4. Uses the 2024 Shield’s AC and donning rules. Range and attack procedure are conversion choices."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:65281be9fe29138e": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "None",
+          "Special powers": "Use Chain Mail +1 for the guard’s magical armor. Strength below 13 reduces Speed by 10 ft.",
+          "Legacy source": "GAZ11, p. 51, Guard Room. The magical armor grants legacy AC 3. The entry gives no base armor type.",
+          "Conversion notes": "Chain Mail +1 supplies modern AC 17 as the chosen heavy-armor profile."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:3bded5794e3835eb": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#DancingSword",
+        "fields": {
+          "Category": "Legendary magic scabbard and summoned martial melee weapon",
+          "Damage": "2d8 Slashing plus 3 on a hit by the summoned blade.",
+          "Range": "The blade strikes a creature within 5 ft of itself.",
+          "Activation": "While holding the attuned scabbard, use a Magic action to summon the blade in an unoccupied space within 30 ft. On later turns, use a Bonus Action to move it up to 30 ft within 30 ft of you and make one attack from its space.",
+          "Attack bonus": "+11 for the summoned blade’s attacks.",
+          "Properties": "Summoned blade. The scabbard controls its movement.",
+          "Attunement": "Required by the scabbard.",
+          "Duration and recharge": "Lasts 1 minute. The blade vanishes early if it is more than 30 ft from you or you release the scabbard. Once summoned, it cannot be summoned again until dawn.",
+          "Legacy source": "GAZ2, p. 63, The City of Brass. The scabbard is the actual treasure. It calls forth a sword that fights as a 20th-level fighter in the original rules.",
+          "Conversion notes": "The summoned sword has a fixed attack and damage profile inspired by Dancing Sword. The displayed Longsword link is a reference for its form."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 base equipment"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
     ]
   }
 }

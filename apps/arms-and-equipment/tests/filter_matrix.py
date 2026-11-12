@@ -554,6 +554,18 @@ def main():
                         ["DM review", "Swim Speed", "within 10 ft", "Pearl of Power"]
                             .every(value => water.includes(value));
                 })()''',
+                'Karst shield and Thunderbolt scabbard show distinct combat rules': '''(async () => {
+                    inspect("gazetteer-local-pdf-reference:6a9440c634d1adb8", grid.firstElementChild);
+                    await itemDetails;
+                    const shield = inspection.textContent;
+                    inspect("gazetteer-local-pdf-reference:3bded5794e3835eb", grid.firstElementChild);
+                    await itemDetails;
+                    const sword = inspection.textContent;
+                    return ["DM review", "2d4 Slashing", "20/60 ft", "Utilize action"]
+                        .every(value => shield.includes(value)) &&
+                        ["DM review", "scabbard", "+11", "2d8 Slashing", "until dawn"]
+                            .every(value => sword.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
