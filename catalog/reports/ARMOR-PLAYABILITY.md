@@ -6,8 +6,8 @@ Scope includes records indexed as armor or shield. Helmets, clothing, and other 
 
 | Evidence | Records |
 |---|---:|
-| reference-only | 1,877 |
-| item-specific-source-armor-draft + curated detail | 262 |
+| reference-only | 1,872 |
+| item-specific-source-armor-draft + curated detail | 265 |
 | verified-2024-armor-mapping + curated detail | 195 |
 | item-specific-game-armor-draft + curated detail | 158 |
 | native-bg3 | 141 |
@@ -17,10 +17,10 @@ Scope includes records indexed as armor or shield. Helmets, clothing, and other 
 | verified-2024-armor-counterpart | 53 |
 | item-specific-draft | 29 |
 | published-2024-reference | 7 |
+| adapted-protective-implement + curated detail | 6 |
 | item-specific-barding-draft + curated detail | 6 |
-| adapted-protective-implement + curated detail | 5 |
 | third-party-armor-fields | 5 |
-| adapted-protective-garment + curated detail | 3 |
+| adapted-protective-garment + curated detail | 4 |
 | documented-armor-construct + curated detail | 2 |
 | documented-armor-accessory + curated detail | 2 |
 

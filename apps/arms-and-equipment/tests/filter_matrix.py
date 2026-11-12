@@ -1830,6 +1830,21 @@ def main():
                         if (!byId("custom-items").hidden) click("close-custom-items");
                     }
                 })()''',
+                'Mystara powered armor displays separate charge and protection modes': '''(async () => {
+                    const cases = [
+                        ["e39c83175ba9bbe5", ["Armor class16", "18 lb", "including firearms"]],
+                        ["eec9086b6ea6971f", ["Armor class18", "32.5 lb"]],
+                        ["cd731ae7e0420a14", ["24 hours", "11 + Dexterity modifier", "1 additional charge per hour"]],
+                        ["eb2eeed3f8a7560d", ["AC 16", "seven days", "5 per charge"]],
+                        ["83d1901e62478a5e", ["no AC bonus", "12 saved appearances", "1 charge for 1 minute"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Mystara energy shields show distinct power and defense rules': '''(async () => {
                     const cases = [
                         ["1234f6e04adc22c7", ["Armor class bonus+2", "30 gp equivalent"]],

@@ -1,6 +1,121 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:e39c83175ba9bbe5": [
+      {
+        "label": "D&D 2024 adaptation · Fibre Armour",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf",
+        "fields": {
+          "Armor class": "16",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Attunement": "None",
+          "Weight": "18 lb",
+          "Source value": "80 gp equivalent.",
+          "Special powers": "Use the listed AC for all attack rolls, including firearms.",
+          "Conversion notes": "Uses Chain Mail protection, with about one-third of its weight. The listed Strength requirement and Stealth disadvantage use the Chain Mail baseline.",
+          "Source locator": "Cyclopaedic Compendium, Volume 2, PDF pp. 7 and 14, Armour descriptions and price table.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:eec9086b6ea6971f": [
+      {
+        "label": "D&D 2024 adaptation · Laminate Plate",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Attunement": "None",
+          "Weight": "32.5 lb",
+          "Source value": "240 gp equivalent.",
+          "Special powers": "Use the listed AC for all attack rolls, including firearms.",
+          "Conversion notes": "Uses Plate Armor protection with half the 2024 weight. This is the full-body configuration.",
+          "Source locator": "Cyclopaedic Compendium, Volume 2, PDF pp. 7 and 14, Armour descriptions and price table.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:cd731ae7e0420a14": [
+      {
+        "label": "D&D 2024 adaptation · Federation Battle Armour",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Attunement": "None",
+          "Weight": "Negligible before the power pack",
+          "Source value": "1,000 gp equivalent.",
+          "Special powers": "As a Utilize action, spend 1 charge from a connected compatible pack to power the suit for 24 hours. While powered it provides AC 18. Without power, its AC is 11 + Dexterity modifier. Use one AC formula at a time.",
+          "Environment mode": "While powered, spend 1 additional charge per hour to ignore Extreme Heat and Extreme Cold and gain Resistance to damage from ambient radiation. Survival in a vacuum or underwater requires a compatible helmet and air supply.",
+          "Conversion notes": "Translates the powered and unpowered legacy ACs into separate formulas. Keeps the source’s external pack and distinct daily and hourly power rates.",
+          "Source locator": "Cyclopaedic Compendium, Volume 2, PDF pp. 7 and 14, Armour descriptions and price table.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:eb2eeed3f8a7560d": [
+      {
+        "label": "D&D 2024 adaptation · Ablative Screen",
+        "status": "original-draft",
+        "profile_kind": "adapted-protective-implement",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf",
+        "fields": {
+          "Use as armor": "Clip the projector to your clothing. While powered, you may use AC 16 in place of your ordinary base AC. Apply any permitted Shield bonus separately.",
+          "Attunement": "None",
+          "Weight": "2 lb (conversion estimate)",
+          "Source value": "5,000 gp equivalent.",
+          "Special powers": "Spend 1 charge from a connected compatible pack as a Utilize action to power the screen for seven days. When you would take damage while it is powered, you may use your Reaction to spend up to five additional charges. Reduce that damage by 5 per charge, to a minimum of 0.",
+          "Conversion notes": "Keeps the weekly passive charge and five points absorbed per charge. The Reaction limits the active protection to one damage event per round under normal combat rules.",
+          "Source locator": "Cyclopaedic Compendium, Volume 2, PDF pp. 7 and 14, Armour descriptions and price table.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:83d1901e62478a5e": [
+      {
+        "label": "D&D 2024 adaptation · Holo-Suit",
+        "status": "original-draft",
+        "profile_kind": "adapted-protective-garment",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf",
+        "fields": {
+          "Use as armor": "Wondrous garment. The suit provides no AC bonus. It can be used with the Ablative Screen, but not with Federation Battle Armour.",
+          "Attunement": "None",
+          "Weight": "Negligible before the power pack",
+          "Source value": "5,000 gp equivalent.",
+          "Special powers": "Take a Utilize action and spend charges from a connected compatible pack to activate one mode. Activating a different mode ends the current one. Removing the suit or disconnecting the pack ends the active mode.",
+          "Invisibility": "1 charge for 1 hour. You gain the Invisible condition. Attacking or casting does not end the effect, but sound and other clues can reveal your location.",
+          "Disguise": "2 charges for 1 hour. Project a recorded creature or object up to 3 feet taller or shorter than you. Physical contact reveals mismatched contours. A creature examining the projection can use a Study action and a DC 15 Intelligence (Investigation) check to discern it. The suit can store up to 12 saved appearances.",
+          "Displacement": "1 charge for 1 minute. Gain the Invisible condition and project your image in an unoccupied space within 5 feet. Attack rolls against you have Disadvantage while the projection is active unless the attacker can see you.",
+          "Conversion notes": "Keeps the three source modes and their different charge rates. Uses the Invisible condition and a Study check for the optical effects.",
+          "Source locator": "Cyclopaedic Compendium, Volume 2, PDF pp. 7 and 14, Armour descriptions and price table.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        }
+      }
+    ],
     "mystara-fan-names-reference:1234f6e04adc22c7": [
       {
         "label": "2024 shield comparison · Riot Shield",
