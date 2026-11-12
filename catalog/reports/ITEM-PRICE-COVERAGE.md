@@ -4,7 +4,7 @@
 
 | Pricing basis | Records |
 |---|---:|
-| Low-confidence 2024 tabletop category appraisal | 17,146 |
+| Low-confidence 2024 tabletop category appraisal | 17,144 |
 | Source-listed base cost | 4,793 |
 | 2024 magic-item rarity estimate | 3,967 |
 | Source-reported value from catalog provenance | 3,860 |
@@ -17,6 +17,7 @@
 | 2024 scroll value based on scribing cost | 24 |
 | Comparable 3.5e equipment plus masterwork appraisal | 20 |
 | Source-reported retail price used as the base benchmark | 7 |
+| 2024 barding at four times the base armor price | 2 |
 
 ## Cosmetic premiums
 

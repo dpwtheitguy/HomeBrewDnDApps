@@ -36,6 +36,7 @@ METHODS = {
     'legacy-equipment': 'Comparable 3.5e equipment plus masterwork appraisal',
     'base-item': 'Estimate from a documented base item',
     'equipment-analogue': 'Estimate from comparable 2024 equipment',
+    'barding-2024': '2024 barding at four times the base armor price',
     'bg3-comparable': 'Estimate from comparable BG3 catalog prices',
     'magic-rarity': '2024 magic-item rarity estimate',
     'scroll-level': '2024 scroll value based on scribing cost',
@@ -198,9 +199,23 @@ def legacy_masterwork_base(item, kind):
     return None
 
 
-def price_catalog(items):
+def price_catalog(items, curated=None):
     by_id = {item['id']: item for item in items}
     direct = {item['id']: source_price(item) for item in items}
+    barding_prices = {}
+    for item_id, entries in (curated or {}).items():
+        for entry in entries:
+            if not entry.get('barding') or entry.get('profile_kind') != 'published-armor-mapping':
+                continue
+            base_id = entry['related_item']['id']
+            base = by_id[base_id]
+            if (item_id not in by_id or base['source_id'] != 'open5e-srd-2024' or base['magic']
+                    or base['type'] != 'armor' or direct[base_id] is None):
+                raise ValueError(f'Invalid 2024 barding price basis for {item_id}')
+            barding_prices[item_id] = (
+                4 * direct[base_id][0], 'barding-2024', 'dnd-2024-appraisal',
+                f"Four times the 2024 price of {base['name']}",
+            )
     exact = defaultdict(set)
     equipment = {}
     bg3_comparables = defaultdict(list)
@@ -276,7 +291,7 @@ def price_catalog(items):
     ornament_counts = Counter()
     for item in items:
         kind = normalized_type(item)
-        value, method, economy, basis = direct[item['id']] or estimate(item, kind)
+        value, method, economy, basis = direct[item['id']] or barding_prices.get(item['id']) or estimate(item, kind)
         ornament = None
         if direct[item['id']] is None and not construction(item):
             # A decoration only increases the physical item's appraisal. Any magical

@@ -887,7 +887,7 @@ def main():
                 'Ravenloft armor cards distinguish worn armor from constructs': '''(async () => {
                     const cases = [
                         ["46fa332ea1bbfd53", ["11 + Dex modifier", "Light armor", "Open 2024 Leather Armor"]],
-                        ["b7d42274e00db79a", ["15 + Dex modifier (max +2)", "AC 17", "80 lb", "3,000 gp"]],
+                        ["b7d42274e00db79a", ["15 + Dex modifier (max +2)", "AC 17", "80 lb", "Base cost3000 gp", "Base buy7500 gp", "Base sell1200 gp"]],
                         ["c0969d5dcc3473aa", ["AC 18", "24 hours", "no player equipment AC"]],
                         ["04f9651b9a775b54", ["AC 21", "112 Hit Points", "no player equipment profile"]],
                     ];
@@ -898,6 +898,16 @@ def main():
                         if (!terms.every(term => details.includes(term))) return false;
                     }
                     return true;
+                })()''',
+                'Barding preserves legacy prices and shows 2024 replacement costs': '''(async () => {
+                    inspect("dmg-2e-reference:5dac7f0e655b4f6b", grid.firstElementChild);
+                    await itemDetails;
+                    const plate = inspection.textContent;
+                    inspect("mystara-fan-names-reference:83eb29ff24e8bfed", grid.firstElementChild);
+                    await itemDetails;
+                    const chain = inspection.textContent;
+                    return ["130 lb", "Base cost6000 gp", "Open 2024 Plate Armor"].every(term => plate.includes(term)) &&
+                        ["110 lb", "300 gp", "Base cost150 gp"].every(term => chain.includes(term));
                 })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);

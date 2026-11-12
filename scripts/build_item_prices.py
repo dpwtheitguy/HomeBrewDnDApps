@@ -13,7 +13,8 @@ from item_pricing import price_catalog
 CATALOG = ROOT / 'catalog'
 with sqlite3.connect(CATALOG / 'indexes/items.sqlite3') as db:
     items = [json.loads(row[0]) for row in db.execute('SELECT data_json FROM items ORDER BY id')]
-prices = price_catalog(items)
+curated = json.loads((CATALOG / 'supplements/curated-item-details.json').read_text())['records']
+prices = price_catalog(items, curated)
 assert len(prices['records']) == len(items)
 for price in prices['records'].values():
     cost, buy, sell = (Decimal(price[field]) for field in ('base_cost_gp', 'base_buy_gp', 'base_sell_gp'))

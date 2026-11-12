@@ -4837,6 +4837,131 @@
         },
         "rules_source": "https://www.dndbeyond.com/sources/dnd/cos/monsters-and-npcs"
       }
+    ],
+    "dmg-2e-reference:5dac7f0e655b4f6b": [
+      {
+        "label": "2024 barding rules · Plate Armor",
+        "profile_kind": "published-armor-mapping",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00314.htm.php.html",
+        "fields": {
+          "Source locator": "AD&D 2e Dungeon Master Guide, table 23, Full Plate Barding.",
+          "Armor class": "18",
+          "Training": "Heavy armor for the wearer.",
+          "Strength requirement": "15. Below this score, reduce the wearer’s Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "130 lb",
+          "Attunement": "None.",
+          "Replacement cost": "6,000 gp at four times the 2024 Plate Armor price.",
+          "Special powers": "None. The legacy table lists availability in Renaissance settings. This conversion uses the 2024 Plate Armor profile for a fitted mount."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 Plate Armor"
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Barding",
+        "barding": true
+      }
+    ],
+    "mystara-fan-names-reference:b4ca04aae12c9877": [
+      {
+        "label": "2024 barding rules · Leather Armor",
+        "profile_kind": "published-armor-mapping",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "fields": {
+          "Source locator": "Colin Davidson, fan-authored Extended Equipment List (OSE), PDF p. 16, Barding (Horse), Leather row.",
+          "Armor class": "11 + Dex modifier",
+          "Training": "Light armor for the wearer.",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "None.",
+          "Replacement cost": "40 gp at four times the 2024 Leather Armor price.",
+          "Special powers": "None. The fan table lists AC 7 [12] and 40 gp. Use the 2024 Leather Armor profile for a fitted horse."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor",
+          "label": "Open 2024 Leather Armor"
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Barding",
+        "barding": true
+      }
+    ],
+    "mystara-fan-names-reference:ac310134524429f7": [
+      {
+        "label": "2024 barding rules · Scale Mail",
+        "profile_kind": "published-armor-mapping",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "fields": {
+          "Source locator": "Colin Davidson, fan-authored Extended Equipment List (OSE), PDF p. 16, Barding (Horse), Scale row.",
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor for the wearer.",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "90 lb",
+          "Attunement": "None.",
+          "Replacement cost": "200 gp at four times the 2024 Scale Mail price.",
+          "Special powers": "None. The fan table lists AC 6 [13] and 75 gp. Use the 2024 Scale Mail profile for a fitted horse."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail",
+          "label": "Open 2024 Scale Mail"
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Barding",
+        "barding": true
+      }
+    ],
+    "mystara-fan-names-reference:83eb29ff24e8bfed": [
+      {
+        "label": "2024 barding rules · Chain Mail",
+        "profile_kind": "published-armor-mapping",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "fields": {
+          "Source locator": "Colin Davidson, fan-authored Extended Equipment List (OSE), PDF p. 16, Barding (Horse), Chain row.",
+          "Armor class": "16",
+          "Training": "Heavy armor for the wearer.",
+          "Strength requirement": "13. Below this score, reduce the wearer’s Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "110 lb",
+          "Attunement": "None.",
+          "Replacement cost": "300 gp at four times the 2024 Chain Mail price.",
+          "Special powers": "None. The fan table lists AC 5 [14] and 150 gp. Use the 2024 Chain Mail profile for a fitted horse."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail",
+          "label": "Open 2024 Chain Mail"
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Barding",
+        "barding": true
+      }
+    ],
+    "mystara-fan-names-reference:1f3db1e4a1b5acc0": [
+      {
+        "label": "2024 barding rules · Plate Armor",
+        "profile_kind": "published-armor-mapping",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "fields": {
+          "Source locator": "Colin Davidson, fan-authored Extended Equipment List (OSE), PDF p. 16, Barding (Horse), Plate row.",
+          "Armor class": "18",
+          "Training": "Heavy armor for the wearer.",
+          "Strength requirement": "15. Below this score, reduce the wearer’s Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "130 lb",
+          "Attunement": "None.",
+          "Replacement cost": "6,000 gp at four times the 2024 Plate Armor price.",
+          "Special powers": "None. The fan table lists AC 3 [16] and 500 gp. Use the 2024 Plate Armor profile for a fitted horse."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 Plate Armor"
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Barding",
+        "barding": true
+      }
     ]
   }
 }
