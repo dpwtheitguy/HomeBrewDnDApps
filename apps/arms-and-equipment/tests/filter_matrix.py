@@ -993,6 +993,22 @@ def main():
                     }
                     return true;
                 })()''',
+                'Book of Many Things weapons preserve unusual activation rules': '''(async () => {
+                    const cases = [
+                        ["7526654", ["1d4 Piercing", "10 damage in total", "Utilize action"]],
+                        ["7526697", ["20-foot Cube", "Forcecage", "Bludgeoning damage"]],
+                        ["7526717", ["pull it 5 feet", "instead of dealing damage", "no saving throw"]],
+                        ["7526722", ["15-foot radius", "inside your rune circle", "1d3 expended charges"]],
+                        ["7526769", ["30/120 feet", "DC 18 Constitution", "falls Prone"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dndbeyond:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term)) ||
+                            inspection.textContent.includes("2024 provisional profile")) return false;
+                    }
+                    return true;
+                })()''',
                 'Book of Many Things weapons show item-specific triggers': '''(async () => {
                     const cases = [
                         ["7526614", ["natural 19 or 20", "DC 15 Constitution", "6d6 Necrotic"]],

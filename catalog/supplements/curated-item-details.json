@@ -1,6 +1,119 @@
 {
   "schema_version": 1,
   "records": {
+    "dndbeyond:7526654": [
+      {
+        "label": "D&D 2024 adaptation · Dried Leech",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/7526654-dried-leech",
+        "fields": {
+          "Category": "Any ammunition · Uncommon · No attunement",
+          "Damage": "Use the launcher’s normal damage on impact. An attached leech deals 1d4 Piercing at the start of each of the target’s turns.",
+          "Range": "Use the compatible launcher’s normal and long range.",
+          "Attack bonus": "Use the launcher’s attack modifier. No additional bonus.",
+          "Activation": "Fire from a compatible launcher. On a hit against a creature, the leech attaches.",
+          "Duration": "The leech falls off when it has dealt at least 10 damage in total or when the target dies. A creature, including the target, can take the Utilize action to detach it sooner. Once detached, the leech dies and loses its magic.",
+          "Legacy source": "The Book of Many Things, p. 67.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Conversion notes": "Uses the 2024 equipment and attack rules while retaining the original item effect. Detaching the leech uses the Utilize action."
+        }
+      }
+    ],
+    "dndbeyond:7526697": [
+      {
+        "label": "D&D 2024 adaptation · Forcebreaker Weapon",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/7526697-forcebreaker-weapon",
+        "fields": {
+          "Category": "Any weapon that deals Bludgeoning damage · Very Rare · No attunement",
+          "Damage": "Base weapon damage +2. The structure-breaking effect is independent of Hit Points.",
+          "Range": "Use the selected weapon’s reach or normal and long range.",
+          "Attack bonus": "Add +2 to the base weapon’s attack roll.",
+          "Mastery": "Use the selected base weapon’s mastery if eligible.",
+          "Activation": "Attack normally. The structure-breaking effect applies when the weapon strikes a magical force structure.",
+          "Special powers": "A Large or smaller structure of magical force shatters. Against a Huge or larger structure, shatter a portion in a 20-foot Cube. Wall of Force and Forcecage are examples.",
+          "Legacy source": "The Book of Many Things, p. 67.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Conversion notes": "Uses the 2024 equipment and attack rules while retaining the original item effect."
+        }
+      }
+    ],
+    "dndbeyond:7526717": [
+      {
+        "label": "D&D 2024 adaptation · Grasping Whip",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/7526717-grasping-whip",
+        "fields": {
+          "Category": "Martial melee weapon (Whip) · Rare · No attunement",
+          "Damage": "1d4 Slashing + Strength or Dexterity modifier + 1, unless you choose the pull.",
+          "Range": "10 feet melee with Reach.",
+          "Attack bonus": "+1 plus Strength or Dexterity modifier and Proficiency Bonus if proficient.",
+          "Properties": "Finesse, Reach.",
+          "Mastery": "Slow on a damaging hit if you have the mastery feature.",
+          "Activation": "On a hit against a Large or smaller creature or object, you can pull it 5 feet toward you instead of dealing damage. The pull has no saving throw.",
+          "Legacy source": "The Book of Many Things, p. 67.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Conversion notes": "Uses the 2024 equipment and attack rules while retaining the original item effect."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_whip",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dndbeyond:7526722": [
+      {
+        "label": "D&D 2024 adaptation · Hammer of Runic Focus",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/7526722-hammer-of-runic-focus",
+        "fields": {
+          "Category": "Martial melee weapon (Warhammer) · Very Rare · Requires attunement",
+          "Damage": "1d8 Bludgeoning (1d10 with two hands) + Strength modifier. Add +3 while inside your rune circle.",
+          "Range": "5 feet melee. Rune circle has a 15-foot radius centered on the point of impact.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient. Add +3 while inside your rune circle.",
+          "Properties": "Versatile (1d10).",
+          "Mastery": "Push.",
+          "Activation": "Attack normally. As a Bonus Action, spend 1 charge and strike the ground to create the rune circle.",
+          "Duration": "The circle lasts 1 minute, until you make another circle, or until you dismiss it as a Bonus Action.",
+          "Charges": "3 charges. Regain 1d3 expended charges at dawn.",
+          "Legacy source": "The Book of Many Things, p. 67.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Conversion notes": "Uses the 2024 equipment and attack rules while retaining the original item effect."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_warhammer",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dndbeyond:7526769": [
+      {
+        "label": "D&D 2024 adaptation · Sling of Giant Felling",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/7526769-sling-of-giant-felling",
+        "fields": {
+          "Category": "Simple ranged weapon (Sling) · Uncommon · No attunement",
+          "Damage": "1d4 Bludgeoning + Dexterity modifier.",
+          "Range": "30/120 feet.",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient. No additional attack bonus.",
+          "Properties": "Ammunition (Sling Bullet).",
+          "Mastery": "Slow.",
+          "Activation": "Make a ranged attack. On a hit against a Giant, it makes a DC 18 Constitution save. On a failure it falls Prone.",
+          "Legacy source": "The Book of Many Things, p. 68.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Conversion notes": "Uses the 2024 equipment and attack rules while retaining the original item effect."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_sling",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
     "dndbeyond:7526614": [
       {
         "label": "D&D 2024 adaptation · Baleful Talon",
