@@ -1116,6 +1116,22 @@ def main():
                     }
                     return true;
                 })()''',
+                'Legacy DMG special armor shows charges curses and reactions': '''(async () => {
+                    const cases = [
+                        ["dmg-1e-reference:5003ee3a0bd2f04d", ["Armor class by charges", "never regains", "up to 8 hours"]],
+                        ["dmg-2e-reference:e030cf575bdcef9b", ["Cursed armor class16", "natural 20"]],
+                        ["dmg-2e-reference:62ade0786a04042d", ["Cursed shield bonus+0", "within 10 feet"]],
+                        ["dmg-2e-reference:2423313ed73a2e69", ["+5 AC total", "roll a d10"]],
+                        ["dmg-2e-reference:de359f74f62a0dee", ["14 + Dex modifier (max +2)", "count as trained"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        const details = inspection.textContent;
+                        if (!terms.every(term => details.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
