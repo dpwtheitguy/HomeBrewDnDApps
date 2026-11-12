@@ -73,6 +73,10 @@ def same_base(left, right):
 
 
 PUBLIC_ARMOR_RULES = {
+    'dndbeyond:5370': MAGIC + '#AdamantineArmor',
+    'dndbeyond:5371': MAGIC + '#ArmorofResistance',
+    'dndbeyond:5376': MAGIC + '#ArmorofVulnerability',
+    'dndbeyond:5381': MAGIC + '#MithralArmor',
     'dndbeyond:9228349': 'https://roll20.net/compendium/dnd5e/Templates%3AArmor%20of%20Gleaming?expansion=33359',
     'dndbeyond:9228382': 'https://roll20.net/compendium/dnd5e/Templates%3ACast-Off%20Armor?expansion=33359',
     'dndbeyond:9228451': MAGIC + '#DemonArmor',
@@ -80,7 +84,31 @@ PUBLIC_ARMOR_RULES = {
     'dndbeyond:9228837': 'https://roll20.net/compendium/dnd5e/Templates%3AMariner%27s%20Armor?expansion=33359',
 }
 
+METAL_ARMOR_FAMILIES = {'Adamantine Armor', 'Mithral Armor'}
+
 PUBLIC_ARMOR = {
+    'dndbeyond:5370': (
+        'Adamantine Armor', '5370-adamantine-armor', 0, False, 'Uncommon', {
+            'Special powers': 'While wearing the armor, a Critical Hit against you becomes a normal hit.',
+        },
+    ),
+    'dndbeyond:5371': (
+        'Armor of Resistance', '5371-armor-of-resistance', 0, True, 'Rare', {
+            'Special powers': 'While wearing the armor, resist the damage type selected for this suit.',
+            'Damage type': 'Choose or roll d10: 1 Acid, 2 Cold, 3 Fire, 4 Force, 5 Lightning, 6 Necrotic, 7 Poison, 8 Psychic, 9 Radiant, 10 Thunder.',
+        },
+    ),
+    'dndbeyond:5376': (
+        'Armor of Vulnerability', '5376-armor-of-vulnerability', 0, True, 'Rare', {
+            'Special powers': 'While wearing the armor, resist one damage type chosen by the DM: Bludgeoning, Piercing, or Slashing.',
+            'Curse': 'Identify or attunement reveals the curse. Attuning gives you Vulnerability to the other two types. Taking off the armor leaves the curse in effect. Remove Curse or similar magic ends it.',
+        },
+    ),
+    'dndbeyond:5381': (
+        'Mithral Armor', '5381-mithral-armor', 0, False, 'Uncommon', {
+            'Special powers': 'The armor can be worn under ordinary clothes. Mithral removes the base suit’s Strength requirement and Stealth disadvantage.',
+        },
+    ),
     'dndbeyond:9228349': (
         'Armor of Gleaming', '9228349-armor-of-gleaming', 0, False, 'Common', {
             'Special powers': 'The armor never gets dirty. Use the base suit’s normal AC, training, and donning rules.',
@@ -127,8 +155,13 @@ def public_armor_variants(items):
         variants = []
         for base in bases:
             armor = base['mechanics']['armor']
-            formula = str(armor['ac_base'] + bonus)
             cap = armor['ac_cap_dexmod']
+            if name in METAL_ARMOR_FAMILIES and (
+                armor['name'] == 'Hide Armor' or (armor['ac_add_dexmod'] and cap is None)
+            ):
+                continue
+            mithral = name == 'Mithral Armor'
+            formula = str(armor['ac_base'] + bonus)
             if armor['ac_add_dexmod']:
                 formula += ' + Dex modifier'
                 if cap is not None:
@@ -137,15 +170,18 @@ def public_armor_variants(items):
                         if armor['ac_add_dexmod'] else 'Heavy armor')
             fields = {
                 'Armor class': formula, 'Training': training,
-                'Strength requirement': str(armor['strength_score_required'] or 'None'),
-                'Stealth disadvantage': 'Yes' if armor['grants_stealth_disadvantage'] else 'No',
+                'Strength requirement': 'None' if mithral else str(armor['strength_score_required'] or 'None'),
+                'Stealth disadvantage': 'Yes' if armor['grants_stealth_disadvantage'] and not mithral else 'No',
                 'Weight': f"{float(base['mechanics']['source_fields']['weight']):g} lb",
                 'Attunement': 'Required' if attune else 'None', 'Rarity': rarity, **effects,
             }
+            label = 'Verified 2024 armor counterpart' if item['id'] in {
+                'dndbeyond:5370', 'dndbeyond:5371', 'dndbeyond:5376', 'dndbeyond:5381',
+            } else 'Verified 2024 armor rules'
             variants.append({
-                'label': 'Verified 2024 armor rules · ' + armor['name'], 'status': 'published-reference',
+                'label': label + ' · ' + armor['name'], 'status': 'published-reference',
                 'profile_kind': 'published-public-armor', 'source': source, 'enhancement_bonus': bonus,
-                'rules_source': PUBLIC_ARMOR_RULES[item['id']],
+                'rules_source': PUBLIC_ARMOR_RULES[item['id']], 'mithral': mithral,
                 'fields': fields, 'related_item': {'id': base['id'], 'label': 'Open 2024 base equipment'},
             })
         records[item['id']] = variants

@@ -168,6 +168,8 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
                     valid_ac = mapped_fields.get('Armor class') == formula
                 if not valid_ac:
                     errors.append('mapped armor class disagrees with published equipment')
+                if mapping.get('mithral'):
+                    fields.update(strength_requirement='None', stealth_disadvantage='No')
                 fields['effects'] = mapped_fields['Special powers']
                 attuned_item = item if public else target
                 fields['attunement'] = 'Required' if attuned_item['requires_attunement'] else 'No'

@@ -764,6 +764,19 @@ def main():
                         ["Armor class bonus+5", "normal +2 shield bonus", "Read published rules"]
                             .every(value => enhanced.includes(value));
                 })()''',
+                'Indexed metal armor variants show published eligibility and exceptions': '''(async () => {
+                    inspect("dndbeyond:5381", grid.firstElementChild);
+                    await itemDetails;
+                    const mithral = inspection.textContent;
+                    inspect("dndbeyond:5370", grid.firstElementChild);
+                    await itemDetails;
+                    const adamantine = inspection.textContent;
+                    return ["armor counterpart · Plate Armor", "Strength requirementNone", "Stealth disadvantageNo"]
+                        .every(value => mithral.includes(value)) &&
+                        ["armor counterpart · Chain Shirt", "Critical Hit against you becomes a normal hit"]
+                            .every(value => adamantine.includes(value)) &&
+                        !adamantine.includes("armor counterpart · Hide Armor");
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
