@@ -993,6 +993,21 @@ def main():
                     }
                     return true;
                 })()''',
+                'Wrath weapons show published bonuses and distinct artifact effects': '''(async () => {
+                    const cases = [
+                        ["1685fc1ca41a08aa", ["Greatsword +2", "2d6 Slashing", "Graze"]],
+                        ["27c9cc14fce3682d", ["20/60 ft thrown", "hit a Giant", "extra 1d8"]],
+                        ["9a661b1e329c5f56", ["hit against a Dragon", "30-foot Emanation", "2d6 Cold"]],
+                        ["04374080dc3bf5b9", ["Magic action", "within 30 feet", "flies back to your hand"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("wrath-of-the-immortals-local:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const details = inspection.textContent;
+                        if (!terms.every(term => details.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
