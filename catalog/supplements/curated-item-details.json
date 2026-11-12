@@ -1,6 +1,294 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:f5caf6c6fa7ced1d": [
+      {
+        "label": "2024 armor comparison · Shield",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "None",
+          "Special powers": "Add +2 AC while wielding the shield with Shield training.",
+          "Source locator": "Extended Equipment List, PDF p. 4, Armour, Shield.",
+          "Conversion notes": "Use the published 2024 Shield. Its +2 bonus replaces the descending-AC adjustment.",
+          "Legacy equipment rules": "https://iimu.kapsi.fi/limunropellukset/wp-content/uploads/2013/02/TSR-1071-The-DD-Rules-Cyclopedia.pdf",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:e7661b8750d75e42": [
+      {
+        "label": "2024 armor comparison · Leather Armour",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "fields": {
+          "Armor class": "11 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "None",
+          "Special powers": "Use the listed Armor Class while wearing the armor.",
+          "Source locator": "Extended Equipment List, PDF p. 4, Armour, Leather Armour.",
+          "Conversion notes": "Use the published 2024 Leather Armor and its full Dexterity modifier.",
+          "Legacy equipment rules": "https://iimu.kapsi.fi/limunropellukset/wp-content/uploads/2013/02/TSR-1071-The-DD-Rules-Cyclopedia.pdf",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:886325bf46e94f01": [
+      {
+        "label": "2024 armor comparison · Scale Armour",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "None",
+          "Special powers": "Use the listed Armor Class while wearing the armor.",
+          "Source locator": "Extended Equipment List, PDF p. 4, Armour, Scale.",
+          "Conversion notes": "Use the published 2024 Scale Mail and its Dexterity cap.",
+          "Legacy equipment rules": "https://iimu.kapsi.fi/limunropellukset/wp-content/uploads/2013/02/TSR-1071-The-DD-Rules-Cyclopedia.pdf",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:90fd4e5f6e2cc926": [
+      {
+        "label": "2024 armor comparison · Chain Mail",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "fields": {
+          "Armor class": "16",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "None",
+          "Special powers": "Use the listed Armor Class while wearing the armor.",
+          "Source locator": "Extended Equipment List, PDF p. 4, Armour, Chain (Mail).",
+          "Conversion notes": "Use the published 2024 Chain Mail.",
+          "Legacy equipment rules": "https://iimu.kapsi.fi/limunropellukset/wp-content/uploads/2013/02/TSR-1071-The-DD-Rules-Cyclopedia.pdf",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:c43014903e49e0e3": [
+      {
+        "label": "2024 armor comparison · Banded Armour",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Attunement": "None",
+          "Special powers": "Use the listed Armor Class while wearing the armor.",
+          "Source locator": "Extended Equipment List, PDF p. 4, Armour, Banded.",
+          "Conversion notes": "Use the published 2024 Splint Armor as the closest comparison for overlapping metal bands.",
+          "Legacy equipment rules": "https://iimu.kapsi.fi/limunropellukset/wp-content/uploads/2013/02/TSR-1071-The-DD-Rules-Cyclopedia.pdf",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:c5ada73d6be15e6b": [
+      {
+        "label": "2024 armor comparison · Plate Armour",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Attunement": "None",
+          "Special powers": "Use the listed Armor Class while wearing the armor.",
+          "Source locator": "Extended Equipment List, PDF p. 4, Armour, Plate.",
+          "Conversion notes": "Use Splint Armor for the legacy mail reinforced with large plates. The source distinguishes this from the fully enclosed Suit Armour.",
+          "Legacy equipment rules": "https://iimu.kapsi.fi/limunropellukset/wp-content/uploads/2013/02/TSR-1071-The-DD-Rules-Cyclopedia.pdf",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:4c327a8ed72facfb": [
+      {
+        "label": "D&D 2024 adaptation · Suit Armour",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "85 lb",
+          "Attunement": "None",
+          "Special powers": "While wearing the armor, when you take Acid, Cold, Fire, or Poison damage from an effect that covers an area, you can use your Reaction to reduce that damage by your Proficiency Bonus.",
+          "Source locator": "Extended Equipment List, PDF p. 4, Armour, Suit.",
+          "Conversion notes": "Uses full Plate AC and translates the legacy area protection and movement restrictions into modern rules.",
+          "Legacy equipment rules": "https://iimu.kapsi.fi/limunropellukset/wp-content/uploads/2013/02/TSR-1071-The-DD-Rules-Cyclopedia.pdf",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Mobility": "On foot your Speed is reduced by 10 feet, in addition to any penalty from failing the Strength requirement. Standing from Prone costs all your movement unless an adjacent ally spends a Reaction to assist, in which case it costs the normal amount.",
+          "Fitting": "The suit must be fitted to its wearer. Donning takes 10 minutes and doffing takes 5 minutes."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:734a41738507c81c": [
+      {
+        "label": "D&D 2024 adaptation · Horned Shield",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "4 lb",
+          "Attunement": "None",
+          "Special powers": "Wield with Shield training for +2 AC. The AC bonus is suspended from the first attack you make with the shield until the start of your next turn.",
+          "Source locator": "Extended Equipment List, PDF p. 3, Extended Weapon and Armour Lists, Shield, Horned.",
+          "Conversion notes": "Uses the 2024 Shield’s defensive bonus and a defined offensive mode. The attack dice and breakage trigger are conversion choices informed by the two legacy references.",
+          "Legacy equipment rules": "https://iimu.kapsi.fi/limunropellukset/wp-content/uploads/2013/02/TSR-1071-The-DD-Rules-Cyclopedia.pdf",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Shield attack": "1d4 Piercing, reach 5 feet. Add Strength to the attack roll and add Proficiency Bonus if you have Shield training. Add Strength to damage except where the Light property says otherwise. Use the shield as a Light melee weapon. When you attack with another Light weapon as part of the Attack action, you can make the shield attack as the Light property’s Bonus Action attack. Apply the normal Light damage-modifier rule.",
+          "Design comparison": "https://www.pandius.com/mystarmr.html"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:5e641272e171775a": [
+      {
+        "label": "D&D 2024 adaptation · Knife Shield",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "4 lb",
+          "Attunement": "None",
+          "Special powers": "Wield with Shield training for +2 AC. The AC bonus is suspended from the first attack you make with the shield until the start of your next turn.",
+          "Source locator": "Extended Equipment List, PDF p. 3, Extended Weapon and Armour Lists, Shield, Knife.",
+          "Conversion notes": "Uses the 2024 Shield’s defensive bonus and a defined offensive mode. The attack dice and breakage trigger are conversion choices informed by the two legacy references.",
+          "Legacy equipment rules": "https://iimu.kapsi.fi/limunropellukset/wp-content/uploads/2013/02/TSR-1071-The-DD-Rules-Cyclopedia.pdf",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Shield attack": "1d4 + 1 Slashing, reach 5 feet. Add Strength to the attack roll and add Proficiency Bonus if you have Shield training. Add Strength to damage except where the Light property says otherwise. Use the shield as a Light melee weapon. When you attack with another Light weapon as part of the Attack action, you can make the shield attack as the Light property’s Bonus Action attack. Apply the normal Light damage-modifier rule.",
+          "Design comparison": "https://www.pandius.com/mystarmr.html",
+          "Breakage": "On a natural 1 when attacking with the shield, its striking fitting breaks. It still grants its normal defensive AC. Replacing the fitting takes 1 hour with Smith’s Tools and 5 gp in materials."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:58a5d5652c949bec": [
+      {
+        "label": "D&D 2024 adaptation · Sword Shield",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "7 lb",
+          "Attunement": "None",
+          "Special powers": "Wield with Shield training for +2 AC. The AC bonus is suspended from the first attack you make with the shield until the start of your next turn.",
+          "Source locator": "Extended Equipment List, PDF p. 3, Extended Weapon and Armour Lists, Shield, Sword.",
+          "Conversion notes": "Uses the 2024 Shield’s defensive bonus and a defined offensive mode. The attack dice and breakage trigger are conversion choices informed by the two legacy references.",
+          "Legacy equipment rules": "https://iimu.kapsi.fi/limunropellukset/wp-content/uploads/2013/02/TSR-1071-The-DD-Rules-Cyclopedia.pdf",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Shield attack": "1d6 Slashing, reach 5 feet. Add Strength to the attack roll and add Proficiency Bonus if you have Shield training. Add Strength to damage except where the Light property says otherwise. Use the shield for one melee weapon attack as part of the Attack action.",
+          "Design comparison": "https://www.pandius.com/mystarmr.html",
+          "Breakage": "On a natural 1 when attacking with the shield, its striking fitting breaks. It still grants its normal defensive AC. Replacing the fitting takes 1 hour with Smith’s Tools and 5 gp in materials."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:cf20b1d571a58e39": [
+      {
+        "label": "D&D 2024 adaptation · Tusked Shield",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "None",
+          "Special powers": "Wield with Shield training for +2 AC. The AC bonus is suspended from the first attack you make with the shield until the start of your next turn.",
+          "Source locator": "Extended Equipment List, PDF p. 3, Extended Weapon and Armour Lists, Shield, Tusked.",
+          "Conversion notes": "Uses the 2024 Shield’s defensive bonus and a defined offensive mode. The attack dice and breakage trigger are conversion choices informed by the two legacy references.",
+          "Legacy equipment rules": "https://iimu.kapsi.fi/limunropellukset/wp-content/uploads/2013/02/TSR-1071-The-DD-Rules-Cyclopedia.pdf",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Shield attack": "1d6 Piercing, reach 5 feet. Add Strength to the attack roll and add Proficiency Bonus if you have Shield training. Add Strength to damage except where the Light property says otherwise. You must hold the shield with both hands. When you attack with it as part of the Attack action, you can make one additional shield attack as a Bonus Action.",
+          "Design comparison": "https://www.pandius.com/mystarmr.html",
+          "Breakage": "On a natural 1 when attacking with the shield, its striking fitting breaks. It still grants its normal defensive AC. Replacing the fitting takes 1 hour with Smith’s Tools and 5 gp in materials."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
     "mystara-fan-names-reference:36239dd6321abd67": [
       {
         "label": "D&D 2024 adaptation · Castle Suit Armor",

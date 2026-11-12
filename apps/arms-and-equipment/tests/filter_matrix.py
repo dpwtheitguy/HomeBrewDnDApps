@@ -1830,6 +1830,22 @@ def main():
                         if (!byId("custom-items").hidden) click("close-custom-items");
                     }
                 })()''',
+                'Mystara shield weapons trade AC for attacks and suit armor has limits': '''(async () => {
+                    const cases = [
+                        ["734a41738507c81c", ["Armor class bonus+2", "1d4 Piercing", "Light property", "AC bonus is suspended"]],
+                        ["5e641272e171775a", ["1d4 + 1 Slashing", "natural 1", "Smith’s Tools"]],
+                        ["58a5d5652c949bec", ["1d6 Slashing", "part of the Attack action"]],
+                        ["cf20b1d571a58e39", ["hold the shield with both hands", "additional shield attack"]],
+                        ["4c327a8ed72facfb", ["Armor class18", "reduce that damage by your Proficiency Bonus", "Speed is reduced by 10 feet"]],
+                        ["886325bf46e94f01", ["14 + Dex modifier (max +2)", "Medium armor"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Mystara relic armor shows set, charge, and unarmored rules': '''(async () => {
                     const cases = [
                         ["36239dd6321abd67", ["Armor class21", "Adamantart"]],
