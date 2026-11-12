@@ -10,6 +10,7 @@
 <script src="item-details.js" defer></script>
 <script src="shop.js" defer></script>
 <script src="guide.js" defer></script>
+<script src="custom-items.js" defer></script>
 </head>
 <body>
 <header class="masthead">
@@ -22,6 +23,7 @@
       <button id="filter-toggle" aria-expanded="false" aria-controls="filters">Filters</button>
     </div>
     <nav id="categories" aria-label="Equipment categories"></nav>
+    <button id="open-custom-items" type="button">My magic items</button>
     <section id="filters" hidden aria-label="Filter results">
       <div id="facets"></div>
       <fieldset id="budget">
@@ -55,6 +57,61 @@
     </div>
     <div id="items" class="grid" aria-label="Equipment results"></div>
     <button id="more" hidden>Load more</button>
+  </section>
+  <section id="custom-items" hidden aria-labelledby="custom-items-heading">
+    <div class="custom-item-toolbar">
+      <button id="close-custom-items" type="button">Back to catalog</button>
+      <button id="custom-item-new" type="button">Create item</button>
+    </div>
+    <h2 id="custom-items-heading">My magic items</h2>
+    <div class="custom-item-layout">
+      <div>
+        <p id="custom-items-empty" class="meta">No custom magic items yet.</p>
+        <div id="custom-items-list" class="grid" aria-label="Saved magic items"></div>
+      </div>
+      <div id="custom-item-panel" hidden>
+        <article id="custom-item-details" hidden></article>
+        <form id="custom-item-form" hidden>
+          <h3 id="custom-item-form-heading">Create magic item</h3>
+          <div class="custom-item-fields">
+            <label>Name <input id="custom-item-name" name="name" maxlength="120" required></label>
+            <label>Type <select id="custom-item-type" name="type">
+              <option value="wondrous-item">Wondrous item</option><option value="weapon">Weapon</option>
+              <option value="armor">Armor</option><option value="shield">Shield</option>
+              <option value="ammunition">Ammunition</option><option value="potion">Potion</option>
+              <option value="ring">Ring</option><option value="rod">Rod</option>
+              <option value="scroll">Scroll</option><option value="staff">Staff</option>
+              <option value="wand">Wand</option><option value="other">Other</option>
+            </select></label>
+            <label>Rarity <select id="custom-item-rarity" name="rarity">
+              <option value="varies">Varies</option><option value="common">Common</option>
+              <option value="uncommon">Uncommon</option><option value="rare">Rare</option>
+              <option value="very-rare">Very rare</option><option value="legendary">Legendary</option>
+              <option value="artifact">Artifact</option>
+            </select></label>
+            <label>Attunement <input id="custom-item-attunement" name="attunement" maxlength="160" placeholder="None or requirements"></label>
+            <label>Value (gp) <input id="custom-item-price" name="price" type="number" inputmode="decimal" min="0" max="10000000000" step="0.01"></label>
+          </div>
+          <fieldset id="custom-item-weapon-fields" class="custom-item-fields" hidden>
+            <legend>Weapon statistics</legend>
+            <label>Damage <input id="custom-item-damage" name="damage" maxlength="120" placeholder="1d8 slashing"></label>
+            <label>Range or reach <input id="custom-item-range" name="range" maxlength="120" placeholder="5 ft reach"></label>
+            <label>Properties and mastery <input id="custom-item-properties" name="properties" maxlength="240" placeholder="Versatile, Sap"></label>
+          </fieldset>
+          <fieldset id="custom-item-armor-fields" class="custom-item-fields" hidden>
+            <legend>Armor statistics</legend>
+            <label>Armor Class or bonus <input id="custom-item-ac" name="ac" maxlength="120" placeholder="16 + Dexterity (maximum +2)"></label>
+          </fieldset>
+          <label>Rules and effects <textarea id="custom-item-rules" name="rules" maxlength="8000"></textarea></label>
+          <label>Notes <textarea id="custom-item-notes" name="notes" maxlength="4000"></textarea></label>
+          <div class="actions">
+            <button id="custom-item-save" type="submit">Save item</button>
+            <button id="custom-item-cancel" type="button">Cancel</button>
+          </div>
+        </form>
+        <p id="custom-item-status" class="meta" role="status"></p>
+      </div>
+    </div>
   </section>
   <section id="blinsky-shop" class="shelf" hidden aria-label="Blinsky’s Toys">
     <div class="shop-controls">

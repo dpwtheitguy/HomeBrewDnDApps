@@ -29,6 +29,7 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Locale;
+import java.util.UUID;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.regex.Matcher;
@@ -114,6 +115,7 @@ public final class MainActivity extends Activity {
     private final class CatalogBridge {
         private final SharedPreferences notes = getSharedPreferences("item-notes", MODE_PRIVATE);
         private final SharedPreferences preferences = getSharedPreferences("catalog-preferences", MODE_PRIVATE);
+        private final SharedPreferences customItems = getSharedPreferences("custom-magic-items", MODE_PRIVATE);
         private SQLiteDatabase database;
         private boolean fullText;
         private final ExecutorService searchWorker = Executors.newSingleThreadExecutor();
@@ -329,6 +331,60 @@ public final class MainActivity extends Activity {
         }
 
         @JavascriptInterface public String note(String id) { return notes.getString(id, ""); }
+
+        @JavascriptInterface public String customMagicItems() {
+            JSONArray items = new JSONArray();
+            for (Object value : customItems.getAll().values()) {
+                if (!(value instanceof String)) continue;
+                try {
+                    items.put(new JSONObject((String) value));
+                } catch (JSONException error) {
+                    android.util.Log.w("Armory", "Unreadable custom magic item", error);
+                }
+            }
+            return items.toString();
+        }
+
+        @JavascriptInterface public String saveCustomMagicItem(String data) {
+            if (data == null || data.length() > 40000) return "";
+            try {
+                JSONObject input = new JSONObject(data);
+                String id = input.optString("id");
+                if (id.isEmpty()) id = UUID.randomUUID().toString();
+                else if (!validCustomItemId(id) || !customItems.contains(id)) return "";
+
+                String name = input.getString("name").trim();
+                String type = input.getString("type");
+                String rarity = input.getString("rarity");
+                String price = input.optString("price");
+                if (name.isEmpty() || name.length() > 120
+                        || !type.matches("weapon|armor|shield|ammunition|potion|ring|rod|scroll|staff|wand|wondrous-item|other")
+                        || !rarity.matches("common|uncommon|rare|very-rare|legendary|artifact|varies")
+                        || (!price.isEmpty() && (!price.matches("[0-9]{1,11}(\\.[0-9]{1,2})?")
+                            || Double.parseDouble(price) > 10000000000.0))) return "";
+                JSONObject item = new JSONObject().put("id", id).put("name", name)
+                        .put("type", type).put("rarity", rarity).put("price", price);
+                String[] fields = {"attunement", "rules", "notes", "damage", "range", "properties", "ac"};
+                int[] limits = {160, 8000, 4000, 120, 120, 240, 120};
+                for (int index = 0; index < fields.length; index++) {
+                    String value = input.optString(fields[index]).trim();
+                    if (value.length() > limits[index]) return "";
+                    item.put(fields[index], value);
+                }
+                return customItems.edit().putString(id, item.toString()).commit() ? id : "";
+            } catch (JSONException error) {
+                return "";
+            }
+        }
+
+        @JavascriptInterface public boolean deleteCustomMagicItem(String id) {
+            return validCustomItemId(id) && customItems.contains(id)
+                    && customItems.edit().remove(id).commit();
+        }
+
+        private boolean validCustomItemId(String id) {
+            return id != null && id.matches("[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}");
+        }
 
         @JavascriptInterface public String defaults() { return preferences.getString("search-defaults", "{}"); }
 

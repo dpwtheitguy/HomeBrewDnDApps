@@ -183,7 +183,7 @@ function dismissInspection(restoreFocus = true) {
     if (restoreFocus && returnFocus && returnFocus.isConnected) returnFocus.focus();
     return true;
 }
-window.closeInspection = () => dismissInspection() || closeShop();
+window.closeInspection = () => dismissInspection() || closeCustomItems() || closeShop();
 
 function inspect(id, trigger) {
     const item = JSON.parse(Armory.item(id));

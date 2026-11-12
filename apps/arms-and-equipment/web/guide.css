@@ -49,6 +49,19 @@ footer{max-width:1440px;margin:auto;padding:8px 20px 20px;color:var(--muted);fon
 .card img,.inspection img{filter:sepia(.55)}
 .card strong,.card small{margin-top:3px}
 .actions button{margin:6px 6px 0 0}
+#open-custom-items{margin:0 0 8px;color:var(--gold)}
+#custom-items{grid-column:1/-1;min-width:0}
+.custom-item-toolbar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.custom-item-toolbar button:last-child,#custom-item-save{border-color:#987248;color:var(--gold)}
+.custom-item-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:16px;margin-top:14px;align-items:start}
+#custom-item-panel{min-width:0;background:var(--panel);border:1px solid var(--edge);padding:14px;overflow-wrap:anywhere}
+#custom-item-panel h3{color:var(--gold);font-size:24px}
+#custom-item-panel h4{margin:16px 0 0;color:var(--gold)}
+#custom-item-form label{display:grid;grid-template-columns:minmax(0,1fr);gap:4px;min-width:0;margin-top:10px}
+#custom-item-form input,#custom-item-form select{width:100%;padding:6px 8px}
+#custom-item-form fieldset{min-width:0;margin:12px 0 0;border:1px solid var(--edge)}
+.custom-item-fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(180px,100%),1fr));gap:0 10px}
+@media(max-width:680px),(orientation:portrait){.custom-item-layout{grid-template-columns:minmax(0,1fr)}}
 summary{min-height:44px;display:list-item;padding:10px 0;cursor:pointer;color:var(--gold)}
 
 #filter-toggle{white-space:nowrap;flex-shrink:0}

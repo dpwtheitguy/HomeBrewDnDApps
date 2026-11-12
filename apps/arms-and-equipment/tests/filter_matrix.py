@@ -1782,6 +1782,92 @@ def main():
                     return document.title === title && header.querySelector("h1").textContent === title
                         && header.scrollWidth <= header.clientWidth;
                 })()''',
+                'Custom magic items save, reopen, edit and delete through the app': '''(() => {
+                    const name = "QA Lantern " + Date.now();
+                    const click = id => byId(id).click();
+                    const set = (id, value) => { byId(id).value = value; };
+                    let id;
+                    try {
+                        click("open-custom-items");
+                        click("custom-item-new");
+                        set("custom-item-name", name);
+                        set("custom-item-type", "weapon");
+                        byId("custom-item-type").dispatchEvent(new Event("change"));
+                        if (byId("custom-item-weapon-fields").hidden) return false;
+                        set("custom-item-rarity", "rare");
+                        set("custom-item-attunement", "Required");
+                        set("custom-item-damage", "1d8 Radiant");
+                        set("custom-item-range", "5 feet");
+                        set("custom-item-rules", "On a hit, create a light.");
+                        set("custom-item-notes", "Test notes.");
+                        set("custom-item-price", "37.25");
+                        click("custom-item-save");
+                        const item = JSON.parse(Armory.customMagicItems()).find(row => row.name === name);
+                        if (!item) return false;
+                        id = item.id;
+                        if (byId("custom-item-status").textContent !== "Item saved."
+                            || !byId("custom-item-details").textContent.includes("37.25 gp")) return false;
+                        click("close-custom-items");
+                        click("open-custom-items");
+                        byId("custom-items-list").querySelector('[data-custom-item-id="' + id + '"]').click();
+                        if (!byId("custom-item-details").textContent.includes("Test notes.")) return false;
+                        click("custom-item-edit");
+                        set("custom-item-name", name + " Revised");
+                        set("custom-item-type", "shield");
+                        byId("custom-item-type").dispatchEvent(new Event("change"));
+                        if (!byId("custom-item-weapon-fields").hidden || byId("custom-item-armor-fields").hidden) return false;
+                        set("custom-item-ac", "+3 AC");
+                        click("custom-item-save");
+                        if (!byId("custom-item-details").textContent.includes("+3 AC")
+                            || byId("custom-item-details").textContent.includes("1d8 Radiant")) return false;
+                        click("custom-item-delete");
+                        if (!JSON.parse(Armory.customMagicItems()).some(row => row.id === id)) return false;
+                        click("custom-item-confirm-delete");
+                        return byId("custom-item-status").textContent === "Item deleted."
+                            && !JSON.parse(Armory.customMagicItems()).some(row => row.id === id);
+                    } finally {
+                        if (id) Armory.deleteCustomMagicItem(id);
+                        if (!byId("custom-items").hidden) click("close-custom-items");
+                    }
+                })()''',
+                'Final AD&D 1e weapon profiles distinguish form and enhancement': '''(async () => {
+                    const cases = [
+                        ["a920b880cce165eb", ["Longsword default", "Shortsword uses 1d6 Piercing"]],
+                        ["fcb845cabca57466", ["+2 to attack rolls and +2 to damage rolls"]],
+                        ["4aa5ba6d9f0a3bb3", ["+3 to attack rolls and +3 to damage rolls"]],
+                        ["dee13ef43efdabe8", ["+3 to attack rolls and +4 to damage rolls"]],
+                        ["fdc9a08b72736178", ["+3 to attack rolls and +5 to damage rolls"]],
+                        ["e452f5db83175211", ["57–60", "Unearthed Arcana", "Omit the +1 from thrown damage"]],
+                        ["b3ef23ee32508ee3", ["1d4 + 1 Wish charges", "charges never return"]],
+                        ["4a50847bd4f974d2", ["attuned Paladin", "10 Radiant", "one target within 5 feet"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dmg-1e-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
+                'AD&D magic staves retain their variants, charges, and spell effects': '''(async () => {
+                    const cases = [
+                        ["09d3dbf87ab6d8c3", ["Only a Cleric can cast Speak with Plants", "only a mammal"]],
+                        ["6fd3f5457047b0b2", ["3d6 + 3 Hit Points", "twice between dawns", "only once between dawns"]],
+                        ["5f4b7de783af3b00", ["Guarding Shield", "Paralyzing Cone", "Retributive Strike", "20 maximum"]],
+                        ["5560d44119e052f1", ["Spell Absorption is its only recharge", "25 charges", "Whirlwind", "Hold Portal"]],
+                        ["5dd72f5cad6aced0", ["spend 1–3 charges", "1d6 Force damage per charge"]],
+                        ["061b888dc3dbe1c6", ["Treasure category", "On 1–60 use the Python", "On 61–100 use the Adder"]],
+                        ["2cba28cc52c00f67", ["20 Hit Points", "3d6 Poison", "Cleric of evil alignment"]],
+                        ["9c28e4c27f784e0f", ["Giant Constrictor Snake", "shares your Initiative", "staff is destroyed"]],
+                        ["6c098d10142f9b48", ["Age (2 charges)", "Wither (3 charges)", "Exhaustion"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dmg-1e-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))
+                            || !inspection.querySelector('a[href*="Dungeon%20Masters%20Guide"]')) return false;
+                    }
+                    return true;
+                })()''',
                 'AD&D cursed and defensive swords show their limits and triggers': '''(async () => {
                     const cases = [
                         ["c5dbe9879aab6cd4", ["cannot drop or stow", "binding persists until Remove Curse"]],

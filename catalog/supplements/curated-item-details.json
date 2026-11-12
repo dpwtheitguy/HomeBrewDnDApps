@@ -1,6 +1,484 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-1e-reference:a920b880cce165eb": [
+      {
+        "label": "D&D 2024 adaptation · Sword +1",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword default)",
+          "Damage": "1d8 Slashing + Strength modifier + 1, or use 1d10 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Choose the base sword when found. Make a melee weapon attack with that form.",
+          "Special powers": "The chosen form adds +1 to attack rolls and +1 to damage rolls. While drawn, it sheds Bright Light for 10 feet and Dim Light for another 10 feet.",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, III.G Swords, roll 01-25.",
+          "Conversion notes": "The source table’s most common result is a longsword. The form is fixed when the sword is found. Keeps the listed enhancement.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Other forms": "A Shortsword uses 1d6 Piercing, Finesse, Light and Vex (2 lb). A two-handed sword uses the Greatsword’s 2d6 Slashing, Heavy, Two-Handed and Graze (6 lb). Broadsword and bastard-sword results use the Longsword profile. Apply the same magic bonuses to the chosen form.",
+          "Published enhancement benchmark": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open the 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-1e-reference:fcb845cabca57466": [
+      {
+        "label": "D&D 2024 adaptation · Sword +2",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword default)",
+          "Damage": "1d8 Slashing + Strength modifier + 2, or use 1d10 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Choose the base sword when found. Make a melee weapon attack with that form.",
+          "Special powers": "The chosen form adds +2 to attack rolls and +2 to damage rolls. While drawn, it sheds Bright Light for 10 feet and Dim Light for another 10 feet.",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, III.G Swords, roll 51-58.",
+          "Conversion notes": "The source table’s most common result is a longsword. The form is fixed when the sword is found. Keeps the listed enhancement.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Other forms": "A Shortsword uses 1d6 Piercing, Finesse, Light and Vex (2 lb). A two-handed sword uses the Greatsword’s 2d6 Slashing, Heavy, Two-Handed and Graze (6 lb). Broadsword and bastard-sword results use the Longsword profile. Apply the same magic bonuses to the chosen form.",
+          "Published enhancement benchmark": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open the 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-1e-reference:4aa5ba6d9f0a3bb3": [
+      {
+        "label": "D&D 2024 adaptation · Sword +3",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword default)",
+          "Damage": "1d8 Slashing + Strength modifier + 3, or use 1d10 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Choose the base sword when found. Make a melee weapon attack with that form.",
+          "Special powers": "The chosen form adds +3 to attack rolls and +3 to damage rolls. While drawn, it sheds Bright Light for 10 feet and Dim Light for another 10 feet.",
+          "Rarity": "Very Rare",
+          "Attunement": "None",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, III.G Swords, roll 68-71.",
+          "Conversion notes": "The source table’s most common result is a longsword. The form is fixed when the sword is found. Keeps the listed enhancement.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Other forms": "A Shortsword uses 1d6 Piercing, Finesse, Light and Vex (2 lb). A two-handed sword uses the Greatsword’s 2d6 Slashing, Heavy, Two-Handed and Graze (6 lb). Broadsword and bastard-sword results use the Longsword profile. Apply the same magic bonuses to the chosen form.",
+          "Published enhancement benchmark": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open the 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-1e-reference:dee13ef43efdabe8": [
+      {
+        "label": "D&D 2024 adaptation · Sword +4",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword default)",
+          "Damage": "1d8 Slashing + Strength modifier + 4, or use 1d10 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Choose the base sword when found. Make a melee weapon attack with that form.",
+          "Special powers": "The chosen form adds +3 to attack rolls and +4 to damage rolls. While drawn, it sheds Bright Light for 10 feet and Dim Light for another 10 feet.",
+          "Rarity": "Legendary",
+          "Attunement": "None",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, III.G Swords, roll 75-76.",
+          "Conversion notes": "The source table’s most common result is a longsword. The form is fixed when the sword is found. Keeps the listed damage bonus and caps the accuracy bonus at +3.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Other forms": "A Shortsword uses 1d6 Piercing, Finesse, Light and Vex (2 lb). A two-handed sword uses the Greatsword’s 2d6 Slashing, Heavy, Two-Handed and Graze (6 lb). Broadsword and bastard-sword results use the Longsword profile. Apply the same magic bonuses to the chosen form.",
+          "Published enhancement benchmark": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open the 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-1e-reference:fdc9a08b72736178": [
+      {
+        "label": "D&D 2024 adaptation · Sword +5",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword default)",
+          "Damage": "1d8 Slashing + Strength modifier + 5, or use 1d10 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Choose the base sword when found. Make a melee weapon attack with that form.",
+          "Special powers": "The chosen form adds +3 to attack rolls and +5 to damage rolls. While drawn, it sheds Bright Light for 10 feet and Dim Light for another 10 feet.",
+          "Rarity": "Legendary",
+          "Attunement": "None",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, III.G Swords, roll 78.",
+          "Conversion notes": "The source table’s most common result is a longsword. The form is fixed when the sword is found. Keeps the listed damage bonus and caps the accuracy bonus at +3.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Other forms": "A Shortsword uses 1d6 Piercing, Finesse, Light and Vex (2 lb). A two-handed sword uses the Greatsword’s 2d6 Slashing, Heavy, Two-Handed and Graze (6 lb). Broadsword and bastard-sword results use the Longsword profile. Apply the same magic bonuses to the chosen form.",
+          "Published enhancement benchmark": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open the 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-1e-reference:e452f5db83175211": [
+      {
+        "label": "D&D 2024 adaptation · Hammer +1",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Light Hammer)",
+          "Damage": "1d4 Bludgeoning + Strength modifier + 1 in melee. Omit the +1 from thrown damage.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "2 lb",
+          "Activation": "Make a melee or thrown weapon attack.",
+          "Special powers": "The attack bonus applies when thrown. The magical damage bonus applies in melee.",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, III.H Miscellaneous Weapons, roll 57-60.",
+          "Conversion notes": "The DMG scan’s roll 57–60 shows +2 in its extracted table, the same as roll 61–62. The later AD&D Unearthed Arcana table separates these as +1 and +2 respectively. Uses the corroborated +1 and the 2024 Light Hammer.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Corroborating published treasure table": "https://donperkins.net/dnd/books/Unearthed_Arcana.pdf"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_light-hammer",
+          "label": "Open the 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-1e-reference:b3ef23ee32508ee3": [
+      {
+        "label": "D&D 2024 adaptation · Sword +1, Luck Blade",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 1, or use 1d10 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee attack, or spend 1 charge while holding the blade to cast Wish with a Magic action.",
+          "Special powers": "While holding it, you gain +1 to saving throws. When found, the blade has 1d4 + 1 Wish charges determined by the DM. It can cast Wish at most once between dawns. The charges never return. The attack, damage and saving throw bonuses remain when the charges are gone.",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, III.G Swords, roll 50.",
+          "Conversion notes": "Keeps the original 2–5 wishes and save bonus. Adds the modern limit on how often Wish can be cast.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#LuckBlade"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open the 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-1e-reference:4a50847bd4f974d2": [
+      {
+        "label": "D&D 2024 adaptation · Sword +5, Holy Avenger",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier + 2, or use 1d10 with two hands. An attuned Paladin uses +3 instead.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2 (+3 for an attuned Paladin).",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee attack. An attuned Paladin can also use the aura and dispelling powers.",
+          "Special powers": "While held by an attuned Paladin, the sword adds 10 Radiant damage on a hit against a Chaotic Evil creature. The Paladin and allies within 5 feet have Advantage on saving throws against spells and other magical effects. The Paladin can spend 1 of 3 charges to cast Dispel Magic on one target within 5 feet, using Charisma. The sword regains all charges at dawn.",
+          "Rarity": "Legendary",
+          "Attunement": "Required by a Paladin for the full powers. The +2 form works without attunement.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, III.G Swords, roll 80.",
+          "Conversion notes": "Keeps the dormant +2, Paladin gate, short aura and bonus against Chaotic Evil foes. Caps the original +5 at +3, uses Advantage for magic resistance, and gives the dispel a daily limit.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "2024 magic item comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#HolyAvenger"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open the 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-1e-reference:09d3dbf87ab6d8c3": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Command",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier, or use 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet for weapon attacks. Special powers use their listed ranges.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb (2024 Quarterstaff)",
+          "Attunement": "Required by a Cleric or Wizard.",
+          "Rarity": "Very Rare",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed pp. 133–134, Staves.",
+          "2024 spell and creature rules": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 magic item rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items",
+          "Charges": "10 maximum. Regains 1d4 + 2 expended charges at dawn.",
+          "Activation": "While holding the staff, spend the listed charges to cast a spell. Use your spell attack modifier and spell save DC. Spells use their normal casting time, range, duration, and Concentration, with no components except where stated.",
+          "Spells and costs": "Charm Person (1 charge), Suggestion (2 charges), Dominate Beast (4 charges), Speak with Plants (3 charges). Only a Cleric can cast Speak with Plants from the staff. A Wizard can target only a mammal with Dominate Beast.",
+          "Conversion notes": "Retains the different class permissions, with 2024 spells for influence, animal control, and plant manipulation."
+        }
+      }
+    ],
+    "dmg-1e-reference:6fd3f5457047b0b2": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Curing",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier, or use 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet for weapon attacks. Special powers use their listed ranges.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb (2024 Quarterstaff)",
+          "Attunement": "Required by a Cleric.",
+          "Rarity": "Rare",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed pp. 134, Staves.",
+          "2024 spell and creature rules": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 magic item rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items",
+          "Charges": "8 maximum. Regains 1d4 + 4 expended charges at dawn.",
+          "Activation": "While holding the staff, touch a creature as a Magic action and spend 1 charge to use one of its four functions. Each function can be used twice between dawns. A creature can benefit from the staff only once between dawns.",
+          "Special powers": "Heal wounds: restore 3d6 + 3 Hit Points. Restore sight: end the Blinded condition. Cure disease: end a nonmagical disease or a contagion whose rules permit a disease-curing effect. Soothe the mind: end one Charmed or Frightened condition, or one madness effect the DM designates as curable.",
+          "Conversion notes": "Keeps the original healing dice, four functions, and limits per recipient and function. Translates the older condition categories to current rules."
+        }
+      }
+    ],
+    "dmg-1e-reference:5f4b7de783af3b00": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Power",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 2, or use 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet for weapon attacks. Special powers use their listed ranges.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb (2024 Quarterstaff)",
+          "Attunement": "Required by a Sorcerer, Warlock, or Wizard.",
+          "Rarity": "Very Rare",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed pp. 134–135, Staves.",
+          "2024 spell and creature rules": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 magic item rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items",
+          "Charges": "20 maximum. Regains 2d8 + 4 expended charges at dawn.",
+          "Activation": "While holding the staff, spend the listed charges to cast a spell. Use your spell attack modifier and spell save DC. Spells use their normal casting time, range, duration, and Concentration, with no components except where stated.",
+          "Spells and costs": "Continual Flame (2 charges), Darkness (2), Levitate (2), Magic Missile (1), Lightning Bolt (3), Ray of Enfeeblement (2), Cone of Cold (5), Fireball (3), Globe of Invulnerability (6). Continual Flame consumes the ruby dust specified by the spell.",
+          "Special powers": "While holding the staff, you gain +2 to Armor Class and saving throws. Once per turn when you hit with it, spend 1 charge to deal an extra 1d8 Force damage.",
+          "Guarding Shield": "As a Reaction when you or an ally you can see within 5 feet is hit by an attack, spend 3 charges. You and allies within 5 feet gain +2 AC until the start of your next turn, including against the triggering attack.",
+          "Paralyzing Cone": "As a Magic action, spend 5 charges. Each creature in a 30-foot Cone makes a Wisdom save against your spell save DC. On a failure it is Paralyzed for up to 1 minute with Concentration. It repeats the save at the end of each of its turns, ending the effect on itself on a success.",
+          "Retributive Strike": "As a Magic action, break the staff over a solid surface or your knee. It is destroyed. There is a 50% chance you travel to a random plane and escape the blast. Otherwise you take 16 Force damage per remaining charge. Each other creature within 30 feet makes a DC 17 Dexterity save, taking Force damage equal to 8 times the remaining charges within 10 feet, 6 times within 20 feet, or 4 times beyond 20 feet. A success halves that creature’s damage.",
+          "Conversion notes": "Keeps the legacy repertoire, group shield, cone and strike. Charge costs and limited smite dice replace the legacy one-charge spell list and multiplied weapon damage."
+        }
+      }
+    ],
+    "dmg-1e-reference:5560d44119e052f1": [
+      {
+        "label": "D&D 2024 adaptation · Staff of the Magi",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier, or use 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet for weapon attacks. Special powers use their listed ranges.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb (2024 Quarterstaff)",
+          "Attunement": "Required by a Sorcerer, Warlock, or Wizard.",
+          "Rarity": "Legendary",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed pp. 134, Staves.",
+          "2024 spell and creature rules": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 magic item rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items",
+          "Charges": "25 maximum. Found with 1d20 charges. Spell Absorption is its only recharge.",
+          "Activation": "While holding the staff, spend the listed charges to cast a spell. Use your spell attack modifier and spell save DC. Spells use their normal casting time, range, duration, and Concentration, with no components except where stated.",
+          "Spells without charges": "Detect Magic, Enlarge/Reduce (enlarge only), Light, and Protection from Evil and Good.",
+          "Spells and costs": "Invisibility (2 charges), Knock (2), Blindness/Deafness (2), Web (2), Dispel Magic (3), Fireball (3), Lightning Bolt (3), Ice Storm (4), Wall of Fire (4), Passwall (5), Plane Shift (7), Conjure Elemental (5), and Telekinesis (5). Plane Shift requires its attuned fork. Cast Conjure Elemental at most once between dawns.",
+          "Hold Portal": "As a Magic action, magically seal a closed door or gate you touch for up to 1 minute with Concentration. It takes a successful Strength check against your spell save DC to force it open. Knock also opens it and ends the effect.",
+          "Whirlwind": "As a Magic action, spend 5 charges to create a 10-foot-radius, 30-foot-high Cylinder centered within 60 feet. It lasts up to 1 minute with Concentration. The first time a creature enters it on a turn or starts its turn there, it makes a Strength save against your spell save DC. On a failure it takes 3d8 Bludgeoning and falls Prone. On a success it takes half damage. On later turns you can move the Cylinder up to 20 feet as a Bonus Action, keeping its center within 60 feet.",
+          "Spell Absorption": "While holding the staff you gain +2 to saves against spells. When a spell targets only you, you can use a Reaction to negate it and gain charges equal to its level. The DM can keep that level hidden until after you choose. If the charges would exceed 25, the staff breaks and resolves Retributive Strike with 25 charges.",
+          "Retributive Strike": "As a Magic action, break the staff over a solid surface or your knee. It is destroyed. There is a 50% chance you travel to a random plane and escape the blast. Otherwise you take 16 Force damage per remaining charge. Each other creature within 30 feet makes a DC 17 Dexterity save, taking Force damage equal to 8 times the remaining charges within 10 feet, 6 times within 20 feet, or 4 times beyond 20 feet. A success halves that creature’s damage.",
+          "Conversion notes": "Keeps absorption-only recharge, dangerous overflow, free utility and the legacy blast bands. Blindness/Deafness takes Pyrotechnics’s blinding role. Hold Portal and Whirlwind use authored 2024-style rules."
+        }
+      }
+    ],
+    "dmg-1e-reference:5dd72f5cad6aced0": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Striking",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 3, or use 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet for weapon attacks. Special powers use their listed ranges.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb (2024 Quarterstaff)",
+          "Attunement": "Required.",
+          "Rarity": "Very Rare",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed pp. 135, Staves.",
+          "2024 spell and creature rules": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 magic item rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items",
+          "Charges": "10 maximum. Regains 1d6 + 4 expended charges at dawn.",
+          "Activation": "When you hit with the staff, you may spend 1–3 charges.",
+          "Special powers": "The hit deals an extra 1d6 Force damage per charge spent.",
+          "Conversion notes": "Keeps the +3 enhancement and three levels of strike. Uses the current Staff of Striking’s extra-die convention."
+        }
+      }
+    ],
+    "dmg-1e-reference:2cba28cc52c00f67": [
+      {
+        "label": "D&D 2024 adaptation · Staff of the Serpent (Adder)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 1, or use 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet for weapon attacks. Special powers use their listed ranges.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb (2024 Quarterstaff)",
+          "Attunement": "Required by a Cleric of evil alignment.",
+          "Rarity": "Rare",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed pp. 135, Staves.",
+          "2024 spell and creature rules": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 magic item rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items",
+          "Charges": "None.",
+          "Activation": "As a Bonus Action, speak the command word while holding it. The serpent head animates for 1 minute or until you dismiss it as a Bonus Action.",
+          "Special powers": "On a hit while the head is active, the target makes a DC 15 Constitution save. It takes 3d6 Poison on a failure or half on a success. While active, the head can be targeted separately (AC 15, 20 Hit Points). If it reaches 0 Hit Points, the staff is destroyed. If the head survives and reverts, it regains all Hit Points.",
+          "Conversion notes": "Retains the +1, evil Cleric restriction and destructible head. Replaces fatal poison with 2024 damage and uses a Bonus Action command."
+        }
+      }
+    ],
+    "dmg-1e-reference:9c28e4c27f784e0f": [
+      {
+        "label": "D&D 2024 adaptation · Staff of the Serpent (Python)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 2, or use 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet for weapon attacks. Special powers use their listed ranges.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb (2024 Quarterstaff)",
+          "Attunement": "Required by a Cleric.",
+          "Rarity": "Rare",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed pp. 135, Staves.",
+          "2024 spell and creature rules": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 magic item rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items",
+          "Charges": "None.",
+          "Activation": "As a Magic action, place the staff on the ground in an unoccupied space within 5 feet. It becomes a friendly Giant Constrictor Snake using its 2024 stat block.",
+          "Special powers": "The snake shares your Initiative and acts immediately after you. You can issue a verbal command on your turn without an action. Without a command it Dodges and tries to avoid danger. As a Bonus Action while it is within 60 feet, command it to revert in its space. If it reverts with at least 1 Hit Point, it regains all Hit Points. If it reaches 0 Hit Points in snake form, the staff is destroyed.",
+          "Conversion notes": "Retains the +2, clerical gate, constrictor transformation and destruction on defeat. Uses the current monster stat block for attacks and escape DC."
+        }
+      }
+    ],
+    "dmg-1e-reference:6c098d10142f9b48": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Withering",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf",
+        "fields": {
+          "Category": "Magic staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 1, or use 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet for weapon attacks. Special powers use their listed ranges.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb (2024 Quarterstaff)",
+          "Attunement": "Required by a Cleric.",
+          "Rarity": "Very Rare",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed pp. 135, Staves.",
+          "2024 spell and creature rules": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+          "2024 magic item rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items",
+          "Charges": "8 maximum. Regains 1d4 + 2 expended charges at dawn.",
+          "Activation": "On a melee hit, choose at most one withering effect and expend its charges.",
+          "Special powers": "Age (2 charges): the target makes a DC 15 Constitution save. On a failure it takes 2d8 Necrotic and gains 1 level of Exhaustion. Wither (3 charges): the target makes the same save. On a failure its Speed is halved and it has Disadvantage on attacks using Strength until the end of your next turn.",
+          "Conversion notes": "Retains the +1 and distinct two- and three-charge effects. Exhaustion and temporary mobility or Strength penalties replace permanent aging and limb loss."
+        }
+      }
+    ],
+    "dmg-1e-reference:061b888dc3dbe1c6": [
+      {
+        "label": "Source treasure category · Staff of the Serpent",
+        "status": "source-reported",
+        "profile_kind": "documented-reference",
+        "source": "https://www.easydamus.com/DMG.pdf",
+        "source_locator": {
+          "table": "III.D Rods, Staves, & Wands",
+          "roll": "25-27",
+          "indexed_line": 9080
+        },
+        "fields": {
+          "Role": "Treasure category with two separately defined variants.",
+          "Tabletop use": "Roll d100. On 1–60 use the Python. On 61–100 use the Adder. Both variants have their own cards.",
+          "Combat rules": "Use the selected staff’s weapon bonus, attunement and transformation rules. The source category has no third combat profile.",
+          "Legacy source": "AD&D 1e Dungeon Masters Guide, printed p. 135, Staff of the Serpent.",
+          "Original book": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/1st%20Edition%20%28ODD%2C%20D%26D%20Basic%2C%20AD%26D%29/Dungeon%20Masters%20Guide%20%28Premium%20Edition%29.pdf"
+        },
+        "related_item": {
+          "id": "dmg-1e-reference:9c28e4c27f784e0f",
+          "label": "Open the Python variant"
+        }
+      }
+    ],
     "dmg-1e-reference:c5dbe9879aab6cd4": [
       {
         "label": "D&D 2024 adaptation · Sword +1, Cursed",
