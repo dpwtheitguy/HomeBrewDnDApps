@@ -993,6 +993,20 @@ def main():
                     }
                     return true;
                 })()''',
+                'Ravenloft shortsword and axe retain their source-specific powers': '''(async () => {
+                    const cases = [
+                        ["5554570", "82", ["1d6 Piercing", "30-foot Emanation", "recharges at dawn", "K74h"]],
+                        ["5554591", "199", ["ordinary plant", "1d8 Slashing", "even on a miss", "2 lb"]],
+                    ];
+                    for (const [id, page, terms] of cases) {
+                        inspect("dndbeyond:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term)) ||
+                            ![...inspection.querySelectorAll("a")].some(link =>
+                                link.href.includes("Curse%20of%20Strahd.pdf#page=" + page))) return false;
+                    }
+                    return true;
+                })()''',
                 'Ravenloft cards distinguish weapon rules from encounter effects': '''(async () => {
                     const cases = [
                         ["d01396b5ec856e1c", ["One charge remains", "escape Barovia fails"]],

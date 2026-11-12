@@ -1,6 +1,77 @@
 {
   "schema_version": 1,
   "records": {
+    "dndbeyond:5554570": [
+      {
+        "label": "D&D 2024 adaptation · Curse of Strahd",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial melee weapon (Shortsword) · Requires attunement by a Lawful Good creature",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "+1 plus Strength or Dexterity modifier and Proficiency Bonus if proficient.",
+          "Properties": "Finesse, Light.",
+          "Mastery": "Vex, if your feature grants mastery with Shortswords.",
+          "Weight": "2 lb.",
+          "Activation": "Make a melee weapon attack. While attuned and wielding the sword, take a Magic action to cast Crusader’s Mantle from it. This casting recharges at dawn.",
+          "Special powers": "Crusader’s Mantle creates a 30-foot Emanation centered on you for up to 1 minute with Concentration. You and your allies deal an extra 1d4 Radiant damage when you hit with a weapon or an Unarmed Strike while in the aura.",
+          "Light": "Always sheds Bright Light for 15 feet and Dim Light for another 15 feet. The light cannot be extinguished while the sword survives.",
+          "Attunement": "A Lawful Good creature can attune to the sword in 1 minute.",
+          "Sentience": "Lawful Good; Intelligence 11, Wisdom 13, Charisma 13. Hearing and normal vision to 120 feet. It communicates emotions to its carrier or wielder and seeks to fight evil.",
+          "Acquisition": "The sword is the source of the glow in the flooded cell in Castle Ravenloft.",
+          "Conversion notes": "Keeps the original enhancement, attunement exception, light and sentience. Uses the 2024 Shortsword and Crusader’s Mantle.",
+          "Range": "5 feet melee.",
+          "Legacy source": "Curse of Strahd, Castle Ravenloft, area K74h, Lost Sword (p. 81)."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 base weapon"
+        }
+      },
+      {
+        "label": "Original adventure",
+        "status": "source-reported",
+        "source": "https://dnd5.kwidz.ca/Modules/Curse%20of%20Strahd.pdf#page=82",
+        "fields": {
+          "Source locator": "Curse of Strahd, Castle Ravenloft, area K74h, Lost Sword (p. 81)."
+        }
+      }
+    ],
+    "dndbeyond:5554591": [
+      {
+        "label": "D&D 2024 adaptation · Curse of Strahd",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial melee weapon (Battleaxe) · No attunement listed",
+          "Damage": "1d8 Slashing + Strength modifier, or 1d10 + Strength modifier when wielded in two hands. Add 1d8 Slashing when you hit an ordinary plant or a Plant creature.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient. No magical attack bonus.",
+          "Properties": "Versatile (1d10).",
+          "Mastery": "Topple, if your feature grants mastery with Battleaxes.",
+          "Weight": "2 lb (half the normal Battleaxe weight).",
+          "Activation": "Make a melee weapon attack. The plant damage applies on a hit. The thorns trigger after every attack by a wielder of non-Good alignment, even on a miss.",
+          "Special powers": "After a creature of non-Good alignment attacks with this axe, it takes 1 Piercing damage from the magical thorns.",
+          "Acquisition": "Embedded in the Gulthias tree above the remains of an adventurer. The haft is carved with leaves and vines.",
+          "Conversion notes": "Keeps the original damage against ordinary plants and Plant creatures, alignment-triggered backlash, and half weight. Uses the 2024 Battleaxe profile.",
+          "Range": "5 feet melee.",
+          "Legacy source": "Curse of Strahd, Yester Hill, area Y4, Gulthias Tree treasure (p. 198)."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_battleaxe",
+          "label": "Open 2024 base weapon"
+        }
+      },
+      {
+        "label": "Original adventure",
+        "status": "source-reported",
+        "source": "https://dnd5.kwidz.ca/Modules/Curse%20of%20Strahd.pdf#page=199",
+        "fields": {
+          "Source locator": "Curse of Strahd, Yester Hill, area Y4, Gulthias Tree treasure (p. 198)."
+        }
+      }
+    ],
     "adventurers-vault-1-reference:0bc22a5f6002434b": [
       {
         "label": "D&D 2024 conversion using the published counterpart · Scale Mail",
