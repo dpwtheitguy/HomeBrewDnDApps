@@ -1740,6 +1740,25 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'D&D 3.5 named weapons display sentience and their signature powers': '''(async () => {
+                    const cases = [
+                        ["7393feb7a0a98bfa", ["Zone of Truth, Clairvoyance, or Slow", "19 or 20", "Blindsight out to 120 feet"]],
+                        ["95e92154610a27b3", ["Bless or Hold Person", "opinionated poet"]],
+                        ["58d7fabaf3e6f04b", ["2d6 extra damage", "Only Giants in its area", "Jomnoth’s consent"]],
+                        ["959727f61926ff11", ["blocks spells of level 3 or lower", "2d6 extra Radiant"]],
+                        ["e2ca74501c285620", ["three nonrenewable Wish charges", "If Vesac consents"]],
+                        ["6085ecfc99f2cf2b", ["2d6 extra Necrotic", "reduce your Hit Point maximum by 1d6"]],
+                        ["3cd49976e07d063a", ["sundering strike", "including a held weapon", "+4 total"]],
+                        ["83cd5cec312379a6", ["both ends are silvered", "DC 15 Wisdom", "original form"]],
+                        ["cb19c4a4af46d927", ["20 gp in Thorris", "1d8 Slashing"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dmg-35-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!["D&D 2024 adaptation", ...terms].every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Legacy military picks and masterwork weapons show playable equipment rules': '''(async () => {
                     const cases = [
                         ["dmg-1e-reference:c09325a7645ffe53", ["1d8 Piercing", "Strength modifier + 1", "Table III.H"]],

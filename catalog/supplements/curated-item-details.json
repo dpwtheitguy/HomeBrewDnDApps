@@ -1,6 +1,266 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-35-reference:7393feb7a0a98bfa": [
+      {
+        "label": "D&D 2024 adaptation · Acrola, Watchful Tooth of Ashardalon",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Dagger)",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier + 3.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet melee or 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown (20/60 feet)",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Attunement": "Required",
+          "Activation": "Make a normal weapon attack or use a listed power at its stated trigger or action cost.",
+          "Special powers": "This weapon scores a Critical Hit on a d20 roll of 19 or 20. While holding the dagger, take a Magic action to cast Zone of Truth, Clairvoyance, or Slow from it. Each spell has three uses, regained at dawn. Use spell save DC 16. The spells otherwise follow their normal range, duration, and Concentration rules.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 271 (PDF p. 272), Intelligent Item Examples.",
+          "Conversion notes": "Caps the original +5 at +3 and converts Keen to a 19–20 critical range. Preserves the three spells and their individual uses.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Rarity": "Legendary",
+          "Sentience": "Chaotic Good. Intelligence 10, Wisdom 18, Charisma 18. Speaks and communicates telepathically with its bearer. It has hearing, Darkvision, and Blindsight out to 120 feet and +8 to Wisdom (Perception). It seeks to protect vulnerable people and urges its wielder to confront threats it discovers. The DM controls the item and resolves any conflict using the 2024 sentient magic item rules.",
+          "2024 sentience": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#SentientMagicItems",
+          "2024 spells": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 Dagger"
+        }
+      }
+    ],
+    "dmg-35-reference:95e92154610a27b3": [
+      {
+        "label": "D&D 2024 adaptation · Bosk, the Poetic Blade",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword)",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Activation": "Make a normal weapon attack or use a listed power at its stated trigger or action cost.",
+          "Special powers": "While holding the sword, take a Magic action to cast Bless or Hold Person from it. Each spell has three uses, regained at dawn. Use spell save DC 15. The spells otherwise follow their normal range, duration, and Concentration rules.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 272 (PDF p. 273), Intelligent Item Examples.",
+          "Conversion notes": "Preserves both spells and their individual use limits.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Rarity": "Very Rare",
+          "Sentience": "Neutral. Intelligence 14, Wisdom 14, Charisma 10. Speaks and can see and hear out to 30 feet. It is an opinionated poet with a long history of owners. The DM controls the item and resolves any conflict using the 2024 sentient magic item rules.",
+          "2024 sentience": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#SentientMagicItems",
+          "2024 spells": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        }
+      }
+    ],
+    "dmg-35-reference:58d7fabaf3e6f04b": [
+      {
+        "label": "D&D 2024 adaptation · Jomnoth, Giantblight",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Dwarven waraxe)",
+          "Damage": "1d10 Slashing (1d12 with two hands) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d12). Strength 13 required to use one-handed.",
+          "Mastery": "Topple",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Activation": "Make a normal weapon attack or use a listed power at its stated trigger or action cost.",
+          "Special powers": "Against a Giant, hits deal 2d6 extra damage of the weapon’s type. While holding the axe, take a Magic action to cast Cure Wounds at level 2 (three uses per dawn, using a +2 spellcasting ability modifier) or Detect Magic (at will). Once per dawn, with Jomnoth’s consent while pursuing its purpose, cast Confusion with spell save DC 17 as a Magic action. Only Giants in its area are affected. The spells otherwise follow their normal range, duration, and Concentration rules.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 271 (PDF p. 272), Intelligent Item Examples.",
+          "Conversion notes": "Keeps giantbane damage and the original healing and detection roles. Confusion against Giants represents its dedicated Song of Discord power.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Rarity": "Legendary",
+          "Sentience": "Lawful Good. Intelligence 10, Wisdom 14, Charisma 14. Speaks and can see and hear out to 120 feet. It wants its wielder to confront hostile giants. The DM controls the item and resolves any conflict using the 2024 sentient magic item rules.",
+          "2024 sentience": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#SentientMagicItems",
+          "2024 spells": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "dmg-35-reference:959727f61926ff11": [
+      {
+        "label": "D&D 2024 adaptation · Iquel",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial ranged weapon (Longbow)",
+          "Damage": "1d8 Piercing + Dexterity modifier + 2.",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "150/600 feet",
+          "Properties": "Ammunition (Arrows), Heavy, Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Attunement": "Required",
+          "Activation": "Make a normal weapon attack or use a listed power at its stated trigger or action cost.",
+          "Special powers": "Hits against Fiends or Undead deal 2d6 extra Radiant damage. While holding the bow, take a Magic action to cast Faerie Fire or Locate Object, each three times per dawn, or Globe of Invulnerability once per dawn. Use spell save DC 16. The globe blocks spells of level 3 or lower. Three times per dawn as a Magic action, choose one creature you can see within 60 feet. It must succeed on a DC 16 Wisdom saving throw or be unable to take Reactions until the end of its next turn and unable to take actions on that turn. Normal spell durations and Concentration apply.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 271 (PDF p. 272), Intelligent Item Examples.",
+          "Conversion notes": "Converts the composite bow to a 2024 Longbow and holy damage to Radiant against Fiends and Undead. Retains the reduced protection threshold of the lesser globe and adapts Daze Monster.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Rarity": "Legendary",
+          "Sentience": "Neutral Good. Intelligence 17, Wisdom 10, Charisma 17. Speaks and communicates telepathically with its bearer. It has Darkvision and hearing out to 120 feet. It seeks a worthy archer and enjoys conversation and quiet care. The DM controls the item and resolves any conflict using the 2024 sentient magic item rules.",
+          "2024 sentience": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#SentientMagicItems",
+          "2024 spells": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open 2024 Longbow"
+        }
+      }
+    ],
+    "dmg-35-reference:e2ca74501c285620": [
+      {
+        "label": "D&D 2024 adaptation · Vesac, the Deceiver",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Shortsword)",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Attunement": "Required",
+          "Activation": "Make a normal weapon attack or use a listed power at its stated trigger or action cost.",
+          "Special powers": "While carrying the blade, add 1 to saving throws. Once per dawn, while carrying it and able to act, you can reroll one failed D20 Test without taking an action and must use the new roll. It has three nonrenewable Wish charges. As a Magic action while holding it, you can request a Wish. If Vesac consents, expend one charge to cast Wish. A true Wish can be cast at most once per dawn. Vesac can instead create a misleading illusion without spending a Wish charge. It can cast Silent Image and Major Image once each per dawn, spell save DC 15, subject to the spells’ normal rules.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 272 (PDF p. 273), Intelligent Item Examples.",
+          "Conversion notes": "Uses the 2024 Luck Blade attack and saving throw bonuses while keeping the named blade’s three wishes and its control over their use. Silent Image represents Minor Image.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Rarity": "Legendary",
+          "Sentience": "Neutral Evil. Intelligence 16, Wisdom 10, Charisma 16. Speaks and has Darkvision and hearing out to 60 feet. It hoards its wishes and can deceive wielders to preserve them. The DM controls the item and resolves any conflict using the 2024 sentient magic item rules.",
+          "2024 sentience": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#SentientMagicItems",
+          "2024 spells": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "2024 benchmark": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#LuckBlade"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 Shortsword"
+        }
+      }
+    ],
+    "dmg-35-reference:6085ecfc99f2cf2b": [
+      {
+        "label": "D&D 2024 adaptation · Life-drinker",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Greataxe)",
+          "Damage": "1d12 Slashing + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Cleave",
+          "Weight": "7 lb",
+          "Attunement": "Required",
+          "Activation": "Make a normal weapon attack or use a listed power at its stated trigger or action cost.",
+          "Special powers": "Once per turn when you damage a creature other than a Construct or Undead with the axe, it takes 2d6 extra Necrotic damage and its Hit Point maximum is reduced by the extra damage it actually takes. That reduction lasts until it finishes a Long Rest. When this property triggers, unless you are a Construct or Undead, reduce your Hit Point maximum by 1d6 for 1 hour, to a minimum of 1. Repeated reductions to the wielder are cumulative and expire individually.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 227 (PDF p. 228), Table 7–16.",
+          "Conversion notes": "Converts negative levels to Necrotic damage and temporary maximum-HP reduction. Preserves the drawback and creature exemptions and caps the trigger at once per turn.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Rarity": "Very Rare"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greataxe",
+          "label": "Open 2024 Greataxe"
+        }
+      }
+    ],
+    "dmg-35-reference:3cd49976e07d063a": [
+      {
+        "label": "D&D 2024 adaptation · Shatterspike",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword)",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "None",
+          "Activation": "Make a normal weapon attack or use a listed power at its stated trigger or action cost.",
+          "Special powers": "Once per turn when you take the Attack action, you can replace one attack with a sundering strike against a weapon you can see within 5 feet, including a held weapon. Add +4 total, including the sword’s +1, to the roll against the object’s AC. On a hit, deal 1d8 plus your Strength modifier plus 4 damage to the object. Choose Slashing or Bludgeoning for that strike. The DM uses the 2024 rules for object AC, Hit Points, immunities, and damage thresholds. Artifacts and magic weapons with a +5 or higher bonus are unaffected.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 227 (PDF p. 228), Table 7–16.",
+          "Conversion notes": "Retains the original +1 weapon, +4 sundering figures, and eligible object target. A dedicated attack replaces the 3.5 Improved Sunder prerequisite.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Rarity": "Rare",
+          "2024 object rules": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#BreakingObjects"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        }
+      }
+    ],
+    "dmg-35-reference:83cd5cec312379a6": [
+      {
+        "label": "D&D 2024 adaptation · Shifter’s sorrow",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Two-bladed sword)",
+          "Damage": "1d8 Slashing + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee",
+          "Properties": "Two-Handed; both ends are silvered",
+          "Mastery": "Graze",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Activation": "Make a normal weapon attack or use a listed power at its stated trigger or action cost.",
+          "Special powers": "When you take the Attack action and attack with one end, you can use a Bonus Action to attack with the other end once. Omit a positive ability modifier from the bonus attack’s damage. Both ends share the same +1 enhancement. A hit against a creature with a shape-changing trait or one currently in a magically assumed form deals 2d6 extra Slashing damage. When the weapon hits a creature in an assumed form, it must succeed on a DC 15 Wisdom saving throw or return to its original form.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 227 (PDF p. 228), Table 7–16.",
+          "Conversion notes": "Retains silvered twin blades, bonus damage against shapechangers, and the forced reversion. Uses a Bonus Action for the 3.5 double-weapon attack.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Rarity": "Very Rare"
+        }
+      }
+    ],
+    "dmg-35-reference:cb19c4a4af46d927": [
+      {
+        "label": "D&D 2024 adaptation · Thorris broadsword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword)",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "None",
+          "Activation": "Make a normal weapon attack or use a listed power at its stated trigger or action cost.",
+          "Special powers": "The original example lists a local shop price of 20 gp in Thorris. Use the listed combat profile for this ordinary broadsword.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 139 (PDF p. 140), Economics.",
+          "Conversion notes": "Uses the 2024 Longsword for this source’s ordinary broadsword. Retains the original town price as a market example.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        }
+      }
+    ],
     "dmg-35-reference:13e0a18b0fed4bf5": [
       {
         "label": "D&D 2024 adaptation · Masterwork dwarven urgrosh",
