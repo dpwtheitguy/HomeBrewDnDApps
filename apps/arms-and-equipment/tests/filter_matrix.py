@@ -808,6 +808,21 @@ def main():
                         ["Ammunition +3", "compatible launcher", "becomes nonmagical"]
                             .every(value => ammo.includes(value));
                 })()''',
+                'Legacy armor pages show revised rules and retain their original links': '''(async () => {
+                    inspect("dndbeyond:5507", grid.firstElementChild);
+                    await itemDetails;
+                    const mariner = inspection.textContent;
+                    const links = Array.from(inspection.querySelectorAll("a")).map(link => link.href);
+                    inspect("dndbeyond:4645", grid.firstElementChild);
+                    await itemDetails;
+                    const glamour = inspection.textContent;
+                    return ["armor counterpart · Leather Armor", "underwater at 0 HP", "1d4 HP"]
+                        .every(value => mariner.includes(value)) &&
+                        links.some(url => url.includes("5507-mariners-armor")) &&
+                        links.some(url => url.includes("roll20.net")) &&
+                        ["Armor class13 + Dex modifier", "Bonus Action", "Weight and bulk stay the same"]
+                            .every(value => glamour.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

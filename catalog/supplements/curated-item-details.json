@@ -4222,6 +4222,30 @@
           "Attunement": "None"
         }
       }
+    ],
+    "dndbeyond:4645": [
+      {
+        "label": "Verified 2024 armor counterpart · Studded Leather Armor",
+        "status": "published-reference",
+        "profile_kind": "published-public-armor",
+        "source": "https://www.dndbeyond.com/magic-items/4645-glamoured-studded-leather",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#GlamouredStuddedLeather",
+        "enhancement_bonus": 1,
+        "fields": {
+          "Armor class": "13 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "13 lb",
+          "Attunement": "None",
+          "Rarity": "Rare",
+          "Special powers": "While wearing the armor, use a Bonus Action to make it look like ordinary clothes or another kind of armor. The illusion lasts until you change it or doff the armor. Weight and bulk stay the same."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_studded-leather-armor",
+          "label": "Open 2024 base equipment"
+        }
+      }
     ]
   }
 }

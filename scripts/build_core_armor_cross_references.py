@@ -199,6 +199,39 @@ def public_armor_variants(items):
     return records
 
 
+LEGACY_ARMOR_COUNTERPARTS = {
+    'dndbeyond:4574': ('dndbeyond:9228350', MAGIC + '#ArmorofInvulnerability'),
+    'dndbeyond:4619': ('dndbeyond:9228451', MAGIC + '#DemonArmor'),
+    'dndbeyond:5380': ('dndbeyond:9228477', MAGIC + '#DragonScaleMail'),
+    'dndbeyond:4626': ('dndbeyond:9228527', MAGIC + '#DwarvenPlate'),
+    'dndbeyond:5350': ('dndbeyond:9228530', MAGIC + '#EfreetiChain'),
+    'dndbeyond:4631': ('dndbeyond:9228539', MAGIC + '#ElvenChain'),
+    'dndbeyond:5507': ('dndbeyond:9228837', PUBLIC_ARMOR_RULES['dndbeyond:9228837']),
+    'dndbeyond:4698': ('dndbeyond:9228928', MAGIC + '#PlateArmorofEtherealness'),
+}
+
+
+def indexed_legacy_counterparts(items, modern_profiles):
+    indexed = {item['id']: item for item in items}
+    records = {}
+    for legacy_id, (modern_id, rules_source) in LEGACY_ARMOR_COUNTERPARTS.items():
+        if legacy_id not in indexed:
+            continue
+        legacy = indexed[legacy_id]
+        modern = indexed[modern_id]
+        slug = legacy['name'].lower().replace("'", '').replace(' ', '-')
+        source = f"https://www.dndbeyond.com/magic-items/{legacy_id.split(':')[1]}-{slug}"
+        if (legacy['name'] != modern['name'] or legacy['requires_attunement'] != modern['requires_attunement']
+                or legacy['provenance'].get('source_url') != source):
+            raise ValueError(f'Legacy armor identity mismatch: {legacy_id}')
+        records[legacy_id] = [
+            {**entry, 'source': source, 'rules_source': rules_source,
+             'label': entry['label'].replace('Verified 2024 armor rules', 'Verified 2024 armor counterpart')}
+            for entry in modern_profiles[modern_id]
+        ]
+    return records
+
+
 def build(catalog):
     database = (catalog / 'indexes/items.sqlite3').resolve()
     with sqlite3.connect(database.as_uri() + '?mode=ro', uri=True) as db:
@@ -264,7 +297,10 @@ def build(catalog):
             'target_id': target['id'], 'source': MAGIC if effect else EQUIPMENT,
             'effect': effect, 'mithral': family == 'Mithral Armor',
         }
-    return {'schema_version': 1, 'records': records, 'modern': current_families, 'public': public_armor_variants(items)}
+    public = public_armor_variants(items)
+    curated = json.loads((catalog / 'supplements/curated-item-details.json').read_text())['records']
+    public.update(indexed_legacy_counterparts(items, {**curated, **public}))
+    return {'schema_version': 1, 'records': records, 'modern': current_families, 'public': public}
 
 
 if __name__ == '__main__':
