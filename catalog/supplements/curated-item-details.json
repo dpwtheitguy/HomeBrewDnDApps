@@ -1,6 +1,198 @@
 {
   "schema_version": 1,
   "records": {
+    "adventurers-vault-1-reference:f7e25d7df13456d8": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "When you jump while wearing this armor, you can extend the jump by up to 5 feet. The extra distance costs no movement and can exceed your remaining movement. You must have a legal landing space. Once used, this power recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 52 (PDF p. 53), Skybound Armor.",
+          "Conversion notes": "Maps cloth to Padded Armor and converts the lowest-tier extra square to 5 feet. Jumping uses 2024 movement rules. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "When you jump while wearing this armor, you can extend the jump by up to 5 feet. The extra distance costs no movement and can exceed your remaining movement. You must have a legal landing space. Once used, this power recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 52 (PDF p. 53), Skybound Armor.",
+          "Conversion notes": "Maps cloth to Padded Armor and converts the lowest-tier extra square to 5 feet. Jumping uses 2024 movement rules. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:9dbc574a433a4b9e": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing the armor, gain +2 to Dexterity (Acrobatics) checks made to escape a grapple.",
+          "Source locator": "Adventurer’s Vault (4e), p. 52 (PDF p. 53), Slick Armor.",
+          "Conversion notes": "Maps cloth to Padded Armor and retains the escape bonus of twice the armor’s +1 enhancement. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing the armor, gain +2 to Dexterity (Acrobatics) checks made to escape a grapple.",
+          "Source locator": "Adventurer’s Vault (4e), p. 52 (PDF p. 53), Slick Armor.",
+          "Conversion notes": "Maps cloth to Padded Armor and retains the escape bonus of twice the armor’s +1 enhancement. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing the armor, gain +2 to Dexterity (Acrobatics) checks made to escape a grapple.",
+          "Source locator": "Adventurer’s Vault (4e), p. 52 (PDF p. 53), Slick Armor.",
+          "Conversion notes": "Maps cloth to Padded Armor and retains the escape bonus of twice the armor’s +1 enhancement. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:8ec14ff314d86eb6": [
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing the armor, you have Resistance to Poison damage. Immediately after taking damage from a melee attack, you can take a Reaction to envenom the attacker. At the start of each of its turns it takes 5 Poison damage for up to 1 minute. At the end of each of its turns it makes a DC 15 Constitution saving throw, ending the effect on a success. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 52 (PDF p. 53), Snakefang Armor.",
+          "Conversion notes": "Uses +2 AC. Replaces fixed poison resistance with 2024 Resistance and keeps the original lowest-tier five-point recurring damage with a fixed save and duration. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing the armor, you have Resistance to Poison damage. Immediately after taking damage from a melee attack, you can take a Reaction to envenom the attacker. At the start of each of its turns it takes 5 Poison damage for up to 1 minute. At the end of each of its turns it makes a DC 15 Constitution saving throw, ending the effect on a success. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 52 (PDF p. 53), Snakefang Armor.",
+          "Conversion notes": "Uses +2 AC. Replaces fixed poison resistance with 2024 Resistance and keeps the original lowest-tier five-point recurring damage with a fixed save and duration. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:82aa9792b6fd9c06": [
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing the armor, take a Bonus Action to gain Temporary Hit Points equal to 10 + your Constitution modifier. The Temporary Hit Points last until depleted or until you finish a Long Rest. This property recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Stoneborn Armor.",
+          "Conversion notes": "Uses the lowest published enhancement and Temporary Hit Point amount. The 4e extended rest becomes a Long Rest. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
     "adventurers-vault-1-reference:b5f750576f0c162e": [
       {
         "label": "D&D 2024 adaptation · Hide Armor",

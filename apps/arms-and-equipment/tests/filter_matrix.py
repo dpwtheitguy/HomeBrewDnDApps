@@ -1740,6 +1740,20 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault armor shows jump escape poison and temporary HP rules': '''(async () => {
+                    const cases = [
+                        ["f7e25d7df13456d8", ["Padded Armor", "exceed your remaining movement", "Short or Long Rest"]],
+                        ["9dbc574a433a4b9e", ["Hide Armor", "+2 to Dexterity (Acrobatics)", "escape a grapple"]],
+                        ["8ec14ff314d86eb6", ["Resistance to Poison", "DC 15 Constitution", "5 Poison damage"]],
+                        ["82aa9792b6fd9c06", ["Armor class19", "10 + your Constitution modifier", "Long Rest"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Adventurer’s Vault movement and retaliation armor shows its limits': '''(async () => {
                     const cases = [
                         ["b5f750576f0c162e", ["Leather Armor", "Hide Armor", "15 feet", "unoccupied space"]],
