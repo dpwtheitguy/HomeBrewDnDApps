@@ -1869,6 +1869,25 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Vault of Magic restores Iceblink powers and shield reactions': '''(async () => {
+                    for (const [id, terms] of [
+                        ["iceblink-greatsword", ["2d6 Slashing", "Freeze Water", "60-foot radius", "Snowblind", "DC 15 Constitution"]],
+                        ["grasping-shield", ["Armor class bonus+3", "escape DC 13", "no AC bonus"]],
+                        ["grim-escutcheon", ["DC 13", "30-foot Cone", "dusk"]],
+                        ["grave-ward-plate", ["Armor class18", "1 Hit Point", "without Concentration", "AttunementRequired"]],
+                        ["hammer-of-throwing", ["20/60 feet", "end of your turn", "Nick"]],
+                        ["hexen-blade", ["5 charges", "Hypnotic Pattern (3)", "Adamantine"]],
+                        ["hidden-armament", ["tattoo on your palm", "2024 Dagger example"]],
+                        ["impact-club", ["DC 9 +", "up to 10 feet", "Disadvantage"]],
+                    ]) {
+                        inspect("open5e-vom:vom_" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) {
+                            throw new Error("Missing fields on " + id);
+                        }
+                    }
+                    return !JSON.parse(Armory.item("open5e-vom:vom_hidden-armament")).mechanics.weapon;
+                })()''',
                 'Vault of Magic preserves Fountmail, self-loading crossbow and fire effects': '''(async () => {
                     for (const [id, terms] of [
                         ["fellforged-armor", ["Armor class19", "Speak with Dead", "cannot remove the armor"]],

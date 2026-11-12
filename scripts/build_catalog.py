@@ -166,6 +166,13 @@ def main():
         'vom_goblin-shield': 24,
         'vom_golden-bolt': 24,
         'vom_gorgon-scale': 24,
+        'vom_grasping-shield': 25,
+        'vom_grim-escutcheon': 25,
+        'vom_hammer-of-throwing': 25,
+        'vom_hexen-blade': 26,
+        'vom_hidden-armament': 26,
+        'vom_humble-cudgel-of-temperance': 26,
+        'vom_impact-club': 26,
     }
     vault_weapon_corrections = {
         'vom_anchor-of-striking': ('Anchor of Striking', 'srd_war-pick', 11),
@@ -205,12 +212,19 @@ def main():
                         vault_page = 23
                     if raw['pk'].startswith('vom_glazed-'):
                         vault_page = 24
+                    if raw['pk'].startswith('vom_grave-ward-'):
+                        vault_page = 25
+                    if raw['pk'].startswith('vom_iceblink-'):
+                        vault_page = 26
+                    if raw['pk'] == 'vom_hidden-armament':
+                        f = {**f, 'weapon': None}
                     if raw['pk'] == 'vom_fountmail':
                         f = {**f, 'armor': 'srd_chain-mail', 'weight': '55.000'}
                     if (raw['pk'] in ('vom_animated-chain-mail', 'vom_blood-soaked-hide', 'vom_brazen-bulwark',
                                       'vom_crusaders-shield', 'vom_fellforged-armor', 'vom_fountmail',
-                                      'vom_goblin-shield', 'vom_gorgon-scale')
-                            or raw['pk'].startswith(('vom_bloodprice-', 'vom_chillblain-', 'vom_encouraging-'))):
+                                      'vom_goblin-shield', 'vom_gorgon-scale', 'vom_grasping-shield')
+                            or raw['pk'].startswith(('vom_bloodprice-', 'vom_chillblain-', 'vom_encouraging-',
+                                                     'vom_grave-ward-'))):
                         f = {**f, 'requires_attunement': True}
                 category=f.get('category') or f.get('type') or ('armor' if fn=='Armor.json' else 'weapon' if fn=='Weapon.json' else 'gear')
                 weapon=weapon_lookup.get(f.get('weapon'),{}) if ver=='v2' else (f if fn=='Weapon.json' else {})
@@ -223,7 +237,8 @@ def main():
                     armor = armor_lookup['srd_half-plate']
                     category = 'medium-armor'
                 typ,icon=classify(f['name'],category,weapon.get('name','')+' '+armor.get('name',''))
-                if iid == 'open5e-vom:vom_goblin-shield':
+                if iid in {'open5e-vom:vom_goblin-shield', 'open5e-vom:vom_grasping-shield',
+                           'open5e-vom:vom_grim-escutcheon'}:
                     icon = 'shield'
                 properties=[]
                 for a in prop_assign.get(f.get('weapon'),[]):
@@ -292,7 +307,7 @@ def main():
                         'https://www.dndbeyond.com/sources/dnd/basic-rules-2014/magic-items#MithralArmor')
                 if armor_attunement_correction:
                     item['provenance']['attunement_correction_source']='https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#' + f['name'].split(' (',1)[0].replace(' ','')
-                if ver=='v2' and typ=='weapon' and not weapon:
+                if ver=='v2' and typ=='weapon' and not weapon and iid != 'open5e-vom:vom_hidden-armament':
                     warnings.append({'id':iid,'issue':'weapon-category item has no resolved weapon relation; no mechanics inferred'})
                 items.append(item)
         source={'id':key,'name':df.get('name',df.get('title')),'ruleset':ruleset,'provider':'Open5e',

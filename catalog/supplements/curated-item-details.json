@@ -1,6 +1,657 @@
 {
   "schema_version": 1,
   "records": {
+    "open5e-vom:vom_hammer-of-throwing": [
+      {
+        "label": "D&D 2024 adaptation · Hammer of Throwing",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_light-hammer",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Bludgeoning + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "2 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "After you throw it, the hammer returns at the end of your turn. It returns to a free hand or falls at your feet if you have no free hand.",
+          "Conversion notes": "Uses the 2024 Light Hammer. The return occurs at the end of the turn, even on a miss.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 25."
+        }
+      }
+    ],
+    "open5e-vom:vom_hexen-blade": [
+      {
+        "label": "D&D 2024 adaptation · Hexen Blade",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "The sword holds up to 5 charges and regains 1d4 + 1 expended charges at dawn. While holding it, take a Magic action and spend charges to cast Disguise Self (1), Mirror Image (2), or Hypnotic Pattern (3). Use spell save DC 15 where applicable. Hypnotic Pattern requires Concentration.",
+          "Conversion notes": "Uses the 2024 Shortsword and spell versions. The source describes the blade as adamantine.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 26.",
+          "Material": "Adamantine. A hit against an object is a Critical Hit under the 2024 adamantine weapon rules."
+        }
+      }
+    ],
+    "open5e-vom:vom_hidden-armament": [
+      {
+        "label": "D&D 2024 adaptation · Hidden Armament",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While holding the weapon, take a Magic action to make it a tattoo on your palm. Use a Bonus Action to return it to weapon form in that hand.",
+          "Conversion notes": "Open5e linked this item to a net. The printed enchantment can be on any melee weapon without the Two-Handed property. The combat fields show a 2024 Dagger example.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 26.",
+          "Other forms": "For another allowed form, use that weapon’s 2024 damage, proficiency, range, properties, weight, and mastery."
+        }
+      }
+    ],
+    "open5e-vom:vom_humble-cudgel-of-temperance": [
+      {
+        "label": "D&D 2024 adaptation · Humble Cudgel of Temperance",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Bludgeoning + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Light",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "You have Advantage on attacks with the club against a Poisoned creature. On a natural 20, the target becomes Poisoned for 1 minute. If it was already Poisoned, this property instead makes it Incapacitated for 1 minute. At the end of each of its turns, the target can make a DC 13 Constitution save, ending the condition imposed by the club on a success.",
+          "Conversion notes": "Uses 2024 Poisoned and Incapacitated rules. A successful save ends the club’s effect and leaves a preexisting Poisoned condition to its original duration.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 26."
+        }
+      }
+    ],
+    "open5e-vom:vom_impact-club": [
+      {
+        "label": "D&D 2024 adaptation · Impact Club",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Bludgeoning + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Light",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "The club holds 3 charges and regains 1d3 expended charges at dawn. After you hit a creature on your turn, you can spend 1 charge as a Bonus Action to try to shove it. The target can be no more than one size larger than you. It chooses a Strength or Dexterity save against DC 9 + your Strength modifier + Proficiency Bonus. On a failure, choose to knock it Prone or push it 5 feet away. If the triggering hit was a natural 20, it has Disadvantage on the save and the push can be up to 10 feet.",
+          "Conversion notes": "Converts the source’s contested check into a 2024 Shove save. Its +1 check bonus becomes +1 to the DC, and Advantage on the old shove check becomes Disadvantage on the target’s save.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 26."
+        }
+      }
+    ],
+    "open5e-vom:vom_iceblink-greatsword": [
+      {
+        "label": "D&D 2024 adaptation · Iceblink Greatsword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "6 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "On a hit, add 1d6 Cold damage. The blade sheds Bright Light in a 10-foot radius and Dim Light for another 10 feet.",
+          "Conversion notes": "Uses the 2024 Greatsword. Freeze Water and Snowblind have separate dawn recharges.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 26.",
+          "Freeze Water": "Once per dawn, take a Magic action to plunge the sword into a body of water. The surface freezes 3 inches deep in a 60-foot radius around the point of contact. Creatures swimming at the surface make a DC 15 Dexterity save or become Restrained. A trapped creature can break free as an action with a successful DC 15 Strength check. The ice melts after 1 minute if the surrounding temperature cannot sustain it.",
+          "Snowblind": "Once per dawn, take a Magic action to flash the blade at one creature you can see within 5 feet. It makes a DC 15 Constitution save or is Blinded for 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success."
+        }
+      }
+    ],
+    "open5e-vom:vom_iceblink-longsword": [
+      {
+        "label": "D&D 2024 adaptation · Iceblink Longsword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "On a hit, add 1d6 Cold damage. The blade sheds Bright Light in a 10-foot radius and Dim Light for another 10 feet.",
+          "Conversion notes": "Uses the 2024 Longsword. Freeze Water and Snowblind have separate dawn recharges.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 26.",
+          "Freeze Water": "Once per dawn, take a Magic action to plunge the sword into a body of water. The surface freezes 3 inches deep in a 60-foot radius around the point of contact. Creatures swimming at the surface make a DC 15 Dexterity save or become Restrained. A trapped creature can break free as an action with a successful DC 15 Strength check. The ice melts after 1 minute if the surrounding temperature cannot sustain it.",
+          "Snowblind": "Once per dawn, take a Magic action to flash the blade at one creature you can see within 5 feet. It makes a DC 15 Constitution save or is Blinded for 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success."
+        }
+      }
+    ],
+    "open5e-vom:vom_iceblink-rapier": [
+      {
+        "label": "D&D 2024 adaptation · Iceblink Rapier",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_rapier",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "On a hit, add 1d6 Cold damage. The blade sheds Bright Light in a 10-foot radius and Dim Light for another 10 feet.",
+          "Conversion notes": "Uses the 2024 Rapier. Freeze Water and Snowblind have separate dawn recharges.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 26.",
+          "Freeze Water": "Once per dawn, take a Magic action to plunge the sword into a body of water. The surface freezes 3 inches deep in a 60-foot radius around the point of contact. Creatures swimming at the surface make a DC 15 Dexterity save or become Restrained. A trapped creature can break free as an action with a successful DC 15 Strength check. The ice melts after 1 minute if the surrounding temperature cannot sustain it.",
+          "Snowblind": "Once per dawn, take a Magic action to flash the blade at one creature you can see within 5 feet. It makes a DC 15 Constitution save or is Blinded for 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success."
+        }
+      }
+    ],
+    "open5e-vom:vom_iceblink-scimitar": [
+      {
+        "label": "D&D 2024 adaptation · Iceblink Scimitar",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scimitar",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Slashing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "On a hit, add 1d6 Cold damage. The blade sheds Bright Light in a 10-foot radius and Dim Light for another 10 feet.",
+          "Conversion notes": "Uses the 2024 Scimitar. Freeze Water and Snowblind have separate dawn recharges.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 26.",
+          "Freeze Water": "Once per dawn, take a Magic action to plunge the sword into a body of water. The surface freezes 3 inches deep in a 60-foot radius around the point of contact. Creatures swimming at the surface make a DC 15 Dexterity save or become Restrained. A trapped creature can break free as an action with a successful DC 15 Strength check. The ice melts after 1 minute if the surrounding temperature cannot sustain it.",
+          "Snowblind": "Once per dawn, take a Magic action to flash the blade at one creature you can see within 5 feet. It makes a DC 15 Constitution save or is Blinded for 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success."
+        }
+      }
+    ],
+    "open5e-vom:vom_iceblink-shortsword": [
+      {
+        "label": "D&D 2024 adaptation · Iceblink Shortsword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "On a hit, add 1d6 Cold damage. The blade sheds Bright Light in a 10-foot radius and Dim Light for another 10 feet.",
+          "Conversion notes": "Uses the 2024 Shortsword. Freeze Water and Snowblind have separate dawn recharges.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 26.",
+          "Freeze Water": "Once per dawn, take a Magic action to plunge the sword into a body of water. The surface freezes 3 inches deep in a 60-foot radius around the point of contact. Creatures swimming at the surface make a DC 15 Dexterity save or become Restrained. A trapped creature can break free as an action with a successful DC 15 Strength check. The ice melts after 1 minute if the surrounding temperature cannot sustain it.",
+          "Snowblind": "Once per dawn, take a Magic action to flash the blade at one creature you can see within 5 feet. It makes a DC 15 Constitution save or is Blinded for 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success."
+        }
+      }
+    ],
+    "open5e-vom:vom_grasping-shield": [
+      {
+        "label": "D&D 2024 adaptation · Grasping Shield",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Training": "Shield",
+          "Weight": "6 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Special powers": "When a creature you can see within 5 feet hits you with a melee weapon attack, you can take a Reaction to make the hand grab it. Make a melee attack using Strength, +1, and your Proficiency Bonus if you have Shield training. On a hit, it is Grappled (escape DC 13). While the shield holds a creature, it grants no AC bonus. The grapple ends if the target escapes, you drop the shield, or you command it to release the target without an action.",
+          "Conversion notes": "Restores the printed Grasping Defense and attunement requirement. The attack applies the grapple without dealing damage. The held creature can use its action to escape with Strength (Athletics) or Dexterity (Acrobatics).",
+          "Source locator": "Kobold Press, Vault of Magic, p. 25.",
+          "Armor class bonus": "+3"
+        }
+      }
+    ],
+    "open5e-vom:vom_grim-escutcheon": [
+      {
+        "label": "D&D 2024 adaptation · Grim Escutcheon",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Training": "Shield",
+          "Weight": "6 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Special powers": "While holding the shield, speak the command word as a Bonus Action to cast Fear (Wisdom save DC 13). It affects a 30-foot Cone and requires Concentration for up to 1 minute. This use recharges at dusk.",
+          "Conversion notes": "Uses the printed +1 shield enhancement, Bonus Action casting time, and dusk recharge. All other spell effects follow 2024 Fear.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 25.",
+          "Armor class bonus": "+3",
+          "2024 spell": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#Fear"
+        }
+      }
+    ],
+    "open5e-vom:vom_grave-ward-breastplate": [
+      {
+        "label": "D&D 2024 adaptation · Grave Ward Breastplate",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_breastplate",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing this armor, your Hit Point maximum cannot be reduced. The armor itself is immune to Necrotic damage and rust. Once per dawn, take a Magic action to speak the command word and gain Protection from Evil and Good for 1 minute without Concentration. The first time damage would reduce you to 0 Hit Points during that effect, you drop to 1 Hit Point instead.",
+          "Conversion notes": "Uses the named 2024 armor. This conversion limits the 1 Hit Point rescue to one trigger per activation. Necrotic immunity applies to the armor as an object.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 25.",
+          "2024 spell": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#ProtectionfromEvilandGood"
+        }
+      }
+    ],
+    "open5e-vom:vom_grave-ward-chain-mail": [
+      {
+        "label": "D&D 2024 adaptation · Grave Ward Chain Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "16",
+          "Training": "Heavy",
+          "Strength requirement": "13. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing this armor, your Hit Point maximum cannot be reduced. The armor itself is immune to Necrotic damage and rust. Once per dawn, take a Magic action to speak the command word and gain Protection from Evil and Good for 1 minute without Concentration. The first time damage would reduce you to 0 Hit Points during that effect, you drop to 1 Hit Point instead.",
+          "Conversion notes": "Uses the named 2024 armor. This conversion limits the 1 Hit Point rescue to one trigger per activation. Necrotic immunity applies to the armor as an object.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 25.",
+          "2024 spell": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#ProtectionfromEvilandGood"
+        }
+      }
+    ],
+    "open5e-vom:vom_grave-ward-chain-shirt": [
+      {
+        "label": "D&D 2024 adaptation · Grave Ward Chain Shirt",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing this armor, your Hit Point maximum cannot be reduced. The armor itself is immune to Necrotic damage and rust. Once per dawn, take a Magic action to speak the command word and gain Protection from Evil and Good for 1 minute without Concentration. The first time damage would reduce you to 0 Hit Points during that effect, you drop to 1 Hit Point instead.",
+          "Conversion notes": "Uses the named 2024 armor. This conversion limits the 1 Hit Point rescue to one trigger per activation. Necrotic immunity applies to the armor as an object.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 25.",
+          "2024 spell": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#ProtectionfromEvilandGood"
+        }
+      }
+    ],
+    "open5e-vom:vom_grave-ward-half-plate": [
+      {
+        "label": "D&D 2024 adaptation · Grave Ward Half Plate",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_half-plate-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing this armor, your Hit Point maximum cannot be reduced. The armor itself is immune to Necrotic damage and rust. Once per dawn, take a Magic action to speak the command word and gain Protection from Evil and Good for 1 minute without Concentration. The first time damage would reduce you to 0 Hit Points during that effect, you drop to 1 Hit Point instead.",
+          "Conversion notes": "Uses the named 2024 armor. This conversion limits the 1 Hit Point rescue to one trigger per activation. Necrotic immunity applies to the armor as an object.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 25.",
+          "2024 spell": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#ProtectionfromEvilandGood"
+        }
+      }
+    ],
+    "open5e-vom:vom_grave-ward-hide": [
+      {
+        "label": "D&D 2024 adaptation · Grave Ward Hide",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "12 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing this armor, your Hit Point maximum cannot be reduced. The armor itself is immune to Necrotic damage and rust. Once per dawn, take a Magic action to speak the command word and gain Protection from Evil and Good for 1 minute without Concentration. The first time damage would reduce you to 0 Hit Points during that effect, you drop to 1 Hit Point instead.",
+          "Conversion notes": "Uses the named 2024 armor. This conversion limits the 1 Hit Point rescue to one trigger per activation. Necrotic immunity applies to the armor as an object.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 25.",
+          "2024 spell": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#ProtectionfromEvilandGood"
+        }
+      }
+    ],
+    "open5e-vom:vom_grave-ward-leather": [
+      {
+        "label": "D&D 2024 adaptation · Grave Ward Leather",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "11 + Dex modifier",
+          "Training": "Light",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing this armor, your Hit Point maximum cannot be reduced. The armor itself is immune to Necrotic damage and rust. Once per dawn, take a Magic action to speak the command word and gain Protection from Evil and Good for 1 minute without Concentration. The first time damage would reduce you to 0 Hit Points during that effect, you drop to 1 Hit Point instead.",
+          "Conversion notes": "Uses the named 2024 armor. This conversion limits the 1 Hit Point rescue to one trigger per activation. Necrotic immunity applies to the armor as an object.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 25.",
+          "2024 spell": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#ProtectionfromEvilandGood"
+        }
+      }
+    ],
+    "open5e-vom:vom_grave-ward-padded": [
+      {
+        "label": "D&D 2024 adaptation · Grave Ward Padded",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "11 + Dex modifier",
+          "Training": "Light",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing this armor, your Hit Point maximum cannot be reduced. The armor itself is immune to Necrotic damage and rust. Once per dawn, take a Magic action to speak the command word and gain Protection from Evil and Good for 1 minute without Concentration. The first time damage would reduce you to 0 Hit Points during that effect, you drop to 1 Hit Point instead.",
+          "Conversion notes": "Uses the named 2024 armor. This conversion limits the 1 Hit Point rescue to one trigger per activation. Necrotic immunity applies to the armor as an object.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 25.",
+          "2024 spell": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#ProtectionfromEvilandGood"
+        }
+      }
+    ],
+    "open5e-vom:vom_grave-ward-plate": [
+      {
+        "label": "D&D 2024 adaptation · Grave Ward Plate",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy",
+          "Strength requirement": "15. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing this armor, your Hit Point maximum cannot be reduced. The armor itself is immune to Necrotic damage and rust. Once per dawn, take a Magic action to speak the command word and gain Protection from Evil and Good for 1 minute without Concentration. The first time damage would reduce you to 0 Hit Points during that effect, you drop to 1 Hit Point instead.",
+          "Conversion notes": "Uses the named 2024 armor. This conversion limits the 1 Hit Point rescue to one trigger per activation. Necrotic immunity applies to the armor as an object.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 25.",
+          "2024 spell": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#ProtectionfromEvilandGood"
+        }
+      }
+    ],
+    "open5e-vom:vom_grave-ward-ring-mail": [
+      {
+        "label": "D&D 2024 adaptation · Grave Ward Ring Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_ring-mail",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "14",
+          "Training": "Heavy",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing this armor, your Hit Point maximum cannot be reduced. The armor itself is immune to Necrotic damage and rust. Once per dawn, take a Magic action to speak the command word and gain Protection from Evil and Good for 1 minute without Concentration. The first time damage would reduce you to 0 Hit Points during that effect, you drop to 1 Hit Point instead.",
+          "Conversion notes": "Uses the named 2024 armor. This conversion limits the 1 Hit Point rescue to one trigger per activation. Necrotic immunity applies to the armor as an object.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 25.",
+          "2024 spell": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#ProtectionfromEvilandGood"
+        }
+      }
+    ],
+    "open5e-vom:vom_grave-ward-scale-mail": [
+      {
+        "label": "D&D 2024 adaptation · Grave Ward Scale Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing this armor, your Hit Point maximum cannot be reduced. The armor itself is immune to Necrotic damage and rust. Once per dawn, take a Magic action to speak the command word and gain Protection from Evil and Good for 1 minute without Concentration. The first time damage would reduce you to 0 Hit Points during that effect, you drop to 1 Hit Point instead.",
+          "Conversion notes": "Uses the named 2024 armor. This conversion limits the 1 Hit Point rescue to one trigger per activation. Necrotic immunity applies to the armor as an object.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 25.",
+          "2024 spell": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#ProtectionfromEvilandGood"
+        }
+      }
+    ],
+    "open5e-vom:vom_grave-ward-splint": [
+      {
+        "label": "D&D 2024 adaptation · Grave Ward Splint",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy",
+          "Strength requirement": "15. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing this armor, your Hit Point maximum cannot be reduced. The armor itself is immune to Necrotic damage and rust. Once per dawn, take a Magic action to speak the command word and gain Protection from Evil and Good for 1 minute without Concentration. The first time damage would reduce you to 0 Hit Points during that effect, you drop to 1 Hit Point instead.",
+          "Conversion notes": "Uses the named 2024 armor. This conversion limits the 1 Hit Point rescue to one trigger per activation. Necrotic immunity applies to the armor as an object.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 25.",
+          "2024 spell": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#ProtectionfromEvilandGood"
+        }
+      }
+    ],
+    "open5e-vom:vom_grave-ward-studded-leather": [
+      {
+        "label": "D&D 2024 adaptation · Grave Ward Studded Leather",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_studded-leather-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "13 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing this armor, your Hit Point maximum cannot be reduced. The armor itself is immune to Necrotic damage and rust. Once per dawn, take a Magic action to speak the command word and gain Protection from Evil and Good for 1 minute without Concentration. The first time damage would reduce you to 0 Hit Points during that effect, you drop to 1 Hit Point instead.",
+          "Conversion notes": "Uses the named 2024 armor. This conversion limits the 1 Hit Point rescue to one trigger per activation. Necrotic immunity applies to the armor as an object.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 25.",
+          "2024 spell": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#ProtectionfromEvilandGood"
+        }
+      }
+    ],
     "open5e-vom:vom_forgefire-maul": [
       {
         "label": "D&D 2024 adaptation · Forgefire Maul",
