@@ -1871,6 +1871,23 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Mystara launchers and thrown weapons show ammo, range, and control rules': '''(async () => {
+                    for (const [id, terms] of [
+                        ["fa2665b9013c078e", ["60/120 feet", "expends one Javelin", "Slow mastery"]],
+                        ["b68469f06708a8d1", ["10/30 feet", "Speed becomes 0", "5 Slashing damage"]],
+                        ["6ba83af5224e6597", ["40/160 feet", "misses outdoors", "DC 10 Dexterity"]],
+                        ["92443a32b33d7036", ["80/200 feet", "stone or lead bullet", "Crossbow bolts are incompatible"]],
+                        ["f42cefbb6b7fa991", ["25/100 feet", "spearhead or the blowgun", "Sap in melee or Vex at range"]],
+                        ["b16543f5215b2d18", ["30 feet from you", "remove the head", "Strength save"]],
+                    ]) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Mystara polearms show reviewed attacks and distinct legacy conversions': '''(async () => {
                     for (const [id, terms] of [
                         ["c6df5079d8c48f5a", ["1d10 Slashing", "10 feet melee", "Ready action", "Hook or disarm"]],

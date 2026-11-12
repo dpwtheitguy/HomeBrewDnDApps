@@ -1,6 +1,402 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:fa2665b9013c078e": [
+      {
+        "label": "D&D 2024 adaptation · Atlatl",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "fields": {
+          "Category": "Simple ranged launcher",
+          "Damage": "1d6 + Strength modifier Piercing from the launched Javelin",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "60/120 feet launched",
+          "Properties": "Ammunition (Javelin)",
+          "Mastery": "Use the Javelin’s Slow mastery if eligible",
+          "Weight": "1 lb",
+          "Activation": "Make an attack using the listed mode and range.",
+          "Special powers": "Use one attack to launch a Javelin from the atlatl. Hold the launcher in one hand and load with the other. Each attack expends one Javelin, which can be retrieved as ordinary ammunition.",
+          "Conversion notes": "The source identifies an implement for launching Javelins and lists no separate damage. This draft doubles the 2024 Javelin’s normal and long ranges when launched.",
+          "Source locator": "Colin Davidson, PDF p. 3, Extended Weapon and Armour Lists, Atl-Atl.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_javelin",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:b68469f06708a8d1": [
+      {
+        "label": "D&D 2024 adaptation · Bola",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d2 + Dexterity modifier Bludgeoning",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "10/30 feet thrown",
+          "Properties": "Thrown",
+          "Mastery": "None",
+          "Weight": "2 lb",
+          "Activation": "Make an attack using the listed mode and range.",
+          "Special powers": "On a hit against a Medium or smaller creature with a physical form, it makes a Strength save (DC 8 + your Dexterity modifier + your Proficiency Bonus if proficient with the bola). On a failure its Speed becomes 0 until it is freed. It or a creature within reach can take an action and pass a DC 10 Strength check to free it. The bola can also be cut free by dealing 5 Slashing damage to it (AC 10).",
+          "Conversion notes": "Retains the OSE die. The short and long endpoints replace the legacy three-band range. The binding save and escape rules are a 2024 conversion.",
+          "Source locator": "Colin Davidson, PDF p. 2, Weapons, Bola.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:6ba83af5224e6597": [
+      {
+        "label": "D&D 2024 adaptation · Boomerang",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d4 + Dexterity modifier Bludgeoning",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "40/160 feet thrown",
+          "Properties": "Thrown",
+          "Mastery": "Vex",
+          "Weight": "1 lb",
+          "Activation": "Make an attack using the listed mode and range.",
+          "Special powers": "A throw that misses outdoors returns at the end of your turn if the flight path is clear. If you have a free hand, you catch it. If a hostile creature is within 5 feet of you, catch it only on a DC 10 Dexterity check. Otherwise it lands at your feet. A hit does not return.",
+          "Conversion notes": "Uses the first and last of the source’s three range bands. The draft keeps the Wallara return-on-miss rule, with a fixed catch DC. The custom fit and expert-only return attack stay in the legacy source.",
+          "Source locator": "Colin Davidson, PDF p. 3, Extended Weapon and Armour Lists, Boomerang.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Fan weapon description": "https://pandius.com/ExtendedEquipmentList.pdf#page=5"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dart",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:a508e8e417d215ef": [
+      {
+        "label": "D&D 2024 adaptation · Chackram",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d4 + Dexterity modifier Slashing",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "20/60 feet thrown",
+          "Properties": "Thrown",
+          "Mastery": "Vex",
+          "Weight": "1/2 lb",
+          "Activation": "Make an attack using the listed mode and range.",
+          "Special powers": "Throw the sharpened ring as a ranged attack. It has no normal melee attack or returning effect.",
+          "Conversion notes": "Keeps the printed thrown-only use and damage die, with Slashing damage for its edge. Uses the first and last OSE range bands.",
+          "Source locator": "Colin Davidson, PDF p. 2, Weapons, Chackram.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dart",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:4298d80106afb01c": [
+      {
+        "label": "D&D 2024 adaptation · Plumbata",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "fields": {
+          "Category": "Simple ranged weapon",
+          "Damage": "1d4 + Strength or Dexterity modifier Piercing",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient. Use the same ability for attack and damage.",
+          "Range": "40/80 feet thrown",
+          "Properties": "Finesse, Thrown",
+          "Mastery": "Vex",
+          "Weight": "1/4 lb",
+          "Activation": "Make an attack using the listed mode and range.",
+          "Special powers": "Throw the weighted dart as a ranged attack. Each throw is one attack.",
+          "Conversion notes": "Keeps the legacy die and range endpoints. Uses 2024 Dart rules as a baseline. The legacy mastery-based multiple throws do not add attacks in this draft.",
+          "Source locator": "Colin Davidson, PDF p. 3, Extended Weapon and Armour Lists, Plumbata.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Fan weapon description": "https://pandius.com/ExtendedEquipmentList.pdf#page=6"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dart",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:98a5e4576fa0121e": [
+      {
+        "label": "D&D 2024 adaptation · Kpinga",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d4 + Strength modifier Slashing",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee, 40/80 feet thrown",
+          "Properties": "Light, Thrown",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make an attack using the listed mode and range.",
+          "Special powers": "Use the multibladed weapon in melee or throw it. The Kpinga is described as equipment of the Isle of Dread and northern Davania.",
+          "Conversion notes": "The draft replaces the legacy d5 with a d4, uses the legacy range endpoints, and expresses the hooked blades through Vex.",
+          "Source locator": "Colin Davidson, PDF p. 3, Extended Weapon and Armour Lists, Kpinga.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Fan weapon description": "https://pandius.com/ExtendedEquipmentList.pdf#page=5"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:b16543f5215b2d18": [
+      {
+        "label": "D&D 2024 adaptation · Harpoon",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d4 + Strength modifier Piercing",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee, 10/30 feet thrown",
+          "Properties": "Thrown",
+          "Mastery": "Slow",
+          "Weight": "3 lb",
+          "Activation": "Make an attack using the listed mode and range.",
+          "Special powers": "After a thrown hit on a Large or smaller creature, it makes a Strength save (DC 8 + your Strength modifier + your Proficiency Bonus if proficient). On failure, the harpoon lodges and its line stays taut while you hold it. The creature cannot move farther than 30 feet from you while the line is held. Either creature can release its end by letting go of or cutting the line where it can reach it. The target or an adjacent creature can take an action to remove the head, dealing 1d4 Piercing to the target.",
+          "Conversion notes": "Keeps the legacy die and range endpoints. The 30-foot line, size cap, and removal damage are draft values. Holding the line does not drag the target.",
+          "Source locator": "Colin Davidson, PDF p. 3, Extended Weapon and Armour Lists, Harpoon.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Fan weapon description": "https://pandius.com/ExtendedEquipmentList.pdf#page=5"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_javelin",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:92443a32b33d7036": [
+      {
+        "label": "D&D 2024 adaptation · Prodd",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "fields": {
+          "Category": "Simple ranged weapon",
+          "Damage": "1d4 + Dexterity modifier Bludgeoning",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "80/200 feet",
+          "Properties": "Ammunition (stone or lead bullet), Loading, Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "5 lb",
+          "Activation": "Make an attack using the listed mode and range.",
+          "Special powers": "Load and fire a stone or lead bullet. Use ordinary Loading and ammunition recovery rules. Crossbow bolts are incompatible.",
+          "Conversion notes": "Retains the legacy pellet crossbow damage die and the first and last range bands. The Light Crossbow supplies 2024 operation and mastery.",
+          "Source locator": "Colin Davidson, PDF p. 3, Extended Weapon and Armour Lists, Prodd (pellet crossbow).",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Fan weapon description": "https://pandius.com/ExtendedEquipmentList.pdf#page=6"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_light-crossbow",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:d5539f39f66f07b3": [
+      {
+        "label": "D&D 2024 adaptation · Cestus",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 + Strength modifier Bludgeoning",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Light",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Activation": "Make an attack using the listed mode and range.",
+          "Special powers": "Make a weapon attack with the cestus. The glove occupies the hand while used as a weapon. Use ordinary Light and Nick rules for any extra attack.",
+          "Conversion notes": "Converts the legacy d3 to d4. Light and Nick replace the old off-hand benefit. This profile is a weapon attack and does not change Unarmed Strikes.",
+          "Source locator": "Colin Davidson, PDF p. 2, Weapons, Cestus.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:ed714487a4122861": [
+      {
+        "label": "D&D 2024 adaptation · Blackjack",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 + Strength modifier Bludgeoning",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Light",
+          "Mastery": "Slow",
+          "Weight": "1 lb",
+          "Activation": "Make an attack using the listed mode and range.",
+          "Special powers": "When the attack reduces a creature to 0 Hit Points, you can use the normal 2024 knockout rule. The weapon has no automatic stun or knockout on a hit.",
+          "Conversion notes": "Replaces the legacy d2 with a d4 and uses the 2024 Club as a baseline.",
+          "Source locator": "Colin Davidson, PDF p. 2, Weapons, Blackjack.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:b491e180cb9011b7": [
+      {
+        "label": "D&D 2024 adaptation · Haladie",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 + Strength or Dexterity modifier Piercing",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Activation": "Make an attack using the listed mode and range.",
+          "Special powers": "Attack using either blade. The haladie has no normal thrown attack.",
+          "Conversion notes": "Uses the 2024 Dagger as a baseline. The fan source specifies that the double-ended weapon cannot be thrown. Its historical defensive options are handled narratively in this draft.",
+          "Source locator": "Colin Davidson, PDF p. 3, Extended Weapon and Armour Lists, Haladie.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Fan weapon description": "https://pandius.com/ExtendedEquipmentList.pdf#page=5"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:02665c2e9d84b87d": [
+      {
+        "label": "D&D 2024 adaptation · Urumi",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d4 + Strength or Dexterity modifier Slashing",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Properties": "Finesse, Reach",
+          "Mastery": "Slow",
+          "Weight": "3 lb",
+          "Activation": "Make an attack using the listed mode and range.",
+          "Special powers": "Use the flexible blade as a whip-like melee weapon. Determine cover normally. The draft gives no extra reach beyond the listed 10 feet.",
+          "Conversion notes": "Uses the 2024 Whip for the source’s flexible sword. The old mastery defense interaction is represented by the 2024 attack and mastery profile.",
+          "Source locator": "Colin Davidson, PDF p. 3, Extended Weapon and Armour Lists, Urumi.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Fan weapon description": "https://pandius.com/ExtendedEquipmentList.pdf#page=6"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_whip",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:f42cefbb6b7fa991": [
+      {
+        "label": "D&D 2024 adaptation · Sumpit",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/RandomStuffLists.pdf",
+        "fields": {
+          "Category": "Martial weapon with melee and ranged modes",
+          "Damage": "Melee: 1d6 + Strength modifier Piercing. Ranged: 1 + Dexterity modifier Piercing.",
+          "Attack bonus": "Strength modifier in melee or Dexterity modifier at range, plus Proficiency Bonus if proficient.",
+          "Range": "5 feet melee, 25/100 feet ranged",
+          "Properties": "Ranged mode: Ammunition (needle), Loading. Melee mode: no special properties.",
+          "Mastery": "Sap in melee or Vex at range, if unlocked",
+          "Weight": "3 lb",
+          "Activation": "Make an attack using the listed mode and range.",
+          "Special powers": "For each attack choose the spearhead or the blowgun. The spearhead cannot be thrown as a normal attack. In ranged mode expend one blowgun needle. Use the corresponding attack modifier and mastery for the mode.",
+          "Conversion notes": "The fan source identifies a spear-headed hunting blowgun. This draft uses the one-handed Spear die and the 2024 Blowgun’s ranged profile.",
+          "Source locator": "Colin Davidson, PDF p. 6, Weapons, Sumpit (Spear-headed hunting blowgun).",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Fan weapon description": "https://pandius.com/ExtendedEquipmentList.pdf#page=5"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_blowgun",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:865bb1cd84620e60": [
+      {
+        "label": "D&D 2024 adaptation · Kumade",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 + Strength modifier Piercing",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Properties": "Reach, Two-Handed",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Activation": "Make an attack using the listed mode and range.",
+          "Special powers": "Use the sharpened rake tines to hook and trip with Topple if your mastery is unlocked.",
+          "Conversion notes": "Keeps the printed damage die and two-handed grip. Reach and Topple are draft translations of the short pole and rake head.",
+          "Source locator": "Colin Davidson, PDF p. 2, Weapons, Kumade.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Fan weapon description": "https://pandius.com/ExtendedEquipmentList.pdf#page=5"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_glaive",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:4654151bb57aaebf": [
+      {
+        "label": "D&D 2024 adaptation · Shuriken",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "fields": {
+          "Category": "Simple ranged weapon",
+          "Damage": "1d4 + Dexterity modifier Piercing",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "10/50 feet thrown",
+          "Properties": "Thrown",
+          "Mastery": "Vex",
+          "Weight": "1/4 lb",
+          "Activation": "Make an attack using the listed mode and range.",
+          "Special powers": "Throw the star as a ranged attack. It has no normal melee attack.",
+          "Conversion notes": "Replaces the legacy d3 with d4 and converts the first and last OSE range bands to normal and long range.",
+          "Source locator": "Colin Davidson, PDF p. 2, Weapons, Shuriken.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Fan weapon description": "https://pandius.com/ExtendedEquipmentList.pdf#page=6"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dart",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
     "mystara-fan-names-reference:c6df5079d8c48f5a": [
       {
         "label": "D&D 2024 adaptation · Bardiche",
