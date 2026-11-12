@@ -1,6 +1,986 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-35-reference:2af819e7ed08c0a7": [
+      {
+        "label": "D&D 2024 adaptation · Bastard sword +3",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial Melee weapon (Longsword comparison)",
+          "Damage": "1d8 Slashing + Strength modifier + 3. Use 1d10 for the base die when wielded with two hands",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a weapon attack using the listed reach or range.",
+          "Special powers": "Use the Longsword profile for this variant.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 118 (PDF p. 119), NPC Fighter.",
+          "Conversion notes": "The 2024 Longsword supplies the equipment profile.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:bf9f7d6a987bb6e2": [
+      {
+        "label": "D&D 2024 adaptation · Cold iron longsword, masterwork",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial Melee weapon (Longsword comparison)",
+          "Damage": "1d8 Slashing + Strength modifier. Use 1d10 for the base die when wielded with two hands",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a weapon attack using the listed reach or range.",
+          "Special powers": "Use the Longsword profile for this variant. It counts as cold iron when a creature or campaign rule explicitly refers to that material.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 227 (PDF p. 228), Table 7–16.",
+          "Conversion notes": "The 2024 Longsword supplies the equipment profile. Masterwork quality affects appraisal. The 3.5 attack-only enhancement was removed for bounded accuracy.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:65c2844494abd370": [
+      {
+        "label": "D&D 2024 adaptation · Composite longbow (+4 Strength bonus)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial Ranged weapon (Longbow comparison)",
+          "Damage": "1d8 Piercing + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "150/600 feet",
+          "Properties": "Ammunition (Range 150/600; Arrow), Heavy, Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Activation": "Make a ranged weapon attack.",
+          "Special powers": "Strength rating +4. On a hit you can use your Strength modifier, capped at +4, in place of Dexterity for damage. Attack rolls still use Dexterity.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 112 (PDF p. 113), NPC Barbarian.",
+          "Conversion notes": "The 2024 Longbow supplies the equipment profile. Preserves the draw rating without stacking two ability modifiers or carrying forward the legacy low-Strength attack penalty.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Published 2024 Longbow comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:e66942bc85968d30": [
+      {
+        "label": "D&D 2024 adaptation · Composite longbow +1 (+2 Strength bonus)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial Ranged weapon (Longbow comparison)",
+          "Damage": "1d8 Piercing + Dexterity modifier + 1",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "150/600 feet",
+          "Properties": "Ammunition (Range 150/600; Arrow), Heavy, Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Activation": "Make a ranged weapon attack.",
+          "Special powers": "Strength rating +2. On a hit you can use your Strength modifier, capped at +2, in place of Dexterity for damage. Attack rolls still use Dexterity.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 121 (PDF p. 122), NPC Paladin.",
+          "Conversion notes": "The 2024 Longbow supplies the equipment profile. Preserves the draw rating without stacking two ability modifiers or carrying forward the legacy low-Strength attack penalty.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Published 2024 Longbow comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:1149c26f322901e8": [
+      {
+        "label": "D&D 2024 adaptation · Composite longbow +1 (+4 Strength bonus)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial Ranged weapon (Longbow comparison)",
+          "Damage": "1d8 Piercing + Dexterity modifier + 1",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "150/600 feet",
+          "Properties": "Ammunition (Range 150/600; Arrow), Heavy, Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Activation": "Make a ranged weapon attack.",
+          "Special powers": "Strength rating +4. On a hit you can use your Strength modifier, capped at +4, in place of Dexterity for damage. Attack rolls still use Dexterity.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 113 (PDF p. 114), NPC Barbarian.",
+          "Conversion notes": "The 2024 Longbow supplies the equipment profile. Preserves the draw rating without stacking two ability modifiers or carrying forward the legacy low-Strength attack penalty.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Published 2024 Longbow comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:891e5eaa3589b49b": [
+      {
+        "label": "D&D 2024 adaptation · Composite longbow +2 (+4 Strength bonus)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial Ranged weapon (Longbow comparison)",
+          "Damage": "1d8 Piercing + Dexterity modifier + 2",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "150/600 feet",
+          "Properties": "Ammunition (Range 150/600; Arrow), Heavy, Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Activation": "Make a ranged weapon attack.",
+          "Special powers": "Strength rating +4. On a hit you can use your Strength modifier, capped at +4, in place of Dexterity for damage. Attack rolls still use Dexterity.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 123 (PDF p. 124), Sample NPC possessions.",
+          "Conversion notes": "The 2024 Longbow supplies the equipment profile. Preserves the draw rating without stacking two ability modifiers or carrying forward the legacy low-Strength attack penalty.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Published 2024 Longbow comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:5009e9df64572085": [
+      {
+        "label": "D&D 2024 adaptation · Composite shortbow",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Simple Ranged weapon (Shortbow comparison)",
+          "Damage": "1d6 Piercing + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "80/320 feet",
+          "Properties": "Ammunition (Range 80/320; Arrow), Two-Handed",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a ranged weapon attack.",
+          "Special powers": "Strength rating +0. Use Dexterity for both attack and damage.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 180 (PDF p. 181), Assassin.",
+          "Conversion notes": "The 2024 Shortbow supplies the equipment profile. Preserves the draw rating without stacking two ability modifiers or carrying forward the legacy low-Strength attack penalty. Uses the default +0 because the source record gives no higher rating.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortbow",
+          "label": "Published 2024 Shortbow comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:effbffc28bd0e498": [
+      {
+        "label": "D&D 2024 adaptation · Katana",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial Melee weapon (Longsword comparison)",
+          "Damage": "1d8 Slashing + Strength modifier. Use 1d10 for the base die when wielded with two hands",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a weapon attack using the listed reach or range.",
+          "Special powers": "Use the Longsword profile for this variant.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 145 (PDF p. 146), Table 5–3.",
+          "Conversion notes": "Maps the legacy bastard-sword role to the 2024 Longsword. The legacy blade was made to masterwork quality. That quality affects appraisal.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:8273e3a9998cd723": [
+      {
+        "label": "D&D 2024 adaptation · Light lance",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial Melee weapon (Lance comparison)",
+          "Damage": "1d10 Piercing + Strength modifier",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "10 feet",
+          "Properties": "Heavy, Reach, Two-Handed (unless mounted)",
+          "Mastery": "Topple",
+          "Weight": "6 lb",
+          "Activation": "Make a weapon attack using the listed reach or range.",
+          "Special powers": "Use the Lance profile for this variant.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 133 (PDF p. 134), War.",
+          "Conversion notes": "The 2024 Lance supplies the equipment profile.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_lance",
+          "label": "Published 2024 Lance comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:b051fd55e1fb0b3e": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork bastard sword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial Melee weapon (Longsword comparison)",
+          "Damage": "1d8 Slashing + Strength modifier. Use 1d10 for the base die when wielded with two hands",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a weapon attack using the listed reach or range.",
+          "Special powers": "Use the Longsword profile for this variant.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 117 (PDF p. 118), NPC Fighter.",
+          "Conversion notes": "The 2024 Longsword supplies the equipment profile. Masterwork quality affects appraisal. The 3.5 attack-only enhancement was removed for bounded accuracy.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:e7d92dcf69432fec": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork composite longbow",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial Ranged weapon (Longbow comparison)",
+          "Damage": "1d8 Piercing + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "150/600 feet",
+          "Properties": "Ammunition (Range 150/600; Arrow), Heavy, Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Activation": "Make a ranged weapon attack.",
+          "Special powers": "Strength rating +0. Use Dexterity for both attack and damage.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 223 (PDF p. 224), Table 7–13.",
+          "Conversion notes": "The 2024 Longbow supplies the equipment profile. Masterwork quality affects appraisal. The 3.5 attack-only enhancement was removed for bounded accuracy. Preserves the draw rating without stacking two ability modifiers or carrying forward the legacy low-Strength attack penalty. Uses the default +0 because the source record gives no higher rating.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Published 2024 Longbow comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:4075f79103cc7fa4": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork composite longbow (+1 strength bonus)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial Ranged weapon (Longbow comparison)",
+          "Damage": "1d8 Piercing + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "150/600 feet",
+          "Properties": "Ammunition (Range 150/600; Arrow), Heavy, Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Activation": "Make a ranged weapon attack.",
+          "Special powers": "Strength rating +1. On a hit you can use your Strength modifier, capped at +1, in place of Dexterity for damage. Attack rolls still use Dexterity.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 223 (PDF p. 224), Table 7–13.",
+          "Conversion notes": "The 2024 Longbow supplies the equipment profile. Masterwork quality affects appraisal. The 3.5 attack-only enhancement was removed for bounded accuracy. Preserves the draw rating without stacking two ability modifiers or carrying forward the legacy low-Strength attack penalty.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Published 2024 Longbow comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:28f17a168deee8af": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork composite longbow (+2 Strength bonus)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial Ranged weapon (Longbow comparison)",
+          "Damage": "1d8 Piercing + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "150/600 feet",
+          "Properties": "Ammunition (Range 150/600; Arrow), Heavy, Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Activation": "Make a ranged weapon attack.",
+          "Special powers": "Strength rating +2. On a hit you can use your Strength modifier, capped at +2, in place of Dexterity for damage. Attack rolls still use Dexterity.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 119 (PDF p. 120), NPC Paladin.",
+          "Conversion notes": "The 2024 Longbow supplies the equipment profile. Masterwork quality affects appraisal. The 3.5 attack-only enhancement was removed for bounded accuracy. Preserves the draw rating without stacking two ability modifiers or carrying forward the legacy low-Strength attack penalty.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Published 2024 Longbow comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:2df57053bc663ef8": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork composite longbow (+3 Strength bonus)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial Ranged weapon (Longbow comparison)",
+          "Damage": "1d8 Piercing + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "150/600 feet",
+          "Properties": "Ammunition (Range 150/600; Arrow), Heavy, Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Activation": "Make a ranged weapon attack.",
+          "Special powers": "Strength rating +3. On a hit you can use your Strength modifier, capped at +3, in place of Dexterity for damage. Attack rolls still use Dexterity.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 117 (PDF p. 118), NPC Fighter.",
+          "Conversion notes": "The 2024 Longbow supplies the equipment profile. Masterwork quality affects appraisal. The 3.5 attack-only enhancement was removed for bounded accuracy. Preserves the draw rating without stacking two ability modifiers or carrying forward the legacy low-Strength attack penalty.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Published 2024 Longbow comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:b678920f755bb774": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork composite longbow (+4 Strength bonus)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial Ranged weapon (Longbow comparison)",
+          "Damage": "1d8 Piercing + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "150/600 feet",
+          "Properties": "Ammunition (Range 150/600; Arrow), Heavy, Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Activation": "Make a ranged weapon attack.",
+          "Special powers": "Strength rating +4. On a hit you can use your Strength modifier, capped at +4, in place of Dexterity for damage. Attack rolls still use Dexterity.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 121 (PDF p. 122), NPC Ranger.",
+          "Conversion notes": "The 2024 Longbow supplies the equipment profile. Masterwork quality affects appraisal. The 3.5 attack-only enhancement was removed for bounded accuracy. Preserves the draw rating without stacking two ability modifiers or carrying forward the legacy low-Strength attack penalty.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Published 2024 Longbow comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:73f3ffddf1a4fc3c": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork composite shortbow (+0 strength bonus)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Simple Ranged weapon (Shortbow comparison)",
+          "Damage": "1d6 Piercing + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "80/320 feet",
+          "Properties": "Ammunition (Range 80/320; Arrow), Two-Handed",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a ranged weapon attack.",
+          "Special powers": "Strength rating +0. Use Dexterity for both attack and damage.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 223 (PDF p. 224), Table 7–13.",
+          "Conversion notes": "The 2024 Shortbow supplies the equipment profile. Masterwork quality affects appraisal. The 3.5 attack-only enhancement was removed for bounded accuracy. Preserves the draw rating without stacking two ability modifiers or carrying forward the legacy low-Strength attack penalty.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortbow",
+          "label": "Published 2024 Shortbow comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:db4ca38955dae998": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork composite shortbow (+1 strength bonus)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Simple Ranged weapon (Shortbow comparison)",
+          "Damage": "1d6 Piercing + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "80/320 feet",
+          "Properties": "Ammunition (Range 80/320; Arrow), Two-Handed",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a ranged weapon attack.",
+          "Special powers": "Strength rating +1. On a hit you can use your Strength modifier, capped at +1, in place of Dexterity for damage. Attack rolls still use Dexterity.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 223 (PDF p. 224), Table 7–13.",
+          "Conversion notes": "The 2024 Shortbow supplies the equipment profile. Masterwork quality affects appraisal. The 3.5 attack-only enhancement was removed for bounded accuracy. Preserves the draw rating without stacking two ability modifiers or carrying forward the legacy low-Strength attack penalty.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortbow",
+          "label": "Published 2024 Shortbow comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:fbc483a7b78c8360": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork composite shortbow (+2 strength bonus)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Simple Ranged weapon (Shortbow comparison)",
+          "Damage": "1d6 Piercing + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "80/320 feet",
+          "Properties": "Ammunition (Range 80/320; Arrow), Two-Handed",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a ranged weapon attack.",
+          "Special powers": "Strength rating +2. On a hit you can use your Strength modifier, capped at +2, in place of Dexterity for damage. Attack rolls still use Dexterity.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 223 (PDF p. 224), Table 7–13.",
+          "Conversion notes": "The 2024 Shortbow supplies the equipment profile. Masterwork quality affects appraisal. The 3.5 attack-only enhancement was removed for bounded accuracy. Preserves the draw rating without stacking two ability modifiers or carrying forward the legacy low-Strength attack penalty.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortbow",
+          "label": "Published 2024 Shortbow comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:f73b94b0c416ff0f": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork falchion",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial Melee weapon (Greatsword comparison)",
+          "Damage": "2d6 Slashing + Strength modifier",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "6 lb",
+          "Activation": "Make a weapon attack using the listed reach or range.",
+          "Special powers": "Use the Greatsword profile for this variant.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–12.",
+          "Conversion notes": "The 2024 Greatsword supplies the equipment profile. Masterwork quality affects appraisal. The 3.5 attack-only enhancement was removed for bounded accuracy.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Published 2024 Greatsword comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:518abfeb772f1ba6": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork heavy crossbow",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial Ranged weapon (Heavy Crossbow comparison)",
+          "Damage": "1d10 Piercing + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "100/400 feet",
+          "Properties": "Ammunition (Range 100/400; Bolt), Heavy, Loading, Two-Handed",
+          "Mastery": "Push",
+          "Weight": "18 lb",
+          "Activation": "Make a ranged weapon attack.",
+          "Special powers": "Use the Heavy Crossbow profile for this variant.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 223 (PDF p. 224), Table 7–13.",
+          "Conversion notes": "The 2024 Heavy Crossbow supplies the equipment profile. Masterwork quality affects appraisal. The 3.5 attack-only enhancement was removed for bounded accuracy.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_heavy-crossbow",
+          "label": "Published 2024 Heavy Crossbow comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:a4a069a849e75818": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork heavy flail",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (heavy flail)",
+          "Damage": "1d10 Bludgeoning + Strength modifier",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Sap",
+          "Weight": "10 lb",
+          "Activation": "Make a weapon attack using the listed reach or range.",
+          "Special powers": "The heavy flail requires two hands on foot or mounted.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–12.",
+          "Conversion notes": "Keeps the legacy heavy flail’s damage die, weight, and two-handed use. Uses the 2024 Flail’s Sap mastery. Masterwork quality affects appraisal.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_flail",
+          "label": "Published 2024 Flail comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:58a768a6e9cb9c4d": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork heavy mace",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (heavy mace)",
+          "Damage": "1d8 Bludgeoning + Strength modifier",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "8 lb",
+          "Activation": "Make a weapon attack using the listed reach or range.",
+          "Special powers": "The heavy mace uses one hand.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–11.",
+          "Conversion notes": "Keeps the legacy heavy mace’s 1d8 die and 8 lb weight. Uses martial proficiency for a one-handed 1d8 weapon and the 2024 Mace’s Sap mastery. Masterwork quality affects appraisal.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace",
+          "label": "Published 2024 Mace comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:3615eb72c7fd900a": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork light flail",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial Melee weapon (Flail comparison)",
+          "Damage": "1d8 Bludgeoning + Strength modifier",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "2 lb",
+          "Activation": "Make a weapon attack using the listed reach or range.",
+          "Special powers": "Use the Flail profile for this variant.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–12.",
+          "Conversion notes": "The 2024 Flail supplies the equipment profile. Masterwork quality affects appraisal. The 3.5 attack-only enhancement was removed for bounded accuracy.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_flail",
+          "label": "Published 2024 Flail comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:e89b829c9e017146": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork light hammer",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Simple Melee weapon (Light Hammer comparison)",
+          "Damage": "1d4 Bludgeoning + Strength modifier",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Light, Thrown (Range 20/60)",
+          "Mastery": "Nick",
+          "Weight": "2 lb",
+          "Activation": "Make a weapon attack using the listed reach or range.",
+          "Special powers": "Use the Light Hammer profile for this variant.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–12.",
+          "Conversion notes": "The 2024 Light Hammer supplies the equipment profile. Masterwork quality affects appraisal. The 3.5 attack-only enhancement was removed for bounded accuracy.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_light-hammer",
+          "label": "Published 2024 Light Hammer comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:d30665711819c088": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork light mace",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (light mace)",
+          "Damage": "1d6 Bludgeoning + Strength modifier",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Light",
+          "Mastery": "Sap",
+          "Weight": "4 lb",
+          "Activation": "Make a weapon attack using the listed reach or range.",
+          "Special powers": "The light mace qualifies for the 2024 Light property’s extra attack.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–11.",
+          "Conversion notes": "Keeps the legacy light mace’s light-weapon role and 1d6 die. Uses the 2024 Mace’s Sap mastery. Masterwork quality affects appraisal.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace",
+          "label": "Published 2024 Mace comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:ee0507d0a0e8cabc": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork longsword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial Melee weapon (Longsword comparison)",
+          "Damage": "1d8 Slashing + Strength modifier. Use 1d10 for the base die when wielded with two hands",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a weapon attack using the listed reach or range.",
+          "Special powers": "Use the Longsword profile for this variant.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 119 (PDF p. 120), NPC Paladin.",
+          "Conversion notes": "The 2024 Longsword supplies the equipment profile. Masterwork quality affects appraisal. The 3.5 attack-only enhancement was removed for bounded accuracy.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:5485d110016652bf": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork punching dagger",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Simple Melee weapon (Dagger comparison)",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Activation": "Make a weapon attack using the listed reach or range.",
+          "Special powers": "Use the Dagger’s melee profile. This grip cannot be used for a thrown attack.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–12.",
+          "Conversion notes": "The 2024 Dagger supplies the equipment profile. Masterwork quality affects appraisal. The 3.5 attack-only enhancement was removed for bounded accuracy. Retains the punching dagger’s melee-only role.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Published 2024 Dagger comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:a1fa43396f0df753": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork short sword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial Melee weapon (Shortsword comparison)",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a weapon attack using the listed reach or range.",
+          "Special powers": "Use the Shortsword profile for this variant.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–11.",
+          "Conversion notes": "The 2024 Shortsword supplies the equipment profile. Masterwork quality affects appraisal. The 3.5 attack-only enhancement was removed for bounded accuracy.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Published 2024 Shortsword comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:5a9d9db0888f3eae": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork shuriken",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Simple Ranged weapon (Dart comparison)",
+          "Damage": "1d4 Piercing + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "20/60 feet",
+          "Properties": "Finesse, Thrown (Range 20/60)",
+          "Mastery": "Vex",
+          "Weight": "1/4 lb",
+          "Activation": "Make a ranged weapon attack.",
+          "Special powers": "The star uses the Dart’s ranged profile and cannot make a melee weapon attack.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–12.",
+          "Conversion notes": "The 2024 Dart supplies the equipment profile. Masterwork quality affects appraisal. The 3.5 attack-only enhancement was removed for bounded accuracy.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dart",
+          "label": "Published 2024 Dart comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:90b6a31f9fb0be52": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork sling",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Simple Ranged weapon (Sling comparison)",
+          "Damage": "1d4 Bludgeoning + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "30/120 feet",
+          "Properties": "Ammunition (Range 30/120; Bullet)",
+          "Mastery": "Slow",
+          "Weight": "Negligible",
+          "Activation": "Make a ranged weapon attack.",
+          "Special powers": "Use the Sling profile for this variant.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 117 (PDF p. 118), NPC Druid.",
+          "Conversion notes": "The 2024 Sling supplies the equipment profile. Masterwork quality affects appraisal. The 3.5 attack-only enhancement was removed for bounded accuracy.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_sling",
+          "label": "Published 2024 Sling comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:e1daaa28dae37264": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork throwing axe",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Simple Melee weapon (Handaxe comparison)",
+          "Damage": "1d6 Slashing + Strength modifier",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Light, Thrown (Range 20/60)",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a weapon attack using the listed reach or range.",
+          "Special powers": "Use the Handaxe profile for this variant.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 223 (PDF p. 224), Table 7–13.",
+          "Conversion notes": "The 2024 Handaxe supplies the equipment profile. Masterwork quality affects appraisal. The 3.5 attack-only enhancement was removed for bounded accuracy.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Published 2024 Handaxe comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:0c97db6e503ed2fd": [
+      {
+        "label": "D&D 2024 adaptation · Silver dagger, masterwork",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Simple Melee weapon (Dagger comparison)",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown (Range 20/60)",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Activation": "Make a weapon attack using the listed reach or range.",
+          "Special powers": "Use the Dagger profile for this variant. The weapon counts as silvered for rules that explicitly reference silvered weapons.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 227 (PDF p. 228), Table 7–16.",
+          "Conversion notes": "The 2024 Dagger supplies the equipment profile. Masterwork quality affects appraisal. The 3.5 attack-only enhancement was removed for bounded accuracy.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Published 2024 Dagger comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:dbc7001628ba4800": [
+      {
+        "label": "D&D 2024 adaptation · Small rapier +1",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial Melee weapon (Rapier comparison)",
+          "Damage": "1d8 Piercing + Strength or Dexterity modifier + 1",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet",
+          "Properties": "Finesse",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a weapon attack using the listed reach or range.",
+          "Special powers": "Use the Rapier profile for this variant.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 124 (PDF p. 125), Sample NPC possessions.",
+          "Conversion notes": "The 2024 Rapier supplies the equipment profile.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_rapier",
+          "label": "Published 2024 Rapier comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:9939cd0310d5eaea": [
+      {
+        "label": "D&D 2024 adaptation · Small shortbow +1",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Simple Ranged weapon (Shortbow comparison)",
+          "Damage": "1d6 Piercing + Dexterity modifier + 1",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "80/320 feet",
+          "Properties": "Ammunition (Range 80/320; Arrow), Two-Handed",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a ranged weapon attack.",
+          "Special powers": "Use the Shortbow profile for this variant.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 124 (PDF p. 125), Sample NPC possessions.",
+          "Conversion notes": "The 2024 Shortbow supplies the equipment profile.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortbow",
+          "label": "Published 2024 Shortbow comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:e9863270c96918e6": [
+      {
+        "label": "D&D 2024 adaptation · Wakizashi",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial Melee weapon (Shortsword comparison)",
+          "Damage": "1d6 Slashing + Strength or Dexterity modifier",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a weapon attack using the listed reach or range.",
+          "Special powers": "Use the Shortsword profile for this variant.",
+          "Attunement": "None",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 145 (PDF p. 146), Table 5–3.",
+          "Conversion notes": "The 2024 Shortsword supplies the equipment profile. Keeps the legacy curved blade’s Slashing type.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Published 2024 Shortsword comparison"
+        }
+      }
+    ],
     "dmg-35-reference:8f0d838e9c9ad461": [
       {
         "label": "D&D 2024 adaptation · Anarchic shortbow +2",

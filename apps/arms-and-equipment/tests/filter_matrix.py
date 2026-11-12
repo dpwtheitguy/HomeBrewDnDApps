@@ -1773,6 +1773,24 @@ def main():
                     }
                     return true;
                 })()''',
+                'Legacy masterwork weapons and composite bows display reviewed profiles': '''(async () => {
+                    const cases = [
+                        ["518abfeb772f1ba6", ["1d10 Piercing", "100/400 feet", "Masterwork quality affects appraisal"]],
+                        ["a4a069a849e75818", ["1d10 Bludgeoning", "Heavy, Two-Handed", "Sap"]],
+                        ["5485d110016652bf", ["cannot be used for a thrown attack", "Finesse, Light"]],
+                        ["e9863270c96918e6", ["1d6 Slashing", "Shortsword comparison"]],
+                        ["891e5eaa3589b49b", ["1d8 Piercing + Dexterity modifier + 2", "Strength rating +4", "150/600 feet"]],
+                        ["db4ca38955dae998", ["Strength rating +1", "capped at +1", "80/320 feet"]],
+                        ["0c97db6e503ed2fd", ["counts as silvered", "Nick"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dmg-35-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))
+                            || !inspection.querySelector('a[href*="d20srd.org/srd/equipment/weapons.htm"]')) return false;
+                    }
+                    return true;
+                })()''',
                 'Named 3.5 weapons apply their distinctive effects': '''(async () => {
                     const cases = [
                         ["8f0d838e9c9ad461", ["1d6 Piercing + Dexterity modifier + 2", "2d6 Psychic", "lawful creature"]],
