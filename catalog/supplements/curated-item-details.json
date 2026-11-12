@@ -7716,6 +7716,679 @@
         },
         "profile_kind": "custom-2024-draft"
       }
+    ],
+    "gazetteer-equipment-reference:0a7a2eac48f0d778": [
+      {
+        "label": "D&D 2024 adaptation · Blow Gun, Xitchen",
+        "status": "original-draft",
+        "source": "https://pandius.com/kw_uwae.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_blowgun",
+          "label": "Open 2024 Blowgun"
+        },
+        "fields": {
+          "Base weapon": "Blowgun",
+          "Damage": "1 Piercing + the Dexterity modifier used for the attack",
+          "Attack bonus": "Dexterity modifier plus proficiency bonus if proficient.",
+          "Range": "25/100 ft",
+          "Category": "Martial",
+          "Properties": "Ammunition (Range 25/100; Needle), Loading",
+          "Mastery": "Vex",
+          "Activation": "Make a normal Blowgun attack. Expend one piece of compatible ammunition.",
+          "Attunement": "None.",
+          "Source locator": "Vaults of Pandius fan index, Blow Gun, Xitchen entry.",
+          "Legacy facts": "Håvard’s list attributes the Xitchen blowgun to GAZ14.",
+          "Conversion notes": "Use standard Blowgun ammunition and loading. Any poison is separate and uses its own rules."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-equipment-reference:1049f6645e1e2b0d": [
+      {
+        "label": "D&D 2024 adaptation · Sword, Scallop-bladed Short Sword",
+        "status": "original-draft",
+        "source": "https://pandius.com/kw_uwae.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 Shortsword"
+        },
+        "fields": {
+          "Base weapon": "Shortsword",
+          "Damage": "1d6 Piercing + the Strength or Dexterity modifier used for the attack",
+          "Attack bonus": "Strength or Dexterity modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee",
+          "Category": "Martial",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Activation": "Make a normal Shortsword attack.",
+          "Attunement": "None.",
+          "Source locator": "Vaults of Pandius fan index, Sword, Scallop-bladed Short Sword entry.",
+          "Legacy facts": "Håvard’s list attributes the scallop-bladed short sword to GAZ14.",
+          "Conversion notes": "Uses Shortsword. The scalloped blade does not change damage or mastery."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-equipment-reference:16a81b1c6149227f": [
+      {
+        "label": "D&D 2024 adaptation · Sword, Elven Longsword",
+        "status": "original-draft",
+        "source": "https://pandius.com/kw_uwae.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        },
+        "fields": {
+          "Base weapon": "Longsword",
+          "Damage": "1d8 Slashing (1d10 with two hands for a melee attack) + the Strength modifier used for the attack",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee",
+          "Category": "Martial",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Activation": "Make a normal Longsword attack.",
+          "Attunement": "None.",
+          "Source locator": "Vaults of Pandius fan index, Sword, Elven Longsword entry.",
+          "Legacy facts": "Håvard’s list attributes the elven longsword to GAZ5.",
+          "Conversion notes": "Uses Longsword. Elven workmanship describes the weapon’s origin."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-equipment-reference:1d60d29cff7ae371": [
+      {
+        "label": "D&D 2024 adaptation · Axe, Tomahawk",
+        "status": "original-draft",
+        "source": "https://pandius.com/kw_uwae.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Open 2024 Handaxe"
+        },
+        "fields": {
+          "Base weapon": "Handaxe",
+          "Damage": "1d6 Slashing + the Strength modifier used for the attack",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Category": "Simple",
+          "Properties": "Light, Thrown (Range 20/60)",
+          "Mastery": "Vex",
+          "Activation": "Make a normal Handaxe attack.",
+          "Attunement": "None.",
+          "Source locator": "Vaults of Pandius fan index, Axe, Tomahawk entry.",
+          "Legacy facts": "Håvard’s list attributes the tomahawk to GAZ14.",
+          "Conversion notes": "Uses Handaxe, including the Thrown property."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-equipment-reference:5da63d9d6091b318": [
+      {
+        "label": "D&D 2024 adaptation · Whale Tooth Knife",
+        "status": "original-draft",
+        "source": "https://pandius.com/kw_uwae.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 Dagger"
+        },
+        "fields": {
+          "Base weapon": "Dagger",
+          "Damage": "1d4 Piercing + the Strength or Dexterity modifier used for the attack",
+          "Attack bonus": "Strength or Dexterity modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Category": "Simple",
+          "Properties": "Finesse, Light, Thrown (Range 20/60)",
+          "Mastery": "Nick",
+          "Activation": "Make a normal Dagger attack.",
+          "Attunement": "None.",
+          "Source locator": "Vaults of Pandius fan index, Whale Tooth Knife entry.",
+          "Legacy facts": "Håvard’s list attributes the whale tooth knife to GAZ14.",
+          "Conversion notes": "Uses Dagger. The carved whale tooth supplies the blade material."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-equipment-reference:6ea0e5f8864bfd2e": [
+      {
+        "label": "D&D 2024 adaptation · Eagle Lance",
+        "status": "original-draft",
+        "source": "https://pandius.com/kw_uwae.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_lance",
+          "label": "Open 2024 Lance"
+        },
+        "fields": {
+          "Base weapon": "Lance",
+          "Damage": "1d10 Piercing + the Strength modifier used for the attack",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient.",
+          "Range": "10 ft melee",
+          "Category": "Martial",
+          "Properties": "Heavy, Reach, Two-Handed (unless mounted)",
+          "Mastery": "Topple",
+          "Activation": "Make a normal Lance attack.",
+          "Attunement": "None.",
+          "Source locator": "Vaults of Pandius fan index, Eagle Lance entry.",
+          "Legacy facts": "Håvard’s list attributes the Eagle Lance to GAZ14.",
+          "Conversion notes": "Uses Lance. It can be used in one hand while mounted."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-equipment-reference:8f94a8ee26da2325": [
+      {
+        "label": "D&D 2024 adaptation · Axe, Bone/Stone Hand Axe",
+        "status": "original-draft",
+        "source": "https://pandius.com/kw_uwae.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Open 2024 Handaxe"
+        },
+        "fields": {
+          "Base weapon": "Handaxe",
+          "Damage": "1d6 Slashing + the Strength modifier used for the attack",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Category": "Simple",
+          "Properties": "Light, Thrown (Range 20/60)",
+          "Mastery": "Vex",
+          "Activation": "Make a normal Handaxe attack.",
+          "Attunement": "None.",
+          "Source locator": "Vaults of Pandius fan index, Axe, Bone/Stone Hand Axe entry.",
+          "Legacy facts": "Håvard’s list attributes the bone or stone hand axe to GAZ14.",
+          "Conversion notes": "Uses Handaxe. The bone or stone head supplies flavor and construction."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-equipment-reference:9748987ade4180fb": [
+      {
+        "label": "D&D 2024 adaptation · Spear, Buffalo",
+        "status": "original-draft",
+        "source": "https://pandius.com/kw_uwae.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 Spear"
+        },
+        "fields": {
+          "Base weapon": "Spear",
+          "Damage": "1d6 Piercing (1d8 with two hands for a melee attack) + the Strength modifier used for the attack",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Category": "Simple",
+          "Properties": "Thrown (Range 20/60), Versatile (1d8)",
+          "Mastery": "Sap",
+          "Activation": "Make a normal Spear attack.",
+          "Attunement": "None.",
+          "Source locator": "Vaults of Pandius fan index, Spear, Buffalo entry.",
+          "Legacy facts": "Håvard’s list attributes the buffalo spear to GAZ14.",
+          "Conversion notes": "Uses Spear. The name does not establish a combat bonus against buffalo."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-equipment-reference:9b8f9baa3e2dfaba": [
+      {
+        "label": "D&D 2024 adaptation · Sword, Elven Shortsword",
+        "status": "original-draft",
+        "source": "https://pandius.com/kw_uwae.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 Shortsword"
+        },
+        "fields": {
+          "Base weapon": "Shortsword",
+          "Damage": "1d6 Piercing + the Strength or Dexterity modifier used for the attack",
+          "Attack bonus": "Strength or Dexterity modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee",
+          "Category": "Martial",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Activation": "Make a normal Shortsword attack.",
+          "Attunement": "None.",
+          "Source locator": "Vaults of Pandius fan index, Sword, Elven Shortsword entry.",
+          "Legacy facts": "Håvard’s list attributes the elven shortsword to GAZ5.",
+          "Conversion notes": "Uses Shortsword. Elven workmanship describes the weapon’s origin."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-equipment-reference:9be903057dedb5a4": [
+      {
+        "label": "D&D 2024 adaptation · Tiger Javelin",
+        "status": "original-draft",
+        "source": "https://pandius.com/kw_uwae.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_javelin",
+          "label": "Open 2024 Javelin"
+        },
+        "fields": {
+          "Base weapon": "Javelin",
+          "Damage": "1d6 Piercing + the Strength modifier used for the attack",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee; 30/120 ft thrown",
+          "Category": "Simple",
+          "Properties": "Thrown (Range 30/120)",
+          "Mastery": "Slow",
+          "Activation": "Make a normal Javelin attack.",
+          "Attunement": "None.",
+          "Source locator": "Vaults of Pandius fan index, Tiger Javelin entry.",
+          "Legacy facts": "Håvard’s list attributes the Tiger Javelin to GAZ14.",
+          "Conversion notes": "Uses Javelin. No bonus against tigers is assigned."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-equipment-reference:9f318908b2ebeaae": [
+      {
+        "label": "D&D 2024 adaptation · Sword, Claymore",
+        "status": "original-draft",
+        "source": "https://pandius.com/kw_uwae.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 Greatsword"
+        },
+        "fields": {
+          "Base weapon": "Greatsword",
+          "Damage": "2d6 Slashing + the Strength modifier used for the attack",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee",
+          "Category": "Martial",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Activation": "Make a normal Greatsword attack.",
+          "Attunement": "None.",
+          "Source locator": "Vaults of Pandius fan index, Sword, Claymore entry.",
+          "Legacy facts": "Håvard’s list attributes the claymore to GAZ3.",
+          "Conversion notes": "Uses Greatsword for the two-handed blade."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-equipment-reference:afcefaa7a8e67470": [
+      {
+        "label": "D&D 2024 adaptation · Sword, Yataghan",
+        "status": "original-draft",
+        "source": "https://pandius.com/kw_uwae.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 Shortsword"
+        },
+        "fields": {
+          "Base weapon": "Shortsword",
+          "Damage": "1d6 Piercing + the Strength or Dexterity modifier used for the attack",
+          "Attack bonus": "Strength or Dexterity modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee",
+          "Category": "Martial",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Activation": "Make a normal Shortsword attack.",
+          "Attunement": "None.",
+          "Source locator": "Vaults of Pandius fan index, Sword, Yataghan entry.",
+          "Legacy facts": "Håvard’s list attributes the yataghan to GAZ2.",
+          "Conversion notes": "Uses Shortsword, following the comparison suggested by the fan index."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-equipment-reference:b3d766d0267ac6db": [
+      {
+        "label": "D&D 2024 adaptation · Dagger, Kouglar",
+        "status": "original-draft",
+        "source": "https://pandius.com/kw_uwae.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 Dagger"
+        },
+        "fields": {
+          "Base weapon": "Dagger",
+          "Damage": "1d4 Piercing + the Strength or Dexterity modifier used for the attack",
+          "Attack bonus": "Strength or Dexterity modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Category": "Simple",
+          "Properties": "Finesse, Light, Thrown (Range 20/60)",
+          "Mastery": "Nick",
+          "Activation": "Make a normal Dagger attack.",
+          "Attunement": "None.",
+          "Source locator": "Vaults of Pandius fan index, Dagger, Kouglar entry.",
+          "Legacy facts": "Håvard’s list attributes the kouglar dagger to GAZ2.",
+          "Conversion notes": "Uses Dagger, following the comparison suggested by the fan index."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-equipment-reference:b7b25cdc50ce9c86": [
+      {
+        "label": "D&D 2024 adaptation · Sword, Cutlass",
+        "status": "original-draft",
+        "source": "https://pandius.com/kw_uwae.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scimitar",
+          "label": "Open 2024 Scimitar"
+        },
+        "fields": {
+          "Base weapon": "Scimitar",
+          "Damage": "1d6 Slashing + the Strength or Dexterity modifier used for the attack",
+          "Attack bonus": "Strength or Dexterity modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee",
+          "Category": "Martial",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Activation": "Make a normal Scimitar attack.",
+          "Attunement": "None.",
+          "Source locator": "Vaults of Pandius fan index, Sword, Cutlass entry.",
+          "Legacy facts": "Håvard’s list attributes the cutlass to GAZ9.",
+          "Conversion notes": "Uses Scimitar, following the comparison suggested by the fan index."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-equipment-reference:c51ccdd08c562243": [
+      {
+        "label": "D&D 2024 adaptation · Sword, Katar",
+        "status": "original-draft",
+        "source": "https://pandius.com/kw_uwae.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 Shortsword"
+        },
+        "fields": {
+          "Base weapon": "Shortsword",
+          "Damage": "1d6 Piercing + the Strength or Dexterity modifier used for the attack",
+          "Attack bonus": "Strength or Dexterity modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee",
+          "Category": "Martial",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Activation": "Make a normal Shortsword attack.",
+          "Attunement": "None.",
+          "Source locator": "Vaults of Pandius fan index, Sword, Katar entry.",
+          "Legacy facts": "Håvard’s list attributes the katar to GAZ12 and suggests Shortsword rules.",
+          "Conversion notes": "Uses Shortsword for the fist-gripped blade. It occupies one hand when wielded."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-equipment-reference:d20e632f1d431581": [
+      {
+        "label": "D&D 2024 adaptation · Lance, Ethengar",
+        "status": "original-draft",
+        "source": "https://pandius.com/kw_uwae.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_lance",
+          "label": "Open 2024 Lance"
+        },
+        "fields": {
+          "Base weapon": "Lance",
+          "Damage": "1d10 Piercing + the Strength modifier used for the attack",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient.",
+          "Range": "10 ft melee",
+          "Category": "Martial",
+          "Properties": "Heavy, Reach, Two-Handed (unless mounted)",
+          "Mastery": "Topple",
+          "Activation": "Make a normal Lance attack.",
+          "Attunement": "None.",
+          "Source locator": "Vaults of Pandius fan index, Lance, Ethengar entry.",
+          "Legacy facts": "Håvard’s list attributes the Ethengar lance to GAZ12.",
+          "Conversion notes": "Uses Lance, including its mounted one-handed exception."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-equipment-reference:fe73d43ee9c5d48b": [
+      {
+        "label": "D&D 2024 adaptation · Dagger, Bone/Stone",
+        "status": "original-draft",
+        "source": "https://pandius.com/kw_uwae.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 Dagger"
+        },
+        "fields": {
+          "Base weapon": "Dagger",
+          "Damage": "1d4 Piercing + the Strength or Dexterity modifier used for the attack",
+          "Attack bonus": "Strength or Dexterity modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Category": "Simple",
+          "Properties": "Finesse, Light, Thrown (Range 20/60)",
+          "Mastery": "Nick",
+          "Activation": "Make a normal Dagger attack.",
+          "Attunement": "None.",
+          "Source locator": "Vaults of Pandius fan index, Dagger, Bone/Stone entry.",
+          "Legacy facts": "Håvard’s list attributes the bone or stone dagger to GAZ14.",
+          "Conversion notes": "Uses Dagger. The bone or stone blade gives no separate combat effect."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-equipment-reference:e0876799868e6e9e": [
+      {
+        "label": "D&D 2024 adaptation · Bow, Composite",
+        "status": "original-draft",
+        "source": "https://pandius.com/bow_rev.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortbow",
+          "label": "Open 2024 Shortbow"
+        },
+        "fields": {
+          "Base weapon": "Shortbow",
+          "Damage": "1d6 Piercing + the Dexterity modifier used for the attack",
+          "Attack bonus": "Dexterity modifier plus proficiency bonus if proficient.",
+          "Range": "80/320 ft",
+          "Category": "Simple",
+          "Properties": "Ammunition (Range 80/320; Arrow), Two-Handed",
+          "Mastery": "Vex",
+          "Activation": "Make a normal Shortbow attack. Expend one piece of compatible ammunition.",
+          "Attunement": "None.",
+          "Source locator": "Vaults of Pandius, Revised Bows, Composite row, attributed to GAZ12.",
+          "Legacy facts": "The fan index identifies this item by name. The 2024 statistics below are the adaptation.",
+          "Conversion notes": "The revised bow table reports 1d6 damage and mounted use. This adaptation uses 2024 Shortbow range and omits the legacy distance modifiers.",
+          "Special powers": "Can be fired while mounted, following the normal mounted combat rules."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-equipment-reference:578f64f766b15b4b": [
+      {
+        "label": "D&D 2024 adaptation · Bow, Elven Longbow",
+        "status": "original-draft",
+        "source": "https://pandius.com/bow_rev.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open 2024 Longbow"
+        },
+        "fields": {
+          "Base weapon": "Longbow",
+          "Damage": "1d8 Piercing + the Dexterity modifier used for the attack + 1",
+          "Attack bonus": "Dexterity modifier plus proficiency bonus if proficient, plus 1.",
+          "Range": "150/600 ft",
+          "Category": "Martial",
+          "Properties": "Ammunition (Range 150/600; Arrow), Heavy, Two-Handed",
+          "Mastery": "Slow",
+          "Activation": "Make a normal Longbow attack. Expend one piece of compatible ammunition.",
+          "Attunement": "None.",
+          "Source locator": "Vaults of Pandius, Revised Bows, Elven Longbow row, attributed to GAZ5.",
+          "Legacy facts": "The fan index identifies this item by name. The 2024 statistics below are the adaptation.",
+          "Conversion notes": "The revised bow table lists a magical bow with a +1 attack bonus and 1d6+1 damage. The conversion uses the 2024 Longbow damage die and +1 weapon rules.",
+          "Rarity": "Uncommon"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-bow-reference:e0876799868e6e9e": [
+      {
+        "label": "D&D 2024 adaptation · Bow, Composite",
+        "status": "original-draft",
+        "source": "https://pandius.com/bow_rev.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortbow",
+          "label": "Open 2024 Shortbow"
+        },
+        "fields": {
+          "Base weapon": "Shortbow",
+          "Damage": "1d6 Piercing + the Dexterity modifier used for the attack",
+          "Attack bonus": "Dexterity modifier plus proficiency bonus if proficient.",
+          "Range": "80/320 ft",
+          "Category": "Simple",
+          "Properties": "Ammunition (Range 80/320; Arrow), Two-Handed",
+          "Mastery": "Vex",
+          "Activation": "Make a normal Shortbow attack. Expend one piece of compatible ammunition.",
+          "Attunement": "None.",
+          "Source locator": "Vaults of Pandius, Revised Bows, Composite row, attributed to GAZ12.",
+          "Legacy facts": "The fan index identifies this item by name. The 2024 statistics below are the adaptation.",
+          "Conversion notes": "The revised bow table reports 1d6 damage and mounted use. This adaptation uses 2024 Shortbow range and omits the legacy distance modifiers.",
+          "Special powers": "Can be fired while mounted, following the normal mounted combat rules."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-bow-reference:578f64f766b15b4b": [
+      {
+        "label": "D&D 2024 adaptation · Bow, Elven Longbow",
+        "status": "original-draft",
+        "source": "https://pandius.com/bow_rev.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open 2024 Longbow"
+        },
+        "fields": {
+          "Base weapon": "Longbow",
+          "Damage": "1d8 Piercing + the Dexterity modifier used for the attack + 1",
+          "Attack bonus": "Dexterity modifier plus proficiency bonus if proficient, plus 1.",
+          "Range": "150/600 ft",
+          "Category": "Martial",
+          "Properties": "Ammunition (Range 150/600; Arrow), Heavy, Two-Handed",
+          "Mastery": "Slow",
+          "Activation": "Make a normal Longbow attack. Expend one piece of compatible ammunition.",
+          "Attunement": "None.",
+          "Source locator": "Vaults of Pandius, Revised Bows, Elven Longbow row, attributed to GAZ5.",
+          "Legacy facts": "The fan index identifies this item by name. The 2024 statistics below are the adaptation.",
+          "Conversion notes": "The revised bow table lists a magical bow with a +1 attack bonus and 1d6+1 damage. The conversion uses the 2024 Longbow damage die and +1 weapon rules.",
+          "Rarity": "Uncommon"
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-equipment-reference:92c32c165e73133d": [
+      {
+        "label": "D&D 2024 adaptation · Turtle Clan Harpoon",
+        "status": "original-draft",
+        "source": "https://pandius.com/kw_uwae.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 Spear"
+        },
+        "fields": {
+          "Base weapon": "Spear",
+          "Damage": "1d6 Piercing (1d8 with two hands for a melee attack) + the Strength modifier used for the attack",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient.",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Category": "Simple",
+          "Properties": "Thrown (Range 20/60), Versatile (1d8)",
+          "Mastery": "Sap",
+          "Activation": "Make a normal Spear attack.",
+          "Attunement": "None.",
+          "Source locator": "Vaults of Pandius fan index, Turtle Clan Harpoon entry.",
+          "Legacy facts": "Håvard’s list attributes the Turtle Clan harpoon to GAZ14.",
+          "Conversion notes": "Uses Spear as the harpoon base. The following tether rules are an authored option for the named design.",
+          "Special powers": "If you attach a rope and retain its free end, you can retrieve a missed throw from up to 20 feet away with a Utilize action if the harpoon is unobstructed. A hit does not impose Grappled or Restrained."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-equipment-reference:ee675d0479ab7828": [
+      {
+        "label": "D&D 2024 adaptation · Spear Thrower / azraxxi",
+        "status": "original-draft",
+        "source": "https://pandius.com/kw_uwae.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_javelin",
+          "label": "Open 2024 Javelin"
+        },
+        "fields": {
+          "Base weapon": "Javelin launcher",
+          "Damage": "1d6 Piercing + the Strength modifier used for the attack",
+          "Attack bonus": "Strength modifier plus proficiency bonus if proficient.",
+          "Range": "40/160 ft with the launcher",
+          "Category": "Simple",
+          "Properties": "Requires a Javelin and a free hand to load.",
+          "Mastery": "Slow if you have mastery with Javelins.",
+          "Activation": "Load and throw a Javelin as one ranged attack of the Attack action.",
+          "Attunement": "None.",
+          "Source locator": "Vaults of Pandius fan index, Spear Thrower / azraxxi entry.",
+          "Legacy facts": "Håvard’s list identifies the azraxxi as a spear thrower from GAZ14.",
+          "Conversion notes": "The azraxxi is an accessory. This draft uses a Javelin as the compatible projectile.",
+          "Special powers": "Wield the thrower in one hand and load a Javelin using your other hand. A throw uses your normal Javelin attack and damage. The thrower extends normal range to 40 feet and long range to 160 feet."
+        },
+        "profile_kind": "custom-2024-draft"
+      }
+    ],
+    "gazetteer-equipment-reference:1b56b9fc840b85eb": [
+      {
+        "label": "D&D 2024 adaptation · Ethengar lasso",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/kw_uwae.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Net",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_net",
+          "label": "Open 2024 Net benchmark"
+        },
+        "fields": {
+          "Category": "Adventuring gear",
+          "Damage": "No direct damage.",
+          "Attack bonus": "No attack roll. Dexterity save DC 8 + your Dexterity modifier + Proficiency Bonus.",
+          "Range": "15 feet",
+          "Activation": "Replace one attack of the Attack action. Choose one Large or smaller creature you can see within 15 feet. On a failed save, the target is Restrained while you hold the rope, to the end of your next turn.",
+          "Escape": "The target or an adjacent creature can take an action and succeed on a DC 10 Strength (Athletics) check to free it. The effect also ends if you release the rope or it is severed.",
+          "Legacy facts": "Håvard’s list attributes the lasso to GAZ12.",
+          "Conversion notes": "An authored control item using the 2024 Net as a benchmark."
+        }
+      }
+    ],
+    "gazetteer-equipment-reference:315e78dd072c732d": [
+      {
+        "label": "D&D 2024 adaptation · Xitchi bolas",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/kw_uwae.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Net",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_net",
+          "label": "Open 2024 Net benchmark"
+        },
+        "fields": {
+          "Category": "Adventuring gear",
+          "Damage": "No direct damage.",
+          "Attack bonus": "No attack roll. Dexterity save DC 8 + your Dexterity modifier + Proficiency Bonus.",
+          "Range": "20 feet",
+          "Activation": "Replace one attack of the Attack action. Choose one Large or smaller creature you can see within 20 feet. On a failed save, the target’s Speed becomes 0 until the start of your next turn.",
+          "Escape": "The target or an adjacent creature can take a Utilize action to remove the bolas early.",
+          "Legacy facts": "Håvard’s list attributes Tiger War bolas, or Xitchi, to GAZ14.",
+          "Conversion notes": "An authored control item using the 2024 Net as a benchmark."
+        }
+      }
     ]
   }
 }

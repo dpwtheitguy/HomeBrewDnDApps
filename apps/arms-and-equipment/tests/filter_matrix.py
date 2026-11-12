@@ -1038,6 +1038,22 @@ def main():
                     }
                     return true;
                 })()''',
+                'Gazetteer weapon drafts show control gear and bow differences': '''(async () => {
+                    const cases = [
+                        ["gazetteer-equipment-reference:1b56b9fc840b85eb", ["No direct damage", "15 feet", "Restrained", "DC 10 Strength"]],
+                        ["gazetteer-equipment-reference:315e78dd072c732d", ["Speed becomes 0", "20 feet", "Utilize action"]],
+                        ["gazetteer-equipment-reference:ee675d0479ab7828", ["40/160 ft", "Requires a Javelin"]],
+                        ["gazetteer-bow-reference:e0876799868e6e9e", ["80/320 ft", "Can be fired while mounted"]],
+                        ["gazetteer-equipment-reference:578f64f766b15b4b", ["150/600 ft", "1d8 Piercing", "Revised Bows"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        const details = inspection.textContent;
+                        if (!terms.every(term => details.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
