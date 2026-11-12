@@ -211,11 +211,16 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
                                    and bool(target_armor)
                                    and (item['type'] == 'shield') == (target_armor.get('name') == 'Shield'))
             enhancement = re.search(r' \(\+([1-3])\)$', target.get('name', '')) if target.get('magic') else None
+            family = modern_families.get(base_id) if mapping['profile_kind'] == 'published-armor-mapping' else None
             bonus = mapping.get('enhancement_bonus') if public else int(enhancement[1]) if enhancement else 0
+            if family:
+                bonus = family.get('bonus', 0)
             expected_status = 'original-draft' if adapted else 'published-reference'
             if (mapping['status'] != expected_status or not mapping.get('source')
                     or target.get('source_id') != 'open5e-srd-2024' or not target_armor
                     or not verified_source or type(bonus) is not int or not 0 <= bonus <= 3
+                    or (family and (mapped_fields.get('Special powers') != family['effect']
+                                    or not mapped_fields.get('2024 counterpart', '').startswith(family['source'] + '#')))
                     or (adapted and not mapped_fields.get('Conversion notes'))
                     or (mapping['profile_kind'] == 'adapted-barding' and not mapping.get('barding'))):
                 errors.append('invalid armor mapping or adaptation')
@@ -251,7 +256,9 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
                     valid_ac = mapped_fields.get('Armor class') == formula
                 if not valid_ac:
                     errors.append('mapped armor class disagrees with published equipment')
-                if mapping.get('mithral'):
+                if family and family.get('training'):
+                    fields['training'] = family['training']
+                if mapping.get('mithral') or (family and family.get('mithral')):
                     fields.update(strength_requirement='None', stealth_disadvantage='No')
                 fields['effects'] = mapped_fields['Special powers']
                 if game_adaptation or source_adaptation:

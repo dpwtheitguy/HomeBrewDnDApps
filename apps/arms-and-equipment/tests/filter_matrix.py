@@ -1149,7 +1149,7 @@ def main():
                         ["dmg-35-reference:db4f44212c1486c7", ["17 + Dex modifier (max +2)", "Legendary", "conversion draft"]],
                         ["dmg-35-reference:a153508f6388f498", ["Armor class bonus+4", "occupies one hand", "conversion draft"]],
                         ["dmg-35-reference:1a12c2006b6212cc", ["1d8 Slashing", "Abyssal", "Remove Curse"]],
-                        ["dmg-35-reference:7804a6bfdaf74b94", ["Armor class20", "up to 10 feet"]],
+                        ["dmg-35-reference:7804a6bfdaf74b94", ["Armor class20", "up to 10 ft.", "Published 2024 counterpart"]],
                         ["dmg-35-reference:dac3457dc8c40bbe", ["20 feet straight", "2d6", "mount"]],
                         ["dmg-35-reference:92b4e00f098bb896", ["120/480 feet", "1d10", "three spines"]],
                         ["dmg-35-reference:fae0641c67338f45", ["Armor class20", "before damage", "seven days later"]],
@@ -1177,6 +1177,18 @@ def main():
                         if (missing.length) throw new Error(id + " missing " + missing.join(", "));
                     }
                     return true;
+                })()''',
+                'Dwarven Plate links to the published magic armor card': '''(async () => {
+                    inspect("dmg-35-reference:7804a6bfdaf74b94", grid.firstElementChild);
+                    await itemDetails;
+                    const related = [...inspection.querySelectorAll("button")]
+                        .find(button => button.textContent === "Open published 2024 counterpart");
+                    if (!related) return false;
+                    related.click();
+                    await itemDetails;
+                    return inspection.textContent.includes("Dwarven Plate")
+                        && inspection.textContent.includes("up to 10 ft.")
+                        && !inspection.textContent.includes("legacy suit");
                 })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);

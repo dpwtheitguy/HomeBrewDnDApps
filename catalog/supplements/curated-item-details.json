@@ -12100,8 +12100,8 @@
     ],
     "dmg-35-reference:1a12c2006b6212cc": [
       {
-        "label": "D&D 2024 conversion draft",
-        "status": "original-draft",
+        "label": "Published 2024 counterpart",
+        "status": "published-reference",
         "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
         "fields": {
           "Armor class": "19",
@@ -12111,23 +12111,23 @@
           "Weight": "65 lb",
           "Attunement": "Required",
           "Rarity": "Very Rare",
-          "Special powers": "While wearing and attuned, you know Abyssal and gain +1 AC. Your gauntlets let your damage-dealing Unarmed Strikes use 1d8 Slashing in place of their normal base damage, with +1 to attack and damage rolls. Once donned, the suit cannot be removed until you receive Remove Curse or similar magic. While wearing it, you have Disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.",
+          "Special powers": "While worn, you know Abyssal. Your Unarmed Strikes can deal 1d8 Slashing in place of their normal damage and gain +1 to attack and damage. After donning, Remove Curse or similar magic is needed to doff the armor. While wearing it, you have Disadvantage on attacks against demons and saves against their spells and special abilities.",
           "Source locator": "D&D 3.5 DMG, p. 220, table 7–7.",
-          "Conversion notes": "Uses the published 2024 Demon Armor rules on the original full plate chassis. The legacy +4 bonus and claw-delivered Contagion are historical mechanics.",
           "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#DemonArmor",
-          "Original item rules": "https://www.d20srd.org/srd/magicItems/magicArmor.htm"
+          "Original item rules": "https://www.d20srd.org/srd/magicItems/magicArmor.htm",
+          "Edition notes": "Uses the published 2024 Demon Armor rules on full plate. The legacy +4 bonus and claw-delivered Contagion are historical mechanics."
         },
         "related_item": {
-          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
-          "label": "Open 2024 AC baseline"
+          "id": "open5e-srd-2024:srd-2024_demon-plate-armor",
+          "label": "Open published 2024 counterpart"
         },
-        "profile_kind": "adapted-source-armor"
+        "profile_kind": "published-armor-mapping"
       }
     ],
     "dmg-35-reference:2484259471821f95": [
       {
-        "label": "D&D 2024 conversion draft",
-        "status": "original-draft",
+        "label": "Published 2024 counterpart",
+        "status": "published-reference",
         "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
         "fields": {
           "Armor class": "14 + Dex modifier (max +2)",
@@ -12137,23 +12137,23 @@
           "Weight": "20 lb",
           "Attunement": "None",
           "Rarity": "Rare",
-          "Special powers": "Gain +1 AC while wearing this suit. It counts as armor you are trained to wear, even if you lack Medium armor training.",
+          "Special powers": "The wearer is treated as trained with this armor.",
           "Source locator": "D&D 3.5 DMG, p. 220, table 7–7.",
-          "Conversion notes": "Uses the published chain shirt form of Elven Chain to reflect the original 20 lb mithral suit and ease of use.",
           "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#ElvenChain",
-          "Original item rules": "https://www.d20srd.org/srd/magicItems/magicArmor.htm"
+          "Original item rules": "https://www.d20srd.org/srd/magicItems/magicArmor.htm",
+          "Edition notes": "Uses the published chain shirt form of Elven Chain to reflect the original 20 lb mithral suit and ease of use."
         },
         "related_item": {
-          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-1",
-          "label": "Open 2024 AC baseline"
+          "id": "open5e-srd-2024:srd-2024_elven-chain-shirt",
+          "label": "Open published 2024 counterpart"
         },
-        "profile_kind": "adapted-source-armor"
+        "profile_kind": "published-armor-mapping"
       }
     ],
     "dmg-35-reference:2aad21068379951d": [
       {
-        "label": "D&D 2024 conversion draft",
-        "status": "original-draft",
+        "label": "Published 2024 counterpart",
+        "status": "published-reference",
         "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
         "fields": {
           "Armor class": "13 + Dex modifier (max +2)",
@@ -12163,17 +12163,17 @@
           "Weight": "20 lb",
           "Attunement": "None",
           "Rarity": "Uncommon",
-          "Special powers": "The flexible mithral shirt can be worn under ordinary clothing. It has no Strength minimum or Stealth disadvantage.",
+          "Special powers": "Removes the base armor’s Strength minimum and Stealth disadvantage. It can be worn under normal clothes in the 2024 rules.",
           "Source locator": "D&D 3.5 DMG, p. 220, table 7–7.",
-          "Conversion notes": "Uses the published 2024 Mithral Armor rule. The legacy armor check penalty and arcane spell failure rules are replaced by normal 2024 armor training.",
           "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#MithralArmor",
-          "Original item rules": "https://www.d20srd.org/srd/magicItems/magicArmor.htm"
+          "Original item rules": "https://www.d20srd.org/srd/magicItems/magicArmor.htm",
+          "Edition notes": "Uses the published 2024 Mithral Armor rule. The legacy armor check penalty and arcane spell failure rules are replaced by normal 2024 armor training."
         },
         "related_item": {
-          "id": "open5e-srd-2024:srd-2024_chain-shirt",
-          "label": "Open 2024 AC baseline"
+          "id": "open5e-srd-2024:srd-2024_mithral-armor-chain-shirt",
+          "label": "Open published 2024 counterpart"
         },
-        "profile_kind": "adapted-source-armor"
+        "profile_kind": "published-armor-mapping"
       }
     ],
     "dmg-35-reference:5c87c045b1d721e4": [
@@ -12204,8 +12204,8 @@
     ],
     "dmg-35-reference:7804a6bfdaf74b94": [
       {
-        "label": "D&D 2024 conversion draft",
-        "status": "original-draft",
+        "label": "Published 2024 counterpart",
+        "status": "published-reference",
         "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
         "fields": {
           "Armor class": "20",
@@ -12215,17 +12215,17 @@
           "Weight": "65 lb",
           "Attunement": "None",
           "Rarity": "Very Rare",
-          "Special powers": "While wearing the suit, gain +2 AC. When an effect would move you unwillingly along the ground, you can take a Reaction to reduce that movement by up to 10 feet.",
+          "Special powers": "Use a Reaction to reduce forced movement along the ground by up to 10 ft.",
           "Source locator": "D&D 3.5 DMG, p. 220, table 7–7.",
-          "Conversion notes": "Uses the published 2024 Dwarven Plate rules. The legacy suit instead uses adamantine damage reduction.",
           "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#DwarvenPlate",
-          "Original item rules": "https://www.d20srd.org/srd/magicItems/magicArmor.htm"
+          "Original item rules": "https://www.d20srd.org/srd/magicItems/magicArmor.htm",
+          "Edition notes": "Uses the published 2024 Dwarven Plate rules. The legacy suit instead uses adamantine damage reduction."
         },
         "related_item": {
-          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-2",
-          "label": "Open 2024 AC baseline"
+          "id": "open5e-srd-2024:srd-2024_dwarven-plate",
+          "label": "Open published 2024 counterpart"
         },
-        "profile_kind": "adapted-source-armor"
+        "profile_kind": "published-armor-mapping"
       }
     ],
     "dmg-35-reference:92b4e00f098bb896": [
@@ -12256,8 +12256,8 @@
     ],
     "dmg-35-reference:a0ca051702b48afb": [
       {
-        "label": "D&D 2024 conversion draft",
-        "status": "original-draft",
+        "label": "Published 2024 counterpart",
+        "status": "published-reference",
         "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
         "fields": {
           "Armor class": "14 + Dex modifier (max +2)",
@@ -12267,17 +12267,17 @@
           "Weight": "20 lb",
           "Attunement": "None",
           "Rarity": "Uncommon",
-          "Special powers": "While wearing the breastplate, a Critical Hit against you becomes a normal hit.",
+          "Special powers": "Critical hits against you become normal hits while worn.",
           "Source locator": "D&D 3.5 DMG, p. 220, table 7–7.",
-          "Conversion notes": "Applies the published 2024 Adamantine Armor rule in place of the original flat damage reduction.",
           "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AdamantineArmor",
-          "Original item rules": "https://www.d20srd.org/srd/magicItems/magicArmor.htm"
+          "Original item rules": "https://www.d20srd.org/srd/magicItems/magicArmor.htm",
+          "Edition notes": "Applies the published 2024 Adamantine Armor rule in place of the original flat damage reduction."
         },
         "related_item": {
-          "id": "open5e-srd-2024:srd-2024_breastplate",
-          "label": "Open 2024 AC baseline"
+          "id": "open5e-srd-2024:srd-2024_adamantine-armor-breastplate",
+          "label": "Open published 2024 counterpart"
         },
-        "profile_kind": "adapted-source-armor"
+        "profile_kind": "published-armor-mapping"
       }
     ],
     "dmg-35-reference:dac3457dc8c40bbe": [
