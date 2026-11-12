@@ -112,6 +112,13 @@ def cases():
     result += [case('D&D 2024 property ' + prop, category='Weapons', facets={'ruleset': 'dnd-2024', 'property': prop})
                for prop in ('ammunition', 'finesse', 'heavy', 'light', 'loading', 'reach', 'thrown', 'two-handed', 'versatile')]
     result += [
+        case('Dungeon Crawler Carl source contains weapons', category='Weapons',
+             facets={'source': 'dungeon-crawler-carl-drafts'}, contains='dungeon-crawler-carl-drafts:grull-war-gauntlet'),
+        case('Dungeon Crawler Carl source contains armor', category='Armor',
+             facets={'source': 'dungeon-crawler-carl-drafts'}, contains='dungeon-crawler-carl-drafts:right-back-atcha-shield'),
+        case('Dungeon Crawler Carl magic armor filters', category='Armor',
+             facets={'source': 'dungeon-crawler-carl-drafts', 'enchantment': 'magic'},
+             contains='dungeon-crawler-carl-drafts:trollskin-shirt'),
         case('Ravenloft setting', facets={'setting': 'setting:ravenloft'}, positive=True),
         case('Mystara setting and Glantri region', facets={'setting': 'setting:mystara', 'region': 'region:glantri'}, positive=True),
         case('Mystara and Thyatian culture', facets={'setting': 'setting:mystara', 'culture': 'culture:thyatian'}, positive=True),
@@ -1748,6 +1755,41 @@ def main():
                     return demon.includes("Verified 2024 armor counterpart") && demon.includes("Armor class19")
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
+                })()''',
+                'Dungeon Crawler Carl cards show playable stats, prices and sources': '''(async () => {
+                    const cases = [
+                        ["grull-war-gauntlet", ["1d6", "Bludgeoning", "DC 14 Strength", "3 charges"]],
+                        ["right-back-atcha-shield", ["+2 AC", "Reaction", "3d8 Force"]],
+                        ["trollskin-shirt", ["AC 12", "Medium Armor", "2d6"]],
+                        ["prism-industries-goggles", ["three force darts", "1d4 + 1 Force"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dungeon-crawler-carl-drafts:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))
+                            || !["Base cost", "Base buy", "Base sell"].every(term => inspection.textContent.includes(term))
+                            || !inspection.querySelector('a[href^="https://"]')
+                            || !inspection.textContent.includes("Original conversion draft")) return false;
+                    }
+                    return true;
+                })()''',
+                'Named 3.5 weapons apply their distinctive effects': '''(async () => {
+                    const cases = [
+                        ["8f0d838e9c9ad461", ["1d6 Piercing + Dexterity modifier + 2", "2d6 Psychic", "lawful creature"]],
+                        ["b128df25f1b1d5d0", ["+6 effective price equivalent", "one additional attack", "Haste"]],
+                        ["78180b71c8ae7402", ["Choose one head", "+1 flaming and +3 disruption heads", "DC 15 Wisdom"]],
+                        ["c52a41064271c6d4", ["Death Strike by 1", "does not grant Death Strike"]],
+                        ["f5ae11166c98bb77", ["Spend 1 of 3 charges", "Hit Point maximum", "regains all charges at dawn"]],
+                        ["0bbcfcfcc1eb2787", ["Use +2 on an Elemental Plane", "Use only the highest applicable bonus"]],
+                        ["9fc1cefd952787af", ["1d6 Piercing", "does not grant Sneak Attack", "Vex"]],
+                        ["814c5fca0cbb8b75", ["Outdoors in a temperate climate", "Cleave", "Nick"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dmg-35-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
                 })()''',
                 'Core weapon properties retain their limits and eligible hosts': '''(async () => {
                     const cases = [

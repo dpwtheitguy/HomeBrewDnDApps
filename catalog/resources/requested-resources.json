@@ -2058,6 +2058,25 @@
       "original_item_audit_status": "pending",
       "coverage_note": "Bibliographic/media identity only. No item inventory or original-text audit completed.",
       "request_scope": "user-requested-mystara-games-and-novels"
+    },
+    {
+      "id": "dungeon-crawler-carl-equipment",
+      "label": "Dungeon Crawler Carl equipment across media",
+      "kind": "source-category",
+      "aliases": [
+        "Dungeon Crawler Carl",
+        "DCC"
+      ],
+      "bibliography_url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+      "selectors": {
+        "source_ids": [
+          "dungeon-crawler-carl-drafts"
+        ]
+      },
+      "child_resource_ids": [],
+      "original_item_audit_status": "pending",
+      "coverage_note": "Selected original tabletop adaptations tied to publisher excerpts, licensed products and separately labeled third-party leads. Full-book and cross-media inventory verification is ongoing.",
+      "request_scope": "user-requested-or-enumerated-subsource"
     }
   ],
   "completion_policy": "A registered title is not an item import. Original item audits are never completed automatically from row counts, title matching or related regional gear. Source categories remain open unless a finite bibliography is explicitly defined. Sources with no verified novel item list remain explicit gaps; standard equipment elsewhere is not proof of a book audit."

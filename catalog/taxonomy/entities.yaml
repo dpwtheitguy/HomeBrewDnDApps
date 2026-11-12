@@ -338,6 +338,14 @@ entities:
   parent_ids: []
   note: Mystara placement is a fan research lead requiring verification, not a confirmed
     setting attribution; distinct from Stronghold Crusader.
+- id: game:dungeon-crawler-carl-rpg
+  kind: game
+  label: Dungeon Crawler Carl Roleplaying Game
+  aliases:
+  - CarlRPG
+  - DCC RPG
+  parent_ids:
+  - setting:dungeon-crawler-carl
 - id: game:fantasy-empires
   kind: game
   label: Fantasy Empires
@@ -1371,6 +1379,60 @@ entities:
   - Thyatis and Alphatia
   parent_ids: []
   note: ''
+- id: publication:dcc-book-1
+  kind: publication
+  label: Dungeon Crawler Carl (DCC Book 1)
+  aliases: []
+  parent_ids:
+  - setting:dungeon-crawler-carl
+- id: publication:dcc-book-2
+  kind: publication
+  label: Carl’s Doomsday Scenario (DCC Book 2)
+  aliases: []
+  parent_ids:
+  - setting:dungeon-crawler-carl
+- id: publication:dcc-book-3
+  kind: publication
+  label: The Dungeon Anarchist’s Cookbook (DCC Book 3)
+  aliases: []
+  parent_ids:
+  - setting:dungeon-crawler-carl
+- id: publication:dcc-book-4
+  kind: publication
+  label: The Gate of the Feral Gods (DCC Book 4)
+  aliases: []
+  parent_ids:
+  - setting:dungeon-crawler-carl
+- id: publication:dcc-book-5
+  kind: publication
+  label: The Butcher’s Masquerade (DCC Book 5)
+  aliases: []
+  parent_ids:
+  - setting:dungeon-crawler-carl
+- id: publication:dcc-book-6
+  kind: publication
+  label: The Eye of the Bedlam Bride (DCC Book 6)
+  aliases: []
+  parent_ids:
+  - setting:dungeon-crawler-carl
+- id: publication:dcc-book-7
+  kind: publication
+  label: This Inevitable Ruin (DCC Book 7)
+  aliases: []
+  parent_ids:
+  - setting:dungeon-crawler-carl
+- id: publication:dcc-book-8
+  kind: publication
+  label: A Parade of Horribles (DCC Book 8)
+  aliases: []
+  parent_ids:
+  - setting:dungeon-crawler-carl
+- id: publication:dcc-webtoon
+  kind: publication
+  label: Dungeon Crawler Carl WEBTOON
+  aliases: []
+  parent_ids:
+  - setting:dungeon-crawler-carl
 - id: publication:dmg-1e
   kind: publication
   label: Dungeon Masters Guide (AD&D 1e)
@@ -2117,6 +2179,14 @@ entities:
   aliases: []
   parent_ids:
   - region:known-world
+- id: setting:dungeon-crawler-carl
+  kind: setting
+  label: Dungeon Crawler Carl
+  aliases:
+  - DCC
+  - Dungeon Crawler World
+  - World Dungeon
+  parent_ids: []
 - id: setting:forgotten-realms
   kind: setting
   label: Forgotten Realms
@@ -2181,6 +2251,12 @@ entities:
   parent_ids: []
   note: Source-specific research facet; no original-book completeness or implemented
     game effects asserted.
+- id: topic:dcc-licensed-media
+  kind: topic
+  label: Dungeon Crawler Carl licensed media
+  aliases: []
+  parent_ids:
+  - setting:dungeon-crawler-carl
 - id: topic:mystara-frontiers
   kind: topic
   label: Mystara expedition and regional equipment

@@ -14,6 +14,14 @@ def build_research_packs(items,icons,root):
                         content_status='original-conversion-draft',tabletop_status='draft-dm-review-required',image={**icons[row['icon']],'specific_art':None})
             item['tags']=sorted(set(row.get('tags',[]))|{'theme:'+pack.get('theme','ninja'),'source:'+pack['id'],'conversion:'+row['mode'],'magic' if magic else 'mundane'})
             item['provenance']={'provider':'Project original adaptation','evidence':evidence,'original_publication_verified':False,'locator':row.get('locator'),'base_rules_id':base['id'] if base else None}
+            if row.get('verified_fields'):
+                item['provenance'].update(
+                    original_publication_verified=True,
+                    verified_fields=row['verified_fields'],
+                    verification_scope=row['verification_scope'],
+                )
+            if row.get('source_url'):
+                item['provenance']['source_url']=row['source_url']
             if row.get('source_note'):item['provenance']['adaptation_note']=row['source_note']
             if base:item['provenance']['base_rules_provenance']=base['provenance']
             item['description']=row['details'];item['mechanics']['original_adaptation_rules']=row['details'];item['mechanics']['automated_effects']=[]

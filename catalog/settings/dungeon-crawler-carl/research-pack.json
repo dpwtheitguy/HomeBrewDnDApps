@@ -1,0 +1,2797 @@
+{
+  "schema_version": 1,
+  "id": "dungeon-crawler-carl-drafts",
+  "label": "Dungeon Crawler Carl equipment (D&D 2024 drafts)",
+  "theme": "dungeon-crawler-carl",
+  "topic_entity_id": "setting:dungeon-crawler-carl",
+  "coverage": "59 original, reviewable 2024 adaptations from all eight official novel excerpts, the public CarlRPG pregens, a licensed item listing, WEBTOON series art, and separately attributed third-party item references. Public sample coverage only.",
+  "sources": [
+    {
+      "id": "series",
+      "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+      "label": "Dungeon Crawler Carl series",
+      "kind": "publisher-bibliography",
+      "author": "Penguin Books"
+    },
+    {
+      "id": "b1",
+      "url": "https://cdn.penguin.co.uk/dam-assets/books/9780241816264/9780241816264-sample.pdf",
+      "label": "Dungeon Crawler Carl",
+      "kind": "publisher-novel-excerpt",
+      "author": "Matt Dinniman"
+    },
+    {
+      "id": "b2",
+      "url": "https://cdn.penguin.co.uk/dam-assets/books/9780241816219/9780241816219-sample.pdf",
+      "label": "Carl’s Doomsday Scenario",
+      "kind": "publisher-novel-excerpt",
+      "author": "Matt Dinniman"
+    },
+    {
+      "id": "b3",
+      "url": "https://cdn.penguin.co.uk/dam-assets/books/9780241816240/9780241816240-sample.pdf",
+      "label": "The Dungeon Anarchist’s Cookbook",
+      "kind": "publisher-novel-excerpt",
+      "author": "Matt Dinniman"
+    },
+    {
+      "id": "b4",
+      "url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829912/9780241829912-sample.pdf",
+      "label": "The Gate of the Feral Gods",
+      "kind": "publisher-novel-excerpt",
+      "author": "Matt Dinniman"
+    },
+    {
+      "id": "b5",
+      "url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829820/9780241829820-sample.pdf",
+      "label": "The Butcher’s Masquerade",
+      "kind": "publisher-novel-excerpt",
+      "author": "Matt Dinniman"
+    },
+    {
+      "id": "b6",
+      "url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829899/9780241829899-sample.pdf",
+      "label": "The Eye of the Bedlam Bride",
+      "kind": "publisher-novel-excerpt",
+      "author": "Matt Dinniman"
+    },
+    {
+      "id": "b7",
+      "url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829936/9780241829936-sample.pdf",
+      "label": "This Inevitable Ruin",
+      "kind": "publisher-novel-excerpt",
+      "author": "Matt Dinniman"
+    },
+    {
+      "id": "b8",
+      "url": "https://cdn.penguin.co.uk/dam-assets/books/9780241836880/9780241836880-sample.pdf",
+      "label": "A Parade of Horribles",
+      "kind": "publisher-novel-excerpt",
+      "author": "Matt Dinniman"
+    },
+    {
+      "id": "rpg",
+      "url": "https://store-kftzvkkgjv.mybigcommerce.com/content/File%20Storage%20for%20site/Dungeon%20Crawler%20Carl/RPG/Carl_Donut_Floor1_Pre_Gen_Sample.pdf",
+      "label": "Dungeon Crawler Carl RPG: Carl and Donut Floor 1 sample",
+      "kind": "publisher-rpg-pregen",
+      "author": "Renegade Game Studios"
+    },
+    {
+      "id": "figure",
+      "url": "https://www.borantcorp.com/product/princess-donut-and-carl/",
+      "label": "Licensed Carl and Princess Donut accessory listing",
+      "kind": "licensed-product-item-list",
+      "author": "Borant Corp"
+    },
+    {
+      "id": "webtoon",
+      "url": "https://www.webtoons.com/en/fantasy/dungeon-crawler-carl/list?title_no=8177",
+      "label": "Dungeon Crawler Carl on WEBTOON",
+      "kind": "publisher-webcomic-index",
+      "author": "Matt Dinniman and Tevagah"
+    },
+    {
+      "id": "secondary",
+      "url": "https://manatoastmedia.com/dungeon-crawler-carl-items-and-inventories/",
+      "label": "Mana Toast Media DCC items and inventories",
+      "kind": "third-party-item-index",
+      "author": "Mana Toast Media"
+    }
+  ],
+  "entities": [
+    {
+      "id": "setting:dungeon-crawler-carl",
+      "kind": "setting",
+      "label": "Dungeon Crawler Carl",
+      "aliases": [
+        "DCC",
+        "Dungeon Crawler World",
+        "World Dungeon"
+      ],
+      "parent_ids": []
+    },
+    {
+      "id": "publication:dcc-book-1",
+      "kind": "publication",
+      "label": "Dungeon Crawler Carl (DCC Book 1)",
+      "aliases": [],
+      "parent_ids": [
+        "setting:dungeon-crawler-carl"
+      ]
+    },
+    {
+      "id": "publication:dcc-book-2",
+      "kind": "publication",
+      "label": "Carl’s Doomsday Scenario (DCC Book 2)",
+      "aliases": [],
+      "parent_ids": [
+        "setting:dungeon-crawler-carl"
+      ]
+    },
+    {
+      "id": "publication:dcc-book-3",
+      "kind": "publication",
+      "label": "The Dungeon Anarchist’s Cookbook (DCC Book 3)",
+      "aliases": [],
+      "parent_ids": [
+        "setting:dungeon-crawler-carl"
+      ]
+    },
+    {
+      "id": "publication:dcc-book-4",
+      "kind": "publication",
+      "label": "The Gate of the Feral Gods (DCC Book 4)",
+      "aliases": [],
+      "parent_ids": [
+        "setting:dungeon-crawler-carl"
+      ]
+    },
+    {
+      "id": "publication:dcc-book-5",
+      "kind": "publication",
+      "label": "The Butcher’s Masquerade (DCC Book 5)",
+      "aliases": [],
+      "parent_ids": [
+        "setting:dungeon-crawler-carl"
+      ]
+    },
+    {
+      "id": "publication:dcc-book-6",
+      "kind": "publication",
+      "label": "The Eye of the Bedlam Bride (DCC Book 6)",
+      "aliases": [],
+      "parent_ids": [
+        "setting:dungeon-crawler-carl"
+      ]
+    },
+    {
+      "id": "publication:dcc-book-7",
+      "kind": "publication",
+      "label": "This Inevitable Ruin (DCC Book 7)",
+      "aliases": [],
+      "parent_ids": [
+        "setting:dungeon-crawler-carl"
+      ]
+    },
+    {
+      "id": "publication:dcc-book-8",
+      "kind": "publication",
+      "label": "A Parade of Horribles (DCC Book 8)",
+      "aliases": [],
+      "parent_ids": [
+        "setting:dungeon-crawler-carl"
+      ]
+    },
+    {
+      "id": "game:dungeon-crawler-carl-rpg",
+      "kind": "game",
+      "label": "Dungeon Crawler Carl Roleplaying Game",
+      "aliases": [
+        "CarlRPG",
+        "DCC RPG"
+      ],
+      "parent_ids": [
+        "setting:dungeon-crawler-carl"
+      ]
+    },
+    {
+      "id": "publication:dcc-webtoon",
+      "kind": "publication",
+      "label": "Dungeon Crawler Carl WEBTOON",
+      "aliases": [],
+      "parent_ids": [
+        "setting:dungeon-crawler-carl"
+      ]
+    },
+    {
+      "id": "topic:dcc-licensed-media",
+      "kind": "topic",
+      "label": "Dungeon Crawler Carl licensed media",
+      "aliases": [],
+      "parent_ids": [
+        "setting:dungeon-crawler-carl"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "dungeon-crawler-carl-drafts:carls-leather-jacket",
+      "name": "Carl’s Leather Jacket",
+      "type": "armor",
+      "icon": "light-armor",
+      "entity_id": "game:dungeon-crawler-carl-rpg",
+      "evidence_ref": "rpg",
+      "locator": "Carl Floor 1, PDF p. 2, Gear Slots: Torso",
+      "source_url": "https://store-kftzvkkgjv.mybigcommerce.com/content/File%20Storage%20for%20site/Dungeon%20Crawler%20Carl/RPG/Carl_Donut_Floor1_Pre_Gen_Sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "estimated_value_gp": 10,
+      "tldr": "Light armor made from a heavy jacket.",
+      "details": "Light armor. AC 11 + Dexterity modifier, with no Dexterity cap, Strength minimum, or Stealth disadvantage. Requires Light Armor training. Weight 10 lb. Don or doff in 1 minute.",
+      "flavor": null,
+      "creative": "Use the jacket as part of a mundane crawler disguise.",
+      "changes": "Uses the D&D 2024 Leather Armor profile in place of CarlRPG Damage Resistance 1.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-book-1",
+          "role": "found-in",
+          "status": "source-attested",
+          "evidence": {
+            "url": "https://cdn.penguin.co.uk/dam-assets/books/9780241816264/9780241816264-sample.pdf",
+            "kind": "publisher-novel-excerpt",
+            "label": "Dungeon Crawler Carl",
+            "locator": "Printed pp. 1, 4"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored.",
+      "base_item_id": "open5e-srd-2024:srd-2024_leather-armor"
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:carls-boxer-shorts",
+      "name": "Carl’s Boxer Shorts",
+      "type": "clothing",
+      "icon": "clothing",
+      "entity_id": "game:dungeon-crawler-carl-rpg",
+      "evidence_ref": "rpg",
+      "locator": "Carl Floor 1, PDF p. 2, Gear Slots: Legs",
+      "source_url": "https://store-kftzvkkgjv.mybigcommerce.com/content/File%20Storage%20for%20site/Dungeon%20Crawler%20Carl/RPG/Carl_Donut_Floor1_Pre_Gen_Sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "estimated_value_gp": 1,
+      "tldr": "Ordinary starting clothes.",
+      "details": "Mundane clothing. Weight 1 lb. Grants no Armor Class, armor training benefit, or magic. Fits one creature of the wearer’s size.",
+      "flavor": null,
+      "creative": "Use the conspicuous pattern as a signal when allies are separated.",
+      "changes": "Keeps the starting shorts separate from the later enchanted BigBoi item.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-book-1",
+          "role": "found-in",
+          "status": "source-attested",
+          "evidence": {
+            "url": "https://cdn.penguin.co.uk/dam-assets/books/9780241816264/9780241816264-sample.pdf",
+            "kind": "publisher-novel-excerpt",
+            "label": "Dungeon Crawler Carl",
+            "locator": "Printed pp. 1, 4"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-webtoon",
+          "role": "found-in",
+          "status": "source-attested",
+          "evidence": {
+            "url": "https://www.webtoons.com/en/fantasy/dungeon-crawler-carl/list?title_no=8177",
+            "kind": "publisher-webcomic-index",
+            "label": "Dungeon Crawler Carl on WEBTOON",
+            "locator": "Publisher series art"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:beatrices-pink-crocs",
+      "name": "Beatrice’s Pink Crocs",
+      "type": "clothing",
+      "icon": "boots",
+      "entity_id": "game:dungeon-crawler-carl-rpg",
+      "evidence_ref": "rpg",
+      "locator": "Carl Floor 1, PDF p. 2, Gear Slots: Feet",
+      "source_url": "https://store-kftzvkkgjv.mybigcommerce.com/content/File%20Storage%20for%20site/Dungeon%20Crawler%20Carl/RPG/Carl_Donut_Floor1_Pre_Gen_Sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "estimated_value_gp": 2,
+      "tldr": "Borrowed pink sandals.",
+      "details": "Mundane footwear, 1 lb per pair. They provide ordinary foot covering and grant no bonus to AC, Speed, checks, or saving throws.",
+      "flavor": null,
+      "creative": "Leave the bright shoes in plain sight as a false trail.",
+      "changes": "Treats the borrowed shoes as mundane gear and gives the pair a project appraisal.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-book-1",
+          "role": "found-in",
+          "status": "source-attested",
+          "evidence": {
+            "url": "https://cdn.penguin.co.uk/dam-assets/books/9780241816264/9780241816264-sample.pdf",
+            "kind": "publisher-novel-excerpt",
+            "label": "Dungeon Crawler Carl",
+            "locator": "Printed pp. 1, 10, 18"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:donuts-cat-collar",
+      "name": "Princess Donut’s Cat Collar",
+      "type": "gear",
+      "icon": "amulet",
+      "entity_id": "game:dungeon-crawler-carl-rpg",
+      "evidence_ref": "rpg",
+      "locator": "Princess Donut Floor 1, PDF p. 4, Gear Slots: Accessories",
+      "source_url": "https://store-kftzvkkgjv.mybigcommerce.com/content/File%20Storage%20for%20site/Dungeon%20Crawler%20Carl/RPG/Carl_Donut_Floor1_Pre_Gen_Sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "estimated_value_gp": 1,
+      "tldr": "Plain collar for a Tiny quadruped.",
+      "details": "Mundane collar that fits a Tiny quadruped. It weighs less than 1 lb and has no armor or magic properties. An attached identification tag can be read within reach.",
+      "flavor": null,
+      "creative": "Use a tag that tells an animal handler whom to contact.",
+      "changes": "Models the equipped accessory as animal tack with no combat bonus.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:crawler-healing-potion",
+      "name": "Crawler Healing Potion",
+      "type": "potion",
+      "icon": "potion",
+      "entity_id": "game:dungeon-crawler-carl-rpg",
+      "evidence_ref": "rpg",
+      "locator": "Carl and Princess Donut Floor 1, PDF pp. 2, 4, Hotlist",
+      "source_url": "https://store-kftzvkkgjv.mybigcommerce.com/content/File%20Storage%20for%20site/Dungeon%20Crawler%20Carl/RPG/Carl_Donut_Floor1_Pre_Gen_Sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "common",
+      "attunement": false,
+      "estimated_value_gp": 50,
+      "tldr": "Restores 2d4 + 2 Hit Points.",
+      "details": "As a Bonus Action, drink this potion or administer it to one creature within 5 feet. The drinker regains 2d4 + 2 Hit Points. The potion is consumed.",
+      "flavor": null,
+      "creative": "Pass the potion to the party member most likely to reach an isolated ally.",
+      "changes": "Uses the 2024 Potion of Healing benchmark in place of CarlRPG Health Bar slots.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:crawler-mana-potion",
+      "name": "Crawler Mana Potion",
+      "type": "potion",
+      "icon": "potion",
+      "entity_id": "game:dungeon-crawler-carl-rpg",
+      "evidence_ref": "rpg",
+      "locator": "Princess Donut Floor 1, PDF p. 4, Hotlist",
+      "source_url": "https://store-kftzvkkgjv.mybigcommerce.com/content/File%20Storage%20for%20site/Dungeon%20Crawler%20Carl/RPG/Carl_Donut_Floor1_Pre_Gen_Sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "rare",
+      "attunement": false,
+      "estimated_value_gp": 900,
+      "tldr": "Restores one expended spell slot of level 2 or lower.",
+      "details": "As a Bonus Action, drink the potion and choose one of your expended level 1 or 2 spell slots. You regain that slot. A creature can regain a slot from this potion once per Long Rest. The potion is consumed.",
+      "flavor": null,
+      "creative": "Save a slot for a utility spell that solves an obstacle without a fight.",
+      "changes": "Replaces full CarlRPG mana recovery with one low-level spell slot and a per-creature limit.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:goblin-murder-dozer",
+      "name": "Goblin Murder Dozer",
+      "type": "land-vehicle",
+      "icon": "land-vehicle",
+      "entity_id": "publication:dcc-book-1",
+      "evidence_ref": "b1",
+      "locator": "Printed pp. 19, 30–31; PDF pp. 32, 43–44",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241816264/9780241816264-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "estimated_value_gp": 1500,
+      "tldr": "Small crewed dungeon vehicle with a charge and volatile ward.",
+      "details": "Large land vehicle, AC 15, 45 HP, Speed 40 feet, one crew, one passenger. The driver takes the Utilize action to move it up to its Speed. Once during that movement, after traveling 15 feet straight, one creature in its path makes a DC 14 Dexterity save. It takes 3d8 Bludgeoning damage and falls Prone on a failure or takes half damage and stays standing on a success. At 0 HP the vehicle stops. At the end of the next round its dungeon ward ruptures; creatures within 10 feet make a DC 14 Dexterity save, taking 3d6 Force damage on a failure or half on a success. Total Cover blocks the burst.",
+      "flavor": null,
+      "creative": "Use the intact shell as cover while moving through a wide corridor.",
+      "changes": "Bounds an encounter vehicle as a crewed object and converts the original magical blast into a delayed Force area.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:enchanted-bigboi-boxers",
+      "name": "Enchanted BigBoi Boxers",
+      "type": "clothing",
+      "icon": "clothing",
+      "entity_id": "publication:dcc-book-1",
+      "evidence_ref": "secondary",
+      "locator": "Book 1, dedicated BigBoi Boxers entry",
+      "source_url": "https://manatoastmedia.com/dcc-bigboi-boxers/",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "rare",
+      "attunement": true,
+      "estimated_value_gp": 1750,
+      "tldr": "Wearable cloth with a limited defensive shell.",
+      "details": "These clothes grant no Armor Class formula. While wearing them without armor, when you take damage you can use a Reaction to reduce that damage by 2d8 + your Proficiency Bonus. You can use this reaction twice and regain both uses when you finish a Long Rest.",
+      "flavor": null,
+      "creative": "Use the shell to cross a hazardous doorway and secure a route for allies.",
+      "changes": "Converts the reported Protective Shell into limited damage reduction. The mundane boxer shorts remain a separate item.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:secondary-item-index"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-book-1",
+          "role": "found-in",
+          "status": "third-party-reported",
+          "evidence": {
+            "url": "https://manatoastmedia.com/dcc-bigboi-boxers/",
+            "kind": "third-party-item-entry",
+            "locator": "Book 1, dedicated BigBoi Boxers entry"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:grull-war-gauntlet",
+      "name": "Enchanted War Gauntlet of the Exalted Grull",
+      "type": "weapon",
+      "icon": "gloves",
+      "entity_id": "publication:dcc-book-1",
+      "evidence_ref": "secondary",
+      "locator": "Book 1, dedicated Grull gauntlet entry",
+      "source_url": "https://manatoastmedia.com/dcc-grull-gauntlet/",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "rare",
+      "attunement": true,
+      "estimated_value_gp": 2500,
+      "tldr": "An enchanted striking fist with a knockback charge.",
+      "details": "Simple melee weapon, one hand, 5-foot reach, 1d6 + Strength modifier Bludgeoning damage, 4 lb. Add Strength modifier and your Proficiency Bonus if proficient to the attack roll. Mastery: Sap. You gain +1 to attack and damage rolls with it. Once per turn when you hit a Large or smaller creature, you can expend 1 charge to force a DC 14 Strength save. On a failure you push it up to 10 feet straight away. It has 3 charges and regains all charges at dawn. The hand must be empty when you attack.",
+      "flavor": null,
+      "creative": "Push a movable obstruction toward a waiting ally instead of away from the group.",
+      "changes": "Treats the formed gauntlet as a mace-profile weapon so its power works across classes. Converts amplified Pugilism into a limited shove.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:secondary-item-index"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-book-1",
+          "role": "found-in",
+          "status": "third-party-reported",
+          "evidence": {
+            "url": "https://manatoastmedia.com/dcc-grull-gauntlet/",
+            "kind": "third-party-item-entry",
+            "locator": "Book 1, dedicated Grull gauntlet entry"
+          }
+        },
+        {
+          "entity_id": "topic:dcc-licensed-media",
+          "role": "found-in",
+          "status": "source-attested",
+          "evidence": {
+            "url": "https://www.borantcorp.com/product/princess-donut-and-carl/",
+            "kind": "licensed-product-item-list",
+            "label": "Licensed Carl and Princess Donut accessory listing",
+            "locator": "Licensed accessory listing, which spells Exalted as Exhalted"
+          }
+        }
+      ],
+      "base_item_id": "open5e-srd-2024:srd-2024_mace"
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:bloodlust-shuriken",
+      "name": "Enchanted Shuriken of Bloodlust",
+      "type": "weapon",
+      "icon": "dagger",
+      "entity_id": "publication:dcc-book-1",
+      "evidence_ref": "secondary",
+      "locator": "Book 1, dedicated Bloodlust Shuriken entry",
+      "source_url": "https://manatoastmedia.com/dcc-bloodlust-shuriken/",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "uncommon",
+      "attunement": false,
+      "estimated_value_gp": 140,
+      "tldr": "Thrown star that deals extra damage to a wounded target.",
+      "details": "Simple melee weapon with Finesse, Light, and Thrown (20/60 feet), Nick mastery, and 5-foot reach. A hit deals 1d4 + the chosen Strength or Dexterity modifier Piercing damage. Add that modifier and Proficiency Bonus if proficient to the attack roll. When it hits a Bloodied creature after being thrown, add 1d4 Necrotic damage. After any thrown attack, this star becomes nonmagical. A star weighs 1 lb and the listed price buys one star.",
+      "flavor": null,
+      "creative": "Keep one star in reserve for a foe that escapes behind the front line.",
+      "changes": "Uses a dagger’s D&D profile and makes the source’s expendable volley a one-throw enchantment.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:secondary-item-index"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-book-1",
+          "role": "found-in",
+          "status": "third-party-reported",
+          "evidence": {
+            "url": "https://manatoastmedia.com/dcc-bloodlust-shuriken/",
+            "kind": "third-party-item-entry",
+            "locator": "Book 1, dedicated Bloodlust Shuriken entry"
+          }
+        }
+      ],
+      "base_item_id": "open5e-srd-2024:srd-2024_dagger"
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:toad-cudgel",
+      "name": "Toad Cudgel",
+      "type": "weapon",
+      "icon": "hammer",
+      "entity_id": "publication:dcc-book-1",
+      "evidence_ref": "secondary",
+      "locator": "Book 1, dedicated Toad Cudgel entry",
+      "source_url": "https://manatoastmedia.com/dcc-toad-cudgel/",
+      "mode": "original-2024-conversion",
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "estimated_value_gp": 2,
+      "tldr": "A heavy cudgel used with both hands.",
+      "details": "Simple melee weapon, 5-foot reach, Two-Handed, Push mastery, 10 lb. A hit deals 1d8 + Strength modifier Bludgeoning damage. Add your Strength modifier and Proficiency Bonus if proficient to the attack roll.",
+      "flavor": null,
+      "creative": "Use the broad end to press a large floor switch from the edge.",
+      "changes": "Uses the 2024 Greatclub rules as the cudgel’s combat profile.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:secondary-item-index"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-book-1",
+          "role": "found-in",
+          "status": "third-party-reported",
+          "evidence": {
+            "url": "https://manatoastmedia.com/dcc-toad-cudgel/",
+            "kind": "third-party-item-entry",
+            "locator": "Book 1, dedicated Toad Cudgel entry"
+          }
+        }
+      ],
+      "base_item_id": "open5e-srd-2024:srd-2024_greatclub"
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:trollskin-shirt",
+      "name": "Enchanted Trollskin Shirt of Pummeling",
+      "type": "armor",
+      "icon": "medium-armor",
+      "entity_id": "publication:dcc-book-1",
+      "evidence_ref": "secondary",
+      "locator": "Book 1, dedicated Trollskin Shirt entry",
+      "source_url": "https://manatoastmedia.com/dcc-trollskin-shirt/",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "rare",
+      "attunement": true,
+      "estimated_value_gp": 2300,
+      "tldr": "Hide armor with brief recovery and a bruiser’s opening.",
+      "details": "Medium armor. AC 12 + Dexterity modifier (maximum +2), no Strength minimum or Stealth disadvantage, 12 lb. Requires Medium Armor training. Don in 5 minutes, doff in 1 minute. While wearing it, once per Long Rest use a Bonus Action to regain 2d6 + your Proficiency Bonus Hit Points. Once each turn on a hit with a damaging Unarmed Strike, you may reroll one damage die from that strike and must use the new roll.",
+      "flavor": null,
+      "creative": "Keep the recovery in reserve before entering a cramped room where retreat is hard.",
+      "changes": "Uses 2024 Hide Armor and replaces troll regeneration and Pugilism ranks with bounded benefits.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:secondary-item-index"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-book-1",
+          "role": "found-in",
+          "status": "third-party-reported",
+          "evidence": {
+            "url": "https://manatoastmedia.com/dcc-trollskin-shirt/",
+            "kind": "third-party-item-entry",
+            "locator": "Book 1, dedicated Trollskin Shirt entry"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-book-2",
+          "role": "found-in",
+          "status": "source-attested",
+          "evidence": {
+            "url": "https://cdn.penguin.co.uk/dam-assets/books/9780241816219/9780241816219-sample.pdf",
+            "kind": "publisher-novel-excerpt",
+            "label": "Carl’s Doomsday Scenario",
+            "locator": "Printed p. 17, Trollskin regeneration reference"
+          }
+        }
+      ],
+      "base_item_id": "open5e-srd-2024:srd-2024_hide-armor"
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:nightgaunt-cloak",
+      "name": "Enchanted Nightgaunt Cloak of Stoutness",
+      "type": "cloak",
+      "icon": "cloak",
+      "entity_id": "publication:dcc-book-1",
+      "evidence_ref": "secondary",
+      "locator": "Book 1, dedicated Nightgaunt Cloak entry",
+      "source_url": "https://manatoastmedia.com/dcc-nightgaunt-cloak/",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "rare",
+      "attunement": true,
+      "estimated_value_gp": 1700,
+      "tldr": "A cloak that protects its wearer from poison.",
+      "details": "While wearing this cloak, you have Resistance to Poison damage and Advantage on saving throws you make to avoid or end the Poisoned condition. Once per Long Rest, you can use a Bonus Action to end the Poisoned condition on yourself. Weight 2 lb.",
+      "flavor": null,
+      "creative": "Take point while scouting a passage filled with poisonous fumes.",
+      "changes": "Converts the reported poison protection into Resistance and a limited cleanse.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:secondary-item-index"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-book-1",
+          "role": "found-in",
+          "status": "third-party-reported",
+          "evidence": {
+            "url": "https://manatoastmedia.com/dcc-nightgaunt-cloak/",
+            "kind": "third-party-item-entry",
+            "locator": "Book 1, dedicated Nightgaunt Cloak entry"
+          }
+        },
+        {
+          "entity_id": "topic:dcc-licensed-media",
+          "role": "found-in",
+          "status": "source-attested",
+          "evidence": {
+            "url": "https://www.borantcorp.com/product/princess-donut-and-carl/",
+            "kind": "licensed-product-item-list",
+            "label": "Licensed Carl and Princess Donut accessory listing",
+            "locator": "Licensed accessory listing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:splatter-skunk-toe-ring",
+      "name": "Enchanted Toe Ring of the Splatter Skunk",
+      "type": "ring",
+      "icon": "ring",
+      "entity_id": "publication:dcc-book-1",
+      "evidence_ref": "secondary",
+      "locator": "Book 1, dedicated Splatter Skunk toe ring entry",
+      "source_url": "https://manatoastmedia.com/dcc-splatter-skunk-toe-ring/",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "uncommon",
+      "attunement": true,
+      "estimated_value_gp": 275,
+      "tldr": "A toe ring that adds force to an unarmed strike.",
+      "details": "While wearing the ring, after you hit a creature with a damaging Unarmed Strike, you can deal an extra 1d6 Bludgeoning damage. You can do this a number of times equal to your Proficiency Bonus and regain all uses when you finish a Long Rest.",
+      "flavor": null,
+      "creative": "Save a use for a round when an ally needs you to break an enemy’s Concentration.",
+      "changes": "Converts the reported Strength and Powerful Strike bonuses into a limited damage rider.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:secondary-item-index"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-book-1",
+          "role": "found-in",
+          "status": "third-party-reported",
+          "evidence": {
+            "url": "https://manatoastmedia.com/dcc-splatter-skunk-toe-ring/",
+            "kind": "third-party-item-entry",
+            "locator": "Book 1, dedicated Splatter Skunk toe ring entry"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:shade-gnoll-kneepads",
+      "name": "Enchanted Spiked Kneepads of the Shade Gnoll Riot Forces",
+      "type": "clothing",
+      "icon": "clothing",
+      "entity_id": "publication:dcc-book-1",
+      "evidence_ref": "secondary",
+      "locator": "Book 1, dedicated Shade Gnoll Kneepads entry",
+      "source_url": "https://manatoastmedia.com/dcc-shade-gnoll-kneepads/",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "uncommon",
+      "attunement": true,
+      "estimated_value_gp": 300,
+      "tldr": "Spiked pads that help the wearer brace in a struggle.",
+      "details": "While wearing the pair, you have Advantage on a check or saving throw you make to avoid being moved or knocked Prone. Once per Short or Long Rest when you hit a creature within 5 feet with a damaging Unarmed Strike, you can change that strike’s damage to Piercing and add 1d4 to it. Weight 2 lb per pair.",
+      "flavor": null,
+      "creative": "Brace at a doorway when enemies are trying to shove the party out.",
+      "changes": "Gives the pads an original grappling and bracing role without creating an armor slot.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:secondary-item-index"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-book-1",
+          "role": "found-in",
+          "status": "third-party-reported",
+          "evidence": {
+            "url": "https://manatoastmedia.com/dcc-shade-gnoll-kneepads/",
+            "kind": "third-party-item-entry",
+            "locator": "Book 1, dedicated Shade Gnoll Kneepads entry"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:sepsis-crown",
+      "name": "Enchanted Crown of the Sepsis Whore",
+      "type": "helmet",
+      "icon": "helmet",
+      "entity_id": "publication:dcc-book-1",
+      "evidence_ref": "secondary",
+      "locator": "Book 1, dedicated Enchanted Crown entry",
+      "source_url": "https://manatoastmedia.com/enchanted-crown-of-the-sepsis-whore/",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "very-rare",
+      "attunement": true,
+      "estimated_value_gp": 12500,
+      "tldr": "A royal crown with an infectious strike and a succession curse.",
+      "details": "While wearing the crown, you have Advantage on Charisma (Persuasion) checks to make a first impression. Once per turn on a hit with an attack roll, expend a charge to force a DC 16 Constitution save. Failure: 2d6 Poison damage and the target is Poisoned until the end of its next turn. Success: half damage. The crown has 3 charges and regains all at dawn. Curse: on attunement you become eligible for a claim to the Blood Sultanate. You cannot voluntarily end attunement. Remove Curse breaks attunement and releases you from the magical claim.",
+      "flavor": null,
+      "creative": "Have an ally negotiate with the rival heirs while you investigate the legitimacy of the claim.",
+      "changes": "Converts the reported infection chance, social skill and succession curse into limited uses and a standard curse exit.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:secondary-item-index"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-book-1",
+          "role": "found-in",
+          "status": "third-party-reported",
+          "evidence": {
+            "url": "https://manatoastmedia.com/enchanted-crown-of-the-sepsis-whore/",
+            "kind": "third-party-item-entry",
+            "locator": "Book 1, dedicated Enchanted Crown entry"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:ecclesiastic-fur-brush",
+      "name": "Enchanted Fur Brush of the Ecclesiastic",
+      "type": "gear",
+      "icon": "tools",
+      "entity_id": "publication:dcc-book-1",
+      "evidence_ref": "secondary",
+      "locator": "Book 1, dedicated Ecclesiastic Fur Brush entry",
+      "source_url": "https://manatoastmedia.com/dcc-fur-brush/",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "uncommon",
+      "attunement": false,
+      "estimated_value_gp": 290,
+      "tldr": "A grooming tool that helps a beast recover before a performance.",
+      "details": "Spend 1 minute brushing one willing Beast or furred creature within reach. For 1 hour, it has 1d6 Temporary Hit Points and Advantage on its next Charisma (Performance) check. Once used, the brush cannot be used again until dawn.",
+      "flavor": null,
+      "creative": "Brush a nervous animal before presenting it to a suspicious handler.",
+      "changes": "Creates a bounded tabletop grooming benefit; later enhanced variants need separate source review.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:secondary-item-index"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-book-1",
+          "role": "found-in",
+          "status": "third-party-reported",
+          "evidence": {
+            "url": "https://manatoastmedia.com/dcc-fur-brush/",
+            "kind": "third-party-item-entry",
+            "locator": "Book 1, dedicated Ecclesiastic Fur Brush entry"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:enhanced-pet-biscuit",
+      "name": "Enhanced Pet Biscuit",
+      "type": "consumable",
+      "icon": "food",
+      "entity_id": "publication:dcc-book-1",
+      "evidence_ref": "secondary",
+      "locator": "Book 1, dedicated Enhanced Pet Biscuit entry",
+      "source_url": "https://manatoastmedia.com/dcc-enhanced-pet-biscuit/",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "very-rare",
+      "attunement": false,
+      "estimated_value_gp": 10000,
+      "tldr": "A rare treat for a willing ordinary animal.",
+      "details": "As a Magic action, feed the biscuit to one willing Beast within 5 feet whose Intelligence is 3 or lower. It is consumed. The Beast gains Intelligence 10 and can speak one language you know. It is Charmed by you for up to 30 days; the charm ends if you or your allies harm it, and the creature decides its own conduct. This item never grants a character level, permanent obedience, or an extra turn.",
+      "flavor": null,
+      "creative": "Awaken a willing animal witness that can describe what it saw.",
+      "changes": "Uses an Awaken-style effect for the reported transformation. The character’s exceptional crawler status remains a story decision.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:secondary-item-index"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-book-1",
+          "role": "found-in",
+          "status": "third-party-reported",
+          "evidence": {
+            "url": "https://manatoastmedia.com/dcc-enhanced-pet-biscuit/",
+            "kind": "third-party-item-entry",
+            "locator": "Book 1, dedicated Enhanced Pet Biscuit entry"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:fae-scale-crupper",
+      "name": "Enchanted Fae Scale Quadruped Crupper of the Fleet",
+      "type": "gear",
+      "icon": "belt",
+      "entity_id": "publication:dcc-book-1",
+      "evidence_ref": "secondary",
+      "locator": "Book 1, dedicated Donut’s crupper entry",
+      "source_url": "https://manatoastmedia.com/dcc-crupper/",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "uncommon",
+      "attunement": true,
+      "estimated_value_gp": 400,
+      "tldr": "Quadruped tack for quick footing.",
+      "details": "A willing quadruped that can wear the crupper gains a 5-foot bonus to its Speed. Once per Short or Long Rest, when it takes the Dash action it ignores nonmagical Difficult Terrain until the end of that turn. The effect ends if the tack is removed. The crupper grants no armor bonus.",
+      "flavor": null,
+      "creative": "Equip a willing messenger animal before a crossing through shallow scree.",
+      "changes": "Replaces the reported Dexterity increase with speed and movement benefits.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:secondary-item-index"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-book-1",
+          "role": "found-in",
+          "status": "third-party-reported",
+          "evidence": {
+            "url": "https://manatoastmedia.com/dcc-crupper/",
+            "kind": "third-party-item-entry",
+            "locator": "Book 1, dedicated Donut’s crupper entry"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-book-2",
+          "role": "found-in",
+          "status": "source-attested",
+          "evidence": {
+            "url": "https://cdn.penguin.co.uk/dam-assets/books/9780241816219/9780241816219-sample.pdf",
+            "kind": "publisher-novel-excerpt",
+            "label": "Carl’s Doomsday Scenario",
+            "locator": "Printed p. 27, Donut’s equipment modifier"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:cheat-code-potion",
+      "name": "Cheat Code Potion",
+      "type": "potion",
+      "icon": "potion",
+      "entity_id": "publication:dcc-book-2",
+      "evidence_ref": "b2",
+      "locator": "Printed p. 23; PDF p. 34, Pugilism reference; Book 4 printed p. 28",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241816219/9780241816219-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "uncommon",
+      "attunement": false,
+      "estimated_value_gp": 325,
+      "tldr": "A short-lived potion that temporarily sharpens a random skill.",
+      "details": "As a Bonus Action, drink it and roll 1d6 to determine a skill: 1 Athletics, 2 Acrobatics, 3 Arcana, 4 Investigation, 5 Perception, 6 Persuasion. For 1 hour you have Advantage on checks using that skill. The potion expires 24 hours after you acquire it.",
+      "flavor": null,
+      "creative": "Drink it before a challenge that permits more than one approach.",
+      "changes": "Replaces the LitRPG skill rank change with an hour of Advantage and models the source’s short shelf life.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-book-4",
+          "role": "found-in",
+          "status": "source-attested",
+          "evidence": {
+            "url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829912/9780241829912-sample.pdf",
+            "kind": "publisher-novel-excerpt",
+            "label": "The Gate of the Feral Gods",
+            "locator": "Printed p. 28, comparison with Pawna’s Tears"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:donuts-dexterity-bracelet",
+      "name": "Princess Donut’s Dexterity Bracelet",
+      "type": "gear",
+      "icon": "amulet",
+      "entity_id": "publication:dcc-book-2",
+      "evidence_ref": "b2",
+      "locator": "Printed p. 27; PDF p. 38, Donut’s equipment modifier",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241816219/9780241816219-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "uncommon",
+      "attunement": true,
+      "estimated_value_gp": 280,
+      "tldr": "A bracelet that helps its wearer act first and move cleanly.",
+      "details": "While wearing the bracelet, you gain a +1 bonus to Initiative rolls. When you fail a Dexterity (Acrobatics) check, you can reroll it once and use the new roll. You regain the use at dawn.",
+      "flavor": null,
+      "creative": "Put it on before crossing a bridge in a high wind.",
+      "changes": "Replaces the source’s flat Dexterity score modifier with a small initiative bonus and a limited skill reroll.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:confusing-fog-scroll",
+      "name": "Confusing Fog Scroll",
+      "type": "scroll",
+      "icon": "scroll",
+      "entity_id": "publication:dcc-book-3",
+      "evidence_ref": "b3",
+      "locator": "Printed p. 27; PDF p. 40, Silver Quest Box",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241816240/9780241816240-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "uncommon",
+      "attunement": false,
+      "estimated_value_gp": 120,
+      "tldr": "Creates a short-lived cloud that obscures vision and hinders movement.",
+      "details": "As a Magic action, read this scroll to create a 15-foot-radius Sphere centered on a point you can see within 60 feet. For up to 1 minute with Concentration, the area is Heavily Obscured and counts as Difficult Terrain for creatures other than you. A strong wind disperses the cloud. The scroll is consumed; anyone who can read a language can activate it.",
+      "flavor": null,
+      "creative": "Break line of sight while wounded allies withdraw along a known path.",
+      "changes": "Uses a bounded Fog Cloud variant in place of the dungeon’s Confusing Fog effect.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:crawler-heal-scroll",
+      "name": "Crawler Heal Scroll",
+      "type": "scroll",
+      "icon": "scroll",
+      "entity_id": "publication:dcc-book-3",
+      "evidence_ref": "b3",
+      "locator": "Printed p. 27; PDF p. 40, Silver Quest Box",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241816240/9780241816240-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "uncommon",
+      "attunement": false,
+      "estimated_value_gp": 130,
+      "tldr": "Heals a creature you touch.",
+      "details": "As a Magic action, read the scroll and touch one creature. It regains 2d8 + 3 Hit Points. The scroll is consumed. Anyone who can read a language can use it. The effect uses a fixed level-1 Cure Wounds benchmark.",
+      "flavor": null,
+      "creative": "Keep it with a lookout who can reach the party’s healer if they fall.",
+      "changes": "Preserves the quick healing of another creature and names the low-level D&D benchmark to distinguish it from the level-6 spell Heal.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:haute-bourgeoisie-necklace",
+      "name": "Enchanted Necklace of the Haute Bourgeoisie",
+      "type": "amulet",
+      "icon": "amulet",
+      "entity_id": "publication:dcc-book-3",
+      "evidence_ref": "b3",
+      "locator": "Printed p. 28; PDF p. 41, Platinum Tyrant’s Box",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241816240/9780241816240-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "rare",
+      "attunement": true,
+      "estimated_value_gp": 2500,
+      "tldr": "A chartered settlement necklace that records a claim and grants a talon strike.",
+      "details": "The necklace begins with one settlement gem. It conveys no ownership without a recognized charter. While attuned, you have Advantage on Intelligence checks about the represented settlement. Once per Long Rest as a Magic action, choose one creature you can see within 30 feet. It makes a DC 15 Dexterity save, taking 3d6 Slashing damage on failure or half on success. If the campaign uses settlement revenues, the DM can authorize a stipend once every 10 days; the necklace creates no money.",
+      "flavor": null,
+      "creative": "Use the gem as a credential when negotiating safe passage in the represented settlement.",
+      "changes": "Preserves the settlement gem, ten-day tax cadence and Talon Strike while tying revenue to actual campaign governance.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:mana-genita-tiara",
+      "name": "Enchanted Tiara of Mana Genita",
+      "type": "helmet",
+      "icon": "helmet",
+      "entity_id": "publication:dcc-book-3",
+      "evidence_ref": "b3",
+      "locator": "Printed p. 32; PDF p. 45, Donut’s replacement tiara",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241816240/9780241816240-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "rare",
+      "attunement": true,
+      "estimated_value_gp": 1600,
+      "tldr": "A tiara that helps the wearer detect creatures and approach Mana Genita’s worshippers.",
+      "details": "While wearing it, you have Advantage on Intelligence (Investigation) checks to locate signs of nearby creatures. Once per Long Rest as a Magic action, learn the direction, but not identity, of each creature within 30 feet that is neither behind Total Cover nor hidden from divination. Followers of Mana Genita recognize the tiara, though their attitudes remain the DM’s decision.",
+      "flavor": null,
+      "creative": "Check a side passage before escorting guests into a shrine.",
+      "changes": "Converts the Intelligence bonus and minimap detection into investigation and a short-range magical scan.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:dungeon-anarchists-cookbook",
+      "name": "The Dungeon Anarchist’s Cookbook",
+      "type": "book",
+      "icon": "book",
+      "entity_id": "publication:dcc-book-7",
+      "evidence_ref": "b7",
+      "locator": "Printed p. 17; PDF p. 28, author of the second edition; Book 3 publisher synopsis",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829936/9780241829936-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "very-rare",
+      "attunement": true,
+      "estimated_value_gp": 10000,
+      "tldr": "A book of inherited notes for spotting dungeon-system loopholes.",
+      "details": "Spend 10 minutes consulting the book and choose one visible trap, locked barrier, or surveillance effect within 30 feet. The DM reveals one practical limitation or clue about how it works. The next ability check you make to disable, bypass, or conceal yourself from that feature within 1 hour has Advantage. The book can be used twice per dawn. It cannot reveal an effect that the DM rules has no discoverable weakness.",
+      "flavor": null,
+      "creative": "Study a surveillance ward before planning a peaceful exit from a monitored hall.",
+      "changes": "Models the inherited advice as a limited investigation resource. It contains no replicable real-world recipes.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:water-breathing-scroll",
+      "name": "Scroll of Water Breathing",
+      "type": "scroll",
+      "icon": "scroll",
+      "entity_id": "publication:dcc-book-4",
+      "evidence_ref": "b4",
+      "locator": "Printed p. 23; PDF p. 38, description of the scroll",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829912/9780241829912-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "uncommon",
+      "attunement": false,
+      "estimated_value_gp": 240,
+      "tldr": "Lets willing creatures breathe underwater for 24 hours.",
+      "details": "As a Magic action, read the scroll to cast Water Breathing. Choose up to ten willing creatures you can see within 30 feet. They can breathe underwater for 24 hours and retain their normal breathing. The scroll is consumed. Anyone who can read a language can activate it.",
+      "flavor": null,
+      "creative": "Let an entire group investigate a submerged chamber on the same outing.",
+      "changes": "Uses the 2024 Water Breathing spell with the adventure’s freely usable scroll model.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:crawler-invisibility-potion",
+      "name": "Crawler Invisibility Potion",
+      "type": "potion",
+      "icon": "potion",
+      "entity_id": "publication:dcc-book-4",
+      "evidence_ref": "b4",
+      "locator": "Printed p. 24; PDF p. 39, loot box reward",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829912/9780241829912-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "rare",
+      "attunement": false,
+      "estimated_value_gp": 750,
+      "tldr": "Makes its drinker Invisible for up to one hour.",
+      "details": "As a Bonus Action, drink the potion. You have the Invisible condition for 1 hour. The effect ends early immediately after you make an attack roll, deal damage, or cast a spell. The potion is consumed.",
+      "flavor": null,
+      "creative": "Slip past a sentry to open a gate for the rest of the group.",
+      "changes": "Uses a bounded D&D invisibility duration and explicit termination rather than the dungeon’s potion timer.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:extinction-sigil",
+      "name": "Extinction Sigil Tattoo",
+      "type": "wondrous-item",
+      "icon": "gear",
+      "entity_id": "publication:dcc-book-4",
+      "evidence_ref": "b4",
+      "locator": "Printed p. 27; PDF p. 42, Wall Monitor tattoo",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829912/9780241829912-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "rare",
+      "attunement": true,
+      "estimated_value_gp": 1900,
+      "tldr": "A tattoo that calms natural predators of a chosen creature.",
+      "details": "When this tattoo is applied, the DM and recipient identify one specific Beast as the sigil’s reference species. While attuned, the bearer has Advantage on Wisdom (Animal Handling) checks made to calm Beasts that prey on that species. Once per Long Rest as a Magic action, choose one such Beast within 30 feet. It must make a DC 15 Wisdom save. On a failure it cannot attack the bearer for 1 minute; the effect ends if the bearer harms it. The tattoo never forces an animal to obey.",
+      "flavor": null,
+      "creative": "Use it to escort livestock past a known predator without fighting it.",
+      "changes": "Maps automatic hostility to Animal Handling and a limited calming effect. The source wall monitor is one possible reference species.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:pawnas-tears",
+      "name": "Pawna’s Tears",
+      "type": "potion",
+      "icon": "potion",
+      "entity_id": "publication:dcc-book-4",
+      "evidence_ref": "b4",
+      "locator": "Printed p. 28; PDF p. 43, Legendary Deity’s Box",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829912/9780241829912-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "very-rare",
+      "attunement": false,
+      "estimated_value_gp": 9500,
+      "tldr": "A blessing that markedly improves one chosen skill for a day.",
+      "details": "As a Bonus Action, drink the potion and choose a skill. For 24 hours you gain proficiency in it. If you already have proficiency, your Proficiency Bonus is doubled for checks using that skill during the duration. The doubling does not stack with Expertise. Once during the duration, after failing a check with the chosen skill, reroll and use the new result. The potion is consumed.",
+      "flavor": null,
+      "creative": "Choose Persuasion before a day of negotiations rather than spending it on one check.",
+      "changes": "Replaces the original freely chosen permanent five-rank increase with a temporary, bounded skill blessing.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:mana-toast",
+      "name": "Mana Toast",
+      "type": "consumable",
+      "icon": "food",
+      "entity_id": "publication:dcc-book-5",
+      "evidence_ref": "b5",
+      "locator": "Printed p. 48; PDF p. 59, mana recovery without a potion",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829820/9780241829820-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "uncommon",
+      "attunement": false,
+      "estimated_value_gp": 340,
+      "tldr": "A snack that restores a small amount of spellcasting.",
+      "details": "Consume the toast during a Short Rest. At the end of the rest you regain one expended level 1 spell slot. The toast is consumed and a creature can gain this benefit once per Long Rest.",
+      "flavor": null,
+      "creative": "Use it while regrouping so your stronger consumables remain available.",
+      "changes": "Converts food-based mana recovery to a level 1 slot and uses a Short Rest to give it a different role from potions.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:carls-doomsday-scenario",
+      "name": "Carl’s Doomsday Scenario",
+      "type": "wondrous-item",
+      "icon": "container",
+      "entity_id": "publication:dcc-book-5",
+      "evidence_ref": "b5",
+      "locator": "Printed p. 38; PDF p. 49, account of the contained bomb",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829820/9780241829820-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "artifact",
+      "attunement": false,
+      "estimated_value_gp": 150000,
+      "tldr": "A sealed fictional catastrophe for a GM-controlled set piece.",
+      "details": "A creature holding the sealed vessel can use a Magic action to open it and place it in a space within reach. At the end of its next turn the vessel is destroyed and releases magical energy. Each creature within 60 feet makes a DC 20 Dexterity saving throw, taking 20d6 Force damage on a failure or half on a success. Total Cover blocks the effect. Unattended objects in the area take the full damage. The effect is single use. The GM controls when the sealed vessel enters play.",
+      "flavor": null,
+      "creative": "Make evacuating bystanders the objective of the encounter before the artifact is opened.",
+      "changes": "Converts the plot-scale weapon into a bounded artifact encounter hazard. No conventional manufacturing or activation method is inferred.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:cosmic-buff-potion",
+      "name": "Cosmic Buff Potion",
+      "type": "potion",
+      "icon": "potion",
+      "entity_id": "publication:dcc-book-6",
+      "evidence_ref": "b6",
+      "locator": "Printed pp. 34, 36; PDF pp. 53, 55, Donut’s random ability buff",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829899/9780241829899-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "rare",
+      "attunement": false,
+      "estimated_value_gp": 1600,
+      "tldr": "Boosts one random ability score for an hour.",
+      "details": "As a Bonus Action, drink it and roll 1d6: 1 Strength, 2 Dexterity, 3 Constitution, 4 Intelligence, 5 Wisdom, 6 Charisma. For 1 hour the result increases by 2, to a maximum of 22. You can benefit from only one Cosmic Buff Potion at a time. The potion is consumed.",
+      "flavor": null,
+      "creative": "Drink it before an expedition with multiple kinds of obstacles so any result can matter.",
+      "changes": "Retains the random stat and limits the size and duration to tabletop bounds.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:phase-through-walls-potion",
+      "name": "Potion of Phasing Through Walls",
+      "type": "potion",
+      "icon": "potion",
+      "entity_id": "publication:dcc-book-6",
+      "evidence_ref": "b6",
+      "locator": "Printed pp. 33, 35; PDF pp. 52, 54, phasing potions",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829899/9780241829899-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "rare",
+      "attunement": false,
+      "estimated_value_gp": 1150,
+      "tldr": "Lets you walk briefly through ordinary walls.",
+      "details": "As a Bonus Action, drink the potion. For 1 minute you can move through nonmagical wood, stone, and metal as Difficult Terrain. If you end your turn inside solid matter, you return to the last unoccupied space you occupied and take 2d10 Force damage. Magical barriers, creatures, and lead remain solid to you. The potion is consumed.",
+      "flavor": null,
+      "creative": "Scout a blocked corridor and return through the same wall before the effect expires.",
+      "changes": "Retains the described materials and adds standard tabletop movement and an ending-in-matter consequence.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:right-back-atcha-shield",
+      "name": "Enchanted Right Back Atcha Personal Shield",
+      "type": "armor",
+      "icon": "shield",
+      "entity_id": "publication:dcc-book-6",
+      "evidence_ref": "b6",
+      "locator": "Printed p. 47; PDF p. 66, bracer reward",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829899/9780241829899-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "very-rare",
+      "attunement": true,
+      "estimated_value_gp": 16000,
+      "tldr": "A shield that can catch and reflect a ranged hit.",
+      "details": "Shield, +2 AC while wielded, requires Shield training, 6 lb. Don or doff with the Utilize action. While wielding it, when a ranged weapon or ranged spell attack hits you, you may use your Reaction and expend a charge to gain +4 AC against that attack. If this makes it miss, and the attacker is within 60 feet and visible to you, it must make a DC 16 Dexterity save, taking 3d8 Force damage on a failure or half on a success. The shield has 3 charges and regains all at dawn. It offers no protection from effects requiring a saving throw.",
+      "flavor": null,
+      "creative": "Draw the fire of a ranged foe while allies move to cover.",
+      "changes": "Replaces layered percentage checks with one defensive reaction, a bounded return effect, and ordinary shield hand use.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored.",
+      "base_item_id": "open5e-srd-2024:srd-2024_shield"
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:legionnaires-damned-tome",
+      "name": "Tome of Legionnaires of the Damned",
+      "type": "book",
+      "icon": "book",
+      "entity_id": "publication:dcc-book-6",
+      "evidence_ref": "b6",
+      "locator": "Printed pp. 38–39; PDF pp. 57–58, Legionnaires of the Damned spell reward",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829899/9780241829899-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "very-rare",
+      "attunement": true,
+      "estimated_value_gp": 14000,
+      "tldr": "Temporarily animates abandoned arms or armor.",
+      "details": "Once per dawn as a Magic action, choose up to three unattended nonmagical weapons or suits of armor within 30 feet. They animate for up to 1 minute with Concentration. Each is a Small Construct with AC 15, 20 HP, Speed 25 feet, immunity to Poison and Psychic damage, and a melee attack (+7 to hit, reach 5 feet, 1d8 + 3 Force damage). As a Bonus Action, command all to move and attack; they act immediately after your turn and otherwise Dodge. When the effect ends they fall inert. The animation fails on worn or held items.",
+      "flavor": null,
+      "creative": "Animate unused equipment to guard a retreat for one minute.",
+      "changes": "Uses a bounded Animate Objects-style stat block and keeps the spell’s equipment requirement.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:enchanted-prison-tattoo-kit",
+      "name": "Enchanted Prison Tattoo Kit",
+      "type": "tools",
+      "icon": "tools",
+      "entity_id": "publication:dcc-book-6",
+      "evidence_ref": "b6",
+      "locator": "Printed p. 45; PDF p. 64, tattoo kit reward",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829899/9780241829899-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "rare",
+      "attunement": false,
+      "estimated_value_gp": 2100,
+      "tldr": "Makes a limited-duration magical marking.",
+      "details": "The kit has 3 charges. Spend 1 hour and expend a charge to mark one willing creature you can touch. Choose one skill when applying the mark. Until its next Long Rest, the creature can add 1d4 to one check with that skill, after rolling but before the outcome is declared. A creature may have only one mark from this kit at a time. The kit regains 1d3 expended charges at dawn.",
+      "flavor": null,
+      "creative": "Give a negotiator or scout a temporary mark suited to an upcoming job.",
+      "changes": "Converts the book’s bespoke tattoo capability into a constrained utility tool. It can serve as a narrative prerequisite for other tattoos at DM discretion.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:eye-of-bedlam-bride",
+      "name": "The Eye of the Bedlam Bride Tattoo",
+      "type": "wondrous-item",
+      "icon": "gear",
+      "entity_id": "publication:dcc-book-7",
+      "evidence_ref": "b7",
+      "locator": "Printed p. 29; PDF p. 40, Shi Maria tattoo",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829936/9780241829936-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "legendary",
+      "attunement": true,
+      "estimated_value_gp": 70000,
+      "tldr": "A sentient tattoo that can stagger minds and exert influence over its bearer.",
+      "details": "While attuned, the tattoo communicates telepathically with you. Once per Long Rest as a Magic action, choose one creature you can see within 60 feet. It makes a DC 18 Wisdom save, taking 6d8 Psychic damage and becoming Stunned until the end of your next turn on failure, or taking half damage without becoming Stunned on success. After using this power, you must make a DC 16 Charisma save. On failure, you are Charmed by the tattoo for 1 minute. Repeat the save at the end of each turn to end the effect. Remove Curse can break the attunement.",
+      "flavor": null,
+      "creative": "Ask the sentient mark for information while a trusted ally watches for signs of undue influence.",
+      "changes": "Converts the dangerous relationship and mind-shattering motif into an explicitly limited power and a bounded drawback.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:benevolent-champion-cloak",
+      "name": "Cloak of the Benevolent Champion",
+      "type": "cloak",
+      "icon": "cloak",
+      "entity_id": "publication:dcc-book-7",
+      "evidence_ref": "b7",
+      "locator": "Printed pp. 54–55; PDF pp. 65–66, Celestial Quest Box cloak",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829936/9780241829936-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "legendary",
+      "attunement": true,
+      "estimated_value_gp": 75000,
+      "tldr": "A champion’s cloak that protects critically injured allies.",
+      "details": "While attuned, you can sense which allies within 60 feet are Bloodied unless protected from divination. The cloak has 4 charges and regains all at dawn. As a Bonus Action, expend one charge and choose a Bloodied creature other than you within 30 feet. It regains 3d8 + your Proficiency Bonus Hit Points. When an ally within 30 feet is reduced to 0 Hit Points but not killed outright, use your Reaction and expend two charges to leave it at 1 Hit Point instead. Once per Long Rest, after failing a saving throw tied to your lowest ability score, you may reroll and use the new result.",
+      "flavor": null,
+      "creative": "Find the ally least able to endure the next round before choosing where to spend a charge.",
+      "changes": "Replaces LitRPG stat equalization and automatic rank increases with protection and a limited safety net.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:well-balanced-toe-ring",
+      "name": "Enchanted Toe Ring of the Well-Balanced",
+      "type": "ring",
+      "icon": "ring",
+      "entity_id": "publication:dcc-book-7",
+      "evidence_ref": "b7",
+      "locator": "Printed pp. 63–64; PDF pp. 74–75, Heart, Mind and Physical Balance",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829936/9780241829936-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "legendary",
+      "attunement": true,
+      "estimated_value_gp": 65000,
+      "tldr": "A ring that steadies movement, shields the mind and stores a healing dose.",
+      "details": "While attuned and wearing it on the left smallest toe, you have Advantage on saves against being Charmed or knocked Prone. After a Long Rest, you may load one Potion of Healing into the ring; this consumes it. The next time you fall to 0 Hit Points without dying before your next Long Rest, the ring restores 2d4 + 2 Hit Points and expends the stored dose. As a Bonus Action once per Short or Long Rest, you can move across air as if it were solid until the end of the current turn. If unsupported then, you fall.",
+      "flavor": null,
+      "creative": "Cross a short gap to drop a rope for companions.",
+      "changes": "Converts the automatic potion trigger, mental protection and brief air walking into separate limits.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:build-trench-scroll",
+      "name": "Build Trench Scroll",
+      "type": "scroll",
+      "icon": "scroll",
+      "entity_id": "publication:dcc-book-7",
+      "evidence_ref": "b7",
+      "locator": "Ch. 4; PDF p. 71, reward inventory",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829936/9780241829936-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "uncommon",
+      "attunement": false,
+      "estimated_value_gp": 190,
+      "tldr": "Instantly shapes a short defensive earthwork.",
+      "details": "As a Magic action, read the scroll and choose a line of loose earth within 30 feet, up to 15 feet long and 5 feet wide. The earth forms a trench up to 3 feet deep and piles along one side. A creature crouching in it has Half Cover against attacks across the mound. It cannot excavate stone or occupied spaces. The earthwork is nonmagical after forming. The scroll is consumed.",
+      "flavor": null,
+      "creative": "Divert shallow floodwater by placing the trench to one side of a doorway.",
+      "changes": "Adds 2024 geometry, cover and terrain limits to the named scroll.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:heal-pet-potion",
+      "name": "Heal Pet Potion",
+      "type": "potion",
+      "icon": "potion",
+      "entity_id": "publication:dcc-book-7",
+      "evidence_ref": "b7",
+      "locator": "Printed p. 40; PDF p. 51, Donut’s contributed potion",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829936/9780241829936-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "uncommon",
+      "attunement": false,
+      "estimated_value_gp": 180,
+      "tldr": "Restores a willing or Unconscious animal companion.",
+      "details": "As a Bonus Action, administer this potion to one willing or Unconscious Beast within 5 feet, including a Beast companion. It regains 4d4 + 4 Hit Points. The potion is consumed.",
+      "flavor": null,
+      "creative": "Keep one with a handler caring for a mount or animal companion.",
+      "changes": "Uses the Greater Healing benchmark with the source’s animal-specific purpose.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:navitron-1000",
+      "name": "Navitron 1000",
+      "type": "gear",
+      "icon": "tools",
+      "entity_id": "publication:dcc-book-8",
+      "evidence_ref": "b8",
+      "locator": "Printed pp. 39–40; PDF pp. 52–53, vehicle navigator display",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241836880/9780241836880-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "uncommon",
+      "attunement": false,
+      "estimated_value_gp": 320,
+      "tldr": "A dashboard navigator for a marked or mapped route.",
+      "details": "Mount this device in a land vehicle in 10 minutes. While an operator sits at its controls, it shows the vehicle’s route relative to one recorded map or marked racecourse. The operator has Advantage on Wisdom (Survival) checks to navigate that route. Once per Short or Long Rest, use a Utilize action to ask whether a visible branch connects to the recorded route within 1 mile; the device answers yes, no, or unmapped.",
+      "flavor": null,
+      "creative": "Use it to tell if a detour reconnects with the intended path before taking it.",
+      "changes": "Preserves vehicle navigation without creating a global map, hazard detection or tracking network.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:repair-fix-scroll",
+      "name": "Repair and Fix Scroll",
+      "type": "scroll",
+      "icon": "scroll",
+      "entity_id": "publication:dcc-book-8",
+      "evidence_ref": "b8",
+      "locator": "Printed p. 33; PDF p. 46, vehicle repair discussion",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241836880/9780241836880-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "uncommon",
+      "attunement": false,
+      "estimated_value_gp": 125,
+      "tldr": "A consumable field repair for a damaged object or vehicle.",
+      "details": "Read the scroll over 1 minute while touching one nonmagical object or vehicle. It regains 3d8 + 3 Hit Points, up to its maximum. An object reduced to 0 Hit Points can be repaired only if the DM determines it is structurally salvageable. The scroll cannot restore charges or creatures’ Hit Points and is consumed.",
+      "flavor": null,
+      "creative": "Repair a battered bridge winch before attempting to cross.",
+      "changes": "Converts the mentioned field repairs into an explicit object Hit Point effect.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:prism-industries-goggles",
+      "name": "Prism Industries’ Capacitating and Focusing Goggles",
+      "type": "gear",
+      "icon": "helmet",
+      "entity_id": "topic:dcc-licensed-media",
+      "evidence_ref": "figure",
+      "locator": "Licensed Carl and Princess Donut set, accessories listing",
+      "source_url": "https://www.borantcorp.com/product/princess-donut-and-carl/",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "rare",
+      "attunement": true,
+      "estimated_value_gp": 1900,
+      "tldr": "A spell-focusing visor that can distribute a blast.",
+      "details": "While wearing the goggles you have Advantage on saving throws against effects that cause the Blinded condition. The goggles have 3 charges and regain all at dawn. As a Magic action, expend one charge to create three force darts. Choose one or more creatures you can see within 60 feet and assign each dart to one of them. Each dart hits for 1d4 + 1 Force damage, subject to Shield as for Magic Missile.",
+      "flavor": null,
+      "creative": "Split the darts among enemies whose Concentration matters more than their remaining Hit Points.",
+      "changes": "Uses the licensed accessory listing for item identity. The fan-reported focus role is modeled through a fixed low-level Magic Missile benchmark.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-book-3",
+          "role": "found-in",
+          "status": "third-party-reported",
+          "evidence": {
+            "url": "https://dungeon-crawler-carl.wiki/book-3/characters/princess-donut/",
+            "kind": "third-party-character-inventory"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:goblin-drivers-knife",
+      "name": "Goblin Driver’s Knife",
+      "type": "weapon",
+      "icon": "dagger",
+      "entity_id": "publication:dcc-book-1",
+      "evidence_ref": "b1",
+      "locator": "Printed p. 29; PDF p. 42, Murder Dozer driver’s knife",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241816264/9780241816264-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "estimated_value_gp": 2,
+      "tldr": "A small knife carried by a Murder Dozer crew member.",
+      "details": "Simple melee weapon, 1 lb, Finesse, Light, Thrown (20/60 feet), Nick mastery, and 5-foot reach. On a hit, deal 1d4 + your chosen Strength or Dexterity modifier Piercing damage. Add the same modifier and your Proficiency Bonus if proficient to the attack roll.",
+      "flavor": null,
+      "creative": "Keep it handy for cutting a trapped ally free of a rope.",
+      "changes": "Uses the 2024 Dagger for the weapon described in the encounter. The display name is editorial.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored.",
+      "base_item_id": "open5e-srd-2024:srd-2024_dagger"
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:goblin-pineapple-club",
+      "name": "Goblin Pineapple Club",
+      "type": "weapon",
+      "icon": "hammer",
+      "entity_id": "publication:dcc-book-1",
+      "evidence_ref": "b1",
+      "locator": "Printed p. 21; PDF p. 34, goblin crew’s wooden weapons",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241816264/9780241816264-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "estimated_value_gp": 0.2,
+      "tldr": "A wooden club with a pineapple-shaped striking head.",
+      "details": "Simple melee weapon, Light, Slow mastery, 2 lb, 5-foot reach. On a hit, deal 1d4 + Strength modifier Bludgeoning damage. Add Strength modifier and Proficiency Bonus if proficient to the attack roll.",
+      "flavor": null,
+      "creative": "Carry it upside down as a prop to pass for a costumed stagehand.",
+      "changes": "Uses the 2024 Club rules for the visually described weapon. The display name is editorial.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored.",
+      "base_item_id": "open5e-srd-2024:srd-2024_club"
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:poker",
+      "name": "Poker",
+      "type": "weapon",
+      "icon": "spear",
+      "entity_id": "publication:dcc-book-1",
+      "evidence_ref": "secondary",
+      "locator": "Book 1, dedicated Poker entry",
+      "source_url": "https://manatoastmedia.com/dcc-poker/",
+      "mode": "original-2024-conversion",
+      "magic": false,
+      "rarity": null,
+      "attunement": false,
+      "estimated_value_gp": 2,
+      "tldr": "A simple steel thrusting weapon.",
+      "details": "Simple melee weapon, 5-foot reach, Thrown (20/60 feet), Versatile (1d8), Sap mastery, 3 lb. A hit deals 1d6 + Strength modifier Piercing damage, or 1d8 + Strength modifier when used in two hands for a melee attack. Add Strength modifier and Proficiency Bonus if proficient to the attack roll.",
+      "flavor": null,
+      "creative": "Use the poker to retrieve a key from the far side of a grate.",
+      "changes": "Uses the 2024 Spear mechanics as a simplified tabletop profile for the source’s improvised weapon.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:secondary-item-index"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-book-1",
+          "role": "found-in",
+          "status": "third-party-reported",
+          "evidence": {
+            "url": "https://manatoastmedia.com/dcc-poker/",
+            "kind": "third-party-item-entry",
+            "locator": "Book 1, dedicated Poker entry"
+          }
+        }
+      ],
+      "base_item_id": "open5e-srd-2024:srd-2024_spear"
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:wisp-armor-tome",
+      "name": "Tome of Wisp Armor",
+      "type": "book",
+      "icon": "book",
+      "entity_id": "publication:dcc-book-1",
+      "evidence_ref": "secondary",
+      "locator": "Book 1, dedicated Wisp Armor tome entry; Book 3 printed p. 32",
+      "source_url": "https://manatoastmedia.com/dcc-wisp-armor-tome/",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "uncommon",
+      "attunement": true,
+      "estimated_value_gp": 450,
+      "tldr": "A book that lets an unarmored bearer conjure a temporary ward.",
+      "details": "Once per dawn as a Magic action, hold the tome and cast Mage Armor on yourself. If you are wearing no armor, your base AC becomes 13 + your Dexterity modifier for 8 hours, and the effect ends early if you don armor. The tome is reusable and requires no spell slot.",
+      "flavor": null,
+      "creative": "Ward a caster before a social event that bans armor.",
+      "changes": "Uses the Mage Armor benchmark in place of the novel’s separately learned Wisp Armor spell.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:secondary-item-index"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-book-1",
+          "role": "found-in",
+          "status": "third-party-reported",
+          "evidence": {
+            "url": "https://manatoastmedia.com/dcc-wisp-armor-tome/",
+            "kind": "third-party-item-entry",
+            "locator": "Book 1, dedicated Wisp Armor tome entry; Book 3 printed p. 32"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-book-3",
+          "role": "found-in",
+          "status": "source-attested",
+          "evidence": {
+            "url": "https://cdn.penguin.co.uk/dam-assets/books/9780241816240/9780241816240-sample.pdf",
+            "kind": "publisher-novel-excerpt",
+            "label": "The Dungeon Anarchist’s Cookbook",
+            "locator": "Printed p. 32, reference to the spell the tome teaches"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:tome-of-magic-missile",
+      "name": "Tome of Magic Missile",
+      "type": "book",
+      "icon": "book",
+      "entity_id": "publication:dcc-book-1",
+      "evidence_ref": "secondary",
+      "locator": "Book 1, dedicated Magic Missile tome entry",
+      "source_url": "https://manatoastmedia.com/dcc-magic-missile-tome/",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "uncommon",
+      "attunement": true,
+      "estimated_value_gp": 400,
+      "tldr": "A spell tome that lets the bearer fire force darts.",
+      "details": "Once per dawn, use a Magic action while holding the tome to cast level-1 Magic Missile without a spell slot. Choose one or more creatures you can see within 120 feet and distribute three darts among them. Each dart hits for 1d4 + 1 Force damage. The Shield spell protects a target from the darts.",
+      "flavor": null,
+      "creative": "Target three foes that are separately maintaining Concentration.",
+      "changes": "Uses a reusable 2024 Magic Missile casting in place of permanent automatic acquisition.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:secondary-item-index"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-book-1",
+          "role": "found-in",
+          "status": "third-party-reported",
+          "evidence": {
+            "url": "https://manatoastmedia.com/dcc-magic-missile-tome/",
+            "kind": "third-party-item-entry",
+            "locator": "Book 1, dedicated Magic Missile tome entry"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:leprous-bandit-toe-ring",
+      "name": "Enchanted Toe Ring of the Leprous Bandit",
+      "type": "ring",
+      "icon": "ring",
+      "entity_id": "publication:dcc-book-4",
+      "evidence_ref": "b4",
+      "locator": "Printed pp. 25–27; PDF pp. 40–42, Sticky Feet and Super-Spreader",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829912/9780241829912-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "very-rare",
+      "attunement": true,
+      "estimated_value_gp": 12500,
+      "tldr": "Barefoot wall movement and a limited transfer of a harmful condition.",
+      "details": "Once per Short or Long Rest as a Bonus Action, while barefoot you can move along walls and ceilings for 1 minute, leaving your hands free. At the end of the duration you fall if unsupported. Once per Long Rest as a Magic action, while you are Poisoned choose one creature within 30 feet. It makes a DC 16 Constitution save and becomes Poisoned until the end of its next turn on a failure. You remain Poisoned for the original duration.",
+      "flavor": null,
+      "creative": "Cross an uneven wall to reach a latch without stepping on the floor.",
+      "changes": "Keeps bare-foot wall walking and models debuff transfer with one standard condition and a fixed duration.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:surefire",
+      "name": "Surefire",
+      "type": "ammunition",
+      "icon": "ammunition",
+      "entity_id": "publication:dcc-book-4",
+      "evidence_ref": "b4",
+      "locator": "Printed p. 25; PDF p. 40, Gold Sniper’s Box",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829912/9780241829912-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "uncommon",
+      "attunement": false,
+      "estimated_value_gp": 95,
+      "tldr": "A one-use guided ammunition upgrade.",
+      "details": "During a Short Rest, apply this charm to one nonmagical arrow or bolt. When you fire that projectile at a creature you can see, ignore Half Cover and Three-Quarters Cover. Use the launcher’s attack modifier, damage and normal or long range. Total Cover still applies. The charm is spent after the attack.",
+      "flavor": null,
+      "creative": "Use it when an opponent is shooting through a narrow opening.",
+      "changes": "Converts guided projectile behavior into cover mitigation. Limits the portable tabletop version to an arrow or bolt with a compatible launcher.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:size-up-potion",
+      "name": "Size Up Potion",
+      "type": "potion",
+      "icon": "potion",
+      "entity_id": "publication:dcc-book-6",
+      "evidence_ref": "b6",
+      "locator": "Printed p. 25; PDF p. 44, merchant inquiry",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829899/9780241829899-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "uncommon",
+      "attunement": false,
+      "estimated_value_gp": 240,
+      "tldr": "Temporarily enlarges its drinker.",
+      "details": "As a Bonus Action, drink the potion to gain the Enlarge option of Enlarge/Reduce for 10 minutes without Concentration. Your size increases by one category if space permits. You have Advantage on Strength checks and Strength saving throws, and your attacks with enlarged weapons or Unarmed Strikes deal 1d4 extra damage. The potion is consumed.",
+      "flavor": null,
+      "creative": "Gain enough size to carry a heavy object out of an open chamber.",
+      "changes": "Uses the 2024 Enlarge benchmark in place of the dungeon’s size buff.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:fine-healing-potion",
+      "name": "Fine Healing Potion",
+      "type": "potion",
+      "icon": "potion",
+      "entity_id": "publication:dcc-book-7",
+      "evidence_ref": "b7",
+      "locator": "Printed p. 40; PDF p. 51, Heal Severe Injury discussion",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829936/9780241829936-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "uncommon",
+      "attunement": false,
+      "estimated_value_gp": 180,
+      "tldr": "Restores 4d4 + 4 Hit Points.",
+      "details": "As a Bonus Action, drink the potion or administer it to a creature within 5 feet. The drinker regains 4d4 + 4 Hit Points, and the potion is consumed.",
+      "flavor": null,
+      "creative": "Set aside a dose for the companion holding the rear of a retreat.",
+      "changes": "Uses the 2024 Greater Healing benchmark and retains the source’s distinct Fine name.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:heal-severe-injury-potion",
+      "name": "Heal Severe Injury Potion",
+      "type": "potion",
+      "icon": "potion",
+      "entity_id": "publication:dcc-book-7",
+      "evidence_ref": "b7",
+      "locator": "Printed p. 40; PDF p. 51, potion effects and ingredient discussion",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829936/9780241829936-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "very-rare",
+      "attunement": false,
+      "estimated_value_gp": 9500,
+      "tldr": "Restores 50 Hit Points and ends several serious conditions.",
+      "details": "As a Bonus Action, drink this potion or administer it to one creature within 5 feet. The creature regains 50 Hit Points and ends the Blinded, Deafened, and Poisoned conditions on itself. It has no effect on Constructs or Undead. The potion is consumed.",
+      "flavor": null,
+      "creative": "Reserve it for a rescue where a single dose must address several injuries.",
+      "changes": "Uses a reduced Heal-style benchmark. The mentioned novel recipe does not establish a reproducible D&D crafting formula.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:steadfast-emberus-ring",
+      "name": "Pauper’s Ring of the Steadfast Emberus",
+      "type": "ring",
+      "icon": "ring",
+      "entity_id": "publication:dcc-book-7",
+      "evidence_ref": "b7",
+      "locator": "Printed p. 26; PDF p. 37, Soul Poisoning warning",
+      "source_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241829936/9780241829936-sample.pdf",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "rare",
+      "attunement": true,
+      "estimated_value_gp": 2200,
+      "tldr": "A ring that partially shields its bearer from a spiritual affliction.",
+      "details": "While attuned and wearing the ring, you have Advantage on saving throws against effects that would reduce your Hit Point maximum. Once per Long Rest, if Necrotic damage reduces your Hit Point maximum, use your Reaction to reduce that maximum-Hit-Point loss by up to 10. This does not reduce damage taken.",
+      "flavor": null,
+      "creative": "Wear it when holding a dangerous spiritual burden that cannot be discarded yet.",
+      "changes": "Maps the reported partial Soul Poisoning protection to a bounded defense against maximum Hit Point loss.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:source-inspected"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        }
+      ],
+      "verified_fields": [
+        "item identity",
+        "appearance"
+      ],
+      "verification_scope": "The cited excerpt, public RPG sheet or licensed product listing confirms the item identity and appearance. D&D rules and gp estimates are project-authored."
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:fallen-oak-anklet",
+      "name": "Enchanted Anklet of the Fallen Oak",
+      "type": "gear",
+      "icon": "amulet",
+      "entity_id": "publication:dcc-book-2",
+      "evidence_ref": "secondary",
+      "locator": "Book 2, dedicated Fallen Oak Anklet entry",
+      "source_url": "https://manatoastmedia.com/dcc-fallen-oak-anklet/",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "rare",
+      "attunement": true,
+      "estimated_value_gp": 2000,
+      "tldr": "An anklet with a reserve of defensive magic.",
+      "details": "The anklet has 3 charges and regains all at dawn. As a Bonus Action, expend one charge to gain 2d6 + your Proficiency Bonus Temporary Hit Points for 1 hour. While any of these points remain, you have Advantage on ability checks and saving throws to avoid being moved against your will.",
+      "flavor": null,
+      "creative": "Anchor yourself near a ledge before attempting to assist another creature.",
+      "changes": "Provides a 2024 protective activation with explicit duration and uses.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:secondary-item-index"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-book-2",
+          "role": "found-in",
+          "status": "third-party-reported",
+          "evidence": {
+            "url": "https://manatoastmedia.com/dcc-fallen-oak-anklet/",
+            "kind": "third-party-item-entry",
+            "locator": "Book 2, dedicated Fallen Oak Anklet entry"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:deathbed-ghillie-suit",
+      "name": "Deathbed Hellcat Ghillie Suit",
+      "type": "armor",
+      "icon": "light-armor",
+      "entity_id": "publication:dcc-book-7",
+      "evidence_ref": "secondary",
+      "locator": "Book 7, dedicated Deathbed Hellcat ghillie suit entry",
+      "source_url": "https://manatoastmedia.com/dcc-deathbed-ghillie-suit/",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "rare",
+      "attunement": true,
+      "estimated_value_gp": 2150,
+      "tldr": "Light armor that blends into natural terrain.",
+      "details": "Light armor, AC 11 + Dexterity modifier, no Strength requirement or Stealth disadvantage, 10 lb. Requires Light Armor training. Don or doff in 1 minute. While attuned and wearing it, if you move no more than half your Speed on your turn, you gain Advantage on your next Dexterity (Stealth) check made to Hide in natural foliage before the start of your next turn. You still need a place to hide.",
+      "flavor": null,
+      "creative": "Conceal a scout at a woodland trail junction.",
+      "changes": "Uses the D&D Leather Armor profile and makes camouflage conditional on terrain and movement.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:secondary-item-index"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-book-7",
+          "role": "found-in",
+          "status": "third-party-reported",
+          "evidence": {
+            "url": "https://manatoastmedia.com/dcc-deathbed-ghillie-suit/",
+            "kind": "third-party-item-entry",
+            "locator": "Book 7, dedicated Deathbed Hellcat ghillie suit entry"
+          }
+        }
+      ],
+      "base_item_id": "open5e-srd-2024:srd-2024_leather-armor"
+    },
+    {
+      "id": "dungeon-crawler-carl-drafts:assassins-veil",
+      "name": "Assassin’s Veil",
+      "type": "gear",
+      "icon": "cloak",
+      "entity_id": "publication:dcc-book-8",
+      "evidence_ref": "secondary",
+      "locator": "Book 8, dedicated Assassin’s Veil entry",
+      "source_url": "https://manatoastmedia.com/dcc-assassins-veil/",
+      "mode": "original-2024-conversion",
+      "magic": true,
+      "rarity": "rare",
+      "attunement": true,
+      "estimated_value_gp": 2400,
+      "tldr": "A veil that briefly hides its wearer after breaking line of sight.",
+      "details": "Once per Short or Long Rest as a Bonus Action, while you have Total Cover from every hostile creature you can see, become Invisible until the end of your next turn. It ends early when you make an attack roll, cast a spell, or deal damage. The veil does not hide your sounds or tracks.",
+      "flavor": null,
+      "creative": "Cross a bright opening after briefly stepping behind a corner.",
+      "changes": "Gives the indexed stealth item a limited 2024 concealment effect. Later full-text review can refine its source basis.",
+      "tags": [
+        "setting:dungeon-crawler-carl",
+        "evidence:secondary-item-index"
+      ],
+      "associations": [
+        {
+          "entity_id": "setting:dungeon-crawler-carl",
+          "role": "setting",
+          "status": "editorial-pack-grouping",
+          "evidence": {
+            "url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+            "kind": "publisher-bibliography"
+          }
+        },
+        {
+          "entity_id": "publication:dcc-book-8",
+          "role": "found-in",
+          "status": "third-party-reported",
+          "evidence": {
+            "url": "https://manatoastmedia.com/dcc-assassins-veil/",
+            "kind": "third-party-item-entry",
+            "locator": "Book 8, dedicated Assassin’s Veil entry"
+          }
+        }
+      ]
+    }
+  ]
+}

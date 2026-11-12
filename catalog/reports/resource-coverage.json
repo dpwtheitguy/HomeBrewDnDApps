@@ -1,8 +1,8 @@
 {
-  "registered_resources": 114,
+  "registered_resources": 115,
   "original_item_audits_completed": 0,
   "by_coverage_status": {
-    "selected-drafts-and-or-references": 70,
+    "selected-drafts-and-or-references": 71,
     "related-regional-context-only": 1,
     "registered-item-audit-pending": 37,
     "series-partial": 4,
@@ -2779,6 +2779,31 @@
         "novel-son-of-dawn",
         "novel-tainted-sword"
       ]
+    },
+    {
+      "id": "dungeon-crawler-carl-equipment",
+      "label": "Dungeon Crawler Carl equipment across media",
+      "kind": "source-category",
+      "aliases": [
+        "Dungeon Crawler Carl",
+        "DCC"
+      ],
+      "bibliography_url": "https://www.penguin.co.uk/series/DCCS/dungeon-crawler-carl-series",
+      "selectors": {
+        "source_ids": [
+          "dungeon-crawler-carl-drafts"
+        ]
+      },
+      "child_resource_ids": [],
+      "original_item_audit_status": "pending",
+      "coverage_note": "Selected original tabletop adaptations tied to publisher excerpts, licensed products and separately labeled third-party leads. Full-book and cross-media inventory verification is ongoing.",
+      "request_scope": "user-requested-or-enumerated-subsource",
+      "direct_or_inspired_records": 59,
+      "context_only_records": 0,
+      "draft_records": 59,
+      "coverage_status": "selected-drafts-and-or-references",
+      "enumerated_child_resources": 0,
+      "child_record_union_count": 0
     }
   ]
 }

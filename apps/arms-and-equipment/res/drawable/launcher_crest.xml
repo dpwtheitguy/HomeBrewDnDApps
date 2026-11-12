@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+
+    <!-- Shield, rim and dark enamel. -->
+    <path android:fillColor="#170F0B"
+        android:pathData="M13,22 L36,14 L59,22 L59,37 C59,50 50,61 36,67 C22,61 13,50 13,37 Z"/>
+    <path android:fillColor="#B97C48"
+        android:pathData="M13,19 L36,11 L59,19 L59,34 C59,47 50,58 36,64 C22,58 13,47 13,34 Z"/>
+    <path android:fillColor="#F0BE77"
+        android:pathData="M13,19 L36,11 L59,19 L55,22 L36,15.5 L17,22 L17,34 C17,45 24,54.5 36,59.5 L36,64 C22,58 13,47 13,34 Z"/>
+    <path android:fillColor="#483024"
+        android:pathData="M17,22 L36,15.5 L55,22 L55,34 C55,45 48,54.5 36,59.5 C24,54.5 17,45 17,34 Z"/>
+    <path android:fillColor="#37241C"
+        android:pathData="M36,15.5 L55,22 L55,34 C55,45 48,54.5 36,59.5 Z"/>
+    <path android:fillColor="#AE7846"
+        android:pathData="M36,18 L53,23.7 L53,34 C53,43.8 46.7,52 36,57 C25.3,52 19,43.8 19,34 L19,23.7 Z M36,19.5 L20.5,24.8 L20.5,34 C20.5,43.2 26.5,50.8 36,55.4 C45.5,50.8 51.5,43.2 51.5,34 L51.5,24.8 Z"/>
+
+    <!-- Engraved studs and two wings set into the enamel. -->
+    <path android:fillColor="#EDBC77"
+        android:pathData="M22,26 L24,28 L22,30 L20,28 Z M50,26 L52,28 L50,30 L48,28 Z"/>
+    <path android:fillColor="#8C5C37"
+        android:pathData="M21.5,34 L30,39 L30,42 L24,39 Z M50.5,34 L42,39 L42,42 L48,39 Z
+            M23.5,41 L30,45 L30,48 L26,45.5 Z M48.5,41 L42,45 L42,48 L46,45.5 Z"/>
+
+    <!-- Sword silhouette and faceted blade. -->
+    <path android:fillColor="#241610"
+        android:pathData="M36,4 L44,14 L42,38 L48,38 L51,43 L43,46 L40,45.5 L40,52 L42,55 L36,61 L30,55 L32,52 L32,45.5 L29,46 L21,43 L24,38 L30,38 L28,14 Z"/>
+    <path android:fillColor="#F9E6BC" android:pathData="M36,7 L41.5,14.5 L39.8,40 L32.2,40 L30.5,14.5 Z"/>
+    <path android:fillColor="#BC8F5E" android:pathData="M36,7 L41.5,14.5 L39.8,40 L36,40 Z"/>
+    <path android:fillColor="#FFF2D6" android:pathData="M36,11 L36,38 L34.4,38 L33.2,15 Z"/>
+
+    <!-- Bronze crossguard, leather hilt and pommel. -->
+    <path android:fillColor="#E6AF64" android:pathData="M24,40.5 L29,41.5 L36,39.5 L43,41.5 L48,40.5 L47,43 L42.5,44 L36,42.5 L29.5,44 L25,43 Z"/>
+    <path android:fillColor="#A56A3B" android:pathData="M33.5,43.6 L38.5,43.6 L38.5,52 L33.5,52 Z"/>
+    <path android:fillColor="#F6CD89" android:pathData="M34,45 L38,44.5 L38,46 L34,47 Z M34,48 L38,47 L38,48.5 L34,49.5 Z"/>
+    <path android:fillColor="#E6AF64" android:pathData="M36,51 L39.5,54.5 L36,58 L32.5,54.5 Z"/>
+    <path android:fillColor="#FFF2D6" android:pathData="M36,52.6 L36,56 L34.2,54.5 Z"/>
+</vector>

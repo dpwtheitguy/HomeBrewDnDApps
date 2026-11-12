@@ -1,6 +1,6 @@
 # Collected item catalog
 
-34,469 source records; 30,562 distinct normalized names.
+34,528 source records; 30,620 distinct normalized names.
 
 | Source | Records |
 |---|---:|
@@ -15,6 +15,7 @@
 | Mystara internet-research adaptations (draft 0.1.0) | 62 |
 | Zanzer / Goblin’s Lair / Hail the Heroes research drafts | 9 |
 | Backlog reference registry (no draft records) | 0 |
+| Dungeon Crawler Carl equipment (D&D 2024 drafts) | 59 |
 | Mystara regional and skyship project drafts | 25 |
 | Mystara video-game and novel research registry (no item definitions) | 0 |
 | Ninja equipment 2024 project drafts | 62 |
@@ -101,7 +102,7 @@
 | Wrath of the Immortals local item references public item reference index | 311 |
 | Zanzer Tem’s Dungeon (Kyle Knight) | 48 |
 
-Generic icons: 34,469/34,469 records using 46 reusable type icons. Item-specific artwork included: 0.
+Generic icons: 34,528/34,528 records using 46 reusable type icons. Item-specific artwork included: 0.
 
 Quality warnings: 46. See `quality-warnings.json`; these records are not verified executable tabletop mechanics.
 

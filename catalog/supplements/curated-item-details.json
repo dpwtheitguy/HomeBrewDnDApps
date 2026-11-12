@@ -1,6 +1,223 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-35-reference:8f0d838e9c9ad461": [
+      {
+        "label": "D&D 2024 adaptation · Anarchic shortbow +2",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Simple ranged weapon (Shortbow)",
+          "Damage": "1d6 Piercing + Dexterity modifier + 2",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "80/320 feet",
+          "Properties": "Ammunition (arrows), Two-Handed",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a ranged weapon attack.",
+          "Special powers": "A hit against a lawful creature deals an extra 2d6 Psychic. While a lawful creature holds the bow, it takes a −1 penalty to attack rolls, ability checks, and saving throws. The effect passes to arrows shot from the bow.",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, printed page(s) 221, 223.",
+          "Conversion notes": "Retains the worked example’s +2 and chaotic property. Uses the catalog’s 2024 Anarchic rules.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 magic weapon rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm"
+        },
+        "related_item": {
+          "id": "dmg-35-reference:793782b071d279c6",
+          "label": "Anarchic weapon property"
+        }
+      }
+    ],
+    "dmg-35-reference:b128df25f1b1d5d0": [
+      {
+        "label": "D&D 2024 adaptation · Dagger +3 of speed",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Dagger)",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier + 3",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet, or 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Activation": "Make a melee or thrown weapon attack.",
+          "Special powers": "After you take the Attack action on your turn and attack with the dagger, you can make one additional attack with it as a Bonus Action. You can make either this bonus attack or an attack with the additional action granted by Haste on a turn.",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, printed page(s) 222, 225.",
+          "Conversion notes": "Retains the actual +3 from the worked example. The +6 effective price equivalent in the legacy example did not increase the combat bonus.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 magic weapon rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm"
+        },
+        "related_item": {
+          "id": "dmg-35-reference:7ea8d031138a237a",
+          "label": "Speed weapon property"
+        }
+      }
+    ],
+    "dmg-35-reference:78180b71c8ae7402": [
+      {
+        "label": "D&D 2024 adaptation · Dire flail with flaming and disruption heads",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Dire Flail)",
+          "Damage": "1d8 Bludgeoning + Strength modifier + 1 with the flaming head or + 3 with the disruption head",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1 or 3 for the chosen head.",
+          "Range": "5 feet",
+          "Properties": "Two-Handed",
+          "Mastery": "Sap",
+          "Weight": "10 lb",
+          "Activation": "Choose one head before each melee attack. Each attack uses only the chosen head’s bonuses and effects.",
+          "Special powers": "Flaming head. A Bonus Action toggles its flame. While lit, it adds 1d6 Fire on a hit. Disruption head. On a hit against an Undead, add 2d6 Radiant. If it has 25 Hit Points or fewer after the damage, it makes a DC 15 Wisdom save. It is destroyed on a failure or Frightened until the end of your next turn on a success.",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, printed page(s) 224, 286.",
+          "Conversion notes": "The 3.5 creation example gives independent +1 flaming and +3 disruption heads. Applies the reviewed properties independently. Converts double-weapon attacks to a head choice per attack.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 magic weapon rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm"
+        },
+        "related_item": {
+          "id": "dmg-35-reference:4a4fcda66b4fa626",
+          "label": "Disruption weapon property"
+        }
+      }
+    ],
+    "dmg-35-reference:c52a41064271c6d4": [
+      {
+        "label": "D&D 2024 adaptation · Assassin’s dagger",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Dagger)",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier + 2",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet, or 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Activation": "Make a melee or thrown weapon attack.",
+          "Special powers": "When an Assassin Rogue hits with this dagger and that hit triggers their Death Strike feature, increase the saving throw DC for that use of Death Strike by 1. The dagger does not grant Death Strike.",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, printed page(s) 226–227.",
+          "Conversion notes": "Uses the descriptive entry’s +2 and transfers the legacy +1 death-attack DC adjustment to the 2024 Assassin’s Death Strike. The legacy table and prose list different prices.",
+          "2024 Assassin changes": "https://www.dndbeyond.com/posts/1752-2024-rogue-vs-2014-rogue-whats-new",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 magic weapon rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm"
+        }
+      }
+    ],
+    "dmg-35-reference:f5ae11166c98bb77": [
+      {
+        "label": "D&D 2024 adaptation · Rapier of puncturing",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Rapier)",
+          "Damage": "1d8 Piercing + Strength or Dexterity modifier + 2",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet",
+          "Properties": "Finesse",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a melee weapon attack. Once per turn on a hit you may apply a wound or spend a Puncture charge, or both.",
+          "Special powers": "Wounding. A creature other than a Construct or Plant takes 1d4 Necrotic per wound at the start of each of its turns, then makes a DC 15 Constitution save to end all wounds. A creature within 5 feet can use an action to end them with a DC 15 Wisdom (Medicine) check. Puncture. Spend 1 of 3 charges on a hit against a creature other than a Construct or Plant to deal 2d6 Necrotic and reduce its Hit Point maximum by the Necrotic damage taken until it finishes a Long Rest. The rapier regains all charges at dawn.",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, printed page(s) 226–227.",
+          "Conversion notes": "Keeps the +2, ongoing wounds, and three daily punctures. Replaces touch AC and Constitution damage with a normal hit and temporary loss of Hit Point maximum.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 magic weapon rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm"
+        },
+        "related_item": {
+          "id": "dmg-35-reference:0a692c105c267419",
+          "label": "Wounding weapon property"
+        }
+      }
+    ],
+    "dmg-35-reference:0bbcfcfcc1eb2787": [
+      {
+        "label": "D&D 2024 adaptation · Sword of the planes",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword)",
+          "Damage": "1d8 Slashing + Strength modifier, or 1d10 with two hands, plus its current magic bonus",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus its current magic bonus.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee weapon attack. Determine the current bonus before rolling and use that same bonus for damage.",
+          "Special powers": "Use +1 by default. Use +2 on an Elemental Plane or against an Elemental. Use +3 on the Astral Plane, the Ethereal Plane, or any plane other than the Material Plane or an Elemental Plane. Also use +3 against a creature native to the Astral or Ethereal Plane, a Celestial, or a Fiend. Use only the highest applicable bonus.",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, printed page(s) 227–228.",
+          "Conversion notes": "Retains the plane and creature dependence. Caps the legacy +4 at +3 and maps outsiders to Celestials and Fiends for the tabletop conversion.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 magic weapon rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm"
+        }
+      }
+    ],
+    "dmg-35-reference:9fc1cefd952787af": [
+      {
+        "label": "D&D 2024 adaptation · Sword of subtlety",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Shortsword)",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 1",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a melee weapon attack.",
+          "Special powers": "When you deal Sneak Attack damage with the sword, the target takes an extra 1d6 Piercing damage. The sword does not grant Sneak Attack.",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, printed page(s) 227–228.",
+          "Conversion notes": "Preserves the +1 base and the Sneak Attack specialization. Replaces the legacy accuracy-and-damage bonus on Sneak Attacks with an extra die.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 magic weapon rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm"
+        }
+      }
+    ],
+    "dmg-35-reference:814c5fca0cbb8b75": [
+      {
+        "label": "D&D 2024 adaptation · Sylvan scimitar",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Scimitar)",
+          "Damage": "1d6 Slashing + Strength or Dexterity modifier + 3",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick by default, or choose Nick or Cleave for each attack outdoors in a temperate climate",
+          "Weight": "3 lb",
+          "Activation": "Make a melee weapon attack.",
+          "Special powers": "Outdoors in a temperate climate, a hit adds 1d6 Slashing and the scimitar also offers Cleave. Choose which mastery applies before each attack, if a feature grants you mastery with this weapon. Observe each mastery’s normal limits.",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, printed page(s) 227, 229.",
+          "Conversion notes": "Keeps the legacy +3, conditional die, and Cleave. Uses 2024 Cleave as an alternative to Nick.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 magic weapon rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm"
+        }
+      }
+    ],
     "dmg-35-reference:793782b071d279c6": [
       {
         "label": "D&D 2024 adaptation · Anarchic (weapon property)",

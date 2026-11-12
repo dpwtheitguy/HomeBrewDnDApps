@@ -118,5 +118,6 @@ Registration is not item-audit completion. Contextual regional gear is separate 
 | The Black Vessel | registered-item-audit-pending | 0 | 0 | pending |
 | Mystara video-game equipment | series-registered-audits-pending | 0 | 0 | pending |
 | Mystara novel equipment | series-registered-audits-pending | 0 | 0 | pending |
+| Dungeon Crawler Carl equipment across media | selected-drafts-and-or-references | 59 | 0 | pending |
 
 Series/category rows do not generate additional item definitions. Bibliography and unsupported title matches do not establish exhaustive item coverage. Open media/source categories cannot be certified complete from a finite list.

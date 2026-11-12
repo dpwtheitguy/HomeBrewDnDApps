@@ -1,6 +1,6 @@
 # Item price coverage
 
-**34,469 of 34,469** catalog records have a positive base cost, buy price, and sell price.
+**34,528 of 34,528** catalog records have a positive base cost, buy price, and sell price.
 
 | Pricing basis | Records |
 |---|---:|
@@ -11,7 +11,7 @@
 | Construction or installation estimate | 3,005 |
 | Estimate from comparable 2024 equipment | 833 |
 | Source-reported resale value used as the base benchmark | 444 |
-| Existing catalog appraisal | 206 |
+| Existing catalog appraisal | 265 |
 | DM appraisal for an exceptional or priceless item | 83 |
 | Estimate from comparable BG3 catalog prices | 75 |
 | 2024 scroll value based on scribing cost | 24 |
