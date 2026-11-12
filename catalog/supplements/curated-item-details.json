@@ -1,6 +1,371 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:9af1fe16a5a60878": [
+      {
+        "label": "D&D 2024 adaptation · Arbalest (War Crossbow)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/arbalest.html",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_heavy-crossbow",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "2d6 + Dexterity modifier Piercing",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient. Add +1 against a target wearing nonmagical Medium or Heavy armor.",
+          "Range": "90/270 feet",
+          "Properties": "Ammunition (bolt), Heavy, Loading, Two-Handed",
+          "Mastery": "Push",
+          "Weight": "22 lb",
+          "Activation": "Make an attack using the listed range and properties.",
+          "Special powers": "After firing, spend two Utilize actions to reload. A wielder with Strength 23 or higher reloads with one Utilize action. If your Strength is below 12, fire only while braced on a stable surface. The Heavy property still applies.",
+          "Conversion notes": "The source specifies two reload rounds, a high-Strength exception, and an armor-piercing effect. The draft uses explicit reload actions and a +1 bonus to attack rolls against a creature wearing nonmagical Medium or Heavy armor.",
+          "Source locator": "Parzival, Arbalest (War Crossbow).",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:d680dc1698442577": [
+      {
+        "label": "D&D 2024 adaptation · Atlatl (Dart-Thrower)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/atlatl.html",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_javelin",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple ranged launcher",
+          "Damage": "1d6 + 1 + Strength modifier Piercing",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "50/140 feet",
+          "Properties": "Ammunition (atlatl dart)",
+          "Mastery": "Slow",
+          "Weight": "1 lb",
+          "Activation": "Make an attack using the listed range and properties.",
+          "Special powers": "Hold the launcher in one hand and load a dedicated atlatl dart with the other. Spend one dart per attack. Use normal ammunition recovery rules. The damage belongs to the launched dart.",
+          "Conversion notes": "Uses Pol Ginés’s distinct dart launcher. Adds 20 feet to both ranges of the 2024 Javelin and retains the printed +1 damage. This draft uses Simple weapon proficiency.",
+          "Source locator": "Pol Ginés, Atlatl (Dart-Thrower).",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:3a11d98c9ae61f6a": [
+      {
+        "label": "D&D 2024 adaptation · Axe, Broad",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_battleaxe",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Activation": "Make an attack using the listed range and properties.",
+          "Special powers": "Swing the axe in one hand or use the larger die for a two-handed melee attack.",
+          "Conversion notes": "Uses 2024 Battleaxe statistics to represent the broad axe’s optional two-handed grip. The legacy flat damage bonus becomes part of the base die.",
+          "Source locator": "Colin Davidson, PDF p. 2, Weapons, Axe, Broad.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:34bf3f47c1cf19f0": [
+      {
+        "label": "D&D 2024 adaptation · Billy Club",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 + Strength modifier Bludgeoning",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Light",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Activation": "Make an attack using the listed range and properties.",
+          "Special powers": "Use the normal 2024 knockout rule when a melee hit reduces a creature to 0 Hit Points.",
+          "Conversion notes": "The fan source describes a weighted truncheon and a legacy nonlethal option. Uses the ordinary 2024 Club and knockout rules.",
+          "Source locator": "Colin Davidson, PDF p. 3, Extended Weapon and Armour Lists, Billy Club.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:0e55f8e4c3ace70c": [
+      {
+        "label": "D&D 2024 adaptation · Blowgun 2’ plus",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_blowgun",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1 + Dexterity modifier Piercing",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "20/30 feet",
+          "Properties": "Ammunition (needle), Loading, Two-Handed",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make an attack using the listed range and properties.",
+          "Special powers": "Use two hands to fire one blowgun needle. Apply normal ammunition and Loading rules.",
+          "Conversion notes": "Uses the long tube row of the OSE table. The two endpoints preserve its shorter range profile, while 2024 Blowgun damage replaces the legacy nil damage.",
+          "Source locator": "Colin Davidson, PDF p. 2, Weapons, Blowgun 2’ plus.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:4abcca0fee5aaff3": [
+      {
+        "label": "D&D 2024 adaptation · Dagger, silver",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 + Strength or Dexterity modifier Piercing",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Activation": "Make an attack using the listed range and properties.",
+          "Special powers": "Apply silver only when the target’s stat block or a campaign rule explicitly interacts with silver. This mundane dagger grants no general bonus or extra damage.",
+          "Conversion notes": "Preserves the legacy mundane silver dagger as a Dagger with silvered material. The separately published 2024 Silvered Weapon magic item has its own rules.",
+          "Source locator": "Colin Davidson, PDF p. 2, Weapons, Dagger, silver.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:bbc48148ebabf753": [
+      {
+        "label": "D&D 2024 adaptation · Francesca Axe",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 + Strength modifier Slashing",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee, 20/40 feet thrown",
+          "Properties": "Light, Thrown",
+          "Mastery": "Vex",
+          "Weight": "1 lb",
+          "Activation": "Make an attack using the listed range and properties.",
+          "Special powers": "Use the axe in melee or throw it at the listed range.",
+          "Conversion notes": "Uses Handaxe properties and mastery, with the OSE variant’s lower die and first and last range bands.",
+          "Source locator": "Colin Davidson, PDF p. 2, Weapons, Axe, Francesca.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:3a267b39b42c807a": [
+      {
+        "label": "D&D 2024 adaptation · Hammer, Throwing",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_light-hammer",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 + Strength modifier Bludgeoning",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "2 lb",
+          "Activation": "Make an attack using the listed range and properties.",
+          "Special powers": "Use the hammer in melee or throw it at the listed range.",
+          "Conversion notes": "The source identifies a compact throwing hammer. Uses the full 2024 Light Hammer profile.",
+          "Source locator": "Colin Davidson, PDF p. 2, Weapons, Hammer, Throwing.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:eaaa36de8424c615": [
+      {
+        "label": "D&D 2024 adaptation · Heavy Flail",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_flail",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 + Strength modifier Bludgeoning",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Two-Handed",
+          "Mastery": "Sap",
+          "Weight": "5 lb",
+          "Activation": "Make an attack using the listed range and properties.",
+          "Special powers": "Use two hands to attack. In this adaptation a wielder with Strength 16 or higher may attack with one hand.",
+          "Conversion notes": "Uses the source description’s heavier grip and Strength exception, with the 2024 Flail mastery.",
+          "Source locator": "Colin Davidson, PDF p. 3, Extended Weapon and Armour Lists, Flail, heavy.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:7414df7d146ef77b": [
+      {
+        "label": "D&D 2024 adaptation · Heavy Maul",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_maul",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 + Strength modifier Piercing",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Topple",
+          "Weight": "10 lb",
+          "Activation": "Make an attack using the listed range and properties.",
+          "Special powers": "Attack with the pointed head. The source describes a heavy maul with a spike.",
+          "Conversion notes": "Uses Piercing damage and a single d10 in place of the legacy 1d8 + 1. The published Maul supplies properties and mastery.",
+          "Source locator": "Colin Davidson, PDF p. 3, Extended Weapon and Armour Lists, Maul, Heavy.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:bdc8beb2be3f3f04": [
+      {
+        "label": "D&D 2024 adaptation · Hunting Blowgun",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_blowgun",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1 + Dexterity modifier Piercing",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "25/100 feet",
+          "Properties": "Ammunition (needle), Loading, Two-Handed",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make an attack using the listed range and properties.",
+          "Special powers": "Expend one blowgun needle per shot. Use both hands to fire the long hunting tube. Any applied poison follows its own rules.",
+          "Conversion notes": "Follows the BECMI descriptive entry for the long hunting tube. The catalog’s indexed table row points to the short blowgun, so this conversion uses the descriptive entry and 2024 Blowgun range.",
+          "Source locator": "Colin Davidson, Equipment List (BECMI), PDF p. 5, Hunting Blowgun.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Fan weapon description": "https://pandius.com/ExtendedEquipmentList.pdf#page=5"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:336bd345ec97d584": [
+      {
+        "label": "D&D 2024 adaptation · Light Flail",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_flail",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 + Strength modifier Bludgeoning",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "2 lb",
+          "Activation": "Make an attack using the listed range and properties.",
+          "Special powers": "Make a one-handed melee weapon attack.",
+          "Conversion notes": "Uses the fan source’s lower die and one-handed grip, with the 2024 Flail mastery.",
+          "Source locator": "Colin Davidson, PDF p. 3, Extended Weapon and Armour Lists, Flail, light.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:6125699f8ef8875f": [
+      {
+        "label": "D&D 2024 adaptation · Light Maul",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_morningstar",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 + Strength modifier Piercing",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Light",
+          "Mastery": "Sap",
+          "Weight": "2 lb",
+          "Activation": "Make an attack using the listed range and properties.",
+          "Special powers": "Use its single spike to make a one-handed melee attack.",
+          "Conversion notes": "Keeps the small single-spike design. A d4 replaces the legacy d6 − 1. The 2024 Morningstar provides a piercing comparison.",
+          "Source locator": "Colin Davidson, PDF p. 3, Extended Weapon and Armour Lists, Maul, Light.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:e00488f70c7bcad0": [
+      {
+        "label": "D&D 2024 adaptation · Pellet bow",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortbow",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple ranged weapon",
+          "Damage": "1d4 + Dexterity modifier Bludgeoning",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "50/150 feet",
+          "Properties": "Ammunition (sling bullet), Two-Handed",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make an attack using the listed range and properties.",
+          "Special powers": "Use one stone or sling bullet per attack. The bow’s pouch accepts pellets and cannot fire arrows.",
+          "Conversion notes": "Retains the OSE die and uses the first and last range bands. The 2024 Shortbow supplies the attack and mastery framework.",
+          "Source locator": "Colin Davidson, PDF p. 2, Weapons, Pellet bow.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
     "mystara-fan-names-reference:949e0e5645c4a10b": [
       {
         "label": "D&D 2024 siege adaptation · Scorpio",

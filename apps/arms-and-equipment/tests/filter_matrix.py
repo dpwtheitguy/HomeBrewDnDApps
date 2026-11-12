@@ -1871,6 +1871,23 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Mystara weapon variants show distinct reload, ammunition, and grip rules': '''(async () => {
+                    for (const [id, terms] of [
+                        ["9af1fe16a5a60878", ["90/270 feet", "two Utilize actions", "nonmagical Medium or Heavy armor"]],
+                        ["d680dc1698442577", ["50/140 feet", "dedicated atlatl dart", "1d6 + 1"]],
+                        ["4abcca0fee5aaff3", ["20/60 feet", "Nick", "mundane dagger"]],
+                        ["eaaa36de8424c615", ["1d8", "Strength 16", "Sap"]],
+                        ["7414df7d146ef77b", ["1d10", "Piercing", "Topple"]],
+                        ["e00488f70c7bcad0", ["50/150 feet", "sling bullet", "cannot fire arrows"]],
+                    ]) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Mystara siege engines show crew actions, minimum range, and ammunition links': '''(async () => {
                     for (const [id, terms] of [
                         ["949e0e5645c4a10b", ["2d10 Piercing", "80/320 feet", "Scorpio Bolt"]],
