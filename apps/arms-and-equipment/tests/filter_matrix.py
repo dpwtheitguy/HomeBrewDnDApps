@@ -1871,6 +1871,33 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Mystara siege engines show crew actions, minimum range, and ammunition links': '''(async () => {
+                    for (const [id, terms] of [
+                        ["949e0e5645c4a10b", ["2d10 Piercing", "80/320 feet", "Scorpio Bolt"]],
+                        ["e5a8c2469d03473d", ["4d10 Piercing", "110/470 feet", "Springal Bolt"]],
+                        ["6fbec7152a651e4a", ["5d10 Bludgeoning", "closer than 175 feet", "2 Utilize actions"]],
+                        ["09d921833d5ba27a", ["6d10 Bludgeoning", "four additional crew", "spend their Reactions"]],
+                        ["cbdec1181e82f8a0", ["8d10 Bludgeoning", "300/1,200 feet", "View Normal Trebuchet Shot"]],
+                        ["39ebd1a27ac70e77", ["Fire instead of Bludgeoning", "automatic splash"]],
+                    ]) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    inspect("mystara-fan-names-reference:cbdec1181e82f8a0", grid.firstElementChild);
+                    await itemDetails;
+                    const link = [...inspection.querySelectorAll("button")]
+                        .find(button => button.textContent === "View Normal Trebuchet Shot");
+                    if (!link) throw new Error("Trebuchet ammunition link missing");
+                    link.click();
+                    await itemDetails;
+                    if (!inspection.textContent.includes("6d10 from Traction Trebuchet")) {
+                        throw new Error("Trebuchet ammunition did not open");
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Mystara launchers and thrown weapons show ammo, range, and control rules': '''(async () => {
                     for (const [id, terms] of [
                         ["fa2665b9013c078e", ["60/120 feet", "expends one Javelin", "Slow mastery"]],

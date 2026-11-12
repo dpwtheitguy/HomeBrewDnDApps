@@ -1,6 +1,292 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:949e0e5645c4a10b": [
+      {
+        "label": "D&D 2024 siege adaptation · Scorpio",
+        "status": "original-draft",
+        "profile_kind": "siege-engine",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=4",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/dmg-2024/dms-toolbox#SiegeEquipment",
+        "related_item": {
+          "id": "mystara-fan-names-reference:295c9887a7053672",
+          "label": "View Scorpio Bolt"
+        },
+        "fields": {
+          "Object": "Medium siege engine",
+          "Armor class": "14",
+          "Hit points": "30",
+          "Defenses": "Immune to Poison and Psychic damage. At 0 Hit Points the engine can no longer operate.",
+          "Damage": "2d10 Piercing on a hit.",
+          "Attack bonus": "+5 to hit with the engine. Use this fixed bonus.",
+          "Range": "80/320 feet. No minimum range.",
+          "Activation": "Spend 1 Utilize action to load, then 1 Utilize action to aim. Spend 1 action to fire. Crew members within 5 feet can split these steps across turns. The shot consumes the projectile and resets the sequence.",
+          "Ammunition": "One Scorpio Bolt per shot.",
+          "Target": "One creature or object within range. Use the ordinary ranged attack rules for long range and cover.",
+          "Mastery": "None. This attack uses the engine’s statistics.",
+          "Legacy context": "The fan list reports 50 gp, 6 legacy HP, 2 crew, and 1 shot per round.",
+          "Conversion notes": "Object defenses, attack statistics, and action counts are original 2024-style values for DM review. The minimum range is retained where the fan table specifies one.",
+          "Source locator": "Colin Davidson, Equipment List (BECMI), PDF p. 4, Siege Weapons, Scorpio."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:e5a8c2469d03473d": [
+      {
+        "label": "D&D 2024 siege adaptation · Springal",
+        "status": "original-draft",
+        "profile_kind": "siege-engine",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=4",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/dmg-2024/dms-toolbox#SiegeEquipment",
+        "related_item": {
+          "id": "mystara-fan-names-reference:39011b9e2c4145c4",
+          "label": "View Springal Bolt"
+        },
+        "fields": {
+          "Object": "Large siege engine",
+          "Armor class": "15",
+          "Hit points": "60",
+          "Defenses": "Immune to Poison and Psychic damage. At 0 Hit Points the engine can no longer operate.",
+          "Damage": "4d10 Piercing on a hit.",
+          "Attack bonus": "+6 to hit with the engine. Use this fixed bonus.",
+          "Range": "120/480 feet. No minimum range.",
+          "Activation": "Spend 2 Utilize actions to load, then 1 Utilize action to aim. Spend 1 action to fire. Crew members within 5 feet can split these steps across turns. The shot consumes the projectile and resets the sequence.",
+          "Ammunition": "One Springal Bolt per shot.",
+          "Target": "One creature or object within range. Use the ordinary ranged attack rules for long range and cover.",
+          "Mastery": "None. This attack uses the engine’s statistics.",
+          "Legacy context": "The fan list reports 100 gp, 18 legacy HP, 5 crew, and 1 shot per 4 rounds.",
+          "Conversion notes": "Object defenses, attack statistics, and action counts are original 2024-style values for DM review. The minimum range is retained where the fan table specifies one.",
+          "Source locator": "Colin Davidson, Equipment List (BECMI), PDF p. 4, Siege Weapons, Springal.",
+          "Alternate ammunition": "The fan source also describes a stone-firing configuration. Choose that configuration when placing the engine. It uses one Normal Catapult Shot, deals 4d10 Bludgeoning, and has 110/470 feet range. All other statistics stay the same.",
+          "Engine description": "https://pandius.com/ExtendedEquipmentList.pdf#page=7"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:90f0660080e2f171": [
+      {
+        "label": "D&D 2024 siege adaptation · Light Catapult",
+        "status": "original-draft",
+        "profile_kind": "siege-engine",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=4",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/dmg-2024/dms-toolbox#SiegeEquipment",
+        "related_item": {
+          "id": "mystara-fan-names-reference:6fefb09ae4a5eeb5",
+          "label": "View Normal Catapult Shot"
+        },
+        "fields": {
+          "Object": "Large siege engine",
+          "Armor class": "15",
+          "Hit points": "60",
+          "Defenses": "Immune to Poison and Psychic damage. At 0 Hit Points the engine can no longer operate.",
+          "Damage": "4d10 Bludgeoning on a hit.",
+          "Attack bonus": "+5 to hit with the engine. Use this fixed bonus.",
+          "Range": "200/800 feet. Cannot target anything closer than 150 feet.",
+          "Activation": "Spend 2 Utilize actions to load, then 1 Utilize action to aim. Spend 1 action to fire. Crew members within 5 feet can split these steps across turns. The shot consumes the projectile and resets the sequence.",
+          "Ammunition": "One Normal Catapult Shot per shot. The engine can also fire a Pitch Shot.",
+          "Target": "One creature or object within range. Use the ordinary ranged attack rules for long range and cover.",
+          "Mastery": "None. This attack uses the engine’s statistics.",
+          "Legacy context": "The fan list reports 150 gp, 18 legacy HP, 6 crew, and 1 shot per 5 rounds.",
+          "Conversion notes": "Object defenses, attack statistics, and action counts are original 2024-style values for DM review. The minimum range is retained where the fan table specifies one.",
+          "Source locator": "Colin Davidson, Equipment List (BECMI), PDF p. 4, Siege Weapons, Light Catapult."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:6fbec7152a651e4a": [
+      {
+        "label": "D&D 2024 siege adaptation · Heavy Catapult",
+        "status": "original-draft",
+        "profile_kind": "siege-engine",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=4",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/dmg-2024/dms-toolbox#SiegeEquipment",
+        "related_item": {
+          "id": "mystara-fan-names-reference:6fefb09ae4a5eeb5",
+          "label": "View Normal Catapult Shot"
+        },
+        "fields": {
+          "Object": "Large siege engine",
+          "Armor class": "16",
+          "Hit points": "100",
+          "Defenses": "Immune to Poison and Psychic damage. At 0 Hit Points the engine can no longer operate.",
+          "Damage": "5d10 Bludgeoning on a hit.",
+          "Attack bonus": "+6 to hit with the engine. Use this fixed bonus.",
+          "Range": "250/1,000 feet. Cannot target anything closer than 175 feet.",
+          "Activation": "Spend 2 Utilize actions to load, then 2 Utilize actions to aim. Spend 1 action to fire. Crew members within 5 feet can split these steps across turns. The shot consumes the projectile and resets the sequence.",
+          "Ammunition": "One Normal Catapult Shot per shot. The engine can also fire a Pitch Shot.",
+          "Target": "One creature or object within range. Use the ordinary ranged attack rules for long range and cover.",
+          "Mastery": "None. This attack uses the engine’s statistics.",
+          "Legacy context": "The fan list reports 250 gp, 27 legacy HP, 8 crew, and 1 shot per 6 rounds.",
+          "Conversion notes": "Object defenses, attack statistics, and action counts are original 2024-style values for DM review. The minimum range is retained where the fan table specifies one.",
+          "Source locator": "Colin Davidson, Equipment List (BECMI), PDF p. 4, Siege Weapons, Heavy Catapult."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:cbdec1181e82f8a0": [
+      {
+        "label": "D&D 2024 siege adaptation · Counterweight Trebuchet",
+        "status": "original-draft",
+        "profile_kind": "siege-engine",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=4",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/dmg-2024/dms-toolbox#SiegeEquipment",
+        "related_item": {
+          "id": "mystara-fan-names-reference:2b86672a59105422",
+          "label": "View Normal Trebuchet Shot"
+        },
+        "fields": {
+          "Object": "Huge siege engine",
+          "Armor class": "15",
+          "Hit points": "150",
+          "Defenses": "Immune to Poison and Psychic damage. At 0 Hit Points the engine can no longer operate.",
+          "Damage": "8d10 Bludgeoning on a hit.",
+          "Attack bonus": "+6 to hit with the engine. Use this fixed bonus.",
+          "Range": "300/1,200 feet. Cannot target anything closer than 100 feet.",
+          "Activation": "Spend 2 Utilize actions to load, then 2 Utilize actions to aim. Spend 1 action to fire. Crew members within 5 feet can split these steps across turns. The shot consumes the projectile and resets the sequence.",
+          "Ammunition": "One Normal Trebuchet Shot per shot. The engine can also fire a Pitch Shot.",
+          "Target": "One creature or object within range. Use the ordinary ranged attack rules for long range and cover.",
+          "Mastery": "None. This attack uses the engine’s statistics.",
+          "Legacy context": "The fan list reports 400 gp, 36 legacy HP, 12 crew, and 1 shot per 6 rounds.",
+          "Conversion notes": "Object defenses, attack statistics, and action counts are original 2024-style values for DM review. The minimum range is retained where the fan table specifies one.",
+          "Source locator": "Colin Davidson, Equipment List (BECMI), PDF p. 4, Siege Weapons, Counterweight Trebuchet."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:09d921833d5ba27a": [
+      {
+        "label": "D&D 2024 siege adaptation · Traction Trebuchet",
+        "status": "original-draft",
+        "profile_kind": "siege-engine",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=4",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/dmg-2024/dms-toolbox#SiegeEquipment",
+        "related_item": {
+          "id": "mystara-fan-names-reference:2b86672a59105422",
+          "label": "View Normal Trebuchet Shot"
+        },
+        "fields": {
+          "Object": "Huge siege engine",
+          "Armor class": "15",
+          "Hit points": "100",
+          "Defenses": "Immune to Poison and Psychic damage. At 0 Hit Points the engine can no longer operate.",
+          "Damage": "6d10 Bludgeoning on a hit.",
+          "Attack bonus": "+6 to hit with the engine. Use this fixed bonus.",
+          "Range": "250/1,000 feet. Cannot target anything closer than 100 feet.",
+          "Activation": "Spend 2 Utilize actions to load, then 2 Utilize actions to aim. Spend 1 action to fire. Crew members within 5 feet can split these steps across turns. The shot consumes the projectile and resets the sequence. For the firing action, at least four additional crew members must be at the engine, able to act, and spend their Reactions to assist.",
+          "Ammunition": "One Normal Trebuchet Shot per shot. The engine can also fire a Pitch Shot.",
+          "Target": "One creature or object within range. Use the ordinary ranged attack rules for long range and cover.",
+          "Mastery": "None. This attack uses the engine’s statistics.",
+          "Legacy context": "The fan list reports 200 gp, 18 legacy HP, 25 crew, and 1 shot per 5 rounds.",
+          "Conversion notes": "Object defenses, attack statistics, and action counts are original 2024-style values for DM review. The minimum range is retained where the fan table specifies one.",
+          "Source locator": "Colin Davidson, Equipment List (BECMI), PDF p. 4, Siege Weapons, Traction Trebuchet."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:295c9887a7053672": [
+      {
+        "label": "D&D 2024 siege ammunition adaptation · Scorpio Bolt",
+        "status": "original-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=4",
+        "related_item": {
+          "id": "mystara-fan-names-reference:949e0e5645c4a10b",
+          "label": "View compatible siege engine"
+        },
+        "fields": {
+          "Compatibility": "Scorpio.",
+          "Damage": "2d10 Piercing.",
+          "Range": "80/320 feet. Respect the engine’s minimum range.",
+          "Attack bonus": "Use the engine’s fixed attack modifier.",
+          "Activation": "Load one projectile, then aim and fire using the compatible engine’s listed actions. The projectile is expended on firing.",
+          "Legacy cost": "3 gp per shot.",
+          "Weight": "20 legacy coin-weight units.",
+          "Source locator": "Colin Davidson, Equipment List (BECMI), PDF p. 4, Siege Ammunition, Scorpio Bolt.",
+          "Conversion notes": "The fan table specifies compatibility, cost, and encumbrance. Damage and range follow the linked 2024-style engine drafts."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:39011b9e2c4145c4": [
+      {
+        "label": "D&D 2024 siege ammunition adaptation · Springal Bolt",
+        "status": "original-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=4",
+        "related_item": {
+          "id": "mystara-fan-names-reference:e5a8c2469d03473d",
+          "label": "View compatible siege engine"
+        },
+        "fields": {
+          "Compatibility": "Springal.",
+          "Damage": "4d10 Piercing.",
+          "Range": "120/480 feet. Respect the engine’s minimum range.",
+          "Attack bonus": "Use the engine’s fixed attack modifier.",
+          "Activation": "Load one projectile, then aim and fire using the compatible engine’s listed actions. The projectile is expended on firing.",
+          "Legacy cost": "3 gp per shot.",
+          "Weight": "30 legacy coin-weight units.",
+          "Source locator": "Colin Davidson, Equipment List (BECMI), PDF p. 4, Siege Ammunition, Springal Bolt.",
+          "Conversion notes": "The fan table specifies compatibility, cost, and encumbrance. Damage and range follow the linked 2024-style engine drafts."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:6fefb09ae4a5eeb5": [
+      {
+        "label": "D&D 2024 siege ammunition adaptation · Normal Catapult Shot",
+        "status": "original-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=4",
+        "related_item": {
+          "id": "mystara-fan-names-reference:90f0660080e2f171",
+          "label": "View compatible siege engine"
+        },
+        "fields": {
+          "Compatibility": "Light Catapult, Heavy Catapult, or stone-firing Springal.",
+          "Damage": "4d10 Bludgeoning from Light Catapult or Springal, or 5d10 from Heavy Catapult.",
+          "Range": "200/800 feet for Light Catapult, 250/1,000 feet for Heavy Catapult, or 110/470 feet for Springal. Respect the engine’s minimum range.",
+          "Attack bonus": "Use the engine’s fixed attack modifier.",
+          "Activation": "Load one projectile, then aim and fire using the compatible engine’s listed actions. The projectile is expended on firing.",
+          "Legacy cost": "5 gp per shot.",
+          "Weight": "30 legacy coin-weight units.",
+          "Source locator": "Colin Davidson, Equipment List (BECMI), PDF p. 4, Siege Ammunition, Normal Catapult Shot.",
+          "Conversion notes": "The fan table specifies compatibility, cost, and encumbrance. Damage and range follow the linked 2024-style engine drafts."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:2b86672a59105422": [
+      {
+        "label": "D&D 2024 siege ammunition adaptation · Normal Trebuchet Shot",
+        "status": "original-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=4",
+        "related_item": {
+          "id": "mystara-fan-names-reference:cbdec1181e82f8a0",
+          "label": "View compatible siege engine"
+        },
+        "fields": {
+          "Compatibility": "Counterweight Trebuchet or Traction Trebuchet.",
+          "Damage": "8d10 Bludgeoning from Counterweight Trebuchet or 6d10 from Traction Trebuchet.",
+          "Range": "300/1,200 feet for Counterweight Trebuchet or 250/1,000 feet for Traction Trebuchet. Respect the engine’s minimum range.",
+          "Attack bonus": "Use the engine’s fixed attack modifier.",
+          "Activation": "Load one projectile, then aim and fire using the compatible engine’s listed actions. The projectile is expended on firing.",
+          "Legacy cost": "6 gp per shot.",
+          "Weight": "60 legacy coin-weight units.",
+          "Source locator": "Colin Davidson, Equipment List (BECMI), PDF p. 4, Siege Ammunition, Normal Trebuchet Shot.",
+          "Conversion notes": "The fan table specifies compatibility, cost, and encumbrance. Damage and range follow the linked 2024-style engine drafts."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:39ebd1a27ac70e77": [
+      {
+        "label": "D&D 2024 siege ammunition adaptation · Pitch Shot",
+        "status": "original-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=4",
+        "related_item": {
+          "id": "mystara-fan-names-reference:90f0660080e2f171",
+          "label": "View compatible siege engine"
+        },
+        "fields": {
+          "Compatibility": "Light or Heavy Catapult, Counterweight or Traction Trebuchet.",
+          "Damage": "Use the engine’s normal damage dice, dealing Fire instead of Bludgeoning.",
+          "Range": "Use the engine’s normal, long, and minimum range. Respect the engine’s minimum range.",
+          "Attack bonus": "Use the engine’s fixed attack modifier.",
+          "Activation": "Load one projectile, then aim and fire using the compatible engine’s listed actions. The projectile is expended on firing.",
+          "Legacy cost": "25 gp per shot.",
+          "Weight": "30 legacy coin-weight units.",
+          "Source locator": "Colin Davidson, Equipment List (BECMI), PDF p. 4, Siege Ammunition, Pitch Shot.",
+          "Conversion notes": "The fan table specifies compatibility, cost, and encumbrance. Damage and range follow the linked 2024-style engine drafts. The damage-type substitution is a DM-review conversion. It has no automatic splash or ongoing damage."
+        }
+      }
+    ],
     "mystara-fan-names-reference:fa2665b9013c078e": [
       {
         "label": "D&D 2024 adaptation · Atlatl",

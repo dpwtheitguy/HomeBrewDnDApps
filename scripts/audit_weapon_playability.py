@@ -211,6 +211,21 @@ def audit_row(item, all_items, profiles, game, curated, exact, prices, legacy_ga
                 or not (provenance.get('original_publication_verified') or source_reviewed)):
             errors.append('documented reference needs verified provenance and explicit tabletop use')
             gaps.append('verify the documented reference role')
+    elif kind == 'siege-engine':
+        evidence = 'item-specific-siege-draft'
+        entries = [entry for entry in curated.get(item_id, [])
+                   if entry.get('profile_kind') == kind and entry.get('status') == 'original-draft']
+        detail = entries[0].get('fields', {}) if len(entries) == 1 else {}
+        required = ('Object', 'Armor class', 'Hit points', 'Damage', 'Attack bonus', 'Range',
+                    'Activation', 'Ammunition', 'Source locator', 'Conversion notes')
+        ammunition_id = entries[0].get('related_item', {}).get('id') if len(entries) == 1 else None
+        if not all(detail.get(key) for key in required) or (
+                all_items.get(ammunition_id, {}).get('type') != 'ammunition'):
+            errors.append('siege draft needs defenses, attack, operation, and linked ammunition')
+        fields = {field: detail.get(label) for field, label in (
+            ('damage', 'Damage'), ('range', 'Range'), ('attack_bonus', 'Attack bonus'),
+            ('activation', 'Activation'))}
+        gaps.append('item-specific siege draft requires DM review')
     elif kind == 'custom-2024-draft':
         evidence = 'item-specific-draft'
         if len(custom) != 1 or not all(custom[0].get(key) for key in ('Damage', 'Range', 'Activation')):
@@ -305,7 +320,6 @@ def audit_row(item, all_items, profiles, game, curated, exact, prices, legacy_ga
             'launcher': ['verify launcher compatibility and projectile effects'],
             'weapon-upgrade': ['verify eligible base weapons and upgrade mechanics'],
             'reference-object': ['review whether record belongs under weapons'],
-            'siege-engine': ['siege attack needs damage, range and activation'],
         }.get(kind, []))
     if (item['source_id'] == 'open5e-srd-2024' and name.startswith(('Defender (', 'Flame Tongue '))
             and source_weapon and is_ranged_weapon(mechanics)):
@@ -326,9 +340,10 @@ def audit_row(item, all_items, profiles, game, curated, exact, prices, legacy_ga
 def audit(catalog):
     database_uri = (catalog / 'indexes/items.sqlite3').resolve().as_uri() + '?mode=ro'
     with sqlite3.connect(database_uri, uri=True) as database:
-        items = {item['id']: item for item in map(json.loads, (
-            raw for (raw,) in database.execute("SELECT data_json FROM items WHERE type='weapon'")
+        indexed = {item['id']: item for item in map(json.loads, (
+            raw for (raw,) in database.execute("SELECT data_json FROM items WHERE type IN ('weapon', 'ammunition')")
         ))}
+    items = {item_id: item for item_id, item in indexed.items() if item['type'] == 'weapon'}
     profiles = load(catalog, 'weapon-profiles-2024')['records']
     game = load(catalog, 'bg3-weapon-rules')
     curated = load(catalog, 'curated-item-details')['records']
@@ -345,7 +360,7 @@ def audit(catalog):
     enhancements = load(catalog, 'core-enhancement-cross-references') if (
         catalog / 'supplements/core-enhancement-cross-references.json').is_file() else {}
     rows = [
-        audit_row(item, items, profiles, game, curated, exact, prices, legacy_game, availability, enhancements.get('records', {}), enhancements.get('plain', {}))
+        audit_row(item, indexed, profiles, game, curated, exact, prices, legacy_game, availability, enhancements.get('records', {}), enhancements.get('plain', {}))
         for item in sorted(items.values(), key=lambda item: (item['source_id'], item['name'].casefold(), item['id']))
     ]
     orphaned = sorted(profiles.keys() - items.keys())
