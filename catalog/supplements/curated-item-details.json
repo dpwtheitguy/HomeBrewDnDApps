@@ -1,6 +1,267 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:9ae2f00bba5dc369": [
+      {
+        "label": "D&D 2024 adaptation · The Butcher",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/UniqueMagicSwords2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 Slashing + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "6 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required to use the freed blade’s magic",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "The listed +3 is the freed blade’s profile. While the sword’s curse remains, apply a −2 penalty to its attack and damage rolls instead. The curse takes hold on first grasp, even without attunement. The chain occupies that hand and prevents you from willingly dropping or being disarmed of the sword. You still need two hands to attack.",
+          "Conversion notes": "Caps the source’s freed +5 at +3 and softens its initial −5. The original describes a campaign-specific way to break the curse, which this adaptation leaves to the DM.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 5, PDF p. 2.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Curse": "Remove Curse releases the wielder and ends any attunement. This releases the grip without permanently cleansing the blade. Once the DM’s story condition cleanses the weapon, it becomes a +3 Greatsword and deals an extra 2d6 Slashing on a hit against a Human."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:3f676c7b16bc61ce": [
+      {
+        "label": "D&D 2024 adaptation · Moon of Makistan",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/UniqueMagicSwords2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Slashing + Strength modifier + 2 by day or + 3 at night.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee",
+          "Properties": "One-handed. Can also be held in two hands with the same damage die.",
+          "Mastery": "Sap",
+          "Weight": "2 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "This blade is immune to damage. It deals 1d10 Slashing with one or two hands. At night its enhancement is +3 instead of +2. Under a full moon at night it also deals an extra 1d8 Radiant damage on a hit.",
+          "Conversion notes": "Uses a Longsword comparison with the source’s larger one-handed die. The legacy night and full-moon bonuses are capped at +3. Uses a fixed 30-foot limit for the flying blade.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 5, PDF p. 2.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Flying attack": "Up to three times per dawn after attacking a creature with the sword, you can launch it at that creature as a Bonus Action. The sword hovers and makes one melee attack against the creature, using your attack and damage modifiers, at the end of each of your next three turns if the creature is within 30 feet of you. It returns after the third turn, when the target drops to 0 Hit Points, when the target moves out of range, or when you recall it as a Bonus Action. If your hand is full it lands at your feet. You cannot attack with the sword while it flies."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:361378df5bac7bf7": [
+      {
+        "label": "D&D 2024 adaptation · King Ericall's Sword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/UniqueMagicSwords2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required by King Ericall",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "The blade can store up to five combined spell levels. A creature can cast a level 1–5 spell into the sword by touching it during casting. A spell that would exceed capacity is expended with no effect. Ericall can cast a stored spell using its normal casting time, the original caster’s spellcasting statistics, and his own Concentration. The spell then leaves the sword. Up to three times per dawn when Ericall hits with it, add 3d8 Slashing damage.",
+          "Conversion notes": "Uses a 2024 Longsword and the spell-level capacity model of the Ring of Spell Storing. Extra dice replace the printed damage multiplier.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 5, PDF p. 3.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Blood link": "As a Bonus Action, Ericall can call the sword into an empty hand from anywhere on the same plane. The sword deals no damage to Ericall. The DM decides what happens to the blood link after his death."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:1965052ef5ef7ef3": [
+      {
+        "label": "D&D 2024 adaptation · Purple Lotus",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/UniqueMagicSwords2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Force (1d10 in two hands) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required by an Ethereal creature or an Undead with Incorporeal Movement",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Only a qualifying creature can hold the weapon. It glows purple, shedding Dim Light in a 5-foot radius. Its normal attack can hit a corporeal creature as well as an incorporeal one, provided the target is within reach and the wielder can perceive it. Its weapon damage is Force.",
+          "Conversion notes": "Force damage replaces the source’s blanket immunity bypass. The base enhancement is capped at +3. This draft permits the sword’s attack across the Ethereal boundary when the wielder can perceive the target.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 5, PDF p. 3.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:108b9886e3485bea": [
+      {
+        "label": "D&D 2024 adaptation · Sinir",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/UniqueMagicSwords2.pdf",
+        "related_item": {
+          "id": "mystara-fan-names-reference:311df78cbb926b70",
+          "label": "View Desir"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "While paired, you can transfer up to 3 points of Sinir’s enhancement to AC at the start of your turn. Reduce the bonus to Sinir’s attack and damage by the same amount until the start of your next turn. You must keep holding both swords to retain the AC benefit. While paired you can also cast Cure Wounds at level 2, See Invisibility, or Detect Magic. Each spell is usable three times per dawn. Use the usual casting time and a +3 spellcasting ability modifier.",
+          "Conversion notes": "The draft uses Light Shortswords for the pair. The AC transfer and spell versions translate the legacy defense and healing. The shared extra dice replace double damage.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 5, PDF p. 4.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Twin swords": "While you hold Sinir in your left hand and Desir in your right and are attuned to both, each sword’s enhancement becomes +3. The listed paired powers also activate. Once per turn when you hit the same creature with both blades, roll 1d20. On a 20 the second hit deals an extra 2d6 damage of its weapon type.",
+          "2024 weapon baseline": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Shortsword"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:311df78cbb926b70": [
+      {
+        "label": "D&D 2024 adaptation · Desir",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/UniqueMagicSwords2.pdf",
+        "related_item": {
+          "id": "mystara-fan-names-reference:108b9886e3485bea",
+          "label": "View Sinir"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "While paired, cast Levitate on yourself as a Magic action up to three times per dawn. Also while paired, up to three times per dawn on a hit, deal an extra 1d6 Thunder and force a Medium or smaller target to make a DC 16 Strength save. On a failure push it up to 20 feet away. If the push is stopped by a solid surface, it takes 1d6 Bludgeoning. Separately, up to three times per dawn as a Bonus Action, awaken a wind edge for up to 3 rounds. The first hit on each of your turns during that effect deals an extra 1d6 Thunder.",
+          "Conversion notes": "The draft uses Light Shortswords for the pair. Fixed extra damage replaces the temporary +6 weapon enhancement.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 5, PDF p. 4.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Twin swords": "While you hold Sinir in your left hand and Desir in your right and are attuned to both, each sword’s enhancement becomes +3. The listed paired powers also activate. Once per turn when you hit the same creature with both blades, roll 1d20. On a 20 the second hit deals an extra 2d6 damage of its weapon type.",
+          "2024 weapon baseline": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Shortsword"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:20cb690236a708c8": [
+      {
+        "label": "D&D 2024 adaptation · Sesska the Ripper",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/UniqueMagicSwords2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "When you hit a creature that can bleed, it makes a DC 17 Constitution save. On failure it takes 1d4 Necrotic damage at the start of each of its turns for up to 1 minute. It repeats the save at the end of each of those turns, ending the effect on a success. Magical healing also ends the wound. Repeated hits do not stack.",
+          "Conversion notes": "Uses the 2024 Longsword. A single wound with repeat saves replaces the stacking wounds. The legacy alignment and experience penalties become a curse.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 5, PDF p. 5.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Curse": "Attuning curses you. You are unwilling to part with the sword. Whenever you use it to reduce a creature to 0 Hit Points, make a DC 17 Wisdom save. On failure you cannot willingly sheathe or set down the sword until the end of your next turn. Remove Curse ends attunement."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:b475eb3bec9da713": [
+      {
+        "label": "D&D 2024 adaptation · Safir",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/UniqueMagicSwords2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "While holding Safir you have Immunity to Lightning damage. A hit adds 1d6 Lightning damage. You have Advantage on Charisma checks to influence Blue Dragons. Against a Blue Dragon, the sword can reduce a target to 0 Hit Points only by knocking it out under the 2024 rules.",
+          "Conversion notes": "Uses the 2024 Longsword and the Blue Dragon Wyrmling as the transformation baseline. The nonlethal rule replaces legacy subdual damage.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 5, PDF p. 6.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Dragon form": "Once per dawn, take a Magic action to transform the sword into a Blue Dragon Wyrmling for up to 10 minutes while you maintain Concentration. It appears in an unoccupied space within 5 feet of you, acts immediately after you, and follows your verbal commands without an action. It Dodges if given no command. It uses the published stat block, except it can use its breath only once per transformation. At the end it becomes a sword in its space. If it drops to 0 Hit Points, it also reverts and cannot transform again for 30 days."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:5d7f650a247b9562": [
+      {
+        "label": "D&D 2024 adaptation · Vengeance",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/UniqueMagicSwords2.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Once in the sword’s existence when you hit a creature, you may invoke Annihilation. Both you and the target make DC 19 Charisma saves. Each creature that fails vanishes into an extradimensional void for 1 minute and is Incapacitated while there. When it returns, it takes 10d10 Force damage and appears in its previous space or the nearest unoccupied space. The power is then expended permanently.",
+          "Conversion notes": "Replaces irreversible erasure and rewritten history with a save-based encounter effect. The original fate can serve as a DM-controlled story event.",
+          "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 5, PDF p. 5.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
     "mystara-fan-names-reference:643a32f128416154": [
       {
         "label": "D&D 2024 adaptation · Volcano Flail",

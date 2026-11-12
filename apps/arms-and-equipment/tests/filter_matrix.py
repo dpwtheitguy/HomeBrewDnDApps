@@ -1871,6 +1871,23 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Mystara named swords show twin powers, spell storage, and flight': '''(async () => {
+                    for (const [id, terms] of [
+                        ["3f676c7b16bc61ce", ["1d10 Slashing", "Flying attack", "next three turns"]],
+                        ["361378df5bac7bf7", ["five combined spell levels", "Blood link", "3d8 Slashing"]],
+                        ["1965052ef5ef7ef3", ["Incorporeal Movement", "1d8 Force"]],
+                        ["108b9886e3485bea", ["Twin swords", "transfer up to 3", "View Desir"]],
+                        ["311df78cbb926b70", ["DC 16 Strength", "Levitate", "View Sinir"]],
+                        ["b475eb3bec9da713", ["Blue Dragon Wyrmling", "Immunity to Lightning", "30 days"]],
+                    ]) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Mystara unique weapons show hazards, malfunction, and curses': '''(async () => {
                     for (const [id, terms] of [
                         ["643a32f128416154", ["30-foot-radius Cylinder", "6d6 Fire", "one year"]],
