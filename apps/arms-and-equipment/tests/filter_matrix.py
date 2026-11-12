@@ -542,6 +542,18 @@ def main():
                     return ["DM review", "300 ft", "See Invisibility", "2d6 Force"].every(value => spear.includes(value))
                         && ["DM review", "DC 16 Wisdom", "Geas", "Remove Curse"].every(value => sword.includes(value));
                 })()''',
+                'Mystara staffs show charges and the planar aura': '''(async () => {
+                    inspect("gazetteer-local-pdf-reference:0327b74e1c90da05", grid.firstElementChild);
+                    await itemDetails;
+                    const wizardry = inspection.textContent;
+                    inspect("gazetteer-local-pdf-reference:1b722f9aeb985909", grid.firstElementChild);
+                    await itemDetails;
+                    const water = inspection.textContent;
+                    return ["DM review", "20 charges", "Wall of Force", "156,200 ducats"]
+                        .every(value => wizardry.includes(value)) &&
+                        ["DM review", "Swim Speed", "within 10 ft", "Pearl of Power"]
+                            .every(value => water.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

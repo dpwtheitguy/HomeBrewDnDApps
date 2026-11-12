@@ -3145,6 +3145,128 @@
           "label": "Open 2024 base equipment"
         }
       }
+    ],
+    "gazetteer-local-pdf-reference:0327b74e1c90da05": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#StaffofPower",
+        "fields": {
+          "Category": "Very Rare staff and simple melee weapon",
+          "Damage": "1d6 Bludgeoning one-handed or 1d8 two-handed, plus 2 and Strength modifier.",
+          "Range": "5 ft melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Attunement": "Required by a Wizard.",
+          "Activation": "Make a normal staff attack, or cast one listed spell while holding the staff and spending its charge cost. Use the spell’s normal casting time, range, duration, and Concentration rules.",
+          "Attack bonus": "+2 to staff attack and damage rolls.",
+          "Spellcasting": "Magic Missile (1 charge), Dispel Magic (3), Fireball (3), or Wall of Force (5). Use your spellcasting ability and save DC. Cast at the spell’s base level without expending a spell slot or providing components.",
+          "Charges": "20 charges. Regain 2d8 + 4 expended charges at dawn, up to 20.",
+          "Legacy source": "GAZ3, p. 66, Generic List of Enchantment Costs. 156,200 ducats, 164 days, and twenty rechargeable charges.",
+          "Conversion notes": "The Gazetteer table specifies the crafting figures and charges. The combat bonus, recharge rate, and selected spells use Staff of Power as a 2024 benchmark."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff-plus-2",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:1b722f9aeb985909": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#WaterBreathing",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning one-handed or 1d8 two-handed, plus Strength modifier.",
+          "Range": "5 ft melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Attunement": "Required",
+          "Activation": "Make a normal staff attack. While holding the staff and attuned, its breathing and movement effects are active.",
+          "Special powers": "You can breathe water and gain a Swim Speed equal to your Speed. On the Elemental Plane of Water, those benefits also apply to each creature of your choice within 10 ft of you. A creature loses the shared benefit when it leaves the area.",
+          "Legacy source": "GAZ9, p. 42, Relic Crafts. The staff uses three Pearl of Power fragments. The water elves may grant it for a significant quest.",
+          "Conversion notes": "Use Quarterstaff combat rules. Swim Speed expresses the legacy underwater movement effect. The shared radius follows the source and applies on the Elemental Plane of Water."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:ec0e000992956c3b": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#DispelMagic",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning one-handed or 1d8 two-handed, plus Strength modifier.",
+          "Range": "5 ft melee; 120 ft for Dispel Magic.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Attunement": "Required by a spellcaster.",
+          "Activation": "Make a normal staff attack, or use a Magic action while holding the staff and expend 1 charge to cast Dispel Magic at level 3.",
+          "Charges": "3 charges. Regain 1d3 spent charges at dawn.",
+          "Special powers": "For effects above level 3, make the normal Dispel Magic ability check using your spellcasting ability.",
+          "Legacy source": "GAZ8, p. 33, Halflings, Heroes and Highwayhin. Marintor Treeshadow carries the staff. The Gazetteer gives its name without a spell or charge procedure.",
+          "Conversion notes": "The spell, charges, and attunement are 2024 design choices for this Gazetteer appearance."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:df82c3a46d43cb42": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing plus Strength or Dexterity modifier.",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Activation": "Make a normal dagger attack.",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Attunement": "Set by the DM if an enchantment is assigned.",
+          "Special powers": "Use the standard Dagger profile until the DM assigns any magic. The mithril blade and bone grip describe its construction.",
+          "Legacy source": "GAZ11, p. 57, The Eagle’s Talons. Sahlynda offers the dagger for help escaping. The referee determines its magic."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 base equipment"
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:14d9b22869e93450": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Bludgeoning plus Strength modifier.",
+          "Range": "5 ft melee",
+          "Activation": "Make a normal melee weapon attack with one bludgeon.",
+          "Properties": "Light",
+          "Mastery": "Slow",
+          "Attunement": "None",
+          "Special powers": "Each bludgeon occupies one hand while in use. Use the normal Light weapon rules when wielding a pair.",
+          "Legacy source": "GAZ8, p. 25, Malaric, Lord Caine. Caine conceals these alongside daggers while wearing a court rapier openly.",
+          "Conversion notes": "The source gives no construction or attack details. The Club profile represents a compact hand-held bludgeon."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 base equipment"
+        }
+      }
     ]
   }
 }
