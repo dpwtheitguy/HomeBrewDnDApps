@@ -1871,6 +1871,23 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Mystara Treasures of Sind and unique weapons show their linked powers': '''(async () => {
+                    for (const [id, terms] of [
+                        ["2898c2823ac08f1e", ["within 30 feet", "maximum of +3 total", "Paralyzed", "secret passage"]],
+                        ["7fbf7ab893d2342a", ["move from attack and damage to AC", "Verbal spell components"]],
+                        ["5a6ca62b0c44ef1b", ["See Invisibility", "double up to five", "spellcaster"]],
+                        ["9b15c60abfc81427", ["Levitate", "3d10 Slashing"]],
+                        ["eac188cc4baf0e32", ["Construct", "Earthquake", "share one use"]],
+                        ["0a89f808e4609f9f", ["Young Red Dragon", "8d6 Fire"]],
+                    ]) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Mystara weapon variants show distinct reload, ammunition, and grip rules': '''(async () => {
                     for (const [id, terms] of [
                         ["9af1fe16a5a60878", ["90/270 feet", "two Utilize actions", "nonmagical Medium or Heavy armor"]],

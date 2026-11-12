@@ -1,6 +1,239 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:2898c2823ac08f1e": [
+      {
+        "label": "D&D 2024 adaptation · Crossbow of the Treasures of Sind",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_weapons.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_light-crossbow",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple ranged weapon",
+          "Damage": "1d8 Piercing + Dexterity modifier + 1.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "80/320 feet",
+          "Properties": "Ammunition (bolt), Loading, Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "5 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "As a Magic action, learn whether there is a secret passage within 30 feet and its direction from you. On a hit against a creature, up to three times per day, force a DC 16 Wisdom save. On failure its Speed is halved and it cannot take Reactions until the end of its next turn.",
+          "Conversion notes": "The legacy set reaches +4. This draft caps the enhancement at +3, rounds 9 meters to 30 feet, and requires active wielders. Recalculate when the treasures move. The source leaves crossbow size open. This draft uses a Light Crossbow and limits slowing to one target.",
+          "Source locator": "Emanuele Betti, Unique Magic Weapons of Mystara, Vol. 2, PDF pp. 11–12.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Treasures of Sind set": "While holding this treasure, add +1 to its enhancement for each other distinct Treasure of Sind within 30 feet of it that is held by an attuned creature, to a maximum of +3 total. The secret power is available only while all four treasures are held by their attuned wielders and each is within 30 feet of the others. Each listed power regains all uses at dawn.",
+          "Secret power": "On a hit against a Humanoid, force a DC 16 Wisdom save, up to three times per day. On failure it is Paralyzed for up to 1 minute while you maintain Concentration. It repeats the save at the end of each of its turns. Choose either this power or the slowing effect for a hit."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:7fbf7ab893d2342a": [
+      {
+        "label": "D&D 2024 adaptation · Mace of the Treasures of Sind",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_weapons.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "4 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "At the start of your turn choose how much of the current enhancement to move from attack and damage to AC. The split lasts until the start of your next turn and the AC benefit requires holding the mace. As a Magic action, cast Detect Magic from it up to three times per day.",
+          "Conversion notes": "The legacy set reaches +4. This draft caps the enhancement at +3, rounds 9 meters to 30 feet, and requires active wielders. Recalculate when the treasures move. The defense split applies to both attack and damage and cannot exceed the current enhancement.",
+          "Source locator": "Emanuele Betti, Unique Magic Weapons of Mystara, Vol. 2, PDF pp. 11–12.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Treasures of Sind set": "While holding this treasure, add +1 to its enhancement for each other distinct Treasure of Sind within 30 feet of it that is held by an attuned creature, to a maximum of +3 total. The secret power is available only while all four treasures are held by their attuned wielders and each is within 30 feet of the others. Each listed power regains all uses at dawn.",
+          "Secret power": "Up to three times per day when you hit a creature, force a DC 16 Constitution save. On failure it cannot speak or provide Verbal spell components for up to 1 minute. It repeats the save at the end of each of its turns."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:5a6ca62b0c44ef1b": [
+      {
+        "label": "D&D 2024 adaptation · Staff of the Treasures of Sind",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_weapons.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required by a spellcaster",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "As a Magic action, cast See Invisibility, up to three times per day. As a separate Magic action, choose a willing creature you can see within 30 feet. For 10 minutes you and the creature can exchange thoughts while within 30 feet if you share a language. Use this link up to three times per day.",
+          "Conversion notes": "The legacy set reaches +4. This draft caps the enhancement at +3, rounds 9 meters to 30 feet, and requires active wielders. Recalculate when the treasures move. The telepathy becomes a voluntary two-way link. The secret power is capped for 2024 spell balance.",
+          "Source locator": "Emanuele Betti, Unique Magic Weapons of Mystara, Vol. 2, PDF pp. 11–12.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Treasures of Sind set": "While holding this treasure, add +1 to its enhancement for each other distinct Treasure of Sind within 30 feet of it that is held by an attuned creature, to a maximum of +3 total. The secret power is available only while all four treasures are held by their attuned wielders and each is within 30 feet of the others. Each listed power regains all uses at dawn.",
+          "Secret power": "Once per day, when you cast a spell that rolls damage or healing, double up to five of its dice for one target on the first applicable roll. Roll those additional dice once. Flat modifiers and later rolls are unchanged."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:9b15c60abfc81427": [
+      {
+        "label": "D&D 2024 adaptation · Halberd of the Treasures of Sind",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_weapons.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_halberd",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Slashing + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Cleave",
+          "Weight": "6 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "As a Magic action, cast Detect Evil and Good up to three times per day. Separately, cast Levitate on yourself up to three times per day. Levitate requires Concentration and lasts up to 3 minutes.",
+          "Conversion notes": "The legacy set reaches +4. This draft caps the enhancement at +3, rounds 9 meters to 30 feet, and requires active wielders. Recalculate when the treasures move. The slicing effect replaces the legacy death save and triple damage with a critical-hit rider.",
+          "Source locator": "Emanuele Betti, Unique Magic Weapons of Mystara, Vol. 2, PDF pp. 11–12.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Treasures of Sind set": "While holding this treasure, add +1 to its enhancement for each other distinct Treasure of Sind within 30 feet of it that is held by an attuned creature, to a maximum of +3 total. The secret power is available only while all four treasures are held by their attuned wielders and each is within 30 feet of the others. Each listed power regains all uses at dawn.",
+          "Secret power": "Once per day when you score a critical hit, deal an additional 3d10 Slashing damage. Roll these dice once after resolving the normal critical hit."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:c276dcc47b3f6415": [
+      {
+        "label": "D&D 2024 adaptation · Axe of Lyran",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_weapons.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_battleaxe",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Against a Plant or an Elf, add a further +1 to attack and damage rolls, for a total +3 enhancement. Once every seven days, take a Magic action to cast Dispel Magic at level 5 with a +5 ability check modifier. Alternatively, touch a non-artifact magic item to suppress its magical properties for 1 minute. The axe keeps its powers.",
+          "Conversion notes": "Uses the 2024 Battleaxe and caps the enhancement at +3. Temporary suppression replaces permanent magic-item destruction. Dispel Magic handles ongoing spells under 2024 rules.",
+          "Source locator": "Emanuele Betti, Unique Magic Weapons of Mystara, Vol. 2, PDF p. 9.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:5a2d53c1b634b53d": [
+      {
+        "label": "D&D 2024 adaptation · Aethereal Bow",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_weapons.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortbow",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple ranged weapon",
+          "Damage": "1d6 Piercing + Dexterity modifier + 2.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "80/320 feet",
+          "Properties": "Ammunition (arrow), Two-Handed",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Add a further +1 to attack and damage against a creature on the Ethereal or Astral Plane that you can perceive, or a creature with Incorporeal Movement. Arrows can hit a target on either plane if you can perceive it and the target is within the listed range as measured from your location. Ordinary ammunition, cover, and range penalties still apply.",
+          "Conversion notes": "Uses the 2024 Shortbow. The draft caps the enhancement at +3 and represents unseen arrows through cross-planar targeting. It gives no universal AC penalty.",
+          "Source locator": "Emanuele Betti, Unique Magic Weapons of Mystara, Vol. 2, PDF p. 19.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:eac188cc4baf0e32": [
+      {
+        "label": "D&D 2024 adaptation · Maul of the Ram",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_weapons.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_maul",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 Bludgeoning + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Topple",
+          "Weight": "10 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "A hit against a Construct deals an extra 2d6 Bludgeoning damage. Once per dawn, choose one of two powers. As a Bonus Action, awaken Destruction for 1 minute, doubling the weapon’s damage dice on hits against unattended objects or structures. Or as a Magic action, cast Earthquake (DC 18), centered on a point on the ground you can see within 60 feet. The spell uses a 30-foot radius. The two options share one use.",
+          "Conversion notes": "Uses the 2024 Maul. Extra dice replace the legacy +8 versus Constructs and the structural multiplier is reduced. If you hit a sheep, ram, or goat, it takes no damage and you take the weapon’s rolled damage instead.",
+          "Source locator": "Emanuele Betti, Unique Magic Weapons of Mystara, Vol. 2, PDF p. 3.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:0a89f808e4609f9f": [
+      {
+        "label": "D&D 2024 adaptation · Axe of the Wyrm",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_weapons.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_battleaxe",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Use each power once per dawn. As a Magic action, exhale a 30-foot Cone of fire. Each creature makes a DC 18 Dexterity save, taking 8d6 Fire on a failure or half on a success. As a Magic action, gain a Fly Speed of 60 feet for 10 minutes. As a Bonus Action, grow scales that grant +3 AC until the start of your next turn.",
+          "Conversion notes": "Uses the 2024 Battleaxe. Fixed dice, movement, and durations replace legacy hit-point breath and turns. The transformation is a DM-review curse.",
+          "Source locator": "Emanuele Betti, Unique Magic Weapons of Mystara, Vol. 2, PDF p. 17.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Curse": "After using any power, roll 2d6. On a total of 2, the curse transforms you into a Young Red Dragon for 1 hour or until Remove Curse ends the transformation. You gain its physical statistics and attacks, keep your alignment and mental scores, and cannot use the axe or cast spells in the form. Apply 2024 Polymorph’s Temporary Hit Point and reversion rules."
+        }
+      }
+    ],
     "mystara-fan-names-reference:9af1fe16a5a60878": [
       {
         "label": "D&D 2024 adaptation · Arbalest (War Crossbow)",
