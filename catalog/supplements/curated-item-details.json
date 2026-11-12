@@ -1,6 +1,144 @@
 {
   "schema_version": 1,
   "records": {
+    "dndbeyond:7526657": [
+      {
+        "label": "D&D 2024 adaptation · Fate Cutter Shears",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/7526657-fate-cutter-shears",
+        "fields": {
+          "Category": "Simple melee weapon (Dagger) · Very Rare · Requires attunement",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier, plus 1d6 Force on a hit.",
+          "Range": "5 feet melee. Thrown 20/60 feet.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Properties": "Finesse, Light, Thrown.",
+          "Mastery": "Nick.",
+          "Activation": "Attack normally. On a hit against a creature, you can use Sever Threads. This use recharges at dawn.",
+          "Sever Threads": "Until the target finishes a Long Rest, attack rolls against it score a Critical Hit on a natural 19 or 20. This applies to attacks by any attacker.",
+          "Legacy source": "The Book of Many Things, p. 61.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Conversion notes": "Uses 2024 base equipment and action rules while retaining the published item powers."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dndbeyond:7526677": [
+      {
+        "label": "D&D 2024 adaptation · Fool’s Blade",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/7526677-fools-blade",
+        "fields": {
+          "Category": "Any sword · Very Rare · Requires attunement",
+          "Damage": "Base sword damage +2.",
+          "Range": "Use base sword reach. Feint targets within 5 feet. Misdirect triggers on an attacker within 60 feet.",
+          "Attack bonus": "Add +2 to the base sword’s attack roll.",
+          "Mastery": "Use the base sword’s mastery if eligible.",
+          "Activation": "Attack normally. While wielding the sword, use a Bonus Action for Fool’s Feint or a Reaction for Misdirect. Each power recharges separately at dawn.",
+          "Fool’s Feint": "Choose a creature within 5 feet. You have Advantage on attack rolls against it until the start of your next turn.",
+          "Misdirect": "When a creature within 60 feet targets you with an attack roll, force it to make a DC 15 Intelligence save. On a failure, its attack instead targets another creature you choose within its reach.",
+          "Legacy source": "The Book of Many Things, p. 36.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Conversion notes": "Uses 2024 base equipment and action rules while retaining the published item powers."
+        }
+      }
+    ],
+    "dndbeyond:7526701": [
+      {
+        "label": "D&D 2024 adaptation · Glimmering Moonbow",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/7526701-glimmering-moonbow",
+        "fields": {
+          "Category": "Shortbow (Simple) or Longbow (Martial) · Rare · Requires attunement",
+          "Damage": "Shortbow 1d6 Piercing or Longbow 1d8 Piercing, plus Dexterity modifier + 1. Add 1d6 Radiant on a hit.",
+          "Range": "Shortbow 80/320 feet. Longbow 150/600 feet.",
+          "Attack bonus": "+1 plus Dexterity modifier and Proficiency Bonus if proficient.",
+          "Properties": "Ammunition and Two-Handed. Longbow also has Heavy.",
+          "Mastery": "Shortbow Vex. Longbow Slow.",
+          "Activation": "Attack normally. If you load no arrow, the bow creates one as part of the attack. It vanishes immediately after a hit or miss.",
+          "Semi-incorporeal": "While wielding the bow, take a Bonus Action to gain Resistance to Bludgeoning, Piercing, and Slashing until the start of your next turn. Recharges at dawn.",
+          "Legacy source": "The Book of Many Things, p. 36.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Conversion notes": "Uses 2024 base equipment and action rules while retaining the published item powers."
+        }
+      }
+    ],
+    "dndbeyond:7526751": [
+      {
+        "label": "D&D 2024 adaptation · Ruinous Flail",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/7526751-ruinous-flail",
+        "fields": {
+          "Category": "Martial melee weapon (Flail) · Rare · Requires attunement",
+          "Damage": "1d8 Bludgeoning + Strength modifier + 1. The flail deals double damage to objects and structures.",
+          "Range": "5 feet melee.",
+          "Attack bonus": "+1 plus Strength modifier and Proficiency Bonus if proficient.",
+          "Mastery": "Sap.",
+          "Activation": "Attack normally. On a hit against a creature, you can force a DC 15 Constitution save. This power recharges at dawn.",
+          "Poison": "On a failed save, the target is Poisoned for up to 1 minute and takes 2d4 Necrotic damage at the start of each of its turns. It repeats the save at the end of each turn, ending the effect on a success.",
+          "Legacy source": "The Book of Many Things, p. 37.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Conversion notes": "Uses 2024 base equipment and action rules while retaining the published item powers."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_flail",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dndbeyond:7526771": [
+      {
+        "label": "D&D 2024 adaptation · Starshot Crossbow",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/7526771-starshot-crossbow",
+        "fields": {
+          "Category": "Light Crossbow (Simple), Hand Crossbow or Heavy Crossbow (Martial) · Rare · Requires attunement",
+          "Damage": "Hand 1d6 Piercing, Light 1d8 Piercing, Heavy 1d10 Piercing, each plus Dexterity modifier.",
+          "Range": "Hand 30/90 feet. Light 80/320 feet. Heavy 100/400 feet.",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient. No additional attack bonus.",
+          "Properties": "Ignore Loading. Light and Heavy are Two-Handed. Heavy has Heavy. Hand has Light.",
+          "Mastery": "Hand Vex. Light Slow. Heavy Push.",
+          "Activation": "Attack normally. If unloaded, the weapon creates a bolt when you attack. It vanishes after a hit or miss. As a Bonus Action, spend 1 charge to invoke a constellation.",
+          "Balance": "On your next ranged hit against a creature with this weapon before the end of your next turn, you or a creature you choose within 30 feet of you regains 1d8 + Proficiency Bonus Hit Points.",
+          "Flames": "Each ranged hit against a creature with this weapon deals an extra 2d8 Fire damage until the end of your next turn.",
+          "Rogue": "You and anything you wear or carry become Invisible until the end of your next turn.",
+          "Charges": "3 charges. Regain 1d3 expended charges at dawn.",
+          "Legacy source": "The Book of Many Things, p. 38.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Conversion notes": "Uses 2024 base equipment and action rules while retaining the published item powers."
+        }
+      }
+    ],
+    "dndbeyond:7526785": [
+      {
+        "label": "D&D 2024 adaptation · Weapon of Throne’s Command",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/7526785-weapon-of-thrones-command",
+        "fields": {
+          "Category": "Any Martial weapon · Very Rare · Requires attunement",
+          "Damage": "Base weapon damage +1.",
+          "Range": "Use the base weapon’s reach or range. Spells use their own range.",
+          "Attack bonus": "Add +1 to the base weapon’s attack roll.",
+          "Mastery": "Use the base weapon’s mastery if eligible.",
+          "Activation": "Attack normally, or take a Bonus Action and spend charges to cast one listed spell. All spell saves use DC 16.",
+          "Skill training": "You gain proficiency in Intimidation and Persuasion if you lack them.",
+          "Spells": "Command (1 charge), Zone of Truth (2), Compulsion (4), Banishment (4), or Dominate Person (5). Use each spell’s 2024 effect and Concentration rules.",
+          "Charges": "5 charges. Regain 1d4 expended charges at dawn.",
+          "Spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Legacy source": "The Book of Many Things, p. 39.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Conversion notes": "Uses 2024 base equipment and action rules while retaining the published item powers."
+        }
+      }
+    ],
     "dndbeyond:7526775": [
       {
         "label": "D&D 2024 adaptation · Stonemaker War Pick",

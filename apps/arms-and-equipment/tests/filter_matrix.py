@@ -993,6 +993,23 @@ def main():
                     }
                     return true;
                 })()''',
+                'Remaining Book of Many Things weapons show their original effects': '''(async () => {
+                    const cases = [
+                        ["7526657", ["Sever Threads", "natural 19 or 20", "any attacker"]],
+                        ["7526677", ["Fool’s Feint", "DC 15 Intelligence", "separately at dawn"]],
+                        ["7526701", ["1d6 Radiant", "Semi-incorporeal", "Resistance to Bludgeoning"]],
+                        ["7526751", ["double damage", "2d4 Necrotic", "end of each turn"]],
+                        ["7526771", ["Hand 30/90 feet", "Heavy 100/400 feet", "2d8 Fire", "1d3 expended charges"]],
+                        ["7526785", ["Zone of Truth", "Dominate Person", "DC 16", "1d4 expended charges"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dndbeyond:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term)) ||
+                            inspection.textContent.includes("2024 provisional profile")) return false;
+                    }
+                    return true;
+                })()''',
                 'Book of Many Things planar and aquatic weapons show casting details': '''(async () => {
                     const cases = [
                         ["7526775", ["fewer than 100 Hit Points", "1d6 + 1 petrification charges", "8 hours"]],
