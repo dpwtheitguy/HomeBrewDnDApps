@@ -993,6 +993,21 @@ def main():
                     }
                     return true;
                 })()''',
+                'Fizban weapon adaptations keep their variants and powers': '''(async () => {
+                    const cases = [
+                        ["4047184", ["1d8 Radiant", "1d3 expended charges", "Dim Light alone for 10 feet"]],
+                        ["4047200", ["80/320 feet", "150/600 feet", "Vex", "Slow"]],
+                        ["4047212", ["1d10 Piercing", "3d6 Force", "Lance Topple", "Pike Push"]],
+                        ["4047219", ["5d4 damage", "90-foot Cone", "DC 18 Dexterity", "14d6"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dndbeyond:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term)) ||
+                            ![...inspection.querySelectorAll("a")].some(link => link.href.includes("/magic-items/" + id))) return false;
+                    }
+                    return true;
+                })()''',
                 'Phandelver weapon variants show the correct base and powers': '''(async () => {
                     const cases = [
                         ["12482", ["both base weapon dice", "dryads", "Topple"]],

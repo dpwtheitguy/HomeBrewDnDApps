@@ -1,6 +1,88 @@
 {
   "schema_version": 1,
   "records": {
+    "dndbeyond:4047184": [
+      {
+        "label": "D&D 2024 adaptation · Crystal Blade",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/4047184-crystal-blade",
+        "fields": {
+          "Category": "Sword · Rare · Requires attunement",
+          "Damage": "Use the base sword’s damage dice, type, and ability modifier. Each hit also deals 1d8 Radiant.",
+          "Range": "5 feet melee for ordinary 2024 swords. Use the selected sword’s normal reach.",
+          "Attack bonus": "Use the base sword’s attack modifier. No additional attack bonus.",
+          "Mastery": "Use the selected sword’s mastery if eligible.",
+          "Activation": "Attack normally. After hitting a creature, you can spend 1 charge to heal. While holding the blade, take a Bonus Action to change its light.",
+          "Healing": "Regain Hit Points equal to the extra Radiant damage dealt. The blade has 3 charges and regains 1d3 expended charges at dawn.",
+          "Light": "Choose Bright Light for 30 feet plus 30 more feet of Dim Light, Dim Light alone for 10 feet, or no light.",
+          "Conversion notes": "Keeps the original powers. Select a 2024 sword for its weapon dice, properties, and mastery.",
+          "Legacy source": "Fizban’s Treasury of Dragons, chapter 2, p. 22.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dndbeyond:4047200": [
+      {
+        "label": "D&D 2024 adaptation · Dragon Wing Bow",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/4047200-dragon-wing-bow",
+        "fields": {
+          "Category": "Shortbow (Simple) or Longbow (Martial) · Rare · Requires attunement",
+          "Damage": "Shortbow 1d6 Piercing or Longbow 1d8 Piercing, plus Dexterity modifier. Each hit also deals 1d6 of the bow’s infused damage type.",
+          "Range": "Shortbow 80/320 feet. Longbow 150/600 feet.",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient. No additional attack bonus.",
+          "Properties": "Ammunition and Two-Handed for both bows. Longbow also has Heavy.",
+          "Mastery": "Shortbow Vex. Longbow Slow.",
+          "Activation": "Attack normally. If the bow has no loaded ammunition, it creates a piece as you draw. The created ammunition vanishes on a hit or miss.",
+          "Infused damage": "Use the type associated with the bow’s draconic breath: Acid, Cold, Fire, Force, Lightning, Necrotic, Poison, Psychic, Radiant, or Thunder.",
+          "Conversion notes": "Keeps the original infusion and uses the two standard 2024 bow profiles.",
+          "Legacy source": "Fizban’s Treasury of Dragons, chapter 2, p. 23.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dndbeyond:4047212": [
+      {
+        "label": "D&D 2024 adaptation · Dragonlance",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/4047212-dragonlance",
+        "fields": {
+          "Category": "Martial melee weapon (Lance or Pike) · Legendary · Requires attunement",
+          "Damage": "1d10 Piercing + Strength modifier + 3. A hit against a Dragon deals an extra 3d6 Force.",
+          "Range": "10 feet melee with Reach.",
+          "Attack bonus": "+3 plus Strength modifier and Proficiency Bonus if proficient.",
+          "Properties": "Heavy and Reach. Pike is Two-Handed. Lance is Two-Handed unless mounted.",
+          "Mastery": "Lance Topple. Pike Push.",
+          "Activation": "Attack normally. After hitting a Dragon, choose a Dragon you can see within 30 feet of you. It may immediately take a Reaction to make a melee attack.",
+          "Conversion notes": "Uses the 2024 Lance and Pike profiles. The chosen Dragon uses its own attack rules.",
+          "Legacy source": "Fizban’s Treasury of Dragons, chapter 2, p. 23.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dndbeyond:4047219": [
+      {
+        "label": "D&D 2024 adaptation · Flail of Tiamat",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/4047219-flail-of-tiamat",
+        "fields": {
+          "Category": "Martial melee weapon (Flail) · Legendary · Requires attunement",
+          "Damage": "1d8 Bludgeoning + Strength modifier + 3. On a hit, add 5d4 damage of one type you choose: Acid, Cold, Fire, Lightning, or Poison.",
+          "Range": "5 feet melee. Breath covers a 90-foot Cone.",
+          "Attack bonus": "+3 plus Strength modifier and Proficiency Bonus if proficient.",
+          "Mastery": "Sap.",
+          "Activation": "Attack normally, or while holding the flail take a Magic action and speak its command word to use the breath. The breath recharges at dawn.",
+          "Breath": "Choose Acid, Cold, Fire, Lightning, or Poison. Each creature in the cone makes a DC 18 Dexterity save, taking 14d6 of that type on a failure or half on a success.",
+          "Conversion notes": "Uses the 2024 Flail and Magic action while keeping the published attack and breath effects.",
+          "Legacy source": "Fizban’s Treasury of Dragons, chapter 2, p. 23.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
     "dndbeyond:12482": [
       {
         "label": "D&D 2024 adaptation · Hew",
