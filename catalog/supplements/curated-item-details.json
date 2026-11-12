@@ -1,6 +1,139 @@
 {
   "schema_version": 1,
   "records": {
+    "gaz13-online-adaptation-reference:96fc2dbf2becea08": [
+      {
+        "label": "2024 armor mapping · Chain Mail +1",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "source": "https://heroes.mystara.net/selenica/others/shadow/gaz13_dm.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "fields": {
+          "Source locator": "GAZ13 1995 TSR online adaptation, Maflarel; Zindar, NPC Notes.",
+          "Original item context": "Maflarel conceals a +1 suit beneath his smock. Zindar wears a battered +1 suit. Their other equipment is separate.",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "None",
+          "Rarity": "Rare",
+          "Conversion notes": "Uses the published 2024 enhancement. The cited occurrence is from the TSR online adaptation.",
+          "Armor class": "17",
+          "Special powers": "Adds +1 to the armor’s base AC while worn."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 armor baseline"
+        }
+      }
+    ],
+    "gaz13-online-adaptation-reference:a9b88d9954fb92b7": [
+      {
+        "label": "2024 armor mapping · Chain Mail +3",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "source": "https://heroes.mystara.net/selenica/others/shadow/gaz13_dm.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "fields": {
+          "Source locator": "GAZ13 1995 TSR online adaptation, Tanadaleyo; Telemon, NPC Notes.",
+          "Original item context": "Both combat notes list +3 chain mail. Their other protective items are separate.",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "None",
+          "Rarity": "Legendary",
+          "Conversion notes": "Uses the published 2024 enhancement. The cited occurrence is from the TSR online adaptation.",
+          "Armor class": "19",
+          "Special powers": "Adds +3 to the armor’s base AC while worn."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-3",
+          "label": "Open 2024 armor baseline"
+        }
+      }
+    ],
+    "gaz13-online-adaptation-reference:8eb482f403643244": [
+      {
+        "label": "D&D 2024 adaptation · Chain Mail +5",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://heroes.mystara.net/selenica/others/shadow/gaz13_dm.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "fields": {
+          "Source locator": "GAZ13 1995 TSR online adaptation, Garafaele, NPC Notes.",
+          "Original item context": "Garafaele wears chain mail +5. The source attributes the distinct secondary powers to his sword and shield.",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "None",
+          "Rarity": "Legendary",
+          "Conversion notes": "Keeps the legacy +5 in the source title. Uses the published +3 Chain Mail enhancement for D&D 2024 play.",
+          "Armor class": "19",
+          "Special powers": "Adds +3 to the armor’s base AC while worn."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-3",
+          "label": "Open 2024 armor baseline"
+        }
+      }
+    ],
+    "gaz13-online-adaptation-reference:a8063aed55ecc7f7": [
+      {
+        "label": "2024 armor mapping · Leather Armour +3",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "source": "https://heroes.mystara.net/selenica/others/shadow/gaz13_dm.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "fields": {
+          "Source locator": "GAZ13 1995 TSR online adaptation, Firnafel, NPC Notes.",
+          "Original item context": "Firnafel wears +3 leather armor. His ring is separate.",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "None",
+          "Rarity": "Legendary",
+          "Conversion notes": "Uses the published 2024 enhancement. The cited occurrence is from the TSR online adaptation.",
+          "Armor class": "14 + Dex modifier",
+          "Special powers": "Adds +3 to the armor’s base AC while worn."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-3",
+          "label": "Open 2024 armor baseline"
+        }
+      }
+    ],
+    "gaz13-online-adaptation-reference:b63cba2265dfd8db": [
+      {
+        "label": "D&D 2024 adaptation · Shield +4",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://heroes.mystara.net/selenica/others/shadow/gaz13_dm.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "fields": {
+          "Source locator": "GAZ13 1995 TSR online adaptation, Garafaele, NPC Notes.",
+          "Original item context": "Garafaele took this shield from a troll. It grants flight and can drain the life of a foe whose melee attack strikes the shield.",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Conversion notes": "Caps the legacy +4 enhancement at +3 and retains the flight and one-in-ten life drain. A Reaction and temporary maximum-HP loss replace passive level drain.",
+          "Armor class bonus": "+5",
+          "Special powers": "While attuned and wielding the shield with Shield training, gain +5 AC total, including its ordinary +2 shield bonus.",
+          "Flight": "While attuned and wielding the shield, take a Magic action to cast Fly on yourself at will. Concentration, up to 10 minutes. The spell ends if you cease wielding the shield.",
+          "Life drain": "When a creature within 5 feet misses you with a melee attack while you wield the attuned shield, you can take a Reaction and roll 1d10. On a 1, the attacker takes 3d8 Necrotic damage and its Hit Point maximum decreases by the damage it takes until its next Long Rest.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#Fly"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield-plus-3",
+          "label": "Open 2024 armor baseline"
+        }
+      }
+    ],
     "gaz1-karameikos-local:633570fe6b27d9ae": [
       {
         "label": "2024 armor mapping · Admiral Hyraksos’s Chain Mail +3",

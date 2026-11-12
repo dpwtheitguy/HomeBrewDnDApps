@@ -192,9 +192,15 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
             source_adaptation = mapping['profile_kind'] == 'adapted-source-armor'
             adapted = game_adaptation or source_adaptation or mapping['profile_kind'] == 'adapted-barding'
             provenance = item['provenance']
+            source_locator = mapped_fields.get('Source locator')
+            reviewed_online_section = (
+                provenance.get('evidence', {}).get('kind') == 'tsr-online-adaptation-preserved-on-mirror'
+                and bool(source_locator)
+                and bool(mapped_fields.get('Original item context'))
+            )
             original_page = (mapping.get('source') == provenance.get('source_url')
-                             and bool(provenance.get('locator'))
-                             and bool(mapped_fields.get('Source locator')))
+                             and bool(source_locator)
+                             and (bool(provenance.get('locator')) or reviewed_online_section))
             verified_source = (item['source_id'] == 'dndbeyond-public-index'
                                and mapping.get('source') == provenance.get('source_url')
                                and target.get('magic') is False) if public else (

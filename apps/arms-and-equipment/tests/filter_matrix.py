@@ -1830,6 +1830,21 @@ def main():
                         if (!byId("custom-items").hidden) click("close-custom-items");
                     }
                 })()''',
+                'Shadow Elf armor preserves Garafaele’s shield powers and source context': '''(async () => {
+                    const cases = [
+                        ["96fc2dbf2becea08", ["Armor class17", "Maflarel; Zindar"]],
+                        ["a9b88d9954fb92b7", ["Armor class19", "Tanadaleyo; Telemon"]],
+                        ["8eb482f403643244", ["Armor class19", "legacy +5", "Garafaele"]],
+                        ["a8063aed55ecc7f7", ["14 + Dex modifier", "Firnafel"]],
+                        ["b63cba2265dfd8db", ["Armor class bonus+5", "cast Fly on yourself at will", "roll 1d10", "3d8 Necrotic", "Long Rest"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("gaz13-online-adaptation-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Karameikos named armor uses its source enhancement and published AC': '''(async () => {
                     const cases = [
                         ["633570fe6b27d9ae", ["Armor class19", "printed p. 45", "55 lb"]],
