@@ -1740,6 +1740,20 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault reactive armor shows its timing and AC': '''(async () => {
+                    const cases = [
+                        ["e5244b228b352ee0", ["before the damage is applied", "Armor class20", "Armor class13 + Dex modifier"]],
+                        ["db59cd695311078f", ["could legally target", "rerolls the attack", "Armor class21"]],
+                        ["cce4b1b7fac85111", ["Intimidation", "−2 penalty", "Short or Long Rest"]],
+                        ["b9b38abdcd656689", ["Padded Armor", "Armor class12 + Dex modifier", "solely because of its proximity"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Adventurer’s Vault armor shows compatible bases and converted effects': '''(async () => {
                     const cases = [
                         ["be5eceafe26ff24d", ["Chain Mail", "Armor class18", "2 Piercing", "1 minute"]],

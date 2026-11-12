@@ -1,6 +1,451 @@
 {
   "schema_version": 1,
   "records": {
+    "adventurers-vault-1-reference:e5244b228b352ee0": [
+      {
+        "label": "D&D 2024 adaptation · Breastplate",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When an attack hits you while you wear the armor and would deal Acid, Cold, Fire, Lightning, or Thunder damage, take a Reaction before the damage is applied. Choose one of those types the attack deals. You gain Resistance to that type against the triggering attack and for 1 minute. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Chaos Weave Armor.",
+          "Conversion notes": "Uses +2 AC. Replaces the fixed 4e resistance and encounter duration with 2024 Resistance for 1 minute. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_breastplate-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When an attack hits you while you wear the armor and would deal Acid, Cold, Fire, Lightning, or Thunder damage, take a Reaction before the damage is applied. Choose one of those types the attack deals. You gain Resistance to that type against the triggering attack and for 1 minute. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Chaos Weave Armor.",
+          "Conversion notes": "Uses +2 AC. Replaces the fixed 4e resistance and encounter duration with 2024 Resistance for 1 minute. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Shirt",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When an attack hits you while you wear the armor and would deal Acid, Cold, Fire, Lightning, or Thunder damage, take a Reaction before the damage is applied. Choose one of those types the attack deals. You gain Resistance to that type against the triggering attack and for 1 minute. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Chaos Weave Armor.",
+          "Conversion notes": "Uses +2 AC. Replaces the fixed 4e resistance and encounter duration with 2024 Resistance for 1 minute. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Half Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When an attack hits you while you wear the armor and would deal Acid, Cold, Fire, Lightning, or Thunder damage, take a Reaction before the damage is applied. Choose one of those types the attack deals. You gain Resistance to that type against the triggering attack and for 1 minute. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Chaos Weave Armor.",
+          "Conversion notes": "Uses +2 AC. Replaces the fixed 4e resistance and encounter duration with 2024 Resistance for 1 minute. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_half-plate-armor-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When an attack hits you while you wear the armor and would deal Acid, Cold, Fire, Lightning, or Thunder damage, take a Reaction before the damage is applied. Choose one of those types the attack deals. You gain Resistance to that type against the triggering attack and for 1 minute. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Chaos Weave Armor.",
+          "Conversion notes": "Uses +2 AC. Replaces the fixed 4e resistance and encounter duration with 2024 Resistance for 1 minute. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When an attack hits you while you wear the armor and would deal Acid, Cold, Fire, Lightning, or Thunder damage, take a Reaction before the damage is applied. Choose one of those types the attack deals. You gain Resistance to that type against the triggering attack and for 1 minute. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Chaos Weave Armor.",
+          "Conversion notes": "Uses +2 AC. Replaces the fixed 4e resistance and encounter duration with 2024 Resistance for 1 minute. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When an attack hits you while you wear the armor and would deal Acid, Cold, Fire, Lightning, or Thunder damage, take a Reaction before the damage is applied. Choose one of those types the attack deals. You gain Resistance to that type against the triggering attack and for 1 minute. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Chaos Weave Armor.",
+          "Conversion notes": "Uses +2 AC. Replaces the fixed 4e resistance and encounter duration with 2024 Resistance for 1 minute. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "20",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When an attack hits you while you wear the armor and would deal Acid, Cold, Fire, Lightning, or Thunder damage, take a Reaction before the damage is applied. Choose one of those types the attack deals. You gain Resistance to that type against the triggering attack and for 1 minute. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Chaos Weave Armor.",
+          "Conversion notes": "Uses +2 AC. Replaces the fixed 4e resistance and encounter duration with 2024 Resistance for 1 minute. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Ring Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "16",
+          "Training": "Heavy armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When an attack hits you while you wear the armor and would deal Acid, Cold, Fire, Lightning, or Thunder damage, take a Reaction before the damage is applied. Choose one of those types the attack deals. You gain Resistance to that type against the triggering attack and for 1 minute. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Chaos Weave Armor.",
+          "Conversion notes": "Uses +2 AC. Replaces the fixed 4e resistance and encounter duration with 2024 Resistance for 1 minute. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_ring-mail-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When an attack hits you while you wear the armor and would deal Acid, Cold, Fire, Lightning, or Thunder damage, take a Reaction before the damage is applied. Choose one of those types the attack deals. You gain Resistance to that type against the triggering attack and for 1 minute. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Chaos Weave Armor.",
+          "Conversion notes": "Uses +2 AC. Replaces the fixed 4e resistance and encounter duration with 2024 Resistance for 1 minute. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Splint Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When an attack hits you while you wear the armor and would deal Acid, Cold, Fire, Lightning, or Thunder damage, take a Reaction before the damage is applied. Choose one of those types the attack deals. You gain Resistance to that type against the triggering attack and for 1 minute. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Chaos Weave Armor.",
+          "Conversion notes": "Uses +2 AC. Replaces the fixed 4e resistance and encounter duration with 2024 Resistance for 1 minute. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Studded Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "14 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "13 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When an attack hits you while you wear the armor and would deal Acid, Cold, Fire, Lightning, or Thunder damage, take a Reaction before the damage is applied. Choose one of those types the attack deals. You gain Resistance to that type against the triggering attack and for 1 minute. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Chaos Weave Armor.",
+          "Conversion notes": "Uses +2 AC. Replaces the fixed 4e resistance and encounter duration with 2024 Resistance for 1 minute. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_studded-leather-armor-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:db59cd695311078f": [
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "When a melee or ranged attack roll misses you while you wear the armor, take a Reaction and choose a different creature within 5 feet of you that the attack could legally target. The attacker rerolls the attack against that creature using its normal modifiers and range. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Deflection Armor.",
+          "Conversion notes": "Caps the original enhancement at +3 and retains redirection on a miss. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-3",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "21",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "When a melee or ranged attack roll misses you while you wear the armor, take a Reaction and choose a different creature within 5 feet of you that the attack could legally target. The attacker rerolls the attack against that creature using its normal modifiers and range. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Deflection Armor.",
+          "Conversion notes": "Caps the original enhancement at +3 and retains redirection on a miss. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-3",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "When a melee or ranged attack roll misses you while you wear the armor, take a Reaction and choose a different creature within 5 feet of you that the attack could legally target. The attacker rerolls the attack against that creature using its normal modifiers and range. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Deflection Armor.",
+          "Conversion notes": "Caps the original enhancement at +3 and retains redirection on a miss. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-3",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:cce4b1b7fac85111": [
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing the armor, add +1 to Charisma (Intimidation) checks. As a Bonus Action, choose one enemy you can see within 25 feet. It takes a −2 penalty to attack rolls until the end of your next turn. Recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 51 (PDF p. 52), Screaming Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Short or Long Rest recharge replaces encounter recharge. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing the armor, add +1 to Charisma (Intimidation) checks. As a Bonus Action, choose one enemy you can see within 25 feet. It takes a −2 penalty to attack rolls until the end of your next turn. Recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 51 (PDF p. 52), Screaming Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Short or Long Rest recharge replaces encounter recharge. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing the armor, add +1 to Charisma (Intimidation) checks. As a Bonus Action, choose one enemy you can see within 25 feet. It takes a −2 penalty to attack rolls until the end of your next turn. Recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 51 (PDF p. 52), Screaming Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Short or Long Rest recharge replaces encounter recharge. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:b9b38abdcd656689": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, an enemy within 5 feet of you does not impose Disadvantage on your ranged attack rolls solely because of its proximity.",
+          "Source locator": "Adventurer’s Vault (4e), p. 51 (PDF p. 52), Shimmering Armor.",
+          "Conversion notes": "Maps 4e cloth to 2024 Padded Armor and replaces protection against opportunity attacks for ranged or area attacks with protection from the 2024 close-range ranged attack penalty. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
     "adventurers-vault-1-reference:be5eceafe26ff24d": [
       {
         "label": "D&D 2024 adaptation · Chain Mail",
