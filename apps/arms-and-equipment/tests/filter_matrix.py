@@ -993,6 +993,23 @@ def main():
                     }
                     return true;
                 })()''',
+                'Phandelver weapon variants show the correct base and powers': '''(async () => {
+                    const cases = [
+                        ["12482", ["both base weapon dice", "dryads", "Topple"]],
+                        ["7247071", ["object made of wood", "Venomfang", "Topple"]],
+                        ["12465", ["1d6 Bludgeoning", "1d6 Radiant", "Sap"]],
+                        ["7247072", ["1d6 Bludgeoning", "20 feet", "Sap"]],
+                        ["7247070", ["1d12 Slashing", "DC 15 Strength", "Cleave"]],
+                        ["7247073", ["1d8 Piercing", "60-foot Emanation", "while it is held", "recharges at dawn"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dndbeyond:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term)) ||
+                            ![...inspection.querySelectorAll("a")].some(link => link.href.includes("/magic-items/" + id))) return false;
+                    }
+                    return true;
+                })()''',
                 'Eberron weapon families show their distinct triggers and bonuses': '''(async () => {
                     const cases = [
                         ["10886041", ["Requires attunement", "Reaction", "DC 15 Constitution", "1d4 expended charges"]],

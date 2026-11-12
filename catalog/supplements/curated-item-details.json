@@ -1,6 +1,166 @@
 {
   "schema_version": 1,
   "records": {
+    "dndbeyond:12482": [
+      {
+        "label": "D&D 2024 adaptation · Hew",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/12482-hew",
+        "fields": {
+          "Category": "Martial melee weapon · Uncommon",
+          "Attunement": "None",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "+1 plus Strength modifier and Proficiency Bonus if proficient.",
+          "Range": "5 feet melee.",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Topple",
+          "Activation": "Make a melee attack with the weapon.",
+          "Legacy source": "Lost Mine of Phandelver, Ruins of Thundertree, Old Tower treasure.",
+          "Special powers": "On a hit against a Plant creature or an object made of wood, each Battleaxe damage die deals its maximum. On a Critical Hit, maximize both base weapon dice. Roll unrelated damage riders normally.",
+          "History": "A dwarven smith made the axe and feuded with local dryads. Its carrier feels uneasy in forests.",
+          "Conversion notes": "Uses the 2024 Battleaxe. Specifies which dice the original maximum-damage rule affects."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_battleaxe",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dndbeyond:7247071": [
+      {
+        "label": "D&D 2024 adaptation · Hew",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/7247071-hew",
+        "fields": {
+          "Category": "Martial melee weapon · Uncommon",
+          "Attunement": "None",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "+1 plus Strength modifier and Proficiency Bonus if proficient.",
+          "Range": "5 feet melee.",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Topple",
+          "Activation": "Make a melee attack with the weapon.",
+          "Legacy source": "Phandelver and Below: The Shattered Obelisk, area U7, p. 62.",
+          "Special powers": "On a hit against a Plant creature or an object made of wood, each Battleaxe damage die deals its maximum. On a Critical Hit, maximize both base weapon dice. Roll unrelated damage riders normally.",
+          "History": "Its dwarven maker used it for protection while cutting firewood. The rusty axe lies in Venomfang’s hoard.",
+          "Conversion notes": "Uses the 2024 Battleaxe and applies the maximum-damage rule only after a hit."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_battleaxe",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dndbeyond:12465": [
+      {
+        "label": "D&D 2024 adaptation · Lightbringer",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/12465-lightbringer",
+        "fields": {
+          "Category": "Simple melee weapon · Uncommon",
+          "Attunement": "None",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 1.",
+          "Attack bonus": "+1 plus Strength modifier and Proficiency Bonus if proficient.",
+          "Range": "5 feet melee.",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Activation": "Make a melee attack with the weapon. Speak its command word as a Magic action to turn the glow on or off.",
+          "Legacy source": "Lost Mine of Phandelver, Wave Echo Cave, p. 48.",
+          "Special powers": "While the mace is glowing, hits against Undead deal an extra 1d6 Radiant damage.",
+          "Light": "The torchlike glow sheds Bright Light within 20 feet and Dim Light for another 20 feet.",
+          "History": "The brass sunburst was made for a cleric of Lathander. It lies in the Forge of Spells workshop.",
+          "Conversion notes": "Uses the 2024 Mace and torch distances. This conversion uses a Magic action to turn the command-word glow on or off."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dndbeyond:7247072": [
+      {
+        "label": "D&D 2024 adaptation · Lightbringer",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/7247072-lightbringer",
+        "fields": {
+          "Category": "Simple melee weapon · Uncommon",
+          "Attunement": "None",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 1.",
+          "Attack bonus": "+1 plus Strength modifier and Proficiency Bonus if proficient.",
+          "Range": "5 feet melee.",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Activation": "Make a melee attack with the weapon. Speak its command word as a Magic action to turn the glow on or off.",
+          "Legacy source": "Phandelver and Below: The Shattered Obelisk, area W15, p. 72.",
+          "Special powers": "While the mace is glowing, hits against Undead deal an extra 1d6 Radiant damage.",
+          "Light": "The torchlike glow sheds Bright Light within 20 feet and Dim Light for another 20 feet.",
+          "History": "The brass sunburst was made for a cleric of Lathander. It lies in the Forge of Spells workshop.",
+          "Conversion notes": "Uses the 2024 Mace and torch distances. This conversion uses a Magic action to turn the command-word glow on or off."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dndbeyond:7247070": [
+      {
+        "label": "D&D 2024 adaptation · Flayer Slayer",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/7247070-flayer-slayer",
+        "fields": {
+          "Category": "Martial melee weapon · Rare",
+          "Attunement": "Required",
+          "Damage": "1d12 Slashing + Strength modifier + 1.",
+          "Attack bonus": "+1 plus Strength modifier and Proficiency Bonus if proficient.",
+          "Range": "5 feet melee.",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Cleave",
+          "Activation": "Make a melee attack with the weapon.",
+          "Legacy source": "Phandelver and Below: The Shattered Obelisk, appendix B, p. 217.",
+          "Special powers": "On a hit against an Aberration, deal an extra 1d12 Slashing damage. If that Aberration is grappling you, it makes a DC 15 Strength save. On a failure it releases every creature it is grappling.",
+          "Acquisition": "Nellik carries the axe in the Windmill in the Endless Void.",
+          "Conversion notes": "Uses the 2024 Greataxe while retaining the published on-hit effects."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greataxe",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dndbeyond:7247073": [
+      {
+        "label": "D&D 2024 adaptation · Luminous War Pick",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/7247073-luminous-war-pick",
+        "fields": {
+          "Category": "Martial melee weapon · Rare",
+          "Attunement": "Required",
+          "Damage": "1d8 Piercing (1d10 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "+1 plus Strength modifier and Proficiency Bonus if proficient.",
+          "Range": "5 feet melee.",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Activation": "Make a melee attack with the weapon.",
+          "Legacy source": "Phandelver and Below: The Shattered Obelisk, appendix B, p. 217.",
+          "Special powers": "While wielding the pick, cast Daylight as a Bonus Action centered on the pick, even while it is held. This use recharges at dawn.",
+          "Daylight": "For 1 hour the pick emits sunlight in a 60-foot Emanation with another 60 feet of Dim Light. Opaque covering blocks the light. Overlapping Darkness from a spell of level 3 or lower is dispelled.",
+          "Spell source": "https://www.dndbeyond.com/spells/2619083-daylight",
+          "Acquisition": "The otyugh mutate swallowed it. It can be retrieved from its body after the encounter.",
+          "Conversion notes": "Applies 2024 Daylight, which creates sunlight, and keeps the item’s specific exception for casting it on the held pick."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_war-pick",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
     "dndbeyond:36838": [
       {
         "label": "D&D 2024 adaptation · Unbreakable Arrow",
