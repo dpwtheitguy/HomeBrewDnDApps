@@ -740,6 +740,18 @@ def main():
                         && ["Weapon of Warning · Longbow", "within 30 ft", "Advantage on Initiative", "sleeping naturally"]
                             .every(value => warning.includes(value));
                 })()''',
+                'Moonblade runes and Slaying ammunition show full triggers': '''(async () => {
+                    inspect("dndbeyond:9228858", grid.firstElementChild);
+                    await itemDetails;
+                    const moonblade = inspection.textContent;
+                    inspect("dndbeyond:9228344", grid.firstElementChild);
+                    await itemDetails;
+                    const slaying = inspection.textContent;
+                    return ["Moonblade · Greatsword", "Moonblade · Rapier", "76–80", "20/60 ft",
+                        "DC 15 Constitution", "spectral elf"].every(value => moonblade.includes(value))
+                        && ["Ammunition of Slaying", "6d10 Force", "DC 17 Constitution", "becomes nonmagical"]
+                            .every(value => slaying.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

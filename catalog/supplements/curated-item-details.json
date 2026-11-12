@@ -3972,6 +3972,23 @@
           "label": "Open 2024 base equipment"
         }
       }
+    ],
+    "dndbeyond:9228344": [
+      {
+        "label": "Published 2024 · Ammunition of Slaying",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#AmmunitionofSlaying",
+        "fields": {
+          "Category": "Very Rare magical ammunition",
+          "Damage": "Use the launcher’s damage. If the projectile damages a creature of the designated type, add 6d10 Force on a failed save or half as much on a success.",
+          "Range": "Use the compatible launcher’s normal and long range.",
+          "Activation": "Load and fire using the compatible launcher’s ammunition rules.",
+          "Saving throw": "DC 17 Constitution. Only a creature of the designated type that took damage from the projectile makes the save.",
+          "Expenditure": "After dealing its extra damage, the projectile becomes nonmagical.",
+          "Target type": "Choose or roll d100. 01–10 Aberration; 11–15 Beast; 16–20 Celestial; 21–25 Construct; 26–35 Dragon; 36–45 Elemental; 46–50 Humanoid; 51–60 Fey; 61–70 Fiend; 71–75 Giant; 76–80 Monstrosity; 81–85 Ooze; 86–90 Plant; 91–00 Undead.",
+          "Attunement": "None"
+        }
+      }
     ]
   }
 }

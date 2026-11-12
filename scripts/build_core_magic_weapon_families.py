@@ -7,6 +7,41 @@ from build_core_enhancement_cross_references import CATALOG, CURRENT, LEGACY, RE
 
 RULES = 'https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z'
 FAMILIES = {
+    'Moonblade': {
+        'published_bases': ('Greatsword', 'Longsword', 'Rapier', 'Scimitar', 'Shortsword'),
+        'source': 'https://roll20.net/compendium/dnd5e/Templates%3AMoonblade?expansion=33359',
+        'damage': 'The first rune adds 1 to damage. Further runes may raise the bonus or add Force damage.',
+        'activation': 'Use the base weapon’s attacks. Only the chosen bearer gains the magical properties.',
+        'Attack bonus': '+1 from the first rune. Further runes can raise it to +3.',
+        'Attunement': 'The blade chooses its bearer. Acceptance attunes you instantly and adds a rune. Attunement ends at death or destruction.',
+        'Rejection': 'An unsuccessful attempt to attune curses you with Disadvantage on D20 Tests for 24 hours, or until Remove Curse or similar magic ends it.',
+        'Runes': 'Typically 1d6 + 1 total. The DM chooses or rolls for each rune beyond the first. The blade also has one minor magic-item property.',
+        '01–60': 'Raise the attack and damage bonus by 1, up to +3. Reroll at the cap.',
+        '61–75': 'Add 1d6 Force per instance of this rune on each hit, up to 3d6. Reroll at the cap.',
+        '76–80': 'Gain Thrown (20/60 ft). The weapon returns after the attack.',
+        '81–85': 'Critical Hits on a natural 19 or 20.',
+        '86–95': 'Bonus Action flash. Other creatures within 30 ft and outside Total Cover make a DC 15 Constitution save or become Blinded for 1 minute. Repeat at the end of each turn. Recharges on a Short or Long Rest.',
+        '96–99': 'Gain the properties of a Ring of Spell Storing.',
+        '00': 'Use a Magic action to summon one controlled spectral elf in an unoccupied space within 120 ft. Use the Shadow stat block with Fey type and Neutral alignment. It cannot create new shadows. It lasts until reduced to 0 HP or dismissed with a Magic action.',
+        'Sentience': 'Intelligence 12, Wisdom 10, Charisma 12. Hearing and Darkvision to 120 ft. Shares the creator’s alignment and communicates through emotions, sensations, dreams, or visions.',
+        'Rarity': 'Legendary',
+    },
+    'Axe of the Dwarvish Lords': {
+        'published_bases': ('Battleaxe',),
+        'source': 'https://roll20.net/compendium/dnd5e/Items%3AAxe%20of%20the%20Dwarvish%20Lords?expansion=33359',
+        'damage': 'Add 3 to normal damage. A natural 20 against a creature adds 20 Slashing. A thrown hit adds 1d8 Force, or 2d8 against a Giant.',
+        'activation': 'Make a normal attack. When thrown, the axe returns after a hit or miss.',
+        'Attack bonus': '+3 to attack and damage rolls.',
+        'Range': '5 ft melee; 20/60 ft thrown.',
+        'Properties': 'Thrown, Versatile (1d10)',
+        'Blessings of Moradin': 'While attuned, gain or extend Darkvision by 60 ft, increase Constitution by 2 (maximum 20), gain proficiency with Brewer’s Supplies, Mason’s Tools, and Smith’s Tools, and gain Poison immunity and Fire resistance.',
+        'Sunder': 'On a hit against an object, deal the maximum damage possible.',
+        'Conjure Earth Elemental': 'Magic action while holding the axe. Summon an Earth Elemental within 30 ft. It obeys you and acts immediately after you. It lasts up to 24 hours, until death, or until dismissed with a Bonus Action. Recharges at dawn.',
+        'Travel the Depths': 'Magic action to touch fixed dwarven stonework and cast Teleport. Underground destinations avoid mishaps and unexpected arrivals. Recharges after 3 days.',
+        'Artifact properties': 'Two minor beneficial, one major beneficial, and two minor detrimental properties.',
+        'Destruction': 'Leave it in the Earthheart Forge for 50 years.',
+        'Rarity': 'Artifact',
+    },
     'Adamantine Weapon': {
         'melee_only': True,
         'source': 'https://roll20.net/compendium/dnd5e/Templates%3AAdamantine%20Weapon?expansion=33359',
@@ -293,6 +328,8 @@ FAMILIES = {
 
 PUBLIC_INDEX = 'dndbeyond-public-index'
 PUBLIC_WEAPON_PAGES = {
+    'Moonblade': '9228858-moonblade',
+    'Axe of the Dwarvish Lords': '9228353-axe-of-the-dwarvish-lords',
     'Adamantine Weapon': '9228341-adamantine-weapon',
     'Enspelled Weapon': '9228599-enspelled-weapon',
     'Silvered Weapon': '9229070-silvered-weapon',
@@ -362,7 +399,7 @@ def details(item, family, rules, mechanics):
         'Mastery': ', '.join(prop['name'] for prop in props if prop['type'] == 'Mastery'),
         'Attunement': 'Required' if item is None or item['requires_attunement'] else 'None',
     }
-    fields.update((key, value) for key, value in rules.items() if key[0].isupper())
+    fields.update((key, value) for key, value in rules.items() if key[0].isupper() or key[0].isdigit())
     return {'status': 'published-reference', 'label': 'Published 2024 · ' + family,
             'source': rules.get('source') or RULES + '#' + family.replace(' ', ''), 'fields': fields}
 
