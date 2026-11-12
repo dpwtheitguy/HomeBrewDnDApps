@@ -1152,6 +1152,11 @@ def main():
                         ["dmg-35-reference:7804a6bfdaf74b94", ["Armor class20", "up to 10 feet"]],
                         ["dmg-35-reference:dac3457dc8c40bbe", ["20 feet straight", "2d6", "mount"]],
                         ["dmg-35-reference:92b4e00f098bb896", ["120/480 feet", "1d10", "three spines"]],
+                        ["dmg-35-reference:fae0641c67338f45", ["Armor class20", "before damage", "seven days later"]],
+                        ["dmg-35-reference:b5613e7549a47912", ["133 lb", "266 lb", "Concentration"]],
+                        ["dmg-35-reference:8f9f91d52600bd6d", ["half the listed raw-material cost", "level 1–3", "Spell Scroll"]],
+                        ["dmg-35-reference:9da803feb17b26a0", ["25 lb", "lethargy", "Strength requirementNone"]],
+                        ["dmg-35-reference:a446fcafe8835edb", ["DC 17 Dexterity", "10-foot Cube", "second dawn"]],
                     ];
                     for (const [id, terms] of cases) {
                         inspect(id, grid.firstElementChild);

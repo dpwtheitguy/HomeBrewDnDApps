@@ -12305,6 +12305,239 @@
         },
         "profile_kind": "adapted-source-armor"
       }
+    ],
+    "dmg-35-reference:85deddc9562c0c1c": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "None",
+          "Special powers": "Use the normal Plate Armor rules. The protective shell is made of worked dragon hide instead of steel. It grants no resistance, flight, or other magical property.",
+          "Source locator": "D&D 3.5 DMG, p. 220, table 7–7.",
+          "Conversion notes": "Retains the source’s nonmetal construction and mundane protection. The 2024 profile uses ordinary Heavy armor training.",
+          "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Original item rules": "https://www.d20srd.org/srd/magicItems/magicArmor.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-35-reference:8f9f91d52600bd6d": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Armor class bonus": "+3",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "None",
+          "Rarity": "Rare",
+          "Special powers": "The shield holds one inscription of a cantrip or a spell of level 1–3. Follow 2024 Spell Scroll scribing requirements and times, paying half the listed raw-material cost plus any required spell components. While wielding the shield, read and cast the stored spell using the normal Spell Scroll eligibility, casting time and resolution. When a scroll would be consumed, erase the inscription and reuse the strip.",
+          "Source locator": "D&D 3.5 DMG, p. 221, table 7–8.",
+          "Conversion notes": "Retains one reusable inscription and the source’s raw-material discount. Uses 2024 scroll casting and scribing rules in place of legacy XP and arcane spell failure.",
+          "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#ScribingSpellScrolls",
+          "Original item rules": "https://www.d20srd.org/srd/magicItems/magicArmor.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-35-reference:9da803feb17b26a0": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "25 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing and attuned to this mithral suit, gain +1 AC. It has no Strength minimum or Stealth disadvantage. As a Magic action, cast Haste on yourself without spell components, maintaining Concentration for up to 1 minute. Apply Haste’s lethargy when the spell ends. The power recharges at dawn.",
+          "Source locator": "D&D 3.5 DMG, p. 220, table 7–7.",
+          "Conversion notes": "Translates the original ten daily rounds into one continuous 2024 Haste casting. Keeps the source’s 25 lb mithral harness.",
+          "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#Haste",
+          "Original item rules": "https://www.d20srd.org/srd/magicItems/magicArmor.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-35-reference:a1f9772a73961d9c": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing and attuned to the armor, gain +2 AC. While you openly display the armor, add +2 to Charisma checks made to Influence a creature that can see you. Allies of your choice within 30 feet who can see you have Advantage on saves to avoid or end the Frightened condition.",
+          "Source locator": "D&D 3.5 DMG, p. 220, table 7–7.",
+          "Conversion notes": "Converts the legacy Charisma bonus and troop morale into the 2024 Influence action and Frightened saves. Both benefits rely on visible armor.",
+          "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Original item rules": "https://www.d20srd.org/srd/magicItems/magicArmor.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_breastplate-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-35-reference:a446fcafe8835edb": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Armor class bonus": "+3",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wielding and attuned to the shield, take a Magic action to touch one nonmagical object or a creation of magical force within 5 feet. A Large or smaller target disintegrates. For a Huge or larger target, a 10-foot Cube of the target disintegrates. Carried or worn objects require an unwilling holder to fail a DC 17 Dexterity saving throw. The shield regains the power at the second dawn after use.",
+          "Source locator": "D&D 3.5 DMG, p. 221, table 7–8.",
+          "Conversion notes": "Preserves the contact requirement and two-day recharge. Uses 2024 Disintegrate object limits and adds a save for objects held or worn by an unwilling creature.",
+          "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#Disintegrate",
+          "Original item rules": "https://www.d20srd.org/srd/magicItems/magicArmor.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield-plus-1",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-35-reference:b5613e7549a47912": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Armor class bonus": "+5",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wielding and attuned to the shield, take a Magic action to cast Fly on yourself without spell components, with Concentration for up to 10 minutes. The shield carries you at a 60-foot Fly Speed if you and your gear weigh up to 133 lb, or 40 feet if the total exceeds 133 lb and is no more than 266 lb. A heavier load prevents activation. The spell ends if you stop wielding the shield. The power recharges at dawn.",
+          "Source locator": "D&D 3.5 DMG, p. 221, table 7–8.",
+          "Conversion notes": "Retains both load tiers and the original once-per-day flight. The 2024 spell supplies the duration and Concentration.",
+          "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#Fly",
+          "Original item rules": "https://www.d20srd.org/srd/magicItems/magicArmor.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield-plus-3",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-35-reference:bd2d4a23372ba951": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Armor class bonus": "+4",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "None",
+          "Rarity": "Very Rare",
+          "Special powers": "While wielding the shield, use a Bonus Action to expend 1 charge and command its lion head to bite a target within 5 feet. Make a melee attack using Strength and add your Proficiency Bonus if trained with shields. On a hit the target takes 2d6 Piercing damage. The shield has three charges and regains them at dawn.",
+          "Source locator": "D&D 3.5 DMG, p. 221, table 7–8.",
+          "Conversion notes": "Preserves three daily independent bites. Each command grants one attack and uses a Bonus Action.",
+          "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Shield12or3",
+          "Original item rules": "https://www.d20srd.org/srd/magicItems/magicArmor.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-35-reference:fae0641c67338f45": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Armor class": "20",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While wearing and attuned to the suit, gain +3 AC. When an attack hits you, you can take a Reaction before damage is rolled to force the attacker to reroll the attack. Resolve the new roll. After you use this property, it becomes available at dawn seven days later.",
+          "Source locator": "D&D 3.5 DMG, p. 220, table 7–7.",
+          "Conversion notes": "Uses Splint Armor for the banded harness. Keeps the original weekly defensive reroll and ten decorative gems.",
+          "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+          "Original item rules": "https://www.d20srd.org/srd/magicItems/magicArmor.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor-plus-3",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "dmg-35-reference:feeef5e818a29295": [
+      {
+        "label": "D&D 2024 conversion draft",
+        "status": "original-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While wearing and attuned to the armor, gain +3 AC. As a Magic action, cast Fly on yourself from the armor without spell components. It grants a 60-foot Fly Speed for up to 10 minutes with Concentration. The power recharges at dawn. The silver or gold links can be concealed beneath ordinary clothes.",
+          "Source locator": "D&D 3.5 DMG, p. 220, table 7–7.",
+          "Conversion notes": "Uses Chain Shirt as the modern baseline for the source’s flexible 20 lb mail and retains its once-per-day flight.",
+          "2024 counterpart": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#Fly",
+          "Original item rules": "https://www.d20srd.org/srd/magicItems/magicArmor.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-3",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
     ]
   }
 }
