@@ -1,6 +1,129 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-35-reference:7ff74e3ff671bbb8": [
+      {
+        "label": "D&D 2024 adaptation · Renaissance pistol",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial ranged weapon (firearm)",
+          "Damage": "1d10 Piercing + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if the DM grants firearm proficiency.",
+          "Range": "30/90 feet",
+          "Properties": "Ammunition (bullet), Loading",
+          "Mastery": "Vex",
+          "Weight": "3 lb",
+          "Attunement": "None",
+          "Activation": "Make a ranged weapon attack, spending one bullet. Loading limits how many shots you can fire with each action, Bonus Action, or Reaction.",
+          "Special powers": "No separate special attack. Apply Vex if a feature gives you mastery with this weapon.",
+          "Conversion notes": "Uses the published 2024 Pistol. Keeps the old weapon’s die and weight and replaces the 3.5 range increment and critical multiplier.",
+          "2024 firearm comparison": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 145 (PDF p. 146), Table 5–4.",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_pistol",
+          "label": "Published 2024 Pistol comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:f1563d0c12ac1437": [
+      {
+        "label": "D&D 2024 adaptation · Automatic pistol",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial ranged weapon (firearm)",
+          "Damage": "2d6 Piercing + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if the DM grants firearm proficiency.",
+          "Range": "50/150 feet",
+          "Properties": "Ammunition (bullet), Reload (15)",
+          "Mastery": "Vex",
+          "Weight": "3 lb",
+          "Attunement": "None",
+          "Activation": "Make a ranged weapon attack, spending one loaded bullet. Refill the weapon with an action or Bonus Action.",
+          "Special powers": "You can fire up to fifteen shots before reloading. Extra Attack works normally. Apply Vex if a feature gives you mastery with this weapon.",
+          "Conversion notes": "Uses the 2024 Semiautomatic Pistol profile for the source’s modern pistol. The weapon does not gain the Automatic Rifle’s Burst Fire.",
+          "2024 firearm comparison": "https://www.dndbeyond.com/magic-items/9228520-dragon-slayer",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 146 (PDF p. 147), Table 5–5.",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:4252ac8fc27ea59f": [
+      {
+        "label": "D&D 2024 adaptation · Laser pistol",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial ranged weapon (firearm)",
+          "Damage": "3d6 Radiant + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if the DM grants firearm proficiency.",
+          "Range": "40/120 feet",
+          "Properties": "Ammunition (energy cell), Reload (50)",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Attunement": "None",
+          "Activation": "Make a ranged weapon attack, expending one shot. Replace the depleted energy cell with an action or Bonus Action.",
+          "Special powers": "An energy cell provides fifty shots. Extra Attack works normally. Apply Vex if a feature gives you mastery with this weapon.",
+          "Conversion notes": "Uses the published 2024 damage type, range, and mastery. Retains the legacy fifty-shot capacity.",
+          "2024 firearm comparison": "https://www.dndbeyond.com/equipment/49-laser-pistol",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 146 (PDF p. 147), Table 5–6.",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:09a0d55cd70e0162": [
+      {
+        "label": "D&D 2024 adaptation · Drider’s Large Magic Short Swords",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Large Shortsword using Longsword equivalency)",
+          "Damage": "1d8 Piercing + Strength modifier, or 1d10 Piercing + Strength modifier with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient. Add an enhancement only when the DM assigns one.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb per weapon (2024 comparison)",
+          "Attunement": "Depends on the magic the DM assigns.",
+          "Activation": "Make a melee weapon attack. Treat each of the two swords as a separate weapon.",
+          "Special powers": "The source identifies both swords as magical but gives no attack bonus or special power. Use the stat line as the baseline and apply only effects the DM assigns.",
+          "Conversion notes": "The 3.5 equivalency table pairs a Large Shortsword with a Medium Longsword. The adaptation keeps the thrusting damage type and uses 2024 Longsword handling instead of legacy size-based attack penalties.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 27 (PDF p. 28), Variant: Weapon Equivalencies.",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:94c9fd086322f7d5": [
+      {
+        "label": "Source adventure hook · Ancient Sword of the Ravaging Monster Hook",
+        "status": "source-reported",
+        "profile_kind": "documented-reference",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "source_locator": {
+          "pdf_page": 45,
+          "printed_page": 44,
+          "section": "Adventure Ideas 27"
+        },
+        "fields": {
+          "Role": "Adventure hook involving an ancient sword.",
+          "Tabletop use": "Choose a monster, a sword from the 2024 weapon list, and any power that explains why recovering it matters. Use the chosen weapon’s own combat rules.",
+          "Combat rules": "The hook supplies no sword type, attack bonus, damage, range, or enchantment.",
+          "Legacy source": "D&D 3.5 Dungeon Master’s Guide, p. 44 (PDF p. 45), Adventure Ideas, result 27.",
+          "2024 weapon options": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
     "dmg-35-reference:52563a8190068a46": [
       {
         "label": "D&D 2024 adaptation · Staff of Abjuration",

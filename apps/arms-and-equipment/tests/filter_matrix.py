@@ -1782,6 +1782,21 @@ def main():
                     return document.title === title && header.querySelector("h1").textContent === title
                         && header.scrollWidth <= header.clientWidth;
                 })()''',
+                'Remaining 3.5 DMG weapons distinguish combat rules from the adventure hook': '''(async () => {
+                    const cases = [
+                        ["7ff74e3ff671bbb8", ["1d10 Piercing", "30/90 feet", "Loading"]],
+                        ["f1563d0c12ac1437", ["2d6 Piercing", "50/150 feet", "Reload (15)"]],
+                        ["4252ac8fc27ea59f", ["3d6 Radiant", "40/120 feet", "Reload (50)"]],
+                        ["09a0d55cd70e0162", ["Longsword equivalency", "1d8 Piercing", "gives no attack bonus"]],
+                        ["94c9fd086322f7d5", ["Adventure hook involving an ancient sword", "supplies no sword type"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dmg-35-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Legacy magic staves display spell lists and charge rules': '''(async () => {
                     const cases = [
                         ["52563a8190068a46", ["Globe of Invulnerability (6 charges)", "Antilife Shell (5 charges)"]],
