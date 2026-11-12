@@ -1871,6 +1871,23 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Mystara unique weapons show hazards, malfunction, and curses': '''(async () => {
+                    for (const [id, terms] of [
+                        ["643a32f128416154", ["30-foot-radius Cylinder", "6d6 Fire", "one year"]],
+                        ["7de600da367b4ab1", ["Malfunction table", "Random discharge", "3d6 Thunder"]],
+                        ["54ea1104b4525d1f", ["Antimagic quarrel", "DC 17 Constitution", "Comprehend Languages"]],
+                        ["1b6c5ec577dd3ebe", ["Shadow servant", "one Shadow at a time", "Vulnerability to Radiant"]],
+                        ["4ab6737d694fb516", ["3d8 Necrotic", "reduce its Hit Point maximum", "undead exorcism"]],
+                        ["7dee634f7c0d00cc", ["Verbal spell components", "hostile Giant Spider", "seven-day count"]],
+                    ]) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Mystara unique weapons show charges, stasis, and range riders': '''(async () => {
                     for (const [id, terms] of [
                         ["dc367942057bea5e", ["extra 2d8 Piercing", "reduces the bow’s enhancement", "returns to +3"]],

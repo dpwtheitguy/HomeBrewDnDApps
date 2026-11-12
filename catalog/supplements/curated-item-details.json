@@ -1,6 +1,210 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:643a32f128416154": [
+      {
+        "label": "D&D 2024 adaptation · Volcano Flail",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_weapons.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "4 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "The source uses a mace as the base. As a Bonus Action up to three times per dawn, ignite it for 1 minute. On a hit during that time add 1d6 Fire. An unattended flammable object ignites on a hit. Until doused, it takes 1d6 Fire at the end of each round.",
+          "Conversion notes": "Caps the legacy enhancement at +3. The volcanic strike becomes a bounded encounter hazard. The DM can use the original volcano as a campaign event.",
+          "Source locator": "Emanuele Betti, Unique Magic Weapons of Mystara, Vol. 2, PDF pp. 7–8.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Volcano strike": "As a Magic action, strike the ground within reach. At the start of your next turn, a 30-foot-radius Cylinder 20 feet high appears there for up to 1 minute while you maintain Concentration. The ground is Difficult Terrain. A creature that enters the area for the first time on a turn or starts its turn there makes a DC 18 Dexterity save, taking 6d6 Fire on a failure or half on a success. Immediately after activation the mace becomes a +1 weapon and loses its other powers for one year."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:7de600da367b4ab1": [
+      {
+        "label": "D&D 2024 adaptation · Steam Hammer",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_weapons.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_warhammer",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Bludgeoning (1d10 in two hands) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Push",
+          "Weight": "5 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "When you roll Initiative while holding the hammer, roll 1d6. On a 1 roll again on the malfunction table. Otherwise roll 1d6 for its favored creature type this encounter: 1 Beast, 2 Construct, 3 Dragon, 4 Elemental, 5 Fiend, 6 Undead. The first time on each turn you hit a creature of that type, add 1d6 Lightning.",
+          "Conversion notes": "A short creature table and extra dice replace the legacy d100 bonus and +6 enhancement. Effects have bounded durations and use the 2024 conditions.",
+          "Source locator": "Emanuele Betti, Unique Magic Weapons of Mystara, Vol. 2, PDF pp. 15–16.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Malfunction table": "Roll 1d6. 1 Heat: take 1d4 Fire at the start of each of your turns for 3 rounds while holding it. 2 Spill: the ground within 5 feet of you becomes Difficult Terrain for 1 minute. 3 Buzz: you are Deafened until the end of your next turn. 4 Smoke: a 20-foot-radius Sphere is Heavily Obscured for 1 minute or until dispersed by a strong wind. 5 Stall: the hammer is nonmagical for 1 minute. 6 Burst: each creature within 10 feet of the hammer makes a DC 16 Dexterity save, taking 3d6 Thunder on a failure or half on a success.",
+          "Random discharge": "On the first hammer attack of each of your turns roll 1d20. On a 20, pick a random creature within 30 feet including yourself and roll 1d4 after the attack. 1 It regains 1d6 Hit Points. 2 It is Deafened until the end of its next turn. 3 It is Invisible until the end of its next turn. 4 It takes 1d6 Lightning damage. Skip this roll while the hammer is nonmagical."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:54ea1104b4525d1f": [
+      {
+        "label": "D&D 2024 adaptation · Empire",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_weapons.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_heavy-crossbow",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d10 Piercing + Dexterity modifier + 3.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "100/400 feet",
+          "Properties": "Ammunition (bolt), Heavy, Loading, Two-Handed",
+          "Mastery": "Push",
+          "Weight": "18 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "As a Magic action cast Detect Magic, Comprehend Languages, or Fly on yourself. Each spell is available three times per dawn. The first time on each of your turns you hit a creature that can cast a spell, deal an extra 1d6 Force.",
+          "Conversion notes": "Heavy Crossbow is the chosen 2024 base. Comprehend Languages replaces Read Magic. The aura becomes a single-target interruption effect.",
+          "Source locator": "Emanuele Betti, Unique Magic Weapons of Mystara, Vol. 2, PDF p. 18.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Antimagic quarrel": "Once per dawn on a hit against a creature that can cast a spell, force a DC 17 Constitution save. On a failure its Concentration ends, and it cannot cast spells until the end of its next turn. The effect does not suppress equipment or affect nearby creatures."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:1b6c5ec577dd3ebe": [
+      {
+        "label": "D&D 2024 adaptation · Sceptre of Bragahn",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_weapons.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Bludgeoning + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Light",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "While holding the sceptre, your Charisma increases by 2, to a maximum of 20. You have Resistance to Necrotic damage and Vulnerability to Radiant damage. Magical healing restores only half its normal Hit Points to you, rounded down.",
+          "Conversion notes": "Uses the 2024 Club. Resistance and Vulnerability replace damage-to-healing inversion. One controlled Shadow replaces the legacy cap of ten.",
+          "Source locator": "Emanuele Betti, Unique Magic Weapons of Mystara, Vol. 2, PDF p. 20.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Shadow servant": "Once per dawn as a Magic action, choose a creature or object casting a shadow within 30 feet and animate that shadow as a Shadow in an unoccupied space within 5 feet of its source. It acts immediately after you and follows your verbal commands. It Dodges if you give no command. The source casts no shadow for up to 1 hour, until the servant drops to 0 Hit Points, or until you dismiss it as a Bonus Action.",
+          "Control Shadow": "When you would hit a Shadow, you may forgo damage and force a DC 17 Charisma save. On a failure it serves for 1 hour under the same turn and command rules. The sceptre can control one Shadow at a time. Gaining a new servant ends the previous effect."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:4ab6737d694fb516": [
+      {
+        "label": "D&D 2024 adaptation · Lost Soul",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_weapons.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_halberd",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Slashing + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Cleave",
+          "Weight": "6 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Once per dawn when you hit a creature, deal an extra 3d8 Necrotic damage and reduce its Hit Point maximum by the Necrotic damage it actually took until its next Long Rest. Using the power also reduces your Hit Point maximum by 5 until your next Long Rest. You cannot activate the power if that would reduce your maximum below 1.",
+          "Conversion notes": "Replaces permanent level and ability drain with temporary maximum Hit Point reduction. The exorcism remains an optional encounter.",
+          "Source locator": "Emanuele Betti, Unique Magic Weapons of Mystara, Vol. 2, PDF pp. 21–22.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Curse": "The halberd speaks to you telepathically. While cursed, you refuse to part with it. If you go a day without using the drain, make a DC 17 Wisdom save when you next roll Initiative. On a failure you must use the drain on your first eligible hit that encounter. Remove Curse breaks your attunement. A DM may run the source’s undead exorcism to strip the curse from the item and leave it a +3 Halberd."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:f9a33893dc5e3208": [
+      {
+        "label": "D&D 2024 adaptation · Full Moon",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_weapons.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_battleaxe",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "The axe glows when a creature afflicted with lycanthropy is within 60 feet. The glow gives no direction, identity, or count. On a hit against such a creature, deal an extra 2d6 Slashing. It must also pass a DC 17 Constitution save or immediately assume its animal or hybrid form, chosen by the target, until the end of its next turn.",
+          "Conversion notes": "Uses 2024 Battleaxe rules. Extra damage replaces the +8 enhancement. A save and limited duration replace automatic forced transformation.",
+          "Source locator": "Emanuele Betti, Unique Magic Weapons of Mystara, Vol. 2, PDF p. 24.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:7dee634f7c0d00cc": [
+      {
+        "label": "D&D 2024 adaptation · Black Widow",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/Unique_magic_weapons.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier + 2.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "While holding the dagger, you and the equipment you wear or carry make no sound. You cannot provide Verbal spell components. On a hit against a creature, it makes a DC 16 Constitution save or takes 1d4 Poison at the start of each of its turns for up to 1 minute. It repeats the save at the end of each turn. On a natural 20, use 2d10 Poison on a failed save in place of the ongoing effect. Ongoing damage does not stack.",
+          "Conversion notes": "Uses 2024 Dagger rules. Saves and a duration cap replace the legacy lethal poison. The spider transformation is an encounter curse.",
+          "Source locator": "Emanuele Betti, Unique Magic Weapons of Mystara, Vol. 2, PDF pp. 25–26.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Curse": "If seven days pass while attuned without reducing a creature to 0 Hit Points with the dagger, it transforms into a hostile Giant Spider under the DM’s control. It reverts when it reduces a creature to 0 Hit Points, drops to 0 Hit Points itself, or after 1 hour, restarting the seven-day count. Remove Curse breaks attunement."
+        }
+      }
+    ],
     "mystara-fan-names-reference:dc367942057bea5e": [
       {
         "label": "D&D 2024 adaptation · Red Steel (Longbow)",
