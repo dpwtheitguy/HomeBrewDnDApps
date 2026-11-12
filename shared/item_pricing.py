@@ -203,7 +203,7 @@ def price_catalog(items, curated=None):
     by_id = {item['id']: item for item in items}
     direct = {item['id']: source_price(item) for item in items}
     barding_prices = {}
-    adapted_armor_prices = {}
+    adapted_equipment_prices = {}
     for item_id, entries in (curated or {}).items():
         variants = [entry for entry in entries if entry.get('profile_kind') == 'adapted-source-armor']
         item = by_id.get(item_id)
@@ -222,9 +222,22 @@ def price_catalog(items, curated=None):
                 if (rarity in RARITY and base and base['ruleset'] == 'dnd-2024'
                         and base['magic'] is False and base['mechanics'].get('armor')
                         and direct[base_id]):
-                    adapted_armor_prices[item_id] = (
+                    adapted_equipment_prices[item_id] = (
                         direct[base_id][0], rarity, base['name'],
                     )
+        weapon_appraisals = [entry for entry in entries if entry.get('appraise_as_magic_weapon')]
+        if weapon_appraisals:
+            entry, = weapon_appraisals
+            base_id = entry['related_item']['id']
+            base = by_id.get(base_id)
+            rarity = rarity_key({'rarity': entry['fields'].get('Rarity')})
+            if (not item or item['type'] != 'weapon' or item['magic'] is False
+                    or entry.get('profile_kind') != 'custom-2024-draft'
+                    or entry.get('status') != 'original-draft' or rarity not in RARITY
+                    or not base or base['source_id'] != 'open5e-srd-2024'
+                    or base['magic'] is not False or not base['mechanics'].get('weapon') or not direct[base_id]):
+                raise ValueError(f'Invalid 2024 magic weapon price basis for {item_id}')
+            adapted_equipment_prices[item_id] = (direct[base_id][0], rarity, base['name'])
         for entry in entries:
             if not entry.get('barding') or entry.get('profile_kind') != 'published-armor-mapping':
                 continue
@@ -315,8 +328,8 @@ def price_catalog(items, curated=None):
         item_id = item['id']
         appraisal = direct[item_id] or barding_prices.get(item_id)
         adapted_physical_cost = None
-        if appraisal is None and item_id in adapted_armor_prices:
-            adapted_physical_cost, rarity, base_name = adapted_armor_prices[item_id]
+        if appraisal is None and item_id in adapted_equipment_prices:
+            adapted_physical_cost, rarity, base_name = adapted_equipment_prices[item_id]
             rarity_label = rarity.replace('-', ' ').title()
             appraisal = (
                 adapted_physical_cost + Decimal(RARITY[rarity]), 'magic-rarity', 'dnd-2024-appraisal',

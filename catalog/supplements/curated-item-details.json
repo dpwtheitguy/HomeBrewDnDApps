@@ -1,8 +1,276 @@
 {
   "schema_version": 1,
   "records": {
+    "adventurers-vault-1-reference:051dc26c9d98c71d": [
+      {
+        "label": "D&D 2024 staff adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Quarterstaff) and spellcasting focus",
+          "Damage": "1d6 Bludgeoning (1d8 with two hands) + Strength modifier + 1",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1. Spell attack rolls made through the staff also gain +1.",
+          "Range": "5 feet melee. A spell cast through the staff uses the spell’s range.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Attunement": "Required by a spellcaster",
+          "Rarity": "Rare",
+          "Activation": "Use the normal Quarterstaff attack, or hold it as a focus for a spell that permits a staff. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When you cast a spell through this staff that creates a wall or changes the terrain in a persistent area, you can add one contiguous 5-foot section within the spell’s range. The added section follows the same rules as the adjacent part of the spell. As a Magic action, you can reshape one wall spell you cast through this staff that is still active. At least one 5-foot section stays in place, and the new layout must fit the spell’s original placement restrictions. Reshaping cannot move creatures or cause the wall’s creation damage again. Reshaping recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 103 (PDF p. 104), Architect’s Staff.",
+          "Conversion notes": "Retains one extra square and the original one-section anchor for reshaping. Uses a magic Quarterstaff for melee and adds the converted enhancement to spell attack rolls. Spells retain their own damage and save DC.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Critical hits": "On a Critical Hit with a spell attack made through the staff that deals damage, add 1d6 of the spell’s damage type after doubling normal damage dice. If the spell deals more than one type, choose one of those types."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 Quarterstaff"
+        },
+        "appraise_as_magic_weapon": true
+      }
+    ],
+    "adventurers-vault-1-reference:5eb13f9bcb99e37d": [
+      {
+        "label": "D&D 2024 staff adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Quarterstaff) and spellcasting focus",
+          "Damage": "1d6 Bludgeoning (1d8 with two hands) + Strength modifier + 1",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1. Spell attack rolls made through the staff also gain +1.",
+          "Range": "5 feet melee. A spell cast through the staff uses the spell’s range.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Attunement": "Required by a spellcaster",
+          "Rarity": "Rare",
+          "Activation": "Use the normal Quarterstaff attack, or hold it as a focus for a spell that permits a staff. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While holding this staff, gain +1 on Dexterity, Constitution, and Wisdom saving throws. If you have a class feature that lets you use a staff as a spellcasting focus, you also gain +1 AC while holding it.",
+          "Source locator": "Adventurer’s Vault (4e), p. 104 (PDF p. 105), Defensive Staff.",
+          "Conversion notes": "Maps Reflex, Fortitude, and Will to Dexterity, Constitution, and Wisdom saves. Uses staff focus training in place of the retired Staff of Defense feature. Uses a magic Quarterstaff for melee and adds the converted enhancement to spell attack rolls. Spells retain their own damage and save DC.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Critical hits": "On a Critical Hit with a spell attack made through the staff that deals damage, add 1d8 of the spell’s damage type after doubling normal damage dice. If the spell deals more than one type, choose one of those types."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 Quarterstaff"
+        },
+        "appraise_as_magic_weapon": true
+      }
+    ],
+    "adventurers-vault-1-reference:b53907765f92a63d": [
+      {
+        "label": "D&D 2024 staff adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Quarterstaff) and spellcasting focus",
+          "Damage": "1d6 Bludgeoning (1d8 with two hands) + Strength modifier + 3",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 3. Spell attack rolls made through the staff also gain +3.",
+          "Range": "5 feet melee. A spell cast through the staff uses the spell’s range.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Attunement": "Required by a spellcaster",
+          "Rarity": "Legendary",
+          "Activation": "Use the normal Quarterstaff attack, or hold it as a focus for a spell that permits a staff. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When a spell you cast through this staff reduces a hostile creature to 0 Hit Points, you can spend one unspent Hit Point Die without taking an action to regain Hit Points equal to the roll plus your Constitution modifier (minimum 1 Hit Point). When you reduce a hostile creature to 0 Hit Points with an attack roll on your turn while holding the staff, you can also take one additional action immediately, without taking a Bonus Action or Reaction. The usual limits on spellcasting still apply. The extra action recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 104 (PDF p. 105), Destiny Staff.",
+          "Conversion notes": "Maps healing surges to Hit Point Dice and preserves the daily extra action. Uses a magic Quarterstaff for melee and adds the converted enhancement to spell attack rolls. Spells retain their own damage and save DC.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Critical hits": "On a Critical Hit with a spell attack made through the staff that deals damage, add 1d8 of the spell’s damage type after doubling normal damage dice. If the spell deals more than one type, choose one of those types."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 Quarterstaff"
+        },
+        "appraise_as_magic_weapon": true
+      }
+    ],
+    "adventurers-vault-1-reference:79ae3c1eeffbe108": [
+      {
+        "label": "D&D 2024 staff adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Quarterstaff) and spellcasting focus",
+          "Damage": "1d6 Bludgeoning (1d8 with two hands) + Strength modifier + 1",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1. Spell attack rolls made through the staff also gain +1.",
+          "Range": "5 feet melee. A spell cast through the staff uses the spell’s range.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Attunement": "Required by a spellcaster",
+          "Rarity": "Rare",
+          "Activation": "Use the normal Quarterstaff attack, or hold it as a focus for a spell that permits a staff. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When a spell you cast through this staff imposes the Petrified or Restrained condition, sets a target’s Speed to 0, or reduces its Speed, the target takes a −1 penalty on any repeated save to end that effect. If a spell attack cast through this staff scores a Critical Hit, the target also has the Restrained condition until the end of your next turn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 104 (PDF p. 105), Earthroot Staff.",
+          "Conversion notes": "Retains the original repeat-save penalty and the critical-hit restraint. Uses a magic Quarterstaff for melee and adds the converted enhancement to spell attack rolls. Spells retain their own damage and save DC.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 Quarterstaff"
+        },
+        "appraise_as_magic_weapon": true
+      }
+    ],
+    "adventurers-vault-1-reference:c516510eead17f11": [
+      {
+        "label": "D&D 2024 staff adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Quarterstaff) and spellcasting focus",
+          "Damage": "1d6 Bludgeoning (1d8 with two hands) + Strength modifier + 1",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1. Spell attack rolls made through the staff also gain +1.",
+          "Range": "5 feet melee. A spell cast through the staff uses the spell’s range.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Attunement": "Required by a spellcaster",
+          "Rarity": "Rare",
+          "Activation": "Use the normal Quarterstaff attack, or hold it as a focus for a spell that permits a staff. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When a spell attack you make through this staff hits, you can summon stinging insects around the target without taking an action. It cannot take Bonus Actions or Reactions, and on its turn it can move or take one action, but cannot do both. This lasts until the end of your next turn. This activation recharges at dawn. A Critical Hit from a spell attack through the staff applies the same effect without expending the activation.",
+          "Source locator": "Adventurer’s Vault (4e), p. 104 (PDF p. 105), Feyswarm Staff.",
+          "Conversion notes": "Preserves the original critical and daily forms of Dazed through explicit action limits. Uses a magic Quarterstaff for melee and adds the converted enhancement to spell attack rolls. Spells retain their own damage and save DC.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 Quarterstaff"
+        },
+        "appraise_as_magic_weapon": true
+      }
+    ],
+    "adventurers-vault-1-reference:e6aff2438b13108c": [
+      {
+        "label": "D&D 2024 staff adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Quarterstaff) and spellcasting focus",
+          "Damage": "1d6 Bludgeoning (1d8 with two hands) + Strength modifier + 1",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1. Spell attack rolls made through the staff also gain +1.",
+          "Range": "5 feet melee. A spell cast through the staff uses the spell’s range.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Attunement": "Required by a spellcaster",
+          "Rarity": "Rare",
+          "Activation": "Use the normal Quarterstaff attack, or hold it as a focus for a spell that permits a staff. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When a spell attack made through this staff hits and deals Force damage, you can move its target up to 5 feet to an unoccupied space you can see without taking an action. This does not provoke Opportunity Attacks. Recharges at dawn. On a Critical Hit with a spell attack made through the staff, the target also takes 1d6 extra Force damage and has the Prone condition.",
+          "Source locator": "Adventurer’s Vault (4e), p. 104 (PDF p. 105), Force Staff.",
+          "Conversion notes": "Uses five feet for the original lowest-tier slide and retains the critical-hit knockdown. Uses a magic Quarterstaff for melee and adds the converted enhancement to spell attack rolls. Spells retain their own damage and save DC.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 Quarterstaff"
+        },
+        "appraise_as_magic_weapon": true
+      }
+    ],
+    "adventurers-vault-1-reference:007f5c5dd65211fe": [
+      {
+        "label": "D&D 2024 staff adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Quarterstaff) and spellcasting focus",
+          "Damage": "1d6 Bludgeoning (1d8 with two hands) + Strength modifier + 1",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1. Spell attack rolls made through the staff also gain +1.",
+          "Range": "5 feet melee. A spell cast through the staff uses the spell’s range.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Attunement": "Required by a spellcaster",
+          "Rarity": "Rare",
+          "Activation": "Use the normal Quarterstaff attack, or hold it as a focus for a spell that permits a staff. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While holding the staff, gain +2 on Intelligence checks to recall lore about creatures. As a Bonus Action, replace one prepared Wizard spell with an unprepared spell of the same or lower level in your spellbook. Both spells must be level 3 or lower. The replacement lasts until you change it again under your normal preparation rules. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 104 (PDF p. 105), Mnemonic Staff.",
+          "Conversion notes": "Uses the 2024 Wizard spellbook and adds a level-3 cap for the lowest-tier version. Uses a magic Quarterstaff for melee and adds the converted enhancement to spell attack rolls. Spells retain their own damage and save DC.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Critical hits": "On a Critical Hit with a spell attack made through the staff that deals damage, add 1d6 of the spell’s damage type after doubling normal damage dice. If the spell deals more than one type, choose one of those types."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 Quarterstaff"
+        },
+        "appraise_as_magic_weapon": true
+      }
+    ],
+    "adventurers-vault-1-reference:51f19239e6c3940c": [
+      {
+        "label": "D&D 2024 staff adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Quarterstaff) and spellcasting focus",
+          "Damage": "1d6 Bludgeoning (1d8 with two hands) + Strength modifier + 2",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2. Spell attack rolls made through the staff also gain +2.",
+          "Range": "5 feet melee. A spell cast through the staff uses the spell’s range.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Attunement": "Required by a spellcaster",
+          "Rarity": "Very Rare",
+          "Activation": "Use the normal Quarterstaff attack, or hold it as a focus for a spell that permits a staff. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Once per dawn, when you hit a creature with a spell attack from a level 1 or higher spell you cast through the staff on your turn, you can immediately cast one cantrip you know that has a casting time of one action. This casting requires no additional action and follows the cantrip’s usual targeting, components, and other restrictions.",
+          "Source locator": "Adventurer’s Vault (4e), p. 104 (PDF p. 105), Quickening Staff.",
+          "Conversion notes": "Maps the original daily-power-to-at-will sequence to a leveled spell hit followed by one cantrip. Uses a magic Quarterstaff for melee and adds the converted enhancement to spell attack rolls. Spells retain their own damage and save DC.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Critical hits": "On a Critical Hit with a spell attack made through the staff that deals damage, add 1d6 of the spell’s damage type after doubling normal damage dice. If the spell deals more than one type, choose one of those types."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 Quarterstaff"
+        },
+        "appraise_as_magic_weapon": true
+      }
+    ],
+    "adventurers-vault-1-reference:fc2dd9a8ad5943b2": [
+      {
+        "label": "D&D 2024 staff adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Quarterstaff) and spellcasting focus",
+          "Damage": "1d6 Bludgeoning (1d8 with two hands) + Strength modifier + 2",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2. Spell attack rolls made through the staff also gain +2.",
+          "Range": "5 feet melee. A spell cast through the staff uses the spell’s range.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Attunement": "Required by a spellcaster",
+          "Rarity": "Very Rare",
+          "Activation": "Use the normal Quarterstaff attack, or hold it as a focus for a spell that permits a staff. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When you finish resolving a spell of level 3 or lower cast through this staff using a spell slot, if it required at least one spell attack and every attack from that casting missed, you can regain the expended slot without taking an action. You can use this only if the spell had no effect on any target and makes no additional attacks on later turns. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 104 (PDF p. 105), Reliable Staff.",
+          "Conversion notes": "Maps a missed encounter power to a spent low-level spell slot and retains the all-attacks-miss condition. Uses a magic Quarterstaff for melee and adds the converted enhancement to spell attack rolls. Spells retain their own damage and save DC.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Critical hits": "On a Critical Hit with a spell attack made through the staff that deals damage, add 1d6 of the spell’s damage type after doubling normal damage dice. If the spell deals more than one type, choose one of those types."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 Quarterstaff"
+        },
+        "appraise_as_magic_weapon": true
+      }
+    ],
     "adventurers-vault-1-reference:db75c41d745a12cf": [
       {
+        "appraise_as_magic_weapon": true,
         "label": "D&D 2024 weapon adaptation",
         "status": "original-draft",
         "profile_kind": "custom-2024-draft",
@@ -33,6 +301,7 @@
     ],
     "adventurers-vault-1-reference:536e100318df89f1": [
       {
+        "appraise_as_magic_weapon": true,
         "label": "D&D 2024 weapon adaptation",
         "status": "original-draft",
         "profile_kind": "custom-2024-draft",
@@ -63,6 +332,7 @@
     ],
     "adventurers-vault-1-reference:7758c394773d988b": [
       {
+        "appraise_as_magic_weapon": true,
         "label": "D&D 2024 weapon adaptation",
         "status": "original-draft",
         "profile_kind": "custom-2024-draft",
@@ -93,6 +363,7 @@
     ],
     "adventurers-vault-1-reference:3a134deb66ca2057": [
       {
+        "appraise_as_magic_weapon": true,
         "label": "D&D 2024 weapon adaptation",
         "status": "original-draft",
         "profile_kind": "custom-2024-draft",
@@ -123,6 +394,7 @@
     ],
     "adventurers-vault-1-reference:7698edd888a06c3e": [
       {
+        "appraise_as_magic_weapon": true,
         "label": "D&D 2024 weapon adaptation",
         "status": "original-draft",
         "profile_kind": "custom-2024-draft",
@@ -153,6 +425,7 @@
     ],
     "adventurers-vault-1-reference:852768bbf1909a79": [
       {
+        "appraise_as_magic_weapon": true,
         "label": "D&D 2024 weapon adaptation",
         "status": "original-draft",
         "profile_kind": "custom-2024-draft",
@@ -183,6 +456,7 @@
     ],
     "adventurers-vault-1-reference:fdafbf5466fdecdc": [
       {
+        "appraise_as_magic_weapon": true,
         "label": "D&D 2024 weapon adaptation",
         "status": "original-draft",
         "profile_kind": "custom-2024-draft",
@@ -213,6 +487,7 @@
     ],
     "adventurers-vault-1-reference:1549cdca122da82b": [
       {
+        "appraise_as_magic_weapon": true,
         "label": "D&D 2024 weapon adaptation",
         "status": "original-draft",
         "profile_kind": "custom-2024-draft",
@@ -243,6 +518,7 @@
     ],
     "adventurers-vault-1-reference:30a62439e0fa782c": [
       {
+        "appraise_as_magic_weapon": true,
         "label": "D&D 2024 weapon adaptation",
         "status": "original-draft",
         "profile_kind": "custom-2024-draft",
@@ -273,6 +549,7 @@
     ],
     "adventurers-vault-1-reference:024bafbdda5d59eb": [
       {
+        "appraise_as_magic_weapon": true,
         "label": "D&D 2024 weapon adaptation",
         "status": "original-draft",
         "profile_kind": "custom-2024-draft",
@@ -303,6 +580,7 @@
     ],
     "adventurers-vault-1-reference:187e2a059ef1cb3b": [
       {
+        "appraise_as_magic_weapon": true,
         "label": "D&D 2024 weapon adaptation",
         "status": "original-draft",
         "profile_kind": "custom-2024-draft",

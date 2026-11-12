@@ -1740,6 +1740,28 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault staffs show separate melee and spell rules': '''(async () => {
+                    const cases = [
+                        ["051dc26c9d98c71d", ["contiguous 5-foot section", "one 5-foot section stays in place"]],
+                        ["5eb13f9bcb99e37d", ["Dexterity, Constitution, and Wisdom saving throws", "+1 AC"]],
+                        ["b53907765f92a63d", ["Hit Point Die", "take one additional action"]],
+                        ["79ae3c1eeffbe108", ["−1 penalty", "Restrained condition"]],
+                        ["c516510eead17f11", ["stinging insects", "without expending the activation"]],
+                        ["e6aff2438b13108c", ["move its target up to 5 feet", "1d6 extra Force damage"]],
+                        ["007f5c5dd65211fe", ["prepared Wizard spell", "level 3 or lower"]],
+                        ["51f19239e6c3940c", ["cast one cantrip", "usual targeting, components"]],
+                        ["fc2dd9a8ad5943b2", ["every attack from that casting missed", "regain the expended slot"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const details = inspection.textContent;
+                        if (!["1d6 Bludgeoning", "Spell attack rolls", "Topple", "draft conversion plus 2024 Quarterstaff cost", ...terms].every(term => details.includes(term))) return false;
+                    }
+                    inspect("adventurers-vault-1-reference:536e100318df89f1", grid.firstElementChild);
+                    await itemDetails;
+                    return inspection.textContent.includes("Base cost40015 gp");
+                })()''',
                 'Adventurer’s Vault named weapons replace improvised rules': '''(async () => {
                     const cases = [
                         ["db75c41d745a12cf", ["1d6 Piercing", "Holy Symbol", "reroll it"]],
