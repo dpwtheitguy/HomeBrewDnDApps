@@ -10,7 +10,7 @@ if [[ -d "$jdk/bin" ]]; then export JAVA_HOME="$jdk" PATH="$jdk/bin:$PATH"; fi
 build_tools="${ARMORY_BUILD_TOOLS:-$sdk/build-tools/35.0.0}"
 if [[ ! -x "$build_tools/aapt2" ]]; then build_tools="$sdk/build-tools/android-15"; fi
 platform="$sdk/platforms/android-35/android.jar"
-catalog="${1:-$root/outputs/shared-item-catalog-2026-11-12.201.zip}"
+catalog="${1:-$root/outputs/shared-item-catalog-2026-11-12.202.zip}"
 stage="$(mktemp -d)"
 trap 'rm -rf "$stage"' EXIT
 mkdir -p "$stage/assets/web" "$stage/classes" "$stage/dex" "$root/outputs"

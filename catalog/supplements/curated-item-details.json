@@ -1,6 +1,174 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:5975fca564494668": [
+      {
+        "label": "D&D 2024 adaptation · Armor of the Night",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/Unique_magic_armors_and_shields.pdf",
+        "fields": {
+          "Armor class": "14 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While wearing the attuned armor, you have Advantage on Dexterity (Stealth) checks made to hide in Dim Light or Darkness. You also have Advantage on Stealth checks to avoid being heard.",
+          "Source locator": "Emanuele Betti, Unique Magic Armors and Shields, PDF p. 23, Armor of the Night.",
+          "Conversion notes": "Replaces percentile stealth bonuses with Advantage and retains both stages of the hood’s illusion.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 spells": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Faceless hood": "Raise or lower the hood as a Bonus Action. While raised, your head appears absent inside the hood. If another creature forcibly pulls it down, your face appears monstrous until you raise the hood again. Truesight sees your actual face.",
+          "History": "Worn by the guildmaster of the thieves’ guild in Selenica."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-3",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:379270195a6ca0b4": [
+      {
+        "label": "D&D 2024 adaptation · Automatic Jacket",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/Unique_magic_armors_and_shields.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "After taking Acid, Cold, Fire, Lightning, Necrotic, Poison, Radiant, or Thunder damage while wearing the jacket, you can take a Reaction to gain Resistance to one triggering type for 2d12 hours. The triggering damage is resolved first. The jacket supports one adaptation at a time. Choosing another type ends the previous one.",
+          "Source locator": "Emanuele Betti, Unique Magic Armors and Shields, PDF p. 14, Automatic Jacket.",
+          "Conversion notes": "Uses Resistance in place of repeated immunity. Retains the reactive trigger, duration roll, and exclusion of ordinary physical attacks.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 spells": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "History": "The fan account links the jacket’s moving gears to a Blackmoor-era design and places it in Serraine."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-2",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:3c9ced9d5313943d": [
+      {
+        "label": "D&D 2024 adaptation · Paladin Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/Unique_magic_armors_and_shields.pdf",
+        "fields": {
+          "Armor class": "21",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "The emerald holds five charges. When a curse would affect you while wearing the attuned armor, you can expend 1 charge to prevent that curse from affecting you. No action is required. The emerald cracks at 0 charges and never regains them. The armor retains its AC.",
+          "Source locator": "Emanuele Betti, Unique Magic Armors and Shields, PDF p. 17, Paladin Mail.",
+          "Conversion notes": "Keeps the finite curse ward separate from the daily spell. Preserves the source’s class or alignment gate for the holy power.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 spells": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Holy power": "If you are a Cleric, a Paladin, or Lawful, you can cast one level 1 spell from the Cleric list per dawn while wearing the armor. Use Wisdom, the spell’s normal casting time, and any costly components."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-3",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:890d98f62dfc20a7": [
+      {
+        "label": "D&D 2024 adaptation · Armor of the Wounds",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "armor_class_adjustment": -3,
+        "source": "https://pandius.com/Unique_magic_armors_and_shields.pdf",
+        "fields": {
+          "Armor class": "8 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "The suit appears to be +3 Leather Armor. Truesight reveals the curse. It binds when donned, and while bound you cannot doff it. After you take damage from another source, take an extra 1d6 Necrotic damage that ignores Resistance and Immunity. The extra damage does not trigger itself.",
+          "Source locator": "Emanuele Betti, Unique Magic Armors and Shields, PDF p. 18, Armor of the Wounds.",
+          "Conversion notes": "Translates the legacy −3 into a −3 adjustment to the Leather Armor formula. Keeps the deception, binding, wound trigger, and adventure-specific release.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 spells": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Apparent AC": "14 + Dex modifier.",
+          "Curse relief": "Wish can suppress the extra damage for 24 hours. The curse ends permanently when a wearer from Clan Feadiel helps save the Sylvan Realm from Moorkroft.",
+          "Restored form": "After permanent release it becomes +3 Leather Armor (AC 14 + Dex modifier). While wearing it, take a Magic action to heal yourself for 3d6 + 2 HP or gain Truesight out to 60 feet for 10 minutes. Each power recharges separately at dawn."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:79f6d72b6ca1159c": [
+      {
+        "label": "D&D 2024 adaptation · Kryll's Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/Unique_magic_armors_and_shields.pdf",
+        "fields": {
+          "Armor class": "17 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While wearing the attuned armor, you can speak, read, and write Draconic. You have Lightning Resistance against Blue Dragon breath. Once per dawn, take a Magic action to cast Invisibility on yourself for up to 1 hour with Concentration.",
+          "Source locator": "Emanuele Betti, Unique Magic Armors and Shields, PDF p. 20, Kryll's Mail.",
+          "Conversion notes": "Caps the legacy +4 at +3. Uses a Young Blue Dragon as the possession form and gates it to level 9 to limit access to a high-CR stat block.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 spells": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Dragon possession": "If you are level 9 or higher and start your turn conscious with fewer than 10% of your maximum Hit Points, roll 1d10. On a 1, your equipment merges into a Young Blue Dragon form for 2d10 rounds. The DM controls the dragon. Use its stat block and Hit Points. When it reaches 0 HP or the duration ends, return to your own form with 1 HP and fall Unconscious until the end of your next turn. After transforming, this property recharges after seven dawns.",
+          "2024 dragon armor benchmark": "https://www.dndbeyond.com/magic-items/9228477-dragon-scale-mail"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-3",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:b997e66a0271ce6a": [
+      {
+        "label": "D&D 2024 adaptation · Plate Mail of the Lions",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/Unique_magic_armors_and_shields.pdf",
+        "fields": {
+          "Armor class": "21",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "Nonhostile feline Beasts are Friendly toward you while you wear the attuned armor. They decide whether to help. Once per dawn, take a Magic action to become a silver Lion for up to 3 hours. Your gear merges into the form. Use the Lion stat block and gain Temporary Hit Points equal to your level, up to 12. You retain your own Hit Points. Revert as a Bonus Action, when the duration ends, or if you become Incapacitated.",
+          "Source locator": "Emanuele Betti, Unique Magic Armors and Shields, PDF p. 3, Plate Mail of the Lions.",
+          "Conversion notes": "Uses the 2024 Lion stat block, Temporary Hit Points, and a bounded curse instead of scaling legacy Hit Dice and AC.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 spells": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Feline curse": "If you deliberately harm or trap a feline Beast while wearing the armor, it falls away and you become a Lion for up to one year. You cannot end this form voluntarily. Use the same form rules without Temporary Hit Points. Remove Curse ends this transformation early.",
+          "History": "Formerly worn by the Thyatian commander Marcus Terentius Iulius."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-3",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
     "mystara-fan-names-reference:0dc6a22af269958e": [
       {
         "label": "D&D 2024 adaptation · Shield of Alphaks",

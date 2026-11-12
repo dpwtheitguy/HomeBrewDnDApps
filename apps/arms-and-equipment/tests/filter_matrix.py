@@ -1830,6 +1830,22 @@ def main():
                         if (!byId("custom-items").hidden) click("close-custom-items");
                     }
                 })()''',
+                'Mystara named suits show transformations, curses, and reactive armor': '''(async () => {
+                    const cases = [
+                        ["5975fca564494668", ["14 + Dex modifier", "Faceless hood", "Truesight"]],
+                        ["379270195a6ca0b4", ["13 + Dex modifier", "2d12 hours", "one adaptation"]],
+                        ["3c9ced9d5313943d", ["Armor class21", "emerald holds five charges", "level 1 spell"]],
+                        ["890d98f62dfc20a7", ["8 + Dex modifier", "3d6 + 2 HP", "Clan Feadiel"]],
+                        ["79f6d72b6ca1159c", ["17 + Dex modifier (max +2)", "Young Blue Dragon", "seven dawns"]],
+                        ["b997e66a0271ce6a", ["silver Lion", "one year", "Remove Curse"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Mystara fan armor retains distinct wards, drawbacks, and AC': '''(async () => {
                     const cases = [
                         ["0dc6a22af269958e", ["Armor class bonus+5", "DC 17 Wisdom", "Once per new moon"]],
