@@ -1830,6 +1830,20 @@ def main():
                         if (!byId("custom-items").hidden) click("close-custom-items");
                     }
                 })()''',
+                'Mystara energy shields show distinct power and defense rules': '''(async () => {
+                    const cases = [
+                        ["1234f6e04adc22c7", ["Armor class bonus+2", "30 gp equivalent"]],
+                        ["3dc513d3fbfc4ff7", ["1 charge", "1 hour", "projector arm free"]],
+                        ["1df87f84a7708fbc", ["Required by an Octospider", "non-technological weapons"]],
+                        ["038a02ad91d4a944", ["no AC bonus", "roll 4d6", "next dawn"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Mystara shield weapons trade AC for attacks and suit armor has limits': '''(async () => {
                     const cases = [
                         ["734a41738507c81c", ["Armor class bonus+2", "1d4 Piercing", "Light property", "AC bonus is suspended"]],

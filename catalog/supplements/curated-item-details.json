@@ -1,6 +1,99 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:1234f6e04adc22c7": [
+      {
+        "label": "2024 shield comparison · Riot Shield",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "None",
+          "Source locator": "Cyclopaedic Compendium, Volume 2, PDF p. 14, Modern Armour table.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Special powers": "While wielding the shield with Shield training, gain +2 AC.",
+          "Source value": "30 gp equivalent in the source table.",
+          "Conversion notes": "Uses published Shield statistics for the modern riot shield. The source gives the standard shield protection."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield comparison"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:3dc513d3fbfc4ff7": [
+      {
+        "label": "D&D 2024 adaptation · Power Shield",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "Negligible",
+          "Attunement": "None",
+          "Source locator": "Cyclopaedic Compendium, Volume 2, PDF pp. 7 and 14, Power Shield and High Tech Armour table.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Special powers": "As a Utilize action, spend 1 charge from a connected compatible power pack to project a shield for 1 hour. While active, it grants +2 AC if you have Shield training and keep the hand on the projector arm free. It counts as wielding a Shield and its bonus cannot stack with another Shield.",
+          "Power supply": "External power pack. The projector stores no charges and does not recharge itself.",
+          "Source value": "500 gp equivalent in the source table, excluding the power pack.",
+          "Conversion notes": "Keeps the wrist-mounted projector, one-hour duration, and external charge. The free-hand requirement uses the normal 2024 shield trade-off."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield comparison"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:1df87f84a7708fbc": [
+      {
+        "label": "D&D 2024 adaptation · Octospider Energy Shield",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb (conversion estimate)",
+          "Attunement": "Required by an Octospider.",
+          "Source locator": "Cyclopaedic Compendium, Volume 2, PDF p. 63, Octospider equipment.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Special powers": "As a Utilize action while wielding the shield, turn the field on or off. While active and wielded by an attuned creature with Shield training, it adds +2 AC and grants Resistance to Bludgeoning, Piercing, and Slashing damage from attacks made with nonmagical, non-technological weapons.",
+          "Conversion notes": "Preserves the DNA lock. Uses the standard shield AC bonus and replaces mundane-weapon immunity with Resistance. Magical and technological weapons bypass this Resistance."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield comparison"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:038a02ad91d4a944": [
+      {
+        "label": "D&D 2024 adaptation · Vrusk Energy Shield",
+        "status": "original-draft",
+        "profile_kind": "adapted-protective-implement",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf",
+        "fields": {
+          "Weight": "6 lb (conversion estimate)",
+          "Attunement": "Required.",
+          "Source locator": "Cyclopaedic Compendium, Volume 2, PDF p. 78, Vrusk equipment.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "Use as armor": "Protective implement. Hold it in one hand. It grants no AC bonus and does not count as wielding a Shield.",
+          "Special powers": "As a Utilize action while holding the device, activate its inertial field for 1 minute. At the start of each of your turns while active, roll 4d6 to set a new absorption pool. Roll once when activating it as well. Damage you take first reduces the pool point for point. Remaining damage affects you normally. Any unused pool expires at the start of your next turn or when the field ends.",
+          "Recharge": "Once activated, the field cannot be activated again until the next dawn. It ends early if you release the device.",
+          "Conversion notes": "Keeps the legacy 4d6 absorption per round and lack of AC. The activation duration and recharge are conversion choices."
+        }
+      }
+    ],
     "mystara-fan-names-reference:f5caf6c6fa7ced1d": [
       {
         "label": "2024 armor comparison · Shield",
