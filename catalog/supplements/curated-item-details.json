@@ -8954,6 +8954,136 @@
           "Special powers": "With Shield training, gain the listed total bonus while holding the shield. Use a Utilize action to don or doff."
         }
       }
+    ],
+    "gaz8-name-reference:da62eb18e833fa48": [
+      {
+        "label": "D&D 2024 adaptation · Blacksling",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dmsguild.com/product/16980/GAZ8-The-Five-Shires-Basic",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_sling",
+          "label": "Open 2024 Sling"
+        },
+        "fields": {
+          "Source locator": "GAZ8 The Five Shires, The Sacred Mysteries, printed p. 20 (supplied PDF p. 45).",
+          "Base weapon": "Sling",
+          "Category": "Simple ranged weapon · Very Rare · Requires attunement",
+          "Damage": "1d4 Bludgeoning + Dexterity modifier. The +3 enhancement applies to the attack roll only.",
+          "Attack bonus": "+3 plus Dexterity modifier and Proficiency Bonus if proficient.",
+          "Range": "30/120 feet.",
+          "Properties": "Ammunition (Sling Bullet); requires a free hand to load ordinary ammunition.",
+          "Mastery": "Slow, if you have mastery with Slings.",
+          "Activation": "Make a normal Sling attack. Ammunition fired from the sling counts as magical for the attack.",
+          "Arsenal": "At discovery, roll 1d10 + 10 to determine how many objects the sling can store. Each object must fit in a halfling’s closed fist. Add one object as a Utilize action only in the presence of active Blackflame.",
+          "Retrieve": "While holding the sling, whisper its command as a Bonus Action to bring one random stored object into its cup. Retrieve at most one object per round. If it is suitable ammunition, it can be used for your next attack.",
+          "Loss of contents": "Only the sling’s wielder can retrieve stored objects. If the sling is destroyed, the stored items are scattered to another plane chosen by the DM.",
+          "Legacy crafting": "90,000 gp and seven days in the original setting’s construction rules.",
+          "Conversion notes": "Preserves the attack-only bonus, random extradimensional storage, and Blackflame loading restriction. The modern action costs are conversion choices."
+        }
+      }
+    ],
+    "gaz8-name-reference:405d59fd0824ef47": [
+      {
+        "label": "D&D 2024 adaptation · Dagger of Blackflame",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dmsguild.com/product/16980/GAZ8-The-Five-Shires-Basic",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 Dagger"
+        },
+        "fields": {
+          "Source locator": "GAZ8 The Five Shires, The Sacred Mysteries, printed p. 20 (supplied PDF p. 45).",
+          "Base weapon": "Dagger",
+          "Category": "Simple melee weapon · Very Rare · Requires attunement",
+          "Damage": "1d4 Piercing + the Strength or Dexterity modifier used for the attack + 2.",
+          "Attack bonus": "+2 plus Strength or Dexterity modifier and Proficiency Bonus if proficient.",
+          "Range": "5 feet melee or 20/60 feet thrown.",
+          "Properties": "Finesse, Light, Thrown.",
+          "Mastery": "Nick, if you have mastery with Daggers.",
+          "Activation": "Make a Dagger attack or use the fire powers while holding the unsheathed dagger.",
+          "Absorb flames": "As a Magic action, touch an ordinary fire with the blade to extinguish nonmagical flames in a 10-foot radius of the point touched. If it extinguishes fire, the dagger gains 1 ember, up to 2. Embers fade at the next dawn. This does not stop damage from heat, smoke, or collapsing objects.",
+          "Release flames": "Once per Long Rest, spend all stored embers to release 2d6 Fire damage per ember. Either use a Magic action to release a 40-foot-long, 5-foot-wide Line from the dagger (DC 15 Dexterity save for half damage), or release it on one melee hit to add the damage to that hit with no save.",
+          "Legacy crafting": "175,000 gp and seven days in the original setting’s construction rules.",
+          "Conversion notes": "Preserves flame storage, the 40-foot discharge, and the single-target option. The modern absorption is limited to ordinary fire and uses capped embers."
+        }
+      }
+    ],
+    "gaz8-name-reference:3033f3098efb3837": [
+      {
+        "label": "D&D 2024 adaptation · Sword of Blackflame",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dmsguild.com/product/16980/GAZ8-The-Five-Shires-Basic",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#Silence",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 Shortsword"
+        },
+        "fields": {
+          "Source locator": "GAZ8 The Five Shires, The Sacred Mysteries, printed p. 20 (supplied PDF p. 45).",
+          "Base weapon": "Shortsword",
+          "Category": "Martial melee weapon · Legendary · Requires attunement",
+          "Damage": "1d6 Piercing + the Strength or Dexterity modifier used for the attack + 3.",
+          "Attack bonus": "+3 plus Strength or Dexterity modifier and Proficiency Bonus if proficient.",
+          "Range": "5 feet melee.",
+          "Properties": "Finesse, Light.",
+          "Mastery": "Vex, if you have mastery with Shortswords.",
+          "Activation": "Make a Shortsword attack, invoke its Silence, or use Spell Reflection when eligible.",
+          "Dim blade": "The drawn blade is visually imperceptible in Dim Light or Darkness. This grants no attack advantage by itself.",
+          "Silence": "Once per Long Rest, use a Magic action to create a 20-foot Emanation centered on the drawn sword for up to 6 rounds, requiring Concentration. Use the Silence spell’s effects within the Emanation. It moves with the sword and ends if you let go or end Concentration.",
+          "Spell Reflection": "Once per Long Rest when a spell of level 5 or lower targets only you, take a Reaction while holding the sword to negate the spell against you. If the original caster is a valid target within the spell’s range from you, redirect it to that caster using the original slot level, save DC, and attack bonus. Otherwise the spell is absorbed with no further effect.",
+          "Legacy crafting": "275,000 gp and twelve days in the original setting’s construction rules.",
+          "Conversion notes": "Uses a +3 tabletop benchmark for the legacy +4. Reflection applies to single-target spells and leaves area spells to their normal rules."
+        }
+      }
+    ],
+    "gaz8-name-reference:14b3126f248071f7": [
+      {
+        "label": "D&D 2024 adaptation · Armor of Blackflame",
+        "status": "original-draft",
+        "profile_kind": "adapted-protective-garment",
+        "source": "https://www.dmsguild.com/product/16980/GAZ8-The-Five-Shires-Basic",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "fields": {
+          "Source locator": "GAZ8 The Five Shires, The Sacred Mysteries, printed p. 19 (supplied PDF p. 44).",
+          "Use as armor": "Protective garment for a Small or Tiny creature. It grants no AC bonus and requires no armor training. It cannot be worn over armor.",
+          "Training": "None.",
+          "Weight": "0 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required.",
+          "Special powers": "While worn, it becomes a weightless dark aura that obscures your features without blocking your sight. You have Resistance to Cold and Fire damage. Once per Long Rest when you take Cold or Fire damage, use a Reaction to gain Immunity to that damage type against that instance of damage.",
+          "Legacy crafting": "200,000 gp and ten days in the original setting’s construction rules.",
+          "Conversion notes": "Retains the original’s lack of physical protection. The 2024 version limits its environmental defenses to specified damage types and a once-per-rest reaction."
+        }
+      }
+    ],
+    "gazetteer-npc-equipment-reference:ee4c6df9d0d0e9e1": [
+      {
+        "label": "2024 counterpart · Plate Armor +2",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "source": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-2",
+          "label": "Open 2024 Plate Armor +2"
+        },
+        "fields": {
+          "Source locator": "GAZ1 The Grand Duchy of Karameikos, Ludwig von Hendriks, supplied PDF p. 59.",
+          "Armor class": "20",
+          "Training": "Heavy",
+          "Strength requirement": "15. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "None.",
+          "Rarity": "Very Rare",
+          "Special powers": "The +2 armor enhancement is included in AC 20. Ludwig’s separate Sword +2 does not affect this armor."
+        }
+      }
     ]
   }
 }

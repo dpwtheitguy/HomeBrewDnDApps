@@ -1069,6 +1069,22 @@ def main():
                     }
                     return true;
                 })()''',
+                'Blackflame cards preserve storage reflection and non-AC protection': '''(async () => {
+                    const cases = [
+                        ["gaz8-name-reference:da62eb18e833fa48", ["attack roll only", "1d10 + 10", "random stored object"]],
+                        ["gaz8-name-reference:405d59fd0824ef47", ["10-foot radius", "40-foot-long", "DC 15 Dexterity"]],
+                        ["gaz8-name-reference:3033f3098efb3837", ["20-foot Emanation", "targets only you", "original caster"]],
+                        ["gaz8-name-reference:14b3126f248071f7", ["no AC bonus", "Resistance to Cold and Fire", "0 lb"]],
+                        ["gazetteer-npc-equipment-reference:ee4c6df9d0d0e9e1", ["Armor class20", "Ludwig von Hendriks", "Very Rare"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        const details = inspection.textContent;
+                        if (!terms.every(term => details.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

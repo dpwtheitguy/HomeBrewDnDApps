@@ -811,6 +811,26 @@
         "verification_scope": "The equipment type and stated enhancement were checked against the supplied GAZ1 scan."
       },
       "note": "Her combat notes list a Shield alongside chain mail and a separate Ring of Protection."
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "plate mail +2",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 59
+        },
+        "verified_fields": [
+          "armor type",
+          "enhancement bonus"
+        ],
+        "verification_scope": "Visually verified against Ludwig von Hendriks’s combat notes in the supplied GAZ1 scan."
+      },
+      "note": "Ludwig’s combat notes explicitly list Plate Mail +2, separate from his Sword +2."
     }
   ]
 }
