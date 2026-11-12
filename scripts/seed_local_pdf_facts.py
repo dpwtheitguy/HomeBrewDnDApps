@@ -33,7 +33,12 @@ for name,cost,pdf_page,printed in [('Armor of Blackflame',200000,44,19),('Cloak 
 patch('mystara-craft-relic-reference','Pearl of Power',evidence('GAZ9',76,42,['name','water-elf-relic-appearance']),note='Verified the Minrothad clan relic. Do not merge it with the SRD spell-slot recovery item merely because the names match.')
 patch('gazetteer-equipment-reference','Dagger, Kouglar',evidence('GAZ2',37,36,['name','curved-dagger-classification']),aliases=['Kouglar'],note='Verified in the original glossary as a curved dagger; no special bonus inferred.')
 patch('mystara-draft-conversions','Yataghan',evidence('GAZ2',37,36,['name','scimitar-classification']),note='The original glossary calls it a large double-edged scimitar. The 2024 draft now uses the Scimitar base profile; no separate Large-size rule is inferred from the adjective.')
-(C/'settings/mystara/local-pdf-verifications.json').write_text(json.dumps({'scope':'Selected human-checked page facts. Existing records are enriched instead of duplicated.','patches':patches},ensure_ascii=False,indent=2)+'\n')
+verification_path = C/'settings/mystara/local-pdf-verifications.json'
+seeded_keys = {(row['source_id'], row['name'].casefold()) for row in patches}
+if verification_path.exists():
+    patches.extend(row for row in json.loads(verification_path.read_text())['patches']
+                   if (row['source_id'], row['name'].casefold()) not in seeded_keys)
+verification_path.write_text(json.dumps({'scope':'Selected original-page checks on existing records.','patches':patches},ensure_ascii=False,indent=2)+'\n')
 rows=[]
 def add(name,kind,code,pdf_page,printed,**extra):
  ev=evidence(code,pdf_page,printed,['object-name-or-explicit-object-mention']);filename,url,author,region=books[code]

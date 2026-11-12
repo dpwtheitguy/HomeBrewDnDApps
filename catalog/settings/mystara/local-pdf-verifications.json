@@ -391,6 +391,426 @@
         "verification_scope": "Name and artifact appearance checked visually."
       },
       "note": "Original boxed-set evidence attached to the existing artifact record."
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "war hammer",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 52
+        },
+        "verified_fields": [
+          "weapon or armor type",
+          "stated enhancement if any"
+        ],
+        "verification_scope": "The equipment type and stated enhancement were checked against the supplied GAZ1 scan."
+      },
+      "note": "Aleksyev carries his father’s war hammer. The same character’s combat notes identify his hammer as +2."
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "war hammer +2",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 52
+        },
+        "verified_fields": [
+          "weapon or armor type",
+          "stated enhancement if any"
+        ],
+        "verification_scope": "The equipment type and stated enhancement were checked against the supplied GAZ1 scan."
+      },
+      "note": "The combat notes give his war hammer a +2 enhancement."
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "staff",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 52
+        },
+        "verified_fields": [
+          "weapon or armor type",
+          "stated enhancement if any"
+        ],
+        "verification_scope": "The equipment type and stated enhancement were checked against the supplied GAZ1 scan."
+      },
+      "note": "Sergyev carries a staff. The equipment description does not specify magic."
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "sword",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 54
+        },
+        "verified_fields": [
+          "weapon or armor type",
+          "stated enhancement if any"
+        ],
+        "verification_scope": "The equipment type and stated enhancement were checked against the supplied GAZ1 scan."
+      },
+      "note": "Boris’s combat notes list a sword with 1d8 base damage."
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "mace +1",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 51
+        },
+        "verified_fields": [
+          "weapon or armor type",
+          "stated enhancement if any"
+        ],
+        "verification_scope": "The equipment type and stated enhancement were checked against the supplied GAZ1 scan."
+      },
+      "note": "The combat notes list Mace +1."
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "sword +2",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 43
+        },
+        "verified_fields": [
+          "weapon or armor type",
+          "stated enhancement if any"
+        ],
+        "verification_scope": "The equipment type and stated enhancement were checked against the supplied GAZ1 scan."
+      },
+      "note": "The combat notes list a sword +2."
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "mace",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 51
+        },
+        "verified_fields": [
+          "weapon or armor type",
+          "stated enhancement if any"
+        ],
+        "verification_scope": "The equipment type and stated enhancement were checked against the supplied GAZ1 scan."
+      },
+      "note": "The combat notes list a mace with no enhancement."
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "sword +1",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 46
+        },
+        "verified_fields": [
+          "weapon or armor type",
+          "stated enhancement if any"
+        ],
+        "verification_scope": "The equipment type and stated enhancement were checked against the supplied GAZ1 scan."
+      },
+      "note": "The combat notes list sword +1."
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "dagger",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 56
+        },
+        "verified_fields": [
+          "weapon or armor type",
+          "stated enhancement if any"
+        ],
+        "verification_scope": "The equipment type and stated enhancement were checked against the supplied GAZ1 scan."
+      },
+      "note": "The combat notes list a dagger with 1d4 base damage."
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "short sword",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 48
+        },
+        "verified_fields": [
+          "weapon or armor type",
+          "stated enhancement if any"
+        ],
+        "verification_scope": "The equipment type and stated enhancement were checked against the supplied GAZ1 scan."
+      },
+      "note": "The combat notes list a short sword."
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "mace +2",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 58
+        },
+        "verified_fields": [
+          "weapon or armor type",
+          "stated enhancement if any"
+        ],
+        "verification_scope": "The equipment type and stated enhancement were checked against the supplied GAZ1 scan."
+      },
+      "note": "The combat notes list Mace +2. The wearer’s Strength contribution is separate."
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "dagger +2",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 47
+        },
+        "verified_fields": [
+          "weapon or armor type",
+          "stated enhancement if any"
+        ],
+        "verification_scope": "The equipment type and stated enhancement were checked against the supplied GAZ1 scan."
+      },
+      "note": "The combat notes list Dagger +2."
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "mace +3",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 51
+        },
+        "verified_fields": [
+          "weapon or armor type",
+          "stated enhancement if any"
+        ],
+        "verification_scope": "The equipment type and stated enhancement were checked against the supplied GAZ1 scan."
+      },
+      "note": "The combat notes list Mace +3."
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "leather armor",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 54
+        },
+        "verified_fields": [
+          "weapon or armor type",
+          "stated enhancement if any"
+        ],
+        "verification_scope": "The equipment type and stated enhancement were checked against the supplied GAZ1 scan."
+      },
+      "note": "His combat notes list leather armor separately from Dexterity and his Ring of Protection."
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "chain mail",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 57
+        },
+        "verified_fields": [
+          "weapon or armor type",
+          "stated enhancement if any"
+        ],
+        "verification_scope": "The equipment type and stated enhancement were checked against the supplied GAZ1 scan."
+      },
+      "note": "Her combat notes list chain mail, Shield, and a separate Ring of Protection."
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "chain mail +1",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 49
+        },
+        "verified_fields": [
+          "weapon or armor type",
+          "stated enhancement if any"
+        ],
+        "verification_scope": "The equipment type and stated enhancement were checked against the supplied GAZ1 scan."
+      },
+      "note": "The combat notes list Chain Mail +1 in his war equipment."
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "chain mail +3",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 46
+        },
+        "verified_fields": [
+          "weapon or armor type",
+          "stated enhancement if any"
+        ],
+        "verification_scope": "The equipment type and stated enhancement were checked against the supplied GAZ1 scan."
+      },
+      "note": "The combat notes list Chain Mail +3 in his war equipment."
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "chain mail +2",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 51
+        },
+        "verified_fields": [
+          "weapon or armor type",
+          "stated enhancement if any"
+        ],
+        "verification_scope": "The equipment type and stated enhancement were checked against the supplied GAZ1 scan."
+      },
+      "note": "The combat notes list Chain Mail +2, separately from his Dexterity bonus."
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "plate mail",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 52
+        },
+        "verified_fields": [
+          "weapon or armor type",
+          "stated enhancement if any"
+        ],
+        "verification_scope": "The equipment type and stated enhancement were checked against the supplied GAZ1 scan."
+      },
+      "note": "His appearance and combat notes identify Plate as war gear."
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "shield +2",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 43
+        },
+        "verified_fields": [
+          "weapon or armor type",
+          "stated enhancement if any"
+        ],
+        "verification_scope": "The equipment type and stated enhancement were checked against the supplied GAZ1 scan."
+      },
+      "note": "His war equipment includes a +2 Shield alongside plate and a separate Ring of Protection."
+    },
+    {
+      "source_id": "gazetteer-npc-equipment-reference",
+      "name": "shield",
+      "evidence": {
+        "book_code": "GAZ1",
+        "url": "https://www.dmsguild.com/product/16974/GAZ1-The-Grand-Duchy-of-Karameikos-Basic",
+        "author": "Aaron Allston",
+        "local_file": "pdfs/Grand Duchy of Karameikos.pdf",
+        "file_sha256": "3f90c788cfe58b4cc0d411e7ed34d0b06984bfb700abdc73afba17250c6ec92c",
+        "locator": {
+          "pdf_page": 57
+        },
+        "verified_fields": [
+          "weapon or armor type",
+          "stated enhancement if any"
+        ],
+        "verification_scope": "The equipment type and stated enhancement were checked against the supplied GAZ1 scan."
+      },
+      "note": "Her combat notes list a Shield alongside chain mail and a separate Ring of Protection."
     }
   ]
 }

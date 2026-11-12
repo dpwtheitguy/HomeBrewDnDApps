@@ -1054,6 +1054,21 @@ def main():
                     }
                     return true;
                 })()''',
+                'Karameikos equipment preserves enhancements and the dagger trigger': '''(async () => {
+                    const cases = [
+                        ["02fbb75e850bc390", ["currently concentrating on a spell", "instead of +2", "supplied PDF p. 60"]],
+                        ["c314f33975834496", ["Warhammer +2", "1d8 Bludgeoning", "Push"]],
+                        ["a9b88d9954fb92b7", ["Armor class19", "Legendary", "supplied PDF p. 46"]],
+                        ["e2aae6a7f0f1e5e9", ["Armor class bonus+4", "Ring of Protection", "Shield training"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("gazetteer-npc-equipment-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const details = inspection.textContent;
+                        if (!terms.every(term => details.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
