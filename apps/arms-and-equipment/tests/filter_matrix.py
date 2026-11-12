@@ -1740,6 +1740,20 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault elemental armor shows ally protection and healing': '''(async () => {
+                    const cases = [
+                        ["e76e25c0dbae2266", ["Armor class20", "Radiant healing", "Hit Point Die", "10-foot Emanation"]],
+                        ["76a0330e105ccc61", ["Armor class21", "Necrotic and Psychic", "unspent Hit Point Dice"]],
+                        ["47e3391c01934a31", ["Armor class18", "ally within 25 feet", "immune to those types"]],
+                        ["1d3e1a8fcb2bd0da", ["Armor class21", "ally within 50 feet", "hits you instead"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Adventurer’s Vault armor shows jump escape poison and temporary HP rules': '''(async () => {
                     const cases = [
                         ["f7e25d7df13456d8", ["Padded Armor", "exceed your remaining movement", "Short or Long Rest"]],

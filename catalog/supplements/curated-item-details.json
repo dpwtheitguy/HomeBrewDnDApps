@@ -1,6 +1,229 @@
 {
   "schema_version": 1,
   "records": {
+    "adventurers-vault-1-reference:e76e25c0dbae2266": [
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing the armor, use the healing Reaction or the radiant burst below.",
+          "Radiant healing": "Immediately after taking Radiant damage, take a Reaction and spend one unspent Hit Point Die. Roll it and regain Hit Points equal to the roll + your Constitution modifier + 2 (minimum 1).",
+          "Radiant burst": "Take a Magic action. Each enemy in a 10-foot Emanation originating from you takes 4 Radiant damage and has a −2 penalty to attack rolls until the end of your next turn. No save. The burst recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 52 (PDF p. 53), Solar Armor.",
+          "Conversion notes": "Converts a healing surge to one Hit Point Die and the two-square burst to a 10-foot Emanation. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "20",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing the armor, use the healing Reaction or the radiant burst below.",
+          "Radiant healing": "Immediately after taking Radiant damage, take a Reaction and spend one unspent Hit Point Die. Roll it and regain Hit Points equal to the roll + your Constitution modifier + 2 (minimum 1).",
+          "Radiant burst": "Take a Magic action. Each enemy in a 10-foot Emanation originating from you takes 4 Radiant damage and has a −2 penalty to attack rolls until the end of your next turn. No save. The burst recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 52 (PDF p. 53), Solar Armor.",
+          "Conversion notes": "Converts a healing surge to one Hit Point Die and the two-square burst to a 10-foot Emanation. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:76a0330e105ccc61": [
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While wearing the armor, you have Resistance to Necrotic and Psychic damage. An enemy’s attack cannot force you to expend or lose unspent Hit Point Dice.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Soulwarding Armor.",
+          "Conversion notes": "Caps the original enhancement at +3. Fixed resistances become 2024 Resistance. Protection from forced healing-surge loss becomes protection for Hit Point Dice. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-3",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While wearing the armor, you have Resistance to Necrotic and Psychic damage. An enemy’s attack cannot force you to expend or lose unspent Hit Point Dice.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Soulwarding Armor.",
+          "Conversion notes": "Caps the original enhancement at +3. Fixed resistances become 2024 Resistance. Protection from forced healing-surge loss becomes protection for Hit Point Dice. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-3",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "21",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While wearing the armor, you have Resistance to Necrotic and Psychic damage. An enemy’s attack cannot force you to expend or lose unspent Hit Point Dice.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Soulwarding Armor.",
+          "Conversion notes": "Caps the original enhancement at +3. Fixed resistances become 2024 Resistance. Protection from forced healing-surge loss becomes protection for Hit Point Dice. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-3",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:47e3391c01934a31": [
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing the armor, you have Resistance to Necrotic and Radiant damage.",
+          "Spiritlink": "When an ally within 25 feet is hit by an attack that would deal Necrotic or Radiant damage, take a Reaction before damage is applied. The ally is immune to those types for that attack and may spend one Hit Point Die to regain Hit Points equal to its roll + the ally’s Constitution modifier + 4 (minimum 1). Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Spiritlink Armor.",
+          "Conversion notes": "Uses +2 AC and replaces the original fixed resistances and healing surge with 2024 Resistance and a Hit Point Die. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:1d3e1a8fcb2bd0da": [
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While wearing the armor, you have Resistance to Lightning and Thunder damage.",
+          "Storm interception": "When an attack hits an ally within 50 feet and would deal Lightning or Thunder damage, take a Reaction before damage is applied if the attack could legally target you. It hits you instead without rerolling. You gain +2 to attack rolls until the end of your next turn. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Stormlord Armor.",
+          "Conversion notes": "Uses the original lowest +3 enhancement and adapts fixed resistance to 2024 Resistance. The replacement target must be legal. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-3",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While wearing the armor, you have Resistance to Lightning and Thunder damage.",
+          "Storm interception": "When an attack hits an ally within 50 feet and would deal Lightning or Thunder damage, take a Reaction before damage is applied if the attack could legally target you. It hits you instead without rerolling. You gain +2 to attack rolls until the end of your next turn. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Stormlord Armor.",
+          "Conversion notes": "Uses the original lowest +3 enhancement and adapts fixed resistance to 2024 Resistance. The replacement target must be legal. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-3",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "21",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While wearing the armor, you have Resistance to Lightning and Thunder damage.",
+          "Storm interception": "When an attack hits an ally within 50 feet and would deal Lightning or Thunder damage, take a Reaction before damage is applied if the attack could legally target you. It hits you instead without rerolling. You gain +2 to attack rolls until the end of your next turn. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Stormlord Armor.",
+          "Conversion notes": "Uses the original lowest +3 enhancement and adapts fixed resistance to 2024 Resistance. The replacement target must be legal. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-3",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
     "adventurers-vault-1-reference:f7e25d7df13456d8": [
       {
         "label": "D&D 2024 adaptation · Padded Armor",
