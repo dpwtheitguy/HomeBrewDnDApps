@@ -694,6 +694,23 @@ def main():
                     }
                     return true;
                 })()''',
+                'Expanded armor preserves published exceptions and curses': '''(async () => {
+                    const cases = [
+                        ["dndbeyond:21731", ["Armor class18", "Stealth disadvantageNo", "DC 15 Constitution", "10d10 + 45"]],
+                        ["dndbeyond:3001260", ["Armor class14 + Dex modifier", "Stealth disadvantageNo", "full Dexterity modifier"]],
+                        ["dndbeyond:316637", ["Critical Hit", "Strength or Constitution", "armor rules · Plate Armor"]],
+                        ["dndbeyond:316763", ["Armor class bonus+2", "every two allies", "Force damage"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        const details = inspection.textContent;
+                        const missing = terms.filter(term => !details.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                        if (id === "dndbeyond:3001260" && details.includes("(max +2)")) return false;
+                    }
+                    return true;
+                })()''',
                 'Public magic weapon cards distinguish bases and attunement': '''(async () => {
                     inspect("dndbeyond:9228714", grid.firstElementChild);
                     await itemDetails;

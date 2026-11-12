@@ -84,12 +84,22 @@ PUBLIC_ARMOR_RULES = {
     'dndbeyond:9228382': 'https://roll20.net/compendium/dnd5e/Templates%3ACast-Off%20Armor?expansion=33359',
     'dndbeyond:36837': 'https://roll20.net/compendium/dnd5e/Templates%3ASmoldering%20Armor?expansion=33359',
     'dndbeyond:27116': 'https://roll20.net/compendium/dnd5e/Items%3AShield%20of%20Expression?expansion=33359',
+    'dndbeyond:21731': 'https://online.anyflip.com/tqblu/jphj/files/basic-html/page209.html',
+    'dndbeyond:3001260': 'https://anyflip.com/cwvnz/zdcr/basic/51-100',
+    'dndbeyond:316637': 'https://online.anyflip.com/tqblu/plwt/files/basic-html/page180.html',
+    'dndbeyond:316763': 'https://online.anyflip.com/tqblu/plwt/files/basic-html/page181.html',
     'dndbeyond:9228451': MAGIC + '#DemonArmor',
     'dndbeyond:9228541': 'https://roll20.net/compendium/dnd5e/Templates%3AEnspelled%20Armor?expansion=33359',
     'dndbeyond:9228837': 'https://roll20.net/compendium/dnd5e/Templates%3AMariner%27s%20Armor?expansion=33359',
 }
 
-METAL_ARMOR_FAMILIES = {'Adamantine Armor', 'Mithral Armor'}
+METAL_ARMOR_FAMILIES = {'Adamantine Armor', 'Mithral Armor', 'Mizzium Armor'}
+PUBLIC_FIXED_BASES = {
+    'Shield of Expression': 'Shield',
+    "Pariah's Shield": 'Shield',
+    'Scorpion Armor': 'Plate Armor',
+    'Serpent Scale Armor': 'Scale Mail',
+}
 
 PUBLIC_ARMOR = {
     **{
@@ -142,6 +152,31 @@ PUBLIC_ARMOR = {
             'Special powers': 'While carrying the shield, take a Bonus Action to change the expression of the face on its front.',
         },
     ),
+    'dndbeyond:21731': (
+        'Scorpion Armor', '21731-scorpion-armor', 0, True, 'Rare', {
+            'Special powers': 'While worn, gain +5 to Initiative unless Incapacitated. The armor imposes no Stealth disadvantage and no disadvantage on saves against extreme heat.',
+            'Curse': 'Each time you don or doff the armor, make a DC 15 Constitution save. Take 10d10 + 45 Poison damage on a failure or half as much on a success. Only Wish removes this curse.',
+            'Publication': 'Tomb of Annihilation, Appendix C, p. 208. Original powers on the 2024 Plate Armor base.',
+        },
+    ),
+    'dndbeyond:3001260': (
+        'Serpent Scale Armor', '3001260-serpent-scale-armor', 0, False, 'Uncommon', {
+            'Special powers': 'Add your full Dexterity modifier to the armor’s AC. The armor imposes no disadvantage on Dexterity (Stealth) checks.',
+            'Publication': 'Candlekeep Mysteries, Book of Cylinders, p. 98. Original exceptions on the 2024 Scale Mail base.',
+        },
+    ),
+    'dndbeyond:316637': (
+        'Mizzium Armor', '316637-mizzium-armor', 0, False, 'Rare', {
+            'Special powers': 'While worn, a Critical Hit against you becomes a normal hit. If a magical effect allows a Strength or Constitution saving throw for half damage, take no damage on a success.',
+            'Publication': 'Guildmasters’ Guide to Ravnica, p. 179. Original powers on eligible 2024 armor bases.',
+        },
+    ),
+    'dndbeyond:316763': (
+        "Pariah's Shield", '316763-pariahs-shield', 0, True, 'Rare', {
+            'Special powers': 'While wielding it, gain +1 AC for every two allies within 5 feet of you, up to +3 extra AC. When a creature you can see within 5 feet takes damage, you can take a Reaction to take that damage in its place. The transferred damage becomes Force damage.',
+            'Publication': 'Guildmasters’ Guide to Ravnica, p. 180. Original powers on the 2024 Shield base.',
+        },
+    ),
     'dndbeyond:9228451': (
         'Demon Armor', '9228451-demon-armor', 1, True, 'Very Rare', {
             'Special powers': 'While worn, you know Abyssal. The clawed gauntlets let your Unarmed Strikes deal 1d8 Slashing and grant +1 to their attack and damage rolls.',
@@ -179,7 +214,8 @@ def public_armor_variants(items):
         for base in bases:
             armor = base['mechanics']['armor']
             shield = armor['name'] == 'Shield'
-            if shield != (name == 'Shield of Expression'):
+            fixed_base = PUBLIC_FIXED_BASES.get(name)
+            if (fixed_base and armor['name'] != fixed_base) or (not fixed_base and shield):
                 continue
             cap = armor['ac_cap_dexmod']
             if name in METAL_ARMOR_FAMILIES and (
@@ -187,10 +223,12 @@ def public_armor_variants(items):
             ):
                 continue
             mithral = name == 'Mithral Armor'
+            stealth_exception = name in {'Scorpion Armor', 'Serpent Scale Armor'}
+            uncapped_dexterity = name == 'Serpent Scale Armor'
             formula = str(armor['ac_base'] + bonus)
             if armor['ac_add_dexmod']:
                 formula += ' + Dex modifier'
-                if cap is not None:
+                if cap is not None and not uncapped_dexterity:
                     formula += f' (max +{cap})'
             training = ('Medium armor' if cap is not None else 'Light armor'
                         if armor['ac_add_dexmod'] else 'Heavy armor')
@@ -198,7 +236,7 @@ def public_armor_variants(items):
                 'Armor class bonus' if shield else 'Armor class': '+' + formula if shield else formula,
                 'Training': 'Shield' if shield else training,
                 'Strength requirement': 'None' if mithral else str(armor['strength_score_required'] or 'None'),
-                'Stealth disadvantage': 'Yes' if armor['grants_stealth_disadvantage'] and not mithral else 'No',
+                'Stealth disadvantage': 'Yes' if armor['grants_stealth_disadvantage'] and not (mithral or stealth_exception) else 'No',
                 'Weight': f"{float(base['mechanics']['source_fields']['weight']):g} lb",
                 'Attunement': 'Required' if attune else 'None', 'Rarity': rarity, **effects,
             }
@@ -209,6 +247,8 @@ def public_armor_variants(items):
                 'label': label + ' · ' + armor['name'], 'status': 'published-reference',
                 'profile_kind': 'published-public-armor', 'source': source, 'enhancement_bonus': bonus,
                 'rules_source': PUBLIC_ARMOR_RULES[item['id']], 'mithral': mithral,
+                **({'stealth_exception': True} if stealth_exception else {}),
+                **({'uncapped_dexterity': True} if uncapped_dexterity else {}),
                 'fields': fields, 'related_item': {'id': base['id'], 'label': 'Open 2024 base equipment'},
             })
         records[item['id']] = variants

@@ -251,7 +251,8 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
                     formula = str(fields['armor_class'] + bonus)
                     if target_armor['ac_add_dexmod']:
                         formula += ' + Dex modifier'
-                        if cap := target_armor['ac_cap_dexmod']:
+                        cap = target_armor['ac_cap_dexmod']
+                        if cap and not (public and mapping.get('uncapped_dexterity')):
                             formula += f' (max +{cap})'
                     valid_ac = mapped_fields.get('Armor class') == formula
                 if not valid_ac:
@@ -260,6 +261,10 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
                     fields['training'] = family['training']
                 if mapping.get('mithral') or (family and family.get('mithral')):
                     fields.update(strength_requirement='None', stealth_disadvantage='No')
+                if public and mapping.get('uncapped_dexterity'):
+                    fields['dexterity'] = 'Full Dexterity modifier'
+                if public and mapping.get('stealth_exception'):
+                    fields['stealth_disadvantage'] = 'No'
                 fields['effects'] = mapped_fields['Special powers']
                 if game_adaptation or source_adaptation:
                     fields['weight'] = mapped_fields['Weight']
