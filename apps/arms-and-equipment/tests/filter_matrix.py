@@ -88,6 +88,8 @@ def cases():
         case('BG3 Dippable property with cold damage', facets={'source': 'bg3-wiki', 'property': 'dippable', 'damage': 'cold'}),
         case('BG3 edition plus Magic', category='Magic', facets={'ruleset': 'bg3'}, positive=True),
         case('Magic facet plus BG3 source', facets={'enchantment': 'magic', 'source': 'bg3-wiki'}, positive=True),
+        case('Vault Blue Wyrm whip search finds all printed enhancements', category='Weapons',
+             term='Whip of the Blue Wyrm', facets={'source': 'open5e-vom'}, exact_count=3),
         case('BG3 Magic and mundane conflict', category='Magic', facets={'source': 'bg3-wiki', 'enchantment': 'mundane'}, exact_count=0),
         case('Magic plus mismatched edition/source', category='Magic', facets={'ruleset': 'dnd-2024', 'source': 'bg3-wiki'}),
         case('Bloodthirst in BG3 Magic', category='Magic', term='Bloodthirst',
@@ -1868,6 +1870,24 @@ def main():
                         if (!byId("custom-items").hidden) byId("close-custom-items").click();
                         dismissInspection(false);
                     }
+                })()''',
+                'Vault of Magic restores four omitted item families and their variants': '''(async () => {
+                    for (const [id, terms] of [
+                        ["whip-of-the-blue-wyrm-plus-1", ["Uncommon", "1d6 Lightning"]],
+                        ["whip-of-the-blue-wyrm-plus-2", ["Rare", "1d4 Slashing"]],
+                        ["whip-of-the-blue-wyrm-plus-3", ["Very Rare", "modifier + 3"]],
+                        ["whirlwind-bolas", ["5/15 feet", "DC 15 Strength", "No damage from the attack"]],
+                        ["witchs-circle", ["1d6 Slashing", "20/60 feet", "Moonbeam at level 6"]],
+                        ["witch-hunters-half-plate-armor", ["16 + Dex modifier", "against spells", "until dawn"]],
+                        ["witch-hunters-plate-armor", ["Armor class19", "Strength 15"]],
+                    ]) {
+                        inspect("open5e-vom:vom_" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
                 })()''',
                 'Vault of Magic shows aquatic armor, shield penalties, and paired ammunition': '''(async () => {
                     for (const [id, terms] of [

@@ -1,15 +1,15 @@
 # Item price coverage
 
-**34,528 of 34,528** catalog records have a positive base cost, buy price, and sell price.
+**34,545 of 34,545** catalog records have a positive base cost, buy price, and sell price.
 
 | Pricing basis | Records |
 |---|---:|
-| Low-confidence 2024 tabletop category appraisal | 16,909 |
+| Low-confidence 2024 tabletop category appraisal | 16,889 |
 | Source-listed base cost | 4,793 |
-| 2024 magic-item rarity estimate | 4,208 |
+| 2024 magic-item rarity estimate | 4,247 |
 | Source-reported value from catalog provenance | 3,860 |
 | Construction or installation estimate | 3,005 |
-| Estimate from comparable 2024 equipment | 833 |
+| Estimate from comparable 2024 equipment | 831 |
 | Source-reported resale value used as the base benchmark | 444 |
 | Existing catalog appraisal | 265 |
 | DM appraisal for an exceptional or priceless item | 83 |
@@ -23,8 +23,8 @@
 
 | Price adjustment | Records |
 |---|---:|
+| Decorative workmanship · +20% | 90 |
 | 3.5e masterwork price benchmark | 84 |
-| Decorative workmanship · +20% | 78 |
 | Jewelled ornament · +50% | 6 |
 
 Published and already recorded item prices are preserved. Percentage premiums apply to the physical equipment value. The historical masterwork benchmark affects price only in this appraisal.

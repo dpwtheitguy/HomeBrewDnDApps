@@ -1,6 +1,452 @@
 {
   "schema_version": 1,
   "records": {
+    "open5e-vom:vom_whip-of-the-blue-wyrm-plus-1": [
+      {
+        "label": "D&D 2024 adaptation · Whip of the Blue Wyrm (+1)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_whip",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d4 Slashing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "10 feet melee",
+          "Properties": "Finesse, Reach",
+          "Mastery": "Slow",
+          "Weight": "3 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While holding the whip, use a Bonus Action to speak its command word and electrify it. Each hit deals an extra 1d6 Lightning damage while charged. The effect ends if you use a Bonus Action to speak the word again, drop the whip, or stow it.",
+          "Conversion notes": "The printed rarity sets the enhancement. Uses the 2024 Whip.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 44."
+        }
+      }
+    ],
+    "open5e-vom:vom_whip-of-the-blue-wyrm-plus-2": [
+      {
+        "label": "D&D 2024 adaptation · Whip of the Blue Wyrm (+2)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_whip",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d4 Slashing + Strength or Dexterity modifier + 2.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "10 feet melee",
+          "Properties": "Finesse, Reach",
+          "Mastery": "Slow",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While holding the whip, use a Bonus Action to speak its command word and electrify it. Each hit deals an extra 1d6 Lightning damage while charged. The effect ends if you use a Bonus Action to speak the word again, drop the whip, or stow it.",
+          "Conversion notes": "The printed rarity sets the enhancement. Uses the 2024 Whip.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 44."
+        }
+      }
+    ],
+    "open5e-vom:vom_whip-of-the-blue-wyrm-plus-3": [
+      {
+        "label": "D&D 2024 adaptation · Whip of the Blue Wyrm (+3)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_whip",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d4 Slashing + Strength or Dexterity modifier + 3.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "10 feet melee",
+          "Properties": "Finesse, Reach",
+          "Mastery": "Slow",
+          "Weight": "3 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While holding the whip, use a Bonus Action to speak its command word and electrify it. Each hit deals an extra 1d6 Lightning damage while charged. The effect ends if you use a Bonus Action to speak the word again, drop the whip, or stow it.",
+          "Conversion notes": "The printed rarity sets the enhancement. Uses the 2024 Whip.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 44."
+        }
+      }
+    ],
+    "open5e-vom:vom_whirlwind-bolas": [
+      {
+        "label": "D&D 2024 adaptation · Whirlwind Bolas",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "No damage from the attack. Apply falling damage normally if Whirling Trip drops the creature.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5/15 feet thrown",
+          "Properties": "Thrown",
+          "Mastery": "None",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Activation": "Make a ranged weapon attack. Whirling Trip is a separate Bonus Action.",
+          "Special powers": "A hit on a Medium or smaller creature with a physical form forces a DC 15 Strength save. On a failure the creature falls Prone and its Speed becomes 0 until freed. A creature can take an action and pass a DC 10 Strength check to free itself or a creature it can reach. Dealing 5 Slashing damage to the bolas (AC 10) also frees the target and disables the binding until dawn.",
+          "Conversion notes": "Uses the book’s martial ranged Bolas as a custom 2024 weapon. The attack itself deals no damage. Apply the standard falling rules when Whirling Trip drops a target.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 44.",
+          "Whirling Trip": "As a Bonus Action, speak the command word while the bolas reduces a creature’s Speed to 0. The creature rises up to 30 feet and falls. The bolas then flies up to 50 feet back toward your hand, falling at your feet if you have no hand free. This ability recharges at dawn."
+        }
+      }
+    ],
+    "open5e-vom:vom_witchs-circle": [
+      {
+        "label": "D&D 2024 adaptation · Witch’s Circle",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Slashing + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Thrown",
+          "Mastery": "None",
+          "Weight": "1 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required by a spellcaster",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When a ranged attack with the chakram hits, add 1d8 Cold, Fire, Lightning, or Thunder damage (your choice). Immediately after the ranged attack, the chakram flies up to 60 feet back to your hand. It falls at your feet if you have no hand free. While holding it, take a Magic action to cast Moonbeam at level 6 using your spell save DC. This spell use recharges at dawn.",
+          "Conversion notes": "Uses the book’s martial melee Chakram as a custom 2024 weapon. It has no published 2024 mastery.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 45.",
+          "Moonbeam": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#Moonbeam"
+        }
+      }
+    ],
+    "open5e-vom:vom_witch-hunters-padded-armor": [
+      {
+        "label": "D&D 2024 adaptation · Witch Hunter’s Armor (Padded Armor)",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing this armor, gain the +1 enhancement shown in its AC and Advantage on saves against spells. When you fail a save against a spell, you may choose to succeed instead. All of the armor’s magic then shuts down until dawn, including the AC enhancement and Advantage.",
+          "Conversion notes": "Uses the listed 2024 armor base. While the magic is dormant, subtract 1 from the displayed AC.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 45."
+        },
+        "enhancement_bonus": 1
+      }
+    ],
+    "open5e-vom:vom_witch-hunters-leather-armor": [
+      {
+        "label": "D&D 2024 adaptation · Witch Hunter’s Armor (Leather Armor)",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing this armor, gain the +1 enhancement shown in its AC and Advantage on saves against spells. When you fail a save against a spell, you may choose to succeed instead. All of the armor’s magic then shuts down until dawn, including the AC enhancement and Advantage.",
+          "Conversion notes": "Uses the listed 2024 armor base. While the magic is dormant, subtract 1 from the displayed AC.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 45."
+        },
+        "enhancement_bonus": 1
+      }
+    ],
+    "open5e-vom:vom_witch-hunters-studded-leather-armor": [
+      {
+        "label": "D&D 2024 adaptation · Witch Hunter’s Armor (Studded Leather Armor)",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_studded-leather-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "13 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "13 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing this armor, gain the +1 enhancement shown in its AC and Advantage on saves against spells. When you fail a save against a spell, you may choose to succeed instead. All of the armor’s magic then shuts down until dawn, including the AC enhancement and Advantage.",
+          "Conversion notes": "Uses the listed 2024 armor base. While the magic is dormant, subtract 1 from the displayed AC.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 45."
+        },
+        "enhancement_bonus": 1
+      }
+    ],
+    "open5e-vom:vom_witch-hunters-hide-armor": [
+      {
+        "label": "D&D 2024 adaptation · Witch Hunter’s Armor (Hide Armor)",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing this armor, gain the +1 enhancement shown in its AC and Advantage on saves against spells. When you fail a save against a spell, you may choose to succeed instead. All of the armor’s magic then shuts down until dawn, including the AC enhancement and Advantage.",
+          "Conversion notes": "Uses the listed 2024 armor base. While the magic is dormant, subtract 1 from the displayed AC.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 45."
+        },
+        "enhancement_bonus": 1
+      }
+    ],
+    "open5e-vom:vom_witch-hunters-chain-shirt": [
+      {
+        "label": "D&D 2024 adaptation · Witch Hunter’s Armor (Chain Shirt)",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing this armor, gain the +1 enhancement shown in its AC and Advantage on saves against spells. When you fail a save against a spell, you may choose to succeed instead. All of the armor’s magic then shuts down until dawn, including the AC enhancement and Advantage.",
+          "Conversion notes": "Uses the listed 2024 armor base. While the magic is dormant, subtract 1 from the displayed AC.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 45."
+        },
+        "enhancement_bonus": 1
+      }
+    ],
+    "open5e-vom:vom_witch-hunters-scale-mail": [
+      {
+        "label": "D&D 2024 adaptation · Witch Hunter’s Armor (Scale Mail)",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing this armor, gain the +1 enhancement shown in its AC and Advantage on saves against spells. When you fail a save against a spell, you may choose to succeed instead. All of the armor’s magic then shuts down until dawn, including the AC enhancement and Advantage.",
+          "Conversion notes": "Uses the listed 2024 armor base. While the magic is dormant, subtract 1 from the displayed AC.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 45."
+        },
+        "enhancement_bonus": 1
+      }
+    ],
+    "open5e-vom:vom_witch-hunters-breastplate": [
+      {
+        "label": "D&D 2024 adaptation · Witch Hunter’s Armor (Breastplate)",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_breastplate",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing this armor, gain the +1 enhancement shown in its AC and Advantage on saves against spells. When you fail a save against a spell, you may choose to succeed instead. All of the armor’s magic then shuts down until dawn, including the AC enhancement and Advantage.",
+          "Conversion notes": "Uses the listed 2024 armor base. While the magic is dormant, subtract 1 from the displayed AC.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 45."
+        },
+        "enhancement_bonus": 1
+      }
+    ],
+    "open5e-vom:vom_witch-hunters-half-plate-armor": [
+      {
+        "label": "D&D 2024 adaptation · Witch Hunter’s Armor (Half Plate Armor)",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_half-plate-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing this armor, gain the +1 enhancement shown in its AC and Advantage on saves against spells. When you fail a save against a spell, you may choose to succeed instead. All of the armor’s magic then shuts down until dawn, including the AC enhancement and Advantage.",
+          "Conversion notes": "Uses the listed 2024 armor base. While the magic is dormant, subtract 1 from the displayed AC.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 45."
+        },
+        "enhancement_bonus": 1
+      }
+    ],
+    "open5e-vom:vom_witch-hunters-ring-mail": [
+      {
+        "label": "D&D 2024 adaptation · Witch Hunter’s Armor (Ring Mail)",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_ring-mail",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "15",
+          "Training": "Heavy armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing this armor, gain the +1 enhancement shown in its AC and Advantage on saves against spells. When you fail a save against a spell, you may choose to succeed instead. All of the armor’s magic then shuts down until dawn, including the AC enhancement and Advantage.",
+          "Conversion notes": "Uses the listed 2024 armor base. While the magic is dormant, subtract 1 from the displayed AC.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 45."
+        },
+        "enhancement_bonus": 1
+      }
+    ],
+    "open5e-vom:vom_witch-hunters-chain-mail": [
+      {
+        "label": "D&D 2024 adaptation · Witch Hunter’s Armor (Chain Mail)",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "Strength 13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing this armor, gain the +1 enhancement shown in its AC and Advantage on saves against spells. When you fail a save against a spell, you may choose to succeed instead. All of the armor’s magic then shuts down until dawn, including the AC enhancement and Advantage.",
+          "Conversion notes": "Uses the listed 2024 armor base. While the magic is dormant, subtract 1 from the displayed AC.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 45."
+        },
+        "enhancement_bonus": 1
+      }
+    ],
+    "open5e-vom:vom_witch-hunters-splint-armor": [
+      {
+        "label": "D&D 2024 adaptation · Witch Hunter’s Armor (Splint Armor)",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "Strength 15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing this armor, gain the +1 enhancement shown in its AC and Advantage on saves against spells. When you fail a save against a spell, you may choose to succeed instead. All of the armor’s magic then shuts down until dawn, including the AC enhancement and Advantage.",
+          "Conversion notes": "Uses the listed 2024 armor base. While the magic is dormant, subtract 1 from the displayed AC.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 45."
+        },
+        "enhancement_bonus": 1
+      }
+    ],
+    "open5e-vom:vom_witch-hunters-plate-armor": [
+      {
+        "label": "D&D 2024 adaptation · Witch Hunter’s Armor (Plate Armor)",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "Strength 15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing this armor, gain the +1 enhancement shown in its AC and Advantage on saves against spells. When you fail a save against a spell, you may choose to succeed instead. All of the armor’s magic then shuts down until dawn, including the AC enhancement and Advantage.",
+          "Conversion notes": "Uses the listed 2024 armor base. While the magic is dormant, subtract 1 from the displayed AC.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 45."
+        },
+        "enhancement_bonus": 1
+      }
+    ],
     "open5e-vom:vom_umbral-chopper": [
       {
         "label": "D&D 2024 adaptation · Umbral Chopper",

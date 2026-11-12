@@ -287,11 +287,33 @@ def main():
         filenames=['Item.json','MagicItem.json'] if ver=='v2' else ['MagicItem.json','Weapon.json','Armor.json']
         for fn in filenames:
             if not (base/fn).exists(): continue
-            for raw in read(base/fn):
+            rows = read(base/fn)
+            vault_backfill = {}
+            if key == 'open5e-vom' and fn == 'MagicItem.json':
+                specifications = read(CAT/'research/vault-open5e-v1-backfill.json')
+                existing_ids = {row['pk'] for row in rows}
+                legacy_rows = {row['pk']: row for row in read(UP/'data/v1/vom/MagicItem.json')}
+                legacy_file = rawdir/'legacy-magic-items.json'
+                write(legacy_file, [legacy_rows[legacy_id] for legacy_id in sorted({
+                    spec['legacy_id'] for spec in specifications.values()
+                })])
+                for variant, spec in specifications.items():
+                    pk = 'vom_' + variant
+                    if pk in existing_ids:
+                        continue
+                    legacy = legacy_rows[spec['legacy_id']]
+                    fields = {field: spec[field] for field in ('name', 'category', 'rarity', 'armor', 'weapon')
+                              if field in spec}
+                    fields.update(desc=legacy['fields']['desc'], requires_attunement=spec.get('attunement', True))
+                    vault_backfill[pk] = (spec['page'], legacy)
+                    rows.append({'pk': pk, 'model': legacy['model'], 'fields': fields})
+            for raw in rows:
                 f=raw['fields']; ismagic=fn=='MagicItem.json'; iid=key+':'+str(raw['pk'])
                 vault_page = None
                 if key == 'open5e-vom' and ismagic:
                     vault_page = vault_pages.get(raw['pk'])
+                    if raw['pk'] in vault_backfill:
+                        vault_page, legacy = vault_backfill[raw['pk']]
                     if correction := vault_weapon_corrections.get(raw['pk']):
                         corrected_name, corrected_weapon, vault_page = correction
                         f = {**f, 'name': corrected_name, 'weapon': corrected_weapon}
@@ -419,6 +441,11 @@ def main():
                         'locator': {'book': 'Vault of Magic', 'printed_page': vault_page},
                         'original_publication_verified': True,
                     })
+                    if raw['pk'] in vault_backfill:
+                        item['provenance'].update({
+                            'file': str(legacy_file.relative_to(CAT)),
+                            'upstream_pk': legacy['pk'],
+                        })
                     if f['name'] != raw['fields']['name']:
                         item['mechanics']['reference_metadata'] = {'aliases': [raw['fields']['name']]}
                     if f.get('weapon') != raw['fields'].get('weapon'):
@@ -438,7 +465,7 @@ def main():
                         'https://www.dndbeyond.com/sources/dnd/basic-rules-2014/magic-items#MithralArmor')
                 if armor_attunement_correction:
                     item['provenance']['attunement_correction_source']='https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#' + f['name'].split(' (',1)[0].replace(' ','')
-                if ver=='v2' and typ=='weapon' and not weapon and iid != 'open5e-vom:vom_hidden-armament':
+                if ver=='v2' and typ=='weapon' and not weapon and iid != 'open5e-vom:vom_hidden-armament' and raw['pk'] not in vault_backfill:
                     warnings.append({'id':iid,'issue':'weapon-category item has no resolved weapon relation; no mechanics inferred'})
                 items.append(item)
         source={'id':key,'name':df.get('name',df.get('title')),'ruleset':ruleset,'provider':'Open5e',

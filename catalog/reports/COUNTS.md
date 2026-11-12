@@ -1,12 +1,12 @@
 # Collected item catalog
 
-34,528 source records; 30,620 distinct normalized names.
+34,545 source records; 30,637 distinct normalized names.
 
 | Source | Records |
 |---|---:|
 | System Reference Document 5.1 | 736 |
 | System Reference Document 5.2 | 952 |
-| Vault of Magic | 1,063 |
+| Vault of Magic | 1,080 |
 | Level Up Advanced 5e | 546 |
 | Tome of Heroes | 65 |
 | Critical Role: Tal’Dorei Campaign Setting | 1 |
@@ -102,7 +102,7 @@
 | Wrath of the Immortals local item references public item reference index | 311 |
 | Zanzer Tem’s Dungeon (Kyle Knight) | 48 |
 
-Generic icons: 34,528/34,528 records using 46 reusable type icons. Item-specific artwork included: 0.
+Generic icons: 34,545/34,545 records using 46 reusable type icons. Item-specific artwork included: 0.
 
 Quality warnings: 46. See `quality-warnings.json`; these records are not verified executable tabletop mechanics.
 
