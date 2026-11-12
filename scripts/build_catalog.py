@@ -211,6 +211,15 @@ def main():
         'vom_shield-of-gnawing': 35,
         'vom_shield-of-missile-reversal': 35,
         'vom_shield-of-the-fallen': 36,
+        'vom_sickle-of-thorns': 36,
+        'vom_siege-arrow': 36,
+        'vom_signaling-ammunition': 36,
+        'vom_slick-cuirass': 36,
+        'vom_sling-stone-of-screeching': 36,
+        'vom_slipshod-hammer': 36,
+        'vom_smoking-plate-of-heithmir': 37,
+        'vom_spear-of-the-north': 37,
+        'vom_spear-of-the-stilled-heart': 37,
     }
     vault_weapon_corrections = {
         'vom_anchor-of-striking': ('Anchor of Striking', 'srd_war-pick', 11),
@@ -264,6 +273,11 @@ def main():
                     if raw['pk'].startswith('vom_ghost-barding-'):
                         vault_page = 24
                         f = {**f, 'weight': '1.000'}
+                    if raw['pk'].startswith('vom_slimeblade-'):
+                        vault_page = 36
+                        f = {**f, 'rarity': 'rare'}
+                    if raw['pk'] == 'vom_slipshod-hammer':
+                        f = {**f, 'rarity': 'uncommon'}
                     if raw['pk'] == 'vom_scourge-of-devotion':
                         f = {**f, 'rarity': 'rare'}
                     if raw['pk'] == 'vom_sea-witchs-blade':
@@ -277,7 +291,8 @@ def main():
                                       'vom_goblin-shield', 'vom_gorgon-scale', 'vom_grasping-shield', 'vom_larkmail',
                                       'vom_living-juggernaut', 'vom_mail-of-the-sword-master', 'vom_primordial-scale',
                                       'vom_retribution-armor', 'vom_rust-monster-shell', 'vom_sand-suit',
-                                      'vom_sharkskin-vest', 'vom_shield-of-gnawing', 'vom_shield-of-missile-reversal')
+                                      'vom_sharkskin-vest', 'vom_shield-of-gnawing', 'vom_shield-of-missile-reversal',
+                                      'vom_smoking-plate-of-heithmir')
                             or raw['pk'].startswith(('vom_bloodprice-', 'vom_chillblain-', 'vom_encouraging-',
                                                      'vom_grave-ward-'))):
                         f = {**f, 'requires_attunement': True}

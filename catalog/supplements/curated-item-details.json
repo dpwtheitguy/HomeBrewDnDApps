@@ -1,6 +1,393 @@
 {
   "schema_version": 1,
   "records": {
+    "open5e-vom:vom_sickle-of-thorns": [
+      {
+        "label": "D&D 2024 adaptation · Sickle of Thorns",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_sickle",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Slashing + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Light",
+          "Mastery": "Nick",
+          "Weight": "2 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "A melee hit against a Plant deals an extra 1d6 Slashing damage. As a Magic action, swing once to cut nonmagical living vegetation up to 60 feet away. This can clear brush or make a precise cut. It cannot cut trunks over 1 inch in diameter or cut dead wood such as a door.",
+          "Conversion notes": "The remote cut affects vegetation. Use the normal 5-foot reach for an attack against a creature.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 36."
+        }
+      }
+    ],
+    "open5e-vom:vom_slimeblade-greatsword": [
+      {
+        "label": "D&D 2024 adaptation · Slimeblade Greatsword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 Slashing + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "6 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While holding the blade, communicate telepathically with Oozes and gain Advantage on Charisma (Deception, Intimidation, and Persuasion) checks against them. You are immune to its slime while attuned. As a Magic action, fling slime at a creature you can see within 30 feet. It makes a DC 15 Constitution save. On a failure, it takes 2d4 Poison damage and is Poisoned until the end of its next turn. On a success it takes half damage and avoids the condition. This power recharges after 1 hour.",
+          "Conversion notes": "Restores the printed Rare rarity and uses the 2024 Greatsword profile.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 36."
+        }
+      }
+    ],
+    "open5e-vom:vom_slimeblade-longsword": [
+      {
+        "label": "D&D 2024 adaptation · Slimeblade Longsword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While holding the blade, communicate telepathically with Oozes and gain Advantage on Charisma (Deception, Intimidation, and Persuasion) checks against them. You are immune to its slime while attuned. As a Magic action, fling slime at a creature you can see within 30 feet. It makes a DC 15 Constitution save. On a failure, it takes 2d4 Poison damage and is Poisoned until the end of its next turn. On a success it takes half damage and avoids the condition. This power recharges after 1 hour.",
+          "Conversion notes": "Restores the printed Rare rarity and uses the 2024 Longsword profile.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 36."
+        }
+      }
+    ],
+    "open5e-vom:vom_slimeblade-rapier": [
+      {
+        "label": "D&D 2024 adaptation · Slimeblade Rapier",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_rapier",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While holding the blade, communicate telepathically with Oozes and gain Advantage on Charisma (Deception, Intimidation, and Persuasion) checks against them. You are immune to its slime while attuned. As a Magic action, fling slime at a creature you can see within 30 feet. It makes a DC 15 Constitution save. On a failure, it takes 2d4 Poison damage and is Poisoned until the end of its next turn. On a success it takes half damage and avoids the condition. This power recharges after 1 hour.",
+          "Conversion notes": "Restores the printed Rare rarity and uses the 2024 Rapier profile.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 36."
+        }
+      }
+    ],
+    "open5e-vom:vom_slimeblade-scimitar": [
+      {
+        "label": "D&D 2024 adaptation · Slimeblade Scimitar",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scimitar",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Slashing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While holding the blade, communicate telepathically with Oozes and gain Advantage on Charisma (Deception, Intimidation, and Persuasion) checks against them. You are immune to its slime while attuned. As a Magic action, fling slime at a creature you can see within 30 feet. It makes a DC 15 Constitution save. On a failure, it takes 2d4 Poison damage and is Poisoned until the end of its next turn. On a success it takes half damage and avoids the condition. This power recharges after 1 hour.",
+          "Conversion notes": "Restores the printed Rare rarity and uses the 2024 Scimitar profile.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 36."
+        }
+      }
+    ],
+    "open5e-vom:vom_slimeblade-shortsword": [
+      {
+        "label": "D&D 2024 adaptation · Slimeblade Shortsword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While holding the blade, communicate telepathically with Oozes and gain Advantage on Charisma (Deception, Intimidation, and Persuasion) checks against them. You are immune to its slime while attuned. As a Magic action, fling slime at a creature you can see within 30 feet. It makes a DC 15 Constitution save. On a failure, it takes 2d4 Poison damage and is Poisoned until the end of its next turn. On a success it takes half damage and avoids the condition. This power recharges after 1 hour.",
+          "Conversion notes": "Restores the printed Rare rarity and uses the 2024 Shortsword profile.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 36."
+        }
+      }
+    ],
+    "open5e-vom:vom_slipshod-hammer": [
+      {
+        "label": "D&D 2024 adaptation · Slipshod Hammer",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_light-hammer",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Bludgeoning + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "2 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Using the hammer with Smith’s Tools halves the time to repair a metal item and leaves a visibly rough finish. On a natural 20 against a creature wearing metal armor, the armor takes a permanent cumulative −2 penalty to the AC it provides. The suit is destroyed when the penalty reduces its own AC contribution to 10 or lower.",
+          "Conversion notes": "Restores the printed Uncommon rarity. Compare the damaged armor’s listed base AC before Dexterity and other bonuses to the destruction threshold.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 36–37."
+        }
+      }
+    ],
+    "open5e-vom:vom_spear-of-the-north": [
+      {
+        "label": "D&D 2024 adaptation · Spear of the North",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Piercing (1d8 with two hands in melee) + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Thrown, Versatile (1d8)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "On a hit, add 1d6 Cold damage. As a Magic action, transform the spear into a pair of skis. While wearing them, your walking Speed across snow or ice is 40 feet, and you automatically succeed on checks or saves to keep your footing on ice. Use a Bonus Action to restore the spear.",
+          "Conversion notes": "Uses the 2024 Spear. The skis cannot be used to attack. The draft extends the legacy ice check exemption to the 2024 Slippery Ice saving throw.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 37."
+        }
+      }
+    ],
+    "open5e-vom:vom_spear-of-the-stilled-heart": [
+      {
+        "label": "D&D 2024 adaptation · Spear of the Stilled Heart",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Piercing (1d8 with two hands in melee) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Thrown, Versatile (1d8)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "On a hit, deal an extra 1d6 Necrotic damage. The spear holds 3 charges and regains all expended charges at dusk. On a hit against a creature, you can spend 1 charge to add 3d6 Necrotic damage and regain Hit Points equal to the Necrotic damage this hit actually dealt.",
+          "Conversion notes": "Uses the 2024 Spear and restores the printed curse. For the charged hit, count both the passive and charged Necrotic dice after damage defenses.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 37.",
+          "Curse": "Attuning curses you. You are unwilling to part with the spear and keep it within reach. Each time you spend a charge, make a DC 12 Constitution save. On a failure you become sensitive to bright light and distracted by blood thirst for 1d4 hours, with Disadvantage on Wisdom and Intelligence checks. A further failure adds 1d4 hours to the remaining duration. Remove Curse or equivalent magic ends the curse."
+        }
+      }
+    ],
+    "open5e-vom:vom_slick-cuirass": [
+      {
+        "label": "D&D 2024 adaptation · Slick Cuirass",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "11 + Dex modifier",
+          "Training": "Light",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Special powers": "You have Advantage on checks and saves made to escape a grapple. While squeezing through a smaller space, ignore the Disadvantage on your attack rolls and Dexterity saving throws caused by squeezing.",
+          "Conversion notes": "Uses the 2024 Leather Armor profile. The armor leaves squeezing movement costs and other effects in place.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 36."
+        }
+      }
+    ],
+    "open5e-vom:vom_smoking-plate-of-heithmir": [
+      {
+        "label": "D&D 2024 adaptation · Smoking Plate of Heithmir",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-3",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "21",
+          "Training": "Heavy",
+          "Strength requirement": "15. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Special powers": "You have Cold Resistance. Once per dawn when an attack hits you, use a Reaction to release smoke in a 30-foot Cone. The smoke spreads around corners and Heavily Obscures the area for 5 minutes or until dispersed by wind of at least 20 miles per hour. A creature in the smoke when it appears or ending its turn in it makes a DC 17 Constitution save or is Poisoned for 1 minute.",
+          "Conversion notes": "Uses the Vault of Magic version and 2024 Plate Armor (+3). The smoke stays where it was released.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 37."
+        }
+      }
+    ],
+    "open5e-vom:vom_siege-arrow": [
+      {
+        "label": "D&D 2024 adaptation · Siege Arrow",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open 2024 Longbow example"
+        },
+        "fields": {
+          "Category": "Ammunition",
+          "Damage": "Normal launcher damage, doubled against objects and structures.",
+          "Attack bonus": "Use the launcher’s normal attack modifier.",
+          "Range": "Shortbow 80/320 feet or Longbow 150/600 feet.",
+          "Properties": "Match the ammunition to the launcher.",
+          "Mastery": "Use the launcher’s mastery if eligible.",
+          "Weight": "Use the weight of the ammunition type.",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Activation": "Expend one piece as part of a ranged weapon attack with its matching launcher.",
+          "Special powers": "When you hit an object or structure with the arrow, double the hit’s damage. The arrow then becomes nonmagical.",
+          "Conversion notes": "Uses standard 2024 bow attack rules. The special multiplier applies only to the hit on the object or structure.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 36."
+        }
+      }
+    ],
+    "open5e-vom:vom_signaling-ammunition": [
+      {
+        "label": "D&D 2024 adaptation · Signaling Ammunition",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open 2024 Longbow example"
+        },
+        "fields": {
+          "Category": "Ammunition",
+          "Damage": "Normal launcher damage.",
+          "Attack bonus": "Use the launcher’s normal attack modifier.",
+          "Range": "Use the launcher’s normal and long range. Signal visible up to 1 mile.",
+          "Properties": "Match the ammunition to the launcher.",
+          "Mastery": "Use the launcher’s mastery if eligible.",
+          "Weight": "Use the weight of the ammunition type.",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Activation": "Expend one piece as part of a ranged weapon attack with its matching launcher.",
+          "Special powers": "The shot trails light. If it hits no creature, it bursts in a flash visible up to 1 mile away. A creature hit makes a DC 13 Dexterity save or is outlined in golden light until the end of its next turn. While outlined, it gains no benefit from the Invisible condition and an attacker that can see it has Advantage on attacks against it.",
+          "Conversion notes": "Match the projectile to the launcher. The one-mile visibility describes the signal, and the shot itself uses its normal attack range.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 36."
+        }
+      }
+    ],
+    "open5e-vom:vom_sling-stone-of-screeching": [
+      {
+        "label": "D&D 2024 adaptation · Sling Stone of Screeching",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_sling",
+          "label": "Open 2024 Sling example"
+        },
+        "fields": {
+          "Category": "Ammunition",
+          "Damage": "Normal sling damage + 3d8 Thunder on a hit against the chosen target.",
+          "Attack bonus": "Use the launcher’s normal attack modifier.",
+          "Range": "Up to 30 feet for the special shot.",
+          "Properties": "Requires a Sling.",
+          "Mastery": "Use the launcher’s mastery if eligible.",
+          "Weight": "Use the weight of the ammunition type.",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Activation": "Expend one piece as part of a ranged weapon attack with its matching launcher.",
+          "Special powers": "When fired, the stone forms a 5-foot-wide Line from you to the target. Each other creature in the line makes a DC 13 Constitution save. On a failure, it takes 2d8 Thunder damage and is Prone. On a success, it takes half damage and avoids Prone. Roll a normal sling attack against the chosen target. On a hit, it takes the listed damage and is Prone. After the stone damages any creature, it becomes nonmagical. A typical find contains 1d4 + 1 stones.",
+          "Conversion notes": "The line occurs even if the attack against the chosen target misses. You and that target do not make the line save.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 36."
+        }
+      }
+    ],
     "open5e-vom:vom_scimitar-of-the-desert-winds": [
       {
         "label": "D&D 2024 adaptation · Scimitar of the Desert Winds",

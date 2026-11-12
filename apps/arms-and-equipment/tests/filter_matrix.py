@@ -1869,6 +1869,26 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Vault of Magic restores curses, ammunition, and smoke effects': '''(async () => {
+                    for (const [id, terms] of [
+                        ["spear-of-the-stilled-heart", ["at dusk", "3d6 Necrotic", "DC 12 Constitution", "Remove Curse"]],
+                        ["spear-of-the-north", ["pair of skis", "40 feet", "1d6 Cold"]],
+                        ["smoking-plate-of-heithmir", ["Armor class21", "30-foot Cone", "DC 17 Constitution", "AttunementRequired"]],
+                        ["slimeblade-rapier", ["Vex", "Oozes", "2d4 Poison", "1 hour"]],
+                        ["slipshod-hammer", ["Smith’s Tools", "cumulative −2", "Uncommon"]],
+                        ["sickle-of-thorns", ["5 feet melee", "60 feet away", "1 inch"]],
+                        ["siege-arrow", ["80/320 feet", "double the hit’s damage"]],
+                        ["signaling-ammunition", ["1 mile", "DC 13 Dexterity", "Invisible condition"]],
+                        ["sling-stone-of-screeching", ["5-foot-wide Line", "2d8 Thunder", "3d8 Thunder"]],
+                    ]) {
+                        inspect("open5e-vom:vom_" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) {
+                            throw new Error("Missing fields on " + id);
+                        }
+                    }
+                    return JSON.parse(Armory.item("open5e-vom:vom_slimeblade-rapier")).rarity === "rare";
+                })()''',
                 'Vault of Magic restores wind strike, shark form, and shield triggers': '''(async () => {
                     for (const [id, terms] of [
                         ["scimitar-of-the-desert-winds", ["150°F", "DC 15 Strength", "15 feet away"]],
