@@ -1740,6 +1740,28 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault named weapons replace improvised rules': '''(async () => {
+                    const cases = [
+                        ["db75c41d745a12cf", ["1d6 Piercing", "Holy Symbol", "reroll it"]],
+                        ["536e100318df89f1", ["25-foot Cone", "Dexterity saving throw", "Wisdom modifier plus"]],
+                        ["7758c394773d988b", ["10-foot Emanation", "Heavily Obscured", "Blinded condition"]],
+                        ["3a134deb66ca2057", ["next attack roll", "Short or Long Rest"]],
+                        ["7698edd888a06c3e", ["Rogue’s Sneak Attack", "Charisma modifier"]],
+                        ["852768bbf1909a79", ["must use the second result", "1d8 extra"]],
+                        ["fdafbf5466fdecdc", ["natural 1", "up to 6 charges"]],
+                        ["1549cdca122da82b", ["sworn foe", "1d10 if the target"]],
+                        ["30a62439e0fa782c", ["20/60 feet thrown", "gain the Invisible condition"]],
+                        ["024bafbdda5d59eb", ["DC 15 Constitution", "1d12 if the target is currently transformed"]],
+                        ["187e2a059ef1cb3b", ["100-foot radius", "5-foot Emanation", "1d8 Radiant"]],
+                        ["4eeb7421819f92e6", ["1d6 Piercing per gauntlet hit", "one melee attack with each gauntlet"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!["D&D 2024 weapon adaptation", ...terms].every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Adventurer’s Vault early armor displays source-specific powers': '''(async () => {
                     const cases = [
                         ["4f2cf91bdf63cccd", ["5 Poison damage", "5 feet without provoking"]],

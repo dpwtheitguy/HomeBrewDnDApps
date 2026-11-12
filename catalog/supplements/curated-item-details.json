@@ -1,6 +1,361 @@
 {
   "schema_version": 1,
   "records": {
+    "adventurers-vault-1-reference:db75c41d745a12cf": [
+      {
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Shortsword)",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 2",
+          "Attack bonus": "Strength or dexterity modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "If you worship Avandra, you can use the weapon as a Holy Symbol for spells that allow one as a focus. Its +2 applies to weapon attacks and damage. While attuned, if you worship Avandra, immediately after rolling an attack or damage roll with this weapon, you can reroll it without taking an action. You must use the new result. Recharges at dawn.",
+          "Critical hits": "On a Critical Hit with the weapon, add 1d6 extra damage of the weapon’s type after doubling its normal damage dice.",
+          "Source locator": "Adventurer’s Vault (4e), p. 63 (PDF p. 64), Avandra’s Whisper.",
+          "Conversion notes": "Retains the worship gate, divine focus, and compulsory reroll. The focus grants no additional bonus to spell attack rolls or spell damage. Uses a single +2 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Eligible 2024 forms": "Dagger or Shortsword. Other forms use the selected base’s category, damage die, ability modifier, range, properties, and mastery, with the same +2 bonus and item powers."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 Shortsword"
+        }
+      }
+    ],
+    "adventurers-vault-1-reference:536e100318df89f1": [
+      {
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword)",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 2",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "If you worship Bahamut, you can use the weapon as a Holy Symbol for spells that allow one as a focus. As a Magic action while holding it and worshiping Bahamut, create a 25-foot Cone. Each hostile creature in it makes a Dexterity saving throw (DC 8 plus your Proficiency Bonus plus your Charisma modifier), taking Force damage equal to 2d8 plus your Charisma modifier (minimum 0) on a failure or no damage on a success. Each ally in the Cone regains Hit Points equal to your Wisdom modifier plus your Charisma modifier, minimum 0. The Cone recharges at dawn.",
+          "Critical hits": "On a Critical Hit with the weapon, add 1d10 extra damage of the weapon’s type after doubling its normal damage dice.",
+          "Source locator": "Adventurer’s Vault (4e), p. 64 (PDF p. 65), Blade of Bahamut.",
+          "Conversion notes": "Maps the original blast to a Cone and the Charisma attack against Reflex to a Dexterity save. Preserves distinct ally healing and enemy damage. Uses a single +2 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Eligible 2024 forms": "Longsword, Greatsword, or Glaive. Other forms use the selected base’s category, damage die, ability modifier, range, properties, and mastery, with the same +2 bonus and item powers."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        }
+      }
+    ],
+    "adventurers-vault-1-reference:7758c394773d988b": [
+      {
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Shortsword)",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 2",
+          "Attack bonus": "Strength or dexterity modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "As a Bonus Action while holding this weapon, create magical darkness in a 10-foot Emanation centered on your current position. The area stays where you created it and is Heavily Obscured until the end of your next turn. Ordinary Darkvision cannot see through it. Recharges at dawn.",
+          "Critical hits": "On a Critical Hit, the target has the Blinded condition until the end of your next turn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 65 (PDF p. 66), Blade of Night.",
+          "Conversion notes": "Maps the original sight-blocking burst to a stationary area and retains the critical-hit effect. Uses a single +2 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Eligible 2024 forms": "Dagger or Shortsword. Other forms use the selected base’s category, damage die, ability modifier, range, properties, and mastery, with the same +2 bonus and item powers."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 Shortsword"
+        }
+      }
+    ],
+    "adventurers-vault-1-reference:3a134deb66ca2057": [
+      {
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword)",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 1",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When you hit a creature with this weapon, you can gain +1 on your next attack roll with it against that creature before the end of your next turn. This requires no action and recharges when you finish a Short or Long Rest.",
+          "Critical hits": "On a Critical Hit, add 1d6 extra damage of the weapon’s type after doubling its normal damage dice.",
+          "Source locator": "Adventurer’s Vault (4e), p. 69 (PDF p. 70), Flesh Seeker.",
+          "Conversion notes": "Keeps the original one-target accuracy bonus and uses a Short or Long Rest in place of encounter recharge. Uses a single +1 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Eligible 2024 forms": "Any melee weapon. Other forms use the selected base’s category, damage die, ability modifier, range, properties, and mastery, with the same +1 bonus and item powers."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        }
+      }
+    ],
+    "adventurers-vault-1-reference:7698edd888a06c3e": [
+      {
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Shortsword)",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 1",
+          "Attack bonus": "Strength or dexterity modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When you hit with this weapon and apply the Rogue’s Sneak Attack to that hit, add your Charisma modifier to the damage, with a minimum bonus of 0.",
+          "Critical hits": "On a Critical Hit, add 1d6 extra damage of the weapon’s type after doubling its normal damage dice.",
+          "Source locator": "Adventurer’s Vault (4e), p. 69 (PDF p. 70), Footpad’s Friend.",
+          "Conversion notes": "Uses the 2024 Sneak Attack feature for the original trigger and preserves its Charisma damage bonus. Uses a single +1 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Eligible 2024 forms": "Dagger or Shortsword. Other forms use the selected base’s category, damage die, ability modifier, range, properties, and mastery, with the same +1 bonus and item powers."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 Shortsword"
+        }
+      }
+    ],
+    "adventurers-vault-1-reference:852768bbf1909a79": [
+      {
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword)",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 1",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Immediately after making an attack roll while holding this weapon, you can reroll the attack without taking an action. You must use the second result, even if it is lower. Recharges at dawn.",
+          "Critical hits": "On a Critical Hit with this weapon, add 1d8 extra damage of the weapon’s type after doubling its normal damage dice.",
+          "Source locator": "Adventurer’s Vault (4e), p. 71 (PDF p. 72), Luckblade.",
+          "Conversion notes": "Retains the original daily attack reroll and extra critical die. This is the Adventurer’s Vault weapon. Uses a single +1 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Eligible 2024 forms": "Dagger or Shortsword, or Longsword, Greatsword, or Glaive. Other forms use the selected base’s category, damage die, ability modifier, range, properties, and mastery, with the same +1 bonus and item powers."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        }
+      }
+    ],
+    "adventurers-vault-1-reference:fdafbf5466fdecdc": [
+      {
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword)",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 2",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While holding the weapon during combat, it gains 1 charge when you roll a natural 1 on an attack roll or take a Critical Hit. It can hold up to 6 charges and resets to 2 when you finish a Long Rest. Before you make an attack roll with this weapon, you can spend 1 or 2 charges to add that number to the roll. No action is required.",
+          "Critical hits": "On a Critical Hit with this weapon, add 1d6 extra damage of the weapon’s type after doubling its normal damage dice.",
+          "Source locator": "Adventurer’s Vault (4e), p. 71 (PDF p. 72), Lucklender.",
+          "Conversion notes": "Uses the converted enhancement as the maximum spend. Adds a six-charge cap to the original charge economy. Uses a single +2 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Eligible 2024 forms": "Any weapon. Other forms use the selected base’s category, damage die, ability modifier, range, properties, and mastery, with the same +2 bonus and item powers."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        }
+      }
+    ],
+    "adventurers-vault-1-reference:1549cdca122da82b": [
+      {
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword)",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 1",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "As a Bonus Action, name one creature you can see within 30 feet as your sworn foe for 1 minute. The next time you hit it with this weapon while it is sworn, the hit deals an extra 1d6 damage of the weapon’s type. The designation recharges at dawn.",
+          "Critical hits": "On a Critical Hit, add 1d6 extra damage of the weapon’s type, or 1d10 if the target is your sworn foe. Add this die after doubling normal damage dice.",
+          "Source locator": "Adventurer’s Vault (4e), p. 73 (PDF p. 74), Oathblade.",
+          "Conversion notes": "Maps the 4e marked-target mechanic to the weapon’s sworn foe and preserves its different critical die against that foe. Uses a single +1 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Eligible 2024 forms": "Dagger or Shortsword, or Longsword, Greatsword, or Glaive. Other forms use the selected base’s category, damage die, ability modifier, range, properties, and mastery, with the same +1 bonus and item powers."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        }
+      }
+    ],
+    "adventurers-vault-1-reference:30a62439e0fa782c": [
+      {
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Simple melee weapon (Dagger)",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier + 3",
+          "Attack bonus": "Strength or dexterity modifier plus Proficiency Bonus if proficient, plus 3.",
+          "Range": "5 feet melee or 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown (20/60 feet)",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When you hit with this weapon using Advantage on the attack roll, you can gain the Invisible condition without taking an action until the end of your next turn. Recharges at dawn.",
+          "Critical hits": "On a Critical Hit, add 1d6 extra damage of the weapon’s type after doubling its normal damage dice.",
+          "Source locator": "Adventurer’s Vault (4e), p. 77 (PDF p. 78), Shadow Spike.",
+          "Conversion notes": "Maps combat advantage to Advantage and retains the original hit trigger and invisibility duration. Uses a single +3 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Eligible 2024 forms": "Dagger or Shortsword. Other forms use the selected base’s category, damage die, ability modifier, range, properties, and mastery, with the same +3 bonus and item powers."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 Dagger"
+        }
+      }
+    ],
+    "adventurers-vault-1-reference:024bafbdda5d59eb": [
+      {
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword)",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 1",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While holding this weapon, gain +1 AC against attacks from creatures currently transformed from their original form and +1 to saves against their effects. Once per dawn when you hit such a creature with the weapon, it must succeed on a DC 15 Constitution saving throw or revert and be unable to change its form for up to 1 minute. It repeats the save at the end of each turn, ending the restriction on a success.",
+          "Critical hits": "On a Critical Hit, add 1d6 extra damage of the weapon’s type, or 1d12 if the target is currently transformed. Add this die after doubling normal damage dice.",
+          "Source locator": "Adventurer’s Vault (4e), p. 77 (PDF p. 78), Shapechanger’s Sorrow.",
+          "Conversion notes": "Converts all-defense bonuses to AC and saves, and replaces the original save-ends transformation lock with a defined DC and duration. Uses a single +1 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Eligible 2024 forms": "Battleaxe, Handaxe, Greataxe, Dagger or Shortsword, or Longsword, Greatsword, or Glaive. Other forms use the selected base’s category, damage die, ability modifier, range, properties, and mastery, with the same +1 bonus and item powers."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        }
+      }
+    ],
+    "adventurers-vault-1-reference:187e2a059ef1cb3b": [
+      {
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword)",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 1",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While holding the weapon, you can shed Bright Light or Dim Light up to a 100-foot radius and adjust or extinguish it without taking an action on your turn. You can also switch its weapon damage between the normal damage type and Radiant without taking an action on your turn. As a Magic action, release a 5-foot Emanation. Each hostile creature in it makes a Dexterity saving throw (DC 8 plus your Proficiency Bonus plus your Strength modifier), taking 1d8 Radiant damage on a failure and no damage on a success. This burst recharges at dawn.",
+          "Critical hits": "On a Critical Hit, add 1d6 extra damage of the weapon’s current type after doubling its normal damage dice.",
+          "Source locator": "Adventurer’s Vault (4e), p. 79 (PDF p. 80), Sunblade.",
+          "Conversion notes": "Keeps the original adjustable light, Radiant toggle, and lowest-tier burst. Uses a Dexterity save in place of a Strength attack against Reflex. The light has no special sunlight property. Uses a single +1 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Eligible 2024 forms": "Longsword, Greatsword, or Glaive. Other forms use the selected base’s category, damage die, ability modifier, range, properties, and mastery, with the same +1 bonus and item powers."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        }
+      }
+    ],
+    "adventurers-vault-1-reference:4eeb7421819f92e6": [
+      {
+        "label": "D&D 2024 weapon adaptation",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Category": "Martial melee weapons (pair of spiked gauntlets)",
+          "Damage": "1d6 Piercing per gauntlet hit + Strength modifier + 1",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee",
+          "Properties": "Light. Each gauntlet must occupy its hand while used as a weapon.",
+          "Mastery": "None",
+          "Weight": "2 lb per pair",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Activation": "Use the normal weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While wearing both gauntlets, take a Magic action to charge. Move up to your Speed plus 10 feet in a straight line toward a creature, moving at least 10 feet. If you finish within 5 feet of it, make one melee attack with each gauntlet against it. If both hit, deal 1d6 extra Piercing damage to it once. This movement provokes Opportunity Attacks normally. Recharges when you finish a Short or Long Rest.",
+          "Critical hits": "On a Critical Hit with either gauntlet, add 1d6 extra Piercing damage after doubling normal damage dice.",
+          "Source locator": "Adventurer’s Vault (4e), p. 80 (PDF p. 81), Tigerclaw Gauntlets.",
+          "Conversion notes": "Converts the original spiked gauntlets into a pair of light martial weapons. The dedicated charge action grants the original two attacks and extra damage when both hit. Uses a single +1 enhancement and a fixed extra critical die where applicable.",
+          "2024 weapons": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
     "adventurers-vault-1-reference:4f2cf91bdf63cccd": [
       {
         "label": "D&D 2024 adaptation · Leather Armor",
