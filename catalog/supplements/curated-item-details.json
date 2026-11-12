@@ -1,6 +1,101 @@
 {
   "schema_version": 1,
   "records": {
+    "dndbeyond:7526775": [
+      {
+        "label": "D&D 2024 adaptation · Stonemaker War Pick",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/7526775-stonemaker-war-pick",
+        "fields": {
+          "Category": "Martial melee weapon (War Pick) · Very Rare · Requires attunement",
+          "Damage": "1d8 Piercing (1d10 with two hands) + Strength modifier + 1.",
+          "Range": "5 feet melee. Meld into Stone uses Touch.",
+          "Attack bonus": "+1 plus Strength modifier and Proficiency Bonus if proficient.",
+          "Properties": "Versatile (1d10).",
+          "Mastery": "Sap.",
+          "Activation": "Attack normally, or take a Magic action to cast Meld into Stone from the pick. The spell recharges at dawn and lasts up to 8 hours.",
+          "Petrification": "When you score a Critical Hit against a creature with fewer than 100 Hit Points, you may spend 1 charge. On a failed DC 15 Constitution save, the creature is Petrified for 8 hours.",
+          "Charges": "The pick starts with 1d6 + 1 petrification charges. They do not recharge. At 0 charges, the pick loses Petrification.",
+          "Spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#MeldintoStone",
+          "Legacy source": "The Book of Many Things, p. 68.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Conversion notes": "Uses 2024 base equipment and action rules while retaining the published item powers."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_war-pick",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dndbeyond:7526777": [
+      {
+        "label": "D&D 2024 adaptation · Sword of the Planes",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/7526777-sword-of-the-planes",
+        "fields": {
+          "Category": "Any sword · Legendary · Requires attunement",
+          "Damage": "Base sword damage +3.",
+          "Range": "Use the base sword’s melee reach. Open the rift in an unoccupied space within 5 feet.",
+          "Attack bonus": "Add +3 to the base sword’s attack roll.",
+          "Mastery": "Use the selected sword’s mastery if eligible.",
+          "Activation": "Attack normally, or take a Magic action to cut a rift to a plane other than your current plane. The rift lasts 1 minute and the power recharges at dawn.",
+          "Rift": "Up to 10 feet high and 10 feet wide. You may name a destination. The DM places the exit in or near it. Anything that enters appears in the nearest unoccupied space to the exit.",
+          "Legacy source": "The Book of Many Things, p. 68.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Conversion notes": "Uses 2024 base equipment and action rules while retaining the published item powers."
+        }
+      }
+    ],
+    "dndbeyond:7526779": [
+      {
+        "label": "D&D 2024 adaptation · Tidecaller Trident",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/7526779-tidecaller-trident",
+        "fields": {
+          "Category": "Martial melee weapon (Trident) · Very Rare · Requires attunement",
+          "Damage": "1d8 Piercing (1d10 in two hands for a melee attack) + Strength modifier + 2.",
+          "Range": "5 feet melee. Thrown 20/60 feet. Spells use their own range.",
+          "Attack bonus": "+2 plus Strength modifier and Proficiency Bonus if proficient. Attacks with the trident have Advantage while you are underwater.",
+          "Properties": "Thrown, Versatile (1d10).",
+          "Mastery": "Topple.",
+          "Activation": "Attack normally, or spend charges to cast a spell from the trident using its normal casting time.",
+          "Control Water": "Spend 1 charge. Casting time 1 action, range 300 feet, Concentration up to 10 minutes, save DC 15 when applicable.",
+          "Tsunami": "Spend 3 charges. Casting time 1 minute, range 1 mile, duration 6 rounds, save DC 15.",
+          "Charges": "3 charges. Regain 1d3 expended charges at dawn.",
+          "Control Water rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#ControlWater",
+          "Tsunami rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#Tsunami",
+          "Legacy source": "The Book of Many Things, p. 69.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Conversion notes": "Uses 2024 base equipment and action rules while retaining the published item powers. Both spells use their 2024 versions, including Tsunami’s six-round duration."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_trident",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dndbeyond:7526787": [
+      {
+        "label": "D&D 2024 adaptation · Winged Ammunition",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/7526787-winged-ammunition",
+        "fields": {
+          "Category": "Any ammunition · Uncommon · No attunement",
+          "Damage": "Use the compatible launcher’s normal damage.",
+          "Range": "Use the compatible launcher’s normal and long range. Its maximum range is unchanged.",
+          "Attack bonus": "Use the launcher’s normal attack modifier.",
+          "Activation": "Fire one piece from a compatible launcher as part of a ranged attack.",
+          "Special powers": "The attack ignores Half Cover and Three-Quarters Cover. Attacking at long range with this piece does not impose Disadvantage. Apply other sources of Disadvantage normally.",
+          "Legacy source": "The Book of Many Things, p. 69.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Conversion notes": "Uses 2024 base equipment and action rules while retaining the published item powers."
+        }
+      }
+    ],
     "dndbeyond:7526654": [
       {
         "label": "D&D 2024 adaptation · Dried Leech",

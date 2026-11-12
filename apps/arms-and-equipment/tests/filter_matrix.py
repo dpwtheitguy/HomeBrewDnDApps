@@ -993,6 +993,21 @@ def main():
                     }
                     return true;
                 })()''',
+                'Book of Many Things planar and aquatic weapons show casting details': '''(async () => {
+                    const cases = [
+                        ["7526775", ["fewer than 100 Hit Points", "1d6 + 1 petrification charges", "8 hours"]],
+                        ["7526777", ["10 feet high and 10 feet wide", "nearest unoccupied space", "recharges at dawn"]],
+                        ["7526779", ["Thrown 20/60 feet", "Advantage while you are underwater", "range 1 mile", "6 rounds"]],
+                        ["7526787", ["Half Cover and Three-Quarters Cover", "long range", "launcher’s normal damage"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dndbeyond:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term)) ||
+                            ![...inspection.querySelectorAll("a")].some(link => link.href.includes("/magic-items/" + id))) return false;
+                    }
+                    return true;
+                })()''',
                 'Book of Many Things weapons preserve unusual activation rules': '''(async () => {
                     const cases = [
                         ["7526654", ["1d4 Piercing", "10 damage in total", "Utilize action"]],
