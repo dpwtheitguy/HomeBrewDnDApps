@@ -7,6 +7,45 @@ from build_core_enhancement_cross_references import CATALOG, CURRENT, LEGACY, RE
 
 RULES = 'https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z'
 FAMILIES = {
+    "Executioner's Axe": {
+        'published_bases': ('Battleaxe', 'Greataxe', 'Halberd', 'Handaxe'),
+        'source': 'https://roll20.net/compendium/dnd5e/Templates%3AExecutioner%27s%20Axe?expansion=33359',
+        'damage': 'Add 1 to normal damage, plus 2d6 Slashing against a Humanoid.',
+        'activation': 'Make a normal weapon attack. The extra damage triggers on a hit against a Humanoid.',
+        'Attack bonus': '+1 to attack and damage rolls.',
+        'Special powers': 'Gain temporary HP equal to the extra Slashing damage dealt to the Humanoid.',
+        'Rarity': 'Very Rare',
+    },
+    'Sylvan Talon': {
+        'published_bases': ('Dagger', 'Rapier', 'Scimitar', 'Shortsword', 'Sickle', 'Spear'),
+        'source': 'https://roll20.net/compendium/dnd5e/Templates%3ASylvan%20Talon?expansion=33359',
+        'damage': 'Use the normal damage of the base weapon.',
+        'activation': 'Use a Magic action to cast Message from the weapon. Recharges at dawn.',
+        'Special powers': 'While carrying the weapon, you and Fey can understand each other’s nonwritten communication.',
+        'Rarity': 'Common',
+    },
+    'Lute of Thunderous Thumping': {
+        'published_bases': ('Club',),
+        'source': 'https://roll20.net/compendium/dnd5e/Items%3ALute%20of%20Thunderous%20Thumping?expansion=33359',
+        'damage': 'Add 2d8 Thunder on a hit.',
+        'activation': 'Make a normal Club attack.',
+        'Special powers': 'A Bard who sings or hums during the melee attack can use Charisma in place of Strength on the attack roll.',
+        'Rarity': 'Very Rare',
+    },
+    'Sword of Kas': {
+        'published_bases': ('Longsword',),
+        'source': 'https://roll20.net/compendium/dnd5e/Items%3ASword%20of%20Kas?expansion=33359',
+        'damage': 'Add 3 to normal damage, plus 2d10 Slashing on a hit against an Undead.',
+        'activation': 'Make a normal attack. The sword scores a Critical Hit on a natural 19 or 20.',
+        'Attack bonus': '+3 to attack and damage rolls.',
+        'Bloodthirst': 'If the drawn sword goes 1 minute without tasting blood, make a DC 15 Charisma save. On success take 3d6 Psychic damage. On failure the sword controls you as with Dominate Monster until its demand for blood is met.',
+        'Spells': 'While carrying the sword, cast Call Lightning, Divine Word, or Finger of Death, each once per dawn. Save DC 18.',
+        'Spirit of Kas': 'While carrying it, add 1d10 to Initiative and gain Necrotic Resistance. When you take an action to attack with it, you can transfer some or all of its attack bonus to AC until the start of your next turn.',
+        'Artifact properties': 'One minor and one major beneficial property, and one minor and one major detrimental property.',
+        'Sentience': 'Chaotic Evil. Intelligence 15, Wisdom 13, Charisma 16. Hearing and Darkvision to 120 ft. Speaks Common and communicates telepathically with its wielder. Seeks to ruin Vecna and destroy those corrupted by his Eye and Hand.',
+        'Destruction': 'A creature attuned to the Eye and Hand of Vecna can use their Wish property within 30 ft of the sword. The caster must succeed on a DC 18 Charisma save to destroy the sword. A failure expends Wish without destroying it.',
+        'Rarity': 'Artifact',
+    },
     'Hammer of Thunderbolts': {
         'published_bases': ('Maul', 'Warhammer'),
         'damage': 'Add 1 to normal weapon damage. The thunderclap inflicts Stunned on a failed save.',
@@ -225,6 +264,10 @@ FAMILIES = {
 
 PUBLIC_INDEX = 'dndbeyond-public-index'
 PUBLIC_WEAPON_PAGES = {
+    "Executioner's Axe": '9228603-executioners-axe',
+    'Sylvan Talon': '9229122-sylvan-talon',
+    'Lute of Thunderous Thumping': '9228833-lute-of-thunderous-thumping',
+    'Sword of Kas': '9229112-sword-of-kas',
     'Defender': '9228450-defender',
     'Dragon Slayer': '9228520-dragon-slayer',
     'Flame Tongue': '9228647-flame-tongue',
@@ -368,7 +411,7 @@ def main():
         for base in eligible:
             entry = details(item, family, rules, bases[base])
             entry['label'] += ' · ' + base
-            entry['source'] = source
+            entry['source'] = rules.get('source') or source
             variants.append(entry)
         records[item['id']] = variants
         public_count += 1

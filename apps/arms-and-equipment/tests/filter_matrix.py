@@ -716,6 +716,18 @@ def main():
                         ["Published 2024 · Wave", "21 Necrotic", "DC 20", "level 9", "Topple"]
                             .every(value => wave.includes(value));
                 })()''',
+                'Executioner axe and thunderous lute use their published bases': '''(async () => {
+                    inspect("dndbeyond:9228603", grid.firstElementChild);
+                    await itemDetails;
+                    const axe = inspection.textContent;
+                    inspect("dndbeyond:9228833", grid.firstElementChild);
+                    await itemDetails;
+                    const lute = inspection.textContent;
+                    return ["Axe · Handaxe", "Axe · Halberd", "2d6 Slashing", "temporary HP"]
+                        .every(value => axe.includes(value)) &&
+                        ["Thumping · Club", "1d4 Bludgeoning", "2d8 Thunder", "Charisma", "Slow"]
+                            .every(value => lute.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
