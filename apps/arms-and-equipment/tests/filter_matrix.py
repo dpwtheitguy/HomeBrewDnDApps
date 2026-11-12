@@ -1740,6 +1740,25 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault shields show charge, volleys, and redirected attacks': '''(async () => {
+                    const cases = [
+                        ["8266a9c12c0eae85", ["Opportunity Attack", "10 feet straight", "cannot be pushed or pulled"]],
+                        ["7dcb40e164948b4f", ["15-foot Cube", "within 50 feet", "Strength modifier Piercing", "4e errata"]],
+                        ["67d799b006450b31", ["attacker takes 2 Radiant damage"]],
+                        ["052de1adeb3be409", ["all allies within 5 feet", "Short or Long Rest"]],
+                        ["d5aa073f3631525a", ["Fire or Radiant damage on a hit", "2 extra Radiant damage"]],
+                        ["23cf02c2d5017c07", ["Slashing damage", "1d8 plus your Constitution modifier"]],
+                        ["0eca938df8db99f9", ["DC 15 Strength", "Prone condition"]],
+                        ["93f3c73f6195f783", ["new d20", "against its own AC", "Base cost40010 gp"]],
+                        ["a27ee4ef903a3a52", ["different creature within 50 feet", "applying cover from your position"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!["Armor class bonus+2", ...terms].every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Adventurer’s Vault shields show healing, Bloodied and critical-hit rules': '''(async () => {
                     const cases = [
                         ["9efffeae699af78a", ["after resolving that attack", "+1 AC for 1 minute"]],

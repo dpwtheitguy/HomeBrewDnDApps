@@ -1,6 +1,231 @@
 {
   "schema_version": 1,
   "records": {
+    "adventurers-vault-1-reference:8266a9c12c0eae85": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Uncommon",
+          "Special powers": "While holding the shield, take a Bonus Action to choose a hostile creature you can see and begin a charge. For the rest of the turn, reduce damage you take from each Opportunity Attack provoked by moving straight toward that creature by 5, to a minimum of 0. If you move at least 10 feet straight toward the chosen creature and immediately make a melee attack against it on the same turn, you cannot be pushed or pulled until the end of your next turn. The charge uses your normal movement and does not grant an attack.",
+          "Source locator": "Adventurer’s Vault (4e), p. 118 (PDF p. 119), Jousting Shield.",
+          "Conversion notes": "Defines a 2024 charge using straight movement and a melee attack. Retains the original lowest-tier damage reduction and protection against forced movement. The Bonus Action declares the charge before its Opportunity Attacks. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:7dcb40e164948b4f": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Uncommon",
+          "Special powers": "While holding the shield, take a Magic action to fire a volley at a 15-foot Cube whose point of origin you can see within 50 feet of you and that has no Total Cover from you. Make a separate ranged attack roll against each creature in the Cube that lacks Total Cover from the point of origin. The attack bonus is your Strength modifier plus your Proficiency Bonus if you have Shield training. On a hit, a creature takes 1d8 plus your Strength modifier Piercing damage, with a minimum of 0. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 118 (PDF p. 119), Manticore Shield. Official 4e errata appended at PDF p. 226.",
+          "Conversion notes": "Uses the Strength-based attack from the 4e errata and the original lowest-tier damage and reach. Maps the burst to a 15-foot Cube and uses Shield training for the attack roll. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:67d799b006450b31": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Uncommon",
+          "Special powers": "While holding the shield, immediately after an attack roll hits you and deals Radiant damage to you, the attacker takes 2 Radiant damage. The shield can retaliate once per triggering hit.",
+          "Source locator": "Adventurer’s Vault (4e), p. 118 (PDF p. 119), Mithral Shield.",
+          "Conversion notes": "Maps the 4e Radiant keyword to an attack that actually deals Radiant damage and retains the original lowest-tier retaliation. This is the retaliatory shield from Adventurer’s Vault. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:052de1adeb3be409": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Uncommon",
+          "Special powers": "While holding the shield, take a Bonus Action to protect all allies within 5 feet of you at that moment. Until the end of your next turn, the chosen allies cannot be pushed or pulled or otherwise forced to move across the ground or through the air by another creature or its effect. The protection does not prevent falling or teleportation. Recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 118 (PDF p. 119), Mountain Shield.",
+          "Conversion notes": "Uses the lowest-tier radius and retains the original forced-movement protection. Rest recharge replaces encounter recharge, and the standard 2024 Shield replaces the original heavy shield. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:d5aa073f3631525a": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Uncommon",
+          "Special powers": "While holding the shield, if an attack roll against you misses and would have dealt Fire or Radiant damage on a hit, the next melee attack you hit with before the end of your next turn deals 2 extra Radiant damage. Additional qualifying misses refresh the duration without adding damage.",
+          "Source locator": "Adventurer’s Vault (4e), p. 118 (PDF p. 119), Pelaurum Shield.",
+          "Conversion notes": "Maps the 4e Fire and Radiant keywords to the damage the missed attack would have dealt. Uses the original lowest-tier damage and duration. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:23cf02c2d5017c07": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Uncommon",
+          "Special powers": "While holding the shield, immediately after a creature within 5 feet of you hits you with a melee attack, you can take a Reaction. The attacker takes Slashing damage equal to 1d8 plus your Constitution modifier, with a minimum of 0. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 119 (PDF p. 120), Razor Shield.",
+          "Conversion notes": "Retains the lowest-tier dice and Constitution modifier. Assigns Slashing damage to the shield’s blades and limits retaliation to a creature within blade reach. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:0eca938df8db99f9": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While holding the shield, immediately after a creature within 5 feet of you hits you with a melee attack, you can take a Reaction to force the attacker to make a DC 15 Strength saving throw. On a failed save, it has the Prone condition. Recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 119 (PDF p. 120), Recoil Shield.",
+          "Conversion notes": "Retains the melee-hit trigger, adds a Strength save and adjacent reach for the shield bash, and replaces encounter recharge with rest recharge. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:93f3c73f6195f783": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While holding the shield, when a melee or ranged attack targeting only you misses you, you can take a Reaction to reflect it at the attacker. The attacker rolls a new d20 with the original attack bonus against its own AC. Resolve the attack’s damage and any applicable on-hit effects against the attacker if it hits. The reflected attack does not expend another action, spell slot, or piece of ammunition. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 119 (PDF p. 120), Reflective Shield.",
+          "Conversion notes": "Maps the original AC and Reflex attack rolls to 2024 single-target attack rolls. Keeps a fresh attack roll against the attacker’s own defense and leaves area effects outside the conversion. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:a27ee4ef903a3a52": [
+      {
+        "label": "D&D 2024 shield adaptation",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While holding the shield, when a ranged attack targeting only you misses you, you can take a Reaction to redirect it. Choose a different creature within 50 feet of you that you can see and that lacks Total Cover from you. The attacker rolls a new d20 with the original attack bonus against that creature’s AC, applying cover from your position. On a hit, resolve the attack’s damage and any applicable on-hit effects against the new target. The redirected attack does not expend another action, spell slot, or piece of ammunition. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 119 (PDF p. 120), Ricochet Shield.",
+          "Conversion notes": "Retains the original 50-foot redirection range and fresh attack roll. The ricochet starts at the shield for distance and cover, and applies to single-target ranged attacks. Uses the 2024 Shield and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
     "adventurers-vault-1-reference:9efffeae699af78a": [
       {
         "label": "D&D 2024 shield adaptation",
