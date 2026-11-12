@@ -1,6 +1,498 @@
 {
   "schema_version": 1,
   "records": {
+    "open5e-vom:vom_blade-of-petals": [
+      {
+        "label": "D&D 2024 adaptation · Blade of Petals",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 2.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When this weapon damages a creature, it makes a DC 15 Charisma save. On a failure, it has the Charmed condition with you as the charmer until the end of its next turn. A creature can be charmed this way only once per 24 hours. As a Bonus Action, fill a 20-foot radius centered on yourself with floral perfume that fades after 1 minute.",
+          "Conversion notes": "Uses 2024 Shortsword and Charmed rules. The fragrance has no mechanical obscuration.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 14–15."
+        }
+      }
+    ],
+    "open5e-vom:vom_blade-of-the-dervish": [
+      {
+        "label": "D&D 2024 adaptation · Blade of the Dervish",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scimitar",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Slashing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "On your turn, count the distance you moved under your own power before this attack. Each full 10 feet grants +1 to this attack and its damage roll, and another 1d6 Slashing damage on a hit, to a maximum of +3 and 3d6. If you take the Dash action and move within 5 feet of a creature, you can make one attack with this scimitar against it as a Bonus Action this turn, while within reach. That attack deals another 2d6 Slashing damage on a hit.",
+          "Conversion notes": "The conversion measures distance from the start of your turn and lets the two source damage riders stack on the Dash attack. Forced movement and teleportation do not count.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 15."
+        }
+      }
+    ],
+    "open5e-vom:vom_blade-of-the-temple-guardian": [
+      {
+        "label": "D&D 2024 adaptation · Blade of the Temple Guardian",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Monk",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When you use Flurry of Blows, you can replace any of its Unarmed Strikes with attacks using this blade. Heightened Focus can still grant three attacks. When damage from this blade reduces a creature to 0 Hit Points, regain 1 expended Focus Point.",
+          "Conversion notes": "Converts Ki to Focus Points and keeps the replacement tied to Flurry of Blows. The Shortsword qualifies as a Monk weapon.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 15.",
+          "2024 class rules": "https://www.dndbeyond.com/classes/2190880-monk"
+        }
+      }
+    ],
+    "open5e-vom:vom_bloodbow": [
+      {
+        "label": "D&D 2024 adaptation · Bloodbow",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d8 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "150/600 feet",
+          "Properties": "Ammunition (arrows), Heavy, Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Expend one arrow per attack. Against a creature of the type keyed to the bow, add +1 to the attack and damage rolls. On a hit, the target makes a DC 15 Wisdom save. On a failure, roll 1d3: 1 Frightened of you, 2 Incapacitated, or 3 Stunned. The condition lasts until the end of your next turn. Soak the bow in blood of a different creature type for 1 hour to erase the old key. The new type takes effect when you finish a Long Rest.",
+          "Conversion notes": "Uses the 2024 DMG short-term mental stress conditions in place of the older madness table, retaining the item’s save and duration. The DM determines the bow’s initial key, typically Humanoid.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 15.",
+          "2024 mental stress rules": "https://www.dndbeyond.com/sources/dnd/br-2024/dms-toolbox#FearandMentalStress"
+        }
+      }
+    ],
+    "open5e-vom:vom_blooddrinker-spear": [
+      {
+        "label": "D&D 2024 adaptation · Blooddrinker Spear",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Piercing (1d8 with two hands in melee) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Thrown, Versatile (1d8)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "The first creature you hit with a clean spear is marked for 1 hour. Your subsequent hits with it against that creature deal an extra 1d6 Piercing damage. You have Advantage on Wisdom (Perception or Survival) checks to find it. The mark ends early at 0 Hit Points. To mark a different creature, clean the spear during a Short Rest.",
+          "Conversion notes": "Uses 2024 Spear statistics. The marking hit applies the mark, and subsequent hits carry the extra damage.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 15."
+        }
+      }
+    ],
+    "open5e-vom:vom_armor-of-the-ngobou": [
+      {
+        "label": "D&D 2024 adaptation · Armor of the Ngobou",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing the armor, detect whether an elephant passed within 90 feet of your current position within the last 24 hours. You have Advantage on Wisdom (Perception or Survival) checks to find elephants. Once per dawn, if you move at least 20 feet straight toward a creature and hit it with a melee weapon attack on the same turn, you can force it to make a DC 15 Strength save or have the Prone condition. Elephants have Disadvantage on this save.",
+          "Conversion notes": "Uses the 2024 Hide Armor (+1) profile and Prone condition. The charge is part of the hit.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 13."
+        }
+      }
+    ],
+    "open5e-vom:vom_blood-soaked-hide": [
+      {
+        "label": "D&D 2024 adaptation · Blood-Soaked Hide",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing the armor, you are immune to Hit Point loss or damage from ongoing bleeding or wounds. Once per dawn, take a Magic action to become a pool of blood for 1 minute. Use a Bonus Action to end the form early. Choose whether your gear melds or drops. Your statistics stay the same, and your other magic items cease to function. You cannot speak, have Resistance to Bludgeoning, Piercing, and Slashing damage, fit through gaps at least 1 inch wide, and can move through and end your turn in other creatures’ spaces. A creature that starts its turn in your space makes a DC 15 Constitution save. On a failure it loses 3d6 Hit Points and you regain half the amount lost, rounded down. Constructs and Undead other than vampires are immune to this effect.",
+          "Conversion notes": "Uses 2024 Hide Armor (+1) statistics. The immunity covers the ongoing wound rider, including a Sword of Wounding’s recurring damage, rather than the initial hit. The pool’s drain is direct Hit Point loss.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 16."
+        }
+      }
+    ],
+    "open5e-vom:vom_bloodprice-breastplate": [
+      {
+        "label": "D&D 2024 adaptation · Bloodprice Breastplate",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_breastplate",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Special powers": "When a melee attack would hit you, you can use your Reaction to add a bonus of +1 to +10 to your AC against that attack. You immediately lose 5 Hit Points per +1 chosen, then resolve the attack against your adjusted AC. The loss applies even if the attack still hits.",
+          "Conversion notes": "Uses the listed 2024 armor’s AC and training. The reaction costs Hit Points directly. Damage resistance and Temporary Hit Points do not pay the cost.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 16."
+        }
+      }
+    ],
+    "open5e-vom:vom_bloodprice-chain-mail": [
+      {
+        "label": "D&D 2024 adaptation · Bloodprice Chain-Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "16",
+          "Training": "Heavy",
+          "Strength requirement": "13. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Special powers": "When a melee attack would hit you, you can use your Reaction to add a bonus of +1 to +10 to your AC against that attack. You immediately lose 5 Hit Points per +1 chosen, then resolve the attack against your adjusted AC. The loss applies even if the attack still hits.",
+          "Conversion notes": "Uses the listed 2024 armor’s AC and training. The reaction costs Hit Points directly. Damage resistance and Temporary Hit Points do not pay the cost.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 16."
+        }
+      }
+    ],
+    "open5e-vom:vom_bloodprice-chain-shirt": [
+      {
+        "label": "D&D 2024 adaptation · Bloodprice Chain-Shirt",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Special powers": "When a melee attack would hit you, you can use your Reaction to add a bonus of +1 to +10 to your AC against that attack. You immediately lose 5 Hit Points per +1 chosen, then resolve the attack against your adjusted AC. The loss applies even if the attack still hits.",
+          "Conversion notes": "Uses the listed 2024 armor’s AC and training. The reaction costs Hit Points directly. Damage resistance and Temporary Hit Points do not pay the cost.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 16."
+        }
+      }
+    ],
+    "open5e-vom:vom_bloodprice-half-plate": [
+      {
+        "label": "D&D 2024 adaptation · Bloodprice Half-Plate",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_half-plate-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Special powers": "When a melee attack would hit you, you can use your Reaction to add a bonus of +1 to +10 to your AC against that attack. You immediately lose 5 Hit Points per +1 chosen, then resolve the attack against your adjusted AC. The loss applies even if the attack still hits.",
+          "Conversion notes": "Uses the listed 2024 armor’s AC and training. The reaction costs Hit Points directly. Damage resistance and Temporary Hit Points do not pay the cost.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 16."
+        }
+      }
+    ],
+    "open5e-vom:vom_bloodprice-hide": [
+      {
+        "label": "D&D 2024 adaptation · Bloodprice Hide",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "12 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Special powers": "When a melee attack would hit you, you can use your Reaction to add a bonus of +1 to +10 to your AC against that attack. You immediately lose 5 Hit Points per +1 chosen, then resolve the attack against your adjusted AC. The loss applies even if the attack still hits.",
+          "Conversion notes": "Uses the listed 2024 armor’s AC and training. The reaction costs Hit Points directly. Damage resistance and Temporary Hit Points do not pay the cost.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 16."
+        }
+      }
+    ],
+    "open5e-vom:vom_bloodprice-leather": [
+      {
+        "label": "D&D 2024 adaptation · Bloodprice Leather",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "11 + Dex modifier",
+          "Training": "Light",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Special powers": "When a melee attack would hit you, you can use your Reaction to add a bonus of +1 to +10 to your AC against that attack. You immediately lose 5 Hit Points per +1 chosen, then resolve the attack against your adjusted AC. The loss applies even if the attack still hits.",
+          "Conversion notes": "Uses the listed 2024 armor’s AC and training. The reaction costs Hit Points directly. Damage resistance and Temporary Hit Points do not pay the cost.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 16."
+        }
+      }
+    ],
+    "open5e-vom:vom_bloodprice-padded": [
+      {
+        "label": "D&D 2024 adaptation · Bloodprice Padded",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "11 + Dex modifier",
+          "Training": "Light",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Special powers": "When a melee attack would hit you, you can use your Reaction to add a bonus of +1 to +10 to your AC against that attack. You immediately lose 5 Hit Points per +1 chosen, then resolve the attack against your adjusted AC. The loss applies even if the attack still hits.",
+          "Conversion notes": "Uses the listed 2024 armor’s AC and training. The reaction costs Hit Points directly. Damage resistance and Temporary Hit Points do not pay the cost.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 16."
+        }
+      }
+    ],
+    "open5e-vom:vom_bloodprice-plate": [
+      {
+        "label": "D&D 2024 adaptation · Bloodprice Plate",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy",
+          "Strength requirement": "15. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Special powers": "When a melee attack would hit you, you can use your Reaction to add a bonus of +1 to +10 to your AC against that attack. You immediately lose 5 Hit Points per +1 chosen, then resolve the attack against your adjusted AC. The loss applies even if the attack still hits.",
+          "Conversion notes": "Uses the listed 2024 armor’s AC and training. The reaction costs Hit Points directly. Damage resistance and Temporary Hit Points do not pay the cost.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 16."
+        }
+      }
+    ],
+    "open5e-vom:vom_bloodprice-ring-mail": [
+      {
+        "label": "D&D 2024 adaptation · Bloodprice Ring-Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_ring-mail",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "14",
+          "Training": "Heavy",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Special powers": "When a melee attack would hit you, you can use your Reaction to add a bonus of +1 to +10 to your AC against that attack. You immediately lose 5 Hit Points per +1 chosen, then resolve the attack against your adjusted AC. The loss applies even if the attack still hits.",
+          "Conversion notes": "Uses the listed 2024 armor’s AC and training. The reaction costs Hit Points directly. Damage resistance and Temporary Hit Points do not pay the cost.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 16."
+        }
+      }
+    ],
+    "open5e-vom:vom_bloodprice-scale-mail": [
+      {
+        "label": "D&D 2024 adaptation · Bloodprice Scale-Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Special powers": "When a melee attack would hit you, you can use your Reaction to add a bonus of +1 to +10 to your AC against that attack. You immediately lose 5 Hit Points per +1 chosen, then resolve the attack against your adjusted AC. The loss applies even if the attack still hits.",
+          "Conversion notes": "Uses the listed 2024 armor’s AC and training. The reaction costs Hit Points directly. Damage resistance and Temporary Hit Points do not pay the cost.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 16."
+        }
+      }
+    ],
+    "open5e-vom:vom_bloodprice-splint": [
+      {
+        "label": "D&D 2024 adaptation · Bloodprice Splint",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy",
+          "Strength requirement": "15. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Special powers": "When a melee attack would hit you, you can use your Reaction to add a bonus of +1 to +10 to your AC against that attack. You immediately lose 5 Hit Points per +1 chosen, then resolve the attack against your adjusted AC. The loss applies even if the attack still hits.",
+          "Conversion notes": "Uses the listed 2024 armor’s AC and training. The reaction costs Hit Points directly. Damage resistance and Temporary Hit Points do not pay the cost.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 16."
+        }
+      }
+    ],
+    "open5e-vom:vom_bloodprice-studded-leather": [
+      {
+        "label": "D&D 2024 adaptation · Bloodprice Studded-Leather",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_studded-leather-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "13 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Special powers": "When a melee attack would hit you, you can use your Reaction to add a bonus of +1 to +10 to your AC against that attack. You immediately lose 5 Hit Points per +1 chosen, then resolve the attack against your adjusted AC. The loss applies even if the attack still hits.",
+          "Conversion notes": "Uses the listed 2024 armor’s AC and training. The reaction costs Hit Points directly. Damage resistance and Temporary Hit Points do not pay the cost.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 16."
+        }
+      }
+    ],
     "open5e-vom:vom_akaasit-blade": [
       {
         "label": "D&D 2024 adaptation · Akaasit Blade",

@@ -1,51 +1,103 @@
 "use strict";
 
+const trailGear = ["rope", "torch", "rations", "oil", "backpack", "bedroll", "waterskin",
+    "tinderbox", "crowbar", "blanket", "bucket", "grappling-hook", "lantern-hooded", "mirror", "sack"];
+const fieldWeapons = ["dagger", "handaxe", "mace", "spear", "quarterstaff", "shortbow", "light-crossbow"];
+const fieldArmor = ["padded-armor", "leather-armor", "hide-armor", "chain-shirt", "shield"];
+const martialWeapons = ["longsword", "rapier", "scimitar", "warhammer", "battleaxe", "longbow"];
+const plateArmor = ["breastplate", "half-plate-armor", "splint-armor", "plate-armor", "chain-mail", "scale-mail"];
+
 const merchantShops = {
     bildrath: {
         name: "Bildrath’s Mercantile",
         location: "Village of Barovia · Curse of Strahd",
-        policy: "Select adventuring gear under 25 gp at its 2014 list price. Bildrath charges ten times that price and won’t haggle.",
+        policy: "Bildrath stocks adventuring gear below 25 gp at its 2014 list price. He charges ten times that price and won’t haggle.",
         source: "https://dnd5.kwidz.ca/Adventures/Return%20to%20Ravenloft/Curse%20of%20Strahd%20%281-10%29.pdf#page=44",
         sourceLabel: "Curse of Strahd · Area E1",
         originalPrices: {rope: 100, torch: 1, rations: 50, oil: 10, backpack: 200, bedroll: 100,
-            waterskin: 20, tinderbox: 50, crowbar: 200, "lantern-hooded": 500, manacles: 200},
-        staples: ["rope", "torch", "rations", "oil"],
-        rotating: [["backpack", "bedroll"], ["waterskin", "tinderbox"], ["crowbar", "lantern-hooded", "manacles"]]
+            waterskin: 20, tinderbox: 50, crowbar: 200, blanket: 50, bucket: 5, "grappling-hook": 200,
+            "lantern-hooded": 500, mirror: 500, sack: 1, manacles: 200, chain: 500, candle: 1,
+            "ball-bearings": 100, caltrops: 100, ladder: 10, lock: 1000, "lantern-bullseye": 1000,
+            "block-and-tackle": 100, "hunting-trap": 500, "clothes-fine": 1500, perfume: 500},
+        staples: [...trailGear, "manacles", "chain", "candle", "ball-bearings", "caltrops"],
+        surprises: ["ladder", "lock", "lantern-bullseye", "block-and-tackle", "hunting-trap", "clothes-fine", "perfume"]
     },
     budget: {
         name: "Market Provisioner",
         location: "Thyatis City · Mystara · Budget",
-        policy: "An original shop for everyday supplies and inexpensive weapons. Prices are 90% of the 2024 list value.",
+        policy: "Everyday supplies and inexpensive weapons at 90% of the catalog base price.",
         rate: 90,
-        staples: ["rations", "torch", "dagger"],
-        rotating: [["rope", "crowbar"], ["bedroll", "backpack"], ["waterskin", "quarterstaff"]]
+        staples: [...trailGear, ...fieldWeapons, ...fieldArmor],
+        surprises: ["potion-of-healing", "antitoxin", "alchemists-fire", "hunting-trap", "dagger-plus-1", "potion-of-climbing"]
     },
     standard: {
         name: "City Outfitter",
         location: "Thyatis City · Mystara · Standard",
-        policy: "An original shop for adventuring kits, weapons, and armor. Prices use the 2024 list value.",
+        policy: "Adventuring kits, weapons, and armor at the catalog base price.",
         rate: 100,
-        staples: ["shield", "longsword", "chain-shirt"],
-        rotating: [["shortbow", "light-crossbow"], ["scale-mail", "studded-leather-armor"], ["lantern-hooded", "potion-of-healing"]]
+        staples: [...trailGear, ...fieldWeapons, ...fieldArmor, ...martialWeapons, "scale-mail", "arrows-20", "bolts-20", "potion-of-healing"],
+        surprises: ["longsword-plus-1", "shield-plus-1", "potion-of-water-breathing", "potion-of-growth", "potion-of-animal-friendship", "leather-armor-plus-1"]
     },
     premium: {
         name: "Imperial Armorer",
         location: "Thyatis City · Mystara · Premium",
-        policy: "An original shop for high-end armor and imported wares. Prices are 125% of the 2024 list value.",
+        policy: "High-end arms, armor, and imported wares at 125% of the catalog base price.",
         rate: 125,
-        staples: ["plate-armor", "breastplate", "spyglass"],
-        rotating: [["half-plate-armor", "splint-armor"], ["greatsword", "heavy-crossbow"], ["antitoxin", "potion-of-healing"]]
+        staples: [...martialWeapons, ...plateArmor, "greatsword", "greataxe", "heavy-crossbow", "halberd",
+            "glaive", "trident", "shield", "studded-leather-armor", "spyglass", "antitoxin", "smiths-tools", "potion-of-healing"],
+        surprises: ["plate-armor-plus-1", "greatsword-plus-1", "shield-plus-1", "potion-of-speed", "potion-of-heroism", "longbow-plus-1"]
+    },
+    threshold: {
+        name: "Rivergate Outfitters",
+        location: "Threshold · Karameikos · Mystara",
+        policy: "Trail and river supplies at the catalog base price.",
+        rate: 100,
+        staples: [...trailGear, ...fieldWeapons, "leather-armor", "hide-armor", "shield", "arrows-20",
+            "bolts-20", "net", "healers-kit"],
+        surprises: ["potion-of-water-breathing", "potion-of-climbing", "spear-plus-1", "potion-of-healing", "potion-of-animal-friendship", "navigators-tools"]
+    },
+    vallaki: {
+        name: "Lantern & Lock",
+        location: "Vallaki · Barovia · Ravenloft",
+        policy: "Travel supplies and road defenses at 150% of the catalog base price.",
+        rate: 150,
+        staples: [...trailGear, ...fieldWeapons, ...fieldArmor, "holy-water", "sling", "lock", "manacles", "healers-kit"],
+        surprises: ["potion-of-healing", "potion-of-resistance", "mace-plus-1", "shield-plus-1", "potion-of-invisibility", "antitoxin"]
     }
 };
 
-function merchantStockIds(shop, date) {
-    // Use the tablet’s civil date, then count days in UTC so DST cannot shift stock.
-    const day = Math.floor(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) / 86400000);
-    return shop.staples.concat(shop.rotating.map((pool, slot) => {
-        const week = Math.floor((day + slot * 2) / 7);
-        return pool[((week + slot) % pool.length + pool.length) % pool.length];
-    }));
+const merchantCategories = {
+    all: "All", weapon: "Weapons", armor: "Armor & shields", ammunition: "Ammunition",
+    potion: "Potions", gear: "Gear", featured: "Daily finds"
+};
+
+function merchantCategory(item) {
+    if (item.id === "open5e-srd-2024:srd-2024_torch" || item.id === "open5e-srd-2024:srd-2024_oil") return "gear";
+    if (item.type === "shield") return "armor";
+    return ["weapon", "armor", "ammunition", "potion"].includes(item.type) ? item.type : "gear";
 }
+
+function merchantDailyFinds(shopId, date) {
+    const pool = merchantShops[shopId].surprises;
+    const day = Math.floor(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) / 86400000);
+    let seed = 2166136261;
+    for (const character of shopId + ":" + day) {
+        seed = Math.imul(seed ^ character.charCodeAt(0), 16777619);
+    }
+    const count = 1 + (seed >>> 0) % 3;
+    // Rotate the lead find through half the pool. Extra finds come from the other half.
+    const leadCount = Math.ceil(pool.length / 2);
+    const finds = [pool[((day % leadCount) + leadCount) % leadCount]];
+    const extras = pool.slice(leadCount);
+    for (let slot = 1; slot < count; slot++) {
+        seed = Math.imul(seed ^ slot, 16777619);
+        finds.push(extras.splice((seed >>> 0) % extras.length, 1)[0]);
+    }
+    return finds;
+}
+
+let activeMerchantCategory = "all";
+let renderedMerchantDate = "";
 
 function merchantPrice(shop, slug, item) {
     if (shop.originalPrices) {
@@ -58,7 +110,8 @@ function merchantPrice(shop, slug, item) {
 
 function renderMerchant() {
     dismissInspection(false);
-    const shop = merchantShops[byId("merchant-choice").value];
+    const shopId = byId("merchant-choice").value;
+    const shop = merchantShops[shopId];
     byId("merchant-name").textContent = shop.name;
     byId("merchant-location").textContent = shop.location;
     byId("merchant-policy").textContent = shop.policy;
@@ -66,24 +119,36 @@ function renderMerchant() {
     source.hidden = !shop.source;
     source.textContent = shop.sourceLabel || "";
     const date = new Date();
+    renderedMerchantDate = date.toDateString();
     byId("merchant-date").textContent = "Stock for " + date.toLocaleDateString();
     const stock = byId("merchant-stock");
     stock.textContent = "";
-    merchantStockIds(shop, date).forEach(slug => {
+    byId("merchant-categories").querySelectorAll("button").forEach(button => {
+        button.setAttribute("aria-pressed", String(button.dataset.category === activeMerchantCategory));
+    });
+    const featured = merchantDailyFinds(shopId, date);
+    for (const slug of featured.concat(shop.staples)) {
         const id = "open5e-srd-2024:srd-2024_" + slug;
         const item = JSON.parse(Armory.item(id));
         const price = merchantPrice(shop, slug, item);
-        if (!item.name || price === null) return;
+        if (!item.name || price === null) continue;
+        const isFeatured = featured.includes(slug);
+        const category = merchantCategory(item);
+        if (activeMerchantCategory !== "all" && activeMerchantCategory !== category
+                && !(activeMerchantCategory === "featured" && isFeatured)) continue;
         const button = element("button", "", "card");
         button.type = "button";
         button.dataset.id = id;
         button.dataset.copper = String(price);
+        button.dataset.category = category;
+        button.dataset.featured = String(isFeatured);
         button.append(icon(item.image && item.image.path), element("strong", item.name),
             element("small", coins(price)));
+        if (isFeatured) button.append(element("small", "Daily find", "merchant-find"));
         button.addEventListener("click", () => inspect(id, button, {name: shop.name, price}));
         stock.appendChild(button);
-    });
-    if (!stock.childElementCount) stock.appendChild(element("p", "Stock is unavailable.", "meta"));
+    }
+    if (!stock.childElementCount) stock.appendChild(element("p", "This shop has no stock in this category.", "meta"));
 }
 
 function closeMerchants() {
@@ -97,6 +162,23 @@ function closeMerchants() {
 }
 
 function setupMerchants() {
+    const categories = byId("merchant-categories");
+    Object.entries(merchantCategories).forEach(([id, name]) => {
+        const button = element("button", name);
+        button.type = "button";
+        button.dataset.category = id;
+        button.addEventListener("click", () => {
+            activeMerchantCategory = id;
+            renderMerchant();
+        });
+        categories.appendChild(button);
+    });
+    const refreshDate = () => {
+        if (!document.hidden && !byId("merchants").hidden && !inspection.classList.contains("active")
+                && renderedMerchantDate !== new Date().toDateString()) renderMerchant();
+    };
+    window.setInterval(refreshDate, 30000);
+    document.addEventListener("visibilitychange", refreshDate);
     byId("open-merchants").addEventListener("click", () => {
         dismissInspection(false);
         byId("catalog-shelf").hidden = true;
@@ -105,13 +187,13 @@ function setupMerchants() {
         byId("merchant-choice").focus();
         window.scrollTo(0, 0);
     });
-    byId("merchant-choice").addEventListener("change", renderMerchant);
+    byId("merchant-choice").addEventListener("change", () => {
+        activeMerchantCategory = "all";
+        renderMerchant();
+    });
     byId("merchant-back").addEventListener("click", closeMerchants);
     byId("merchant-source").addEventListener("click", () => {
         const shop = merchantShops[byId("merchant-choice").value];
         if (shop.source) Armory.openSource(shop.source);
-    });
-    document.addEventListener("visibilitychange", () => {
-        if (!document.hidden && !byId("merchants").hidden && !inspection.classList.contains("active")) renderMerchant();
     });
 }

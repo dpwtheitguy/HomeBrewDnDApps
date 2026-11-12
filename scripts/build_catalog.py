@@ -127,6 +127,13 @@ def main():
         'vom_animated-chain-mail': 12,
         'vom_armor-of-cushioning': 12,
         'vom_badger-hide': 14,
+        'vom_armor-of-the-ngobou': 13,
+        'vom_blade-of-petals': 14,
+        'vom_blade-of-the-dervish': 15,
+        'vom_blade-of-the-temple-guardian': 15,
+        'vom_bloodbow': 15,
+        'vom_blooddrinker-spear': 15,
+        'vom_blood-soaked-hide': 16,
     }
     vault_weapon_corrections = {
         'vom_anchor-of-striking': ('Anchor of Striking', 'srd_war-pick', 11),
@@ -152,7 +159,10 @@ def main():
                     if correction := vault_weapon_corrections.get(raw['pk']):
                         corrected_name, corrected_weapon, vault_page = correction
                         f = {**f, 'name': corrected_name, 'weapon': corrected_weapon}
-                    if raw['pk'] == 'vom_animated-chain-mail':
+                    if raw['pk'].startswith('vom_bloodprice-'):
+                        vault_page = 16
+                    if (raw['pk'] in ('vom_animated-chain-mail', 'vom_blood-soaked-hide')
+                            or raw['pk'].startswith('vom_bloodprice-')):
                         f = {**f, 'requires_attunement': True}
                 category=f.get('category') or f.get('type') or ('armor' if fn=='Armor.json' else 'weapon' if fn=='Weapon.json' else 'gear')
                 weapon=weapon_lookup.get(f.get('weapon'),{}) if ver=='v2' else (f if fn=='Weapon.json' else {})

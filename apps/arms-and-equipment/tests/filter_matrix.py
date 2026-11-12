@@ -1830,6 +1830,21 @@ def main():
                         if (!byId("custom-items").hidden) click("close-custom-items");
                     }
                 })()''',
+                'Vault of Magic preserves Bloodprice reactions and weapon triggers': '''(async () => {
+                    for (const [id, terms] of [
+                        ["bloodprice-padded", ["11 + Dex modifier", "+1 to +10", "5 Hit Points"]],
+                        ["bloodprice-plate", ["Armor class18", "reduce Speed by 10 feet"]],
+                        ["blood-soaked-hide", ["13 + Dex modifier", "DC 15 Constitution", "3d6 Hit Points"]],
+                        ["bloodbow", ["150/600 feet", "DC 15 Wisdom", "1d3"]],
+                        ["blade-of-the-temple-guardian", ["Heightened Focus", "1 expended Focus Point"]],
+                        ["blade-of-the-dervish", ["Each full 10 feet", "+3 and 3d6", "another 2d6 Slashing"]],
+                    ]) {
+                        inspect("open5e-vom:vom_" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Vault of Magic cards use the published bases and distinct powers': '''(async () => {
                     const cases = [
                         ["anointing-mace", ["2d6 Bludgeoning", "Topple", "whether it hits or misses"]],
@@ -3292,41 +3307,68 @@ def main():
                 'Reject inverted buy budget': '''(() => {const prior=searchId;byId("price-min").value="30";byId("price-max").value="10";
                     byId("price-max").dispatchEvent(new Event("change"));
                     return !byId("budget-error").hidden && searchId===prior;})()''',
-                'Shops expose Barovia and three Thyatis price tiers': '''(async () => {
+                'Six merchants expose priced staples, daily finds, and category tabs': '''(async () => {
                     const choose = id => {
                         const picker = byId("merchant-choice");
                         picker.value = id;
                         picker.dispatchEvent(new Event("change"));
                     };
-                    const offers = () => Array.from(byId("merchant-stock").children);
-                    const price = slug => Number(offers().find(card => card.dataset.id.endsWith("_" + slug)).dataset.copper);
+                    const tab = category => byId("merchant-categories").querySelector('[data-category="' + category + '"]');
+                    const offers = () => Array.from(byId("merchant-stock").querySelectorAll("button.card"));
+                    const offer = slug => offers().find(card => card.dataset.id.endsWith("_" + slug));
                     byId("open-merchants").click();
                     try {
-                        choose("bildrath");
-                        if (offers().length !== 7 || price("rope") !== 1000 || price("torch") !== 10
-                            || merchantPrice({originalPrices:{test:2500}}, "test", {}) !== null
-                            || byId("merchant-source").hidden) return false;
-                        offers()[0].click();
-                        await itemDetails;
-                        if (!inspection.textContent.includes("Shop price · 10 gp")) return false;
-                        if (!window.closeInspection() || byId("merchants").hidden) return false;
-                        for (const [id, slug, copper] of [["budget","dagger",180],["standard","shield",1000],["premium","plate-armor",187500]]) {
+                        for (const [id, slug, copper] of [["bildrath","rope",1000],["budget","dagger",180],
+                            ["standard","shield",1000],["premium","plate-armor",187500],
+                            ["threshold","spear",100],["vallaki","dagger",300]]) {
                             choose(id);
-                            if (offers().length !== 6 || price(slug) !== copper || !byId("merchant-source").hidden) return false;
+                            const cards = offers();
+                            const core = cards.filter(card => card.dataset.featured === "false");
+                            if (core.length !== merchantShops[id].staples.length || core.length < 20 || core.length > 40
+                                || Number(offer(slug).dataset.copper) !== copper
+                                || byId("merchant-source").hidden !== (id !== "bildrath")) throw new Error(id + " stock/price: " + core.length + ", " + offer(slug).dataset.copper);
+                            tab("featured").click();
+                            if (tab("featured").getAttribute("aria-pressed") !== "true" ||
+                                offers().length < 1 || offers().length > 3 ||
+                                offers().some(card => card.dataset.featured !== "true")) throw new Error(id + " daily finds tab");
+                            tab("weapon").click();
+                            if (id === "bildrath" ? offers().length !== 0 :
+                                !offers().length || offers().some(card => card.dataset.category !== "weapon")) throw new Error(id + " weapons tab: " + offers().map(card => card.dataset.id).join(", "));
+                            tab("armor").click();
+                            if (id === "bildrath" ? offers().length !== 0 :
+                                !offer("shield") || offers().some(card => card.dataset.category !== "armor")) throw new Error(id + " armor tab");
                         }
+                        choose("bildrath");
+                        if (Number(offer("torch").dataset.copper) !== 10
+                            || merchantPrice({originalPrices:{test:2500}}, "test", {}) !== null) throw new Error("Merchant scenario failed");
+                        offer("rope").click();
+                        await itemDetails;
+                        if (!inspection.textContent.includes("Shop price · 10 gp")) throw new Error("Inspection shop price");
+                        if (!window.closeInspection() || byId("merchants").hidden) throw new Error("Merchant scenario failed");
                         return window.closeInspection() && byId("merchants").hidden && !byId("catalog-shelf").hidden;
                     } finally {
                         closeMerchants();
                     }
                 })()''',
-                'Merchant stock stays stable by civil date and rotates gradually': '''(() => {
-                    return Object.values(merchantShops).every(shop => {
-                        const first = merchantStockIds(shop, new Date(2026, 11, 28, 1));
-                        const same = merchantStockIds(shop, new Date(2026, 11, 28, 23));
-                        const next = merchantStockIds(shop, new Date(2027, 0, 4));
-                        const overlap = first.filter(id => next.includes(id));
-                        return first.join() === same.join() && new Set(first).size === first.length
-                            && overlap.length === shop.staples.length && shop.staples.every(id => overlap.includes(id));
+                'Merchant surprises resolve and rotate on adjacent device dates': '''(() => {
+                    return Object.entries(merchantShops).every(([id, shop]) => {
+                        const valid = slug => {
+                            const item = JSON.parse(Armory.item("open5e-srd-2024:srd-2024_" + slug));
+                            return item.name && merchantPrice(shop, slug, item) > 0;
+                        };
+                        const stock = shop.staples.concat(shop.surprises);
+                        if (new Set(stock).size !== stock.length || !stock.every(valid)) return false;
+                        const counts = new Set();
+                        for (let offset = 0; offset < 14; offset++) {
+                            const first = merchantDailyFinds(id, new Date(2026, 11, 28 + offset, 1));
+                            const same = merchantDailyFinds(id, new Date(2026, 11, 28 + offset, 23));
+                            const next = merchantDailyFinds(id, new Date(2026, 11, 29 + offset));
+                            counts.add(first.length);
+                            if (first.join() !== same.join() || first.slice().sort().join() === next.slice().sort().join()
+                                || first.some(slug => shop.staples.includes(slug))
+                                || new Set(first).size !== first.length) return false;
+                        }
+                        return [1, 2, 3].every(count => counts.has(count));
                     });
                 })()''',
                 'Blinsky hidden under About': '''!byId("about").open && byId("blinsky-shop").hidden

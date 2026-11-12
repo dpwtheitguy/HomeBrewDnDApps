@@ -121,11 +121,15 @@
       <select id="merchant-choice">
         <optgroup label="Barovia">
           <option value="bildrath">Bildrath’s Mercantile</option>
+          <option value="vallaki">Lantern &amp; Lock · Vallaki</option>
         </optgroup>
         <optgroup label="Thyatis City">
           <option value="budget">Market Provisioner · Budget</option>
           <option value="standard">City Outfitter · Standard</option>
           <option value="premium">Imperial Armorer · Premium</option>
+        </optgroup>
+        <optgroup label="Threshold">
+          <option value="threshold">Rivergate Outfitters</option>
         </optgroup>
       </select>
     </label>
@@ -134,6 +138,7 @@
     <p id="merchant-policy"></p>
     <button id="merchant-source" type="button" hidden></button>
     <p id="merchant-date" class="meta"></p>
+    <div id="merchant-categories" role="group" aria-label="Shop categories"></div>
     <div id="merchant-stock" class="grid"></div>
   </section>
   <section id="blinsky-shop" class="shelf" hidden aria-label="Blinsky’s Toys">
