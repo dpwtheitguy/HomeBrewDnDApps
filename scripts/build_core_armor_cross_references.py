@@ -72,12 +72,73 @@ def same_base(left, right):
             and 'increases your Armor Class by 2' in left['description'])
 
 
+PUBLIC_ARMOR = {
+    'dndbeyond:9228451': (
+        'Demon Armor', '9228451-demon-armor', 1, True, 'Very Rare', {
+            'Special powers': 'While worn, you know Abyssal. The clawed gauntlets let your Unarmed Strikes deal 1d8 Slashing and grant +1 to their attack and damage rolls.',
+            'Curse': 'You cannot doff the armor until affected by Remove Curse or similar magic. While wearing it, you have Disadvantage on attacks against demons and on saves against their spells and abilities.',
+        },
+    ),
+    'dndbeyond:9228837': (
+        "Mariner's Armor", '9228837-mariners-armor', 0, False, 'Uncommon', {
+            'Special powers': 'While worn, gain a Swim Speed equal to your Speed. If you start your turn underwater at 0 HP, immediately regain 1d4 HP. The healing recharges at dawn.',
+        },
+    ),
+    'dndbeyond:9228541': (
+        'Enspelled Armor', '9228541-enspelled-armor', 0, True, 'Varies by spell level', {
+            'Special powers': 'Choose one Abjuration or Illusion spell from cantrip through level 8 when the armor is created. While wearing the armor, spend 1 charge to cast the bound spell. Use that spell’s casting time, range, and Concentration rules.',
+            'Charges': '6 charges. Regain 1d6 spent charges at dawn.',
+            'Rarity, save DC, spell attack': 'Cantrip or 1: Uncommon, DC 13, +5. 2: Rare, DC 13, +5. 3: Rare, DC 15, +7. 4: Very Rare, DC 15, +7. 5: Very Rare, DC 17, +9. 6: Legendary, DC 17, +9. 7–8: Legendary, DC 18, +10.',
+        },
+    ),
+}
+
+
+def public_armor_variants(items):
+    bases = [item for item in items if item['source_id'] == CURRENT and item['magic'] is False
+             and item['mechanics'].get('armor') and item['mechanics']['armor']['name'] != 'Shield']
+    records = {}
+    for item in items:
+        if item['source_id'] != 'dndbeyond-public-index' or item['id'] not in PUBLIC_ARMOR:
+            continue
+        name, page, bonus, attune, rarity, effects = PUBLIC_ARMOR[item['id']]
+        source = 'https://www.dndbeyond.com/magic-items/' + page
+        if (item['name'] != name or item['provenance'].get('source_url') != source
+                or item['requires_attunement'] is not attune):
+            raise ValueError(f'Public armor identity mismatch: {item["id"]}')
+        variants = []
+        for base in bases:
+            armor = base['mechanics']['armor']
+            formula = str(armor['ac_base'] + bonus)
+            cap = armor['ac_cap_dexmod']
+            if armor['ac_add_dexmod']:
+                formula += ' + Dex modifier'
+                if cap is not None:
+                    formula += f' (max +{cap})'
+            training = ('Medium armor' if cap is not None else 'Light armor'
+                        if armor['ac_add_dexmod'] else 'Heavy armor')
+            fields = {
+                'Armor class': formula, 'Training': training,
+                'Strength requirement': str(armor['strength_score_required'] or 'None'),
+                'Stealth disadvantage': 'Yes' if armor['grants_stealth_disadvantage'] else 'No',
+                'Weight': f"{float(base['mechanics']['source_fields']['weight']):g} lb",
+                'Attunement': 'Required' if attune else 'None', 'Rarity': rarity, **effects,
+            }
+            variants.append({
+                'label': 'Verified 2024 armor rules · ' + armor['name'], 'status': 'published-reference',
+                'profile_kind': 'published-public-armor', 'source': source, 'enhancement_bonus': bonus,
+                'fields': fields, 'related_item': {'id': base['id'], 'label': 'Open 2024 base equipment'},
+            })
+        records[item['id']] = variants
+    return records
+
+
 def build(catalog):
     database = (catalog / 'indexes/items.sqlite3').resolve()
     with sqlite3.connect(database.as_uri() + '?mode=ro', uri=True) as db:
         items = [json.loads(raw) for (raw,) in db.execute(
-            "SELECT data_json FROM items WHERE type IN ('armor', 'shield') AND source_id IN (?, ?) ORDER BY id",
-            (LEGACY, CURRENT))]
+            "SELECT data_json FROM items WHERE type IN ('armor', 'shield') AND source_id IN (?, ?, ?) ORDER BY id",
+            (LEGACY, CURRENT, 'dndbeyond-public-index'))]
     modern = collections.defaultdict(list)
     for item in items:
         if item['source_id'] == CURRENT:
@@ -137,7 +198,7 @@ def build(catalog):
             'target_id': target['id'], 'source': MAGIC if effect else EQUIPMENT,
             'effect': effect, 'mithral': family == 'Mithral Armor',
         }
-    return {'schema_version': 1, 'records': records, 'modern': current_families}
+    return {'schema_version': 1, 'records': records, 'modern': current_families, 'public': public_armor_variants(items)}
 
 
 if __name__ == '__main__':

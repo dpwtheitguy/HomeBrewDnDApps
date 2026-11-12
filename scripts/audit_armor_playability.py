@@ -334,6 +334,7 @@ def main():
     published = load(catalog, 'published-2024-armor-facts')['records']
     core_path = catalog / 'supplements/core-armor-cross-references.json'
     core = load(catalog, 'core-armor-cross-references') if core_path.is_file() else {}
+    curated.update(core.get('public', {}))
     rows = [audit_row(item, indexed, bg3, curated, prices, published, core.get('records', {}), core.get('modern', {})) for item in items]
     errors, pending = write_reports(catalog, rows)
     print(f'{len(rows):,} armor and shield records, {errors:,} structural errors, {pending:,} review gaps.')

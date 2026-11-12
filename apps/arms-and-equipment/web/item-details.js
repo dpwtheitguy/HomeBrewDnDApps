@@ -348,7 +348,8 @@ function addItemDetails(panel, item, supplements) {
     addLegacyDmgDetails(panel, item);
     const familyEntries = magicFamilies && magicFamilies.records[item.id] || [];
     const entries = (curated && curated.records[item.id] || [])
-        .concat(publishedFacts && publishedFacts.records[item.id] || [], familyEntries);
+        .concat(publishedFacts && publishedFacts.records[item.id] || [], familyEntries,
+            coreArmor && coreArmor.public && coreArmor.public[item.id] || []);
     const hasPublishedCombatRules = entries.some(entry =>
         entry.status === "published-reference" &&
         ["Damage", "Range", "Activation"].every(field => entry.fields[field]));

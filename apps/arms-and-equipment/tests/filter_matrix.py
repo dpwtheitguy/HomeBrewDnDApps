@@ -651,6 +651,18 @@ def main():
                         && ["Armor class17", "Armor class14 + Dex modifier (max +2)", "count as trained"]
                             .every(value => elven.includes(value));
                 })()''',
+                'Public armor families show base suits and their published effects': '''(async () => {
+                    inspect("dndbeyond:9228837", grid.firstElementChild);
+                    await itemDetails;
+                    const mariner = inspection.textContent;
+                    inspect("dndbeyond:9228541", grid.firstElementChild);
+                    await itemDetails;
+                    const enspelled = inspection.textContent;
+                    return ["armor rules · Leather Armor", "armor rules · Plate Armor", "Swim Speed",
+                        "underwater at 0 HP", "1d4 HP"].every(value => mariner.includes(value))
+                        && ["Armor class18", "Abjuration or Illusion", "6 charges", "DC 18, +10"]
+                            .every(value => enspelled.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
