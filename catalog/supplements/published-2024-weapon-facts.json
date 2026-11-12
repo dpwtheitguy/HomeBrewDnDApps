@@ -765,6 +765,62 @@
           "label": "Open 2024 base weapon"
         }
       }
+    ],
+    "dndbeyond:10886041": [
+      {
+        "label": "Published 2024 Dazzling Weapon",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/magic-items/10886041-dazzling-weapon",
+        "fields": {
+          "Category": "Any Simple or Martial weapon · Rare · Requires attunement",
+          "Damage": "Use the base weapon’s damage dice and type. Add +1 to its damage roll.",
+          "Range": "Use the base weapon’s reach or normal/long range.",
+          "Attack bonus": "Add +1 to attack rolls with the weapon.",
+          "Activation": "Attack normally. While holding the weapon, take a Bonus Action to turn its light on or off.",
+          "Light": "Bright Light within 30 feet and Dim Light for an additional 30 feet.",
+          "Dazzle": "Immediately after an attack roll hits you, you can use your Reaction and spend 1 charge. The attacker makes a DC 15 Constitution save. On a failure, it is Blinded until the end of its next turn.",
+          "Charges": "4 charges. Regain 1d4 expended charges at dawn.",
+          "Base weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Mastery": "Use the base weapon’s mastery if you have the appropriate feature.",
+          "Publication": "Eberron: Forge of the Artificer, appendix: Magic Items."
+        }
+      }
+    ],
+    "dndbeyond:10886055": [
+      {
+        "label": "Published 2024 Repeating Shot",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/magic-items/10886055-repeating-shot",
+        "fields": {
+          "Category": "Any Simple or Martial weapon with Ammunition · Uncommon · Requires attunement",
+          "Damage": "Use the base weapon’s damage dice and type. Add +1 to damage when making a ranged attack.",
+          "Range": "Use the base weapon’s normal and long range.",
+          "Attack bonus": "Add +1 to ranged attack rolls with the weapon.",
+          "Activation": "Make a ranged attack with the weapon. If it has Loading, ignore that property.",
+          "Ammunition": "When you make a ranged attack roll without ammunition, the weapon creates one piece of magic ammunition. It vanishes immediately after the attack hits or misses.",
+          "Base weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Mastery": "Use the base weapon’s mastery if you have the appropriate feature.",
+          "Publication": "Eberron: Forge of the Artificer, appendix: Magic Items."
+        }
+      }
+    ],
+    "dndbeyond:10886064": [
+      {
+        "label": "Published 2024 Returning Weapon",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/magic-items/10886064-returning-weapon",
+        "fields": {
+          "Category": "Any Simple or Martial weapon with Thrown · Uncommon · No attunement",
+          "Damage": "Use the base weapon’s damage dice and type. Add +1 to its damage roll.",
+          "Range": "Use the base weapon’s reach for melee attacks, if applicable, and its normal and long range for thrown attacks.",
+          "Attack bonus": "Add +1 to melee and ranged attack rolls with the weapon.",
+          "Activation": "Make an attack with the weapon.",
+          "Return": "The weapon returns to your hand immediately after you use it to make a ranged attack roll, on a hit or miss.",
+          "Base weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Mastery": "Use the base weapon’s mastery if you have the appropriate feature.",
+          "Publication": "Eberron: Forge of the Artificer, appendix: Magic Items."
+        }
+      }
     ]
   }
 }

@@ -993,6 +993,21 @@ def main():
                     }
                     return true;
                 })()''',
+                'Eberron weapon families show their distinct triggers and bonuses': '''(async () => {
+                    const cases = [
+                        ["10886041", ["Requires attunement", "Reaction", "DC 15 Constitution", "1d4 expended charges"]],
+                        ["10886055", ["Requires attunement", "+1 to ranged attack rolls", "ignore that property", "hits or misses"]],
+                        ["10886064", ["No attunement", "+1 to melee and ranged", "returns to your hand immediately"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dndbeyond:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term)) ||
+                            inspection.textContent.includes("2024 provisional profile") ||
+                            ![...inspection.querySelectorAll("a")].some(link => link.href.endsWith("equipment#Weapons"))) return false;
+                    }
+                    return true;
+                })()''',
                 'Energy Bow Greatclub and Niko mace show the published powers': '''(async () => {
                     const cases = [
                         ["9058960", ["Energy Bow · Longbow", "Energy Bow · Shortbow", "DC 15 Strength",
