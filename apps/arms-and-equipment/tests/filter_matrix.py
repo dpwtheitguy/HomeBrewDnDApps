@@ -1830,6 +1830,23 @@ def main():
                         if (!byId("custom-items").hidden) click("close-custom-items");
                     }
                 })()''',
+                'GAZ13 staves and Firnafel’s bolts show activation and limits': '''(async () => {
+                    const cases = [
+                        ["70e65a05072c0b10", ["Dominate Beast (4 charges)", "Falanen"]],
+                        ["ec0e000992956c3b", ["Dispel Magic", "1d4 rounds", "2d20 charges"]],
+                        ["b898e726f24ac264", ["Fire Resistance", "Summon Elemental (fire only"]],
+                        ["796af5c6071b7cf7", ["1d6 + 1 Hit Points", "once between dawns"]],
+                        ["3027c54efba36159", ["DC 15 Strength", "20 Hit Points", "No class restriction"]],
+                        ["5b6454c14c1cbf25", ["six bolts", "Add 3 to the attack roll", "nonmagical after it hits"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("gaz13-online-adaptation-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))
+                            || inspection.textContent.includes("2024 provisional profile")) return false;
+                    }
+                    return true;
+                })()''',
                 'Shadow Elf weapons show named powers and modern attack profiles': '''(async () => {
                     const cases = [
                         ["28134d4d8c9af5f8", ["1d8 Slashing", "At level 11, add Magic Jar", "Illusion ward"]],

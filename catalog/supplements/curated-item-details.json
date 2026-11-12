@@ -1,6 +1,185 @@
 {
   "schema_version": 1,
   "records": {
+    "gaz13-online-adaptation-reference:70e65a05072c0b10": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Commanding",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://heroes.mystara.net/selenica/others/shadow/gaz13_dm.html",
+        "fields": {
+          "Category": "Simple melee weapon (Quarterstaff)",
+          "Damage": "1d6 Bludgeoning (1d8 with two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee. Spells use their own ranges.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Source locator": "GAZ13, 1995 TSR online adaptation, Falanen, NPC Notes.",
+          "Legacy rules": "https://iimu.kapsi.fi/limunropellukset/wp-content/uploads/2013/02/TSR-1071-The-DD-Rules-Cyclopedia.pdf",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Attunement": "Required by a creature with Spellcasting or Pact Magic.",
+          "Rarity": "Very Rare",
+          "Activation": "While holding the staff, expend charges to cast a spell using your spell save DC, normal casting time and Concentration.",
+          "Charges": "10 maximum. Regains 1d4 + 2 at dawn.",
+          "Spells and costs": "Suggestion (2 charges), Dominate Beast (4 charges), Speak with Plants (3 charges), or Plant Growth (3 charges).",
+          "Conversion notes": "GAZ13 gives Falanen a +1 staff. The Rules Cyclopedia identifies three control domains. This conversion uses modern influence, animal, and plant spells with shared charges."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "gaz13-online-adaptation-reference:ec0e000992956c3b": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Dispelling",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://heroes.mystara.net/selenica/others/shadow/gaz13_dm.html",
+        "fields": {
+          "Category": "Simple melee weapon (Quarterstaff)",
+          "Damage": "1d6 Bludgeoning (1d8 with two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet melee. Spells use their own ranges.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Source locator": "GAZ13, 1995 TSR online adaptation, Porphyriel, NPC Notes.",
+          "Legacy rules": "https://iimu.kapsi.fi/limunropellukset/wp-content/uploads/2013/02/TSR-1071-The-DD-Rules-Cyclopedia.pdf",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Attunement": "Required. No class restriction.",
+          "Rarity": "Very Rare",
+          "Activation": "As a Magic action while holding the staff, spend 1 charge and touch one creature, object, or magical effect within 5 feet. An unwilling creature or a carried object requires a successful melee attack with the staff as part of this action. This touch deals no weapon damage.",
+          "Dispelling": "For an ongoing spell, resolve Dispel Magic as a level 3 spell (spellcasting ability check +5 against DC 10 + spell level for a spell of level 4 or higher). A touched potion or spell scroll is destroyed. A non-artifact permanent magic item loses its magical properties for 1d4 rounds.",
+          "Charges": "Roll 2d20 charges when found. Expended charges never return. At 0 charges, it retains only its quarterstaff profile.",
+          "Conversion notes": "Preserves the single-target touch and limited charges. Artifacts are excluded from suppression. Applies the 2024 dispel check to higher-level spells."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "gaz13-online-adaptation-reference:b898e726f24ac264": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Fire",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://heroes.mystara.net/selenica/others/shadow/gaz13_dm.html",
+        "fields": {
+          "Category": "Simple melee weapon (Quarterstaff)",
+          "Damage": "1d6 Bludgeoning (1d8 with two hands) + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet melee. Spells use their own ranges.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Source locator": "GAZ13, 1995 TSR online adaptation, Kanafasti, NPC Notes.",
+          "Legacy rules": "https://iimu.kapsi.fi/limunropellukset/wp-content/uploads/2013/02/TSR-1071-The-DD-Rules-Cyclopedia.pdf",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Attunement": "Required by a Sorcerer, Warlock, or Wizard.",
+          "Rarity": "Very Rare",
+          "Activation": "While holding the attuned staff, spend charges to cast a spell using your spell save DC and normal casting time.",
+          "Special powers": "While holding the staff, you have Fire Resistance.",
+          "Spells and costs": "Fireball (3 charges), Wall of Fire (4 charges), or Summon Elemental (fire only, 4 charges, once per dawn). Use normal Concentration.",
+          "Charges": "10 maximum. Regains 1d6 + 4 at dawn. When you expend the last charge, roll 1d20. On a 1, the staff is destroyed.",
+          "Conversion notes": "Uses the Rules Cyclopedia elemental staff’s +2 and fire summon. The published 2024 Staff of Fire supplies resistance and the charge economy.",
+          "2024 benchmark": "https://www.dndbeyond.com/magic-items/9229094-staff-of-fire"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_staff-of-fire",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "gaz13-online-adaptation-reference:796af5c6071b7cf7": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Healing",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://heroes.mystara.net/selenica/others/shadow/gaz13_dm.html",
+        "fields": {
+          "Category": "Simple melee weapon (Quarterstaff)",
+          "Damage": "1d6 Bludgeoning (1d8 with two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet melee. Spells use their own ranges.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Source locator": "GAZ13, 1995 TSR online adaptation, Porphyriel, NPC Notes.",
+          "Legacy rules": "https://iimu.kapsi.fi/limunropellukset/wp-content/uploads/2013/02/TSR-1071-The-DD-Rules-Cyclopedia.pdf",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Attunement": "Required by a Cleric.",
+          "Rarity": "Rare",
+          "Activation": "While holding the staff, take a Magic action to touch a creature within 5 feet and restore 1d6 + 1 Hit Points.",
+          "Special powers": "This healing spends no charge. Each creature can benefit only once between dawns.",
+          "Optional charged variant": "If the DM places a charged variant, roll 2d20 charges when found with no recharge. Spend 1 charge to cast Lesser Restoration or 2 charges to cast Cure Wounds at level 2. Use the spell’s normal casting time, range, and your Wisdom modifier.",
+          "Conversion notes": "Retains the Rules Cyclopedia’s charge-free healing and one use per recipient. The optional variant translates the original restorative spell list to 2024 spells.",
+          "2024 benchmark": "https://www.dndbeyond.com/magic-items/9229097-staff-of-healing"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_staff-of-healing",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "gaz13-online-adaptation-reference:3027c54efba36159": [
+      {
+        "label": "D&D 2024 adaptation · Ancient Azcan Snake Staff",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://heroes.mystara.net/selenica/others/shadow/gaz13_dm.html",
+        "fields": {
+          "Category": "Simple melee weapon (Quarterstaff)",
+          "Damage": "1d6 Bludgeoning (1d8 with two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee. Spells use their own ranges.",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Source locator": "GAZ13, 1995 TSR online adaptation, Xatapechtli, NPC Notes.",
+          "Legacy rules": "https://iimu.kapsi.fi/limunropellukset/wp-content/uploads/2013/02/TSR-1071-The-DD-Rules-Cyclopedia.pdf",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Attunement": "Required. No class restriction.",
+          "Rarity": "Rare",
+          "Activation": "When you hit a Medium or smaller creature with the staff, you can command it to transform as part of the attack. The target makes a DC 15 Strength save. On a failure it is Grappled and Restrained by the snake for up to 1 minute.",
+          "Snake form": "The snake has AC 15 and 20 Hit Points. It stays in the target’s space, has no actions, and deals no further damage. The target can use an action to make a DC 15 Strength (Athletics) or Dexterity (Acrobatics) check to escape. You can release it as a Bonus Action within 60 feet.",
+          "Reversion": "When the target escapes, you release it, or the duration ends, the snake reverts in its space and fully heals. If the snake reaches 0 Hit Points, the staff is destroyed.",
+          "Charges": "None.",
+          "Conversion notes": "Keeps the legacy Snake Staff’s on-hit restraint and destruction risk. GAZ13 explicitly lets the non-Cleric Xatapechtli use it, so this adaptation has no class gate."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
+    "gaz13-online-adaptation-reference:5b6454c14c1cbf25": [
+      {
+        "label": "2024 enhancement comparison · Crossbow Bolts +3",
+        "status": "published-reference",
+        "source": "https://heroes.mystara.net/selenica/others/shadow/gaz13_dm.html",
+        "fields": {
+          "Source locator": "GAZ13, 1995 TSR online adaptation, Firnafel, NPC Notes.",
+          "Legacy rules": "https://iimu.kapsi.fi/limunropellukset/wp-content/uploads/2013/02/TSR-1071-The-DD-Rules-Cyclopedia.pdf",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Category": "Very Rare magic ammunition (crossbow bolt)",
+          "Damage": "Use the crossbow’s damage and add 3 to the damage roll.",
+          "Attack bonus": "Add 3 to the attack roll.",
+          "Range": "Use the crossbow’s normal and long range.",
+          "Activation": "Expend one bolt when making a ranged weapon attack. Each bolt becomes nonmagical after it hits.",
+          "Source quantity": "Firnafel carries six bolts in a bandolier.",
+          "Attunement": "None.",
+          "Conversion notes": "Uses 2024 +3 ammunition rules for the six legacy bolts.",
+          "2024 ammunition rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Ammunition123"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_light-crossbow",
+          "label": "Open 2024 comparison"
+        }
+      }
+    ],
     "gaz13-online-adaptation-reference:28134d4d8c9af5f8": [
       {
         "label": "D&D 2024 adaptation · Strongmind",
