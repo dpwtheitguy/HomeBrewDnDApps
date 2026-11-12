@@ -993,6 +993,20 @@ def main():
                     }
                     return true;
                 })()''',
+                'Apocalypse weapons show sentience and special throwing rules': '''(async () => {
+                    const cases = [
+                        ["5589", ["1d12 Slashing", "DC 17 Constitution", "Initiative roll", "Torhild Flametongue"]],
+                        ["5582", ["120 feet", "1 inch wide", "DC 16 Dexterity", "3d4 Lightning"]],
+                        ["5585", ["Thrown 60/120 feet", "3d4 Thunder", "DC 10 Constitution", "elemental air node"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dndbeyond:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term)) ||
+                            inspection.textContent.includes("2024 provisional profile")) return false;
+                    }
+                    return true;
+                })()''',
                 'Elemental weapons show their distinct damage, spells, and rituals': '''(async () => {
                     const cases = [
                         ["5590", ["1d8 Cold", "Thrown 20/60 feet", "barnacles", "Tears of Endless Anguish"]],

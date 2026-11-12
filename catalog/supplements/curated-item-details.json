@@ -1,6 +1,79 @@
 {
   "schema_version": 1,
   "records": {
+    "dndbeyond:5589": [
+      {
+        "label": "D&D 2024 adaptation · Orcsplitter",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/5th%20Edition%20%285e%29/D%26D%205e%20-%20Princes%20of%20the%20Apocalypse.pdf",
+        "fields": {
+          "Category": "Martial melee weapon (Greataxe) · Legendary",
+          "Attunement": "Requires a Good-aligned Dwarf, Fighter, or Paladin.",
+          "Damage": "1d12 Slashing + Strength modifier + 2.",
+          "Attack bonus": "+2 plus Strength modifier and Proficiency Bonus if proficient.",
+          "Range": "5 feet melee. Orc awareness 120 feet. Fear protection 30 feet.",
+          "Properties": "Heavy, Two-Handed.",
+          "Mastery": "Cleave.",
+          "Activation": "Make a melee weapon attack. On a natural 20 against an Orc, it makes a DC 17 Constitution save or drops to 0 Hit Points.",
+          "Orc awareness": "While holding the axe, sense whether any Orcs are within 120 feet and outside Total Cover. You do not learn their locations. If you are not Incapacitated, surprise caused by Orcs does not impose Disadvantage on your Initiative roll.",
+          "Fear protection": "While you hold the axe and are not Incapacitated, you and your friends within 30 feet cannot be Frightened.",
+          "Sentience": "Lawful Good; Intelligence 6, Wisdom 15, Charisma 10. Hearing and Darkvision to 120 feet. Communicates emotions and occasionally shares Dwarvish verse telepathically.",
+          "History": "Once wielded by King Torhild Flametongue. It wants a courageous wielder and seeks to defend dwarves.",
+          "Conversion notes": "Uses the 2024 Greataxe and translates protection from surprise into the 2024 Initiative rule.",
+          "Adventure source": "Princes of the Apocalypse, chapter 7, Magic Items."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greataxe",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dndbeyond:5582": [
+      {
+        "label": "D&D 2024 adaptation · Seeker Dart",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/5th%20Edition%20%285e%29/D%26D%205e%20-%20Princes%20of%20the%20Apocalypse.pdf",
+        "fields": {
+          "Category": "Simple ranged weapon (Dart) · Uncommon · No attunement",
+          "Damage": "Seeking mode deals 1d4 Piercing plus 3d4 Lightning on a failed save. Normal dart damage is 1d4 Piercing plus Strength or Dexterity modifier.",
+          "Attack bonus": "Seeking mode uses a saving throw. Normal throws use Strength or Dexterity and Proficiency Bonus if proficient.",
+          "Range": "Seeking mode reaches 120 feet. Ordinary throws use 20/60 feet.",
+          "Properties": "Finesse, Thrown.",
+          "Mastery": "Vex applies only to ordinary dart attacks, if eligible.",
+          "Activation": "Take a Magic action, whisper the command word, and hurl the dart at one target you have seen before.",
+          "Seeking path": "You need not see the target now. The dart can turn corners and pass through openings at least 1 inch wide. With no clear path or a target out of range, the dart falls and its magic is spent.",
+          "Saving throw": "The target makes a DC 16 Dexterity save. It takes the listed damage only on a failure. After this use the dart becomes ordinary.",
+          "Conversion notes": "Uses a Magic action for the command-word attack and retains the source’s saving throw and one-use effect.",
+          "Adventure source": "Princes of the Apocalypse, chapter 7, Magic Items."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dart",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dndbeyond:5585": [
+      {
+        "label": "D&D 2024 adaptation · Storm Boomerang",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/5th%20Edition%20%285e%29/D%26D%205e%20-%20Princes%20of%20the%20Apocalypse.pdf",
+        "fields": {
+          "Category": "Ranged weapon · Uncommon · No attunement",
+          "Damage": "1d4 Bludgeoning + Dexterity modifier on a hit. While charged, add 3d4 Thunder.",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient. Javelin proficiency qualifies.",
+          "Range": "Thrown 60/120 feet.",
+          "Properties": "Thrown. Returns to your hand immediately on a miss.",
+          "Mastery": "None assigned to this unique weapon.",
+          "Activation": "Make a ranged attack. On a charged hit, the target makes a DC 10 Constitution save or is Stunned until the end of its next turn.",
+          "Recharge": "When the boomerang deals Thunder damage, it loses its Thunder and stun effects. Both return after at least 1 hour inside an elemental air node.",
+          "Conversion notes": "Uses the 2024 ranged attack ability modifier and keeps the adventure’s own range, proficiency, and recharge.",
+          "Adventure source": "Princes of the Apocalypse, chapter 7, Magic Items."
+        }
+      }
+    ],
     "dndbeyond:5590": [
       {
         "label": "D&D 2024 adaptation · Drown",
