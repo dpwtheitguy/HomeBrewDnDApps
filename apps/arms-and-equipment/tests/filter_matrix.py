@@ -1321,6 +1321,21 @@ def main():
                     return [...inspection.querySelectorAll("button")].some(button =>
                         button.textContent === "Open published 2024 weapon");
                 })()''',
+                'Legacy staves show current charge costs and link to modern staff cards': '''(async () => {
+                    inspect("dmg-35-reference:5f4b7de783af3b00", grid.firstElementChild);
+                    await itemDetails;
+                    const power = inspection.textContent;
+                    if (!["2d8 + 4", "DC 17 Dexterity", "30-foot Emanation", "Wall of Force"].every(value => power.includes(value))) return false;
+                    inspect("dmg-35-reference:1ab5c397356dca27", grid.firstElementChild);
+                    await itemDetails;
+                    const related = [...inspection.querySelectorAll("button")]
+                        .find(button => button.textContent === "Open published 2024 staff");
+                    if (!related || !inspection.textContent.includes("Pass without Trace cost 2")) return false;
+                    related.click();
+                    await itemDetails;
+                    return inspection.textContent.includes("Published 2024 staff rules")
+                        && inspection.textContent.includes("Wall of Thorns costs 6");
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
