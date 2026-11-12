@@ -1,14 +1,14 @@
 # Armor and shield playability audit
 
-3,033 armor and shield records scanned. Structural errors affect 0 records. Content review is queued for 2,576 records.
+3,033 armor and shield records scanned. Structural errors affect 0 records. Content review is queued for 2,563 records.
 
 Scope includes records indexed as armor or shield. Helmets, clothing, and other accessories indexed separately are outside this scan. Shield bonuses and worn armor AC occupy separate fields. Native game and legacy evidence remain distinct from 2024 tabletop rules.
 
 | Evidence | Records |
 |---|---:|
-| reference-only | 2,099 |
+| reference-only | 2,086 |
 | item-specific-game-armor-draft + curated detail | 158 |
-| verified-2024-armor-mapping + curated detail | 142 |
+| verified-2024-armor-mapping + curated detail | 155 |
 | native-bg3 | 141 |
 | native-armor-structured | 114 |
 | published-2024-structured | 110 |
@@ -36,10 +36,10 @@ Scope includes records indexed as armor or shield. Helmets, clothing, and other 
 | baldurs-gate-2-reference | 71 |
 | diablo-4-reference | 57 |
 | mystara-fan-names-reference | 49 |
-| dndbeyond-public-index | 38 |
 | adventurers-vault-2-reference | 32 |
 | open5e-a5e | 28 |
 | unearthed-arcana-1e-reference | 26 |
+| dndbeyond-public-index | 25 |
 | dmg-2e-reference | 21 |
 
 ## Structural errors

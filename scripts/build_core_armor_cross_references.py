@@ -74,7 +74,14 @@ def same_base(left, right):
 
 LEGACY_ARMOR_ENHANCEMENTS = {'dndbeyond:5377': 1, 'dndbeyond:5378': 2, 'dndbeyond:5379': 3}
 
+BOOK_OF_MANY_THINGS = 'https://www.dndbeyond.com/sources/dnd/tbomt'
 PUBLIC_ARMOR_RULES = {
+    **dict.fromkeys((
+        'dndbeyond:7526578', 'dndbeyond:7526586', 'dndbeyond:7526597', 'dndbeyond:7526611',
+        'dndbeyond:7526627', 'dndbeyond:7526630', 'dndbeyond:7526632', 'dndbeyond:7526655',
+        'dndbeyond:7526675', 'dndbeyond:7526716', 'dndbeyond:7526744', 'dndbeyond:7526761',
+        'dndbeyond:7526781',
+    ), BOOK_OF_MANY_THINGS),
     **dict.fromkeys(LEGACY_ARMOR_ENHANCEMENTS, MAGIC + '#Armor12or3'),
     'dndbeyond:5370': MAGIC + '#AdamantineArmor',
     'dndbeyond:5371': MAGIC + '#ArmorofResistance',
@@ -105,6 +112,18 @@ PUBLIC_FIXED_BASES = {
     'Sapphire Buckler': 'Shield',
     'Obsidian Flint Dragon Plate': 'Plate Armor',
     'Shield of the Hidden Lord': 'Shield',
+    'Boomerang Shield': 'Shield',
+    "Euryale's Aegis": 'Shield',
+    'Shield of the Tortoise': 'Shield',
+    'Breastplate of Balance': 'Breastplate',
+    "Plate of Knight's Fellowship": 'Plate Armor',
+    'Voidwalker Armor': 'Studded Leather Armor',
+}
+
+PUBLIC_TRAINING_LIMITS = {
+    'Armor of Fungal Spores': {'Medium armor'},
+    'Armor of the Fallen': {'Medium armor', 'Heavy armor'},
+    'Clockwork Armor': {'Heavy armor'},
 }
 
 PUBLIC_ARMOR = {
@@ -209,6 +228,92 @@ PUBLIC_ARMOR = {
             'Publication': 'Baldur’s Gate: Descent into Avernus, Appendix C, p. 225. Uses 2024 Shield defenses, spell descriptions, and Magic action terminology.',
         },
     ),
+    'dndbeyond:7526578': (
+        'Antimagic Armor', '7526578-antimagic-armor', 0, True, 'Very Rare', {
+            'Special powers': 'While wearing the armor, take a Reaction when you make a saving throw against a spell to give yourself Advantage on it. Once used, this Reaction recharges at dawn.',
+            'Antimagic Field': 'While wearing the armor, take a Magic action to cast Antimagic Field without spell components. The field requires Concentration for up to 1 hour. This casting recharges separately at dawn.',
+            'Publication': 'The Book of Many Things, p. 65.',
+        },
+    ),
+    'dndbeyond:7526586': (
+        'Armor of Fungal Spores', '7526586-armor-of-fungal-spores', 0, False, 'Uncommon', {
+            'Special powers': 'While wearing the armor, take a Bonus Action to release spores in a 10-foot-radius Sphere centered on yourself. Each creature in the Sphere, including you, must make a DC 15 Constitution saving throw or be Poisoned until the end of your next turn. The power recharges at dawn.',
+            'Publication': 'The Book of Many Things, p. 65.',
+        },
+    ),
+    'dndbeyond:7526597': (
+        'Armor of the Fallen', '7526597-armor-of-the-fallen', 0, True, 'Uncommon', {
+            'Special powers': 'While wearing the armor, cast Speak with Dead or Animate Dead from it using the chosen spell’s normal casting time. The two spells share one use, which recharges at dawn. If you die while attuned to the armor, it is destroyed.',
+            'Publication': 'The Book of Many Things, p. 65.',
+        },
+    ),
+    'dndbeyond:7526611': (
+        'Armor of Weightlessness', '7526611-armor-of-weightlessness', 0, True, 'Uncommon', {
+            'Special powers': 'While wearing the armor, take a Bonus Action to cast Jump on yourself for 1 charge or Levitate on yourself for 2 charges. The armor holds 5 charges and regains 1d4 + 1 spent charges at dawn.',
+            'Publication': 'The Book of Many Things, p. 65.',
+        },
+    ),
+    'dndbeyond:7526627': (
+        'Boomerang Shield', '7526627-boomerang-shield', 0, True, 'Uncommon', {
+            'Special powers': 'You can throw the shield as a ranged weapon attack with a normal range of 20 feet and a long range of 60 feet. Choose Strength or Dexterity for the attack roll and add your Proficiency Bonus if you have Shield training. On a hit, the shield deals 1d6 Slashing damage. It returns to your hand immediately after a hit or miss.',
+            'Publication': 'The Book of Many Things, p. 66.',
+        },
+    ),
+    'dndbeyond:7526630': (
+        'Breastplate of Balance', '7526630-breastplate-of-balance', 0, True, 'Rare', {
+            'Special powers': 'The breastplate has 4 charges and regains 1d4 spent charges at dawn.',
+            'Equalize': 'When you or a creature you can see within 60 feet of you is about to make a d20 roll with Advantage or Disadvantage, take a Reaction and spend 1 charge to have the roll proceed without either.',
+            'Expunge Imbalance': 'Take a Bonus Action and spend 2 charges to cast Lesser Restoration.',
+            'Publication': 'The Book of Many Things, p. 34.',
+        },
+    ),
+    'dndbeyond:7526632': (
+        'Clockwork Armor', '7526632-clockwork-armor', 0, True, 'Very Rare', {
+            'Special powers': 'While wearing the armor, when you make a d20 roll, spend 1 charge to replace the number rolled with a 10. The armor holds 4 charges and regains 1d4 spent charges at dawn.',
+            'Publication': 'The Book of Many Things, p. 67.',
+        },
+    ),
+    'dndbeyond:7526655': (
+        "Euryale's Aegis", '7526655-euryales-aegis', 0, True, 'Legendary', {
+            'Special powers': 'While wielding the shield, you have Resistance to Poison damage and Immunity to the Petrified condition.',
+            'Petrifying Heraldry': 'As a Bonus Action, choose one creature you can see within 30 feet. It must succeed on a DC 20 Constitution saving throw or become Restrained. At the start of its next turn it makes the save again. On a failure it is Petrified for 24 hours. On a success the Restrained condition ends. The power recharges at dawn.',
+            'Spellcasting': 'While wielding the shield, take a Magic action to cast Lesser Restoration, Locate Creature, or Transport via Plants. Each spell has its own use and recharges at dawn.',
+            'Publication': 'The Book of Many Things, p. 35.',
+        },
+    ),
+    'dndbeyond:7526675': (
+        'Feywrought Armor', '7526675-feywrought-armor', 0, True, 'Rare', {
+            'Special powers': 'While wearing the armor, you have Advantage on saving throws to avoid or end the Charmed condition on yourself. Take a Magic action to spend 1 charge and cast Compulsion (save DC 15). The armor has 3 charges and regains 1d3 spent charges at dawn.',
+            'Publication': 'The Book of Many Things, p. 67.',
+        },
+    ),
+    'dndbeyond:7526716': (
+        'Gloomwrought Armor', '7526716-gloomwrought-armor', 0, True, 'Rare', {
+            'Special powers': 'While wearing the armor, you have Advantage on saving throws to avoid or end the Frightened condition on yourself. Spend 1 charge to cast Calm Emotions using its normal casting time (save DC 15). The armor has 3 charges and regains 1d3 spent charges at dawn.',
+            'Publication': 'The Book of Many Things, p. 67.',
+        },
+    ),
+    'dndbeyond:7526744': (
+        "Plate of Knight's Fellowship", '7526744-plate-of-knights-fellowship', 0, True, 'Uncommon', {
+            'Special powers': 'As a Bonus Action while wearing the armor, summon a spirit that uses the Knight stat block in an unoccupied space within 30 feet. It is an ally and takes its turn immediately after yours on the same Initiative count. It obeys your commands without an action from you. Without commands it Dodges and moves away from danger.',
+            'Duration and recharge': 'The spirit disappears after 1 minute or at 0 HP. The armor regains this use at dawn.',
+            'Publication': 'The Book of Many Things, p. 37.',
+        },
+    ),
+    'dndbeyond:7526761': (
+        'Shield of the Tortoise', '7526761-shield-of-the-tortoise', 1, True, 'Uncommon', {
+            'Special powers': 'While wielding the shield, gain +1 AC in addition to its ordinary +2 shield bonus.',
+            'Curse': 'Attuning curses you until Remove Curse or similar magic frees you. While cursed, you cannot discard the shield or end attunement. Your Speed is halved. Treat your Initiative d20 as a 1, and no effect can change your Initiative.',
+            'Publication': 'The Book of Many Things, p. 67.',
+        },
+    ),
+    'dndbeyond:7526781': (
+        'Voidwalker Armor', '7526781-voidwalker-armor', 0, True, 'Rare', {
+            'Special powers': 'As a Bonus Action while wearing the armor, project a translucent copy of yourself into an unoccupied space within 30 feet. It is immune to damage and conditions. Until the end of your turn, you can attack or cast non-Self-range spells as though you were in its space. The power recharges at dawn.',
+            'Curse': 'Attunement curses you and makes you unwilling to part with the suit. Doffing leaves the curse in effect. At the end of each Long Rest, make a DC 11 Charisma saving throw. On a failure your soul is trapped in an object on another plane chosen by the DM, and your body is inert without aging or needing sustenance. Destroy the object or use Wish to restore your soul.',
+            'Publication': 'The Book of Many Things, p. 39.',
+        },
+    ),
     'dndbeyond:9228451': (
         'Demon Armor', '9228451-demon-armor', 1, True, 'Very Rare', {
             'Special powers': 'While worn, you know Abyssal. The clawed gauntlets let your Unarmed Strikes deal 1d8 Slashing and grant +1 to their attack and damage rolls.',
@@ -264,6 +369,8 @@ def public_armor_variants(items):
                     formula += f' (max +{cap})'
             training = ('Medium armor' if cap is not None else 'Light armor'
                         if armor['ac_add_dexmod'] else 'Heavy armor')
+            if name in PUBLIC_TRAINING_LIMITS and training not in PUBLIC_TRAINING_LIMITS[name]:
+                continue
             fields = {
                 'Armor class bonus' if shield else 'Armor class': '+' + formula if shield else formula,
                 'Training': 'Shield' if shield else training,

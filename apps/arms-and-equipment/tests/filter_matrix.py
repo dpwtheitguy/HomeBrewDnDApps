@@ -725,6 +725,25 @@ def main():
                     }
                     return [...inspection.querySelectorAll("a")].some(link => link.href.endsWith("#WallofFire"));
                 })()''',
+                'Book of Many Things armor shows eligible bases and combat exceptions': '''(async () => {
+                    const cases = [
+                        ["dndbeyond:7526586", ["10-foot-radius", "DC 15 Constitution", "including you"]],
+                        ["dndbeyond:7526611", ["5 charges", "1d4 + 1", "Levitate"]],
+                        ["dndbeyond:7526627", ["Armor class bonus+2", "1d6 Slashing", "60 feet"]],
+                        ["dndbeyond:7526655", ["DC 20 Constitution", "24 hours", "recharges at dawn"]],
+                        ["dndbeyond:7526761", ["Armor class bonus+3", "Speed is halved", "Initiative d20"]],
+                        ["dndbeyond:7526781", ["DC 11 Charisma", "30 feet", "Wish"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        const details = inspection.textContent;
+                        const missing = terms.filter(term => !details.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                        if (id === "dndbeyond:7526586" && details.includes("armor rules · Plate Armor")) return false;
+                    }
+                    return true;
+                })()''',
                 'Public magic weapon cards distinguish bases and attunement': '''(async () => {
                     inspect("dndbeyond:9228714", grid.firstElementChild);
                     await itemDetails;
