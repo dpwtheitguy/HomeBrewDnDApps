@@ -1773,6 +1773,30 @@ def main():
                     }
                     return true;
                 })()''',
+                'Kahn branding is visible in the app': '''(() => {
+                    const title = "Kahn’s Complete Guide to Arms and Equipment";
+                    const header = document.querySelector(".masthead");
+                    return document.title === title && header.querySelector("h1").textContent === title
+                        && header.scrollWidth <= header.clientWidth;
+                })()''',
+                'Legacy double weapons and named variants show their actual rules': '''(async () => {
+                    const cases = [
+                        ["fbc00d78ce1aa528", ["1d8 Bludgeoning with either head", "Bonus Action"]],
+                        ["9b9fdf7a35a0cf87", ["1d8 Bludgeoning with the hammer", "1d6 Piercing with the hook"]],
+                        ["beb59f6d82784010", ["1d8 Slashing with either head", "Cleave"]],
+                        ["d4785ad25488639c", ["1d8 Slashing with either blade", "Vex"]],
+                        ["07a52fd4e907fe4d", ["five bolts", "Utilize action", "80/320 feet"]],
+                        ["1c1577ad5247e343", ["treat the hit as a Critical Hit", "objects only"]],
+                        ["e1c7abdf4ab3ae28", ["680-foot radius", "aquatic predators", "+2 trident"]],
+                        ["cece92789ac9d6b0", ["natural 20", "Legendary Resistance", "30 Slashing"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dmg-35-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Legacy masterwork weapons and composite bows display reviewed profiles': '''(async () => {
                     const cases = [
                         ["518abfeb772f1ba6", ["1d10 Piercing", "100/400 feet", "Masterwork quality affects appraisal"]],

@@ -1,6 +1,6 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.completeguide.armory" android:versionCode="160" android:versionName="0.4.154">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.completeguide.armory" android:versionCode="161" android:versionName="0.4.155">
     <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="34"/>
-    <application android:label="Arms and Equipment Guide" android:theme="@style/ArmoryTheme" android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher" android:allowBackup="false" android:usesCleartextTraffic="false">
+    <application android:label="Kahn’s Complete Guide to Arms and Equipment" android:theme="@style/ArmoryTheme" android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher" android:allowBackup="false" android:usesCleartextTraffic="false">
         <provider android:name=".EntryPdfProvider" android:authorities="org.completeguide.armory.entry-pdf"
             android:exported="false" android:grantUriPermissions="true"/>
         <activity android:name=".MainActivity" android:exported="true" android:configChanges="orientation|screenSize|keyboardHidden">

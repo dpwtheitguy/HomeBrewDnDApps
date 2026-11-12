@@ -1,6 +1,242 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-35-reference:fbc00d78ce1aa528": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork dire flail",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Bludgeoning with either head. Add Strength modifier on regular attacks.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Two-Handed",
+          "Mastery": "Sap",
+          "Weight": "10 lb",
+          "Attunement": "None",
+          "Activation": "Choose an end each time you make a melee attack with the weapon.",
+          "Special powers": "When you attack with one end as part of the Attack action on your turn, you can make one attack with the other end as a Bonus Action. For that extra attack, use the other end’s damage type and a d4 in place of its damage die. Add your Strength modifier to its damage only if negative.",
+          "Conversion notes": "Retains both ends, their regular damage dice and the legacy weight. A d4 Bonus Action attack replaces the legacy two-weapon penalties. Masterwork quality affects appraisal.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–12.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        }
+      }
+    ],
+    "dmg-35-reference:9b9fdf7a35a0cf87": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork gnome hooked hammer",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Bludgeoning with the hammer, or 1d6 Piercing with the hook. Add Strength modifier on regular attacks.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Two-Handed",
+          "Mastery": "Topple",
+          "Weight": "6 lb",
+          "Attunement": "None",
+          "Activation": "Choose an end each time you make a melee attack with the weapon.",
+          "Special powers": "When you attack with one end as part of the Attack action on your turn, you can make one attack with the other end as a Bonus Action. For that extra attack, use the other end’s damage type and a d4 in place of its damage die. Add your Strength modifier to its damage only if negative.",
+          "Conversion notes": "Retains both ends, their regular damage dice and the legacy weight. A d4 Bonus Action attack replaces the legacy two-weapon penalties. Masterwork quality affects appraisal.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–12.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        }
+      }
+    ],
+    "dmg-35-reference:beb59f6d82784010": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork orc double axe",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing with either head. Add Strength modifier on regular attacks.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Two-Handed",
+          "Mastery": "Cleave",
+          "Weight": "15 lb",
+          "Attunement": "None",
+          "Activation": "Choose an end each time you make a melee attack with the weapon.",
+          "Special powers": "When you attack with one end as part of the Attack action on your turn, you can make one attack with the other end as a Bonus Action. For that extra attack, use the other end’s damage type and a d4 in place of its damage die. Add your Strength modifier to its damage only if negative.",
+          "Conversion notes": "Retains both ends, their regular damage dice and the legacy weight. A d4 Bonus Action attack replaces the legacy two-weapon penalties. Masterwork quality affects appraisal.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–12.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        }
+      }
+    ],
+    "dmg-35-reference:d4785ad25488639c": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork two-bladed sword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing with either blade. Add Strength modifier on regular attacks.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Two-Handed",
+          "Mastery": "Vex",
+          "Weight": "10 lb",
+          "Attunement": "None",
+          "Activation": "Choose an end each time you make a melee attack with the weapon.",
+          "Special powers": "When you attack with one end as part of the Attack action on your turn, you can make one attack with the other end as a Bonus Action. For that extra attack, use the other end’s damage type and a d4 in place of its damage die. Add your Strength modifier to its damage only if negative.",
+          "Conversion notes": "Retains both ends, their regular damage dice and the legacy weight. A d4 Bonus Action attack replaces the legacy two-weapon penalties. Masterwork quality affects appraisal.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–12.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        }
+      }
+    ],
+    "dmg-35-reference:07a52fd4e907fe4d": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork repeating crossbow",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d8 Piercing + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "80/320 feet",
+          "Properties": "Ammunition (crossbow bolts), Two-Handed, Reload (5)",
+          "Mastery": "Slow",
+          "Weight": "6 lb",
+          "Attunement": "None",
+          "Activation": "Make a ranged attack and expend one loaded bolt. Replace an empty or partially used case with a fresh case of up to five bolts using a Utilize action.",
+          "Special powers": "The case holds five bolts. While it contains ammunition you may use Extra Attack normally.",
+          "Conversion notes": "The DMG’s 550 gp masterwork table entry matches the 250 gp light repeating crossbow plus the 300 gp masterwork premium. Retains that version’s die, weight and five-shot capacity. Uses the 2024 Light Crossbow’s range and Slow mastery.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–12.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        }
+      }
+    ],
+    "dmg-35-reference:bb2129967337cb48": [
+      {
+        "label": "D&D 2024 adaptation · Adamantine battleaxe",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing, or 1d10 with two hands + Strength modifier",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack using the listed reach or range.",
+          "Special powers": "When this weapon hits an object, treat the hit as a Critical Hit. This rule applies to objects only.",
+          "Conversion notes": "Keeps the source’s nonmagical adamantine construction. Replaces the legacy object-hardness rule with the object-critical-hit treatment used by fifth-edition adamantine. Removes the legacy masterwork attack bonus.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 227 (PDF p. 228), Table 7–16.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_battleaxe",
+          "label": "Published 2024 Battleaxe comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:1c1577ad5247e343": [
+      {
+        "label": "D&D 2024 adaptation · Adamantine dagger",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack using the listed reach or range.",
+          "Special powers": "When this weapon hits an object, treat the hit as a Critical Hit. This rule applies to objects only.",
+          "Conversion notes": "Keeps the source’s nonmagical adamantine construction. Replaces the legacy object-hardness rule with the object-critical-hit treatment used by fifth-edition adamantine. Removes the legacy masterwork attack bonus.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 227 (PDF p. 228), Table 7–16.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Published 2024 Dagger comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:e1c7abdf4ab3ae28": [
+      {
+        "label": "D&D 2024 adaptation · Trident of warning",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing + Strength modifier + 2, or 1d10 with two hands",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Thrown, Versatile (1d10)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Activation": "As a Magic action while holding the trident, point it to scan a hemisphere with a 680-foot radius.",
+          "Special powers": "You learn the position, depth, kind, and count of aquatic predators in that hemisphere at the time of the scan. This requires no saving throw or Concentration. The trident otherwise functions as a +2 trident.",
+          "Conversion notes": "Retains the original +2 and aquatic detection range. A Magic action replaces the legacy round-long scan.",
+          "Legacy effect locator": "D&D 3.5 Dungeon Master’s Guide, p. 229 (PDF p. 230), Trident of Warning.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 227 (PDF p. 228), Table 7–16.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_trident",
+          "label": "Published 2024 Trident comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:cece92789ac9d6b0": [
+      {
+        "label": "D&D 2024 adaptation · Vorpal longsword +2",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing + Strength modifier + 2, or 1d10 with two hands",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 2.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Activation": "Make a melee weapon attack. On a natural 20 against a creature, apply the vorpal effect.",
+          "Special powers": "The sword ignores Resistance to Slashing damage. The vorpal effect severs one head, killing the creature if it cannot survive without it. Instead add 30 Slashing damage if it has no head, can survive without its head, has Immunity to Slashing, is too large to decapitate at the DM’s discretion, or spends a use of Legendary Resistance to avoid severing.",
+          "Conversion notes": "Keeps the legacy example’s actual +2 and uses the 2024 Vorpal Sword’s trigger and fallback.",
+          "2024 Vorpal Sword": "https://www.dndbeyond.com/magic-items/9229181-vorpal-sword",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 288 (PDF p. 289), Magic Item Creation.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "3.5 equipment": "https://www.d20srd.org/srd/equipment/weapons.htm"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Published 2024 Longsword comparison"
+        }
+      }
+    ],
     "dmg-35-reference:2af819e7ed08c0a7": [
       {
         "label": "D&D 2024 adaptation · Bastard sword +3",

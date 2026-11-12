@@ -1,4 +1,4 @@
-# Arms and Equipment Guide
+# Kahn’s Complete Guide to Arms and Equipment
 
 First Android app in the Complete Guide collection. Browse and inspect the shared catalog offline. The guide uses original armory art and field-guide typography, with BG3-inspired equipment cards, category tabs, and a pinned inspection panel on wide screens.
 

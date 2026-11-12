@@ -2,7 +2,7 @@
 
 ## Android test download
 
-[Download the latest Arms and Equipment Guide test APK](https://raw.githubusercontent.com/dpwtheitguy/HomeBrewDnDApps/android-test-builds/arms-and-equipment-guide-latest-debug.apk) · [SHA-256 checksum](https://raw.githubusercontent.com/dpwtheitguy/HomeBrewDnDApps/android-test-builds/arms-and-equipment-guide-latest-debug.apk.sha256)
+[Download the latest Kahn’s Complete Guide to Arms and Equipment test APK](https://raw.githubusercontent.com/dpwtheitguy/HomeBrewDnDApps/android-test-builds/arms-and-equipment-guide-latest-debug.apk) · [SHA-256 checksum](https://raw.githubusercontent.com/dpwtheitguy/HomeBrewDnDApps/android-test-builds/arms-and-equipment-guide-latest-debug.apk.sha256)
 
 Open the downloaded APK on your Android device. If prompted, allow installs from the app that opened the file. This debug build bundles the offline catalog. It passed emulator testing. Physical-tablet testing is pending.
 
@@ -10,7 +10,7 @@ Open the downloaded APK on your Android device. If prompted, allow installs from
 
 ## Project overview
 
-A family of planned offline Android apps for the Galaxy Tab A 8.0 (SM-T290). **Arms and Equipment Guide** is the first app. **Complete Guide to Fighters**, **Complete Guide to Wizard**, and **Complete Guide to Ninja** are planned character apps. Additional titles can use the same catalog.
+A family of planned offline Android apps for the Galaxy Tab A 8.0 (SM-T290). **Kahn’s Complete Guide to Arms and Equipment** is the first app. **Complete Guide to Fighters**, **Complete Guide to Wizard**, and **Complete Guide to Ninja** are planned character apps. Additional titles can use the same catalog.
 
 The [shared item catalog release](docs/SHARED-CATALOG.md) has its own version and can be included by any title. Each character app owns its progression rules, saves, and release schedule.
 

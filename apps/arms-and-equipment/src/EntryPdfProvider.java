@@ -35,6 +35,7 @@ public final class EntryPdfProvider extends ContentProvider {
         StaticLayout layout = StaticLayout.Builder.obtain(text, 0, text.length(), paint, 508)
                 .setLineSpacing(3, 1).build();
 
+        String title = context.getApplicationInfo().loadLabel(context.getPackageManager()).toString();
         PdfDocument document = new PdfDocument();
         try (FileOutputStream output = new FileOutputStream(file)) {
             int pageNumber = 1;
@@ -43,7 +44,7 @@ public final class EntryPdfProvider extends ContentProvider {
                 int end = line + 1;
                 while (end < layout.getLineCount() && layout.getLineTop(end + 1) - start <= 666) end++;
                 PdfDocument.Page page = document.startPage(new PdfDocument.PageInfo.Builder(612, 792, pageNumber++).create());
-                page.getCanvas().drawText("ARMS AND EQUIPMENT GUIDE", 52, 42, paint);
+                page.getCanvas().drawText(title, 52, 42, paint);
                 page.getCanvas().save();
                 page.getCanvas().clipRect(52, 66, 560, 66 + layout.getLineTop(end) - start);
                 page.getCanvas().translate(52, 66 - start);
