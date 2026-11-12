@@ -1740,6 +1740,31 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault armor displays movement, saving throws, and errata': '''(async () => {
+                    const cases = [
+                        ["32ee1c7a74c2337d", ["blur your position for 1 minute", "attack rolls against you have Disadvantage"]],
+                        ["c242f4e4906e49cb", ["Wisdom saving throw", "cannot take Bonus Actions or Reactions"]],
+                        ["1a2cc4b6ed4c999a", ["Dim Light within 25 feet", "more than 25 feet"]],
+                        ["a9f9f17c4ba5b005", ["Resistance to Psychic", "within 10 feet", "rounding each half up"]],
+                        ["1d90857c8c82a5ee", ["Strength requirementNone", "Stealth disadvantageNo", "halve the damage"]],
+                        ["fe209ba4afcc6b0c", ["because you took the Hide action", "attack-roll benefits"]],
+                        ["56e62f7f531fbd6b", ["5 Temporary Hit Points", "Short or Long Rest"]],
+                        ["4e788d770a373169", ["Studded Leather Armor", "Splint Armor", "both bonuses fall to +1"]],
+                        ["9ba2329383fda9b4", ["flexible mode", "Heavy armor training"]],
+                        ["ddab9ccd7d1a1f34", ["Death Saving Throws", "replace the d20 result with 20"]],
+                        ["6dc08550778dd3fe", ["Fighter’s Action Surge", "errata", "removed the printed daily power"]],
+                        ["2b64f7c211aaf85d", ["DC 16 Constitution", "halve all damage dealt by that weapon", "10 Force damage"]],
+                        ["c258fd6342322787", ["within 10 feet", "DC 15 Strength", "nearest unoccupied space"]],
+                        ["4e0f78cb17f1a6cc", ["outdoors, Difficult Terrain costs you no extra movement"]],
+                        ["2b3a0bdfd94b8e2b", ["Undead hits you with a melee attack", "1 Radiant damage"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Adventurer’s Vault robes display distinct reactions and daily powers': '''(async () => {
                     const cases = [
                         ["7dc3af729b56fac4", ["subsequent attack rolls", "do not stack the penalty"]],

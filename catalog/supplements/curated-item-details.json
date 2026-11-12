@@ -1,6 +1,1422 @@
 {
   "schema_version": 1,
   "records": {
+    "adventurers-vault-1-reference:32ee1c7a74c2337d": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to blur your position for 1 minute. Melee and ranged attack rolls against you have Disadvantage for the duration. The effect ends if you remove the armor. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 44 (PDF p. 45), Displacer Armor.",
+          "Conversion notes": "Uses the 2024 Disadvantage mechanic and a one-minute encounter equivalent. Padded Armor represents the original cloth variant. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to blur your position for 1 minute. Melee and ranged attack rolls against you have Disadvantage for the duration. The effect ends if you remove the armor. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 44 (PDF p. 45), Displacer Armor.",
+          "Conversion notes": "Uses the 2024 Disadvantage mechanic and a one-minute encounter equivalent. Padded Armor represents the original cloth variant. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to blur your position for 1 minute. Melee and ranged attack rolls against you have Disadvantage for the duration. The effect ends if you remove the armor. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 44 (PDF p. 45), Displacer Armor.",
+          "Conversion notes": "Uses the 2024 Disadvantage mechanic and a one-minute encounter equivalent. Padded Armor represents the original cloth variant. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 Hide Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:c242f4e4906e49cb": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a creature you can see targets you with a melee or ranged attack roll, you can take a Reaction before the roll. The attacker makes a Wisdom saving throw against DC 8 plus your Proficiency Bonus plus your Charisma modifier. On a failure it cannot take Bonus Actions or Reactions, and on its turn it can either move or take one action, but cannot do both. Resolve the triggering attack as normal. The attacker repeats the save at the end of each of its turns, ending the effect on a success. The effect lasts up to 1 minute. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 45 (PDF p. 46), Feymind Armor.",
+          "Conversion notes": "Converts the original Charisma attack against Will into a Wisdom save and defines the lowest-tier Dazed action restrictions. Padded Armor represents cloth. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a creature you can see targets you with a melee or ranged attack roll, you can take a Reaction before the roll. The attacker makes a Wisdom saving throw against DC 8 plus your Proficiency Bonus plus your Charisma modifier. On a failure it cannot take Bonus Actions or Reactions, and on its turn it can either move or take one action, but cannot do both. Resolve the triggering attack as normal. The attacker repeats the save at the end of each of its turns, ending the effect on a success. The effect lasts up to 1 minute. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 45 (PDF p. 46), Feymind Armor.",
+          "Conversion notes": "Converts the original Charisma attack against Will into a Wisdom save and defines the lowest-tier Dazed action restrictions. Padded Armor represents cloth. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:1a2cc4b6ed4c999a": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, you see in Dim Light within 25 feet of you as if it were Bright Light. As a Bonus Action, blur your outline until the end of your next turn. While blurred, attack rolls against you have Disadvantage if the attacker is more than 25 feet from you. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 45 (PDF p. 46), Flickersight Armor.",
+          "Conversion notes": "Converts five squares to 25 feet and maps the original distance-based concealment to Disadvantage. Padded Armor represents cloth. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, you see in Dim Light within 25 feet of you as if it were Bright Light. As a Bonus Action, blur your outline until the end of your next turn. While blurred, attack rolls against you have Disadvantage if the attacker is more than 25 feet from you. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 45 (PDF p. 46), Flickersight Armor.",
+          "Conversion notes": "Converts five squares to 25 feet and maps the original distance-based concealment to Disadvantage. Padded Armor represents cloth. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, you see in Dim Light within 25 feet of you as if it were Bright Light. As a Bonus Action, blur your outline until the end of your next turn. While blurred, attack rolls against you have Disadvantage if the attacker is more than 25 feet from you. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 45 (PDF p. 46), Flickersight Armor.",
+          "Conversion notes": "Converts five squares to 25 feet and maps the original distance-based concealment to Disadvantage. Padded Armor represents cloth. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 Hide Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:a9f9f17c4ba5b005": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to Psychic damage. When an attack hits you and would deal damage, you can take a Reaction and choose a willing ally you can see within 10 feet. Calculate the damage you would take after your defenses. You and that ally each take half that amount, rounding each half up. The ally’s share cannot be reduced or prevented by its defenses. Apply any nondamage effects of the hit to you as normal. The Reaction recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 46 (PDF p. 47), Illithid Robes.",
+          "Conversion notes": "Uses the original lowest-tier 10-foot range, rounded-up split and protection against mitigation of the transferred damage. This conversion requires a willing ally. Padded Armor represents cloth. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:1d90857c8c82a5ee": [
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "This armor imposes no Strength requirement or Disadvantage on Dexterity (Stealth) checks. While wearing it, when a melee or ranged attack hits you, you can take a Reaction to halve the damage you would otherwise take from that hit, rounding down after other modifiers. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 48 (PDF p. 49), Mithral Armor.",
+          "Conversion notes": "Retains the original daily damage-halving Reaction and adds the published 2024 mithral material benefits. This is the Adventurer’s Vault conversion. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 benchmark": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#MithralArmor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 Chain Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor",
+        "mithral": true
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "This armor imposes no Strength requirement or Disadvantage on Dexterity (Stealth) checks. While wearing it, when a melee or ranged attack hits you, you can take a Reaction to halve the damage you would otherwise take from that hit, rounding down after other modifiers. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 48 (PDF p. 49), Mithral Armor.",
+          "Conversion notes": "Retains the original daily damage-halving Reaction and adds the published 2024 mithral material benefits. This is the Adventurer’s Vault conversion. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 benchmark": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#MithralArmor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor",
+        "mithral": true
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "This armor imposes no Strength requirement or Disadvantage on Dexterity (Stealth) checks. While wearing it, when a melee or ranged attack hits you, you can take a Reaction to halve the damage you would otherwise take from that hit, rounding down after other modifiers. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 48 (PDF p. 49), Mithral Armor.",
+          "Conversion notes": "Retains the original daily damage-halving Reaction and adds the published 2024 mithral material benefits. This is the Adventurer’s Vault conversion. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 benchmark": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#MithralArmor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor",
+        "mithral": true
+      }
+    ],
+    "adventurers-vault-1-reference:fe209ba4afcc6b0c": [
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, if you have the Invisible condition with respect to a creature at the start of your turn because you took the Hide action, you can retain the attack-roll benefits of that condition against that creature until the start of your next turn, even if you are revealed before then. This effect does not hide your location or prevent the creature from seeing or targeting you after you are revealed.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Stalker’s Armor.",
+          "Conversion notes": "Maps the original persistent concealment to the attack-roll benefits of hiding, with a defined 2024 trigger and duration. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, if you have the Invisible condition with respect to a creature at the start of your turn because you took the Hide action, you can retain the attack-roll benefits of that condition against that creature until the start of your next turn, even if you are revealed before then. This effect does not hide your location or prevent the creature from seeing or targeting you after you are revealed.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Stalker’s Armor.",
+          "Conversion notes": "Maps the original persistent concealment to the attack-roll benefits of hiding, with a defined 2024 trigger and duration. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 Hide Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:56e62f7f531fbd6b": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to gain 5 Temporary Hit Points for 1 minute. Recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Stoneskin Robes.",
+          "Conversion notes": "Retains the lowest-tier protection and replaces encounter duration and recharge with one minute and rest recharge. Padded Armor represents cloth. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:4e788d770a373169": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to gain +2 AC and a +2 bonus to saving throws. At the start of your next turn both bonuses fall to +1. At the start of your following turn both end. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Surge Armor.",
+          "Conversion notes": "Maps the original all-defense bonus to AC and saving throws and preserves the stepwise decrease. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to gain +2 AC and a +2 bonus to saving throws. At the start of your next turn both bonuses fall to +1. At the start of your following turn both end. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Surge Armor.",
+          "Conversion notes": "Maps the original all-defense bonus to AC and saving throws and preserves the stepwise decrease. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Studded Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "13 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to gain +2 AC and a +2 bonus to saving throws. At the start of your next turn both bonuses fall to +1. At the start of your following turn both end. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Surge Armor.",
+          "Conversion notes": "Maps the original all-defense bonus to AC and saving throws and preserves the stepwise decrease. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_studded-leather-armor-plus-1",
+          "label": "Open 2024 Studded Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to gain +2 AC and a +2 bonus to saving throws. At the start of your next turn both bonuses fall to +1. At the start of your following turn both end. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Surge Armor.",
+          "Conversion notes": "Maps the original all-defense bonus to AC and saving throws and preserves the stepwise decrease. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 Hide Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Shirt",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to gain +2 AC and a +2 bonus to saving throws. At the start of your next turn both bonuses fall to +1. At the start of your following turn both end. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Surge Armor.",
+          "Conversion notes": "Maps the original all-defense bonus to AC and saving throws and preserves the stepwise decrease. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-1",
+          "label": "Open 2024 Chain Shirt (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to gain +2 AC and a +2 bonus to saving throws. At the start of your next turn both bonuses fall to +1. At the start of your following turn both end. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Surge Armor.",
+          "Conversion notes": "Maps the original all-defense bonus to AC and saving throws and preserves the stepwise decrease. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Breastplate",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to gain +2 AC and a +2 bonus to saving throws. At the start of your next turn both bonuses fall to +1. At the start of your following turn both end. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Surge Armor.",
+          "Conversion notes": "Maps the original all-defense bonus to AC and saving throws and preserves the stepwise decrease. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_breastplate-plus-1",
+          "label": "Open 2024 Breastplate (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Half Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to gain +2 AC and a +2 bonus to saving throws. At the start of your next turn both bonuses fall to +1. At the start of your following turn both end. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Surge Armor.",
+          "Conversion notes": "Maps the original all-defense bonus to AC and saving throws and preserves the stepwise decrease. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_half-plate-armor-plus-1",
+          "label": "Open 2024 Half Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Ring Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15",
+          "Training": "Heavy armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to gain +2 AC and a +2 bonus to saving throws. At the start of your next turn both bonuses fall to +1. At the start of your following turn both end. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Surge Armor.",
+          "Conversion notes": "Maps the original all-defense bonus to AC and saving throws and preserves the stepwise decrease. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_ring-mail-plus-1",
+          "label": "Open 2024 Ring Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to gain +2 AC and a +2 bonus to saving throws. At the start of your next turn both bonuses fall to +1. At the start of your following turn both end. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Surge Armor.",
+          "Conversion notes": "Maps the original all-defense bonus to AC and saving throws and preserves the stepwise decrease. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 Chain Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Splint Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to gain +2 AC and a +2 bonus to saving throws. At the start of your next turn both bonuses fall to +1. At the start of your following turn both end. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Surge Armor.",
+          "Conversion notes": "Maps the original all-defense bonus to AC and saving throws and preserves the stepwise decrease. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor-plus-1",
+          "label": "Open 2024 Splint Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to gain +2 AC and a +2 bonus to saving throws. At the start of your next turn both bonuses fall to +1. At the start of your following turn both end. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Surge Armor.",
+          "Conversion notes": "Maps the original all-defense bonus to AC and saving throws and preserves the stepwise decrease. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:9ba2329383fda9b4": [
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to enter or leave its flexible mode. In that mode you take a −1 penalty to AC, and the armor imposes no Speed penalty for failing to meet its Strength requirement and no Disadvantage on Dexterity (Stealth) checks. The mode lasts until you change it or remove the armor. You still need Heavy armor training to use it normally.",
+          "Source locator": "Adventurer’s Vault (4e), p. 54 (PDF p. 55), Versatile Armor.",
+          "Conversion notes": "Preserves the original one-point AC tradeoff and maps the removable penalties to the 2024 Strength and Stealth rules. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 Chain Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to enter or leave its flexible mode. In that mode you take a −1 penalty to AC, and the armor imposes no Speed penalty for failing to meet its Strength requirement and no Disadvantage on Dexterity (Stealth) checks. The mode lasts until you change it or remove the armor. You still need Heavy armor training to use it normally.",
+          "Source locator": "Adventurer’s Vault (4e), p. 54 (PDF p. 55), Versatile Armor.",
+          "Conversion notes": "Preserves the original one-point AC tradeoff and maps the removable penalties to the 2024 Strength and Stealth rules. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:ddab9ccd7d1a1f34": [
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, add 2 to your Death Saving Throws. If you fail any saving throw, you can replace the d20 result with 20 without taking an action and resolve the save again with the original modifiers. If it was a Death Saving Throw, apply the normal rule for rolling a 20 on the die. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 54 (PDF p. 55), Verve Armor.",
+          "Conversion notes": "Preserves the +2 bonus and daily substitution. Under 2024 rules, 20 on the die is not an automatic success for an ordinary saving throw. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, add 2 to your Death Saving Throws. If you fail any saving throw, you can replace the d20 result with 20 without taking an action and resolve the save again with the original modifiers. If it was a Death Saving Throw, apply the normal rule for rolling a 20 on the die. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 54 (PDF p. 55), Verve Armor.",
+          "Conversion notes": "Preserves the +2 bonus and daily substitution. Under 2024 rules, 20 on the die is not an automatic success for an ordinary saving throw. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:6dc08550778dd3fe": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, when you use the Fighter’s Action Surge feature, gain +1 on attack rolls and saving throws and +1 AC until the end of your next turn. Multiple uses do not stack these bonuses.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Veteran’s Armor. Official 4e errata appended at PDF p. 226.",
+          "Conversion notes": "Uses Action Surge as the 2024 analogue of spending an action point. Follows the official 4e errata that removed the printed daily power that recovered another power. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, when you use the Fighter’s Action Surge feature, gain +1 on attack rolls and saving throws and +1 AC until the end of your next turn. Multiple uses do not stack these bonuses.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Veteran’s Armor. Official 4e errata appended at PDF p. 226.",
+          "Conversion notes": "Uses Action Surge as the 2024 analogue of spending an action point. Follows the official 4e errata that removed the printed daily power that recovered another power. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Studded Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "13 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, when you use the Fighter’s Action Surge feature, gain +1 on attack rolls and saving throws and +1 AC until the end of your next turn. Multiple uses do not stack these bonuses.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Veteran’s Armor. Official 4e errata appended at PDF p. 226.",
+          "Conversion notes": "Uses Action Surge as the 2024 analogue of spending an action point. Follows the official 4e errata that removed the printed daily power that recovered another power. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_studded-leather-armor-plus-1",
+          "label": "Open 2024 Studded Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, when you use the Fighter’s Action Surge feature, gain +1 on attack rolls and saving throws and +1 AC until the end of your next turn. Multiple uses do not stack these bonuses.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Veteran’s Armor. Official 4e errata appended at PDF p. 226.",
+          "Conversion notes": "Uses Action Surge as the 2024 analogue of spending an action point. Follows the official 4e errata that removed the printed daily power that recovered another power. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 Hide Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Shirt",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, when you use the Fighter’s Action Surge feature, gain +1 on attack rolls and saving throws and +1 AC until the end of your next turn. Multiple uses do not stack these bonuses.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Veteran’s Armor. Official 4e errata appended at PDF p. 226.",
+          "Conversion notes": "Uses Action Surge as the 2024 analogue of spending an action point. Follows the official 4e errata that removed the printed daily power that recovered another power. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-1",
+          "label": "Open 2024 Chain Shirt (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, when you use the Fighter’s Action Surge feature, gain +1 on attack rolls and saving throws and +1 AC until the end of your next turn. Multiple uses do not stack these bonuses.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Veteran’s Armor. Official 4e errata appended at PDF p. 226.",
+          "Conversion notes": "Uses Action Surge as the 2024 analogue of spending an action point. Follows the official 4e errata that removed the printed daily power that recovered another power. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Breastplate",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, when you use the Fighter’s Action Surge feature, gain +1 on attack rolls and saving throws and +1 AC until the end of your next turn. Multiple uses do not stack these bonuses.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Veteran’s Armor. Official 4e errata appended at PDF p. 226.",
+          "Conversion notes": "Uses Action Surge as the 2024 analogue of spending an action point. Follows the official 4e errata that removed the printed daily power that recovered another power. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_breastplate-plus-1",
+          "label": "Open 2024 Breastplate (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Half Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, when you use the Fighter’s Action Surge feature, gain +1 on attack rolls and saving throws and +1 AC until the end of your next turn. Multiple uses do not stack these bonuses.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Veteran’s Armor. Official 4e errata appended at PDF p. 226.",
+          "Conversion notes": "Uses Action Surge as the 2024 analogue of spending an action point. Follows the official 4e errata that removed the printed daily power that recovered another power. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_half-plate-armor-plus-1",
+          "label": "Open 2024 Half Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Ring Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15",
+          "Training": "Heavy armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, when you use the Fighter’s Action Surge feature, gain +1 on attack rolls and saving throws and +1 AC until the end of your next turn. Multiple uses do not stack these bonuses.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Veteran’s Armor. Official 4e errata appended at PDF p. 226.",
+          "Conversion notes": "Uses Action Surge as the 2024 analogue of spending an action point. Follows the official 4e errata that removed the printed daily power that recovered another power. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_ring-mail-plus-1",
+          "label": "Open 2024 Ring Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, when you use the Fighter’s Action Surge feature, gain +1 on attack rolls and saving throws and +1 AC until the end of your next turn. Multiple uses do not stack these bonuses.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Veteran’s Armor. Official 4e errata appended at PDF p. 226.",
+          "Conversion notes": "Uses Action Surge as the 2024 analogue of spending an action point. Follows the official 4e errata that removed the printed daily power that recovered another power. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 Chain Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Splint Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, when you use the Fighter’s Action Surge feature, gain +1 on attack rolls and saving throws and +1 AC until the end of your next turn. Multiple uses do not stack these bonuses.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Veteran’s Armor. Official 4e errata appended at PDF p. 226.",
+          "Conversion notes": "Uses Action Surge as the 2024 analogue of spending an action point. Follows the official 4e errata that removed the printed daily power that recovered another power. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor-plus-1",
+          "label": "Open 2024 Splint Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, when you use the Fighter’s Action Surge feature, gain +1 on attack rolls and saving throws and +1 AC until the end of your next turn. Multiple uses do not stack these bonuses.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Veteran’s Armor. Official 4e errata appended at PDF p. 226.",
+          "Conversion notes": "Uses Action Surge as the 2024 analogue of spending an action point. Follows the official 4e errata that removed the printed daily power that recovered another power. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:2b64f7c211aaf85d": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a creature misses you with a melee attack made with a weapon, an Unarmed Strike, or a natural weapon, you can take a Reaction. The attacker makes a DC 16 Constitution saving throw. On a failure, if it used a held weapon, halve all damage dealt by that weapon for up to 1 minute. Otherwise the attacker takes 10 Force damage at the start of each of its turns for up to 1 minute. The attacker repeats the save at the end of each of its turns, ending the effect on a success. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Voidcrystal Armor.",
+          "Conversion notes": "Retains distinct held-weapon and natural or unarmed effects. Assigns Force to the ongoing damage and adds a save DC and one-minute cap. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a creature misses you with a melee attack made with a weapon, an Unarmed Strike, or a natural weapon, you can take a Reaction. The attacker makes a DC 16 Constitution saving throw. On a failure, if it used a held weapon, halve all damage dealt by that weapon for up to 1 minute. Otherwise the attacker takes 10 Force damage at the start of each of its turns for up to 1 minute. The attacker repeats the save at the end of each of its turns, ending the effect on a success. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Voidcrystal Armor.",
+          "Conversion notes": "Retains distinct held-weapon and natural or unarmed effects. Assigns Force to the ongoing damage and adds a save DC and one-minute cap. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Studded Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "13 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a creature misses you with a melee attack made with a weapon, an Unarmed Strike, or a natural weapon, you can take a Reaction. The attacker makes a DC 16 Constitution saving throw. On a failure, if it used a held weapon, halve all damage dealt by that weapon for up to 1 minute. Otherwise the attacker takes 10 Force damage at the start of each of its turns for up to 1 minute. The attacker repeats the save at the end of each of its turns, ending the effect on a success. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Voidcrystal Armor.",
+          "Conversion notes": "Retains distinct held-weapon and natural or unarmed effects. Assigns Force to the ongoing damage and adds a save DC and one-minute cap. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_studded-leather-armor-plus-1",
+          "label": "Open 2024 Studded Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a creature misses you with a melee attack made with a weapon, an Unarmed Strike, or a natural weapon, you can take a Reaction. The attacker makes a DC 16 Constitution saving throw. On a failure, if it used a held weapon, halve all damage dealt by that weapon for up to 1 minute. Otherwise the attacker takes 10 Force damage at the start of each of its turns for up to 1 minute. The attacker repeats the save at the end of each of its turns, ending the effect on a success. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Voidcrystal Armor.",
+          "Conversion notes": "Retains distinct held-weapon and natural or unarmed effects. Assigns Force to the ongoing damage and adds a save DC and one-minute cap. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 Hide Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Shirt",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a creature misses you with a melee attack made with a weapon, an Unarmed Strike, or a natural weapon, you can take a Reaction. The attacker makes a DC 16 Constitution saving throw. On a failure, if it used a held weapon, halve all damage dealt by that weapon for up to 1 minute. Otherwise the attacker takes 10 Force damage at the start of each of its turns for up to 1 minute. The attacker repeats the save at the end of each of its turns, ending the effect on a success. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Voidcrystal Armor.",
+          "Conversion notes": "Retains distinct held-weapon and natural or unarmed effects. Assigns Force to the ongoing damage and adds a save DC and one-minute cap. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-1",
+          "label": "Open 2024 Chain Shirt (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a creature misses you with a melee attack made with a weapon, an Unarmed Strike, or a natural weapon, you can take a Reaction. The attacker makes a DC 16 Constitution saving throw. On a failure, if it used a held weapon, halve all damage dealt by that weapon for up to 1 minute. Otherwise the attacker takes 10 Force damage at the start of each of its turns for up to 1 minute. The attacker repeats the save at the end of each of its turns, ending the effect on a success. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Voidcrystal Armor.",
+          "Conversion notes": "Retains distinct held-weapon and natural or unarmed effects. Assigns Force to the ongoing damage and adds a save DC and one-minute cap. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Breastplate",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a creature misses you with a melee attack made with a weapon, an Unarmed Strike, or a natural weapon, you can take a Reaction. The attacker makes a DC 16 Constitution saving throw. On a failure, if it used a held weapon, halve all damage dealt by that weapon for up to 1 minute. Otherwise the attacker takes 10 Force damage at the start of each of its turns for up to 1 minute. The attacker repeats the save at the end of each of its turns, ending the effect on a success. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Voidcrystal Armor.",
+          "Conversion notes": "Retains distinct held-weapon and natural or unarmed effects. Assigns Force to the ongoing damage and adds a save DC and one-minute cap. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_breastplate-plus-1",
+          "label": "Open 2024 Breastplate (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Half Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a creature misses you with a melee attack made with a weapon, an Unarmed Strike, or a natural weapon, you can take a Reaction. The attacker makes a DC 16 Constitution saving throw. On a failure, if it used a held weapon, halve all damage dealt by that weapon for up to 1 minute. Otherwise the attacker takes 10 Force damage at the start of each of its turns for up to 1 minute. The attacker repeats the save at the end of each of its turns, ending the effect on a success. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Voidcrystal Armor.",
+          "Conversion notes": "Retains distinct held-weapon and natural or unarmed effects. Assigns Force to the ongoing damage and adds a save DC and one-minute cap. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_half-plate-armor-plus-1",
+          "label": "Open 2024 Half Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Ring Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15",
+          "Training": "Heavy armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a creature misses you with a melee attack made with a weapon, an Unarmed Strike, or a natural weapon, you can take a Reaction. The attacker makes a DC 16 Constitution saving throw. On a failure, if it used a held weapon, halve all damage dealt by that weapon for up to 1 minute. Otherwise the attacker takes 10 Force damage at the start of each of its turns for up to 1 minute. The attacker repeats the save at the end of each of its turns, ending the effect on a success. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Voidcrystal Armor.",
+          "Conversion notes": "Retains distinct held-weapon and natural or unarmed effects. Assigns Force to the ongoing damage and adds a save DC and one-minute cap. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_ring-mail-plus-1",
+          "label": "Open 2024 Ring Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a creature misses you with a melee attack made with a weapon, an Unarmed Strike, or a natural weapon, you can take a Reaction. The attacker makes a DC 16 Constitution saving throw. On a failure, if it used a held weapon, halve all damage dealt by that weapon for up to 1 minute. Otherwise the attacker takes 10 Force damage at the start of each of its turns for up to 1 minute. The attacker repeats the save at the end of each of its turns, ending the effect on a success. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Voidcrystal Armor.",
+          "Conversion notes": "Retains distinct held-weapon and natural or unarmed effects. Assigns Force to the ongoing damage and adds a save DC and one-minute cap. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 Chain Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Splint Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a creature misses you with a melee attack made with a weapon, an Unarmed Strike, or a natural weapon, you can take a Reaction. The attacker makes a DC 16 Constitution saving throw. On a failure, if it used a held weapon, halve all damage dealt by that weapon for up to 1 minute. Otherwise the attacker takes 10 Force damage at the start of each of its turns for up to 1 minute. The attacker repeats the save at the end of each of its turns, ending the effect on a success. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Voidcrystal Armor.",
+          "Conversion notes": "Retains distinct held-weapon and natural or unarmed effects. Assigns Force to the ongoing damage and adds a save DC and one-minute cap. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor-plus-1",
+          "label": "Open 2024 Splint Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a creature misses you with a melee attack made with a weapon, an Unarmed Strike, or a natural weapon, you can take a Reaction. The attacker makes a DC 16 Constitution saving throw. On a failure, if it used a held weapon, halve all damage dealt by that weapon for up to 1 minute. Otherwise the attacker takes 10 Force damage at the start of each of its turns for up to 1 minute. The attacker repeats the save at the end of each of its turns, ending the effect on a success. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Voidcrystal Armor.",
+          "Conversion notes": "Retains distinct held-weapon and natural or unarmed effects. Assigns Force to the ongoing damage and adds a save DC and one-minute cap. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:c258fd6342322787": [
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to draw in hostile creatures within 10 feet of you that you can see. Each makes a DC 15 Strength saving throw. On a failure, pull it along a straight line toward you into the nearest unoccupied space within 5 feet of you that it can occupy. A creature already within 5 feet of you does not move. A creature that cannot reach an eligible space is unaffected. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Warsheath Armor.",
+          "Conversion notes": "Retains the original lowest-tier two-square reach as 10 feet, adds a Strength save, and specifies the forced-movement destination. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:4e0f78cb17f1a6cc": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor outdoors, Difficult Terrain costs you no extra movement. The armor does not remove damage or other effects of moving through a hazard.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Wildleaf Armor.",
+          "Conversion notes": "Preserves the original outdoor terrain benefit. Padded Armor represents cloth. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor outdoors, Difficult Terrain costs you no extra movement. The armor does not remove damage or other effects of moving through a hazard.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Wildleaf Armor.",
+          "Conversion notes": "Preserves the original outdoor terrain benefit. Padded Armor represents cloth. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor outdoors, Difficult Terrain costs you no extra movement. The armor does not remove damage or other effects of moving through a hazard.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Wildleaf Armor.",
+          "Conversion notes": "Preserves the original outdoor terrain benefit. Padded Armor represents cloth. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 Hide Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:2b3a0bdfd94b8e2b": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, whenever an Undead hits you with a melee attack, it takes 1 Radiant damage immediately after the hit resolves. This requires no action.",
+          "Source locator": "Adventurer’s Vault (4e), p. 55 (PDF p. 56), Zealot’s Armor.",
+          "Conversion notes": "Keeps the original Undead melee trigger and ties the damage to the converted +1 enhancement. Padded Armor represents cloth. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
     "adventurers-vault-1-reference:7dc3af729b56fac4": [
       {
         "label": "D&D 2024 adaptation · Padded Armor",
