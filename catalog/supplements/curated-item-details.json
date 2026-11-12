@@ -1,6 +1,405 @@
 {
   "schema_version": 1,
   "records": {
+    "adventurers-vault-1-reference:7dc3af729b56fac4": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, when a melee or ranged attack hits you, the attacker takes a −2 penalty to subsequent attack rolls against you until the start of your next turn. This requires no action, and multiple hits do not stack the penalty.",
+          "Source locator": "Adventurer’s Vault (4e), p. 48 (PDF p. 49), Prismatic Robe.",
+          "Conversion notes": "Retains the original retaliatory attack penalty and duration. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:0db8777263115fdf": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to activate it for 1 minute. While active, when a hostile creature you can see moves into a space within 5 feet of you, you can take a Reaction to push it 5 feet directly away from you. A creature more than one size category larger than you is unaffected. The activation recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 49 (PDF p. 50), Repulsion Armor.",
+          "Conversion notes": "Uses a one-minute duration in place of the encounter. Keeps the adjacent movement trigger and five-foot push and adopts the 2024 Shove size limit. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to activate it for 1 minute. While active, when a hostile creature you can see moves into a space within 5 feet of you, you can take a Reaction to push it 5 feet directly away from you. A creature more than one size category larger than you is unaffected. The activation recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 49 (PDF p. 50), Repulsion Armor.",
+          "Conversion notes": "Uses a one-minute duration in place of the encounter. Keeps the adjacent movement trigger and five-foot push and adopts the 2024 Shove size limit. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:de40a706ab2eb5c7": [
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, immediately after a hostile creature hits you with an attack roll made with Advantage, that creature takes 1 Radiant damage. This requires no action.",
+          "Source locator": "Adventurer’s Vault (4e), p. 49 (PDF p. 50), Righteous Armor.",
+          "Conversion notes": "Maps 4e combat advantage to Advantage on the triggering attack roll and uses the converted +1 armor bonus for damage. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:a671a6db3d11a029": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, immediately after you reduce a creature within 50 feet of you to 0 Hit Points, you can teleport to an unoccupied space it occupied when it dropped to 0 Hit Points. No action is required. This power recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 49 (PDF p. 50), Robe of Bloodwalking.",
+          "Conversion notes": "Preserves the original defeat trigger, range, and destination. Uses the printed teleport effect and rest recharge in place of encounter recharge. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:cb185b4ca04493c8": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, after an attack deals damage to you, if you are Bloodied and able to take a Reaction, you can take a Reaction to teleport up to 30 feet to an unoccupied space you can see. You can then spend one unspent Hit Point Die to regain Hit Points equal to the roll plus your Constitution modifier, minimum 1 Hit Point. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 49 (PDF p. 50), Robe of Contingency.",
+          "Conversion notes": "Converts six squares to 30 feet and the optional healing surge to one Hit Point Die. Checks Bloodied after the triggering damage. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:8d7136a60c68a4c0": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to Fire damage. When you would take Fire damage, you can take a Reaction to take no Fire damage from that instance and increase your Speed by 10 feet until the end of your next turn. After the damage resolves, you can spend one unspent Hit Point Die to regain Hit Points equal to the roll plus your Constitution modifier, minimum 1 Hit Point. The Reaction recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 49 (PDF p. 50), Robe of Defying Flames.",
+          "Conversion notes": "Converts flat Fire protection to Resistance, the two-square Speed bonus to 10 feet, and the optional healing surge to one Hit Point Die. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:6a197142cadbd4a6": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to Cold damage. When you would take Cold damage, you can take a Reaction to take no Cold damage from that instance and gain +1 AC until the end of your next turn. After the damage resolves, you can spend one unspent Hit Point Die to regain Hit Points equal to the roll plus your Constitution modifier, minimum 1 Hit Point. The Reaction recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 49 (PDF p. 50), Robe of Defying Frost.",
+          "Conversion notes": "Converts flat Cold protection to Resistance and the optional healing surge to one Hit Point Die. Preserves the original AC bonus. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:8756dbc2e48751ab": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to Lightning and Thunder damage. When you would take Lightning or Thunder damage, you can take a Reaction to take neither type of damage from that instance and gain +1 on attack rolls until the end of your next turn. After the damage resolves, you can spend one unspent Hit Point Die to regain Hit Points equal to the roll plus your Constitution modifier, minimum 1 Hit Point. The Reaction recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 49 (PDF p. 50), Robe of Defying Storms.",
+          "Conversion notes": "Converts the two flat reductions to Resistance and the optional healing surge to one Hit Point Die. Preserves the original attack bonus. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:4be0ccee9c36526c": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have immunity to the Blinded condition and gain +1 on Wisdom (Perception) checks.",
+          "Source locator": "Adventurer’s Vault (4e), p. 50 (PDF p. 51), Robe of Eyes.",
+          "Conversion notes": "Preserves the 4e immunity and uses the converted +1 armor enhancement for Perception. This entry uses the Adventurer’s Vault version. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:cf641797c3fe6f00": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, immediately after an attack roll by a hostile creature hits you, you can take a Reaction. That creature subtracts 1 from its attack rolls against you for 1 minute. The effect ends early if you make an attack roll against that creature. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 50 (PDF p. 51), Robe of Forbearance.",
+          "Conversion notes": "Uses the converted armor enhancement for the penalty and replaces the encounter duration with one minute. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:884f939262902281": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, after a hostile creature within 5 feet of you makes a melee attack against you, hit or miss, you can take a Reaction. It takes 1d6 Piercing damage and takes 1 Piercing damage at the start of each of its turns for up to 1 minute. At the end of each of its turns it makes a DC 15 Constitution saving throw, ending the recurring damage on a success. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 50 (PDF p. 51), Robe of Quills.",
+          "Conversion notes": "Uses the lowest-tier initial and ongoing damage. Assigns Piercing damage and adds an end-of-turn saving throw and duration cap. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:beec86d262a20f34": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, immediately after a creature hits you with a melee attack, you can take a Reaction to sap its defenses for up to 1 minute. It takes −2 AC and you gain +2 AC. At the end of its next turn and at the end of each subsequent turn, it makes a DC 16 Constitution saving throw. The first success reduces the penalty and bonus to 1 each, and the second success ends both. The effect also ends early if you remove the armor. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 50 (PDF p. 51), Robe of Sapping.",
+          "Conversion notes": "Preserves the two stages of opposing AC adjustments and the delayed first saving throw. Adds a Constitution DC and a one-minute cap for the entire effect. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:30a69cf3370d5a0a": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to shed Bright Light in a 20-foot radius and Dim Light for another 20 feet. You can end the light without taking an action on your turn. As a Magic action, you can also release a 10-foot Emanation of dazzling color. Each other creature in the area that can see the display makes a Wisdom saving throw against DC 8 plus your Proficiency Bonus plus your Intelligence or Charisma modifier (your choice). On a failure, it cannot take Bonus Actions or Reactions, and on its turn it can move or take one action, but cannot do both. It repeats the save at the end of each turn, ending the effect on a success. The effect lasts at most 1 minute. The Emanation power recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 50 (PDF p. 51), Robe of Scintillation.",
+          "Conversion notes": "Uses torch illumination for the at-will light and converts the original Will attack and Dazed condition into a Wisdom save and explicit action limits. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:5d97413c7d116a7c": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to make its stars flare until the end of your next turn. When a hostile creature that can see the flare targets you with an attack roll during that time, it must first make a DC 16 Constitution saving throw. On a failure it has the Blinded condition for up to 1 minute, including during the triggering attack. It repeats the save at the end of each turn, ending the effect on a success. A creature already Blinded by this activation does not save again when it attacks you. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 50 (PDF p. 51), Robe of Stars.",
+          "Conversion notes": "Keeps the original pre-attack timing and short activation window. Adds a Constitution save and duration cap for Blinded. This entry uses the Adventurer’s Vault version. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:baa3f5d2df844824": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While wearing this armor, immediately after a creature you can see within 50 feet attacks you, you can take a Reaction. The attacker makes a Wisdom saving throw against DC 8 plus your Proficiency Bonus plus your Charisma modifier. A creature immune to the Charmed condition is unaffected. On a failure it has the Charmed condition and must use its next turn to follow one telepathic command you give it, including moving or taking an action it can legally take. It ignores an obviously self-destructive command. The effect lasts until the end of your next turn. Before it ends, you can take a Bonus Action to force a new save if the target is still within 50 feet and visible to you. On a failure, extend the effect until the end of your following turn and issue a new command. On a success, the effect ends and cannot be extended. Total duration cannot exceed 1 minute. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 50 (PDF p. 51), Robe of the Archfiend.",
+          "Conversion notes": "Uses a Wisdom save for the original Charisma attack against Will. Retains triggered domination and repeat-save sustain, with defined commands and a one-minute cap. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 benchmark": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#DominateMonster"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
     "adventurers-vault-1-reference:9cb56e59b7f76040": [
       {
         "label": "D&D 2024 adaptation · Padded Armor",

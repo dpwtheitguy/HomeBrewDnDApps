@@ -1740,6 +1740,31 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault robes display distinct reactions and daily powers': '''(async () => {
+                    const cases = [
+                        ["7dc3af729b56fac4", ["subsequent attack rolls", "do not stack the penalty"]],
+                        ["0db8777263115fdf", ["moves into a space within 5 feet", "push it 5 feet"]],
+                        ["de40a706ab2eb5c7", ["made with Advantage", "1 Radiant damage", "Armor class19"]],
+                        ["a671a6db3d11a029", ["within 50 feet", "unoccupied space it occupied", "Short or Long Rest"]],
+                        ["cb185b4ca04493c8", ["Bloodied", "teleport up to 30 feet", "Hit Point Die"]],
+                        ["8d7136a60c68a4c0", ["take no Fire damage", "Speed by 10 feet"]],
+                        ["6a197142cadbd4a6", ["take no Cold damage", "gain +1 AC"]],
+                        ["8756dbc2e48751ab", ["Resistance to Lightning and Thunder", "+1 on attack rolls"]],
+                        ["4be0ccee9c36526c", ["immunity to the Blinded condition", "Wisdom (Perception)"]],
+                        ["cf641797c3fe6f00", ["subtracts 1 from its attack rolls", "ends early if you make an attack roll"]],
+                        ["884f939262902281", ["1d6 Piercing damage", "DC 15 Constitution"]],
+                        ["beec86d262a20f34", ["first success reduces", "second success ends both"]],
+                        ["30a69cf3370d5a0a", ["20-foot radius", "10-foot Emanation", "Intelligence or Charisma"]],
+                        ["5d97413c7d116a7c", ["including during the triggering attack", "DC 16 Constitution"]],
+                        ["baa3f5d2df844824", ["telepathic command", "force a new save", "Total duration cannot exceed 1 minute"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Adventurer’s Vault armor displays its saves, transformations and stacking limits': '''(async () => {
                     const cases = [
                         ["9cb56e59b7f76040", ["Intelligence, Wisdom, or Charisma", "must use the new result", "Studded Leather Armor", "Splint Armor"]],
