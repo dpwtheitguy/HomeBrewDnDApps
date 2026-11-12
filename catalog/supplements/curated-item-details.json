@@ -3588,6 +3588,45 @@
           "Conversion notes": "The standard 2024 spell supplies the shot rules. The charge limit and operator action are conversion choices."
         }
       }
+    ],
+    "gazetteer-local-pdf-reference:7a8f9c7f0b2fb1cf": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/magic-items/9229104-staff-of-thunder-and-lightning",
+        "fields": {
+          "Category": "Legendary Blackmoor relic",
+          "Damage": "20d6 Lightning on a failed save, half as much on a successful one.",
+          "Range": "A 120 ft line, 5 ft wide, originating from you.",
+          "Activation": "While holding the attuned device, take a Magic action and expend 1 charge to fire a bolt.",
+          "Saving throw": "Each creature in the line makes a DC 17 Dexterity saving throw.",
+          "Charges": "Jaggar’s device has 50 charges remaining. Expended charges do not return. It is inert when empty.",
+          "Recharge": "After firing, the device cannot fire again until dawn, even if charges remain.",
+          "Attunement": "Required",
+          "Legacy source": "GAZ3, p. 24, Marauders, Mages and Masters. The blue-metal relic deals 20d6 damage and has 50 charges left.",
+          "Conversion notes": "The source damage and remaining charges are preserved. The 2024 Staff of Thunder and Lightning supplies the line and save benchmark. The once-per-dawn limit is a conversion choice."
+        }
+      }
+    ],
+    "gazetteer-local-pdf-reference:fc0b404799da8e64": [
+      {
+        "label": "D&D 2024 tabletop conversion",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Acid",
+        "fields": {
+          "Category": "Single-use fantasy alchemical item",
+          "Damage": "2d6 Acid on a failed save. A creature that fails the save can take 1d6 additional Acid damage at the start of its next turn.",
+          "Range": "One creature or object you can see within 20 ft.",
+          "Activation": "Replace one attack during the Attack action with throwing the container. The item is expended.",
+          "Saving throw": "Dexterity DC = 8 + your Dexterity modifier + proficiency bonus. A success avoids both damage effects.",
+          "Special powers": "Before the start of the affected creature’s next turn, it or a creature within 5 ft of it can use a Utilize action to remove the slime and prevent the additional damage. Objects take only the initial damage.",
+          "Attunement": "None",
+          "Legacy source": "GAZ3, p. 88, Adventures in Glantri, Reds. The adventure names the insurgents’ green slime bombs without a combat procedure.",
+          "Conversion notes": "This draft uses the 2024 Acid item as its throw benchmark and gives the slime one brief follow-up effect."
+        }
+      }
     ]
   }
 }

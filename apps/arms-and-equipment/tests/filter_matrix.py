@@ -602,6 +602,18 @@ def main():
                         && ["DM review", "1d4 + 1 Force", "120 ft", "spends 1 charge"]
                             .every(value => staff.includes(value));
                 })()''',
+                'Blackmoor relic and slime show their distinct tabletop saves': '''(async () => {
+                    inspect("gazetteer-local-pdf-reference:7a8f9c7f0b2fb1cf", grid.firstElementChild);
+                    await itemDetails;
+                    const relic = inspection.textContent;
+                    inspect("gazetteer-local-pdf-reference:fc0b404799da8e64", grid.firstElementChild);
+                    await itemDetails;
+                    const slime = inspection.textContent;
+                    return ["DM review", "20d6 Lightning", "DC 17 Dexterity", "50 charges"]
+                        .every(value => relic.includes(value)) &&
+                        ["DM review", "2d6 Acid", "20 ft", "Utilize action"]
+                            .every(value => slime.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
