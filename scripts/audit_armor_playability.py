@@ -137,6 +137,22 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
     if item['ruleset'] == 'bg3':
         evidence = 'native-bg3'
         fields.update(read_bg3(bg3['records'].get(item_id, {}), bg3['effects'], bg3['shield_training'], errors, gaps))
+    elif properties := [entry for entry in curated.get(item_id, [])
+                        if entry.get('profile_kind') == 'adapted-armor-property']:
+        entry = properties[0]
+        details = entry.get('fields', {})
+        provenance = item['provenance']
+        expected_host = 'One shield' if item['type'] == 'shield' else 'One suit of Light, Medium, or Heavy armor'
+        if (len(properties) != 1 or mappings or encounter or entry.get('status') != 'original-draft'
+                or entry.get('source') != provenance.get('source_url') or not provenance.get('locator')
+                or details.get('Applies to') != expected_host
+                or not all(details.get(key) for key in ('Source locator', 'Special powers', 'Armor class effect',
+                                                        'Attunement', 'Conversion notes'))):
+            errors.append('armor enchantment needs an applicable host, rules, and source')
+        evidence = 'item-specific-armor-property-draft'
+        fields = {'role': 'shield enchantment' if item['type'] == 'shield' else 'armor enchantment',
+                  'attunement': details.get('Attunement'), 'effects': details.get('Special powers')}
+        gaps.append('item-specific armor enchantment draft requires DM review')
     elif encounter:
         entry = encounter[0]
         details = entry.get('fields', {})

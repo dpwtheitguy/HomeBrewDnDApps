@@ -1160,6 +1160,9 @@ def main():
                         ["dmg-35-reference:79211eaca6e4d533", ["Armor class bonus+2", "Half Cover", "Utilize action"]],
                         ["dmg-35-reference:0a7b78d2a1e37610", ["15 + Dex modifier", "150 gp", "40 lb"]],
                         ["dmg-35-reference:4b5de21d35a42563", ["Armor class bonus+2", "2.5 lb", "darkwood"]],
+                        ["dmg-35-reference:084a0eb692ad1954", ["Armor class18", "Resistance to Lightning"]],
+                        ["dmg-35-reference:17c64070fe4b05b8", ["One shield", "Thunder damage", "reduce that damage by 10"]],
+                        ["dmg-35-reference:533684ed1ebd3331", ["adds no AC", "reduce that damage by 20", "next dawn"]],
                     ];
                     for (const [id, terms] of cases) {
                         inspect(id, grid.firstElementChild);
