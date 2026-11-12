@@ -1830,6 +1830,22 @@ def main():
                         if (!byId("custom-items").hidden) click("close-custom-items");
                     }
                 })()''',
+                'Mystara fitted armor and accessories show their conditions': '''(async () => {
+                    const cases = [
+                        ["e8e59de85438a4d3", ["Armor class16", "110 lb", "600 gp"]],
+                        ["42eb6c621aea3f60", ["AC 18", "24 hours", "11 + Dexterity modifier"]],
+                        ["164e1066311bbc90", ["11 + Dex modifier", "mustelids", "+1 to that check"]],
+                        ["620634f4e71c946a", ["+2 to AC and saving throws", "Ring or Cloak of Protection"]],
+                        ["cd6737f0971c746e", ["+1 AC", "Studded Leather Armor"]],
+                        ["cef13e8b5f42db06", ["Armor class18", "+2 to saving throws", "Fire damage"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Mystara powered armor displays separate charge and protection modes': '''(async () => {
                     const cases = [
                         ["e39c83175ba9bbe5", ["Armor class16", "18 lb", "including firearms"]],

@@ -1,6 +1,141 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:e8e59de85438a4d3": [
+      {
+        "label": "D&D 2024 adaptation · Centaur Armour",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/Maganshire_Resource_Book.pdf",
+        "fields": {
+          "Armor class": "16",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Attunement": "None",
+          "Weight": "110 lb",
+          "Source locator": "Maganshire Resource Book, PDF p. 9, Centaur, Combat and Weapons.",
+          "Special powers": "This fitted suit covers a centaur’s upper body and equine torso. Wear it as one suit of Chain Mail. It gives no separate barding bonus.",
+          "Commission": "Commission it for a specific centaur. The source charges twice the price of comparable horse barding. Using 2024 Chain Mail barding, that is 600 gp for this configuration.",
+          "Conversion notes": "Uses a Chain Mail configuration for the source’s combined armor and barding. The weight uses the 2024 barding multiplier.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:42eb6c621aea3f60": [
+      {
+        "label": "D&D 2024 adaptation · Collapsium Armour",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Attunement": "None",
+          "Weight": "65 lb before the power pack",
+          "Source locator": "Cyclopaedic Compendium, Volume 2, PDF pp. 68 and 80, Sathar and Yazarian.",
+          "Special powers": "Connect a compatible charged pack and take a Utilize action to spend 1 charge. You can use AC 18 for the next 24 hours while wearing the suit and keeping the pack connected. Without power you can use AC 11 + Dexterity modifier.",
+          "Conversion notes": "The source gives descending AC 0 and an external power dependency. The daily rate borrows from Federation Battle Armour, and unpowered AC is an authored fallback.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:164e1066311bbc90": [
+      {
+        "label": "D&D 2024 adaptation · Dobhar-chú Leather Armour",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf",
+        "fields": {
+          "Armor class": "11 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Attunement": "None",
+          "Weight": "10 lb",
+          "Source locator": "Cyclopaedic Compendium, Volume 2, PDF p. 35, Dobhar-chú.",
+          "Special powers": "You have Disadvantage on Charisma checks to Influence mustelids such as otters, weasels, badgers, and ferrets while wearing this armor.",
+          "Crafting": "If the DM calls for an ability check to enchant this suit, add +1 to that check. Normal 2024 crafting time and material requirements still apply.",
+          "Conversion notes": "Uses ordinary Leather Armor protection. A +1 crafting check replaces the legacy five-point percentile advantage.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:620634f4e71c946a": [
+      {
+        "label": "D&D 2024 adaptation · Eagle Helmet",
+        "status": "original-draft",
+        "profile_kind": "adapted-protective-implement",
+        "source": "https://pandius.com/magcitem.html#eaglehelm",
+        "fields": {
+          "Use as armor": "Wondrous item. The helmet does not replace your base AC formula.",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Weight": "3 lb (conversion estimate)",
+          "Source locator": "Gilles Leblanc, Magical Items of Mystara, Rockhome, Eagle Helmet.",
+          "Special powers": "While wearing the attuned helmet, add +2 to AC and saving throws. The AC bonus does not stack with a Ring or Cloak of Protection.",
+          "Conversion notes": "Preserves the source’s bonuses and uses attunement and a nonstacking rule to limit the combined protection.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:cd6737f0971c746e": [
+      {
+        "label": "D&D 2024 adaptation · Magical Shoulder Plate",
+        "status": "original-draft",
+        "profile_kind": "adapted-protective-implement",
+        "source": "https://pandius.com/magcitem.html#shoulderplate",
+        "fields": {
+          "Use as armor": "Wondrous item. May be worn alone or with Padded, Leather, or Studded Leather Armor, provided the suit has no other metal components beyond the studs. It counts as metal equipment.",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Weight": "2 lb (conversion estimate)",
+          "Source locator": "Gilles Leblanc, Magical Items of Mystara, Thyatis, Magical Shoulder Plate.",
+          "Special powers": "While wearing the attuned plate in an eligible configuration, gain +1 AC. It does not change the base AC formula or confer armor training.",
+          "Conversion notes": "Keeps the separate +1 and the source restriction on wearing it over metal armor.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:cef13e8b5f42db06": [
+      {
+        "label": "D&D 2024 adaptation · Red Chain Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/magcitem.html#redchain",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Attunement": "Required",
+          "Weight": "55 lb",
+          "Rarity": "Very Rare",
+          "Source locator": "Gilles Leblanc, Magical Items of Mystara, Ierendi, Red Chain Mail.",
+          "Special powers": "While wearing the attuned armor, add +2 to saving throws against effects that deal Fire damage.",
+          "Conversion notes": "Preserves +2 Chain Mail and the distinct fire-related saving throw bonus.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-2",
+          "label": "Open 2024 AC baseline"
+        }
+      }
+    ],
     "mystara-fan-names-reference:e39c83175ba9bbe5": [
       {
         "label": "D&D 2024 adaptation · Fibre Armour",
