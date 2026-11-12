@@ -16696,6 +16696,407 @@
           "label": "Open published 2024 Luck Blade"
         }
       }
+    ],
+    "dmg-2e-reference:01af77bde132a6be": [
+      {
+        "label": "Verified 2024 counterpart · Longsword",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00698.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/magic-items/9229181-vorpal-sword",
+        "fields": {
+          "Base weapon": "Longsword",
+          "Damage": "Base 1d8 Slashing. Add 3 to normal damage and ignore Slashing Resistance. A qualifying natural 20 can sever a head or deal an extra 30 Slashing instead.",
+          "Range": "5 ft melee",
+          "Properties": "Versatile (1d10)",
+          "Activation": "On a natural 20 when attacking a creature with at least one head. Losing the head kills a creature that needs it to survive.",
+          "Category": "Martial",
+          "Mastery": "Sap",
+          "Attunement": "Required",
+          "Attack bonus": "+3 to attack and damage rolls.",
+          "Exceptions": "A creature immune to Slashing, one that does not need its head, or one the DM judges too large to decapitate takes the extra damage instead.",
+          "Source locator": "AD&D 2e DMG, table 110, section 4, roll 19.",
+          "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01130.htm.php.html",
+          "Edition notes": "Uses the published Longsword version of the 2024 family. The original weapon’s critical thresholds are edition-specific."
+        },
+        "related_item": {
+          "id": "dndbeyond:9229181",
+          "label": "Open published 2024 counterpart"
+        }
+      }
+    ],
+    "dmg-2e-reference:148be346d484ab9e": [
+      {
+        "label": "Verified 2024 counterpart · Longsword",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00698.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#LuckBlade",
+        "fields": {
+          "Base weapon": "Longsword",
+          "Damage": "Base 1d8 Slashing. Add 1 to normal damage.",
+          "Range": "5 ft melee",
+          "Properties": "Versatile (1d10)",
+          "Activation": "While carrying it, reroll a failed D20 Test without an action if you are not Incapacitated. Use the new roll. While holding it, spend a Wish charge to cast Wish.",
+          "Category": "Martial",
+          "Mastery": "Sap",
+          "Attunement": "Required",
+          "Attack bonus": "+1 to attack and damage rolls.",
+          "Special powers": "+1 to saving throws while the weapon is on your person.",
+          "Charges": "The reroll refreshes at dawn. Wish starts with 1d3 charges, is usable once per dawn, and is lost when the last charge is spent.",
+          "Source locator": "AD&D 2e DMG, table 110, section 3, roll 17.",
+          "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01117.htm.php.html",
+          "Edition notes": "Uses the published Longsword version. Roll its 2024 Wish charges when found and use the 2024 reroll rules."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_luck-blade-longsword",
+          "label": "Open published 2024 counterpart"
+        }
+      }
+    ],
+    "dmg-2e-reference:37a68cb7f7ccdf98": [
+      {
+        "label": "Verified 2024 counterpart · Mace",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00698.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#MaceofDisruption",
+        "fields": {
+          "Base weapon": "Mace",
+          "Damage": "Base 1d6 Bludgeoning. Add 2d6 Radiant on a hit against a Fiend or Undead.",
+          "Range": "5 ft melee",
+          "Properties": "None",
+          "Activation": "On a hit against a Fiend or Undead, check its remaining HP after damage.",
+          "Category": "Simple",
+          "Mastery": "Sap",
+          "Attunement": "Required",
+          "Saving throw": "If the target has 25 HP or fewer, DC 15 Wisdom. Failure destroys it. Success leaves it Frightened until the end of your next turn.",
+          "Area": "While held, 20 ft Bright Light and another 20 ft Dim Light.",
+          "Source locator": "AD&D 2e DMG, table 110, section 2, roll 6-7.",
+          "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01103.htm.php.html",
+          "Edition notes": "Uses the published 2024 Mace and its Fiend and Undead effects."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace-of-disruption",
+          "label": "Open published 2024 counterpart"
+        }
+      }
+    ],
+    "dmg-2e-reference:492de4de5e41af35": [
+      {
+        "label": "Verified 2024 counterpart · Quarterstaff",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00679.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#StaffofPower",
+        "fields": {
+          "Base weapon": "Quarterstaff",
+          "Damage": "1d6 + 2 Bludgeoning one-handed or 1d8 + 2 with two hands, plus Strength modifier.",
+          "Range": "5 ft melee. Spells use their published ranges.",
+          "Activation": "Make a Quarterstaff attack or cast a listed spell while holding the staff using the spell’s normal casting time.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus (if proficient) + 2.",
+          "Category": "Simple melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Attunement": "Required by a Sorcerer, Warlock, or Wizard.",
+          "Rarity": "Very Rare",
+          "Charges": "20",
+          "Special powers": "While holding it, gain +2 AC, +2 to saving throws, and +2 to spell attack rolls.",
+          "Spell costs": "Magic Missile and Ray of Enfeeblement cost 1 each. Levitate costs 2. Cone of Cold, Hold Monster, Wall of Force, and level 5 Fireball or Lightning Bolt each cost 5. Globe of Invulnerability costs 6. Use your spell save DC.",
+          "Recharge": "Regain 2d8 + 4 spent charges at dawn. After spending the final charge, roll a d20. On a 1 only the +2 weapon enhancement remains. On a 20 regain 1d8 + 2 charges.",
+          "Retributive Strike": "Use a Magic action to break the staff, destroying it and releasing a 30-foot Emanation. You have a 50% chance to escape to a random plane. Otherwise take Force damage equal to 16 times its remaining charges. Each other creature in the area makes a DC 17 Dexterity save, taking Force damage equal to four times the remaining charges on a failure or half on a success.",
+          "2024 spell descriptions": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "2024 staff rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#Staffs",
+          "Source locator": "AD&D 2e DMG, table 93, section 1, roll 7.",
+          "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD00838.htm.php.html",
+          "Edition notes": "Use the 2024 spell list, charge pool, and Retributive Strike."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_staff-of-power",
+          "label": "Open published 2024 counterpart"
+        }
+      }
+    ],
+    "dmg-2e-reference:4e59d509c701e881": [
+      {
+        "label": "Verified 2024 counterpart · Greatsword",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00698.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#FrostBrand",
+        "fields": {
+          "Base weapon": "Greatsword",
+          "Damage": "Base 2d6 Slashing. Add 1d6 Cold on a hit.",
+          "Range": "5 ft melee",
+          "Properties": "Heavy, Two-Handed",
+          "Activation": "On a weapon hit. Drawing it can also extinguish nonmagical flames within 30 ft, once per hour.",
+          "Category": "Martial",
+          "Mastery": "Graze",
+          "Attunement": "Required",
+          "Special powers": "Resistance to Fire damage while held.",
+          "Area": "In freezing temperatures, 10 ft of Bright Light and another 10 ft of Dim Light.",
+          "Source locator": "AD&D 2e DMG, table 110, section 4, roll 2-3.",
+          "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01122.htm.php.html",
+          "Edition notes": "Uses the published Greatsword variant for this legacy sword. The printed legacy +3 is retained in the title."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_frost-brand-greatsword",
+          "label": "Open published 2024 counterpart"
+        }
+      }
+    ],
+    "dmg-2e-reference:5717b7cc83a31802": [
+      {
+        "label": "Verified 2024 counterpart · Longsword",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00698.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#GiantSlayer",
+        "fields": {
+          "Base weapon": "Longsword",
+          "Damage": "Base 1d8 Slashing. Add 1 to normal damage. A Giant takes an additional 2d6 of the weapon’s damage type.",
+          "Range": "5 ft melee",
+          "Properties": "Versatile (1d10)",
+          "Activation": "Make a weapon attack. The extra damage and save apply on a hit against a Giant.",
+          "Category": "Martial",
+          "Mastery": "Sap",
+          "Attunement": "None",
+          "Attack bonus": "+1 to attack and damage rolls.",
+          "Saving throw": "Giant target only: DC 15 Strength or the target is Prone.",
+          "Source locator": "AD&D 2e DMG, table 110, section 3, roll 19.",
+          "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01119.htm.php.html",
+          "Edition notes": "Uses the 2024 Longsword form of Giant Slayer. The legacy +2 appears in the title. Apply the modern +1 bonus and Giant-specific effects."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_giant-slayer-longsword",
+          "label": "Open published 2024 counterpart"
+        }
+      }
+    ],
+    "dmg-2e-reference:6bfed38d98ae256c": [
+      {
+        "label": "Verified 2024 counterpart · Warhammer",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00698.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#DwarvenThrower",
+        "fields": {
+          "Base weapon": "Warhammer",
+          "Damage": "Base 1d8 Bludgeoning. Add 3 to normal damage. A ranged hit adds 1d8 Force, or 2d8 Force against a Giant.",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Properties": "Versatile (1d10)",
+          "Activation": "Make a melee or thrown weapon attack. After a throw, it returns to your hand on a hit or miss.",
+          "Category": "Martial",
+          "Mastery": "Push",
+          "Attunement": "Required by a Dwarf or a creature attuned to a Belt of Dwarvenkind.",
+          "Attack bonus": "+3 to attack and damage rolls.",
+          "Added property": "Thrown (20/60 ft)",
+          "Source locator": "AD&D 2e DMG, table 110, section 1, roll 18.",
+          "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01097.htm.php.html",
+          "Edition notes": "Uses the published 2024 returning Warhammer and its attunement requirements."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dwarven-thrower",
+          "label": "Open published 2024 counterpart"
+        }
+      }
+    ],
+    "dmg-2e-reference:8f2619bfb22616e7": [
+      {
+        "label": "Verified 2024 counterpart · Quarterstaff",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00679.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#StaffofSwarmingInsects",
+        "fields": {
+          "Base weapon": "Quarterstaff",
+          "Damage": "1d6 Bludgeoning one-handed or 1d8 with two hands, plus Strength modifier.",
+          "Range": "5 ft melee. Spells use their published ranges.",
+          "Activation": "Make a Quarterstaff attack or cast a listed spell while holding the staff using the spell’s normal casting time.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus (if proficient).",
+          "Category": "Simple melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Attunement": "Required by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard.",
+          "Rarity": "Rare",
+          "Charges": "10",
+          "Spell costs": "Giant Insect costs 4 charges and Insect Plague costs 5. Use your spell save DC and spell attack modifier.",
+          "Insect Cloud": "As a Magic action, spend 1 charge to create a 30-foot Emanation of harmless insects centered on you for up to 10 minutes. The area is Heavily Obscured for everyone except you. A strong wind ends the effect early.",
+          "Recharge": "Regain 1d6 + 4 spent charges at dawn. After spending the last charge, roll a d20. On a 1, the staff is destroyed.",
+          "2024 spell descriptions": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "2024 staff rules": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#Staffs",
+          "Source locator": "AD&D 2e DMG, table 93, section 1, roll 15.",
+          "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD00842.htm.php.html",
+          "Edition notes": "Uses the 2024 spell list and rechargeable insect cloud."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_staff-of-swarming-insects",
+          "label": "Open published 2024 counterpart"
+        }
+      }
+    ],
+    "dmg-2e-reference:cdf3a960d6197493": [
+      {
+        "label": "Verified 2024 counterpart · Dagger",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00698.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#DaggerofVenom",
+        "fields": {
+          "Base weapon": "Dagger",
+          "Damage": "Base 1d4 Piercing. Add 1 to normal damage. A failed save against the coating adds 2d10 Poison damage.",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Properties": "Finesse, Light, Thrown (Range 20/60)",
+          "Activation": "Use a Bonus Action to coat the dagger. The first hit against a creature expends the coating.",
+          "Category": "Simple",
+          "Mastery": "Nick",
+          "Attunement": "None",
+          "Attack bonus": "+1 to attack and damage rolls.",
+          "Saving throw": "DC 15 Constitution. On a failure the target also has the Poisoned condition for 1 minute.",
+          "Duration": "Coating lasts up to 1 minute. Recharge at the next dawn.",
+          "Source locator": "AD&D 2e DMG, table 110, section 1, roll 16.",
+          "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01095.htm.php.html",
+          "Edition notes": "Uses the modern poison coating, save and recharge."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger-of-venom",
+          "label": "Open published 2024 counterpart"
+        }
+      }
+    ],
+    "dmg-2e-reference:dd1493447a483835": [
+      {
+        "label": "Verified 2024 counterpart · Longsword",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00698.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#NineLivesStealer",
+        "fields": {
+          "Base weapon": "Longsword",
+          "Damage": "Base 1d8 Slashing. Add 2 to normal damage.",
+          "Range": "5 ft melee",
+          "Properties": "Versatile (1d10)",
+          "Activation": "When you roll a natural 20 on an attack against a creature with fewer than 100 HP.",
+          "Category": "Martial",
+          "Mastery": "Sap",
+          "Attunement": "Required",
+          "Attack bonus": "+2 to attack and damage rolls.",
+          "Saving throw": "DC 15 Constitution or die instantly. Constructs and Undead succeed automatically.",
+          "Charges": "Starts with 1d8 + 1 charges. Spend one only if the effect kills the target. The effect is lost at zero charges.",
+          "Source locator": "AD&D 2e DMG, table 110, section 4, roll 1.",
+          "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01121.htm.php.html",
+          "Edition notes": "Uses the 2024 Longsword form and its modern save, Hit Point threshold and charges."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_nine-lives-stealer-longsword",
+          "label": "Open published 2024 counterpart"
+        }
+      }
+    ],
+    "dmg-2e-reference:ddd46d101174da4c": [
+      {
+        "label": "Verified 2024 counterpart · Trident",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00698.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#TridentofFishCommand",
+        "fields": {
+          "Base weapon": "Trident",
+          "Damage": "Base 1d8 Piercing. Dominate Beast deals no damage.",
+          "Range": "5 ft melee; 20/60 ft thrown",
+          "Properties": "Thrown (Range 20/60), Versatile (1d10)",
+          "Activation": "While carrying the trident, spend 1 charge to cast Dominate Beast as an action.",
+          "Category": "Martial",
+          "Mastery": "Topple",
+          "Attunement": "Required",
+          "Spell target": "One Beast with a Swim Speed that you can see within 60 ft.",
+          "Special powers": "On a failed save, the Beast is Charmed. On the same plane, you can give it telepathic orders on your turn without an action. Spend your own Reaction to order it to take a Reaction.",
+          "Saving throw": "DC 15 Wisdom. The Beast has Advantage if you or your allies are fighting it. It repeats the save whenever it takes damage, ending the spell on a success.",
+          "Duration": "Concentration, up to 1 minute.",
+          "Charges": "3 charges. Regain 1d3 spent charges at dawn.",
+          "Source locator": "AD&D 2e DMG, table 110, section 2, roll 16.",
+          "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01134.htm.php.html",
+          "Edition notes": "Uses the 2024 Trident and aquatic creature command rules."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_trident-of-fish-command",
+          "label": "Open published 2024 counterpart"
+        }
+      }
+    ],
+    "dmg-2e-reference:e944dc928d30c963": [
+      {
+        "label": "Verified 2024 counterpart · Longsword",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00698.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#FlameTongue",
+        "fields": {
+          "Base weapon": "Longsword",
+          "Damage": "Base 1d8 Slashing. Add 2d6 Fire on a hit while the weapon is ablaze.",
+          "Range": "5 ft melee",
+          "Properties": "Versatile (1d10)",
+          "Activation": "While holding it, use a Bonus Action and the command word to light or extinguish it.",
+          "Category": "Martial",
+          "Mastery": "Sap",
+          "Attunement": "Required",
+          "Area": "40 ft of Bright Light and another 40 ft of Dim Light while lit.",
+          "Duration": "Remains lit until dismissed, dropped, stowed, or sheathed.",
+          "Source locator": "AD&D 2e DMG, table 110, section 3, roll 16.",
+          "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01116.htm.php.html",
+          "Edition notes": "Uses the Longsword form of the 2024 family. The original printed enhancement is retained in the title."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_flame-tongue-longsword",
+          "label": "Open published 2024 counterpart"
+        }
+      }
+    ],
+    "dmg-2e-reference:f3e3aa8bc9a5c8f4": [
+      {
+        "label": "Verified 2024 counterpart · Warhammer",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00698.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/magic-items/9228714-hammer-of-thunderbolts",
+        "fields": {
+          "Base weapon": "Warhammer",
+          "Damage": "Base 1d8 Bludgeoning. Add 1 to normal weapon damage. The thunderclap inflicts Stunned on a failed save.",
+          "Range": "5 ft melee; 20/60 ft on the charged throw.",
+          "Properties": "Versatile (1d10)",
+          "Activation": "Spend 1 charge to make a thrown attack. The hammer returns immediately after a hit or miss.",
+          "Category": "Martial",
+          "Mastery": "Push",
+          "Attunement": "Required",
+          "Attack bonus": "+1 to attack and damage rolls.",
+          "Area": "On a thrown hit, the thunderclap affects the target and every creature within 30 ft of it except you. Audible out to 300 ft.",
+          "Saving throw": "DC 17 Constitution against the thunderclap. Failure leaves a creature Stunned until the end of your next turn.",
+          "Charges": "5 charges. Regain 1d4 + 1 spent charges at dawn.",
+          "Special powers": "While attuned and wearing an attuned Belt of Giant Strength or Gauntlets of Ogre Power, increase the Strength that item grants by 4 (maximum 30). A natural 20 against a Giant then forces DC 17 Constitution or death.",
+          "Source locator": "AD&D 2e DMG, table 110, section 1, roll 19.",
+          "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01098.htm.php.html",
+          "Edition notes": "Uses the 2024 Warhammer form. Follow the modern attunement prerequisites, throwing rules and charge recharge."
+        },
+        "related_item": {
+          "id": "dndbeyond:9228714",
+          "label": "Open published 2024 counterpart"
+        }
+      }
+    ],
+    "dmg-2e-reference:f8a8e5b015a4ef82": [
+      {
+        "label": "Verified 2024 counterpart · Javelin",
+        "status": "published-reference",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00698.htm.php.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#JavelinofLightning",
+        "fields": {
+          "Base weapon": "Javelin",
+          "Damage": "Base 1d6 Piercing. On a normal hit, choose Piercing or Lightning. The bolt deals 4d6 Lightning, halved on a successful save.",
+          "Range": "5 ft melee; 30/120 ft thrown",
+          "Properties": "Thrown (Range 30/120)",
+          "Activation": "When throwing at a target within 120 ft, replace the ranged attack roll with the bolt.",
+          "Category": "Simple",
+          "Mastery": "Slow",
+          "Attunement": "None",
+          "Area": "A 5 ft wide line from you to the target, excluding you.",
+          "Saving throw": "DC 13 Dexterity for the target and each other creature in the line.",
+          "Recharge": "The bolt recharges at dawn. The javelin reappears in your hand after the bolt resolves.",
+          "Source locator": "AD&D 2e DMG, table 110, section 2, roll 2.",
+          "Original item rules": "https://naggaroth.daerma.com/2e/corerule-page=DD01100.htm.php.html",
+          "Edition notes": "Uses the 2024 line, target and recharge rules."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_javelin-of-lightning",
+          "label": "Open published 2024 counterpart"
+        }
+      }
     ]
   }
 }

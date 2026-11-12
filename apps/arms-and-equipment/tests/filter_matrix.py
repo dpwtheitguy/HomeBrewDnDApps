@@ -1351,6 +1351,22 @@ def main():
                     return ["Dart (3d4)", "1d4 + Strength or Dexterity", "20/60 ft thrown", "Vex"]
                         .every(value => inspection.textContent.includes(value));
                 })()''',
+                'AD&D named weapons show published effects and original source links': '''(async () => {
+                    const cases = [
+                        ["dmg-2e-reference:5717b7cc83a31802", ["DC 15 Strength", "2d6", "Giant"]],
+                        ["dmg-2e-reference:f3e3aa8bc9a5c8f4", ["DC 17 Constitution", "Warhammer", "20/60 ft"]],
+                        ["dmg-2e-reference:492de4de5e41af35", ["DC 17 Dexterity", "Retributive Strike"]],
+                        ["dmg-2e-reference:148be346d484ab9e", ["1d3 charges", "failed D20 Test"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                        if (![...inspection.querySelectorAll("a")].some(link => link.href.includes("corerule-page=DD"))) return false;
+                    }
+                    return true;
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
