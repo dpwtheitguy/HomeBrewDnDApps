@@ -1,6 +1,696 @@
 {
   "schema_version": 1,
   "records": {
+    "open5e-vom:vom_impaling-lance": [
+      {
+        "label": "D&D 2024 adaptation · Impaling Lance",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_lance",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Piercing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed (unless mounted)",
+          "Mastery": "Topple",
+          "Weight": "6 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "On a natural 20 against a creature, the weapon lodges in it. A Medium or smaller target within 5 feet of a wall or solid object is also Restrained while the weapon remains embedded. At the end of each of the target’s turns, roll 1d10 Piercing damage with no modifiers. The target or another creature within reach can use an action to make a DC 13 Strength check, pulling the weapon free on a success. You can speak the command word to release it without an action.",
+          "Conversion notes": "Uses the 2024 Lance profile. The conversion uses the base weapon dice for the recurring damage, preserves the grip used for the embedding hit, and treats the command as a verbal release. You cannot attack with the weapon while it is embedded.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 27."
+        }
+      }
+    ],
+    "open5e-vom:vom_impaling-morningstar": [
+      {
+        "label": "D&D 2024 adaptation · Impaling Morningstar",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_morningstar",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "4 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "On a natural 20 against a creature, the weapon lodges in it. A Medium or smaller target within 5 feet of a wall or solid object is also Restrained while the weapon remains embedded. At the end of each of the target’s turns, roll 1d8 Piercing damage with no modifiers. The target or another creature within reach can use an action to make a DC 13 Strength check, pulling the weapon free on a success. You can speak the command word to release it without an action.",
+          "Conversion notes": "Uses the 2024 Morningstar profile. The conversion uses the base weapon dice for the recurring damage, preserves the grip used for the embedding hit, and treats the command as a verbal release. You cannot attack with the weapon while it is embedded.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 27."
+        }
+      }
+    ],
+    "open5e-vom:vom_impaling-pike": [
+      {
+        "label": "D&D 2024 adaptation · Impaling Pike",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_pike",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Piercing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Push",
+          "Weight": "18 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "On a natural 20 against a creature, the weapon lodges in it. A Medium or smaller target within 5 feet of a wall or solid object is also Restrained while the weapon remains embedded. At the end of each of the target’s turns, roll 1d10 Piercing damage with no modifiers. The target or another creature within reach can use an action to make a DC 13 Strength check, pulling the weapon free on a success. You can speak the command word to release it without an action.",
+          "Conversion notes": "Uses the 2024 Pike profile. The conversion uses the base weapon dice for the recurring damage, preserves the grip used for the embedding hit, and treats the command as a verbal release. You cannot attack with the weapon while it is embedded.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 27."
+        }
+      }
+    ],
+    "open5e-vom:vom_impaling-rapier": [
+      {
+        "label": "D&D 2024 adaptation · Impaling Rapier",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_rapier",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "On a natural 20 against a creature, the weapon lodges in it. A Medium or smaller target within 5 feet of a wall or solid object is also Restrained while the weapon remains embedded. At the end of each of the target’s turns, roll 1d8 Piercing damage with no modifiers. The target or another creature within reach can use an action to make a DC 13 Strength check, pulling the weapon free on a success. You can speak the command word to release it without an action.",
+          "Conversion notes": "Uses the 2024 Rapier profile. The conversion uses the base weapon dice for the recurring damage, preserves the grip used for the embedding hit, and treats the command as a verbal release. You cannot attack with the weapon while it is embedded.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 27."
+        }
+      }
+    ],
+    "open5e-vom:vom_impaling-warpick": [
+      {
+        "label": "D&D 2024 adaptation · Impaling War Pick",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_war-pick",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing (1d10 with two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "On a natural 20 against a creature, the weapon lodges in it. A Medium or smaller target within 5 feet of a wall or solid object is also Restrained while the weapon remains embedded. At the end of each of the target’s turns, roll 1d8 (1d10 if the embedding hit used two hands) Piercing damage with no modifiers. The target or another creature within reach can use an action to make a DC 13 Strength check, pulling the weapon free on a success. You can speak the command word to release it without an action.",
+          "Conversion notes": "Uses the 2024 War Pick profile. The conversion uses the base weapon dice for the recurring damage, preserves the grip used for the embedding hit, and treats the command as a verbal release. You cannot attack with the weapon while it is embedded.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 27."
+        }
+      }
+    ],
+    "open5e-vom:vom_knockabout-billet": [
+      {
+        "label": "D&D 2024 adaptation · Knockabout Billet",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Bludgeoning + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Light",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Once per hour when you hit a creature no more than one size larger than you, you can try to shove it as part of that hit. The target chooses a Strength or Dexterity save against DC 8 + your Strength modifier + Proficiency Bonus. On a failure, knock it Prone or push it 5 feet away. The club deals its normal damage regardless of the save.",
+          "Conversion notes": "Replaces the source’s contested shove using the attack roll with the 2024 Shove save. The ability retains the once-per-hour limit.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 27."
+        }
+      }
+    ],
+    "open5e-vom:vom_kyshaarths-fang": [
+      {
+        "label": "D&D 2024 adaptation · Kyshaarth’s Fang",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "On a hit, add 2d6 Necrotic damage. If you are in Dim Light or Darkness at the time of the hit, regain Hit Points equal to half the Necrotic damage actually dealt by this power, rounded down.",
+          "Conversion notes": "Uses the 2024 Dagger. Calculate healing after the target’s damage defenses.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 27."
+        }
+      }
+    ],
+    "open5e-vom:vom_leaf-bladed-greatsword": [
+      {
+        "label": "D&D 2024 adaptation · Leaf-Bladed Greatsword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 Slashing + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "6 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When you hit an Aberration or Undead, deal an extra 1d8 Slashing damage. Once per dawn, use a Magic action to cast Barkskin on yourself for 1 hour. It raises your AC to 17 if it is lower and requires no Concentration.",
+          "Conversion notes": "Uses the 2024 Greatsword profile and Barkskin spell, with the item’s printed action cost and self-only targeting.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 27.",
+          "2024 spell": "https://www.dndbeyond.com/spells/2618907-barkskin"
+        }
+      }
+    ],
+    "open5e-vom:vom_leaf-bladed-longsword": [
+      {
+        "label": "D&D 2024 adaptation · Leaf-Bladed Longsword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When you hit an Aberration or Undead, deal an extra 1d8 Slashing damage. Once per dawn, use a Magic action to cast Barkskin on yourself for 1 hour. It raises your AC to 17 if it is lower and requires no Concentration.",
+          "Conversion notes": "Uses the 2024 Longsword profile and Barkskin spell, with the item’s printed action cost and self-only targeting.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 27.",
+          "2024 spell": "https://www.dndbeyond.com/spells/2618907-barkskin"
+        }
+      }
+    ],
+    "open5e-vom:vom_leaf-bladed-rapier": [
+      {
+        "label": "D&D 2024 adaptation · Leaf-Bladed Rapier",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_rapier",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When you hit an Aberration or Undead, deal an extra 1d8 Piercing damage. Once per dawn, use a Magic action to cast Barkskin on yourself for 1 hour. It raises your AC to 17 if it is lower and requires no Concentration.",
+          "Conversion notes": "Uses the 2024 Rapier profile and Barkskin spell, with the item’s printed action cost and self-only targeting.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 27.",
+          "2024 spell": "https://www.dndbeyond.com/spells/2618907-barkskin"
+        }
+      }
+    ],
+    "open5e-vom:vom_leaf-bladed-scimitar": [
+      {
+        "label": "D&D 2024 adaptation · Leaf-Bladed Scimitar",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scimitar",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Slashing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When you hit an Aberration or Undead, deal an extra 1d8 Slashing damage. Once per dawn, use a Magic action to cast Barkskin on yourself for 1 hour. It raises your AC to 17 if it is lower and requires no Concentration.",
+          "Conversion notes": "Uses the 2024 Scimitar profile and Barkskin spell, with the item’s printed action cost and self-only targeting.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 27.",
+          "2024 spell": "https://www.dndbeyond.com/spells/2618907-barkskin"
+        }
+      }
+    ],
+    "open5e-vom:vom_leaf-bladed-shortsword": [
+      {
+        "label": "D&D 2024 adaptation · Leaf-Bladed Shortsword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "When you hit an Aberration or Undead, deal an extra 1d8 Piercing damage. Once per dawn, use a Magic action to cast Barkskin on yourself for 1 hour. It raises your AC to 17 if it is lower and requires no Concentration.",
+          "Conversion notes": "Uses the 2024 Shortsword profile and Barkskin spell, with the item’s printed action cost and self-only targeting.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 27.",
+          "2024 spell": "https://www.dndbeyond.com/spells/2618907-barkskin"
+        }
+      }
+    ],
+    "open5e-vom:vom_larkmail": [
+      {
+        "label": "D&D 2024 adaptation · Larkmail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy",
+          "Strength requirement": "13. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing the armor, you have Advantage on Charisma (Performance) checks made with an instrument. Once per dawn while playing an instrument, use a Bonus Action to choose any number of creatures within 30 feet that can hear you. Each makes a DC 15 Charisma save or has the Charmed condition with you as the charmer for 1 minute.",
+          "Conversion notes": "Uses 2024 Chain Mail (+1) and the Charmed condition. The printed item requires attunement.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 27."
+        }
+      }
+    ],
+    "open5e-vom:vom_ghost-barding-breastplate": [
+      {
+        "label": "D&D 2024 adaptation · Ghost Barding Breastplate",
+        "status": "original-draft",
+        "profile_kind": "adapted-barding",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Barding",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_breastplate",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "1 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Special powers": "Use the listed armor formula only against attacks made by Undead. A Beast wearing it adds +1 AC against those attacks and has Advantage on saves against spells and special abilities of Undead. Against other attackers, use the wearer’s normal AC without the barding.",
+          "Conversion notes": "Uses the named 2024 armor’s base formula and keeps the source’s conditional protection, 1 lb weight, and exemptions from Strength requirements and Stealth disadvantage. Fit it to the wearer as barding.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 24.",
+          "AC scope": "Against attacks made by Undead. Add +1 if the wearer is a Beast."
+        },
+        "barding": true
+      }
+    ],
+    "open5e-vom:vom_ghost-barding-chain-mail": [
+      {
+        "label": "D&D 2024 adaptation · Ghost Barding Chain Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-barding",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Barding",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "16",
+          "Training": "Heavy",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "1 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Special powers": "Use the listed armor formula only against attacks made by Undead. A Beast wearing it adds +1 AC against those attacks and has Advantage on saves against spells and special abilities of Undead. Against other attackers, use the wearer’s normal AC without the barding.",
+          "Conversion notes": "Uses the named 2024 armor’s base formula and keeps the source’s conditional protection, 1 lb weight, and exemptions from Strength requirements and Stealth disadvantage. Fit it to the wearer as barding.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 24.",
+          "AC scope": "Against attacks made by Undead. Add +1 if the wearer is a Beast."
+        },
+        "barding": true
+      }
+    ],
+    "open5e-vom:vom_ghost-barding-chain-shirt": [
+      {
+        "label": "D&D 2024 adaptation · Ghost Barding Chain Shirt",
+        "status": "original-draft",
+        "profile_kind": "adapted-barding",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Barding",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "1 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Special powers": "Use the listed armor formula only against attacks made by Undead. A Beast wearing it adds +1 AC against those attacks and has Advantage on saves against spells and special abilities of Undead. Against other attackers, use the wearer’s normal AC without the barding.",
+          "Conversion notes": "Uses the named 2024 armor’s base formula and keeps the source’s conditional protection, 1 lb weight, and exemptions from Strength requirements and Stealth disadvantage. Fit it to the wearer as barding.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 24.",
+          "AC scope": "Against attacks made by Undead. Add +1 if the wearer is a Beast."
+        },
+        "barding": true
+      }
+    ],
+    "open5e-vom:vom_ghost-barding-half-plate": [
+      {
+        "label": "D&D 2024 adaptation · Ghost Barding Half Plate",
+        "status": "original-draft",
+        "profile_kind": "adapted-barding",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Barding",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_half-plate-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "1 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Special powers": "Use the listed armor formula only against attacks made by Undead. A Beast wearing it adds +1 AC against those attacks and has Advantage on saves against spells and special abilities of Undead. Against other attackers, use the wearer’s normal AC without the barding.",
+          "Conversion notes": "Uses the named 2024 armor’s base formula and keeps the source’s conditional protection, 1 lb weight, and exemptions from Strength requirements and Stealth disadvantage. Fit it to the wearer as barding.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 24.",
+          "AC scope": "Against attacks made by Undead. Add +1 if the wearer is a Beast."
+        },
+        "barding": true
+      }
+    ],
+    "open5e-vom:vom_ghost-barding-hide": [
+      {
+        "label": "D&D 2024 adaptation · Ghost Barding Hide",
+        "status": "original-draft",
+        "profile_kind": "adapted-barding",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Barding",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "12 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "1 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Special powers": "Use the listed armor formula only against attacks made by Undead. A Beast wearing it adds +1 AC against those attacks and has Advantage on saves against spells and special abilities of Undead. Against other attackers, use the wearer’s normal AC without the barding.",
+          "Conversion notes": "Uses the named 2024 armor’s base formula and keeps the source’s conditional protection, 1 lb weight, and exemptions from Strength requirements and Stealth disadvantage. Fit it to the wearer as barding.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 24.",
+          "AC scope": "Against attacks made by Undead. Add +1 if the wearer is a Beast."
+        },
+        "barding": true
+      }
+    ],
+    "open5e-vom:vom_ghost-barding-leather": [
+      {
+        "label": "D&D 2024 adaptation · Ghost Barding Leather",
+        "status": "original-draft",
+        "profile_kind": "adapted-barding",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Barding",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "11 + Dex modifier",
+          "Training": "Light",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "1 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Special powers": "Use the listed armor formula only against attacks made by Undead. A Beast wearing it adds +1 AC against those attacks and has Advantage on saves against spells and special abilities of Undead. Against other attackers, use the wearer’s normal AC without the barding.",
+          "Conversion notes": "Uses the named 2024 armor’s base formula and keeps the source’s conditional protection, 1 lb weight, and exemptions from Strength requirements and Stealth disadvantage. Fit it to the wearer as barding.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 24.",
+          "AC scope": "Against attacks made by Undead. Add +1 if the wearer is a Beast."
+        },
+        "barding": true
+      }
+    ],
+    "open5e-vom:vom_ghost-barding-padded": [
+      {
+        "label": "D&D 2024 adaptation · Ghost Barding Padded",
+        "status": "original-draft",
+        "profile_kind": "adapted-barding",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Barding",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "11 + Dex modifier",
+          "Training": "Light",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "1 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Special powers": "Use the listed armor formula only against attacks made by Undead. A Beast wearing it adds +1 AC against those attacks and has Advantage on saves against spells and special abilities of Undead. Against other attackers, use the wearer’s normal AC without the barding.",
+          "Conversion notes": "Uses the named 2024 armor’s base formula and keeps the source’s conditional protection, 1 lb weight, and exemptions from Strength requirements and Stealth disadvantage. Fit it to the wearer as barding.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 24.",
+          "AC scope": "Against attacks made by Undead. Add +1 if the wearer is a Beast."
+        },
+        "barding": true
+      }
+    ],
+    "open5e-vom:vom_ghost-barding-plate": [
+      {
+        "label": "D&D 2024 adaptation · Ghost Barding Plate",
+        "status": "original-draft",
+        "profile_kind": "adapted-barding",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Barding",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "1 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Special powers": "Use the listed armor formula only against attacks made by Undead. A Beast wearing it adds +1 AC against those attacks and has Advantage on saves against spells and special abilities of Undead. Against other attackers, use the wearer’s normal AC without the barding.",
+          "Conversion notes": "Uses the named 2024 armor’s base formula and keeps the source’s conditional protection, 1 lb weight, and exemptions from Strength requirements and Stealth disadvantage. Fit it to the wearer as barding.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 24.",
+          "AC scope": "Against attacks made by Undead. Add +1 if the wearer is a Beast."
+        },
+        "barding": true
+      }
+    ],
+    "open5e-vom:vom_ghost-barding-ring-mail": [
+      {
+        "label": "D&D 2024 adaptation · Ghost Barding Ring Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-barding",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Barding",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_ring-mail",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "14",
+          "Training": "Heavy",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "1 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Special powers": "Use the listed armor formula only against attacks made by Undead. A Beast wearing it adds +1 AC against those attacks and has Advantage on saves against spells and special abilities of Undead. Against other attackers, use the wearer’s normal AC without the barding.",
+          "Conversion notes": "Uses the named 2024 armor’s base formula and keeps the source’s conditional protection, 1 lb weight, and exemptions from Strength requirements and Stealth disadvantage. Fit it to the wearer as barding.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 24.",
+          "AC scope": "Against attacks made by Undead. Add +1 if the wearer is a Beast."
+        },
+        "barding": true
+      }
+    ],
+    "open5e-vom:vom_ghost-barding-scale-mail": [
+      {
+        "label": "D&D 2024 adaptation · Ghost Barding Scale Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-barding",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Barding",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "1 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Special powers": "Use the listed armor formula only against attacks made by Undead. A Beast wearing it adds +1 AC against those attacks and has Advantage on saves against spells and special abilities of Undead. Against other attackers, use the wearer’s normal AC without the barding.",
+          "Conversion notes": "Uses the named 2024 armor’s base formula and keeps the source’s conditional protection, 1 lb weight, and exemptions from Strength requirements and Stealth disadvantage. Fit it to the wearer as barding.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 24.",
+          "AC scope": "Against attacks made by Undead. Add +1 if the wearer is a Beast."
+        },
+        "barding": true
+      }
+    ],
+    "open5e-vom:vom_ghost-barding-splint": [
+      {
+        "label": "D&D 2024 adaptation · Ghost Barding Splint",
+        "status": "original-draft",
+        "profile_kind": "adapted-barding",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Barding",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "1 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Special powers": "Use the listed armor formula only against attacks made by Undead. A Beast wearing it adds +1 AC against those attacks and has Advantage on saves against spells and special abilities of Undead. Against other attackers, use the wearer’s normal AC without the barding.",
+          "Conversion notes": "Uses the named 2024 armor’s base formula and keeps the source’s conditional protection, 1 lb weight, and exemptions from Strength requirements and Stealth disadvantage. Fit it to the wearer as barding.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 24.",
+          "AC scope": "Against attacks made by Undead. Add +1 if the wearer is a Beast."
+        },
+        "barding": true
+      }
+    ],
+    "open5e-vom:vom_ghost-barding-studded-leather": [
+      {
+        "label": "D&D 2024 adaptation · Ghost Barding Studded Leather",
+        "status": "original-draft",
+        "profile_kind": "adapted-barding",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Barding",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_studded-leather-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "1 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Special powers": "Use the listed armor formula only against attacks made by Undead. A Beast wearing it adds +1 AC against those attacks and has Advantage on saves against spells and special abilities of Undead. Against other attackers, use the wearer’s normal AC without the barding.",
+          "Conversion notes": "Uses the named 2024 armor’s base formula and keeps the source’s conditional protection, 1 lb weight, and exemptions from Strength requirements and Stealth disadvantage. Fit it to the wearer as barding.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 24.",
+          "AC scope": "Against attacks made by Undead. Add +1 if the wearer is a Beast."
+        },
+        "barding": true
+      }
+    ],
     "open5e-vom:vom_hammer-of-throwing": [
       {
         "label": "D&D 2024 adaptation · Hammer of Throwing",

@@ -1869,6 +1869,26 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Vault of Magic distinguishes conditional barding and embedded weapon damage': '''(async () => {
+                    for (const [id, terms] of [
+                        ["ghost-barding-plate", ["Armor class18", "1 lb", "only against attacks made by Undead", "A Beast"]],
+                        ["ghost-barding-half-plate", ["15 + Dex modifier (max +2)", "Stealth disadvantageNo"]],
+                        ["impaling-pike", ["1d10 Piercing", "10 feet melee", "DC 13 Strength", "wall or solid object"]],
+                        ["impaling-warpick", ["1d10 if the embedding hit used two hands", "Sap"]],
+                        ["knockabout-billet", ["Once per hour", "DC 8 +", "normal damage"]],
+                        ["kyshaarths-fang", ["2d6 Necrotic", "Dim Light or Darkness", "rounded down"]],
+                        ["leaf-bladed-rapier", ["1d8 Piercing damage", "Barkskin", "AC to 17"]],
+                        ["larkmail", ["Armor class17", "DC 15 Charisma", "AttunementRequired"]],
+                    ]) {
+                        inspect("open5e-vom:vom_" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))
+                            || (id.startsWith("ghost-barding") && inspection.textContent.includes("Armor statistics"))) {
+                            throw new Error("Missing fields on " + id);
+                        }
+                    }
+                    return true;
+                })()''',
                 'Vault of Magic restores Iceblink powers and shield reactions': '''(async () => {
                     for (const [id, terms] of [
                         ["iceblink-greatsword", ["2d6 Slashing", "Freeze Water", "60-foot radius", "Snowblind", "DC 15 Constitution"]],

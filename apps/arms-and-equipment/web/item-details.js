@@ -389,7 +389,9 @@ function addItemDetails(panel, item, supplements) {
             locations.forEach(title => acquisition.appendChild(sourceLink(wikiLink(title), title)));
         }
     }
-    addPublishedEquipment(panel, item, publishedArmor, coreArmor);
+    if (!entries.some(entry => entry.profile_kind === "adapted-barding")) {
+        addPublishedEquipment(panel, item, publishedArmor, coreArmor);
+    }
     addSpellReference(panel, item, spells);
     add2024Crafting(panel, item);
     addRecordedEncounters(panel, item);

@@ -173,6 +173,9 @@ def main():
         'vom_hidden-armament': 26,
         'vom_humble-cudgel-of-temperance': 26,
         'vom_impact-club': 26,
+        'vom_knockabout-billet': 27,
+        'vom_kyshaarths-fang': 27,
+        'vom_larkmail': 27,
     }
     vault_weapon_corrections = {
         'vom_anchor-of-striking': ('Anchor of Striking', 'srd_war-pick', 11),
@@ -216,13 +219,18 @@ def main():
                         vault_page = 25
                     if raw['pk'].startswith('vom_iceblink-'):
                         vault_page = 26
+                    if raw['pk'].startswith(('vom_impaling-', 'vom_leaf-bladed-')):
+                        vault_page = 27
+                    if raw['pk'].startswith('vom_ghost-barding-'):
+                        vault_page = 24
+                        f = {**f, 'weight': '1.000'}
                     if raw['pk'] == 'vom_hidden-armament':
                         f = {**f, 'weapon': None}
                     if raw['pk'] == 'vom_fountmail':
                         f = {**f, 'armor': 'srd_chain-mail', 'weight': '55.000'}
                     if (raw['pk'] in ('vom_animated-chain-mail', 'vom_blood-soaked-hide', 'vom_brazen-bulwark',
                                       'vom_crusaders-shield', 'vom_fellforged-armor', 'vom_fountmail',
-                                      'vom_goblin-shield', 'vom_gorgon-scale', 'vom_grasping-shield')
+                                      'vom_goblin-shield', 'vom_gorgon-scale', 'vom_grasping-shield', 'vom_larkmail')
                             or raw['pk'].startswith(('vom_bloodprice-', 'vom_chillblain-', 'vom_encouraging-',
                                                      'vom_grave-ward-'))):
                         f = {**f, 'requires_attunement': True}

@@ -284,6 +284,10 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
                             or not re.fullmatch(r'[1-9]\d*(?:\.\d+)? lb', weight)):
                         errors.append('barding needs a worn armor base and a positive weight')
                     fields.update(role='barding', weight=weight)
+                    if mapped_fields.get('Strength requirement', '').rstrip('.') == 'None':
+                        fields['strength_requirement'] = 'None'
+                    if mapped_fields.get('Stealth disadvantage') in ('Yes', 'No'):
+                        fields['stealth_disadvantage'] = mapped_fields['Stealth disadvantage']
                 attuned_item = item if public else target
                 fields['attunement'] = 'Required' if attuned_item['requires_attunement'] else 'No'
                 if game_adaptation or source_adaptation:
