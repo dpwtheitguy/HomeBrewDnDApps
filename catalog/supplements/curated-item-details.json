@@ -1,6 +1,335 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-35-reference:1afb17b336476ec4": [
+      {
+        "label": "D&D 2024 adaptation · Revolver",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Optional ranged firearm",
+          "Damage": "2d8 Piercing + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if the DM grants firearm proficiency.",
+          "Range": "40/120 feet",
+          "Weight": "3 lb",
+          "Properties": "Ammunition, Reload (6)",
+          "Mastery": "Sap",
+          "Activation": "Make a ranged weapon attack, expending one loaded shot.",
+          "Ammunition": "6 bullets. Reload with an action or Bonus Action.",
+          "Special powers": "Apply the listed mastery only if a feature grants mastery with this weapon.",
+          "Conversion notes": "Uses the published 2024 damage, range and mastery and the earlier DMG reload capacity.",
+          "2024 firearm": "https://www.dndbeyond.com/equipment/45-revolver",
+          "Earlier DMG firearm capacities": "https://www.dndbeyond.com/magic-items/5400-weapon-1",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 146 (PDF p. 147).",
+          "Attunement": "None",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment"
+        }
+      }
+    ],
+    "dmg-35-reference:b1546608e4e26fcf": [
+      {
+        "label": "D&D 2024 adaptation · Hunting rifle",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Optional ranged firearm",
+          "Damage": "2d10 Piercing + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if the DM grants firearm proficiency.",
+          "Range": "80/240 feet",
+          "Weight": "8 lb",
+          "Properties": "Ammunition, Reload (5), Two-Handed",
+          "Mastery": "Slow",
+          "Activation": "Make a ranged weapon attack, expending one loaded shot.",
+          "Ammunition": "5 bullets. Reload with an action or Bonus Action.",
+          "Special powers": "Apply the listed mastery only if a feature grants mastery with this weapon.",
+          "Conversion notes": "Uses the published 2024 damage, range and mastery and the earlier DMG reload capacity.",
+          "2024 firearm": "https://www.dndbeyond.com/equipment/46-rifle-hunting",
+          "Earlier DMG firearm capacities": "https://www.dndbeyond.com/magic-items/5400-weapon-1",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 146 (PDF p. 147).",
+          "Attunement": "None",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment"
+        }
+      }
+    ],
+    "dmg-35-reference:b3c91a6efc64bea4": [
+      {
+        "label": "D&D 2024 adaptation · Automatic rifle",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Optional ranged firearm",
+          "Damage": "2d8 Piercing + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if the DM grants firearm proficiency.",
+          "Range": "80/240 feet",
+          "Weight": "8 lb",
+          "Properties": "Ammunition, Reload (30), Two-Handed, Burst Fire",
+          "Mastery": "Slow",
+          "Activation": "Make a ranged weapon attack, expending one loaded shot.",
+          "Ammunition": "30 bullets. Reload with an action or Bonus Action.",
+          "Special powers": "As an action, expend ten loaded rounds to affect a 10-foot Cube within 80 feet. Each creature in the Cube makes a DC 15 Dexterity save, taking 2d8 Piercing damage on a failure. Burst Fire involves no attack roll or mastery.",
+          "Conversion notes": "Uses the published 2024 damage, range and mastery and the earlier DMG reload capacity.",
+          "2024 firearm": "https://www.dndbeyond.com/equipment/47-rifle-automatic",
+          "Earlier DMG firearm capacities": "https://www.dndbeyond.com/magic-items/5400-weapon-1",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 146 (PDF p. 147).",
+          "Attunement": "None",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment"
+        }
+      }
+    ],
+    "dmg-35-reference:890e8d957e12136a": [
+      {
+        "label": "D&D 2024 adaptation · Shotgun",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Optional ranged firearm",
+          "Damage": "2d8 Piercing + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if the DM grants firearm proficiency.",
+          "Range": "30/90 feet",
+          "Weight": "7 lb",
+          "Properties": "Ammunition, Reload (2), Two-Handed",
+          "Mastery": "Push",
+          "Activation": "Make a ranged weapon attack, expending one loaded shot.",
+          "Ammunition": "2 shells. Reload with an action or Bonus Action.",
+          "Special powers": "Apply the listed mastery only if a feature grants mastery with this weapon.",
+          "Conversion notes": "Uses the published 2024 damage, range and mastery and the earlier DMG reload capacity.",
+          "2024 firearm": "https://www.dndbeyond.com/equipment/48-shotgun",
+          "Earlier DMG firearm capacities": "https://www.dndbeyond.com/magic-items/5400-weapon-1",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 146 (PDF p. 147).",
+          "Attunement": "None",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment"
+        }
+      }
+    ],
+    "dmg-35-reference:23e9278077b663f0": [
+      {
+        "label": "D&D 2024 adaptation · Antimatter rifle",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Optional ranged firearm",
+          "Damage": "6d8 Necrotic + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if the DM grants firearm proficiency.",
+          "Range": "120/360 feet",
+          "Weight": "10 lb",
+          "Properties": "Ammunition, Reload (2), Two-Handed",
+          "Mastery": "Sap",
+          "Activation": "Make a ranged weapon attack, expending one loaded shot.",
+          "Ammunition": "2 shots per energy cell. Reload with an action or Bonus Action.",
+          "Special powers": "Apply the listed mastery only if a feature grants mastery with this weapon.",
+          "Conversion notes": "Uses the published 2024 damage, range and mastery and the earlier DMG reload capacity.",
+          "2024 firearm": "https://www.dndbeyond.com/equipment/50-antimatter-rifle",
+          "Earlier DMG firearm capacities": "https://www.dndbeyond.com/magic-items/5400-weapon-1",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 146 (PDF p. 147).",
+          "Attunement": "None",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment"
+        }
+      }
+    ],
+    "dmg-35-reference:10c616daf88b8fd2": [
+      {
+        "label": "D&D 2024 adaptation · Laser rifle",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Optional ranged firearm",
+          "Damage": "3d8 Radiant + Dexterity modifier",
+          "Attack bonus": "Dexterity modifier plus Proficiency Bonus if the DM grants firearm proficiency.",
+          "Range": "100/300 feet",
+          "Weight": "7 lb",
+          "Properties": "Ammunition, Reload (30), Two-Handed",
+          "Mastery": "Slow",
+          "Activation": "Make a ranged weapon attack, expending one loaded shot.",
+          "Ammunition": "30 shots per energy cell. Reload with an action or Bonus Action.",
+          "Special powers": "Apply the listed mastery only if a feature grants mastery with this weapon.",
+          "Conversion notes": "Uses the published 2024 damage, range and mastery and the earlier DMG reload capacity.",
+          "2024 firearm": "https://www.dndbeyond.com/equipment/51-laser-rifle",
+          "Earlier DMG firearm capacities": "https://www.dndbeyond.com/magic-items/5400-weapon-1",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 146 (PDF p. 147).",
+          "Attunement": "None",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment"
+        }
+      }
+    ],
+    "dmg-35-reference:f6203078fe4978ea": [
+      {
+        "label": "D&D 2024 adaptation · Bomb",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Optional campaign equipment",
+          "Damage": "2d6 Fire",
+          "Attack bonus": "None. Resolve the effect directly.",
+          "Range": "30 feet",
+          "Weight": "1 lb",
+          "Properties": "Consumable",
+          "Mastery": "None",
+          "Area": "5-foot-radius Sphere",
+          "Activation": "As a Utilize action, expend the bomb and choose a point within range. Each creature in the area makes a DC 15 Dexterity save, taking full damage on a failure or half on a success.",
+          "Conversion notes": "Keeps the original dice, area, save DC and legacy 150 gp price. The 30-foot placement and point targeting replace range increments and scatter.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 145 (PDF p. 146).",
+          "Attunement": "None",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment"
+        }
+      }
+    ],
+    "dmg-35-reference:73a78a0ace29b929": [
+      {
+        "label": "D&D 2024 adaptation · Smoke bomb",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Optional campaign equipment",
+          "Damage": "None",
+          "Attack bonus": "None. Resolve the effect directly.",
+          "Range": "30 feet",
+          "Weight": "1 lb",
+          "Properties": "Consumable",
+          "Mastery": "None",
+          "Area": "20-foot-radius Sphere",
+          "Activation": "As a Utilize action, expend the bomb and choose a point within range. At the start of your second turn after activation, a smoke cloud centered there makes its area Heavily Obscured. It lasts 1 minute, or until a strong wind disperses it.",
+          "Conversion notes": "Keeps the two-round delay, area and legacy 70 gp price. The 30-foot placement and fixed duration are conversion choices.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 145 (PDF p. 146).",
+          "Attunement": "None",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment"
+        }
+      }
+    ],
+    "dmg-35-reference:ada327d6e5996886": [
+      {
+        "label": "D&D 2024 adaptation · Dynamite",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Optional campaign equipment",
+          "Damage": "2d6 Bludgeoning",
+          "Attack bonus": "None. Resolve the effect directly.",
+          "Range": "30 feet",
+          "Weight": "1 lb",
+          "Properties": "Consumable",
+          "Mastery": "None",
+          "Area": "5-foot-radius Sphere",
+          "Activation": "As a Utilize action, expend one or more units and choose a point within range. Each creature in the area makes a DC 15 Dexterity save, taking full damage on a failure or half on a success. Each additional unit adds 1d6 damage and 5 feet to the radius, to a maximum of 10d6 and 20 feet.",
+          "Conversion notes": "Uses 2d6 from the legacy item description, which conflicts with the 3d6 table row. Replaces fuse timing and scatter with immediate point placement.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 146 (PDF p. 147).",
+          "Attunement": "None",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment"
+        }
+      }
+    ],
+    "dmg-35-reference:595b55ea73cb5cbe": [
+      {
+        "label": "D&D 2024 adaptation · Fragmentation grenade",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Optional campaign equipment",
+          "Damage": "4d6 Slashing",
+          "Attack bonus": "None. Resolve the effect directly.",
+          "Range": "30 feet by hand, or 70 feet with the Grenade Launcher",
+          "Weight": "1 lb",
+          "Properties": "Consumable ammunition",
+          "Mastery": "None",
+          "Area": "20-foot-radius Sphere",
+          "Activation": "Expend the grenade with a Utilize action or as ammunition for the Grenade Launcher. Choose a point within the applicable range. Each creature in the area makes a DC 15 Dexterity save, taking full damage on a failure or half on a success.",
+          "Conversion notes": "Keeps the 3.5 damage and area. Fixed point placement replaces range increments and scatter.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 146 (PDF p. 147).",
+          "Attunement": "None",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment"
+        },
+        "related_item": {
+          "id": "dmg-35-reference:e0e2349bf59417fe",
+          "label": "Grenade Launcher"
+        }
+      }
+    ],
+    "dmg-35-reference:ffba257c6a185446": [
+      {
+        "label": "D&D 2024 adaptation · Smoke grenade",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Optional campaign equipment",
+          "Damage": "None",
+          "Attack bonus": "None. Resolve the effect directly.",
+          "Range": "30 feet by hand, or 70 feet with the Grenade Launcher",
+          "Weight": "2 lb",
+          "Properties": "Consumable ammunition",
+          "Mastery": "None",
+          "Area": "20-foot-radius Sphere",
+          "Activation": "Expend the grenade with a Utilize action or as ammunition for the Grenade Launcher. Choose a point within the applicable range. At the start of your next turn, the smoke makes its area Heavily Obscured for 1 minute or until a strong wind disperses it.",
+          "Conversion notes": "Keeps the area and one-round delay. Fixed point placement and duration replace legacy scatter and wind timing.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 146 (PDF p. 147).",
+          "Attunement": "None",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment"
+        },
+        "related_item": {
+          "id": "dmg-35-reference:e0e2349bf59417fe",
+          "label": "Grenade Launcher"
+        }
+      }
+    ],
+    "dmg-35-reference:e0e2349bf59417fe": [
+      {
+        "label": "D&D 2024 adaptation · Grenade launcher",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Optional campaign equipment",
+          "Damage": "Use the loaded grenade’s effect.",
+          "Attack bonus": "None. Resolve the effect directly.",
+          "Range": "70 feet",
+          "Weight": "7 lb",
+          "Properties": "Ammunition, Reload (1), Two-Handed",
+          "Mastery": "None",
+          "Area": "Use the loaded grenade’s area.",
+          "Activation": "As a Utilize action, expend one loaded Fragmentation Grenade or Smoke Grenade. Choose a point within range and resolve the grenade’s effect at that point. A separate Utilize action reloads one grenade.",
+          "Conversion notes": "Uses the source range increment as a fixed maximum, retains the one-round capacity and resolves saves on the ammunition record.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 146 (PDF p. 147).",
+          "Attunement": "None",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment"
+        },
+        "related_item": {
+          "id": "dmg-35-reference:595b55ea73cb5cbe",
+          "label": "Fragmentation Grenade"
+        }
+      }
+    ],
+    "dmg-35-reference:4b9028fe8cffb94b": [
+      {
+        "label": "D&D 2024 adaptation · Flamer",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Optional campaign equipment",
+          "Damage": "3d6 Fire",
+          "Attack bonus": "None. Resolve the effect directly.",
+          "Range": "200 feet",
+          "Weight": "8 lb",
+          "Properties": "Reload (10), Two-Handed",
+          "Mastery": "None",
+          "Area": "200-foot Line, 5 feet wide",
+          "Activation": "As a Utilize action, expend one charge. Each creature in the Line makes a DC 15 Dexterity save, taking full damage on a failure or half on a success. You can activate the flamer once per turn. A separate Utilize action replaces the ten-charge pack.",
+          "Conversion notes": "Keeps the futuristic weapon’s dice, Line dimensions and capacity. Adds a Dexterity save for the 2024 adaptation.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 146 (PDF p. 147).",
+          "Attunement": "None",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment"
+        }
+      }
+    ],
     "dmg-35-reference:f7e1ad58f819727d": [
       {
         "label": "D&D 2024 adaptation · Kama +1",

@@ -1740,6 +1740,31 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Optional DMG weapons show their conversion and source': '''(async () => {
+                    const cases = [
+                        ["1afb17b336476ec4", ["40/120 feet", "6 bullets", "Sap"]],
+                        ["b1546608e4e26fcf", ["2d10 Piercing", "5 bullets", "Slow"]],
+                        ["b3c91a6efc64bea4", ["Burst Fire", "10-foot Cube", "DC 15 Dexterity"]],
+                        ["890e8d957e12136a", ["30/90 feet", "2 shells", "Push"]],
+                        ["23e9278077b663f0", ["6d8 Necrotic", "120/360 feet"]],
+                        ["10c616daf88b8fd2", ["3d8 Radiant", "30 shots per energy cell"]],
+                        ["f6203078fe4978ea", ["2d6 Fire", "5-foot-radius Sphere"]],
+                        ["73a78a0ace29b929", ["second turn after activation", "Heavily Obscured"]],
+                        ["ada327d6e5996886", ["2d6 Bludgeoning", "conflicts with the 3d6 table row"]],
+                        ["595b55ea73cb5cbe", ["4d6 Slashing", "20-foot-radius Sphere", "Grenade Launcher"]],
+                        ["ffba257c6a185446", ["start of your next turn", "Heavily Obscured", "Grenade Launcher"]],
+                        ["e0e2349bf59417fe", ["70 feet", "Fragmentation Grenade or Smoke Grenade"]],
+                        ["4b9028fe8cffb94b", ["3d6 Fire", "200-foot Line", "once per turn"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dmg-35-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))
+                            || !inspection.textContent.includes("D&D 2024 adaptation")
+                            || !inspection.querySelector('a[href^="https://www.dndbeyond.com/"]')) return false;
+                    }
+                    return true;
+                })()''',
                 'Legacy martial weapons and treasure categories show their respective uses': '''(async () => {
                     const cases = [
                         ["dmg-35-reference:f7e1ad58f819727d", ["1d6 Slashing + Strength modifier + 1", "Topple"]],
