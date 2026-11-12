@@ -317,6 +317,16 @@ def main():
                     if correction := vault_weapon_corrections.get(raw['pk']):
                         corrected_name, corrected_weapon, vault_page = correction
                         f = {**f, 'name': corrected_name, 'weapon': corrected_weapon}
+                    if raw['pk'].startswith('vom_bloodfuel-'):
+                        vault_page = 15
+                    if raw['pk'].startswith('vom_bloodthirsty-'):
+                        vault_page = 16
+                    warding = re.fullmatch(r'vom_(.+)-of-warding-[123]', raw['pk'])
+                    if warding:
+                        vault_page = 13
+                        warded_base = {'hide-armor': 'hide', 'leather-armor': 'leather',
+                                       'padded-armor': 'padded'}.get(warding[1], warding[1])
+                        f = {**f, 'armor': 'srd_' + warded_base}
                     if raw['pk'].startswith('vom_bloodprice-'):
                         vault_page = 16
                     if raw['pk'].startswith('vom_buzzing-'):

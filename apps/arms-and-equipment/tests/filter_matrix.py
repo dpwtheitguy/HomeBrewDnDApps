@@ -1871,6 +1871,22 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Vault Bloodfuel, Bloodthirsty, and Warding keep their distinct triggers': '''(async () => {
+                    for (const [id, terms] of [
+                        ["bloodfuel-crossbow-hand", ["30/120 feet", "Hit Point Dice", "extra Necrotic damage", "Vex"]],
+                        ["bloodfuel-dagger", ["before rolling the attack", "Nick"]],
+                        ["bloodthirsty-greatsword", ["1 minute", "miss against it", "DC 15 Wisdom", "Graze"]],
+                        ["plate-of-warding-3", ["Armor class18", "+3 to the listed AC only", "Strength 15"]],
+                        ["padded-armor-of-warding-1", ["11 + Dex modifier", "+1 to the listed AC only", "Ward types"]],
+                    ]) {
+                        inspect("open5e-vom:vom_" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Vault of Magic restores four omitted item families and their variants': '''(async () => {
                     for (const [id, terms] of [
                         ["whip-of-the-blue-wyrm-plus-1", ["Uncommon", "1d6 Lightning"]],
