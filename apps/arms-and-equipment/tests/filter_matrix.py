@@ -1830,6 +1830,24 @@ def main():
                         if (!byId("custom-items").hidden) click("close-custom-items");
                     }
                 })()''',
+                'AD&D 2e cursed weapons and tridents show triggers and remedies': '''(async () => {
+                    const cases = [
+                        ["4e377c4455cc3052", ["Dash toward the nearest one", "Remove Curse is cast on you"]],
+                        ["aa290b3199d71e42", ["at least 1 damage", "Only Wish"]],
+                        ["e0ebea512c48ab29", ["nearest such creature", "including an ally"]],
+                        ["124740dbbcbe3db3", ["doubled if you threw it", "+2 or +3 variant"]],
+                        ["d0abf009ae95029a", ["DC 15 Wisdom", "cannot make attacks", "1d4 + 16"]],
+                        ["e1c7abdf4ab3ae28", ["240-foot hemisphere", "scan again", "1d6 + 18"]],
+                        ["eb120e2d883e2270", ["fully submerged", "Water Breathing", "Wish ends the binding"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dmg-2e-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))
+                            || inspection.textContent.includes("2024 provisional profile")) return false;
+                    }
+                    return true;
+                })()''',
                 'AD&D slayer swords keep the target-specific rules': '''(async () => {
                     const cases = [
                         ["fa0baa196a077ad0", ["Roll 1d10", "3d6 Slashing instead of 1d6"]],

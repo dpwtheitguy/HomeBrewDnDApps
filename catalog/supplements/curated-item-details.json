@@ -1,6 +1,210 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-2e-reference:4e377c4455cc3052": [
+      {
+        "label": "D&D 2024 adaptation · Sword +1, cursed",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01115.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing plus Strength modifier and +1. Use 1d10 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, with +1 applied.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee weapon attack. See Special powers for triggers and exceptions.",
+          "Special powers": "Curse. The first time you draw or attack with the sword, it binds to you. When you roll Initiative while a hostile creature is present, the sword appears in your hand if you have a free hand. If both hands are occupied, it replaces one held object of your choice, dropping that object in your space. While fighting a hostile creature you cannot drop or stow the sword. On each of your turns, if able, use your action to attack a hostile creature with it or Dash toward the nearest one if you cannot reach any. Once no conscious hostile creature remains within 60 feet, the compulsion ends. The binding persists until Remove Curse is cast on you.",
+          "Rarity": "Rare",
+          "Attunement": "None; the curse binds on its own trigger.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword +1, cursed.",
+          "Conversion notes": "Retains +1, compulsory fighting and the sword returning to the wielder’s hand. Uses initiative, a defined encounter boundary, and Remove Curse for the legacy release. Uses a 2024 Longsword as the default form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Curse rules": "https://www.dndbeyond.com/spells/2618943-remove-curse"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:aa290b3199d71e42": [
+      {
+        "label": "D&D 2024 adaptation · Sword -2, Cursed",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01125.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing + Strength modifier, or use 1d10 with two hands. Subtract 2 from damage against creatures in combat.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient. Subtract 2 against creatures in combat.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee weapon attack. See Special powers for triggers and exceptions.",
+          "Special powers": "Curse. The sword displays ordinary magic and reveals its penalty only when used against a creature in combat. On the first such attack it binds to you. Whenever you roll Initiative with hostile creatures present, it returns to your hand. If necessary you drop one held object of your choice to make room. While a hostile creature is within 60 feet, you cannot willingly drop or stow the sword or attack with another weapon. Its −2 applies to attack and damage rolls against creatures in combat. It deals at least 1 damage on a hit before Resistance or Immunity. Only Wish ends this binding.",
+          "Rarity": "Rare",
+          "Attunement": "None; the curse binds on its own trigger.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword -2, Cursed.",
+          "Conversion notes": "Keeps the hidden −2 penalty, minimum damage, and forced use. Wish stands in for the legacy limited wish or wish.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Curse rules": "https://www.dndbeyond.com/spells/2618943-remove-curse"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:e0ebea512c48ab29": [
+      {
+        "label": "D&D 2024 adaptation · Sword, Cursed Beserking",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01132.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Longsword conversion)",
+          "Damage": "1d8 Slashing plus Strength modifier and +2. Use 1d10 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, with +2 applied.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee weapon attack. See Special powers for triggers and exceptions.",
+          "Special powers": "Curse. When you first attack a creature with this sword in combat, it binds to you. It appears in your hand when you roll Initiative while bound, displacing one held object of your choice if necessary. When the sword first binds or you roll Initiative while bound, you enter a frenzy. During it you cannot willingly stow or drop the sword. While another living creature is within 60 feet, use your movement and action, if able, to approach and attack the nearest such creature with this sword, including an ally. Break ties at random. If you cannot reach it, use your action to Dash toward it. The compulsion ends if you are Incapacitated or no other living creature remains within 60 feet. Remove Curse or Wish can end the binding.",
+          "Rarity": "Rare",
+          "Attunement": "None; the curse binds on its own trigger.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Sword, Cursed Beserking.",
+          "Conversion notes": "Keeps +2, forced attacks on the closest living creature, and the exorcism or wish remedy. Defines the compulsion with 2024 movement and action rules. Uses a 2024 Longsword as the default form.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Curse rules": "https://www.dndbeyond.com/spells/2618943-remove-curse"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:124740dbbcbe3db3": [
+      {
+        "label": "D&D 2024 adaptation · Spear, Cursed Backbiter",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01109.htm.php.html",
+        "fields": {
+          "Category": "Simple melee weapon (Spear)",
+          "Damage": "1d6 Piercing + Strength modifier + 1, or 1d8 with two hands.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee, 20/60 feet thrown.",
+          "Properties": "Thrown, Versatile (1d8)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee or thrown weapon attack. The first time you make an attack with the spear on a turn, roll a d20 before resolving it.",
+          "Special powers": "The curse starts at a threshold of 1. If your curse roll is at or below the threshold, the attack hits you instead and you take its normal damage, doubled if you threw it. The threshold resets to 1. Otherwise, resolve the attack normally and increase the threshold by 1, to a maximum of 20. After the first backbite you cannot willingly part with the spear. If thrown, it returns immediately to your hand. Remove Curse ends the binding and resets the threshold. The spear itself remains cursed.",
+          "Attunement": "None; the curse binds on its first trigger.",
+          "Rarity": "Rare",
+          "Conversion notes": "Keeps the cumulative risk and doubled thrown damage. A curse roll replaces the special legacy Armor Class rules. Check once per turn to account for Extra Attack.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Spear, Cursed Backbiter.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Variant": "The default is +1. If the DM uses the legacy +2 or +3 variant, replace +1 on attack and damage rolls with the selected bonus, including damage to the wielder.",
+          "Curse rules": "https://www.dndbeyond.com/spells/2618943-remove-curse"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:d0abf009ae95029a": [
+      {
+        "label": "D&D 2024 adaptation · Trident of Submission",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01133.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Trident)",
+          "Damage": "1d8 Piercing + Strength modifier + 1, or 1d10 with two hands in melee.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee, 20/60 feet thrown.",
+          "Properties": "Thrown, Versatile (1d10)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Activation": "Once per turn when you hit a creature with the trident while attuned, you can spend 1 charge to compel a DC 15 Wisdom saving throw.",
+          "Special powers": "On a failure, the target has the Frightened condition for up to 1 minute. While Frightened this way, it cannot make attacks. It can repeat the save at the end of each of its turns, ending the effect on a success. A target immune to Frightened is unaffected.",
+          "Charges": "The trident has 1d4 + 16 charges when found. It never regains charges and remains a +1 trident at 0 charges.",
+          "Conversion notes": "Combines the legacy spell save and morale check into one Wisdom save and uses repeat saves for recovery. Keeps the +1 enhancement, finite charges, and loss of the will to fight.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Trident of Submission.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_trident",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:e1c7abdf4ab3ae28": [
+      {
+        "label": "D&D 2024 adaptation · Trident of Warning",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01135.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Trident)",
+          "Damage": "1d8 Piercing + Strength modifier + 2, or 1d10 with two hands in melee.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee, 20/60 feet thrown.",
+          "Properties": "Thrown, Versatile (1d10)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Activation": "Take a Magic action while holding the trident and spend 1 charge. Point it in a direction to scan a 240-foot hemisphere centered on you and facing that direction. At the start of your next turn, if you are still holding it and are not Incapacitated, you can scan again in any direction without spending another charge or action.",
+          "Special powers": "At each scan, learn the locations, depths, kinds, and count of hungry or hostile marine predators in the hemisphere. It requires neither line of sight nor Concentration.",
+          "Charges": "Roll 1d6 + 18 charges when found. The trident never regains charges and remains a +2 trident at 0 charges.",
+          "Conversion notes": "Uses a Magic action for the first scan and one follow-up to reflect the two rounds of sensing per charge. Keeps the 2e range and finite charge pool.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Trident of Warning.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_trident",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dmg-2e-reference:eb120e2d883e2270": [
+      {
+        "label": "D&D 2024 adaptation · Trident of Yearning",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD01136.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (Trident)",
+          "Damage": "1d8 Piercing + Strength modifier − 2, or 1d10 with two hands in melee.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient − 2.",
+          "Range": "5 feet melee, 20/60 feet thrown.",
+          "Properties": "Thrown, Versatile (1d10)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Attunement": "None. The curse binds when you grasp it.",
+          "Rarity": "Rare",
+          "Activation": "On first grasping the trident, you become bound and cannot willingly release it.",
+          "Special powers": "On your turns, use your movement and, if necessary, the Dash action to reach the deepest body of water you know how to reach that can cover you. If none is known, seek the nearest such body of water. Once you reach it, submerge and remain submerged. Use the normal underwater movement and suffocation rules.",
+          "Breaking the curse": "Wish ends the binding. Alternatively, while you are fully submerged, receiving the effects of a Water Breathing spell ends the binding. Once released, the trident remains cursed.",
+          "Conversion notes": "Keeps the −2 attack and damage modifiers, compulsion on grasp, and the two source remedies. Uses 2024 movement and suffocation rules.",
+          "Legacy source": "AD&D 2e Dungeon Master Guide, Appendix 3, Trident of Yearning.",
+          "2024 equipment rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_trident",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
     "dmg-2e-reference:02604a989b045298": [
       {
         "label": "D&D 2024 adaptation · Sword +2, Dragon Slayer (White)",
