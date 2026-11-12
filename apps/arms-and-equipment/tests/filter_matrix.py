@@ -993,6 +993,23 @@ def main():
                     }
                     return true;
                 })()''',
+                'Energy Bow Greatclub and Niko mace show the published powers': '''(async () => {
+                    const cases = [
+                        ["9058960", ["Energy Bow · Longbow", "Energy Bow · Shortbow", "DC 15 Strength",
+                            "DC 20 Strength (Athletics)", "5-foot Cube", "Energy Ladder"]],
+                        ["9058872", ["1d8 Thunder", "30-foot Cone", "50 Bludgeoning", "DC 20 Constitution",
+                            "Earthquake recharges at dawn"]],
+                        ["9058987", ["Requires attunement by a Spellcaster", "+9 to hit", "90-foot casting range",
+                            "6 charges", "1d6 expended charges at dawn"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dndbeyond:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term)) ||
+                            ![...inspection.querySelectorAll("a")].some(link => link.href.includes("/magic-items/" + id))) return false;
+                    }
+                    return true;
+                })()''',
                 'Published weapon variants and ammunition show exact rules': '''(async () => {
                     const cases = [
                         ["36822", ["Moon-Touched Sword · Glaive", "Moon-Touched Sword · Shortsword",

@@ -669,6 +669,102 @@
           "Quantity and value": "Often found or sold in lots of 10 or 20. A lot of 10 has the value of one potion of the same rarity."
         }
       }
+    ],
+    "dndbeyond:9058960": [
+      {
+        "label": "Published 2024 Energy Bow · Longbow",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/magic-items/9058960-energy-bow",
+        "fields": {
+          "Base weapon": "Longbow",
+          "Category": "Martial ranged weapon · Very Rare · Requires attunement",
+          "Damage": "1d8 Force + Dexterity modifier + 1. Arrow of Restraint replaces all damage.",
+          "Attack bonus": "+1 plus Dexterity modifier and Proficiency Bonus if proficient.",
+          "Range": "150/600 feet for attacks. Transport and Ladder each reach 60 feet.",
+          "Activation": "Make a ranged attack, or take a Magic action for Transport or Ladder.",
+          "Properties": "Heavy, Two-Handed, self-generated ammunition",
+          "Mastery": "Slow",
+          "Energy arrows": "The bow creates an arrow when you draw it. It disappears after a hit or miss. Until then it sheds Bright Light for 20 feet and Dim Light for 20 more.",
+          "Arrow of Restraint": "Choose before attacking a creature. On a hit, deal no damage. A failed DC 15 Strength save Restrains it for 1 minute. The creature can take an action to end the effect with a successful DC 20 Strength (Athletics) check.",
+          "Arrow of Transport": "Choose a visible willing creature of Medium size or smaller, or an unworn and uncarried object that fits in a 5-foot Cube. Teleport it to a visible unoccupied space within 10 feet of you.",
+          "Energy Ladder": "Fire at a wall within 60 feet to create a ladder of glowing rungs up to 60 feet long. It disappears after 1 minute.",
+          "Publication": "Dungeon Master’s Guide (2024), p. 257."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open 2024 base weapon"
+        }
+      },
+      {
+        "label": "Published 2024 Energy Bow · Shortbow",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/magic-items/9058960-energy-bow",
+        "fields": {
+          "Base weapon": "Shortbow",
+          "Category": "Simple ranged weapon · Very Rare · Requires attunement",
+          "Damage": "1d6 Force + Dexterity modifier + 1. Arrow of Restraint replaces all damage.",
+          "Attack bonus": "+1 plus Dexterity modifier and Proficiency Bonus if proficient.",
+          "Range": "80/320 feet for attacks. Transport and Ladder each reach 60 feet.",
+          "Activation": "Make a ranged attack, or take a Magic action for Transport or Ladder.",
+          "Properties": "Two-Handed, self-generated ammunition",
+          "Mastery": "Vex",
+          "Energy arrows": "The bow creates an arrow when you draw it. It disappears after a hit or miss. Until then it sheds Bright Light for 20 feet and Dim Light for 20 more.",
+          "Arrow of Restraint": "Choose before attacking a creature. On a hit, deal no damage. A failed DC 15 Strength save Restrains it for 1 minute. The creature can take an action to end the effect with a successful DC 20 Strength (Athletics) check.",
+          "Arrow of Transport": "Choose a visible willing creature of Medium size or smaller, or an unworn and uncarried object that fits in a 5-foot Cube. Teleport it to a visible unoccupied space within 10 feet of you.",
+          "Energy Ladder": "Fire at a wall within 60 feet to create a ladder of glowing rungs up to 60 feet long. It disappears after 1 minute.",
+          "Publication": "Dungeon Master’s Guide (2024), p. 257."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortbow",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dndbeyond:9058872": [
+      {
+        "label": "Published 2024 Thunderous Greatclub",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/magic-items/9058872-thunderous-greatclub",
+        "fields": {
+          "Category": "Simple melee weapon · Very Rare · Requires attunement",
+          "Damage": "1d8 Bludgeoning + Strength modifier. A hit adds 1d8 Thunder to a creature or 3d8 Thunder to an unworn and uncarried object.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient. While attuned, your Strength is at least 20.",
+          "Range": "5 feet melee. Clap is a 30-foot Cone. Earthquake has a 50-foot radius centered on the impact.",
+          "Properties": "Two-Handed",
+          "Mastery": "Push",
+          "Activation": "Attack normally, or take a Magic action and strike a hard surface for Clap or the ground for Earthquake.",
+          "Clap of Thunder": "Audible to 300 feet. Creatures in the cone fall Prone on a failed DC 15 Strength save. Nonmagical objects that are neither worn nor carried take 3d8 Thunder damage.",
+          "Earthquake": "Grounded structures take 50 Bludgeoning damage. Grounded creatures fall Prone on a failed DC 20 Dexterity save. A grounded creature concentrating also makes a DC 20 Constitution save or loses Concentration.",
+          "Fissure": "You may open a fissure 30 feet deep and 10 feet wide within the area. Creatures on it fall in on a failed DC 20 Dexterity save or move with its edge on a success. Structures on it collapse into the fissure.",
+          "Recharge": "Earthquake recharges at dawn. Clap of Thunder has no stated recharge.",
+          "Publication": "Dungeon Master’s Guide (2024), p. 316."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatclub",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dndbeyond:9058987": [
+      {
+        "label": "Published 2024 Niko’s Mace",
+        "status": "published-reference",
+        "source": "https://www.dndbeyond.com/magic-items/9058987-nikos-mace",
+        "fields": {
+          "Category": "Simple melee weapon · Very Rare · Requires attunement by a Spellcaster",
+          "Damage": "1d6 Bludgeoning + Strength modifier for a mace hit.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient. The summoned spirit has +9 to hit with its spell attacks.",
+          "Range": "5 feet melee. Summon Celestial has a 90-foot casting range.",
+          "Mastery": "Sap",
+          "Activation": "Attack normally, or hold the mace and take a Magic action to spend 1 charge and cast Summon Celestial.",
+          "Duration": "Concentration, up to 1 hour for Summon Celestial.",
+          "Charges": "6 charges. Regain 1d6 expended charges at dawn."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace",
+          "label": "Open 2024 base weapon"
+        }
+      }
     ]
   }
 }
