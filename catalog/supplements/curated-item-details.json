@@ -1,6 +1,328 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:9ab9df225a4bb029": [
+      {
+        "label": "Published D&D 2024 counterpart · Battleaxe",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf#page=2",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_battleaxe",
+          "label": "Open 2024 Battleaxe"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Mastery": "Topple",
+          "Properties": "Versatile (1d10)",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 2, Weapons, Axe, Battle.",
+          "Conversion notes": "Two-handed in the legacy table. The 2024 Battleaxe uses Versatile."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:6363388b4e4fce7f": [
+      {
+        "label": "Published D&D 2024 counterpart · Handaxe",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf#page=2",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Open 2024 Handaxe"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee or 20/60 feet thrown",
+          "Mastery": "Vex",
+          "Properties": "Light, Thrown (Range 20/60)",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 2, Weapons, Axe, Hand.",
+          "Conversion notes": "Use the 2024 two-band thrown range."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:08458ddd0985372c": [
+      {
+        "label": "Published D&D 2024 counterpart · Longbow",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf#page=2",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open 2024 Longbow"
+        },
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d8 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "150/600 feet",
+          "Mastery": "Slow",
+          "Properties": "Ammunition (Range 150/600; Arrow), Heavy, Two-Handed",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 2, Weapons, Bow, Long.",
+          "Conversion notes": "Use 2024 damage and range."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:6c2d1768b3be0d80": [
+      {
+        "label": "Published D&D 2024 counterpart · Shortbow",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf#page=2",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortbow",
+          "label": "Open 2024 Shortbow"
+        },
+        "fields": {
+          "Category": "Simple ranged weapon",
+          "Damage": "1d6 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "80/320 feet",
+          "Mastery": "Vex",
+          "Properties": "Ammunition (Range 80/320; Arrow), Two-Handed",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 2, Weapons, Bow, Short.",
+          "Conversion notes": "Use the 2024 two-band range."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:5d1195fc22f4d2dd": [
+      {
+        "label": "Published D&D 2024 counterpart · Hand Crossbow",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf#page=2",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hand-crossbow",
+          "label": "Open 2024 Hand Crossbow"
+        },
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d6 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "30/120 feet",
+          "Mastery": "Vex",
+          "Properties": "Ammunition (Range 30/120; Bolt), Light, Loading",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 2, Weapons, Crossbow, hand.",
+          "Conversion notes": "Use 2024 damage and Loading. A free hand is needed to load each bolt."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:14713a743a2a58f5": [
+      {
+        "label": "Published D&D 2024 counterpart · Heavy Crossbow",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf#page=2",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_heavy-crossbow",
+          "label": "Open 2024 Heavy Crossbow"
+        },
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d10 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "100/400 feet",
+          "Mastery": "Push",
+          "Properties": "Ammunition (Range 100/400; Bolt), Heavy, Loading, Two-Handed",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 2, Weapons, Crossbow, Heavy.",
+          "Conversion notes": "Use 2024 damage and Loading in place of the legacy alternate-round cadence."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:ae0aae278d078aca": [
+      {
+        "label": "Published D&D 2024 counterpart · Light Crossbow",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf#page=2",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_light-crossbow",
+          "label": "Open 2024 Light Crossbow"
+        },
+        "fields": {
+          "Category": "Simple ranged weapon",
+          "Damage": "1d8 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "80/320 feet",
+          "Mastery": "Slow",
+          "Properties": "Ammunition (Range 80/320; Bolt), Loading, Two-Handed",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 2, Weapons, Crossbow, Light.",
+          "Conversion notes": "Use 2024 damage, range, and Loading."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:5b7254e9b6abe644": [
+      {
+        "label": "Published D&D 2024 counterpart · Warhammer",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf#page=2",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_warhammer",
+          "label": "Open 2024 Warhammer"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Bludgeoning (1d10 in two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Mastery": "Push",
+          "Properties": "Versatile (1d10)",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 2, Weapons, Hammer, War.",
+          "Conversion notes": "Use 2024 damage and Versatile."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:3655f761c58c5a98": [
+      {
+        "label": "Published D&D 2024 counterpart · Sickle",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=3",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_sickle",
+          "label": "Open 2024 Sickle"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Mastery": "Nick",
+          "Properties": "Light",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 3, Extended Weapon and Armour Lists, Sickle.",
+          "Conversion notes": "Use this profile for the weapon listing. A farm implement can be appraised separately."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:27b41e235759bc2e": [
+      {
+        "label": "Published D&D 2024 counterpart · Quarterstaff",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf#page=2",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 Quarterstaff"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Mastery": "Topple",
+          "Properties": "Versatile (1d8)",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 2, Weapons, Staff.",
+          "Conversion notes": "Use the 2024 Quarterstaff. Legacy class permissions are superseded by 2024 weapon proficiency."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:cd890dad7d039d84": [
+      {
+        "label": "Published D&D 2024 counterpart · Longsword",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf#page=2",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Mastery": "Sap",
+          "Properties": "Versatile (1d10)",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 2, Weapons, Sword, bastard.",
+          "Conversion notes": "The legacy hand-and-a-half grip maps to the 2024 Longsword’s Versatile property."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:52c3f4c9680c3150": [
+      {
+        "label": "Published D&D 2024 counterpart · Longsword",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf#page=2",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Mastery": "Sap",
+          "Properties": "Versatile (1d10)",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 2, Weapons, Sword, normal.",
+          "Conversion notes": "The legacy normal sword maps to the 2024 Longsword."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:41825595537fb277": [
+      {
+        "label": "Published D&D 2024 counterpart · Shortsword",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf#page=2",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 Shortsword"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Mastery": "Vex",
+          "Properties": "Finesse, Light",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 2, Weapons, Sword, short.",
+          "Conversion notes": "Use the 2024 Shortsword’s Piercing damage and Finesse."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:09da281fe8763f4f": [
+      {
+        "label": "Published D&D 2024 counterpart · Greatsword",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf#page=2",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 Greatsword"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Mastery": "Graze",
+          "Properties": "Heavy, Two-Handed",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 2, Weapons, Sword, two handed.",
+          "Conversion notes": "Use the 2024 Greatsword’s damage and two-handed profile."
+        }
+      }
+    ],
     "mystara-fan-names-reference:4bfcbed5124918b0": [
       {
         "label": "D&D 2024 adaptation · Annihilator",

@@ -1871,6 +1871,34 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Mystara ordinary weapons link to published 2024 profiles': '''(async () => {
+                    for (const [id, terms] of [
+                        ["9ab9df225a4bb029", ["Open 2024 Battleaxe", "Topple"]],
+                        ["6363388b4e4fce7f", ["Open 2024 Handaxe", "20/60 feet"]],
+                        ["08458ddd0985372c", ["Open 2024 Longbow", "150/600 feet"]],
+                        ["6c2d1768b3be0d80", ["Open 2024 Shortbow", "80/320 feet"]],
+                        ["5d1195fc22f4d2dd", ["Open 2024 Hand Crossbow", "free hand"]],
+                        ["14713a743a2a58f5", ["Open 2024 Heavy Crossbow", "Loading"]],
+                        ["ae0aae278d078aca", ["Open 2024 Light Crossbow", "80/320 feet"]],
+                        ["5b7254e9b6abe644", ["Open 2024 Warhammer", "Push"]],
+                        ["3655f761c58c5a98", ["Open 2024 Sickle", "Nick"]],
+                        ["27b41e235759bc2e", ["Open 2024 Quarterstaff", "Topple"]],
+                        ["cd890dad7d039d84", ["Open 2024 Longsword", "1d10 in two hands"]],
+                        ["52c3f4c9680c3150", ["Open 2024 Longsword", "Sap"]],
+                        ["41825595537fb277", ["Open 2024 Shortsword", "Finesse"]],
+                        ["09da281fe8763f4f", ["Open 2024 Greatsword", "2d6 Slashing"]],
+                    ]) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    Array.from(inspection.querySelectorAll("button"))
+                        .find(button => button.textContent === "Open 2024 Greatsword").click();
+                    const opened = inspection.querySelector("h2").textContent === "Greatsword";
+                    dismissInspection(false);
+                    return opened;
+                })()''',
                 'Mystara named weapons show distinct artifact and throwing rules': '''(async () => {
                     for (const [id, terms] of [
                         ["4bfcbed5124918b0", ["12-mile blast", "20d12 Force"]],
