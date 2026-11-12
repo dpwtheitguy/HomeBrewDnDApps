@@ -1157,6 +1157,9 @@ def main():
                         ["dmg-35-reference:8f9f91d52600bd6d", ["half the listed raw-material cost", "level 1–3", "Spell Scroll"]],
                         ["dmg-35-reference:9da803feb17b26a0", ["25 lb", "lethargy", "Strength requirementNone"]],
                         ["dmg-35-reference:a446fcafe8835edb", ["DC 17 Dexterity", "10-foot Cube", "second dawn"]],
+                        ["dmg-35-reference:79211eaca6e4d533", ["Armor class bonus+2", "Half Cover", "Utilize action"]],
+                        ["dmg-35-reference:0a7b78d2a1e37610", ["15 + Dex modifier", "150 gp", "40 lb"]],
+                        ["dmg-35-reference:4b5de21d35a42563", ["Armor class bonus+2", "2.5 lb", "darkwood"]],
                     ];
                     for (const [id, terms] of cases) {
                         inspect(id, grid.firstElementChild);

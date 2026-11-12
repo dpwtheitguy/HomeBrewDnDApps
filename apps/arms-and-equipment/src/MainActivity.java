@@ -158,6 +158,12 @@ public final class MainActivity extends Activity {
             } catch (SQLiteException unsupported) {
                 fullText = false;
             }
+            File[] obsolete = getFilesDir().listFiles((directory, name) ->
+                    !name.equals(target.getName())
+                            && name.matches("catalog-[0-9]+([.-][0-9]+)*-search[0-9]+[.]sqlite3"));
+            if (obsolete != null) {
+                for (File previous : obsolete) SQLiteDatabase.deleteDatabase(previous);
+            }
             return database;
         }
 
