@@ -993,6 +993,21 @@ def main():
                     }
                     return true;
                 })()''',
+                'Elemental weapons show their distinct damage, spells, and rituals': '''(async () => {
+                    const cases = [
+                        ["5590", ["1d8 Cold", "Thrown 20/60 feet", "barnacles", "Tears of Endless Anguish"]],
+                        ["5591", ["1d8 Thunder", "Tremorsense to 60 feet", "DC 17 Constitution", "1d3 expended charges"]],
+                        ["5592", ["2d6 Fire", "Finesse, Light, Thrown", "Dance of the All-Consuming Fire"]],
+                        ["5593", ["1d6 Lightning", "Finesse, Thrown, Versatile", "Song of the Four Winds"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dndbeyond:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (![...terms, "Wisdom save DC 17", "2,000 gp"].every(term => inspection.textContent.includes(term)) ||
+                            inspection.textContent.includes("2024 provisional profile")) return false;
+                    }
+                    return true;
+                })()''',
                 'Yawning Portal weapons show curse and object hit rules': '''(async () => {
                     const cases = [
                         ["9379", ["Thrown 50/90 feet", "2d6 Piercing", "against your own AC"]],

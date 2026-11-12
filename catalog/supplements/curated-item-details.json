@@ -1,6 +1,124 @@
 {
   "schema_version": 1,
   "records": {
+    "dndbeyond:5590": [
+      {
+        "label": "D&D 2024 adaptation · Drown",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/5th%20Edition%20%285e%29/D%26D%205e%20-%20Princes%20of%20the%20Apocalypse.pdf",
+        "fields": {
+          "Category": "Martial melee weapon · Legendary · Requires attunement",
+          "Damage": "1d8 Piercing (1d10 in two hands in melee) + Strength modifier + 1. Add 1d8 Cold on a hit.",
+          "Attack bonus": "+1 plus Strength modifier and Proficiency Bonus if proficient.",
+          "Range": "5 feet melee. Thrown 20/60 feet.",
+          "Properties": "Thrown, Versatile (1d10)",
+          "Mastery": "Topple",
+          "Activation": "Attack normally, or while holding the weapon take a Magic action to cast Dominate Monster.",
+          "Water Mastery": "While holding the weapon, you can speak Aquan and have Resistance to Cold damage.",
+          "Dominate Monster": "Target only a water elemental you can see within 60 feet. Wisdom save DC 17. Concentration up to 1 hour. Recharges at dawn.",
+          "Dominate Monster rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#DominateMonster",
+          "Devastation orb ritual": "Perform Tears of Endless Anguish at a matching elemental node. The ritual takes 1 hour and consumes 2,000 gp of special components to create a devastation orb of water. Recharges separately at dawn.",
+          "Attunement flaw": "You become possessive and demand the largest share of the spoils.",
+          "Adventure source": "Princes of the Apocalypse, chapter 7, Elemental Weapons. The weapon is associated with Gar Shatterkeel.",
+          "Conversion notes": "Uses the 2024 base weapon, mastery, and spell rules and keeps the adventure’s item powers.",
+          "Special powers": "Floats on water and hangs in place when released underwater. Water exposure cannot damage the trident.",
+          "Barnacles": "After 24 consecutive hours of attunement, barnacles form on your skin. Once unattuned, Greater Restoration or similar magic can remove them."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_trident",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dndbeyond:5591": [
+      {
+        "label": "D&D 2024 adaptation · Ironfang",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/5th%20Edition%20%285e%29/D%26D%205e%20-%20Princes%20of%20the%20Apocalypse.pdf",
+        "fields": {
+          "Category": "Martial melee weapon · Legendary · Requires attunement",
+          "Damage": "1d8 Piercing (1d10 in two hands) + Strength modifier + 2. Add 1d8 Thunder on a hit.",
+          "Attack bonus": "+2 plus Strength modifier and Proficiency Bonus if proficient.",
+          "Range": "5 feet melee.",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Activation": "Attack normally, or while holding the weapon take a Magic action to cast Dominate Monster.",
+          "Earth Mastery": "While holding the weapon, you can speak Terran and have Resistance to Acid damage.",
+          "Dominate Monster": "Target only a earth elemental you can see within 60 feet. Wisdom save DC 17. Concentration up to 1 hour. Recharges at dawn.",
+          "Dominate Monster rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#DominateMonster",
+          "Devastation orb ritual": "Perform The Rumbling at a matching elemental node. The ritual takes 1 hour and consumes 2,000 gp of special components to create a devastation orb of earth. Recharges separately at dawn.",
+          "Attunement flaw": "You are driven to break things and cause ruin.",
+          "Adventure source": "Princes of the Apocalypse, chapter 7, Elemental Weapons. The weapon is associated with Marlos Urnrayle.",
+          "Conversion notes": "Uses the 2024 base weapon, mastery, and spell rules and keeps the adventure’s item powers.",
+          "Special powers": "While holding the pick, you have Tremorsense to 60 feet and sense whether precious metals or stones are within 60 feet. You do not learn their exact position. The pick is immune to rust, acid, and corrosion.",
+          "Shatter": "Take a Magic action and spend 1 of 3 charges to cast level 2 Shatter (DC 17 Constitution). It affects a 10-foot-radius Sphere within 60 feet. Creatures take 3d8 Thunder on a failed save or half on a success. Regain 1d3 expended charges at dawn.",
+          "Shatter rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#Shatter"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_war-pick",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dndbeyond:5592": [
+      {
+        "label": "D&D 2024 adaptation · Tinderstrike",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/5th%20Edition%20%285e%29/D%26D%205e%20-%20Princes%20of%20the%20Apocalypse.pdf",
+        "fields": {
+          "Category": "Simple melee weapon · Legendary · Requires attunement",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier + 2. Add 2d6 Fire on a hit.",
+          "Attack bonus": "+2 plus Strength or Dexterity modifier and Proficiency Bonus if proficient.",
+          "Range": "5 feet melee. Thrown 20/60 feet.",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Activation": "Attack normally, or while holding the weapon take a Magic action to cast Dominate Monster.",
+          "Fire Mastery": "While holding the weapon, you can speak Ignan and have Resistance to Fire damage.",
+          "Dominate Monster": "Target only a fire elemental you can see within 60 feet. Wisdom save DC 17. Concentration up to 1 hour. Recharges at dawn.",
+          "Dominate Monster rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#DominateMonster",
+          "Devastation orb ritual": "Perform Dance of the All-Consuming Fire at a matching elemental node. The ritual takes 1 hour and consumes 2,000 gp of special components to create a devastation orb of fire. Recharges separately at dawn.",
+          "Attunement flaw": "You act rashly and take risks without weighing the consequences.",
+          "Adventure source": "Princes of the Apocalypse, chapter 7, Elemental Weapons. The weapon is associated with Vanifer.",
+          "Conversion notes": "Uses the 2024 base weapon, mastery, and spell rules and keeps the adventure’s item powers.",
+          "Appearance": "The flint blade smolders for 1d4 minutes after dealing damage."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
+    "dndbeyond:5593": [
+      {
+        "label": "D&D 2024 adaptation · Windvane",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://files.spawningpool.net/docs/Vault2.0.-.TTRPG-Gamebooks/Dungeons%20%26%20Dragons%20%5Bmulti%5D/5th%20Edition%20%285e%29/D%26D%205e%20-%20Princes%20of%20the%20Apocalypse.pdf",
+        "fields": {
+          "Category": "Simple melee weapon · Legendary · Requires attunement",
+          "Damage": "1d6 Piercing (1d8 in two hands in melee) + Strength or Dexterity modifier + 2. Add 1d6 Lightning on a hit.",
+          "Attack bonus": "+2 plus Strength or Dexterity modifier and Proficiency Bonus if proficient.",
+          "Range": "5 feet melee. Thrown 20/60 feet.",
+          "Properties": "Finesse, Thrown, Versatile (1d8)",
+          "Mastery": "Sap",
+          "Activation": "Attack normally, or while holding the weapon take a Magic action to cast Dominate Monster.",
+          "Air Mastery": "While holding the weapon, you can speak Auran and have Resistance to Lightning damage.",
+          "Dominate Monster": "Target only a air elemental you can see within 60 feet. Wisdom save DC 17. Concentration up to 1 hour. Recharges at dawn.",
+          "Dominate Monster rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#DominateMonster",
+          "Devastation orb ritual": "Perform Song of the Four Winds at a matching elemental node. The ritual takes 1 hour and consumes 2,000 gp of special components to create a devastation orb of air. Recharges separately at dawn.",
+          "Attunement flaw": "You become unreliable and disregard vows and plans.",
+          "Adventure source": "Princes of the Apocalypse, chapter 7, Elemental Weapons. The weapon is associated with Aerisi Kalinoth.",
+          "Conversion notes": "Uses the 2024 base weapon, mastery, and spell rules and keeps the adventure’s item powers."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 base weapon"
+        }
+      }
+    ],
     "dndbeyond:9379": [
       {
         "label": "D&D 2024 adaptation · Spear of Backbiting",
