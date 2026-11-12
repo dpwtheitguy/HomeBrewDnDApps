@@ -1,6 +1,237 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:140c71b6bb0be277": [
+      {
+        "label": "D&D 2024 adaptation · Rod of Inertia",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.americanroads.us/DandD/DnD_Rules_Cyclopedia.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Piercing (1d8 in two hands) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee or 20/60 feet thrown",
+          "Properties": "Thrown, Versatile (1d8)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Very rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "While holding the rod, use a Bonus Action to fix it in space. It supports up to 8,000 pounds. Exceeding that weight ends the effect. A creature can take an action to make a DC 30 Strength (Athletics) check to shift the rod up to 10 feet. You can release it as a Bonus Action while within 60 feet.",
+          "Conversion notes": "Uses the 2024 Spear and a bounded immovable-rod benchmark. Keeps the source’s ability to suspend and release a throw.",
+          "Source locator": "D&D Rules Cyclopedia (TSR, 1991), p. 237, Rod Descriptions.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Suspended throw": "Once per Short or Long Rest, replace one attack with a throw that suspends the rod in an unoccupied space within 20 feet before it hits anything. Before 1 minute passes, you can use a Bonus Action to release it at a creature in the continuation of the original line, within 60 feet of your initial position. Make the original thrown attack, using the normal range bands from that position and cover from the rod’s suspended position. After 1 minute it remains fixed but loses the stored throw."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:5fdb0dbb646844ab": [
+      {
+        "label": "D&D 2024 adaptation · Rod of Parrying",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.americanroads.us/DandD/DnD_Rules_Cyclopedia.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "4 lb",
+          "Rarity": "Very rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "While holding the rod, take the Dodge action to enter a parrying stance. Until the start of your next turn, gain +3 AC against melee attacks you can see. The stance ends if you stop holding the rod or become Incapacitated.",
+          "Conversion notes": "The legacy +5 attack and defense bonuses become +3. Dodge preserves the trade-off between attacking and taking a defensive stance.",
+          "Source locator": "D&D Rules Cyclopedia (TSR, 1991), p. 237, Rod Descriptions.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:c99feb59fa8e3bad": [
+      {
+        "label": "D&D 2024 adaptation · Rod of Weaponry",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.americanroads.us/DandD/DnD_Rules_Cyclopedia.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 3 whole, +2 for halves, or +1 for quarters.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + the form’s enhancement.",
+          "Range": "5 feet melee",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "4 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "As a Magic action while holding the whole rod, split it into two +2 maces. Each +2 mace can be split into two +1 maces with the same action. As a Magic action, touch a matching pair together to rejoin them. Only the attuned owner can split or merge pieces. Each piece grants its attack and damage bonus to whoever wields it while the owner remains attuned. The pieces never duplicate and have no enhancement while the rod is unattuned.",
+          "Conversion notes": "The legacy +5 form is capped at +3. Uses normal Mace attack and damage rules, with each part using its own enhancement and the same base damage.",
+          "Source locator": "D&D Rules Cyclopedia (TSR, 1991), p. 237, Rod Descriptions.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:7d90d21227fbacf7": [
+      {
+        "label": "D&D 2024 adaptation · Rod of the Wyrm",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.americanroads.us/DandD/DnD_Rules_Cyclopedia.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "4 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "The DM chooses a Gold, Blue, or Black variant when found. Once per dawn, take a Magic action to transform the rod into a Medium dragon in an unoccupied space within 5 feet for up to 1 hour. It acts immediately after you. It obeys your verbal instructions or Dodges if given none. The form ends early if you dismiss it as a Bonus Action, or if your Concentration ends. It returns to rod form in its space. If the dragon drops to 0 HP, the rod is destroyed.",
+          "Conversion notes": "The legacy +5 becomes +3. A bounded companion replaces the legacy immunity to mundane attacks. The DM may reserve an incompatible alignment for a cursed variant.",
+          "Source locator": "D&D Rules Cyclopedia (TSR, 1991), p. 237, Rod Descriptions.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Dragon form": "AC 17, 30 HP, Speed 30 feet and Fly Speed 60 feet. Ability modifiers: Str +3, Dex +2, Con +2, Int +0, Wis +1, Cha +1. Bite: +7 to hit, reach 5 feet, 2d8 + 3 Piercing.",
+          "Breath": "Once per transformation as an action, the dragon exhales in a 15-foot Cone (Gold) or a 30-foot Line 5 feet wide (Blue or Black). DC 16 Dexterity save for half of 4d6 Fire (Gold), Lightning (Blue), or Acid (Black). The dragon has Resistance to its own breath damage type."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:2e5b1e2c071bd66f": [
+      {
+        "label": "D&D 2024 adaptation · Rod of Batting",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=93",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Bludgeoning + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Light",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "When a ranged weapon attack using a physical projectile hits you while you hold the rod, use a Reaction to reduce its damage by 1d10 + your Dexterity modifier + your Proficiency Bonus. The rod can deflect projectiles no larger than a spear.",
+          "Conversion notes": "Reaction economy replaces the legacy multiple extra attacks to deflect. A separate ranged attack preserves batting a loose stone.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, printed p. 94 (PDF page 93).",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Batted stone": "As an action with a free hand and a loose stone of at least half a pound, make a ranged attack at 50/150 feet using Dexterity and Proficiency Bonus if proficient with clubs. On a hit deal 1d8 + Dexterity modifier Bludgeoning. This attack has no mastery."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:829fdae5a192d5ad": [
+      {
+        "label": "D&D 2024 adaptation · Rod of Conducting",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=93",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Bludgeoning + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Light",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "As a Magic action, conduct a musical passage audible within 60 feet for up to 10 minutes with Concentration. While conducting, you can use your Charisma (Performance) skill normally. As a Reaction when a creature you can see within 10 feet would take Lightning damage from an effect, take that creature’s Lightning damage instead. Resolve any damage you would independently take from that same effect as well. Once you redirect damage, you cannot do so again until you finish a Short or Long Rest.",
+          "Conversion notes": "Uses Club stats for an ordinary strike. The Reaction preserves the legacy ability to divert Lightning onto the conductor and limits its use.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, printed p. 94 (PDF page 93).",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:52fc66dc07d1a684": [
+      {
+        "label": "D&D 2024 adaptation · Rod of Momentum",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=93",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Bludgeoning + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Light",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Rarity": "Very rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Once per Short or Long Rest, take a Magic action to launch the rod in a straight line up to 120 feet. Choose to hold on and travel with it or let it fly alone. It stops at the first solid obstacle or creature. A creature it reaches must make a DC 16 Dexterity save. On a failure it takes 3d6 Bludgeoning. On a success it takes no damage and the rod stops in the nearest unoccupied space before it. A rider dismounts in the nearest unoccupied space at the end of the movement.",
+          "Conversion notes": "Shortens the legacy launch distance for encounter-scale play. The opposing rods retain a collision consequence.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, printed p. 94 (PDF page 93).",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Running force": "After moving at least 20 feet in a straight line immediately before a Strength check to push or force open something, gain Advantage on the check while holding the rod.",
+          "Opposition": "If this rod strikes a fixed Rod of Inertia, both are destroyed. Every creature in a 20-foot-radius Sphere makes a DC 16 Dexterity save, taking 8d6 Force damage on a failure or half on a success."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:00e2c67ea622d8be": [
+      {
+        "label": "D&D 2024 adaptation · Rod of Shocking",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=93",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Bludgeoning + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Light",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "The rod starts empty and stores up to 10 charges. A willing caster touching it can use a Magic action and expend a spell slot for a spell they have prepared that deals Lightning damage. The spell has no other effect. The rod gains charges equal to the slot level, up to its maximum.",
+          "Conversion notes": "Converts the legacy storage of damage dice into charges based on the slot expended. Retains the four-die maximum discharge per hit.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, printed p. 94 (PDF page 93).",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Discharge": "When you hit with the rod, spend 1 to 4 stored charges to deal an extra 1d6 Lightning damage per charge. Charges only return through the charging action."
+        }
+      }
+    ],
     "mystara-fan-names-reference:70e65a05072c0b10": [
       {
         "label": "D&D 2024 adaptation · Staff of Commanding",

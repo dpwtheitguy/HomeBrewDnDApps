@@ -1871,6 +1871,25 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Mystara combat rods show individual attacks and powers': '''(async () => {
+                    for (const [id, terms] of [
+                        ["140c71b6bb0be277", ["8,000 pounds", "20/60 feet thrown", "Suspended throw"]],
+                        ["5fdb0dbb646844ab", ["Dodge action", "+3 AC"]],
+                        ["c99feb59fa8e3bad", ["two +2 maces", "+1 for quarters"]],
+                        ["7d90d21227fbacf7", ["Fly Speed 60 feet", "4d6 Fire", "DC 16 Dexterity"]],
+                        ["2e5b1e2c071bd66f", ["Batted stone", "50/150 feet", "1d10"]],
+                        ["829fdae5a192d5ad", ["musical passage", "Lightning damage instead"]],
+                        ["52fc66dc07d1a684", ["120 feet", "8d6 Force"]],
+                        ["00e2c67ea622d8be", ["starts empty", "1 to 4 stored charges"]],
+                    ]) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Mystara Cyclopedia staves preserve their distinct legacy powers': '''(async () => {
                     for (const [id, terms] of [
                         ["70e65a05072c0b10", ["Dominate Beast", "Dominate Person", "Plant creature"]],
