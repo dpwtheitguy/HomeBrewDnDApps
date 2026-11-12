@@ -728,6 +728,18 @@ def main():
                         ["Thumping · Club", "1d4 Bludgeoning", "2d8 Thunder", "Charisma", "Slow"]
                             .every(value => lute.includes(value));
                 })()''',
+                'Weapon templates preserve eligible forms and special effects': '''(async () => {
+                    inspect("dndbeyond:9228341", grid.firstElementChild);
+                    await itemDetails;
+                    const adamantine = inspection.textContent;
+                    inspect("dndbeyond:9229199", grid.firstElementChild);
+                    await itemDetails;
+                    const warning = inspection.textContent;
+                    return ["Adamantine Weapon · Ammunition", "Adamantine Weapon · Dagger", "automatically a Critical Hit"]
+                        .every(value => adamantine.includes(value)) && !adamantine.includes("Adamantine Weapon · Longbow")
+                        && ["Weapon of Warning · Longbow", "within 30 ft", "Advantage on Initiative", "sleeping naturally"]
+                            .every(value => warning.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

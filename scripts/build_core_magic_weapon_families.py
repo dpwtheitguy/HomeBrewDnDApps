@@ -7,6 +7,35 @@ from build_core_enhancement_cross_references import CATALOG, CURRENT, LEGACY, RE
 
 RULES = 'https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z'
 FAMILIES = {
+    'Adamantine Weapon': {
+        'melee_only': True,
+        'source': 'https://roll20.net/compendium/dnd5e/Templates%3AAdamantine%20Weapon?expansion=33359',
+        'damage': 'A hit against an object is automatically a Critical Hit.',
+        'activation': 'Make a normal weapon attack. Apply the critical hit rule when you hit an object.',
+        'Rarity': 'Uncommon',
+    },
+    'Silvered Weapon': {
+        'source': 'https://roll20.net/compendium/dnd5e/Templates%3ASilvered%20Weapon?expansion=33359',
+        'damage': 'A Critical Hit against a shape-shifted creature adds one more weapon damage die.',
+        'activation': 'Make a normal weapon attack and apply the additional die on a qualifying Critical Hit.',
+        'Rarity': 'Common',
+    },
+    'Weapon of Warning': {
+        'source': 'https://app.roll20.net/compendium/dnd5e/Templates%3AWeapon%20of%20Warning?expansion=33359',
+        'damage': 'Use the normal damage of the base weapon.',
+        'activation': 'While attuned and the weapon is within your reach, its benefits apply to you and allies within 30 ft of you.',
+        'Alarm': 'When combat begins, the weapon wakes affected creatures that are sleeping naturally. Magical sleep is unaffected.',
+        'Supernatural Readiness': 'Affected creatures have Advantage on Initiative rolls.',
+        'Rarity': 'Uncommon',
+    },
+    'Enspelled Weapon': {
+        'source': 'https://roll20.net/compendium/dnd5e/Templates%3AEnspelled%20Weapon?expansion=33359',
+        'damage': 'Use the base weapon’s damage for attacks. A spell cast from the weapon uses its own damage rules.',
+        'activation': 'While holding the weapon, spend 1 charge to cast its bound spell. Use the spell’s normal casting time, range, and Concentration rules.',
+        'Spell selection': 'Choose one Conjuration, Divination, Evocation, Necromancy, or Transmutation spell from cantrip through level 8 when the weapon is created.',
+        'Charges': '6 charges. Regain 1d6 expended charges at dawn.',
+        'Rarity, save DC, spell attack': 'Cantrip or 1: Uncommon, DC 13, +5. 2: Rare, DC 13, +5. 3: Rare, DC 15, +7. 4: Very Rare, DC 15, +7. 5: Very Rare, DC 17, +9. 6: Legendary, DC 17, +9. 7–8: Legendary, DC 18, +10.',
+    },
     "Executioner's Axe": {
         'published_bases': ('Battleaxe', 'Greataxe', 'Halberd', 'Handaxe'),
         'source': 'https://roll20.net/compendium/dnd5e/Templates%3AExecutioner%27s%20Axe?expansion=33359',
@@ -264,6 +293,10 @@ FAMILIES = {
 
 PUBLIC_INDEX = 'dndbeyond-public-index'
 PUBLIC_WEAPON_PAGES = {
+    'Adamantine Weapon': '9228341-adamantine-weapon',
+    'Enspelled Weapon': '9228599-enspelled-weapon',
+    'Silvered Weapon': '9229070-silvered-weapon',
+    'Weapon of Warning': '9229199-weapon-of-warning',
     "Executioner's Axe": '9228603-executioners-axe',
     'Sylvan Talon': '9229122-sylvan-talon',
     'Lute of Thunderous Thumping': '9228833-lute-of-thunderous-thumping',
@@ -288,7 +321,9 @@ PUBLIC_WEAPON_PAGES = {
 }
 
 
-PUBLIC_ANY_SIMPLE_OR_MARTIAL = {'Dragon Slayer', 'Holy Avenger', 'Vicious Weapon'}
+PUBLIC_ANY_SIMPLE_OR_MARTIAL = {
+    'Dragon Slayer', 'Holy Avenger', 'Vicious Weapon', 'Silvered Weapon', 'Weapon of Warning', 'Enspelled Weapon',
+}
 
 PUBLIC_BASES = {
     'Frost Brand': ('Glaive', 'Greatsword', 'Longsword', 'Rapier', 'Scimitar', 'Shortsword'),
@@ -346,7 +381,7 @@ def main():
         if item['source_id'] != CURRENT or item['magic'] is not True:
             continue
         for family, rules in FAMILIES.items():
-            if 'published_bases' in rules:
+            if 'published_bases' in rules or 'evidence' not in rules:
                 continue
             if rules.get('any_base') and not weapon and item['name'] == rules['name']:
                 if rules['evidence'] in (item.get('description') or '').casefold():
@@ -413,6 +448,18 @@ def main():
             entry['label'] += ' · ' + base
             entry['source'] = rules.get('source') or source
             variants.append(entry)
+        if family == 'Adamantine Weapon':
+            variants.append({
+                'label': 'Published 2024 · Adamantine Weapon · Ammunition',
+                'status': 'published-reference', 'source': rules['source'],
+                'fields': {
+                    'Base weapon': 'Ammunition', 'Category': 'Ammunition',
+                    'Damage': 'Use the launcher’s damage. A hit against an object is automatically a Critical Hit.',
+                    'Range': 'Use the compatible launcher’s range.',
+                    'Activation': 'Load and fire using the ammunition rules of its compatible launcher.',
+                    'Attunement': 'None', 'Rarity': 'Uncommon',
+                },
+            })
         records[item['id']] = variants
         public_count += 1
     (CATALOG / 'supplements/core-magic-weapon-families.json').write_text(
