@@ -1148,6 +1148,10 @@ def main():
                         ["dmg-35-reference:6dbb586e767df27a", ["Armor class bonus+3", "Uncommon", "Verified 2024 equipment mapping"]],
                         ["dmg-35-reference:db4f44212c1486c7", ["17 + Dex modifier (max +2)", "Legendary", "conversion draft"]],
                         ["dmg-35-reference:a153508f6388f498", ["Armor class bonus+4", "occupies one hand", "conversion draft"]],
+                        ["dmg-35-reference:1a12c2006b6212cc", ["1d8 Slashing", "Abyssal", "Remove Curse"]],
+                        ["dmg-35-reference:7804a6bfdaf74b94", ["Armor class20", "up to 10 feet"]],
+                        ["dmg-35-reference:dac3457dc8c40bbe", ["20 feet straight", "2d6", "mount"]],
+                        ["dmg-35-reference:92b4e00f098bb896", ["120/480 feet", "1d10", "three spines"]],
                     ];
                     for (const [id, terms] of cases) {
                         inspect(id, grid.firstElementChild);
