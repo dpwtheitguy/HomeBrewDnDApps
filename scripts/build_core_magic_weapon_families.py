@@ -7,6 +7,32 @@ from build_core_enhancement_cross_references import CATALOG, CURRENT, LEGACY, RE
 
 RULES = 'https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z'
 FAMILIES = {
+    'Berserker Axe': {
+        'published_bases': ('Battleaxe', 'Greataxe', 'Halberd'),
+        'source': RULES + '#BerserkerAxe',
+        'damage': 'Add 1 to normal weapon damage.',
+        'activation': 'Make a normal weapon attack. While carrying the weapon, damage from another creature can trigger the curse.',
+        'change': 'The revised weapon has three eligible bases and uses the 2024 berserk procedure.',
+        'Attack bonus': '+1 to attack and damage rolls.',
+        'Special powers': 'While attuned, increase your HP maximum by 1 per level you have attained.',
+        'Curse': 'Attunement curses you. Keep the weapon within reach and make attacks with other weapons at Disadvantage.',
+        'Berserk trigger': 'When another creature damages you while you possess the weapon, make a DC 15 Wisdom save. On failure, go berserk.',
+        'Berserk turn': 'Treat the closest creature you can see or hear as an enemy, choosing randomly among ties. Move toward it and take the Attack action against it. If you cannot reach it with the weapon, your turn ends after you use all available movement. If it dies or you lose sight and hearing of it, choose the next nearest creature you can see or hear.',
+        'End condition': 'At the start of your turn, berserk ends if you can neither see nor hear any creature within 60 ft.',
+        'Rarity': 'Rare',
+    },
+    'Sword of Vengeance': {
+        'published_bases': ('Glaive', 'Greatsword', 'Longsword', 'Rapier', 'Scimitar', 'Shortsword'),
+        'source': 'https://roll20.net/compendium/dnd5e/Templates%3ASword%20of%20Vengeance?expansion=33359',
+        'damage': 'Add 1 to normal weapon damage.',
+        'activation': 'Make a normal weapon attack. Damage from another creature in combat can trigger the curse.',
+        'change': 'The revised version specifies six eligible base weapons and damage from another creature in combat as the trigger.',
+        'Attack bonus': '+1 to attack and damage rolls.',
+        'Curse': 'Attunement curses you. While cursed, you keep the weapon on your person. While attuned, you attack with other weapons at Disadvantage.',
+        'Saving throw': 'While carrying it, make a DC 15 Wisdom save when another creature damages you in combat. On failure, you must attack that creature until either of you drops to 0 HP or you cannot reach it to make a melee attack.',
+        'Ending the curse': 'Use the normal curse-breaking rules. Banishment cast on the weapon drives out the spirit, leaving a +1 weapon without the other properties.',
+        'Rarity': 'Uncommon',
+    },
     'Moonblade': {
         'change': 'The revised blade chooses its bearer and uses the 2024 rune table.',
         'published_bases': ('Greatsword', 'Longsword', 'Rapier', 'Scimitar', 'Shortsword'),
@@ -367,6 +393,7 @@ PUBLIC_WEAPON_PAGES = {
 # Exact public-index pages for the older item. These show the revised counterpart
 # without presenting revised mechanics as part of the original publication.
 LEGACY_PUBLIC_WEAPON_PAGES = {
+    'Berserker Axe': 5382, 'Sword of Vengeance': 5505,
     'Axe of the Dwarvish Lords': 5422, 'Sword of Kas': 5427, 'Moonblade': 5430,
     'Weapon of Warning': 5504,
     'Dagger of Venom': 4613, 'Dwarven Thrower': 4627, 'Hammer of Thunderbolts': 4649,

@@ -838,6 +838,18 @@ def main():
                         ["2024 counterpart · Moonblade · Rapier", "76–80", "The revised blade chooses its bearer"]
                             .every(value => moonblade.includes(value));
                 })()''',
+                'Cursed weapon counterparts show distinct triggers and end conditions': '''(async () => {
+                    inspect("dndbeyond:5382", grid.firstElementChild);
+                    await itemDetails;
+                    const axe = inspection.textContent;
+                    inspect("dndbeyond:5505", grid.firstElementChild);
+                    await itemDetails;
+                    const sword = inspection.textContent;
+                    return ["Berserker Axe · Halberd", "HP maximum", "DC 15 Wisdom", "within 60 ft"]
+                        .every(value => axe.includes(value)) &&
+                        ["Sword of Vengeance · Rapier", "DC 15 Wisdom", "Banishment", "0 HP"]
+                            .every(value => sword.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
