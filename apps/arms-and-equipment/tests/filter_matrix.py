@@ -1869,6 +1869,26 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Vault of Magic shows net escape, lineage and armor aura rules': '''(async () => {
+                    for (const [id, terms] of [
+                        ["dimensional-net", ["15 feet", "DC 9 +", "DC 30 Strength", "cannot teleport", "30 Hit Points"]],
+                        ["dirgeblade", ["Bardic Inspiration", "DC 15 Wisdom", "2d6 hours"]],
+                        ["dragonstooth-blade", ["1d8 Slashing", "Greatsword form", "2d6 Slashing", "6 Necrotic"]],
+                        ["entrenching-mattock", ["War Pick", "30 feet long", "Half Cover"]],
+                        ["exsanguinating-blade", ["maximum of 1", "2d8 Hit Points", "2d8 Necrotic"]],
+                        ["encouraging-padded-armor", ["12 + Dex modifier", "Aura of Courage", "10 feet"]],
+                        ["encouraging-plate", ["Armor class19", "reduce Speed by 10 feet", "AttunementRequired"]],
+                        ["enraging-ammunition", ["DC 13 Wisdom", "most direct safe route"]],
+                        ["ensnaring-ammunition", ["Half the attack", "DC 13 Strength", "5 Hit Points"]],
+                    ]) {
+                        inspect("open5e-vom:vom_" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) {
+                            throw new Error("Missing fields on " + id);
+                        }
+                    }
+                    return true;
+                })()''',
                 'Vault of Magic distinguishes transformed weapons, spell focus and special arrows': '''(async () => {
                     for (const [id, terms] of [
                         ["clockwork-mace-of-divinity", ["1d6 Bludgeoning", "1d8 Piercing", "20/60 feet", "1d6 Radiant"]],

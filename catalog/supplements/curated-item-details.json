@@ -1,6 +1,534 @@
 {
   "schema_version": 1,
   "records": {
+    "open5e-vom:vom_dirgeblade": [
+      {
+        "label": "D&D 2024 adaptation · Dirgeblade",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_rapier",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing + Strength or Dexterity modifier + 3.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Bard",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "The unsheathed rapier sheds Dim Light in a 20-foot radius. On a hit, expend one use of Bardic Inspiration to force the target to make a DC 15 Wisdom save. On a failure it is Prone and Incapacitated until the end of its next turn. Once per month under open sky, speak the command word as a Bonus Action to call heavy rain, or snow if freezing, for 2d6 hours. The precipitation covers a radius in miles equal to your character level.",
+          "Conversion notes": "Uses the 2024 Rapier and expends a use of Bardic Inspiration as part of the hit. The weather area is centered on the activation location.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 21–22."
+        }
+      }
+    ],
+    "open5e-vom:vom_dirk-of-daring": [
+      {
+        "label": "D&D 2024 adaptation · Dirk of Daring",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While holding the dagger, you have Advantage on saves against the Frightened condition.",
+          "Conversion notes": "Uses the 2024 Dagger and the Frightened condition.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 22."
+        }
+      }
+    ],
+    "open5e-vom:vom_dragonstooth-blade": [
+      {
+        "label": "D&D 2024 adaptation · Dragonstooth Blade",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "The DM chooses or rolls 1d6 once for the tooth’s lineage. You have Resistance to its associated damage type while attuned. Each hit deals an extra 1d6 of that type.",
+          "Conversion notes": "The printed item can be a Longsword or Greatsword. The indexed import uses Longsword, and the second profile below supports the other printed form.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 22.",
+          "Greatsword form": "Martial melee, 5 feet. Strength modifier + Proficiency Bonus if proficient to hit. Hit: 2d6 Slashing + Strength modifier, plus the lineage rider. Heavy, Two-Handed, Graze, 6 lb.",
+          "Lineage table": "1 Acid (Black or Copper); 2 Fire (Brass, Gold, or Red); 3 Poison (Green); 4 Lightning (Blue or Bronze); 5 Cold (Silver or White); 6 Necrotic (Undead)."
+        }
+      }
+    ],
+    "open5e-vom:vom_entrenching-mattock": [
+      {
+        "label": "D&D 2024 adaptation · Entrenching Mattock",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_war-pick",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing (1d10 with two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Against a creature made of earth or stone, use +3 on attack and damage rolls. Once per dawn as a Bonus Action, strike earth, sand, mud, or rock within 5 feet. Raise a wall of that material along the surface, up to 30 feet long, 3 feet high, and 1 foot thick. The wall gives Half Cover to creatures behind it.",
+          "Conversion notes": "Uses the 2024 War Pick. Treat the wall as ordinary terrain that remains until removed or destroyed, with object defenses based on the material.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 22."
+        }
+      }
+    ],
+    "open5e-vom:vom_exsanguinating-blade": [
+      {
+        "label": "D&D 2024 adaptation · Exsanguinating Blade",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "A natural 20 on an attack against a creature with blood adds 1 charge, to a maximum of 1. As a Bonus Action, spend 1 charge to heal yourself or a creature you touch with the blade for 2d8 Hit Points, or prime the blade to add 2d8 Necrotic damage on its next hit against a creature with blood.",
+          "Conversion notes": "Keeps critical-hit charging and both spending options. The damage option is consumed by its next eligible hit.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 22–23."
+        }
+      }
+    ],
+    "open5e-vom:vom_dimensional-net": [
+      {
+        "label": "D&D 2024 adaptation · Dimensional Net",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_net",
+          "label": "Open 2024 Net baseline"
+        },
+        "fields": {
+          "Category": "Adventuring gear (magic net)",
+          "Damage": "None. Applies Restrained on a failed save.",
+          "Attack bonus": "Dexterity save DC 9 + your Dexterity modifier + Proficiency Bonus. Uses a saving throw.",
+          "Range": "15 feet",
+          "Properties": "Targets one visible creature, Large or smaller.",
+          "Mastery": "None",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Replace one attack during the Attack action.",
+          "Special powers": "Replace one attack during the Attack action to throw the net at a creature you can see within 15 feet. On a failed Dexterity save, the target is Restrained until freed. Huge or larger creatures succeed automatically. A Restrained Aberration, Celestial, or Fiend cannot teleport or travel to another plane. It takes an action and a successful DC 30 Strength (Athletics) check to free that creature, rather than DC 10 for other creatures.",
+          "Conversion notes": "Uses the 2024 Net’s saving throw delivery. The original +1 to hit becomes +1 to the save DC.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 21.",
+          "Object defenses": "AC 15, 30 Hit Points. Regains 1 Hit Point per 5 minutes while above 0. A bound Aberration, Celestial, or Fiend cannot damage the net. When another creature deals at least 20 Slashing damage to the net in total during the binding, it frees that target. Reducing the net to 0 Hit Points destroys it and frees any target.",
+          "Escape": "The trapped creature or a creature within 5 feet of it can attempt the applicable Strength (Athletics) check as an action."
+        }
+      }
+    ],
+    "open5e-vom:vom_enraging-ammunition": [
+      {
+        "label": "D&D 2024 adaptation · Enraging Ammunition",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open 2024 Longbow example"
+        },
+        "fields": {
+          "Category": "Ammunition",
+          "Damage": "Normal launcher damage.",
+          "Attack bonus": "Use the launcher’s normal attack modifier.",
+          "Range": "Use the launcher’s normal and long range.",
+          "Properties": "Match the ammunition to the launcher.",
+          "Mastery": "Inherited from the launcher if you can use it.",
+          "Weight": "Use the weight of the ammunition type.",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Activation": "Expend one piece as part of a ranged weapon attack using a matching launcher.",
+          "Special powers": "On a hit, the target makes a DC 13 Wisdom save. On a failure it is enraged for 1 minute. On each turn it moves toward you by the most direct safe route, potentially provoking Opportunity Attacks. If within 5 feet of you, it makes an available melee attack against you. It repeats the save at the end of each of its turns, ending the effect on a success.",
+          "Conversion notes": "The affected target can avoid hazardous terrain. The compulsion uses its available movement and attack rather than granting extra actions.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 22."
+        }
+      }
+    ],
+    "open5e-vom:vom_ensnaring-ammunition": [
+      {
+        "label": "D&D 2024 adaptation · Ensnaring Ammunition",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open 2024 Longbow example"
+        },
+        "fields": {
+          "Category": "Ammunition",
+          "Damage": "Half the attack’s usual damage, rounded down.",
+          "Attack bonus": "Use the launcher’s normal attack modifier.",
+          "Range": "Use the launcher’s normal and long range.",
+          "Properties": "Match the ammunition to the launcher.",
+          "Mastery": "Inherited from the launcher if you can use it.",
+          "Weight": "Use the weight of the ammunition type.",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Activation": "Expend one piece as part of a ranged weapon attack using a matching launcher.",
+          "Special powers": "On a hit, the strands Restrain the target. It can take an action to make a DC 13 Strength check and break free on a success. Destroying the strands also frees it. The strands have AC 10, 5 Hit Points, and Immunity to Bludgeoning, Poison, and Psychic damage.",
+          "Conversion notes": "The restraint has no fixed duration in the source. It ends when the target breaks free or the strands are destroyed.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 22."
+        }
+      }
+    ],
+    "open5e-vom:vom_encouraging-breastplate": [
+      {
+        "label": "D&D 2024 adaptation · Encouraging Breastplate",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_breastplate-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While you wear the armor, each other friendly creature within 10 feet of you that can see you gains +1 on attack rolls and saving throws. If you are a Paladin with Aura of Courage, the bonus becomes +2.",
+          "Conversion notes": "Uses the named 2024 armor with +1 AC. The item’s bonus is separate from class aura features and follows its own range and sight requirements.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 22."
+        }
+      }
+    ],
+    "open5e-vom:vom_encouraging-chain-mail": [
+      {
+        "label": "D&D 2024 adaptation · Encouraging Chain Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy",
+          "Strength requirement": "13. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While you wear the armor, each other friendly creature within 10 feet of you that can see you gains +1 on attack rolls and saving throws. If you are a Paladin with Aura of Courage, the bonus becomes +2.",
+          "Conversion notes": "Uses the named 2024 armor with +1 AC. The item’s bonus is separate from class aura features and follows its own range and sight requirements.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 22."
+        }
+      }
+    ],
+    "open5e-vom:vom_encouraging-chain-shirt": [
+      {
+        "label": "D&D 2024 adaptation · Encouraging Chain Shirt",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While you wear the armor, each other friendly creature within 10 feet of you that can see you gains +1 on attack rolls and saving throws. If you are a Paladin with Aura of Courage, the bonus becomes +2.",
+          "Conversion notes": "Uses the named 2024 armor with +1 AC. The item’s bonus is separate from class aura features and follows its own range and sight requirements.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 22."
+        }
+      }
+    ],
+    "open5e-vom:vom_encouraging-half-plate": [
+      {
+        "label": "D&D 2024 adaptation · Encouraging Half Plate",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_half-plate-armor-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While you wear the armor, each other friendly creature within 10 feet of you that can see you gains +1 on attack rolls and saving throws. If you are a Paladin with Aura of Courage, the bonus becomes +2.",
+          "Conversion notes": "Uses the named 2024 armor with +1 AC. The item’s bonus is separate from class aura features and follows its own range and sight requirements.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 22."
+        }
+      }
+    ],
+    "open5e-vom:vom_encouraging-hide-armor": [
+      {
+        "label": "D&D 2024 adaptation · Encouraging Hide Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While you wear the armor, each other friendly creature within 10 feet of you that can see you gains +1 on attack rolls and saving throws. If you are a Paladin with Aura of Courage, the bonus becomes +2.",
+          "Conversion notes": "Uses the named 2024 armor with +1 AC. The item’s bonus is separate from class aura features and follows its own range and sight requirements.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 22."
+        }
+      }
+    ],
+    "open5e-vom:vom_encouraging-leather-armor": [
+      {
+        "label": "D&D 2024 adaptation · Encouraging Leather Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While you wear the armor, each other friendly creature within 10 feet of you that can see you gains +1 on attack rolls and saving throws. If you are a Paladin with Aura of Courage, the bonus becomes +2.",
+          "Conversion notes": "Uses the named 2024 armor with +1 AC. The item’s bonus is separate from class aura features and follows its own range and sight requirements.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 22."
+        }
+      }
+    ],
+    "open5e-vom:vom_encouraging-padded-armor": [
+      {
+        "label": "D&D 2024 adaptation · Encouraging Padded Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While you wear the armor, each other friendly creature within 10 feet of you that can see you gains +1 on attack rolls and saving throws. If you are a Paladin with Aura of Courage, the bonus becomes +2.",
+          "Conversion notes": "Uses the named 2024 armor with +1 AC. The item’s bonus is separate from class aura features and follows its own range and sight requirements.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 22."
+        }
+      }
+    ],
+    "open5e-vom:vom_encouraging-plate": [
+      {
+        "label": "D&D 2024 adaptation · Encouraging Plate",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy",
+          "Strength requirement": "15. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While you wear the armor, each other friendly creature within 10 feet of you that can see you gains +1 on attack rolls and saving throws. If you are a Paladin with Aura of Courage, the bonus becomes +2.",
+          "Conversion notes": "Uses the named 2024 armor with +1 AC. The item’s bonus is separate from class aura features and follows its own range and sight requirements.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 22."
+        }
+      }
+    ],
+    "open5e-vom:vom_encouraging-ring-mail": [
+      {
+        "label": "D&D 2024 adaptation · Encouraging Ring Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_ring-mail-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "15",
+          "Training": "Heavy",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While you wear the armor, each other friendly creature within 10 feet of you that can see you gains +1 on attack rolls and saving throws. If you are a Paladin with Aura of Courage, the bonus becomes +2.",
+          "Conversion notes": "Uses the named 2024 armor with +1 AC. The item’s bonus is separate from class aura features and follows its own range and sight requirements.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 22."
+        }
+      }
+    ],
+    "open5e-vom:vom_encouraging-scale-mail": [
+      {
+        "label": "D&D 2024 adaptation · Encouraging Scale Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While you wear the armor, each other friendly creature within 10 feet of you that can see you gains +1 on attack rolls and saving throws. If you are a Paladin with Aura of Courage, the bonus becomes +2.",
+          "Conversion notes": "Uses the named 2024 armor with +1 AC. The item’s bonus is separate from class aura features and follows its own range and sight requirements.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 22."
+        }
+      }
+    ],
+    "open5e-vom:vom_encouraging-splint": [
+      {
+        "label": "D&D 2024 adaptation · Encouraging Splint",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy",
+          "Strength requirement": "15. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While you wear the armor, each other friendly creature within 10 feet of you that can see you gains +1 on attack rolls and saving throws. If you are a Paladin with Aura of Courage, the bonus becomes +2.",
+          "Conversion notes": "Uses the named 2024 armor with +1 AC. The item’s bonus is separate from class aura features and follows its own range and sight requirements.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 22."
+        }
+      }
+    ],
+    "open5e-vom:vom_encouraging-studded-leather": [
+      {
+        "label": "D&D 2024 adaptation · Encouraging Studded Leather",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_studded-leather-armor-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "13 + Dex modifier",
+          "Training": "Light",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "13 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While you wear the armor, each other friendly creature within 10 feet of you that can see you gains +1 on attack rolls and saving throws. If you are a Paladin with Aura of Courage, the bonus becomes +2.",
+          "Conversion notes": "Uses the named 2024 armor with +1 AC. The item’s bonus is separate from class aura features and follows its own range and sight requirements.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 22."
+        }
+      }
+    ],
     "open5e-vom:vom_clockwork-mace-of-divinity": [
       {
         "label": "D&D 2024 adaptation · Clockwork Mace of Divinity",
