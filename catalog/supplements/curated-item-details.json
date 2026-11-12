@@ -1,6 +1,497 @@
 {
   "schema_version": 1,
   "records": {
+    "adventurers-vault-1-reference:02d1e62551e106b0": [
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While wearing the armor, you have Resistance to Necrotic damage. Take a Bonus Action to ward yourself against Undead in a 25-foot Emanation. Each Undead in the area makes a DC 17 Wisdom saving throw. On a failure, it cannot make attack rolls against you for 1 minute. It repeats the save at the end of each of its turns, ending the effect on itself on a success. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 52 (PDF p. 53), Skeletal Armor.",
+          "Conversion notes": "Caps the 4e enhancement at +3. Converts fixed Necrotic resistance to Resistance and the attack against Will to a Wisdom save. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-3",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "21",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While wearing the armor, you have Resistance to Necrotic damage. Take a Bonus Action to ward yourself against Undead in a 25-foot Emanation. Each Undead in the area makes a DC 17 Wisdom saving throw. On a failure, it cannot make attack rolls against you for 1 minute. It repeats the save at the end of each of its turns, ending the effect on itself on a success. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 52 (PDF p. 53), Skeletal Armor.",
+          "Conversion notes": "Caps the 4e enhancement at +3. Converts fixed Necrotic resistance to Resistance and the attack against Will to a Wisdom save. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-3",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Legendary",
+          "Special powers": "While wearing the armor, you have Resistance to Necrotic damage. Take a Bonus Action to ward yourself against Undead in a 25-foot Emanation. Each Undead in the area makes a DC 17 Wisdom saving throw. On a failure, it cannot make attack rolls against you for 1 minute. It repeats the save at the end of each of its turns, ending the effect on itself on a success. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 52 (PDF p. 53), Skeletal Armor.",
+          "Conversion notes": "Caps the 4e enhancement at +3. Converts fixed Necrotic resistance to Resistance and the attack against Will to a Wisdom save. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-3",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:49af94add999cbf6": [
+      {
+        "label": "D&D 2024 adaptation · Breastplate",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing the armor, take a Bonus Action to send the suit to an extradimensional space. While attuned and wearing no armor, take a Bonus Action to recall it. It appears on you fully donned, using its normal armor training and Strength requirements. Neither use consumes charges.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Summoned Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Bonus Actions replace Minor Actions and retain instant donning. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_breastplate-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing the armor, take a Bonus Action to send the suit to an extradimensional space. While attuned and wearing no armor, take a Bonus Action to recall it. It appears on you fully donned, using its normal armor training and Strength requirements. Neither use consumes charges.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Summoned Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Bonus Actions replace Minor Actions and retain instant donning. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Shirt",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing the armor, take a Bonus Action to send the suit to an extradimensional space. While attuned and wearing no armor, take a Bonus Action to recall it. It appears on you fully donned, using its normal armor training and Strength requirements. Neither use consumes charges.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Summoned Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Bonus Actions replace Minor Actions and retain instant donning. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Half Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing the armor, take a Bonus Action to send the suit to an extradimensional space. While attuned and wearing no armor, take a Bonus Action to recall it. It appears on you fully donned, using its normal armor training and Strength requirements. Neither use consumes charges.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Summoned Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Bonus Actions replace Minor Actions and retain instant donning. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_half-plate-armor-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing the armor, take a Bonus Action to send the suit to an extradimensional space. While attuned and wearing no armor, take a Bonus Action to recall it. It appears on you fully donned, using its normal armor training and Strength requirements. Neither use consumes charges.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Summoned Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Bonus Actions replace Minor Actions and retain instant donning. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing the armor, take a Bonus Action to send the suit to an extradimensional space. While attuned and wearing no armor, take a Bonus Action to recall it. It appears on you fully donned, using its normal armor training and Strength requirements. Neither use consumes charges.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Summoned Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Bonus Actions replace Minor Actions and retain instant donning. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing the armor, take a Bonus Action to send the suit to an extradimensional space. While attuned and wearing no armor, take a Bonus Action to recall it. It appears on you fully donned, using its normal armor training and Strength requirements. Neither use consumes charges.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Summoned Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Bonus Actions replace Minor Actions and retain instant donning. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "20",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing the armor, take a Bonus Action to send the suit to an extradimensional space. While attuned and wearing no armor, take a Bonus Action to recall it. It appears on you fully donned, using its normal armor training and Strength requirements. Neither use consumes charges.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Summoned Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Bonus Actions replace Minor Actions and retain instant donning. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Ring Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "16",
+          "Training": "Heavy armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing the armor, take a Bonus Action to send the suit to an extradimensional space. While attuned and wearing no armor, take a Bonus Action to recall it. It appears on you fully donned, using its normal armor training and Strength requirements. Neither use consumes charges.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Summoned Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Bonus Actions replace Minor Actions and retain instant donning. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_ring-mail-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing the armor, take a Bonus Action to send the suit to an extradimensional space. While attuned and wearing no armor, take a Bonus Action to recall it. It appears on you fully donned, using its normal armor training and Strength requirements. Neither use consumes charges.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Summoned Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Bonus Actions replace Minor Actions and retain instant donning. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Splint Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing the armor, take a Bonus Action to send the suit to an extradimensional space. While attuned and wearing no armor, take a Bonus Action to recall it. It appears on you fully donned, using its normal armor training and Strength requirements. Neither use consumes charges.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Summoned Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Bonus Actions replace Minor Actions and retain instant donning. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Studded Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "14 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "13 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing the armor, take a Bonus Action to send the suit to an extradimensional space. While attuned and wearing no armor, take a Bonus Action to recall it. It appears on you fully donned, using its normal armor training and Strength requirements. Neither use consumes charges.",
+          "Source locator": "Adventurer’s Vault (4e), p. 53 (PDF p. 54), Summoned Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement. Bonus Actions replace Minor Actions and retain instant donning. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_studded-leather-armor-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:7722f819b919e2ba": [
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When an attack hits you while wearing the armor, take a Reaction before its damage is applied and choose a willing ally within 25 feet. The ally takes that attack’s damage in your place. Apply the ally’s defenses against damage, and resolve any other effects of the hit against you. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 54 (PDF p. 55), Survivor’s Armor.",
+          "Conversion notes": "Maps cloth to Padded Armor and uses the lowest 4e enhancement and range. Transfers only the damage, preserving the original trigger. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When an attack hits you while wearing the armor, take a Reaction before its damage is applied and choose a willing ally within 25 feet. The ally takes that attack’s damage in your place. Apply the ally’s defenses against damage, and resolve any other effects of the hit against you. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 54 (PDF p. 55), Survivor’s Armor.",
+          "Conversion notes": "Maps cloth to Padded Armor and uses the lowest 4e enhancement and range. Transfers only the damage, preserving the original trigger. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When an attack hits you while wearing the armor, take a Reaction before its damage is applied and choose a willing ally within 25 feet. The ally takes that attack’s damage in your place. Apply the ally’s defenses against damage, and resolve any other effects of the hit against you. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 54 (PDF p. 55), Survivor’s Armor.",
+          "Conversion notes": "Maps cloth to Padded Armor and uses the lowest 4e enhancement and range. Transfers only the damage, preserving the original trigger. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:8f0f4a85196892d8": [
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "Immediately after taking Lightning or Thunder damage while wearing the armor, take a Reaction. Each enemy in a 10-foot Emanation originating from you takes 5 damage of one triggering type you choose. No saving throw. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 54 (PDF p. 55), Thunderhead Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement and retaliation damage. Converts the two-square burst to a 10-foot Emanation. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "20",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "Immediately after taking Lightning or Thunder damage while wearing the armor, take a Reaction. Each enemy in a 10-foot Emanation originating from you takes 5 damage of one triggering type you choose. No saving throw. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 54 (PDF p. 55), Thunderhead Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement and retaliation damage. Converts the two-square burst to a 10-foot Emanation. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "Immediately after taking Lightning or Thunder damage while wearing the armor, take a Reaction. Each enemy in a 10-foot Emanation originating from you takes 5 damage of one triggering type you choose. No saving throw. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 54 (PDF p. 55), Thunderhead Armor.",
+          "Conversion notes": "Uses the lowest 4e enhancement and retaliation damage. Converts the two-square burst to a 10-foot Emanation. This conversion requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-2",
+          "label": "Open 2024 AC baseline"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
     "adventurers-vault-1-reference:e76e25c0dbae2266": [
       {
         "label": "D&D 2024 adaptation · Scale Mail",

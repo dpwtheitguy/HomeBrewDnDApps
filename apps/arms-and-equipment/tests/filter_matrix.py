@@ -1740,6 +1740,20 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault defensive armor shows its triggers and targets': '''(async () => {
+                    const cases = [
+                        ["02d1e62551e106b0", ["Armor class21", "25-foot Emanation", "DC 17 Wisdom", "end of each of its turns"]],
+                        ["49af94add999cbf6", ["Armor class20", "extradimensional space", "wearing no armor", "fully donned"]],
+                        ["7722f819b919e2ba", ["Padded Armor", "willing ally within 25 feet", "other effects of the hit"]],
+                        ["8f0f4a85196892d8", ["Armor class20", "Lightning or Thunder", "10-foot Emanation", "No saving throw"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Adventurer’s Vault elemental armor shows ally protection and healing': '''(async () => {
                     const cases = [
                         ["e76e25c0dbae2266", ["Armor class20", "Radiant healing", "Hit Point Die", "10-foot Emanation"]],
