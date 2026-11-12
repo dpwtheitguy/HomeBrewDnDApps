@@ -1,6 +1,397 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:e9426b3c1a92264f": [
+      {
+        "label": "D&D 2024 adaptation · Hand Cannon",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=11",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "2d8 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "40/200 feet",
+          "Properties": "Ammunition, Reload (1), Two-Handed, Heavy",
+          "Mastery": "Push",
+          "Weight": "25 lb",
+          "Activation": "Make a ranged weapon attack and expend one unit of ammunition.",
+          "Ammunition": "One powder-and-shot unit per attack.",
+          "Reload": "Use an action to reload. A free hand and a powder-and-shot unit are required. The weapon cannot attack while empty.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, pp. 11 and 13. Basic mastery row for Hand Cannon.",
+          "Conversion notes": "Uses the source’s basic damage and first and last range bands. The modern attack formula, mastery, and reload timing replace the legacy hit modifiers, mastery tiers, and firing cadence. The optional legacy misfire and planar powder rules are outside this profile."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:e78b0011e4b0f4b9": [
+      {
+        "label": "D&D 2024 adaptation · Matchlock Musket",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=11",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "2d8 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "60/270 feet",
+          "Properties": "Ammunition, Reload (1), Two-Handed, Heavy",
+          "Mastery": "Slow",
+          "Weight": "20 lb",
+          "Activation": "Make a ranged weapon attack and expend one unit of ammunition.",
+          "Ammunition": "One powder-and-shot unit per attack.",
+          "Reload": "Use an action to set the stand in your space. It must be set before firing. Picking it up requires a Utilize action. Use an action to reload. A free hand and a powder-and-shot unit are required. The weapon cannot attack while empty.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, pp. 11 and 13. Basic mastery row for Matchlock Musket.",
+          "Conversion notes": "Uses the source’s basic damage and first and last range bands. The modern attack formula, mastery, and reload timing replace the legacy hit modifiers, mastery tiers, and firing cadence. The optional legacy misfire and planar powder rules are outside this profile."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:4787b5b9811bc074": [
+      {
+        "label": "D&D 2024 adaptation · Matchlock Caliver",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=11",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "2d6 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "50/220 feet",
+          "Properties": "Ammunition, Reload (1), Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "11 lb",
+          "Activation": "Make a ranged weapon attack and expend one unit of ammunition.",
+          "Ammunition": "One powder-and-shot unit per attack.",
+          "Reload": "Use an action to reload. A free hand and a powder-and-shot unit are required. The weapon cannot attack while empty.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, pp. 11 and 13. Basic mastery row for Matchlock Caliver.",
+          "Conversion notes": "Uses the source’s basic damage and first and last range bands. The modern attack formula, mastery, and reload timing replace the legacy hit modifiers, mastery tiers, and firing cadence. The optional legacy misfire and planar powder rules are outside this profile."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:ba57ac98c5f1b900": [
+      {
+        "label": "D&D 2024 adaptation · Matchlock Arquebus",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=11",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d8 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "20/120 feet",
+          "Properties": "Ammunition, Reload (1), Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "10 lb",
+          "Activation": "Make a ranged weapon attack and expend one unit of ammunition.",
+          "Ammunition": "One powder-and-shot unit per attack.",
+          "Reload": "Use an action to reload. A free hand and a powder-and-shot unit are required. The weapon cannot attack while empty.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, pp. 11 and 13. Basic mastery row for Matchlock Arquebus.",
+          "Conversion notes": "Uses the source’s basic damage and first and last range bands. The modern attack formula, mastery, and reload timing replace the legacy hit modifiers, mastery tiers, and firing cadence. The optional legacy misfire and planar powder rules are outside this profile."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:68b59ce425e02300": [
+      {
+        "label": "D&D 2024 adaptation · Wheellock Belt Pistol",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=11",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d4 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "20/100 feet",
+          "Properties": "Ammunition, Reload (1), Light",
+          "Mastery": "Vex",
+          "Weight": "3 lb",
+          "Activation": "Make a ranged weapon attack and expend one unit of ammunition.",
+          "Ammunition": "One powder-and-shot unit per attack.",
+          "Reload": "Use a Bonus Action to reload. A free hand and a powder-and-shot unit are required. The weapon cannot attack while empty.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, pp. 11 and 13. Basic mastery row for Wheellock Belt Pistol.",
+          "Conversion notes": "Uses the source’s basic damage and first and last range bands. The modern attack formula, mastery, and reload timing replace the legacy hit modifiers, mastery tiers, and firing cadence. The optional legacy misfire and planar powder rules are outside this profile."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:47db8a71d7cbd7b5": [
+      {
+        "label": "D&D 2024 adaptation · Wheellock Horse Pistol",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=11",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d6 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "20/120 feet",
+          "Properties": "Ammunition, Reload (1), Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "4 lb",
+          "Activation": "Make a ranged weapon attack and expend one unit of ammunition.",
+          "Ammunition": "One powder-and-shot unit per attack.",
+          "Reload": "Use a Bonus Action to reload. A free hand and a powder-and-shot unit are required. The weapon cannot attack while empty.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, pp. 11 and 13. Basic mastery row for Wheellock Horse Pistol.",
+          "Conversion notes": "Uses the source’s basic damage and first and last range bands. The modern attack formula, mastery, and reload timing replace the legacy hit modifiers, mastery tiers, and firing cadence. The optional legacy misfire and planar powder rules are outside this profile."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:dac408b4cf59f380": [
+      {
+        "label": "D&D 2024 adaptation · Flintlock Musket",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=11",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "2d8 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "60/270 feet",
+          "Properties": "Ammunition, Reload (1), Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "14 lb",
+          "Activation": "Make a ranged weapon attack and expend one unit of ammunition.",
+          "Ammunition": "One powder-and-shot unit per attack.",
+          "Reload": "Use a Bonus Action to reload. A free hand and a powder-and-shot unit are required. The weapon cannot attack while empty.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, pp. 11 and 13. Basic mastery row for Flintlock Musket.",
+          "Conversion notes": "Uses the source’s basic damage and first and last range bands. The modern attack formula, mastery, and reload timing replace the legacy hit modifiers, mastery tiers, and firing cadence. The optional legacy misfire and planar powder rules are outside this profile."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:efcb36b4a84910d5": [
+      {
+        "label": "D&D 2024 adaptation · Flintlock Rifle",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=11",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "2d8 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "90/300 feet",
+          "Properties": "Ammunition, Reload (1), Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "14 lb",
+          "Activation": "Make a ranged weapon attack and expend one unit of ammunition.",
+          "Ammunition": "One powder-and-shot unit per attack.",
+          "Reload": "Use a Bonus Action to reload. A free hand and a powder-and-shot unit are required. The weapon cannot attack while empty.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, pp. 11 and 13. Basic mastery row for Flintlock Rifle.",
+          "Conversion notes": "Uses the source’s basic damage and first and last range bands. The modern attack formula, mastery, and reload timing replace the legacy hit modifiers, mastery tiers, and firing cadence. The optional legacy misfire and planar powder rules are outside this profile."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:e433f1c6efce33b8": [
+      {
+        "label": "D&D 2024 adaptation · Flintlock Pistol",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=11",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d8 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "20/120 feet",
+          "Properties": "Ammunition, Reload (1), Two-Handed",
+          "Mastery": "Vex",
+          "Weight": "3 lb",
+          "Activation": "Make a ranged weapon attack and expend one unit of ammunition.",
+          "Ammunition": "One powder-and-shot unit per attack.",
+          "Reload": "Use a Bonus Action to reload. A free hand and a powder-and-shot unit are required. The weapon cannot attack while empty.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, pp. 11 and 13. Basic mastery row for Flintlock Pistol.",
+          "Conversion notes": "Uses the source’s basic damage and first and last range bands. The modern attack formula, mastery, and reload timing replace the legacy hit modifiers, mastery tiers, and firing cadence. The optional legacy misfire and planar powder rules are outside this profile."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:8f44a04926a83929": [
+      {
+        "label": "D&D 2024 adaptation · Modern Pistol, small",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=11",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d4 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "30/150 feet",
+          "Properties": "Ammunition, Reload (15), Light",
+          "Mastery": "Vex",
+          "Weight": "1 lb",
+          "Activation": "Make a ranged weapon attack and expend one unit of ammunition.",
+          "Ammunition": "One matching cartridge per attack.",
+          "Reload": "When empty, expend matching ammunition and use an action or Bonus Action to reload up to capacity. The weapon cannot attack while empty.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, pp. 11 and 13. Basic mastery row for Modern Pistol, small.",
+          "Conversion notes": "Uses the source’s basic damage and first and last range bands. The modern attack formula, mastery, and reload timing replace the legacy hit modifiers, mastery tiers, and firing cadence."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:9ce8950acbae82e3": [
+      {
+        "label": "D&D 2024 adaptation · Modern Pistol, medium",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=11",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d6 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "40/160 feet",
+          "Properties": "Ammunition, Reload (12)",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Activation": "Make a ranged weapon attack and expend one unit of ammunition.",
+          "Ammunition": "One matching cartridge per attack.",
+          "Reload": "When empty, expend matching ammunition and use an action or Bonus Action to reload up to capacity. The weapon cannot attack while empty.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, pp. 11 and 13. Basic mastery row for Modern Pistol, medium.",
+          "Conversion notes": "Uses the source’s basic damage and first and last range bands. The modern attack formula, mastery, and reload timing replace the legacy hit modifiers, mastery tiers, and firing cadence."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:82434aa10a1125df": [
+      {
+        "label": "D&D 2024 adaptation · Modern Pistol, large",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=11",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d8 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "50/170 feet",
+          "Properties": "Ammunition, Reload (8)",
+          "Mastery": "Vex",
+          "Weight": "4 lb",
+          "Activation": "Make a ranged weapon attack and expend one unit of ammunition.",
+          "Ammunition": "One matching cartridge per attack.",
+          "Reload": "When empty, expend matching ammunition and use an action or Bonus Action to reload up to capacity. The weapon cannot attack while empty.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, pp. 11 and 13. Basic mastery row for Modern Pistol, large.",
+          "Conversion notes": "Uses the source’s basic damage and first and last range bands. The modern attack formula, mastery, and reload timing replace the legacy hit modifiers, mastery tiers, and firing cadence."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:82d3023d2333791c": [
+      {
+        "label": "D&D 2024 adaptation · Modern Pistol, very large",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=11",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d10 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "60/180 feet",
+          "Properties": "Ammunition, Reload (6)",
+          "Mastery": "Slow",
+          "Weight": "6 lb",
+          "Activation": "Make a ranged weapon attack and expend one unit of ammunition.",
+          "Ammunition": "One matching cartridge per attack.",
+          "Reload": "When empty, expend matching ammunition and use an action or Bonus Action to reload up to capacity. The weapon cannot attack while empty.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, pp. 11 and 13. Basic mastery row for Modern Pistol, very large.",
+          "Conversion notes": "Uses the source’s basic damage and first and last range bands. The modern attack formula, mastery, and reload timing replace the legacy hit modifiers, mastery tiers, and firing cadence."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:d0966ea5e8860e4a": [
+      {
+        "label": "D&D 2024 adaptation · Modern Rifle, small",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=11",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "2d4 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "60/200 feet",
+          "Properties": "Ammunition, Reload (30), Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "5 lb",
+          "Activation": "Make a ranged weapon attack and expend one unit of ammunition.",
+          "Ammunition": "One matching cartridge per attack.",
+          "Reload": "When empty, expend matching ammunition and use an action or Bonus Action to reload up to capacity. The weapon cannot attack while empty.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, pp. 11 and 13. Basic mastery row for Modern Rifle, small.",
+          "Conversion notes": "Uses the source’s basic damage and first and last range bands. The modern attack formula, mastery, and reload timing replace the legacy hit modifiers, mastery tiers, and firing cadence."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:298abf696aa8a6cd": [
+      {
+        "label": "D&D 2024 adaptation · Modern Rifle, medium",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=11",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "2d6 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "70/250 feet",
+          "Properties": "Ammunition, Reload (20), Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "8 lb",
+          "Activation": "Make a ranged weapon attack and expend one unit of ammunition.",
+          "Ammunition": "One matching cartridge per attack.",
+          "Reload": "When empty, expend matching ammunition and use an action or Bonus Action to reload up to capacity. The weapon cannot attack while empty.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, pp. 11 and 13. Basic mastery row for Modern Rifle, medium.",
+          "Conversion notes": "Uses the source’s basic damage and first and last range bands. The modern attack formula, mastery, and reload timing replace the legacy hit modifiers, mastery tiers, and firing cadence."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:605a3845507ee7d1": [
+      {
+        "label": "D&D 2024 adaptation · Modern Rifle, large",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=11",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "2d8 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "80/300 feet",
+          "Properties": "Ammunition, Reload (20), Two-Handed",
+          "Mastery": "Slow",
+          "Weight": "12 lb",
+          "Activation": "Make a ranged weapon attack and expend one unit of ammunition.",
+          "Ammunition": "One matching cartridge per attack.",
+          "Reload": "When empty, expend matching ammunition and use an action or Bonus Action to reload up to capacity. The weapon cannot attack while empty.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, pp. 11 and 13. Basic mastery row for Modern Rifle, large.",
+          "Conversion notes": "Uses the source’s basic damage and first and last range bands. The modern attack formula, mastery, and reload timing replace the legacy hit modifiers, mastery tiers, and firing cadence."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:d8b0916e691b1f9a": [
+      {
+        "label": "D&D 2024 adaptation · Modern Rifle, very large",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=11",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "2d10 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "90/400 feet",
+          "Properties": "Ammunition, Reload (10), Two-Handed, Heavy",
+          "Mastery": "Slow",
+          "Weight": "25 lb",
+          "Activation": "Make a ranged weapon attack and expend one unit of ammunition.",
+          "Ammunition": "One matching cartridge per attack.",
+          "Reload": "When empty, expend matching ammunition and use an action or Bonus Action to reload up to capacity. The weapon cannot attack while empty.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, pp. 11 and 13. Basic mastery row for Modern Rifle, very large.",
+          "Conversion notes": "Uses the source’s basic damage and first and last range bands. The modern attack formula, mastery, and reload timing replace the legacy hit modifiers, mastery tiers, and firing cadence."
+        }
+      }
+    ],
     "mystara-fan-names-reference:e77fe380fb25f92b": [
       {
         "label": "D&D 2024 adaptation · Bayonet",

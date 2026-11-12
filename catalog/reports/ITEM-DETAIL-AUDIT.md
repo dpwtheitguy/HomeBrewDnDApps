@@ -5,20 +5,20 @@ This is a field coverage scan. A source-text or location lead still requires rev
 
 | Field | Structured or catalog price | 2024 reference or guideline | Draft | Leads | Unknown | N/A |
 |---|---:|---:|---:|---:|---:|---:|
-| Damage | 2,637 | 265 | 973 | 398 | 30,272 | 0 |
-| Bonuses | 453 | 207 | 1,149 | 519 | 32,217 | 0 |
+| Damage | 2,637 | 265 | 990 | 398 | 30,255 | 0 |
+| Bonuses | 453 | 207 | 1,166 | 519 | 32,200 | 0 |
 | Encounters | 2 | 0 | 2 | 4,909 | 29,632 | 0 |
 | Crafting | 7 | 214 | 14 | 131 | 34,179 | 0 |
 | Special Powers | 1,575 | 187 | 1,703 | 2,658 | 28,422 | 0 |
 | History | 13 | 0 | 21 | 0 | 34,511 | 0 |
-| Range | 952 | 272 | 1,129 | 650 | 31,542 | 0 |
+| Range | 952 | 272 | 1,146 | 650 | 31,525 | 0 |
 | Radius | 159 | 20 | 9 | 335 | 34,020 | 2 |
 | Casting Time | 0 | 14 | 2 | 8 | 34,466 | 55 |
-| Activation | 362 | 258 | 1,203 | 626 | 32,096 | 0 |
+| Activation | 362 | 258 | 1,220 | 626 | 32,079 | 0 |
 | Duration | 246 | 30 | 9 | 666 | 33,594 | 0 |
 | Saving Throw | 39 | 48 | 29 | 520 | 33,907 | 2 |
 | Attunement | 4,380 | 278 | 1,150 | 0 | 28,717 | 20 |
-| Weight | 6,075 | 150 | 1,185 | 0 | 27,135 | 0 |
+| Weight | 6,075 | 150 | 1,202 | 0 | 27,118 | 0 |
 | Base Price | 9,369 | 0 | 25,176 | 0 | 0 | 0 |
 | Provenance | 34,545 | 0 | 0 | 0 | 0 | 0 |
 

@@ -1871,6 +1871,34 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Mystara ranged variants preserve damage range and reload differences': '''(async () => {
+                    for (const [id, terms] of [
+                        ["e9426b3c1a92264f", ["2d8 Piercing", "40/200 feet", "Reload (1)"]],
+                        ["e78b0011e4b0f4b9", ["60/270 feet", "set the stand"]],
+                        ["4787b5b9811bc074", ["2d6 Piercing", "50/220 feet"]],
+                        ["ba57ac98c5f1b900", ["1d8 Piercing", "20/120 feet"]],
+                        ["68b59ce425e02300", ["1d4 Piercing", "20/100 feet"]],
+                        ["47db8a71d7cbd7b5", ["1d6 Piercing", "Bonus Action to reload"]],
+                        ["dac408b4cf59f380", ["2d8 Piercing", "60/270 feet"]],
+                        ["efcb36b4a84910d5", ["90/300 feet", "Bonus Action to reload"]],
+                        ["e433f1c6efce33b8", ["1d8 Piercing", "20/120 feet"]],
+                        ["8f44a04926a83929", ["Reload (15)", "30/150 feet"]],
+                        ["9ce8950acbae82e3", ["Reload (12)", "40/160 feet"]],
+                        ["82434aa10a1125df", ["Reload (8)", "50/170 feet"]],
+                        ["82d3023d2333791c", ["Reload (6)", "60/180 feet"]],
+                        ["d0966ea5e8860e4a", ["Reload (30)", "60/200 feet"]],
+                        ["298abf696aa8a6cd", ["2d6 Piercing", "70/250 feet"]],
+                        ["605a3845507ee7d1", ["Reload (20)", "80/300 feet"]],
+                        ["d8b0916e691b1f9a", ["Reload (10)", "90/400 feet"]],
+                    ]) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Mystara bayonets and powered melee weapons show distinct rules': '''(async () => {
                     for (const [id, terms] of [
                         ["e77fe380fb25f92b", ["Two-Handed when mounted", "sword-pattern"]],
