@@ -1869,6 +1869,23 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Vault of Magic shows aquatic armor, shield penalties, and paired ammunition': '''(async () => {
+                    for (const [id, terms] of [
+                        ["undine-plate", ["Swim Speed of 40 feet", "Fire Resistance", "AttunementRequired"]],
+                        ["verses-of-vengeance", ["Armor class bonus+3", "Cleric or Paladin", "1d4 Radiant"]],
+                        ["void-touched-buckler", ["DC 17 Wisdom", "gains Advantage"]],
+                        ["white-ape-hide", ["14 + Dex modifier", "Arcane Wasting", "Lesser Restoration"]],
+                        ["wolf-brush", ["1d6 Piercing", "Halberd variant", "Wall of Thorns"]],
+                        ["web-arrows", ["20-foot Cube", "DC 13 Dexterity", "2d4 Fire"]],
+                    ]) {
+                        inspect("open5e-vom:vom_" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Vault of Magic shows dragon rituals, shield colors, cursed blades, and trident rules': '''(async () => {
                     for (const [id, terms] of [
                         ["greatsword-of-fallen-saints", ["Graze", "Gentle Repose"]],

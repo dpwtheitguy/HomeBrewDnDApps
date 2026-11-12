@@ -253,8 +253,24 @@ def main():
         'vom_troll-skin-hide': 41,
         'vom_troll-skin-leather': 41,
         'vom_tyrants-whip': 41,
+        'vom_umbral-chopper': 42,
+        'vom_undine-plate': 42,
+        'vom_unquiet-dagger': 42,
+        'vom_valkyries-bite': 42,
+        'vom_verses-of-vengeance': 42,
+        'vom_vestments-of-the-bleak-shinobi': 43,
+        'vom_vile-razor': 43,
+        'vom_void-touched-buckler': 43,
+        'vom_warlocks-aegis': 44,
+        'vom_wave-chain-mail': 44,
+        'vom_whip-of-fangs': 44,
+        'vom_web-arrows': 44,
+        'vom_white-ape-hide': 45,
+        'vom_white-ape-leather': 45,
+        'vom_zephyr-shield': 46,
     }
     vault_weapon_corrections = {
+        'vom_wolf-brush': ('Wolf Brush', 'srd_spear', 45),
         'vom_anchor-of-striking': ('Anchor of Striking', 'srd_war-pick', 11),
         'vom_anointing-mace': ('Anointing Mace', 'srd_maul', 12),
         'vom_manticores-tail': ("Manticore's Tail", 'srd_morningstar', 28),
@@ -311,7 +327,10 @@ def main():
                         f = {**f, 'rarity': 'rare'}
                     if raw['pk'] in ('vom_spearbiter', 'vom_adamantine-spearbiter',
                                      'vom_swarmfoe-hide', 'vom_swarmfoe-leather',
-                                     'vom_tarian-graddfeydd-ddraig', 'vom_troll-skin-hide', 'vom_troll-skin-leather'):
+                                     'vom_tarian-graddfeydd-ddraig', 'vom_troll-skin-hide', 'vom_troll-skin-leather',
+                                     'vom_undine-plate', 'vom_verses-of-vengeance', 'vom_vestments-of-the-bleak-shinobi',
+                                     'vom_void-touched-buckler', 'vom_warlocks-aegis', 'vom_wave-chain-mail',
+                                     'vom_white-ape-hide', 'vom_white-ape-leather', 'vom_zephyr-shield'):
                         f = {**f, 'requires_attunement': True}
                     if raw['pk'] == 'vom_spectral-blade':
                         f = {**f, 'rarity': 'rare'}

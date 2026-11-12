@@ -1,6 +1,436 @@
 {
   "schema_version": 1,
   "records": {
+    "open5e-vom:vom_umbral-chopper": [
+      {
+        "label": "D&D 2024 adaptation · Umbral Chopper",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greataxe",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d12 Necrotic + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Cleave",
+          "Weight": "7 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "This greataxe deals Necrotic damage. A Plant hit by it makes a DC 15 Constitution save. On a failure it takes an additional 4d6 Necrotic damage and its Speed is halved until the end of its next turn. A success halves the extra damage and avoids the Speed reduction. While carrying it, take a Magic action to cast Darkness once per sunset.",
+          "Conversion notes": "The existing record represents the greataxe. The book allows other axe bases. Use the corresponding 2024 axe statistics, changing the weapon damage to Necrotic.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 42."
+        }
+      }
+    ],
+    "open5e-vom:vom_undine-plate": [
+      {
+        "label": "D&D 2024 adaptation · Undine Plate",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "Strength 15",
+          "Stealth disadvantage": "Yes, except underwater",
+          "Weight": "65 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing this armor, you have a Swim Speed of 40 feet and ignore its Stealth Disadvantage while underwater. As a Bonus Action, wrap yourself in seawater until the start of your next turn. During that time you have Fire Resistance, and other creatures cannot see you for the purpose of their melee and ranged attacks. Your own vision is clear. Recharges at dawn.",
+          "Conversion notes": "Uses 2024 Plate. Apply the normal unseen-target attack rules during the sheath effect.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 42."
+        }
+      }
+    ],
+    "open5e-vom:vom_unquiet-dagger": [
+      {
+        "label": "D&D 2024 adaptation · Unquiet Dagger",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required by a spellcaster of evil alignment",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "A hit deals an extra 2d6 Psychic damage. As a Magic action while holding the dagger, make the blade ripple for 1 minute. While it ripples, a creature that takes its Psychic damage must pass a DC 15 Charisma save or be Frightened of you for 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success. Recharges at dawn.",
+          "Conversion notes": "Uses the 2024 Dagger and retains the published alignment and spellcasting requirements.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 42."
+        }
+      }
+    ],
+    "open5e-vom:vom_valkyries-bite": [
+      {
+        "label": "D&D 2024 adaptation · Valkyrie’s Bite",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scimitar",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Slashing + Strength or Dexterity modifier + 2.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While attuned, you have Advantage on Initiative rolls. While holding the scimitar, it sheds Dim Light in a 10-foot radius.",
+          "Conversion notes": "Uses the 2024 Scimitar with the printed +2 enhancement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 42."
+        }
+      }
+    ],
+    "open5e-vom:vom_verses-of-vengeance": [
+      {
+        "label": "D&D 2024 adaptation · Verses of Vengeance",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required by a Cleric or Paladin",
+          "Special powers": "As a Reaction when a creature hits you with a melee attack or when you hit a creature using the tome, speak a verse to deal 1d4 Radiant damage to that creature. You can also attack with the tome using the Club statistics below. If you attack with it, you lose its entire +3 shield bonus until the start of your next turn.",
+          "Conversion notes": "Uses 2024 Shield and Club statistics. The weapon mode uses Club proficiency and mastery if available.",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 42–43.",
+          "Armor class bonus": "+3",
+          "Tome attack": "Simple Melee Weapon, 5 feet. Roll d20 + Strength modifier + Proficiency Bonus if proficient. Hit: 1d4 + Strength modifier Bludgeoning. Light, Slow."
+        },
+        "enhancement_bonus": 1
+      }
+    ],
+    "open5e-vom:vom_vestments-of-the-bleak-shinobi": [
+      {
+        "label": "D&D 2024 adaptation · Vestments of the Bleak Shinobi",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "11 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes, canceled by the vestments’ Advantage",
+          "Weight": "8 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Special powers": "The vestments grant Advantage on Dexterity (Stealth) checks while worn. As a Magic action, cast Darkness from the armor with a range of 30 feet. Recharges at dawn.",
+          "Conversion notes": "The padded base imposes Disadvantage. In this literal conversion, the two cancel, resulting in a straight Stealth roll.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 43."
+        }
+      }
+    ],
+    "open5e-vom:vom_vile-razor": [
+      {
+        "label": "D&D 2024 adaptation · Vile Razor",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Slashing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While holding the razor, you can take a second, different Bonus Action on your turn. This power recharges at dusk. On a melee hit against a creature, you may spend a Bonus Action to add 2d4 Necrotic damage. The target and its allies who saw the hit make a DC 15 Wisdom save or are Frightened of you for 1 minute. This second power has a separate dusk recharge.",
+          "Conversion notes": "Uses the 2024 Dagger with Slashing damage. The book gives the fright effect a fixed duration with no repeat save.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 43."
+        }
+      }
+    ],
+    "open5e-vom:vom_void-touched-buckler": [
+      {
+        "label": "D&D 2024 adaptation · Void-Touched Buckler",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While wielding the shield, take a Magic action to invoke the Void for 1 minute. During that time, a creature that misses you with a weapon attack makes a DC 17 Wisdom save or becomes Frightened of you until the end of its next turn. If a creature hits you with a weapon attack, it gains Advantage on weapon attacks against you until the end of its next turn. Recharges at dawn.",
+          "Conversion notes": "Uses a 2024 Shield. The Void has both defensive and adverse effects.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 43.",
+          "Armor class bonus": "+3"
+        },
+        "enhancement_bonus": 1
+      }
+    ],
+    "open5e-vom:vom_warlocks-aegis": [
+      {
+        "label": "D&D 2024 adaptation · Warlock’s Aegis",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "11 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required by a Warlock",
+          "Special powers": "While wearing the armor, take a Magic action and expend a spell slot to increase your AC by your Charisma modifier for 8 hours. Recharges at dawn. The armor takes on your patron’s colors and symbols when you attune.",
+          "Conversion notes": "Uses 2024 Leather Armor. The slot expenditure powers the armor and does not cast a spell.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 44."
+        }
+      }
+    ],
+    "open5e-vom:vom_wave-chain-mail": [
+      {
+        "label": "D&D 2024 adaptation · Wave Chain Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "16",
+          "Training": "Heavy armor",
+          "Strength requirement": "Strength 13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Special powers": "While at least half of your body is underwater, attacks against you have Disadvantage. When attacked, you can take a Reaction to become partly or wholly water through the end of the attacker’s turn. During this time you are immune to Bludgeoning, Piercing, and Slashing damage from nonmagical weapons. Recharges at dawn.",
+          "Conversion notes": "Uses 2024 Chain Mail. The reaction and the underwater attack penalty are separate benefits.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 44."
+        }
+      }
+    ],
+    "open5e-vom:vom_whip-of-fangs": [
+      {
+        "label": "D&D 2024 adaptation · Whip of Fangs",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_whip",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d4 Slashing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "10 feet melee",
+          "Properties": "Finesse, Reach",
+          "Mastery": "Slow",
+          "Weight": "3 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "On a hit, add 1d4 Poison damage. The target makes a DC 13 Constitution save or is Poisoned until the end of its next turn.",
+          "Conversion notes": "Uses the 2024 Whip. The save applies to the condition.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 44."
+        }
+      }
+    ],
+    "open5e-vom:vom_white-ape-hide": [
+      {
+        "label": "D&D 2024 adaptation · White Ape Hide",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "As a Bonus Action, gain a Climb Speed of 30 feet for 1 hour. As a separate Bonus Action, gain Advantage on Strength and Constitution checks and saves and +1 to melee weapon attack and damage rolls for 1 minute. Each power recharges at dawn. On a melee weapon hit, you can also force a DC 15 Constitution save against Arcane Wasting. This third power recharges after 7 days.",
+          "Conversion notes": "The AC includes the printed +2. The disease retains its printed ability score loss and recovery.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 45.",
+          "Arcane Wasting": "On a failed initial save, symptoms start after 1d6 days. After each Long Rest once symptomatic, make a DC 15 Constitution save. Failure reduces Intelligence and Wisdom by 1d3 each. The creature dies if either reaches 0. Two consecutive successes cure the disease. Lesser Restoration also cures it if the caster passes a DC 15 check using their spellcasting ability. Lost scores return after a Long Rest once cured."
+        },
+        "enhancement_bonus": 2
+      }
+    ],
+    "open5e-vom:vom_white-ape-leather": [
+      {
+        "label": "D&D 2024 adaptation · White Ape Leather",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "13 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "As a Bonus Action, gain a Climb Speed of 30 feet for 1 hour. As a separate Bonus Action, gain Advantage on Strength and Constitution checks and saves and +1 to melee weapon attack and damage rolls for 1 minute. Each power recharges at dawn. On a melee weapon hit, you can also force a DC 15 Constitution save against Arcane Wasting. This third power recharges after 7 days.",
+          "Conversion notes": "The AC includes the printed +2. The disease retains its printed ability score loss and recovery.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 45.",
+          "Arcane Wasting": "On a failed initial save, symptoms start after 1d6 days. After each Long Rest once symptomatic, make a DC 15 Constitution save. Failure reduces Intelligence and Wisdom by 1d3 each. The creature dies if either reaches 0. Two consecutive successes cure the disease. Lesser Restoration also cures it if the caster passes a DC 15 check using their spellcasting ability. Lost scores return after a Long Rest once cured."
+        },
+        "enhancement_bonus": 2
+      }
+    ],
+    "open5e-vom:vom_wolf-brush": [
+      {
+        "label": "D&D 2024 adaptation · Wolf Brush",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Piercing (1d8 with two hands in melee) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Thrown, Versatile (1d8)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While holding or carrying it, gain Piercing Resistance. While held, the branches shed Dim Light in a 5-foot radius. Use an action to fold and wrap them, extinguishing the light. It holds 10 charges and regains 1d8 + 2 at dawn. It also regains 1 when first exposed to powerful magical sunlight, then 1 per round while exposed, up to 10. As a Magic action, spend charges to sweep a 15-foot Cone. Each creature in it makes a DC 17 Dexterity save, taking 1d10 Piercing per charge on a failure or half on a success. As a Magic action, spend 6 charges to cast Wall of Thorns (DC 17).",
+          "Conversion notes": "The book names Spear and Halberd. The primary profile uses Spear, with Halberd rules below. The upstream Pike is a mismatched base.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, pp. 45–46.",
+          "Halberd variant": "Martial Melee Weapon. Attack: Strength modifier + Proficiency Bonus if proficient + 1. Hit: 1d10 + Strength modifier + 1 Slashing. Reach 10 feet. Heavy, Reach, Two-Handed. Cleave. 6 lb."
+        }
+      }
+    ],
+    "open5e-vom:vom_zephyr-shield": [
+      {
+        "label": "D&D 2024 adaptation · Zephyr Shield",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Training": "Shield",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "When immersed while holding it, you can take a Reaction to create a 10-foot-radius air bubble for up to 1 minute. The bubble moves up to 30 feet during your turn, carrying you with it. Other creatures can enter and leave. It collapses if you leave. It supplies fresh air and excludes airborne and waterborne contaminants. Its surface cannot be damaged, and ranged attacks against creatures inside have Disadvantage. As a separate Bonus Action, cast Sanctuary (DC 13), which protects only against water elementals and creatures made of water. Each power recharges at dawn.",
+          "Conversion notes": "Uses 2024 Shield and Sanctuary. This draft treats bubble movement as part of your movement.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 46.",
+          "Armor class bonus": "+4"
+        },
+        "enhancement_bonus": 2
+      }
+    ],
+    "open5e-vom:vom_web-arrows": [
+      {
+        "label": "D&D 2024 adaptation · Web Arrows",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Ammunition (pair of arrows)",
+          "Damage": "Use the bow’s damage on a creature hit. Burning webs can deal 2d4 Fire.",
+          "Attack bonus": "Use the bow’s normal attack modifier.",
+          "Range": "Use the bow’s normal and long range.",
+          "Properties": "Compatible with bows that use arrows.",
+          "Mastery": "Use the bow’s mastery if eligible.",
+          "Weight": "Use the weight of two arrows.",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Activation": "Fire both arrows from a bow within 1 minute.",
+          "Special powers": "Fire two arrows within 1 minute, landing no more than 20 feet apart. They anchor a 20-foot Cube of webbing, creating Difficult Terrain and a Lightly Obscured area. A creature entering during its turn or starting there makes a DC 13 Dexterity save or is Restrained until it leaves or is freed. A creature can spend an action and pass a DC 13 Strength check to free itself or another creature it can reach. Fire burns an affected 5-foot Cube in 1 round and deals 2d4 Fire damage to a creature starting its turn in that fire.",
+          "Conversion notes": "Use normal bow attacks. The book gives no duration. This draft keeps the webs for up to 1 hour, ending sooner if both anchors are destroyed.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 44."
+        }
+      }
+    ],
     "open5e-vom:vom_greatsword-of-fallen-saints": [
       {
         "label": "D&D 2024 adaptation · Greatsword of Fallen Saints",
