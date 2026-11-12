@@ -639,6 +639,18 @@ def main():
                         ["Verified 2024 armor rules", "Armor class18", "Metal Shell", "10 minutes"]
                             .every(value => armor.includes(value));
                 })()''',
+                'Public chain armor cards distinguish their two base suits': '''(async () => {
+                    inspect("dndbeyond:9228530", grid.firstElementChild);
+                    await itemDetails;
+                    const efreeti = inspection.textContent;
+                    inspect("dndbeyond:9228539", grid.firstElementChild);
+                    await itemDetails;
+                    const elven = inspection.textContent;
+                    return ["armor rules · Chain Mail", "armor rules · Chain Shirt", "Armor class19",
+                        "Armor class16 + Dex modifier (max +2)", "Fire immunity"].every(value => efreeti.includes(value))
+                        && ["Armor class17", "Armor class14 + Dex modifier (max +2)", "count as trained"]
+                            .every(value => elven.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

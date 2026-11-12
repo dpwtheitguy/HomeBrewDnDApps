@@ -128,41 +128,55 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
         source_id = f"{item['source_id']}:{source_base}"
         if source_id in indexed and source_id != item_id:
             base_id = source_id
-    mapping = next((entry for entry in curated.get(item_id, [])
-                    if entry.get('profile_kind') in {'published-armor-mapping', 'published-public-armor'}), None)
+    mappings = [entry for entry in curated.get(item_id, [])
+                if entry.get('profile_kind') in {'published-armor-mapping', 'published-public-armor'}]
     if item['ruleset'] == 'bg3':
         evidence = 'native-bg3'
         fields.update(read_bg3(bg3['records'].get(item_id, {}), bg3['effects'], bg3['shield_training'], errors, gaps))
-    elif mapping:
-        base_id = mapping['related_item']['id']
-        target = indexed.get(base_id, {})
-        target_armor = target.get('mechanics', {}).get('armor')
-        mapped_fields = mapping['fields']
-        public = mapping['profile_kind'] == 'published-public-armor'
-        provenance = item['provenance']
-        verified_source = (item['source_id'] == 'dndbeyond-public-index'
-                           and mapping.get('source') == provenance.get('source_url')
-                           and target.get('magic') is False) if public else provenance.get('original_publication_verified')
-        bonus = mapping.get('enhancement_bonus') if public else int(
-            bool(target.get('magic') and target.get('name', '').endswith(' (+1)')))
-        if (mapping['status'] != 'published-reference' or not mapping.get('source')
-                or target.get('source_id') != 'open5e-srd-2024' or not target_armor
-                or not verified_source or type(bonus) is not int or not 0 <= bonus <= 3):
-            errors.append('invalid verified published armor mapping')
-        else:
-            evidence = 'verified-2024-armor-mapping'
-            fields.update(read_armor(target_armor, modern=True, errors=errors))
-            if bonus:
-                fields['enhancement_bonus'] = f'+{bonus}'
-            if fields['role'] == 'shield':
-                valid_ac = mapped_fields.get('Armor class bonus') == f"+{target_armor['ac_base'] + bonus}"
+    elif mappings:
+        variants = []
+        base_ids = []
+        for mapping in mappings:
+            base_id = mapping['related_item']['id']
+            target = indexed.get(base_id, {})
+            target_armor = target.get('mechanics', {}).get('armor')
+            mapped_fields = mapping['fields']
+            public = mapping['profile_kind'] == 'published-public-armor'
+            provenance = item['provenance']
+            verified_source = (item['source_id'] == 'dndbeyond-public-index'
+                               and mapping.get('source') == provenance.get('source_url')
+                               and target.get('magic') is False) if public else provenance.get('original_publication_verified')
+            bonus = mapping.get('enhancement_bonus') if public else int(
+                bool(target.get('magic') and target.get('name', '').endswith(' (+1)')))
+            if (mapping['status'] != 'published-reference' or not mapping.get('source')
+                    or target.get('source_id') != 'open5e-srd-2024' or not target_armor
+                    or not verified_source or type(bonus) is not int or not 0 <= bonus <= 3):
+                errors.append('invalid verified published armor mapping')
             else:
-                valid_ac = str(mapped_fields.get('Armor class', '')).split()[0:1] == [str(target_armor['ac_base'] + bonus)]
-            if not valid_ac:
-                errors.append('mapped armor class disagrees with published equipment')
-            fields['effects'] = mapped_fields['Special powers']
-            attuned_item = item if public else target
-            fields['attunement'] = 'Required' if attuned_item['requires_attunement'] else 'No'
+                evidence = 'verified-2024-armor-mapping'
+                fields = read_armor(target_armor, modern=True, errors=errors)
+                if bonus:
+                    fields['enhancement_bonus'] = f'+{bonus}'
+                if fields['role'] == 'shield':
+                    valid_ac = mapped_fields.get('Armor class bonus') == f"+{target_armor['ac_base'] + bonus}"
+                else:
+                    formula = str(target_armor['ac_base'] + bonus)
+                    if target_armor['ac_add_dexmod']:
+                        formula += ' + Dex modifier'
+                        if cap := target_armor['ac_cap_dexmod']:
+                            formula += f' (max +{cap})'
+                    valid_ac = mapped_fields.get('Armor class') == formula
+                if not valid_ac:
+                    errors.append('mapped armor class disagrees with published equipment')
+                fields['effects'] = mapped_fields['Special powers']
+                attuned_item = item if public else target
+                fields['attunement'] = 'Required' if attuned_item['requires_attunement'] else 'No'
+                variants.append(fields)
+                base_ids.append(base_id)
+        if len(variants) > 1:
+            fields = {key: joined(row.get(key) for row in variants)
+                      for key in dict.fromkeys(key for row in variants for key in row)}
+        base_id = joined(base_ids)
     elif item_id in core:
         profile = core[item_id]
         target = indexed.get(profile['target_id'], {})
