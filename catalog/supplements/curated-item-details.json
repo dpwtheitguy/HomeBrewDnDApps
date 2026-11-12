@@ -1,6 +1,525 @@
 {
   "schema_version": 1,
   "records": {
+    "open5e-vom:vom_forgefire-maul": [
+      {
+        "label": "D&D 2024 adaptation · Forgefire Maul",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_maul",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 Bludgeoning + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Topple",
+          "Weight": "10 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Speak the command word as a Bonus Action to heat the head. Each hit with the heated head deals an extra 1d6 Fire damage. Repeat the command as a Bonus Action, drop it, or stow it to end the heat. On a natural 20 against a target wearing or holding metal, the target takes an extra 1d4 Fire damage and one such item becomes hot for 1 minute. The target takes 1d4 Fire damage at the start of each of its turns while still wearing or carrying that hot item.",
+          "Conversion notes": "Uses the 2024 Maul. The critical-hit rider is independent of the command word and the attacker chooses the affected metal item.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 23."
+        }
+      }
+    ],
+    "open5e-vom:vom_forgefire-warhammer": [
+      {
+        "label": "D&D 2024 adaptation · Forgefire Warhammer",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_warhammer",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Bludgeoning (1d10 with two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Push",
+          "Weight": "5 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Speak the command word as a Bonus Action to heat the head. Each hit with the heated head deals an extra 1d6 Fire damage. Repeat the command as a Bonus Action, drop it, or stow it to end the heat. On a natural 20 against a target wearing or holding metal, the target takes an extra 1d4 Fire damage and one such item becomes hot for 1 minute. The target takes 1d4 Fire damage at the start of each of its turns while still wearing or carrying that hot item.",
+          "Conversion notes": "Uses the 2024 Warhammer. The critical-hit rider is independent of the command word and the attacker chooses the affected metal item.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 23."
+        }
+      }
+    ],
+    "open5e-vom:vom_glazed-battleaxe": [
+      {
+        "label": "D&D 2024 adaptation · Glazed Battleaxe",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_battleaxe",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While you carry this scented weapon, you have Advantage on Charisma (Persuasion) checks to interact with Humanoids and Fey.",
+          "Conversion notes": "Uses the 2024 Battleaxe profile and retains the source’s passive social benefit.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 24."
+        }
+      }
+    ],
+    "open5e-vom:vom_glazed-greataxe": [
+      {
+        "label": "D&D 2024 adaptation · Glazed Greataxe",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greataxe",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d12 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Cleave",
+          "Weight": "7 lb",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While you carry this scented weapon, you have Advantage on Charisma (Persuasion) checks to interact with Humanoids and Fey.",
+          "Conversion notes": "Uses the 2024 Greataxe profile and retains the source’s passive social benefit.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 24."
+        }
+      }
+    ],
+    "open5e-vom:vom_glazed-greatsword": [
+      {
+        "label": "D&D 2024 adaptation · Glazed Greatsword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d6 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "6 lb",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While you carry this scented weapon, you have Advantage on Charisma (Persuasion) checks to interact with Humanoids and Fey.",
+          "Conversion notes": "Uses the 2024 Greatsword profile and retains the source’s passive social benefit.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 24."
+        }
+      }
+    ],
+    "open5e-vom:vom_glazed-handaxe": [
+      {
+        "label": "D&D 2024 adaptation · Glazed Handaxe",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Light, Thrown",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While you carry this scented weapon, you have Advantage on Charisma (Persuasion) checks to interact with Humanoids and Fey.",
+          "Conversion notes": "Uses the 2024 Handaxe profile and retains the source’s passive social benefit.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 24."
+        }
+      }
+    ],
+    "open5e-vom:vom_glazed-longsword": [
+      {
+        "label": "D&D 2024 adaptation · Glazed Longsword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 with two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While you carry this scented weapon, you have Advantage on Charisma (Persuasion) checks to interact with Humanoids and Fey.",
+          "Conversion notes": "Uses the 2024 Longsword profile and retains the source’s passive social benefit.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 24."
+        }
+      }
+    ],
+    "open5e-vom:vom_glazed-rapier": [
+      {
+        "label": "D&D 2024 adaptation · Glazed Rapier",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_rapier",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While you carry this scented weapon, you have Advantage on Charisma (Persuasion) checks to interact with Humanoids and Fey.",
+          "Conversion notes": "Uses the 2024 Rapier profile and retains the source’s passive social benefit.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 24."
+        }
+      }
+    ],
+    "open5e-vom:vom_glazed-scimitar": [
+      {
+        "label": "D&D 2024 adaptation · Glazed Scimitar",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scimitar",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Slashing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Weight": "3 lb",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While you carry this scented weapon, you have Advantage on Charisma (Persuasion) checks to interact with Humanoids and Fey.",
+          "Conversion notes": "Uses the 2024 Scimitar profile and retains the source’s passive social benefit.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 24."
+        }
+      }
+    ],
+    "open5e-vom:vom_glazed-shortsword": [
+      {
+        "label": "D&D 2024 adaptation · Glazed Shortsword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "While you carry this scented weapon, you have Advantage on Charisma (Persuasion) checks to interact with Humanoids and Fey.",
+          "Conversion notes": "Uses the 2024 Shortsword profile and retains the source’s passive social benefit.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 24."
+        }
+      }
+    ],
+    "open5e-vom:vom_gale-javelin": [
+      {
+        "label": "D&D 2024 adaptation · Gale Javelin",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_javelin",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Piercing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee, 30/120 feet thrown",
+          "Properties": "Thrown",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "Once per dawn, speak the command word as part of throwing the javelin at a target. Each other creature within 10 feet of the path makes a DC 13 Strength save. On a failure, it is pushed 10 feet away from you and falls Prone. If the attack hits, the target also makes a DC 13 Strength save. On a failure, it is pushed 15 feet away from you and falls Prone.",
+          "Conversion notes": "The line effect occurs on a hit or miss. The conversion assigns the target only its separate on-hit save and excludes the thrower from the line effect.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 24."
+        }
+      }
+    ],
+    "open5e-vom:vom_gnawing-spear": [
+      {
+        "label": "D&D 2024 adaptation · Gnawing Spear",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Piercing (1d8 with two hands in melee) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee, 20/60 feet thrown",
+          "Properties": "Thrown, Versatile (1d8)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Make a weapon attack. Apply the special power at its listed trigger or action cost.",
+          "Special powers": "On a natural 20, the animated head lodges in the target. While you hold the lodged spear, the target is Grappled by you. It takes 2d6 Piercing damage at the start of each of your turns while the spear remains lodged. Releasing the spear ends the Grappled condition but leaves the damage active. You cannot attack with it while lodged. The target or another creature within reach can take an action and make a DC 15 Strength check to pull it out, dealing 1d6 Piercing damage to the target on a success. You can instead take a Magic action to command it loose, and it lands within 5 feet of the target.",
+          "Conversion notes": "Uses Grappled as specified by the original trigger. A thrown critical can lodge and deal the recurring damage, and the grapple requires holding the spear.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 24."
+        }
+      }
+    ],
+    "open5e-vom:vom_golden-bolt": [
+      {
+        "label": "D&D 2024 adaptation · Golden Bolt",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_heavy-crossbow",
+          "label": "Open 2024 weapon baseline"
+        },
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d10 Piercing + Dexterity modifier + 1.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "100/400 feet",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Push",
+          "Weight": "18 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "Required",
+          "Activation": "Make a ranged attack with the crossbow. It supplies its own bolt for every shot.",
+          "Special powers": "The crossbow creates its own golden bolts as it fires. It uses no ammunition from your inventory and has no Loading property.",
+          "Conversion notes": "The book classifies the named item as a Heavy Crossbow. The 2024 conversion keeps Heavy, Two-Handed, and Push.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 24."
+        }
+      }
+    ],
+    "open5e-vom:vom_fellforged-armor": [
+      {
+        "label": "D&D 2024 adaptation · Fellforged Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy",
+          "Strength requirement": "15. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing the armor, your Strength score increases by 2, to a maximum of 30. Once per dawn, take a Magic action to cast Speak with Dead. While you wear it and remain cursed, Beasts with Intelligence 3 or lower within 30 feet are Frightened of you.",
+          "Conversion notes": "Uses 2024 Plate Armor (+1). The aura uses the source’s explicit Intelligence limit. The steam armor’s curse binds on attunement.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 23.",
+          "Curse": "Once attuned, you cannot remove the armor until Remove Curse or equivalent magic targets you."
+        }
+      }
+    ],
+    "open5e-vom:vom_fountmail": [
+      {
+        "label": "D&D 2024 adaptation · Fountmail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-3",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy",
+          "Strength requirement": "13. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Special powers": "While wearing the armor, you have Necrotic Resistance and Immunity to the Frightened condition. Whenever you spend a Hit Point Die to regain Hit Points, add your Strength and Wisdom modifiers to that roll in addition to Constitution.",
+          "Conversion notes": "The printed armor is Chain Mail (+3) and requires attunement. Open5e linked it to plate.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 23."
+        }
+      }
+    ],
+    "open5e-vom:vom_gorgon-scale": [
+      {
+        "label": "D&D 2024 adaptation · Gorgon Scale",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Rarity": "Very Rare",
+          "Attunement": "Required",
+          "Special powers": "While wearing the armor, you are immune to the Petrified condition. Once per dawn, after moving at least 20 feet straight toward a creature and hitting it with a melee weapon attack on the same turn, you can use a Bonus Action to force a DC 15 Constitution save. On a failure the creature is Restrained. It repeats the save at the end of its next turn. A success ends the effect, and a failure Petrifies it until Greater Restoration or equivalent magic frees it.",
+          "Conversion notes": "Uses 2024 Scale Mail (+1) and preserves the charge, initial save, and repeat save.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 24."
+        }
+      }
+    ],
+    "open5e-vom:vom_goblin-shield": [
+      {
+        "label": "D&D 2024 adaptation · Goblin Shield",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 armor baseline"
+        },
+        "fields": {
+          "Training": "Shield",
+          "Weight": "6 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Special powers": "The shield has 3 charges and regains 1d3 expended charges at dawn. While wielding it, spend 1 charge as a Bonus Action to make its head bite a target within 5 feet. Make a melee attack using Strength and add your Proficiency Bonus if you have Shield training. On a hit, deal 2d4 Piercing damage.",
+          "Conversion notes": "Shield training supplies the source’s shield proficiency requirement for the bite. The bite deals its fixed damage and the shield retains its normal +2 AC.",
+          "Source locator": "Kobold Press, Vault of Magic, p. 24.",
+          "Armor class bonus": "+2"
+        }
+      }
+    ],
+    "open5e-vom:vom_flash-bullet": [
+      {
+        "label": "D&D 2024 adaptation · Flash Bullet",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_sling",
+          "label": "Open 2024 Sling"
+        },
+        "fields": {
+          "Category": "Ammunition (sling bullet)",
+          "Damage": "Normal sling damage.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient, plus any sling enhancement.",
+          "Range": "30/120 feet.",
+          "Properties": "Requires a Sling.",
+          "Mastery": "Inherits the sling’s Slow mastery when its hit and damage requirements are met.",
+          "Weight": "Approximately 0.075 lb per bullet.",
+          "Rarity": "Common",
+          "Attunement": "None",
+          "Activation": "Expend one stone as part of a ranged sling attack.",
+          "Special powers": "On a hit against a creature, the flash forces a DC 11 Constitution save. On a failure the target is Blinded until the end of its next turn. A target with Sunlight Sensitivity has Disadvantage on this save.",
+          "Conversion notes": "Uses 2024 sling and Blinded rules.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 23."
+        }
+      }
+    ],
+    "open5e-vom:vom_fog-stone": [
+      {
+        "label": "D&D 2024 adaptation · Fog Stone",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_sling",
+          "label": "Open 2024 Sling"
+        },
+        "fields": {
+          "Category": "Ammunition (sling bullet)",
+          "Damage": "None. The sling launches the fog stone.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient, plus any sling enhancement.",
+          "Range": "30/120 feet.",
+          "Properties": "Requires a Sling.",
+          "Mastery": "Inherits the sling’s Slow mastery when its hit and damage requirements are met.",
+          "Weight": "Approximately 0.075 lb per bullet.",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Activation": "Expend one stone as part of a ranged sling attack.",
+          "Special powers": "Firing the stone creates a stationary 20-foot-radius Sphere of fog centered on the point of impact. The fog spreads around corners and Heavily Obscures the area. It lasts 10 minutes or until dispersed by a wind of at least 10 miles per hour. A typical find contains 1d4 + 1 stones.",
+          "Conversion notes": "This conversion treats the transforming stone as a fog payload. If fired at a creature and missed, the DM places the point of impact beyond the target along the shot’s path.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Source locator": "Kobold Press, Vault of Magic, p. 23."
+        }
+      }
+    ],
     "open5e-vom:vom_dirgeblade": [
       {
         "label": "D&D 2024 adaptation · Dirgeblade",

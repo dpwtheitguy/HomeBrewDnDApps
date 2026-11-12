@@ -157,6 +157,15 @@ def main():
         'vom_ensnaring-ammunition': 22,
         'vom_entrenching-mattock': 22,
         'vom_exsanguinating-blade': 22,
+        'vom_fellforged-armor': 23,
+        'vom_flash-bullet': 23,
+        'vom_fog-stone': 23,
+        'vom_fountmail': 23,
+        'vom_gale-javelin': 24,
+        'vom_gnawing-spear': 24,
+        'vom_goblin-shield': 24,
+        'vom_golden-bolt': 24,
+        'vom_gorgon-scale': 24,
     }
     vault_weapon_corrections = {
         'vom_anchor-of-striking': ('Anchor of Striking', 'srd_war-pick', 11),
@@ -192,8 +201,15 @@ def main():
                         vault_page = 21
                     if raw['pk'].startswith('vom_encouraging-'):
                         vault_page = 22
+                    if raw['pk'].startswith('vom_forgefire-'):
+                        vault_page = 23
+                    if raw['pk'].startswith('vom_glazed-'):
+                        vault_page = 24
+                    if raw['pk'] == 'vom_fountmail':
+                        f = {**f, 'armor': 'srd_chain-mail', 'weight': '55.000'}
                     if (raw['pk'] in ('vom_animated-chain-mail', 'vom_blood-soaked-hide', 'vom_brazen-bulwark',
-                                      'vom_crusaders-shield')
+                                      'vom_crusaders-shield', 'vom_fellforged-armor', 'vom_fountmail',
+                                      'vom_goblin-shield', 'vom_gorgon-scale')
                             or raw['pk'].startswith(('vom_bloodprice-', 'vom_chillblain-', 'vom_encouraging-'))):
                         f = {**f, 'requires_attunement': True}
                 category=f.get('category') or f.get('type') or ('armor' if fn=='Armor.json' else 'weapon' if fn=='Weapon.json' else 'gear')
@@ -207,9 +223,13 @@ def main():
                     armor = armor_lookup['srd_half-plate']
                     category = 'medium-armor'
                 typ,icon=classify(f['name'],category,weapon.get('name','')+' '+armor.get('name',''))
+                if iid == 'open5e-vom:vom_goblin-shield':
+                    icon = 'shield'
                 properties=[]
                 for a in prop_assign.get(f.get('weapon'),[]):
                     p=prop_lookup.get(a.get('property') or a.get('weapon_property'),{})
+                    if iid == 'open5e-vom:vom_golden-bolt' and p.get('name') in {'Ammunition', 'Loading'}:
+                        continue
                     properties.append({'assignment':a,'property':p})
                 if key == 'open5e-srd-2024' and ismagic and weapon:
                     melee_family = next((family for prefix, family in
@@ -257,6 +277,10 @@ def main():
                         item['mechanics']['reference_metadata'] = {'aliases': [raw['fields']['name']]}
                     if f.get('weapon') != raw['fields'].get('weapon'):
                         item['mechanics']['source_fields']['upstream_weapon'] = raw['fields'].get('weapon')
+                    if f.get('armor') != raw['fields'].get('armor'):
+                        item['mechanics']['source_fields']['upstream_armor'] = raw['fields'].get('armor')
+                    if f.get('weight') != raw['fields'].get('weight'):
+                        item['mechanics']['source_fields']['upstream_weight'] = raw['fields'].get('weight')
                 if armor_fact:
                     item['provenance']['base_rules_id']=armor_fact['base_id']
                     item['provenance']['source_url']=armor_facts['source']

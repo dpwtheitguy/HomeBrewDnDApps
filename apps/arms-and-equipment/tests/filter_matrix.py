@@ -1869,6 +1869,29 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Vault of Magic preserves Fountmail, self-loading crossbow and fire effects': '''(async () => {
+                    for (const [id, terms] of [
+                        ["fellforged-armor", ["Armor class19", "Speak with Dead", "cannot remove the armor"]],
+                        ["fountmail", ["Armor class19", "Chain Mail (+3)", "13. Below", "55 lb", "Necrotic Resistance"]],
+                        ["forgefire-warhammer", ["Push", "1d6 Fire damage", "1d4 Fire damage"]],
+                        ["golden-bolt", ["1d10 Piercing", "100/400 feet", "no Loading property"]],
+                        ["goblin-shield", ["Armor class bonus+2", "Shield training", "2d4 Piercing"]],
+                        ["gorgon-scale", ["DC 15 Constitution", "Greater Restoration", "Petrified"]],
+                        ["gale-javelin", ["30/120 feet", "DC 13 Strength", "15 feet away"]],
+                        ["gnawing-spear", ["2d6 Piercing", "Grappled", "DC 15 Strength"]],
+                        ["fog-stone", ["30/120 feet", "20-foot-radius", "10 minutes"]],
+                        ["flash-bullet", ["DC 11 Constitution", "Sunlight Sensitivity"]],
+                    ]) {
+                        inspect("open5e-vom:vom_" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) {
+                            throw new Error("Missing fields on " + id);
+                        }
+                    }
+                    const tags = JSON.parse(Armory.item("open5e-vom:vom_golden-bolt")).tags;
+                    return !tags.includes("property:loading") && !tags.includes("property:ammunition")
+                        && tags.includes("property:heavy");
+                })()''',
                 'Vault of Magic shows net escape, lineage and armor aura rules': '''(async () => {
                     for (const [id, terms] of [
                         ["dimensional-net", ["15 feet", "DC 9 +", "DC 30 Strength", "cannot teleport", "30 Hit Points"]],
