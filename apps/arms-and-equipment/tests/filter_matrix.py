@@ -1740,6 +1740,37 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault early armor displays source-specific powers': '''(async () => {
+                    const cases = [
+                        ["4f2cf91bdf63cccd", ["5 Poison damage", "5 feet without provoking"]],
+                        ["740905e22bea8a12", ["above half your Hit Point maximum", "maximum additional bonus of +1"]],
+                        ["9b087796f132cee6", ["cracks at least 1 inch wide", "lose 5 Hit Points"]],
+                        ["b948ebe6560f451b", ["ally within 25 feet", "become the target instead"]],
+                        ["71a78a016f228a15", ["add 2 to saving throws", "recurring damage"]],
+                        ["83f3fc36dc8d2630", ["spend a Hit Point Die", "1 extra Hit Point"]],
+                        ["7e5db28ca839252d", ["Battle Master", "Use a d8", "usual trigger and action cost"]],
+                        ["5035f6f54e4e1713", ["successful saving throw", "take no damage"]],
+                        ["c6837ebdb0dda2b2", ["Resistance to Radiant", "does not provoke Opportunity Attacks"]],
+                        ["cc43106a64cbdc9d", ["fixed when it is created", "Fire, Force, Lightning"]],
+                        ["c5f6f04ccbd2a48f", ["transfer it to yourself", "within 25 feet"]],
+                        ["385c37ab5174e31e", ["Opportunity Attack", "DC 16 Constitution"]],
+                        ["226f415befc6bbc7", ["surprised does not impose Disadvantage"]],
+                        ["4fcb3810b7ed293c", ["DC 15 Wisdom", "normally after this first save"]],
+                        ["3dd0516105e844fb", ["10 feet straight toward", "+2 bonus to the attack roll"]],
+                        ["21140b6d043dd3cb", ["takes 2 Fire damage", "allies as well as enemies"]],
+                        ["af51e57c0ead66b7", ["+2 AC against attack rolls made by that creature"]],
+                        ["b5071444afe8ab08", ["leaves you Bloodied", "Necrotic damage equal to that amount"]],
+                        ["6fdd1cb2fae8a9de", ["Fighter’s Second Wind", "within 60 feet"]],
+                        ["7cab1704d49a3cce", ["Resistance to Necrotic and Poison", "Remove Curse"]],
+                        ["fff2942ee4ed4828", ["teleport up to 15 feet", "at most 10 feet thick", "expend the use"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Adventurer’s Vault armor displays movement, saving throws, and errata': '''(async () => {
                     const cases = [
                         ["32ee1c7a74c2337d", ["blur your position for 1 minute", "attack rolls against you have Disadvantage"]],

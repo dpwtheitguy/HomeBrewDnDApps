@@ -1,6 +1,2498 @@
 {
   "schema_version": 1,
   "records": {
+    "adventurers-vault-1-reference:4f2cf91bdf63cccd": [
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, when a hostile creature misses you with a melee attack, you can take a Reaction. Move up to 5 feet without provoking Opportunity Attacks, and the attacker makes a DC 15 Constitution saving throw. On a failure it takes 5 Poison damage at the start of each turn for up to 1 minute. At the end of each turn it repeats the save, ending the effect on a success. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 39 (PDF p. 40), Addergrease Armor.",
+          "Conversion notes": "Retains the lowest-tier recurring poison and maps the one-square shift to 5 feet of safe movement. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, when a hostile creature misses you with a melee attack, you can take a Reaction. Move up to 5 feet without provoking Opportunity Attacks, and the attacker makes a DC 15 Constitution saving throw. On a failure it takes 5 Poison damage at the start of each turn for up to 1 minute. At the end of each turn it repeats the save, ending the effect on a success. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 39 (PDF p. 40), Addergrease Armor.",
+          "Conversion notes": "Retains the lowest-tier recurring poison and maps the one-square shift to 5 feet of safe movement. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 Hide Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:740905e22bea8a12": [
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor and above half your Hit Point maximum, add your Dexterity modifier to your AC again, up to a maximum additional bonus of +1 and a minimum of 0. This is a separate bonus from the armor’s normal Dexterity allowance.",
+          "Source locator": "Adventurer’s Vault (4e), p. 39 (PDF p. 40), Agile Armor.",
+          "Conversion notes": "Retains the lowest-tier conditional Dexterity bonus and applies the 2024 Bloodied threshold. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 Chain Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor and above half your Hit Point maximum, add your Dexterity modifier to your AC again, up to a maximum additional bonus of +1 and a minimum of 0. This is a separate bonus from the armor’s normal Dexterity allowance.",
+          "Source locator": "Adventurer’s Vault (4e), p. 39 (PDF p. 40), Agile Armor.",
+          "Conversion notes": "Retains the lowest-tier conditional Dexterity bonus and applies the 2024 Bloodied threshold. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor and above half your Hit Point maximum, add your Dexterity modifier to your AC again, up to a maximum additional bonus of +1 and a minimum of 0. This is a separate bonus from the armor’s normal Dexterity allowance.",
+          "Source locator": "Adventurer’s Vault (4e), p. 39 (PDF p. 40), Agile Armor.",
+          "Conversion notes": "Retains the lowest-tier conditional Dexterity bonus and applies the 2024 Bloodied threshold. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:9b087796f132cee6": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, take a Magic action to become a flood of water and immediately move up to your Speed. When you transform, you end the Grappled condition on yourself and can slip out of ordinary bonds or shackles. In water form you can pass through cracks at least 1 inch wide and can only move or take the Dash action. At the start of each turn in this form, you lose 5 Hit Points. You can revert on your turn without taking an action and revert automatically after 1 minute or at 0 Hit Points. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 40 (PDF p. 41), Aqueous Armor.",
+          "Conversion notes": "Retains the escape, movement-only form, and Hit Point cost. Defines the minimum opening and adds a duration cap. Padded Armor represents cloth. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, take a Magic action to become a flood of water and immediately move up to your Speed. When you transform, you end the Grappled condition on yourself and can slip out of ordinary bonds or shackles. In water form you can pass through cracks at least 1 inch wide and can only move or take the Dash action. At the start of each turn in this form, you lose 5 Hit Points. You can revert on your turn without taking an action and revert automatically after 1 minute or at 0 Hit Points. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 40 (PDF p. 41), Aqueous Armor.",
+          "Conversion notes": "Retains the escape, movement-only form, and Hit Point cost. Defines the minimum opening and adds a duration cap. Padded Armor represents cloth. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, take a Magic action to become a flood of water and immediately move up to your Speed. When you transform, you end the Grappled condition on yourself and can slip out of ordinary bonds or shackles. In water form you can pass through cracks at least 1 inch wide and can only move or take the Dash action. At the start of each turn in this form, you lose 5 Hit Points. You can revert on your turn without taking an action and revert automatically after 1 minute or at 0 Hit Points. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 40 (PDF p. 41), Aqueous Armor.",
+          "Conversion notes": "Retains the escape, movement-only form, and Hit Point cost. Defines the minimum opening and adds a duration cap. Padded Armor represents cloth. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 Hide Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:b948ebe6560f451b": [
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a melee attack roll targets an ally within 5 feet of you or a ranged attack roll targets an ally within 25 feet of you, you can take a Reaction before the attack roll. If you are a legal target within the attack’s reach or range, you become the target instead. Recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 40 (PDF p. 41), Armor of Attraction.",
+          "Conversion notes": "Maps single-target attacks against AC or Reflex to 2024 attack rolls and preserves the two interception ranges. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a melee attack roll targets an ally within 5 feet of you or a ranged attack roll targets an ally within 25 feet of you, you can take a Reaction before the attack roll. If you are a legal target within the attack’s reach or range, you become the target instead. Recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 40 (PDF p. 41), Armor of Attraction.",
+          "Conversion notes": "Maps single-target attacks against AC or Reflex to 2024 attack rolls and preserves the two interception ranges. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:71a78a016f228a15": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, add 2 to saving throws you make to end a persistent effect that deals recurring damage to you. The bonus does not apply to the initial save against the effect or to repeated exposure to an environmental hazard.",
+          "Source locator": "Adventurer’s Vault (4e), p. 40 (PDF p. 41), Armor of Cleansing.",
+          "Conversion notes": "Retains the original bonus against ongoing damage and defines the qualifying 2024 saves. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, add 2 to saving throws you make to end a persistent effect that deals recurring damage to you. The bonus does not apply to the initial save against the effect or to repeated exposure to an environmental hazard.",
+          "Source locator": "Adventurer’s Vault (4e), p. 40 (PDF p. 41), Armor of Cleansing.",
+          "Conversion notes": "Retains the original bonus against ongoing damage and defines the qualifying 2024 saves. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Studded Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "13 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, add 2 to saving throws you make to end a persistent effect that deals recurring damage to you. The bonus does not apply to the initial save against the effect or to repeated exposure to an environmental hazard.",
+          "Source locator": "Adventurer’s Vault (4e), p. 40 (PDF p. 41), Armor of Cleansing.",
+          "Conversion notes": "Retains the original bonus against ongoing damage and defines the qualifying 2024 saves. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_studded-leather-armor-plus-1",
+          "label": "Open 2024 Studded Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, add 2 to saving throws you make to end a persistent effect that deals recurring damage to you. The bonus does not apply to the initial save against the effect or to repeated exposure to an environmental hazard.",
+          "Source locator": "Adventurer’s Vault (4e), p. 40 (PDF p. 41), Armor of Cleansing.",
+          "Conversion notes": "Retains the original bonus against ongoing damage and defines the qualifying 2024 saves. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 Hide Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Shirt",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, add 2 to saving throws you make to end a persistent effect that deals recurring damage to you. The bonus does not apply to the initial save against the effect or to repeated exposure to an environmental hazard.",
+          "Source locator": "Adventurer’s Vault (4e), p. 40 (PDF p. 41), Armor of Cleansing.",
+          "Conversion notes": "Retains the original bonus against ongoing damage and defines the qualifying 2024 saves. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-1",
+          "label": "Open 2024 Chain Shirt (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, add 2 to saving throws you make to end a persistent effect that deals recurring damage to you. The bonus does not apply to the initial save against the effect or to repeated exposure to an environmental hazard.",
+          "Source locator": "Adventurer’s Vault (4e), p. 40 (PDF p. 41), Armor of Cleansing.",
+          "Conversion notes": "Retains the original bonus against ongoing damage and defines the qualifying 2024 saves. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Breastplate",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, add 2 to saving throws you make to end a persistent effect that deals recurring damage to you. The bonus does not apply to the initial save against the effect or to repeated exposure to an environmental hazard.",
+          "Source locator": "Adventurer’s Vault (4e), p. 40 (PDF p. 41), Armor of Cleansing.",
+          "Conversion notes": "Retains the original bonus against ongoing damage and defines the qualifying 2024 saves. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_breastplate-plus-1",
+          "label": "Open 2024 Breastplate (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Half Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, add 2 to saving throws you make to end a persistent effect that deals recurring damage to you. The bonus does not apply to the initial save against the effect or to repeated exposure to an environmental hazard.",
+          "Source locator": "Adventurer’s Vault (4e), p. 40 (PDF p. 41), Armor of Cleansing.",
+          "Conversion notes": "Retains the original bonus against ongoing damage and defines the qualifying 2024 saves. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_half-plate-armor-plus-1",
+          "label": "Open 2024 Half Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Ring Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15",
+          "Training": "Heavy armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, add 2 to saving throws you make to end a persistent effect that deals recurring damage to you. The bonus does not apply to the initial save against the effect or to repeated exposure to an environmental hazard.",
+          "Source locator": "Adventurer’s Vault (4e), p. 40 (PDF p. 41), Armor of Cleansing.",
+          "Conversion notes": "Retains the original bonus against ongoing damage and defines the qualifying 2024 saves. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_ring-mail-plus-1",
+          "label": "Open 2024 Ring Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, add 2 to saving throws you make to end a persistent effect that deals recurring damage to you. The bonus does not apply to the initial save against the effect or to repeated exposure to an environmental hazard.",
+          "Source locator": "Adventurer’s Vault (4e), p. 40 (PDF p. 41), Armor of Cleansing.",
+          "Conversion notes": "Retains the original bonus against ongoing damage and defines the qualifying 2024 saves. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 Chain Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Splint Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, add 2 to saving throws you make to end a persistent effect that deals recurring damage to you. The bonus does not apply to the initial save against the effect or to repeated exposure to an environmental hazard.",
+          "Source locator": "Adventurer’s Vault (4e), p. 40 (PDF p. 41), Armor of Cleansing.",
+          "Conversion notes": "Retains the original bonus against ongoing damage and defines the qualifying 2024 saves. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor-plus-1",
+          "label": "Open 2024 Splint Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, add 2 to saving throws you make to end a persistent effect that deals recurring damage to you. The bonus does not apply to the initial save against the effect or to repeated exposure to an environmental hazard.",
+          "Source locator": "Adventurer’s Vault (4e), p. 40 (PDF p. 41), Armor of Cleansing.",
+          "Conversion notes": "Retains the original bonus against ongoing damage and defines the qualifying 2024 saves. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:83f3fc36dc8d2630": [
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, each time you spend a Hit Point Die to regain Hit Points, regain 1 extra Hit Point in addition to the die’s normal healing.",
+          "Source locator": "Adventurer’s Vault (4e), p. 40 (PDF p. 41), Armor of Durability.",
+          "Conversion notes": "Replaces healing surges with spent Hit Point Dice and retains the lowest-tier one-point increase. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 Hide Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, each time you spend a Hit Point Die to regain Hit Points, regain 1 extra Hit Point in addition to the die’s normal healing.",
+          "Source locator": "Adventurer’s Vault (4e), p. 40 (PDF p. 41), Armor of Durability.",
+          "Conversion notes": "Replaces healing surges with spent Hit Point Dice and retains the lowest-tier one-point increase. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 Chain Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, each time you spend a Hit Point Die to regain Hit Points, regain 1 extra Hit Point in addition to the die’s normal healing.",
+          "Source locator": "Adventurer’s Vault (4e), p. 40 (PDF p. 41), Armor of Durability.",
+          "Conversion notes": "Replaces healing surges with spent Hit Point Dice and retains the lowest-tier one-point increase. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, each time you spend a Hit Point Die to regain Hit Points, regain 1 extra Hit Point in addition to the die’s normal healing.",
+          "Source locator": "Adventurer’s Vault (4e), p. 40 (PDF p. 41), Armor of Durability.",
+          "Conversion notes": "Replaces healing surges with spent Hit Point Dice and retains the lowest-tier one-point increase. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:7e5db28ca839252d": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When you finish a Short or Long Rest while wearing this armor, you or a willing Battle Master who completed that rest with you can store one maneuver they know. Storing a maneuver replaces any previous one. Once per dawn, while wearing the armor, you can use the stored maneuver at its usual trigger and action cost without expending your own Superiority Die. Use a d8 as the die and your own statistics for the maneuver’s effects. If it calls for a saving throw, the DC is 8 plus your Proficiency Bonus plus your choice of Strength or Dexterity modifier. Only one maneuver can apply to an attack. Using the stored maneuver empties the armor.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Exploits.",
+          "Conversion notes": "Maps the original stored martial power to a 2024 Battle Master maneuver. Its trigger and action cost apply normally, and the daily limit prevents repeat use by refilling at Short Rests. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 benchmark": "https://www.dndbeyond.com/posts/1746-2024-fighter-vs-2014-fighter-whats-new"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When you finish a Short or Long Rest while wearing this armor, you or a willing Battle Master who completed that rest with you can store one maneuver they know. Storing a maneuver replaces any previous one. Once per dawn, while wearing the armor, you can use the stored maneuver at its usual trigger and action cost without expending your own Superiority Die. Use a d8 as the die and your own statistics for the maneuver’s effects. If it calls for a saving throw, the DC is 8 plus your Proficiency Bonus plus your choice of Strength or Dexterity modifier. Only one maneuver can apply to an attack. Using the stored maneuver empties the armor.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Exploits.",
+          "Conversion notes": "Maps the original stored martial power to a 2024 Battle Master maneuver. Its trigger and action cost apply normally, and the daily limit prevents repeat use by refilling at Short Rests. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 benchmark": "https://www.dndbeyond.com/posts/1746-2024-fighter-vs-2014-fighter-whats-new"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Studded Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "13 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When you finish a Short or Long Rest while wearing this armor, you or a willing Battle Master who completed that rest with you can store one maneuver they know. Storing a maneuver replaces any previous one. Once per dawn, while wearing the armor, you can use the stored maneuver at its usual trigger and action cost without expending your own Superiority Die. Use a d8 as the die and your own statistics for the maneuver’s effects. If it calls for a saving throw, the DC is 8 plus your Proficiency Bonus plus your choice of Strength or Dexterity modifier. Only one maneuver can apply to an attack. Using the stored maneuver empties the armor.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Exploits.",
+          "Conversion notes": "Maps the original stored martial power to a 2024 Battle Master maneuver. Its trigger and action cost apply normally, and the daily limit prevents repeat use by refilling at Short Rests. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 benchmark": "https://www.dndbeyond.com/posts/1746-2024-fighter-vs-2014-fighter-whats-new"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_studded-leather-armor-plus-1",
+          "label": "Open 2024 Studded Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When you finish a Short or Long Rest while wearing this armor, you or a willing Battle Master who completed that rest with you can store one maneuver they know. Storing a maneuver replaces any previous one. Once per dawn, while wearing the armor, you can use the stored maneuver at its usual trigger and action cost without expending your own Superiority Die. Use a d8 as the die and your own statistics for the maneuver’s effects. If it calls for a saving throw, the DC is 8 plus your Proficiency Bonus plus your choice of Strength or Dexterity modifier. Only one maneuver can apply to an attack. Using the stored maneuver empties the armor.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Exploits.",
+          "Conversion notes": "Maps the original stored martial power to a 2024 Battle Master maneuver. Its trigger and action cost apply normally, and the daily limit prevents repeat use by refilling at Short Rests. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 benchmark": "https://www.dndbeyond.com/posts/1746-2024-fighter-vs-2014-fighter-whats-new"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 Hide Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Shirt",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When you finish a Short or Long Rest while wearing this armor, you or a willing Battle Master who completed that rest with you can store one maneuver they know. Storing a maneuver replaces any previous one. Once per dawn, while wearing the armor, you can use the stored maneuver at its usual trigger and action cost without expending your own Superiority Die. Use a d8 as the die and your own statistics for the maneuver’s effects. If it calls for a saving throw, the DC is 8 plus your Proficiency Bonus plus your choice of Strength or Dexterity modifier. Only one maneuver can apply to an attack. Using the stored maneuver empties the armor.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Exploits.",
+          "Conversion notes": "Maps the original stored martial power to a 2024 Battle Master maneuver. Its trigger and action cost apply normally, and the daily limit prevents repeat use by refilling at Short Rests. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 benchmark": "https://www.dndbeyond.com/posts/1746-2024-fighter-vs-2014-fighter-whats-new"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-1",
+          "label": "Open 2024 Chain Shirt (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When you finish a Short or Long Rest while wearing this armor, you or a willing Battle Master who completed that rest with you can store one maneuver they know. Storing a maneuver replaces any previous one. Once per dawn, while wearing the armor, you can use the stored maneuver at its usual trigger and action cost without expending your own Superiority Die. Use a d8 as the die and your own statistics for the maneuver’s effects. If it calls for a saving throw, the DC is 8 plus your Proficiency Bonus plus your choice of Strength or Dexterity modifier. Only one maneuver can apply to an attack. Using the stored maneuver empties the armor.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Exploits.",
+          "Conversion notes": "Maps the original stored martial power to a 2024 Battle Master maneuver. Its trigger and action cost apply normally, and the daily limit prevents repeat use by refilling at Short Rests. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 benchmark": "https://www.dndbeyond.com/posts/1746-2024-fighter-vs-2014-fighter-whats-new"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Breastplate",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When you finish a Short or Long Rest while wearing this armor, you or a willing Battle Master who completed that rest with you can store one maneuver they know. Storing a maneuver replaces any previous one. Once per dawn, while wearing the armor, you can use the stored maneuver at its usual trigger and action cost without expending your own Superiority Die. Use a d8 as the die and your own statistics for the maneuver’s effects. If it calls for a saving throw, the DC is 8 plus your Proficiency Bonus plus your choice of Strength or Dexterity modifier. Only one maneuver can apply to an attack. Using the stored maneuver empties the armor.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Exploits.",
+          "Conversion notes": "Maps the original stored martial power to a 2024 Battle Master maneuver. Its trigger and action cost apply normally, and the daily limit prevents repeat use by refilling at Short Rests. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 benchmark": "https://www.dndbeyond.com/posts/1746-2024-fighter-vs-2014-fighter-whats-new"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_breastplate-plus-1",
+          "label": "Open 2024 Breastplate (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Half Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When you finish a Short or Long Rest while wearing this armor, you or a willing Battle Master who completed that rest with you can store one maneuver they know. Storing a maneuver replaces any previous one. Once per dawn, while wearing the armor, you can use the stored maneuver at its usual trigger and action cost without expending your own Superiority Die. Use a d8 as the die and your own statistics for the maneuver’s effects. If it calls for a saving throw, the DC is 8 plus your Proficiency Bonus plus your choice of Strength or Dexterity modifier. Only one maneuver can apply to an attack. Using the stored maneuver empties the armor.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Exploits.",
+          "Conversion notes": "Maps the original stored martial power to a 2024 Battle Master maneuver. Its trigger and action cost apply normally, and the daily limit prevents repeat use by refilling at Short Rests. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 benchmark": "https://www.dndbeyond.com/posts/1746-2024-fighter-vs-2014-fighter-whats-new"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_half-plate-armor-plus-1",
+          "label": "Open 2024 Half Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Ring Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15",
+          "Training": "Heavy armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When you finish a Short or Long Rest while wearing this armor, you or a willing Battle Master who completed that rest with you can store one maneuver they know. Storing a maneuver replaces any previous one. Once per dawn, while wearing the armor, you can use the stored maneuver at its usual trigger and action cost without expending your own Superiority Die. Use a d8 as the die and your own statistics for the maneuver’s effects. If it calls for a saving throw, the DC is 8 plus your Proficiency Bonus plus your choice of Strength or Dexterity modifier. Only one maneuver can apply to an attack. Using the stored maneuver empties the armor.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Exploits.",
+          "Conversion notes": "Maps the original stored martial power to a 2024 Battle Master maneuver. Its trigger and action cost apply normally, and the daily limit prevents repeat use by refilling at Short Rests. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 benchmark": "https://www.dndbeyond.com/posts/1746-2024-fighter-vs-2014-fighter-whats-new"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_ring-mail-plus-1",
+          "label": "Open 2024 Ring Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When you finish a Short or Long Rest while wearing this armor, you or a willing Battle Master who completed that rest with you can store one maneuver they know. Storing a maneuver replaces any previous one. Once per dawn, while wearing the armor, you can use the stored maneuver at its usual trigger and action cost without expending your own Superiority Die. Use a d8 as the die and your own statistics for the maneuver’s effects. If it calls for a saving throw, the DC is 8 plus your Proficiency Bonus plus your choice of Strength or Dexterity modifier. Only one maneuver can apply to an attack. Using the stored maneuver empties the armor.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Exploits.",
+          "Conversion notes": "Maps the original stored martial power to a 2024 Battle Master maneuver. Its trigger and action cost apply normally, and the daily limit prevents repeat use by refilling at Short Rests. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 benchmark": "https://www.dndbeyond.com/posts/1746-2024-fighter-vs-2014-fighter-whats-new"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 Chain Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Splint Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When you finish a Short or Long Rest while wearing this armor, you or a willing Battle Master who completed that rest with you can store one maneuver they know. Storing a maneuver replaces any previous one. Once per dawn, while wearing the armor, you can use the stored maneuver at its usual trigger and action cost without expending your own Superiority Die. Use a d8 as the die and your own statistics for the maneuver’s effects. If it calls for a saving throw, the DC is 8 plus your Proficiency Bonus plus your choice of Strength or Dexterity modifier. Only one maneuver can apply to an attack. Using the stored maneuver empties the armor.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Exploits.",
+          "Conversion notes": "Maps the original stored martial power to a 2024 Battle Master maneuver. Its trigger and action cost apply normally, and the daily limit prevents repeat use by refilling at Short Rests. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 benchmark": "https://www.dndbeyond.com/posts/1746-2024-fighter-vs-2014-fighter-whats-new"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor-plus-1",
+          "label": "Open 2024 Splint Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "When you finish a Short or Long Rest while wearing this armor, you or a willing Battle Master who completed that rest with you can store one maneuver they know. Storing a maneuver replaces any previous one. Once per dawn, while wearing the armor, you can use the stored maneuver at its usual trigger and action cost without expending your own Superiority Die. Use a d8 as the die and your own statistics for the maneuver’s effects. If it calls for a saving throw, the DC is 8 plus your Proficiency Bonus plus your choice of Strength or Dexterity modifier. Only one maneuver can apply to an attack. Using the stored maneuver empties the armor.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Exploits.",
+          "Conversion notes": "Maps the original stored martial power to a 2024 Battle Master maneuver. Its trigger and action cost apply normally, and the daily limit prevents repeat use by refilling at Short Rests. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+          "2024 benchmark": "https://www.dndbeyond.com/posts/1746-2024-fighter-vs-2014-fighter-whats-new"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:5035f6f54e4e1713": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a missed attack roll or a successful saving throw against an effect would still cause you to take half damage, you can take a Reaction to take no damage from that instance instead. Other effects resolve normally. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Negation.",
+          "Conversion notes": "Preserves the original half-damage negation and covers the successful saving throws that replace many 4e attack-versus-defense rolls. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a missed attack roll or a successful saving throw against an effect would still cause you to take half damage, you can take a Reaction to take no damage from that instance instead. Other effects resolve normally. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Negation.",
+          "Conversion notes": "Preserves the original half-damage negation and covers the successful saving throws that replace many 4e attack-versus-defense rolls. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Studded Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "13 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a missed attack roll or a successful saving throw against an effect would still cause you to take half damage, you can take a Reaction to take no damage from that instance instead. Other effects resolve normally. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Negation.",
+          "Conversion notes": "Preserves the original half-damage negation and covers the successful saving throws that replace many 4e attack-versus-defense rolls. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_studded-leather-armor-plus-1",
+          "label": "Open 2024 Studded Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a missed attack roll or a successful saving throw against an effect would still cause you to take half damage, you can take a Reaction to take no damage from that instance instead. Other effects resolve normally. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Negation.",
+          "Conversion notes": "Preserves the original half-damage negation and covers the successful saving throws that replace many 4e attack-versus-defense rolls. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 Hide Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Shirt",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a missed attack roll or a successful saving throw against an effect would still cause you to take half damage, you can take a Reaction to take no damage from that instance instead. Other effects resolve normally. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Negation.",
+          "Conversion notes": "Preserves the original half-damage negation and covers the successful saving throws that replace many 4e attack-versus-defense rolls. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-1",
+          "label": "Open 2024 Chain Shirt (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a missed attack roll or a successful saving throw against an effect would still cause you to take half damage, you can take a Reaction to take no damage from that instance instead. Other effects resolve normally. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Negation.",
+          "Conversion notes": "Preserves the original half-damage negation and covers the successful saving throws that replace many 4e attack-versus-defense rolls. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Breastplate",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a missed attack roll or a successful saving throw against an effect would still cause you to take half damage, you can take a Reaction to take no damage from that instance instead. Other effects resolve normally. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Negation.",
+          "Conversion notes": "Preserves the original half-damage negation and covers the successful saving throws that replace many 4e attack-versus-defense rolls. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_breastplate-plus-1",
+          "label": "Open 2024 Breastplate (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Half Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a missed attack roll or a successful saving throw against an effect would still cause you to take half damage, you can take a Reaction to take no damage from that instance instead. Other effects resolve normally. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Negation.",
+          "Conversion notes": "Preserves the original half-damage negation and covers the successful saving throws that replace many 4e attack-versus-defense rolls. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_half-plate-armor-plus-1",
+          "label": "Open 2024 Half Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Ring Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15",
+          "Training": "Heavy armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a missed attack roll or a successful saving throw against an effect would still cause you to take half damage, you can take a Reaction to take no damage from that instance instead. Other effects resolve normally. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Negation.",
+          "Conversion notes": "Preserves the original half-damage negation and covers the successful saving throws that replace many 4e attack-versus-defense rolls. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_ring-mail-plus-1",
+          "label": "Open 2024 Ring Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a missed attack roll or a successful saving throw against an effect would still cause you to take half damage, you can take a Reaction to take no damage from that instance instead. Other effects resolve normally. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Negation.",
+          "Conversion notes": "Preserves the original half-damage negation and covers the successful saving throws that replace many 4e attack-versus-defense rolls. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 Chain Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Splint Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a missed attack roll or a successful saving throw against an effect would still cause you to take half damage, you can take a Reaction to take no damage from that instance instead. Other effects resolve normally. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Negation.",
+          "Conversion notes": "Preserves the original half-damage negation and covers the successful saving throws that replace many 4e attack-versus-defense rolls. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor-plus-1",
+          "label": "Open 2024 Splint Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when a missed attack roll or a successful saving throw against an effect would still cause you to take half damage, you can take a Reaction to take no damage from that instance instead. Other effects resolve normally. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Negation.",
+          "Conversion notes": "Preserves the original half-damage negation and covers the successful saving throws that replace many 4e attack-versus-defense rolls. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:c6837ebdb0dda2b2": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to Radiant damage. As a Bonus Action, surround yourself in shadow until the end of your next turn. Attack rolls against you have Disadvantage during this time, and your movement does not provoke Opportunity Attacks. Recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Night.",
+          "Conversion notes": "Maps the original flat Radiant reduction to Resistance and concealment to Disadvantage. Padded Armor represents cloth. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to Radiant damage. As a Bonus Action, surround yourself in shadow until the end of your next turn. Attack rolls against you have Disadvantage during this time, and your movement does not provoke Opportunity Attacks. Recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Night.",
+          "Conversion notes": "Maps the original flat Radiant reduction to Resistance and concealment to Disadvantage. Padded Armor represents cloth. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:cc43106a64cbdc9d": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to one damage type fixed when it is created. Choose from Acid, Cold, Fire, Force, Lightning, Necrotic, Poison, Psychic, or Thunder. The wearer cannot change the damage type.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Resistance.",
+          "Conversion notes": "Uses the 4e damage list and converts flat reduction to 2024 Resistance. Retains the original ability to enchant any armor type. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to one damage type fixed when it is created. Choose from Acid, Cold, Fire, Force, Lightning, Necrotic, Poison, Psychic, or Thunder. The wearer cannot change the damage type.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Resistance.",
+          "Conversion notes": "Uses the 4e damage list and converts flat reduction to 2024 Resistance. Retains the original ability to enchant any armor type. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Studded Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "13 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to one damage type fixed when it is created. Choose from Acid, Cold, Fire, Force, Lightning, Necrotic, Poison, Psychic, or Thunder. The wearer cannot change the damage type.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Resistance.",
+          "Conversion notes": "Uses the 4e damage list and converts flat reduction to 2024 Resistance. Retains the original ability to enchant any armor type. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_studded-leather-armor-plus-1",
+          "label": "Open 2024 Studded Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to one damage type fixed when it is created. Choose from Acid, Cold, Fire, Force, Lightning, Necrotic, Poison, Psychic, or Thunder. The wearer cannot change the damage type.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Resistance.",
+          "Conversion notes": "Uses the 4e damage list and converts flat reduction to 2024 Resistance. Retains the original ability to enchant any armor type. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 Hide Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Shirt",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to one damage type fixed when it is created. Choose from Acid, Cold, Fire, Force, Lightning, Necrotic, Poison, Psychic, or Thunder. The wearer cannot change the damage type.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Resistance.",
+          "Conversion notes": "Uses the 4e damage list and converts flat reduction to 2024 Resistance. Retains the original ability to enchant any armor type. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-1",
+          "label": "Open 2024 Chain Shirt (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to one damage type fixed when it is created. Choose from Acid, Cold, Fire, Force, Lightning, Necrotic, Poison, Psychic, or Thunder. The wearer cannot change the damage type.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Resistance.",
+          "Conversion notes": "Uses the 4e damage list and converts flat reduction to 2024 Resistance. Retains the original ability to enchant any armor type. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Breastplate",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to one damage type fixed when it is created. Choose from Acid, Cold, Fire, Force, Lightning, Necrotic, Poison, Psychic, or Thunder. The wearer cannot change the damage type.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Resistance.",
+          "Conversion notes": "Uses the 4e damage list and converts flat reduction to 2024 Resistance. Retains the original ability to enchant any armor type. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_breastplate-plus-1",
+          "label": "Open 2024 Breastplate (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Half Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to one damage type fixed when it is created. Choose from Acid, Cold, Fire, Force, Lightning, Necrotic, Poison, Psychic, or Thunder. The wearer cannot change the damage type.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Resistance.",
+          "Conversion notes": "Uses the 4e damage list and converts flat reduction to 2024 Resistance. Retains the original ability to enchant any armor type. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_half-plate-armor-plus-1",
+          "label": "Open 2024 Half Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Ring Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15",
+          "Training": "Heavy armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to one damage type fixed when it is created. Choose from Acid, Cold, Fire, Force, Lightning, Necrotic, Poison, Psychic, or Thunder. The wearer cannot change the damage type.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Resistance.",
+          "Conversion notes": "Uses the 4e damage list and converts flat reduction to 2024 Resistance. Retains the original ability to enchant any armor type. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_ring-mail-plus-1",
+          "label": "Open 2024 Ring Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to one damage type fixed when it is created. Choose from Acid, Cold, Fire, Force, Lightning, Necrotic, Poison, Psychic, or Thunder. The wearer cannot change the damage type.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Resistance.",
+          "Conversion notes": "Uses the 4e damage list and converts flat reduction to 2024 Resistance. Retains the original ability to enchant any armor type. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 Chain Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Splint Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to one damage type fixed when it is created. Choose from Acid, Cold, Fire, Force, Lightning, Necrotic, Poison, Psychic, or Thunder. The wearer cannot change the damage type.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Resistance.",
+          "Conversion notes": "Uses the 4e damage list and converts flat reduction to 2024 Resistance. Retains the original ability to enchant any armor type. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor-plus-1",
+          "label": "Open 2024 Splint Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to one damage type fixed when it is created. Choose from Acid, Cold, Fire, Force, Lightning, Necrotic, Poison, Psychic, or Thunder. The wearer cannot change the damage type.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Resistance.",
+          "Conversion notes": "Uses the 4e damage list and converts flat reduction to 2024 Resistance. Retains the original ability to enchant any armor type. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:c5f6f04ccbd2a48f": [
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to choose an ally within 5 feet and one effect on it that it can end by making a repeated saving throw. If that effect can apply to you, transfer it to yourself with the same remaining duration, DC, and end conditions. You cannot make a save to end it before the end of your next turn. This transfer is usable at will. As a separate Bonus Action, you can spend one of your unspent Hit Point Dice to heal an ally you can see within 25 feet. It regains Hit Points equal to the die roll plus its Constitution modifier, with a minimum of 1. This healing power recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Sacrifice.",
+          "Conversion notes": "Retains condition transfer, delayed escape save, and separate healing activation. Uses a Hit Point Die in place of the sacrificed healing surge. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 Chain Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to choose an ally within 5 feet and one effect on it that it can end by making a repeated saving throw. If that effect can apply to you, transfer it to yourself with the same remaining duration, DC, and end conditions. You cannot make a save to end it before the end of your next turn. This transfer is usable at will. As a separate Bonus Action, you can spend one of your unspent Hit Point Dice to heal an ally you can see within 25 feet. It regains Hit Points equal to the die roll plus its Constitution modifier, with a minimum of 1. This healing power recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Sacrifice.",
+          "Conversion notes": "Retains condition transfer, delayed escape save, and separate healing activation. Uses a Hit Point Die in place of the sacrificed healing surge. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to choose an ally within 5 feet and one effect on it that it can end by making a repeated saving throw. If that effect can apply to you, transfer it to yourself with the same remaining duration, DC, and end conditions. You cannot make a save to end it before the end of your next turn. This transfer is usable at will. As a separate Bonus Action, you can spend one of your unspent Hit Point Dice to heal an ally you can see within 25 feet. It regains Hit Points equal to the die roll plus its Constitution modifier, with a minimum of 1. This healing power recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Sacrifice.",
+          "Conversion notes": "Retains condition transfer, delayed escape save, and separate healing activation. Uses a Hit Point Die in place of the sacrificed healing surge. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:385c37ab5174e31e": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to Radiant damage. As a Bonus Action, kindle its light until the end of your next turn. Each hostile creature that hits you with an Opportunity Attack during that time makes a DC 16 Constitution saving throw. On a failure it has the Blinded condition for up to 1 minute. It repeats the save at the end of each turn, ending the effect on a success. Recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Armor of Starlight.",
+          "Conversion notes": "Preserves the Opportunity Attack trigger and original activation window. Padded Armor represents cloth. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:226f415befc6bbc7": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, being surprised does not impose Disadvantage on your Initiative roll.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Assassinbane Armor.",
+          "Conversion notes": "Preserves the original immunity to surprise by using the 2024 effect of surprise on Initiative. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, being surprised does not impose Disadvantage on your Initiative roll.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Assassinbane Armor.",
+          "Conversion notes": "Preserves the original immunity to surprise by using the 2024 effect of surprise on Initiative. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Studded Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "13 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, being surprised does not impose Disadvantage on your Initiative roll.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Assassinbane Armor.",
+          "Conversion notes": "Preserves the original immunity to surprise by using the 2024 effect of surprise on Initiative. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_studded-leather-armor-plus-1",
+          "label": "Open 2024 Studded Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, being surprised does not impose Disadvantage on your Initiative roll.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Assassinbane Armor.",
+          "Conversion notes": "Preserves the original immunity to surprise by using the 2024 effect of surprise on Initiative. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 Hide Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Shirt",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, being surprised does not impose Disadvantage on your Initiative roll.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Assassinbane Armor.",
+          "Conversion notes": "Preserves the original immunity to surprise by using the 2024 effect of surprise on Initiative. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-1",
+          "label": "Open 2024 Chain Shirt (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, being surprised does not impose Disadvantage on your Initiative roll.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Assassinbane Armor.",
+          "Conversion notes": "Preserves the original immunity to surprise by using the 2024 effect of surprise on Initiative. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Breastplate",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, being surprised does not impose Disadvantage on your Initiative roll.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Assassinbane Armor.",
+          "Conversion notes": "Preserves the original immunity to surprise by using the 2024 effect of surprise on Initiative. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_breastplate-plus-1",
+          "label": "Open 2024 Breastplate (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Half Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, being surprised does not impose Disadvantage on your Initiative roll.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Assassinbane Armor.",
+          "Conversion notes": "Preserves the original immunity to surprise by using the 2024 effect of surprise on Initiative. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_half-plate-armor-plus-1",
+          "label": "Open 2024 Half Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Ring Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15",
+          "Training": "Heavy armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, being surprised does not impose Disadvantage on your Initiative roll.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Assassinbane Armor.",
+          "Conversion notes": "Preserves the original immunity to surprise by using the 2024 effect of surprise on Initiative. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_ring-mail-plus-1",
+          "label": "Open 2024 Ring Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, being surprised does not impose Disadvantage on your Initiative roll.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Assassinbane Armor.",
+          "Conversion notes": "Preserves the original immunity to surprise by using the 2024 effect of surprise on Initiative. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 Chain Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Splint Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, being surprised does not impose Disadvantage on your Initiative roll.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Assassinbane Armor.",
+          "Conversion notes": "Preserves the original immunity to surprise by using the 2024 effect of surprise on Initiative. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor-plus-1",
+          "label": "Open 2024 Splint Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, being surprised does not impose Disadvantage on your Initiative roll.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Assassinbane Armor.",
+          "Conversion notes": "Preserves the original immunity to surprise by using the 2024 effect of surprise on Initiative. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:4fcb3810b7ed293c": [
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to activate a ward for 1 minute. When a Beast tries to target you with an attack for the first time during the activation, it makes a DC 15 Wisdom saving throw. On a failure it must choose a different legal target or lose that attack. On a success, resolve the attack normally. The Beast can target you normally after this first save. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Beastlord Armor.",
+          "Conversion notes": "Retains one saving throw per Beast and replaces encounter duration with one minute. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, take a Bonus Action to activate a ward for 1 minute. When a Beast tries to target you with an attack for the first time during the activation, it makes a DC 15 Wisdom saving throw. On a failure it must choose a different legal target or lose that attack. On a success, resolve the attack normally. The Beast can target you normally after this first save. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 41 (PDF p. 42), Beastlord Armor.",
+          "Conversion notes": "Retains one saving throw per Beast and replaces encounter duration with one minute. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 Hide Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:3dd0516105e844fb": [
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, if you move at least 10 feet straight toward a creature and immediately hit it with a melee attack on your turn, you can take a Bonus Action to make one melee attack against that same creature with a +2 bonus to the attack roll. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 42 (PDF p. 43), Bestial Armor.",
+          "Conversion notes": "Defines the original charge using 2024 movement and retains the extra attack and attack bonus. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, if you move at least 10 feet straight toward a creature and immediately hit it with a melee attack on your turn, you can take a Bonus Action to make one melee attack against that same creature with a +2 bonus to the attack roll. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 42 (PDF p. 43), Bestial Armor.",
+          "Conversion notes": "Defines the original charge using 2024 movement and retains the extra attack and attack bonus. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 Hide Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:21140b6d043dd3cb": [
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor and Bloodied, each other creature that starts its turn within 5 feet of you takes 2 Fire damage. This applies to allies as well as enemies and requires no action.",
+          "Source locator": "Adventurer’s Vault (4e), p. 42 (PDF p. 43), Bloodfire Armor.",
+          "Conversion notes": "Retains the original lowest-tier damage, Bloodied threshold, and indiscriminate five-foot aura. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 Chain Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor and Bloodied, each other creature that starts its turn within 5 feet of you takes 2 Fire damage. This applies to allies as well as enemies and requires no action.",
+          "Source locator": "Adventurer’s Vault (4e), p. 42 (PDF p. 43), Bloodfire Armor.",
+          "Conversion notes": "Retains the original lowest-tier damage, Bloodied threshold, and indiscriminate five-foot aura. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor and Bloodied, each other creature that starts its turn within 5 feet of you takes 2 Fire damage. This applies to allies as well as enemies and requires no action.",
+          "Source locator": "Adventurer’s Vault (4e), p. 42 (PDF p. 43), Bloodfire Armor.",
+          "Conversion notes": "Retains the original lowest-tier damage, Bloodied threshold, and indiscriminate five-foot aura. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:af51e57c0ead66b7": [
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when you hit a creature with an attack roll, you gain +2 AC against attack rolls made by that creature until the end of your next turn. Repeated hits on the same creature refresh the duration without stacking the bonus.",
+          "Source locator": "Adventurer’s Vault (4e), p. 42 (PDF p. 43), Bloodiron Armor.",
+          "Conversion notes": "Retains the target-specific defensive bonus and duration. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, when you hit a creature with an attack roll, you gain +2 AC against attack rolls made by that creature until the end of your next turn. Repeated hits on the same creature refresh the duration without stacking the bonus.",
+          "Source locator": "Adventurer’s Vault (4e), p. 42 (PDF p. 43), Bloodiron Armor.",
+          "Conversion notes": "Retains the target-specific defensive bonus and duration. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:b5071444afe8ab08": [
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor, when a creature’s attack deals damage that leaves you Bloodied when you were not Bloodied before the hit, you can take a Reaction. Gain Temporary Hit Points equal to 1 plus your Constitution modifier, with a minimum of 1. The attacker takes Necrotic damage equal to that amount. Recharges when you finish a Short or Long Rest.",
+          "Source locator": "Adventurer’s Vault (4e), p. 42 (PDF p. 43), Bloodtheft Armor.",
+          "Conversion notes": "Preserves the Bloodied transition and paired protection and retaliation. Uses the converted +1 enhancement for the formula. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:6fdd1cb2fae8a9de": [
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, immediately after using the Fighter’s Second Wind, you can let each willing ally that can see you within 60 feet spend one of its unspent Hit Point Dice without taking an action. Each ally that spends a die regains Hit Points equal to its roll plus its Constitution modifier, with a minimum of 1. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 42 (PDF p. 43), Bolstering Armor.",
+          "Conversion notes": "Uses 2024 Second Wind and Hit Point Dice in place of the original Second Wind and healing surges. Adds a 60-foot cap to the line-of-sight requirement. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 Chain Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, immediately after using the Fighter’s Second Wind, you can let each willing ally that can see you within 60 feet spend one of its unspent Hit Point Dice without taking an action. Each ally that spends a die regains Hit Points equal to its roll plus its Constitution modifier, with a minimum of 1. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 42 (PDF p. 43), Bolstering Armor.",
+          "Conversion notes": "Uses 2024 Second Wind and Hit Point Dice in place of the original Second Wind and healing surges. Adds a 60-foot cap to the line-of-sight requirement. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, immediately after using the Fighter’s Second Wind, you can let each willing ally that can see you within 60 feet spend one of its unspent Hit Point Dice without taking an action. Each ally that spends a die regains Hit Points equal to its roll plus its Constitution modifier, with a minimum of 1. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 42 (PDF p. 43), Bolstering Armor.",
+          "Conversion notes": "Uses 2024 Second Wind and Hit Point Dice in place of the original Second Wind and healing surges. Adds a 60-foot cap to the line-of-sight requirement. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:7cab1704d49a3cce": [
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Very Rare",
+          "Special powers": "While wearing this armor, you have Resistance to Necrotic and Poison damage and add 2 to Charisma (Intimidation) checks. A living creature that attunes to this cursed armor cannot willingly remove it or end its attunement until the curse is broken, such as by Remove Curse.",
+          "Source locator": "Adventurer’s Vault (4e), p. 42 (PDF p. 43), Bonegrim Armor.",
+          "Conversion notes": "Retains both lowest-tier protections, the Intimidation bonus, and the removal curse. Uses Remove Curse in place of the 4e ritual. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
+    "adventurers-vault-1-reference:fff2942ee4ed4828": [
+      {
+        "label": "D&D 2024 adaptation · Padded Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor within 5 feet of a wall, take a Bonus Action to teleport up to 15 feet to a space directly beyond that wall. The wall must be at most 10 feet thick. You do not need to see the destination. If the space is occupied or you cannot fit there, you remain where you are and expend the use. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Breaching Armor.",
+          "Conversion notes": "Preserves the original three-square teleport, two-square wall limit, blind destination, and spent use on failure. The conversion uses a Bonus Action. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor-plus-1",
+          "label": "Open 2024 Padded Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor within 5 feet of a wall, take a Bonus Action to teleport up to 15 feet to a space directly beyond that wall. The wall must be at most 10 feet thick. You do not need to see the destination. If the space is occupied or you cannot fit there, you remain where you are and expend the use. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Breaching Armor.",
+          "Conversion notes": "Preserves the original three-square teleport, two-square wall limit, blind destination, and spent use on failure. The conversion uses a Bonus Action. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Studded Leather Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "13 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor within 5 feet of a wall, take a Bonus Action to teleport up to 15 feet to a space directly beyond that wall. The wall must be at most 10 feet thick. You do not need to see the destination. If the space is occupied or you cannot fit there, you remain where you are and expend the use. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Breaching Armor.",
+          "Conversion notes": "Preserves the original three-square teleport, two-square wall limit, blind destination, and spent use on failure. The conversion uses a Bonus Action. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_studded-leather-armor-plus-1",
+          "label": "Open 2024 Studded Leather Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Hide Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "13 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "12 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor within 5 feet of a wall, take a Bonus Action to teleport up to 15 feet to a space directly beyond that wall. The wall must be at most 10 feet thick. You do not need to see the destination. If the space is occupied or you cannot fit there, you remain where you are and expend the use. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Breaching Armor.",
+          "Conversion notes": "Preserves the original three-square teleport, two-square wall limit, blind destination, and spent use on failure. The conversion uses a Bonus Action. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hide-armor-plus-1",
+          "label": "Open 2024 Hide Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Shirt",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor within 5 feet of a wall, take a Bonus Action to teleport up to 15 feet to a space directly beyond that wall. The wall must be at most 10 feet thick. You do not need to see the destination. If the space is occupied or you cannot fit there, you remain where you are and expend the use. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Breaching Armor.",
+          "Conversion notes": "Preserves the original three-square teleport, two-square wall limit, blind destination, and spent use on failure. The conversion uses a Bonus Action. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-shirt-plus-1",
+          "label": "Open 2024 Chain Shirt (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Scale Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor within 5 feet of a wall, take a Bonus Action to teleport up to 15 feet to a space directly beyond that wall. The wall must be at most 10 feet thick. You do not need to see the destination. If the space is occupied or you cannot fit there, you remain where you are and expend the use. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Breaching Armor.",
+          "Conversion notes": "Preserves the original three-square teleport, two-square wall limit, blind destination, and spent use on failure. The conversion uses a Bonus Action. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Breastplate",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "20 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor within 5 feet of a wall, take a Bonus Action to teleport up to 15 feet to a space directly beyond that wall. The wall must be at most 10 feet thick. You do not need to see the destination. If the space is occupied or you cannot fit there, you remain where you are and expend the use. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Breaching Armor.",
+          "Conversion notes": "Preserves the original three-square teleport, two-square wall limit, blind destination, and spent use on failure. The conversion uses a Bonus Action. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_breastplate-plus-1",
+          "label": "Open 2024 Breastplate (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Half Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "16 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor within 5 feet of a wall, take a Bonus Action to teleport up to 15 feet to a space directly beyond that wall. The wall must be at most 10 feet thick. You do not need to see the destination. If the space is occupied or you cannot fit there, you remain where you are and expend the use. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Breaching Armor.",
+          "Conversion notes": "Preserves the original three-square teleport, two-square wall limit, blind destination, and spent use on failure. The conversion uses a Bonus Action. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_half-plate-armor-plus-1",
+          "label": "Open 2024 Half Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Ring Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "15",
+          "Training": "Heavy armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "40 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor within 5 feet of a wall, take a Bonus Action to teleport up to 15 feet to a space directly beyond that wall. The wall must be at most 10 feet thick. You do not need to see the destination. If the space is occupied or you cannot fit there, you remain where you are and expend the use. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Breaching Armor.",
+          "Conversion notes": "Preserves the original three-square teleport, two-square wall limit, blind destination, and spent use on failure. The conversion uses a Bonus Action. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_ring-mail-plus-1",
+          "label": "Open 2024 Ring Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Chain Mail",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor within 5 feet of a wall, take a Bonus Action to teleport up to 15 feet to a space directly beyond that wall. The wall must be at most 10 feet thick. You do not need to see the destination. If the space is occupied or you cannot fit there, you remain where you are and expend the use. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Breaching Armor.",
+          "Conversion notes": "Preserves the original three-square teleport, two-square wall limit, blind destination, and spent use on failure. The conversion uses a Bonus Action. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail-plus-1",
+          "label": "Open 2024 Chain Mail (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Splint Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor within 5 feet of a wall, take a Bonus Action to teleport up to 15 feet to a space directly beyond that wall. The wall must be at most 10 feet thick. You do not need to see the destination. If the space is occupied or you cannot fit there, you remain where you are and expend the use. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Breaching Armor.",
+          "Conversion notes": "Preserves the original three-square teleport, two-square wall limit, blind destination, and spent use on failure. The conversion uses a Bonus Action. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor-plus-1",
+          "label": "Open 2024 Splint Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Plate Armor",
+        "status": "original-draft",
+        "source": "https://www.theberserker.net/restricted/DnD/4E_Adventurers_Vault.pdf",
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Rarity": "Rare",
+          "Special powers": "While wearing this armor within 5 feet of a wall, take a Bonus Action to teleport up to 15 feet to a space directly beyond that wall. The wall must be at most 10 feet thick. You do not need to see the destination. If the space is occupied or you cannot fit there, you remain where you are and expend the use. Recharges at dawn.",
+          "Source locator": "Adventurer’s Vault (4e), p. 43 (PDF p. 44), Breaching Armor.",
+          "Conversion notes": "Preserves the original three-square teleport, two-square wall limit, blind destination, and spent use on failure. The conversion uses a Bonus Action. Uses +1 armor under the 2024 rules and requires attunement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "profile_kind": "adapted-source-armor"
+      }
+    ],
     "adventurers-vault-1-reference:32ee1c7a74c2337d": [
       {
         "label": "D&D 2024 adaptation · Padded Armor",
