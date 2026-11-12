@@ -1,6 +1,323 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:4252ac8fc27ea59f": [
+      {
+        "label": "D&D 2024 adaptation · Laser Pistol",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=12",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d8 Radiant per charge + Dexterity modifier once.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "70/250 feet",
+          "Properties": "Ammunition (power cell), Reload (20)",
+          "Mastery": "Slow",
+          "Activation": "Before rolling a ranged attack, spend 1 to 3 charges from the installed cell. Once per turn.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, PDF p. 12.",
+          "Conversion notes": "Uses the legacy basic damage per charge and the first and last range bands. Once-per-turn fire replaces the legacy heat and rate-of-fire tables.",
+          "Power cell": "20 charges per cell. Replace a depleted cell with an action or Bonus Action."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:10c616daf88b8fd2": [
+      {
+        "label": "D&D 2024 adaptation · Laser Rifle",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=12",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d8 Radiant per charge + Dexterity modifier once.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "80/300 feet",
+          "Properties": "Ammunition (power cell), Reload (20), Two-Handed",
+          "Mastery": "Slow",
+          "Activation": "Before rolling a ranged attack, spend 1 to 5 charges from the installed cell. Once per turn.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, PDF p. 12.",
+          "Conversion notes": "Uses the legacy basic damage per charge and the first and last range bands. Once-per-turn fire replaces the legacy heat and rate-of-fire tables.",
+          "Power cell": "20 charges per cell. Replace a depleted cell with an action or Bonus Action."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:8c63084fbe4bb6b2": [
+      {
+        "label": "D&D 2024 adaptation · Heavy Laser",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=12",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d8 Radiant per charge + Dexterity modifier once.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "90/400 feet",
+          "Properties": "Ammunition (power cell), Reload (20), Two-Handed",
+          "Mastery": "Slow",
+          "Activation": "Before rolling a ranged attack, spend 1 to 10 charges from the installed cell. Once per turn.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, PDF p. 12.",
+          "Conversion notes": "Uses the legacy basic damage per charge and the first and last range bands. Once-per-turn fire replaces the legacy heat and rate-of-fire tables.",
+          "Power cell": "20 charges per cell. Replace a depleted cell with an action or Bonus Action.",
+          "Mount": "A tripod must be in your space before firing. Set or retrieve it with a Utilize action."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:26dbc5ff7af5ca96": [
+      {
+        "label": "D&D 2024 adaptation · Sonic Pistol",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=12",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "3d10 Thunder + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "20/60 feet",
+          "Properties": "Ammunition (power cell), Reload (20)",
+          "Mastery": "Slow",
+          "Activation": "Expend 2 charges before rolling a ranged attack. Once per turn.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, PDF p. 12.",
+          "Conversion notes": "Preserves basic damage and the documented charge cost. The stun and range falloff use bounded 2024 rules.",
+          "Sonic pulse": "At long range, halve the damage on a hit. Once per Short or Long Rest, on a hit within normal range force a DC 15 Constitution save. On a failure the target is Stunned until the start of your next turn.",
+          "Power cell": "20 charges per cell. Replace a depleted cell with an action or Bonus Action."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:55a2ae856c0988e6": [
+      {
+        "label": "D&D 2024 adaptation · Sonic Rifle",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=12",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "3d10 Thunder + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "60/180 feet",
+          "Properties": "Ammunition (power cell), Reload (20), Two-Handed",
+          "Mastery": "Slow",
+          "Activation": "Expend 4 charges before rolling a ranged attack. Once per turn.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, PDF p. 12.",
+          "Conversion notes": "Preserves basic damage and the documented charge cost. The stun and range falloff use bounded 2024 rules.",
+          "Sonic pulse": "At long range, halve the damage on a hit. Once per Short or Long Rest, on a hit within normal range force a DC 16 Constitution save. On a failure the target is Stunned until the start of your next turn.",
+          "Power cell": "20 charges per cell. Replace a depleted cell with an action or Bonus Action."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:3eb6bc41d4dcdb7a": [
+      {
+        "label": "D&D 2024 adaptation · Needler Pistol",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=12",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d6 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "10/40 feet",
+          "Properties": "Ammunition (needle cartridge), Reload (12)",
+          "Mastery": "Vex",
+          "Activation": "Make a ranged attack and expend one needle. Replace an empty cartridge with an action or Bonus Action.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, PDF p. 12.",
+          "Conversion notes": "Keeps the source’s basic damage, range endpoints and capacity. The delayed knockout is a separate limited rider.",
+          "Delayed knockout": "Once per Short or Long Rest on a hit, the target makes a DC 14 Constitution save at the start of its next turn. On a failure it is Unconscious until the start of its following turn, until it takes damage, or until a creature uses an action to rouse it. Constructs and Undead are immune."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:53f0245e71ebcebc": [
+      {
+        "label": "D&D 2024 adaptation · Needler Rifle",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=12",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d8 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "40/80 feet",
+          "Properties": "Ammunition (needle cartridge), Reload (24), Two-Handed",
+          "Mastery": "Vex",
+          "Activation": "Make a ranged attack and expend one needle. Replace an empty cartridge with an action or Bonus Action.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, PDF p. 12.",
+          "Conversion notes": "Keeps the source’s basic damage, range endpoints and capacity. The delayed knockout is a separate limited rider.",
+          "Delayed knockout": "Once per Short or Long Rest on a hit, the target makes a DC 14 Constitution save at the start of its next turn. On a failure it is Unconscious until the start of its following turn, until it takes damage, or until a creature uses an action to rouse it. Constructs and Undead are immune."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:8e990cf3c61090e2": [
+      {
+        "label": "D&D 2024 adaptation · Gyrojet Pistol",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=12",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d10 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "30/150 feet",
+          "Properties": "Ammunition (gyrojet round), Reload (6)",
+          "Mastery": "Slow",
+          "Activation": "Make a ranged attack and expend one round. Reload with an action or Bonus Action.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, PDF p. 12.",
+          "Conversion notes": "The legacy middle and long ranges become normal and long range. The short-distance damage reduction is retained.",
+          "Short-distance hit": "Halve the damage of a hit if the target is within 30 feet."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:f2c1a98600245d5f": [
+      {
+        "label": "D&D 2024 adaptation · Gyrojet Carbine",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=12",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "2d10 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "90/400 feet",
+          "Properties": "Ammunition (gyrojet round), Reload (12), Two-Handed",
+          "Mastery": "Slow",
+          "Activation": "Make a ranged attack and expend one round. Reload with an action or Bonus Action.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, PDF p. 12.",
+          "Conversion notes": "The legacy middle and long ranges become normal and long range. The short-distance damage reduction is retained.",
+          "Short-distance hit": "Halve the damage of a hit if the target is within 20 feet."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:269f283c855c2215": [
+      {
+        "label": "D&D 2024 adaptation · Gyrojet Grenade Launcher",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=12",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "6d6 Piercing for the fragmentation round on a failed save. Half on success.",
+          "Attack bonus": "No attack roll for the fragmentation round. Use the save DC under Activation.",
+          "Range": "30–100/400 feet",
+          "Properties": "Ammunition (gyrojet grenade), Reload (8), Two-Handed, Heavy",
+          "Mastery": "None",
+          "Activation": "As an action expend one fragmentation round. Choose a visible point at least 30 feet away and within 400 feet. Each creature in a 30-foot-radius Sphere makes a Dexterity save. DC 8 + Dexterity modifier + Proficiency Bonus if proficient. At distances beyond 100 feet targets have Advantage on the save. Reload with an action or Bonus Action.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, PDF p. 12.",
+          "Conversion notes": "Uses the source minimum range, magazine and fragmentation damage. The fixed area save replaces the legacy scatter chart. Other payloads require their own approved rules.",
+          "Mount": "Set or retrieve the tripod with a Utilize action. It must be set in your space before firing."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:1c1405fd72ae68b9": [
+      {
+        "label": "D&D 2024 adaptation · Octospider Laser Pistol",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=63",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "4d6 Radiant + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "100/400 feet",
+          "Properties": "Ammunition (power cell), Reload (10)",
+          "Mastery": "Slow",
+          "Activation": "Make a ranged attack and expend one charge. Replace an empty power cell with an action or Bonus Action.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, PDF p. 63.",
+          "Conversion notes": "Keeps the creature entry’s source damage and maximum range. The two-band range and 10-charge cell are conversion rules."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:a174f3fdf84d1875": [
+      {
+        "label": "D&D 2024 adaptation · Vrusk and Yazarian Laser Pistol",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=78",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "2d8 Radiant + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "100/300 feet",
+          "Properties": "Ammunition (power cell), Reload (10)",
+          "Mastery": "Slow",
+          "Activation": "Make a ranged attack and expend one charge. Replace an empty power cell with an action or Bonus Action.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, PDF p. 78.",
+          "Conversion notes": "Keeps the creature entry’s source damage and maximum range. The two-band range and 10-charge cell are conversion rules."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:8eb2063489b167cb": [
+      {
+        "label": "D&D 2024 adaptation · Vrusk and Yazarian Laser Rifle",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=78",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "2d8 Radiant + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "200/600 feet",
+          "Properties": "Ammunition (power cell), Reload (10), Two-Handed",
+          "Mastery": "Slow",
+          "Activation": "Make a ranged attack and expend one charge. Replace an empty power cell with an action or Bonus Action.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, PDF p. 78.",
+          "Conversion notes": "Keeps the creature entry’s source damage and maximum range. The two-band range and 10-charge cell are conversion rules."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:85939c289becc1ba": [
+      {
+        "label": "D&D 2024 adaptation · Sathar Ray Gun",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=67",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d6 Radiant per charge + Dexterity modifier once.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "150/600 feet",
+          "Properties": "Ammunition (power cell), Reload (30)",
+          "Mastery": "Slow",
+          "Activation": "Before rolling one ranged attack, expend 1 to 6 charges. Once per turn. Replace a depleted cell with an action or Bonus Action.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, PDF p. 67.",
+          "Conversion notes": "Preserves the 600-foot maximum, 30-charge reserve, and six-charge discharge cap. Normal range and damage type are authored."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:b7c030fc52179567": [
+      {
+        "label": "D&D 2024 adaptation · Blaster",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=13",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "2d6 Force + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "60/180 feet",
+          "Properties": "Ammunition (power cell), Reload (10)",
+          "Mastery": "Push",
+          "Activation": "Make a ranged attack and expend one charge. Once per turn. Replace a depleted cell with an action or Bonus Action.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, PDF p. 13.",
+          "Conversion notes": "The source price table identifies the models. Damage, range, capacity and mastery here are authored tabletop values."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:a0334523e1068edf": [
+      {
+        "label": "D&D 2024 adaptation · Heavy Blaster",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/CyclopaediaVolume2.pdf#page=13",
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "3d6 Force + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "90/270 feet",
+          "Properties": "Ammunition (power cell), Reload (10), Two-Handed, Heavy",
+          "Mastery": "Push",
+          "Activation": "Make a ranged attack and expend one charge. Once per turn. Replace a depleted cell with an action or Bonus Action.",
+          "Source locator": "Colin Davidson, Cyclopaedic Compendium, Vol. 2, PDF p. 13.",
+          "Conversion notes": "The source price table identifies the models. Damage, range, capacity and mastery here are authored tabletop values."
+        }
+      }
+    ],
     "mystara-fan-names-reference:e9426b3c1a92264f": [
       {
         "label": "D&D 2024 adaptation · Hand Cannon",

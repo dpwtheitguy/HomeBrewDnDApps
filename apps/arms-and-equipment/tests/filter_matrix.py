@@ -1871,6 +1871,33 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Mystara science-fantasy weapons show source-specific limits': '''(async () => {
+                    for (const [id, terms] of [
+                        ["4252ac8fc27ea59f", ["1 to 3 charges", "70/250 feet"]],
+                        ["10c616daf88b8fd2", ["1 to 5 charges", "80/300 feet"]],
+                        ["8c63084fbe4bb6b2", ["1 to 10 charges", "tripod"]],
+                        ["26dbc5ff7af5ca96", ["3d10 Thunder", "Expend 2 charges"]],
+                        ["55a2ae856c0988e6", ["60/180 feet", "Expend 4 charges"]],
+                        ["3eb6bc41d4dcdb7a", ["Reload (12)", "Delayed knockout"]],
+                        ["53f0245e71ebcebc", ["Reload (24)", "40/80 feet"]],
+                        ["8e990cf3c61090e2", ["Reload (6)", "within 30 feet"]],
+                        ["f2c1a98600245d5f", ["90/400 feet", "within 20 feet"]],
+                        ["269f283c855c2215", ["30-foot-radius Sphere", "No attack roll"]],
+                        ["1c1405fd72ae68b9", ["4d6 Radiant", "100/400 feet"]],
+                        ["a174f3fdf84d1875", ["2d8 Radiant", "100/300 feet"]],
+                        ["8eb2063489b167cb", ["2d8 Radiant", "200/600 feet"]],
+                        ["85939c289becc1ba", ["1 to 6 charges", "Reload (30)"]],
+                        ["b7c030fc52179567", ["2d6 Force", "60/180 feet"]],
+                        ["a0334523e1068edf", ["3d6 Force", "90/270 feet"]],
+                    ]) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Mystara ranged variants preserve damage range and reload differences': '''(async () => {
                     for (const [id, terms] of [
                         ["e9426b3c1a92264f", ["2d8 Piercing", "40/200 feet", "Reload (1)"]],
