@@ -1740,6 +1740,21 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Adventurer’s Vault shields show area defense, wall statistics and attacks': '''(async () => {
+                    const cases = [
+                        ["ccce738f9a38793f", ["saving throws against the same area effect", "Resolve the effect against you"]],
+                        ["0e951b5fa08ec77b", ["25 feet", "AC 17, 40 Hit Points", "1 hour without Concentration"]],
+                        ["ffa51a050b229967", ["Resistance to Lightning and Thunder", "1d6 Lightning damage and 1d6 Thunder"]],
+                        ["4418f96ed9129769", ["add 2 to the saving throw DC", "push the target 10 feet"]],
+                        ["64292fadc3c1368f", ["50 feet", "1d8 + your Strength modifier Bludgeoning", "push it 5 feet"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("adventurers-vault-1-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!["Armor class bonus+2", ...terms].every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Adventurer’s Vault shields distinguish base AC from triggered defenses': '''(async () => {
                     const cases = [
                         ["57c91b4becb53a37", ["Disadvantage", "Short or Long Rest"]],
