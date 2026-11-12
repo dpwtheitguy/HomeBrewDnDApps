@@ -677,6 +677,18 @@ def main():
                         && ["never gets dirty", "armor rules · Chain Shirt", "13 + Dex modifier (max +2)"]
                             .every(value => gleaming.includes(value));
                 })()''',
+                'Public magic weapon cards distinguish bases and attunement': '''(async () => {
+                    inspect("dndbeyond:9228714", grid.firstElementChild);
+                    await itemDetails;
+                    const hammer = inspection.textContent;
+                    inspect("dndbeyond:9228415", grid.firstElementChild);
+                    await itemDetails;
+                    const dagger = inspection.textContent;
+                    return ["Thunderbolts · Maul", "Thunderbolts · Warhammer", "Base 2d6", "Base 1d8", "DC 17 Constitution"]
+                        .every(value => hammer.includes(value))
+                        && ["Dagger of Venom · Dagger", "AttunementNone", "Nick", "2d10 Poison"]
+                            .every(value => dagger.includes(value));
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;

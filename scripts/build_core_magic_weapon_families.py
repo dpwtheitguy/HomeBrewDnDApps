@@ -225,10 +225,24 @@ FAMILIES = {
 
 PUBLIC_INDEX = 'dndbeyond-public-index'
 PUBLIC_WEAPON_PAGES = {
+    'Dagger of Venom': '9228415-dagger-of-venom',
+    'Frost Brand': '9228651-frost-brand',
+    'Hammer of Thunderbolts': '9228714-hammer-of-thunderbolts',
+    'Javelin of Lightning': '9228807-javelin-of-lightning',
+    'Luck Blade': '9228832-luck-blade',
+    'Mace of Terror': '9228835-mace-of-terror',
+    'Oathbow': '9228907-oathbow',
+    'Sun Blade': '9229110-sun-blade',
     'Sword of Life Stealing': '9229113-sword-of-life-stealing',
     'Sword of Sharpness': '9229114-sword-of-sharpness',
     'Sword of Wounding': '9229115-sword-of-wounding',
     'Vorpal Sword': '9229181-vorpal-sword',
+}
+
+
+PUBLIC_BASES = {
+    'Frost Brand': ('Glaive', 'Greatsword', 'Longsword', 'Rapier', 'Scimitar', 'Shortsword'),
+    'Luck Blade': ('Glaive', 'Greatsword', 'Longsword', 'Rapier', 'Scimitar', 'Sickle', 'Shortsword'),
 }
 
 
@@ -338,8 +352,9 @@ def main():
             continue
         rules = FAMILIES[family]
         variants = []
-        for base in rules['published_bases']:
-            entry = details(None, family, rules, bases[base])
+        eligible = PUBLIC_BASES.get(family) or rules.get('published_bases') or (rules['base'],)
+        for base in eligible:
+            entry = details(item, family, rules, bases[base])
             entry['label'] += ' · ' + base
             entry['source'] = source
             variants.append(entry)
