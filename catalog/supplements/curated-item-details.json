@@ -5180,6 +5180,390 @@
           "Special powers": "Prince Dromedon’s combat notes specify Leather Armor +2. His personal Dexterity bonus is separate from the item. The armor’s magic bonus is included in the displayed AC."
         }
       }
+    ],
+    "mystara-monstrous-compendium-local:d118fd136619e510": [
+      {
+        "label": "D&D 2024 adaptation · Ash Crawler Hardened Leather Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor",
+          "label": "Open 2024 Leather Armor"
+        },
+        "fields": {
+          "Source locator": "Monstrous Compendium: Mystara Appendix, Ash Crawler, Ecology, printed p. 10 (supplied PDF p. 11).",
+          "Legacy facts": "Tanned ash crawler hide forms hardened leather. The original reduces fire damage and improves saves against magical fire. A halfling suit needs four hides, a typical human suit at least nine.",
+          "Armor class": "11 + Dex modifier",
+          "Training": "Light",
+          "Weight": "10 lb",
+          "Attunement": "Required.",
+          "Special powers": "While wearing the armor and attuned to it, you have Resistance to Fire damage.",
+          "Conversion notes": "Uses the Leather Armor profile. Fire Resistance replaces the legacy reduction per die and the save bonus.",
+          "Strength requirement": "None.",
+          "Stealth disadvantage": "No",
+          "Rarity": "Rare",
+          "Crafting": "For this adaptation, four sound hides for a halfling fit or at least nine for a typical human fit are required. Use the 2024 magic-item crafting rules for Rare armor. A failed preparation can spoil the hides as in the original, when first exposed to flame or within 1d4 weeks, at the DM’s discretion."
+        }
+      }
+    ],
+    "mystara-monstrous-compendium-local:a8049d2ecb89761f": [
+      {
+        "label": "D&D 2024 adaptation · Brotherhood of the Sun Light Shield",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#ContinualFlame",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "fields": {
+          "Source locator": "Monstrous Compendium: Mystara Appendix, Sollux, Combat, printed p. 100 (supplied PDF p. 101).",
+          "Legacy facts": "The Sollux Brothers of the Sun carry shields enchanted with continual light.",
+          "Armor class bonus": "+2",
+          "Training": "Shield",
+          "Weight": "6 lb",
+          "Attunement": "None.",
+          "Special powers": "The shield sheds Bright Light in a 20-foot radius and Dim Light for another 20 feet, even when it is set down. An opaque cover blocks the light.",
+          "Conversion notes": "Models the legacy light as the torch-like illumination of Continual Flame. Use a Utilize action to don or doff, and Shield training to gain the +2 AC.",
+          "Rarity": "Common",
+          "Crafting": "The draft uses Continual Flame cast on the shield, consuming 50 gp of ruby dust. The shield itself costs 10 gp before any campaign adjustments."
+        }
+      }
+    ],
+    "local-mystara-handbook-tables:8a8d72cf9f72e0bf": [
+      {
+        "label": "D&D 2024 adaptation · Vanya’s Red Dragonscale Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://glen.stelio.net/MPH.pdf#page=107",
+        "rules_source": "https://www.dndbeyond.com/magic-items/9228477-dragon-scale-mail",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "fields": {
+          "Source locator": "Glen Welch’s Mystara Player’s Handbook (fan publication), Vanya, printed p. 107 (supplied PDF p. 107).",
+          "Legacy facts": "Vanya’s manifestation wears red dragonscale. The handbook provides no equipment statistics.",
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Weight": "45 lb",
+          "Attunement": "Required.",
+          "Special powers": "While wearing this armor and attuned to it, gain Fire Resistance and Advantage on saves against dragon breath weapons. Once per dawn as a Magic action, sense the direction and distance of the closest Red Dragon within 30 miles.",
+          "Conversion notes": "Uses the 2024 Dragon Scale Mail rules for red dragon scales. The selected material powers are a tabletop conversion.",
+          "Strength requirement": "None.",
+          "Stealth disadvantage": "Yes",
+          "Rarity": "Very Rare"
+        }
+      }
+    ],
+    "wrath-of-the-immortals-local:58f6a035268559ce": [
+      {
+        "label": "D&D 2024 adaptation · Vanya’s Leather Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://www.drivethrurpg.com/en/product/284479/wrath-of-the-immortals",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor-plus-1",
+          "label": "Open 2024 Leather Armor (+1)"
+        },
+        "fields": {
+          "Source locator": "Wrath of the Immortals, Codex of the Immortals, printed p. 13 (supplied PDF p. 15).",
+          "Legacy facts": "The Codex gives Vanya’s leather armor a five-point improvement to her descending AC. Her appearance on supplied PDF p. 41 identifies red dragon hide.",
+          "Armor class": "12 + Dex modifier",
+          "Training": "Light",
+          "Weight": "10 lb",
+          "Attunement": "Required.",
+          "Special powers": "While wearing this armor and attuned to it, gain Fire Resistance. The +1 armor enhancement is included in the displayed AC.",
+          "Conversion notes": "Preserves the hide construction and uses the +1 Leather Armor benchmark. The five-point legacy Immortal adjustment is retained as a source fact.",
+          "Strength requirement": "None.",
+          "Stealth disadvantage": "No",
+          "Rarity": "Very Rare"
+        }
+      }
+    ],
+    "wrath-of-the-immortals-local:4e4839fe537b82f7": [
+      {
+        "label": "D&D 2024 adaptation · Balthac’s Antique Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://www.drivethrurpg.com/en/product/284479/wrath-of-the-immortals",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 Plate Armor"
+        },
+        "fields": {
+          "Source locator": "Wrath of the Immortals, The Immortals’ Fury, Balthac to the Rescue, printed p. 58 (supplied PDF p. 193).",
+          "Legacy facts": "Balthac arrives in armor described as antique. The adventure gives neither an armor type nor an enchantment.",
+          "Armor class": "18",
+          "Training": "Heavy",
+          "Weight": "65 lb",
+          "Attunement": "None.",
+          "Special powers": "None for this draft.",
+          "Conversion notes": "Plate is an authored default for a wearable suit inspired by Balthac. The original titan’s suit would need to be made to fit the wearer.",
+          "Strength requirement": "15. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes"
+        }
+      }
+    ],
+    "wrath-of-the-immortals-local:dcda65a721815c5d": [
+      {
+        "label": "D&D 2024 adaptation · Petra’s Milenian Leather Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://www.drivethrurpg.com/en/product/284479/wrath-of-the-immortals",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor",
+          "label": "Open 2024 Leather Armor"
+        },
+        "fields": {
+          "Source locator": "Wrath of the Immortals, Codex of the Immortals, printed p. 32 (supplied PDF p. 34).",
+          "Legacy facts": "Petra sometimes appears in sculpted Milenian leather. The source assigns no independent bonus to that appearance.",
+          "Armor class": "11 + Dex modifier",
+          "Training": "Light",
+          "Weight": "10 lb",
+          "Attunement": "None.",
+          "Special powers": "None. The sculpting and Milenian styling are cosmetic.",
+          "Conversion notes": "Uses the standard Leather Armor profile for this appearance.",
+          "Strength requirement": "None.",
+          "Stealth disadvantage": "No"
+        }
+      }
+    ],
+    "wrath-of-the-immortals-local:bc707286c384cf1d": [
+      {
+        "label": "D&D 2024 adaptation · Frey’s Scale Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://www.drivethrurpg.com/en/product/284479/wrath-of-the-immortals",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail",
+          "label": "Open 2024 Scale Mail"
+        },
+        "fields": {
+          "Source locator": "Wrath of the Immortals, Codex of the Immortals, printed p. 20 (supplied PDF p. 22).",
+          "Legacy facts": "Scale mail improves his descending AC by four.",
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Weight": "45 lb",
+          "Attunement": "None.",
+          "Special powers": "No separate power described.",
+          "Conversion notes": "Uses Scale Mail as a player-scale analogue for Frey’s armor. The source describes a change to an Immortal’s descending AC, while the tabletop profile uses the chosen 2024 equipment rules.",
+          "Strength requirement": "None.",
+          "Stealth disadvantage": "Yes"
+        }
+      }
+    ],
+    "wrath-of-the-immortals-local:ac89d4dc85a55970": [
+      {
+        "label": "D&D 2024 adaptation · Freyja’s Scale Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://www.drivethrurpg.com/en/product/284479/wrath-of-the-immortals",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail",
+          "label": "Open 2024 Scale Mail"
+        },
+        "fields": {
+          "Source locator": "Wrath of the Immortals, Codex of the Immortals, printed p. 21 (supplied PDF p. 23).",
+          "Legacy facts": "Scale mail improves her descending AC by four.",
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Weight": "45 lb",
+          "Attunement": "None.",
+          "Special powers": "No separate power described.",
+          "Conversion notes": "Uses Scale Mail as a player-scale analogue for Freyja’s armor. The source describes a change to an Immortal’s descending AC, while the tabletop profile uses the chosen 2024 equipment rules.",
+          "Strength requirement": "None.",
+          "Stealth disadvantage": "Yes"
+        }
+      }
+    ],
+    "wrath-of-the-immortals-local:1f9a16bafb46dffe": [
+      {
+        "label": "D&D 2024 adaptation · Thor’s Northern Reaches Scale Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://www.drivethrurpg.com/en/product/284479/wrath-of-the-immortals",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail-plus-1",
+          "label": "Open 2024 Scale Mail (+1)"
+        },
+        "fields": {
+          "Source locator": "Wrath of the Immortals, Codex of the Immortals, printed p. 38 (supplied PDF p. 40).",
+          "Legacy facts": "Northern Reaches scale armor improves his descending AC by five.",
+          "Armor class": "15 + Dex modifier (max +2)",
+          "Training": "Medium",
+          "Weight": "45 lb",
+          "Attunement": "None.",
+          "Special powers": "The enhancement is included in the displayed AC.",
+          "Conversion notes": "Uses Scale Mail (+1) as a player-scale analogue for Thor’s armor. The source describes a change to an Immortal’s descending AC, while the tabletop profile uses the chosen 2024 equipment rules.",
+          "Strength requirement": "None.",
+          "Stealth disadvantage": "Yes",
+          "Rarity": "Rare"
+        }
+      }
+    ],
+    "wrath-of-the-immortals-local:a63c56a68a25adf1": [
+      {
+        "label": "D&D 2024 adaptation · Halav’s Bronze Plate",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://www.drivethrurpg.com/en/product/284479/wrath-of-the-immortals",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 Plate Armor"
+        },
+        "fields": {
+          "Source locator": "Wrath of the Immortals, Codex of the Immortals, printed p. 21 (supplied PDF p. 23).",
+          "Legacy facts": "His ancient bronze plate improves his descending AC by six.",
+          "Armor class": "18",
+          "Training": "Heavy",
+          "Weight": "65 lb",
+          "Attunement": "None.",
+          "Special powers": "No separate power described.",
+          "Conversion notes": "Uses Plate Armor as a player-scale analogue for Halav’s armor. The source describes a change to an Immortal’s descending AC, while the tabletop profile uses the chosen 2024 equipment rules.",
+          "Strength requirement": "15. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes"
+        }
+      }
+    ],
+    "wrath-of-the-immortals-local:947cbc515b315094": [
+      {
+        "label": "D&D 2024 adaptation · Petra’s Traldar Bronze Plate",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://www.drivethrurpg.com/en/product/284479/wrath-of-the-immortals",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 Plate Armor"
+        },
+        "fields": {
+          "Source locator": "Wrath of the Immortals, Codex of the Immortals, printed p. 32 (supplied PDF p. 34).",
+          "Legacy facts": "Her Traldar bronze plate improves her descending AC by six.",
+          "Armor class": "18",
+          "Training": "Heavy",
+          "Weight": "65 lb",
+          "Attunement": "None.",
+          "Special powers": "No separate power described.",
+          "Conversion notes": "Uses Plate Armor as a player-scale analogue for Petra’s armor. The source describes a change to an Immortal’s descending AC, while the tabletop profile uses the chosen 2024 equipment rules.",
+          "Strength requirement": "15. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes"
+        }
+      }
+    ],
+    "wrath-of-the-immortals-local:acadc0d4cda4366d": [
+      {
+        "label": "D&D 2024 adaptation · Karaash’s Spiked Plate Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://www.drivethrurpg.com/en/product/284479/wrath-of-the-immortals",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "fields": {
+          "Source locator": "Wrath of the Immortals, Codex of the Immortals, printed p. 24 (supplied PDF p. 26).",
+          "Legacy facts": "His custom spiked plate improves his descending AC by seven. Its flanges are described on supplied PDF p. 27.",
+          "Armor class": "19",
+          "Training": "Heavy",
+          "Weight": "65 lb",
+          "Attunement": "None.",
+          "Special powers": "The enhancement is included in the displayed AC. The spikes and flanges are decorative for this profile.",
+          "Conversion notes": "Uses Plate Armor (+1) as a player-scale analogue for Karaash’s armor. The source describes a change to an Immortal’s descending AC, while the tabletop profile uses the chosen 2024 equipment rules.",
+          "Strength requirement": "15. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Rarity": "Rare"
+        }
+      }
+    ],
+    "wrath-of-the-immortals-local:3fc69bab11af87c0": [
+      {
+        "label": "D&D 2024 adaptation · Odin’s Plate Mail",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://www.drivethrurpg.com/en/product/284479/wrath-of-the-immortals",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "fields": {
+          "Source locator": "Wrath of the Immortals, Codex of the Immortals, printed p. 29 (supplied PDF p. 31).",
+          "Legacy facts": "Plate mail improves his descending AC by seven.",
+          "Armor class": "19",
+          "Training": "Heavy",
+          "Weight": "65 lb",
+          "Attunement": "None.",
+          "Special powers": "The enhancement is included in the displayed AC.",
+          "Conversion notes": "Uses Plate Armor (+1) as a player-scale analogue for Odin’s armor. The source describes a change to an Immortal’s descending AC, while the tabletop profile uses the chosen 2024 equipment rules.",
+          "Strength requirement": "15. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Rarity": "Rare"
+        }
+      }
+    ],
+    "wrath-of-the-immortals-local:a762ee49fdc1ed4d": [
+      {
+        "label": "D&D 2024 adaptation · Tarastia’s Black Plate Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://www.drivethrurpg.com/en/product/284479/wrath-of-the-immortals",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor (+1)"
+        },
+        "fields": {
+          "Source locator": "Wrath of the Immortals, Codex of the Immortals, printed p. 36 (supplied PDF p. 38).",
+          "Legacy facts": "Black plate improves her descending AC by seven.",
+          "Armor class": "19",
+          "Training": "Heavy",
+          "Weight": "65 lb",
+          "Attunement": "None.",
+          "Special powers": "The enhancement is included in the displayed AC.",
+          "Conversion notes": "Uses Plate Armor (+1) as a player-scale analogue for Tarastia’s armor. The source describes a change to an Immortal’s descending AC, while the tabletop profile uses the chosen 2024 equipment rules.",
+          "Strength requirement": "15. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Rarity": "Rare"
+        }
+      }
+    ],
+    "wrath-of-the-immortals-local:546a4cad7f1a4a0a": [
+      {
+        "label": "D&D 2024 adaptation · Valerias’s Suit Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://www.drivethrurpg.com/en/product/284479/wrath-of-the-immortals",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Armor12or3",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-2",
+          "label": "Open 2024 Plate Armor (+2)"
+        },
+        "fields": {
+          "Source locator": "Wrath of the Immortals, Codex of the Immortals, printed p. 38 (supplied PDF p. 40).",
+          "Legacy facts": "The seldom-worn suit improves her descending AC by nine.",
+          "Armor class": "20",
+          "Training": "Heavy",
+          "Weight": "65 lb",
+          "Attunement": "None.",
+          "Special powers": "The enhancement is included in the displayed AC.",
+          "Conversion notes": "Uses Plate Armor (+2) as a player-scale analogue for Valerias’s armor. The source describes a change to an Immortal’s descending AC, while the tabletop profile uses the chosen 2024 equipment rules.",
+          "Strength requirement": "15. Below this score, reduce Speed by 10 feet.",
+          "Stealth disadvantage": "Yes",
+          "Rarity": "Very Rare"
+        }
+      }
     ]
   }
 }

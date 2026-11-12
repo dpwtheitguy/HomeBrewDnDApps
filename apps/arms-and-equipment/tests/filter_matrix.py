@@ -978,6 +978,21 @@ def main():
                     }
                     return true;
                 })()''',
+                'Mystara Immortal and creature armor preserves source effects': '''(async () => {
+                    const cases = [
+                        ["mystara-monstrous-compendium-local:d118fd136619e510", ["Resistance to Fire", "four sound hides", "1d4 weeks"]],
+                        ["mystara-monstrous-compendium-local:a8049d2ecb89761f", ["Armor class bonus+2", "20-foot radius", "50 gp of ruby dust"]],
+                        ["local-mystara-handbook-tables:8a8d72cf9f72e0bf", ["Fire Resistance", "closest Red Dragon within 30 miles", "15 + Dex modifier"]],
+                        ["wrath-of-the-immortals-local:546a4cad7f1a4a0a", ["Armor class20", "descending AC by nine", "Very Rare"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        const details = inspection.textContent;
+                        if (!terms.every(term => details.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'Legacy crossbow alias links to the verified 2024 weapon': '''(async () => {
                     inspect("open5e-srd-2014:srd_crossbow-heavy-2", grid.firstElementChild);
                     await itemDetails;
