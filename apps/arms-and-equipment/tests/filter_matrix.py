@@ -1871,6 +1871,22 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Mystara polearms show reviewed attacks and distinct legacy conversions': '''(async () => {
+                    for (const [id, terms] of [
+                        ["c6df5079d8c48f5a", ["1d10 Slashing", "10 feet melee", "Ready action", "Hook or disarm"]],
+                        ["3faa02cee5307086", ["1d10 Piercing", "Topple", "Ready action"]],
+                        ["2af052841ed88951", ["1d6 Piercing", "Push", "Spontoon"]],
+                        ["1da98ab1459ee023", ["1d8 Bludgeoning", "blunt, double-ended head", "PDF p. 3"]],
+                        ["b93711e98661a11f", ["1d10 Slashing", "Graze", "legacy flat +2 damage"]],
+                    ]) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + " missing " + missing.join(", "));
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Mystara lamellar and partial armor show playable Gazetteer conversions': '''(async () => {
                     for (const [id, terms] of [
                         ["gazetteer-equipment-reference:84c7f61c8e7a856c",

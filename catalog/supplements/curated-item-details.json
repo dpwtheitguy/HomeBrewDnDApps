@@ -1,6 +1,450 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:c6df5079d8c48f5a": [
+      {
+        "label": "D&D 2024 adaptation · Bardiche",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_halberd",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Cleave",
+          "Weight": "6 lb",
+          "Activation": "Make a melee weapon attack using the Attack action, or another rule that grants an attack.",
+          "Special powers": "This is a mundane weapon. Its mastery requires a feature that unlocks the mastery for this weapon.",
+          "Original item context": "An axe-like blade on a long shaft.",
+          "Conversion notes": "This DM-review draft uses 2024 attack and mastery rules. The cited equipment list is fan material, and the linked published weapon is a comparison.",
+          "Source locator": "Colin Davidson, Expanded Weapons and Armour List (OSE), PDF p. 2, Weapons, Bardiche.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Set against a charge": "Take the Ready action to make one attack with this weapon when a creature you can see moves into your reach. Spend your Reaction when the trigger occurs. Resolve a normal attack, including mastery if available.",
+          "Hook or disarm": "Replace one attack from the Attack action to target a held object within reach. The holder chooses a Strength or Dexterity save against DC 8 + your Strength modifier + your Proficiency Bonus if proficient with this weapon. On a failure it drops the object in its space. This attempt deals no damage and triggers no mastery."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:99a3b72c58ef4b8d": [
+      {
+        "label": "D&D 2024 adaptation · Bill",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_halberd",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Cleave",
+          "Weight": "6 lb",
+          "Activation": "Make a melee weapon attack using the Attack action, or another rule that grants an attack.",
+          "Special powers": "This is a mundane weapon. Its mastery requires a feature that unlocks the mastery for this weapon.",
+          "Original item context": "A billhook mounted on a pole.",
+          "Conversion notes": "This DM-review draft uses 2024 attack and mastery rules. The cited equipment list is fan material, and the linked published weapon is a comparison.",
+          "Source locator": "Colin Davidson, Expanded Weapons and Armour List (OSE), PDF p. 2, Weapons, Bill.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:3faa02cee5307086": [
+      {
+        "label": "D&D 2024 adaptation · Gisarme",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_pike",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Piercing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Topple",
+          "Weight": "6 lb",
+          "Activation": "Make a melee weapon attack using the Attack action, or another rule that grants an attack.",
+          "Special powers": "This is a mundane weapon. Its mastery requires a feature that unlocks the mastery for this weapon.",
+          "Original item context": "A hooked polearm. Topple represents the tripping use recorded in The Mystaran Armoury.",
+          "Conversion notes": "This DM-review draft uses 2024 attack and mastery rules. The cited equipment list is fan material, and the linked published weapon is a comparison.",
+          "Source locator": "Colin Davidson, Expanded Weapons and Armour List (OSE), PDF p. 2, Weapons, Gisarme.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Set against a charge": "Take the Ready action to make one attack with this weapon when a creature you can see moves into your reach. Spend your Reaction when the trigger occurs. Resolve a normal attack, including mastery if available.",
+          "Trip reference": "https://pandius.com/The_Mystaran_Armoury_v1.6.pdf"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:0209d6a9d89fca20": [
+      {
+        "label": "D&D 2024 adaptation · Partisan",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_pike",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Piercing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Push",
+          "Weight": "6 lb",
+          "Activation": "Make a melee weapon attack using the Attack action, or another rule that grants an attack.",
+          "Special powers": "This is a mundane weapon. Its mastery requires a feature that unlocks the mastery for this weapon.",
+          "Original item context": "A wide spearhead with side projections. The source table calls it Partizan.",
+          "Conversion notes": "This DM-review draft uses 2024 attack and mastery rules. The cited equipment list is fan material, and the linked published weapon is a comparison.",
+          "Source locator": "Colin Davidson, Expanded Weapons and Armour List (OSE), PDF p. 2, Weapons, Partizan.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Set against a charge": "Take the Ready action to make one attack with this weapon when a creature you can see moves into your reach. Spend your Reaction when the trigger occurs. Resolve a normal attack, including mastery if available.",
+          "Hook or disarm": "Replace one attack from the Attack action to target a held object within reach. The holder chooses a Strength or Dexterity save against DC 8 + your Strength modifier + your Proficiency Bonus if proficient with this weapon. On a failure it drops the object in its space. This attempt deals no damage and triggers no mastery."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:5eafaaa7aba83c3e": [
+      {
+        "label": "D&D 2024 adaptation · Poleaxe",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_halberd",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Cleave",
+          "Weight": "6 lb",
+          "Activation": "Make a melee weapon attack using the Attack action, or another rule that grants an attack.",
+          "Special powers": "This is a mundane weapon. Its mastery requires a feature that unlocks the mastery for this weapon.",
+          "Original item context": "An axe head on a two-handed shaft.",
+          "Conversion notes": "This DM-review draft uses 2024 attack and mastery rules. The cited equipment list is fan material, and the linked published weapon is a comparison.",
+          "Source locator": "Colin Davidson, Expanded Weapons and Armour List (OSE), PDF p. 2, Weapons, Poleaxe.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:668129cfa6fd05ae": [
+      {
+        "label": "D&D 2024 adaptation · Ranseur",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_pike",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Piercing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Push",
+          "Weight": "6 lb",
+          "Activation": "Make a melee weapon attack using the Attack action, or another rule that grants an attack.",
+          "Special powers": "This is a mundane weapon. Its mastery requires a feature that unlocks the mastery for this weapon.",
+          "Original item context": "A thrusting polearm with side prongs.",
+          "Conversion notes": "This DM-review draft uses 2024 attack and mastery rules. The cited equipment list is fan material, and the linked published weapon is a comparison.",
+          "Source locator": "Colin Davidson, Expanded Weapons and Armour List (OSE), PDF p. 2, Weapons, Ranseur.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Set against a charge": "Take the Ready action to make one attack with this weapon when a creature you can see moves into your reach. Spend your Reaction when the trigger occurs. Resolve a normal attack, including mastery if available.",
+          "Hook or disarm": "Replace one attack from the Attack action to target a held object within reach. The holder chooses a Strength or Dexterity save against DC 8 + your Strength modifier + your Proficiency Bonus if proficient with this weapon. On a failure it drops the object in its space. This attempt deals no damage and triggers no mastery."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:e4305b2e820eaed7": [
+      {
+        "label": "D&D 2024 adaptation · Spetum",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_pike",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Piercing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Push",
+          "Weight": "6 lb",
+          "Activation": "Make a melee weapon attack using the Attack action, or another rule that grants an attack.",
+          "Special powers": "This is a mundane weapon. Its mastery requires a feature that unlocks the mastery for this weapon.",
+          "Original item context": "A thrusting polearm with lateral blades.",
+          "Conversion notes": "This DM-review draft uses 2024 attack and mastery rules. The cited equipment list is fan material, and the linked published weapon is a comparison.",
+          "Source locator": "Colin Davidson, Expanded Weapons and Armour List (OSE), PDF p. 2, Weapons, Spetum.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Set against a charge": "Take the Ready action to make one attack with this weapon when a creature you can see moves into your reach. Spend your Reaction when the trigger occurs. Resolve a normal attack, including mastery if available."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:2af052841ed88951": [
+      {
+        "label": "D&D 2024 adaptation · Spontoon",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_pike",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Push",
+          "Weight": "4 lb",
+          "Activation": "Make a melee weapon attack using the Attack action, or another rule that grants an attack.",
+          "Special powers": "This is a mundane weapon. Its mastery requires a feature that unlocks the mastery for this weapon.",
+          "Original item context": "A lighter spear-headed polearm. Keeps the fan source’s lower damage die and uses the published Pike as a comparison.",
+          "Conversion notes": "This DM-review draft uses 2024 attack and mastery rules. The cited equipment list is fan material, and the linked published weapon is a comparison.",
+          "Source locator": "Colin Davidson, Expanded Weapons and Armour List (OSE), PDF p. 2, Weapons, Spontoon.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Set against a charge": "Take the Ready action to make one attack with this weapon when a creature you can see moves into your reach. Spend your Reaction when the trigger occurs. Resolve a normal attack, including mastery if available."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:b93711e98661a11f": [
+      {
+        "label": "D&D 2024 adaptation · Voulge",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_glaive",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "6 lb",
+          "Activation": "Make a melee weapon attack using the Attack action, or another rule that grants an attack.",
+          "Special powers": "This is a mundane weapon. Its mastery requires a feature that unlocks the mastery for this weapon.",
+          "Original item context": "A broad chopping blade mounted on a pole. The draft omits the legacy flat +2 damage to keep it within the 2024 glaive profile.",
+          "Conversion notes": "This DM-review draft uses 2024 attack and mastery rules. The cited equipment list is fan material, and the linked published weapon is a comparison.",
+          "Source locator": "Colin Davidson, Expanded Weapons and Armour List (OSE), PDF p. 2, Weapons, Voulge.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:1da98ab1459ee023": [
+      {
+        "label": "D&D 2024 adaptation · Monk's Spade",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_glaive",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Bludgeoning + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Push",
+          "Weight": "6 lb",
+          "Activation": "Make a melee weapon attack using the Attack action, or another rule that grants an attack.",
+          "Special powers": "This is a mundane weapon. Its mastery requires a feature that unlocks the mastery for this weapon.",
+          "Original item context": "Uses the source’s blunt, double-ended head and 1d8 die. It grants no extra attack.",
+          "Conversion notes": "This DM-review draft uses 2024 attack and mastery rules. The cited equipment list is fan material, and the linked published weapon is a comparison.",
+          "Source locator": "Colin Davidson, Equipment List (BECMI), PDF p. 3, Extended Weapon and Armour Lists, Monks Spade.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Weapon description": "https://pandius.com/ExtendedEquipmentList.pdf#page=6"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:52ccab01fe36fee8": [
+      {
+        "label": "D&D 2024 adaptation · Lochaber Axe",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_halberd",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Cleave",
+          "Weight": "6 lb",
+          "Activation": "Make a melee weapon attack using the Attack action, or another rule that grants an attack.",
+          "Special powers": "This is a mundane weapon. Its mastery requires a feature that unlocks the mastery for this weapon.",
+          "Original item context": "An axe blade and hook on a long shaft.",
+          "Conversion notes": "This DM-review draft uses 2024 attack and mastery rules. The cited equipment list is fan material, and the linked published weapon is a comparison.",
+          "Source locator": "Colin Davidson, Expanded Weapons and Armour List (OSE), PDF p. 2, Weapons, Lochaber Axe.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+          "Hook or disarm": "Replace one attack from the Attack action to target a held object within reach. The holder chooses a Strength or Dexterity save against DC 8 + your Strength modifier + your Proficiency Bonus if proficient with this weapon. On a failure it drops the object in its space. This attempt deals no damage and triggers no mastery."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:a288e8f89787338b": [
+      {
+        "label": "D&D 2024 adaptation · Glaive",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_glaive",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "6 lb",
+          "Activation": "Make a melee weapon attack using the Attack action, or another rule that grants an attack.",
+          "Special powers": "This is a mundane weapon. Its mastery requires a feature that unlocks the mastery for this weapon.",
+          "Original item context": "A single-edged blade on a pole. Uses the published 2024 Glaive profile.",
+          "Conversion notes": "This DM-review draft uses 2024 attack and mastery rules. The cited equipment list is fan material, and the linked published weapon is a comparison.",
+          "Source locator": "Colin Davidson, Expanded Weapons and Armour List (OSE), PDF p. 2, Weapons, Glaive.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:cd1569e797ef0085": [
+      {
+        "label": "D&D 2024 adaptation · Scythe",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_glaive",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Topple",
+          "Weight": "6 lb",
+          "Activation": "Make a melee weapon attack using the Attack action, or another rule that grants an attack.",
+          "Special powers": "This is a mundane weapon. Its mastery requires a feature that unlocks the mastery for this weapon.",
+          "Original item context": "The weapon version of the scythe. Keeps the legacy die and uses Topple for its hooked blade.",
+          "Conversion notes": "This DM-review draft uses 2024 attack and mastery rules. The cited equipment list is fan material, and the linked published weapon is a comparison.",
+          "Source locator": "Colin Davidson, Expanded Weapons and Armour List (OSE), PDF p. 2, Weapons, Scythe.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:365405ae25dc2f55": [
+      {
+        "label": "D&D 2024 adaptation · Holy Water Sprinkler",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_halberd",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Bludgeoning + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Push",
+          "Weight": "6 lb",
+          "Activation": "Make a melee weapon attack using the Attack action, or another rule that grants an attack.",
+          "Special powers": "This is a mundane weapon. Its mastery requires a feature that unlocks the mastery for this weapon.",
+          "Original item context": "The historical-style pole weapon listed in the fan equipment table. The name alone grants no holy-water or radiant effect.",
+          "Conversion notes": "This DM-review draft uses 2024 attack and mastery rules. The cited equipment list is fan material, and the linked published weapon is a comparison.",
+          "Source locator": "Colin Davidson, Equipment List (BECMI), PDF p. 3, Extended Weapon and Armour Lists, Holy Water Sprinkler.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:c03ff1f1921d33a9": [
+      {
+        "label": "D&D 2024 adaptation · Tetsubo",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_maul",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Bludgeoning + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Topple",
+          "Weight": "6 lb",
+          "Activation": "Make a melee weapon attack using the Attack action, or another rule that grants an attack.",
+          "Special powers": "This is a mundane weapon. Its mastery requires a feature that unlocks the mastery for this weapon.",
+          "Original item context": "The source calls it a two-handed pole mace. Retains its 1d8 die.",
+          "Conversion notes": "This DM-review draft uses 2024 attack and mastery rules. The cited equipment list is fan material, and the linked published weapon is a comparison.",
+          "Source locator": "Colin Davidson, Equipment List (BECMI), PDF p. 3, Extended Weapon and Armour Lists, Tetsubo (pole mace).",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "mystara-fan-names-reference:2875fe5caf768217": [
+      {
+        "label": "D&D 2024 adaptation · Lucerne Hammer",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_war-pick",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Piercing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Sap",
+          "Weight": "6 lb",
+          "Activation": "Make a melee weapon attack using the Attack action, or another rule that grants an attack.",
+          "Special powers": "This is a mundane weapon. Its mastery requires a feature that unlocks the mastery for this weapon.",
+          "Original item context": "Uses the pointed face of the source’s long-shafted hammer. The piercing attack uses a single damage type.",
+          "Conversion notes": "This DM-review draft uses 2024 attack and mastery rules. The cited equipment list is fan material, and the linked published weapon is a comparison.",
+          "Source locator": "Colin Davidson, Equipment List (BECMI), PDF p. 6, Additional Weapons, Lucerne Hammer.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
     "gazetteer-equipment-reference:84c7f61c8e7a856c": [
       {
         "label": "D&D 2024 adaptation · Ethengaran Lamellar Armor",
