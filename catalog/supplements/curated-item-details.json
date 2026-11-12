@@ -1,6 +1,548 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-35-reference:793782b071d279c6": [
+      {
+        "label": "D&D 2024 adaptation · Anarchic (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property",
+          "Eligible weapon": "any weapon",
+          "Damage": "An extra 2d6 Psychic against a lawful creature.",
+          "Attack bonus": "Use the host’s normal attack modifier, including its separate magic bonus if any.",
+          "Range": "Use the host’s reach or range unless this property gives a different value.",
+          "Mastery": "Use the host’s mastery if a feature grants access to it.",
+          "Activation": "Applies on a hit, including ammunition fired from the weapon. A lawful creature holding the weapon takes a −1 penalty to attack rolls, ability checks, and saving throws.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "Rarity": "Rare as a standalone property. Review combined properties separately.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 223 (PDF p. 224), Weapon Special Abilities.",
+          "Conversion notes": "Replaces legacy negative levels and alignment-based damage reduction with a temporary penalty and typed damage.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:4b1a6adacc81bdc6": [
+      {
+        "label": "D&D 2024 adaptation · Axiomatic (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property",
+          "Eligible weapon": "any weapon",
+          "Damage": "An extra 2d6 Force against a chaotic creature.",
+          "Attack bonus": "Use the host’s normal attack modifier, including its separate magic bonus if any.",
+          "Range": "Use the host’s reach or range unless this property gives a different value.",
+          "Mastery": "Use the host’s mastery if a feature grants access to it.",
+          "Activation": "Applies on a hit, including ammunition fired from the weapon. A chaotic creature holding the weapon takes a −1 penalty to attack rolls, ability checks, and saving throws.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "Rarity": "Rare as a standalone property. Review combined properties separately.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities.",
+          "Conversion notes": "Replaces legacy negative levels and alignment-based damage reduction with a temporary penalty and typed damage.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:35db1798a7b1d9b6": [
+      {
+        "label": "D&D 2024 adaptation · Brilliant energy (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property",
+          "Eligible weapon": "melee weapon, thrown weapon, or ammunition",
+          "Damage": "Normal damage against eligible creatures. No damage to Constructs, Undead, or objects.",
+          "Attack bonus": "Use the host’s normal attack modifier, including its separate magic bonus if any.",
+          "Range": "Use the host’s reach or range unless this property gives a different value.",
+          "Mastery": "Use the host’s mastery if a feature grants access to it.",
+          "Activation": "On an attack against a creature, ignore its AC bonus from a wielded shield and from Half or Three-Quarters Cover caused solely by inanimate objects. Total Cover still prevents targeting. While drawn, the weapon sheds Bright Light for 20 feet and Dim Light for another 20 feet.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "Rarity": "Very Rare as a standalone property. Review combined properties separately.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities.",
+          "Conversion notes": "Retains the exclusions and light. Uses specific shield and cover exceptions in place of legacy armor and touch AC categories.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:46dda3c33c6f7a3f": [
+      {
+        "label": "D&D 2024 adaptation · Dancing (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property",
+          "Eligible weapon": "melee weapon",
+          "Damage": "Normal damage on a hit with the animated weapon.",
+          "Attack bonus": "Use the host’s normal attack modifier, including its separate magic bonus if any.",
+          "Range": "Use the host’s reach or range unless this property gives a different value.",
+          "Mastery": "Use the host’s mastery if a feature grants access to it.",
+          "Activation": "As a Bonus Action, release the weapon to hover in your space and immediately make one melee attack with it against a target within its reach. It follows you for up to 1 minute. You may repeat the attack as a Bonus Action on subsequent turns, up to four attacks total per activation. It cannot make Opportunity Attacks. After the fourth attack, at the end of the duration, or if you are Incapacitated, it returns to your free hand or falls at your feet. It cannot dance again until the end of your fourth turn after it returns.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "Rarity": "Very Rare as a standalone property. Review combined properties separately.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities.",
+          "Conversion notes": "Keeps four independent attacks and the original weapon following the wielder. Uses Bonus Actions and your normal attack modifier for the 2024 action economy.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:e5ea0b181b8ef325": [
+      {
+        "label": "D&D 2024 adaptation · Defending (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property",
+          "Eligible weapon": "melee weapon with a magic attack-and-damage bonus",
+          "Damage": "Normal damage using the remaining magic bonus.",
+          "Attack bonus": "Use the host’s normal attack modifier, including its separate magic bonus if any.",
+          "Range": "Use the host’s reach or range unless this property gives a different value.",
+          "Mastery": "Use the host’s mastery if a feature grants access to it.",
+          "Activation": "The first time you attack with the weapon on your turn, choose how much of its magic attack-and-damage bonus to transfer to AC. The adjusted bonus lasts until the start of your next turn. The AC bonus applies only while you hold the weapon.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "Rarity": "Very Rare as a standalone property. Review combined properties separately.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities.",
+          "Conversion notes": "Uses the timing and hand requirement of the 2024 Defender. The separate host bonus determines the amount that can be transferred.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_defender",
+          "label": "Published 2024 Defender comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:4a4fcda66b4fa626": [
+      {
+        "label": "D&D 2024 adaptation · Disruption (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property",
+          "Eligible weapon": "melee weapon that deals Bludgeoning damage",
+          "Damage": "An extra 2d6 Radiant against an Undead creature.",
+          "Attack bonus": "Use the host’s normal attack modifier, including its separate magic bonus if any.",
+          "Range": "Use the host’s reach or range unless this property gives a different value.",
+          "Mastery": "Use the host’s mastery if a feature grants access to it.",
+          "Activation": "On a hit against an Undead, if it has 25 Hit Points or fewer after the damage, it makes a DC 15 Wisdom saving throw. On a failure it is destroyed. On a success it has the Frightened condition until the end of your next turn.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "Rarity": "Rare as a standalone property. Review combined properties separately.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities.",
+          "Conversion notes": "Uses the 2024 Mace of Disruption as a benchmark. The Hit Point threshold replaces the legacy destruction check on every hit.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace-of-disruption",
+          "label": "Published 2024 Mace of Disruption comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:b6ec89443836688d": [
+      {
+        "label": "D&D 2024 adaptation · Distance (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property",
+          "Eligible weapon": "ranged weapon",
+          "Damage": "Normal damage.",
+          "Attack bonus": "Use the host’s normal attack modifier, including its separate magic bonus if any.",
+          "Range": "Use the host’s reach or range unless this property gives a different value.",
+          "Mastery": "Use the host’s mastery if a feature grants access to it.",
+          "Activation": "Double both the weapon’s normal range and long range. All normal attack and cover rules still apply.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "Rarity": "Uncommon as a standalone property. Review combined properties separately.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities.",
+          "Conversion notes": "Translates the doubled legacy range increment into both 2024 range bands.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:8452db39b30b0027": [
+      {
+        "label": "D&D 2024 adaptation · Ghost touch (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property",
+          "Eligible weapon": "melee weapon",
+          "Damage": "Normal damage. Against an incorporeal creature with Resistance to the attack’s Bludgeoning, Piercing, or Slashing damage, ignore that Resistance.",
+          "Attack bonus": "Use the host’s normal attack modifier, including its separate magic bonus if any.",
+          "Range": "Use the host’s reach or range unless this property gives a different value.",
+          "Mastery": "Use the host’s mastery if a feature grants access to it.",
+          "Activation": "An incorporeal creature can pick up and wield this weapon while on the same plane. The property works on contact and requires no action. It does not allow targeting a creature on another plane.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "Rarity": "Rare as a standalone property. Review combined properties separately.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 224 (PDF p. 225), Weapon Special Abilities.",
+          "Conversion notes": "Translates legacy incorporeal miss chance into a specific Resistance exception. Retains use by an incorporeal wielder.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:c3e1eab8da54c945": [
+      {
+        "label": "D&D 2024 adaptation · Holy (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property",
+          "Eligible weapon": "any weapon",
+          "Damage": "An extra 2d6 Radiant against an evil creature.",
+          "Attack bonus": "Use the host’s normal attack modifier, including its separate magic bonus if any.",
+          "Range": "Use the host’s reach or range unless this property gives a different value.",
+          "Mastery": "Use the host’s mastery if a feature grants access to it.",
+          "Activation": "Applies on a hit, including ammunition fired from the weapon. An evil creature holding the weapon takes a −1 penalty to attack rolls, ability checks, and saving throws.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "Rarity": "Rare as a standalone property. Review combined properties separately.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 225 (PDF p. 226), Weapon Special Abilities.",
+          "Conversion notes": "Replaces the legacy negative level with a temporary penalty and uses Radiant damage.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:b401ba3ce682af25": [
+      {
+        "label": "D&D 2024 adaptation · Keen (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property",
+          "Eligible weapon": "melee weapon that deals Piercing or Slashing damage",
+          "Damage": "Normal damage, with the usual extra dice on a Critical Hit.",
+          "Attack bonus": "Use the host’s normal attack modifier, including its separate magic bonus if any.",
+          "Range": "Use the host’s reach or range unless this property gives a different value.",
+          "Mastery": "Use the host’s mastery if a feature grants access to it.",
+          "Activation": "An attack with the weapon scores a Critical Hit on a natural 19 or 20. If another feature offers a broader critical range, use that range instead. The ranges do not add together.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "Rarity": "Rare as a standalone property. Review combined properties separately.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 225 (PDF p. 226), Weapon Special Abilities.",
+          "Conversion notes": "Uses a 19–20 range in place of doubling legacy threat ranges. Removes the legacy confirmation roll.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:a4361401f05a148d": [
+      {
+        "label": "D&D 2024 adaptation · Ki focus (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property",
+          "Eligible weapon": "melee weapon",
+          "Damage": "Use normal weapon damage or the Martial Arts die when the class feature allows.",
+          "Attack bonus": "Use the host’s normal attack modifier, including its separate magic bonus if any.",
+          "Range": "Use the host’s reach or range unless this property gives a different value.",
+          "Mastery": "Use the host’s mastery if a feature grants access to it.",
+          "Activation": "While attuned by a Monk, the weapon counts as a Monk weapon for that character if it lacks the Heavy and Two-Handed properties. The Monk can use a class feature that triggers on a hit with an Unarmed Strike through a melee hit with this weapon, subject to that feature’s own action costs, saves, and usage limits.",
+          "Attunement": "Requires a Monk",
+          "Rarity": "Rare as a standalone property. Review combined properties separately.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 225 (PDF p. 226), Weapon Special Abilities.",
+          "Conversion notes": "Translates the channeling effect to 2024 Monk features. The weapon does not grant those features by itself.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:5f53fe8ecac98ee0": [
+      {
+        "label": "D&D 2024 adaptation · Merciful (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property",
+          "Eligible weapon": "any weapon",
+          "Damage": "While active, an extra 1d6 of the attack’s normal damage type.",
+          "Attack bonus": "Use the host’s normal attack modifier, including its separate magic bonus if any.",
+          "Range": "Use the host’s reach or range unless this property gives a different value.",
+          "Mastery": "Use the host’s mastery if a feature grants access to it.",
+          "Activation": "Toggle the property with a Bonus Action. While active, a hit that would reduce a creature to 0 Hit Points leaves it at 1 Hit Point and Unconscious instead. Use the normal 2024 knockout duration and recovery rules. This exception works on ranged hits, including ammunition fired from the weapon.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "Rarity": "Uncommon as a standalone property. Review combined properties separately.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 225 (PDF p. 226), Weapon Special Abilities.",
+          "Conversion notes": "Replaces the legacy nonlethal damage pool with the 2024 knockout rule and extends it to the ranged hosts allowed by the original.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:aa02577e52c43712": [
+      {
+        "label": "D&D 2024 adaptation · Mighty cleaving (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property",
+          "Eligible weapon": "melee weapon with Cleave mastery",
+          "Damage": "Normal damage. The extra Cleave attack follows Cleave’s damage rules.",
+          "Attack bonus": "Use the host’s normal attack modifier, including its separate magic bonus if any.",
+          "Range": "Use the host’s reach or range unless this property gives a different value.",
+          "Mastery": "Use the host’s mastery if a feature grants access to it.",
+          "Activation": "When you use Cleave and its extra attack hits, you can use Cleave once more from that new target on the same turn. Choose a third creature within 5 feet of that target and within your reach. A creature can be targeted only once during this sequence.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "Rarity": "Rare as a standalone property. Review combined properties separately.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 225 (PDF p. 226), Weapon Special Abilities.",
+          "Conversion notes": "Preserves the extra legacy cleave while adapting it to the 2024 Cleave mastery and its position rules.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:f41317823d3fb1fa": [
+      {
+        "label": "D&D 2024 adaptation · Returning (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property",
+          "Eligible weapon": "weapon with the Thrown property",
+          "Damage": "Normal damage.",
+          "Attack bonus": "Use the host’s normal attack modifier, including its separate magic bonus if any.",
+          "Range": "Use the host’s reach or range unless this property gives a different value.",
+          "Mastery": "Use the host’s mastery if a feature grants access to it.",
+          "Activation": "Immediately after a thrown attack resolves, the weapon flies back to your free hand. If you cannot catch it, it falls in your space or the nearest unoccupied space it can occupy.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "Rarity": "Uncommon as a standalone property. Review combined properties separately.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 225 (PDF p. 226), Weapon Special Abilities.",
+          "Conversion notes": "Uses the immediate-return timing of 2024 returning weapons so it works with Extra Attack.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:bcfb0971ffaebf3a": [
+      {
+        "label": "D&D 2024 adaptation · Seeking (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property",
+          "Eligible weapon": "ranged weapon",
+          "Damage": "Normal damage.",
+          "Attack bonus": "Use the host’s normal attack modifier, including its separate magic bonus if any.",
+          "Range": "Use the host’s reach or range unless this property gives a different value.",
+          "Mastery": "Use the host’s mastery if a feature grants access to it.",
+          "Activation": "When you attack a creature in its actual space, ignore Disadvantage imposed solely because you cannot see that creature. You still must choose the correct space. Other causes of Disadvantage, normal range, and cover apply.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "Rarity": "Rare as a standalone property. Review combined properties separately.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 225 (PDF p. 226), Weapon Special Abilities.",
+          "Conversion notes": "Replaces the legacy concealment miss chance with a specific exception to unseen-target Disadvantage.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:7ea8d031138a237a": [
+      {
+        "label": "D&D 2024 adaptation · Speed (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property",
+          "Eligible weapon": "any weapon",
+          "Damage": "Normal damage with the additional attack.",
+          "Attack bonus": "Use the host’s normal attack modifier, including its separate magic bonus if any.",
+          "Range": "Use the host’s reach or range unless this property gives a different value.",
+          "Mastery": "Use the host’s mastery if a feature grants access to it.",
+          "Activation": "After you take the Attack action on your turn and attack with the weapon, you can make one additional attack with it as a Bonus Action. You can make either this bonus attack or an attack with the additional action granted by Haste on a turn.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "Rarity": "Very Rare as a standalone property. Review combined properties separately.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 225 (PDF p. 226), Weapon Special Abilities.",
+          "Conversion notes": "Replaces the full attack action with the 2024 Attack action and a Bonus Action. Preserves the legacy limit on combining the benefit with Haste.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:d942c5bd1092215a": [
+      {
+        "label": "D&D 2024 adaptation · Spell storing (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property",
+          "Eligible weapon": "melee weapon",
+          "Damage": "Normal damage plus any effect of the released spell.",
+          "Attack bonus": "Use the host’s normal attack modifier, including its separate magic bonus if any.",
+          "Range": "Use the host’s reach or range unless this property gives a different value.",
+          "Mastery": "Use the host’s mastery if a feature grants access to it.",
+          "Activation": "A creature can cast one spell of level 1–3 into the empty weapon while touching it. The spell must take an action to cast and be capable of targeting exactly one creature. After you hit and damage a creature with the weapon, you can immediately release the stored spell on that target once, expending it. Use the original caster’s slot level, save DC, and spell attack bonus. You maintain any Concentration the released spell requires.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "Rarity": "Rare as a standalone property. Review combined properties separately.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 225 (PDF p. 226), Weapon Special Abilities.",
+          "Conversion notes": "Keeps the legacy one-spell limit and hit trigger. Uses the 2024 Ring of Spell Storing as the benchmark for retained casting statistics.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_ring-of-spell-storing",
+          "label": "Published 2024 Ring of Spell Storing comparison"
+        }
+      }
+    ],
+    "dmg-35-reference:c7583cd6dd45b0c8": [
+      {
+        "label": "D&D 2024 adaptation · Throwing (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property",
+          "Eligible weapon": "melee weapon",
+          "Damage": "Normal weapon damage and the ability modifier used for a melee attack with the weapon.",
+          "Attack bonus": "Use the host’s normal attack modifier, including its separate magic bonus if any.",
+          "Range": "Use the host’s reach or range unless this property gives a different value.",
+          "Mastery": "Use the host’s mastery if a feature grants access to it.",
+          "Activation": "The weapon gains Thrown with normal range 20 feet and long range 60 feet if it lacks Thrown already. Make a ranged weapon attack and use the same ability modifier as for a melee attack with the weapon.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "Rarity": "Uncommon as a standalone property. Review combined properties separately.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 226 (PDF p. 227), Weapon Special Abilities.",
+          "Conversion notes": "Converts the 10-foot legacy range increment into a normal and long range using the 2024 Dagger as a benchmark.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:a10f85eb2c546316": [
+      {
+        "label": "D&D 2024 adaptation · Thundering (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property",
+          "Eligible weapon": "any weapon",
+          "Damage": "On a Critical Hit, roll an extra 1d8 Thunder once.",
+          "Attack bonus": "Use the host’s normal attack modifier, including its separate magic bonus if any.",
+          "Range": "Use the host’s reach or range unless this property gives a different value.",
+          "Mastery": "Use the host’s mastery if a feature grants access to it.",
+          "Activation": "On that Critical Hit the target must also succeed on a DC 14 Constitution saving throw or have the Deafened condition for 1 minute. It can repeat the save at the end of each of its turns, ending the condition on a success. The property applies to ammunition fired by the weapon.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "Rarity": "Rare as a standalone property. Review combined properties separately.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 225 (PDF p. 226), Weapon Special Abilities.",
+          "Conversion notes": "Preserves the trigger and DC. Replaces critical multiplier scaling and permanent deafness with a fixed die and a repeatable save.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:eceb441566195c74": [
+      {
+        "label": "D&D 2024 adaptation · Unholy (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property",
+          "Eligible weapon": "any weapon",
+          "Damage": "An extra 2d6 Necrotic against a good creature.",
+          "Attack bonus": "Use the host’s normal attack modifier, including its separate magic bonus if any.",
+          "Range": "Use the host’s reach or range unless this property gives a different value.",
+          "Mastery": "Use the host’s mastery if a feature grants access to it.",
+          "Activation": "Applies on a hit, including ammunition fired from the weapon. A good creature holding the weapon takes a −1 penalty to attack rolls, ability checks, and saving throws.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "Rarity": "Rare as a standalone property. Review combined properties separately.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 226 (PDF p. 227), Weapon Special Abilities.",
+          "Conversion notes": "Matches the existing silvered unholy weapon conversion. Uses a temporary penalty in place of a negative level.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:389f8934b2617b90": [
+      {
+        "label": "D&D 2024 adaptation · Vicious (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property",
+          "Eligible weapon": "melee weapon",
+          "Damage": "An extra 2d6 Force to the target. You take 1d6 Force damage.",
+          "Attack bonus": "Use the host’s normal attack modifier, including its separate magic bonus if any.",
+          "Range": "Use the host’s reach or range unless this property gives a different value.",
+          "Mastery": "Use the host’s mastery if a feature grants access to it.",
+          "Activation": "On a hit against a creature, you may trigger both effects without an action. If the hit is critical, double the extra damage dice dealt to the target. Roll the damage to yourself once.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "Rarity": "Rare as a standalone property. Review combined properties separately.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 226 (PDF p. 227), Weapon Special Abilities.",
+          "Conversion notes": "Retains the original damage and recoil dice. Makes the exchange optional and gives it a 2024 damage type.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:6b183ba229ffeecc": [
+      {
+        "label": "D&D 2024 adaptation · Vorpal (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property",
+          "Eligible weapon": "melee weapon that deals Slashing damage",
+          "Damage": "Normal damage. If the vorpal effect applies but does not sever a head, add 30 Slashing damage.",
+          "Attack bonus": "Use the host’s normal attack modifier, including its separate magic bonus if any.",
+          "Range": "Use the host’s reach or range unless this property gives a different value.",
+          "Mastery": "Use the host’s mastery if a feature grants access to it.",
+          "Activation": "On a natural 20 against a creature, sever one head. The target dies if it cannot survive without that head. Instead deal the fallback damage if it has no head, can survive without its head, is immune to Slashing damage, or the DM rules it is too large to decapitate with this weapon. A creature can expend one use of Legendary Resistance to take the fallback damage instead of losing its head. The weapon ignores Resistance to Slashing damage.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "Rarity": "Legendary as a standalone property. Review combined properties separately.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 226 (PDF p. 227), Weapon Special Abilities.",
+          "Conversion notes": "Uses the 2024 Vorpal Sword’s natural-20 trigger, immunity cases and fixed fallback damage. The host supplies any separate magic attack-and-damage bonus.",
+          "2024 Vorpal Sword": "https://www.dndbeyond.com/magic-items/9229181-vorpal-sword",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:0a692c105c267419": [
+      {
+        "label": "D&D 2024 adaptation · Wounding (weapon property)",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Magic weapon property",
+          "Eligible weapon": "melee weapon",
+          "Damage": "Normal damage. The target takes 1d4 Necrotic damage per wound at the start of each of its turns.",
+          "Attack bonus": "Use the host’s normal attack modifier, including its separate magic bonus if any.",
+          "Range": "Use the host’s reach or range unless this property gives a different value.",
+          "Mastery": "Use the host’s mastery if a feature grants access to it.",
+          "Activation": "Once per turn when you hit with the weapon, you can inflict one wound on a creature other than a Construct or Plant. At the start of its turn after taking the damage it makes a DC 15 Constitution saving throw, ending all these wounds on a success. A creature within 5 feet can also use an action to end them with a successful DC 15 Wisdom (Medicine) check.",
+          "Attunement": "Required for the finished weapon in this conversion.",
+          "Rarity": "Rare as a standalone property. Review combined properties separately.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 226 (PDF p. 227), Weapon Special Abilities.",
+          "Conversion notes": "Replaces Constitution damage with accumulating wounds and gives a repeatable save and a treatment option.",
+          "3.5 property rules": "https://www.d20srd.org/srd/magicItems/magicWeapons.htm",
+          "2024 weapon rules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
     "dmg-35-reference:2ab96006dcaf2318": [
       {
         "label": "D&D 2024 adaptation · Bane (weapon property)",

@@ -293,6 +293,15 @@ def main():
         socket = create_connection(page['webSocketDebuggerUrl'], timeout=8, suppress_origin=True)
         try:
             dev = DevTools(socket)
+            dev.eval("""new Promise((resolve, reject) => {
+                const deadline = Date.now() + 5000;
+                function ready() {
+                    if (typeof byId === 'function' && typeof compactInspection !== 'undefined') resolve(true);
+                    else if (Date.now() >= deadline) reject(new Error('Armory guide script did not load'));
+                    else setTimeout(ready, 50);
+                }
+                ready();
+            })""")
             dev.eval(SETUP)
             if args.expect_layout:
                 assert dev.eval('compactInspection.matches') == (args.expect_layout == 'compact')
@@ -1740,6 +1749,27 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Core weapon properties retain their limits and eligible hosts': '''(async () => {
+                    const cases = [
+                        ["35db1798a7b1d9b6", ["No damage to Constructs, Undead, or objects", "Total Cover"]],
+                        ["46dda3c33c6f7a3f", ["four attacks total per activation", "Opportunity Attacks"]],
+                        ["e5ea0b181b8ef325", ["transfer to AC", "Defender comparison"]],
+                        ["4a4fcda66b4fa626", ["25 Hit Points or fewer", "DC 15 Wisdom"]],
+                        ["5f53fe8ecac98ee0", ["1 Hit Point and Unconscious", "ranged hits"]],
+                        ["aa02577e52c43712", ["third creature within 5 feet", "Cleave mastery"]],
+                        ["d942c5bd1092215a", ["exactly one creature", "original caster’s slot level", "Concentration"]],
+                        ["a10f85eb2c546316", ["1d8 Thunder once", "repeat the save"]],
+                        ["6b183ba229ffeecc", ["30 Slashing damage", "Legendary Resistance", "natural 20"]],
+                        ["0a692c105c267419", ["1d4 Necrotic damage per wound", "DC 15 Wisdom (Medicine)"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect("dmg-35-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))
+                            || !inspection.querySelector('a[href*="magicWeapons.htm"]')) return false;
+                    }
+                    return true;
+                })()''',
                 'Legacy weapon upgrades resolve on eligible host weapons': '''(async () => {
                     const cases = [
                         ["2ab96006dcaf2318", ["fixed", "extra 2d6", "host weapon"]],
@@ -2598,7 +2628,7 @@ def main():
                     print(f'FAIL {name}: {error}')
         finally:
             try:
-                dev.eval('armoryQA.restore(); true')
+                dev.eval('if (typeof armoryQA !== "undefined") armoryQA.restore(); true')
             finally:
                 socket.close()
     finally:
