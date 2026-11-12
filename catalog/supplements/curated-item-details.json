@@ -1,6 +1,607 @@
 {
   "schema_version": 1,
   "records": {
+    "dmg-35-reference:13e0a18b0fed4bf5": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork dwarven urgrosh",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (axe) or 1d6 Piercing (spike) + Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Two-Handed",
+          "Mastery": "Cleave (axe) or Sap (spike)",
+          "Weight": "12 lb",
+          "Activation": "Make a melee weapon attack.",
+          "Attunement": "None",
+          "Special powers": "Choose an end for each attack. Once on your turn after attacking with the axe as part of the Attack action, you can use a Bonus Action to attack with the spike. Omit a positive ability modifier from that bonus attack’s damage. A mastery you know for this weapon applies according to the end used.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–12.",
+          "Conversion notes": "Masterwork remains a quality and price distinction. The legacy masterwork +1 accuracy bonus is omitted in 2024; the listed profile is an authored conversion.",
+          "3.5 weapon rules": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:bda64bd2004dcd27": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork dwarven waraxe",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Slashing (1d12 with two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d12)",
+          "Mastery": "Topple",
+          "Weight": "8 lb",
+          "Activation": "Make a melee weapon attack.",
+          "Attunement": "None",
+          "Special powers": "Use the listed higher die for this heavier axe. You need Strength 13 to use it in one hand.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–11.",
+          "Conversion notes": "Masterwork remains a quality and price distinction. The legacy masterwork +1 accuracy bonus is omitted in 2024; the listed profile is an authored conversion.",
+          "3.5 weapon rules": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_battleaxe",
+          "label": "Open 2024 Battleaxe benchmark"
+        }
+      }
+    ],
+    "dmg-35-reference:cd30981651a32fe4": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork gauntlet",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Worn equipment used with Unarmed Strikes",
+          "Damage": "1 + Strength modifier Bludgeoning",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus for an Unarmed Strike.",
+          "Range": "5 feet",
+          "Properties": "Worn on one hand",
+          "Mastery": "None",
+          "Weight": "1 lb",
+          "Activation": "Use the Damage option of an Unarmed Strike.",
+          "Attunement": "None",
+          "Special powers": "A strike with the gauntlet is an Unarmed Strike, using the 2024 Damage option and its proficiency rules. It does not grant a separate weapon attack.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–12.",
+          "Conversion notes": "Masterwork remains a quality and price distinction. The legacy masterwork +1 accuracy bonus is omitted in 2024; the listed profile is an authored conversion.",
+          "3.5 weapon rules": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:3b124562732e5f70": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork guisarme",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d4 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "10 feet",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Topple",
+          "Weight": "12 lb",
+          "Activation": "Make a melee weapon attack.",
+          "Attunement": "None",
+          "Special powers": "The hook’s trip function is represented by Topple.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–12.",
+          "Conversion notes": "Masterwork remains a quality and price distinction. The legacy masterwork +1 accuracy bonus is omitted in 2024; the listed profile is an authored conversion.",
+          "3.5 weapon rules": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_halberd",
+          "label": "Open 2024 Halberd benchmark"
+        }
+      }
+    ],
+    "dmg-35-reference:a3a288a7f53ce2c9": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork heavy pick",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing (1d10 with two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "2 lb",
+          "Activation": "Make a melee weapon attack.",
+          "Attunement": "None",
+          "Special powers": "Uses the listed weapon rules with no magical properties.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–12.",
+          "Conversion notes": "Masterwork remains a quality and price distinction. The legacy masterwork +1 accuracy bonus is omitted in 2024; the listed profile is an authored conversion.",
+          "3.5 weapon rules": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_war-pick",
+          "label": "Open 2024 War Pick benchmark"
+        }
+      }
+    ],
+    "dmg-35-reference:6f49ea3e036b40ef": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork kama",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Light",
+          "Mastery": "Topple",
+          "Weight": "2 lb",
+          "Activation": "Make a melee weapon attack.",
+          "Attunement": "None",
+          "Special powers": "The trip-capable hook uses Topple.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–11.",
+          "Conversion notes": "Masterwork remains a quality and price distinction. The legacy masterwork +1 accuracy bonus is omitted in 2024; the listed profile is an authored conversion.",
+          "3.5 weapon rules": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_sickle",
+          "label": "Open 2024 Sickle benchmark"
+        }
+      }
+    ],
+    "dmg-35-reference:d445c700bdf6e407": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork kukri",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d4 Slashing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Weight": "2 lb",
+          "Activation": "Make a melee weapon attack.",
+          "Attunement": "None",
+          "Special powers": "Uses the listed weapon rules with no magical properties.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–12.",
+          "Conversion notes": "Masterwork remains a quality and price distinction. The legacy masterwork +1 accuracy bonus is omitted in 2024; the listed profile is an authored conversion.",
+          "3.5 weapon rules": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scimitar",
+          "label": "Open 2024 Scimitar benchmark"
+        }
+      }
+    ],
+    "dmg-35-reference:1a745cc3200a542e": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork light pick",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d4 Piercing + Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Light",
+          "Mastery": "Vex",
+          "Weight": "3 lb",
+          "Activation": "Make a melee weapon attack.",
+          "Attunement": "None",
+          "Special powers": "Uses the listed weapon rules with no magical properties.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–12.",
+          "Conversion notes": "Masterwork remains a quality and price distinction. The legacy masterwork +1 accuracy bonus is omitted in 2024; the listed profile is an authored conversion.",
+          "3.5 weapon rules": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_war-pick",
+          "label": "Open 2024 War Pick benchmark"
+        }
+      }
+    ],
+    "dmg-35-reference:64a0492c8d418d7b": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork longspear",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing + Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "10 feet",
+          "Properties": "Reach, Two-Handed",
+          "Mastery": "Push",
+          "Weight": "9 lb",
+          "Activation": "Make a melee weapon attack.",
+          "Attunement": "None",
+          "Special powers": "Uses the listed weapon rules with no magical properties.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–12.",
+          "Conversion notes": "Masterwork remains a quality and price distinction. The legacy masterwork +1 accuracy bonus is omitted in 2024; the listed profile is an authored conversion.",
+          "3.5 weapon rules": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_pike",
+          "label": "Open 2024 Pike benchmark"
+        }
+      }
+    ],
+    "dmg-35-reference:da185b252edf7d8b": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork nunchaku",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Weight": "2 lb",
+          "Activation": "Make a melee weapon attack.",
+          "Attunement": "None",
+          "Special powers": "Once per turn after a hit, you can forgo that hit’s damage to attempt a disarm. The target makes a Strength saving throw against DC 8 + your Proficiency Bonus + the ability modifier used to attack. On a failure it drops one item you choose that it is holding.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–11.",
+          "Conversion notes": "Masterwork remains a quality and price distinction. The legacy masterwork +1 accuracy bonus is omitted in 2024; the listed profile is an authored conversion.",
+          "3.5 weapon rules": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:28dc2ef57a9c2ba0": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork ranseur",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d4 Piercing + Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "10 feet",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Push",
+          "Weight": "12 lb",
+          "Activation": "Make a melee weapon attack.",
+          "Attunement": "None",
+          "Special powers": "Once per turn after a hit, you can forgo that hit’s damage to attempt a disarm. The target makes a Strength saving throw against DC 8 + your Proficiency Bonus + your Strength modifier. On a failure it drops one item you choose that it is holding.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–12.",
+          "Conversion notes": "Masterwork remains a quality and price distinction. The legacy masterwork +1 accuracy bonus is omitted in 2024; the listed profile is an authored conversion.",
+          "3.5 weapon rules": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_pike",
+          "label": "Open 2024 Pike benchmark"
+        }
+      }
+    ],
+    "dmg-35-reference:1586db2b39642282": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork sap",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Light",
+          "Mastery": "Sap",
+          "Weight": "2 lb",
+          "Activation": "Make a melee weapon attack.",
+          "Attunement": "None",
+          "Special powers": "If a melee hit reduces a creature to 0 Hit Points, use the standard 2024 option to knock it out.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–12.",
+          "Conversion notes": "Masterwork remains a quality and price distinction. The legacy masterwork +1 accuracy bonus is omitted in 2024; the listed profile is an authored conversion.",
+          "3.5 weapon rules": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 Club benchmark"
+        }
+      }
+    ],
+    "dmg-35-reference:bcfafa4f82383b98": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork scythe",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d4 Slashing or Piercing (choose per attack) + Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Topple",
+          "Weight": "10 lb",
+          "Activation": "Make a melee weapon attack.",
+          "Attunement": "None",
+          "Special powers": "The original trip capability is represented by Topple.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–12.",
+          "Conversion notes": "Masterwork remains a quality and price distinction. The legacy masterwork +1 accuracy bonus is omitted in 2024; the listed profile is an authored conversion.",
+          "3.5 weapon rules": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:42a2ee7ca729d0b9": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork shortspear",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Piercing (1d8 with two hands in melee) + Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet melee or 20/60 feet thrown",
+          "Properties": "Thrown (20/60 feet), Versatile (1d8)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Activation": "Make a melee or thrown attack.",
+          "Attunement": "None",
+          "Special powers": "Uses the listed weapon rules with no magical properties.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–11.",
+          "Conversion notes": "Masterwork remains a quality and price distinction. The legacy masterwork +1 accuracy bonus is omitted in 2024; the listed profile is an authored conversion.",
+          "3.5 weapon rules": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 Spear benchmark"
+        }
+      }
+    ],
+    "dmg-35-reference:f7e3a8ff9939c173": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork siangham",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Light",
+          "Mastery": "Vex",
+          "Weight": "1 lb",
+          "Activation": "Make a melee weapon attack.",
+          "Attunement": "None",
+          "Special powers": "Uses the listed weapon rules with no magical properties.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–11.",
+          "Conversion notes": "Masterwork remains a quality and price distinction. The legacy masterwork +1 accuracy bonus is omitted in 2024; the listed profile is an authored conversion.",
+          "3.5 weapon rules": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:6300be7ebfae1aa4": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork spiked chain",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "2d4 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier plus Proficiency Bonus if proficient.",
+          "Range": "10 feet",
+          "Properties": "Finesse, Reach, Two-Handed",
+          "Mastery": "Topple",
+          "Weight": "10 lb",
+          "Activation": "Make a melee weapon attack.",
+          "Attunement": "None",
+          "Special powers": "The chain can attack adjacent creatures within its reach. Topple represents its original tripping ability. Once per turn you can forgo hit damage to attempt a disarm. The target makes a Strength saving throw against DC 8 + your Proficiency Bonus + the ability modifier used to attack. On a failure it drops one item you choose that it is holding.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–12.",
+          "Conversion notes": "Masterwork remains a quality and price distinction. The legacy masterwork +1 accuracy bonus is omitted in 2024; the listed profile is an authored conversion.",
+          "3.5 weapon rules": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:cd966eeb9ec49a7b": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork spiked gauntlet",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet",
+          "Properties": "Light. Must occupy its hand while used as a weapon.",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Activation": "Make a melee weapon attack.",
+          "Attunement": "None",
+          "Special powers": "Uses the listed weapon rules with no magical properties.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–12.",
+          "Conversion notes": "Masterwork remains a quality and price distinction. The legacy masterwork +1 accuracy bonus is omitted in 2024; the listed profile is an authored conversion.",
+          "3.5 weapon rules": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        }
+      }
+    ],
+    "dmg-35-reference:7b175c4d0adee994": [
+      {
+        "label": "D&D 2024 adaptation · Halfspear",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Piercing + Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet melee or 20/60 feet thrown",
+          "Properties": "Thrown (20/60 feet). One-handed.",
+          "Mastery": "Sap",
+          "Attunement": "None",
+          "Activation": "Make a melee or thrown attack.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 133 (PDF p. 134), War.",
+          "Conversion notes": "Uses the 2024 Spear’s one-handed damage and range. The shorter haft removes Versatile. Small legacy NPC damage is size-specific. Masterwork quality grants no extra attack bonus.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 Spear benchmark"
+        }
+      }
+    ],
+    "dmg-35-reference:ac89457f36d866d9": [
+      {
+        "label": "D&D 2024 adaptation · Halfspear +1",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Piercing + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee or 20/60 feet thrown",
+          "Properties": "Thrown (20/60 feet). One-handed.",
+          "Mastery": "Sap",
+          "Attunement": "None",
+          "Activation": "Make a melee or thrown attack.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 125 (PDF p. 126), Sample NPC possessions.",
+          "Conversion notes": "Uses the 2024 Spear’s one-handed damage and range. The shorter haft removes Versatile. Small legacy NPC damage is size-specific. Masterwork quality grants no extra attack bonus.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 Spear benchmark"
+        }
+      }
+    ],
+    "dmg-35-reference:dfc0f41a24ce7cf1": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork halfspear",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Piercing + Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet melee or 20/60 feet thrown",
+          "Properties": "Thrown (20/60 feet). One-handed.",
+          "Mastery": "Sap",
+          "Attunement": "None",
+          "Activation": "Make a melee or thrown attack.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 124 (PDF p. 125), Sample NPC possessions.",
+          "Conversion notes": "Uses the 2024 Spear’s one-handed damage and range. The shorter haft removes Versatile. Small legacy NPC damage is size-specific. Masterwork quality grants no extra attack bonus.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 Spear benchmark"
+        }
+      }
+    ],
+    "dmg-35-reference:4a1b67cf5b664fd4": [
+      {
+        "label": "D&D 2024 adaptation · Masterwork net",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://dtdnd.neocities.org/books/dm/DungeonMastersGuide.pdf",
+        "fields": {
+          "Category": "Adventuring gear (Net)",
+          "Damage": "No direct damage.",
+          "Attack bonus": "No attack roll. Dexterity save DC 8 + your Dexterity modifier + Proficiency Bonus.",
+          "Range": "15 feet",
+          "Mastery": "None",
+          "Attunement": "None",
+          "Activation": "Replace one attack of the Attack action with throwing the net at a Large or smaller creature you can see within range. It is Restrained on a failed save until it escapes.",
+          "Escape": "The target or a creature within 5 feet can take an action to make a DC 10 Strength (Athletics) check to free it. Destroying the net also frees it. The net has AC 10, 5 Hit Points, and Immunity to Bludgeoning, Poison, and Psychic damage.",
+          "Source locator": "D&D 3.5 Dungeon Master’s Guide, p. 222 (PDF p. 223), Table 7–12.",
+          "Conversion notes": "Uses the 2024 Net’s control and escape rules. Masterwork is a quality and price distinction.",
+          "3.5 weapon rules": "https://www.d20srd.org/srd/equipment/weapons.htm",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Net"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_net",
+          "label": "Open 2024 Net benchmark"
+        }
+      }
+    ],
+    "dmg-1e-reference:c09325a7645ffe53": [
+      {
+        "label": "D&D 2024 adaptation · Military Pick +1",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.1eonline.info/3dmg/3h.htm",
+        "fields": {
+          "Category": "Martial melee weapon (War Pick)",
+          "Damage": "1d8 Piercing (1d10 with two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient, plus 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "2 lb",
+          "Attunement": "None",
+          "Activation": "Make a melee attack.",
+          "Source locator": "AD&D 1e Dungeon Masters Guide, Table III.H, roll 78–80.",
+          "Conversion notes": "Uses the 2024 War Pick and keeps the listed +1 enhancement.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_war-pick",
+          "label": "Open 2024 War Pick benchmark"
+        }
+      }
+    ],
+    "dmg-2e-reference:026d051b073114b5": [
+      {
+        "label": "D&D 2024 adaptation · Military Pick",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://naggaroth.daerma.com/2e/corerule-page=DD00696.htm.php.html",
+        "fields": {
+          "Category": "Martial melee weapon (War Pick)",
+          "Damage": "1d8 Piercing (1d10 with two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier plus Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "2 lb",
+          "Attunement": "None",
+          "Activation": "Make a melee attack.",
+          "Source locator": "AD&D 2e Dungeon Master’s Guide, Table 108, Subtable B, roll 1.",
+          "Conversion notes": "Table 108 selects the weapon type. Use these 2024 War Pick base stats, then apply the separately determined enhancement and any separately determined powers.",
+          "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_war-pick",
+          "label": "Open 2024 War Pick benchmark"
+        }
+      }
+    ],
     "dmg-1e-reference:c1d5cf24c5644133": [
       {
         "label": "D&D 2024 adaptation · Net of Entrapment",

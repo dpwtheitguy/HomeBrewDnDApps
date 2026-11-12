@@ -1740,6 +1740,23 @@ def main():
                         && demon.includes("1d8 Slashing") && demon.includes("Unarmed Strikes")
                         && padded.includes("AttunementRequired") && padded.includes("vulnerability to the other two");
                 })()''',
+                'Legacy military picks and masterwork weapons show playable equipment rules': '''(async () => {
+                    const cases = [
+                        ["dmg-1e-reference:c09325a7645ffe53", ["1d8 Piercing", "Strength modifier + 1", "Table III.H"]],
+                        ["dmg-2e-reference:026d051b073114b5", ["War Pick", "separately determined enhancement"]],
+                        ["dmg-35-reference:13e0a18b0fed4bf5", ["1d8 Slashing (axe) or 1d6 Piercing (spike)", "Bonus Action"]],
+                        ["dmg-35-reference:d445c700bdf6e407", ["1d4 Slashing", "Finesse, Light", "MasteryNick"]],
+                        ["dmg-35-reference:6300be7ebfae1aa4", ["2d4 Piercing", "10 feet", "forgo hit damage"]],
+                        ["dmg-35-reference:dfc0f41a24ce7cf1", ["1d6 Piercing", "20/60 feet thrown", "no extra attack bonus"]],
+                        ["dmg-35-reference:4a1b67cf5b664fd4", ["No direct damage", "DC 10 Strength", "AC 10, 5 Hit Points"]],
+                    ];
+                    for (const [id, terms] of cases) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!["D&D 2024 adaptation", ...terms].every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'AD&D nets and concealed or returning weapons show their distinct rules': '''(async () => {
                     const cases = [
                         ["dmg-1e-reference:c1d5cf24c5644133", ["10-foot square", "5-foot cube", "DC 20 Strength", "7500 gp"]],
