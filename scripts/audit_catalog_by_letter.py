@@ -12,6 +12,8 @@ from collections import Counter
 from decimal import Decimal
 from pathlib import Path
 
+from audit_pending_rules import marker_fields
+
 CATALOG = Path(__file__).resolve().parents[1] / 'catalog'
 COMBAT = {'weapon', 'armor', 'shield', 'ammunition'}
 AMMO_NAME = re.compile(r'\b(?:arrows|bolts|bullets|ammunition)\b', re.I)
@@ -64,6 +66,70 @@ def common_findings(item, weapon, price, native):
     return findings
 
 
+PLACEHOLDER = re.compile(
+    r'legacy pending|2024 compatibility or adaptation is pending|'
+    r'(?:the )?catalog has a reference for this entry|provisional profile|'
+    r'(?:gameplay|combat|item|tabletop) rules (?:are |remain )?pending',
+    re.I,
+)
+NON_ATTACK_EVIDENCE = {'documented-reference', 'reference-object', 'launcher-dependent',
+                       'upgrade-dependent', 'verified-2024-adventuring-gear'}
+
+
+def rule_findings(item, weapon, armor, details, curated):
+    findings = []
+    if item['type'] not in COMBAT:
+        return findings
+    evidence = weapon.get('evidence') or armor.get('evidence')
+    presentation = item.get('presentation') or {}
+    pending = marker_fields(item)
+    pending.extend(
+        f'presentation.{field}' for field in ('tldr', 'details')
+        if PLACEHOLDER.search(presentation.get(field) or '')
+    )
+    if pending:
+        findings.append('placeholder text: ' + ', '.join(pending))
+    if evidence == 'improvised-fallback':
+        findings.append('provisional rules: verify item identity and attack against source')
+    if weapon and evidence not in NON_ATTACK_EVIDENCE:
+        missing = [field for field in ('damage', 'range') if not weapon.get(field)]
+        if missing:
+            findings.append('weapon fields: missing ' + ', '.join(missing))
+    role = armor.get('role')
+    if role in {'worn armor', 'shield'}:
+        ac_field = 'armor_class_bonus' if role == 'shield' else 'armor_class'
+        if not armor.get(ac_field):
+            findings.append('armor fields: missing ' + ac_field.replace('_', ' '))
+    if item.get('magic') is True and (weapon or armor) and evidence in {
+        'base-weapon-draft', 'improvised-fallback', 'reference-only',
+    }:
+        effect_labels = {'Special powers', 'Effects', 'Attack bonus', 'Armor class bonus'}
+        has_curated_rule = any(
+            entry.get('fields', {}).keys() & effect_labels
+            for entry in curated
+        )
+        if not (armor.get('effects') or armor.get('enhancement_bonus') or weapon.get('attack_bonus')
+                or has_curated_rule or details.get('special_powers') in {'source-field', 'draft', '2024-guideline'}):
+            findings.append('magic rules: verify enhancement or item-specific effect')
+    return findings
+
+
+def bg3_effect_findings(record, effects, curated):
+    if any(entry.get('status') == 'source-reported' for entry in curated):
+        return []
+    titles = {title for variant in record.get('variants', []) for title in variant.get('effects', [])}
+    findings = []
+    for title in sorted(titles):
+        effect = effects.get(title)
+        if not effect:
+            findings.append(f'BG3 effect: source link only for {title}')
+        elif not any(effect.get('facts', {}).values()) and not (
+            effect.get('stats', {}).keys() - {'type', 'cost', 'recharge', 'level'}
+        ):
+            findings.append(f'BG3 effect: no mechanic recorded for {title}')
+    return findings
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--start', default='Z', type=str.upper, choices=string.ascii_uppercase)
@@ -81,6 +147,10 @@ def main():
     details = read_index(reports / 'item-detail-audit.csv')
     prices = json.loads((catalog / 'supplements/item-prices.json').read_text())['records']
     native = json.loads((catalog / 'supplements/diablo-2-base-weapon-facts.json').read_text())['records']
+    curated = json.loads((catalog / 'supplements/curated-item-details.json').read_text())['records']
+    bg3 = json.loads((catalog / 'supplements/bg3-item-rules.json').read_text())
+    bg3_armor = json.loads((catalog / 'supplements/bg3-armor-effects.json').read_text())
+    bg3_effects = {**bg3['effects'], **bg3_armor['effects']}
     counts = Counter()
     writer = csv.writer(sys.stdout)
     writer.writerow(('letter', 'id', 'name', 'type', 'source_id', 'source_url', 'source_locator',
@@ -96,6 +166,10 @@ def main():
             item_id, kind = item['id'], item['type']
             weapon, protection = weapons.get(item_id, {}), armor.get(item_id, {})
             findings = common_findings(item, weapon, prices.get(item_id, {}), native.get(item_id, {}))
+            findings.extend(rule_findings(item, weapon, protection, details.get(item_id, {}),
+                                         curated.get(item_id, [])))
+            findings.extend(bg3_effect_findings(bg3['records'].get(item_id, {}), bg3_effects,
+                                               curated.get(item_id, [])))
             for report in (weapon, protection):
                 findings.extend(report[key] for key in ('schema_errors', 'review_gaps') if report.get(key))
             if item_id in ammo:
