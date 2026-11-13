@@ -117,6 +117,8 @@ def bg3_fields(entry, features, availability, errors, gaps):
                     gaps.append(f'BG3 feature lacks a structured rule record: {title}')
                 elif not any(feature.get(key) for key in ('summary', 'facts', 'extra_damage')):
                     gaps.append(f'BG3 feature has no in-app rules: {title}')
+                elif feature.get('extra_damage') and not (feature.get('facts') or feature.get('summary')):
+                    gaps.append(f'BG3 feature lists damage without application rules: {title}')
         for key, value in (
             ('damage', stats.get('damage')), ('damage_type', stats.get('damage type')),
             ('training', stats.get('category') or restriction), ('attack_bonus', stats.get('enchantment')),

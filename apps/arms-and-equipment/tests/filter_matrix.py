@@ -4431,6 +4431,15 @@ def main():
                     dismissInspection(false);
                     return !hasArt;
                 })()''',
+                'BG3 Nyrulna shows its throw trigger, return, and blast radius': '''(async () => {
+                    inspect("bg3-wiki:8079", grid.firstElementChild);
+                    await Promise.all([itemDetails, bg3WeaponRules]);
+                    const effect = Array.from(inspection.querySelectorAll(".weapon-feature")).find(detail =>
+                        detail.querySelector("summary").textContent === "Zephyr Connection");
+                    return effect && ["On a throw", "returns to your hand", "3d4 Thunder", "20 ft radius"]
+                        .every(value => effect.textContent.includes(value))
+                        && effect.querySelector("a").href.endsWith("oldid=431595");
+                })()''',
                 'BG3 Ironwood Club shows its native Shillelagh trigger': '''(async () => {
                     inspect("bg3-wiki:10547", grid.firstElementChild);
                     await Promise.all([itemDetails, bg3WeaponRules]);

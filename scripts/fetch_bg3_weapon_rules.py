@@ -51,8 +51,8 @@ INLINE_FEATURES = {
 }
 
 
-# Condition pages whose descriptions fall outside the structured template fields.
-REVIEWED_CONDITIONS = {
+# Revision-pinned summaries for mechanics that the structured fields omit.
+REVIEWED_FEATURE_SUMMARIES = {
     'Momentum': (444042,
         'Gain 5 ft of movement speed per remaining turn, up to five turns. Reapplication adds duration and it ticks down at the end of each turn. In the current game, Slowed ends it early.'),
     'Moonshield': (444051,
@@ -61,6 +61,56 @@ REVIEWED_CONDITIONS = {
         'The affected creature becomes hostile to nearby creatures. The game AI takes control of affected party members.'),
     'Ironwood Harmony': (443867,
         'The club deals an extra 1d4 Bludgeoning damage while imbued with Shillelagh.'),
+    "Ambusher's Streak": (432055,
+        'During combat, add 1d6 Necrotic against a creature that has yet to take its first turn.'),
+    'Arcane Vampirism': (432068,
+        'Regain 1d4 HP when a target fails a save against your spell, once per cast even if several targets fail. The game can also trigger this on attacks with a save component.'),
+    'Break the Unbroken': (432140,
+        'Add 1d8 Piercing against a target at full HP.'),
+    'Break the Unbroken (1d10)': (432141,
+        'Add 1d10 Piercing against a target at full HP.'),
+    'Burned Alive': (432149,
+        "Against a Burning target, add 1d4 magical damage of the weapon's damage type."),
+    'Chaos': (432164,
+        'Restore 1d6 HP for each instance of damage the weapon deals to a creature. Separate damage types or targets can each heal you. Damaging objects and triggering other on-heal effects are excluded.'),
+    'Deathly Slumber': (432250,
+        'Add 1d4 Necrotic against Sleeping or Knocked Out creatures.'),
+    'Dwarven Thrower (passive feature)': (432318,
+        'A dwarf who throws the hammer adds 1d8 Bludgeoning, increased to 2d8 against Large, Huge, or Gargantuan targets. A dwarf disguise applied before equipping also works.'),
+    'Githborn Psionic Weapon': (432592,
+        'A githyanki wielder adds 1d4 Psychic. A githyanki disguise applied before equipping also works.'),
+    'Githborn Psionic Weapon (1d6)': (432593,
+        'A githyanki wielder adds 1d6 Psychic.'),
+    'Grip of Shadows': (432618,
+        'Add 1d6 Necrotic if the target is out of sunlight.'),
+    'Heart of Ice': (432626,
+        'Whenever the wielder deals Cold damage, add 1 Cold damage.'),
+    "It's All In The Wrists": (432720,
+        'The weapon gains Thrown and adds 1d4 Thunder when thrown.'),
+    'Poisonous Synergy': (432957,
+        'While concentrating, add 1d4 Poison to your melee weapon attacks.'),
+    'Prey Upon the Weak': (432964,
+        'Add 1d4 Piercing against targets at half their maximum HP or less.'),
+    'Psychic Steel Virtuoso': (432985,
+        'Add 1d8 Psychic when attacking with Advantage.'),
+    'Redvein Savagery': (433009,
+        'An attack with this weapon and Advantage adds 7 Piercing. On Tactician and lower, a main-hand melee Sneak Attack can apply that bonus twice.'),
+    'Relentless Revenge': (433017,
+        'Add 1d4 Slashing while the wielder is at half their maximum HP or less.'),
+    'Scourge of Pests': (433079,
+        'Add 1d6 Fire against Plants, Myconids, and Small creatures. The game tooltip lists insects in place of Myconids.'),
+    'Shockwave': (433136,
+        'Toggle this passive to deal 1d4 Thunder in a 10 ft radius at the landing point after Jumping.'),
+    'Slay the Wicked (Bludgeoning)': (433155,
+        'Add 1d6 Bludgeoning against Fiends and Undead.'),
+    'Sting The Helpless': (433291,
+        'A drow wielder adds 1d4 Poison against Restrained targets.'),
+    'Throwing: Lightning Damage': (433349,
+        'Throw this weapon at a target to deal 1d4 Lightning, even if the throw misses.'),
+    'Willing Whip': (433452,
+        'Gain Necrotic Resistance. Each damage instance triggers 1d6 Necrotic in a 7 ft radius centered on the target, affecting allies and the wielder as well.'),
+    'Zephyr Connection': (431595,
+        'On a throw, the trident returns to your hand and deals 3d4 Thunder in a 20 ft radius centered on the target. You cannot be forced to drop the trident.'),
 }
 
 
@@ -154,7 +204,7 @@ def main():
                 entry = {'title': title, 'revision': revision['revid'], 'facts': facts, 'extra_damage': extra_damage}
                 if title in summaries:
                     entry['summary'] = summaries[title]
-                reviewed = REVIEWED_CONDITIONS.get(title)
+                reviewed = REVIEWED_FEATURE_SUMMARIES.get(title)
                 if reviewed and revision['revid'] == reviewed[0]:
                     entry.setdefault('summary', reviewed[1])
                 features[title] = entry
