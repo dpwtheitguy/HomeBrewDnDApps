@@ -1,6 +1,298 @@
 {
   "schema_version": 1,
   "records": {
+    "hollow-world-local:0dbff0ea40c7239f": [
+      {
+        "label": "Published D&D 2024 equipment comparison · Traldar Bronze Panoply",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "enhancement_bonus": 0,
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 Plate Armor"
+        },
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "None",
+          "Special powers": "None. Use the standard equipment rules for the linked armor or shield.",
+          "Conversion notes": "The bronze cuirass, helmet, greaves and vambraces use the source’s plate mail equivalence.",
+          "Source locator": "Hollow World Campaign Set, Player’s Guide, Traldar, Weapons and Armor, printed p. 61 (supplied PDF p. 63)."
+        },
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      }
+    ],
+    "hollow-world-local:6cf6b2f0a6096a56": [
+      {
+        "label": "Published D&D 2024 equipment comparison · Jennite Heavy Scale Outfit",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "enhancement_bonus": 0,
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail",
+          "label": "Open 2024 Chain Mail"
+        },
+        "fields": {
+          "Armor class": "16",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "None",
+          "Special powers": "None. Use the standard equipment rules for the linked armor or shield.",
+          "Conversion notes": "The scale tunic, pants and hood use Chain Mail because the source gives them the weight and protection of chain mail.",
+          "Source locator": "Hollow World Campaign Set, Player’s Guide, Jennites, printed p. 38 (supplied PDF p. 40)."
+        },
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      }
+    ],
+    "hollow-world-local:7760bd6cb92966fa": [
+      {
+        "label": "Published D&D 2024 equipment comparison · Beastmen Tusked Shield",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "enhancement_bonus": 0,
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield training",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "None",
+          "Special powers": "None. Use the standard equipment rules for the linked armor or shield.",
+          "Conversion notes": "The Beastmen’s tusks are decorative in this profile. The cultural entry gives no separate attack.",
+          "Source locator": "Hollow World Campaign Set, Player’s Guide, Beastmen, printed p. 29 (supplied PDF p. 31)."
+        },
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      }
+    ],
+    "hollow-world-local:7f82a5798e39ab25": [
+      {
+        "label": "Published D&D 2024 equipment comparison · Antalian Horned Shield",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "enhancement_bonus": 0,
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield training",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "None",
+          "Special powers": "None. Use the standard equipment rules for the linked armor or shield.",
+          "Conversion notes": "The Antalian cultural entry lists horned shields without a distinct bonus.",
+          "Source locator": "Hollow World Campaign Set, Player’s Guide, Antalians, printed p. 23 (supplied PDF p. 25)."
+        },
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      }
+    ],
+    "hollow-world-local:8394353fe0987047": [
+      {
+        "label": "Published D&D 2024 equipment comparison · Milenian Painted Round Shield",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "enhancement_bonus": 0,
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield training",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "None",
+          "Special powers": "None. Use the standard equipment rules for the linked armor or shield.",
+          "Conversion notes": "The painted monster face or other design is heraldic decoration.",
+          "Source locator": "Hollow World Campaign Set, Player’s Guide, Milenians, Weapons and Armor, printed p. 51 (supplied PDF p. 53)."
+        },
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      }
+    ],
+    "hollow-world-local:88e04f8c5b31a01a": [
+      {
+        "label": "Published D&D 2024 equipment comparison · Azcan Tlachtli Hide Cuirass",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "enhancement_bonus": 0,
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor",
+          "label": "Open 2024 Leather Armor"
+        },
+        "fields": {
+          "Armor class": "11 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "None",
+          "Special powers": "None. Use the standard equipment rules for the linked armor or shield.",
+          "Conversion notes": "The game equipment list treats the hanging hide cuirass as leather armor.",
+          "Source locator": "Hollow World Campaign Set, Dungeon Master’s Sourcebook, Tlachtli, printed p. 28 (supplied PDF p. 96)."
+        },
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      }
+    ],
+    "hollow-world-local:950804e5ff29a302": [
+      {
+        "label": "Published D&D 2024 equipment comparison · Antalian Reindeer-Hide Outdoor Outfit",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "enhancement_bonus": 0,
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor",
+          "label": "Open 2024 Leather Armor"
+        },
+        "fields": {
+          "Armor class": "11 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "None",
+          "Special powers": "None. Use the standard equipment rules for the linked armor or shield.",
+          "Conversion notes": "The complete outdoor outfit uses Leather Armor, as the source specifies.",
+          "Source locator": "Hollow World Campaign Set, Player’s Guide, Antalians, printed p. 22 (supplied PDF p. 24)."
+        },
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      }
+    ],
+    "hollow-world-local:cce964af40553087": [
+      {
+        "label": "Published D&D 2024 equipment comparison · Nithian Rectangular Shield",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "enhancement_bonus": 0,
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield training",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "None",
+          "Special powers": "None. Use the standard equipment rules for the linked armor or shield.",
+          "Conversion notes": "The rectangular shape has the normal Shield bonus.",
+          "Source locator": "Hollow World Campaign Set, Player’s Guide, Nithians, printed p. 54 (supplied PDF p. 56)."
+        },
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      }
+    ],
+    "hollow-world-local:cd29643d4793f5b5": [
+      {
+        "label": "Published D&D 2024 equipment comparison · Milenian Boiled-Leather Panoply",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "enhancement_bonus": 0,
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scale-mail",
+          "label": "Open 2024 Scale Mail"
+        },
+        "fields": {
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "45 lb",
+          "Attunement": "None",
+          "Special powers": "None. Use the standard equipment rules for the linked armor or shield.",
+          "Conversion notes": "The source explicitly equates the boiled-leather harness with scale mail.",
+          "Source locator": "Hollow World Campaign Set, Player’s Guide, Milenians, Weapons and Armor, printed p. 51 (supplied PDF p. 53)."
+        },
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      }
+    ],
+    "hollow-world-local:20458ba006580d06": [
+      {
+        "label": "Armor style · Kubitt Black Heraldic Armor Ensemble",
+        "status": "source-reported",
+        "profile_kind": "documented-armor-accessory",
+        "fields": {
+          "Use as armor": "Choose the actual suit of armor and any shield separately. Use their ordinary AC, training, and weight.",
+          "Special powers": "The black finish and personal or family heraldry add no separate protection or Stealth benefit.",
+          "Conversion notes": "The source describes a regional style applied to multiple equipment types, without specifying a single armor chassis.",
+          "Source locator": "Hollow World Campaign Set, Player’s Guide, Kubitts, printed p. 43 (supplied PDF p. 45)."
+        },
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      }
+    ],
+    "hollow-world-local:63aad53fa6b0f9c6": [
+      {
+        "label": "D&D 2024 adaptation · Glowing Armor of the Shining One",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "enhancement_bonus": 0,
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 Plate Armor"
+        },
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Special powers": "While wearing the armor, you can turn its glow on or off as a Bonus Action. It sheds Bright Light for 20 feet and Dim Light for another 20 feet. The armor has 3 charges and regains 1d3 expended charges at dawn. As a Magic action spend 1 charge to flare. Each other creature of your choice within 15 feet that can see the armor makes a DC 17 Constitution save or is Blinded until the end of your next turn.",
+          "Conversion notes": "The source describes a blinding flare and a glowing plate-clad manifestation. The chosen plate chassis, save, radius, and charges are authored.",
+          "Rarity": "Artifact",
+          "Source locator": "Hollow World Campaign Set, Dungeon Master’s Sourcebook, The Shining One, printed p. 115 (supplied PDF p. 183)."
+        },
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      }
+    ],
+    "hollow-world-local:85e1ceb23ab3243e": [
+      {
+        "label": "D&D 2024 adaptation · Shield of Alphatia",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "enhancement_bonus": 0,
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield training",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Special powers": "Once per dawn, while wielding the shield, use a Magic action to enter a sanctuary for up to 1 minute with Concentration. You are immune to all damage. You cannot deal damage to another creature, including through an effect you created before activating the shield. The effect ends early if you stop wielding the shield. The shield otherwise provides its normal AC bonus.",
+          "Conversion notes": "The original artifact prevents harm in both directions. The one-minute limit, action cost, Concentration, and dawn recharge are authored for encounter play.",
+          "Rarity": "Artifact",
+          "Source locator": "Hollow World Campaign Set, Dungeon Master’s Sourcebook, Individual Immortals, Alphatia, printed p. 97 (supplied PDF p. 165)."
+        },
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      }
+    ],
     "master-of-the-desert-nomads-local:edee59871552856f": [
       {
         "label": "Published 2024 counterpart · Guilliame’s +1 Mace",

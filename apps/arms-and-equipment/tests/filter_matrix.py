@@ -1871,6 +1871,28 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Hollow World armor distinguishes regional profiles and artifacts': '''(async () => {
+                    for (const [id, term] of [
+                        ["0dbff0ea40c7239f", "Armor class18"],
+                        ["6cf6b2f0a6096a56", "Armor class16"],
+                        ["7760bd6cb92966fa", "Armor class bonus+2"],
+                        ["7f82a5798e39ab25", "Armor class bonus+2"],
+                        ["8394353fe0987047", "Armor class bonus+2"],
+                        ["88e04f8c5b31a01a", "Armor class11 + Dex modifier"],
+                        ["950804e5ff29a302", "Armor class11 + Dex modifier"],
+                        ["cce964af40553087", "Armor class bonus+2"],
+                        ["cd29643d4793f5b5", "Armor class14 + Dex modifier (max +2)"],
+                        ["20458ba006580d06", "heraldry add no separate protection"],
+                        ["63aad53fa6b0f9c6", "DC 17 Constitution"],
+                        ["85e1ceb23ab3243e", "You cannot deal damage"],
+                    ]) {
+                        inspect("hollow-world-local:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!inspection.textContent.includes(term)) throw new Error(id + " missing " + term);
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'X4 weapons show listed bonuses and distinct powers': '''(async () => {
                     for (const [id, term] of [
                         ["abb37162cd2abd9d", "extra 2d6 Force"],
