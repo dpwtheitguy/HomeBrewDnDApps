@@ -213,6 +213,17 @@ function inspect(id, trigger, shopOffer) {
     inspection.appendChild(element("h2", item.name));
     const classification = [pretty(item.type), pretty(item.rarity), editionNames[item.ruleset] || pretty(item.ruleset)].filter(Boolean).join(" · ");
     inspection.appendChild(element("p", classification, "meta"));
+    if (item.ruleset === "bg3") {
+        const references = (item.image || {}).bg3_art_references || [];
+        const artwork = references.find(ref => ref.kind === "controller icon")
+            || references.find(ref => ref.kind === "image") || references[0];
+        if (artwork) {
+            const row = element("p", "", "meta");
+            row.appendChild(sourceLink("https://bg3.wiki/wiki/File:" +
+                encodeURIComponent(artwork.file_title.slice("File:".length).replace(/ /g, "_")), "View BG3 item artwork"));
+            inspection.appendChild(row);
+        }
+    }
     const mechanics = item.mechanics || {};
     const weapon = mechanics.weapon || {};
     const fields = mechanics.source_fields || {};

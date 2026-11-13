@@ -4403,6 +4403,18 @@ def main():
                     return /1d4 piercing/i.test(text) && text.includes("20/60 ft") && text.includes("Nick")
                         && !text.includes("provisional profile");
                 })()''',
+                'BG3 artwork opens from inspection and catalog tiles retain their icons': '''(async () => {
+                    inspect("bg3-wiki:7882", grid.firstElementChild);
+                    await itemDetails;
+                    const art = Array.from(inspection.querySelectorAll("a"))
+                        .find(link => link.textContent === "View BG3 item artwork");
+                    if (!art || !art.href.endsWith("/File:The_Blood_of_Lathander_Unfaded.png")
+                        || !inspection.querySelector(".inspect-top img").getAttribute("src").includes("images/types/")) return false;
+                    inspect("open5e-srd-2024:srd-2024_dagger", grid.firstElementChild);
+                    const hasArt = inspection.textContent.includes("View BG3 item artwork");
+                    dismissInspection(false);
+                    return !hasArt;
+                })()''',
                 'BG3 Bloodthirst shows native damage and ability links': '''(async () => {
                     inspect("bg3-wiki:9688", grid.firstElementChild);
                     await Promise.all([itemDetails, bg3WeaponRules]);
