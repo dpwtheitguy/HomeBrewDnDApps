@@ -1871,6 +1871,22 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Savage Coast weapons show conditional bonuses and artifact breath': '''(async () => {
+                    for (const [id, term] of [
+                        ["25473eed668cf2c8", "gold finish is decorative"],
+                        ["749598bb8192b51b", "+3 against a lycanthrope"],
+                        ["36e86a907ef93fc5", "30/150 feet"],
+                        ["fee31c3baf91a218", "60/180 feet"],
+                        ["3f35ff462bc1957d", "6d12 + 3 Fire"],
+                        ["e8ebf5ee69f609c6", "artifact use this power on its own"],
+                    ]) {
+                        inspect("savage-coast-local:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!inspection.textContent.includes(term)) throw new Error(id + " missing " + term);
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Savage Coast regional weapons preserve combat distinctions': '''(async () => {
                     for (const [id, term] of [
                         ["7174ad037af19bd9", "10-foot-reach"],

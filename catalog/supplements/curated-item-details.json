@@ -1,6 +1,172 @@
 {
   "schema_version": 1,
   "records": {
+    "savage-coast-local:25473eed668cf2c8": [
+      {
+        "label": "Published 2024 equipment comparison · Slagovich City Guard Gold Halberd",
+        "status": "published-reference",
+        "source": "https://www.tsrarchive.com/add/add-red.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_halberd",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Cleave",
+          "Activation": "Make a weapon attack.",
+          "Weight": "6 lb using the 2024 profile",
+          "Special powers": "The gold finish identifies Slagovich’s city guard. No enchantment or additional combat effect is described.",
+          "Source locator": "Savage Coast Campaign Book, Slagovich, p. 9 (supplied PDF p. 141).",
+          "Conversion notes": "Uses the published 2024 Halberd profile. The gold finish is decorative."
+        }
+      }
+    ],
+    "savage-coast-local:749598bb8192b51b": [
+      {
+        "label": "D&D 2024 adaptation · Sword +1, +3 Against Lycanthropes and Shapechangers",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/TSR2521-SCS2.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + the applicable enhancement.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + the applicable enhancement.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Activation": "Make a weapon attack.",
+          "Special powers": "The enhancement to attack and damage is +1 normally or +3 against a lycanthrope or a creature with a Shapechanger trait or tag, regardless of its current form. These bonuses do not stack.",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Weight": "3 lb",
+          "Source locator": "Savage Coast Campaign Book, Aranea, p. 7 (supplied PDF p. 8).",
+          "Conversion notes": "Uses a Longsword because the source does not specify the sword type. Preserves the source’s conditional enhancement."
+        },
+        "appraise_as_magic_weapon": true
+      }
+    ],
+    "savage-coast-local:36e86a907ef93fc5": [
+      {
+        "label": "D&D 2024 adaptation · Wheellock Belt Pistol",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/TSR2521-SCS2.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_pistol",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d8 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "30/150 feet",
+          "Properties": "Ammunition, Loading",
+          "Mastery": "Vex",
+          "Activation": "Make a weapon attack.",
+          "Weight": "3 lb",
+          "Ammunition": "Spend one unit of ammunition per attack.",
+          "Special powers": "The weapon only fires inside the Savage Coast’s vermeil-marked Haze. Use normal armor, Critical Hit, and cover rules.",
+          "Source locator": "Savage Coast Campaign Book, Weapon Descriptions, p. 119 (supplied PDF p. 120).",
+          "Conversion notes": "Uses the source damage and converts the outer distance bands from tens of yards to feet. Uses 2024 Loading and Vex in place of the legacy rate of fire and attack modifiers."
+        }
+      }
+    ],
+    "savage-coast-local:fee31c3baf91a218": [
+      {
+        "label": "D&D 2024 adaptation · Wheellock Horse Pistol",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/TSR2521-SCS2.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_pistol",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d10 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "60/180 feet",
+          "Properties": "Ammunition, Loading",
+          "Mastery": "Vex",
+          "Activation": "Make a weapon attack.",
+          "Weight": "4 lb",
+          "Ammunition": "Spend one unit of ammunition per attack.",
+          "Special powers": "The weapon only fires inside the Savage Coast’s vermeil-marked Haze. Use normal armor, Critical Hit, and cover rules.",
+          "Source locator": "Savage Coast Campaign Book, Weapon Descriptions, p. 119 (supplied PDF p. 120).",
+          "Conversion notes": "Uses the source damage and converts the outer distance bands from tens of yards to feet. Uses 2024 Loading and Vex in place of the legacy rate of fire and attack modifiers."
+        }
+      }
+    ],
+    "savage-coast-local:3f35ff462bc1957d": [
+      {
+        "label": "D&D 2024 adaptation · Thunder Dragon",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/TSR2521-SCS2.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_pistol",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d10 Piercing + Dexterity modifier when fired. In melee, 1d4 Bludgeoning + Strength modifier + 3.",
+          "Attack bonus": "Add +3 to the attack roll in either mode. Add Dexterity for ranged attacks or Strength for melee attacks, plus Proficiency Bonus when proficient with the Pistol or Club respectively.",
+          "Range": "30/90 feet ranged or 5 feet melee",
+          "Properties": "Ammunition, Loading",
+          "Mastery": "Vex (ranged), Slow (melee)",
+          "Activation": "Make a Pistol attack, make a Club attack with the pommel, or use the listed breath power.",
+          "Attunement": "Required",
+          "Rarity": "Artifact",
+          "While carried": "The artifact and its attuned bearer are under Nondetection. The artifact communicates telepathically, has Intelligence 15, and never misfires. Shots expend ammunition without draining cinnabryl.",
+          "Dragon breath": "Three times per dawn, release fire in a 30-foot Cone. Each creature in the area makes a DC 17 Dexterity save, taking 6d12 + 3 Fire damage on failure or half on success. Unattended flammable objects in the area ignite. While holding it, speak the command as a Magic action. The artifact must consent.",
+          "Sentience": "Chaotic Good. The source suggests it may draw the Howling Dragon toward it.",
+          "Source locator": "Savage Coast Campaign Book, Magic Items, p. 126 (supplied PDF p. 127).",
+          "Conversion notes": "Uses a 2024 Pistol and Club as the attack bases. The save DC, standard Cone geometry, attunement, and action timing are authored. Retains the source damage dice and daily breath limit."
+        }
+      }
+    ],
+    "savage-coast-local:e8ebf5ee69f609c6": [
+      {
+        "label": "D&D 2024 adaptation · Howling Dragon",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/TSR2521-SCS2.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_pistol",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d10 Piercing + Dexterity modifier when fired. In melee, 1d4 Bludgeoning + Strength modifier + 3.",
+          "Attack bonus": "Add +3 to the attack roll in either mode. Add Dexterity for ranged attacks or Strength for melee attacks, plus Proficiency Bonus when proficient with the Pistol or Club respectively.",
+          "Range": "30/90 feet ranged or 5 feet melee",
+          "Properties": "Ammunition, Loading",
+          "Mastery": "Vex (ranged), Slow (melee)",
+          "Activation": "Make a Pistol attack, make a Club attack with the pommel, or use the listed breath power.",
+          "Attunement": "Required",
+          "Rarity": "Artifact",
+          "While carried": "The artifact and its attuned bearer are under Nondetection. The artifact communicates telepathically, has Intelligence 15, and never misfires. Shots expend ammunition without draining cinnabryl.",
+          "Dragon breath": "Three times per dawn, release fire in a 30-foot Cone. Each creature in the area makes a DC 17 Dexterity save, taking 6d12 + 3 Fire damage on failure or half on success. Unattended flammable objects in the area ignite. The DM can have the artifact use this power on its own, originating the Cone from its space, once on an Initiative count of 20 per round. It spends one of the same three uses.",
+          "Sentience": "Chaotic Evil. The existence of this counterpart is a rumor in the source.",
+          "Source locator": "Savage Coast Campaign Book, Magic Items, p. 127 (supplied PDF p. 128).",
+          "Conversion notes": "Uses a 2024 Pistol and Club as the attack bases. The save DC, standard Cone geometry, attunement, and action timing are authored. Retains the source damage dice and daily breath limit."
+        }
+      }
+    ],
     "savage-coast-local:7174ad037af19bd9": [
       {
         "label": "D&D 2024 adaptation · Bok",
