@@ -4424,6 +4424,20 @@ def main():
                     }
                     return true;
                 })()''',
+                'Zingaran Epic weapons preserve grip and distinct riders': '''(async () => {
+                    for (const [id, terms] of [
+                        ["dcf2cb622bd34a95", ["51/61", "Graze", "Speed is reduced"]],
+                        ["4c7a1fb9ab06fe88", ["51/56", "Vex", "1d4 Piercing", "four Shaped Wood"]],
+                        ["4ff17d5691607373", ["41/49", "10 ft melee", "Open 2024 Pike"]],
+                        ["29e0944532298cd1", ["44/48", "Shieldsmash", "loses the shield’s AC bonus"]],
+                    ]) {
+                        inspect("conan-exiles-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + ": " + missing.join(", "));
+                    }
+                    return true;
+                })()''',
                 'Epic Zingaran shield shows +2 AC and its Shieldsmash conversion': '''(async () => {
                     inspect("conan-exiles-reference:d8f8ae99e4c06788", grid.firstElementChild);
                     await itemDetails;

@@ -1,6 +1,162 @@
 {
   "schema_version": 1,
   "records": {
+    "conan-exiles-reference:dcf2cb622bd34a95": [
+      {
+        "label": "2024 adaptation · Zingaran Mercenary Greatsword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://conanexiles.fandom.com/wiki/Zingaran_Mercenary_Greatsword_(Epic)",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 Greatsword"
+        },
+        "appraise_as_magic_weapon": true,
+        "fields": {
+          "Source locator": "Conan Exiles Epic item 574.",
+          "Damage": "2d6 Slashing + Strength modifier",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 ft melee",
+          "Category": "Martial melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Graze",
+          "Weight": "6 lb.",
+          "Rarity": "Uncommon",
+          "Attunement": "Required.",
+          "Activation": "Make a melee weapon attack.",
+          "Special powers": "Once per Short or Long Rest, when you hit a creature with this weapon, it must make a DC 13 Constitution save. On a failure, apply the following effect. The target’s Speed is reduced by 10 ft until the start of your next turn.",
+          "Conversion notes": "Uses the 2024 Greatsword baseline. The limited rider translates the game effects. Epic is the native grade."
+        }
+      },
+      {
+        "label": "Conan Exiles · Epic Zingaran Mercenary Greatsword",
+        "status": "source-reported",
+        "source": "https://conanexiles.fandom.com/wiki/Zingaran_Mercenary_Greatsword_(Epic)",
+        "fields": {
+          "Source locator": "Game item 574 (Epic).",
+          "Damage and effects": "Native light/heavy damage and reported effects: 51/61; Cripple.",
+          "Crafting": "The Epic recipe lists one Weapon Handle and 30 Star Metal Bars."
+        }
+      }
+    ],
+    "conan-exiles-reference:4c7a1fb9ab06fe88": [
+      {
+        "label": "2024 adaptation · Zingaran Mercenary Rapier",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://conanexiles.fandom.com/wiki/Zingaran_Mercenary_Rapier_(Epic)",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_rapier",
+          "label": "Open 2024 Rapier"
+        },
+        "appraise_as_magic_weapon": true,
+        "fields": {
+          "Source locator": "Conan Exiles Epic item 537.",
+          "Damage": "1d8 Piercing + Strength or Dexterity modifier",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 ft melee",
+          "Category": "Martial melee",
+          "Properties": "Finesse",
+          "Mastery": "Vex",
+          "Weight": "2 lb.",
+          "Rarity": "Uncommon",
+          "Attunement": "Required.",
+          "Activation": "Make a melee weapon attack.",
+          "Special powers": "Once per Short or Long Rest, when you hit a creature with this weapon, it must make a DC 13 Constitution save. On a failure, apply the following effect. The target takes 1d4 Piercing damage at the start of its next turn.",
+          "Conversion notes": "Uses the 2024 Rapier baseline. The limited rider translates the game effects. Epic is the native grade."
+        }
+      },
+      {
+        "label": "Conan Exiles · Epic Zingaran Mercenary Rapier",
+        "status": "source-reported",
+        "source": "https://conanexiles.fandom.com/wiki/Zingaran_Mercenary_Rapier_(Epic)",
+        "fields": {
+          "Source locator": "Game item 537 (Epic).",
+          "Damage and effects": "Native light/heavy damage and reported effects: 51/56; Bleed.",
+          "Crafting": "The Epic recipe lists four Shaped Wood and 30 Hardened Steel Bars."
+        }
+      }
+    ],
+    "conan-exiles-reference:4ff17d5691607373": [
+      {
+        "label": "2024 adaptation · Zingaran Mercenary Spear",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://conanexiles.fandom.com/wiki/Zingaran_Mercenary_Spear_(Epic)",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_pike",
+          "label": "Open 2024 Pike"
+        },
+        "appraise_as_magic_weapon": true,
+        "fields": {
+          "Source locator": "Conan Exiles Epic item 588.",
+          "Damage": "1d10 Piercing + Strength modifier",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 ft melee",
+          "Category": "Martial melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Push",
+          "Weight": "18 lb.",
+          "Rarity": "Uncommon",
+          "Attunement": "Required.",
+          "Activation": "Make a melee weapon attack.",
+          "Special powers": "Once per Short or Long Rest, when you hit a creature with this weapon, it must make a DC 13 Constitution save. On a failure, apply the following effect. The target’s Speed is reduced by 10 ft until the start of your next turn and it takes 1d4 Piercing damage at the start of its next turn.",
+          "Conversion notes": "Uses the 2024 Pike baseline. The limited rider translates the game effects. Epic is the native grade."
+        }
+      },
+      {
+        "label": "Conan Exiles · Epic Zingaran Mercenary Spear",
+        "status": "source-reported",
+        "source": "https://conanexiles.fandom.com/wiki/Zingaran_Mercenary_Spear_(Epic)",
+        "fields": {
+          "Source locator": "Game item 588 (Epic).",
+          "Damage and effects": "Native light/heavy damage and reported effects: 41/49; Bleed, Cripple, Reach.",
+          "Crafting": "The Epic recipe lists one Weapon Handle and 30 Star Metal Bars."
+        }
+      }
+    ],
+    "conan-exiles-reference:29e0944532298cd1": [
+      {
+        "label": "2024 adaptation · Zingaran Mercenary War Axe",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://conanexiles.fandom.com/wiki/Zingaran_Mercenary_War_Axe_(Epic)",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_battleaxe",
+          "label": "Open 2024 Battleaxe"
+        },
+        "appraise_as_magic_weapon": true,
+        "fields": {
+          "Source locator": "Conan Exiles Epic item 572.",
+          "Damage": "1d8 Slashing + Strength modifier",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 ft melee",
+          "Category": "Martial melee",
+          "Properties": "One-handed",
+          "Mastery": "Topple",
+          "Weight": "4 lb.",
+          "Rarity": "Uncommon",
+          "Attunement": "Required.",
+          "Activation": "Make a melee weapon attack.",
+          "Special powers": "Once per Short or Long Rest, when you hit a creature with this weapon, it must make a DC 13 Constitution save. On a failure, apply the following effect. The target takes 1d4 Slashing damage at the start of its next turn and its Speed is reduced by 10 ft until the start of your next turn. If it is wielding a shield, it also loses the shield’s AC bonus against the next attack roll made against it before the start of your next turn.",
+          "Conversion notes": "Uses the 2024 Battleaxe baseline with Versatile removed to preserve the native one-handed restriction. The limited rider translates the game effects. Epic is the native grade."
+        }
+      },
+      {
+        "label": "Conan Exiles · Epic Zingaran Mercenary War Axe",
+        "status": "source-reported",
+        "source": "https://conanexiles.fandom.com/wiki/Zingaran_Mercenary_War_Axe_(Epic)",
+        "fields": {
+          "Source locator": "Game item 572 (Epic).",
+          "Damage and effects": "Native light/heavy damage and reported effects: 44/48; Bleed, Cripple, Shieldsmash.",
+          "Crafting": "The Epic recipe lists one Weapon Handle and 30 Star Metal Bars."
+        }
+      }
+    ],
     "conan-exiles-reference:f6959f1643c9ff9f": [
       {
         "label": "2024 adaptation · Zathite Daggers",
