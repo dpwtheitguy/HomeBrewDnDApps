@@ -4451,6 +4451,17 @@ def main():
                         "Shieldsmash", "Once per Short or Long Rest", "Open 2024 Shield"]
                         .every(value => inspection.textContent.includes(value));
                 })()''',
+                'Zunimassa armor distinguishes Breastplate from protective legwear': '''(async () => {
+                    inspect("diablo-3-reference:7bffa8a340366b08", grid.firstElementChild);
+                    await itemDetails;
+                    const marrow = inspection.textContent;
+                    inspect("diablo-3-reference:cd9caff08f1f69ba", grid.firstElementChild);
+                    await itemDetails;
+                    return ["397–471", "14 + Dex modifier (max +2)", "1d8 + your Proficiency Bonus", "Open 2024 Breastplate"]
+                        .every(term => marrow.includes(term))
+                        && ["397–471", "Worn legwear", "provides no AC formula or bonus", "Temporary Hit Points"]
+                            .every(term => inspection.textContent.includes(term));
+                })()''',
                 'Diablo III Zunimassa mojo shows a focus and its summon reaction': '''(async () => {
                     const id = "diablo-3-reference:8f39d1ce5c07ea1c";
                     inspect(id, grid.firstElementChild);

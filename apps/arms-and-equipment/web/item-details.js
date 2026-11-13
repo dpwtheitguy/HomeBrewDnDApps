@@ -366,7 +366,8 @@ function addItemDetails(panel, item, supplements) {
         const playableDraft = entry.status === "original-draft" &&
             (["Damage", "Range", "Activation"].every(field => entry.fields[field]) ||
                 (entry.fields.Training && (entry.fields["Armor class"] || entry.fields["Armor class bonus"])) ||
-                (item.type === "spellcasting-focus" && entry.fields.Activation && entry.fields["Special powers"]));
+                (item.type === "spellcasting-focus" && entry.fields.Activation && entry.fields["Special powers"]) ||
+                (entry.profile_kind === "adapted-protective-garment" && entry.fields["Use as armor"] && entry.fields["Special powers"]));
         const details = itemDetailsSection(panel, label, Object.entries(entry.fields), entry.source,
             playableDraft || (entry.status !== "original-draft" && (entries.length <= 12 || index === 0)));
         if (entry.rules_source) {

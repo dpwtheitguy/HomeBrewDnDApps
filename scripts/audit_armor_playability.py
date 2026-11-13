@@ -112,6 +112,13 @@ def read_armor(armor, *, modern, errors):
     }
 
 
+def diablo_3_item_source(item, url):
+    ids = item['mechanics'].get('reference_metadata', {}).get('upstream_ids', [])
+    prefix = 'https://us.diablo3.blizzard.com/en-us/item/'
+    return (item['source_id'] == 'diablo-3-reference' and isinstance(url, str)
+            and url.startswith(prefix) and any(url.endswith('-' + item_id) for item_id in ids))
+
+
 def audit_row(item, indexed, bg3, curated, prices, published, core, modern_families):
     errors, gaps = [], []
     item_id = item['id']
@@ -172,6 +179,7 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
         effect_key = 'Creature defenses' if construct else 'Special powers'
         verified = entry.get('source') == provenance.get('source_url') and provenance.get('locator')
         if protective:
+            verified = verified or (details.get('Source locator') and diablo_3_item_source(item, entry.get('source')))
             verified = verified or any(ev.get('url') == entry.get('source') and ev.get('locator', {}).get('pdf_page')
                                        for ev in item.get('source_verifications', []))
         if (len(encounter) != 1 or entry.get('status') != ('original-draft' if protective else 'source-reported')
@@ -225,10 +233,12 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
             if game_adaptation:
                 native = [entry for entry in curated[item_id]
                           if entry.get('status') == 'source-reported' and entry.get('source') == mapping.get('source')]
-                verified_source = (mapping.get('source') == provenance.get('source_url')
-                                   and provenance.get('evidence', {}).get('kind') in {
-                                       'official-base-item-table', 'official-unique-name-index'}
-                                   and bool(mapped_fields.get('Source locator'))
+                official_game_source = (
+                    mapping.get('source') == provenance.get('source_url')
+                    and provenance.get('evidence', {}).get('kind') in {
+                        'official-base-item-table', 'official-unique-name-index'}
+                ) or diablo_3_item_source(item, mapping.get('source'))
+                verified_source = (official_game_source and bool(mapped_fields.get('Source locator'))
                                    and len(native) == 1
                                    and bool(native[0]['fields'].get('Defense (game)'))
                                    and bool(target_armor)

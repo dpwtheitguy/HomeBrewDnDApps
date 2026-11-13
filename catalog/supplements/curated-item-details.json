@@ -1,6 +1,73 @@
 {
   "schema_version": 1,
   "records": {
+    "diablo-3-reference:7bffa8a340366b08": [
+      {
+        "label": "2024 adaptation · Zunimassa’s Marrow",
+        "status": "original-draft",
+        "profile_kind": "adapted-game-armor",
+        "source": "https://us.diablo3.blizzard.com/en-us/item/zunimassas-marrow-Unique_Chest_016_x1",
+        "fields": {
+          "Source locator": "Blizzard Diablo III Game Guide, level 60 listing.",
+          "Rarity": "Rare",
+          "Attunement": "Required by a creature that can cast a spell.",
+          "Weight": "20 lb",
+          "Use as armor": "Wear as a suit of Breastplate.",
+          "Special powers": "Once per Long Rest, when you or a creature you summoned with a spell within 30 ft takes damage, you can use your Reaction to reduce that instance of damage by 1d8 + your Proficiency Bonus.",
+          "Conversion notes": "The limited protection adapts the set’s defensive theme. Game armor ratings, sockets, and set-count thresholds stay in the Diablo III rules.",
+          "Armor class": "14 + Dex modifier (max +2)",
+          "Training": "Medium armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No"
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_breastplate",
+          "label": "Open 2024 Breastplate"
+        }
+      },
+      {
+        "label": "Diablo III · Zunimassa’s Marrow",
+        "status": "source-reported",
+        "source": "https://us.diablo3.blizzard.com/en-us/item/zunimassas-marrow-Unique_Chest_016_x1",
+        "fields": {
+          "Source locator": "Blizzard Diablo III Game Guide, level 60 listing.",
+          "Defense (game)": "397–471 armor in the cited listing.",
+          "Equipment slot": "Chest Armor",
+          "Sockets": "3",
+          "Set powers": "Zunimassa’s Haunt rewards 2, 4, and 6 equipped pieces with improved Fetish Army uptime, damage reduction based on active Fetishes, and greater pet damage against targets hit by Mana spenders."
+        }
+      }
+    ],
+    "diablo-3-reference:cd9caff08f1f69ba": [
+      {
+        "label": "2024 adaptation · Zunimassa’s Cloth",
+        "status": "original-draft",
+        "profile_kind": "adapted-protective-garment",
+        "source": "https://us.diablo3.blizzard.com/en-us/item/zunimassas-cloth-P2_Unique_Pants_04",
+        "fields": {
+          "Source locator": "Blizzard Diablo III Game Guide, level 60 listing.",
+          "Rarity": "Uncommon",
+          "Attunement": "Required by a creature that can cast a spell.",
+          "Weight": "2 lb",
+          "Use as armor": "Worn legwear. It provides no AC formula or bonus and can be worn with armor.",
+          "Special powers": "Once per Long Rest, immediately after you summon one or more creatures with a spell, choose one of those creatures. It gains Temporary Hit Points equal to twice your Proficiency Bonus.",
+          "Conversion notes": "The limited protection adapts the set’s defensive theme. Game armor ratings, sockets, and set-count thresholds stay in the Diablo III rules."
+        }
+      },
+      {
+        "label": "Diablo III · Zunimassa’s Cloth",
+        "status": "source-reported",
+        "source": "https://us.diablo3.blizzard.com/en-us/item/zunimassas-cloth-P2_Unique_Pants_04",
+        "fields": {
+          "Source locator": "Blizzard Diablo III Game Guide, level 60 listing.",
+          "Defense (game)": "397–471 armor in the cited listing.",
+          "Equipment slot": "Legwear",
+          "Sockets": "2",
+          "Set powers": "Zunimassa’s Haunt rewards 2, 4, and 6 equipped pieces with improved Fetish Army uptime, damage reduction based on active Fetishes, and greater pet damage against targets hit by Mana spenders."
+        }
+      }
+    ],
     "conan-exiles-reference:32df134196e37780": [
       {
         "label": "2024 adaptation · Zhaibar Knives",
