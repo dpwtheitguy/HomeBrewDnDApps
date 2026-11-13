@@ -1,6 +1,149 @@
 {
   "schema_version": 1,
   "records": {
+    "conan-exiles-reference:a0f2d9ebe7dfb7bf": [
+      {
+        "label": "2024 adaptation · Zingaran Freebooter Headscarf",
+        "status": "original-draft",
+        "profile_kind": "documented-armor-accessory",
+        "source": "https://conanexiles.gaming.tools/items/91035",
+        "related_item": {
+          "id": "conan-exiles-reference:3134cf29193d96b1",
+          "label": "Open Zingaran Freebooter Vest"
+        },
+        "fields": {
+          "Source locator": "Conan Exiles item 91035, standard variant.",
+          "Use as armor": "Costume accessory for the linked Freebooter outfit. This piece provides no separate AC or armor training requirement.",
+          "Special powers": "The linked vest carries the outfit’s tabletop benefit. This piece adds no separate bonus."
+        }
+      },
+      {
+        "label": "Conan Exiles · Zingaran Freebooter Headscarf",
+        "status": "source-reported",
+        "source": "https://conanexiles.gaming.tools/items/91035",
+        "fields": {
+          "Source locator": "Conan Exiles item 91035, standard variant.",
+          "Defense (game)": "16 native armor.",
+          "Special powers": "+20 Health in the game."
+        }
+      }
+    ],
+    "conan-exiles-reference:3134cf29193d96b1": [
+      {
+        "label": "2024 adaptation · Zingaran Freebooter Vest",
+        "status": "original-draft",
+        "profile_kind": "adapted-game-armor",
+        "source": "https://conanexiles.gaming.tools/items/91036",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor",
+          "label": "Open 2024 Leather Armor"
+        },
+        "fields": {
+          "Source locator": "Conan Exiles item 91036, standard variant.",
+          "Armor class": "11 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required.",
+          "Use as armor": "The vest represents a complete suit of Leather Armor in the Freebooter style.",
+          "Special powers": "Freebooter’s Grit. Once per Long Rest, when you roll Initiative while wearing the armor, gain Temporary Hit Points equal to 1d4 + your Proficiency Bonus.",
+          "Conversion notes": "The temporary hit points adapt the game’s Health bonus. The outfit’s other pieces provide no additional AC or Health benefit."
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      },
+      {
+        "label": "Conan Exiles · Zingaran Freebooter Vest",
+        "status": "source-reported",
+        "source": "https://conanexiles.gaming.tools/items/91036",
+        "fields": {
+          "Source locator": "Conan Exiles item 91036, standard variant.",
+          "Defense (game)": "29 native armor.",
+          "Special powers": "+20 Health in the game."
+        }
+      }
+    ],
+    "conan-exiles-reference:7e3b7f34a77c4450": [
+      {
+        "label": "2024 adaptation · Zingaran Freebooter Gloves",
+        "status": "original-draft",
+        "profile_kind": "documented-armor-accessory",
+        "source": "https://conanexiles.gaming.tools/items/91037",
+        "related_item": {
+          "id": "conan-exiles-reference:3134cf29193d96b1",
+          "label": "Open Zingaran Freebooter Vest"
+        },
+        "fields": {
+          "Source locator": "Conan Exiles item 91037, standard variant.",
+          "Use as armor": "Costume accessory for the linked Freebooter outfit. This piece provides no separate AC or armor training requirement.",
+          "Special powers": "The linked vest carries the outfit’s tabletop benefit. This piece adds no separate bonus."
+        }
+      },
+      {
+        "label": "Conan Exiles · Zingaran Freebooter Gloves",
+        "status": "source-reported",
+        "source": "https://conanexiles.gaming.tools/items/91037",
+        "fields": {
+          "Source locator": "Conan Exiles item 91037, standard variant.",
+          "Defense (game)": "8 native armor.",
+          "Special powers": "+20 Health in the game."
+        }
+      }
+    ],
+    "conan-exiles-reference:fb244fa0606284be": [
+      {
+        "label": "2024 adaptation · Zingaran Freebooter Pants",
+        "status": "original-draft",
+        "profile_kind": "documented-armor-accessory",
+        "source": "https://conanexiles.gaming.tools/items/91038",
+        "related_item": {
+          "id": "conan-exiles-reference:3134cf29193d96b1",
+          "label": "Open Zingaran Freebooter Vest"
+        },
+        "fields": {
+          "Source locator": "Conan Exiles item 91038, standard variant.",
+          "Use as armor": "Costume accessory for the linked Freebooter outfit. This piece provides no separate AC or armor training requirement.",
+          "Special powers": "The linked vest carries the outfit’s tabletop benefit. This piece adds no separate bonus."
+        }
+      },
+      {
+        "label": "Conan Exiles · Zingaran Freebooter Pants",
+        "status": "source-reported",
+        "source": "https://conanexiles.gaming.tools/items/91038",
+        "fields": {
+          "Source locator": "Conan Exiles item 91038, standard variant.",
+          "Defense (game)": "20 native armor.",
+          "Special powers": "+20 Health in the game."
+        }
+      }
+    ],
+    "conan-exiles-reference:722021fd2b45db18": [
+      {
+        "label": "2024 adaptation · Zingaran Freebooter Boots",
+        "status": "original-draft",
+        "profile_kind": "documented-armor-accessory",
+        "source": "https://conanexiles.gaming.tools/items/91039",
+        "related_item": {
+          "id": "conan-exiles-reference:3134cf29193d96b1",
+          "label": "Open Zingaran Freebooter Vest"
+        },
+        "fields": {
+          "Source locator": "Conan Exiles item 91039, standard variant.",
+          "Use as armor": "Costume accessory for the linked Freebooter outfit. This piece provides no separate AC or armor training requirement.",
+          "Special powers": "The linked vest carries the outfit’s tabletop benefit. This piece adds no separate bonus."
+        }
+      },
+      {
+        "label": "Conan Exiles · Zingaran Freebooter Boots",
+        "status": "source-reported",
+        "source": "https://conanexiles.gaming.tools/items/91039",
+        "fields": {
+          "Source locator": "Conan Exiles item 91039, standard variant.",
+          "Defense (game)": "8 native armor.",
+          "Special powers": "+20 Health in the game."
+        }
+      }
+    ],
     "conan-exiles-reference:3a1141a47c861e55": [
       {
         "label": "2024 conversion · Zamorian Dancer Anklets",

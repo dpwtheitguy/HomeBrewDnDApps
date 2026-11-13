@@ -4451,6 +4451,18 @@ def main():
                         "Shieldsmash", "Once per Short or Long Rest", "Open 2024 Shield"]
                         .every(value => inspection.textContent.includes(value));
                 })()''',
+                'Freebooter outfit shows game armor and links to the vest rules': '''(async () => {
+                    inspect("conan-exiles-reference:722021fd2b45db18", grid.firstElementChild);
+                    await itemDetails;
+                    const link = Array.from(inspection.querySelectorAll("button")).find(button =>
+                        button.textContent === "Open Zingaran Freebooter Vest");
+                    if (!link || !inspection.textContent.includes("8 native armor") ||
+                        !inspection.textContent.includes("no separate AC")) return false;
+                    link.click();
+                    await itemDetails;
+                    return ["29 native armor", "+20 Health", "11 + Dex modifier", "when you roll Initiative"]
+                        .every(term => inspection.textContent.includes(term));
+                })()''',
                 'Zamorian outfits link accessories to the torso rules': '''(async () => {
                     for (const [id, terms] of [
                         ["819c71653dbb4d7b", ["11 + Dex modifier", "Temporary Hit Points", "Padded Armor"]],
