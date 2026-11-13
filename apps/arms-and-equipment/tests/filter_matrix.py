@@ -1871,6 +1871,20 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Mystara equipment profiles show reach ammunition and net restraint': '''(async () => {
+                    for (const [id, terms] of [
+                        ["39a527854e3d7e8f", ["10 feet melee", "Cleave", "Open 2024 Halberd"]],
+                        ["a68f7e020989181a", ["10 feet melee", "two hands only while unmounted"]],
+                        ["5031b73c6285092c", ["30/120 feet", "Bullet", "Open 2024 Sling"]],
+                        ["f0629a741189fcdb", ["No direct damage", "Restrains", "Open 2024 Net"]],
+                    ]) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) throw new Error(id);
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Traladaran Knurdel links to its published Quarterstaff profile': '''(async () => {
                     inspect("hail-the-heroes-preview-reference:06e25a82f26cb1c5", grid.firstElementChild);
                     await itemDetails;

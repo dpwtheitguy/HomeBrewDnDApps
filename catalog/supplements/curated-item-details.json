@@ -1,6 +1,328 @@
 {
   "schema_version": 1,
   "records": {
+    "mystara-fan-names-reference:fd2dc4f874e5ee46": [
+      {
+        "label": "Published D&D 2024 counterpart · Club",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf#page=2",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 Club"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Bludgeoning + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Mastery": "Slow",
+          "Properties": "Light",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 2, Weapons, Club.",
+          "Conversion notes": "Uses the standard 2024 Club. The legacy special handling is edition-specific."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:c183021aee61e34e": [
+      {
+        "label": "Published D&D 2024 counterpart · Dagger",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf#page=2",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 Dagger"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee or 20/60 feet thrown",
+          "Mastery": "Nick",
+          "Properties": "Finesse, Light, Thrown (Range 20/60)",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 2, Weapons, Dagger.",
+          "Conversion notes": "Uses the published Finesse, Light, and Thrown properties."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:39a527854e3d7e8f": [
+      {
+        "label": "Published D&D 2024 counterpart · Halberd",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf#page=2",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_halberd",
+          "label": "Open 2024 Halberd"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Mastery": "Cleave",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 2, Weapons, Halberd.",
+          "Conversion notes": "Uses 2024 Reach and Cleave. Legacy hook and disarm are separate maneuvers, with no automatic effect in this profile."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:693098f54fc9b1a2": [
+      {
+        "label": "Published D&D 2024 counterpart · Javelin",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf#page=2",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_javelin",
+          "label": "Open 2024 Javelin"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Piercing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee or 30/120 feet thrown",
+          "Mastery": "Slow",
+          "Properties": "Thrown (Range 30/120)",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 2, Weapons, Javelin.",
+          "Conversion notes": "Uses the 2024 two-band thrown range."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:a68f7e020989181a": [
+      {
+        "label": "Published D&D 2024 counterpart · Lance",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf#page=2",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_lance",
+          "label": "Open 2024 Lance"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Piercing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Mastery": "Topple",
+          "Properties": "Heavy, Reach, Two-Handed (unless mounted)",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 2, Weapons, Lance.",
+          "Conversion notes": "Use the 2024 Lance. It requires two hands only while unmounted."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:8a19325f20883bb5": [
+      {
+        "label": "Published D&D 2024 counterpart · Mace",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf#page=2",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace",
+          "label": "Open 2024 Mace"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Mastery": "Sap",
+          "Properties": "None",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 2, Weapons, Mace.",
+          "Conversion notes": "Uses the 2024 Mace and Sap."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:df4bc4dffbf3b2ba": [
+      {
+        "label": "Published D&D 2024 counterpart · Morningstar",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf#page=2",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_morningstar",
+          "label": "Open 2024 Morningstar"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Mastery": "Sap",
+          "Properties": "None",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 2, Weapons, Morningstar.",
+          "Conversion notes": "Uses the published 2024 Piercing damage and Sap."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:51b2472963032c5b": [
+      {
+        "label": "Published D&D 2024 counterpart · Pike",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf#page=2",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_pike",
+          "label": "Open 2024 Pike"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Piercing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Mastery": "Push",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 2, Weapons, Pike.",
+          "Conversion notes": "Uses the 2024 Pike. Legacy set-against-charge rules are edition-specific."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:9bb47c152029f8dc": [
+      {
+        "label": "Published D&D 2024 counterpart · Rapier",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentList.pdf#page=3",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_rapier",
+          "label": "Open 2024 Rapier"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Mastery": "Vex",
+          "Properties": "Finesse",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 3, Extended Weapon and Armour Lists, Rapier.",
+          "Conversion notes": "Uses the 2024 Rapier damage die and Finesse."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:5031b73c6285092c": [
+      {
+        "label": "Published D&D 2024 counterpart · Sling",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf#page=2",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_sling",
+          "label": "Open 2024 Sling"
+        },
+        "fields": {
+          "Category": "Simple ranged weapon",
+          "Damage": "1d4 Bludgeoning + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "30/120 feet",
+          "Mastery": "Slow",
+          "Properties": "Ammunition (Range 30/120; Bullet)",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 2, Weapons, Sling.",
+          "Conversion notes": "Uses a sling bullet and the 2024 two-band range."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:fd7db7aab8895d7e": [
+      {
+        "label": "Published D&D 2024 counterpart · Spear",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf#page=2",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 Spear"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Piercing (1d8 in two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee or 20/60 feet thrown",
+          "Mastery": "Sap",
+          "Properties": "Thrown (Range 20/60), Versatile (1d8)",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 2, Weapons, Spear.",
+          "Conversion notes": "Uses the 2024 Spear. The legacy set-against-charge effect is edition-specific."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:c89d50d17b1aa611": [
+      {
+        "label": "Published D&D 2024 counterpart · Trident",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf#page=2",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_trident",
+          "label": "Open 2024 Trident"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Piercing (1d10 in two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee or 20/60 feet thrown",
+          "Mastery": "Topple",
+          "Properties": "Thrown (Range 20/60), Versatile (1d10)",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 2, Weapons, Trident.",
+          "Conversion notes": "Uses 2024 damage, Versatile, and thrown range."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:67fdc026a4e61b7c": [
+      {
+        "label": "Published D&D 2024 counterpart · Whip",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf#page=2",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_whip",
+          "label": "Open 2024 Whip"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d4 Slashing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Mastery": "Slow",
+          "Properties": "Finesse, Reach",
+          "Activation": "Make an attack with the weapon.",
+          "Source locator": "Colin Davidson, PDF page 2, Weapons, Whip.",
+          "Conversion notes": "Uses 2024 Finesse, Reach, and Slow."
+        }
+      }
+    ],
+    "mystara-fan-names-reference:f0629a741189fcdb": [
+      {
+        "label": "Published D&D 2024 counterpart · Net (adventuring gear)",
+        "status": "published-reference",
+        "source": "https://pandius.com/ExtendedEquipmentListOSE.pdf#page=2",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Net",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_net",
+          "label": "Open 2024 Net"
+        },
+        "fields": {
+          "Damage": "No direct damage.",
+          "Range": "One visible creature within 15 ft.",
+          "Activation": "Replace one attack during the Attack action to throw the item.",
+          "Saving throw": "Dexterity DC = 8 + your Dexterity modifier + proficiency bonus. Huge or larger creatures succeed automatically.",
+          "Special powers": "Failure Restrains the target. The target or a creature within 5 ft can use an action to free it with a DC 10 Strength (Athletics) check. Destroying the net also frees it. Net AC 10, 5 HP, immune to Bludgeoning, Poison, and Psychic.",
+          "Category": "Adventuring gear",
+          "Mastery": "None",
+          "Source locator": "Colin Davidson, Expanded Weapons and Armour List, PDF p. 2, Net.",
+          "Conversion notes": "The legacy weapon listing maps to 2024 adventuring gear. Use the save-based restraint and release rules."
+        }
+      }
+    ],
     "hail-the-heroes-preview-reference:06e25a82f26cb1c5": [
       {
         "label": "Published 2024 equipment comparison · Traladaran Knurdel",
