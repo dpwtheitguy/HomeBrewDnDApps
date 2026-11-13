@@ -5,7 +5,7 @@ This is a field coverage scan. A source-text or location lead still requires rev
 
 | Field | Structured or catalog price | 2024 reference or guideline | Draft | Leads | Unknown | N/A |
 |---|---:|---:|---:|---:|---:|---:|
-| Damage | 2,638 | 298 | 1,075 | 397 | 30,137 | 0 |
+| Damage | 2,638 | 298 | 1,075 | 397 | 30,136 | 1 |
 | Bonuses | 454 | 239 | 1,269 | 516 | 32,067 | 0 |
 | Encounters | 3 | 0 | 2 | 4,909 | 29,631 | 0 |
 | Crafting | 7 | 214 | 14 | 131 | 34,179 | 0 |
@@ -22,6 +22,6 @@ This is a field coverage scan. A source-text or location lead still requires rev
 | Base Price | 9,369 | 0 | 25,176 | 0 | 0 | 0 |
 | Provenance | 34,545 | 0 | 0 | 0 | 0 | 0 |
 
-238 ammunition entries have at least one unresolved damage, range, or activation field. See [ammunition-rule-gaps.csv](ammunition-rule-gaps.csv).
+237 ammunition entries have at least one unresolved damage, range, or activation field. See [ammunition-rule-gaps.csv](ammunition-rule-gaps.csv).
 
 Individual statuses are in [item-detail-audit.csv](item-detail-audit.csv).

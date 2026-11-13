@@ -28,7 +28,7 @@ def supplement(filename):
     return json.loads((ROOT / 'supplements' / filename).read_text())
 
 
-def audit(item, bg3_items, bg3_weapons, curated, spells, native_games, prices):
+def audit(item, bg3_items, bg3_weapons, curated, spells, native_games, prices, bg3_reviewed):
     status = dict.fromkeys(FIELDS, 'unknown')
 
     def put(field, state='source-field'):
@@ -79,9 +79,10 @@ def audit(item, bg3_items, bg3_weapons, curated, spells, native_games, prices):
 
     bg3_item = bg3_items.get(item['id'], {})
     for variant in bg3_item.get('variants', []):
-        facts, stats = variant['facts'], variant['stats']
-        if facts.get('Damage'):
-            put('damage')
+        facts = {**variant['facts'], **bg3_reviewed.get(item['id'], {})}
+        stats = variant['stats']
+        if damage := facts.get('Damage'):
+            put('damage', 'not-applicable' if damage[0].startswith('None.') else 'source-field')
         if stats.get('enchantment') or stats.get('armour class bonus'):
             put('bonuses')
         if facts.get('Range'):
@@ -90,7 +91,7 @@ def audit(item, bg3_items, bg3_weapons, curated, spells, native_games, prices):
             put('radius')
         if stats.get('area duration') or any(key.endswith(' duration') for key in variant['conditions']):
             put('duration')
-        if stats.get('usage cost'):
+        if stats.get('usage cost') or facts.get('Activation'):
             put('activation')
         if facts.get('Saving throw'):
             put('saving_throw')
@@ -173,6 +174,7 @@ def audit(item, bg3_items, bg3_weapons, curated, spells, native_games, prices):
 
 def main():
     bg3_items = supplement('bg3-item-rules.json')['records']
+    bg3_reviewed = supplement('bg3-armor-effects.json')['reviewed_item_facts']
     bg3_weapons = supplement('bg3-weapon-rules.json')['weapons']
     curated = supplement('curated-item-details.json')['records']
     curated.update(supplement('published-2024-weapon-facts.json')['records'])
@@ -192,7 +194,7 @@ def main():
         writer.writerow(['id', 'name', 'ruleset', 'source_id', 'type', *FIELDS])
         for (data,) in db.execute('SELECT data_json FROM items ORDER BY id'):
             item = json.loads(data)
-            coverage = audit(item, bg3_items, bg3_weapons, curated, spells, native_games, prices)
+            coverage = audit(item, bg3_items, bg3_weapons, curated, spells, native_games, prices, bg3_reviewed)
             if item['type'] == 'ammunition':
                 fields = ('damage', 'range', 'activation')
                 gaps = [field for field in fields if coverage[field] in {'unknown', 'source-text-lead'}]

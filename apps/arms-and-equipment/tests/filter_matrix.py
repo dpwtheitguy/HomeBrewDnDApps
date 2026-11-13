@@ -4456,6 +4456,19 @@ def main():
                         "Base cost20 gp", "One piece of ammunition"].every(value => bolt.includes(value))
                         && ["Longbow +3", "150/600 ft", "Base cost40050 gp"].every(value => inspection.textContent.includes(value));
                 })()''',
+                'BG3 special arrows show playable conditions and the salving exception': '''(async () => {
+                    for (const [id, terms] of [
+                        [3702, ["1d4 Necrotic", "cannot regain HP"]],
+                        [11799, ["Breaks the target’s Concentration", "verbal components"]],
+                        [11804, ["Removes Poisoned, Paralysed, and Blinded", "full Action", "instead of dealing weapon damage"]],
+                        [14015, ["DC 12 Dexterity", "5 turns", "1d4 Piercing"]],
+                    ]) {
+                        inspect("bg3-wiki:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) return false;
+                    }
+                    return true;
+                })()''',
                 'BG3 Nyrulna shows its throw trigger, return, and blast radius': '''(async () => {
                     inspect("bg3-wiki:8079", grid.firstElementChild);
                     await Promise.all([itemDetails, bg3WeaponRules]);

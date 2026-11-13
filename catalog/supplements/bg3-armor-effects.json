@@ -463,6 +463,46 @@
           "Applies 2 turns of Radiating Orb. Each remaining turn gives −1 to attack rolls; attacking reduces duration by 2 turns."
         ]
       }
+    },
+    "Arrow of Ilmater": {
+      "title": "Arrow of Ilmater",
+      "revision": 428478,
+      "stats": {},
+      "facts": {
+        "Healing": [
+          "The target cannot regain HP until the end of its next turn."
+        ]
+      }
+    },
+    "Silenced": {
+      "title": "Silenced",
+      "revision": 416084,
+      "stats": {},
+      "facts": {
+        "Effect": [
+          "Prevents speech and spells with verbal components and grants immunity to Thunder damage."
+        ]
+      }
+    },
+    "Paralysed": {
+      "title": "Paralysed",
+      "revision": 436408,
+      "stats": {},
+      "facts": {
+        "Effect": [
+          "The creature cannot move or take actions, bonus actions, or reactions. Attacks have Advantage and hits from within 10 ft are critical. The creature automatically fails Strength and Dexterity saves."
+        ]
+      }
+    },
+    "Ruptured": {
+      "title": "Ruptured",
+      "revision": 431637,
+      "stats": {},
+      "facts": {
+        "Movement": [
+          "Moving deals 1d4 Piercing per 1 m (about 3 ft) and reduces the remaining duration by one per damage trigger."
+        ]
+      }
     }
   },
   "shield_training": {
@@ -521,6 +561,27 @@
     "bg3-wiki:8506": {
       "Special properties": [
         "The listed shield AC is its only enhancement."
+      ]
+    },
+    "bg3-wiki:11799": {
+      "Special powers": [
+        "Breaks the target’s Concentration and applies Silenced. The silence duration ticks down at the start of the target’s turn, so the arrow can prevent verbal reaction spells before then."
+      ]
+    },
+    "bg3-wiki:11804": {
+      "Damage": [
+        "None. This arrow cures conditions instead of dealing weapon damage."
+      ],
+      "Special powers": [
+        "Removes Poisoned, Paralysed, and Blinded from the target. It normally hits automatically, though reflection can prevent the hit."
+      ],
+      "Activation": [
+        "Costs a full Action and cannot replace one attack from Extra Attack."
+      ]
+    },
+    "bg3-wiki:14015": {
+      "Special powers": [
+        "The target makes a DC 12 Dexterity save against Ruptured, which lasts up to 5 turns. The game can still call for the save when the arrow misses."
       ]
     }
   }
