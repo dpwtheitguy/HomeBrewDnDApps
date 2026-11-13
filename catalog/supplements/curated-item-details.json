@@ -1,6 +1,185 @@
 {
   "schema_version": 1,
   "records": {
+    "castles-drungar-local:c0b43efaccb93ac4": [
+      {
+        "label": "D&D 2024 adaptation · Heurlinga’s Sword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "../../pdfs/tsr01056%20-%20Castles%20-%20%28Boxed%20Set%29%20-%20%28With%20Foldup%20Paper%20Models%29.pdf#page=136",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "The enhancement to attack and damage rolls becomes +3 against a creature with a Regeneration trait.",
+          "Conversion notes": "Uses a 2024 Longsword for the unspecified sword. Preserves the original conditional +3.",
+          "Source locator": "Castles boxed set, Drungar Campaign, commander inventories, supplied PDF p. 136.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        },
+        "appraise_as_magic_weapon": true
+      }
+    ],
+    "castles-drungar-local:f8e19310c67746d0": [
+      {
+        "label": "D&D 2024 adaptation · Sword of the Champion Kurash",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "../../pdfs/tsr01056%20-%20Castles%20-%20%28Boxed%20Set%29%20-%20%28With%20Foldup%20Paper%20Models%29.pdf#page=134",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "While holding the sword, use a Magic action to cast Detect Magic or See Invisibility without components. Each recharges at dawn. As a Magic action once per dawn, choose to sense the direction of the nearest gem or the nearest trap occupying at least a 5-foot square, within 30 feet. A thin sheet of lead blocks the sense.",
+          "Conversion notes": "Uses a 2024 Longsword for the unspecified sword. Spell use limits and the detection parameters are authored.",
+          "Source locator": "Castles boxed set, Drungar Campaign, commander inventories, supplied PDF p. 134.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Sentience": "Lawful Good, Intelligence 15. Speaks Kothian and Dwarvish. The original Ego 7 is a legacy statistic."
+        },
+        "appraise_as_magic_weapon": true
+      }
+    ],
+    "castles-drungar-local:b26f08fbffc1206b": [
+      {
+        "label": "D&D 2024 adaptation · Marak Hoopaku",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "../../pdfs/tsr01056%20-%20Castles%20-%20%28Boxed%20Set%29%20-%20%28With%20Foldup%20Paper%20Models%29.pdf#page=149",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_sling",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple ranged weapon",
+          "Damage": "1d4 Bludgeoning + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "30/120 feet",
+          "Properties": "Ammunition (sling bullet)",
+          "Mastery": "Slow",
+          "Weight": "0 lb",
+          "Rarity": "Mundane",
+          "Attunement": "None",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Make a ranged attack with a sling bullet. Use the linked Sling profile for the roster weapon.",
+          "Conversion notes": "The roster identifies a ranged weapon without player-scale statistics. Uses a Sling as the 2024 comparison for the staff-sling. This profile covers the roster’s ranged role.",
+          "Source locator": "Castles boxed set, Thenolite Rosters, supplied PDF p. 149.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "castles-hart-local:f432058f9588c7d9": [
+      {
+        "label": "D&D 2024 adaptation · Evangel",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "../../pdfs/tsr01056%20-%20Castles%20-%20%28Boxed%20Set%29%20-%20%28With%20Foldup%20Paper%20Models%29.pdf#page=92",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "4 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required by a Paladin",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "On a hit against a Chaotic Evil creature, deal 10 extra Radiant damage. Once per turn on such a hit, you can force a DC 17 Wisdom save. On a failure the target is Frightened of you until the end of your next turn.",
+          "Conversion notes": "The legacy +5 is capped at +3. The magic-resistance field becomes saving throw Advantage and the legacy area dispel becomes a targeted spell.",
+          "Source locator": "Castles boxed set, Count Gladwell Solan — Evangel the Mace, supplied PDF p. 92.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Holy aura": "While holding Evangel, you and allies within 5 feet have Advantage on saving throws against spells.",
+          "Spells": "While holding it, cast Dispel Magic at level 5 once per dawn (ability check +5), See Invisibility once per dawn (invisible objects within 10 feet only), or Enhance Ability once per dawn (self only, Strength). Use normal spell casting times without components.",
+          "Sentience": "Lawful Good, Intelligence 14. It speaks and serves St. Cuthbert. The legacy Ego score is 14."
+        },
+        "appraise_as_magic_weapon": true
+      }
+    ],
+    "castles-local:2cf3e742cfa35642": [
+      {
+        "label": "D&D 2024 adaptation · Determination",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "../../pdfs/tsr01056%20-%20Castles%20-%20%28Boxed%20Set%29%20-%20%28With%20Foldup%20Paper%20Models%29.pdf#page=9",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "While holding the sword, cast Heal once per dawn, Detect Evil and Good once per dawn (10-foot radius), See Invisibility once per dawn (only within 10 feet), or Locate Object once per dawn (120-foot range). Use normal spell casting times without components.",
+          "Conversion notes": "Uses a 2024 Versatile Longsword for the bastard sword. The Heal limit and detection distances come from the adventure. Daily limits for detection are authored.",
+          "Source locator": "Castles boxed set, The Pereghost, supplied PDF p. 9.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Sentience": "Lawful Evil, Intelligence 17. Speaks Common and communicates telepathically with its wielder. The legacy Ego score is 14."
+        },
+        "appraise_as_magic_weapon": true
+      }
+    ],
+    "castles-local:ae50c432a4b396b5": [
+      {
+        "label": "D&D 2024 adaptation · Fzoul’s Mace of Disruption",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "../../pdfs/tsr01056%20-%20Castles%20-%20%28Boxed%20Set%29%20-%20%28With%20Foldup%20Paper%20Models%29.pdf#page=37",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "4 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "On a hit against an Undead, deal 2d6 extra Radiant. If it has 25 HP or fewer after the hit, it must make a DC 15 Wisdom save or be destroyed. On success it is Frightened until the end of your next turn. Against Varalla, use DC 15 and apply this save regardless of remaining HP, once per dawn.",
+          "Conversion notes": "Uses the 2024 Mace of Disruption as the combat base. Varalla’s special exception is retained. The BattleSystem probabilities remain encounter context and are replaced by a single save for tabletop play.",
+          "Source locator": "Castles boxed set, Decision at Darkhold — Fzoul Chembryl, supplied PDF p. 37.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Encounter use": "Fzoul is the intended wielder. If he falls during the scenario, Manshoon can wield it without attuning until the encounter ends, with the original −4 penalty to attack rolls."
+        },
+        "appraise_as_magic_weapon": true
+      }
+    ],
     "castles-drungar-local:275fc3eb588e8693": [
       {
         "label": "Published D&D 2024 equipment comparison · Flanawar Steel",

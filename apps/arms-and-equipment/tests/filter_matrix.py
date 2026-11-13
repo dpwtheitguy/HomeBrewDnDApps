@@ -1871,6 +1871,22 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Castles weapons show encounter-specific powers': '''(async () => {
+                    for (const [id, term] of [
+                        ["castles-drungar-local:c0b43efaccb93ac4", "+3 against a creature"],
+                        ["castles-drungar-local:f8e19310c67746d0", "Kothian and Dwarvish"],
+                        ["castles-drungar-local:b26f08fbffc1206b", "30/120 feet"],
+                        ["castles-hart-local:f432058f9588c7d9", "St. Cuthbert"],
+                        ["castles-local:2cf3e742cfa35642", "120-foot range"],
+                        ["castles-local:ae50c432a4b396b5", "regardless of remaining HP"],
+                    ]) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!inspection.textContent.includes(term)) throw new Error(id + " missing " + term);
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Castles armor shows enhancements and distinct rally limits': '''(async () => {
                     for (const [id, terms] of [
                         ["castles-drungar-local:275fc3eb588e8693", ["Armor class19"]],
