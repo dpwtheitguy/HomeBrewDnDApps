@@ -28,7 +28,7 @@ def first_letter(name):
     return unicodedata.normalize('NFKD', name.lstrip())[0:1].upper()
 
 
-def common_findings(item, weapon, armor, price, native):
+def common_findings(item, weapon, price, native):
     name, kind = item['name'], item['type']
     findings = []
     if (kind != 'shield' and re.search(r'\bshield\b', name, re.I) and not ACCESSORY.search(name)
@@ -40,9 +40,12 @@ def common_findings(item, weapon, armor, price, native):
         findings.append('classification: check weapon or equipment component')
     if kind in {'armor', 'shield'} and re.search(r'\b(?:saddle|barding|mojo)\b', name, re.I):
         findings.append('classification: check mount equipment or focus')
-    if armor.get('role') == 'shield' and item['source_id'] == 'diablo-3-reference':
-        if '/off-hand/' in item['provenance'].get('source_url', '') or not re.search(r'\bshield\b', name, re.I):
-            findings.append('classification: verify off-hand slot grants shield AC')
+    if item['source_id'] == 'diablo-3-reference':
+        source_type = item['mechanics'].get('source_type', '').casefold()
+        expected_type = {'mojo': 'spellcasting-focus', 'source': 'spellcasting-focus',
+                         'phylactery': 'spellcasting-focus', 'quiver': 'container'}.get(source_type)
+        if expected_type and kind != expected_type:
+            findings.append(f'classification: Diablo III {source_type} belongs under {expected_type}')
     if weapon.get('mastery') == 'Sap' and any(
         'One-handed damage (Barbarian only)' in variant['fields']
         and 'Two-handed damage' in variant['fields'] for variant in native.get('variants', [])
@@ -92,7 +95,7 @@ def main():
                 continue
             item_id, kind = item['id'], item['type']
             weapon, protection = weapons.get(item_id, {}), armor.get(item_id, {})
-            findings = common_findings(item, weapon, protection, prices.get(item_id, {}), native.get(item_id, {}))
+            findings = common_findings(item, weapon, prices.get(item_id, {}), native.get(item_id, {}))
             for report in (weapon, protection):
                 findings.extend(report[key] for key in ('schema_errors', 'review_gaps') if report.get(key))
             if item_id in ammo:

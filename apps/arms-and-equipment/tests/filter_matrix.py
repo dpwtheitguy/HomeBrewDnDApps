@@ -4398,6 +4398,14 @@ def main():
                     await itemDetails;
                     return branch && inspection.textContent.includes("unavailable through normal Patch 8 gameplay");
                 })()''',
+                'Diablo III Zunimassa mojo shows a focus and its summon reaction': '''(async () => {
+                    const id = "diablo-3-reference:8f39d1ce5c07ea1c";
+                    inspect(id, grid.firstElementChild);
+                    await itemDetails;
+                    return ["Set Mojo", "Arcane Focus", "Once per Long Rest", "1d6 Necrotic"]
+                        .every(value => inspection.textContent.includes(value))
+                        && Array.from(inspection.querySelectorAll("a")).some(link => link.href.includes("Unique_Mojo_011_x1"));
+                })()''',
                 'Diablo II Zweihander shows Greatsword rules and native grip modes': '''(async () => {
                     inspect("diablo-2-reference:86d4367342c214bf", grid.firstElementChild);
                     await itemDetails;

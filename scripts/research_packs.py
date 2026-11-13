@@ -81,7 +81,7 @@ def build_research_packs(items,icons,root):
 def classify_reference(kind):
     k=kind.casefold()
     exact={'food':('food','food'),'furnishing':('furnishing','gear'),'wondrous-item':('wondrous-item','gear'),'buildingitem':('construction-component','gear'),'decoration':('construction-component','gear'),'craftingstations':('construction-component','gear'),'material':('material','gear'),'component':('material','gear'),'consumable':('consumable','potion'),'tools':('tools','tools'),'warpaints':('dye','dye'),'tattoo':('wondrous-item','gear'),'tattoos':('wondrous-item','gear'),'teeth':('weapon','dagger'),'eyes':('wondrous-item','gear'),'lenses':('wondrous-item','gear'),'earrings':('wondrous-item','amulet'),'edged':('weapon','sword'),'missiles':('ammunition','ammunition'),'candy':('consumable','food'),'construction-component':('construction-component','gear'),'weapons':('weapon','weapon'),'weapon':('weapon','weapon'),'jewelry':('amulet','amulet'),'clothing':('clothing','clothing'),'miscellaneous':('misc','gear'),'scroll':('scroll','scroll'),'scrolls':('scroll','scroll'),'books':('book','book'),'book':('book','book'),'ammunition':('ammunition','ammunition'),'potion':('potion','potion'),'potions':('potion','potion'),'keys':('key','key'),'key':('key','key'),'gems':('gem','gem'),'pelts':('helmet','helmet'),'barbhelms':('helmet','helmet'),'shrunkenheads':('shield','shield'),'gloves':('gloves','gloves'),'cloak':('cloak','cloak')}
-    if k in ('orb', 'rod', 'spellcasting-focus'):
+    if k in ('orb', 'rod', 'spellcasting-focus', 'mojo', 'source', 'phylactery'):
         return 'spellcasting-focus', 'gear'
     if k == 'item-set':
         return 'item-set', 'gear'
@@ -91,9 +91,9 @@ def classify_reference(kind):
         return k, k
     if k == 'flying-vehicle':
         return k, 'gear'
-    if k in ('container', 'containers'):
+    if k in ('container', 'containers', 'quiver'):
         return 'container', 'container'
     if k in exact:return exact[k]
-    for terms,typ,icon in [(['ring','finger'],'ring','ring'),(['amulet','neck'],'amulet','amulet'),(['helm','head','circlet'],'helmet','helmet'),(['glove','hands'],'gloves','gloves'),(['boot','feet'],'boots','boots'),(['belt','waist'],'belt','belt'),(['shield','mojo','source','quiver'],'shield','shield'),(['armor','armour','torso','shoulder','wrists','legs','bracer','pant','leather','chain','plate'],'armor','armor'),(['prosthetic'],'wondrous-item','tools'),(['dagger','knife','katars','assassin','fist','claw'],'weapon','dagger'),(['sword','odachi'],'weapon','sword'),(['axe','hatchet'],'weapon','axe'),(['spear','polearm','glaive'],'weapon','spear'),(['staff','staves','daibo'],'weapon','staff'),(['bow','ranged'],'weapon','bow'),(['mace','hammer','club'],'weapon','hammer'),(['flail','kusarigama','tonfa'],'weapon','flail'),(['wand'],'wand','wand')]:
+    for terms,typ,icon in [(['ring','finger'],'ring','ring'),(['amulet','neck'],'amulet','amulet'),(['helm','head','circlet'],'helmet','helmet'),(['glove','hands'],'gloves','gloves'),(['boot','feet'],'boots','boots'),(['belt','waist'],'belt','belt'),(['shield'],'shield','shield'),(['armor','armour','torso','shoulder','wrists','legs','bracer','pant','leather','chain','plate'],'armor','armor'),(['prosthetic'],'wondrous-item','tools'),(['dagger','knife','katars','assassin','fist','claw'],'weapon','dagger'),(['sword','odachi'],'weapon','sword'),(['axe','hatchet'],'weapon','axe'),(['spear','polearm','glaive'],'weapon','spear'),(['staff','staves','daibo'],'weapon','staff'),(['bow','ranged'],'weapon','bow'),(['mace','hammer','club'],'weapon','hammer'),(['flail','kusarigama','tonfa'],'weapon','flail'),(['wand'],'wand','wand')]:
         if any(t in k for t in terms):return typ,icon
     return 'misc','gear'

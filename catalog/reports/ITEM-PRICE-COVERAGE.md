@@ -23,7 +23,7 @@
 
 | Price adjustment | Records |
 |---|---:|
-| Decorative workmanship · +20% | 90 |
+| Decorative workmanship · +20% | 89 |
 | 3.5e masterwork price benchmark | 84 |
 | Jewelled ornament · +50% | 6 |
 

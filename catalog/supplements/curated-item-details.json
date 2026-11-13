@@ -1,6 +1,31 @@
 {
   "schema_version": 1,
   "records": {
+    "diablo-3-reference:8f39d1ce5c07ea1c": [
+      {
+        "label": "Diablo III · Set Mojo",
+        "status": "source-reported",
+        "source": "https://us.diablo3.blizzard.com/en-us/item/zunimassas-string-of-skulls-Unique_Mojo_011_x1",
+        "fields": {
+          "Source locator": "Blizzard Game Guide, Unique_Mojo_011_x1, level 60 listing.",
+          "Use": "Witch Doctor off-hand item. Part of Zunimassa’s Haunt.",
+          "Special powers": "This listing increases Fetish Army damage by 20–25% and rolls two additional magic properties. Set bonuses separately affect Fetish duration, damage reduction, and pet damage."
+        }
+      },
+      {
+        "label": "2024 adaptation · Zunimassa’s String of Skulls",
+        "status": "original-draft",
+        "source": "https://us.diablo3.blizzard.com/en-us/item/zunimassas-string-of-skulls-Unique_Mojo_011_x1",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#ArcaneFocus",
+        "fields": {
+          "Rarity": "Uncommon",
+          "Attunement": "Required by a spellcaster who can use an Arcane Focus.",
+          "Activation": "Hold the mojo in one hand. It functions as an Arcane Focus.",
+          "Special powers": "Once per Long Rest, when a creature you summoned with a spell damages a target within 60 ft of you, you can use your Reaction to add 1d6 Necrotic damage to that target.",
+          "Conversion notes": "The limited damage bonus represents the original Fetish Army boost. The focus grants no shield AC, and this conversion excludes the separate set bonuses."
+        }
+      }
+    ],
     "diablo-2-reference:2c9596b23ad6d909": [
       {
         "label": "2024 adaptation · Gothic Sword",
