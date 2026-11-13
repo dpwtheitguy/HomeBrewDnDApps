@@ -1,6 +1,32 @@
 {
   "schema_version": 1,
   "records": {
+    "hail-the-heroes-preview-reference:06e25a82f26cb1c5": [
+      {
+        "label": "Published 2024 equipment comparison · Traladaran Knurdel",
+        "status": "published-reference",
+        "source": "https://www.scribd.com/document/689113206/Mystara-Hail-the-Heroes",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 Quarterstaff"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb using the Quarterstaff profile",
+          "Activation": "Make a melee attack.",
+          "Special powers": "None. The gnarled wood identifies a Traladaran clerical staff and grants no inherent magic.",
+          "Adventure context": "Desmik, Barris, and Jenna carry knurdels in Hail the Heroes.",
+          "Source locator": "Tim Beach, Hail the Heroes, Personalities, Traladaran cleric equipment.",
+          "Conversion notes": "The adventure establishes the staff’s form and use. Use the published 2024 Quarterstaff statistics for combat. The legacy NPC damage is not used as a player weapon stat."
+        }
+      }
+    ],
     "dragons-den-reference:325f7a6101cbfa29": [
       {
         "label": "D&D 2024 adaptation · Anandak’s Dragon-Slaying Sword",

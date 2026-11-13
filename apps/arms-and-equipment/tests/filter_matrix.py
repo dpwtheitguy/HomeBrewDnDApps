@@ -1871,6 +1871,14 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Traladaran Knurdel links to its published Quarterstaff profile': '''(async () => {
+                    inspect("hail-the-heroes-preview-reference:06e25a82f26cb1c5", grid.firstElementChild);
+                    await itemDetails;
+                    const detail = inspection.textContent;
+                    dismissInspection(false);
+                    return ["1d6 Bludgeoning", "1d8 in two hands", "Topple", "Open 2024 Quarterstaff", "Desmik, Barris, and Jenna"]
+                        .every(term => detail.includes(term));
+                })()''',
                 'Dragon’s Den weapons preserve distinct source powers': '''(async () => {
                     for (const [id, term] of [
                         ["325f7a6101cbfa29", "+3 instead of +1"],
