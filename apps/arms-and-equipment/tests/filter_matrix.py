@@ -4398,6 +4398,13 @@ def main():
                     await itemDetails;
                     return branch && inspection.textContent.includes("unavailable through normal Patch 8 gameplay");
                 })()''',
+                'Epic Zingaran shield shows +2 AC and its Shieldsmash conversion': '''(async () => {
+                    inspect("conan-exiles-reference:d8f8ae99e4c06788", grid.firstElementChild);
+                    await itemDetails;
+                    return ["item 594", "2500", "30 Star Metal Bars", "Armor class bonus+2",
+                        "Shieldsmash", "Once per Short or Long Rest", "Open 2024 Shield"]
+                        .every(value => inspection.textContent.includes(value));
+                })()''',
                 'Diablo III Zunimassa mojo shows a focus and its summon reaction': '''(async () => {
                     const id = "diablo-3-reference:8f39d1ce5c07ea1c";
                     inspect(id, grid.firstElementChild);

@@ -1,6 +1,42 @@
 {
   "schema_version": 1,
   "records": {
+    "conan-exiles-reference:d8f8ae99e4c06788": [
+      {
+        "label": "Conan Exiles · Epic Zingaran Mercenary Shield",
+        "status": "source-reported",
+        "source": "https://conanexiles.fandom.com/wiki/Zingaran_Mercenary_Shield_(Epic)",
+        "fields": {
+          "Source locator": "Conan Exiles item 594, Epic grade.",
+          "Weight": "2.00 game weight before armorer modifiers.",
+          "Durability": "2500 before armorer modifiers.",
+          "Special powers": "The Epic shield has Shieldsmash.",
+          "Crafting": "At a compatible Armorer’s Bench, the listed recipe uses one Shield Frame and 30 Star Metal Bars."
+        }
+      },
+      {
+        "label": "2024 adaptation · Zingaran Mercenary Shield",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "source": "https://conanexiles.th.gl/db/inventory/item_594",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "fields": {
+          "Source locator": "Conan Exiles item 594 (Epic), independently identified by game ID in the source facts above.",
+          "Armor class bonus": "+2",
+          "Training": "Shield training. Without it, you gain no AC bonus.",
+          "Activation": "Take a Utilize action to don or doff the shield. Wield it in one hand.",
+          "Weight": "6 lb. (2024 Shield).",
+          "Rarity": "Uncommon",
+          "Attunement": "Required.",
+          "Special powers": "Shieldsmash. Once per Short or Long Rest, while wielding the shield and trained with it, you can replace one attack of your Attack action with a shove against a creature within 5 ft that is no more than one size larger than you. The creature chooses a Strength or Dexterity saving throw (DC 8 + your Strength modifier + your Proficiency Bonus). On a failure, push it 5 ft away from you. The shove deals no damage.",
+          "Conversion notes": "The ordinary shield bonus and training come from the 2024 Shield. Shieldsmash is an authored limited-use shove inspired by the game effect. Epic is the game’s grade."
+        }
+      }
+    ],
     "diablo-3-reference:8f39d1ce5c07ea1c": [
       {
         "label": "Diablo III · Set Mojo",

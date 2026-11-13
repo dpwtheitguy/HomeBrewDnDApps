@@ -67,6 +67,10 @@ def build_research_packs(items,icons,root):
             if row.get('ninja_relevance')=='direct':
                 tags.add('theme:ninja');assoc.append({'entity_id':'topic:ninja-equipment','role':'inspired-by','status':'editorial-theme','evidence':evidence})
             entry={'id':iid,'name':name,'name_key':name.casefold(),'source_id':data['source_id'],'ruleset':ruleset,'category':typ,'type':typ,'magic':None,'rarity':None,'requires_attunement':None,'tags':sorted(tags),'description':None,'mechanics':{'source_type':kind,'reference_metadata':{k:v for k,v in row.items() if k not in ['name','url','evidence_kind']},'automated_effects':[]},'provenance':{'provider':row.get('provider','Public source reference index'),'source_url':row['url'],'retrieved_at':data['retrieved_at'],'upstream_commit':data.get('upstream_commit'),'evidence':evidence,'locator':row.get('locator') or row.get('reported_locator')},'content_status':'factual-metadata-only','tabletop_status':'adaptation-needed','image':{**icons[icon],'specific_art':None},'associations':assoc,'presentation':{'tldr':'Source item reference; 2024 compatibility or adaptation is pending.','details':None,'flavor':None,'creative_use':{'text':None,'requires_dm_ruling':True}}}
+            if iid == 'conan-exiles-reference:d8f8ae99e4c06788':
+                entry['category'] = entry['type'] = 'shield'
+                entry['image'] = {**icons['shield'], 'specific_art': None}
+                entry['provenance']['locator'] = 'Conan Exiles item 594 (Epic)'
             if row.get('pdf_sha256'):
                 entry['provenance']['source_file_sha256']=row['pdf_sha256']
             if row.get('original_book_verified'):
