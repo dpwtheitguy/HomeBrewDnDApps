@@ -4431,6 +4431,16 @@ def main():
                     dismissInspection(false);
                     return !hasArt;
                 })()''',
+                'Zephyr Bolts and Zirchev’s Longbow show their 2024 rules and appraisals': '''(async () => {
+                    inspect("planescape-torment-reference:d9525f4fb94545d4", grid.firstElementChild);
+                    await itemDetails;
+                    const bolt = inspection.textContent;
+                    inspect("wrath-of-the-immortals-local:2e75b00d61573d8d", grid.firstElementChild);
+                    await itemDetails;
+                    return ["BOLT04", "30/120 ft", "80/320 ft", "100/400 ft", "bolt loses its magic",
+                        "Base cost20 gp", "One piece of ammunition"].every(value => bolt.includes(value))
+                        && ["Longbow +3", "150/600 ft", "Base cost40050 gp"].every(value => inspection.textContent.includes(value));
+                })()''',
                 'BG3 Nyrulna shows its throw trigger, return, and blast radius': '''(async () => {
                     inspect("bg3-wiki:8079", grid.firstElementChild);
                     await Promise.all([itemDetails, bg3WeaponRules]);

@@ -1,6 +1,40 @@
 {
   "schema_version": 1,
   "records": {
+    "planescape-torment-reference:d9525f4fb94545d4": [
+      {
+        "label": "Planescape: Torment · Zephyr Bolts",
+        "status": "source-reported",
+        "source": "https://shrines.rpgclassics.com/pc/planescape/weapons.shtml",
+        "fields": {
+          "Source locator": "Planescape: Torment equipment table, Missiles, Zephyr Bolts. Cross-reference game resource BOLT04.",
+          "Damage": "2–5 Piercing as listed in the game inventory.",
+          "Attack bonus": "+1 to hit under the game’s THAC0 rules. The game lists a +1 enchantment.",
+          "Use": "Ammunition for Nordom’s crossbows. Speed Factor 10 is the original initiative statistic.",
+          "Acquisition and encounters": "Find as construct loot in the Modron Maze, or buy from Crumplepunch in Outer Curst or Coaxmetal in the Siege Tower."
+        }
+      },
+      {
+        "label": "2024 counterpart · Crossbow Bolt +1",
+        "status": "published-reference",
+        "source": "https://shrines.rpgclassics.com/pc/planescape/weapons.shtml",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Ammunition12or3",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_hand-crossbow",
+          "label": "Open 2024 Hand Crossbow"
+        },
+        "fields": {
+          "Rarity": "Uncommon",
+          "Damage": "Use the crossbow’s damage, plus 1. Hand Crossbow 1d6 Piercing, Light Crossbow 1d8 Piercing, Heavy Crossbow 1d10 Piercing. Apply the launcher’s normal ability modifier.",
+          "Attack bonus": "+1 to the launcher’s normal attack roll. Apply proficiency when trained in that launcher.",
+          "Range": "Use the crossbow’s range. Hand Crossbow 30/120 ft, Light Crossbow 80/320 ft, Heavy Crossbow 100/400 ft.",
+          "Activation": "Expend one bolt as part of a crossbow attack. After a hit, that bolt loses its magic.",
+          "Special powers": "The bolt grants the +1 only to the attack made with it. The crossbow provides the mastery and governs Loading.",
+          "Attunement": "None; no attunement required.",
+          "Conversion notes": "Use standard 2024 Ammunition +1. The tabletop bolt fits any crossbow that takes bolts, and the original game’s speed factor and flat damage range are replaced by the launcher’s rules."
+        }
+      }
+    ],
     "da3-city-of-the-gods-reference:9b17208ecdf4fbd7": [
       {
         "label": "D&D 2024 adaptation · Battle Armour",

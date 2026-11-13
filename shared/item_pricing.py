@@ -8,6 +8,8 @@ from economy import bg3_style_quote
 from item_enrichment import positive_amount
 
 EQUIPMENT = 'https://www.dndbeyond.com/sources/dnd/br-2024/equipment'
+MAGIC_WEAPON_RULE = 'https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Weapon12or3'
+MAGIC_AMMUNITION_RULE = 'https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#Ammunition12or3'
 MAGIC = 'https://www.dndbeyond.com/sources/dnd/br-2024/magic-items#MagicItemValuesbyRarity'
 TRADE = 'https://bg3.wiki/wiki/Trading_and_item_pricing'
 MASTERWORK = 'https://www.d20srd.org/srd/skills/craft.htm#creatingMasterworkItems'
@@ -204,6 +206,7 @@ def price_catalog(items, curated=None):
     direct = {item['id']: source_price(item) for item in items}
     barding_prices = {}
     adapted_equipment_prices = {}
+    ammunition_prices = {}
     for item_id, entries in (curated or {}).items():
         variants = [entry for entry in entries if entry.get('profile_kind') == 'adapted-source-armor']
         item = by_id.get(item_id)
@@ -222,9 +225,32 @@ def price_catalog(items, curated=None):
                 if (rarity in RARITY and base and base['ruleset'] == 'dnd-2024'
                         and base['magic'] is False and base['mechanics'].get('armor')
                         and direct[base_id]):
+                    rarity_label = rarity.replace('-', ' ').title()
                     adapted_equipment_prices[item_id] = (
-                        direct[base_id][0], rarity, base['name'],
+                        direct[base_id][0] + Decimal(RARITY[rarity]), direct[base_id][0],
+                        f'{rarity_label} draft conversion plus 2024 {base["name"]} cost',
                     )
+        for entry in entries:
+            if not item or item['magic'] is False or entry.get('status') != 'published-reference':
+                continue
+            rules = entry.get('rules_source')
+            rarity = rarity_key({'rarity': entry['fields'].get('Rarity')})
+            if rarity not in ('uncommon', 'rare', 'very-rare'):
+                continue
+            if item['type'] == 'weapon' and rules == MAGIC_WEAPON_RULE:
+                base_id = entry.get('related_item', {}).get('id')
+                base = by_id.get(base_id)
+                if (base and base['source_id'] == 'open5e-srd-2024' and base['magic'] is False
+                        and base['mechanics'].get('weapon') and direct[base_id]):
+                    value = direct[base_id][0] + Decimal(RARITY[rarity])
+                    adapted_equipment_prices[item_id] = (
+                        value, direct[base_id][0], f'2024 {rarity.replace("-", " ").title()} guideline plus {base["name"]} cost',
+                    )
+            elif item['type'] == 'ammunition' and rules == MAGIC_AMMUNITION_RULE:
+                ammunition_prices[item_id] = (
+                    Decimal(RARITY[rarity]) / 20, 'magic-rarity', 'dnd-2024-appraisal',
+                    'One piece; ten pieces have the value of a potion of the same rarity',
+                )
         weapon_appraisals = [entry for entry in entries if entry.get('appraise_as_magic_weapon')]
         if weapon_appraisals:
             entry, = weapon_appraisals
@@ -237,7 +263,11 @@ def price_catalog(items, curated=None):
                     or not base or base['source_id'] != 'open5e-srd-2024'
                     or base['magic'] is not False or not base['mechanics'].get('weapon') or not direct[base_id]):
                 raise ValueError(f'Invalid 2024 magic weapon price basis for {item_id}')
-            adapted_equipment_prices[item_id] = (direct[base_id][0], rarity, base['name'])
+            rarity_label = rarity.replace('-', ' ').title()
+            adapted_equipment_prices[item_id] = (
+                direct[base_id][0] + Decimal(RARITY[rarity]), direct[base_id][0],
+                f'{rarity_label} draft conversion plus 2024 {base["name"]} cost',
+            )
         for entry in entries:
             if not entry.get('barding') or entry.get('profile_kind') != 'published-armor-mapping':
                 continue
@@ -326,15 +356,11 @@ def price_catalog(items, curated=None):
     for item in items:
         kind = normalized_type(item)
         item_id = item['id']
-        appraisal = direct[item_id] or barding_prices.get(item_id)
+        appraisal = direct[item_id] or barding_prices.get(item_id) or ammunition_prices.get(item_id)
         adapted_physical_cost = None
         if appraisal is None and item_id in adapted_equipment_prices:
-            adapted_physical_cost, rarity, base_name = adapted_equipment_prices[item_id]
-            rarity_label = rarity.replace('-', ' ').title()
-            appraisal = (
-                adapted_physical_cost + Decimal(RARITY[rarity]), 'magic-rarity', 'dnd-2024-appraisal',
-                f'{rarity_label} draft conversion plus 2024 {base_name} cost',
-            )
+            value, adapted_physical_cost, basis = adapted_equipment_prices[item_id]
+            appraisal = (value, 'magic-rarity', 'dnd-2024-appraisal', basis)
         value, method, economy, basis = appraisal or estimate(item, kind)
         ornament = None
         if direct[item['id']] is None and not construction(item):
@@ -379,7 +405,7 @@ def price_catalog(items, curated=None):
         records[item['id']] = {
             'base_cost_gp': money(value), 'base_buy_gp': money(buy), 'base_sell_gp': money(sell),
             'economy_id': economy, 'method': method, 'basis': basis, 'policy': policy,
-            'scope': scope_for(item, kind), 'appraisal_only': appraisal_only,
+            'scope': 'One piece of ammunition' if item_id in ammunition_prices and not direct[item_id] else scope_for(item, kind), 'appraisal_only': appraisal_only,
         }
         if ornament:
             records[item['id']]['decoration'] = ornament
