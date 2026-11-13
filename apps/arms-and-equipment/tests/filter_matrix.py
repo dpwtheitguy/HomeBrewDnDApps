@@ -1871,6 +1871,20 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Death House blades show equipment rules and relic context': '''(async () => {
+                    for (const [id, terms] of [
+                        ["b124e2b6a28c7044", ["Critical Hit", "shape-shifted creature", "Vex"]],
+                        ["8d9a0d787dd2d3e7", ["windmill cameo is decorative", "1d10 in two hands"]],
+                        ["934a4397428cb022", ["Cult relic", "improvised weapon rules"]],
+                        ["6567a01fdee69d94", ["Cult relic", "Open 2024 Dagger"]],
+                    ]) {
+                        inspect("curse-of-strahd-death-house:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) throw new Error(id);
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Bookmark shows its dagger profile and separate dawn powers': '''(async () => {
                     inspect("tomb-annihilation-reference:833477bad0bf5aff", grid.firstElementChild);
                     await itemDetails;

@@ -1,6 +1,92 @@
 {
   "schema_version": 1,
   "records": {
+    "curse-of-strahd-death-house:b124e2b6a28c7044": [
+      {
+        "label": "Published 2024 equipment rules · Cultist Silvered Shortsword",
+        "status": "published-reference",
+        "source": "https://media.wizards.com/2016/downloads/DND/Curse%20of%20Strahd%20Introductory%20Adventure.pdf",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier.",
+          "Range": "5 feet melee",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Mastery": "Vex",
+          "Properties": "Finesse, Light",
+          "Activation": "Make a melee attack.",
+          "Source locator": "Death House, PDF p. 10, area 25E.",
+          "Special powers": "In 2024 play, use the common Silvered Weapon rules. A Critical Hit against a shape-shifted creature adds one extra weapon damage die. No flat attack or damage bonus. The adventure values this sword at 110 gp."
+        },
+        "rules_source": "https://www.dndbeyond.com/posts/1842-10-more-new-magic-items-from-the-dungeon-masters",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 Shortsword"
+        }
+      }
+    ],
+    "curse-of-strahd-death-house:8d9a0d787dd2d3e7": [
+      {
+        "label": "Published 2024 equipment rules · Durst Windmill Cameo Longsword",
+        "status": "published-reference",
+        "source": "https://media.wizards.com/2016/downloads/DND/Curse%20of%20Strahd%20Introductory%20Adventure.pdf",
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier.",
+          "Range": "5 feet melee",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Mastery": "Sap",
+          "Properties": "Versatile (1d10)",
+          "Activation": "Make a melee attack.",
+          "Source locator": "Death House, PDF p. 4, area 2A.",
+          "Special powers": "The windmill cameo is decorative. Use the normal nonmagical Longsword rules."
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        }
+      }
+    ],
+    "curse-of-strahd-death-house:934a4397428cb022": [
+      {
+        "label": "Adventure relic · Human-Bone Ritual Knife",
+        "status": "source-reported",
+        "profile_kind": "documented-reference",
+        "source": "https://media.wizards.com/2016/downloads/DND/Curse%20of%20Strahd%20Introductory%20Adventure.pdf",
+        "source_locator": {
+          "pdf_page": 11,
+          "area": "35"
+        },
+        "fields": {
+          "Role": "Cult relic",
+          "Legacy source": "Death House, PDF p. 11, area 35.",
+          "Tabletop use": "The DM can use the 2024 improvised weapon rules if it is used to attack.",
+          "Combat rules": "No magical combat effect is described. The adventure treats the relic as worthless treasure."
+        }
+      }
+    ],
+    "curse-of-strahd-death-house:6567a01fdee69d94": [
+      {
+        "label": "Adventure relic · Rat-Skull Pommel Dagger",
+        "status": "source-reported",
+        "profile_kind": "documented-reference",
+        "source": "https://media.wizards.com/2016/downloads/DND/Curse%20of%20Strahd%20Introductory%20Adventure.pdf",
+        "source_locator": {
+          "pdf_page": 11,
+          "area": "35"
+        },
+        "fields": {
+          "Role": "Cult relic",
+          "Legacy source": "Death House, PDF p. 11, area 35.",
+          "Tabletop use": "If the DM determines the blade is serviceable, use the 2024 Dagger profile.",
+          "Combat rules": "No magical combat effect is described. The adventure treats the relic as worthless treasure."
+        },
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 Dagger"
+        }
+      }
+    ],
     "tomb-annihilation-reference:833477bad0bf5aff": [
       {
         "label": "D&D 2024 adaptation · Bookmark",
