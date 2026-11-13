@@ -1,6 +1,188 @@
 {
   "schema_version": 1,
   "records": {
+    "castles-drungar-local:275fc3eb588e8693": [
+      {
+        "label": "Published D&D 2024 equipment comparison · Flanawar Steel",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "enhancement_bonus": 1,
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-1",
+          "label": "Open 2024 Plate Armor +1"
+        },
+        "fields": {
+          "Armor class": "19",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "None",
+          "Special powers": "Gain +1 AC while wearing it.",
+          "Conversion notes": "Alfric’s dwarven steel is listed as +1 plate armor.",
+          "Rarity": "Rare",
+          "Source locator": "Castles boxed set, Thenol commander inventories, supplied PDF p. 141."
+        },
+        "source": "../../pdfs/tsr01056%20-%20Castles%20-%20%28Boxed%20Set%29%20-%20%28With%20Foldup%20Paper%20Models%29.pdf#page=141",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      }
+    ],
+    "castles-drungar-local:2bf1c9b3dc7f778f": [
+      {
+        "label": "Published D&D 2024 equipment comparison · Armor of the Faith",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "enhancement_bonus": 2,
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_studded-leather-armor-plus-2",
+          "label": "Open 2024 Studded Leather Armor +2"
+        },
+        "fields": {
+          "Armor class": "14 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "13 lb",
+          "Attunement": "None",
+          "Special powers": "Gain +2 AC while wearing it.",
+          "Conversion notes": "Halvas received this +2 studded leather upon becoming bishop.",
+          "Rarity": "Very Rare",
+          "Source locator": "Castles boxed set, Thenol commander inventories, supplied PDF p. 140."
+        },
+        "source": "../../pdfs/tsr01056%20-%20Castles%20-%20%28Boxed%20Set%29%20-%20%28With%20Foldup%20Paper%20Models%29.pdf#page=140",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      }
+    ],
+    "castles-drungar-local:86830b1c1cc3a095": [
+      {
+        "label": "Published D&D 2024 equipment comparison · Glaedrunshan Armor",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "enhancement_bonus": 2,
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor-plus-2",
+          "label": "Open 2024 Plate Armor +2"
+        },
+        "fields": {
+          "Armor class": "20",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "None",
+          "Special powers": "Gain +2 AC while wearing it.",
+          "Conversion notes": "The Glaedrun bodyguards of Aurim used this +2 full plate.",
+          "Rarity": "Very Rare",
+          "Source locator": "Castles boxed set, Drungar Campaign, commander inventories, supplied PDF p. 139."
+        },
+        "source": "../../pdfs/tsr01056%20-%20Castles%20-%20%28Boxed%20Set%29%20-%20%28With%20Foldup%20Paper%20Models%29.pdf#page=139",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      }
+    ],
+    "castles-drungar-local:2117b33ba42874e5": [
+      {
+        "label": "D&D 2024 adaptation · Hith’s Shield",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "enhancement_bonus": 3,
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "fields": {
+          "Armor class bonus": "+5",
+          "Training": "Shield training",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "Required",
+          "Special powers": "Gain +5 AC total while wielding the shield, including the normal +2 shield bonus. The source lists no magical compulsion or additional effect.",
+          "Conversion notes": "The legacy +5 enhancement is capped at +3 in 2024 play. The priests gave the shield to bind Rustan politically to the Temple of Hith.",
+          "Rarity": "Very Rare",
+          "Source locator": "Castles boxed set, Drungar Campaign, commander inventories, supplied PDF p. 139."
+        },
+        "source": "../../pdfs/tsr01056%20-%20Castles%20-%20%28Boxed%20Set%29%20-%20%28With%20Foldup%20Paper%20Models%29.pdf#page=139",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      }
+    ],
+    "castles-drungar-local:c3377e7c6f6e7771": [
+      {
+        "label": "D&D 2024 adaptation · Armor of Command",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "enhancement_bonus": 0,
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 Plate Armor"
+        },
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Special powers": "As a Magic action while wearing the armor, choose up to three allies within 60 feet that can hear you. Each can immediately repeat one saving throw against an ongoing effect imposing the Frightened condition. A success ends that condition for that ally. An ally whose effect has no repeat save can make a DC 15 Wisdom save for this purpose. Once per dawn.",
+          "Conversion notes": "Uses Plate Armor as a 2024 chassis. A limited rally adapts the BattleSystem command-distance and morale bonuses.",
+          "Rarity": "Rare",
+          "Source locator": "Castles boxed set, Magical Items, supplied PDF p. 132."
+        },
+        "source": "../../pdfs/tsr01056%20-%20Castles%20-%20%28Boxed%20Set%29%20-%20%28With%20Foldup%20Paper%20Models%29.pdf#page=132",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      }
+    ],
+    "castles-drungar-local:5a7010054fab63e1": [
+      {
+        "label": "D&D 2024 adaptation · Maaraka’s Gleaming Armor",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "enhancement_bonus": 0,
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 Plate Armor"
+        },
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Special powers": "As a Magic action while wearing the armor, choose up to three allies within 60 feet that can hear you. Each can immediately repeat one saving throw against an ongoing effect imposing the Frightened condition. A success ends that condition for that ally. An ally whose effect has no repeat save can make a DC 15 Wisdom save for this purpose. This heirloom has four charges remaining. Spend one per rally. They do not recharge.",
+          "Conversion notes": "Uses the same 2024 rally as Armor of Command. The encounter’s remaining charges are preserved. The plate chassis and nonrenewable use limit are conversion choices.",
+          "Rarity": "Rare",
+          "Source locator": "Castles boxed set, Drungar Campaign, commander inventories, supplied PDF p. 136."
+        },
+        "source": "../../pdfs/tsr01056%20-%20Castles%20-%20%28Boxed%20Set%29%20-%20%28With%20Foldup%20Paper%20Models%29.pdf#page=136",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      }
+    ],
+    "castles-local:05045e9f1e64a3b1": [
+      {
+        "label": "D&D 2024 adaptation · Darkhold Giant Contingent Plate",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "enhancement_bonus": 0,
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 Plate Armor"
+        },
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "Giant-sized. The 65 lb comparison applies to standard Plate Armor.",
+          "Attunement": "Required",
+          "Special powers": "The suit fits a Huge giant. Once per dawn, when you roll Initiative while wearing it, choose creatures within 30 feet that can see you. Each makes a DC 15 Wisdom save or becomes Frightened of you until the end of its next turn. End the effect early if a member of your unit drops to 0 Hit Points.",
+          "Conversion notes": "The published Plate Armor profile applies only to a wearer the giant-sized harness fits. The fear effect adapts BattleSystem awe for an encounter.",
+          "Rarity": "Rare",
+          "Source locator": "Castles boxed set, The Giant Contingent, supplied PDF p. 18."
+        },
+        "source": "../../pdfs/tsr01056%20-%20Castles%20-%20%28Boxed%20Set%29%20-%20%28With%20Foldup%20Paper%20Models%29.pdf#page=18",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      }
+    ],
     "hollow-world-local:3b585ca8ee63c815": [
       {
         "label": "D&D 2024 adaptation · Kubitt Miniature Battle Axe",

@@ -1871,6 +1871,23 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Castles armor shows enhancements and distinct rally limits': '''(async () => {
+                    for (const [id, terms] of [
+                        ["castles-drungar-local:275fc3eb588e8693", ["Armor class19"]],
+                        ["castles-drungar-local:2bf1c9b3dc7f778f", ["Armor class14 + Dex modifier"]],
+                        ["castles-drungar-local:86830b1c1cc3a095", ["Armor class20"]],
+                        ["castles-drungar-local:2117b33ba42874e5", ["Armor class bonus+5"]],
+                        ["castles-drungar-local:c3377e7c6f6e7771", ["three allies", "Once per dawn"]],
+                        ["castles-drungar-local:5a7010054fab63e1", ["four charges remaining", "do not recharge"]],
+                        ["castles-local:05045e9f1e64a3b1", ["Huge giant", "drops to 0 Hit Points"]],
+                    ]) {
+                        inspect(id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) throw new Error(id);
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Hollow World weapons show miniature dice and named powers': '''(async () => {
                     for (const [id, terms] of [
                         ["6455d5008ad4be07", ["1d4 Slashing", "normal sword row"]],

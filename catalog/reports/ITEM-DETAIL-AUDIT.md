@@ -9,7 +9,7 @@ This is a field coverage scan. A source-text or location lead still requires rev
 | Bonuses | 453 | 236 | 1,222 | 517 | 32,117 | 0 |
 | Encounters | 2 | 0 | 2 | 4,909 | 29,632 | 0 |
 | Crafting | 7 | 214 | 14 | 131 | 34,179 | 0 |
-| Special Powers | 1,576 | 222 | 1,738 | 2,658 | 28,351 | 0 |
+| Special Powers | 1,576 | 225 | 1,742 | 2,658 | 28,344 | 0 |
 | History | 13 | 0 | 22 | 0 | 34,510 | 0 |
 | Range | 952 | 302 | 1,202 | 650 | 31,439 | 0 |
 | Radius | 159 | 20 | 9 | 335 | 34,020 | 2 |
@@ -17,8 +17,8 @@ This is a field coverage scan. A source-text or location lead still requires rev
 | Activation | 362 | 288 | 1,276 | 626 | 31,993 | 0 |
 | Duration | 246 | 30 | 9 | 666 | 33,594 | 0 |
 | Saving Throw | 39 | 49 | 29 | 520 | 33,906 | 2 |
-| Attunement | 4,380 | 309 | 1,186 | 0 | 28,650 | 20 |
-| Weight | 6,075 | 182 | 1,233 | 0 | 27,055 | 0 |
+| Attunement | 4,380 | 312 | 1,190 | 0 | 28,643 | 20 |
+| Weight | 6,075 | 185 | 1,237 | 0 | 27,048 | 0 |
 | Base Price | 9,369 | 0 | 25,176 | 0 | 0 | 0 |
 | Provenance | 34,545 | 0 | 0 | 0 | 0 | 0 |
 
