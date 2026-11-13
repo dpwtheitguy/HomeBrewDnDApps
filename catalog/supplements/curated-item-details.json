@@ -1,6 +1,168 @@
 {
   "schema_version": 1,
   "records": {
+    "da3-city-of-the-gods-reference:9b17208ecdf4fbd7": [
+      {
+        "label": "D&D 2024 adaptation · Battle Armour",
+        "status": "original-draft",
+        "source": "https://www.pandius.com/aliendev.html",
+        "profile_kind": "adapted-protective-implement",
+        "fields": {
+          "Source locator": "DA3 City of the Gods, Alien Devices, Battle Armour.",
+          "Armor class": "18 while powered",
+          "Training": "No armor training. Use the suit as its own AC formula.",
+          "Use as armor": "While worn and powered, use AC 18 without adding Dexterity. This AC formula cannot be combined with another worn armor formula. A wielded Shield adds its normal bonus.",
+          "Special powers": "A repulsion field activates automatically when the powered suit is worn. The field provides its AC without a Strength minimum or Stealth disadvantage.",
+          "Power pack": "A new pack powers the suit for 4 months. A found pack has 1d4 months left. A depleted suit provides no AC formula. Replace its pack with a Utilize action.",
+          "Attunement": "None",
+          "Weight": "Negligible for encumbrance, per the adventure.",
+          "Conversion notes": "AC 18 is a 2024 comparison for the source’s descending AC 0. The suits use separate power limits. The original penalty for unfamiliar pack replacement is omitted."
+        }
+      }
+    ],
+    "da3-city-of-the-gods-reference:058cefefc8fdc769": [
+      {
+        "label": "D&D 2024 adaptation · Pressure Suit",
+        "status": "original-draft",
+        "source": "https://www.pandius.com/aliendev.html",
+        "profile_kind": "adapted-protective-implement",
+        "fields": {
+          "Source locator": "DA3 City of the Gods, Alien Devices, Pressure Suit.",
+          "Armor class": "18 while powered",
+          "Training": "No armor training. Use the suit as its own AC formula.",
+          "Use as armor": "While worn and powered, use AC 18 without adding Dexterity. This AC formula cannot be combined with another worn armor formula. A wielded Shield adds its normal bonus.",
+          "Special powers": "The sealed suit supplies breathable air and protects against environmental heat, cold, and vacuum. Fire and Cold damage from attacks or spells resolve normally. A functioning suit also blocks the DA3 Neuron Grenade’s contact gas.",
+          "Power pack": "12 hours of use. To refill, replace the standard pack and connect the collar to a Beagle airlock refill nozzle. Without a refill the suit has no protective field or atmospheric envelope.",
+          "Attunement": "None",
+          "Weight": "Negligible for encumbrance, per the adventure.",
+          "Conversion notes": "AC 18 is a 2024 comparison for the source’s descending AC 0. The suits use separate power limits. The original penalty for unfamiliar pack replacement is omitted."
+        }
+      }
+    ],
+    "da3-city-of-the-gods-reference:e07c6dfb1b1e4637": [
+      {
+        "label": "D&D 2024 adaptation · Hand Blaster",
+        "status": "original-draft",
+        "source": "https://www.pandius.com/aliendev.html",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Source locator": "DA3 City of the Gods, Alien Devices, Hand Blaster.",
+          "Damage": "6d6 Fire on a failed save or half on a success.",
+          "Range": "240 feet",
+          "Activation": "As an action expend one charge and choose a visible point within range. Each creature in a 20-foot-radius Sphere centered there makes a DC 15 Dexterity save.",
+          "Attack bonus": "No attack roll. Use the DC under Activation.",
+          "Conversion notes": "Preserves the legacy fireball-equivalent damage, range, and capacity. Area and DC use 2024 conventions.",
+          "Category": "Powered ranged device",
+          "Mastery": "None",
+          "Power pack": "24 uses when new. A found pack has 4d4 + 4 uses. Replace with a Utilize action."
+        }
+      }
+    ],
+    "da3-city-of-the-gods-reference:61c86f9515956735": [
+      {
+        "label": "D&D 2024 adaptation · Light Sabre",
+        "status": "original-draft",
+        "source": "https://www.pandius.com/aliendev.html",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Source locator": "DA3 City of the Gods, Alien Devices, Light Sabre.",
+          "Damage": "1d8 Radiant (1d10 in two hands) + Strength modifier + 3.",
+          "Range": "5 feet melee",
+          "Activation": "Activate or deactivate the beam as a Bonus Action. Make a melee attack with the active blade.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Conversion notes": "Uses the 2024 Longsword profile, Radiant damage for the beam, and a +3 cap in place of the original +4.",
+          "Category": "Martial melee weapon",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Power pack": "12 minutes of continuous use. Replace with a Utilize action. An inactive hilt is an improvised weapon."
+        }
+      }
+    ],
+    "da3-city-of-the-gods-reference:d569ad629209c807": [
+      {
+        "label": "D&D 2024 adaptation · Needler",
+        "status": "original-draft",
+        "source": "https://www.pandius.com/aliendev.html",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Source locator": "DA3 City of the Gods, Alien Devices, Needler.",
+          "Damage": "1d2 Piercing + Dexterity modifier. Roll a d4 and halve it, rounding up, for the damage die.",
+          "Range": "30/60 feet",
+          "Activation": "Make a ranged weapon attack and expend one needle and one charge.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Conversion notes": "Retains the low-damage shot and heavy-armor limitation. A short save-based condition replaces the hour-long paralysis.",
+          "Category": "Martial ranged weapon",
+          "Properties": "Ammunition (needle), Reload (24)",
+          "Mastery": "Vex",
+          "Paralysis": "On a hit against a creature, it makes a DC 14 Constitution save. On a failure it is Paralyzed until the end of its next turn. A target wearing Heavy Armor gives the attack Disadvantage.",
+          "Power pack": "A new power pack and cartridge each supply 24 uses. Replace either with a Utilize action."
+        }
+      }
+    ],
+    "da3-city-of-the-gods-reference:ecbd820e70e26141": [
+      {
+        "label": "D&D 2024 adaptation · Riot Stick",
+        "status": "original-draft",
+        "source": "https://www.pandius.com/aliendev.html",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Source locator": "DA3 City of the Gods, Alien Devices, Riot Stick.",
+          "Damage": "1d4 Lightning at low output or 2d6 Lightning at high output, plus Strength modifier.",
+          "Range": "5 feet melee",
+          "Activation": "While wearing its insulated gloves, set low or high output as a Bonus Action. Spend one charge per melee attack.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Conversion notes": "Condenses the ten legacy output settings into two bounded attacks. Retains the source’s power capacity.",
+          "Category": "Simple melee weapon",
+          "Properties": "Light",
+          "Mastery": "Sap",
+          "Power pack": "24 uses when new. A found pack has 4d4 + 4 uses. Replace with a Utilize action."
+        }
+      }
+    ],
+    "da3-city-of-the-gods-reference:e0e2349bf59417fe": [
+      {
+        "label": "D&D 2024 adaptation · Grenade Launcher",
+        "status": "original-draft",
+        "source": "https://www.pandius.com/aliendev.html",
+        "profile_kind": "custom-2024-draft",
+        "fields": {
+          "Source locator": "DA3 City of the Gods, Alien Devices, Grenade Launcher.",
+          "Damage": "Depends on the loaded DA3 Grenade.",
+          "Range": "120/300 feet",
+          "Activation": "As an action arm and fire one grenade at a visible point within range. Spend one charge from each pack. Beyond 120 feet affected creatures have Advantage on saves against the payload.",
+          "Attack bonus": "No attack roll. Use the payload saving throw.",
+          "Conversion notes": "Retains the original range bands and pack capacity. Save Advantage models the legacy long-range accuracy penalty.",
+          "Category": "Powered launcher",
+          "Properties": "Ammunition (DA3 Grenade), Reload (24)",
+          "Mastery": "None",
+          "Power pack": "A new power pack and propellant pack each supply 24 uses. Replace either with a Utilize action.",
+          "Ammunition": "One DA3 Grenade per launch. Use the payload’s damage, radius, and saving throw."
+        },
+        "related_item": {
+          "id": "da3-city-of-the-gods-reference:25537b1d98125f0c",
+          "label": "Open DA3 Grenade payloads"
+        }
+      }
+    ],
+    "da3-city-of-the-gods-reference:25537b1d98125f0c": [
+      {
+        "label": "D&D 2024 adaptation · Grenade",
+        "status": "original-draft",
+        "source": "https://www.pandius.com/aliendev.html",
+        "fields": {
+          "Source locator": "DA3 City of the Gods, Alien Devices, Grenade (Death Egg).",
+          "Activation": "As an action throw one grenade at a visible point within 60 feet or fire it using the DA3 launcher. It resolves on impact and is consumed.",
+          "Saving throws": "Each affected creature saves against DC 15 unless the payload says otherwise.",
+          "Gamma": "30-foot-radius Sphere. Constitution save or 8d6 Radiant damage. No damage on success.",
+          "Light": "Bright Light in a 30-foot radius for 10 minutes. Creatures looking at the impact point make a Constitution save or are Blinded until the end of their next turn.",
+          "Opacity": "Creates magical Darkness in a 30-foot-radius Sphere for 10 minutes.",
+          "Sonic": "5-foot-radius Sphere. Constitution save or 12d4 Thunder damage and Paralyzed until the end of the target’s next turn. No damage on success.",
+          "Neuron": "30-foot-radius Sphere. Constitution save or 1d4 Poison damage and Paralyzed until the end of the target’s next turn. A powered Pressure Suit blocks the effect. Constructs are immune.",
+          "Tangler": "10-foot-radius Sphere. Dexterity save or 1d4 Slashing damage and Restrained. A restrained creature or adjacent ally can use an action to make a DC 15 Strength (Athletics) check to free it, or cut the web (AC 10, 10 HP, vulnerable to Acid).",
+          "Conversion notes": "Preserves the six source payload roles and most radii. Shorter control durations, DCs, and impact timing are authored."
+        }
+      }
+    ],
     "imperial-military-guide-local:c7d0d248683d4672": [
       {
         "label": "Published D&D 2024 equipment comparison · Hattian Legion Banded Mail",

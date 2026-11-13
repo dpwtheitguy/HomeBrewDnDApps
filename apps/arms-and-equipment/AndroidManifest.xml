@@ -1,4 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.completeguide.armory" android:versionCode="257" android:versionName="0.4.251">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.completeguide.armory" android:versionCode="258" android:versionName="0.4.252">
     <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="34"/>
     <application android:label="Kahn’s Complete Guide to Arms and Equipment" android:theme="@style/ArmoryTheme" android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher" android:allowBackup="false" android:usesCleartextTraffic="false">
         <provider android:name=".EntryPdfProvider" android:authorities="org.completeguide.armory.entry-pdf"

@@ -1871,6 +1871,24 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'DA3 equipment shows separate power and payload rules': '''(async () => {
+                    for (const [id, terms] of [
+                        ["9b17208ecdf4fbd7", ["AC 18", "4 months"]],
+                        ["058cefefc8fdc769", ["12 hours", "airlock refill nozzle"]],
+                        ["e0e2349bf59417fe", ["120/300 feet", "Open DA3 Grenade payloads"]],
+                        ["e07c6dfb1b1e4637", ["6d6 Fire", "20-foot-radius Sphere"]],
+                        ["61c86f9515956735", ["12 minutes", "Radiant"]],
+                        ["d569ad629209c807", ["24 uses", "Heavy Armor"]],
+                        ["ecbd820e70e26141", ["low output", "high output"]],
+                        ["25537b1d98125f0c", ["Gamma", "Opacity", "Tangler", "Pressure Suit"]],
+                    ]) {
+                        inspect("da3-city-of-the-gods-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) throw new Error(id);
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Thyatian legion equipment shows formation rules and published profiles': '''(async () => {
                     for (const [id, term] of [
                         ["c7d0d248683d4672", "Armor class17"],
