@@ -51,6 +51,19 @@ INLINE_FEATURES = {
 }
 
 
+# Condition pages whose descriptions fall outside the structured template fields.
+REVIEWED_CONDITIONS = {
+    'Momentum': (444042,
+        'Gain 5 ft of movement speed per remaining turn, up to five turns. Reapplication adds duration and it ticks down at the end of each turn. In the current game, Slowed ends it early.'),
+    'Moonshield': (444051,
+        'The light from a Moonlantern or Shadow Lantern protects affected creatures from the Shadow Curse.'),
+    'Madness': (443956,
+        'The affected creature becomes hostile to nearby creatures. The game AI takes control of affected party members.'),
+    'Ironwood Harmony': (443867,
+        'The club deals an extra 1d4 Bludgeoning damage while imbued with Shillelagh.'),
+}
+
+
 def simple(value):
     value = re.sub(r'\[\[([^]|]+)\|([^]]+)]]', r'\2', value)
     value = re.sub(r'\[\[([^]]+)]]', r'\1', value)
@@ -141,6 +154,9 @@ def main():
                 entry = {'title': title, 'revision': revision['revid'], 'facts': facts, 'extra_damage': extra_damage}
                 if title in summaries:
                     entry['summary'] = summaries[title]
+                reviewed = REVIEWED_CONDITIONS.get(title)
+                if reviewed and revision['revid'] == reviewed[0]:
+                    entry.setdefault('summary', reviewed[1])
                 features[title] = entry
                 for alias, target in aliases.items():
                     if target == title:

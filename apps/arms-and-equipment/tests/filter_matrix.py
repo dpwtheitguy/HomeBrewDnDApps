@@ -4431,6 +4431,15 @@ def main():
                     dismissInspection(false);
                     return !hasArt;
                 })()''',
+                'BG3 Ironwood Club shows its native Shillelagh trigger': '''(async () => {
+                    inspect("bg3-wiki:10547", grid.firstElementChild);
+                    await Promise.all([itemDetails, bg3WeaponRules]);
+                    const effect = Array.from(inspection.querySelectorAll(".weapon-feature")).find(detail =>
+                        detail.querySelector("summary").textContent === "Ironwood Harmony");
+                    return effect && effect.textContent.includes("1d4 Bludgeoning")
+                        && effect.textContent.includes("Shillelagh")
+                        && effect.querySelector("a").href.endsWith("oldid=443867");
+                })()''',
                 'BG3 Bloodthirst shows native damage and ability links': '''(async () => {
                     inspect("bg3-wiki:9688", grid.firstElementChild);
                     await Promise.all([itemDetails, bg3WeaponRules]);

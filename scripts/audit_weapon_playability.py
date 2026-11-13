@@ -112,8 +112,11 @@ def bg3_fields(entry, features, availability, errors, gaps):
             gaps.append(f'BG3 variant {index} has an unparsed special effect')
         for titles in (variant.get('features') or {}).values():
             for title in titles:
-                if title not in features:
+                feature = features.get(title)
+                if feature is None:
                     gaps.append(f'BG3 feature lacks a structured rule record: {title}')
+                elif not any(feature.get(key) for key in ('summary', 'facts', 'extra_damage')):
+                    gaps.append(f'BG3 feature has no in-app rules: {title}')
         for key, value in (
             ('damage', stats.get('damage')), ('damage_type', stats.get('damage type')),
             ('training', stats.get('category') or restriction), ('attack_bonus', stats.get('enchantment')),
