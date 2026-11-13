@@ -1,6 +1,202 @@
 {
   "schema_version": 1,
   "records": {
+    "dragons-den-reference:325f7a6101cbfa29": [
+      {
+        "label": "D&D 2024 adaptation · Anandak’s Dragon-Slaying Sword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.scribd.com/document/813593876/Tsr-01073-The-Dragon-s-Den-3-league-of-the-serpent",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "None",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Against a Dragon, the enhancement to attack and damage rolls is +3 instead of +1.",
+          "Conversion notes": "Uses a Longsword as the 2024 base because the hoard lists a sword without a subtype. Retains both source bonuses.",
+          "Source locator": "League of the Serpent, Anandak’s treasure."
+        },
+        "appraise_as_magic_weapon": true
+      }
+    ],
+    "dragons-den-reference:665ef7c23191e687": [
+      {
+        "label": "D&D 2024 adaptation · Anandak’s Healing Sword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.scribd.com/document/813593876/Tsr-01073-The-Dragon-s-Den-3-league-of-the-serpent",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Once per dawn, while holding the sword, use a Magic action to cast Cure Wounds at level 1 without components. Touch one creature to restore 2d8 + 2 Hit Points.",
+          "Conversion notes": "Cure Wounds replaces Cure Light Wounds. The 2024 Longsword base, fixed spell modifier, and attunement are conversion choices.",
+          "Source locator": "League of the Serpent, Anandak’s treasure."
+        },
+        "appraise_as_magic_weapon": true
+      }
+    ],
+    "dragons-den-reference:7afca1d87449ad16": [
+      {
+        "label": "D&D 2024 adaptation · Chestnut Staff of Magic Detection",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.scribd.com/document/813593773/Tsr-01073-The-Dragon-s-Den-1-The-Wild-Dragon-s-Den",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "The staff has 3 charges. While holding it, spend 1 charge as a Magic action to cast Detect Magic without components. It regains 1d3 expended charges each dawn.",
+          "Conversion notes": "The adventure names the power without giving a charge schedule. Uses the 2024 Detect Magic spell and the Wand of Magic Detection’s charge pattern.",
+          "Source locator": "The Wild Dragon’s Den, p. 8, Location 7."
+        },
+        "appraise_as_magic_weapon": true
+      }
+    ],
+    "dragons-den-reference:1f483091ec36c29e": [
+      {
+        "label": "D&D 2024 adaptation · Hakra’s Sword of Object Location",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.scribd.com/document/813593773/Tsr-01073-The-Dragon-s-Den-1-The-Wild-Dragon-s-Den",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Once per dawn while holding the sword, use a Magic action to cast Locate Object without components. Use the spell’s 1,000-foot range, Concentration, and lead barrier restriction.",
+          "Conversion notes": "Uses the indexed +1 and object-location effect. The Longsword base, attunement, and daily use are conversion choices.",
+          "Source locator": "The Wild Dragon’s Den, Hakra’s treasure, indexed adventure entry."
+        },
+        "appraise_as_magic_weapon": true
+      }
+    ],
+    "dragons-den-reference:d9f23709c412513a": [
+      {
+        "label": "D&D 2024 adaptation · Petrified Snake Staff",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.scribd.com/document/813593773/Tsr-01073-The-Dragon-s-Den-1-The-Wild-Dragon-s-Den",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required by a Cleric",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Once per dawn on a hit against a Medium or smaller creature, force a DC 15 Dexterity save. On a failure the staff turns into a snake and the target is Restrained for up to 1 minute. The target or an adjacent creature can use an action to repeat the save. You can end the effect as a Bonus Action within 60 feet.",
+          "Conversion notes": "The adventure identifies a Snake Staff. Uses the same 2024 conversion as the catalog’s Rules Cyclopedia Snake Staff.",
+          "Source locator": "The Wild Dragon’s Den, Location 21, wall-niche treasure, and Rules Cyclopedia p. 237.",
+          "Snake form": "The snake shares the target’s space, has AC 15 and 20 HP, and takes no actions. At 0 HP it dies, ends the restraint, and becomes nonmagical. Otherwise it returns to staff form in the target’s space and fully heals when the effect ends.",
+          "Legacy rules": "https://www.americanroads.us/DandD/DnD_Rules_Cyclopedia.pdf#page=237"
+        },
+        "appraise_as_magic_weapon": true
+      }
+    ],
+    "dragons-den-reference:8ca0b62c226ca4e8": [
+      {
+        "label": "Published 2024 counterpart · Club +1",
+        "status": "published-reference",
+        "source": "https://www.scribd.com/document/813593773/Tsr-01073-The-Dragon-s-Den-1-The-Wild-Dragon-s-Den",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Bludgeoning + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Light",
+          "Mastery": "Slow",
+          "Weight": "2 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "The stones, feathers, bones, and carvings identify the chieftain’s club. They add no combat effect beyond its +1 enhancement.",
+          "Conversion notes": "Uses the published 2024 Weapon +1 enhancement and Club profile.",
+          "Source locator": "The Wild Dragon’s Den, p. 8, Location 7."
+        }
+      }
+    ],
+    "dragons-den-reference:8cf7847be386dfed": [
+      {
+        "label": "D&D 2024 adaptation · Wild Dragon Den Rusted Dagger Blade",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://www.scribd.com/document/813593773/Tsr-01073-The-Dragon-s-Den-1-The-Wild-Dragon-s-Den",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee or 20/60 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb",
+          "Rarity": "Uncommon",
+          "Attunement": "None",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "The blade lacks a handle when found. A weaponsmith can refit, clean, and sharpen it for 2 gp, the 2024 price of a Dagger. Use the listed +1 Dagger profile once restored. Before then, the DM can treat the blade as an improvised weapon.",
+          "Conversion notes": "Preserves the source’s restoration requirement and price benchmark. The listed damage and mastery apply to the restored form.",
+          "Source locator": "The Wild Dragon’s Den, p. 7, treasure before Location 7."
+        },
+        "appraise_as_magic_weapon": true
+      }
+    ],
     "curse-of-strahd-death-house:b124e2b6a28c7044": [
       {
         "label": "Published 2024 equipment rules · Cultist Silvered Shortsword",

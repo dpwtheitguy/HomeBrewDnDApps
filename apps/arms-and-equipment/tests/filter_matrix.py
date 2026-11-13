@@ -1871,6 +1871,23 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Dragon’s Den weapons preserve distinct source powers': '''(async () => {
+                    for (const [id, term] of [
+                        ["325f7a6101cbfa29", "+3 instead of +1"],
+                        ["665ef7c23191e687", "2d8 + 2 Hit Points"],
+                        ["7afca1d87449ad16", "1d3 expended charges"],
+                        ["1f483091ec36c29e", "lead barrier"],
+                        ["d9f23709c412513a", "AC 15 and 20 HP"],
+                        ["8ca0b62c226ca4e8", "Club +1"],
+                        ["8cf7847be386dfed", "once restored"],
+                    ]) {
+                        inspect("dragons-den-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!inspection.textContent.includes(term)) throw new Error(id + " missing " + term);
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Death House blades show equipment rules and relic context': '''(async () => {
                     for (const [id, terms] of [
                         ["b124e2b6a28c7044", ["Critical Hit", "shape-shifted creature", "Vex"]],
