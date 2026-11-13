@@ -1871,6 +1871,29 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Savage Coast regional weapons preserve combat distinctions': '''(async () => {
+                    for (const [id, term] of [
+                        ["7174ad037af19bd9", "10-foot-reach"],
+                        ["7c3f2a4bb44f46c4", "loses Cleave"],
+                        ["172babc724c9faa3", "60/180 feet"],
+                        ["a2a5c5980360390e", "Versatile (1d6)"],
+                        ["2db5fa90716f27d9", "10/40 feet"],
+                        ["0fcd4e183478f897", "only while flying"],
+                        ["d7fd47db96129a9c", "1d8 Slashing"],
+                        ["ca6fc5b836852b0e", "add +1 to that attack roll"],
+                        ["56b868783bdabcdc", "Versatile (2d6)"],
+                        ["751dd2c4507f4216", "Honorbound"],
+                        ["2c0e20898c08c7ff", "Reaction to add +1 AC"],
+                        ["d7b3e29a9062062a", "Reaction to add +1 AC"],
+                        ["2f0d52d4207bef4c", "Ring Mail, Chain Mail"],
+                    ]) {
+                        inspect("savage-coast-local:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!inspection.textContent.includes(term)) throw new Error(id + " missing " + term);
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Savage Coast armor shows chain and plate with distinct effects': '''(async () => {
                     inspect("savage-coast-local:0581d35626873307", grid.firstElementChild);
                     await itemDetails;

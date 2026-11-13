@@ -1,6 +1,344 @@
 {
   "schema_version": 1,
   "records": {
+    "savage-coast-local:7174ad037af19bd9": [
+      {
+        "label": "D&D 2024 adaptation · Bok",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/TSR2521-SCS2.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_javelin",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Piercing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee or 30/120 feet thrown",
+          "Properties": "Thrown",
+          "Mastery": "Slow",
+          "Activation": "Make a weapon attack.",
+          "Weight": "2 lb",
+          "Special powers": "A Small wielder can grip it in two hands as a 10-foot-reach melee weapon. In that grip it cannot be thrown.",
+          "Source locator": "Savage Coast Campaign Book, Weapon Descriptions, p. 116 (supplied PDF p. 117).",
+          "Conversion notes": "Converts the regional weapon’s form and use to 2024 combat. Mastery and any action or reaction limits are authored. Damage uses one profile across creature sizes."
+        }
+      }
+    ],
+    "savage-coast-local:7c3f2a4bb44f46c4": [
+      {
+        "label": "D&D 2024 adaptation · Brol",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/TSR2521-SCS2.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greataxe",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Heavy, Two-Handed",
+          "Mastery": "Cleave",
+          "Activation": "Make a weapon attack.",
+          "Weight": "10 lb",
+          "Special powers": "A stone Brol can chip on a natural 1. It remains usable but loses Cleave until repaired with mason’s tools during a Short Rest. A metal or magically shaped head ignores this rule.",
+          "Source locator": "Savage Coast Campaign Book, Weapon Descriptions, p. 116 (supplied PDF p. 117).",
+          "Conversion notes": "Converts the regional weapon’s form and use to 2024 combat. Mastery and any action or reaction limits are authored. Damage uses one profile across creature sizes."
+        }
+      }
+    ],
+    "savage-coast-local:172babc724c9faa3": [
+      {
+        "label": "D&D 2024 adaptation · Cayma Crossbow",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/TSR2521-SCS2.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_light-crossbow",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Simple ranged weapon",
+          "Damage": "1d4 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "60/180 feet",
+          "Properties": "Ammunition (light crossbow bolt), Loading, Two-Handed",
+          "Mastery": "Slow",
+          "Activation": "Make a weapon attack.",
+          "Weight": "7 lb",
+          "Special powers": "A Cayma can operate the winding mechanism using the normal Loading property. The special mechanism does not allow extra shots per action.",
+          "Source locator": "Savage Coast Campaign Book, Weapon Descriptions, p. 116 (supplied PDF p. 117).",
+          "Conversion notes": "Converts the regional weapon’s form and use to 2024 combat. Mastery and any action or reaction limits are authored. Damage uses one profile across creature sizes. Uses the source’s indoor distance bands in feet as a single encounter-scale profile."
+        }
+      }
+    ],
+    "savage-coast-local:a2a5c5980360390e": [
+      {
+        "label": "D&D 2024 adaptation · Grooka",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/TSR2521-SCS2.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Versatile (1d6)",
+          "Mastery": "Nick",
+          "Activation": "Make a weapon attack.",
+          "Weight": "2 lb",
+          "Special powers": "A Small wielder can use the larger damage die with two hands. A larger wielder uses the one-handed die.",
+          "Source locator": "Savage Coast Campaign Book, Weapon Descriptions, p. 118 (supplied PDF p. 119).",
+          "Conversion notes": "Converts the regional weapon’s form and use to 2024 combat. Mastery and any action or reaction limits are authored. Damage uses one profile across creature sizes."
+        }
+      }
+    ],
+    "savage-coast-local:2db5fa90716f27d9": [
+      {
+        "label": "D&D 2024 adaptation · Hessta",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/TSR2521-SCS2.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dart",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee or 10/40 feet thrown",
+          "Properties": "Finesse, Thrown",
+          "Mastery": "Vex",
+          "Activation": "Make a weapon attack.",
+          "Weight": "5 lb",
+          "Special powers": "The barbed dart can be thrust in melee or thrown. Both attacks use the same damage die.",
+          "Source locator": "Savage Coast Campaign Book, Weapon Descriptions, p. 117 (supplied PDF p. 118).",
+          "Conversion notes": "Converts the regional weapon’s form and use to 2024 combat. Mastery and any action or reaction limits are authored. Damage uses one profile across creature sizes. Uses the source’s indoor distance bands in feet as a single encounter-scale profile."
+        }
+      }
+    ],
+    "savage-coast-local:0fcd4e183478f897": [
+      {
+        "label": "D&D 2024 adaptation · Flight Lance",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/TSR2521-SCS2.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_lance",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 + 1 Piercing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee or 10/30 feet thrown",
+          "Properties": "Reach, Two-Handed, Thrown",
+          "Mastery": "Topple",
+          "Activation": "Make a weapon attack.",
+          "Weight": "5 lb",
+          "Special powers": "You can throw it only while flying. Once per turn, after flying at least 20 feet straight toward a target, your first melee hit against it with the lance that turn deals an extra 1d6 Piercing.",
+          "Source locator": "Savage Coast Campaign Book, Weapon Descriptions, p. 117 (supplied PDF p. 118).",
+          "Conversion notes": "Converts the regional weapon’s form and use to 2024 combat. Mastery and any action or reaction limits are authored. Damage uses one profile across creature sizes. Uses the source’s indoor distance bands in feet as a single encounter-scale profile."
+        }
+      }
+    ],
+    "savage-coast-local:d7fd47db96129a9c": [
+      {
+        "label": "D&D 2024 adaptation · Maga",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/TSR2521-SCS2.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d8 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Activation": "Make a weapon attack.",
+          "Weight": "6 lb",
+          "Special powers": "The Gurrash club’s embedded edges deal Slashing damage. The obsidian version is a status object valued at three times the ordinary 25 gp price in the source.",
+          "Source locator": "Savage Coast Campaign Book, Weapon Descriptions, p. 118 (supplied PDF p. 119).",
+          "Conversion notes": "Converts the regional weapon’s form and use to 2024 combat. Mastery and any action or reaction limits are authored. Damage uses one profile across creature sizes."
+        }
+      }
+    ],
+    "savage-coast-local:ca6fc5b836852b0e": [
+      {
+        "label": "D&D 2024 adaptation · Main-Gauche",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/TSR2521-SCS2.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Activation": "Make a weapon attack.",
+          "Weight": "2 lb",
+          "Special powers": "When you use a feature that attempts to disarm a creature on a hit, add +1 to that attack roll. The weapon itself grants no disarm action.",
+          "Source locator": "Savage Coast Campaign Book, Weapon Descriptions, p. 118 (supplied PDF p. 119).",
+          "Conversion notes": "Converts the regional weapon’s form and use to 2024 combat. Mastery and any action or reaction limits are authored. Damage uses one profile across creature sizes."
+        }
+      }
+    ],
+    "savage-coast-local:56b868783bdabcdc": [
+      {
+        "label": "D&D 2024 adaptation · Matara",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/TSR2521-SCS2.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (2d6)",
+          "Mastery": "Sap",
+          "Activation": "Make a weapon attack.",
+          "Weight": "6 lb",
+          "Special powers": "The Bellayne blade deals 2d6 Slashing plus your Strength modifier in two hands. The paired Mishiya carries no automatic combat bonus.",
+          "Source locator": "Savage Coast Campaign Book, Weapon Descriptions, p. 118 (supplied PDF p. 119).",
+          "Conversion notes": "Converts the regional weapon’s form and use to 2024 combat. Mastery and any action or reaction limits are authored. Damage uses one profile across creature sizes."
+        }
+      }
+    ],
+    "savage-coast-local:751dd2c4507f4216": [
+      {
+        "label": "D&D 2024 adaptation · Mishiya",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/TSR2521-SCS2.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scimitar",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse",
+          "Mastery": "Vex",
+          "Activation": "Make a weapon attack.",
+          "Weight": "3 lb",
+          "Special powers": "The shorter Bellayne blade is traditionally carried with a Matara by the Honorbound. Use the normal rules for attacking with multiple weapons.",
+          "Source locator": "Savage Coast Campaign Book, Weapon Descriptions, p. 118 (supplied PDF p. 119).",
+          "Conversion notes": "Converts the regional weapon’s form and use to 2024 combat. Mastery and any action or reaction limits are authored. Damage uses one profile across creature sizes."
+        }
+      }
+    ],
+    "savage-coast-local:2c0e20898c08c7ff": [
+      {
+        "label": "D&D 2024 adaptation · Sa",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/TSR2521-SCS2.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Activation": "Make a weapon attack.",
+          "Weight": "2 lb",
+          "Special powers": "When a melee attack hits you while you hold the Sa and are proficient with it, use a Reaction to add +1 AC against that attack, potentially causing it to miss.",
+          "Source locator": "Savage Coast Campaign Book, Weapon Descriptions, p. 118 (supplied PDF p. 119).",
+          "Conversion notes": "Converts the regional weapon’s form and use to 2024 combat. Mastery and any action or reaction limits are authored. Damage uses one profile across creature sizes."
+        }
+      }
+    ],
+    "savage-coast-local:d7b3e29a9062062a": [
+      {
+        "label": "D&D 2024 adaptation · Savage Coast Sabre",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/TSR2521-SCS2.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scimitar",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Slashing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Activation": "Make a weapon attack.",
+          "Weight": "5 lb",
+          "Special powers": "When a melee attack hits you while you hold the sabre and are proficient with it, use a Reaction to add +1 AC against that attack, potentially causing it to miss.",
+          "Source locator": "Savage Coast Campaign Book, Weapon Descriptions, p. 119 (supplied PDF p. 120).",
+          "Conversion notes": "Converts the regional weapon’s form and use to 2024 combat. Mastery and any action or reaction limits are authored. Damage uses one profile across creature sizes."
+        }
+      }
+    ],
+    "savage-coast-local:2f0d52d4207bef4c": [
+      {
+        "label": "D&D 2024 adaptation · Stiletto",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/TSR2521-SCS2.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d3 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee or 10/30 feet thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Activation": "Make a weapon attack.",
+          "Weight": "½ lb",
+          "Special powers": "Add +2 to attack rolls against a target wearing Ring Mail, Chain Mail, Half Plate, or Plate Armor. Roll a d6 and halve it, rounding up, for the damage die.",
+          "Source locator": "Savage Coast Campaign Book, Weapon Descriptions, p. 118 (supplied PDF p. 119).",
+          "Conversion notes": "Converts the regional weapon’s form and use to 2024 combat. Mastery and any action or reaction limits are authored. Damage uses one profile across creature sizes. Uses the source’s indoor distance bands in feet as a single encounter-scale profile."
+        }
+      }
+    ],
     "savage-coast-local:0581d35626873307": [
       {
         "label": "D&D 2024 adaptation · Red Steel Armor (Chain Mail)",
