@@ -1871,6 +1871,20 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Thyatian legion equipment shows formation rules and published profiles': '''(async () => {
+                    for (const [id, term] of [
+                        ["c7d0d248683d4672", "Armor class17"],
+                        ["a17db27701ae49d0", "Half Cover against ranged attacks"],
+                        ["70d42798431ddbe2", "1d10 in two hands"],
+                        ["4afe35321d3e1c07", "10 feet melee"],
+                    ]) {
+                        inspect("imperial-military-guide-local:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!inspection.textContent.includes(term)) throw new Error(id);
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Savage Coast weapons show conditional bonuses and artifact breath': '''(async () => {
                     for (const [id, term] of [
                         ["25473eed668cf2c8", "gold finish is decorative"],

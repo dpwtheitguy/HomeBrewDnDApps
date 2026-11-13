@@ -1,6 +1,102 @@
 {
   "schema_version": 1,
   "records": {
+    "imperial-military-guide-local:c7d0d248683d4672": [
+      {
+        "label": "Published D&D 2024 equipment comparison · Hattian Legion Banded Mail",
+        "status": "published-reference",
+        "profile_kind": "published-armor-mapping",
+        "enhancement_bonus": 0,
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_splint-armor",
+          "label": "Open 2024 Splint Armor"
+        },
+        "fields": {
+          "Armor class": "17",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "60 lb",
+          "Attunement": "None",
+          "Special powers": "None. Use the standard equipment rules for the linked armor or shield.",
+          "Conversion notes": "The guide describes Hattias’s segmentum banded mail as a heavier infantry issue. Splint supplies the published 2024 profile. See also the XI Legion on supplied PDF p. 23.",
+          "Source locator": "Imperial Military Guide, Thyatian legion structure, supplied PDF p. 5."
+        },
+        "source": "https://freemystara.com/pdfs/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      }
+    ],
+    "imperial-military-guide-local:a17db27701ae49d0": [
+      {
+        "label": "D&D 2024 adaptation · Thyatian Legion Tower Shield",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "enhancement_bonus": 0,
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shield",
+          "label": "Open 2024 Shield"
+        },
+        "fields": {
+          "Armor class bonus": "+2",
+          "Training": "Shield training",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "6 lb",
+          "Attunement": "None",
+          "Special powers": "While wielding the shield, use an action to brace it. Choose one adjacent willing ally wielding a shield. Until the start of your next turn, you and that ally have Half Cover against ranged attacks made by creatures you can see. The benefit ends if you or the ally moves, stops wielding a shield, or becomes Incapacitated.",
+          "Conversion notes": "The guide describes coordinated infantry shield tactics. The cover benefit and action cost are authored.",
+          "Source locator": "Imperial Military Guide, Infantry, supplied PDF p. 17."
+        },
+        "source": "https://freemystara.com/pdfs/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      }
+    ],
+    "imperial-military-guide-local:70d42798431ddbe2": [
+      {
+        "label": "Published 2024 equipment comparison · Hattian Legion Longsword",
+        "status": "published-reference",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 Longsword"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Activation": "Make a melee weapon attack.",
+          "Conversion notes": "Hattias issues longswords in place of the usual shortswords.",
+          "Source locator": "Imperial Military Guide, Thyatian legion structure, supplied PDF p. 5."
+        },
+        "source": "https://freemystara.com/pdfs/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+      }
+    ],
+    "imperial-military-guide-local:4afe35321d3e1c07": [
+      {
+        "label": "Published 2024 equipment comparison · Thyatian Anti-Cavalry Long Spear",
+        "status": "published-reference",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_pike",
+          "label": "Open 2024 Pike"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d10 Piercing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "10 feet melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Push",
+          "Activation": "Make a melee weapon attack.",
+          "Conversion notes": "Uses Pike as the 2024 counterpart for a longer infantry spear carried to counter enemy cavalry.",
+          "Source locator": "Imperial Military Guide, Infantry, supplied PDF p. 18."
+        },
+        "source": "https://freemystara.com/pdfs/",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+      }
+    ],
     "savage-coast-local:25473eed668cf2c8": [
       {
         "label": "Published 2024 equipment comparison · Slagovich City Guard Gold Halberd",
