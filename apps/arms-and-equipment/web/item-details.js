@@ -42,10 +42,10 @@ function itemDetailsSection(panel, label, rows, url, open) {
     return details;
 }
 
-function addBg3ItemDetails(panel, record, effects, armorRules) {
+function addBg3ItemDetails(panel, itemId, record, effects, armorRules) {
     record.variants.forEach((variant, index) => {
         const stats = variant.stats;
-        const facts = variant.facts;
+        const facts = {...variant.facts, ...(armorRules.reviewed_item_facts || {})[itemId]};
         const armorEffects = armorRules.effects || {};
         const shieldTraining = stats.type === "Shields" && !stats.proficiency && armorRules.shield_training;
         const exemption = variant.effects.map(title => armorEffects[title])
@@ -379,7 +379,7 @@ function addItemDetails(panel, item, supplements) {
     });
     const bg3Record = bg3 && bg3.records[item.id];
     if (bg3Record && !entries.some(entry => entry.status === "source-reported")) {
-        addBg3ItemDetails(panel, bg3Record, bg3.effects || {}, bg3Armor || {});
+        addBg3ItemDetails(panel, item.id, bg3Record, bg3.effects || {}, bg3Armor || {});
     }
     if (item.ruleset === "bg3" && item.type === "weapon") {
         const variants = (item.mechanics || {}).bg3_template_variants || [];

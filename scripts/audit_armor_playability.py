@@ -39,7 +39,7 @@ def ac_modifier(value):
     return re.fullmatch(r'[+-]?\d+', str(value or '')) is not None
 
 
-def read_bg3(entry, effects, shield_training, errors, gaps):
+def read_bg3(entry, effects, shield_training, reviewed_facts, errors, gaps):
     variants = entry.get('variants') or []
     if not variants:
         errors.append('BG3 armor record has no rule variants')
@@ -74,6 +74,10 @@ def read_bg3(entry, effects, shield_training, errors, gaps):
         rows['stealth_disadvantage'].append(stealth)
         weight = stats.get('weight kg')
         rows['weight'].append(f'{weight} kg' if weight else None)
+        if variant.get('has_rule_text') and not (variant.get('facts') or variant.get('effects') or reviewed_facts):
+            gaps.append(f'BG3 variant {number} has unreviewed special text')
+        for values in reviewed_facts.values():
+            rows['effects'].extend(values)
         for effect in variant.get('effects') or []:
             rows['effects'].append(effect)
             if effect not in effects:
@@ -136,7 +140,8 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
                                                   'adapted-protective-garment', 'adapted-protective-implement', 'adapted-partial-armor'}]
     if item['ruleset'] == 'bg3':
         evidence = 'native-bg3'
-        fields.update(read_bg3(bg3['records'].get(item_id, {}), bg3['effects'], bg3['shield_training'], errors, gaps))
+        fields.update(read_bg3(bg3['records'].get(item_id, {}), bg3['effects'], bg3['shield_training'],
+                               bg3['reviewed_item_facts'].get(item_id, {}), errors, gaps))
     elif properties := [entry for entry in curated.get(item_id, [])
                         if entry.get('profile_kind') == 'adapted-armor-property']:
         entry = properties[0]
@@ -471,6 +476,7 @@ def main():
     armor_rules = load(catalog, 'bg3-armor-effects')
     bg3['effects'].update(armor_rules['effects'])
     bg3['shield_training'] = armor_rules['shield_training']
+    bg3['reviewed_item_facts'] = armor_rules.get('reviewed_item_facts', {})
     curated = load(catalog, 'curated-item-details')['records']
     curated.update(load(catalog, 'diablo-2-base-armor-facts')['records'])
     curated.update(load(catalog, 'diablo-2-unique-armor-facts')['records'])

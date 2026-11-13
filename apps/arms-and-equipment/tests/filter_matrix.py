@@ -1703,6 +1703,22 @@ def main():
                     return ["Published 2024 combat reference", "No direct damage", "15 ft", "DC 10 Strength"]
                         .every(value => text.includes(value));
                 })()''',
+                'BG3 armor shows verified passive text and AC-only enhancements': '''(async () => {
+                    for (const [id, term] of [
+                        [10341, "+1 to Stealth checks"], [10879, "Advantage on Perception checks"],
+                        [10886, "Necrotic damage"], [4667, "+1 to Stealth checks"],
+                        [7854, "+1 to all saving throws"], [29376, "only enhancement"],
+                        [30394, "only enhancement"], [35581, "only enhancement"],
+                        [7900, "only enhancement"], [8506, "only enhancement"],
+                    ]) {
+                        inspect("bg3-wiki:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!inspection.textContent.includes(term) ||
+                            inspection.textContent.includes("not been entered as structured rules")) throw new Error(id);
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'BG3 armor shows native damage reduction and training exceptions': '''(async () => {
                     inspect("bg3-wiki:18", grid.firstElementChild);
                     await itemDetails;
