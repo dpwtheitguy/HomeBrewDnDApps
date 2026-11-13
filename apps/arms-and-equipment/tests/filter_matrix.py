@@ -4451,6 +4451,20 @@ def main():
                         "Shieldsmash", "Once per Short or Long Rest", "Open 2024 Shield"]
                         .every(value => inspection.textContent.includes(value));
                 })()''',
+                'Zamorian outfits link accessories to the torso rules': '''(async () => {
+                    for (const [id, terms] of [
+                        ["819c71653dbb4d7b", ["11 + Dex modifier", "Temporary Hit Points", "Padded Armor"]],
+                        ["a6e45fa07c625fe1", ["11 + Dex modifier", "1d4 damage", "Leather Armor"]],
+                        ["b60b17b32c4e6cb0", ["20 Health", "no separate AC", "Open Zamorian Dancer Blouse"]],
+                        ["c2be273c7f8dbdd2", ["3% Agility Weapon Damage", "no separate AC", "Open Zamorian Thief Chest"]],
+                    ]) {
+                        inspect("conan-exiles-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + ": " + missing.join(", "));
+                    }
+                    return true;
+                })()''',
                 'Zunimassa armor distinguishes Breastplate from protective legwear': '''(async () => {
                     inspect("diablo-3-reference:7bffa8a340366b08", grid.firstElementChild);
                     await itemDetails;

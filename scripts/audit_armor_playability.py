@@ -119,6 +119,13 @@ def diablo_3_item_source(item, url):
             and url.startswith(prefix) and any(url.endswith('-' + item_id) for item_id in ids))
 
 
+def conan_item_source(item, url):
+    ids = item['mechanics'].get('reference_metadata', {}).get('upstream_ids', [])
+    return (item['source_id'] == 'conan-exiles-reference' and isinstance(url, str)
+            and any(url == 'https://conanexiles.gaming.tools/items/' + entry.removeprefix('item_')
+                    for entry in ids))
+
+
 def audit_row(item, indexed, bg3, curated, prices, published, core, modern_families):
     errors, gaps = [], []
     item_id = item['id']
@@ -178,11 +185,13 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
         construct = profile == 'armor-encounter-construct'
         effect_key = 'Creature defenses' if construct else 'Special powers'
         verified = entry.get('source') == provenance.get('source_url') and provenance.get('locator')
+        conan_source = conan_item_source(item, entry.get('source'))
+        verified = verified or (details.get('Source locator') and conan_source)
         if protective:
             verified = verified or (details.get('Source locator') and diablo_3_item_source(item, entry.get('source')))
             verified = verified or any(ev.get('url') == entry.get('source') and ev.get('locator', {}).get('pdf_page')
                                        for ev in item.get('source_verifications', []))
-        if (len(encounter) != 1 or entry.get('status') != ('original-draft' if protective else 'source-reported')
+        if (len(encounter) != 1 or entry.get('status') != ('original-draft' if protective or conan_source else 'source-reported')
                 or not verified
                 or not all(details.get(key) for key in ('Source locator', effect_key, 'Use as armor'))):
             errors.append('armor reference needs source and explicit equipment applicability')
@@ -237,7 +246,7 @@ def audit_row(item, indexed, bg3, curated, prices, published, core, modern_famil
                     mapping.get('source') == provenance.get('source_url')
                     and provenance.get('evidence', {}).get('kind') in {
                         'official-base-item-table', 'official-unique-name-index'}
-                ) or diablo_3_item_source(item, mapping.get('source'))
+                ) or diablo_3_item_source(item, mapping.get('source')) or conan_item_source(item, mapping.get('source'))
                 verified_source = (official_game_source and bool(mapped_fields.get('Source locator'))
                                    and len(native) == 1
                                    and bool(native[0]['fields'].get('Defense (game)'))

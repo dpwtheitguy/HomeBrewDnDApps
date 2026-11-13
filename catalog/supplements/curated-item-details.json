@@ -1,6 +1,303 @@
 {
   "schema_version": 1,
   "records": {
+    "conan-exiles-reference:3a1141a47c861e55": [
+      {
+        "label": "2024 conversion · Zamorian Dancer Anklets",
+        "status": "original-draft",
+        "profile_kind": "documented-armor-accessory",
+        "source": "https://conanexiles.gaming.tools/items/52105",
+        "related_item": {
+          "id": "conan-exiles-reference:819c71653dbb4d7b",
+          "label": "Open Zamorian Dancer Blouse"
+        },
+        "fields": {
+          "Source locator": "Conan Exiles item 52105, standard variant.",
+          "Use as armor": "Costume accessory for the Zamorian Dancer Blouse tabletop profile. It provides no separate AC or training requirement.",
+          "Special powers": "The tabletop outfit benefit is on the linked torso entry. Wearing this piece adds no separate bonus."
+        }
+      },
+      {
+        "label": "Conan Exiles · Zamorian Dancer Anklets",
+        "status": "source-reported",
+        "source": "https://conanexiles.gaming.tools/items/52105",
+        "fields": {
+          "Source locator": "Conan Exiles item 52105, standard variant.",
+          "Defense (game)": "3 native armor.",
+          "Set and slot": "Zamorian Dancer outfit, anklets piece.",
+          "Special powers": "The Dancer outfit’s source set listing totals +100 Health across five pieces."
+        }
+      }
+    ],
+    "conan-exiles-reference:819c71653dbb4d7b": [
+      {
+        "label": "2024 adaptation · Zamorian Dancer Blouse",
+        "status": "original-draft",
+        "profile_kind": "adapted-game-armor",
+        "source": "https://conanexiles.gaming.tools/items/52102",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_padded-armor",
+          "label": "Open 2024 Padded Armor"
+        },
+        "fields": {
+          "Source locator": "Conan Exiles item 52102, standard variant.",
+          "Armor class": "11 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "Yes",
+          "Weight": "8 lb",
+          "Attunement": "Required.",
+          "Use as armor": "This torso entry represents a complete suit of Padded Armor styled as the outfit.",
+          "Special powers": "Once per Long Rest, when you finish a Short Rest while wearing the armor, gain Temporary Hit Points equal to your Proficiency Bonus.",
+          "Conversion notes": "The torso represents the complete tabletop armor. The other pieces are costume accessories. The limited benefit adapts the source outfit without stacking numeric bonuses by slot."
+        }
+      },
+      {
+        "label": "Conan Exiles · Zamorian Dancer Blouse",
+        "status": "source-reported",
+        "source": "https://conanexiles.gaming.tools/items/52102",
+        "fields": {
+          "Source locator": "Conan Exiles item 52102, standard variant.",
+          "Defense (game)": "12 native armor.",
+          "Set and slot": "Zamorian Dancer outfit, blouse piece.",
+          "Special powers": "The Dancer outfit’s source set listing totals +100 Health across five pieces."
+        }
+      }
+    ],
+    "conan-exiles-reference:bd6456a8e5da3ed4": [
+      {
+        "label": "2024 conversion · Zamorian Dancer Bracelets",
+        "status": "original-draft",
+        "profile_kind": "documented-armor-accessory",
+        "source": "https://conanexiles.gaming.tools/items/52103",
+        "related_item": {
+          "id": "conan-exiles-reference:819c71653dbb4d7b",
+          "label": "Open Zamorian Dancer Blouse"
+        },
+        "fields": {
+          "Source locator": "Conan Exiles item 52103, standard variant.",
+          "Use as armor": "Costume accessory for the Zamorian Dancer Blouse tabletop profile. It provides no separate AC or training requirement.",
+          "Special powers": "The tabletop outfit benefit is on the linked torso entry. Wearing this piece adds no separate bonus."
+        }
+      },
+      {
+        "label": "Conan Exiles · Zamorian Dancer Bracelets",
+        "status": "source-reported",
+        "source": "https://conanexiles.gaming.tools/items/52103",
+        "fields": {
+          "Source locator": "Conan Exiles item 52103, standard variant.",
+          "Defense (game)": "3 native armor.",
+          "Set and slot": "Zamorian Dancer outfit, bracelets piece.",
+          "Special powers": "The Dancer outfit’s source set listing totals +100 Health across five pieces."
+        }
+      }
+    ],
+    "conan-exiles-reference:b60b17b32c4e6cb0": [
+      {
+        "label": "2024 conversion · Zamorian Dancer Headdress",
+        "status": "original-draft",
+        "profile_kind": "documented-armor-accessory",
+        "source": "https://conanexiles.gaming.tools/items/52101",
+        "related_item": {
+          "id": "conan-exiles-reference:819c71653dbb4d7b",
+          "label": "Open Zamorian Dancer Blouse"
+        },
+        "fields": {
+          "Source locator": "Conan Exiles item 52101, standard variant.",
+          "Use as armor": "Costume accessory for the Zamorian Dancer Blouse tabletop profile. It provides no separate AC or training requirement.",
+          "Special powers": "The tabletop outfit benefit is on the linked torso entry. Wearing this piece adds no separate bonus."
+        }
+      },
+      {
+        "label": "Conan Exiles · Zamorian Dancer Headdress",
+        "status": "source-reported",
+        "source": "https://conanexiles.fandom.com/wiki/Zamorian_Dancer_Headdress",
+        "fields": {
+          "Source locator": "Conan Exiles item 52101, standard variant.",
+          "Defense (game)": "7 native armor.",
+          "Set and slot": "Zamorian Dancer outfit, headdress piece.",
+          "Special powers": "The standard headdress adds 20 Health in the game.",
+          "Crafting": "The source lists one Light Padding and 15 Silk."
+        }
+      }
+    ],
+    "conan-exiles-reference:02cb9ef83f87d431": [
+      {
+        "label": "2024 conversion · Zamorian Dancer Skirt",
+        "status": "original-draft",
+        "profile_kind": "documented-armor-accessory",
+        "source": "https://conanexiles.gaming.tools/items/52104",
+        "related_item": {
+          "id": "conan-exiles-reference:819c71653dbb4d7b",
+          "label": "Open Zamorian Dancer Blouse"
+        },
+        "fields": {
+          "Source locator": "Conan Exiles item 52104, standard variant.",
+          "Use as armor": "Costume accessory for the Zamorian Dancer Blouse tabletop profile. It provides no separate AC or training requirement.",
+          "Special powers": "The tabletop outfit benefit is on the linked torso entry. Wearing this piece adds no separate bonus."
+        }
+      },
+      {
+        "label": "Conan Exiles · Zamorian Dancer Skirt",
+        "status": "source-reported",
+        "source": "https://conanexiles.gaming.tools/items/52104",
+        "fields": {
+          "Source locator": "Conan Exiles item 52104, standard variant.",
+          "Defense (game)": "8 native armor.",
+          "Set and slot": "Zamorian Dancer outfit, skirt piece.",
+          "Special powers": "The Dancer outfit’s source set listing totals +100 Health across five pieces."
+        }
+      }
+    ],
+    "conan-exiles-reference:0379373ad945f788": [
+      {
+        "label": "2024 conversion · Zamorian Thief Boots",
+        "status": "original-draft",
+        "profile_kind": "documented-armor-accessory",
+        "source": "https://conanexiles.gaming.tools/items/91034",
+        "related_item": {
+          "id": "conan-exiles-reference:a6e45fa07c625fe1",
+          "label": "Open Zamorian Thief Chest"
+        },
+        "fields": {
+          "Source locator": "Conan Exiles item 91034, standard variant.",
+          "Use as armor": "Costume accessory for the Zamorian Thief Chest tabletop profile. It provides no separate AC or training requirement.",
+          "Special powers": "The tabletop outfit benefit is on the linked torso entry. Wearing this piece adds no separate bonus."
+        }
+      },
+      {
+        "label": "Conan Exiles · Zamorian Thief Boots",
+        "status": "source-reported",
+        "source": "https://conanexiles.gaming.tools/items/91034",
+        "fields": {
+          "Source locator": "Conan Exiles item 91034, standard variant.",
+          "Defense (game)": "8 native armor.",
+          "Set and slot": "Zamorian Thief outfit, boots piece.",
+          "Special powers": "This variant lists +3% Agility Weapon Damage."
+        }
+      }
+    ],
+    "conan-exiles-reference:46b27900fb5b3869": [
+      {
+        "label": "2024 conversion · Zamorian Thief Breeches",
+        "status": "original-draft",
+        "profile_kind": "documented-armor-accessory",
+        "source": "https://conanexiles.gaming.tools/items/91033",
+        "related_item": {
+          "id": "conan-exiles-reference:a6e45fa07c625fe1",
+          "label": "Open Zamorian Thief Chest"
+        },
+        "fields": {
+          "Source locator": "Conan Exiles item 91033, standard variant.",
+          "Use as armor": "Costume accessory for the Zamorian Thief Chest tabletop profile. It provides no separate AC or training requirement.",
+          "Special powers": "The tabletop outfit benefit is on the linked torso entry. Wearing this piece adds no separate bonus."
+        }
+      },
+      {
+        "label": "Conan Exiles · Zamorian Thief Breeches",
+        "status": "source-reported",
+        "source": "https://conanexiles.gaming.tools/items/91033",
+        "fields": {
+          "Source locator": "Conan Exiles item 91033, standard variant.",
+          "Defense (game)": "20 native armor.",
+          "Set and slot": "Zamorian Thief outfit, breeches piece.",
+          "Special powers": "This variant lists +3% Agility Weapon Damage."
+        }
+      }
+    ],
+    "conan-exiles-reference:a6e45fa07c625fe1": [
+      {
+        "label": "2024 adaptation · Zamorian Thief Chest",
+        "status": "original-draft",
+        "profile_kind": "adapted-game-armor",
+        "source": "https://conanexiles.gaming.tools/items/91031",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor",
+          "label": "Open 2024 Leather Armor"
+        },
+        "fields": {
+          "Source locator": "Conan Exiles item 91031, standard variant.",
+          "Armor class": "11 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required.",
+          "Use as armor": "This torso entry represents a complete suit of Leather Armor styled as the outfit.",
+          "Special powers": "Once per Short or Long Rest, when you hit with a weapon attack using Dexterity while wearing the armor, add 1d4 damage of the weapon’s damage type.",
+          "Conversion notes": "The torso represents the complete tabletop armor. The other pieces are costume accessories. The limited benefit adapts the source outfit without stacking numeric bonuses by slot."
+        }
+      },
+      {
+        "label": "Conan Exiles · Zamorian Thief Chest",
+        "status": "source-reported",
+        "source": "https://conanexiles.gaming.tools/items/91031",
+        "fields": {
+          "Source locator": "Conan Exiles item 91031, standard variant.",
+          "Defense (game)": "28 native armor.",
+          "Set and slot": "Zamorian Thief outfit, chest piece.",
+          "Special powers": "This variant lists +3% Agility Weapon Damage."
+        }
+      }
+    ],
+    "conan-exiles-reference:1bfd3c2396c0e4a8": [
+      {
+        "label": "2024 conversion · Zamorian Thief Gauntlets",
+        "status": "original-draft",
+        "profile_kind": "documented-armor-accessory",
+        "source": "https://conanexiles.gaming.tools/items/91032",
+        "related_item": {
+          "id": "conan-exiles-reference:a6e45fa07c625fe1",
+          "label": "Open Zamorian Thief Chest"
+        },
+        "fields": {
+          "Source locator": "Conan Exiles item 91032, standard variant.",
+          "Use as armor": "Costume accessory for the Zamorian Thief Chest tabletop profile. It provides no separate AC or training requirement.",
+          "Special powers": "The tabletop outfit benefit is on the linked torso entry. Wearing this piece adds no separate bonus."
+        }
+      },
+      {
+        "label": "Conan Exiles · Zamorian Thief Gauntlets",
+        "status": "source-reported",
+        "source": "https://conanexiles.gaming.tools/items/91032",
+        "fields": {
+          "Source locator": "Conan Exiles item 91032, standard variant.",
+          "Defense (game)": "8 native armor.",
+          "Set and slot": "Zamorian Thief outfit, gauntlets piece.",
+          "Special powers": "This variant lists +3% Agility Weapon Damage."
+        }
+      }
+    ],
+    "conan-exiles-reference:c2be273c7f8dbdd2": [
+      {
+        "label": "2024 conversion · Zamorian Thief Hood",
+        "status": "original-draft",
+        "profile_kind": "documented-armor-accessory",
+        "source": "https://conanexiles.gaming.tools/items/91030",
+        "related_item": {
+          "id": "conan-exiles-reference:a6e45fa07c625fe1",
+          "label": "Open Zamorian Thief Chest"
+        },
+        "fields": {
+          "Source locator": "Conan Exiles item 91030, standard variant.",
+          "Use as armor": "Costume accessory for the Zamorian Thief Chest tabletop profile. It provides no separate AC or training requirement.",
+          "Special powers": "The tabletop outfit benefit is on the linked torso entry. Wearing this piece adds no separate bonus."
+        }
+      },
+      {
+        "label": "Conan Exiles · Zamorian Thief Hood",
+        "status": "source-reported",
+        "source": "https://conanexiles.gaming.tools/items/91030",
+        "fields": {
+          "Source locator": "Conan Exiles item 91030, standard variant.",
+          "Defense (game)": "16 native armor.",
+          "Set and slot": "Zamorian Thief outfit, hood piece.",
+          "Special powers": "This variant lists +3% Agility Weapon Damage."
+        }
+      }
+    ],
     "diablo-3-reference:7bffa8a340366b08": [
       {
         "label": "2024 adaptation · Zunimassa’s Marrow",
