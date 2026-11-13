@@ -1871,6 +1871,22 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Hollow World weapons show miniature dice and named powers': '''(async () => {
+                    for (const [id, terms] of [
+                        ["6455d5008ad4be07", ["1d4 Slashing", "normal sword row"]],
+                        ["b7706880cf2ee806", ["1d3 Piercing", "15/45 feet", "miniature quarrel"]],
+                        ["5655a800a4e21959", ["Height limit", "4 feet"]],
+                        ["868497eabe611e22", ["150/600 feet", "horseback"]],
+                        ["f7522260e0baa488", ["Detect Evil and Good", "once per dawn"]],
+                        ["fe94f40366be4f1c", ["Detect Magic", "gold dolphins"]],
+                    ]) {
+                        inspect("hollow-world-local:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!terms.every(term => inspection.textContent.includes(term))) throw new Error(id);
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Hollow World armor distinguishes regional profiles and artifacts': '''(async () => {
                     for (const [id, term] of [
                         ["0dbff0ea40c7239f", "Armor class18"],

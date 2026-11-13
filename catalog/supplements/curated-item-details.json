@@ -1,6 +1,448 @@
 {
   "schema_version": 1,
   "records": {
+    "hollow-world-local:3b585ca8ee63c815": [
+      {
+        "label": "D&D 2024 adaptation · Kubitt Miniature Battle Axe",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_battleaxe",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Two-Handed",
+          "Mastery": "Topple",
+          "Activation": "Make a weapon attack.",
+          "Source locator": "Hollow World Campaign Set, Player’s Guide, Kubitts, p. 44 (supplied PDF p. 46).",
+          "Conversion notes": "Keeps the source’s miniature damage die and handedness. Uses normal 2024 initiative and proficiency. Mastery requires the corresponding mastery feature."
+        }
+      }
+    ],
+    "hollow-world-local:a74f90752eea4428": [
+      {
+        "label": "D&D 2024 adaptation · Kubitt Miniature Bow and Arrow",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortbow",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Simple ranged weapon",
+          "Damage": "1d4 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "10/50 feet",
+          "Properties": "Two-Handed, Ammunition (miniature arrow)",
+          "Mastery": "Vex",
+          "Activation": "Make a weapon attack.",
+          "Source locator": "Hollow World Campaign Set, Player’s Guide, Kubitts, p. 44 (supplied PDF p. 46).",
+          "Conversion notes": "Keeps the source’s miniature damage die and handedness. Uses normal 2024 initiative and proficiency. Mastery requires the corresponding mastery feature. The first and last source range bands become normal and long range."
+        }
+      }
+    ],
+    "hollow-world-local:9c9908e844fbfc96": [
+      {
+        "label": "D&D 2024 adaptation · Kubitt Miniature Club",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d2 Bludgeoning + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Light",
+          "Mastery": "Slow",
+          "Activation": "Make a weapon attack.",
+          "Rolling damage": "Roll 1d4 and halve the result, rounding up.",
+          "Source locator": "Hollow World Campaign Set, Player’s Guide, Kubitts, p. 44 (supplied PDF p. 46).",
+          "Conversion notes": "Keeps the source’s miniature damage die and handedness. Uses normal 2024 initiative and proficiency. Mastery requires the corresponding mastery feature."
+        }
+      }
+    ],
+    "hollow-world-local:b7706880cf2ee806": [
+      {
+        "label": "D&D 2024 adaptation · Kubitt Miniature Crossbow and Quarrel",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_light-crossbow",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Simple ranged weapon",
+          "Damage": "1d3 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "15/45 feet",
+          "Properties": "Two-Handed, Loading, Ammunition (miniature quarrel)",
+          "Mastery": "Slow",
+          "Activation": "Make a weapon attack.",
+          "Rolling damage": "Roll 1d6 and halve the result, rounding up.",
+          "Source locator": "Hollow World Campaign Set, Player’s Guide, Kubitts, p. 44 (supplied PDF p. 46).",
+          "Conversion notes": "Keeps the source’s miniature damage die and handedness. Uses normal 2024 initiative and proficiency. Mastery requires the corresponding mastery feature. The first and last source range bands become normal and long range."
+        }
+      }
+    ],
+    "hollow-world-local:5fe635830668f40c": [
+      {
+        "label": "D&D 2024 adaptation · Kubitt Miniature Dagger",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d2 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Activation": "Make a weapon attack.",
+          "Rolling damage": "Roll 1d4 and halve the result, rounding up.",
+          "Source locator": "Hollow World Campaign Set, Player’s Guide, Kubitts, p. 44 (supplied PDF p. 46).",
+          "Conversion notes": "Keeps the source’s miniature damage die and handedness. Uses normal 2024 initiative and proficiency. Mastery requires the corresponding mastery feature."
+        }
+      }
+    ],
+    "hollow-world-local:b88db0150691866b": [
+      {
+        "label": "D&D 2024 adaptation · Kubitt Miniature Hand Axe",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d3 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Light",
+          "Mastery": "Vex",
+          "Activation": "Make a weapon attack.",
+          "Rolling damage": "Roll 1d6 and halve the result, rounding up.",
+          "Source locator": "Hollow World Campaign Set, Player’s Guide, Kubitts, p. 44 (supplied PDF p. 46).",
+          "Conversion notes": "Keeps the source’s miniature damage die and handedness. Uses normal 2024 initiative and proficiency. Mastery requires the corresponding mastery feature."
+        }
+      }
+    ],
+    "hollow-world-local:389d172edd08ea16": [
+      {
+        "label": "D&D 2024 adaptation · Kubitt Miniature Mace",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d3 Bludgeoning + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Activation": "Make a weapon attack.",
+          "Rolling damage": "Roll 1d6 and halve the result, rounding up.",
+          "Source locator": "Hollow World Campaign Set, Player’s Guide, Kubitts, p. 44 (supplied PDF p. 46).",
+          "Conversion notes": "Keeps the source’s miniature damage die and handedness. Uses normal 2024 initiative and proficiency. Mastery requires the corresponding mastery feature."
+        }
+      }
+    ],
+    "hollow-world-local:5655a800a4e21959": [
+      {
+        "label": "D&D 2024 adaptation · Kubitt Miniature Pole Arm",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_halberd",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Two-Handed",
+          "Mastery": "Cleave",
+          "Activation": "Make a weapon attack.",
+          "Height limit": "When used by a Kubitt, the weapon cannot reach a point more than 4 feet above the surface the wielder stands on.",
+          "Source locator": "Hollow World Campaign Set, Player’s Guide, Kubitts, p. 44 (supplied PDF p. 46).",
+          "Conversion notes": "Keeps the source’s miniature damage die and handedness. Uses normal 2024 initiative and proficiency. Mastery requires the corresponding mastery feature."
+        }
+      }
+    ],
+    "hollow-world-local:078a3dee06d71e4e": [
+      {
+        "label": "D&D 2024 adaptation · Kubitt Miniature Short Sword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d3 Piercing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Activation": "Make a weapon attack.",
+          "Rolling damage": "Roll 1d6 and halve the result, rounding up.",
+          "Source locator": "Hollow World Campaign Set, Player’s Guide, Kubitts, p. 44 (supplied PDF p. 46).",
+          "Conversion notes": "Keeps the source’s miniature damage die and handedness. Uses normal 2024 initiative and proficiency. Mastery requires the corresponding mastery feature."
+        }
+      }
+    ],
+    "hollow-world-local:350dffc199b20aaa": [
+      {
+        "label": "D&D 2024 adaptation · Kubitt Miniature Spear",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_spear",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Piercing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee or 5/20 feet thrown",
+          "Properties": "Thrown",
+          "Mastery": "Sap",
+          "Activation": "Make a weapon attack.",
+          "Source locator": "Hollow World Campaign Set, Player’s Guide, Kubitts, p. 44 (supplied PDF p. 46).",
+          "Conversion notes": "Keeps the source’s miniature damage die and handedness. Uses normal 2024 initiative and proficiency. Mastery requires the corresponding mastery feature. The first and last source range bands become normal and long range."
+        }
+      }
+    ],
+    "hollow-world-local:6455d5008ad4be07": [
+      {
+        "label": "D&D 2024 adaptation · Kubitt Miniature Sword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d4 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Activation": "Make a weapon attack.",
+          "Source locator": "Hollow World Campaign Set, Player’s Guide, Kubitts, p. 44 (supplied PDF p. 46).",
+          "Conversion notes": "Keeps the source’s miniature damage die and handedness. Uses normal 2024 initiative and proficiency. Mastery requires the corresponding mastery feature. The supplied scan prints 1d4 on the normal sword row."
+        }
+      }
+    ],
+    "hollow-world-local:f419c262071266ce": [
+      {
+        "label": "D&D 2024 adaptation · Kubitt Miniature Two-Handed Sword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_greatsword",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Slashing + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Two-Handed",
+          "Mastery": "Graze",
+          "Activation": "Make a weapon attack.",
+          "Source locator": "Hollow World Campaign Set, Player’s Guide, Kubitts, p. 44 (supplied PDF p. 46).",
+          "Conversion notes": "Keeps the source’s miniature damage die and handedness. Uses normal 2024 initiative and proficiency. Mastery requires the corresponding mastery feature."
+        }
+      }
+    ],
+    "hollow-world-local:be0e8676c4464cfa": [
+      {
+        "label": "D&D 2024 adaptation · Kubitt Miniature War Hammer",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_warhammer",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d4 Bludgeoning + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "None",
+          "Mastery": "Push",
+          "Activation": "Make a weapon attack.",
+          "Source locator": "Hollow World Campaign Set, Player’s Guide, Kubitts, p. 44 (supplied PDF p. 46).",
+          "Conversion notes": "Keeps the source’s miniature damage die and handedness. Uses normal 2024 initiative and proficiency. Mastery requires the corresponding mastery feature."
+        }
+      }
+    ],
+    "hollow-world-local:99c72eb2618f7ecf": [
+      {
+        "label": "Published 2024 equipment comparison · Kogolor Walking Cane",
+        "status": "published-reference",
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_club",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d4 Bludgeoning + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Light",
+          "Mastery": "Slow",
+          "Activation": "Make a weapon attack.",
+          "Source locator": "Hollow World Campaign Set, Player’s Guide, Kogolor Dwarves, p. 39 (supplied PDF p. 41).",
+          "Conversion notes": "The source explicitly treats the cane as a Club. Use the published 2024 Club for attacks."
+        }
+      }
+    ],
+    "hollow-world-local:23bdd2718da882c6": [
+      {
+        "label": "Published 2024 equipment comparison · Nithian Sickle-Sword",
+        "status": "published-reference",
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_scimitar",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Slashing + Strength or Dexterity modifier.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Nick",
+          "Activation": "Make a weapon attack.",
+          "Source locator": "Hollow World Campaign Set, Player’s Guide, Nithians, p. 54 (supplied PDF p. 56).",
+          "Conversion notes": "Uses the published Scimitar as a 2024 counterpart for the Nithian curved short sword. The source also describes a longer form."
+        }
+      }
+    ],
+    "hollow-world-local:868497eabe611e22": [
+      {
+        "label": "D&D 2024 adaptation · Jennite Composite Bow",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longbow",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Martial ranged weapon",
+          "Damage": "1d8 Piercing + Dexterity modifier.",
+          "Attack bonus": "Dexterity modifier + Proficiency Bonus if proficient.",
+          "Range": "150/600 feet",
+          "Properties": "Ammunition (arrow), Two-Handed",
+          "Mastery": "Slow",
+          "Activation": "Make a weapon attack.",
+          "Mounted use": "The bow’s compact form can be used from horseback. Apply the normal 2024 mounted combat rules.",
+          "Source locator": "Hollow World Campaign Set, Player’s Guide, Jennites, p. 38 (supplied PDF p. 40).",
+          "Conversion notes": "Retains a longbow’s damage and range in a compact frame. Omits the legacy ancestry-specific +1. Heavy is omitted to model the smaller bow."
+        }
+      }
+    ],
+    "hollow-world-local:f7522260e0baa488": [
+      {
+        "label": "D&D 2024 adaptation · Caryldian’s Evil-Detecting Broad Sword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Activation": "Make a weapon attack.",
+          "Special powers": "While holding the sword, use a Magic action to cast Detect Evil and Good without components once per dawn. Use the spell’s normal range, targets, and Concentration.",
+          "Attunement": "Required",
+          "Source locator": "Hollow World Campaign Set, Adventure Book, The Gem of Neathar, p. 12 (supplied PDF p. 210).",
+          "Conversion notes": "Uses a Longsword for the broad sword. The daily limit is authored. The spell detects its specified creature types and consecration, rather than a creature’s alignment."
+        }
+      }
+    ],
+    "hollow-world-local:fe94f40366be4f1c": [
+      {
+        "label": "D&D 2024 adaptation · Tiradon’s Magic-Detecting Short Sword",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://pandius.com/prodlist.html",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 equipment comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 1.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Activation": "Make a weapon attack.",
+          "Special powers": "While holding the sword, use a Magic action to cast Detect Magic without components once per dawn. Use its normal range and Concentration.",
+          "Attunement": "Required",
+          "Source locator": "Hollow World Campaign Set, Dungeon Master’s Sourcebook, Prince Tiradon of Corescos, p. 89 (supplied PDF p. 157).",
+          "Conversion notes": "Retains +1 and magic detection. The daily limit is authored. The ebony hilt and gold dolphins identify Tiradon’s sword."
+        }
+      }
+    ],
     "hollow-world-local:0dbff0ea40c7239f": [
       {
         "label": "Published D&D 2024 equipment comparison · Traldar Bronze Panoply",
