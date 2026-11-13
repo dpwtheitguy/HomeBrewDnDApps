@@ -1871,6 +1871,19 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'Savage Coast armor shows chain and plate with distinct effects': '''(async () => {
+                    inspect("savage-coast-local:0581d35626873307", grid.firstElementChild);
+                    await itemDetails;
+                    const red = inspection.textContent;
+                    inspect("savage-coast-local:3a9779450ad0961e", grid.firstElementChild);
+                    await itemDetails;
+                    const change = inspection.textContent;
+                    dismissInspection(false);
+                    const chassis = ["Armor class16", "Armor class18", "Open 2024 Chain Mail", "Open 2024 Plate Armor"];
+                    return chassis.every(term => red.includes(term) && change.includes(term))
+                        && red.includes("Other Lightning effects resolve normally")
+                        && change.includes("the armor reshapes to fit");
+                })()''',
                 'Castles weapons show encounter-specific powers': '''(async () => {
                     for (const [id, term] of [
                         ["castles-drungar-local:c0b43efaccb93ac4", "+3 against a creature"],

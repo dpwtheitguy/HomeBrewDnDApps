@@ -1,6 +1,106 @@
 {
   "schema_version": 1,
   "records": {
+    "savage-coast-local:0581d35626873307": [
+      {
+        "label": "D&D 2024 adaptation · Red Steel Armor (Chain Mail)",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "enhancement_bonus": 0,
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail",
+          "label": "Open 2024 Chain Mail"
+        },
+        "fields": {
+          "Armor class": "16",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "None",
+          "Special powers": "Red steel is a poor conductor. If a spell or effect grants a bonus against metal armor specifically because it conducts electricity, ignore that bonus. Other Lightning effects resolve normally.",
+          "Conversion notes": "Chain Mail and Plate Armor are playable examples. Uses the base armor AC and training. The source’s conduction exception does not grant Lightning Resistance.",
+          "Rarity": "Uncommon",
+          "Source locator": "Savage Coast Campaign Book, Magic Items, printed p. 125 (supplied PDF p. 126)."
+        },
+        "source": "https://pandius.com/TSR2521-SCS2.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Red Steel Armor (Plate Armor)",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "enhancement_bonus": 0,
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 Plate Armor"
+        },
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "None",
+          "Special powers": "Red steel is a poor conductor. If a spell or effect grants a bonus against metal armor specifically because it conducts electricity, ignore that bonus. Other Lightning effects resolve normally.",
+          "Conversion notes": "Chain Mail and Plate Armor are playable examples. Uses the base armor AC and training. The source’s conduction exception does not grant Lightning Resistance.",
+          "Rarity": "Uncommon",
+          "Source locator": "Savage Coast Campaign Book, Magic Items, printed p. 125 (supplied PDF p. 126)."
+        },
+        "source": "https://pandius.com/TSR2521-SCS2.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      }
+    ],
+    "savage-coast-local:3a9779450ad0961e": [
+      {
+        "label": "D&D 2024 adaptation · Armor of Change (Chain Mail)",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "enhancement_bonus": 0,
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_chain-mail",
+          "label": "Open 2024 Chain Mail"
+        },
+        "fields": {
+          "Armor class": "16",
+          "Training": "Heavy armor",
+          "Strength requirement": "13",
+          "Stealth disadvantage": "Yes",
+          "Weight": "55 lb",
+          "Attunement": "Required",
+          "Special powers": "While attuned and wearing this armor, when a spell or Savage Coast Legacy changes your size or form, the armor reshapes to fit if you choose. It continues to use its listed AC formula and training requirements, without changing the transformation’s duration. If the new form gives you another AC formula, choose which formula to use. The armor returns to its normal shape when the effect ends. Red steel is a poor conductor. If a spell or effect grants a bonus against metal armor specifically because it conducts electricity, ignore that bonus. Other Lightning effects resolve normally.",
+          "Conversion notes": "The source names chain and plate variants. Continuing to use the armor formula is an explicit exception to the transformation rule for melded or ill-fitting gear.",
+          "Rarity": "Rare",
+          "Source locator": "Savage Coast Campaign Book, Magic Items, printed p. 125 (supplied PDF p. 126)."
+        },
+        "source": "https://pandius.com/TSR2521-SCS2.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      },
+      {
+        "label": "D&D 2024 adaptation · Armor of Change (Plate Armor)",
+        "status": "original-draft",
+        "profile_kind": "adapted-source-armor",
+        "enhancement_bonus": 0,
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_plate-armor",
+          "label": "Open 2024 Plate Armor"
+        },
+        "fields": {
+          "Armor class": "18",
+          "Training": "Heavy armor",
+          "Strength requirement": "15",
+          "Stealth disadvantage": "Yes",
+          "Weight": "65 lb",
+          "Attunement": "Required",
+          "Special powers": "While attuned and wearing this armor, when a spell or Savage Coast Legacy changes your size or form, the armor reshapes to fit if you choose. It continues to use its listed AC formula and training requirements, without changing the transformation’s duration. If the new form gives you another AC formula, choose which formula to use. The armor returns to its normal shape when the effect ends. Red steel is a poor conductor. If a spell or effect grants a bonus against metal armor specifically because it conducts electricity, ignore that bonus. Other Lightning effects resolve normally.",
+          "Conversion notes": "The source names chain and plate variants. Continuing to use the armor formula is an explicit exception to the transformation rule for melded or ill-fitting gear.",
+          "Rarity": "Rare",
+          "Source locator": "Savage Coast Campaign Book, Magic Items, printed p. 125 (supplied PDF p. 126)."
+        },
+        "source": "https://pandius.com/TSR2521-SCS2.pdf",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      }
+    ],
     "castles-drungar-local:c0b43efaccb93ac4": [
       {
         "label": "D&D 2024 adaptation · Heurlinga’s Sword",
