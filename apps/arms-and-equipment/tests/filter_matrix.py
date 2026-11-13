@@ -4398,6 +4398,13 @@ def main():
                     await itemDetails;
                     return branch && inspection.textContent.includes("unavailable through normal Patch 8 gameplay");
                 })()''',
+                'Diablo II Zweihander shows Greatsword rules and native grip modes': '''(async () => {
+                    inspect("diablo-2-reference:86d4367342c214bf", grid.firstElementChild);
+                    await itemDetails;
+                    const text = inspection.textContent;
+                    return ["19–35", "29–54", "Barbarian only", "2d6 Slashing", "Heavy, Two-Handed", "Graze",
+                        "Open 2024 Greatsword"].every(value => text.includes(value));
+                })()''',
                 'Diablo II sword shows separate native damage modes': '''(async () => {
                     inspect("diablo-2-reference:2c9596b23ad6d909", grid.firstElementChild);
                     await itemDetails;
