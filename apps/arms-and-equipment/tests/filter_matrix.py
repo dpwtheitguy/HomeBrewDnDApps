@@ -1871,6 +1871,24 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'X4 weapons show listed bonuses and distinct powers': '''(async () => {
+                    for (const [id, term] of [
+                        ["abb37162cd2abd9d", "extra 2d6 Force"],
+                        ["7b91c777a6127dcf", "weapon itself has Resistance"],
+                        ["6ab4265a2a8b4812", "10 feet melee"],
+                        ["9774821cc73f8b83", "flames add no damage"],
+                        ["de722aded79c310a", "nearest cut gemstone"],
+                        ["4cadf14bb11a1c7c", "8 charges"],
+                        ["38068b59129c3b11", "+3 to attack and damage"],
+                        ["a3b041d07dc3d151", "2d6 Bludgeoning"],
+                    ]) {
+                        inspect("master-of-the-desert-nomads-local:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!inspection.textContent.includes(term)) throw new Error(id + " missing " + term);
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'X4 armor and shields retain published enhancement totals': '''(async () => {
                     for (const [id, term] of [
                         ["0904a5d5a267cd37", "Armor class20"],
