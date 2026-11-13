@@ -4451,6 +4451,20 @@ def main():
                         "Shieldsmash", "Once per Short or Long Rest", "Open 2024 Shield"]
                         .every(value => inspection.textContent.includes(value));
                 })()''',
+                'BG3 toxins distinguish current delayed damage from legacy poison': '''(async () => {
+                    for (const [id, terms] of [
+                        [3778, ["DC 15 Constitution", "1d8 Poison", "at the end of its next turn"]],
+                        [13089, ["3d6 Poison", "Early Access", "was removed"]],
+                        [8505, ["DC 13 Constitution", "Poisoned and Asleep", "Swarming Toadstool"]],
+                        [24863, ["DC 11 Constitution", "adds no Poison damage", "unavailable in normal Patch 8"]],
+                    ]) {
+                        inspect("bg3-wiki:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + ": " + missing.join(", "));
+                    }
+                    return true;
+                })()''',
                 'Oil of Accuracy and related oils show verified mechanics': '''(async () => {
                     for (const [id, terms] of [
                         [12161, ["+2 to attack rolls", "Bonus Action", "10 turns", "Ashes of Daggerroot", "Throwing the coated weapon"]],

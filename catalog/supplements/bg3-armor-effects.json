@@ -523,6 +523,16 @@
           "The coated weapon becomes magical and gains +1 to attack and damage rolls."
         ]
       }
+    },
+    "Poisoned": {
+      "title": "Poisoned",
+      "revision": 416150,
+      "stats": {},
+      "facts": {
+        "Effect": [
+          "Disadvantage on attack rolls and ability checks."
+        ]
+      }
     }
   },
   "shield_training": {
@@ -725,6 +735,168 @@
       ],
       "Special powers": [
         "A Piercing or Slashing weapon coated with this oil gains +3 to attack and damage rolls. This item is unavailable in normal Patch 8 gameplay."
+      ]
+    },
+    "bg3-wiki:13089": {
+      "Activation": [
+        "Use a Bonus Action to coat your active weapon set."
+      ],
+      "Duration": [
+        "10 turns for the weapon coating."
+      ],
+      "Special powers": [
+        "In Early Access, attacks with the coated weapon added 3d6 Poison damage, halved by a DC 15 Constitution save. Wyvern Poison was removed and replaced by Wyvern Toxin."
+      ]
+    },
+    "bg3-wiki:3778": {
+      "Activation": [
+        "Use a Bonus Action to coat your active weapon set."
+      ],
+      "Duration": [
+        "10 turns for the weapon coating."
+      ],
+      "Special powers": [
+        "On a coated hit, the target must pass a DC 15 Constitution save or take 1d8 Poison damage at the end of its next turn. Success prevents the damage."
+      ],
+      "Crafting": [
+        "Ashes of Wyvern Stinger + any Sublimate."
+      ]
+    },
+    "bg3-wiki:12387": {
+      "Activation": [
+        "Use a Bonus Action to coat your active weapon set."
+      ],
+      "Duration": [
+        "10 turns for the weapon coating."
+      ],
+      "Special powers": [
+        "On hit, the target must pass a DC 17 Constitution save or become Poisoned and take 1d6 Poison damage at the end of its next turn. The damage applies at most once per turn. This coating cannot apply its effect as a grenade."
+      ],
+      "Crafting": [
+        "Salts of Corpse Rose + any Suspension."
+      ]
+    },
+    "bg3-wiki:13003": {
+      "Activation": [
+        "Use a Bonus Action to coat your active weapon set."
+      ],
+      "Duration": [
+        "10 turns for the weapon coating."
+      ],
+      "Special powers": [
+        "On a coated hit, the target must pass a DC 13 Constitution save or take 1d6 Poison damage at the end of its next turn. Success prevents the damage."
+      ],
+      "Crafting": [
+        "Suspension of Snake Venom + any Vitriol."
+      ]
+    },
+    "bg3-wiki:8510": {
+      "Activation": [
+        "Use a Bonus Action to coat your active weapon set."
+      ],
+      "Duration": [
+        "10 turns for the weapon coating."
+      ],
+      "Special powers": [
+        "On a coated hit, the target must pass a DC 11 Constitution save or take 1d4 Poison damage at the end of its next turn."
+      ],
+      "Crafting": [
+        "Suspension of Bullywug Trumpet + any Sublimate."
+      ]
+    },
+    "bg3-wiki:13008": {
+      "Activation": [
+        "Use a Bonus Action to coat your active weapon set."
+      ],
+      "Duration": [
+        "10 turns for the weapon coating."
+      ],
+      "Special powers": [
+        "On a coated hit, the target must pass a DC 19 Constitution save or take 1d10 Poison damage at the end of its next turn. Success prevents the damage."
+      ],
+      "Crafting": [
+        "Suspension of Purple Worm Slime + any Vitriol."
+      ]
+    },
+    "bg3-wiki:8513": {
+      "Activation": [
+        "Use a Bonus Action to coat your active weapon set."
+      ],
+      "Duration": [
+        "10 turns for the weapon coating."
+      ],
+      "Special powers": [
+        "On a coated hit, a failed DC 15 Constitution save makes the target Blinded and Poisoned until it succeeds on a save. A successful initial save grants two turns of Malice inoculation."
+      ],
+      "Crafting": [
+        "Vitriol of Lolth’s Candle + any Ashes."
+      ]
+    },
+    "bg3-wiki:12159": {
+      "Activation": [
+        "Use a Bonus Action to coat your active weapon set."
+      ],
+      "Duration": [
+        "10 turns for the weapon coating."
+      ],
+      "Special powers": [
+        "On a coated hit, a failed DC 13 Constitution save paralyses and poisons the target until it succeeds on a save. A successful initial save grants two turns of Crawler Mucus inoculation."
+      ],
+      "Acquisition": [
+        "Unavailable through Alchemy. The source lists Sister Lidwin as a vendor."
+      ]
+    },
+    "bg3-wiki:8505": {
+      "Activation": [
+        "Use a Bonus Action to coat your active weapon set."
+      ],
+      "Duration": [
+        "10 turns for the weapon coating."
+      ],
+      "Special powers": [
+        "On a coated hit, a failed DC 13 Constitution save makes the target Poisoned and Asleep. A successful save or damage ends the condition. A successful initial save grants two turns of Drow Poison inoculation."
+      ],
+      "Crafting": [
+        "Essence of Swarming Toadstool + any Salt."
+      ]
+    },
+    "bg3-wiki:11846": {
+      "Activation": [
+        "Use a Bonus Action to coat your active weapon set."
+      ],
+      "Duration": [
+        "10 turns for the weapon coating."
+      ],
+      "Special powers": [
+        "On a coated hit, a failed DC 13 Constitution save paralyses and poisons the target until it succeeds on a save at the end of its turn. A successful initial save grants two turns of Crawler Mucus inoculation."
+      ],
+      "Crafting": [
+        "Salts of Carrion Crawler Tentacle + any Vitriol."
+      ]
+    },
+    "bg3-wiki:3776": {
+      "Activation": [
+        "Use a Bonus Action to coat your active weapon set."
+      ],
+      "Duration": [
+        "10 turns for the weapon coating."
+      ],
+      "Special powers": [
+        "On a coated hit, a failed DC 11 Constitution save applies Poisoned until a successful save. A successful initial save grants two turns of Basic Poison inoculation."
+      ],
+      "Crafting": [
+        "Vitriol of Bonecap + any Ashes."
+      ]
+    },
+    "bg3-wiki:24863": {
+      "Activation": [
+        "Use a Bonus Action to coat your active weapon set."
+      ],
+      "Duration": [
+        "10 turns for the weapon coating."
+      ],
+      "Special powers": [
+        "On a coated hit, a failed DC 11 Constitution save applies Poisoned. The implemented effect adds no Poison damage. This item is unavailable in normal Patch 8 gameplay."
       ]
     }
   }
