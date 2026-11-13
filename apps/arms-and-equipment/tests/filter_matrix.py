@@ -4412,6 +4412,18 @@ def main():
                     }
                     return true;
                 })()''',
+                'Zathite weapons distinguish Bleed and Poisoned': '''(async () => {
+                    for (const [id, terms] of [
+                        ["f6959f1643c9ff9f", ["Hallowed and Bleed", "DC 13 Constitution", "Nick", "Both daggers share"]],
+                        ["8bc07964868b4731", ["10 ft melee", "Heavy, Reach, Two-Handed", "Poisoned condition", "Star Metal Bars"]],
+                    ]) {
+                        inspect("conan-exiles-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + ": " + missing.join(", "));
+                    }
+                    return true;
+                })()''',
                 'Epic Zingaran shield shows +2 AC and its Shieldsmash conversion': '''(async () => {
                     inspect("conan-exiles-reference:d8f8ae99e4c06788", grid.firstElementChild);
                     await itemDetails;

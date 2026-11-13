@@ -1,6 +1,86 @@
 {
   "schema_version": 1,
   "records": {
+    "conan-exiles-reference:f6959f1643c9ff9f": [
+      {
+        "label": "2024 adaptation · Zathite Daggers",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://conanexiles.gaming.tools/items/51634",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 Dagger"
+        },
+        "fields": {
+          "Source locator": "Conan Exiles game-data listing, item 51634.",
+          "Base weapon": "Dagger",
+          "Damage": "1d4 Piercing + Strength or Dexterity modifier",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient.",
+          "Category": "Simple melee",
+          "Range": "5 ft melee or 20/60 ft thrown",
+          "Properties": "Finesse, Light, Thrown, two separate daggers",
+          "Mastery": "Nick",
+          "Weight": "1 lb. per dagger",
+          "Attunement": "Required.",
+          "Rarity": "Uncommon",
+          "Activation": "Make a normal weapon attack.",
+          "Special powers": "Bleed. Once per Short or Long Rest, when you hit a creature with a melee attack using either dagger, it must make a DC 13 Constitution save. On a failure it takes 1d4 Piercing damage at the start of its next turn. Both daggers share this use.",
+          "Conversion notes": "The pair follows normal Light and Nick rules. Hallowed is represented by its ceremonial origin."
+        },
+        "appraise_as_magic_weapon": true
+      },
+      {
+        "label": "Conan Exiles · Zathite Daggers",
+        "status": "source-reported",
+        "source": "https://conanexiles.gaming.tools/items/51634",
+        "fields": {
+          "Source locator": "Game item 51634.",
+          "Special powers": "Paired ceremonial weapons with Hallowed and Bleed. Light attacks deal 27 and heavy attacks deal 29 in game units.",
+          "Crafting": "Altar of Zath, 5 Branches, 30 Iron Bars, and 20 Venom-purified Blood."
+        }
+      }
+    ],
+    "conan-exiles-reference:8bc07964868b4731": [
+      {
+        "label": "2024 adaptation · Zathite Spear",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "https://conanexiles.gaming.tools/items/51635",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_pike",
+          "label": "Open 2024 Pike"
+        },
+        "fields": {
+          "Source locator": "Conan Exiles game-data listing, item 51635.",
+          "Base weapon": "Pike",
+          "Damage": "1d10 Piercing + Strength modifier",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Category": "Martial melee",
+          "Range": "10 ft melee",
+          "Properties": "Heavy, Reach, Two-Handed",
+          "Mastery": "Push",
+          "Weight": "18 lb.",
+          "Attunement": "Required.",
+          "Rarity": "Uncommon",
+          "Activation": "Make a normal weapon attack.",
+          "Special powers": "Fang of Zath. Once per Short or Long Rest, when you hit a creature with the spear, it must succeed on a DC 13 Constitution save or have the Poisoned condition until the end of its next turn.",
+          "Conversion notes": "The Pike retains the original reach and two-handed grip. The 2024 condition replaces the native Poisoned effect."
+        },
+        "appraise_as_magic_weapon": true
+      },
+      {
+        "label": "Conan Exiles · Zathite Spear",
+        "status": "source-reported",
+        "source": "https://conanexiles.gaming.tools/items/51635",
+        "fields": {
+          "Source locator": "Game item 51635.",
+          "Special powers": "Two-handed longspear with the Poisoned effect. Light attacks deal 41 and heavy attacks deal 49 in game units.",
+          "Crafting": "Altar of Zath, 30 Star Metal Bars, 4 Shaped Wood, and 50 Manifestations of Zeal."
+        }
+      }
+    ],
     "conan-exiles-reference:d8f8ae99e4c06788": [
       {
         "label": "Conan Exiles · Epic Zingaran Mercenary Shield",
