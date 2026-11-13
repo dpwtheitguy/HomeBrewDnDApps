@@ -1871,6 +1871,26 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'First Quest weapons preserve distinct legacy powers': '''(async () => {
+                    for (const [id, term] of [
+                        ["d247d4f988f69957", "60/180 feet thrown"],
+                        ["37a68cb7f7ccdf98", "5d4 Radiant"],
+                        ["7f0c5452eca1ae54", "roll Initiative"],
+                        ["982b9a3a1eb01319", "nearest conscious creature"],
+                        ["2fbbb2a0f9a3aab2", "first applicable category"],
+                        ["41941a3d659459de", "+1 to all saving throws"],
+                        ["050fb28e9d77dd52", "assign up to 3 points"],
+                        ["b24a7315a54efc33", "bandage the wounds"],
+                        ["6fd3f5457047b0b2", "twice per dawn"],
+                        ["061b888dc3dbe1c6", "26 HP maximum"],
+                    ]) {
+                        inspect("first-quest-local:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!inspection.textContent.includes(term)) throw new Error(id + " missing " + term);
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'Mystara equipment profiles show reach ammunition and net restraint': '''(async () => {
                     for (const [id, terms] of [
                         ["39a527854e3d7e8f", ["10 feet melee", "Cleave", "Open 2024 Halberd"]],

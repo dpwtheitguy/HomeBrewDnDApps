@@ -1,6 +1,287 @@
 {
   "schema_version": 1,
   "records": {
+    "first-quest-local:d247d4f988f69957": [
+      {
+        "label": "D&D 2024 adaptation · Axe of Hurling",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "../../pdfs/tsr1105-ad%26d_-_first_quest.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_handaxe",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Slashing in melee or 2d6 when thrown, plus Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee or 60/180 feet thrown",
+          "Properties": "Light, Thrown",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "After a thrown attack, the axe returns to your hand on a hit or miss. On a thrown hit deal 2d6 Slashing instead of 1d6. You can throw it this way once per turn.",
+          "Conversion notes": "Uses +1 as the default instead of rolling on the legacy bonus table. The 180-foot maximum and distinct thrown damage come from the source.",
+          "Source locator": "First Quest, Monsters and Treasures Book, supplied PDF p. 58.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "first-quest-local:37a68cb7f7ccdf98": [
+      {
+        "label": "D&D 2024 adaptation · Mace of Disruption",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "../../pdfs/tsr1105-ad%26d_-_first_quest.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_mace",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "None",
+          "Mastery": "Sap",
+          "Weight": "4 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "On a hit against an Undead, add 2d6 Radiant. If the target has 25 HP or fewer after damage, it must pass a DC 15 Wisdom save or be destroyed. On success it is Frightened until the end of your next turn. An Evil creature takes 5d4 Radiant when it first grasps the mace each turn.",
+          "Conversion notes": "Preserves the legacy +1 and harmful contact. Uses the 2024 threshold and save in place of automatic destruction by creature name. The legacy variant does not add a Fiend trigger.",
+          "Source locator": "First Quest, Monsters and Treasures Book, supplied PDF p. 58.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "first-quest-local:7f0c5452eca1ae54": [
+      {
+        "label": "D&D 2024 adaptation · Short Sword of Quickness",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "../../pdfs/tsr1105-ad%26d_-_first_quest.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_shortsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d6 Piercing + Strength or Dexterity modifier + 2.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee",
+          "Properties": "Finesse, Light",
+          "Mastery": "Vex",
+          "Weight": "2 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "While holding the sword when you roll Initiative, you have Advantage on that roll.",
+          "Conversion notes": "Initiative Advantage replaces automatic first place in each legacy round. The source’s +2 enhancement is retained.",
+          "Source locator": "First Quest, Monsters and Treasures Book, supplied PDF p. 58.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "first-quest-local:982b9a3a1eb01319": [
+      {
+        "label": "D&D 2024 adaptation · Cursed Sword of Berserking",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "../../pdfs/tsr1105-ad%26d_-_first_quest.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required (cursed)",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "When you roll Initiative, make a DC 15 Wisdom save. On a failure you are berserk. On each turn while berserk, draw the sword if needed, move toward the nearest conscious creature you can perceive within 60 feet, and use the Attack action against it if in reach. Ties are your choice. Repeat the save at the end of each turn, ending the effect on success. It also ends when no such creature remains. You cannot voluntarily end attunement. Remove Curse breaks it.",
+          "Conversion notes": "Uses a save and a repeated escape opportunity for the legacy forced attacks, including attacks against allies.",
+          "Source locator": "First Quest, Monsters and Treasures Book, supplied PDF pp. 58–59.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "first-quest-local:2fbbb2a0f9a3aab2": [
+      {
+        "label": "D&D 2024 adaptation · Flame Tongue Sword +1",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "../../pdfs/tsr1105-ad%26d_-_first_quest.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Very rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Toggle the flames as a Bonus Action. They shed Bright Light for 20 feet and Dim Light for another 20 feet while held. On a hit while lit, add 3d6 Fire against an Undead, 2d6 against a creature with Cold Immunity or Fire Vulnerability, 1d6 against a creature with a Regeneration trait, or no extra damage otherwise. Use only the first applicable category. As a Utilize action the blade can ignite unattended flammable material it touches.",
+          "Conversion notes": "Retains the basic +1. Extra Fire dice replace the escalating legacy attack and damage bonuses. Cold Immunity and Fire Vulnerability make the source categories playable.",
+          "Source locator": "First Quest, Monsters and Treasures Book, supplied PDF p. 59.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "first-quest-local:41941a3d659459de": [
+      {
+        "label": "D&D 2024 adaptation · Luck Blade +1",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "../../pdfs/tsr1105-ad%26d_-_first_quest.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "While holding the sword, gain +1 to all saving throws.",
+          "Conversion notes": "Preserves the First Quest version’s two bonuses. No Wish charges are listed for this version.",
+          "Source locator": "First Quest, Monsters and Treasures Book, supplied PDF p. 59.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "first-quest-local:050fb28e9d77dd52": [
+      {
+        "label": "D&D 2024 adaptation · Defender Sword +4",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "../../pdfs/tsr1105-ad%26d_-_first_quest.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 3.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 3.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Legendary",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "When you first attack with the sword on your turn, assign up to 3 points of its enhancement to AC. Subtract the assigned points from its attack and damage bonuses. The AC bonus lasts until the start of your next turn while you hold the sword.",
+          "Conversion notes": "The legacy +4 remains in the item name. The 2024 Defender supplies the +3 limit and transfer timing.",
+          "Source locator": "First Quest, Monsters and Treasures Book, supplied PDF p. 59.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "first-quest-local:b24a7315a54efc33": [
+      {
+        "label": "D&D 2024 adaptation · Sword of Wounding",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "../../pdfs/tsr1105-ad%26d_-_first_quest.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_longsword",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Martial melee weapon",
+          "Damage": "1d8 Slashing (1d10 in two hands) + Strength modifier + 1.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d10)",
+          "Mastery": "Sap",
+          "Weight": "3 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "Once per turn on a hit, inflict a wound for up to 1 minute. At the start of the target’s turn it takes 1 Necrotic damage per active wound, then makes a DC 15 Constitution save, ending all wounds on success. It or an adjacent creature can use an action to bandage the wounds and end them. While wounded, the target cannot regain Hit Points from spells or Regeneration.",
+          "Conversion notes": "Preserves the +1, stacking ongoing damage, ten-round ceiling, and bandaging. The save and bounded healing restriction adapt the legacy wound.",
+          "Source locator": "First Quest, Monsters and Treasures Book, supplied PDF p. 59.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "first-quest-local:6fd3f5457047b0b2": [
+      {
+        "label": "D&D 2024 adaptation · Staff of Curing",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "../../pdfs/tsr1105-ad%26d_-_first_quest.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Rare",
+          "Attunement": "Required by a Cleric",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "As a Magic action touch a willing creature. Choose to restore 2d8 + 3 HP, end the Blinded condition, end a disease, or suppress one ongoing madness effect for 1 hour. Each option can be used twice per dawn, and a creature can benefit from the staff only once per dawn.",
+          "Conversion notes": "Uses fixed 2024 healing and condition language. Madness is a campaign effect adjudicated by the DM. The per-option and per-recipient limits preserve the source.",
+          "Source locator": "First Quest, Monsters and Treasures Book, supplied PDF p. 55.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        }
+      }
+    ],
+    "first-quest-local:061b888dc3dbe1c6": [
+      {
+        "label": "D&D 2024 adaptation · Staff of the Serpent",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "source": "../../pdfs/tsr1105-ad%26d_-_first_quest.pdf",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_quarterstaff",
+          "label": "Open 2024 comparison"
+        },
+        "fields": {
+          "Category": "Simple melee weapon",
+          "Damage": "1d6 Bludgeoning (1d8 in two hands) + Strength modifier + 2.",
+          "Attack bonus": "Strength modifier + Proficiency Bonus if proficient + 2.",
+          "Range": "5 feet melee",
+          "Properties": "Versatile (1d8)",
+          "Mastery": "Topple",
+          "Weight": "4 lb",
+          "Rarity": "Very rare",
+          "Attunement": "Required by a Cleric",
+          "Activation": "Use the normal weapon attack or the action listed for a power.",
+          "Special powers": "As a Magic action place the staff in an unoccupied space within 5 feet. It becomes a Giant Constrictor Snake with 26 HP and a 26 HP maximum for up to 1 hour with Concentration. It acts immediately after you and follows verbal commands or Dodges. End the form as a Bonus Action within 60 feet. If it reaches 0 HP the staff is destroyed. Otherwise it returns to staff form in its space and starts the next transformation at full HP. Once per dawn.",
+          "Conversion notes": "Keeps the +2, cleric restriction, 26 HP, and destruction on death. The 2024 snake stat block and daily duration limit are conversion choices.",
+          "Source locator": "First Quest, Monsters and Treasures Book, supplied PDF p. 55.",
+          "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+          "Snake rules": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+        }
+      }
+    ],
     "mystara-fan-names-reference:fd2dc4f874e5ee46": [
       {
         "label": "Published D&D 2024 counterpart · Club",
