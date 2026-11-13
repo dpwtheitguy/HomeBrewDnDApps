@@ -6881,6 +6881,18 @@
           "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
           "Energy drain": "On a hit, expend one of six charges that never return to add 3d8 Necrotic damage. Reduce the target’s Hit Point maximum by the Necrotic damage it actually took until it finishes a Long Rest.",
           "Sentience": "The demon in Zunar speaks Common, Abyssal, Draconic, and Giant. It opposes the Church of Halav and can suppress its spellcasting powers if its wielder refuses its demands, at the DM’s discretion."
+        },
+        "appraise_as_magic_weapon": true,
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+      },
+      {
+        "label": "Mystara fan supplement · Zunar",
+        "status": "source-reported",
+        "source": "https://pandius.com/Unique_magic_swords.pdf",
+        "fields": {
+          "Source locator": "PDF p. 17.",
+          "Special powers": "Sword +4, rising to +8 against Clerics and Paladins. The sentient sword detects magic, good, and invisibility and can use illusion, telekinesis, and teleportation. Its energy drain has six uses in total.",
+          "History": "The fan account places its last recorded appearance in Vestland and ties its purpose to the Church of Halav."
         }
       }
     ],
@@ -7313,6 +7325,18 @@
           "Conversion notes": "Uses a +3 Greatsword. The saving throw and additional dice replace the source’s instant death and triple damage.",
           "Source locator": "Emanuele Betti, Unique Magic Swords of Mystara, Vol. 1, PDF p. 10.",
           "2024 spell rules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+        },
+        "appraise_as_magic_weapon": true,
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+      },
+      {
+        "label": "Mystara fan supplement · Zanmato",
+        "status": "source-reported",
+        "source": "https://pandius.com/Unique_magic_swords.pdf",
+        "fields": {
+          "Source locator": "PDF p. 10.",
+          "Special powers": "Two-handed sword +5. The legacy slicing trigger can kill on a failed Death Ray save or triple damage on a success. Constructs and Undead are exempt.",
+          "History": "The fan account places its forging in Esterhold and its later theft in the Known World."
         }
       }
     ],
@@ -21949,16 +21973,29 @@
           "Weight": "3 lb",
           "Activation": "Make a weapon attack using the listed range.",
           "Attunement": "Required",
-          "Rarity": "Very Rare",
+          "Rarity": "Legendary",
           "Source locator": "Emanuele Betti, Unique Magic Armors and Shields, PDF pp. 7–8.",
           "Conversion notes": "Caps the legacy +6 at +3 and adds extra damage against sea creatures. Keeps the source’s return-on-miss rule.",
           "2024 equipment": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
           "Special powers": "On a hit against a creature native to the sea with a Swim Speed, add 2d6 Piercing damage. After a thrown attack misses, the spear returns to your free hand or lands at your feet.",
-          "Sentience": "Neutral; Intelligence 6, Wisdom 16, Charisma 17. It speaks telepathically with you and can initiate a sentient-item conflict if you knowingly separate it from Zargon’s Suit Plate or refuse to fight an immediate sea-monster threat."
+          "Sentience": "Neutral; Intelligence 6, Wisdom 16, Charisma 17. It speaks telepathically with you and can initiate a sentient-item conflict if you knowingly separate it from Zargon’s Suit Plate or refuse to fight an immediate sea-monster threat.",
+          "Armor companion": "Zargon’s Suit Plate. Each item uses its own attunement slot."
         },
         "related_item": {
           "id": "open5e-srd-2024:srd-2024_spear",
           "label": "Open 2024 weapon baseline"
+        },
+        "appraise_as_magic_weapon": true,
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons"
+      },
+      {
+        "label": "Mystara fan supplement · Zargon’s Returning Spear",
+        "status": "source-reported",
+        "source": "https://pandius.com/Unique_magic_armors_and_shields.pdf",
+        "fields": {
+          "Source locator": "PDF pp. 7–8.",
+          "Special powers": "Spear +3, rising to +6 against sea creatures. It returns on a thrown miss. It is sentient, communicates telepathically, and seeks to stay with the suit.",
+          "History": "The fan account places the pair aboard Zargon’s sunken ship in the Sea of Dawn."
         }
       }
     ],
@@ -22752,11 +22789,23 @@
           "2024 spells": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
           "Sentience": "Neutral armor, Intelligence 9, Wisdom 16, Charisma 14. It communicates telepathically with its wearer and wants to reunite with the returning spear and rescue people lost at sea.",
           "Separated pair": "If the spear is on the same plane, once per dawn you can take a Magic action to sense its general direction. The armor can initiate a sentient-item conflict if you knowingly separate the pair or refuse a rescue.",
-          "History": "The fan account places the lost armor aboard Zargon’s ship in the Sea of Dawn."
+          "History": "The fan account places the lost armor aboard Zargon’s ship in the Sea of Dawn.",
+          "Spear companion": "Zargon’s Returning Spear. Each item uses its own attunement slot."
         },
         "related_item": {
           "id": "open5e-srd-2024:srd-2024_plate-armor-plus-3",
           "label": "Open 2024 AC baseline"
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      },
+      {
+        "label": "Mystara fan supplement · Zargon’s Suit Plate",
+        "status": "source-reported",
+        "source": "https://pandius.com/Unique_magic_armors_and_shields.pdf",
+        "fields": {
+          "Source locator": "PDF pp. 7–8.",
+          "Special powers": "Full armor +3 that permits swimming. It is sentient, communicates telepathically, and seeks reunion with the spear and the rescue of people lost at sea.",
+          "History": "The fan account places the pair aboard Zargon’s sunken ship in the Sea of Dawn."
         }
       }
     ],

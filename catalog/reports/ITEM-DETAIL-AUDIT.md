@@ -10,7 +10,7 @@ This is a field coverage scan. A source-text or location lead still requires rev
 | Encounters | 3 | 0 | 2 | 4,909 | 29,631 | 0 |
 | Crafting | 8 | 214 | 14 | 131 | 34,178 | 0 |
 | Special Powers | 1,578 | 228 | 1,769 | 2,658 | 28,312 | 0 |
-| History | 13 | 0 | 22 | 0 | 34,510 | 0 |
+| History | 16 | 0 | 22 | 0 | 34,507 | 0 |
 | Range | 952 | 306 | 1,249 | 648 | 31,390 | 0 |
 | Radius | 159 | 20 | 9 | 335 | 34,020 | 2 |
 | Casting Time | 0 | 14 | 2 | 8 | 34,466 | 55 |

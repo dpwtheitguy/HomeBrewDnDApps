@@ -4398,6 +4398,20 @@ def main():
                     await itemDetails;
                     return branch && inspection.textContent.includes("unavailable through normal Patch 8 gameplay");
                 })()''',
+                'Mystara Z relics show legacy powers and tabletop appraisals': '''(async () => {
+                    for (const [id, terms] of [
+                        ["e4db8c2b5a95dfdd", ["Death Ray", "DC 17 Constitution", "Base cost200050 gp"]],
+                        ["cf83cf6786064e33", ["six uses in total", "3d8 Necrotic", "Base cost200015 gp"]],
+                        ["b5eefc05864d274a", ["thrown miss", "20/60 feet thrown", "Base cost200001 gp"]],
+                        ["33d0de9244d90ce6", ["Armor class21", "Swim Speed", "attunement slot"]],
+                    ]) {
+                        inspect("mystara-fan-names-reference:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + ": " + missing.join(", "));
+                    }
+                    return true;
+                })()''',
                 'Epic Zingaran shield shows +2 AC and its Shieldsmash conversion': '''(async () => {
                     inspect("conan-exiles-reference:d8f8ae99e4c06788", grid.firstElementChild);
                     await itemDetails;

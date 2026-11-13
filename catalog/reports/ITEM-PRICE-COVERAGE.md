@@ -4,12 +4,12 @@
 
 | Pricing basis | Records |
 |---|---:|
-| Low-confidence 2024 tabletop category appraisal | 16,831 |
+| Low-confidence 2024 tabletop category appraisal | 16,829 |
 | Source-listed base cost | 4,793 |
-| 2024 magic-item rarity estimate | 4,322 |
+| 2024 magic-item rarity estimate | 4,325 |
 | Source-reported value from catalog provenance | 3,860 |
 | Construction or installation estimate | 3,005 |
-| Estimate from comparable 2024 equipment | 814 |
+| Estimate from comparable 2024 equipment | 813 |
 | Source-reported resale value used as the base benchmark | 444 |
 | Existing catalog appraisal | 265 |
 | DM appraisal for an exceptional or priceless item | 83 |
