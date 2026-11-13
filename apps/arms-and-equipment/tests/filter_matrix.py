@@ -1871,6 +1871,25 @@ def main():
                         dismissInspection(false);
                     }
                 })()''',
+                'X4 armor and shields retain published enhancement totals': '''(async () => {
+                    for (const [id, term] of [
+                        ["0904a5d5a267cd37", "Armor class20"],
+                        ["187ced1267276772", "Armor class bonus+4"],
+                        ["3baf0f407e9106e5", "Armor class bonus+4"],
+                        ["5e4acbeb1fd71df8", "Armor class20"],
+                        ["62dbbf41fbe19ef5", "Armor class18"],
+                        ["7dad048692ab7f16", "Armor class19"],
+                        ["9caf92e9ba98db55", "Armor class12 + Dex modifier"],
+                        ["bd8cc63cbc2c5c6f", "Armor class bonus+3"],
+                        ["c43d4f57d43d4a89", "Armor class bonus+3"],
+                    ]) {
+                        inspect("master-of-the-desert-nomads-local:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        if (!inspection.textContent.includes(term)) throw new Error(id + " missing " + term);
+                    }
+                    dismissInspection(false);
+                    return true;
+                })()''',
                 'First Quest weapons preserve distinct legacy powers': '''(async () => {
                     for (const [id, term] of [
                         ["d247d4f988f69957", "60/180 feet thrown"],
