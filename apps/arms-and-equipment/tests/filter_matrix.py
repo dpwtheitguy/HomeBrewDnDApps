@@ -4424,6 +4424,12 @@ def main():
                     }
                     return true;
                 })()''',
+                'Zhaibar Knives show the native disease and delayed tabletop damage': '''(async () => {
+                    inspect("conan-exiles-reference:32df134196e37780", grid.firstElementChild);
+                    await itemDetails;
+                    return ["45 light / 50 heavy", "0.5%", "DC 15 Constitution", "2d6 Necrotic",
+                        "The pair shares this use", "15 Star Metal Bars"].every(term => inspection.textContent.includes(term));
+                })()''',
                 'Zingaran Epic weapons preserve grip and distinct riders': '''(async () => {
                     for (const [id, terms] of [
                         ["dcf2cb622bd34a95", ["51/61", "Graze", "Speed is reduced"]],

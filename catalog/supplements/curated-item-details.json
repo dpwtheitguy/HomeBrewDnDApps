@@ -1,6 +1,54 @@
 {
   "schema_version": 1,
   "records": {
+    "conan-exiles-reference:32df134196e37780": [
+      {
+        "label": "2024 adaptation · Zhaibar Knives",
+        "status": "original-draft",
+        "profile_kind": "custom-2024-draft",
+        "appraise_as_magic_weapon": true,
+        "source": "https://conanexiles.gaming.tools/items/51540",
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_dagger",
+          "label": "Open 2024 Dagger"
+        },
+        "fields": {
+          "Source locator": "Conan Exiles game-data listing, item 51540.",
+          "Base weapon": "A matched pair of Daggers +1",
+          "Category": "Simple melee",
+          "Damage": "Per knife, 1d4 Piercing + Strength or Dexterity modifier + 1. Follow the normal Light property rule for the extra attack.",
+          "Attack bonus": "Strength or Dexterity modifier + Proficiency Bonus if proficient + 1.",
+          "Range": "5 ft melee or 20/60 ft thrown",
+          "Properties": "Finesse, Light, Thrown",
+          "Mastery": "Nick",
+          "Weight": "1 lb. per knife",
+          "Rarity": "Rare",
+          "Attunement": "Required. The matched pair uses one slot.",
+          "Activation": "Make a normal weapon attack with either knife.",
+          "Special powers": "Wasting Cut. Once per Short or Long Rest, when you hit a creature with a melee attack using either knife, it must succeed on a DC 15 Constitution save or take 2d6 Necrotic damage at the start of its next turn. The pair shares this use.",
+          "Conversion notes": "The +1 and Rare rarity are tabletop choices. Wasting Cut translates the game’s stacking Diseased effect into a single delayed damage roll."
+        }
+      },
+      {
+        "label": "Conan Exiles · Zhaibar Knives",
+        "status": "source-reported",
+        "source": "https://conanexiles.gaming.tools/items/51540",
+        "fields": {
+          "Source locator": "Game item 51540.",
+          "Damage and effects": "45 light / 50 heavy damage, 18.9% armor penetration, and Diseased in the game-data listing.",
+          "Crafting": "The listed Campaign Blacksmith’s Bench recipe uses one Weapon Handle, 15 Star Metal Bars, and 10 Alchemical Base."
+        }
+      },
+      {
+        "label": "Conan Exiles · Diseased",
+        "status": "source-reported",
+        "source": "https://conanexiles.fandom.com/wiki/Category:Diseased",
+        "fields": {
+          "Special powers": "In Conan Exiles, each stack deals damage equal to 0.5% of the target’s maximum HP every 10 seconds. The status also slows stamina recovery and removes food and hydration buffs."
+        }
+      }
+    ],
     "conan-exiles-reference:dcf2cb622bd34a95": [
       {
         "label": "2024 adaptation · Zingaran Mercenary Greatsword",
