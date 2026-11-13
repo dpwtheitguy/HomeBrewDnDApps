@@ -85,11 +85,13 @@ def audit(item, bg3_items, bg3_weapons, curated, spells, native_games, prices, b
             put('damage', 'not-applicable' if damage[0].startswith('None.') else 'source-field')
         if stats.get('enchantment') or stats.get('armour class bonus'):
             put('bonuses')
+        if facts.get('Crafting'):
+            put('crafting')
         if facts.get('Range'):
             put('range')
         if stats.get('area range m') or stats.get('area range ft') or facts.get('Area'):
             put('radius')
-        if stats.get('area duration') or any(key.endswith(' duration') for key in variant['conditions']):
+        if facts.get('Duration') or stats.get('area duration') or any(key.endswith(' duration') for key in variant['conditions']):
             put('duration')
         if stats.get('usage cost') or facts.get('Activation'):
             put('activation')

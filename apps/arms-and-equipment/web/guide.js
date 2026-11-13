@@ -233,7 +233,8 @@ function inspect(id, trigger, shopOffer) {
     const propertiesText = [damage, ac, properties.join(", ")].filter(Boolean).join(" · ");
     if (propertiesText) inspection.appendChild(element("p", propertiesText, "rule"));
     const status = [pretty(item.content_status), pretty(item.tabletop_status)].filter(Boolean).join(" · ");
-    if (status) inspection.appendChild(element("p", status, "meta"));
+    const statusLine = element("p", status, "meta");
+    if (status) inspection.appendChild(statusLine);
     if (shopOffer) {
         inspection.appendChild(element("p", "Shop price · " + coins(shopOffer.price) + " · " + shopOffer.name, "rule"));
     }
@@ -285,6 +286,7 @@ function inspect(id, trigger, shopOffer) {
     itemDetails.then(supplements => {
         if (!extra.isConnected) return;
         const present = addItemDetails(extra, item, supplements);
+        if (extra.querySelector(".verified-bg3-summary")) statusLine.remove();
         if (!present && !bg3Weapon && !description && !rules.children.length) {
             extra.appendChild(element("p", "Source index entry · Rules have not been verified for this edition.", "meta"));
         }

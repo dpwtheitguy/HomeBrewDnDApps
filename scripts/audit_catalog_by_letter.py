@@ -114,11 +114,15 @@ def rule_findings(item, weapon, armor, details, curated):
     return findings
 
 
-def bg3_effect_findings(record, effects, curated):
+def bg3_effect_findings(record, effects, curated, reviewed):
     if any(entry.get('status') == 'source-reported' for entry in curated):
         return []
     titles = {title for variant in record.get('variants', []) for title in variant.get('effects', [])}
     findings = []
+    for index, variant in enumerate(record.get('variants', []), 1):
+        facts = {**variant.get('facts', {}), **reviewed}
+        if variant.get('stats', {}).get('type') == 'Coatings' and not facts.get('Special powers'):
+            findings.append(f'BG3 coating: variant {index} needs an explicit playable effect')
     for title in sorted(titles):
         effect = effects.get(title)
         if not effect:
@@ -169,7 +173,8 @@ def main():
             findings.extend(rule_findings(item, weapon, protection, details.get(item_id, {}),
                                          curated.get(item_id, [])))
             findings.extend(bg3_effect_findings(bg3['records'].get(item_id, {}), bg3_effects,
-                                               curated.get(item_id, [])))
+                                               curated.get(item_id, []),
+                                               bg3_armor['reviewed_item_facts'].get(item_id, {})))
             for report in (weapon, protection):
                 findings.extend(report[key] for key in ('schema_errors', 'review_gaps') if report.get(key))
             if item_id in ammo:

@@ -503,6 +503,26 @@
           "Moving deals 1d4 Piercing per 1 m (about 3 ft) and reduces the remaining duration by one per damage trigger."
         ]
       }
+    },
+    "Oil of Accuracy": {
+      "title": "Oil of Accuracy",
+      "revision": 421459,
+      "stats": {},
+      "facts": {
+        "Effect": [
+          "Attacks with the coated weapon gain +2 to attack rolls. Throwing the coated weapon does not gain the bonus."
+        ]
+      }
+    },
+    "Coated in Diluted Oil of Sharpness": {
+      "title": "Coated in Diluted Oil of Sharpness",
+      "revision": 417711,
+      "stats": {},
+      "facts": {
+        "Effect": [
+          "The coated weapon becomes magical and gains +1 to attack and damage rolls."
+        ]
+      }
     }
   },
   "shield_training": {
@@ -582,6 +602,129 @@
     "bg3-wiki:14015": {
       "Special powers": [
         "The target makes a DC 12 Dexterity save against Ruptured, which lasts up to 5 turns. The game can still call for the save when the arrow misses."
+      ]
+    },
+    "bg3-wiki:12161": {
+      "Activation": [
+        "Use a Bonus Action to coat your active weapon set."
+      ],
+      "Duration": [
+        "10 turns"
+      ],
+      "Special powers": [
+        "Attacks with the coated weapon gain +2 to attack rolls. Throwing the coated weapon does not gain the bonus."
+      ],
+      "Crafting": [
+        "Ashes of Daggerroot + any Salt."
+      ]
+    },
+    "bg3-wiki:12163": {
+      "Activation": [
+        "Use a Bonus Action to coat your active weapon set."
+      ],
+      "Duration": [
+        "10 turns"
+      ],
+      "Special powers": [
+        "The coated weapon becomes magical and gains +1 to attack and damage rolls."
+      ],
+      "Crafting": [
+        "Salts of Viridian Crystal + any Vitriol."
+      ]
+    },
+    "bg3-wiki:13034": {
+      "Activation": [
+        "Use a Bonus Action to coat your active weapon set."
+      ],
+      "Duration": [
+        "10 turns"
+      ],
+      "Special powers": [
+        "On hit, the target must succeed on a DC 11 Charisma save or subtract 1d4 from attack rolls and saving throws for 2 turns."
+      ],
+      "Crafting": [
+        "Vitriol of Putrefied Tumour + any Sublimate."
+      ]
+    },
+    "bg3-wiki:13037": {
+      "Activation": [
+        "Use a Bonus Action to coat your active weapon set."
+      ],
+      "Duration": [
+        "10 turns"
+      ],
+      "Special powers": [
+        "A hit coats the target for 2 turns. Subsequent Fire damage ignites the oil for 3d6 Fire damage in a 10 ft radius and ends the coating on the target. The applying hit does not ignite it."
+      ],
+      "Crafting": [
+        "Ashes of Mephit Magma + any Essence."
+      ]
+    },
+    "bg3-wiki:11757": {
+      "Activation": [
+        "Use a Bonus Action to coat your active weapon set."
+      ],
+      "Duration": [
+        "10 turns"
+      ],
+      "Special powers": [
+        "The coated weapon takes a −1 enchantment penalty. On hit, the target must succeed on a DC 11 Constitution save or become Reduced for 2 turns, taking a 1d4 penalty to melee damage and Disadvantage on Strength checks and saves."
+      ],
+      "Crafting": [
+        "Essence of Sylvan Stone + any Suspension."
+      ]
+    },
+    "bg3-wiki:17761": {
+      "Activation": [
+        "Use a Bonus Action to coat your active weapon set."
+      ],
+      "Duration": [
+        "10 turns"
+      ],
+      "Special powers": [
+        "On hit, apply Encrusted with Frost for 2 turns, imposing Disadvantage on Dexterity saves. At 7 or more turns of Frost, the target makes a DC 12 Constitution save. Failure deals 1d4 Cold and freezes it. Success halves the damage. The Frost then clears."
+      ],
+      "Crafting": [
+        "Suspension of Frost Salamander Tongue + any Sublimate."
+      ]
+    },
+    "bg3-wiki:8943": {
+      "Activation": [
+        "Use a Bonus Action to coat your active weapon set."
+      ],
+      "Duration": [
+        "10 turns"
+      ],
+      "Special powers": [
+        "Hits impose −3 to spell attack rolls and spell save DC, plus Disadvantage on Concentration saves, for 2 turns."
+      ],
+      "Crafting": [
+        "Essence of Gremishka Tail + any Suspension."
+      ]
+    },
+    "bg3-wiki:11855": {
+      "Activation": [
+        "Use a Bonus Action to coat your active weapon set."
+      ],
+      "Duration": [
+        "10 turns"
+      ],
+      "Special powers": [
+        "Hits remove Fire Resistance for 2 turns. Fire immunity remains effective."
+      ],
+      "Crafting": [
+        "Sublimate of Frosted Ears + any Ashes."
+      ]
+    },
+    "bg3-wiki:19715": {
+      "Activation": [
+        "Use a Bonus Action to coat your active weapon set."
+      ],
+      "Duration": [
+        "Until Long Rest"
+      ],
+      "Special powers": [
+        "A Piercing or Slashing weapon coated with this oil gains +3 to attack and damage rolls. This item is unavailable in normal Patch 8 gameplay."
       ]
     }
   }

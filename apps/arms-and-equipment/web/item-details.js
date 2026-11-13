@@ -43,9 +43,13 @@ function itemDetailsSection(panel, label, rows, url, open) {
 }
 
 function addBg3ItemDetails(panel, itemId, record, effects, armorRules) {
+    const reviewed = (armorRules.reviewed_item_facts || {})[itemId] || {};
+    if (reviewed.Activation && reviewed.Duration && reviewed["Special powers"]) {
+        panel.appendChild(element("p", feetText(reviewed["Special powers"][0]), "rule verified-bg3-summary"));
+    }
     record.variants.forEach((variant, index) => {
         const stats = variant.stats;
-        const facts = {...variant.facts, ...(armorRules.reviewed_item_facts || {})[itemId]};
+        const facts = {...variant.facts, ...reviewed};
         const armorEffects = armorRules.effects || {};
         const shieldTraining = stats.type === "Shields" && !stats.proficiency && armorRules.shield_training;
         const exemption = variant.effects.map(title => armorEffects[title])

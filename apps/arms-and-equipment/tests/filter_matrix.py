@@ -4451,6 +4451,20 @@ def main():
                         "Shieldsmash", "Once per Short or Long Rest", "Open 2024 Shield"]
                         .every(value => inspection.textContent.includes(value));
                 })()''',
+                'Oil of Accuracy and related oils show verified mechanics': '''(async () => {
+                    for (const [id, terms] of [
+                        [12161, ["+2 to attack rolls", "Bonus Action", "10 turns", "Ashes of Daggerroot", "Throwing the coated weapon"]],
+                        [13037, ["3d6 Fire damage", "10 ft radius", "The applying hit does not ignite it"]],
+                        [19715, ["+3 to attack and damage", "Until Long Rest", "unavailable in normal Patch 8"]],
+                    ]) {
+                        inspect("bg3-wiki:" + id, grid.firstElementChild);
+                        await itemDetails;
+                        const missing = terms.filter(term => !inspection.textContent.includes(term));
+                        if (missing.length) throw new Error(id + ": " + missing.join(", "));
+                        if (inspection.textContent.includes("Adaptation needed")) return false;
+                    }
+                    return true;
+                })()''',
                 'Freebooter outfit shows game armor and links to the vest rules': '''(async () => {
                     inspect("conan-exiles-reference:722021fd2b45db18", grid.firstElementChild);
                     await itemDetails;

@@ -8,14 +8,14 @@ This is a field coverage scan. A source-text or location lead still requires rev
 | Damage | 2,638 | 298 | 1,079 | 397 | 30,132 | 1 |
 | Bonuses | 454 | 239 | 1,276 | 516 | 32,060 | 0 |
 | Encounters | 3 | 0 | 2 | 4,909 | 29,631 | 0 |
-| Crafting | 16 | 214 | 14 | 131 | 34,170 | 0 |
+| Crafting | 24 | 214 | 14 | 123 | 34,170 | 0 |
 | Special Powers | 1,578 | 228 | 1,790 | 2,658 | 28,291 | 0 |
 | History | 16 | 0 | 22 | 0 | 34,507 | 0 |
 | Range | 952 | 306 | 1,256 | 648 | 31,383 | 0 |
 | Radius | 159 | 20 | 9 | 335 | 34,020 | 2 |
 | Casting Time | 0 | 14 | 2 | 8 | 34,466 | 55 |
 | Activation | 362 | 292 | 1,333 | 626 | 31,932 | 0 |
-| Duration | 246 | 30 | 9 | 666 | 33,594 | 0 |
+| Duration | 247 | 30 | 9 | 666 | 33,593 | 0 |
 | Saving Throw | 39 | 49 | 29 | 520 | 33,906 | 2 |
 | Attunement | 4,380 | 313 | 1,236 | 0 | 28,595 | 21 |
 | Weight | 6,076 | 187 | 1,291 | 0 | 26,991 | 0 |
