@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:8439",
+  "title": "Heavy Chest",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419422,
+      "title": "Heavy Chest",
+      "markers": [
+        "| uid = CONT_GEN_Chest_Heavy_A"
+      ]
+    },
+    {
+      "role": "Rules: Medium Toughness",
+      "revision": 443599,
+      "title": "Medium Toughness",
+      "markers": [
+        "{{See also|Sturdy|Greater Toughness}}"
+      ]
+    }
+  ],
+  "summary": "A Heavy Chest with 100 HP and Medium Toughness.",
+  "fields": {
+    "Defences": "A single hit must deal at least 22 damage. Resistant to Piercing, Slashing, Necrotic and Radiant. Immune to Poison and Psychic.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions.",
+  "use_wiki_title": true
+}

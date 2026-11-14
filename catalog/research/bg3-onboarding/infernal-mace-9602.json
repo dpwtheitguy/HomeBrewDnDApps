@@ -1,0 +1,42 @@
+{
+  "item_id": "bg3-wiki:9602",
+  "title": "Infernal Mace",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438217,
+      "title": "Infernal Mace",
+      "markers": [
+        "MAG_Infernal_Mace_2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432703,
+      "title": "Infernal Weapon",
+      "markers": [
+        "| description = On a hit, this weapon deals an additional {{DamageText|3|Poison}} damage and can possibly {{Cond|Poisoned|Poison}} its target."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341910,
+      "title": "Maces",
+      "markers": [
+        "| damage = 1d6"
+      ]
+    }
+  ],
+  "summary": "A +2 mace that adds 3 Poison damage and can Poison the target.",
+  "fields": {
+    "Damage": "1d6 + 2 Bludgeoning",
+    "Range": "5 ft melee.",
+    "Training": "simple",
+    "Handling": "one-handed",
+    "Enchantment": "+2",
+    "Weapon actions": "Concussive Smash",
+    "Infernal Weapon": "On a hit, deal 3 extra Poison and force a DC 12 Constitution save. Failure inflicts Poisoned for 2 turns, imposing disadvantage on attack rolls and ability checks. The pinned source reports the save is hidden regardless of outcome.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

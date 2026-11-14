@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:6081",
+  "title": "Splint Mould",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Splint Mould",
+      "revision": 423498,
+      "markers": [
+        "UNI_LOOT_AdamantineForge_SplintMold"
+      ]
+    },
+    {
+      "role": "Rules: Adamantine Forge (location)",
+      "title": "Adamantine Forge (location)",
+      "revision": 441169,
+      "markers": [
+        "Mithral Ore"
+      ]
+    }
+  ],
+  "summary": "Mould for forging Adamantine Splint Armour.",
+  "fields": {
+    "Forge": "Use the Splint Mould and Mithral Ore at the Adamantine Forge in Grymforge. Activate the lava valve and forge hammer.",
+    "Acquisition": "Rock ledge near the Ancient Forge waypoint at (−593, 311).",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

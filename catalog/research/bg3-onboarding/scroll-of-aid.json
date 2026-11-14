@@ -1,0 +1,41 @@
+{
+  "item_id": "bg3-wiki:8633",
+  "title": "Scroll of Aid",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Aid",
+      "revision": 422736,
+      "markers": [
+        "LOOT_SCROLL_Aid"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Aid",
+      "revision": 405266,
+      "markers": [
+        "Shout_Aid"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Heal yourself and nearby allies for 5 HP and increase their maximum HP by 5 until Long Rest.",
+  "fields": {
+    "Cast": "Level 2. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Heal yourself and nearby allies for 5 HP and increase their maximum HP by 5 until Long Rest.",
+    "Range": "Self.",
+    "Area": "30 ft radius.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Transcription": "Cannot be copied into a Wizard spellbook.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

@@ -1,0 +1,64 @@
+{
+  "item_id": "bg3-wiki:10576",
+  "title": "Staff of Cherished Necromancy",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Staff of Cherished Necromancy",
+      "revision": 423534,
+      "markers": [
+        "MAG_GreaterNecromancy_Staff"
+      ]
+    },
+    {
+      "role": "Rules: Heightened Necromancy",
+      "title": "Heightened Necromancy",
+      "revision": 432635,
+      "markers": [
+        "| description = Creatures have {{Disadvantage}} on {{SavingThrow}}s against your [[Necromancy|necromancy spells]]."
+      ]
+    },
+    {
+      "role": "Rules: Life Essence Harvest",
+      "title": "Life Essence Harvest",
+      "revision": 432786,
+      "markers": [
+        "| description = When the wielder kills a hostile creature with a spell, they greedily absorb its energy and gain {{Cond|Life Essence}} until their next Long Rest."
+      ]
+    },
+    {
+      "role": "Rules: Life Essence",
+      "title": "Life Essence",
+      "revision": 443912,
+      "markers": [
+        "toggle on"
+      ]
+    },
+    {
+      "role": "Rules: Topple",
+      "title": "Topple",
+      "revision": 377988,
+      "markers": [
+        "Non-lethal"
+      ]
+    },
+    {
+      "role": "Rules: Prone (condition)",
+      "title": "Prone (condition)",
+      "revision": 436524,
+      "markers": [
+        "One turn duration"
+      ]
+    }
+  ],
+  "summary": "Empowers Necromancy and harvests free spell casts from hostile kills.",
+  "fields": {
+    "Weapon profile": "Simple, Versatile, 5 ft melee, Dippable. 1d6 + 2 one-handed or 1d8 + 2 two-handed Bludgeoning plus Strength. +2 to attack rolls. Adds 1d4 Necrotic on a hit.",
+    "Heightened Necromancy": "Targets have Disadvantage on saves against your Necromancy spells.",
+    "Life Essence Harvest": "Direct spell kill of a hostile creature grants Life Essence until Long Rest. Toggle on to cast Necromancy without a slot. Indirect kills and spells cast free via Life Essence do not create more essence. The source reports any spell level can currently use it.",
+    "Acquisition": "Carried by Mystic Carrion.",
+    "Base value": "480 gp nominal BG3 value.",
+    "Topple": "With proficiency, once per Short Rest. Action, weapon attack for 1d4 nonlethal Bludgeoning. DEX save against weapon-action DC +2 or Prone for 1 turn. Prone breaks Concentration and expires at the start of the target’s turn. Topple skips main-hand weapon effects."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

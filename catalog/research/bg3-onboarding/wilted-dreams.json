@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:7891",
+  "title": "Wilted Dreams",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424925,
+      "title": "Wilted Dreams",
+      "markers": [
+        "CONS_Hag_Wilted_Dreams"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437506,
+      "title": "Wilted Dreams (condition)",
+      "markers": [
+        "3d6|Psychic"
+      ]
+    }
+  ],
+  "summary": "Drink to take 3d6 Psychic damage at your next Long Rest.",
+  "fields": {
+    "Wilted Dreams": "A single-use potion. The effect deals 3d6 Psychic damage during your next Long Rest.",
+    "Inspiration": "Drinking it grants An Acquired Taste to Guild Artisan party members.",
+    "Acquisition": "Acrid Workshop at the end of the Overgrown Tunnel.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

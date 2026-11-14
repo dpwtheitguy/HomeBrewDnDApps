@@ -1,0 +1,55 @@
+{
+  "item_id": "bg3-wiki:8138",
+  "title": "Reaper's Embrace",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422190,
+      "title": "Reaper's Embrace",
+      "markers": [
+        "MOO_Ketheric_Armor"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432822,
+      "title": "Magical Plate (-2)",
+      "markers": [
+        "2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433006,
+      "title": "Reaper's Rigidity",
+      "markers": [
+        "ToggledDefaultOn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 407543,
+      "title": "Howl of the Dead",
+      "markers": [
+        "| save dc = 14"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444149,
+      "title": "Numbed",
+      "markers": [
+        "Movement Speed"
+      ]
+    }
+  ],
+  "summary": "AC 19 Heavy Armour reduces incoming damage by 2 and can block forced movement.",
+  "fields": {
+    "Defence": "AC 19. Requires Heavy Armour proficiency, adds no Dexterity modifier and gives Disadvantage on Stealth checks. Magical Plate reduces all incoming damage by 2.",
+    "Reaper’s Rigidity": "Toggle on to prevent forced movement by spells or actions. While active, you have Disadvantage on Dexterity saves. On by default.",
+    "Howl of the Dead": "School-less cantrip. Bonus Action affecting creatures within 10 ft, once per Short Rest. DC 14 Wisdom save or Numbed for 3 turns. Numbed halves movement and gives the caster Advantage on attacks against the target. Help or a hit by the caster ends it.",
+    "Acquisition": "Loot Ketheric Thorm.",
+    "Base value": "6400 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

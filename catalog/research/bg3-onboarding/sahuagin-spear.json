@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:32623",
+  "title": "Sahuagin Spear",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422596,
+      "title": "Sahuagin Spear",
+      "markers": [
+        "WPN_SAHUAGIN_Spear_B"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374223,
+      "title": "Rush Attack",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444158,
+      "title": "Off Balance",
+      "markers": [
+        "Removed by taking damage"
+      ]
+    }
+  ],
+  "summary": "Sahuagin spear deals 1d8 Piercing whether used in one hand or two.",
+  "fields": {
+    "Weapon profile": "1d8 Piercing plus Strength with either grip. Simple, versatile and dippable, 5 ft melee. The source lists Thrown.",
+    "Rush Attack": "Action, charge up to 30 ft and attack the first non-allied creature or object in the path for 1d4 + attack ability modifier Piercing. Strength save against weapon-action DC or Off Balance for 2 turns. Off Balance gives Disadvantage on Strength and Dexterity checks and gives attackers Advantage until damage or Help clears it. Once per Short Rest with proficiency.",
+    "Acquisition": "Sahuagin equipment.",
+    "Base value": "16 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

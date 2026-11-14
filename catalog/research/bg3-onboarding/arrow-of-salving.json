@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:11804",
+  "title": "Arrow of Salving",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416105,
+      "title": "Arrow of Salving",
+      "markers": [
+        "ARR_Arrow_Of_Dispelling",
+        "price = 50",
+        "* Cure your target of {{Condition Type|Poisoned}},{{Cond|Paralysed}} and {{condition Type|Blinded}} conditions."
+      ]
+    },
+    {
+      "role": "Shared arrow rules",
+      "revision": 439126,
+      "title": "Arrows",
+      "markers": [
+        "cannot be crafted",
+        "off-hand ranged attacks",
+        "no saving throws"
+      ]
+    }
+  ],
+  "summary": "Removes Poisoned, Paralysed and Blinded from the target. Uses the entire Action, including when you have Extra Attack.",
+  "fields": {
+    "Activation": "Action. Fire from a ranged weapon and consume one arrow. Range 60 ft.",
+    "Effect": "Removes Poisoned, Paralysed and Blinded from the target. Uses the entire Action, including when you have Extra Attack.",
+    "Restrictions": "Special arrows cannot be used with off-hand ranged attacks.",
+    "Crafting": "Special arrows are obtained from loot or vendors.",
+    "Creative use": "Clear a disabling condition on an ally at range.",
+    "Base value": "50 gp in BG3. Merchant prices vary.",
+    "Hit rule": "Automatically hits unless a preventing effect such as Reflectoguard Active or Reflective Shell interferes."
+  },
+  "changes": "Added reviewed native BG3 activation, effects and linked rules."
+}

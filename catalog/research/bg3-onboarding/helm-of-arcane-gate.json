@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:30889",
+  "title": "Helm of Arcane Gate",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419469,
+      "title": "Helm of Arcane Gate",
+      "markers": [
+        "UNI_ARM_OfTeleportation_Helm"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 404049,
+      "title": "Arcane Gate",
+      "markers": [
+        "| description = Create two linked teleportation portals within range. All creatures, including enemies, may travel between the two portals as a free action."
+      ]
+    }
+  ],
+  "summary": "An unobtainable helmet that can cast Arcane Gate.",
+  "fields": {
+    "Arcane Gate": "Action once per Long Rest. Choose two points within 60 ft. The portals last 10 turns with concentration. Any creature, including enemies, can pass between them freely.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "95 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

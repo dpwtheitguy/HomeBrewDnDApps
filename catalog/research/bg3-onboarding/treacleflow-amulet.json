@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:31017",
+  "title": "Treacleflow Amulet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Treacleflow Amulet",
+      "revision": 424377,
+      "markers": [
+        "MAG_ZOC_RampartAura_Amulet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Rampart Aura",
+      "revision": 432998,
+      "markers": [
+        "Costs {{Cond|Force Conduit}}"
+      ]
+    }
+  ],
+  "summary": "Toggle a Force Conduit aura that halves nearby movement.",
+  "fields": {
+    "Rampart Aura": "Toggle on to halve movement speed for entities in the aura. Maintaining it spends Force Conduit. The linked rule does not quantify the radius or cost cadence.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "125 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

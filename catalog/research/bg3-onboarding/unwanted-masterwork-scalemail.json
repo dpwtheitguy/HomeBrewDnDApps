@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:14250",
+  "title": "Unwanted Masterwork Scalemail",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Unwanted Masterwork Scalemail",
+      "revision": 424547,
+      "markers": [
+        "UNI_ARM_ScaleMail_DevilsBlacksmith"
+      ]
+    },
+    {
+      "role": "Rules: Exotic Material",
+      "title": "Exotic Material",
+      "revision": 432528,
+      "markers": [
+        "Magic Initiate: Cleric"
+      ]
+    }
+  ],
+  "summary": "Medium Armour gives AC 16 plus full Dexterity and Fire resistance.",
+  "fields": {
+    "Exotic Material": "AC 16 plus full Dexterity modifier, with no +2 cap and no Stealth Disadvantage. Source reports Medium Armour Master or Magic Initiate: Cleric overrides the feature, reducing the maximum Dexterity bonus to +3.",
+    "Resistance": "Fire resistance. Requires Medium Armour proficiency.",
+    "Acquisition": "Dammon at the Forge of the Nine in Act Three.",
+    "Base value": "640 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

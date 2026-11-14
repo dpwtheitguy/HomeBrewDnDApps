@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:8470",
+  "title": "Pitchfork",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Pitchfork",
+      "revision": 421825,
+      "markers": [
+        "TOOL_GEN_Pitchfork_A"
+      ]
+    },
+    {
+      "role": "Rules: Rush Attack",
+      "title": "Rush Attack",
+      "revision": 374223,
+      "markers": [
+        "Off Balance"
+      ]
+    },
+    {
+      "role": "Rules: Off Balance",
+      "title": "Off Balance",
+      "revision": 444158,
+      "markers": [
+        "Removed by taking damage"
+      ]
+    }
+  ],
+  "summary": "Two-handed simple melee weapon with Rush Attack.",
+  "fields": {
+    "Weapon": "Simple two-handed, 5-ft melee. 1d6 Piercing plus Strength. No Thrown property.",
+    "Rush Attack": "Action once per Short Rest with proficiency. Charge up to 30 ft and hit the first non-allied creature or object for 1d4 Piercing plus the attack ability modifier. Strength save against weapon-action DC or Off Balance for 2 turns. Off Balance gives attackers Advantage and gives the target Disadvantage on Strength and Dexterity checks until damage or Help clears it.",
+    "Base value": "16 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

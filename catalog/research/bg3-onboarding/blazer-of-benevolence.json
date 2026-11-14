@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:3442",
+  "title": "Blazer of Benevolence",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416539,
+      "title": "Blazer of Benevolence",
+      "markers": [
+        "| uid = MAG_Bard_TempHP_Armor"
+      ]
+    },
+    {
+      "role": "Rules: Remedial Rhymes",
+      "revision": 433039,
+      "title": "Remedial Rhymes",
+      "markers": [
+        "| summary = '''Remedial Rhymes''' is a passive feature that grants a bit of extra health when you inspire an ally."
+      ]
+    }
+  ],
+  "summary": "Light armour with base AC 11. Gain 4 temporary HP when you inspire an ally with Bardic Inspiration.",
+  "fields": {
+    "Use": "Light armour with base AC 11. Gain 4 temporary HP when you inspire an ally with Bardic Inspiration.",
+    "Base value": "160 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

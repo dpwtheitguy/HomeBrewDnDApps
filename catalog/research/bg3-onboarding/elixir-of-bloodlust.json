@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:8892",
+  "title": "Elixir of Bloodlust",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 442263,
+      "title": "Elixir of Bloodlust",
+      "markers": [
+        "ALCH_Solution_Elixir_Bloodlust"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 435262,
+      "title": "Elixir of Bloodlust (condition)",
+      "markers": [
+        "| uid = ALCH_ELIXIR_BLOODLUST"
+      ]
+    }
+  ],
+  "summary": "Until Long Rest, once per turn on killing a foe, gain 5 temporary HP and an extra Action.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle. Until Long Rest, once per turn on killing a foe, gain 5 temporary HP and an extra Action.",
+    "Stacking": "Replaces other normal elixirs and can be overwritten by another.",
+    "Crafting": "Combine Ashes of Worg Fang with any Salt.",
+    "Honour Mode": "The extra Action does not support Extra Attack in Honour Mode. Knockouts, Cull the Weak kills and kills from Nyrulna’s area damage do not trigger Bloodlust.",
+    "Base value": "25 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:15834",
+  "title": "Peach and Apricot Dye",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421725,
+      "title": "Peach and Apricot Dye",
+      "markers": [
+        "LOOT_Dye_IceCream_02"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 405683,
+      "title": "Dyes",
+      "markers": [
+        "Combine Items"
+      ]
+    }
+  ],
+  "summary": "Single-use dye gives compatible equipment a peach and apricot palette.",
+  "fields": {
+    "Use": "Combine it with eligible equipment in inventory to recolour it.",
+    "Acquisition": "Higher-level stock at Helsik or Figaro Pennygood.",
+    "Base value": "10 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

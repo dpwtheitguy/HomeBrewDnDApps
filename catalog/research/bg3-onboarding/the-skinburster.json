@@ -1,0 +1,82 @@
+{
+  "item_id": "bg3-wiki:8717",
+  "title": "The Skinburster",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424105,
+      "title": "The Skinburster",
+      "markers": [
+        "MAG_ZOC_ForceConduit_Halberd"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433143,
+      "title": "Skinburster Force",
+      "markers": [
+        "multiple times per attack"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442903,
+      "title": "Force Conduit",
+      "markers": [
+        "all the charges are consumed"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374223,
+      "title": "Rush Attack",
+      "markers": [
+        "| range m = 9"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444158,
+      "title": "Off Balance",
+      "markers": [
+        "Removed by taking damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442222,
+      "title": "Bleeding",
+      "markers": [
+        "start of each turn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373605,
+      "title": "Cleave",
+      "markers": [
+        "Flat damage bonus"
+      ]
+    }
+  ],
+  "summary": "A +1 halberd that gains Force Conduit when it deals melee damage.",
+  "fields": {
+    "Weapon profile": "1d10 + 1 Slashing plus Strength. +1 to attack. Martial heavy two-handed dippable halberd, 8 ft reach.",
+    "Skinburster Force": "Deal melee damage with this weapon to gain 2 turns of Force Conduit. Multiple hits or damage instances can apply more than once.",
+    "Force Conduit": "Reduce Bludgeoning, Piercing and Slashing by 1 per remaining turn, max 7. At 5 or more, damaging melee hits that get past mitigation trigger 1d4 Force in a 20 ft radius and remove the stacks.",
+    "Rush Attack": "Action with proficiency once per Short Rest. Charge 30 ft and strike the first non-allied creature or object for 1d4 + attack ability modifier Piercing. Strength save vs weapon-action DC prevents Off Balance for 2 turns. Off Balance gives disadvantage on Strength and Dexterity checks and advantage to attackers. Damage or Help ends it.",
+    "Lacerate": "Action with proficiency once per Short Rest. Melee weapon damage. Constitution save vs weapon-action DC +2 avoids Bleeding for 2 turns. Bleeding deals 2 Slashing at turn start and gives disadvantage on Constitution saves. Healing ends it. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Cleave": "Action with proficiency once per Short Rest. Attack up to 3 enemies in a 7 ft cone for half weapon damage. Flat damage bonuses such as Rage are not halved.",
+    "Acquisition": "Inquisitor’s Chamber display case at Crèche Y’llek.",
+    "Base value": "130 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

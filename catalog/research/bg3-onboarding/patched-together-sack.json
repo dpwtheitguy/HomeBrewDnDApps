@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:8455",
+  "title": "Patched-Together Sack",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421711,
+      "title": "Patched-Together Sack",
+      "markers": [
+        "S_DEN_HuntRewardBag"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 422653,
+      "title": "Save the Refugees",
+      "markers": [
+        "Zevlor"
+      ]
+    }
+  ],
+  "summary": "Zevlor’s quest reward sack contains Wapira’s Crown.",
+  "fields": {
+    "Acquisition": "Accept Zevlor’s reward for helping the tieflings during Save the Refugees.",
+    "Container": "Tiny, 4 HP. Open it to collect the crown and miscellaneous loot.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

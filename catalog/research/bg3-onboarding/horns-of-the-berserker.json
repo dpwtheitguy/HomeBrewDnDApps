@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:10578",
+  "title": "Horns of the Berserker",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419587,
+      "title": "Horns of the Berserker",
+      "markers": [
+        "MAG_Hat_Barbarian_Hide"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433092,
+      "title": "Seeking Blood",
+      "markers": [
+        "already taken damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432125,
+      "title": "Blood Thirst",
+      "markers": [
+        "| notes = * Blood Thirst"
+      ]
+    }
+  ],
+  "summary": "Gain +2 attack rolls against damaged creatures and deal extra melee damage while injured.",
+  "fields": {
+    "Seeking Blood": "+2 to attack rolls against already damaged creatures.",
+    "Blood Thirst": "While below full HP, unarmed and melee attacks deal 2 extra Necrotic. In combat, if you deal no damage on your turn, take 1d4 Necrotic at the end of the turn. The pinned source also reports the bonus on Throw attacks and Fleshmelter Cloak’s Caustic Reprisal.",
+    "Acquisition": "Buy from Entharl Danthelon in Wyrm’s Crossing.",
+    "Base value": "230 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

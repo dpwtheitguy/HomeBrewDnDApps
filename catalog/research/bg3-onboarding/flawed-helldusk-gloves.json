@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:10196",
+  "title": "Flawed Helldusk Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418596,
+      "title": "Flawed Helldusk Gloves",
+      "markers": [
+        "QUEST_HAV_InfernalReward_003"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433641,
+      "title": "Lesser Infernal Touch",
+      "markers": [
+        "| description = Your weapon attacks deal an additional {{DamageText|1d4|Fire}} damage. Your unarmed attacks deal an additional {{DamageText|1d4|Necrotic}} damage, and can possibly inflict {{Cond|Bleeding}}."
+      ]
+    }
+  ],
+  "summary": "Gain +1 Strength saves. Weapon attacks add 1d4 Fire. Unarmed attacks add 1d4 Necrotic and force DC 13 Constitution against Bleeding for 2 turns.",
+  "fields": {
+    "Crafting": "Dammon crafts the gloves after receiving a third piece of Infernal Iron.",
+    "Base value": "290 gp in BG3. Merchant prices vary.",
+    "Lesser Infernal Touch": "Weapon hits deal an extra 1d4 Fire. Unarmed hits deal an extra 1d4 Necrotic and can inflict Bleeding for 2 turns on a failed DC 13 Constitution save.",
+    "Reported throwing behavior": "Thrown weapon attacks can apply both the extra Fire damage and Bleeding. The Bleeding save is hidden in the combat log.",
+    "Strength saves": "+1 to Strength saving throws."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

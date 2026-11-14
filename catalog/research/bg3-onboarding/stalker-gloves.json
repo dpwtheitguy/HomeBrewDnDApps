@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:10889",
+  "title": "Stalker Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Stalker Gloves",
+      "revision": 428482,
+      "markers": [
+        "MAG_Stalker_Gloves"
+      ]
+    },
+    {
+      "role": "Rules: Skullduggery Attack",
+      "title": "Skullduggery Attack",
+      "revision": 433145,
+      "markers": [
+        "| description = Your {{SAI|Sneak Attack}} deals an additional {{DamageText|1d4|Force|drs=t}} damage."
+      ]
+    }
+  ],
+  "summary": "Adds initiative and extra Force damage to Sneak Attack.",
+  "fields": {
+    "Initiative": "+1 to initiative.",
+    "Skullduggery Attack": "Sneak Attack adds 1d4 Force. Rakish Sneak Attack only qualifies when made as a reaction. In Honour Mode the Force is not a damage rider source.",
+    "Acquisition": "Exxvikyap in Rivington.",
+    "Base value": "400 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

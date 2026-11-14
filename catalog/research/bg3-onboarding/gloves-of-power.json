@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:3430",
+  "title": "Gloves of Power",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438106,
+      "title": "Gloves of Power",
+      "markers": [
+        "UNI_DEN_RaidingParty_GoblinCaptain_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439185,
+      "title": "Absolute's Bane",
+      "markers": [
+        "| description = On a hit with a weapon attack, possibly inflict a {{DieIcon|d4|Slashing}} '''-1d4''' penalty to the target's {{Attack Roll}}s and {{SavingThrow}}s."
+      ]
+    }
+  ],
+  "summary": "Gain +1 Sleight of Hand. With the Absolute’s Brand, weapon hits can apply Bane.",
+  "fields": {
+    "Absolute’s Bane": "A melee or ranged weapon hit forces a DC 11 Charisma save. On failure, −1d4 to attack rolls and saves for 2 turns. Does not stack with another Bane. Source reports it fails while disguised.",
+    "Base value": "90 gp in BG3. Merchant prices vary.",
+    "Reported save behavior": "The Charisma save against Absolute’s Bane is hidden in the combat log and does not prompt Portent."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

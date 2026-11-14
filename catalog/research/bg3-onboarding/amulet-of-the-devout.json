@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:11566",
+  "title": "Amulet of the Devout",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 415922,
+      "title": "Amulet of the Devout",
+      "markers": [
+        "MAG_OfTheDevout_Amulet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432644,
+      "title": "High Spellcasting (+2)",
+      "markers": [
+        "| summary ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432602,
+      "title": "Godswill",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Gain +2 spell save DC and an extra Channel Divinity charge.",
+  "fields": {
+    "Equipment type": "Amulets",
+    "Effect": "Gain +2 spell save DC and one additional Channel Divinity charge.",
+    "Base value": "65 gp in BG3. Merchant prices vary.",
+    "Godswill recharge": "The tooltip lists Long Rest. The linked community source reports that the extra charge refreshes on Short Rest while the amulet stays equipped. If you spend it and unequip the amulet, reequipping it before a Long Rest normally does not restore the charge or allow a Short Rest refresh.",
+    "Reported exceptions": "Destructive Wrath, Guided Strike, Touch of Death, and War God’s Blessing reportedly spend the charge without triggering the amulet’s cooldown, so reequipping can restore it."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

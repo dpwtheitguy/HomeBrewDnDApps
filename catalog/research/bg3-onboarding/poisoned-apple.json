@@ -1,0 +1,63 @@
+{
+  "item_id": "bg3-wiki:18504",
+  "title": "Poisoned Apple",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421864,
+      "title": "Poisoned Apple",
+      "markers": [
+        "CONS_FOOD_Fruit_HAG_PoisonApple_Revealed"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437340,
+      "title": "Upset Stomach (condition)",
+      "markers": [
+        "condition duration = 25"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442855,
+      "title": "Feverish",
+      "markers": [
+        "Failing will inflict"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 435442,
+      "title": "Filth Fever (condition)",
+      "markers": [
+        "re-inflict"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444685,
+      "title": "Sunlit Wetlands",
+      "markers": [
+        "Consuming either type of apples"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439705,
+      "title": "Poisoned",
+      "markers": [
+        "Suffers"
+      ]
+    }
+  ],
+  "summary": "Eating this apple can lead to a chain of increasingly severe conditions.",
+  "fields": {
+    "Consume": "Single use. The item lists Upset Stomach. The Sunlit Wetlands page separately reports 10 turns of Poisoned when eating either version of the apple. Poisoned gives disadvantage on attacks and ability checks.",
+    "Upset Stomach": "At expiry, DC 15 Constitution save or Feverish for 25 turns. Feverish imposes disadvantage on Strength checks and saves.",
+    "Filth Fever": "When Feverish expires, a DC 15 Constitution save prevents Filth Fever. On failure, for 25 turns gain disadvantage on attack rolls and Strength checks and saves. At expiry, a DC 15 Constitution save prevents it from reapplying.",
+    "Acquisition": "In the Putrid Bog. Bulrushes yield the apple and can separately injure the character gathering it.",
+    "Base value": "3 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

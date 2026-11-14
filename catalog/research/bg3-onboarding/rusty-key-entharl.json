@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:48352",
+  "title": "Rusty Key (Entharl)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Rusty Key (Entharl)",
+      "revision": 430611,
+      "markers": [
+        "{{story|Rusty Key (Entharl)}} is a miscellaneous [[Story Item]] in [[Act Three]]."
+      ]
+    },
+    {
+      "role": "Rules: Danthelon's Dancing Axe",
+      "title": "Danthelon's Dancing Axe",
+      "revision": 397977,
+      "markers": [
+        "gives the player character"
+      ]
+    }
+  ],
+  "summary": "Opens a specific locked door in BG3.",
+  "fields": {
+    "Lock": "Double doors in Danthelon’s Dancing Axe at (−18, 138) and (−20, 126).",
+    "Acquisition": "Carried by Entharl Danthelon. He can hand it over after being asked about the Harpers or Jaheira.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

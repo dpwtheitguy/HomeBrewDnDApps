@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:25140",
+  "title": "Arrow of Giant Slaying",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416094,
+      "title": "Arrow of Giant Slaying",
+      "markers": [
+        "ARR_Arrow_Of_Slaying_Giant",
+        "price = 20",
+        "* Deals {{InfoBlob|Weapon Damage}}. "
+      ]
+    },
+    {
+      "role": "Shared arrow rules",
+      "revision": 439126,
+      "title": "Arrows",
+      "markers": [
+        "cannot be crafted",
+        "off-hand ranged attacks",
+        "no saving throws"
+      ]
+    }
+  ],
+  "summary": "Targets Giant creatures only. Doubles the weapon damage against that creature type. The slaying effect has no saving throw.",
+  "fields": {
+    "Activation": "Action. Fire from a ranged weapon and consume one arrow. Range 60 ft.",
+    "Effect": "Targets Giant creatures only. Doubles the weapon damage against that creature type. The slaying effect has no saving throw.",
+    "Restrictions": "Special arrows cannot be used with off-hand ranged attacks.",
+    "Crafting": "Special arrows are obtained from loot or vendors.",
+    "Creative use": "Save this arrow for a confirmed Giant target.",
+    "Base value": "20 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 activation, effects and linked rules."
+}

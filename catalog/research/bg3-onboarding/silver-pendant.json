@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:3573",
+  "title": "Silver Pendant",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 434159,
+      "title": "Silver Pendant",
+      "markers": [
+        "CHA_OutpostJewelry"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 413520,
+      "title": "Guidance",
+      "markers": [
+        "| condition duration = 10"
+      ]
+    }
+  ],
+  "summary": "Casts Guidance at will.",
+  "fields": {
+    "Guidance": "Cantrip, Action, touch, Concentration for up to 10 turns. Target adds 1d4 to ability checks.",
+    "Acquisition": "Skeleton at Harper Outpost southwest of the Druid Grove. DC 12 History identifies the Harper mark.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

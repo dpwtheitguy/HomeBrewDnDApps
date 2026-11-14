@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:10294",
+  "title": "Potion of Angelic Slumber",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438837,
+      "title": "Potion of Angelic Slumber",
+      "markers": [
+        "ALCH_Solution_Potion_Rest_Greater"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 436500,
+      "title": "Potion of Angelic Slumber (condition)",
+      "markers": [
+        "If interrupted"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 418280,
+      "title": "Essence of Planetar Feather",
+      "markers": [
+        "Crafted by combining 3"
+      ]
+    }
+  ],
+  "summary": "Sleep for two rounds to receive Long Rest recovery effects.",
+  "fields": {
+    "Drink": "Bonus Action, single use. The two-round sleep must finish without interruption. Works with Fey Ancestry. Throwing does not apply the effect. Completing the sleep grants the effects of a Long Rest.",
+    "Recovery limits": "Restores Short Rest and Long Rest equipment actions, but unequipping or reloading can deplete the restored actions. It restores Song of Rest and does not refill ordinary Short Rest uses. Freecast, Illithid Persuasion, Indomitable, Luck of the Far Realms, Portent and Psionic Dominance are documented exceptions. Rapture and Dislocated Shoulder persist.",
+    "Alchemy": "Extract three Planetar Feathers into Essence of Planetar Feather and add any Suspension.",
+    "Acquisition": "Sources include W’wargaz, Stalker Svignee, Koll, the Waning Moon, House of Hope and High Hall.",
+    "Base value": "200 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:11953",
+  "title": "Assassin of Bhaal Cowl",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 439632,
+      "title": "Assassin of Bhaal Cowl",
+      "markers": [
+        "MAG_Bhaalist_Hat"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432905,
+      "title": "Murderous Sight",
+      "markers": [
+        "| summary ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 439615,
+      "title": "See Invisibility",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Gain +2 Initiative and Darkvision. Cast See Invisibility once per Short Rest.",
+  "fields": {
+    "Equipment type": "Helmets",
+    "Effect": "+2 Initiative. The tooltip lists 10 ft Darkvision, but the pinned passive source reports an effective range of 5 m (about 16 ft), including the character’s built-in detection range.",
+    "Base value": "450 gp in BG3. Merchant prices vary.",
+    "See Invisibility": "Action once per Short Rest, on yourself until Long Rest. Detect invisible creatures or objects within 30 ft while not Incapacitated. Creatures in range that fail a Dexterity save against your spell save DC lose Invisibility."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

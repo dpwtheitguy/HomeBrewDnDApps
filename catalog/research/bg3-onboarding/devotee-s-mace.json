@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:9556",
+  "title": "Devotee's Mace",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417675,
+      "title": "Devotee's Mace",
+      "markers": [
+        "| uid = MAG_Cleric_Devotees_Mace"
+      ]
+    },
+    {
+      "role": "Rules: Healing Incense Aura",
+      "revision": 426386,
+      "title": "Healing Incense Aura",
+      "markers": [
+        "| summary = '''Healing Incense Aura''' is a class action only found as a special action on the [[Devotee's Mace]]. It allows the wielder to heal allies constantly for 10 turns."
+      ]
+    }
+  ],
+  "summary": "A +3 mace dealing 1d6 + 3 Bludgeoning and 1d8 Radiant. Its main-hand aura heals the wielder and nearby allies.",
+  "fields": {
+    "Healing Incense Aura": "Bonus Action once per Long Rest while equipped in the main hand. You and allies within 30 ft heal 1d4 HP at the start of your turns for 10 turns.",
+    "Base value": "640 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

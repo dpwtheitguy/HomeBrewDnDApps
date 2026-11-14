@@ -1,0 +1,33 @@
+{
+  "item_id": "bg3-wiki:9568",
+  "title": "Enforcer Club",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418224,
+      "title": "Enforcer Club",
+      "markers": [
+        "MAG_Enforcer_NonLethalFright_Club"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 421355,
+      "title": "Non-Lethality",
+      "markers": [
+        "| uid = MAG_Enforcer_NonLethalFright_Club_Passive"
+      ]
+    }
+  ],
+  "summary": "An unobtainable +1 club that deals nonlethal damage.",
+  "fields": {
+    "Damage": "1d4 + 1 Bludgeoning",
+    "Weapon profile": "Simple, one-handed, clubs.",
+    "Properties": "Light.",
+    "Weapon actions": "Concussive Smash, Weakening Strike, Backbreaker.",
+    "Non-Lethality": "This weapon deals only nonlethal damage.",
+    "Availability": "Unobtainable in normal play. The documented Act Two Dammon stock quantity is zero.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:3591",
+  "title": "Devilfoil Mask",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 441079,
+      "title": "Devilfoil Mask",
+      "markers": [
+        "| uid = S_UND_MerregonMask_001"
+      ]
+    },
+    {
+      "role": "Rules: Infernal Legion",
+      "revision": 419747,
+      "title": "Infernal Legion",
+      "markers": [
+        "| summary = '''Infernal Legion''' is a passive feature that makes the wearer a part of the legion."
+      ]
+    },
+    {
+      "role": "Rules: Infernal Legion (condition)",
+      "revision": 435856,
+      "title": "Infernal Legion (condition)",
+      "markers": [
+        "{{condition page"
+      ]
+    }
+  ],
+  "summary": "When another creature wearing a Devilfoil Mask is within 20 m (about 66 ft), gain +1 Strength and lose 1 Intelligence, Wisdom and Charisma per nearby mask.",
+  "fields": {
+    "Crafting": "Dammon can turn these masks into Orthon Explosives.",
+    "Base value": "50 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

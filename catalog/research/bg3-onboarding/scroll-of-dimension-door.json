@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:15196",
+  "title": "Scroll of Dimension Door",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Dimension Door",
+      "revision": 422774,
+      "markers": [
+        "LOOT_SCROLL_DimensionDoor"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Dimension Door",
+      "revision": 417713,
+      "markers": [
+        "Teleportation_DimensionDoor"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Teleport yourself and up to one adjacent ally no larger than Medium to a visible space up to about 165 ft away.",
+  "fields": {
+    "Cast": "Level 4. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Teleport yourself and up to one adjacent ally no larger than Medium to a visible space up to about 165 ft away.",
+    "Range": "5 ft to the ally, about 165 ft to the destination.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "100 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

@@ -1,0 +1,73 @@
+{
+  "item_id": "bg3-wiki:31044",
+  "title": "Shadow Battleaxe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423041,
+      "title": "Shadow Battleaxe",
+      "markers": [
+        "MAG_Shadow_Battleaxe"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442298,
+      "title": "Bound Weapon",
+      "markers": [
+        "automatically returns"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373605,
+      "title": "Cleave",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442222,
+      "title": "Bleeding",
+      "markers": [
+        "start of each turn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373912,
+      "title": "Maiming Strike",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443966,
+      "title": "Maimed",
+      "markers": [
+        "reduced to 0"
+      ]
+    }
+  ],
+  "summary": "Unobtainable battleaxe adds Necrotic damage and is bound to its wielder.",
+  "fields": {
+    "Weapon profile": "1d8 + 1 Slashing one-handed or 1d10 + 1 two-handed, plus Strength and 1d4 Necrotic. +1 to attack rolls. Martial Versatile battleaxe.",
+    "Bound Weapon": "Cannot be disarmed and returns if thrown. The profile does not list the Thrown damage property.",
+    "Availability": "Unobtainable in normal play.",
+    "Cleave": "Action, 7 ft cone, up to 3 non-allied creatures or objects. Deals half normal weapon damage, with flat bonuses kept whole. Once per Short Rest with proficiency.",
+    "Lacerate": "Action, normal weapon damage. Constitution save against weapon-action DC +2 or Bleeding for 2 turns. Bleeding deals 2 Slashing at turn start and gives Disadvantage on Constitution saves until healed. Once per Short Rest with proficiency. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Maiming Strike": "Action for 1d4 + attack ability modifier Piercing. Constitution save against weapon-action DC +2 or Maimed for 2 turns. Maimed sets movement to zero and gives Disadvantage on Dexterity saves until healed. Flying creatures are immune. Once per Short Rest with proficiency.",
+    "Base value": "100 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,64 @@
+{
+  "item_id": "bg3-wiki:3571",
+  "title": "The Joltshooter",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "The Joltshooter",
+      "revision": 424041,
+      "markers": [
+        "MAG_ChargedLightning_Longbow"
+      ]
+    },
+    {
+      "role": "Rules: Electric Blood",
+      "title": "Electric Blood",
+      "revision": 432477,
+      "markers": [
+        "| description = When the wielder deals damage using this weapon, they gain 2 {{Cond|Lightning Charges}}."
+      ]
+    },
+    {
+      "role": "Rules: Lightning Charges",
+      "title": "Lightning Charges",
+      "revision": 443918,
+      "markers": [
+        "5 charges"
+      ]
+    },
+    {
+      "role": "Rules: Hamstrung",
+      "title": "Hamstrung",
+      "revision": 443629,
+      "markers": [
+        "Removed by healing"
+      ]
+    },
+    {
+      "role": "Rules: Hamstring Shot",
+      "title": "Hamstring Shot",
+      "revision": 373853,
+      "markers": [
+        "Hamstrung"
+      ]
+    },
+    {
+      "role": "Rules: Brace (Ranged)",
+      "title": "Brace (Ranged)",
+      "revision": 439120,
+      "markers": [
+        "movement"
+      ]
+    }
+  ],
+  "summary": "Longbow generates two Lightning Charges when it deals damage.",
+  "fields": {
+    "Weapon profile": "Martial two-handed ranged weapon, 60 ft. 1d8 Piercing plus Dexterity.",
+    "Electric Blood": "Gain 2 Lightning Charges on dealing damage with this bow, once per attack. Charges add +1 to attacks and 1 Lightning damage. At 5 charges the next damage consumes them for an extra 1d8 Lightning. Lose 1 charge per turn.",
+    "Acquisition": "Choose it from Florrick’s three possible rewards for rescuing her at Waukeen’s Rest.",
+    "Base value": "310 gp nominal BG3 value.",
+    "Hamstring Shot": "With proficiency, once per Short Rest. Action. Deal weapon damage. CON save against weapon-action DC +2 or halve movement for 2 turns. Healing clears it.",
+    "Brace (Ranged)": "With proficiency, once per Short Rest. Spend 20 ft of movement. Roll ranged damage twice and use the higher result for this turn. Longbow and heavy crossbow variants have separate cooldowns."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

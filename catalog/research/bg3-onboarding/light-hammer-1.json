@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:3360",
+  "title": "Light Hammer +1",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420478,
+      "title": "Light Hammer +1",
+      "markers": [
+        "WPN_HUM_LightHammer_A_1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373613,
+      "title": "Concussive Smash",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    }
+  ],
+  "summary": "+1 light hammer that can be thrown or used for Concussive Smash.",
+  "fields": {
+    "Damage": "1d4 + 1 Bludgeoning plus Strength. +1 to attack rolls. Simple one-handed melee weapon, 5 ft reach. Light, Thrown and Dippable.",
+    "Concussive Smash": "Action, melee weapon damage. Constitution save or Dazed for 2 turns. The action uses the higher of weapon-action DC +2 and spell save DC. Once per Short Rest with proficiency.",
+    "Acquisition": "Sold by traders that use the magic melee weapon table.",
+    "Base value": "40 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

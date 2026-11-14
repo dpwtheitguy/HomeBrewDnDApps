@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:3558",
+  "title": "The Blast Pendant",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "The Blast Pendant",
+      "revision": 423966,
+      "markers": [
+        "MAG_ChargedLightning_LightningBlast_Amulet"
+      ]
+    },
+    {
+      "role": "Rules: Lightning Blast",
+      "title": "Lightning Blast",
+      "revision": 402574,
+      "markers": [
+        "| description = Focus the electricity in your veins to strengthen your next spell or [[cantrip]]."
+      ]
+    },
+    {
+      "role": "Rules: Lightning Charges",
+      "title": "Lightning Charges",
+      "revision": 443918,
+      "markers": [
+        "5 charges"
+      ]
+    }
+  ],
+  "summary": "Spend Lightning Charges to empower the next damaging spell.",
+  "fields": {
+    "Lightning Blast": "Bonus Action on yourself, once per Long Rest, requires Lightning Charges. For 2 turns, the next qualifying spell or cantrip adds Lightning damage equal to your remaining charges and consumes them on hit. The source reports any damaging spell can qualify through the Lightning damage added by your charges. At 5 or more charges the regular 1d8 burst can also apply.",
+    "Acquisition": "Worn by the petrified drow Dhourn west of the Selûnite Outpost.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

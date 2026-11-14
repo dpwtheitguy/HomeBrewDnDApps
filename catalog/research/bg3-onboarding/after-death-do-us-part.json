@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:21578",
+  "title": "After Death Do Us Part",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 428842,
+      "title": "After Death Do Us Part",
+      "markers": [
+        "LOW_KerriRing_Ring"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432049,
+      "title": "After Death Do Us Part (passive feature)",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Once per Long Rest, becoming Downed revives the wearer at half HP.",
+  "fields": {
+    "Equipment type": "Rings",
+    "Effect": "When you become Downed, revive with half your HP once per Long Rest.",
+    "Base value": "70 gp in BG3. Merchant prices vary.",
+    "Reported behavior": "The ring applies Shadow Possession on revival, but the pinned community source reports that it is removed immediately when Downed ends. The possession is intended to force attacks against the nearest creature."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

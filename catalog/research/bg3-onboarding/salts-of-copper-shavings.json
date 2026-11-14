@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:14289",
+  "title": "Salts of Copper Shavings",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422608,
+      "title": "Salts of Copper Shavings",
+      "markers": [
+        "ALCH_Extract_ConstructPart"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437982,
+      "title": "Elixir of Lightning Resistance",
+      "markers": [
+        "| description ="
+      ]
+    }
+  ],
+  "summary": "Alchemy extract used to make Elixir of Lightning Resistance.",
+  "fields": {
+    "Extraction": "Combine 3 Broken Machinery pieces.",
+    "Recipe": "Combine these salts with any Suspension to make Elixir of Lightning Resistance.",
+    "Result": "Grants Lightning resistance until Long Rest.",
+    "Base value": "16 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

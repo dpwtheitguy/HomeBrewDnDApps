@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:12914",
+  "title": "Amulet of Branding",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 415913,
+      "title": "Amulet of Branding",
+      "markers": [
+        "MAG_Gish_WeaknessBranding_Amulet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 371686,
+      "title": "Brand the Weak",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Use a Bonus Action once per Long Rest to brand a target and make it vulnerable to a selected physical damage type: Bludgeoning, Slashing, or Piercing.",
+  "fields": {
+    "Equipment type": "Amulets",
+    "Effect": "Brand the Weak is a Bonus Action once per Long Rest. Choose Bludgeoning, Slashing, or Piercing vulnerability for a target within 60 ft. It lasts 3 turns or until the target takes damage.",
+    "Base value": "125 gp in BG3. Merchant prices vary.",
+    "Reported interaction": "The pinned item notes that the vulnerability appears to persist through a single damaging instance, including applicable simultaneous main-hand and off-hand strikes."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

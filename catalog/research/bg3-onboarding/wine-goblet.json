@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:9719",
+  "title": "Wine Goblet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 425960,
+      "title": "Wine Goblet",
+      "markers": [
+        "CONS_Drink_Wine_Glass_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437839,
+      "title": "Alcohol (condition)",
+      "markers": [
+        "Disadvantage"
+      ]
+    }
+  ],
+  "summary": "Drink for 2 turns of Alcohol without spending a Bonus Action.",
+  "fields": {
+    "Drink": "Single use. Drink without spending a Bonus Action. Alcohol gives disadvantage on Dexterity and Charisma checks for 2 turns.",
+    "Acquisition": "Random loot. The pinned item also lists a possible unverified Worg Pens location.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

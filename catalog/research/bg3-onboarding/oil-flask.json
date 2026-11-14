@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:24697",
+  "title": "Oil Flask",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421456,
+      "title": "Oil Flask",
+      "markers": [
+        "LOOT_GEN_Throwable_Oil_Flask_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 421454,
+      "title": "Oil",
+      "markers": [
+        "no effects while stepping"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 371587,
+      "title": "Fire (surface)",
+      "markers": [
+        "Burning"
+      ]
+    }
+  ],
+  "summary": "Throw to spread a flammable Oil surface. It has no barrel-style blast.",
+  "fields": {
+    "Throw": "Action, up to 60 ft, creates Oil in a 10 ft radius. There is no direct explosion damage.",
+    "Ignition": "Fire transforms the Oil into a Fire surface. Destroying the flask with Fire creates a smaller surface than throwing the flask. Oil itself does not slow movement. The Fire surface deals 1d4 Fire per turn and applies Burning for 1 turn.",
+    "Acquisition": "Loot from Act Three prisons.",
+    "Base value": "7 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,57 @@
+{
+  "item_id": "bg3-wiki:18512",
+  "title": "Juicy Apple",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419984,
+      "title": "Juicy Apple",
+      "markers": [
+        "CONS_FOOD_Fruit_HAG_PoisonApple"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444685,
+      "title": "Sunlit Wetlands",
+      "markers": [
+        "Consuming either type of apples"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437340,
+      "title": "Upset Stomach (condition)",
+      "markers": [
+        "| condition duration = 25"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442855,
+      "title": "Feverish",
+      "markers": [
+        "Filth Fever"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Filth Fever (condition)",
+      "revision": 435442,
+      "markers": [
+        "25",
+        "Disadvantage"
+      ]
+    }
+  ],
+  "summary": "Eating this poisoned apple gives Upset Stomach and can lead to escalating illness.",
+  "fields": {
+    "Eat": "Consumes one apple. The Wetlands source reports a Poisoned-group effect for 10 turns. Its named condition is Upset Stomach.",
+    "Upset Stomach": "When it ends, make a DC 15 Constitution save. Failure causes Feverish for 25 turns.",
+    "Feverish": "Disadvantage on Strength checks and saving throws. When it ends, another DC 15 Constitution save prevents Filth Fever.",
+    "Acquisition": "Found in the Sunlit Wetlands while the illusion is intact. The item appears as Poisoned Apple after the illusion is dispelled.",
+    "Base value": "3 gp nominal BG3 value.",
+    "Filth Fever": "For 25 turns, gain disadvantage on attack rolls and on Strength checks and saving throws. At expiry, a DC 15 Constitution save prevents the condition from reapplying."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

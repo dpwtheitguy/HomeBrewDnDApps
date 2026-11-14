@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:25802",
+  "title": "Wogglims",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Wogglims",
+      "revision": 429227,
+      "markers": [
+        "DEC_GEN_Fireworks_Rocket_C"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Colour Spray (condition)",
+      "revision": 434891,
+      "markers": [
+        "ft=10"
+      ]
+    }
+  ],
+  "summary": "Firework that deals 3d6 Fire and can apply Colour Spray.",
+  "fields": {
+    "Throw": "Single-use Action. Sends a rocket at a target for 3d6 Fire. DC 12 Dexterity save prevents Colour Spray. The standard throw reaches up to 60 ft. The alternate inventory option reportedly has no explicit range limit.",
+    "Colour Spray": "Disadvantage on attacks and Advantage to attackers. Restricts attacks and most spells to 10 ft.",
+    "Damage riders": "Striking the firework can multiply Fire damage based on damage rider sources.",
+    "Acquisition": "Felogyr’s Fireworks.",
+    "Base value": "200 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

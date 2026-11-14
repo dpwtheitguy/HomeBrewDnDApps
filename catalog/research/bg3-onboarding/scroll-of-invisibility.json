@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:6247",
+  "title": "Scroll of Invisibility",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Invisibility",
+      "revision": 422815,
+      "markers": [
+        "LOOT_SCROLL_Invisibility"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Invisibility (spell)",
+      "revision": 438101,
+      "markers": [
+        "Target_Invisibility"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Touch a creature to make it Invisible for up to 10 turns.",
+  "fields": {
+    "Cast": "Level 2. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Touch a creature to make it Invisible for up to 10 turns. Attacking, casting, most interactions, damage or becoming Wet can end it early.",
+    "Range": "5 ft.",
+    "Concentration": "Maintain Concentration for the ongoing effect.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

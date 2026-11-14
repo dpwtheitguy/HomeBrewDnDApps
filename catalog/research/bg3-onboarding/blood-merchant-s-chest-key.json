@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:50344",
+  "title": "Blood Merchant's Chest Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430661,
+      "title": "Blood Merchant's Chest Key",
+      "markers": [
+        "LOW_BloodMerchant_BasementChest01Key"
+      ]
+    },
+    {
+      "role": "Linked lock or location",
+      "revision": 441543,
+      "title": "Crimson Draughts",
+      "markers": [
+        "A locked chest which requires"
+      ]
+    }
+  ],
+  "summary": "Likely opens the locked chest in the Crimson Draughts basement laboratory.",
+  "fields": {
+    "Use": "Likely opens the locked chest in the Crimson Draughts basement laboratory.",
+    "Acquisition or alternate access": "The location also lists a DC 10 Sleight of Hand check to lockpick the basement chest.",
+    "Source note": "Target inferred from the key’s game identifier or item notes and the documented location."
+  },
+  "changes": "Added the native key interaction and source locators. Flagged the inferred lock target in the summary and use field."
+}

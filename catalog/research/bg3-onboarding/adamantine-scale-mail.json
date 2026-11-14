@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:18",
+  "title": "Adamantine Scale Mail",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438231,
+      "title": "Adamantine Scale Mail",
+      "markers": [
+        "ARM_Scalemail_Adamantine_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432039,
+      "title": "Adamantine Backlash",
+      "markers": [
+        "| summary ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432821,
+      "title": "Magical Plate (-1)",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Incoming damage is reduced by 1 and attackers cannot critically hit you. A melee hit against you sends the attacker Reeling for 2 turns.",
+  "fields": {
+    "Equipment type": "Medium Armour",
+    "Training": "Medium Armour",
+    "Base AC": "16",
+    "Effect": "Incoming damage is reduced by 1 and attackers cannot critically hit you. A melee hit against you sends the attacker Reeling for 2 turns.",
+    "Crafting": "Forge from a Scale Mail Mould and Mithral Ore.",
+    "Base value": "1300 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 mechanics and pinned item and related rule sources."
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "bg3-wiki:6",
+  "title": "Chest of the Mundane",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 441389,
+      "title": "Chest of the Mundane",
+      "markers": [
+        "S_UND_ChestOfMundane"
+      ]
+    }
+  ],
+  "summary": "Items stored in this chest look like mundane objects until removed. The change does not reduce weight or affect corpses.",
+  "fields": {
+    "Use": "Store items to disguise them. Removing them or bringing a Sussur Bloom’s antimagic aura nearby negates the effect.",
+    "Acquisition": "Northern balcony of the main floor of the Arcane Tower in the Underdark.",
+    "Contents": "Mystra’s Grace, Scrolls of Mage Armour and Protection from Evil and Good, Gold Ingot, and Hearthlight Bomb.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

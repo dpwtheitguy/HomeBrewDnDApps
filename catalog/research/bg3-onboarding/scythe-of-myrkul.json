@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:34186",
+  "title": "Scythe of Myrkul",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422940,
+      "title": "Scythe of Myrkul",
+      "markers": [
+        "WPN_MYRKUL_Apostle_Scythe_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 340908,
+      "title": "Reaper's Scythe",
+      "markers": [
+        "120° arc"
+      ]
+    }
+  ],
+  "summary": "Apostle of Myrkul’s unique scythe, unavailable to ordinary wielders.",
+  "fields": {
+    "Weapon profile": "2d12 Slashing plus Strength. Martial two-handed glaive. Only the Apostle of Myrkul can wield it.",
+    "Reaper’s Scythe": "Action once per turn. Sweeps a 120° arc in a 17 ft cone for 2d12 + Strength Slashing and 3d6 Necrotic. DC 18 Strength save. The action page specifies 4 m (13 ft) knockback, while the item lists 10 ft.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

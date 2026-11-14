@@ -1,0 +1,32 @@
+{
+  "item_id": "bg3-wiki:49734",
+  "title": "Transmuter's Stone (Thunder)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Transmuter's Stone (Thunder)",
+      "revision": 424359,
+      "markers": [
+        "LOOT_Spell_TransmutersStone_Resistance_Thunder"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Transmuter's Stone",
+      "revision": 428116,
+      "markers": [
+        "creating a new stone eliminates"
+      ]
+    }
+  ],
+  "summary": "Resistance to Thunder damage while carried.",
+  "fields": {
+    "Effect": "Resistance to Thunder damage while carried. You can pass the stone to another party member.",
+    "Creation": "Level 6 Transmutation Wizard free action. Normally one stone per creator. A Long Rest or casting a level 1+ Transmutation spell refreshes creation. Ritual casting also works.",
+    "Persistence": "Persists until the creator makes another stone, leaves the party or changes class. Stones from different casters can coexist.",
+    "Source discrepancy": "The item effect and crafting variant identify Thunder resistance. One description line on the same page mistakenly says Fire.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence.",
+  "use_wiki_title": true
+}

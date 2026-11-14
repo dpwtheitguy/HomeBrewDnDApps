@@ -309,6 +309,40 @@
             ]
           }
         },
+        "srd_text": {
+          "type": "object",
+          "required": ["reference", "description_md5", "canonical_scope", "official_comparison"],
+          "properties": {
+            "reference": {"enum": ["Open5e SRD 2024 fixture", "Wizards of the Coast SRD 5.2.1"]},
+            "fixture": {"enum": ["Item.json", "MagicItem.json"]},
+            "transcription_md5": {"type": "string", "pattern": "^[a-f0-9]{32}$"},
+            "description_md5": {"type": "string", "pattern": "^[a-f0-9]{32}$"},
+            "canonical_scope": {"const": "published-item-description"},
+            "official_comparison": {"enum": ["unverified", "publisher-checked-correction", "publisher-direct"]},
+            "publisher_pdf_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+            "source_text": {"type": "string", "minLength": 1},
+            "official_page": {"type": "integer", "minimum": 1},
+            "official_url": {"type": "string", "pattern": "^https://media[.]dndbeyond[.]com/"}
+          },
+          "allOf": [
+            {
+              "if": {"properties": {"official_comparison": {"const": "publisher-direct"}}},
+              "then": {
+                "properties": {"reference": {"const": "Wizards of the Coast SRD 5.2.1"}},
+                "required": ["official_page", "official_url", "publisher_pdf_sha256"]
+              },
+              "else": {
+                "properties": {"reference": {"const": "Open5e SRD 2024 fixture"}},
+                "required": ["fixture", "transcription_md5"]
+              }
+            },
+            {
+              "if": {"properties": {"official_comparison": {"const": "publisher-checked-correction"}}},
+              "then": {"required": ["source_text", "official_page", "official_url"]}
+            }
+          ],
+          "additionalProperties": false
+        },
         "record_content_sha256": {
           "type": "string",
           "pattern": "^[a-f0-9]{64}$"

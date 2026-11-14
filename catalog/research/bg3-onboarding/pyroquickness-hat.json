@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:13431",
+  "title": "Pyroquickness Hat",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Pyroquickness Hat",
+      "revision": 422056,
+      "markers": [
+        "MAG_Fire_BonusActionOnFireSpell_Circlet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Fiery Return",
+      "revision": 432561,
+      "markers": [
+        "| condition2 duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Burning",
+      "revision": 442323,
+      "markers": [
+        "Healing Potion"
+      ]
+    }
+  ],
+  "summary": "Dealing Fire damage with a qualifying spell grants a Bonus Action and burns the wearer.",
+  "fields": {
+    "Fiery Return": "Once per attack, Fire damage from a levelled spell or melee spell attack grants one extra Bonus Action for the current turn and applies Burning for 2 turns. A qualifying druid Flame Blade hit works. The racial Flame Blade and Searing Smite do not. A cantrip made into a melee spell attack by Daredevil Gloves can qualify.",
+    "Exceptions": "A Quickened Spell that triggers the effect can immediately consume the extra Bonus Action. Helldusk Armour and Wet can prevent Burning while preserving the extra action. Hellcrawler can trigger Fiery Return, effectively refunding its Bonus Action. The permanent Flame Blade variant does not trigger it.",
+    "Acquisition": "Invisible chest in Elminster’s vault at Sorcerous Sundries. See Invisibility or Faerie Fire can reveal it.",
+    "Base value": "160 gp nominal BG3 value.",
+    "Burning": "Deals 1d4 Fire each turn. Help, Wet or a healing potion can end it."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

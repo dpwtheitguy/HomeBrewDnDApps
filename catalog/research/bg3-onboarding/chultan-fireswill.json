@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:9004",
+  "title": "Chultan Fireswill",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417053,
+      "title": "Chultan Fireswill",
+      "markers": [
+        "CONS_Drink_Rum_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437839,
+      "title": "Alcohol (condition)",
+      "markers": [
+        "| effects = * Has {{Disadvantage}} on [[Dexterity]] and [[Charisma]] checks."
+      ]
+    }
+  ],
+  "summary": "Provides 1 Camp Supplies toward a Long Rest.",
+  "fields": {
+    "Camp Supplies": "Provides 1 Camp Supplies toward a Long Rest.",
+    "Drink": "Bonus Action. Apply Alcohol for 2 turns, giving disadvantage on Dexterity and Charisma checks.",
+    "Throw": "Action. Creates a permanent Alcohol surface in a 13 ft radius.",
+    "Base value": "2 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

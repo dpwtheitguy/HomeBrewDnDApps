@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:3385",
+  "title": "Nature's Snare",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438410,
+      "title": "Nature's Snare",
+      "markers": [
+        "DEN_TunnelStaff"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432570,
+      "title": "Fly Trap",
+      "markers": [
+        "| condition dc = 12"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443524,
+      "title": "Ensnared (Ensnaring Strike)",
+      "markers": [
+        "Cannot move"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 377988,
+      "title": "Topple",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    }
+  ],
+  "summary": "Quarterstaff can Ensnare eligible targets on hit.",
+  "fields": {
+    "Weapon profile": "1d6 Bludgeoning one-handed or 1d8 two-handed, plus Strength. Simple versatile quarterstaff, 5 ft melee, Dippable.",
+    "Fly Trap": "On hit, a non-plant, non-beast target makes a DC 12 Strength save. Failure Ensnares it: movement stops, its attacks and Dexterity saves have Disadvantage, attackers gain Advantage, and it takes 1d6 Piercing per turn. At the start of the first affected turn it repeats the Strength save against the wielder’s spell save DC. It takes the damage regardless. The effect blocks movement for at most one turn.",
+    "Topple": "Action, melee attack for 1d4 nonlethal Bludgeoning. Dexterity save against weapon-action DC +2 or Prone for 1 turn. Once per Short Rest with proficiency.",
+    "Acquisition": "Trapped heavy chest in the Underground Passage.",
+    "Base value": "400 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

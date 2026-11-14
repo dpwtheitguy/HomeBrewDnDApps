@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:8714",
+  "title": "Necklace of Elemental Augmentation",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421264,
+      "title": "Necklace of Elemental Augmentation",
+      "markers": [
+        "MAG_ElementalGish_CantripBooster_Amulet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432496,
+      "title": "Elemental Augmentation",
+      "markers": [
+        "minimum additional damage is 1"
+      ]
+    }
+  ],
+  "summary": "Add your spellcasting modifier to qualifying elemental cantrip damage, minimum +1.",
+  "fields": {
+    "Eligible damage": "Uses the cantrip’s own Acid, Cold, Fire, Lightning or Thunder damage flag. Added damage like Lightning Charges does not qualify, and Booming Blade lacks the required flag. The source reports no Thunder-flagged cantrip.",
+    "Multiclass": "Uses the spellcasting modifier of the last class you added. Stacks with matching Draconic Elemental Affinity.",
+    "Acquisition": "Display case in the Inquisitor’s Chamber of Crèche Y’llek.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

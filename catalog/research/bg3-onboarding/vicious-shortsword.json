@@ -1,0 +1,64 @@
+{
+  "item_id": "bg3-wiki:57143",
+  "title": "Vicious Shortsword",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Vicious Shortsword",
+      "revision": 424658,
+      "markers": [
+        "MAG_Vicious_Shortsword"
+      ]
+    },
+    {
+      "role": "Rules: Dolor Amarus (passive feature)",
+      "title": "Dolor Amarus (passive feature)",
+      "revision": 432275,
+      "markers": [
+        "all'' weapon attacks"
+      ]
+    },
+    {
+      "role": "Rules: Flourish",
+      "title": "Flourish",
+      "revision": 373786,
+      "markers": [
+        "Off Balance"
+      ]
+    },
+    {
+      "role": "Rules: Off Balance",
+      "title": "Off Balance",
+      "revision": 444158,
+      "markers": [
+        "Removed by taking damage"
+      ]
+    },
+    {
+      "role": "Rules: Piercing Strike",
+      "title": "Piercing Strike",
+      "revision": 374168,
+      "markers": [
+        "Gaping Wounds"
+      ]
+    },
+    {
+      "role": "Rules: Gaping Wounds",
+      "title": "Gaping Wounds",
+      "revision": 443536,
+      "markers": [
+        "Honour Mode"
+      ]
+    }
+  ],
+  "summary": "Dolor Amarus adds 7 damage on qualifying critical hits.",
+  "fields": {
+    "Weapon profile": "Martial one-handed shortsword. +2 enchantment. The pinned item lists 1d6 + 10 Slashing despite the +2 enchantment.",
+    "Dolor Amarus": "Adds 7 damage on weapon critical hits, including attacks made with another equipped weapon. Multiple equipped copies can stack, and separate damage riders can benefit. The source reports no extra damage on unarmed or Throw critical hits.",
+    "Flourish": "Bonus Action once per Short Rest with proficiency. 1d4 nonlethal Bludgeoning. Dexterity save against weapon-action DC +2 or Off Balance for 2 turns. It gives attackers Advantage and the target Disadvantage on Strength and Dexterity checks. Damage or Help clears it.",
+    "Piercing Strike": "Action once per Short Rest with proficiency. Deal weapon damage. Constitution save against weapon-action DC +2 or Gaping Wounds for 2 turns. Undead and constructs are immune. Healing clears it. Hits add 2 Piercing, or 2 of the original damage type in Honour Mode for any damage source.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "1100 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

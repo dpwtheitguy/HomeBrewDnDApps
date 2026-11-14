@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:8269",
+  "title": "Pale Orange Dye",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421671,
+      "title": "Pale Orange Dye",
+      "markers": [
+        "LOOT_Dye_OrangeBlue_01"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 405683,
+      "title": "Dyes",
+      "markers": [
+        "Combine Items"
+      ]
+    }
+  ],
+  "summary": "Single-use dye gives compatible equipment a pale orange palette.",
+  "fields": {
+    "Use": "Combine it with eligible equipment in inventory to recolour it.",
+    "Acquisition": "Dammon or Quartermaster Talli.",
+    "Base value": "3 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

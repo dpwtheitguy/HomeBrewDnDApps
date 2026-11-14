@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:24802",
+  "title": "Terazul",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 434289,
+      "title": "Terazul",
+      "markers": [
+        "CONS_Drug_Terazul_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437212,
+      "title": "The Terazul Jitters (condition)",
+      "markers": [
+        "one additional"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443904,
+      "title": "Lethargic",
+      "markers": [
+        "| effects"
+      ]
+    }
+  ],
+  "summary": "Free-action stimulant gives the Terazul Jitters for 2 turns.",
+  "fields": {
+    "Use": "Consume without spending an Action or Bonus Action. +2 AC, Advantage on Dexterity saves, +30 ft movement, and one additional Action per turn.",
+    "Stacking": "Stacks with Hastened. Refreshing Terazul at one remaining turn can maintain its effect, but when stacked with Haste one source can expire and still cause Lethargic.",
+    "Aftereffect": "When the Jitters end, you are Lethargic for 1 turn and cannot move or take Actions, Bonus Actions or Reactions. Concentration stays active.",
+    "Acquisition": "Buy from Severn in the Guildhall or find it in locations including Nortale’s Hostel, Philgrave’s Mansion and the Grey Harbour Docks.",
+    "Base value": "25 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

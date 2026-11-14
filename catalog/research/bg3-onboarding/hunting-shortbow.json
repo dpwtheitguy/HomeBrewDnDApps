@@ -1,0 +1,57 @@
+{
+  "item_id": "bg3-wiki:6871",
+  "title": "Hunting Shortbow",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419633,
+      "title": "Hunting Shortbow",
+      "markers": [
+        "MAG_Hunting_Shortbow"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432551,
+      "title": "Feller of Monsters",
+      "markers": [
+        "all forms of attacks"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 380615,
+      "title": "Hunter's Mark",
+      "markers": [
+        "| damage = 1d6"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 324670,
+      "title": "Reapply Hunter's Mark",
+      "markers": [
+        "| cost = bonus"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373853,
+      "title": "Hamstring Shot",
+      "markers": [
+        "| condition duration = 2"
+      ]
+    }
+  ],
+  "summary": "A +1 shortbow that grants advantage against Monstrosities and casts Hunter’s Mark.",
+  "fields": {
+    "Weapon profile": "1d6 + 1 Piercing, 60 ft ranged, martial, two-handed and dippable.",
+    "Feller of Monsters": "While equipped, gain advantage on all forms of attack against Monstrosities.",
+    "Hunter’s Mark": "Bonus Action once per Long Rest, target one creature within 60 ft. Until Long Rest while concentrating, your weapon hits against it deal an extra 1d6 of the weapon’s damage type. Unarmed hits do not qualify. If it dies, reapply to a new creature as a Bonus Action without a spell slot.",
+    "Reported behavior": "Unequipping the bow does not remove access to the mark while concentration continues.",
+    "Hamstring Shot": "Action once per Short Rest with proficiency. Make a ranged weapon attack; on a hit, Constitution save against weapon-action DC +2 prevents halved movement speed for 2 turns.",
+    "Acquisition": "Buy from Dammon in the Emerald Grove.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

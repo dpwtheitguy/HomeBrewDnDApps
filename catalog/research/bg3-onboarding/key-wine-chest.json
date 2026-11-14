@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:57295",
+  "title": "Key (Wine Chest)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Key (Wine Chest)",
+      "revision": 430472,
+      "markers": [
+        "| usage = * Opens a [[Heavy Chest]] on the ground floor level at the space between the secret bookcase and the [[Guildhall#Secret_Sewer_Vault|secret sewer vault]]"
+      ]
+    }
+  ],
+  "summary": "Opens the Heavy Chest between Keene’s secret bookcase and the Secret Sewer Vault.",
+  "fields": {
+    "Lock": "Opens the Heavy Chest between Keene’s secret bookcase and the Secret Sewer Vault.",
+    "Acquisition and access": "On a crate just beyond the secret bookcase in Nine-Fingers Keene’s Guildhall office.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added the exact lock and acquisition from the pinned native item rules."
+}

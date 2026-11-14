@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:48344",
+  "title": "Donnick's Chest Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430676,
+      "title": "Donnick's Chest Key",
+      "markers": [
+        "| uid = WYR_OpenHandTemple_DonnickChestKey"
+      ]
+    },
+    {
+      "role": "Rules: Donnick",
+      "revision": 426206,
+      "title": "Donnick",
+      "markers": [
+        "{{Infobox creature"
+      ]
+    },
+    {
+      "role": "Rules: Open Hand Temple",
+      "revision": 440044,
+      "title": "Open Hand Temple",
+      "markers": [
+        "{{Location page"
+      ]
+    }
+  ],
+  "summary": "Likely opens Brother Donnick’s personal chest in the Open Hand Temple dormitories.",
+  "fields": {
+    "Source note": "Target inferred from the key name, Donnick’s inventory and the documented group of chests.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

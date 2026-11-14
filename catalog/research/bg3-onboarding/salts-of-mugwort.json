@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:13758",
+  "title": "Salts of Mugwort",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422611,
+      "title": "Salts of Mugwort",
+      "markers": [
+        "ALCH_Extract_Mugwort"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 415986,
+      "title": "Antidote",
+      "markers": [
+        "| description ="
+      ]
+    }
+  ],
+  "summary": "Alchemy extract used to make Antidote.",
+  "fields": {
+    "Extraction": "Combine 3 Mugworts.",
+    "Recipe": "Combine these salts with any Suspension to make Antidote.",
+    "Result": "Removes qualifying Poisoned effects.",
+    "Base value": "10 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

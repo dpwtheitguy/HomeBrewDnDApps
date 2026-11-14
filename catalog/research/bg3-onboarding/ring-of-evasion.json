@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:14454",
+  "title": "Ring of Evasion",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422376,
+      "title": "Ring of Evasion",
+      "markers": [
+        "MAG_PHB_OfEvasion_Ring"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 425380,
+      "title": "Dextrous Evasion",
+      "markers": [
+        "simply sets the wearer"
+      ]
+    }
+  ],
+  "summary": "Spend a Reaction after failing an eligible Dexterity save to set its result to 20.",
+  "fields": {
+    "Dextrous Evasion": "After failing an eligible Dexterity save, spend a Reaction to set its result to 20. It can still fail against DC above 20. Saves from areas or surfaces such as Wall of Fire and Ice do not trigger it.",
+    "Acquisition": "Tara gifts it only to Gale Origin at the first Long Rest after Escape the Nautiloid.",
+    "Base value": "140 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

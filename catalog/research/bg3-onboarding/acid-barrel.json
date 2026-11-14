@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:37178",
+  "title": "Acid Barrel",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 415764,
+      "title": "Acid Barrel",
+      "markers": [
+        "77cfc9e7-02ca-4be8-8e01-51ae3f873d60"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 393042,
+      "title": "Acid (surface)",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Break or throw this barrel to spread Acid.",
+  "fields": {
+    "Activation": "Break by reducing it to 0 HP or throw as an Action.",
+    "Surface": "20 ft radius. Creatures standing in Acid have −2 AC.",
+    "Base value": "5 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 mechanics and pinned item and related rule sources."
+}

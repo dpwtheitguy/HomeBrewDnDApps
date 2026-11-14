@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:32274",
+  "title": "Recipe of Drow Poison",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422207,
+      "title": "Recipe of Drow Poison",
+      "markers": [
+        "BOOK_GLO_Alchemy_DrowPoison"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 417974,
+      "title": "Drow Poison",
+      "markers": [
+        "[[Alchemy]]"
+      ]
+    }
+  ],
+  "summary": "Recipe for Drow Poison.",
+  "fields": {
+    "Formula": "Essence of Swarming Toadstool and any Salt.",
+    "Result": "Coats the active weapon set for 10 turns. Throwing the crafted poison can also create a Drow Poison Cloud.",
+    "Acquisition": "Bookshelf in Balthazar’s chambers at Moonrise Towers, X −150, Y −169.",
+    "Base value": "14 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

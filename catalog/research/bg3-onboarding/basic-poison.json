@@ -1,0 +1,63 @@
+{
+  "item_id": "bg3-wiki:3776",
+  "title": "Basic Poison",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416327,
+      "title": "Basic Poison",
+      "markers": [
+        "| uid = CONS_Poison_Basic"
+      ]
+    },
+    {
+      "role": "Rules: Coatings",
+      "revision": 438130,
+      "title": "Coatings",
+      "markers": [
+        "| description = A subset of Potions, Coatings can apply a variety of harmful effects to weapons that aid in combat for a short period of time."
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 442389,
+      "title": "Coated in Basic Poison",
+      "markers": [
+        "Inoculated: Basic Poison"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 439712,
+      "title": "Poisoned (Basic Poison)",
+      "markers": [
+        "Ends on a successful"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 443820,
+      "title": "Inoculated: Basic Poison",
+      "markers": [
+        "only grants immunity"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 407732,
+      "title": "Poison Cloud",
+      "markers": [
+        "cloud itself doesn't deal any damage"
+      ]
+    }
+  ],
+  "summary": "Apply Basic Poison as a Bonus Action or throw it as an Action.",
+  "fields": {
+    "Coat": "Spend one dose as a Bonus Action to coat both held weapons in the active set for 10 turns. Applying it to the other set costs another dose and Bonus Action. Dipping and coating are mutually exclusive. On hit the target makes a DC 11 Constitution save against Poisoned. It repeats the save at the end of each turn and the condition ends on a success. A successful initial save grants immunity to this version of Basic Poison for 2 turns.",
+    "Throw": "Spend one dose as an Action to throw it up to 60 ft. The 3 ft-radius cloud lasts 1 turn and can cause Poisoned for 1 turn, which ticks at the start of the turn. The impact can apply the same Poisoned condition as a coated hit. Both use DC 11 Constitution saves. The cloud deals no damage.",
+    "Crafting": "Combine Vitriol of Bonecap with any Ashes.",
+    "Poisoned": "Disadvantage on attack rolls and ability checks. A successful DC 11 Constitution save at the end of a turn ends the coated-hit version.",
+    "Base value": "20 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and pinned evidence, then refined its mechanics against item and linked rule notes."
+}

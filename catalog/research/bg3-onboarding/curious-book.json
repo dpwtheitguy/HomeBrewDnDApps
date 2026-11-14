@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:4343",
+  "title": "Curious Book",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417441,
+      "title": "Curious Book",
+      "markers": [
+        "S_FOR_HoleBook"
+      ]
+    }
+  ],
+  "summary": "A hollow book that stores items. Destroying it permanently destroys its contents.",
+  "fields": {
+    "Use": "Choose Read to open this container. It initially contains Wine.",
+    "Destruction": "Destroying the book also destroys everything inside, including story items.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence."
+}

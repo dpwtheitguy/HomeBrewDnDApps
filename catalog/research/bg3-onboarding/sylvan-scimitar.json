@@ -1,0 +1,73 @@
+{
+  "item_id": "bg3-wiki:11575",
+  "title": "Sylvan Scimitar",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Sylvan Scimitar",
+      "revision": 433299,
+      "markers": [
+        "MAG_HAV_Sylvan_Scimitar"
+      ]
+    },
+    {
+      "role": "Rules: Melee Caster",
+      "title": "Melee Caster",
+      "revision": 439174,
+      "markers": [
+        "highest available"
+      ]
+    },
+    {
+      "role": "Rules: Lacerate",
+      "title": "Lacerate",
+      "revision": 373909,
+      "markers": [
+        "Bleeding"
+      ]
+    },
+    {
+      "role": "Rules: Bleeding",
+      "title": "Bleeding",
+      "revision": 442222,
+      "markers": [
+        "start of each turn"
+      ]
+    },
+    {
+      "role": "Rules: Flourish",
+      "title": "Flourish",
+      "revision": 373786,
+      "markers": [
+        "Off Balance"
+      ]
+    },
+    {
+      "role": "Rules: Off Balance",
+      "title": "Off Balance",
+      "revision": 444158,
+      "markers": [
+        "Removed by taking damage"
+      ]
+    },
+    {
+      "role": "Rules: Cleave",
+      "title": "Cleave",
+      "revision": 373605,
+      "markers": [
+        "Up to 3"
+      ]
+    }
+  ],
+  "summary": "+1 scimitar uses your spellcasting ability for attacks and damage.",
+  "fields": {
+    "Weapon profile": "Martial, One-handed, 5 ft melee, Finesse, Light, Dippable. 1d6 + 1 Slashing plus Strength or Dexterity. +1 to attack rolls.",
+    "Melee Caster": "Uses your highest available spellcasting ability modifier for weapon attacks and damage.",
+    "Acquisition": "Carried by Jaheira.",
+    "Base value": "65 gp nominal BG3 value.",
+    "Lacerate": "With proficiency, once per Short Rest. Action, weapon damage. CON save against weapon-action DC +2 or Bleeding for 2 turns, with 2 Slashing at turn start and Disadvantage on CON saves until healed. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Flourish": "With proficiency, once per Short Rest. Bonus Action, 1d4 nonlethal Bludgeoning. DEX save against weapon-action DC +2 or Off Balance for 2 turns, granting attackers Advantage and giving the target Disadvantage on STR/DEX checks. Damage or Help clears it.",
+    "Cleave": "With proficiency, once per Short Rest. Action in a 7-ft cone, up to 3 non-allied creatures or objects. Each takes half weapon damage, with flat bonuses unhalved."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations. Reconciled applicable action, condition, and variant details against pinned rules."
+}

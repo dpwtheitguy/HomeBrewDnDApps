@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:14156",
+  "title": "Sublimate of Wispweed",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Sublimate of Wispweed",
+      "revision": 423686,
+      "markers": [
+        "ALCH_Extract_Wispweed"
+      ]
+    },
+    {
+      "role": "Rules: Potion of Glorious Vaulting",
+      "title": "Potion of Glorious Vaulting",
+      "revision": 421941,
+      "markers": [
+        "Sublimate of Wispweed"
+      ]
+    }
+  ],
+  "summary": "Alchemical extract used for Potion of Glorious Vaulting.",
+  "fields": {
+    "Extract": "Combine 3 Wispweeds to make one Sublimate of Wispweed.",
+    "Brew": "Combine this extract with any Ash to make Potion of Glorious Vaulting.",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:14189",
+  "title": "Suspension of Muddy Goo",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Suspension of Muddy Goo",
+      "revision": 423754,
+      "markers": [
+        "ALCH_Extract_MudMephitWing"
+      ]
+    },
+    {
+      "role": "Rules: Elixir of Poison Resistance",
+      "title": "Elixir of Poison Resistance",
+      "revision": 418159,
+      "markers": [
+        "Suspension of Muddy Goo"
+      ]
+    }
+  ],
+  "summary": "Alchemical extract used for Elixir of Poison Resistance.",
+  "fields": {
+    "Extract": "Combine 3 Mud Mephit Wings to make one Suspension of Muddy Goo.",
+    "Brew": "Combine this extract with any Sublimate to make Elixir of Poison Resistance.",
+    "Base value": "13 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

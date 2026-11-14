@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:3367",
+  "title": "Quarterstaff +1",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Quarterstaff +1",
+      "revision": 422065,
+      "markers": [
+        "WPN_HUM_Quarterstaff_A_1"
+      ]
+    },
+    {
+      "role": "Rules: Topple",
+      "title": "Topple",
+      "revision": 377988,
+      "markers": [
+        "does not execute main hand weapon functors"
+      ]
+    },
+    {
+      "role": "Rules: Prone (condition)",
+      "title": "Prone (condition)",
+      "revision": 436524,
+      "markers": [
+        "Falling Prone immediately ends"
+      ]
+    }
+  ],
+  "summary": "Versatile simple melee staff with the Topple action.",
+  "fields": {
+    "Weapon profile": "Simple, versatile, dippable, 5 ft melee. 1d6 + 1 one-handed or 1d8 + 1 two-handed Bludgeoning, plus Strength. +1 to normal attack rolls.",
+    "Topple": "With proficiency, Action once per Short Rest. Melee weapon attack for 1d4 nonlethal Bludgeoning. The target makes a Dexterity save against weapon-action DC +2 or falls Prone for 1 turn. Topple does not trigger main-hand weapon effects.",
+    "Prone": "Disadvantage on Strength and Dexterity saves. Attackers within 10 ft have Advantage. Falling Prone ends Concentration immediately and ends the target’s current turn if it falls on its own turn. Topple’s one-turn Prone expires at the start of the target’s turn even if it cannot move. For longer Prone effects, standing costs half available movement, or 5 ft with Athlete. While down, the creature cannot move or take Actions, Bonus Actions or Reactions. An ally sharing initiative can use Help to restore an interrupted turn. Lost Concentration stays broken.",
+    "Acquisition": "Sold by traders using the magic melee weapon table.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay and acquisition with pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

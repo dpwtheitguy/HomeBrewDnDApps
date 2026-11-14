@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:47127",
+  "title": "Key to Cazador's Dungeon",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430449,
+      "title": "Key to Cazador's Dungeon",
+      "markers": [
+        "* In the [[Szarr_Palace#Attic|Szarr Palace's Attic]] at {{Coords|-758|1080}}"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439860,
+      "title": "Cazador's Dungeon",
+      "markers": [
+        "opens the Gloomy Ascent"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441461,
+      "title": "Szarr Palace",
+      "markers": [
+        "opened by pressing ''twice''"
+      ]
+    }
+  ],
+  "summary": "Unlocks the lower Crypt Gate to the Gloomy Ascent, a route to the Lower City Sewers.",
+  "fields": {
+    "Unlock": "The gate at X −1981, Y 843 opens from the dungeon side. The alternative is a DC 30 Sleight of Hand check.",
+    "Acquisition": "Find a copy on a charred goblin in the Grand Chamber at X −1924, Y 881, or on the floor of the treasure room in the Szarr Palace attic at X −758, Y 1080.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

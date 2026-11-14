@@ -1,0 +1,78 @@
+{
+  "item_id": "bg3-wiki:8316",
+  "title": "Gontr Mael",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419048,
+      "title": "Gontr Mael",
+      "markers": [
+        "MAG_TheVictory_Longbow"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438454,
+      "title": "Promised Victory",
+      "markers": [
+        "| description = On a hit, possibly inflict {{Cond|Guiding Bolt}} upon the target."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 279859,
+      "title": "Celestial Haste",
+      "markers": [
+        "| description = Gain {{Cond|Celestial Haste|Hastened}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 397259,
+      "title": "Bolt of Celestial Light",
+      "markers": [
+        "| description = {{SmCond|Frightened|Frighten}} your target with intimidating arrows. After attacking, ranged weapon attacks made by Gontr Mael deal an additional {{DamageText|1d4|Radiant}} damage."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341908,
+      "title": "Longbows",
+      "markers": [
+        "| damage = 1d8"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 435658,
+      "title": "Hastened (condition)",
+      "markers": [
+        "| effects ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Celestial Haste (condition)",
+      "revision": 434787,
+      "markers": [
+        "{{Dist|m=9}}"
+      ]
+    }
+  ],
+  "summary": "A +3 longbow that can mark enemies for Advantage and grants Celestial Haste.",
+  "fields": {
+    "Damage": "1d8 + 3 Piercing",
+    "Range": "60 ft ranged.",
+    "Training": "martial",
+    "Handling": "two-handed",
+    "Enchantment": "+3",
+    "Weapon actions": "Brace (Ranged), Hamstring Shot",
+    "Glow": "Toggleable glow in a 20 ft radius.",
+    "Promised Victory": "On a hit, failed DC 15 Dexterity save marks the target. The next attack against it has advantage. The mark expires at the bow wielder’s end of turn. Area arrows can mark multiple targets.",
+    "Celestial Haste": "Action on yourself once per Long Rest. Concentration up to 5 turns. Gain +2 AC, advantage on Dexterity saves, +30 ft movement, and an extra Action. Honour Mode prevents Extra Attack on that extra Action. Ends without Lethargic.",
+    "Bolt of Celestial Light": "Ranged weapon action once per Short Rest. Adds Piercing equal to proficiency bonus and 1d8 Radiant. The target makes a Wisdom save against the weapon-action DC to avoid Frightened for 2 turns. For 10 turns, attacks with the bow add 1d4 Radiant. The 10-turn bonus applies even on a miss. The action requires neither Longbow proficiency nor a Superiority Die.",
+    "Acquisition": "Defeat the Steel Watcher Titan. The bow does not drop if Atrophied kills it.",
+    "Base value": "1000 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "bg3-wiki:10412",
+  "title": "Armour of Devotion",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 426502,
+      "title": "Armour of Devotion",
+      "markers": [
+        "MAG_Paladin_RestoreChannelDivinity_Armor"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 322994,
+      "title": "Eternal Devotion",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Eternal Devotion restores one Paladin Channel Oath charge as an Action once per Long Rest.",
+  "fields": {
+    "Equipment type": "Heavy Armour",
+    "Training": "Heavy Armour",
+    "Base AC": "18",
+    "Effect": "Eternal Devotion restores one Paladin Channel Oath charge as an Action once per Long Rest.",
+    "Base value": "3200 gp in BG3. Merchant prices vary.",
+    "Stealth": "Disadvantage on Stealth checks."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:8922",
+  "title": "Potion of Flying",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421939,
+      "title": "Potion of Flying",
+      "markers": [
+        "ALCH_Solution_Potion_Flying"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442894,
+      "title": "Flight",
+      "markers": [
+        "up to {{Dist|m=18}}"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 418642,
+      "title": "Fly (class action)",
+      "markers": [
+        "cost = half movement"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423679,
+      "title": "Sublimate of Eagle Feathers",
+      "markers": [
+        "Crafted by combining 3"
+      ]
+    }
+  ],
+  "summary": "Drink to gain Flight for 10 turns.",
+  "fields": {
+    "Drink": "Bonus Action, single use. Grants Flight for 10 turns.",
+    "Fly": "Move to a point up to 60 ft away. Uses movement at half the normal cost.",
+    "Alchemy": "Extract three Eagle Feathers into Sublimate of Eagle Feathers and add any Essence.",
+    "Acquisition": "Eligible merchants can stock it, usually when the player character is level 9 or higher.",
+    "Base value": "30 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

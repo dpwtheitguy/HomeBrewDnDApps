@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:12256",
+  "title": "Hat of the Sharp Caster",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419373,
+      "title": "Hat of the Sharp Caster",
+      "markers": [
+        "| uid = MAG_OfSharpCaster_Hat"
+      ]
+    },
+    {
+      "role": "Rules: Sharp Caster",
+      "revision": 433125,
+      "title": "Sharp Caster",
+      "markers": [
+        "| summary = '''Sharp Caster''' is a passive feature that rerolls low damage die, once."
+      ]
+    }
+  ],
+  "summary": "Reroll a 1 or 2 on a spell damage die once.",
+  "fields": {
+    "Actual scope": "The game also rerolls damage from spells without an attack roll. It does not reroll Booming Blade’s Thunder damage, but can reroll the elemental rider from Ring of Elemental Infusion.",
+    "Base value": "50 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

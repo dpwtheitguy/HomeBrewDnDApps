@@ -1,0 +1,51 @@
+{
+  "item_id": "bg3-wiki:8594",
+  "title": "Clown Hammer",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417168,
+      "title": "Clown Hammer",
+      "markers": [
+        "UNI_WYR_Circus_ClownHammer"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432617,
+      "title": "Grim Irony",
+      "markers": [
+        "| description = Whenever this weapon lands a critical hit, both target and attacker must succeed a Wisdom Saving Throw, or be affected by {{Cond|Hideous Laughter|fits of laughter}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341924,
+      "title": "Warhammers",
+      "markers": [
+        "| damage = 1d8"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 443703,
+      "title": "Hideous Laughter",
+      "markers": [
+        "Can't move or take",
+        "when it takes damage"
+      ]
+    }
+  ],
+  "summary": "A +2 warhammer. When it lands a critical hit, both wielder and target make a DC 17 Wisdom save or fall into Hideous Laughter for 2 turns.",
+  "fields": {
+    "Damage": "1d8 + 2 Bludgeoning",
+    "Range": "5 ft melee.",
+    "Two-handed damage": "1d10+2 Bludgeoning",
+    "Weapon actions": "Backbreaker, Concussive Smash, Weakening Strike",
+    "Handling": "versatile",
+    "Training": "martial",
+    "Base value": "310 gp in BG3. Merchant prices vary.",
+    "Grim Irony": "Hideous Laughter prevents movement, Actions, Bonus Actions, and Reactions. The creature can try to shake it off at the end of its turn or when it takes damage. The wearer can avoid the effect with immunity from the Face-Painting Kit, Sarevok’s Horned Helmet, or Cloth of Authority."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Expanded the card from the pinned item and linked gameplay evidence."
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "bg3-wiki:30079",
+  "title": "Clothing Chest",
+  "use_wiki_title": true,
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417154,
+      "title": "Clothing Chest",
+      "markers": [
+        "{{Coords|-509|-499}}",
+        "10 copies of every [[Dye]]"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 443599,
+      "title": "Medium Toughness",
+      "markers": [
+        "at least 22 damage",
+        "each individual hit"
+      ]
+    }
+  ],
+  "summary": "Open this epilogue chest for dyes and generic camp outfits.",
+  "fields": {
+    "Contents": "10 of every dye, 20 Dye Removers, and one of each generic piece of camp clothing, footwear and underwear.",
+    "Location": "Epilogue campsite, X: −509, Y: −499.",
+    "Durability": "Medium Toughness. A single hit must deal at least 22 damage to damage the chest.",
+    "Base value": "1 gp in BG3."
+  },
+  "changes": "Used the pinned wiki title to distinguish this unique epilogue container from its generic in-game display name. Added location, contents, and toughness."
+}

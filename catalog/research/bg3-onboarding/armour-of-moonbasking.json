@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:9497",
+  "title": "Armour of Moonbasking",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416069,
+      "title": "Armour of Moonbasking",
+      "markers": [
+        "MAG_Druid_Moon_Magic_Leather_Armor"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432801,
+      "title": "Lunar Bestial Vitality",
+      "markers": [
+        "| summary ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432800,
+      "title": "Lunar Bestial Fortitude",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Gain 22 temporary HP on Wild Shape and reduce incoming damage by 1 while those HP remain. Also gain +2 AC and advantage on saves against spells, including while transformed.",
+  "fields": {
+    "Equipment type": "Light Armour",
+    "Training": "Light Armour",
+    "Base AC": "11",
+    "Effect": "Gain 22 temporary HP on Wild Shape and reduce incoming damage by 1 while those HP remain. Also gain +2 AC and advantage on saves against spells, including while transformed.",
+    "Base value": "1400 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 mechanics and pinned item and related rule sources."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12346",
+  "title": "Unsigned Trade Visa",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Unsigned Trade Visa",
+      "revision": 424539,
+      "markers": [
+        "UNI_TWN_TollhousePass_Unsigned"
+      ]
+    },
+    {
+      "role": "Rules: Signed Trade Visa",
+      "title": "Signed Trade Visa",
+      "revision": 423195,
+      "markers": [
+        "entirety of the party"
+      ]
+    }
+  ],
+  "summary": "Gerringothe must have this document to issue the Signed Trade Visa.",
+  "fields": {
+    "Trade Visa": "Leave it in Gerringothe Thorm’s inventory and resolve the toll dialogue by giving her all carried party gold, at least 5,000 gp. She grants the separate Signed Trade Visa, a one-use Flesh to Gold scroll that cannot be transcribed.",
+    "Acquisition": "Carried by Gerringothe at the Reithwin Tollhouse. Looting it before paying removes the prerequisite.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:17810",
+  "title": "Suspension of Snake Venom",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Suspension of Snake Venom",
+      "revision": 423758,
+      "markers": [
+        "ALCH_Extract_SnakeFang"
+      ]
+    },
+    {
+      "role": "Rules: Serpent Fang Toxin",
+      "title": "Serpent Fang Toxin",
+      "revision": 422997,
+      "markers": [
+        "Suspension of Snake Venom"
+      ]
+    }
+  ],
+  "summary": "Alchemical extract used for Serpent Fang Toxin.",
+  "fields": {
+    "Extract": "Combine 3 Venomous Fangs to make one Suspension of Snake Venom.",
+    "Brew": "Combine this extract with any Vitriol to make Serpent Fang Toxin.",
+    "Base value": "35 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

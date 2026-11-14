@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:12715",
+  "title": "Note to Sanitation Workers",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Note to Sanitation Workers",
+      "revision": 421381,
+      "markers": [
+        "S_LOW_MinscHideout_SluicePuzzleHint"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Abandoned Cistern",
+      "revision": 444696,
+      "markers": [
+        "open the sluice gate."
+      ]
+    }
+  ],
+  "summary": "Instructions for opening the Abandoned Cistern sluice gate with two valves.",
+  "fields": {
+    "Puzzle": "Turn Water Level first, then Temperature roughly five seconds later. The gate opens when Perfect Water Level and Perfect Warmth overlap. Use Emergency Release to reset both levels. The Sluice Valve also offers a DC 25 Athletics shortcut.",
+    "Hazard": "Overheating deals 2d6 Fire to creatures in front of the Temperature Valve and leaves a cone of Fire.",
+    "Acquisition": "Pinned near the valves at X −212, Y 867. The item’s highlight check is DC 1 Perception.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 quest or puzzle use verified against pinned item and location revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

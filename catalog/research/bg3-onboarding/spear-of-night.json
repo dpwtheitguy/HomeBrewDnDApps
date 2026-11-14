@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:8598",
+  "title": "Spear of Night",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423427,
+      "title": "Spear of Night",
+      "markers": [
+        "SHA_SharSpear"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374223,
+      "title": "Rush Attack",
+      "markers": [
+        "| range m = 9"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444158,
+      "title": "Off Balance",
+      "markers": [
+        "Removed by taking damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433121,
+      "title": "Shar's Blessing (Spear of Night)",
+      "markers": [
+        "kill Nightsong"
+      ]
+    }
+  ],
+  "summary": "A versatile spear with Rush Attack.",
+  "fields": {
+    "Weapon profile": "1d6 + 1 Piercing one-handed or 1d8 + 1 two-handed, plus Strength. Simple, versatile, thrown, 5 ft melee. The enchantment also applies to attacks.",
+    "Rush Attack": "Action with proficiency, once per Short Rest. Charge up to 30 ft and strike first non-allied creature or object for 1d4 + attack ability modifier Piercing. Strength save vs weapon-action DC avoids Off Balance for 2 turns. Off Balance gives disadvantage on Strength and Dexterity checks and advantage to attackers. Help or damage ends it.",
+    "Shar’s Blessing": "The passive enables the spear’s intended use against Nightsong if Shar permits it.",
+    "Quest use": "Required for Shadowheart’s Chosen of Shar route. In the Silent Library, solve the riddle door to reach the shrine. Guild Artisans earn Made of Shadows. It is replaced by the appropriate spear after the decision in Shadowfell.",
+    "Base value": "190 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

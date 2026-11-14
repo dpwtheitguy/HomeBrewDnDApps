@@ -1,0 +1,65 @@
+{
+  "item_id": "bg3-wiki:3372",
+  "title": "Maul +1",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420869,
+      "title": "Maul +1",
+      "markers": [
+        "WPN_Maul_1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 425432,
+      "title": "Tenacity",
+      "markers": [
+        "| reaction1 cost = reaction"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373567,
+      "title": "Backbreaker",
+      "markers": [
+        "| condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373613,
+      "title": "Concussive Smash",
+      "markers": [
+        "| save dc = hybrid"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441478,
+      "title": "Dice rolls",
+      "markers": [
+        "Hybrid save DC"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442592,
+      "title": "Dazed",
+      "markers": [
+        "Dexterity"
+      ]
+    }
+  ],
+  "summary": "A martial maul dealing 2d6 + 1 Bludgeoning before adding Strength.",
+  "fields": {
+    "Damage": "2d6 + 1 Bludgeoning plus Strength modifier. Martial, two-handed, heavy, dippable, 5 ft melee.",
+    "Tenacity": "Main hand. After a missed melee attack, spend your Reaction to deal Bludgeoning equal to your Strength modifier, minimum 1. The missed weapon action’s special effect does not apply.",
+    "Backbreaker": "With proficiency, Action once per Short Rest. Make a melee attack against a Large or smaller creature for 1d4 + attack ability modifier Bludgeoning. On hit, a Strength save against weapon-action DC prevents Prone for 2 turns.",
+    "Concussive Smash": "With proficiency, Action once per Short Rest. Make a melee weapon attack. On hit, Constitution save against the higher of your spell save DC or weapon-action DC + 2 prevents Dazed for 2 turns. Dazed removes the Dexterity bonus to AC, imposes disadvantage on Wisdom saves, and blocks reactions that spend a Reaction. Help can end it.",
+    "Enchantment": "+1 to attacks and damage. Included in the listed damage.",
+    "Acquisition": "Sold by traders that use the magic melee weapon table.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

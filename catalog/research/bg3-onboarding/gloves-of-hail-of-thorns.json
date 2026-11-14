@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:6825",
+  "title": "Gloves of Hail of Thorns",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418971,
+      "title": "Gloves of Hail of Thorns",
+      "markers": [
+        "UNI_PLA_ZhentCave_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 426504,
+      "title": "Hail of Thorns",
+      "markers": [
+        "| description = Shoot a volley of thorns. The thorns deal weapon damage to the target and then explode. The explosion deals an additional {{DamageText|1d10|Piercing}} damage to the target and surrounding creatures. On miss, the thorns still explode. On save, targets still take half damage from the explosion."
+      ]
+    }
+  ],
+  "summary": "Cast level 1 Hail of Thorns once per Short Rest.",
+  "fields": {
+    "Hail of Thorns": "Action once per Short Rest. Make a ranged attack out to 60 ft. The main target takes normal weapon damage on a hit. Its roll does not count as a weapon attack for Extra Attack or riders that require a weapon attack. A failed initial Dexterity save guarantees the primary hit. The thorns explode even on a miss for 1d10 Piercing in a 7 ft radius, halved on a Dexterity save.",
+    "Base value": "90 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

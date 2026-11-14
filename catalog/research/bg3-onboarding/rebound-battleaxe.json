@@ -1,0 +1,90 @@
+{
+  "item_id": "bg3-wiki:9621",
+  "title": "Rebound Battleaxe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422200,
+      "title": "Rebound Battleaxe",
+      "markers": [
+        "MAG_Bonded_Throwing_Battleaxe"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432548,
+      "title": "Favoured Weapon",
+      "markers": [
+        "+1 bonus"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432720,
+      "title": "It's All In The Wrists",
+      "markers": [
+        "1d4"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 424807,
+      "title": "Weapon Bond",
+      "markers": [
+        "returns"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373605,
+      "title": "Cleave",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442222,
+      "title": "Bleeding",
+      "markers": [
+        "start of each turn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373912,
+      "title": "Maiming Strike",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443966,
+      "title": "Maimed",
+      "markers": [
+        "reduced to 0"
+      ]
+    }
+  ],
+  "summary": "Unobtainable +1 battleaxe with additional bound-weapon attack, damage and throw bonuses.",
+  "fields": {
+    "Weapon profile": "1d8 + 1 Slashing one-handed or 1d10 + 1 two-handed, plus Strength. +1 to attack rolls. Martial, Versatile, 5 ft melee.",
+    "Favoured Weapon": "Binding as an Eldritch Knight or Warlock Pact weapon adds another +1 to attack and damage. It is reported to remain until Long Rest after binding a different weapon or changing wielder.",
+    "It’s All In The Wrists": "While bound, gains Thrown and +1d4 Thunder when thrown. The Thunder bonus reportedly persists permanently after binding once. The Thrown property remains until Long Rest after changing bonds. Eldritch Knight Weapon Bond makes the weapon return after throwing.",
+    "Availability": "Unobtainable in normal play.",
+    "Cleave": "Action, 7 ft cone, up to 3 non-allied creatures or objects. Deals half normal weapon damage, with flat bonuses kept whole. Once per Short Rest with proficiency.",
+    "Lacerate": "Action, normal weapon damage. Constitution save against weapon-action DC +2 or Bleeding for 2 turns. Bleeding deals 2 Slashing at turn start and gives Disadvantage on Constitution saves until healed. Once per Short Rest with proficiency. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Maiming Strike": "Action for 1d4 + attack ability modifier Slashing. Constitution save against weapon-action DC +2 or Maimed for 2 turns. Maimed sets movement to zero and gives Disadvantage on Dexterity saves until healed. Flying creatures are immune. Once per Short Rest with proficiency.",
+    "Base value": "310 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

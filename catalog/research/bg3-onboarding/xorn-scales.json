@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:16322",
+  "title": "Xorn Scales",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Xorn Scales",
+      "revision": 425041,
+      "markers": [
+        "ALCH_Ingredient_Loot_XornScales"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Salts of Xorn Scales",
+      "revision": 422616,
+      "markers": [
+        "Remedial Potion"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Remedial Potion",
+      "revision": 422283,
+      "markers": [
+        "any [[Alchemy#Extractions|Suspension]]"
+      ]
+    }
+  ],
+  "summary": "Extract three Xorn Scales to make Remedial Potion.",
+  "fields": {
+    "Alchemy": "Extract 3 Xorn Scales into Salts of Xorn Scales. Add any Suspension to create Remedial Potion.",
+    "Acquisition": "Available from eligible merchants.",
+    "Base value": "4 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

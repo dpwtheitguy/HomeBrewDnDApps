@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:14476",
+  "title": "Timmask Spores (ingredient)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Timmask Spores (ingredient)",
+      "revision": 424239,
+      "markers": [
+        "CONS_Mushrooms_SporeTimmask"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Essence of Timmask Spores",
+      "revision": 418283,
+      "markers": [
+        "any [[Alchemy#Extractions|Salt]]"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Help Omeluum Investigate the Parasite",
+      "revision": 419477,
+      "markers": [
+        "Timmask Spores"
+      ]
+    }
+  ],
+  "summary": "Extract three spores for Fungal Bamboozler or give one to Omeluum.",
+  "fields": {
+    "Alchemy": "Extract 3 Timmask Spores into Essence of Timmask Spores, then add any Salt to make Fungal Bamboozler.",
+    "Quest use": "Omeluum asks for 1 spore and 1 Tongue of Madness for Help Omeluum Investigate the Parasite.",
+    "Base value": "3 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence.",
+  "use_wiki_title": true
+}

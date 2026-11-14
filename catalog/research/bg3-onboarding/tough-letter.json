@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12620",
+  "title": "Tough Letter",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Tough Letter",
+      "revision": 424310,
+      "markers": [
+        "S_FOR_Courier_Letter1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Bugthimble",
+      "revision": 426394,
+      "markers": [
+        "promised to Nine-Fingers"
+      ]
+    }
+  ],
+  "summary": "Read to unlock a Nine-Fingers dialogue option with Bugthimble.",
+  "fields": {
+    "Read": "Reading adds a response in the Lower City graveyard encounter. A DC 18 Intimidation check using Nine-Fingers’ name makes Bugthimble flee. A follow-up DC 25 Intimidation demand can obtain Kurwin’s Cauteriser before she leaves.",
+    "Acquisition": "Gomwick in the forest (74, 479).",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

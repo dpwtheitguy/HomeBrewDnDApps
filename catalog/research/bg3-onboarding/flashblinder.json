@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:20843",
+  "title": "Flashblinder",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418593,
+      "title": "Flashblinder",
+      "markers": [
+        "GRN_Sunflash_Grenade_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437979,
+      "title": "Blinded (condition)",
+      "markers": [
+        "| effects ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443972,
+      "title": "Malfunctioning",
+      "markers": [
+        "| effects = * The [[Steel Watcher (creature)|Steel Watcher]] is {{Cond|Stunned}}"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442321,
+      "title": "Burned Out Optics",
+      "markers": [
+        "| effects = * Affected entity's optical lens has been distorted, causing its vision become impaired. Entity recieves 1d6 penalty to [[Attack Rolls]]."
+      ]
+    }
+  ],
+  "summary": "Throw to Blind creatures and disable Steel Watchers.",
+  "fields": {
+    "Throw": "Action. Throw one bomb up to 60 ft. Affects a 20 ft radius. DC 16 Constitution against Blinded for 10 turns.",
+    "Steel Watchers": "Malfunctioning Stuns them for 2 turns, or 1 turn in Honour Mode, then Burned Out Optics applies a 1d6 attack roll penalty. The bomb also disables the Titan’s Defensive Protocol: Bulwark.",
+    "Crafting": "Combine Sublimate of Behir Scales with any Ashes.",
+    "Base value": "160 gp in BG3. Merchant prices vary.",
+    "Blinded": "Your attack rolls have disadvantage and incoming attacks have advantage. Attack and sight-dependent spell range is limited to 10 ft. You cannot make Opportunity Attacks. Throw retains its normal range."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

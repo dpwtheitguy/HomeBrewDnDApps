@@ -1,0 +1,33 @@
+{
+  "item_id": "bg3-wiki:9570",
+  "title": "Executioner Sword",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418316,
+      "title": "Executioner Sword",
+      "markers": [
+        "MAG_FreeCast_Shortsword"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432784,
+      "title": "Liberated Spellcasting",
+      "markers": [
+        "| description = When you kill a creature, you can cast a Level 1 spell without expending a [[Spell Slot|spell slot]]."
+      ]
+    }
+  ],
+  "summary": "This unobtainable +1 shortsword can make a spell slot-free after a kill.",
+  "fields": {
+    "Damage": "1d6 + 1 Piercing",
+    "Weapon profile": "Martial, one-handed, shortswords.",
+    "Properties": "Finesse, Light.",
+    "Weapon actions": "Flourish, Piercing Strike.",
+    "Liberated Spellcasting": "Toggleable. After killing a creature, cast a level 1 spell without spending a slot. The pinned source reports the free spell can be upcast.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "190 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

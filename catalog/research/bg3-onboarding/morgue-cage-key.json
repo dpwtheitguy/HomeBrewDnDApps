@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:50364",
+  "title": "Morgue Cage Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430634,
+      "title": "Morgue Cage Key",
+      "markers": [
+        "| uid = S_COL_Morgue_CageKey"
+      ]
+    },
+    {
+      "role": "Rules: Mind Flayer Colony",
+      "revision": 441344,
+      "title": "Mind Flayer Colony",
+      "markers": [
+        "| summary = It is located under the [[Moonrise Towers Prison]] in the [[Shadow-Cursed Lands]]."
+      ]
+    }
+  ],
+  "summary": "Opens the cage containing Us in the Mind Flayer Colony morgue.",
+  "fields": {
+    "Acquisition": "Carried by Chop.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

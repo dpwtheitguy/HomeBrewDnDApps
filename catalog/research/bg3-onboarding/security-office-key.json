@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:44210",
+  "title": "Security Office Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430430,
+      "title": "Security Office Key",
+      "markers": [
+        "S_LOW_SecurityOfficeKey"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 440238,
+      "title": "Steel Watch Foundry",
+      "markers": [
+        "Security Office Key"
+      ]
+    }
+  ],
+  "summary": "Unlocks both entrances to the Steel Watch Foundry Security Office.",
+  "fields": {
+    "Use": "Unlock the rear double doors at X −316, Y −163 or the upper gallery entrance at X −316, Y −134. DC 15 Sleight of Hand also opens them.",
+    "Acquisition": "Tamia Holzt carries it.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

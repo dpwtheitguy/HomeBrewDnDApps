@@ -1,0 +1,63 @@
+{
+  "item_id": "bg3-wiki:13131",
+  "title": "Potion of Gaseous Form",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421940,
+      "title": "Potion of Gaseous Form",
+      "markers": [
+        "CONS_Potion_Gaseous_Form_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 435544,
+      "title": "Gaseous Form (condition)",
+      "markers": [
+        "Cannot attack, cast spells, or speak"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 427787,
+      "title": "Gaseous Form (creature)",
+      "markers": [
+        "| ac = 10"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432516,
+      "title": "Ethereal",
+      "markers": [
+        "Improvised Melee Weapon"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 355844,
+      "title": "Dismiss Gaseous Form",
+      "markers": [
+        "free action"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 418642,
+      "title": "Fly (class action)",
+      "markers": [
+        "| cost = half movement"
+      ]
+    }
+  ],
+  "summary": "Drink to become a Tiny flying mist for 10 turns.",
+  "fields": {
+    "Drink": "Bonus Action, single use. Gaseous Form for 10 turns. Dismiss early as a free action.",
+    "Mist form": "AC 10 and Strength and Dexterity set to 10. Resistant to nonmagical damage, advantage on Strength, Dexterity and Constitution saves, immune to Bleeding. Cannot attack, cast spells, or speak. Ethereal prevents being shoved, thrown, or used as an improvised weapon.",
+    "Fly": "Move to a point up to 60 ft away, at half normal movement cost.",
+    "Acquisition": "Sold by eligible traders such as Quartermaster Talli, usually at level 9 or higher. No alchemy recipe.",
+    "Base value": "60 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

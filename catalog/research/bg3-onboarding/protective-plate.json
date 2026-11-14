@@ -1,0 +1,22 @@
+{
+  "item_id": "bg3-wiki:10886",
+  "title": "Protective Plate",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Protective Plate",
+      "revision": 422021,
+      "markers": [
+        "TWN_AasimarSurvivor_HazmatSuit"
+      ]
+    }
+  ],
+  "summary": "AC 18 Heavy Armour with Necrotic resistance and no Stealth penalty.",
+  "fields": {
+    "Armour Class": "18. Heavy Armour proficiency.",
+    "Protection": "Resistance to Necrotic damage. Wearing this plate does not impose disadvantage on Stealth checks.",
+    "Acquisition": "Loot Hollow Armour at the bottom of the pit in the House of Healing Morgue.",
+    "Base value": "1000 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

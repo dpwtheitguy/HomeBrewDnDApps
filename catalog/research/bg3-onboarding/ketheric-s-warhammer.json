@@ -1,0 +1,65 @@
+{
+  "item_id": "bg3-wiki:8596",
+  "title": "Ketheric's Warhammer",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420054,
+      "title": "Ketheric's Warhammer",
+      "markers": [
+        "MAG_Ketheric_Warhammer"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373567,
+      "title": "Backbreaker",
+      "markers": [
+        "condition save = STR"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373613,
+      "title": "Concussive Smash",
+      "markers": [
+        "condition save = CON"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374483,
+      "title": "Weakening Strike",
+      "markers": [
+        "non-lethal attack"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437410,
+      "title": "Weak Grip (condition)",
+      "markers": [
+        "Removed if an ally"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Dice rolls",
+      "revision": 441478,
+      "markers": [
+        "Hybrid save DC"
+      ]
+    }
+  ],
+  "summary": "Versatile +1 martial warhammer that adds 1d4 Psychic damage to hits.",
+  "fields": {
+    "Damage": "One hand: 1d8 + 1 Bludgeoning. Two hands: 1d10 + 1 Bludgeoning. Add Strength to damage, +1 to attack rolls and 1d4 Psychic to hits.",
+    "Handling": "Martial melee weapon with 5 ft reach. Dippable.",
+    "Acquisition": "Loot or disarm Ketheric Thorm during either fight.",
+    "Base value": "310 gp in BG3. Merchant prices vary.",
+    "Backbreaker": "Action once per Short Rest. Make a melee attack against a Large or smaller target for 1d4 + Strength modifier Bludgeoning. A Strength save against weapon-action DC prevents Prone for 2 turns.",
+    "Concussive Smash": "With proficiency, Action once per Short Rest. Deal weapon damage on a melee hit. A Constitution save prevents Dazed for 2 turns. Use the higher of spell save DC and weapon-action DC +2.",
+    "Weakening Strike": "With proficiency, Action once per Short Rest. Make a melee attack for 1d4 + Strength modifier nonlethal Bludgeoning. A Strength save against weapon-action DC +2 prevents Weak Grip for 2 turns. Weak Grip imposes disadvantage on attack rolls and Strength saves. Help removes it."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

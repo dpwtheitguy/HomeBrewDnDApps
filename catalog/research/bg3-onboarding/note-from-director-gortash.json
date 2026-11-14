@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12690",
+  "title": "Note from Director Gortash",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Note from Director Gortash",
+      "revision": 421369,
+      "markers": [
+        "S_LOW_DevilsFee_NoteFromGortash"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Devil's Fee",
+      "revision": 440876,
+      "markers": [
+        "or finding the {{SmRarityItem|Note from Director Gortash}}"
+      ]
+    }
+  ],
+  "summary": "A clue to Helsik’s services that can move the quest marker to the Devil’s Fee and unlock her Curated Selection.",
+  "fields": {
+    "Quest use": "Finding this note reveals Helsik as a diabolist. Bring up the clue in conversation with Helsik to unlock her Curated Selection and discuss passage to the House of Hope.",
+    "Acquisition": "DC 10 Perception reveals the loose floorboard by Helsik’s bed upstairs at the Devil’s Fee, X −28, Y 18.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 quest or puzzle use verified against pinned item and location revisions."
+}

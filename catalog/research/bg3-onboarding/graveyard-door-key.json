@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:48343",
+  "title": "Graveyard Door Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430479,
+      "title": "Graveyard Door Key",
+      "markers": [
+        "S_WYR_OpenHand_GraveyardKey"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 440044,
+      "title": "Open Hand Temple",
+      "markers": [
+        "temple dormitories can be entered via the door"
+      ]
+    }
+  ],
+  "summary": "Likely opens the graveyard door at the Open Hand Temple in Rivington.",
+  "fields": {
+    "Acquisition": "Carried by Brother Donnick.",
+    "Source note": "The pinned key lacks a usage field. The name and game identifier point to the temple’s graveyard access.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

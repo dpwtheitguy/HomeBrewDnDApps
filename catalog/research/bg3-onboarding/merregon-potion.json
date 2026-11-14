@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:31780",
+  "title": "Merregon Potion",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 442173,
+      "title": "Merregon Potion",
+      "markers": [
+        "UNI_Throwable_Grenade_MerregonPotion"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442300,
+      "title": "Timmask Spores (cloud)",
+      "markers": [
+        "| condition dc = 10"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442180,
+      "title": "Befuddled (Timmask Spores)",
+      "markers": [
+        "can't control its actions"
+      ]
+    }
+  ],
+  "summary": "Throw to create a Timmask Spores cloud and make a separate Poison blast attack.",
+  "fields": {
+    "Throw": "Action, single use, 60 ft range. Creates a 7 ft radius Timmask Spores cloud for 2 turns. A separate spell attack can deal 2d4 + 1 Poison damage.",
+    "Cloud": "DC 10 Constitution save at the start and end of a turn. On failure, Befuddled lasts through the end of the affected creature’s turn and it loses control and wanders. Another grenade can still damage creatures in an existing spore cloud but cannot reapply Befuddled until they leave.",
+    "Acquisition": "Pass DC 11 Detect Thoughts on the Hoarding Merregon and say you are responsible for feeding Nessa.",
+    "Base value": "9 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

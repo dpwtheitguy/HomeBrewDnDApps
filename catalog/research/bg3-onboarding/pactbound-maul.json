@@ -1,0 +1,98 @@
+{
+  "item_id": "bg3-wiki:51883",
+  "title": "Pactbound Maul",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421646,
+      "title": "Pactbound Maul",
+      "markers": [
+        "WPN_HUM_Maul_A_Pact"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 318641,
+      "title": "Pact of the Blade: Maul",
+      "markers": [
+        "| item duration = Permanent"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 421638,
+      "title": "Pact of the Blade",
+      "markers": [
+        "Strength]] or [[Dexterity]]"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439161,
+      "title": "Deepened Pact",
+      "markers": [
+        "does not work in Honour Mode"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443689,
+      "title": "Hexed Weapon",
+      "markers": [
+        "fixed 20% chance"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 435730,
+      "title": "Hexblade's Curse (condition)",
+      "markers": [
+        "proficiency bonus"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 425432,
+      "title": "Tenacity",
+      "markers": [
+        "| description ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373567,
+      "title": "Backbreaker",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373613,
+      "title": "Concussive Smash",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442592,
+      "title": "Dazed",
+      "markers": [
+        "Wisdom"
+      ]
+    }
+  ],
+  "summary": "Summoned maul that uses Charisma and deals magical damage.",
+  "fields": {
+    "Weapon profile": "2d6 magical Bludgeoning plus Charisma. Martial, two-handed, 5 ft melee, Heavy, Dippable.",
+    "Summon": "Hexblade only. Warlock level 3 with Pact of the Blade. Summon into your hand as an Action, once per battle. You can have only one. It disappears if you remain more than 5 ft away for over 10 rounds.",
+    "Pact rules": "You are proficient with this weapon. Use Charisma for attacks and damage, while its weapon action save DC still uses Strength or Dexterity. Level 5 Deepened Pact grants Extra Attack. It stacks with other class Extra Attack features outside Honour Mode. The linked Deepened Pact rules also apply to Hexed Weapons. A ranged attack made first, or Throw with a ranged weapon equipped, does not trigger the extra attack.",
+    "Hexed Weapon": "Each attack has a fixed 20% chance to apply Hexblade’s Curse to an uncursed target. The curse adds your proficiency bonus to damage rolls against that target and reduces your critical-hit threshold by 1 against it. Attacking cannot refresh the curse.",
+    "Tenacity": "Main hand only. When a melee attack misses, spend a Reaction to deal Bludgeoning damage equal to Strength modifier, minimum 1.",
+    "Backbreaker": "Action against a Large or smaller target for 1d4 + attack ability modifier Bludgeoning. Strength save against weapon-action DC or Prone for 2 turns. Once per Short Rest.",
+    "Concussive Smash": "Action, normal weapon damage. Constitution save against the higher of spell save DC or weapon-action DC +2. Failure Dazes for 2 turns, removing Dexterity AC bonus, giving Disadvantage on Wisdom saves, and blocking spending Reaction points. Help clears it. Once per Short Rest.",
+    "Base value": "0 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

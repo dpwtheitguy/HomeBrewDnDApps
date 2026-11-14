@@ -1,0 +1,55 @@
+{
+  "item_id": "bg3-wiki:4627",
+  "title": "Sussur Sickle",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Sussur Sickle",
+      "revision": 438505,
+      "markers": [
+        "QUEST_FOR_SussurSickle"
+      ]
+    },
+    {
+      "role": "Rules: Silenced (condition)",
+      "title": "Silenced (condition)",
+      "revision": 436942,
+      "markers": [
+        "| effects ="
+      ]
+    },
+    {
+      "role": "Rules: Finish the Masterwork Weapon",
+      "title": "Finish the Masterwork Weapon",
+      "revision": 440507,
+      "markers": [
+        "Sussur Tree Bark"
+      ]
+    },
+    {
+      "role": "Rules: Lacerate",
+      "title": "Lacerate",
+      "revision": 373909,
+      "markers": [
+        "Bleeding"
+      ]
+    },
+    {
+      "role": "Rules: Bleeding",
+      "title": "Bleeding",
+      "revision": 442222,
+      "markers": [
+        "start of each turn"
+      ]
+    }
+  ],
+  "summary": "+1 weapon can silence foes on melee hits.",
+  "fields": {
+    "Weapon profile": "Simple, One-handed, 5 ft melee, Light, Dippable. 1d4 + 1 Slashing plus Strength. +1 to attack rolls.",
+    "Silencing": "Melee hit forces DC 12 Constitution save. Failure Silences for 2 turns, preventing speech and verbal spellcasting while granting Thunder immunity. Thrown hits never apply it.",
+    "Crafting": "Combine a normal Sickle and Sussur Tree Bark at the Blacksmith’s Forge. Some nonstandard variants cannot be used.",
+    "Base value": "120 gp nominal BG3 value.",
+    "Lacerate": "With proficiency, once per Short Rest. Action, weapon damage. CON save against weapon-action DC +2 or Bleeding for 2 turns, with 2 Slashing at turn start and Disadvantage on CON saves until healed. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations. Reconciled applicable action, condition, and variant details against pinned rules."
+}

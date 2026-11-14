@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:30983",
+  "title": "Dauntless Amulet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417560,
+      "title": "Dauntless Amulet",
+      "markers": [
+        "| uid = MAG_LC_Cyric_FearImmunity_Amulet"
+      ]
+    },
+    {
+      "role": "Rules: Dauntless",
+      "revision": 437823,
+      "title": "Dauntless",
+      "markers": [
+        "| summary = '''Dauntless''' is a passive feature that prevents you from being Frightened."
+      ]
+    }
+  ],
+  "summary": "Gain +1 Intelligence saves and immunity to Frightened and Fleeing status groups and Hideous Laughter.",
+  "fields": {
+    "Use": "Gain +1 Intelligence saves and immunity to Frightened and Fleeing status groups and Hideous Laughter.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "125 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

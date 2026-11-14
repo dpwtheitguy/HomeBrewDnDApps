@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:29504",
+  "title": "Ironwood Breastplate",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419885,
+      "title": "Ironwood Breastplate",
+      "markers": [
+        "MAG_Druid_Ironwood_Armor"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433313,
+      "title": "Superior Material (-1)",
+      "markers": [
+        "You take 1 less"
+      ]
+    }
+  ],
+  "summary": "Medium armour with AC 15 plus up to +2 Dexterity, one less Slashing damage, and advantage on Constitution saves.",
+  "fields": {
+    "Armour Class": "15 + Dexterity modifier, maximum +2 from Dexterity. Medium Armour proficiency.",
+    "Superior Material": "Reduce incoming Slashing damage by 1.",
+    "Saving throws": "Advantage on Constitution saves.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "200 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

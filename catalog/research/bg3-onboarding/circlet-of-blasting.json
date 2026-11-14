@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:3434",
+  "title": "Circlet of Blasting",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 432474,
+      "title": "Circlet of Blasting",
+      "markers": [
+        "ARM_CircletOfBlasting"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 430999,
+      "title": "Scorching Ray",
+      "markers": [
+        "| description = Hurl '''3''' rays of fire. Each ray deals {{DamageText|2d6|Fire}} damage."
+      ]
+    }
+  ],
+  "summary": "Use an Action once per Long Rest to cast Scorching Ray. Make three separate ranged spell attacks at one or more targets within 60 ft. Each ray deals 2d6 Fire.",
+  "fields": {
+    "Effect": "Use an Action once per Long Rest to cast Scorching Ray. Make three separate ranged spell attacks at one or more targets within 60 ft. Each ray deals 2d6 Fire.",
+    "Base value": "300 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

@@ -1,0 +1,98 @@
+{
+  "item_id": "bg3-wiki:6835",
+  "title": "Rupturing Blade",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Rupturing Blade",
+      "revision": 438110,
+      "markers": [
+        "MAG_OfRupture_Rapier"
+      ]
+    },
+    {
+      "role": "Rules: Searing Blood",
+      "title": "Searing Blood",
+      "revision": 373545,
+      "markers": [
+        "separate saving throws"
+      ]
+    },
+    {
+      "role": "Rules: Bleeding",
+      "title": "Bleeding",
+      "revision": 442222,
+      "markers": [
+        "start of each turn"
+      ]
+    },
+    {
+      "role": "Rules: Burning",
+      "title": "Burning",
+      "revision": 442323,
+      "markers": [
+        "1d4"
+      ]
+    },
+    {
+      "role": "Rules: Piercing Strike",
+      "title": "Piercing Strike",
+      "revision": 374168,
+      "markers": [
+        "Gaping Wounds"
+      ]
+    },
+    {
+      "role": "Rules: Gaping Wounds",
+      "title": "Gaping Wounds",
+      "revision": 443536,
+      "markers": [
+        "Honour Mode"
+      ]
+    },
+    {
+      "role": "Rules: Weakening Strike",
+      "title": "Weakening Strike",
+      "revision": 374483,
+      "markers": [
+        "Weak Grip"
+      ]
+    },
+    {
+      "role": "Rules: Weak Grip (condition)",
+      "title": "Weak Grip (condition)",
+      "revision": 437410,
+      "markers": [
+        "Disadvantage"
+      ]
+    },
+    {
+      "role": "Rules: Flourish",
+      "title": "Flourish",
+      "revision": 373786,
+      "markers": [
+        "Off Balance"
+      ]
+    },
+    {
+      "role": "Rules: Off Balance",
+      "title": "Off Balance",
+      "revision": 444158,
+      "markers": [
+        "Removed by taking damage"
+      ]
+    }
+  ],
+  "summary": "+1 rapier trades self-damage for Fire damage and two separate conditions.",
+  "fields": {
+    "Weapon": "Martial, one-handed finesse, 5 ft melee. 1d8 + 1 Piercing plus Strength or Dexterity. +1 to attack rolls.",
+    "Searing Blood": "Action once per Short Rest with proficiency. On a melee hit deal weapon damage, plus 1d6 Fire and proficiency bonus Fire in separate instances. You take 1d6 self-damage. The action description and notes say Slashing, while its data table says Piercing. The target makes two Constitution saves against weapon-action DC +2, separately preventing Bleeding and Burning for 2 turns. Each damage instance can trigger riders, including the self-hit, even in Honour Mode.",
+    "Bleeding and Burning": "Bleeding deals 2 Slashing at turn start and gives Disadvantage on Constitution saves. Healing clears it. Burning deals 1d4 Fire per turn and can be cleared by Help, a healing potion or becoming Wet.",
+    "Piercing Strike": "Action once per Short Rest with proficiency. Deal weapon damage. Constitution save against weapon-action DC +2 or Gaping Wounds for 2 turns. Undead and constructs are immune. Hits add 2 Piercing. In Honour Mode any damage source instead gains +2 of its original type. Healing clears it.",
+    "Weakening Strike": "Action once per Short Rest with proficiency. Nonlethal 1d4 weapon-type damage plus attack ability modifier. Strength save against weapon-action DC +2 or Weak Grip for 2 turns. Unarmed creatures are immune. Weak Grip gives Disadvantage on attacks and Strength saves. Help clears it.",
+    "Flourish": "Bonus Action once per Short Rest with proficiency. Nonlethal 1d4 Bludgeoning. Dexterity save against weapon-action DC +2 or Off Balance for 2 turns. The target has Disadvantage on Strength and Dexterity checks, and attackers have Advantage. Damage or Help clears it.",
+    "Acquisition": "Sold by Brem after Find the Missing Shipment.",
+    "Base value": "130 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

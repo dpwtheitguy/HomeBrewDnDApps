@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:9001",
+  "title": "Ithbank",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419897,
+      "title": "Ithbank",
+      "markers": [
+        "CONS_Drink_Wine_Bottle_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437839,
+      "title": "Alcohol (condition)",
+      "markers": [
+        "Disadvantage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 385878,
+      "title": "Alcohol (surface)",
+      "markers": [
+        "| description = Flammable."
+      ]
+    }
+  ],
+  "summary": "Use as 1 Camp Supply, drink to gain Alcohol, or throw to leave a flammable surface.",
+  "fields": {
+    "Camp Supplies": "1 toward Long Rest.",
+    "Drink": "Bonus Action. Consume the bottle to gain Alcohol for 2 turns, imposing disadvantage on Dexterity and Charisma checks.",
+    "Throw": "Action. Break the bottle to create a permanent 13 ft radius Alcohol surface. Fire ignites the spill and Cold freezes it.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

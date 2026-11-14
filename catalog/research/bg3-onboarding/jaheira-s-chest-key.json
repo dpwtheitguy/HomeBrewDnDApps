@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:47976",
+  "title": "Jaheira's Chest Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430516,
+      "title": "Jaheira's Chest Key",
+      "markers": [
+        "| uid = LOW_JaheirasHouse_Chest01Key"
+      ]
+    },
+    {
+      "role": "Rules: Elerrathin's Home",
+      "revision": 434045,
+      "title": "Elerrathin's Home",
+      "markers": [
+        "{{Location page"
+      ]
+    }
+  ],
+  "summary": "Unlocks the wooden chest across from the entrance to Elerrathin’s Home.",
+  "fields": {
+    "Use": "Use this key or pass a DC 10 Sleight of Hand check. The chest holds gold, a Trap Disarm Toolkit and a letter to Rion.",
+    "Acquisition": "Rion carries the key in Act Three.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

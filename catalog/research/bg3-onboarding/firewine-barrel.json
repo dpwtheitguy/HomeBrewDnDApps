@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:7851",
+  "title": "Firewine Barrel",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418523,
+      "title": "Firewine Barrel",
+      "markers": [
+        "CONT_Barrel_Alcohol_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 385878,
+      "title": "Alcohol (surface)",
+      "markers": [
+        "| description = Flammable."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 371587,
+      "title": "Fire (surface)",
+      "markers": [
+        "| description = Deals {{DamageText|1d4|Fire}} damage per turn."
+      ]
+    }
+  ],
+  "summary": "Fire damage detonates the barrel for 4d6 Fire in about a 20 ft radius.",
+  "fields": {
+    "Throw": "Action. Throw the barrel up to 60 ft. It breaks to create an Alcohol surface. Dropping it into fire can detonate it.",
+    "Explosion": "Fire damage detonates the barrel in about a 20 ft radius. DC 14 Dexterity halves 4d6 Fire damage. Targets in the blast are pushed about 10 ft without a save.",
+    "Surfaces": "Breaking the barrel spills flammable Alcohol. Igniting the spill creates Fire that immediately applies Burning.",
+    "Base value": "5 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

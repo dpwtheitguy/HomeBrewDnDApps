@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:6901",
+  "title": "Insanity's Kiss",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419787,
+      "title": "Insanity's Kiss",
+      "markers": [
+        "CONS_Hag_Insanitys_Kiss"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 435880,
+      "title": "Insanity's Kiss (condition)",
+      "markers": [
+        "| effects ="
+      ]
+    }
+  ],
+  "summary": "Drink to lose control and become hostile to all other creatures for 5 turns.",
+  "fields": {
+    "Throw": "Throwing destroys the potion without applying its effect.",
+    "Inspiration": "Drinking grants An Acquired Taste to Guild Artisans.",
+    "Base value": "1 gp in BG3. Merchant prices vary.",
+    "Drink": "Bonus Action. Consume one bottle. For 5 turns lose control and become hostile to all other creatures."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

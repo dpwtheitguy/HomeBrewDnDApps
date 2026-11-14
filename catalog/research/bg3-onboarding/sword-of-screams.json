@@ -1,0 +1,72 @@
+{
+  "item_id": "bg3-wiki:3340",
+  "title": "Sword of Screams",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Sword of Screams",
+      "revision": 423796,
+      "markers": [
+        "UNI_UND_WPN_SwordOfScreams"
+      ]
+    },
+    {
+      "role": "Rules: Flourish",
+      "title": "Flourish",
+      "revision": 373786,
+      "markers": [
+        "Off Balance"
+      ]
+    },
+    {
+      "role": "Rules: Off Balance",
+      "title": "Off Balance",
+      "revision": 444158,
+      "markers": [
+        "Removed by taking damage"
+      ]
+    },
+    {
+      "role": "Rules: Piercing Strike",
+      "title": "Piercing Strike",
+      "revision": 374168,
+      "markers": [
+        "Gaping Wounds"
+      ]
+    },
+    {
+      "role": "Rules: Gaping Wounds",
+      "title": "Gaping Wounds",
+      "revision": 443536,
+      "markers": [
+        "Honour Mode"
+      ]
+    },
+    {
+      "role": "Rules: Weakening Strike",
+      "title": "Weakening Strike",
+      "revision": 374483,
+      "markers": [
+        "Weak Grip"
+      ]
+    },
+    {
+      "role": "Rules: Weak Grip (condition)",
+      "title": "Weak Grip (condition)",
+      "revision": 437410,
+      "markers": [
+        "Disadvantage"
+      ]
+    }
+  ],
+  "summary": "Rapier adds 1d4 Psychic damage on hits.",
+  "fields": {
+    "Weapon profile": "Martial, One-handed, 5 ft melee, Finesse, Dippable. 1d8 Piercing plus Strength or Dexterity. Adds 1d4 Psychic on a hit.",
+    "Acquisition": "Carried by Nere near the Grymforge cave-in.",
+    "Base value": "130 gp nominal BG3 value.",
+    "Flourish": "With proficiency, once per Short Rest. Bonus Action, 1d4 nonlethal Bludgeoning. DEX save against weapon-action DC +2 or Off Balance for 2 turns, granting attackers Advantage and giving the target Disadvantage on STR/DEX checks. Damage or Help clears it.",
+    "Piercing Strike": "With proficiency, once per Short Rest. Action, weapon damage. CON save against weapon-action DC +2 or Gaping Wounds for 2 turns. Successful hits gain 2 Piercing. Honour Mode adds 2 of the original type to any damage source. Healing clears it. Undead and Constructs are immune.",
+    "Weakening Strike": "With proficiency, once per Short Rest. Action for 1d4 plus attack ability modifier nonlethal weapon-type damage. Armed target makes STR save against weapon-action DC +2 or suffers Weak Grip for 2 turns, with Disadvantage on attacks and STR saves. Help clears it."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

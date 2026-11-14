@@ -1,0 +1,55 @@
+{
+  "item_id": "bg3-wiki:1321",
+  "title": "The Watersparkers",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424152,
+      "title": "The Watersparkers",
+      "markers": [
+        "MAG_ChargedLightning_ElectricSurface_Boots"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432481,
+      "title": "Electrify Water",
+      "markers": [
+        "turning hostile"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 371586,
+      "title": "Electrified Water",
+      "markers": [
+        "Reverts back to regular water after 2 turns"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433436,
+      "title": "Watersparks",
+      "markers": [
+        "3 {{Cond|Lightning Charges}}"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443918,
+      "title": "Lightning Charges",
+      "markers": [
+        "lose 1 charge per turn"
+      ]
+    }
+  ],
+  "summary": "Electrifies water in combat and grants Lightning Charges when standing in it at turn start.",
+  "fields": {
+    "Electrify Water": "Water becomes Electrified Water on entering it in combat or starting combat while standing in it. Electrified Water deals 1d4 Lightning per turn and applies Electrocuted while standing in it. The surface reverts after 2 turns. Exit and re-enter to refresh it. Friendly NPCs can become hostile after walking through it.",
+    "Watersparks": "Start your turn on Electrified Water to gain 3 Lightning Charges.",
+    "Lightning Charges": "While charged, +1 to attack rolls and +1 Lightning damage. At 5 charges, the next qualifying damage adds 1d8 Lightning and consumes the charges. Lose one per turn. Lightning-resistant targets do not take the flat +1 Lightning damage.",
+    "Acquisition": "Gilded chest near Minthara at X 339, Y 41.",
+    "Base value": "190 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

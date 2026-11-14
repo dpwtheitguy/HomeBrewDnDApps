@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:1325",
+  "title": "The Speedy Lightfeet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 440121,
+      "title": "The Speedy Lightfeet",
+      "markers": [
+        "MAG_ChargedLightning_Dash_Boots"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 440120,
+      "title": "Speedy Sparks",
+      "markers": [
+        "once per turn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443918,
+      "title": "Lightning Charges",
+      "markers": [
+        "lose 1 charge per turn"
+      ]
+    }
+  ],
+  "summary": "Medium Armour boots grant Lightning Charges when dashing in combat.",
+  "fields": {
+    "Speedy Sparks": "Dash or use a similar action in combat to gain 3 Lightning Charges, at most once per turn.",
+    "Lightning Charges": "While charged, +1 to attack rolls and +1 Lightning damage. At 5 charges, the next qualifying damage adds 1d8 Lightning and consumes the charges. Lose one per turn. Lightning-resistant targets do not take the flat +1 Lightning damage.",
+    "Training and skill": "Medium Armour proficiency. +1 Athletics. Wearing the boots can disable Unarmoured Defence.",
+    "Acquisition": "Heavy chest in the cellar behind the windmill.",
+    "Base value": "240 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,20 @@
+{
+  "item_id": "bg3-wiki:15754",
+  "title": "Djinni Scimitar",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417858,
+      "title": "Djinni Scimitar",
+      "markers": [
+        "| uid = WPN_Djinni_Scimitar_PlanarAlly"
+      ]
+    }
+  ],
+  "summary": "A +1 scimitar dealing 1d6 + 1 Slashing plus 2d10 Poison. Normally inaccessible to player characters.",
+  "fields": {
+    "Availability": "Wielded by Djinn. The item documents a controller workaround, rather than ordinary acquisition.",
+    "Base value": "30 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

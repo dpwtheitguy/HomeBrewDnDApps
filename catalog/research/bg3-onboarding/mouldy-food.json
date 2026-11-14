@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:58841",
+  "title": "Mouldy Food",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 401021,
+      "title": "Mouldy Food",
+      "markers": [
+        "| uid = UNI_WYR_Circus_MoldyFood"
+      ]
+    },
+    {
+      "role": "Rules: Bag of Moulding",
+      "revision": 416248,
+      "title": "Bag of Moulding",
+      "markers": [
+        "| description = '''Bag of Moulding''' is a [[Miscellaneous#Containers|Container]] that will rot any food that is put inside of it."
+      ]
+    }
+  ],
+  "summary": "Food transformed by the Bag of Moulding keeps its original Camp Supplies value.",
+  "fields": {
+    "Use": "Spend it for Long Rest without ill effects. The tooltip says Poisoned for 10 turns, but it cannot be eaten directly.",
+    "Creation": "Place food into the Bag of Moulding received from Akabi.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

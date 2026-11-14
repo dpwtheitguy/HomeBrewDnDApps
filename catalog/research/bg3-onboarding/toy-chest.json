@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:14186",
+  "title": "Toy Chest",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Toy Chest",
+      "revision": 424320,
+      "markers": [
+        "A tiny chest that can be found in the [[Grymforge]]. Interacting with it reveals another chest."
+      ]
+    }
+  ],
+  "summary": "Interact to reveal a trapped Harper chest in Grymforge.",
+  "fields": {
+    "Use": "Interact with the tiny chest to reveal another chest. Light can disarm the revealed trap. The nearby Undelivered Letter describes the trick.",
+    "Acquisition": "Near the Grymforge mimics (−701, 377).",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

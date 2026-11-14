@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12741",
+  "title": "Prisoner's Journal",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Prisoner's Journal",
+      "revision": 421999,
+      "markers": [
+        "S_MOO_PrisonerJournal"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Moonrise Towers Prison",
+      "revision": 441874,
+      "markers": [
+        "If the party have no other clues"
+      ]
+    }
+  ],
+  "summary": "Read for a clue about Ketheric’s relic if the party lacks other leads.",
+  "fields": {
+    "Read": "Cell Three contains a journal that can supply information about Ketheric’s relic when the party lacks other clues.",
+    "Acquisition": "On a bench in Moonrise Towers Prison, X 582, Y −616.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

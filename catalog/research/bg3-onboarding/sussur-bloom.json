@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:7904",
+  "title": "Sussur Bloom",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Sussur Bloom",
+      "revision": 441382,
+      "markers": [
+        "UNI_UND_SussurTreeFlower"
+      ]
+    },
+    {
+      "role": "Rules: Sussur Flower Antimagic Field (condition)",
+      "title": "Sussur Flower Antimagic Field (condition)",
+      "revision": 437148,
+      "markers": [
+        "| effects = * A sussur tree flower is draining the character of its magical energy, preventing it from casting spells."
+      ]
+    }
+  ],
+  "summary": "An Underdark bloom suppresses spellcasting nearby and powers the Arcane Tower.",
+  "fields": {
+    "Antimagic": "Prevents nearby creatures, including the holder, from casting spells. Nonspell magical actions such as Channel Divinity still work. Guidance during dialogue rolls is reported to bypass it.",
+    "Arcane Tower": "Use a bloom to power the tower, disable some defences and earn Regeneration Inspiration. Disabling Animated Armour or Arcane Turrets with a bloom earns Secrets of the Sussur Tree.",
+    "Handling": "Wilts outside the Underdark. The source reports that the camp Traveller’s Chest and locked containers preserve it.",
+    "Acquisition": "Dread Hollow near the large Sussur Tree and the Arcane Tower garden.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

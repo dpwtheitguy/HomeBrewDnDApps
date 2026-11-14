@@ -1,0 +1,72 @@
+{
+  "item_id": "bg3-wiki:9584",
+  "title": "Hammer of the Just",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 440039,
+      "title": "Hammer of the Just",
+      "markers": [
+        "| uid = MAG_Tyrrant_Warhammer"
+      ]
+    },
+    {
+      "role": "Rules: Slay the Wicked (Bludgeoning)",
+      "revision": 433155,
+      "title": "Slay the Wicked (Bludgeoning)",
+      "markers": [
+        "| summary = '''Slay the Wicked''' is a passive feature that increases damage against Fiends and Undead."
+      ]
+    },
+    {
+      "role": "Rules: Detect Thoughts",
+      "revision": 328589,
+      "title": "Detect Thoughts",
+      "markers": [
+        "| summary = It allows spellcasters to telepathically link to unprotected minds and hear the thoughts of targeted creatures while talking to them."
+      ]
+    },
+    {
+      "role": "Rules: Castigated By Divinity",
+      "revision": 442342,
+      "title": "Castigated By Divinity",
+      "markers": [
+        "| effects = * Affected entity is cursed by transgressed and irritable gods. When it falls unconscious, it immediately dies. Moreover, when it dies, a terrible envoy of the offended deity is conjured from the entity's corpse."
+      ]
+    },
+    {
+      "role": "Rules: Backbreaker",
+      "revision": 373567,
+      "title": "Backbreaker",
+      "markers": [
+        "| description = Put extra force behind your strike to possibly knock your enemy {{cond|Prone}}."
+      ]
+    },
+    {
+      "role": "Rules: Concussive Smash",
+      "revision": 373613,
+      "title": "Concussive Smash",
+      "markers": [
+        "| description = Hit an enemy with all your might to deal damage and possibly {{cond|Dazed|Daze}} them."
+      ]
+    },
+    {
+      "role": "Rules: Weakening Strike",
+      "revision": 374483,
+      "title": "Weakening Strike",
+      "markers": [
+        "| description = Target an enemy's hands with a non-lethal attack and possibly inflict {{SmCond|Weak Grip}}."
+      ]
+    }
+  ],
+  "summary": "A +2 warhammer with extra Radiant damage, a bonus against Fiends and Undead, and Detect Thoughts.",
+  "fields": {
+    "Weapon profile": "1d8 + 2 Bludgeoning one-handed or 1d10 + 2 two-handed, plus Strength modifier. Add 1d4 Radiant on hits. The +2 enchantment also applies to attack rolls.",
+    "Slay the Wicked": "Deal 1d6 extra Bludgeoning to Fiends and Undead with melee weapons while the hammer is equipped. This bonus cannot critically hit.",
+    "Detect Thoughts": "Action once per Long Rest, self, Concentration until Long Rest. Enables supported dialogue checks to read minds. The game uses Intelligence even where the tooltip names Wisdom. Failed checks can provoke hostility.",
+    "Weapon actions": "Backbreaker, Concussive Smash and Weakening Strike.",
+    "Acquisition": "Stormshore Tabernacle basement, Offerings to Tyr chest. Taking an offering inflicts Castigated By Divinity.",
+    "Base value": "310 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

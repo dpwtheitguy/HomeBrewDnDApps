@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:11852",
+  "title": "Ketheric's Netherstone",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 428433,
+      "title": "Ketheric's Netherstone",
+      "markers": [
+        "QUEST_Netherstone_Ketheric"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441286,
+      "title": "Confront the Elder Brain",
+      "markers": [
+        "Only an illithid character holding the Netherstones"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441339,
+      "title": "Karsus' Compulsion",
+      "markers": [
+        "range m = 6"
+      ]
+    }
+  ],
+  "summary": "One of the three quest stones needed to confront the Netherbrain.",
+  "fields": {
+    "Acquisition": "Take it from Reaper’s Embrace, Ketheric Thorm’s armour.",
+    "Quest use": "Bring it together with Orin’s and Gortash’s stones to the Morphic Pool. The combined Triune Netherstone lets a full illithid use Karsus’ Compulsion on the Crown of Karsus.",
+    "Finale": "Karsus’ Compulsion uses an Action at 20 ft and must channel until the next turn. Incapacitation, Stunned, Polymorphed or Knocked Out interrupts it.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

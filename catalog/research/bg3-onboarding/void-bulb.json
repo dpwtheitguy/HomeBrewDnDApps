@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:3805",
+  "title": "Void Bulb",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424710,
+      "title": "Void Bulb",
+      "markers": [
+        "{{SavingThrow|Strength|18}}"
+      ]
+    }
+  ],
+  "summary": "Throw to deal 1 Force and pull nearby targets toward the impact point.",
+  "fields": {
+    "Throw": "Action, single use, up to 60 ft. Creatures and objects in a 20 ft radius can be pulled toward the impact. Creatures make a DC 18 Strength save to avoid the pull. The blast deals 1 Force damage. The pinned source reports that striking the bulb with an attack can multiply the Force damage through damage riders.",
+    "Acquisition": "Nautiloid, Gnat in Shattered Sanctum, or Omeluum in Ebonlake Grotto. No alchemy recipe.",
+    "Base value": "3 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

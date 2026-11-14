@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:21623",
+  "title": "Old Maintenance Records",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421483,
+      "title": "Old Maintenance Records",
+      "markers": [
+        "BOOK_UNI_CRE_StatuePuzzle_Book"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441022,
+      "title": "Find the Blood of Lathander",
+      "markers": [
+        "the southern one requires a passive"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441012,
+      "title": "Rosymorn Monastery",
+      "markers": [
+        "Old Maintenance Records"
+      ]
+    }
+  ],
+  "summary": "Clue to turning the stuck statue during Find the Blood of Lathander.",
+  "fields": {
+    "Puzzle": "In the western hall of the Inquisitor’s Chambers, turn the southern statue west and the northern one east. The southern statue takes a passive DC 25 Athletics check to move. Apply Grease or attack it if that fails. Turning both opens the secret passage.",
+    "Acquisition": "Rosymorn Monastery near the double doors at X 102, Y 27.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

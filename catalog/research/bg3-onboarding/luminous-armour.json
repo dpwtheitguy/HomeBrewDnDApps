@@ -1,0 +1,48 @@
+{
+  "item_id": "bg3-wiki:12210",
+  "title": "Luminous Armour",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420655,
+      "title": "Luminous Armour",
+      "markers": [
+        "| uid = MAG_Radiant_RadiatingOrb_Armor"
+      ]
+    },
+    {
+      "role": "Rules: Radiating Shockwave",
+      "revision": 432994,
+      "title": "Radiating Shockwave",
+      "markers": [
+        "| summary = '''Radiating Shockwave''' is a passive feature that causes small explosions when dealing radiant damage."
+      ]
+    },
+    {
+      "role": "Rules: Radiant Shockwave",
+      "revision": 402797,
+      "title": "Radiant Shockwave",
+      "markers": [
+        "| summary = '''Radiant Shockwave''' is an action automatically triggered upon dealing {{DamageType|Radiant}} damage while wearing {{SmRarityItem|Luminous Armour}}. It spreads {{SmCond|Radiating Orb}} to all nearby enemies, disrupting their accuracy when making attacks."
+      ]
+    },
+    {
+      "role": "Rules: Radiating Orb",
+      "revision": 439797,
+      "title": "Radiating Orb",
+      "markers": [
+        "| effects = * Affected entity has '''-1''' to [[Attack Rolls]] per remaining turn. It also sheds bright light in an area surrounding it."
+      ]
+    }
+  ],
+  "summary": "AC 15 plus up to +2 Dexterity. Radiant damage can spread Radiating Orb.",
+  "fields": {
+    "Training": "Medium Armour.",
+    "Radiating Shockwave": "Applies 2 turns of Radiating Orb to all non-allied creatures within 10 ft, including neutral creatures. Targeted spells centre it on the target, aimed spells on the cursor, and aura spells on the caster. Moonbeam does not trigger it.",
+    "Radiating Orb": "A creature sheds bright light and takes −1 to attack rolls per remaining turn, up to 10. It loses 2 turns of duration whenever it attacks. The light does not count as Daylight.",
+    "Acquisition": "Locked, trapped opulent chest behind a hidden door in the Selûnite Outpost.",
+    "Base value": "250 gp in BG3. Merchant prices vary.",
+    "Armour Class": "15 + Dexterity modifier, with a maximum +2 from Dexterity."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

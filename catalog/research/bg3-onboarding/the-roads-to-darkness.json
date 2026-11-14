@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12799",
+  "title": "The Roads to Darkness",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 440237,
+      "title": "The Roads to Darkness",
+      "markers": [
+        "S_UND_ClericPoem_Peace"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 440226,
+      "title": "Bernard",
+      "markers": [
+        "The Roads to Darkness"
+      ]
+    }
+  ],
+  "summary": "Read to unlock the friendly response to Bernard’s greeting.",
+  "fields": {
+    "Quest use": "Read before speaking with Bernard on the roof. Answer him with the unlocked line to pacify him and the Animated Armour.",
+    "Acquisition": "Arcane Tower bedroom on the third floor, X −28, Y −295.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:35159",
+  "title": "Parchment (Lower City)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 440203,
+      "title": "Parchment (Lower City)",
+      "markers": [
+        "S_LOW_PhilgravesMansion_LetterFatherCarrion_003"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 440824,
+      "title": "Philgrave's Mansion",
+      "markers": [
+        "The only correct password"
+      ]
+    }
+  ],
+  "summary": "Read to learn the password to Philgrave’s Mansion.",
+  "fields": {
+    "Use": "Say “Secreta Mortuorum” at the hidden entrance to Mystic Carrion’s mansion.",
+    "Acquisition": "On a crate in a Lower City alley near the Guildhall entrance, X 73, Y −107.",
+    "Base value": "14 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

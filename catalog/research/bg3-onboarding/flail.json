@@ -1,0 +1,41 @@
+{
+  "item_id": "bg3-wiki:23358",
+  "title": "Flail",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418561,
+      "title": "Flail",
+      "markers": [
+        "WPN_HUM_Flail_A_0"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 408130,
+      "title": "Flails",
+      "markers": [
+        "| damage = 1d8"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 425432,
+      "title": "Tenacity",
+      "markers": [
+        "| description = When you miss a melee attack, you deal {{DamageText|[[Strength]] [[Modifier]]|Bludgeoning}} damage (minimum of 1) anyway."
+      ]
+    }
+  ],
+  "summary": "A one-handed martial flail.",
+  "fields": {
+    "Damage": "1d8 Bludgeoning",
+    "Range": "5 ft melee.",
+    "Training": "martial",
+    "Handling": "one-handed",
+    "Weapon actions": "Concussive Smash, Weakening Strike",
+    "Tenacity": "In the main hand, a missed melee attack can spend a Reaction to deal Bludgeoning damage equal to Strength modifier, minimum 1.",
+    "Base value": "50 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

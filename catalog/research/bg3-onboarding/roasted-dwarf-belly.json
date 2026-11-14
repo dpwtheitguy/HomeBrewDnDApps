@@ -1,0 +1,20 @@
+{
+  "item_id": "bg3-wiki:17265",
+  "title": "Roasted Dwarf Belly",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Roasted Dwarf Belly",
+      "revision": 426787,
+      "markers": [
+        "QUEST_GOB_RoastingDwarf_B"
+      ]
+    }
+  ],
+  "summary": "The Dark Urge can eat it to heal 4d4 HP.",
+  "fields": {
+    "Eat": "Only the Dark Urge can consume it. Restores 4d4 HP. The piece roasting on the spit grants Good Ol’ Long Pig Inspiration.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

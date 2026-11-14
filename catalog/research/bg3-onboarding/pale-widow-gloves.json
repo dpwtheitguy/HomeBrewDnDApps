@@ -1,0 +1,63 @@
+{
+  "item_id": "bg3-wiki:30853",
+  "title": "Pale Widow Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421673,
+      "title": "Pale Widow Gloves",
+      "markers": [
+        "MAG_LC_DrowSpider_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 328653,
+      "title": "Ensnaring Strands",
+      "markers": [
+        "condition duration = 10"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442812,
+      "title": "Enwebbed",
+      "markers": [
+        "cannot move"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 422035,
+      "title": "Pulling Web",
+      "markers": [
+        "range m = 9"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 424813,
+      "title": "Web",
+      "markers": [
+        "| level = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 424819,
+      "title": "Web (surface)",
+      "markers": [
+        "Difficult terrain"
+      ]
+    }
+  ],
+  "summary": "Unobtainable gloves grant Ensnaring Strands, Pulling Web and Web.",
+  "fields": {
+    "Ensnaring Strands": "Level 1, Action, melee, once per Short Rest. Make a melee attack roll. On hit, deal 1d10 + Strength Slashing. Strength save against spell save DC prevents Enwebbed for up to 10 turns. Enwebbed stops movement, gives the target Disadvantage on attacks and Dexterity saves, and grants attackers Advantage. The condition also blocks Opportunity Attacks.",
+    "Pulling Web": "Action, 30 ft, once per Long Rest. Deals 1d6 Piercing, rising to 2d6 at character level 5 and 3d6 at 10. Pulls the target 10 ft closer unless Huge. It can cause falling damage when the pulled target lands.",
+    "Web": "Action, 60 ft range, 13 ft radius, once per Long Rest. Concentration up to 10 turns. Flammable web halves movement and may Enweb on a failed Dexterity save. The item labels it level 1. The base spell is level 2. The surface uses the caster’s DC, can force a new save after walking through it, and stops Enwebbing at turn start. Jump and Fly bypass the walking trigger. An ally can use Help.",
+    "Availability": "Unobtainable in normal play. Listed in unused Araj Oblodra stock.",
+    "Base value": "450 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:9183",
+  "title": "Blackguard's Sword",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416516,
+      "title": "Blackguard's Sword",
+      "markers": [
+        "| uid = MAG_OB_Paladin_DeathKnight_Longsword"
+      ]
+    },
+    {
+      "role": "Rules: Dazing Smite",
+      "revision": 432240,
+      "title": "Dazing Smite",
+      "markers": [
+        "| summary = '''Dazing Smite''' is a passive feature that dazzles targets you hit with a Smite."
+      ]
+    }
+  ],
+  "summary": "A +2 longsword that can Daze a target struck with a qualifying smite.",
+  "fields": {
+    "Dazing Smite": "When a qualifying smite deals damage, DC 13 Constitution or Dazed for 2 turns. Some higher-level smites and interrupt Divine Smite do not trigger this passive.",
+    "Base value": "250 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

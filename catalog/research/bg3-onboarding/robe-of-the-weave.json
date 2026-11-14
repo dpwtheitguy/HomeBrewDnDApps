@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:8053",
+  "title": "Robe of the Weave",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Robe of the Weave",
+      "revision": 422439,
+      "markers": [
+        "MAG_EndGameCaster_Robe"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Arcane Enchantment (+1)",
+      "revision": 432064,
+      "markers": [
+        "Spell Attack"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Weave Eater",
+      "revision": 433445,
+      "markers": [
+        "1d6|Healing"
+      ]
+    }
+  ],
+  "summary": "Gain +2 AC, +1 spell attacks and spell save DC, and heal on successful spell saves.",
+  "fields": {
+    "Armour Class": "+2 AC while worn. Clothing.",
+    "Arcane Enchantment": "+1 to spell attack rolls and spell save DC.",
+    "Weave Eater": "Regain 1d6 HP on a successful saving throw against a spell.",
+    "Acquisition": "Inside a globe at Ramazith’s Tower, X 4970, Y 705. See Invisibility reveals its lever. Each character can try DC 20 Arcana once. A failed attempt triggers a trap.",
+    "Base value": "2900 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

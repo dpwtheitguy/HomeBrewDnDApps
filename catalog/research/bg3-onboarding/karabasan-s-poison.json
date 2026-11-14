@@ -1,0 +1,71 @@
+{
+  "item_id": "bg3-wiki:12159",
+  "title": "Karabasan's Poison",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438234,
+      "title": "Karabasan's Poison",
+      "markers": [
+        "TWN_Poison_Paralytic_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438130,
+      "title": "Coatings",
+      "markers": [
+        "A subset of Potions"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442393,
+      "title": "Coated in Crawler Mucus",
+      "markers": [
+        "dc=13"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437112,
+      "title": "Stricken with Crawler Mucus (condition)",
+      "markers": [
+        "tick type =end turn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443822,
+      "title": "Inoculated: Crawler Mucus",
+      "markers": [
+        "can't be affected by it."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 417372,
+      "title": "Crawler Mucus",
+      "markers": [
+        "OBJ_CrawlerMucus"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Crawler Mucus (cloud)",
+      "revision": 181697,
+      "markers": [
+        "| condition dc = 11"
+      ]
+    }
+  ],
+  "summary": "Single-use weapon coating that can leave enemies Poisoned and Paralysed. The bottle can also be thrown.",
+  "fields": {
+    "Coat": "Bonus Action. Coats the active weapon set for 10 turns. This includes both hands when dual wielding. Each set requires its own dose. A coating replaces a dip.",
+    "On hit": "DC 13 Constitution save. Failure makes the target Poisoned and Paralysed until it succeeds on an end-of-turn Constitution save. Success against the coating makes it immune to Crawler Mucus for 2 turns.",
+    "Throw": "Action, up to 60 ft. A failed DC 13 Constitution save against the immediate blast causes Poisoned and Paralysed until a successful end-of-turn save or Long Rest. The 3 ft radius cloud lasts 1 turn and uses DC 11 Constitution. The coatings table lists a 1-turn condition from the cloud. The linked condition description says it ends on a successful Constitution save.",
+    "Crafting and acquisition": "This named version cannot be crafted. Buy it from Sister Lidwin in the House of Healing.",
+    "Base value": "50 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

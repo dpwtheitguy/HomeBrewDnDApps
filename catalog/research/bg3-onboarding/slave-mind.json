@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:5762",
+  "title": "Slave Mind",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438517,
+      "title": "Slave Mind",
+      "markers": [
+        "S_TUT_Lab_AdventurerBrainJar"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438511,
+      "title": "Slack-Skinned Head",
+      "markers": [
+        "Slave Mind"
+      ]
+    }
+  ],
+  "summary": "Use this brain jar in the Mind-Archive Interface for a dialogue.",
+  "fields": {
+    "Use": "Insert the Slave Mind into the Mind-Archive Interface in the Mind Flayer Colony to speak with its occupant.",
+    "Acquisition": "Nautiloid Ceremorphosis Chamber X 62, Y −359. Carry it forward to the colony.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

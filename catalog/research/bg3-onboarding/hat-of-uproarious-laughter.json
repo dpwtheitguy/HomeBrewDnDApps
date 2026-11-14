@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:30884",
+  "title": "Hat Of Uproarious Laughter",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419368,
+      "title": "Hat Of Uproarious Laughter",
+      "markers": [
+        "| uid = MAG_Hat_Circushat"
+      ]
+    },
+    {
+      "role": "Rules: Slippery Slapsticky",
+      "revision": 433160,
+      "title": "Slippery Slapsticky",
+      "markers": [
+        "| summary = '''Slippery Slapsticky''' is a passive feature that causes low intelligence creatures to fall on the floor, laughing."
+      ]
+    }
+  ],
+  "summary": "When a hostile creature with Intelligence 5 or higher is knocked Prone within 30 ft, it must make a Wisdom save or suffer Hideous Laughter.",
+  "fields": {
+    "Use": "When a hostile creature with Intelligence 5 or higher is knocked Prone within 30 ft, it must make a Wisdom save or suffer Hideous Laughter.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "35 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

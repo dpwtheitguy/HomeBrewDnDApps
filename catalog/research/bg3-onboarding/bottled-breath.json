@@ -1,0 +1,43 @@
+{
+  "item_id": "bg3-wiki:32975",
+  "title": "Bottled Breath",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416705,
+      "title": "Bottled Breath",
+      "markers": [
+        "CONS_Potion_Bottled_Breath_A_DONOTUSE",
+        "an unlimited number of times per Long Rest."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438005,
+      "title": "Bottled Breath (condition)",
+      "markers": [
+        "| effects = * Affected Entity is able to cast {{sai|Gust of Wind}} once per long rest."
+      ]
+    },
+    {
+      "role": "Rules: Gust of Wind",
+      "revision": 419231,
+      "title": "Gust of Wind",
+      "markers": [
+        "| cost = action, spell2",
+        "| save = STR",
+        "| aoe m = 12",
+        "| condition duration = 1"
+      ]
+    }
+  ],
+  "summary": "Drink as a Bonus Action to gain one use of Gust of Wind until Long Rest.",
+  "fields": {
+    "Effect": "Drink as a Bonus Action to gain one use of Gust of Wind until Long Rest.",
+    "Availability": "Unobtainable in normal gameplay.",
+    "Base value": "10 gp in BG3. Merchant prices vary.",
+    "Gust of Wind": "Action. Clear clouds in a 40 ft line from yourself. A creature that fails a Strength save against your spell save DC is pushed about 16 ft and becomes Off Balance for 1 turn.",
+    "Reported bug": "The tooltip lists one cast, but the pinned item and condition report that the potion permits unlimited casts until Long Rest."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Completed the item-specific action, timing, save, or effect against pinned evidence. Distinguished the tooltip charge limit from the reported repeat-cast bug."
+}

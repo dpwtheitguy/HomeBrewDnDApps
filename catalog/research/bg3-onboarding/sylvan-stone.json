@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:5697",
+  "title": "Sylvan Stone",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Sylvan Stone",
+      "revision": 423805,
+      "markers": [
+        "LOOT_Alchemy_Crystal_SylvanStone_A"
+      ]
+    },
+    {
+      "role": "Rules: Oil of Diminution",
+      "title": "Oil of Diminution",
+      "revision": 421463,
+      "markers": [
+        "Essence of Sylvan Stone"
+      ]
+    }
+  ],
+  "summary": "Alchemy ingredient for Oil of Diminution.",
+  "fields": {
+    "Recipe": "Extract 3 Sylvan Stones into Essence of Sylvan Stone, then mix with any Suspension for Oil of Diminution.",
+    "Base value": "9 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:48030",
+  "title": "Peartree's Hatch Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Peartree's Hatch Key",
+      "revision": 430666,
+      "markers": [
+        "LOW_Peartree_HatchKey"
+      ]
+    },
+    {
+      "role": "Rules: Peartree House",
+      "title": "Peartree House",
+      "revision": 421733,
+      "markers": [
+        "Peartree's Hatch Key"
+      ]
+    }
+  ],
+  "summary": "Unlocks the basement hatch inside Peartree House.",
+  "fields": {
+    "Lock": "Move the Traveller’s Chest that covers the hatch. Use this key, or bypass the lock with DC 15 Sleight of Hand.",
+    "Acquisition": "Bookcase opposite the hatch in Peartree House.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

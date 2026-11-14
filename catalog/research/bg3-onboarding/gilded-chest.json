@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:8411",
+  "title": "Gilded Chest",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418886,
+      "title": "Gilded Chest",
+      "markers": [
+        "| uid = CONT_GEN_Chest_Jewel_A"
+      ]
+    },
+    {
+      "role": "Rules: Medium Toughness",
+      "revision": 443599,
+      "title": "Medium Toughness",
+      "markers": [
+        "{{See also|Sturdy|Greater Toughness}}"
+      ]
+    }
+  ],
+  "summary": "Portable loot container that can be picked up or thrown. Both documented variants have 50 HP.",
+  "fields": {
+    "Defences": "Resistant to Piercing, Necrotic and Radiant, vulnerable to Bludgeoning, immune to Poison and Psychic.",
+    "Light variant": "11 lb, 25 gp.",
+    "Heavy variant": "44 lb, 1 gp. Medium Toughness requires a single hit to deal at least 22 damage."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

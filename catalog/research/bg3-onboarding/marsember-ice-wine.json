@@ -1,0 +1,46 @@
+{
+  "item_id": "bg3-wiki:15504",
+  "title": "Marsember Ice Wine",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420824,
+      "title": "Marsember Ice Wine",
+      "markers": [
+        "CONS_Drink_Valuable_Marsember_Ice_Wine"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437839,
+      "title": "Alcohol (condition)",
+      "markers": [
+        "Disadvantage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 385878,
+      "title": "Alcohol (surface)",
+      "markers": [
+        "Alcohol"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 409610,
+      "title": "Camp Supplies",
+      "markers": [
+        "At least 40 camp supplies"
+      ]
+    }
+  ],
+  "summary": "Provides 6 Camp Supplies. Drink for the Alcohol condition or throw to create an Alcohol surface.",
+  "fields": {
+    "Drink": "Bonus Action. Alcohol gives Disadvantage on Dexterity and Charisma checks for 2 turns.",
+    "Throw": "Action. Creates a persistent 13 ft radius Alcohol surface that can ignite or freeze.",
+    "Camp Supplies": "6 points toward a full Long Rest.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

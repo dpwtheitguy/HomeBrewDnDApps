@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:6897",
+  "title": "Gloves of Cinder and Sizzle",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418966,
+      "title": "Gloves of Cinder and Sizzle",
+      "markers": [
+        "MAG_Monk_Fire_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444664,
+      "title": "Dragonfire Fists",
+      "markers": [
+        "| description = Your unarmed attacks deal an additional {{DamageText|1d4|Fire}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 430999,
+      "title": "Scorching Ray",
+      "markers": [
+        "| description = Hurl '''3''' rays of fire. Each ray deals {{DamageText|2d6|Fire}} damage."
+      ]
+    }
+  ],
+  "summary": "Unarmed attacks add 1d4 Fire. Cast level 3 Scorching Ray once per Long Rest.",
+  "fields": {
+    "Scorching Ray": "Action. Fire four rays at one or more targets within 60 ft. Each ray uses its own ranged spell attack and deals 2d6 Fire on a hit.",
+    "Base value": "240 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

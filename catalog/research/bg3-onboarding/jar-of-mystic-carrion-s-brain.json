@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:18009",
+  "title": "Jar of Mystic Carrion's Brain",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419925,
+      "title": "Jar of Mystic Carrion's Brain",
+      "markers": [
+        "{{MiscItemPage"
+      ]
+    },
+    {
+      "role": "Rules: Thoughtless Brain (condition)",
+      "revision": 437739,
+      "title": "Thoughtless Brain (condition)",
+      "markers": [
+        "{{condition page"
+      ]
+    },
+    {
+      "role": "Rules: End Mystic Carrion's Immortality",
+      "revision": 383299,
+      "title": "End Mystic Carrion's Immortality",
+      "markers": [
+        "| description = Defeat Mystic Carrion is a sub-quest of the quest Find Mystic Carrion's Servant in Act Three of Baldur's Gate 3. It can be started by speaking with Thrumbo in the Lower City."
+      ]
+    }
+  ],
+  "summary": "Destroy it to remove +3 from Mystic Carrion’s spell save DC and let him be Surprised.",
+  "fields": {
+    "Encounter effect": "Destroy it to remove +3 from Mystic Carrion’s spell save DC and let him be Surprised.",
+    "Destruction": "The jar explodes in a 13 ft radius for 8d6 Fire. DC 10 Dexterity save halves the damage. Directly attacking the jar without destroying it deals 5 Necrotic to the attacker.",
+    "Acquisition": "On a table in the Ancient Lair.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

@@ -1,0 +1,66 @@
+{
+  "item_id": "bg3-wiki:8794",
+  "title": "Larethian's Wrath",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420237,
+      "title": "Larethian's Wrath",
+      "markers": [
+        "MAG_Finesse_Longsword"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374192,
+      "title": "Razor Gale",
+      "markers": [
+        "Targets still take half damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442222,
+      "title": "Bleeding",
+      "markers": [
+        "Disadvantage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374173,
+      "title": "Pommel Strike",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374223,
+      "title": "Rush Attack",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    }
+  ],
+  "summary": "Finesse +1 longsword with an area attack that still deals damage on misses.",
+  "fields": {
+    "Damage": "One hand: 1d8 + 1 Slashing. Two hands: 1d10 + 1 Slashing. Add the Finesse ability modifier and +1 to attack rolls. Martial, 5 ft melee and Dippable.",
+    "Razor Gale": "Action, 13 ft cone. Attack all non-allied creatures and objects in the area. On hit deals weapon damage plus proficiency bonus Slashing. On a miss half weapon damage still applies. Flat damage bonuses such as Rage are not halved. Once per Short Rest with proficiency.",
+    "Lacerate": "Action, melee weapon damage. Constitution save against weapon-action DC +2 or Bleeding for 2 turns. The condition deals 2 Slashing damage at the start of each turn, gives Disadvantage on Constitution saves and ends with healing. Once per Short Rest with proficiency. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Pommel Strike": "Bonus Action, melee attack for 1d4 nonlethal Bludgeoning. Constitution save against weapon-action DC +2 or Dazed for 2 turns. Once per Short Rest with proficiency.",
+    "Rush Attack": "Action, 30 ft. Charge and attack the first non-allied creature or object in the path for 1d4 + applicable ability modifier Piercing. A failed Strength save against weapon-action DC applies Off Balance for 2 turns. Once per Short Rest with proficiency.",
+    "Acquisition": "Buy from A’jak’nir Jeera at Crèche Y’llek.",
+    "Base value": "250 gp in BG3. Merchant prices vary.",
+    "Bleeding": "Bleeding deals 2 Slashing at the start of the target’s turn, imposes disadvantage on Constitution saves, and ends on healing. Constructs, Elementals, Plants, Oozes and most Undead are immune. Ghasts and Ghouls are documented exceptions."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

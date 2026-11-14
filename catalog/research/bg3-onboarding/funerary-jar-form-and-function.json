@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12668",
+  "title": "Funerary Jar Form and Function",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418746,
+      "title": "Funerary Jar Form and Function",
+      "markers": [
+        "S_LOW_CarrionJarDiagrams"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 430990,
+      "title": "Find Mystic Carrion's Servant",
+      "markers": [
+        "After reading the {{SmRarityItem|Funerary Jar Form and Function}} book"
+      ]
+    }
+  ],
+  "summary": "Read the slate to reveal the location of Mystic Carrion’s heart and unlock a dialogue option with Thrumbo.",
+  "fields": {
+    "Quest use": "Reading reveals Carrion’s heart is inside Thrumbo. Tell him to make him expel the heart, allowing you to destroy it for End Mystic Carrion’s Immortality or turn it in.",
+    "Acquisition": "Found in the Ancient Lair in the Undercity Ruins.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

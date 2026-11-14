@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:10875",
+  "title": "Gloves of Battlemage's Power",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437973,
+      "title": "Gloves of Battlemage's Power",
+      "markers": [
+        "MAG_Gish_ArcaneAcuity_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432109,
+      "title": "Battlemage's Power",
+      "markers": [
+        "| description ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442040,
+      "title": "Arcane Acuity",
+      "markers": [
+        "| effects ="
+      ]
+    }
+  ],
+  "summary": "Gain +1 Strength saves. Deal damage using a qualifying weapon attack spell to gain 2 turns of Arcane Acuity.",
+  "fields": {
+    "Qualifying attacks": "Includes smites, Booming Blade, Ensnaring Strike, Hail of Thorns, and Shadow Blade weapon attacks. Normal conjured Flame Blade in the main hand can trigger it from other damage sources.",
+    "Arcane Acuity": "+1 to spell attack rolls and spell save DC per remaining turn, up to 10 turns. Taking damage removes 2 turns.",
+    "Base value": "290 gp in BG3. Merchant prices vary.",
+    "Reported triggers": "Damage while wielding a temporary Druid Flame Blade in your main hand can trigger this. An off-hand, permanent, or Mephistopheles racial Flame Blade does not qualify. Throwing healing potions or grenades can trigger this even without hitting a target. Retaliation damage does not qualify."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

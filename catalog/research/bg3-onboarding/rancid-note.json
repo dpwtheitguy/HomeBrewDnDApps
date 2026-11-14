@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12637",
+  "title": "Rancid Note",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422141,
+      "title": "Rancid Note",
+      "markers": [
+        "S_GOB_GoblinPriest_HalsinNote"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441674,
+      "title": "Rescue the Druid Halsin",
+      "markers": [
+        "Halsin"
+      ]
+    }
+  ],
+  "summary": "Read Priestess Gut’s note to advance Rescue the Druid Halsin.",
+  "fields": {
+    "Acquisition": "Carried by Priestess Gut in the Goblin Camp.",
+    "Base value": "14 gp in BG3. Merchant prices vary.",
+    "Read": "Read Priestess Gut’s note to advance Rescue the Druid Halsin."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

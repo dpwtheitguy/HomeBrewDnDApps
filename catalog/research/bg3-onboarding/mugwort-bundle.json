@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:5882",
+  "title": "Mugwort Bundle",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421140,
+      "title": "Mugwort Bundle",
+      "markers": [
+        "{{MiscItemPage"
+      ]
+    },
+    {
+      "role": "Rules: Elixir of Silvanus",
+      "revision": 418163,
+      "title": "Elixir of Silvanus",
+      "markers": [
+        "| description = '''Elixir of Silvanus''' is a common Utility [[Potions|Potion]] that neutralises the effects of all poisons when consumed."
+      ]
+    },
+    {
+      "role": "Rules: Get Help from Healer Nettie",
+      "revision": 418847,
+      "title": "Get Help from Healer Nettie",
+      "markers": [
+        "| description = Get Help from Healer Nettie is a sub-quest of Act One's main quest, Find a Cure. It can be started by inquiring about a healer with Nymessa and Damays or various individuals at the Druid Grove."
+      ]
+    }
+  ],
+  "summary": "Historical quest ingredient for crafting Elixir of Silvanus in Nettie’s cauldron.",
+  "fields": {
+    "Availability": "The cauldron recipe was documented before Patch 1. In the current quest, read On Antidotes and use Salts of Mugwort plus any Suspension to brew Antidote. The latter cures Nettie’s poison.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

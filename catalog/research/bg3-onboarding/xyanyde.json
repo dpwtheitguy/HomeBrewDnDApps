@@ -1,0 +1,63 @@
+{
+  "item_id": "bg3-wiki:3347",
+  "title": "Xyanyde",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Xyanyde",
+      "revision": 441088,
+      "markers": [
+        "GOB_DrowCommander_Mace"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Xyanyde's Fire",
+      "revision": 433464,
+      "markers": [
+        "for 2 turns"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Faerie Fire (condition)",
+      "revision": 435368,
+      "markers": [
+        "Incoming attacks"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Concussive Smash",
+      "revision": 373613,
+      "markers": [
+        "hybrid DC"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Dazed",
+      "revision": 442592,
+      "markers": [
+        "Dexterity"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Dice rolls",
+      "revision": 441478,
+      "markers": [
+        "whichever is higher"
+      ]
+    }
+  ],
+  "summary": "A +1 mace that can reveal a target you miss and give attacks against it Advantage.",
+  "fields": {
+    "Weapon profile": "The item’s native template lists Martial. One-handed mace, 5 ft melee, Dippable. +1 to attacks. Hit for 1d6 + 1 Bludgeoning plus Strength.",
+    "Xyanyde’s Fire": "Once per Short Rest, missing with an attack can apply Faerie Fire for 2 turns. The illuminated target sheds dim light, cannot be Invisible, and grants Advantage to incoming attacks. This is a weapon passive with no listed save.",
+    "Concussive Smash": "Action with proficiency once per Short Rest. Deal melee weapon damage. Constitution save against the higher of spell save DC or weapon-action DC +2 prevents Dazed for 2 turns. Dazed gives Disadvantage on Wisdom saves, removes Dexterity AC bonus and prevents spending Reactions. Help removes it.",
+    "Acquisition": "Carried by Minthara in Act One. If imprisoned at Moonrise Towers in Act Two, the mace is in the Warden’s Office Evidence Chest.",
+    "Base value": "330 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

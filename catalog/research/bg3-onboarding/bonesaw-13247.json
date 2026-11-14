@@ -1,0 +1,32 @@
+{
+  "item_id": "bg3-wiki:13247",
+  "title": "Bonesaw",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 440645,
+      "title": "Bonesaw",
+      "markers": [
+        "WPN_HUM_BoneSaw_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341909,
+      "title": "Longswords",
+      "markers": [
+        "| damage = 1d8"
+      ]
+    }
+  ],
+  "summary": "A slashing longsword used by the House of Healing nurses.",
+  "fields": {
+    "Weapon type": "Longswords",
+    "Damage": "1d8 Slashing",
+    "Two-handed damage": "1d10 Slashing",
+    "Range": "5 ft melee.",
+    "Effect": "A slashing longsword used by the House of Healing nurses.",
+    "Base value": "40 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12866",
+  "title": "Hyena Ear",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419636,
+      "title": "Hyena Ear",
+      "markers": [
+        "LOOT_Alchemy_Hyena_Ear_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441270,
+      "title": "Potion of Speed",
+      "markers": [
+        "Ashes of Hyena Ear"
+      ]
+    }
+  ],
+  "summary": "Extract three Hyena Ears for the Ashes used to make Potion of Speed.",
+  "fields": {
+    "Alchemy": "Three ears make Ashes of Hyena Ear. Mix the Ashes with any Salt for Potion of Speed.",
+    "Acquisition": "Carried by hyenas and gnolls, found in alchemy labs, and sold by Derryth Bonecloak.",
+    "Base value": "5 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

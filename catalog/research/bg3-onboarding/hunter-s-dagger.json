@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:6847",
+  "title": "Hunter's Dagger",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 440125,
+      "title": "Hunter's Dagger",
+      "markers": [
+        "MAG_TheHunters_Dagger"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433063,
+      "title": "Rupturing",
+      "markers": [
+        "the condition is always applied"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 436788,
+      "title": "Ruptured (condition)",
+      "markers": [
+        "for each {{Dist"
+      ]
+    }
+  ],
+  "summary": "A +1 dagger whose melee hits Rupture targets for 3 turns.",
+  "fields": {
+    "Weapon profile": "1d4 + 1 Piercing, 5 ft melee, simple, one-handed, light, finesse, thrown and dippable.",
+    "Rupturing": "Melee hits with this dagger or its weapon actions apply or refresh Ruptured for 3 turns. The source reports no saving throw despite the DC 13 tooltip. Throwing the dagger does not apply Ruptured.",
+    "Ruptured": "Take 1d4 Piercing per 3 ft of ordinary movement and lose one turn of duration per damage trigger. Jumping, teleporting and being shoved do not trigger it. Undead and Constructs can be affected.",
+    "Weapon actions": "With proficiency, gain Flourish, Piercing Strike and Lacerate.",
+    "Acquisition": "Buy from Roah Moonglow; it can reappear after a stock reset.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

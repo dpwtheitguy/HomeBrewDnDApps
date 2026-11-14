@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:7888",
+  "title": "Surgeon's Subjugation Amulet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Surgeon's Subjugation Amulet",
+      "revision": 423738,
+      "markers": [
+        "MAG_TWN_Surgeon_ParalyzingCritical_Amulet"
+      ]
+    },
+    {
+      "role": "Rules: Paralysing Critical",
+      "title": "Paralysing Critical",
+      "revision": 432944,
+      "markers": [
+        "| description = Once per [[Long Rest]], when scoring a [[Critical Hit]] on a [[List_of_Creature_Types#Humanoid|humanoid]], the wearer can {{Cond|Paralysed|Paralyse}} the target for 2 turns."
+      ]
+    },
+    {
+      "role": "Rules: Paralysed (condition)",
+      "title": "Paralysed (condition)",
+      "revision": 436408,
+      "markers": [
+        "automatically fails"
+      ]
+    }
+  ],
+  "summary": "Can paralyse a humanoid on a critical hit once per Long Rest.",
+  "fields": {
+    "Paralysing Critical": "On a critical hit against a humanoid, choose to Paralyse it for 2 turns, once per Long Rest. No save listed.",
+    "Paralysed": "Cannot move, act or react and automatically fails STR/DEX saves. Attacks from within 10 ft that hit are critical.",
+    "Acquisition": "Malus Thorm.",
+    "Base value": "125 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

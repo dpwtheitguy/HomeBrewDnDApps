@@ -1,0 +1,22 @@
+{
+  "item_id": "bg3-wiki:12214",
+  "title": "Smokepowder Arrow",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 429342,
+      "title": "Smokepowder Arrow",
+      "markers": [
+        "ARR_Arrow_Of_Smokepowder"
+      ]
+    }
+  ],
+  "summary": "Ammunition that explodes for Fire and Force damage.",
+  "fields": {
+    "Shot": "Fire using a ranged weapon. The arrow deals no weapon damage. Its 17 ft blast deals 4d6 Fire plus 4d6 Force and pushes 10 ft. DC 15 Dexterity save halves both damage types and prevents the push.",
+    "Limits": "The arrow does not detonate if left on the ground and destroyed or ignited.",
+    "Acquisition": "Numerous traders can stock it from character level 9.",
+    "Base value": "80 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

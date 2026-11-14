@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12708",
+  "title": "Hoof-Trodden Diary",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419572,
+      "title": "Hoof-Trodden Diary",
+      "markers": [
+        "S_LOW_HagSurvivors_MayrinasNote"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 419481,
+      "title": "Help the Hag Survivors",
+      "markers": [
+        "Hoof-Trodden Diary"
+      ]
+    }
+  ],
+  "summary": "Read Mayrina’s account of the doll for a clue during Help the Hag Survivors.",
+  "fields": {
+    "Quest clue": "Mayrina’s diary identifies the doll as the source of her distress. The quest source links this clue to her sheep transformation.",
+    "Acquisition": "Second floor of Old Garlow’s Place.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

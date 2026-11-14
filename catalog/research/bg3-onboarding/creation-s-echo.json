@@ -1,0 +1,33 @@
+{
+  "item_id": "bg3-wiki:3428",
+  "title": "Creation's Echo",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417381,
+      "title": "Creation's Echo",
+      "markers": [
+        "UNI_UND_SocietyOfBrilliance_ElementalResonanceStaff"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432499,
+      "title": "Elemental Resonance",
+      "markers": [
+        "| description = If the wielder deals {{DamageType|Acid}}, {{DamageType|Fire}}, {{DamageType|Lightning}}, {{DamageType|Radiant}}, or {{DamageType|Necrotic}} damage, it becomes resistant to that damage type for 2 turns."
+      ]
+    }
+  ],
+  "summary": "Qualifying damage against a creature grants resistance to the same damage type for 2 turns.",
+  "fields": {
+    "Damage": "1d6 Bludgeoning",
+    "Weapon profile": "Simple, versatile, quarterstaves.",
+    "Two-handed damage": "1d8 Bludgeoning",
+    "Properties": "Dippable.",
+    "Weapon actions": "Topple.",
+    "Elemental Resonance": "Acid, Fire, Lightning, Radiant or Necrotic damage against a creature grants matching resistance for 2 turns. Only one of these resistances can be active. The pinned source reports that it can replace an existing elixir.",
+    "Base value": "310 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence."
+}

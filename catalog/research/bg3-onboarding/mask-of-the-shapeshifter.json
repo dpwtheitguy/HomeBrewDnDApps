@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:8778",
+  "title": "Mask of the Shapeshifter",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420853,
+      "title": "Mask of the Shapeshifter",
+      "markers": [
+        "MAG_OfTheShapeshifter_Mask"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 415266,
+      "title": "Disguise Self",
+      "markers": [
+        "| condition duration = Until Long Rest"
+      ]
+    }
+  ],
+  "summary": "Cast Disguise Self at will while wearing this Digital Deluxe mask.",
+  "fields": {
+    "Disguise Self": "Action on yourself, no spell slot or rest recharge. Choose a disguise until Long Rest or dismiss it. It can enable racial dialogue and equipment interactions or let you use Speak with Dead on someone who would recognize you as their killer.",
+    "Acquisition": "Digital Deluxe Upgrade. In the Traveller’s Chest at camp.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

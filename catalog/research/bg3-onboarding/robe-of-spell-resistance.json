@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:30902",
+  "title": "Robe of Spell Resistance",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Robe of Spell Resistance",
+      "revision": 422436,
+      "markers": [
+        "MAG_OfSpellResistance_Robe"
+      ]
+    }
+  ],
+  "summary": "Unobtainable robe granting +2 to saving throws.",
+  "fields": {
+    "Saving throws": "+2 to saving throws.",
+    "Availability": "Unobtainable in normal play. The item source provides no nominal price.",
+    "Armour Class": "Base AC 10 plus Dexterity. Clothing, with no armour proficiency requirement."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

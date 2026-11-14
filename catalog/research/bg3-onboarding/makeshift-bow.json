@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:19405",
+  "title": "Makeshift Bow",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 444646,
+      "title": "Makeshift Bow",
+      "markers": [
+        "WPN_HUM_Shortbow_A_Makeshift"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373853,
+      "title": "Hamstring Shot",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    }
+  ],
+  "summary": "Skeleton bow adds 1d10 Necrotic to its normal Piercing damage.",
+  "fields": {
+    "Weapon profile": "1d6 Piercing plus Dexterity and 1d10 Necrotic, 60 ft. Martial two-handed ranged weapon, Dippable.",
+    "Hamstring Shot": "Action, ranged weapon damage. Constitution save against weapon-action DC +2 or movement speed is halved for 2 turns. Once per Short Rest with proficiency.",
+    "Availability": "Animate Dead skeleton equipment. Patch 8/Hotfix 31 PC reports transferring it with the summon inventory preview. This is not a normal loot drop.",
+    "Base value": "16 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

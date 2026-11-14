@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:9175",
+  "title": "Belm",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416397,
+      "title": "Belm",
+      "markers": [
+        "| uid = MAG_PHB_OfSpeed_Scimitar"
+      ]
+    },
+    {
+      "role": "Rules: Perfectly Balanced Strike",
+      "revision": 381762,
+      "title": "Perfectly Balanced Strike",
+      "markers": [
+        "| description = Send Belm snaking out with an adder's speed, the very exemplar of swiftness embodied in steel."
+      ]
+    },
+    {
+      "role": "Rules: Whirlwind Attack (Weapon Action)",
+      "revision": 439013,
+      "title": "Whirlwind Attack (Weapon Action)",
+      "markers": [
+        "| description = Strike out at all nearby foes, making separate {{Attack roll}}s against each target."
+      ]
+    }
+  ],
+  "summary": "A +2 scimitar with an extra Bonus Action strike and a short-rest sweep.",
+  "fields": {
+    "Perfectly Balanced Strike": "Bonus Action once per turn. Make a weapon attack using the equipped main-hand weapon.",
+    "Whirlwind Attack": "Action once per Short Rest. Make separate weapon attacks against nearby foes within 7 ft.",
+    "Base value": "480 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

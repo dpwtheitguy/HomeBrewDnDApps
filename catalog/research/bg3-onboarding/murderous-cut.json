@@ -1,0 +1,72 @@
+{
+  "item_id": "bg3-wiki:8603",
+  "title": "Murderous Cut",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421193,
+      "title": "Murderous Cut",
+      "markers": [
+        "| uid = MAG_Murderous_Dagger"
+      ]
+    },
+    {
+      "role": "Rules: Prey Upon the Weak",
+      "revision": 432964,
+      "title": "Prey Upon the Weak",
+      "markers": [
+        "| summary = '''Prey Upon the Weak''' is a passive feature that deals more damage to severely injured targets."
+      ]
+    },
+    {
+      "role": "Rules: Piercing Strike",
+      "revision": 374168,
+      "title": "Piercing Strike",
+      "markers": [
+        "| description = Stab an enemy and possibly inflict {{cond|Gaping Wounds}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Flourish",
+      "revision": 373786,
+      "markers": [
+        "| cost = bonus"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Lacerate",
+      "revision": 373909,
+      "markers": [
+        "| condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Bleeding",
+      "revision": 442222,
+      "markers": [
+        "Removed by healing"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Gaping Wounds",
+      "revision": 443536,
+      "markers": [
+        "Honour Mode"
+      ]
+    }
+  ],
+  "summary": "A +1 dagger dealing +1d4 Piercing to targets at or below half maximum HP.",
+  "fields": {
+    "Weapon profile": "1d4 + 1 Piercing plus attack ability modifier. Simple, Finesse, Light, Thrown and Dippable.",
+    "Prey Upon the Weak": "The duplicate extra-damage entry in the tooltip is cosmetic. Apply the 1d4 only once. This item’s version works in Honour Mode.",
+    "Base value": "65 gp in BG3. Merchant prices vary.",
+    "Flourish": "With proficiency, Bonus Action once per Short Rest. A melee weapon hit deals 1d4 nonlethal Bludgeoning. A Dexterity save against weapon-action DC +2 prevents Off Balance for 2 turns.",
+    "Lacerate": "With proficiency, Action once per Short Rest. Deal weapon damage on a melee hit. Constitution save against weapon-action DC +2 prevents Bleeding for 2 turns. Bleeding deals 2 Slashing at turn start, gives disadvantage on Constitution saves, and ends with healing. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Piercing Strike": "With proficiency, Action once per Short Rest. Deal weapon damage on a melee hit. Constitution save against weapon-action DC +2 prevents Gaping Wounds for 2 turns. Undead and Constructs are immune. Healing removes it. In standard modes hits deal 2 extra Piercing. In Honour Mode all damage gains 2 of its original type."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,48 @@
+{
+  "item_id": "bg3-wiki:4219",
+  "title": "Ritual Axe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Ritual Axe",
+      "revision": 422414,
+      "markers": [
+        "WPN_GOB_PainPriest_Handaxe"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "The Scourge Mistress' Bane",
+      "revision": 433339,
+      "markers": [
+        "always inflicted on a hit"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Lacerate",
+      "revision": 373909,
+      "markers": [
+        "| condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Bleeding",
+      "revision": 442222,
+      "markers": [
+        "Removed by healing"
+      ]
+    }
+  ],
+  "summary": "Hits apply Bane, and the wielder takes Piercing damage at half HP or higher.",
+  "fields": {
+    "Weapon profile": "1d6 Slashing plus Strength. Simple, one-handed, 5 ft, Light, Thrown and Dippable.",
+    "Scourge Mistress’s Bane": "A hit applies Bane for 2 turns without a save, according to the pinned behavior. Subtract 1d4 from the target’s attack rolls and saves. Does not stack with ordinary Bane. At 50% HP or higher, the wielder takes 1d6 magical Piercing, even if the target dies. Critical hits can double self-damage, and damage riders can add to it. Nonlethally knocking out an enemy can knock out the wielder. Piercing damage reduction can lower the self-damage. Sweeping Attack can apply Bane to every creature in the cone even on misses.",
+    "Lacerate": "With proficiency, Action once per Short Rest. Melee weapon damage on hit. Constitution save against weapon-action DC +2 prevents Bleeding for 2 turns. Bleeding deals 2 Slashing at the start of each turn, gives Disadvantage on Constitution saves and ends when healed. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Acquisition": "On a table near Abdirak in the Shattered Sanctum.",
+    "Base value": "280 gp nominal BG3 value.",
+    "Bleeding": "Deals 2 Slashing at the start of each turn, imposes disadvantage on Constitution saves, and ends on healing. Constructs, Elementals, Plants, Oozes and most Undead are immune, with Ghasts and Ghouls documented as exceptions."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,44 @@
+{
+  "item_id": "bg3-wiki:6843",
+  "title": "Gold Wyrmling Staff",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419035,
+      "title": "Gold Wyrmling Staff",
+      "markers": [
+        "MAG_Fire_FireDamage_Quarterstaff"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373237,
+      "title": "Fire Bolt",
+      "markers": [
+        "| description = Hurl a mote of fire."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341914,
+      "title": "Quarterstaves",
+      "markers": [
+        "| damage = 1d6"
+      ]
+    }
+  ],
+  "summary": "A +1 quarterstaff with an extra 1d4 Fire on melee hits and the Fire Bolt cantrip.",
+  "fields": {
+    "Damage": "1d6 + 1 Bludgeoning",
+    "Range": "5 ft melee.",
+    "Training": "simple",
+    "Handling": "versatile",
+    "Enchantment": "+1",
+    "Weapon actions": "Topple",
+    "Two-handed damage": "1d8 + 1 Bludgeoning",
+    "Fire Bolt": "Action. Make a ranged spell attack out to 60 ft. Deal 1d10 Fire on a hit, rising to 2d10 at character level 5 and 3d10 at level 10.",
+    "Dipping and coatings": "The linked item notes say dipping and coatings do not apply a damage buff despite the displayed Dippable property.",
+    "Base value": "320 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

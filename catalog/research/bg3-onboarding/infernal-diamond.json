@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:43948",
+  "title": "Infernal Diamond",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419744,
+      "title": "Infernal Diamond",
+      "markers": [
+        "QUEST_GEM_Infernal_Diamond"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Devil's Fee",
+      "revision": 440876,
+      "markers": [
+        "diamonds cannot be looted"
+      ]
+    }
+  ],
+  "summary": "Use this gem in place of the Diamond for Helsik’s House of Hope portal ritual.",
+  "fields": {
+    "Acquisition": "Two diamonds are in a locked Devil’s Fee display case. Helsik’s Key opens it, but the pinned location reports that the diamonds may still be unavailable to loot. The item page lists smashing the case as an alternative.",
+    "Base value": "280 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

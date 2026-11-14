@@ -1,0 +1,41 @@
+{
+  "item_id": "bg3-wiki:4664",
+  "title": "Club of Hill Giant Strength",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417171,
+      "title": "Club of Hill Giant Strength",
+      "markers": [
+        "UND_StrengthChair_Leg"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433188,
+      "title": "Splinters of a Giant's Might",
+      "markers": [
+        "| description = Increases [[Strength]] to 19."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341893,
+      "title": "Clubs",
+      "markers": [
+        "| damage = 1d4"
+      ]
+    }
+  ],
+  "summary": "While wielded, raises Strength to 19 if it was lower.",
+  "fields": {
+    "Damage": "1d4 Bludgeoning",
+    "Range": "5 ft melee.",
+    "Weapon actions": "Concussive Smash",
+    "Handling": "one-handed",
+    "Training": "simple",
+    "Base value": "65 gp in BG3. Merchant prices vary.",
+    "Strength": "While wielded, raises Strength to 19 if it is lower. Higher Strength stays higher."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Expanded the card from the pinned item and linked gameplay evidence."
+}

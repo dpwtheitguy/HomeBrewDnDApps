@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:16558",
+  "title": "Scroll of Counterspell",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Counterspell",
+      "revision": 422767,
+      "markers": [
+        "LOOT_SCROLL_Counterspell_DONOTUSE"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Counterspell",
+      "revision": 425369,
+      "markers": [
+        "Target_Counterspell"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Reaction when an enemy casts a spell.",
+  "fields": {
+    "Cast": "Level 3. Spend a Reaction and consume the scroll. No spell slot required.",
+    "Effect": "Reaction when a nearby caster casts a spell. Stop spells of level 3 or lower, including cantrips. Higher levels require an Intelligence check against DC 10 plus spell level, despite the tooltip’s spellcasting-ability wording. Counterspell itself cannot be counterspelled. The linked spell works while Silenced.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "100 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

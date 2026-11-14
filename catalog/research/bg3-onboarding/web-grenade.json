@@ -1,0 +1,46 @@
+{
+  "item_id": "bg3-wiki:14632",
+  "title": "Web Grenade",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Web Grenade",
+      "revision": 424820,
+      "markers": [
+        "ALCH_Solution_Grenade_Web"
+      ]
+    },
+    {
+      "role": "Rules: Web (surface)",
+      "title": "Web (surface)",
+      "revision": 424819,
+      "markers": [
+        "DC 12"
+      ]
+    },
+    {
+      "role": "Rules: Enwebbed",
+      "title": "Enwebbed",
+      "revision": 442812,
+      "markers": [
+        "attack of opportunity"
+      ]
+    },
+    {
+      "role": "Rules: Suspension of Spider Silk",
+      "title": "Suspension of Spider Silk",
+      "revision": 440732,
+      "markers": [
+        "Silk Gland"
+      ]
+    }
+  ],
+  "summary": "Throw to create a 10-ft-radius web surface for 10 turns.",
+  "fields": {
+    "Throw": "Action, single use, up to 60 ft. Creates a 10-ft-radius Web surface for 10 turns. It halves movement and can immediately Enweb on a failed DC 12 Dexterity save. Walking at least 3 ft on the surface can reapply the condition, while jumping and flying do not trigger that walking check. The creature is released at the start of its turn regardless of the repeat save.",
+    "Enwebbed": "Movement zero, Disadvantage on attacks and Dexterity saves, Advantage for attackers, no Opportunity Attacks. Fire or Blood can replace the surface. Web can mitigate fall damage.",
+    "Crafting": "Extract 3 Silk Glands into Suspension of Spider Silk, then combine with any Vitriol.",
+    "Base value": "16 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

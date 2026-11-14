@@ -1,0 +1,43 @@
+{
+  "item_id": "bg3-wiki:8946",
+  "title": "Elixir of Heroism",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 428814,
+      "title": "Elixir of Heroism",
+      "markers": [
+        "CONS_Potion_Heroism_A",
+        "price = 30",
+        "* Gain {{temp hp|10}} and a {{DieIcon|d4|Slashing}} '''1d4''' bonus to {{Attack Roll}}s and {{SavingThrow}}s until the next long rest."
+      ]
+    },
+    {
+      "role": "Shared elixir rules",
+      "revision": 425971,
+      "title": "Elixirs",
+      "markers": [
+        "Only one elixir can be applied at a time",
+        "extra hit points"
+      ]
+    },
+    {
+      "role": "Applied condition",
+      "revision": 443687,
+      "title": "Heroic",
+      "markers": [
+        "Temp hp"
+      ]
+    }
+  ],
+  "summary": "Drink as a Bonus Action. Gain 10 temporary HP and +1d4 to attack rolls and saving throws until the next Long Rest.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle. Gain 10 temporary HP and +1d4 to attack rolls and saving throws until the next Long Rest.",
+    "Stacking": "Replaces another elixir effect. Drinking a different elixir can end this effect early. Unspent temporary HP can remain after replacing the elixir.",
+    "Creative use": "Drink before a fight where this effect will matter.",
+    "Crafting": "Combine Sublimate of Pegasus Feathers with any Ashes.",
+    "Base value": "30 gp in BG3. Merchant prices vary.",
+    "Bless interaction": "The elixir’s +1d4 bonus stacks with Bless."
+  },
+  "changes": "Added reviewed native BG3 activation, effects and linked rules."
+}

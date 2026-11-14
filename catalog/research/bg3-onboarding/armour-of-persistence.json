@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:8048",
+  "title": "Armour of Persistence",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438425,
+      "title": "Armour of Persistence",
+      "markers": [
+        "MAG_EndGame_Plate_Armor"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432822,
+      "title": "Magical Plate (-2)",
+      "markers": [
+        "| summary ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432776,
+      "title": "Legendary Persistence",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Reduce incoming damage by 2. Gain Blade Ward and Resistance, which grant physical damage resistance and +1d4 to saving throws.",
+  "fields": {
+    "Equipment type": "Heavy Armour",
+    "Training": "Heavy Armour",
+    "Base AC": "20",
+    "Effect": "Reduce incoming damage by 2. Gain Blade Ward and Resistance, which grant physical damage resistance and +1d4 to saving throws.",
+    "Base value": "6400 gp in BG3. Merchant prices vary.",
+    "Stealth": "Disadvantage on Stealth checks."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

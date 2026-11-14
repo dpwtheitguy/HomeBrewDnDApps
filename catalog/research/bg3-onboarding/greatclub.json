@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:2834",
+  "title": "Greatclub",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419120,
+      "title": "Greatclub",
+      "markers": [
+        "WPN_HUM_Greatclub_A_0"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373613,
+      "title": "Concussive Smash",
+      "markers": [
+        "| save dc = hybrid"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442592,
+      "title": "Dazed",
+      "markers": [
+        "Dexterity"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 425432,
+      "title": "Tenacity",
+      "markers": [
+        "| reaction1 cost = reaction"
+      ]
+    }
+  ],
+  "summary": "Simple two-handed greatclub dealing 1d8 Bludgeoning.",
+  "fields": {
+    "Weapon profile": "1d8 Bludgeoning, 5 ft melee. Simple, two-handed and dippable.",
+    "Concussive Smash": "Action once per Short Rest with proficiency. A melee weapon hit forces a Constitution save against hybrid DC or Dazes for 2 turns. Dazed removes the Dexterity bonus to AC, imposes disadvantage on Wisdom saves and blocks reactions that spend the Reaction resource. Help can end it.",
+    "Tenacity": "While main-handed, on a missed melee attack use your Reaction to deal Strength modifier Bludgeoning, minimum 1. It does not apply a missed weapon action’s effect.",
+    "Acquisition": "The pinned item does not document a specific acquisition location.",
+    "Base value": "16 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

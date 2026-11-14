@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:1319",
+  "title": "Spidersilk Armour",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423461,
+      "title": "Spidersilk Armour",
+      "markers": [
+        "GOB_DrowCommander_Armor_Leather"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433285,
+      "title": "Stealthy",
+      "markers": [
+        "Stealth"
+      ]
+    }
+  ],
+  "summary": "AC 12 Light Armour with Stealth and Constitution save benefits.",
+  "fields": {
+    "Armour Class": "12 + Dexterity modifier. Light Armour proficiency.",
+    "Defences": "+1 Stealth and advantage on Constitution saves.",
+    "Acquisition": "Worn by Minthara.",
+    "Base value": "1150 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:22311",
+  "title": "Twisted Oak Crook",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Twisted Oak Crook",
+      "revision": 424439,
+      "markers": [
+        "WPN_DRYAD_Staff_A_ConjureWoodlandBeings"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Topple",
+      "revision": 377988,
+      "markers": [
+        "Non-lethal"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Ensnared",
+      "revision": 442977,
+      "markers": [
+        "attack of opportunity"
+      ]
+    }
+  ],
+  "summary": "A dryad’s +1 staff with unusually high two-handed damage and Ensnared.",
+  "fields": {
+    "Weapon profile": "Simple, Versatile and Dippable quarterstaff. 5 ft melee. +1 to attacks. Hit for 1d6 + 1 one-handed or 3d6 + 1 two-handed Bludgeoning, plus Strength.",
+    "Topple": "Action once per Short Rest with proficiency. Hit for 1d4 nonlethal Bludgeoning. Dexterity save against weapon-action DC +2 prevents Prone for 1 turn. Breaks Concentration on application.",
+    "Ensnared": "DC 13 Dexterity save prevents Ensnared for 1 turn. It stops movement and opportunity attacks, imposes Disadvantage on attacks and Dexterity saves, and grants Advantage to attackers. The dryad’s separate Grasp of the Forest passive can apply Entangled.",
+    "Availability": "Carried by summoned Dryads. Unavailable as normal loot.",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

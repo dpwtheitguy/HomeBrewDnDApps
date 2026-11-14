@@ -1,0 +1,64 @@
+{
+  "item_id": "bg3-wiki:10547",
+  "title": "Ironwood Club",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419886,
+      "title": "Ironwood Club",
+      "markers": [
+        "MAG_Druid_IronWood_Club"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443867,
+      "title": "Ironwood Harmony",
+      "markers": [
+        "additional {{DamageText|1d4"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433517,
+      "title": "Shillelagh",
+      "markers": [
+        "the highest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373613,
+      "title": "Concussive Smash",
+      "markers": [
+        "| save dc = hybrid"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442592,
+      "title": "Dazed",
+      "markers": [
+        "Dexterity"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373567,
+      "title": "Backbreaker",
+      "markers": [
+        "| condition duration = 2"
+      ]
+    }
+  ],
+  "summary": "A +1 club that gains an additional 1d4 Bludgeoning when empowered by Shillelagh.",
+  "fields": {
+    "Weapon profile": "1d4 + 1 Bludgeoning, simple, one-handed, light, dippable, 5 ft melee.",
+    "Shillelagh": "Bonus Action cast from another source. For 10 turns the club’s damage die becomes 1d8, and attacks and damage use the highest spellcasting modifier in place of Strength. The weapon can be unequipped but cannot be thrown or removed from inventory while empowered.",
+    "Ironwood Harmony": "While the club is empowered by Shillelagh, add 1d4 Bludgeoning.",
+    "Concussive Smash": "Action once per Short Rest with proficiency. On melee weapon hit, Constitution save against hybrid DC prevents Dazed for 2 turns. Dazed removes Dexterity AC bonus, imposes disadvantage on Wisdom saves and blocks reactions that spend the Reaction resource. Help can end it.",
+    "Backbreaker": "Action once per Short Rest with proficiency. Make a melee attack against a Large or smaller creature for 1d4 + attack ability modifier Bludgeoning. Strength save against weapon-action DC prevents Prone for 2 turns.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

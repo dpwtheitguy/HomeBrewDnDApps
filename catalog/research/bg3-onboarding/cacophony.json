@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:8628",
+  "title": "Cacophony",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416866,
+      "title": "Cacophony",
+      "markers": [
+        "| uid = MAG_Thunder_ThunderClap_Quarterstaff"
+      ]
+    },
+    {
+      "role": "Rules: Thunderous Smite",
+      "revision": 405897,
+      "title": "Thunderous Smite",
+      "markers": [
+        "| summary = It allows spellcasters to cause their melee weapon to ring with {{DamageType|Thunder}} as they strike, pushing targets away and potentially knocking them {{SmCond|Prone}}."
+      ]
+    }
+  ],
+  "summary": "A +1 quarterstaff that deals an extra 1d4 Thunder on hit and grants Thunderous Smite.",
+  "fields": {
+    "Weapon damage": "1d6 + 1 Bludgeoning one-handed or 1d8 + 1 two-handed, plus 1d4 Thunder.",
+    "Thunderous Smite": "Use an Action to make a melee weapon attack once per Short Rest. On a hit, spend a Bonus Action and add 2d6 Thunder. On a failed Strength save against your spell save DC, the target is pushed 10 ft and falls Prone. A successful save still takes the damage.",
+    "Base value": "310 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Expanded the card from the pinned item and linked gameplay evidence."
+}

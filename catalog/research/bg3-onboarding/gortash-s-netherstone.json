@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:13989",
+  "title": "Gortash's Netherstone",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 428432,
+      "title": "Gortash's Netherstone",
+      "markers": [
+        "QUEST_Netherstone_Gortash"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Confront the Elder Brain",
+      "revision": 441286,
+      "markers": [
+        "Obtain the three Netherstones."
+      ]
+    }
+  ],
+  "summary": "Recover this quest Netherstone from Gortash’s Netherstone-Studded Gauntlet after picking it up.",
+  "fields": {
+    "Effect": "Recover this quest Netherstone from Gortash’s Netherstone-Studded Gauntlet after picking it up.",
+    "Base value": "1 gp in BG3. Merchant prices vary.",
+    "Quest use": "Collect it with Orin’s and Ketheric’s Netherstones before approaching the Morphic Pool to confront the Elder Brain."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

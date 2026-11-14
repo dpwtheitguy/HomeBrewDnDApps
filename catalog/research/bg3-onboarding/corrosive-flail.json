@@ -1,0 +1,32 @@
+{
+  "item_id": "bg3-wiki:8906",
+  "title": "Corrosive Flail",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417318,
+      "title": "Corrosive Flail",
+      "markers": [
+        "MAG_Corrosive_Flail"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 393064,
+      "title": "Corrosive Strike",
+      "markers": [
+        "| description = Deal additional {{DamageType|Acid}} damage equal to your [[Proficiency Bonus]]. On a hit, create a pool of acid around the target which reduces {{ArmourClass}} by 2."
+      ]
+    }
+  ],
+  "summary": "This +1 flail can strike nearby creatures and create armour-reducing acid pools.",
+  "fields": {
+    "Damage": "1d8 + 1 Bludgeoning",
+    "Weapon profile": "Martial, one-handed, flails.",
+    "Properties": "Dippable.",
+    "Weapon actions": "Concussive Smash, Weakening Strike.",
+    "Corrosive Strike": "Action once per Short Rest with weapon proficiency. Make a melee weapon attack that adds your proficiency bonus as Acid damage. A hit creates an acid pool with a 5 ft radius for 3 turns, reducing AC by 2. The attack can strike nearby creatures and objects including allies, creating further pools.",
+    "Base value": "310 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence."
+}

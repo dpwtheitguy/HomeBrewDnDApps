@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:3700",
+  "title": "Arrow of Ice",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416096,
+      "title": "Arrow of Ice",
+      "markers": [
+        "ARR_Arrow_Of_Ice",
+        "2d4|Cold",
+        "DC]] 12",
+        "area range ft = 7",
+        "area duration = 2"
+      ]
+    },
+    {
+      "role": "Ice surface rules",
+      "revision": 439852,
+      "title": "Ice",
+      "markers": [
+        "Difficult terrain",
+        "fixed DC 12 save",
+        "attacker's newest class"
+      ]
+    }
+  ],
+  "summary": "Fire one arrow from a ranged weapon. It deals weapon damage plus a 2d4 Cold burst (DC 12 Dexterity negates the Cold) and leaves a 7 ft-radius ice surface for 2 turns.",
+  "fields": {
+    "Activation": "Action with a ranged weapon. Consumes one arrow.",
+    "Range": "Ranged (60 ft).",
+    "Damage": "Weapon damage plus a 2d4 Cold burst. A DC 12 Dexterity save negates the Cold damage. The source gives a radius for the ice surface and leaves the burst radius, bystander targeting, and behavior on a miss unspecified.",
+    "Ice": "7 ft radius, 2 turns. The initial Prone check uses a separate DC 12 Dexterity save. The remaining ice is difficult terrain and uses the shooter’s spell save DC from their most recently acquired class for subsequent slip checks.",
+    "Base value": "10 gp in BG3. Merchant prices vary.",
+    "Acquisition": "Available from merchants including Arron in the Druid Grove. Also listed as Ranger starting equipment.",
+    "Creative use": "Aim where the ice can slow a group’s approach. Plan around the ice when moving allies."
+  },
+  "changes": "Added reviewed BG3 ammunition rules, separate cold and ice saves, surface details and pinned sources."
+}

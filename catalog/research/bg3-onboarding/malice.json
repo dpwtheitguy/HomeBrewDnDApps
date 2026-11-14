@@ -1,0 +1,63 @@
+{
+  "item_id": "bg3-wiki:8513",
+  "title": "Malice",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420758,
+      "title": "Malice",
+      "markers": [
+        "CONS_Poison_Malice"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438130,
+      "title": "Coatings",
+      "markers": [
+        "A subset of Potions"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442399,
+      "title": "Coated in Malice",
+      "markers": [
+        "dc=15"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 420759,
+      "title": "Malice (cloud)",
+      "markers": [
+        "| condition dc = 10"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437118,
+      "title": "Stricken with Malice (condition)",
+      "markers": [
+        "range of attacks and spells is reduced"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443826,
+      "title": "Inoculated: Malice",
+      "markers": [
+        "can't be affected"
+      ]
+    }
+  ],
+  "summary": "Coat weapons to Blind and Poison on hit, or throw it to create a short-lived cloud.",
+  "fields": {
+    "Coat": "Spend a Bonus Action and one dose on the active weapon set, both hands if dual wielding. Coating lasts 10 turns and replaces dipping. On a hit, a failed DC 15 Constitution save applies Stricken with Malice. A successful save against a coated weapon grants immunity to Malice for 2 turns.",
+    "Stricken with Malice": "Disadvantage on attack rolls and ability checks. Attack and spell range normally drops to 10 ft. Attacks against the creature have Advantage. Repeat the Constitution save at the end of turns.",
+    "Throw": "Action, up to 60 ft. Creates a cloud in a 3 ft radius for 1 turn. Cloud entry uses a DC 10 Constitution save, applying Stricken with Malice for 1 turn on failure. The item’s separate condition panel lists DC 15 and an ending save.",
+    "Crafting": "Mix Vitriol of Lolth’s Candle with any Ashes. Sister Lidwin also sells it at the House of Healing.",
+    "Base value": "90 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:18452",
+  "title": "Elixir of Dragonborn Prowess: Lightning",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418140,
+      "title": "Elixir of Dragonborn Prowess: Lightning",
+      "markers": [
+        "CONS_Elixir_Blood_Dragonborn_Lightning"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 328612,
+      "title": "Lightning Bolt",
+      "markers": [
+        "| description = Call forth a blast of lightning that hits all creatures in the line of the eruption."
+      ]
+    }
+  ],
+  "summary": "Until Long Rest, gain Lightning resistance, advantage on Intimidation and Persuasion checks, and one cast of Lightning Bolt.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle. Until Long Rest, gain Lightning resistance, advantage on Intimidation and Persuasion checks, and one cast of Lightning Bolt.",
+    "Acquisition": "Trade bronze or blue dragonborn blood to Araj Oblodra in Moonrise Towers or the Lower City.",
+    "Stacking": "Araj’s elixirs stack with ordinary elixirs and other Araj elixirs.",
+    "Lightning Bolt": "Action. In a 100 ft line, deal 8d6 Lightning, Dexterity save for half.",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

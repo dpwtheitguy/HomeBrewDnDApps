@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:7853",
+  "title": "Water Barrel",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424782,
+      "title": "Water Barrel",
+      "markers": [
+        "| description = Water Barrel is a common [[Consumables|Consumable]] that can be used to remove or create certain environmental hazards"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 431953,
+      "title": "Water (surface)",
+      "markers": [
+        "electrified or frozen"
+      ]
+    }
+  ],
+  "summary": "Break or throw the barrel to spill Water in a 20 ft radius.",
+  "fields": {
+    "Use": "Damage the barrel to spill Water in a 20 ft radius or use an Action to Throw and break it. Range depends on Strength and weight.",
+    "Water": "Water douses exposed flames. Lightning can electrify it and Cold can freeze it. Fire can make a Steam Cloud.",
+    "Acquisition": "Found in locations including Waukeen’s Rest.",
+    "Base value": "5 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

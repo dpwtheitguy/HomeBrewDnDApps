@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:50355",
+  "title": "Lodge Dormitory Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430428,
+      "title": "Lodge Dormitory Key",
+      "markers": [
+        "| uid = LOW_Lodge_Chest_Key03"
+      ]
+    },
+    {
+      "role": "Rules: The Lodge",
+      "revision": 439009,
+      "title": "The Lodge",
+      "markers": [
+        "{{Location page"
+      ]
+    }
+  ],
+  "summary": "Opens the Traveller’s Chest in the first-floor dormitory of the Lodge.",
+  "fields": {
+    "Acquisition": "DC 15 Perception reveals the key on books behind the lobby counter. The chest can also be lockpicked at DC 10 and holds gold, alchemy ingredients and Lady Esther’s letter.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:5877",
+  "title": "Viridian Crystal",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424681,
+      "title": "Viridian Crystal",
+      "markers": [
+        "LOOT_Alchemy_Crystal_Viridian_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 422615,
+      "title": "Salts of Viridian Crystal",
+      "markers": [
+        "any [[Alchemy#Extractions|Vitriol]]"
+      ]
+    }
+  ],
+  "summary": "An Underdark ingredient for Diluted Oil of Sharpness.",
+  "fields": {
+    "Extraction": "Grind three Viridian Crystals into Salts of Viridian Crystal.",
+    "Recipe": "Combine the Salts with any Vitriol to make Diluted Oil of Sharpness.",
+    "Acquisition": "Find in the Underdark or buy from Derryth Bonecloak.",
+    "Base value": "7 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:4220",
+  "title": "Assassin's Touch",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438255,
+      "title": "Assassin's Touch",
+      "markers": [
+        "DEN_CapturedGoblin_MurderDagger"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432250,
+      "title": "Deathly Slumber",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Deals an extra 1d4 Necrotic damage to Sleeping or Knocked Out creatures.",
+  "fields": {
+    "Equipment type": "Daggers",
+    "Enchantment": "+1",
+    "Damage": "1d4 + 1 Piercing",
+    "Effect": "Deals an extra 1d4 Necrotic damage to Sleeping or Knocked Out creatures.",
+    "Base value": "40 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 mechanics and pinned item and related rule sources."
+}

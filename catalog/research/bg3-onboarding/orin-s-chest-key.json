@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:47117",
+  "title": "Orin's Chest Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430509,
+      "title": "Orin's Chest Key",
+      "markers": [
+        "| uid = S_LOW_BhaalTemple_Narrative_OrinsChestKey"
+      ]
+    },
+    {
+      "role": "Rules: Bhaal Temple",
+      "revision": 431624,
+      "title": "Bhaal Temple",
+      "markers": [
+        "{{Location page"
+      ]
+    }
+  ],
+  "summary": "Opens the wooden chest in the Chosen’s Room at X 107, Y 1009.",
+  "fields": {
+    "Acquisition": "In the same room in the Bhaal Temple at X 95, Y 995.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:3790",
+  "title": "Potion of Invisibility",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Potion of Invisibility",
+      "revision": 421946,
+      "markers": [
+        "CONS_Potion_Invisible_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Invisible",
+      "revision": 443849,
+      "markers": [
+        "Becoming {{SmCond|Wet}}"
+      ]
+    }
+  ],
+  "summary": "Grants 10 turns of Invisibility when drunk or splashed.",
+  "fields": {
+    "Drink": "Bonus Action on yourself. Invisible for 10 turns.",
+    "Throw": "Action, 60 ft range. Applies Invisible for 10 turns to creatures within a 3 ft radius.",
+    "Invisible": "Advantage on attack rolls. Incoming attacks have disadvantage. Attacking, casting, taking an action or bonus action, interacting with an object, taking damage, or becoming Wet ends it. Inspecting a chest normally preserves it, but moving the contents does not.",
+    "Crafting": "Ashes of Imp Patagium plus any Essence.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

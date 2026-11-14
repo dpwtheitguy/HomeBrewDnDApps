@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:3355",
+  "title": "Blooded Greataxe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416582,
+      "title": "Blooded Greataxe",
+      "markers": [
+        "| uid = MAG_LowHP_IncreaseDamage_Greataxe"
+      ]
+    },
+    {
+      "role": "Rules: Relentless Revenge",
+      "revision": 433017,
+      "title": "Relentless Revenge",
+      "markers": [
+        "| summary = '''Relentless Revenge''' is a passive feature that increases the wielder's damage whenever they are severely injured.",
+        "the weapon tooltip incorrectly lists two entries"
+      ]
+    }
+  ],
+  "summary": "A +1 greataxe. Deal an extra 1d4 Slashing while at or below half HP.",
+  "fields": {
+    "Use": "A +1 greataxe. Deal an extra 1d4 Slashing while at or below half HP.",
+    "Base value": "380 gp in BG3. Merchant prices vary.",
+    "Honour Mode tooltip": "At or below half HP, the tooltip can show two +1d4 Slashing entries. Relentless Revenge still deals a single extra 1d4 Slashing."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Documented the reported duplicate Honour Mode tooltip."
+}

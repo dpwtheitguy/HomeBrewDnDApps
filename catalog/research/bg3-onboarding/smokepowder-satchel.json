@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:3819",
+  "title": "Smokepowder Satchel",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 433730,
+      "title": "Smokepowder Satchel",
+      "markers": [
+        "UNI_Bag_Blackpowder"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 413329,
+      "title": "Smokepowder (surface)",
+      "markers": [
+        "surface"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 371587,
+      "title": "Fire (surface)",
+      "markers": [
+        "condition = Burning"
+      ]
+    }
+  ],
+  "summary": "Throw or ignite this container for an explosive blast.",
+  "fields": {
+    "Throw": "Action. Throw range depends on Strength and weight, up to 60 ft. Breaking it creates a flammable Smokepowder surface.",
+    "Detonate": "Fire damage detonates it. 10 ft radius, 3d4 + 9 Force, DC 12 Dexterity save for half. Pushes targets 10 ft without a save and automatically crits objects.",
+    "Surface ignition": "Ignition of the spilled Smokepowder deals 2d6 Force and 2d6 Fire. A separate DC 12 Dexterity save negates the Fire damage. The surface then becomes Fire and immediately applies Burning. Force damage alone can also ignite the spill.",
+    "Edge case": "The spill ignition and detonation are distinct. Targets at the edge may be hit by the blast without being hit by the ignition.",
+    "Base value": "90 gp nominal BG3 value.",
+    "Durability note": "The item page lists 4 HP under the spill section without clarifying whether it applies to the container or the spill."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

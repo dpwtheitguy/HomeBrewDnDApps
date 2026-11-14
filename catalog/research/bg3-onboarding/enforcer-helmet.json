@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:30118",
+  "title": "Enforcer Helmet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418225,
+      "title": "Enforcer Helmet",
+      "markers": [
+        "MAG_Enforcer_RejunevatingKnock_Helmet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433013,
+      "title": "Rejuvenating Takedown",
+      "markers": [
+        "| uid = MAG_Enforcer_RejunevatingKnock_Helmet_Passive"
+      ]
+    }
+  ],
+  "summary": "An unobtainable helmet that heals the wearer for 1d6 after a knockout.",
+  "fields": {
+    "Rejuvenating Takedown": "Restore 1d6 HP when you knock a creature unconscious.",
+    "Saving throws": "+1 Constitution saves.",
+    "Availability": "Unobtainable in normal play. Dammon’s recorded stock quantity is zero.",
+    "Base value": "115 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

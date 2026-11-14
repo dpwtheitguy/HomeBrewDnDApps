@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:8293",
+  "title": "Handmaiden's Mace",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419304,
+      "title": "Handmaiden's Mace",
+      "markers": [
+        "| uid = MAG_Viconia_Mace"
+      ]
+    },
+    {
+      "role": "Rules: Poisoned",
+      "revision": 439705,
+      "title": "Poisoned",
+      "markers": [
+        "{{About"
+      ]
+    },
+    {
+      "role": "Rules: Concussive Smash",
+      "revision": 373613,
+      "title": "Concussive Smash",
+      "markers": [
+        "| description = Hit an enemy with all your might to deal damage and possibly {{cond|Dazed|Daze}} them."
+      ]
+    }
+  ],
+  "summary": "A +2 mace that sets Strength to at least 18 and adds 1d6 Poison to hits.",
+  "fields": {
+    "Weapon profile": "1d6 + 2 Bludgeoning plus Strength modifier. +2 enchantment also applies to attack rolls. Simple, one-handed, 5 ft melee.",
+    "Hidden Poisoned effect": "On hit, the target also makes a hidden DC 12 Constitution save. On failure it is Poisoned for 2 turns, giving disadvantage on ability checks and attack rolls.",
+    "Concussive Smash": "Action once per Short Rest. Make a melee weapon attack. On hit, a Constitution save against the hybrid DC prevents Dazed for 2 turns. Dazed removes Dexterity AC bonus, gives disadvantage on Wisdom saves, and blocks actions that spend the Reaction resource.",
+    "Base value": "480 gp in BG3. Merchant prices vary.",
+    "Strength": "Raises Strength to 18 if lower.",
+    "Extra damage": "1d6 Poison on a hit."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

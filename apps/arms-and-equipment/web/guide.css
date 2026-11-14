@@ -82,7 +82,8 @@ summary{min-height:44px;display:list-item;padding:10px 0;cursor:pointer;color:va
 .inspection a{color:var(--gold);text-decoration:underline;overflow-wrap:anywhere}
 .weapon-stats{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.65fr);gap:5px 10px;margin:10px 0;font-size:14px}
 .weapon-stats dt{color:var(--muted)}
-.weapon-stats dd{margin:0;overflow-wrap:anywhere}
+.weapon-stats dd{min-width:0;margin:0;overflow-wrap:break-word;overflow-wrap:anywhere}
+.weapon-stats dd a{display:inline;word-break:break-word}
 .weapon-feature{border-bottom:1px solid var(--edge)}
 .weapon-feature a{display:inline-block;margin:6px 0 12px}
 .inspection h4{margin:12px 0 2px;color:var(--muted);font-size:14px}
@@ -191,3 +192,6 @@ summary{min-height:44px;display:list-item;padding:10px 0;cursor:pointer;color:va
 #merchant-categories button { min-height: 44px; }
 #merchant-categories button[aria-pressed="true"] { border-color: var(--gold); color: var(--gold); }
 #merchant-stock .merchant-find { color: var(--gold); }
+.item-rule-table-wrap{overflow-x:auto}
+.item-rule-table{width:100%;border-collapse:collapse;text-align:left}
+.item-rule-table th,.item-rule-table td{padding:.35rem .5rem;border-bottom:1px solid currentColor}

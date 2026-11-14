@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:24723",
+  "title": "Baldur's Grape",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416262,
+      "title": "Baldur's Grape",
+      "markers": [
+        "| uid = CONS_Drink_Wine_E"
+      ]
+    },
+    {
+      "role": "Rules: Alcohol (condition)",
+      "revision": 437839,
+      "title": "Alcohol (condition)",
+      "markers": [
+        "| effects = * Has {{Disadvantage}} on [[Dexterity]] and [[Charisma]] checks."
+      ]
+    }
+  ],
+  "summary": "Contributes 6 Camp Supplies toward a Long Rest.",
+  "fields": {
+    "Camp Supplies": "6",
+    "Drink": "Alcohol can cause Drunk, imposing disadvantage on Dexterity and Charisma checks.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

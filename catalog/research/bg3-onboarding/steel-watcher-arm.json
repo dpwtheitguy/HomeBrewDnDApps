@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:34768",
+  "title": "Steel Watcher Arm",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Steel Watcher Arm",
+      "revision": 438497,
+      "markers": [
+        "DEC_Foundry_Steel_Watcher_Part_Left_Arm_F_Dynamic"
+      ]
+    },
+    {
+      "role": "Rules: Hellfire Engine Crossbow",
+      "title": "Hellfire Engine Crossbow",
+      "revision": 438689,
+      "markers": [
+        "Targeting Module"
+      ]
+    }
+  ],
+  "summary": "Component for Hellfire Engine Crossbow.",
+  "fields": {
+    "Assembly": "Combine the Steel Watcher Arm, Watcher Crossbow Blueprint and Targeting Module.",
+    "Acquisition": "Foundry main-floor table at (−280, −165).",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

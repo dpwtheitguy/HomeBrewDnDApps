@@ -1,0 +1,58 @@
+{
+  "item_id": "bg3-wiki:10185",
+  "title": "Shield of Devotion",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423144,
+      "title": "Shield of Devotion",
+      "markers": [
+        "MAG_BG_OfDevotion_Shield"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 371312,
+      "title": "Additional Spell Slot",
+      "markers": [
+        "per character"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438215,
+      "title": "Shield Bash",
+      "markers": [
+        "Strength saving throw"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 387887,
+      "title": "Shield of Devotion: Aid",
+      "markers": [
+        "| condition duration = Until Long Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Shield Blow",
+      "revision": 406487,
+      "markers": [
+        "| save = STR",
+        "| save dc = caster",
+        "| condition duration = 1"
+      ]
+    }
+  ],
+  "summary": "+2 AC, an extra level 1 spell slot and self-cast Aid.",
+  "fields": {
+    "Armour Class": "+2 AC while equipped. Shield proficiency.",
+    "Additional Spell Slot": "+1 level 1 spell slot. The source reports each character can gain it once per Long Rest, with an exception when converting the slot to a Sorcery Point.",
+    "Shield Bash": "When hit by a melee attack, spend a Reaction. The attacker makes a Strength save against your spell save DC or falls Prone for 1 turn. The tooltip instead names Dexterity.",
+    "Aid": "Level 3, self Action once per Long Rest. Restore 10 HP and increase maximum HP by 10 until Long Rest.",
+    "Acquisition": "Quartermaster Talli at Last Light Inn.",
+    "Base value": "570 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

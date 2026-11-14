@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:9674",
+  "title": "Githyanki Egg",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 429203,
+      "title": "Githyanki Egg",
+      "markers": [
+        "| uid = DEC_GTY_Eggs_Fetus_A_Shell_A_Empty_A"
+      ]
+    },
+    {
+      "role": "Rules: Steal a Githyanki Egg",
+      "revision": 433666,
+      "title": "Steal a Githyanki Egg",
+      "markers": [
+        "| description = Steal a Githyanki Egg is a Quest in Act One of Baldur's Gate 3. It can be started by speaking with Lady Esther at the Mountain Pass."
+      ]
+    }
+  ],
+  "summary": "Take the egg from the Crèche Y’llek Hatchery to Lady Esther for the quest, or keep it.",
+  "fields": {
+    "Acquisition": "The Hatchery is protected by acid and traps. Speak with Varsh Ko’kuu to obtain permission or take the egg yourself.",
+    "Keeping the egg": "Lae’zel can carry the egg. Storing it in the Traveller’s Chest can make Lae’zel respond as though it was lost.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

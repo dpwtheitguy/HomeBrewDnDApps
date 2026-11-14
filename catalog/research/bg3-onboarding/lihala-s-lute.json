@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12073",
+  "title": "Lihala's Lute",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 439794,
+      "title": "Lihala's Lute",
+      "markers": [
+        "S_DEN_BardInstrument"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439731,
+      "title": "Perform (lute)",
+      "markers": [
+        "free action"
+      ]
+    }
+  ],
+  "summary": "Alfira’s lute grants Perform. Helping her complete her song can also grant Musical Instrument proficiency.",
+  "fields": {
+    "Perform": "Use the free Perform action to play the lute.",
+    "Acquisition": "Agree to help Alfira with her song. She gives you the lute. You can pocket it or make a DC 10 Performance check to perform with her. Helping her finish grants proficiency.",
+    "Base value": "14 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

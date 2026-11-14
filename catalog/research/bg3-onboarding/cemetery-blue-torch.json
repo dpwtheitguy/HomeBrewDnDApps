@@ -1,0 +1,20 @@
+{
+  "item_id": "bg3-wiki:32929",
+  "title": "Cemetery-Blue Torch",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416948,
+      "title": "Cemetery-Blue Torch",
+      "markers": [
+        "| uid = UNI_HUM_Torch_A_Blue"
+      ]
+    }
+  ],
+  "summary": "A light, simple melee torch that lights automatically when equipped. Deals 1d4 Bludgeoning plus 1d4 Fire while lit.",
+  "fields": {
+    "Ignition": "Can ignite flammable surfaces or clouds it contacts. The Fire rider ends when extinguished.",
+    "Base value": "10 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

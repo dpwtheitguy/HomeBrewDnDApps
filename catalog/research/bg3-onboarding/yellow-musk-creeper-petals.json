@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:13641",
+  "title": "Yellow Musk Creeper Petals",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Yellow Musk Creeper Petals",
+      "revision": 425052,
+      "markers": [
+        "ALCH_Ingredient_Loot_YellowMuskCreeper_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Salts of Musk Creeper",
+      "revision": 422612,
+      "markers": [
+        "any [[Alchemy#Extractions|Suspension]]"
+      ]
+    }
+  ],
+  "summary": "Extract three petals to make a Potion of Superior Healing.",
+  "fields": {
+    "Alchemy": "Extract 3 Yellow Musk Creeper Petals into Salts of Musk Creeper. Add any Suspension to make Potion of Superior Healing.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

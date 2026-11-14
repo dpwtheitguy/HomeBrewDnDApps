@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:3988",
+  "title": "The Great Furnace of Grymforge",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "The Great Furnace of Grymforge",
+      "revision": 438494,
+      "markers": [
+        "UNI_UND_FurnaceSearch_MyconidDrowJournal_Real"
+      ]
+    },
+    {
+      "role": "Rules: Flumph Mating Rituals",
+      "title": "Flumph Mating Rituals",
+      "revision": 418629,
+      "markers": [
+        "Sussur Bloom"
+      ]
+    },
+    {
+      "role": "Rules: Adamantine Forge (quest)",
+      "title": "Adamantine Forge (quest)",
+      "revision": 441122,
+      "markers": [
+        "Great Furnace"
+      ]
+    }
+  ],
+  "summary": "Reveals Adamantine Forge instructions and advances its quest.",
+  "fields": {
+    "Read": "The book begins under the Flumph Mating Rituals disguise. A successful check or Sussur Bloom lifts the illusion. It advances the Adamantine Forge quest. Verify the Memory Shard and Scribbled Notes too to earn If I Can’t Have It… for Sages.",
+    "Forge": "Place Mithral Ore in the crucible and a mould in its chamber. Lower the hammer, open the lava valve and drop the hammer again.",
+    "Acquisition": "Xargrim’s corpse in the hidden Ebonlake Grotto room, (49, −72).",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

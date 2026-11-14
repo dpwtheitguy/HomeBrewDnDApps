@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:14822",
+  "title": "Sublimate of Behir Scales",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Sublimate of Behir Scales",
+      "revision": 423676,
+      "markers": [
+        "ALCH_Extract_BehirScales"
+      ]
+    },
+    {
+      "role": "Rules: Flashblinder",
+      "title": "Flashblinder",
+      "revision": 418593,
+      "markers": [
+        "Sublimate of Behir Scales"
+      ]
+    }
+  ],
+  "summary": "Alchemical extract used for Flashblinder.",
+  "fields": {
+    "Extract": "Combine 3 Behir Scales to make one Sublimate of Behir Scales.",
+    "Brew": "Combine this extract with any Ash to make Flashblinder.",
+    "Base value": "145 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

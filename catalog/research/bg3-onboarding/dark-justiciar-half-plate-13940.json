@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:13940",
+  "title": "Dark Justiciar Half-Plate",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417526,
+      "title": "Dark Justiciar Half-Plate (Very Rare)",
+      "markers": [
+        "| uid = UNI_SHA_Shadowheart_JusticiarArmor_HalfPlate"
+      ]
+    },
+    {
+      "role": "Rules: Shar's Umbrae",
+      "revision": 403494,
+      "title": "Shar's Umbrae",
+      "markers": [
+        "| summary = '''Shar's Umbrae''' is a passive feature that helps the wearer stay undetected."
+      ]
+    },
+    {
+      "role": "Rules: Shar's Aegis",
+      "revision": 403492,
+      "title": "Shar's Aegis",
+      "markers": [
+        "| summary = It allows spellcasters to surround themselves with {{deity|Shar|Shar's}} protection and gain a bonus to their [[Armour Class]], reduce incoming damage and apply {{Damage type|Necrotic}} damage to all attackers.{{see bugs}}"
+      ]
+    },
+    {
+      "role": "Rules: Shar's Protection",
+      "revision": 433122,
+      "title": "Shar's Protection",
+      "markers": [
+        "| summary = '''Shar's Protection''' is a passive feature that further enhances Shield of Faith."
+      ]
+    }
+  ],
+  "summary": "Medium armour with base AC 17, advantage on Constitution saves and Shar’s Aegis.",
+  "fields": {
+    "Armour Class": "Medium Armour. Base AC 17 plus Dexterity modifier up to +2.",
+    "Shar’s Umbrae": "Gain advantage on Stealth checks while obscured. The armour also grants advantage on Constitution saves.",
+    "Shar’s Aegis": "Bonus Action on yourself once per Long Rest. Concentrate until Long Rest or until you unequip the armour. Gain +2 AC and Sharran Retribution.",
+    "Shar’s Protection": "While Shield of Faith is active, reduce incoming damage by 2 and deal 1d4 Necrotic back to attackers.",
+    "Base value": "2900 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

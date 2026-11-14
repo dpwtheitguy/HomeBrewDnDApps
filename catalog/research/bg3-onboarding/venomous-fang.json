@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:13748",
+  "title": "Venomous Fang",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Venomous Fang",
+      "revision": 424625,
+      "markers": [
+        "ALCH_Ingredient_Loot_SnakeFang"
+      ]
+    },
+    {
+      "role": "Rules: Suspension of Snake Venom",
+      "title": "Suspension of Snake Venom",
+      "revision": 423758,
+      "markers": [
+        "Vitriol"
+      ]
+    },
+    {
+      "role": "Rules: Serpent Fang Toxin",
+      "title": "Serpent Fang Toxin",
+      "revision": 422997,
+      "markers": [
+        "Suspension of Snake Venom"
+      ]
+    }
+  ],
+  "summary": "Alchemy ingredient for Serpent Fang Toxin.",
+  "fields": {
+    "Alchemy": "Extract 3 Venomous Fangs into Suspension of Snake Venom. Combine with any Vitriol for Serpent Fang Toxin.",
+    "Acquisition": "Derryth Bonecloak in the Underdark’s Myconid Colony.",
+    "Base value": "11 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

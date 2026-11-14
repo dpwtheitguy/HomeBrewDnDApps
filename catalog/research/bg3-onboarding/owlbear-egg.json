@@ -1,0 +1,46 @@
+{
+  "item_id": "bg3-wiki:4774",
+  "title": "Owlbear Egg",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421628,
+      "title": "Owlbear Egg",
+      "markers": [
+        "| uid = Quest_CON_OwlBearEgg"
+      ]
+    },
+    {
+      "role": "Rules: Eggbearer",
+      "revision": 442750,
+      "title": "Eggbearer",
+      "markers": [
+        "| effects = * Carries an owlbear's egg. Its scent will attract the egg's mother."
+      ]
+    },
+    {
+      "role": "Rules: Owlbear Nest",
+      "revision": 431001,
+      "title": "Owlbear Nest",
+      "markers": [
+        "{{Location page"
+      ]
+    },
+    {
+      "role": "Rules: Steal a Githyanki Egg",
+      "revision": 433666,
+      "title": "Steal a Githyanki Egg",
+      "markers": [
+        "| description = Steal a Githyanki Egg is a Quest in Act One of Baldur's Gate 3. It can be started by speaking with Lady Esther at the Mountain Pass."
+      ]
+    }
+  ],
+  "summary": "Provides 40 Camp Supplies or can substitute for a githyanki egg in Lady Esther’s quest.",
+  "fields": {
+    "Eggbearer": "Picking it up in the Owlbear Nest attracts the mother. Approaching the egg or cub may turn them hostile. In Honour Mode the mother can summon her mate.",
+    "Quest use": "Offer it to Lady Esther as an alternative in Steal a Githyanki Egg. The dialogue offers DC 21 Nature, Deception or Persuasion. Convincing her to fool her employers with Persuasion earns 485 gp.",
+    "Camp Supplies": "40 supplies can cover a full Explorer or Balanced rest. It can be consumed by auto-selected camp supplies or fed to the Owlbear Cub.",
+    "Base value": "750 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

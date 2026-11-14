@@ -1,0 +1,48 @@
+{
+  "item_id": "bg3-wiki:3678",
+  "title": "Hamarhraft",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419287,
+      "title": "Hamarhraft",
+      "markers": [
+        "| uid = MAG_Mobility_ExplosionOnJump_Maul"
+      ]
+    },
+    {
+      "role": "Rules: Shockwave",
+      "revision": 433136,
+      "title": "Shockwave",
+      "markers": [
+        "| summary = '''Shockwave''' is a toggleable passive feature that causes a shockwave after you jump."
+      ]
+    },
+    {
+      "role": "Rules: Concussive Smash",
+      "revision": 373613,
+      "title": "Concussive Smash",
+      "markers": [
+        "| description = Hit an enemy with all your might to deal damage and possibly {{cond|Dazed|Daze}} them."
+      ]
+    },
+    {
+      "role": "Rules: Backbreaker",
+      "revision": 373567,
+      "title": "Backbreaker",
+      "markers": [
+        "| description = Put extra force behind your strike to possibly knock your enemy {{cond|Prone}}."
+      ]
+    }
+  ],
+  "summary": "Toggle Shockwave to deal 1d4 Thunder in a 10 ft radius every time you land from a qualifying Jump or Fly.",
+  "fields": {
+    "Weapon profile": "2d6 Bludgeoning plus Strength modifier, 5 ft melee. Martial, heavy, two-handed, and dippable.",
+    "Shockwave": "Each qualifying landing while enabled deals 1d4 Thunder in a 10 ft radius, including multiple jumps made through Step of the Wind. The item source reports Fly and similar landing movement can also trigger it.",
+    "Tenacity": "In the main hand, when you miss a melee attack, spend your Reaction to deal Bludgeoning equal to Strength modifier, minimum 1.",
+    "Concussive Smash": "Action once per Short Rest. Make a melee weapon attack. On hit, a Constitution save against the hybrid DC prevents Dazed for 2 turns. Dazed removes Dexterity AC bonus, gives disadvantage on Wisdom saves, and blocks actions that spend the Reaction resource.",
+    "Backbreaker": "Action once per Short Rest. Attack a Large or smaller creature for 1d4 Bludgeoning plus attack ability modifier. Strength save against weapon-action DC or Prone for 2 turns.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

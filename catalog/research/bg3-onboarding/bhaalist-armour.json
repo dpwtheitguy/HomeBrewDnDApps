@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:11951",
+  "title": "Bhaalist Armour",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 426505,
+      "title": "Bhaalist Armour",
+      "markers": [
+        "| uid = MAG_Bhaalist_Armor"
+      ]
+    },
+    {
+      "role": "Rules: Aura of Murder (passive feature)",
+      "revision": 432098,
+      "title": "Aura of Murder (passive feature)",
+      "markers": [
+        "| summary = '''Aura of Murder''' is a toggleable passive feature. It creates an aura which makes enemies Vulnerable to Piercing damage."
+      ]
+    }
+  ],
+  "summary": "Light armour with base AC 14, +2 Initiative, and Aura of Murder.",
+  "fields": {
+    "Aura of Murder": "Toggle this 10 ft aura. Ordinary enemies in range become vulnerable to Piercing damage. Resistant enemies lose their Piercing resistance and immune enemies keep their immunity. Resistance removal does not stack with effects that bypass Piercing resistance.",
+    "Acquisition": "Purchase from Echo of Abazigal after becoming an Unholy Assassin of Bhaal.",
+    "Armour Class": "Light Armour proficiency. Base AC 14 plus Dexterity modifier.",
+    "Ambusher": "Gain +2 Initiative.",
+    "Base value": "2000 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and pinned evidence, then refined its mechanics against item and linked rule notes."
+}

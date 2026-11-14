@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:3351",
+  "title": "Githyanki Greatsword (Psionic)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418907,
+      "title": "Githyanki Greatsword (Psionic)",
+      "markers": [
+        "| uid = MAG_LowHP_IncreaseDamagePsychic_GithGreatsword"
+      ]
+    },
+    {
+      "role": "Rules: Githborn Psionic Weapon",
+      "revision": 432592,
+      "title": "Githborn Psionic Weapon",
+      "markers": [
+        "| summary = '''Githborn Psionic Weapon''' is a passive feature granted by certain Githyanki weapons when wielded by a [[githyanki]]."
+      ]
+    }
+  ],
+  "summary": "This +1 greatsword has a 1d4 Psychic damage rider for a githyanki wielder.",
+  "fields": {
+    "Weapon damage": "2d6 + 1 Slashing plus Strength modifier. +1 enchantment also improves attack rolls. Martial, heavy, two-handed, dippable.",
+    "Githborn Psionic Weapon": "A githyanki wielder deals an extra 1d4 Psychic damage. A wielder disguised as githyanki also qualifies if the disguise is active before equipping the weapon.",
+    "Weapon actions": "With proficiency, gain Pommel Strike, Lacerate and Cleave.",
+    "Base value": "130 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions.",
+  "use_wiki_title": true
+}

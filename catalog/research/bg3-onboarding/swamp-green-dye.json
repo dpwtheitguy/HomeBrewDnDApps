@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:8272",
+  "title": "Swamp Green Dye",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Swamp Green Dye",
+      "revision": 423771,
+      "markers": [
+        "LOOT_Dye_GreenSage_01"
+      ]
+    },
+    {
+      "role": "Rules: Dyes",
+      "title": "Dyes",
+      "revision": 405683,
+      "markers": [
+        "Dye Remover"
+      ]
+    }
+  ],
+  "summary": "Single-use dye recolours compatible equipment swamp green.",
+  "fields": {
+    "Use": "Combine with compatible equipment. A later dye replaces the earlier colour. Dye Remover restores the original.",
+    "Base value": "3 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "bg3-wiki:3426",
+  "title": "Exterminator's Axe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418330,
+      "title": "Exterminator's Axe",
+      "markers": [
+        "UNI_UND_DuergarRaft_PestKillerAxe"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433079,
+      "title": "Scourge of Pests",
+      "markers": [
+        "| description = Deals an additional {{DamageText|1d6|Fire}} damage to [[Plant]]s, [[Myconid]]s{{see bugs}}, and [[Small]] creatures."
+      ]
+    }
+  ],
+  "summary": "This greataxe adds 1d6 Fire against plants, myconids and Small creatures.",
+  "fields": {
+    "Damage": "1d12 Slashing",
+    "Weapon profile": "Martial, two-handed, greataxes.",
+    "Properties": "Heavy, Dippable.",
+    "Weapon actions": "Cleave, Lacerate, Prepare.",
+    "Scourge of Pests": "Deal 1d6 extra Fire to plants, myconids and Small creatures. The tooltip says insects, but the pinned source reports the affected category is myconids.",
+    "Base value": "130 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

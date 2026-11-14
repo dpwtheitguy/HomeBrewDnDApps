@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:19740",
+  "title": "Research Notes",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422320,
+      "title": "Research Notes (Waning Moon)",
+      "markers": [
+        "S_TWN_Distillery_ResearchNotes"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 424182,
+      "title": "Thisobald's Brewed-Up Bellyglummer",
+      "markers": [
+        "Corpse Rose"
+      ]
+    }
+  ],
+  "summary": "Interact and pass DC 14 Intelligence to uncover Thisobald’s hidden ingredient stash.",
+  "fields": {
+    "Investigation": "The book triggers narration. A successful DC 14 Intelligence check reveals the stash on the map. The parcel contains Corpse Rose petals for Thisobald’s Brewed-Up Bellyglummer.",
+    "Acquisition": "Behind a locked door at the Waning Moon, X −257, Y −83.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

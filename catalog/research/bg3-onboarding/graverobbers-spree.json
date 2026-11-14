@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:39648",
+  "title": "Graverobbers' Spree",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419104,
+      "title": "Graverobbers' Spree",
+      "markers": [
+        "S_LOW_BaldursMouth_ArticleBlock001"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423620,
+      "title": "Stop the Presses",
+      "markers": [
+        "Graverobbers' Spree"
+      ]
+    }
+  ],
+  "summary": "Use this neutral article in Stop the Presses to replace the article about the party.",
+  "fields": {
+    "Use": "Install the article block in the Baldur’s Mouth printing press to substitute a neutral story about grave robberies.",
+    "Acquisition": "Wicker basket in Baldur’s Mouth at X 58, Y −42.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:14177",
+  "title": "Hastening Spores",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419362,
+      "title": "Hastening Spores",
+      "markers": [
+        "| uid = ALCH_Ingredient_Part_MyconidSpore_Haste"
+      ]
+    },
+    {
+      "role": "Rules: Sublimate of Haste Spores",
+      "revision": 423681,
+      "title": "Sublimate of Haste Spores",
+      "markers": [
+        "| description = '''Sublimate of Haste Spores''' is an [[Alchemy|Alchemical Extraction]]. It can be combined with any [[Alchemy#Extractions|Essence]] to create a {{SmRarityItem|Haste Spore Grenade}}."
+      ]
+    }
+  ],
+  "summary": "Extract three units of Hastening Spores into Sublimate of Haste Spores. Combine it with any Essence to make Haste Spore Grenade.",
+  "fields": {
+    "Use": "Extract three units of Hastening Spores into Sublimate of Haste Spores. Combine it with any Essence to make Haste Spore Grenade.",
+    "Base value": "4 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

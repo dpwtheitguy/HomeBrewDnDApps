@@ -1,0 +1,46 @@
+{
+  "item_id": "bg3-wiki:3538",
+  "title": "Guiding Light",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419215,
+      "title": "Guiding Light",
+      "markers": [
+        "UND_Tower_RingLight"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 422847,
+      "title": "Light",
+      "markers": [
+        "| condition duration = Until Long Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 436056,
+      "title": "Light (condition)",
+      "markers": [
+        "ft=25"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441387,
+      "title": "Arcane Tower",
+      "markers": [
+        "Threadbare Book"
+      ]
+    }
+  ],
+  "summary": "Wear to reveal Arcane Tower basement elevator controls. Also grants Light.",
+  "fields": {
+    "Elevator": "While equipped, reveals basement controls at the top and bottom Arcane Tower elevator panels.",
+    "Light": "Action in melee range. Shed light in a 25 ft radius. A character’s active weapon is lit until Long Rest; scenery and ground items receive 20 turns. One active target per caster. A hostile creature can resist with a Dexterity save against the caster’s spell save DC. Unequipping the ring does not end the spell.",
+    "Acquisition": "Recite the relevant Threadbare Book line to Bernard or defeat it and loot the ring.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:10664",
+  "title": "Hammergrim Mist Amulet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419291,
+      "title": "Hammergrim Mist Amulet",
+      "markers": [
+        "| uid = MAG_Shadow_FogCloud_Amulet"
+      ]
+    },
+    {
+      "role": "Rules: Fog Cloud",
+      "revision": 414609,
+      "title": "Fog Cloud",
+      "markers": [
+        "| summary = It allows spellcasters to summon a sphere of {{SmArea|fog}} on an area in range and heavily obscure the area. Creatures within the area are Blinded."
+      ]
+    }
+  ],
+  "summary": "Cast Fog Cloud without Concentration once per Long Rest.",
+  "fields": {
+    "Fog Cloud": "Action, range 60 ft, 15 ft radius, lasts 10 turns. Fog heavily obscures the area and Blinds creatures within it. This specific item grant has no Concentration requirement.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:9401",
+  "title": "Flawed Helldusk Armour",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 441404,
+      "title": "Flawed Helldusk Armour",
+      "markers": [
+        "QUEST_HAV_InfernalReward_001"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432778,
+      "title": "Lesser Infernal Retribution",
+      "markers": [
+        "| description = When you are hit by a foe within {{Dist|m=2|ft=7}}, it might take {{DamageText|1d4|Fire}} damage."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433317,
+      "title": "Superior Plate (-1)",
+      "markers": [
+        "| description = You take 1 less {{DamageType|Piercing}} damage."
+      ]
+    }
+  ],
+  "summary": "Heavy Armour with AC 18 and Stealth disadvantage. Take 1 less Piercing damage. When a foe attacks you in melee, it makes a DC 13 Dexterity save or takes 1d4 Fire.",
+  "fields": {
+    "Armour class": "18",
+    "Training": "Heavy Armour",
+    "Lesser Infernal Retribution": "Occurs per qualifying attack. The log can attribute the save to the wearer even though the attacker rolls it. The source reports melee only despite the listed 7 ft range.",
+    "Crafting": "Give Dammon the first Infernal Iron for the armour.",
+    "Base value": "3200 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

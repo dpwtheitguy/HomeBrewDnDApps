@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:7852",
+  "title": "Oil Barrel",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421455,
+      "title": "Oil Barrel",
+      "markers": [
+        "CONT_Barrel_Oil_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 421454,
+      "title": "Oil",
+      "markers": [
+        "no effects while stepping"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 371587,
+      "title": "Fire (surface)",
+      "markers": [
+        "Burning"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Throw",
+      "revision": 428492,
+      "markers": [
+        "CanImprovisedWeaponWeight"
+      ]
+    }
+  ],
+  "summary": "Oil barrel explodes when ignited, dealing 6d6 Fire and knocking creatures back.",
+  "fields": {
+    "Throw": "Action. The 88 lb barrel needs at least Strength 15 to throw. Range depends on Strength and weight, up to 60 ft. Breaking the barrel spills Oil in a 20 ft radius. The Oil surface has 1 HP. Throw or place it on Fire to detonate it.",
+    "Explosion": "20 ft radius, 6d6 Fire. Dexterity save DC 12 halves damage. The blast knocks targets back 10 ft without a save.",
+    "Surface": "Oil itself has no movement penalty. Igniting the spill creates a Fire surface that deals 1d4 Fire per turn and applies Burning for 1 turn.",
+    "Acquisition": "Found at locations including the Goblin Camp, Waukeen’s Rest and the Selûnite Outpost.",
+    "Base value": "5 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

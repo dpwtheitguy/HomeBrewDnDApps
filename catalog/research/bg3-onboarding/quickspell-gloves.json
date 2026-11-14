@@ -1,0 +1,33 @@
+{
+  "item_id": "bg3-wiki:8866",
+  "title": "Quickspell Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422075,
+      "title": "Quickspell Gloves",
+      "markers": [
+        "MAG_Warlock_Quickened_Gloves",
+        "price honour = 1000"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432990,
+      "title": "Quickspell Flinger",
+      "markers": [
+        "| toggleable = yes",
+        "| recharge = Short Rest",
+        "| toggle off context = OnCastResolved"
+      ]
+    }
+  ],
+  "summary": "Toggle on to cast one Action-cost cantrip as a Bonus Action per Short Rest.",
+  "fields": {
+    "Quickspell Flinger": "Turn the passive on before casting. A cantrip that would cost an Action costs a Bonus Action instead. The toggle switches off after the cast resolves and the use recharges on a Short Rest.",
+    "Acquisition": "Buy from Lorroakan’s Projection or Rolan on the ground floor of Sorcerous Sundries at X −14, Y −72.",
+    "Honour Mode value": "1,000 gp nominal.",
+    "Base value": "300 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 activation, trigger, recharge, and pricing with pinned source evidence."
+}

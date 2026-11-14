@@ -1,0 +1,22 @@
+{
+  "item_id": "bg3-wiki:24675",
+  "title": "Okta's Alternative Meal",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421468,
+      "title": "Okta's Alternative Meal",
+      "markers": [
+        "DEN_UNI_Thieflings_BadGruel"
+      ]
+    }
+  ],
+  "summary": "Provides 1 Camp Supply. Eating it directly deals 1d4 Poison damage.",
+  "fields": {
+    "Eat": "Consume to take 1d4 Poison damage.",
+    "Camp Supplies": "Contributes 1 Camp Supply toward a Long Rest.",
+    "Acquisition": "Speak with Okta in the Hollow during the goblin assault on the grove.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

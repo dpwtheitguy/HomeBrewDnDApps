@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:9384",
+  "title": "Shapeshifter's Boon Ring",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 431541,
+      "title": "Shapeshifter's Boon Ring",
+      "markers": [
+        "MAG_ShapeshiftersBurgeon_Ring"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433119,
+      "title": "Shapeshifter's Boon",
+      "markers": [
+        "all {{Ability check}}s"
+      ]
+    }
+  ],
+  "summary": "Gain +1d4 on ability checks after shapeshifting or disguising yourself.",
+  "fields": {
+    "Mark of the Shifter": "Wear the ring when transforming to gain the mark until Long Rest. Applies to all ability checks. Works with Wild Shape and Starry Form, but the source reports it does not work with Symbiotic Entity.",
+    "Seeming": "Another character’s Seeming does not grant it. Adjust Seeming yourself to a new appearance to trigger it.",
+    "Acquisition": "Carried by the Strange Ox, first encountered in the Druid Grove.",
+    "Base value": "70 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

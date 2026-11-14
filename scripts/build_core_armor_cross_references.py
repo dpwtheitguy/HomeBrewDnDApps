@@ -36,9 +36,11 @@ REVIEWED_VARIANTS = {
 }
 REVIEWED_STRUCTURED = {
     'Dwarven Plate': (2, 'Use a Reaction to reduce forced movement along the ground by up to 10 ft.', ''),
+    'Dwarven Half Plate': (2, 'Use a Reaction to reduce forced movement along the ground by up to 10 ft.', ''),
     'Elven Chain Mail': (1, 'The wearer is treated as trained with this armor.', 'Wearer counts as trained'),
     'Elven Chain Shirt': (1, 'The wearer is treated as trained with this armor.', 'Wearer counts as trained'),
     'Plate Armor of Etherealness': (0, 'Once per dawn, use a Magic action and the command word for Etherealness. Removing the armor or repeating the command word as a Magic action ends the effect.', ''),
+    'Half Plate Armor of Etherealness': (0, 'Once per dawn, use a Magic action and the command word for Etherealness. Removing the armor or repeating the command word as a Magic action ends the effect.', ''),
 }
 CURSED_FAMILIES = (
     ('Armor of Vulnerability (', 'while cursed, you have vulnerability', 0,

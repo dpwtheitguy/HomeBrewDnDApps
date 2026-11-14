@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:50614",
+  "title": "Key (Crèche Hatchery)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430565,
+      "title": "Key (Crèche Hatchery)",
+      "markers": [
+        "| uid = S_CRE_HatcheryCageKey"
+      ]
+    },
+    {
+      "role": "Rules: Crèche Y'llek",
+      "revision": 441021,
+      "title": "Crèche Y'llek",
+      "markers": [
+        "| summary = It is a [[Githyanki]] base located directly under [[Rosymorn Monastery]] and can be reached through one of two [[#Connected locations|entrances]]."
+      ]
+    }
+  ],
+  "summary": "Opens a cage in the Crèche Y’llek hatchery.",
+  "fields": {
+    "Acquisition": "Carried by Warrior Vu’un in the hatchery.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

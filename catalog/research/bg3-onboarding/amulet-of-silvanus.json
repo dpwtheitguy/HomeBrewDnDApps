@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:3574",
+  "title": "Amulet of Silvanus",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 415919,
+      "title": "Amulet of Silvanus",
+      "markers": [
+        "DEN_BearReward_Amulet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 404074,
+      "title": "Lesser Restoration",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Once per Short Rest, use an Action to cure an adjacent creature of Disease, Poisoned, Paralysed, or Blinded.",
+  "fields": {
+    "Equipment type": "Amulets",
+    "Effect": "Once per Short Rest, use an Action to cure an adjacent creature of Disease, Poisoned, Paralysed, or Blinded.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 mechanics and pinned item and related rule sources."
+}

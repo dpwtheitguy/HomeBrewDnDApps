@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:34776",
+  "title": "Spoiled Treacle Tart",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Spoiled Treacle Tart",
+      "revision": 423509,
+      "markers": [
+        "CONS_GEN_Food_Tart_Treacle_A_Spoiled_A"
+      ]
+    },
+    {
+      "role": "Rules: Treacly Tummy (condition)",
+      "title": "Treacly Tummy (condition)",
+      "revision": 437274,
+      "markers": [
+        "hidden condition"
+      ]
+    }
+  ],
+  "summary": "Provides 1 Camp Supplies.",
+  "fields": {
+    "Camp Supplies": "1 Camp Supplies toward a Long Rest.",
+    "Eat": "Restore 1d4 HP without spending an Action or Bonus Action in combat. Triggers on-heal effects and applies Treacly Tummy for 20 turns. This hidden condition gives Disadvantage on Wisdom and Intelligence ability checks.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

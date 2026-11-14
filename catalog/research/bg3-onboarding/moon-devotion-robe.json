@@ -1,0 +1,64 @@
+{
+  "item_id": "bg3-wiki:12919",
+  "title": "Moon Devotion Robe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Moon Devotion Robe",
+      "revision": 421068,
+      "markers": [
+        "MAG_Selunite_Isobel_Robe"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Lunar Bulwark",
+      "revision": 443014,
+      "markers": [
+        "| recharge = Long Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Mage Armour",
+      "revision": 396179,
+      "markers": [
+        "13 +"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Selûne's Protection",
+      "revision": 443017,
+      "markers": [
+        "non-spell effects"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Produce Flame",
+      "revision": 387994,
+      "markers": [
+        "does not cost"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Produce Flame: Hurl",
+      "revision": 401922,
+      "markers": [
+        "99 turns"
+      ]
+    }
+  ],
+  "summary": "Clothing with advantage on Constitution saves, +1 to all saves, and two spells.",
+  "fields": {
+    "Saving throws": "+1 to all saving throws. Advantage on Constitution saves.",
+    "Lunar Bulwark": "Action on self once per Long Rest. While unarmoured, set base AC to 13 + Dexterity until Long Rest. It does not stack with other base AC formulas. Helmets and gloves with an armour classification count as armour. Shields are compatible.",
+    "Selûne’s Protection": "When regular Mage Armour is active, succeeding on a save against a spell deals 1d4 Radiant to the source. The robe’s Lunar Bulwark does not activate this effect.",
+    "Produce Flame": "Action, self. Gives light in a 30 ft radius until Long Rest or until hurled or dismissed. Hurl makes a Wisdom spell attack within 30 ft for 1d8 Fire, increasing to 2d8 at level 5 and 3d8 at level 10. Hurl is free on the casting turn, then costs an Action and expires after 99 turns.",
+    "Acquisition": "Worn by Isobel at Last Light after resolving the Nightsong before the Moonrise assault, or at the Mind Flayer Colony, Ramazith’s Tower or Act Two camp if her story takes her there.",
+    "Base value": "1600 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

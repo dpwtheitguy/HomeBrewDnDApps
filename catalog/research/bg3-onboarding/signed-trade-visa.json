@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:9095",
+  "title": "Signed Trade Visa",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Signed Trade Visa",
+      "revision": 423195,
+      "markers": [
+        "UNI_TWN_TollhousePass_Signed"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Flesh to Gold",
+      "revision": 442893,
+      "markers": [
+        "Target_TWN_Tollhouse_FleshToGold"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Cast Flesh to Gold on a creature.",
+  "fields": {
+    "Cast": "Level 6. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Cast Flesh to Gold on a creature. Constitution saves determine whether Restrained progresses to permanent gold Petrification. Obtain the scroll from Gerringothe Thorm at the Reithwin Tollhouse.",
+    "Range": "59 ft.",
+    "Concentration": "Maintain Concentration for the ongoing effect.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "600 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

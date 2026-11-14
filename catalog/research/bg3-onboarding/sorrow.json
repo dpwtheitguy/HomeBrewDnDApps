@@ -1,0 +1,73 @@
+{
+  "item_id": "bg3-wiki:3352",
+  "title": "Sorrow",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 426894,
+      "title": "Sorrow",
+      "markers": [
+        "UNI_DEN_HalsinBlade"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 428926,
+      "title": "Sorrowful Lash",
+      "markers": [
+        "| cost = bonus"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441529,
+      "title": "Brace (Melee)",
+      "markers": [
+        "roll melee damage twice"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442222,
+      "title": "Bleeding",
+      "markers": [
+        "start of each turn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374223,
+      "title": "Rush Attack",
+      "markers": [
+        "| range m = 9"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444158,
+      "title": "Off Balance",
+      "markers": [
+        "Removed by taking damage"
+      ]
+    }
+  ],
+  "summary": "A +1 glaive with an at-will Bonus Action pull.",
+  "fields": {
+    "Weapon profile": "1d10 + 1 Slashing plus Strength. +1 attacks. Martial, heavy, two-handed, dippable, 8 ft reach.",
+    "Sorrowful Lash": "Bonus Action cantrip once per turn. Melee spell attack at 30 ft for 1d4 + item spellcasting modifier Piercing. Pull the target 10 ft. Huge targets cannot be pulled. No glaive proficiency needed.",
+    "Brace": "Spend 20 ft movement with proficiency, once per Short Rest. Roll melee damage twice and keep the higher result until turn end.",
+    "Lacerate": "Action with proficiency, once per Short Rest. Melee weapon damage. Constitution save against weapon-action DC +2 prevents Bleeding for 2 turns. Bleeding deals 2 Slashing at turn start and gives disadvantage on Constitution saves. Healing ends it. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Rush Attack": "Action with proficiency, once per Short Rest. Charge up to 30 ft and strike first non-allied creature or object for 1d4 + attack ability modifier Piercing. Strength save vs weapon-action DC avoids Off Balance for 2 turns. Off Balance gives disadvantage on Strength and Dexterity checks and advantage to attackers. Help or damage ends it.",
+    "Acquisition": "Stone slab at the Wolf altar in Emerald Grove’s Hidden Vault, after the Enclave Library puzzle.",
+    "Base value": "380 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

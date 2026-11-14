@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:28206",
+  "title": "Harp-Shaped Pin",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419330,
+      "title": "Harp-Shaped Pin",
+      "markers": [
+        "{{MiscItemPage"
+      ]
+    },
+    {
+      "role": "Rules: Elerrathin's Home",
+      "revision": 434045,
+      "title": "Elerrathin's Home",
+      "markers": [
+        "{{Location page"
+      ]
+    }
+  ],
+  "summary": "Insert a Harp-Shaped Pin into the desk in Elerrathin’s Home to open Jaheira’s hidden basement.",
+  "fields": {
+    "Access": "DC 12 Perception to detect the slot in the garden-room desk. Insert the pin to release the hidden passage.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

@@ -1,0 +1,41 @@
+{
+  "item_id": "bg3-wiki:16433",
+  "title": "Scroll of Hypnotic Pattern",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Hypnotic Pattern",
+      "revision": 422811,
+      "markers": [
+        "LOOT_SCROLL_HypnoticPattern"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Hypnotic Pattern",
+      "revision": 419639,
+      "markers": [
+        "Target_HypnoticPattern"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Creatures that can see the pattern make Wisdom saves.",
+  "fields": {
+    "Cast": "Level 3. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Creatures that can see the pattern, including you and allies, make Wisdom saves. For up to 2 turns, affected targets cannot move, act or react. Damage or Help ends the effect.",
+    "Range": "60 ft.",
+    "Area": "30 ft radius.",
+    "Concentration": "Maintain Concentration for the ongoing effect.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "100 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

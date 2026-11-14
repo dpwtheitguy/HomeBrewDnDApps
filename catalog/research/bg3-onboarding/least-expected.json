@@ -1,0 +1,56 @@
+{
+  "item_id": "bg3-wiki:9607",
+  "title": "Least Expected",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420259,
+      "title": "Least Expected",
+      "markers": [
+        "MAG_Shadow_Blinding_Bow"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432237,
+      "title": "Darkveil Precision",
+      "markers": [
+        "ranged weapon attack rolls"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 416565,
+      "title": "Blinding Shot",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437979,
+      "title": "Blinded (condition)",
+      "markers": [
+        "Range of attacks and spells reduced"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373853,
+      "title": "Hamstring Shot",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    }
+  ],
+  "summary": "+2 shortbow with a ranged accuracy bonus in shadows and a shot that can Blind.",
+  "fields": {
+    "Damage": "1d6 + 2 Piercing plus Dexterity. +2 to attack rolls. Simple two-handed ranged weapon, 60 ft, Dippable.",
+    "Darkveil Precision": "+1d4 to ranged weapon attack rolls while lightly or heavily obscured. Equipping it while already obscured may require moving into a clear area and back, or using Hide.",
+    "Blinding Shot": "Action. Ranged weapon damage plus proficiency bonus Piercing. Constitution save against weapon-action DC +2 or Blinded for 2 turns. Blinded targets have Disadvantage on attacks, usually lose attack and spell range beyond 10 ft, and grant Advantage to attackers. Once per Short Rest. Blinded also blocks Opportunity Attacks. Throw retains normal range.",
+    "Hamstring Shot": "Action, ranged weapon damage. Constitution save against weapon-action DC +2 or movement speed is halved for 2 turns. Once per Short Rest with proficiency.",
+    "Acquisition": "Gilded chest beyond the locked puzzle door in the Gauntlet of Shar.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

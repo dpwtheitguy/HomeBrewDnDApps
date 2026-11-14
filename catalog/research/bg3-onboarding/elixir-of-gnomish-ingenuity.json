@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:26343",
+  "title": "Elixir of Gnomish Ingenuity",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418147,
+      "title": "Elixir of Gnomish Ingenuity",
+      "markers": [
+        "CONS_Elixir_Blood_Gnome"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 383599,
+      "title": "Knock",
+      "markers": [
+        "| description = Unlock an object that is held shut by a mundane lock."
+      ]
+    }
+  ],
+  "summary": "Until Long Rest, gain Sleight of Hand proficiency and one cast of Knock.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle. Until Long Rest, gain Sleight of Hand proficiency and one cast of Knock.",
+    "Acquisition": "Trade gnome blood to Araj Oblodra in Moonrise Towers or the Lower City.",
+    "Stacking": "Araj’s elixirs stack with ordinary elixirs and other Araj elixirs.",
+    "Knock": "Action. Open a mundane lock from up to 60 ft, regardless of its lockpicking DC. Some locks have a status that marks them as resistant to Knock.",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Verified card mechanics against the cited item or linked rule."
+}

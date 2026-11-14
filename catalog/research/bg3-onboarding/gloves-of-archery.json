@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:6784",
+  "title": "Gloves of Archery",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418962,
+      "title": "Gloves of Archery",
+      "markers": [
+        "UNI_ARM_OfArchery_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432192,
+      "title": "Corellon's Guiding Hand",
+      "markers": [
+        "| description = You gain [[Proficiency]] with {{WeaponType|Longbows}} and {{WeaponType|Shortbows}}. In addition, your ranged weapon attacks deal an additional 2 damage."
+      ]
+    }
+  ],
+  "summary": "Gain Longbow and Shortbow proficiency. Ranged weapon attacks deal 2 extra damage.",
+  "fields": {
+    "Effect": "Gain Longbow and Shortbow proficiency. Ranged weapon attacks deal 2 extra damage.",
+    "Base value": "60 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

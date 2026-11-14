@@ -1,0 +1,46 @@
+{
+  "item_id": "bg3-wiki:9089",
+  "title": "Incandescent Staff",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419719,
+      "title": "Incandescent Staff",
+      "markers": [
+        "MAG_FlamingFist_StaffOfFire"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373237,
+      "title": "Fire Bolt",
+      "markers": [
+        "| description = Hurl a mote of fire."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 418518,
+      "title": "Fireball",
+      "markers": [
+        "| description = Shoot a bright flame from your fingers that explodes upon contact, torching everything in the vicinity for {{DamageText|8d6|Fire}} damage."
+      ]
+    }
+  ],
+  "summary": "A quarterstaff that gives +1 to ranged spell attack rolls and Fire resistance, and grants Fire Bolt and Fireball.",
+  "fields": {
+    "Damage": "1d6 Bludgeoning",
+    "Range": "5 ft melee.",
+    "Training": "simple",
+    "Handling": "versatile",
+    "Weapon actions": "Topple",
+    "Two-handed damage": "1d8 Bludgeoning",
+    "Fire Bolt": "Action. Ranged spell attack out to 60 ft. On hit deal 1d10 Fire, increasing to 2d10 at character level 5 and 3d10 at level 10.",
+    "Fireball": "Action once per Long Rest. Target a point within 60 ft. Creatures in a 13 ft-radius burst take 8d6 Fire, or half on a successful Dexterity save against your spell save DC.",
+    "Acquisition": "Sold by Quartermaster Talli at Last Light Inn.",
+    "Base value": "770 gp in BG3. Merchant prices vary.",
+    "Ranged Spell Attack": "+1 to ranged spell attack rolls.",
+    "Fire resistance": "Take half Fire damage."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

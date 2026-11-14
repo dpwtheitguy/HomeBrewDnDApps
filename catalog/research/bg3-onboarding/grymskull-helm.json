@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:3703",
+  "title": "Grymskull Helm",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419203,
+      "title": "Grymskull Helm",
+      "markers": [
+        "UNI_UND_KC_AdamantineGolem_Helmet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 380615,
+      "title": "Hunter's Mark",
+      "markers": [
+        "| damage = 1d6"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 324670,
+      "title": "Reapply Hunter's Mark",
+      "markers": [
+        "| cost = bonus"
+      ]
+    }
+  ],
+  "summary": "Heavy Armour headwear. Resist Fire damage, avoid critical hits, and cast Hunter’s Mark.",
+  "fields": {
+    "Defence": "While worn, you resist Fire. Incoming attacks cannot score critical hits against you. Heavy Armour training applies.",
+    "Hunter’s Mark": "The armour grant lists an Action once per Long Rest. Mark a creature at up to 60 ft. Concentrate until Long Rest. Your weapon hits deal 1d6 extra damage of the weapon’s type. Unarmed hits do not qualify.",
+    "Reapply": "When the mark dies, use a Bonus Action to shift it to another creature without a slot while concentration continues.",
+    "Reported behavior": "Unequipping the helm after casting can leave access to the spell until Long Rest or the end of concentration.",
+    "Acquisition": "Loot Grym at the Adamantine Forge.",
+    "Base value": "570 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

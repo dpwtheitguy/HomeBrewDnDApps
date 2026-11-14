@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:8726",
+  "title": "Incense",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Incense",
+      "revision": 419721,
+      "markers": [
+        "DEC_GEN_Incense_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Devil's Fee",
+      "revision": 440876,
+      "markers": [
+        "A bowl of {{SmRarityItem|Incense}}"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Grimoire Bound in Imp Skin",
+      "revision": 419170,
+      "markers": [
+        "Place the Incense on the right"
+      ]
+    }
+  ],
+  "summary": "Place Incense beside the Diamond on the southeast point of Helsik’s ritual circle to help open the House of Hope portal.",
+  "fields": {
+    "Ritual use": "Put it on the southern of the two eastern points. It is one of the five ritual components.",
+    "Acquisition": "Find a bowl by the south balcony door at the Devil’s Fee, or pickpocket Helsik."
+  },
+  "changes": "Pinned the ritual and exact ingredient separately from the trade-only item description."
+}

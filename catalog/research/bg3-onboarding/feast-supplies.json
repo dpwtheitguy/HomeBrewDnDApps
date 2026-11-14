@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:19577",
+  "title": "Feast Supplies",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418410,
+      "title": "Feast Supplies",
+      "markers": [
+        "| uid = UNI_HeroesFeast"
+      ]
+    },
+    {
+      "role": "Rules: Heroes' Feast",
+      "revision": 413392,
+      "title": "Heroes' Feast",
+      "markers": [
+        "| summary = It allows spellcasters to summon a bountiful smorgasbord to bolster themselves and their allies and strengthen their resolve."
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Sturdy",
+      "revision": 443601,
+      "markers": [
+        "at least 10 damage",
+        "each individual hit"
+      ]
+    }
+  ],
+  "summary": "The Heroes’ Feast spell creates this temporary container. Open within 10 turns to collect 46–58 Camp Supplies and one Water.",
+  "fields": {
+    "Use": "The Heroes’ Feast spell creates this temporary container. Open within 10 turns to collect 46–58 Camp Supplies and one Water.",
+    "Base value": "22 gp in BG3. Merchant prices vary.",
+    "Durability": "Sturdy. A single hit must deal at least 10 damage to damage the container."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

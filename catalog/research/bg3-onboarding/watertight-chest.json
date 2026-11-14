@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:50229",
+  "title": "Watertight Chest",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Watertight Chest",
+      "revision": 424790,
+      "markers": [
+        "S_CONT_GEN_Chest_Travel_A_000"
+      ]
+    },
+    {
+      "role": "Rules: Sturdy",
+      "title": "Sturdy",
+      "revision": 443601,
+      "markers": [
+        "at least 10 damage"
+      ]
+    },
+    {
+      "role": "Rules: Intransigent Warhammer",
+      "title": "Intransigent Warhammer",
+      "revision": 438473,
+      "markers": [
+        "Watertight Chest"
+      ]
+    }
+  ],
+  "summary": "Fixed chest containing Intransigent Warhammer.",
+  "fields": {
+    "Container": "Static chest, 50 HP. Sturdy requires at least 10 damage per hit. Vulnerable to Bludgeoning, resists Piercing, Necrotic and Radiant, immune to Poison and Psychic.",
+    "Contents": "Intransigent Warhammer. Chest is on Greymon’s skiff en route to Grymforge.",
+    "Base value": "20 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

@@ -1,0 +1,55 @@
+{
+  "item_id": "bg3-wiki:8425",
+  "title": "The Reviving Hands",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437700,
+      "title": "The Reviving Hands",
+      "markers": [
+        "MAG_OfRevivify_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432048,
+      "title": "Aegis Palms",
+      "markers": [
+        "no limit to the number"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 422342,
+      "title": "Revivify",
+      "markers": [
+        "BLOCK_RESURRECTION"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 434633,
+      "title": "Blade Ward (condition)",
+      "markers": [
+        "Bludgeoning"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 435051,
+      "title": "Death Ward (condition)",
+      "markers": [
+        "1"
+      ]
+    }
+  ],
+  "summary": "Healing grants Blade Ward, and the gloves cast Revivify.",
+  "fields": {
+    "Strength saves": "+1 Strength saves.",
+    "Aegis Palms": "Healing yourself or another creature grants the recipient Blade Ward for 2 turns, resisting Bludgeoning, Piercing and Slashing. Revivify on a Downed ally grants Death Ward for 2 turns. The source reports no Death Ward on reviving an already dead ally. This special ward can trigger repeatedly during its duration, restoring 1 HP instead of dropping to 0.",
+    "Revivify": "Level 3, Action once per Long Rest. Target an eligible Dead or Downed companion within 30 ft. Bring them back with 1 HP and optionally relocate them within range. Blocked resurrection tags still apply.",
+    "Acquisition": "Vicar Humbletoes at Stormshore Tabernacle.",
+    "Base value": "570 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

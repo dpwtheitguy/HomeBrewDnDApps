@@ -1,0 +1,20 @@
+{
+  "item_id": "bg3-wiki:32401",
+  "title": "Ffion's Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430543,
+      "title": "Ffion's Key",
+      "markers": [
+        "| uid = S_WYR_Flophouse_FlowerKey_005"
+      ]
+    }
+  ],
+  "summary": "Unlocks Ffion’s chest on the second floor of Fraygo’s Flophouse.",
+  "fields": {
+    "Acquisition": "Find Ffion’s body under the bed in the attic’s secret room. A DC 10 Investigation check discovers the body.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

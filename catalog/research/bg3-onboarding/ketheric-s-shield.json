@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:12174",
+  "title": "Ketheric's Shield",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437960,
+      "title": "Ketheric's Shield",
+      "markers": [
+        "MAG_Ketheric_Shield"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432064,
+      "title": "Arcane Enchantment (+1)",
+      "markers": [
+        "Spell Attack"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438215,
+      "title": "Shield Bash",
+      "markers": [
+        "Shield Blow"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 406487,
+      "title": "Shield Blow",
+      "markers": [
+        "it actually is a Strength saving throw"
+      ]
+    }
+  ],
+  "summary": "Shield with +2 AC, Advantage on Dexterity saves and +1 to spell attack rolls and spell save DC.",
+  "fields": {
+    "Defence": "+2 AC and Advantage on Dexterity saving throws. Shield proficiency applies.",
+    "Arcane Enchantment": "+1 to spell attack rolls and spell save DC.",
+    "Shield Bash": "After an enemy hits you in melee, spend a Reaction to attempt Shield Blow. The attacker must succeed on a Strength save against your spell save DC or fall Prone for 1 turn. The in-game description lists Dexterity, but the documented action uses Strength.",
+    "Acquisition": "Loot Ketheric Thorm in the Mind Flayer Colony. On the Moonrise rooftop, you can disarm him, wait for him to equip a nearby two-handed weapon, then pickpocket the shield while he is invulnerable.",
+    "Base value": "300 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

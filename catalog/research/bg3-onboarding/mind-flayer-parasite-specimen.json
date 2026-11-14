@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:8406",
+  "title": "Mind Flayer Parasite Specimen",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Mind Flayer Parasite Specimen",
+      "revision": 433754,
+      "markers": [
+        "UNI_TadpolePowerJar"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Illithid powers",
+      "revision": 440254,
+      "markers": [
+        "Mind Flayer Parasite Specimens in the inventories"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Embrace Your Potential",
+      "revision": 439912,
+      "markers": [
+        "Dream"
+      ]
+    }
+  ],
+  "summary": "Spend a specimen to unlock one Illithid Power.",
+  "fields": {
+    "Use": "After the Dream Guardian starts Embrace Your Potential, consume a specimen to unlock the Illithid Powers tree. Recruiting Minthara also unlocks the tree. Specimens in inventory transfer to the shared pool. Later pickups add points directly.",
+    "Limitations": "Specimens sent directly to a hireling stay in inventory until transferred to a tadpoled party member. The outer powers require partial transformation with the Astral-Touched Tadpole.",
+    "Acquisition": "The pinned Illithid Powers source lists individual specimen locations by act.",
+    "Base value": "100 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

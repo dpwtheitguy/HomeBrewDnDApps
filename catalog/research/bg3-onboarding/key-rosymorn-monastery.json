@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:56045",
+  "title": "Key (Rosymorn Monastery)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Key (Rosymorn Monastery)",
+      "revision": 430454,
+      "markers": [
+        "| usage = * Opens the main gates of [[Rosymorn Monastery]] at {{coords|74|45}}"
+      ]
+    }
+  ],
+  "summary": "Opens Rosymorn Monastery’s main gates at X 74, Y 45.",
+  "fields": {
+    "Lock": "Opens Rosymorn Monastery’s main gates at X 74, Y 45.",
+    "Acquisition and access": "Carried by Raider Add’ath.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added the exact lock and acquisition from the pinned native item rules."
+}

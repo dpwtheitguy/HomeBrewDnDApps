@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:10929",
+  "title": "Keepsake Ring",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420045,
+      "title": "Keepsake Ring",
+      "markers": [
+        "MAG_Generic_04_Ring_1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 380661,
+      "title": "Dominate Beast",
+      "markers": [
+        "| concentration = yes"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442705,
+      "title": "Dominated (Dominate Beast)",
+      "markers": [
+        "Every time it takes damage"
+      ]
+    }
+  ],
+  "summary": "Cast level 5 Dominate Beast once per Long Rest.",
+  "fields": {
+    "Cast": "Action once per Long Rest. Cast level 5 Dominate Beast on one Beast within 60 ft. Wisdom save against your spell save DC. Concentration, up to 10 turns.",
+    "On failure": "The Beast fights on your side. Each time it takes damage, it can end the effect with a Wisdom save against your spell save DC.",
+    "Acquisition": "Elfsong Tavern basement in the rat room, X −859, Y 531.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

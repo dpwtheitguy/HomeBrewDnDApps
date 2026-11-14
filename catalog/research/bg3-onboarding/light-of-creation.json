@@ -1,0 +1,66 @@
+{
+  "item_id": "bg3-wiki:3794",
+  "title": "Light of Creation",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438059,
+      "title": "Light of Creation",
+      "markers": [
+        "WPN_Tower_AutomatonHalberd"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432936,
+      "title": "Overcharge",
+      "markers": [
+        "| condition dc = 10"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374223,
+      "title": "Rush Attack",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442222,
+      "title": "Bleeding",
+      "markers": [
+        "Disadvantage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373605,
+      "title": "Cleave",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    }
+  ],
+  "summary": "+1 halberd adds 1d6 Lightning. It can Stun a non-Construct wielder.",
+  "fields": {
+    "Damage": "1d10 + 1 Slashing plus Strength and 1d6 Lightning. +1 to attack rolls. Martial two-handed weapon, 8 ft reach and Dippable.",
+    "Overcharge": "DC 10 Constitution save or Stunned for 1 turn. The item describes successful attacks and the linked passive reports a check on every attack without a combat log entry. Constructs and a wielder wearing Helm of Balduran are immune.",
+    "Rush Attack": "Action, 30 ft. Charge and attack the first non-allied creature or object in the path for 1d4 + applicable ability modifier Piercing. A failed Strength save against weapon-action DC applies Off Balance for 2 turns. Once per Short Rest with proficiency.",
+    "Lacerate": "Action, melee weapon damage. Constitution save against weapon-action DC +2 or Bleeding for 2 turns. The condition deals 2 Slashing damage at the start of each turn, gives Disadvantage on Constitution saves and ends with healing. Once per Short Rest with proficiency. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Cleave": "Action, 7 ft cone. Attack up to 3 non-allied creatures or objects for half weapon damage. Flat bonuses such as Rage remain full. Once per Short Rest with proficiency.",
+    "Acquisition": "Carried by Bernard on the top floor of the Arcane Tower.",
+    "Base value": "130 gp in BG3. Merchant prices vary.",
+    "Bleeding": "Bleeding deals 2 Slashing at the start of the target’s turn, imposes disadvantage on Constitution saves, and ends on healing. Constructs, Elementals, Plants, Oozes and most Undead are immune. Ghasts and Ghouls are documented exceptions."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

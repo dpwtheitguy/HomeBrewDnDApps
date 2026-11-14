@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:13",
+  "title": "Adamantine Shield",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437951,
+      "title": "Adamantine Shield",
+      "markers": [
+        "WPN_HUM_Shield_Adamantine_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432040,
+      "title": "Adamantine Shield (passive feature)",
+      "markers": [
+        "| summary ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 438215,
+      "title": "Shield Bash",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Attackers cannot critically hit you. A missed melee attack against you sends the attacker Reeling for 2 turns. Shield Bash. When hit by a melee attack, use a Reaction to attempt to knock the attacker Prone. A Dexterity save resists.",
+  "fields": {
+    "Equipment type": "Shields",
+    "Training": "Shields",
+    "AC bonus": "+2",
+    "Effect": "Attackers cannot critically hit you. A missed melee attack against you sends the attacker Reeling for 2 turns. Shield Bash. When hit by a melee attack, use a Reaction to attempt to knock the attacker Prone. A Dexterity save resists.",
+    "Crafting": "Forge from a Shield Mould and Mithral Ore.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 mechanics and pinned item and related rule sources."
+}

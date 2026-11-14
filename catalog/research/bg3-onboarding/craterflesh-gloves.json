@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:11937",
+  "title": "Craterflesh Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417371,
+      "title": "Craterflesh Gloves",
+      "markers": [
+        "MAG_Critical_Force_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432197,
+      "title": "Craterous Wounds",
+      "markers": [
+        "| description = Whenever you score a [[Critical Hit]], deal an additional {{DamageText|1d6|Force|drs=t}} damage."
+      ]
+    }
+  ],
+  "summary": "Critical hits add Force damage. Gain +1 to Strength saves.",
+  "fields": {
+    "Saving throws": "+1 Strength saves.",
+    "Craterous Wounds": "Critical hits add 1d6 Force, doubled to 2d6 by the critical. The pinned source reports this rider works in Honour and can trigger additional times on qualifying thrown attacks.",
+    "Base value": "290 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence."
+}

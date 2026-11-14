@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:6211",
+  "title": "Scroll of Sleep",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Sleep",
+      "revision": 422915,
+      "markers": [
+        "LOOT_SCROLL_Sleep"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Sleep",
+      "revision": 433002,
+      "markers": [
+        "Target_Sleep"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Sleeping (condition)",
+      "revision": 436974,
+      "markers": [
+        "| effects = * A sleeping creature cannot move or act."
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Choose creatures up to 24 combined current HP.",
+  "fields": {
+    "Cast": "Level 1. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Choose creatures up to 24 combined current HP. They sleep for 2 turns with no save. Damage, Wet, Help, or Shove wakes them. Creatures immune to magical sleep are unaffected.",
+    "Range": "60 ft.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

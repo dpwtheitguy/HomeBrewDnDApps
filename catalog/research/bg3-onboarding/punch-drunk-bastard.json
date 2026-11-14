@@ -1,0 +1,83 @@
+{
+  "item_id": "bg3-wiki:9618",
+  "title": "Punch-Drunk Bastard",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Punch-Drunk Bastard",
+      "revision": 431421,
+      "markers": [
+        "MAG_TWN_Brewery_Greatclub"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Tippler's Rage",
+      "revision": 433356,
+      "markers": [
+        "including {{SmSAI|throw}}"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Concussive Smash",
+      "revision": 373613,
+      "markers": [
+        "| save dc = hybrid"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Backbreaker",
+      "revision": 373567,
+      "markers": [
+        "[[Large]]"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Cleave",
+      "revision": 373605,
+      "markers": [
+        "Up to 3"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Dazed",
+      "revision": 442592,
+      "markers": [
+        "bonus to their"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Dice rolls",
+      "revision": 441478,
+      "markers": [
+        "Hybrid save DC"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Tenacity",
+      "revision": 425432,
+      "markers": [
+        "| reaction1 cost = reaction"
+      ]
+    }
+  ],
+  "summary": "A +1 greatclub that gives advantage while drunk and blasts nearby targets on melee hits.",
+  "fields": {
+    "Weapon profile": "1d8 + 1 Bludgeoning plus Strength. +1 attack bonus. Simple two-handed, Dippable, 5 ft melee.",
+    "Tippler’s Rage": "While affected by Alcohol or either Drunk condition, gain advantage on all attack rolls including throws and spell attacks. A melee weapon hit deals 1d4 Thunder to creatures and objects within 10 ft of the target, excluding you. Separate damage instances can trigger multiple blasts.",
+    "Concussive Smash": "With proficiency, Action once per Short Rest. Deal weapon damage on hit. Constitution save against the higher of spell save DC and weapon-action DC +2 prevents Dazed for 2 turns.",
+    "Backbreaker": "Action once per Short Rest. Melee attack against a Large or smaller target, 1d4 + Strength modifier Bludgeoning. Strength save against weapon-action DC prevents Prone for 2 turns.",
+    "Cleave": "With proficiency, Action once per Short Rest. Hit up to three non-allied creatures or objects in a 7 ft cone for half weapon damage. Flat damage bonuses are not halved.",
+    "Acquisition": "Chest by a trapped cage door in the Waning Moon back room, X −259, Y −92.",
+    "Base value": "190 gp nominal BG3 value.",
+    "Dazed": "Disadvantage on Wisdom saves, loss of the Dexterity bonus to AC, and no reactions that consume the Reaction resource. Help ends it.",
+    "Tenacity": "While wielding it in your main hand, spend a Reaction on a missed melee attack to deal Bludgeoning damage equal to your Strength modifier, minimum 1. Tenacity does not apply the missed weapon action’s effects."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

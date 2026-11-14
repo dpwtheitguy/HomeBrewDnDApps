@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:47964",
+  "title": "Engraved Key (Cellar)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Engraved Key (Cellar)",
+      "revision": 441632,
+      "markers": [
+        "S_PLA_EscapingZhentarim_HiddenEntranceKey"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Zhentarim Basement",
+      "revision": 441398,
+      "markers": [
+        "The passage itself is concealed behind the wardrobe"
+      ]
+    }
+  ],
+  "summary": "Opens the hidden passage behind the wardrobe in the Zhentarim cellar.",
+  "fields": {
+    "Use": "Use on the wardrobe to reveal the Hidden Stairs.",
+    "Acquisition": "Found in a wooden crate in the Zhentarim Basement.",
+    "Base value": "1 gp in BG3."
+  },
+  "changes": "Added native BG3 gameplay, acquisition, and pinned source evidence."
+}

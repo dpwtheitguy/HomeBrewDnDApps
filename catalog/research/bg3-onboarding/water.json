@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:6033",
+  "title": "Water",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424779,
+      "title": "Water",
+      "markers": [
+        "CONS_DRINK_WATER_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 431953,
+      "title": "Water (surface)",
+      "markers": [
+        "electrified or frozen"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437422,
+      "title": "Wet (condition)",
+      "markers": [
+        "resistances negated"
+      ]
+    }
+  ],
+  "summary": "Throw a bottle to spread Water and apply Wet.",
+  "fields": {
+    "Throw": "Action, up to 60 ft, 7 ft radius. Creates persistent Water and makes creatures in the splash Wet for 3 turns.",
+    "Wet": "Wet gives Fire resistance and vulnerability to Lightning and Cold. Existing resistance to Lightning or Cold is cancelled instead. Wet breaks normal Invisibility and removes coatings. Apply Wet after Chilled to Freeze.",
+    "Water": "Water douses exposed flames. Lightning can electrify it and Cold can freeze it. Fire can make a Steam Cloud.",
+    "Base value": "5 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

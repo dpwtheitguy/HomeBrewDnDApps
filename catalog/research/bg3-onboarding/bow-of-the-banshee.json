@@ -1,0 +1,33 @@
+{
+  "item_id": "bg3-wiki:8514",
+  "title": "Bow of the Banshee",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437921,
+      "title": "Bow of the Banshee",
+      "markers": [
+        "MAG_BG_OfTheBanshee_Bow"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341917,
+      "title": "Shortbows",
+      "markers": [
+        "| damage = 1d6"
+      ]
+    }
+  ],
+  "summary": "On hit, DC 12 Wisdom or Frightened for 2 turns. Against Frightened creatures, add 1d4 to attack and damage rolls.",
+  "fields": {
+    "Weapon type": "Shortbows",
+    "Enchantment": "+1",
+    "Weapon actions": "Hamstring Shot",
+    "Damage": "1d6 + 1 Piercing",
+    "Range": "60 ft ranged.",
+    "Effect": "On hit, DC 12 Wisdom or Frightened for 2 turns. Against Frightened creatures, add 1d4 to attack and damage rolls.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Completed the item-specific action, timing, save, or effect against pinned evidence."
+}

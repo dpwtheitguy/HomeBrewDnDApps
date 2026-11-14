@@ -1,0 +1,56 @@
+{
+  "item_id": "bg3-wiki:8148",
+  "title": "Melf's First Staff",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420890,
+      "title": "Melf's First Staff",
+      "markers": [
+        "MAG_BasicEnchanted_Quarterstaff"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373507,
+      "title": "Melf's Acid Arrow",
+      "markers": [
+        "| damage 1 = 4d4"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 393042,
+      "title": "Acid (surface)",
+      "markers": [
+        "decreases Armour Class by 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 377988,
+      "title": "Topple",
+      "markers": [
+        "| save dc = weapon action + 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Arcane Enchantment (+1)",
+      "revision": 432064,
+      "markers": [
+        "Spell Attack"
+      ]
+    }
+  ],
+  "summary": "A +1 quarterstaff that boosts spell attacks and spell save DC and casts Melf’s Acid Arrow.",
+  "fields": {
+    "Weapon profile": "1d6 + 1 Bludgeoning one-handed or 1d8 + 1 two-handed, plus Strength modifier. Simple, versatile, dippable, 5 ft melee. +1 to attack and damage, already in the damage notation.",
+    "Arcane Enchantment": "+1 to spell attack rolls and spell save DC.",
+    "Melf’s Acid Arrow": "Action, 60 ft, once per Long Rest. Cast as a level 2 spell. On a ranged spell attack hit, deal 4d4 Acid immediately and 2d4 Acid at the end of the target’s next turn. On a miss, deal half the initial damage and no delayed damage. The spell creates a 7 ft radius Acid surface that reduces AC by 2 while standing on it.",
+    "Topple": "With proficiency, Action once per Short Rest. Make a melee weapon attack for 1d4 nonlethal Bludgeoning. On hit, a Dexterity save against weapon-action DC + 2 prevents Prone for 1 turn.",
+    "Acquisition": "Sold by Blurg in Ebonlake Grotto, X 111, Y −89.",
+    "Base value": "100 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

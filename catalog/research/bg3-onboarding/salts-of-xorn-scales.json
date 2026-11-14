@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:26803",
+  "title": "Salts of Xorn Scales",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422616,
+      "title": "Salts of Xorn Scales",
+      "markers": [
+        "ALCH_Extract_XornScales"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 422283,
+      "title": "Remedial Potion",
+      "markers": [
+        "| description ="
+      ]
+    }
+  ],
+  "summary": "Alchemy extract used to make Remedial Potion.",
+  "fields": {
+    "Extraction": "Combine 3 Xorn Scales.",
+    "Recipe": "Combine these salts with any Suspension to make Remedial Potion.",
+    "Result": "Removes Poisoned, Paralysed, Blinded and Silenced.",
+    "Base value": "20 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

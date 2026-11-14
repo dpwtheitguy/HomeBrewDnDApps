@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:10409",
+  "title": "Ring of Free Action",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422381,
+      "title": "Ring of Free Action",
+      "markers": [
+        "MAG_PHB_OfFreeAction_Ring"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433402,
+      "title": "Unwavering",
+      "markers": [
+        "Difficult Terrain: Deep Water"
+      ]
+    }
+  ],
+  "summary": "Prevents most difficult-terrain slowdown and protects against paralysis and restraint.",
+  "fields": {
+    "Unwavering": "Immune to Paralyzed and Restrained condition groups, Hamstrung, Maimed and Pinned Down. Ignores documented slowdowns from lava, mud, vines, webs and Plant Growth. Deep Water still slows you. It does not prevent slipping on Ice or Grease.",
+    "Acquisition": "Araj Oblodra on Moonrise Towers’ main floor. Araj also sells it at Crimson Draughts in Act Three if it was not acquired in Act Two.",
+    "Base value": "160 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

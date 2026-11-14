@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:12280",
+  "title": "Slinging Shoes",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423303,
+      "title": "Slinging Shoes",
+      "markers": [
+        "MAG_Projectile_Shoes"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433137,
+      "title": "Shoe Slinger",
+      "markers": [
+        "even on a miss"
+      ]
+    }
+  ],
+  "summary": "Throw these returning boots for Psychic damage and wear them for +1 Dexterity saves.",
+  "fields": {
+    "Shoe Slinger": "Throw as an Action. Base 1 Bludgeoning before modifiers, plus 2d4 Psychic that normally applies even on a miss, but does not apply to Enraged Throw. The boots return and replace current footwear.",
+    "Saving throws": "+1 Dexterity saves while equipped.",
+    "Acquisition": "Tara on the roof after her earlier visits and the required Long Rest. She takes fish or magical items in trade.",
+    "Base value": "35 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

@@ -1,0 +1,48 @@
+{
+  "item_id": "bg3-wiki:9476",
+  "title": "Armour of Landfall",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416068,
+      "title": "Armour of Landfall",
+      "markers": [
+        "MAG_Druid_Land_Magic_Leather_Armor"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432643,
+      "title": "High Spellcasting (+1)",
+      "markers": [
+        "| summary ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432613,
+      "title": "Green Bed Regeneration",
+      "markers": [
+        "| summary ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 421838,
+      "title": "Plant Growth",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "+1 spell save DC and advantage on Constitution saves. Starting a turn in Plant Growth or vines heals 1d4 HP. Cast Plant Growth once per Short Rest as an Action to quarter movement through its area.",
+  "fields": {
+    "Equipment type": "Light Armour",
+    "Training": "Light Armour",
+    "Base AC": "13",
+    "Effect": "+1 spell save DC and Advantage on Constitution saves. At the start of your turn, regain 1d4 HP while standing in Plant Growth or Twisting Vines, even if you ignore difficult terrain.",
+    "Base value": "1700 gp in BG3. Merchant prices vary.",
+    "Plant Growth": "Action once per Short Rest, range 60 ft. Creates a 20 ft-radius surface for 10 turns that quarters movement through it. No saving throw. Fire can burn away the surface."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

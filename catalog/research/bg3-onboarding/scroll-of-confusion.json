@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:16445",
+  "title": "Scroll of Confusion",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Confusion",
+      "revision": 422764,
+      "markers": [
+        "LOOT_SCROLL_Confusion"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Confusion",
+      "revision": 431662,
+      "markers": [
+        "Target_Confusion"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Non-allied creatures in a 20 ft radius make Wisdom saves.",
+  "fields": {
+    "Cast": "Level 4. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Non-allied creatures in a 20 ft radius save against Wisdom for up to 3 turns. A creature failing its repeat start-of-turn Wisdom save makes a hidden d20 roll. On 1–10 it does nothing. On 11–20 the game chooses an attack against a random friend or foe.",
+    "Range": "60 ft.",
+    "Concentration": "Maintain Concentration for the ongoing effect.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "180 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

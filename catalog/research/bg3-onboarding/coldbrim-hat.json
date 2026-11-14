@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:10682",
+  "title": "Coldbrim Hat",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 441171,
+      "title": "Coldbrim Hat",
+      "markers": [
+        "MAG_Frost_GenerateFrostOnStatusApply_Hat"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432183,
+      "title": "Coldbrim Chill",
+      "markers": [
+        "| description = Once per turn, any condition inflicted on a target, also applies 2 turns of {{Cond|Encrusted with Frost}}.{{see bugs}}"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442780,
+      "title": "Encrusted with Frost",
+      "markers": [
+        "* Affected entity has {{Disadvantage}} on [[Dexterity]] {{SavingThrow}}s."
+      ]
+    }
+  ],
+  "summary": "Once per turn, inflicting a condition also applies two turns of Encrusted with Frost.",
+  "fields": {
+    "Coldbrim Chill": "Once per turn, inflicting a condition also applies 2 turns of Encrusted with Frost. Pinned notes report some hidden effects qualify, including certain misses.",
+    "Encrusted with Frost": "Disadvantage on Dexterity saves. At 7 or more turns, DC 12 Constitution. The reported effect is Frozen for 2 turns on failure or 1d4 Cold on success. Frost then clears and Burning also removes it.",
+    "Base value": "90 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence."
+}

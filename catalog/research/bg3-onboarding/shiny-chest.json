@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:47235",
+  "title": "Shiny Chest",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 413230,
+      "title": "Shiny Chest",
+      "markers": [
+        "S_DEN_ShinySafe"
+      ]
+    }
+  ],
+  "summary": "Locked chest on a Sacred Pool pillar, with 15 HP.",
+  "fields": {
+    "Lock": "Open with the Shiny Key or DC 15 Sleight of Hand. X 221, Y 497.",
+    "Durability": "15 HP. Resists Piercing, Necrotic and Radiant. Vulnerable to Bludgeoning. Immune to Poison and Psychic.",
+    "Base value": "20 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

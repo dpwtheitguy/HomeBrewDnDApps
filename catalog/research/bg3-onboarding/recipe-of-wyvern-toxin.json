@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:30837",
+  "title": "Recipe of Wyvern Toxin",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422211,
+      "title": "Recipe of Wyvern Toxin",
+      "markers": [
+        "BOOK_GLO_Alchemy_WyvernToxin"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 425037,
+      "title": "Wyvern Toxin",
+      "markers": [
+        "[[Alchemy]]"
+      ]
+    }
+  ],
+  "summary": "Recipe for Wyvern Toxin.",
+  "fields": {
+    "Formula": "Ashes of Wyvern Stinger and any Sublimate.",
+    "Result": "The product’s alchemy recipe says Sublimate, while this book says Salt. Follow the product recipe.",
+    "Acquisition": "The item source does not list an acquisition location.",
+    "Base value": "14 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

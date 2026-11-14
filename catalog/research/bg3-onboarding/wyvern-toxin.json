@@ -1,0 +1,64 @@
+{
+  "item_id": "bg3-wiki:3778",
+  "title": "Wyvern Toxin",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Wyvern Toxin",
+      "revision": 425037,
+      "markers": [
+        "CONS_Poison_Wyvern"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Coated in Wyvern Toxin",
+      "revision": 442417,
+      "markers": [
+        "| condition dc = 15"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Wyvern Toxin (condition)",
+      "revision": 437534,
+      "markers": [
+        "at the end of its next turn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Wyvern Poison (surface)",
+      "revision": 407945,
+      "markers": [
+        "condition duration = 1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Ashes of Wyvern Stinger",
+      "revision": 416131,
+      "markers": [
+        "Sublimate"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Coatings",
+      "revision": 438130,
+      "markers": [
+        "{{LgRarityItem|Wyvern Toxin}}",
+        "| Both"
+      ]
+    }
+  ],
+  "summary": "Coat a weapon or create a poison surface that damages targets after their next turn.",
+  "fields": {
+    "Coat": "Single-use Bonus Action. Coat the active weapon for 10 turns. A hit forces a DC 15 Constitution save. Failure applies Wyvern Toxin, dealing 1d8 Poison at the end of the target’s next turn. Success prevents that condition and its damage despite the combat log claiming half damage. A simultaneous area weapon hit can affect only one target with the toxin.",
+    "Throw": "Action, 60 ft range. A burst forces a DC 15 Constitution save. It also leaves a permanent dippable poison surface in a 3 ft radius with a separate DC 15 Constitution save. The shared coating table identifies both the blast and the surface as applicable. Failure applies a 1-turn condition that deals 1d8 Poison at the end of the target’s turn.",
+    "Save note": "The source reports Advantage against becoming Poisoned fails to affect this toxin’s save.",
+    "Crafting": "Ashes of Wyvern Stinger plus any Sublimate.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

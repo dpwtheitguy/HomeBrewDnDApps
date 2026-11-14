@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:17808",
+  "title": "Suspension of Nothic Eye",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Suspension of Nothic Eye",
+      "revision": 423755,
+      "markers": [
+        "ALCH_Extract_NothicEye"
+      ]
+    },
+    {
+      "role": "Rules: Elixir of See Invisibility",
+      "title": "Elixir of See Invisibility",
+      "revision": 438289,
+      "markers": [
+        "Suspension of Nothic Eye"
+      ]
+    }
+  ],
+  "summary": "Alchemical extract used for Elixir of See Invisibility.",
+  "fields": {
+    "Extract": "Combine 3 Nothic Eyes to make one Suspension of Nothic Eye.",
+    "Brew": "Combine this extract with any Vitriol to make Elixir of See Invisibility.",
+    "Base value": "35 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

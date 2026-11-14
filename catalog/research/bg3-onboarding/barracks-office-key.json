@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:48037",
+  "title": "Barracks Office Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430560,
+      "title": "Barracks Office Key",
+      "markers": [
+        "S_KEY_LOW_BarracksMetalDoor"
+      ]
+    },
+    {
+      "role": "Linked lock or location",
+      "revision": 431639,
+      "title": "Basilisk Gate Barracks",
+      "markers": [
+        "opens the outer door to the prison armoury"
+      ]
+    }
+  ],
+  "summary": "Unlocks the outer door to the prison armoury at Basilisk Gate Barracks.",
+  "fields": {
+    "Use": "Unlocks the outer door to the prison armoury at Basilisk Gate Barracks.",
+    "Acquisition or alternate access": "Pickpocket Fist Corlos, or find a copy in the cabinet at X: −1286, Y: 782."
+  },
+  "changes": "Added the native key interaction and source locators."
+}

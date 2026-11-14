@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:3472",
+  "title": "Boots of Striding",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 444693,
+      "title": "Boots of Striding",
+      "markers": [
+        "MAG_Paladin_MomentumOnConcentration_Boots"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432573,
+      "title": "Focused Stride",
+      "markers": [
+        "| description = When you cast a spell that requires {{Concentration}}, you gain {{Cond|Momentum}} for 1 turn. While you are concentrating, you cannot be knocked {{Cond|Prone}} or moved against your will."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444042,
+      "title": "Momentum",
+      "markers": [
+        "| effects ="
+      ]
+    }
+  ],
+  "summary": "+1 Athletics. Casting a concentration spell grants 1 turn of Momentum. While concentrating you cannot be knocked Prone or moved against your will. Equipping these boots while already concentrating may fail to apply that protection. Momentum increases speed by 5 ft per turn remaining, up to 5 turns.",
+  "fields": {
+    "Effect": "+1 Athletics. Casting a concentration spell grants 1 turn of Momentum. While concentrating you cannot be knocked Prone or moved against your will. Equipping these boots while already concentrating may fail to apply that protection. Momentum increases speed by 5 ft per turn remaining, up to 5 turns.",
+    "Equipment type": "Boots",
+    "Training": "Medium Armour",
+    "Base value": "90 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

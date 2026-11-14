@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:11756",
+  "title": "Gloves of Baneful Striking",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418963,
+      "title": "Gloves of Baneful Striking",
+      "markers": [
+        "MAG_ElementalGish_BaneOnElementalWeaponDamage_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439122,
+      "title": "Baneful Strike",
+      "markers": [
+        "| description =  Whenever you deal damage with a weapon attack, the target receives a {{DieIcon|d4|Piercing}} -1d4 penalty to its {{SavingThrow}} against your next spell.{{see bugs}}"
+      ]
+    }
+  ],
+  "summary": "Damaging a creature with a weapon attack applies Baneful Strike for 2 turns.",
+  "fields": {
+    "Baneful Strike": "Tooltip says −1d4 to the saving throw against your next spell. The pinned source reports −1d4 to all of the target’s saves for the duration.",
+    "Base value": "90 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

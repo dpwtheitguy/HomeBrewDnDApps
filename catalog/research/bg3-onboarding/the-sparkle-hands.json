@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:1320",
+  "title": "The Sparkle Hands",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424109,
+      "title": "The Sparkle Hands",
+      "markers": [
+        "MAG_ChargedLightning_AbilityCheckBoost_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432187,
+      "title": "Conductive Strikes",
+      "markers": [
+        "includes {{SmSAI|Throw}}"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432470,
+      "title": "Effective Transmitter",
+      "markers": [
+        "Spell"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443918,
+      "title": "Lightning Charges",
+      "markers": [
+        "lose 1 charge per turn"
+      ]
+    }
+  ],
+  "summary": "Unarmed hits grant Lightning Charges, which improve attacks against metal targets.",
+  "fields": {
+    "Conductive Strikes": "Gain 2 Lightning Charges on an unarmed hit, including Throw attacks. Multiple damage instances can generate charges more than once.",
+    "Effective Transmitter": "While charged, attacks against metal Constructs and metal-armoured foes have advantage. Spell attack rolls qualify.",
+    "Lightning Charges": "While charged, +1 to attack rolls and +1 Lightning damage. At 5 charges, the next qualifying damage adds 1d8 Lightning and consumes the charges. Lose one per turn. Lightning-resistant targets do not take the flat +1 Lightning damage.",
+    "Acquisition": "Chest at the base of a giant stump in the Sunlit Wetlands.",
+    "Base value": "110 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

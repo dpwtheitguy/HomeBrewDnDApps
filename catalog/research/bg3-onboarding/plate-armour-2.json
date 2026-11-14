@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:9425",
+  "title": "Plate Armour +2",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Plate Armour +2",
+      "revision": 421843,
+      "markers": [
+        "ARM_Plate_2"
+      ]
+    },
+    {
+      "role": "Rules: Exceptional Plate",
+      "title": "Exceptional Plate",
+      "revision": 432522,
+      "markers": [
+        "2 less"
+      ]
+    }
+  ],
+  "summary": "Heavy armour with AC 20.",
+  "fields": {
+    "Defence": "AC 20, Heavy Armour proficiency, Disadvantage on Stealth checks. Exceptional Plate reduces Slashing, Piercing and Bludgeoning damage by 2.",
+    "Acquisition": "Levelled magic armour traders at character level 11 or higher.",
+    "Base value": "2400 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

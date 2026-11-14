@@ -1,0 +1,20 @@
+{
+  "item_id": "bg3-wiki:34774",
+  "title": "Cup of Water",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417438,
+      "title": "Cup of Water",
+      "markers": [
+        "CONS_GEN_Drink_Cup_Metal_A_Water"
+      ]
+    }
+  ],
+  "summary": "Drink once to restore 1d4 HP without spending a combat action.",
+  "fields": {
+    "Drink": "Restore 1d4 HP and consume the cup. The source reports it triggers healing effects without spending a combat action.",
+    "Base value": "2 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence."
+}

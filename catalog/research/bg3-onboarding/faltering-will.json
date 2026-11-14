@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:6902",
+  "title": "Faltering Will",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418387,
+      "title": "Faltering Will",
+      "markers": [
+        "| uid = CONS_Hag_Faltering_Will"
+      ]
+    },
+    {
+      "role": "Rules: Faltering Will (condition)",
+      "revision": 435374,
+      "title": "Faltering Will (condition)",
+      "markers": [
+        "| effects = * {{Disadvantage}} on Wisdom [[Checks]] until [[Long Rest]]."
+      ]
+    }
+  ],
+  "summary": "Drink as a Bonus Action to gain disadvantage on Wisdom checks until Long Rest.",
+  "fields": {
+    "Inspiration": "Drinking grants An Acquired Taste to Guild Artisan party members.",
+    "Base value": "1 gp in BG3. Merchant prices vary.",
+    "Drink": "Bonus Action. Gain disadvantage on Wisdom ability checks until Long Rest. The tooltip says saves, but the pinned condition reports ability checks."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

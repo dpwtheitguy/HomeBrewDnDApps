@@ -1,0 +1,57 @@
+{
+  "item_id": "bg3-wiki:11554",
+  "title": "Swires' Sledboard",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Swires' Sledboard",
+      "revision": 438438,
+      "markers": [
+        "MAG_Steadfast_Shield"
+      ]
+    },
+    {
+      "role": "Rules: Shield Conduit",
+      "title": "Shield Conduit",
+      "revision": 433131,
+      "markers": [
+        "| description = The shield shrouds the wearer with {{Cond|Force Conduit}} at the start of its turn in combat."
+      ]
+    },
+    {
+      "role": "Rules: Force Conduit",
+      "title": "Force Conduit",
+      "revision": 442903,
+      "markers": [
+        "requires a melee attack"
+      ]
+    },
+    {
+      "role": "Rules: Shield Bash",
+      "title": "Shield Bash",
+      "revision": 438215,
+      "markers": [
+        "| description = When a foe hits you with a melee attack, you can use your reaction to knock it {{Cond|Prone}} unless they succeed a {{Saving Throw|Dexterity}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Shield Blow",
+      "revision": 406487,
+      "markers": [
+        "| save = STR",
+        "| save dc = caster",
+        "| condition duration = 1"
+      ]
+    }
+  ],
+  "summary": "+2 AC shield grants Force Conduit and Shield Bash.",
+  "fields": {
+    "Shield Conduit": "Gain 2 turns of Force Conduit at the start of your turn in combat. Up to 7 turns. Each remaining turn reduces incoming Bludgeoning, Piercing and Slashing by 1.",
+    "Force burst": "With at least 5 turns remaining, a melee hit dealing damage after reductions spends all stacks for 1d4 Force within 20 ft. Redirected Warding Bond damage can be reduced but cannot trigger the burst.",
+    "Shield Bash": "When hit by a melee attack, spend a Reaction. The attacker makes a Strength save against your spell save DC or falls Prone for 1 turn. The tooltip instead names Dexterity.",
+    "Acquisition": "Exxvikyap in Rivington.",
+    "Base value": "360 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:4625",
+  "title": "Mace Mould",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420696,
+      "title": "Mace Mould",
+      "markers": [
+        "UNI_LOOT_AdamantineForge_MaceMold"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441122,
+      "title": "Adamantine Forge (quest)",
+      "markers": [
+        "Mould Chamber"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 415814,
+      "title": "Adamantine Mace",
+      "markers": [
+        "Adamantine Mace"
+      ]
+    }
+  ],
+  "summary": "Craft an Adamantine Mace with this mould and one Mithral Ore.",
+  "fields": {
+    "Use": "Put the mould in the Adamantine Forge’s Mould Chamber and ore in the Crucible. Release lava and operate the forge lever. Collect the mace and eject the mould to reuse it.",
+    "Acquisition": "Grymforge near the Ancient Forge waypoint, X −614, Y 283.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

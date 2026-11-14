@@ -1,0 +1,46 @@
+{
+  "item_id": "bg3-wiki:14178",
+  "title": "The Annals of Karsus",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423938,
+      "title": "The Annals of Karsus",
+      "markers": [
+        "S_LOW_KarsusNotes"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 425330,
+      "title": "Sorcerous Vault",
+      "markers": [
+        "Karsus"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441356,
+      "title": "The Wizard of Waterdeep",
+      "markers": [
+        "The Annals of Karsus"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 369293,
+      "title": "Dethrone",
+      "markers": [
+        "| damage = 10d6 + 20"
+      ]
+    }
+  ],
+  "summary": "Read to gain the unique Scroll of Dethrone and advance Gale’s quest.",
+  "fields": {
+    "Vault route": "Open Silverhand, Abjuration and Silver in that order. Pull the lever, return to the puzzle entrance and enter Karsus. Knock can also open the Karsus door.",
+    "Read": "Produces a Scroll of Dethrone and advances The Wizard of Waterdeep. Dethrone targets one creature at 100 ft for 10d6 + 20 Necrotic, Constitution save for half. A Wizard can transcribe it and cast the learned level 5 spell once per Long Rest. Free casting effects do not bypass this cooldown.",
+    "Acquisition": "Karsus section of the Sorcerous Vault, X 319, Y 1000.",
+    "Base value": "2000 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

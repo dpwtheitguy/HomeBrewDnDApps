@@ -1,0 +1,75 @@
+{
+  "item_id": "bg3-wiki:3365",
+  "title": "Mourning Frost",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438489,
+      "title": "Mourning Frost",
+      "markers": [
+        "| uid = MAG_Cold_IncreaseColdDamageOnCast_Staff"
+      ]
+    },
+    {
+      "role": "Rules: Heart of Ice",
+      "revision": 432626,
+      "title": "Heart of Ice",
+      "markers": [
+        "| summary = '''Heart of Ice''' is a passive feature that lets the wielder deal extra cold damage when dealing cold damage."
+      ]
+    },
+    {
+      "role": "Rules: Insidious Cold",
+      "revision": 444606,
+      "title": "Insidious Cold",
+      "markers": [
+        "| summary = '''Insidious Cold''' is a passive feature that chills your targets whenever you deal cold damage."
+      ]
+    },
+    {
+      "role": "Rules: Chilled",
+      "revision": 442377,
+      "title": "Chilled",
+      "markers": [
+        "{{condition page"
+      ]
+    },
+    {
+      "role": "Rules: Frozen",
+      "revision": 442931,
+      "title": "Frozen",
+      "markers": [
+        "{{condition page"
+      ]
+    },
+    {
+      "role": "Rules: Ray of Frost",
+      "revision": 422178,
+      "title": "Ray of Frost",
+      "markers": [
+        "| summary = It deals {{DamageType|Cold}} damage to the target and slows it down."
+      ]
+    },
+    {
+      "role": "Rules: Topple",
+      "revision": 377988,
+      "title": "Topple",
+      "markers": [
+        "| description = Swipe at a creature to knock it {{SmCond|Prone}}."
+      ]
+    }
+  ],
+  "summary": "A +1 quarterstaff that adds Cold damage, can Chill spell targets, and grants Ray of Frost.",
+  "fields": {
+    "Weapon profile": "1d6 + 1 or 1d8 + 1 Bludgeoning, plus Strength modifier. Simple, versatile, dippable, 5 ft melee. Hits also deal 1d4 Cold, effectively 1d4 + 1 with Heart of Ice.",
+    "Heart of Ice": "Add 1 Cold when dealing Cold damage. It does not interact with the inaccessible Frostbite condition described in the tooltip.",
+    "Insidious Cold": "Cold damage from a spell forces a DC 12 Constitution save against Chilled for 2 turns. At most one target per attack. An attack that is also a spell, such as Booming Blade, can qualify.",
+    "Chilled": "Vulnerable to Cold and resistant to Fire. Apply Wet after Chilled to freeze the target for 1 turn. Chilling a target already Wet does not freeze it. Frozen usually ends at the start of the target’s turn.",
+    "Ray of Frost": "Action, ranged spell attack at 60 ft. On hit deal 1d8 Cold, rising to 2d8 at character level 5 and 3d8 at level 10. Reduce movement by 10 ft for 1 turn. Can freeze water or blood surfaces.",
+    "Topple": "With proficiency, Action once per Short Rest. Nonlethal 1d4 Bludgeoning melee attack. Dexterity save against weapon-action DC +2 or Prone for 1 turn.",
+    "Crafting": "Combine Icy Crystal, Icy Helve and Icy Metal from the three Underdark drow mages.",
+    "Base value": "770 gp in BG3. Merchant prices vary.",
+    "Frozen": "The target is incapacitated, vulnerable to Bludgeoning, Thunder and Force, resistant to Fire, and immune to Burning and Encrusted with Frost. Bludgeoning, Thunder or Force damage shatters the ice and ends the condition."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

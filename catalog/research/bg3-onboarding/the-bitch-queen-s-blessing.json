@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:52664",
+  "title": "The Bitch Queen's Blessing",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423960,
+      "title": "The Bitch Queen's Blessing",
+      "markers": [
+        "CRA_ShellKid_Stone"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 424472,
+      "title": "Umberlee's Praise",
+      "markers": [
+        "| condition duration = 10"
+      ]
+    }
+  ],
+  "summary": "Unobtainable single-use gem can Charm creatures in a large area.",
+  "fields": {
+    "Umberlee’s Praise": "Level 2, Action. Affected creatures make Wisdom saves against Charmed for 10 turns. The linked spell gives no measured radius and reports that the duplicate imagery in its description has no effect.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "60 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

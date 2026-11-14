@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:10892",
+  "title": "Gauntlets of the Warmaster",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418820,
+      "title": "Gauntlets of the Warmaster",
+      "markers": [
+        "| uid = MAG_OfWarMaster_Gloves"
+      ]
+    },
+    {
+      "role": "Rules: Heightened Manoeuvre",
+      "revision": 432634,
+      "title": "Heightened Manoeuvre",
+      "markers": [
+        "| summary = '''Heightened Manoeuvre''' is a passive feature that gives enemies disadvantage against battle master manoeuvre saves."
+      ]
+    }
+  ],
+  "summary": "Gain +1 to attack rolls. Targets have disadvantage on saves against your actions that use the weapon action DC.",
+  "fields": {
+    "Proficiency": "Medium Armour.",
+    "Heightened Manoeuvre": "Includes Battle Master manoeuvres, most weapon actions, both forms of Stunning Strike, and Water Whip. Effects that use a different DC, such as Arcane Shots and Dazzling Ray, are outside this bonus.",
+    "Base value": "1600 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

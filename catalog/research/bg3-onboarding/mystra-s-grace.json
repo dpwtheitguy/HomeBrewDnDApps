@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:3523",
+  "title": "Mystra's Grace",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 440648,
+      "title": "Mystra's Grace",
+      "markers": [
+        "| uid = UNI_UND_Tower_BootsFeatherFall"
+      ]
+    },
+    {
+      "role": "Rules: Feather Fall",
+      "revision": 327967,
+      "title": "Feather Fall",
+      "markers": [
+        "| summary = It allows spellcasters to make themselves and their allies light as a feather, preventing damage when falling from extreme heights."
+      ]
+    }
+  ],
+  "summary": "Cast Feather Fall at will as a Bonus Action while wearing the boots.",
+  "fields": {
+    "Feather Fall": "You and allies within 30 ft are immune to falling damage for 10 turns. Also prevents being knocked Prone from a drop over about 26 ft. No Concentration.",
+    "Acquisition": "In the Chest of the Mundane on the Arcane Tower’s north balcony, on the level with the turrets.",
+    "Base value": "70 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:18138",
+  "title": "Music Box",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421200,
+      "title": "Music Box",
+      "markers": [
+        "| uid = LOOT_GEN_MusicBox_A"
+      ]
+    },
+    {
+      "role": "Rules: Perform 'The Power'",
+      "revision": 377284,
+      "title": "Perform 'The Power'",
+      "markers": [
+        "| summary = '''Perform 'The Power'''' is a free action that allows the user to play the song 'The Power' using their equipped [[Instrument]]."
+      ]
+    }
+  ],
+  "summary": "Use the Music Box to play The Power.",
+  "fields": {
+    "Use": "It can play from the character’s inventory after being picked up.",
+    "Base value": "30 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:8739",
+  "title": "Diadem of Arcane Synergy",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417691,
+      "title": "Diadem of Arcane Synergy",
+      "markers": [
+        "| uid = MAG_Gish_ArcaneSynergy_Circlet"
+      ]
+    },
+    {
+      "role": "Rules: Synergetic Moments",
+      "revision": 433329,
+      "title": "Synergetic Moments",
+      "markers": [
+        "| summary = '''Synergetic Moments''' is a passive feature that adds damage equal to your spellcasting ability after inflicting a condition."
+      ]
+    },
+    {
+      "role": "Rules: Arcane Synergy",
+      "revision": 442055,
+      "title": "Arcane Synergy",
+      "markers": [
+        "| effects = * Weapon attacks deal additional damage equal to affected entity's [[Spells#Spellcasting_Ability_and_Proficiency|Spell Casting Ability Modifier]]."
+      ]
+    }
+  ],
+  "summary": "Inflicting a condition can grant Arcane Synergy for 2 turns. While active, weapon attacks add your spellcasting ability modifier as damage.",
+  "fields": {
+    "Base value": "240 gp in BG3. Merchant prices vary.",
+    "Arcane Synergy": "Inflicting a condition can grant Arcane Synergy for 2 turns. Add your spellcasting ability modifier to damage on weapon attack rolls. A spell attack such as Flame Blade does not qualify.",
+    "Reported triggers": "Hidden technical conditions can also trigger it, including a ranged weapon attack miss, casting Sanctuary near enemies, and revealing an invisible enemy with See Invisibility."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Verified card mechanics against the cited item or linked rule."
+}

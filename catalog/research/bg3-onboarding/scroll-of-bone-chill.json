@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:6350",
+  "title": "Scroll of Bone Chill",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Bone Chill",
+      "revision": 422754,
+      "markers": [
+        "LOOT_SCROLL_ChillTouch"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Bone Chill",
+      "revision": 442980,
+      "markers": [
+        "Target_ChillTouch"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Make a ranged spell attack for 2d8 Necrotic.",
+  "fields": {
+    "Cast": "Cantrip. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Make a ranged spell attack for 2d8 Necrotic. The target cannot heal until your next turn. Undead also have disadvantage on attack rolls. The target also cannot use Help on Downed creatures.",
+    "Range": "60 ft.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

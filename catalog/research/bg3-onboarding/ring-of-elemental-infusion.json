@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:8764",
+  "title": "Ring of Elemental Infusion",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422375,
+      "title": "Ring of Elemental Infusion",
+      "markers": [
+        "MAG_ElementalGish_ElementalInfusion_Ring"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432497,
+      "title": "Elemental Infusion",
+      "markers": [
+        "Until the end of your next turn"
+      ]
+    }
+  ],
+  "summary": "Spell damage can infuse your next weapon hit with an extra 1d4 elemental damage.",
+  "fields": {
+    "Elemental Infusion": "Deal Acid, Cold, Fire, Lightning or Thunder damage using a spell or cantrip. Until the end of your next turn, your first successful weapon attack deals an extra 1d4 of that type. Only one infusion at a time. Priority from highest to lowest is Thunder, Lightning, Fire, Cold, Acid. The linked source reports multiple rider applications can occur on one attack.",
+    "Acquisition": "Gish Umr’a’ac in the south of the infirmary.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:31161",
+  "title": "Ornate Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430546,
+      "title": "Ornate Key",
+      "markers": [
+        "| uid = S_PLA_ZhentDungeon_BackDoor2ChestsKey"
+      ]
+    },
+    {
+      "role": "Rules: Zhentarim Basement",
+      "revision": 441398,
+      "title": "Zhentarim Basement",
+      "markers": [
+        "{{Location page"
+      ]
+    }
+  ],
+  "summary": "Unlocks both wooden chests behind the locked iron gate in Zhentarim Basement.",
+  "fields": {
+    "Acquisition": "Carried by Vol. The key opens the chests.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

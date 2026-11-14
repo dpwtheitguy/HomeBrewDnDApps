@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:4126",
+  "title": "Icy Metal",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438481,
+      "title": "Icy Metal",
+      "markers": [
+        "| uuid = db32d957-c708-4694-a863-271e6a9a4676"
+      ]
+    },
+    {
+      "role": "Rules: Mourning Frost",
+      "revision": 438489,
+      "title": "Mourning Frost",
+      "markers": [
+        "| description = {{very rare|Mourning Frost}} is a very rare +1 [[Quarterstaves|Quarterstaff]] that enhances the wielder's {{damage type|Cold}} damaging spells with extra damage and the {{SmCond|Chilled}} condition."
+      ]
+    }
+  ],
+  "summary": "Combine Icy Metal with the other two pieces to craft Mourning Frost.",
+  "fields": {
+    "Combination": "Mourning Frost requires Icy Crystal, Icy Helve and Icy Metal. The result is a +1 quarterstaff with a 1d4 Cold weapon damage rider.",
+    "Acquisition": "Found on Xargrim’s corpse behind the Myconid Colony’s vine wall. Complete Defeat the Duergar Intruders or open it with Knock.",
+    "Base value": "60 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

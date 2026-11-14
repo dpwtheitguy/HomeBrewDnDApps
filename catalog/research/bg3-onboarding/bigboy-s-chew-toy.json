@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:9185",
+  "title": "Bigboy's Chew Toy",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416449,
+      "title": "Bigboy's Chew Toy",
+      "markers": [
+        "| uid = MAG_Combat_Quarterstaff"
+      ]
+    },
+    {
+      "role": "Rules: Whossa Large Fellow?",
+      "revision": 297447,
+      "title": "Whossa Large Fellow?",
+      "markers": [
+        "| summary = It is granted by {{SmRarityItem|Bigboy's Chew Toy}}, and allows the wielder to enlarge themselves in a manner similar to {{SAI|Enlarge}}."
+      ]
+    }
+  ],
+  "summary": "A +1 quarterstaff that lets you enlarge yourself.",
+  "fields": {
+    "Whossa Large Fellow?": "Action once per Long Rest. Enlarge yourself for 10 turns, gaining advantage on Strength checks and saves and +1d4 weapon damage.",
+    "Base value": "310 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

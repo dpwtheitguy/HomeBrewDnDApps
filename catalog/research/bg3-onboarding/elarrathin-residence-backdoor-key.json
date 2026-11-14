@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:48038",
+  "title": "Elarrathin Residence Backdoor Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Elarrathin Residence Backdoor Key",
+      "revision": 430701,
+      "markers": [
+        "LOW_JaheirasHouse_Backdoor_Key"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Elerrathin's Home",
+      "revision": 434045,
+      "markers": [
+        "Elarrathin Residence Backdoor Key|key"
+      ]
+    }
+  ],
+  "summary": "Opens the back door at Jaheira’s Elarrathin Residence.",
+  "fields": {
+    "Use": "Unlock the back door at X: −230, Y: −53. The door can also be picked with DC 15 Sleight of Hand.",
+    "Acquisition": "In the cupboard inside the house near the back door.",
+    "Base value": "1 gp in BG3."
+  },
+  "changes": "Added native BG3 gameplay, acquisition, and pinned source evidence."
+}

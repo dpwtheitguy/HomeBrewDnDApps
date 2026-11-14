@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:16397",
+  "title": "Scroll of Expeditious Retreat",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Expeditious Retreat",
+      "revision": 422782,
+      "markers": [
+        "LOOT_SCROLL_ExpeditiousRetreat"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Expeditious Retreat",
+      "revision": 407220,
+      "markers": [
+        "Shout_ExpeditiousRetreat"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Gain Dash on casting, then use a Bonus Action to Dash on later turns while concentrating until Long Rest.",
+  "fields": {
+    "Cast": "Level 1. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Gain Dash on casting, then use a Bonus Action to Dash on later turns while concentrating until Long Rest.",
+    "Range": "Self.",
+    "Concentration": "Maintain Concentration for the ongoing effect.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

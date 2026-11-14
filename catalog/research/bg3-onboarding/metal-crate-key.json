@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:50383",
+  "title": "Metal Crate Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430432,
+      "title": "Metal Crate Key",
+      "markers": [
+        "UNI_KEY_LOW_SteelwatchFoundry_MetalCrate"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 440238,
+      "title": "Steel Watch Foundry",
+      "markers": [
+        "opened with the {{SmRarityItem|Metal Crate Key|key}}"
+      ]
+    }
+  ],
+  "summary": "Unlocks Indora Ralston’s metal crate in the Steel Watch Foundry.",
+  "fields": {
+    "Lock": "Metal crate at X −1972, Y 445. It contains a Potion of Supreme Healing and an Elixir of Radiant Resistance. Without the key, the lock requires DC 18 Sleight of Hand.",
+    "Acquisition": "Carried by Black Gauntlet Indora Ralston.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

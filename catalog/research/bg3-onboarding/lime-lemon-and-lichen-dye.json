@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:8285",
+  "title": "Lime, Lemon, and Lichen Dye",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420496,
+      "title": "Lime, Lemon, and Lichen Dye",
+      "markers": [
+        "LOOT_Dye_IceCream_04"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 405683,
+      "title": "Dyes",
+      "markers": [
+        "Combine Items"
+      ]
+    }
+  ],
+  "summary": "Single-use dye that gives compatible equipment a lime, lemon and lichen palette.",
+  "fields": {
+    "Use": "Combine it with a compatible equipment item in inventory to recolour the item. The equipment keeps its stats.",
+    "Acquisition": "Possible stock at traders from party level 5, including Barcus Wroot and Araj Oblodra.",
+    "Base value": "6 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

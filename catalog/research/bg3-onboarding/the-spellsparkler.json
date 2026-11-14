@@ -1,0 +1,48 @@
+{
+  "item_id": "bg3-wiki:3448",
+  "title": "The Spellsparkler",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424114,
+      "title": "The Spellsparkler",
+      "markers": [
+        "MAG_ChargedLightning_Quarterstaff"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432478,
+      "title": "Electric Veins",
+      "markers": [
+        "will not generate multiple"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443918,
+      "title": "Lightning Charges",
+      "markers": [
+        "lose 1 charge per turn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 377988,
+      "title": "Topple",
+      "markers": [
+        "main hand weapon functors"
+      ]
+    }
+  ],
+  "summary": "Quarterstaff that generates Lightning Charges from spell damage.",
+  "fields": {
+    "Weapon profile": "1d6 Bludgeoning one-handed or 1d8 two-handed, plus Strength. Simple, versatile, dippable, 5 ft melee.",
+    "Electric Veins": "Gain 2 Lightning Charges on spell or cantrip damage. Each independent ray or missile can qualify; a simultaneous area hit does not generate separately for every target.",
+    "Lightning Charges": "While charged, +1 to attack rolls and +1 Lightning damage. At 5 charges, the next qualifying damage adds 1d8 Lightning and consumes the charges. Lose one per turn. Lightning-resistant targets do not take the flat +1 Lightning damage.",
+    "Topple": "Action with proficiency once per Short Rest. Melee attack for 1d4 nonlethal Bludgeoning. Dexterity save vs weapon-action DC +2 avoids one-turn Prone. No main-hand weapon effects.",
+    "Acquisition": "One of Florrick’s three rewards for rescuing her.",
+    "Base value": "310 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

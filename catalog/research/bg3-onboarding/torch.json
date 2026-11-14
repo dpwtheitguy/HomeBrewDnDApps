@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:9284",
+  "title": "Torch",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Torch",
+      "revision": 424296,
+      "markers": [
+        "WPN_HUM_Torch_A"
+      ]
+    }
+  ],
+  "summary": "Light source that adds 1d4 Fire while lit.",
+  "fields": {
+    "Weapon profile": "Simple Light one-handed club. 5 ft melee. Hit for 1d4 Bludgeoning plus Strength. No listed proficient weapon action.",
+    "Light": "Equipping automatically lights it. While lit, hits add 1d4 Fire and contact can ignite flammable surfaces or clouds.",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

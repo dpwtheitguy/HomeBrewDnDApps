@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:3521",
+  "title": "Fleetfingers",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418599,
+      "title": "Fleetfingers",
+      "markers": [
+        "MAG_Mobility_JumpOnDash_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433061,
+      "title": "Running Jump",
+      "markers": [
+        "| description = Once per turn, after the wearer {{SAI|Dash|Dashes}} or takes a similar action, they can {{SAI|Jump (Running)|Jump}} without using a {{r|bonus}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 419989,
+      "title": "Jump (Running)",
+      "markers": [
+        "| description = Jump up, down, and across. Your [[Strength]] affects how far you can jump."
+      ]
+    }
+  ],
+  "summary": "After Dashing or a similar action, you can Jump once that turn without spending a Bonus Action or movement.",
+  "fields": {
+    "Effect": "After Dashing or a similar action, you can Jump once that turn without spending a Bonus Action or movement.",
+    "Base value": "90 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

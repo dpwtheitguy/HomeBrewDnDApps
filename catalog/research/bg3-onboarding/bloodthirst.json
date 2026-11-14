@@ -1,0 +1,61 @@
+{
+  "item_id": "bg3-wiki:9688",
+  "title": "Bloodthirst",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437751,
+      "title": "Bloodthirst",
+      "markers": [
+        "| uid = MAG_WYR_Orin_Bhaalist_Dagger",
+        "| damage = 1d4 + 2",
+        "| damage type = Piercing"
+      ]
+    },
+    {
+      "role": "Rules: Improved Critical",
+      "revision": 432677,
+      "title": "Improved Critical",
+      "markers": [
+        "| summary = '''Improved Critical''' is a passive feature that increases the wielder's critical hit chance."
+      ]
+    },
+    {
+      "role": "Rules: Exploit Weakness",
+      "revision": 442144,
+      "title": "Exploit Weakness",
+      "markers": [
+        "| summary = '''Exploit Weakness''' is a passive feature that makes targets vulnerable to being pierced."
+      ]
+    },
+    {
+      "role": "Rules: True Strike Riposte",
+      "revision": 429159,
+      "title": "True Strike Riposte",
+      "markers": [
+        "| summary = '''True Strike Riposte''' is a passive feature that lets the wielder retaliate against a missed attack."
+      ]
+    },
+    {
+      "role": "Rules: True Strike",
+      "revision": 425926,
+      "title": "True Strike",
+      "markers": [
+        "| summary = It gives the caster Advantage on their next Attack Roll against the target.",
+        "| concentration = yes",
+        "| condition duration = 2"
+      ]
+    }
+  ],
+  "summary": "A +2 dagger with a stacking critical threshold reduction and different main- and off-hand benefits.",
+  "fields": {
+    "Improved Critical": "Reduce the roll needed for a critical hit by 1. Stacks with similar effects.",
+    "Main hand": "Melee hits with Bloodthirst apply Piercing vulnerability for 1 turn. Throwing it does not trigger this effect.",
+    "Off hand": "+1 AC. When a melee attack misses you, spend your Reaction to attack with your main-hand weapon and gain True Strike for 2 turns.",
+    "True Strike": "Bonus Action once per Short Rest. Requires concentration for up to 2 turns, including the turn you cast it. Gain advantage on your next attack roll against the selected target. The effect ends after that roll, hit or miss.",
+    "Base value": "640 gp in BG3. Merchant prices vary.",
+    "Bound weapon": "Returns when thrown and cannot be disarmed.",
+    "Damage": "1d4 + 2 Piercing."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Recorded the native damage and the cast spell’s concentration and timing."
+}

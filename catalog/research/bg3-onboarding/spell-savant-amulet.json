@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:10980",
+  "title": "Spell Savant Amulet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423437,
+      "title": "Spell Savant Amulet",
+      "markers": [
+        "MAG_LC_TheAmplifier_Amulet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433179,
+      "title": "Spell Amplification",
+      "markers": [
+        "spell2"
+      ]
+    }
+  ],
+  "summary": "Grants one extra level 2 spell slot.",
+  "fields": {
+    "Spell Amplification": "Gain one level 2 spell slot while equipped. The source reports the slot is granted per character per Long Rest, and upcasting a level 1 spell does not deplete it normally.",
+    "Acquisition": "Counting House High Security Vault 1.",
+    "Base value": "125 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

@@ -1,0 +1,45 @@
+{
+  "item_id": "bg3-wiki:11799",
+  "title": "Arrow of Arcane Interference",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416084,
+      "title": "Arrow of Arcane Interference",
+      "markers": [
+        "ARR_Arrow_Of_Antimagic",
+        "price = 50",
+        "* Deals {{InfoBlob|Weapon Damage}}"
+      ]
+    },
+    {
+      "role": "Shared arrow rules",
+      "revision": 439126,
+      "title": "Arrows",
+      "markers": [
+        "cannot be crafted",
+        "off-hand ranged attacks",
+        "no saving throws"
+      ]
+    },
+    {
+      "role": "Applied area or condition",
+      "revision": 436942,
+      "title": "Silenced (condition)",
+      "markers": [
+        "verbal component"
+      ]
+    }
+  ],
+  "summary": "Deals weapon damage, breaks the target’s Concentration and applies Silenced. Silenced prevents verbal spellcasting and gives Thunder immunity. The silence ticks down at the start of the target’s turn.",
+  "fields": {
+    "Activation": "Action. Fire from a ranged weapon and consume one arrow. Range 60 ft.",
+    "Effect": "Deals weapon damage, breaks the target’s Concentration and applies Silenced. Silenced prevents verbal spellcasting and gives Thunder immunity. The silence ticks down at the start of the target’s turn.",
+    "Restrictions": "Special arrows cannot be used with off-hand ranged attacks.",
+    "Crafting": "Special arrows are obtained from loot or vendors.",
+    "Creative use": "Interrupt a spell the enemy is already concentrating on.",
+    "Base value": "50 gp in BG3. Merchant prices vary.",
+    "Silenced": "The target cannot speak or cast verbal spells. The timer ticks at the start of its turn, so the arrow’s silence can prevent reaction spells before that turn."
+  },
+  "changes": "Added reviewed native BG3 activation, effects and linked rules."
+}

@@ -231,10 +231,14 @@ function inspect(id, trigger, shopOffer) {
     const properties = (item.tags || []).filter(tag => tag.indexOf("property:") === 0).map(tag => pretty(tag.slice(9)));
     const ac = Number(fields.armor_class) > 0 ? "Armor class " + fields.armor_class : "";
     const propertiesText = [damage, ac, properties.join(", ")].filter(Boolean).join(" · ");
+    if (item.requires_attunement === true || typeof item.requires_attunement === "string") {
+        const requirement = fields.attunement_detail || (typeof item.requires_attunement === "string" ? item.requires_attunement : "Required");
+        statList(inspection, [["Attunement", requirement]]);
+    }
     if (propertiesText) inspection.appendChild(element("p", propertiesText, "rule"));
     const status = [pretty(item.content_status), pretty(item.tabletop_status)].filter(Boolean).join(" · ");
     const statusLine = element("p", status, "meta");
-    if (status) inspection.appendChild(statusLine);
+    if (status && item.source_id !== "open5e-srd-2024" && item.content_status !== "reviewed-bg3-rules") inspection.appendChild(statusLine);
     if (shopOffer) {
         inspection.appendChild(element("p", "Shop price · " + coins(shopOffer.price) + " · " + shopOffer.name, "rule"));
     }
@@ -245,7 +249,44 @@ function inspect(id, trigger, shopOffer) {
         ["Base sell", price.base_sell_gp + " gp"]
     ] : [];
     if (price && price.decoration) priceRows.push(["Cosmetic premium", "+" + price.decoration.premium_gp + " gp included"]);
-    if (price) {
+    const bg3Weapon = item.ruleset === "bg3" && item.type === "weapon";
+    const description = feetText((mechanics.variant_rules || {}).summary || item.description || (mechanics.reference_metadata || {}).source_note || "");
+    if (description) appendItemDescription(inspection, description);
+    const rules = element("section");
+    inspection.appendChild(rules);
+    if (bg3Weapon) {
+        addBg3Weapon(rules, item, null);
+        bg3WeaponRules.then(supplement => {
+            if (rules.isConnected && supplement) addBg3Weapon(rules, item, supplement);
+        });
+    } else {
+        addTabletopWeapon(rules, item);
+    }
+    const extra = element("section");
+    inspection.appendChild(extra);
+    itemDetails.then(supplements => {
+        if (!extra.isConnected) return;
+        const present = addItemDetails(extra, item, supplements, trigger);
+        if (extra.querySelector(".verified-bg3-summary")) statusLine.remove();
+        if (!present && !bg3Weapon && !description && !rules.children.length) {
+            extra.appendChild(element("p", "Source index entry · Rules have not been verified for this edition.", "meta"));
+        }
+    });
+    const ammunitionEnhancement = item.source_id === "open5e-srd-2024" && /^Ammunition \(\+[123]\)$/.test(item.name);
+    const variantPrices = {
+        "open5e-srd-2024:srd-2024_ioun-stone": [["Value", "Varies by stone. See each variant’s rarity."]],
+        "open5e-srd-2024:srd-2024_spell-scroll": [["Cantrip", "30 gp"], ["Level 1", "50 gp"]],
+        "open5e-srd-2024:srd-2024_potions-of-healing": [["Common", "50 gp (equipment list)"],
+            ["Greater", "200 gp estimate"], ["Superior", "2,000 gp estimate"],
+            ["Supreme", "20,000 gp estimate"]]
+    }[item.id];
+    if (variantPrices) {
+        inspection.appendChild(element("h3", "Value by variant"));
+        statList(inspection, variantPrices);
+    } else if (price && ammunitionEnhancement) {
+        inspection.appendChild(element("h3", "Value"));
+        statList(inspection, [["Value basis", "Ten pieces are worth one potion of the same rarity."]]);
+    } else if (price) {
         inspection.appendChild(element("h3", "Value"));
         statList(inspection, priceRows);
         const pricing = element("details", "", "weapon-feature");
@@ -268,29 +309,6 @@ function inspect(id, trigger, shopOffer) {
         if (price.appraisal_only) pricing.appendChild(element("p", "Indicative appraisal. Availability and resale depend on the campaign.", "meta"));
         inspection.appendChild(pricing);
     }
-    const bg3Weapon = item.ruleset === "bg3" && item.type === "weapon";
-    const description = feetText(item.description || (mechanics.reference_metadata || {}).source_note || "");
-    if (description) inspection.appendChild(element("p", description, "detail-description"));
-    const rules = element("section");
-    inspection.appendChild(rules);
-    if (bg3Weapon) {
-        addBg3Weapon(rules, item, null);
-        bg3WeaponRules.then(supplement => {
-            if (rules.isConnected && supplement) addBg3Weapon(rules, item, supplement);
-        });
-    } else {
-        addTabletopWeapon(rules, item);
-    }
-    const extra = element("section");
-    inspection.appendChild(extra);
-    itemDetails.then(supplements => {
-        if (!extra.isConnected) return;
-        const present = addItemDetails(extra, item, supplements);
-        if (extra.querySelector(".verified-bg3-summary")) statusLine.remove();
-        if (!present && !bg3Weapon && !description && !rules.children.length) {
-            extra.appendChild(element("p", "Source index entry · Rules have not been verified for this edition.", "meta"));
-        }
-    });
     inspection.appendChild(element("h3", "Source"));
     const source = sources[item.source_id] || item.source_id;
     const sourceRow = element("p", "", "meta");
@@ -302,18 +320,48 @@ function inspect(id, trigger, shopOffer) {
         rulesLink.appendChild(sourceLink("https://www.dndbeyond.com/sources/dnd/br-2024/equipment", "2024 equipment rules"));
         inspection.appendChild(rulesLink);
     }
-    const labels = (item.associations || []).filter(a => entities[a.entity_id]).map(a => entities[a.entity_id] + " (" + pretty(a.role) + ")");
+    const labels = (item.associations || []).filter(a => entities[a.entity_id] &&
+        (item.source_id !== "open5e-srd-2024" || !["appearance", "found-in"].includes(a.role))).map(a => entities[a.entity_id] + " (" + pretty(a.role) + ")");
     if (labels.length) inspection.appendChild(element("p", Array.from(new Set(labels)).join(" · "), "meta"));
     const details = element("details");
     details.appendChild(element("summary", "Source references and changes"));
     const research = item.research_metadata || {};
-    (research.source_refs || []).slice(0, 30).forEach(ref => {
+    const evidence = research.srd_text;
+    if (evidence) {
+        const publisherDirect = evidence.official_comparison === "publisher-direct";
+        const preserved = element("details");
+        preserved.appendChild(element("summary", evidence.official_page
+            ? "SRD wording · verified page " + evidence.official_page : "Preserved Open5e transcription"));
+        const exactText = evidence.source_text || item.description;
+        const exact = element("p", exactText, "detail-description");
+        preserved.appendChild(exact);
+        const copySource = element("button", publisherDirect ? "Copy publisher text" : "Copy exact transcription");
+        copySource.addEventListener("click", () => Armory.copyEntry(item.name, exactText));
+        preserved.appendChild(copySource);
+        statList(preserved, [
+            ["Transcription MD5", evidence.transcription_md5],
+            ["Card description MD5", evidence.description_md5]
+        ]);
+        if (evidence.official_url && !publisherDirect) {
+            preserved.querySelector("summary").textContent = "Preserved Open5e transcription · corrected card text";
+            const printed = element("p", item.description, "detail-description");
+            preserved.appendChild(printed);
+        }
+        if (evidence.official_url) {
+            preserved.appendChild(sourceLink(evidence.official_url, "Official SRD · page " + evidence.official_page));
+        }
+        details.appendChild(preserved);
+    }
+    const sourceRefs = item.source_id === "open5e-srd-2024"
+        ? [{url: "https://www.dndbeyond.com/srd", label: "Wizards of the Coast SRD"}]
+        : research.source_refs || [];
+    sourceRefs.slice(0, 30).forEach(ref => {
         if (!ref.url) return;
         const citation = element("p", "", "meta");
         citation.appendChild(sourceLink(ref.url, ref.label || ref.url));
         details.appendChild(citation);
     });
-    const changes = research.change_log || research.changes || [];
+    const changes = item.source_id === "open5e-srd-2024" ? [] : research.change_log || research.changes || [];
     if (Array.isArray(changes)) changes.forEach(change => {
         const value = typeof change === "string" ? change : change.description || change.note || change.summary;
         if (value) details.appendChild(element("p", value, "meta"));
@@ -409,14 +457,20 @@ function start() {
     }
     metadata.sources.forEach(row => sources[row.id] = row.name);
     metadata.taxonomy.entities.forEach(row => entities[row.id] = row.label);
-    setupShop();
-    setupMerchants();
+    const srdOnly = metadata.sources.length === 1 && metadata.sources[0].id === "open5e-srd-2024";
+    if (srdOnly) {
+        byId("open-merchants").hidden = true;
+        byId("visit-blinsky").hidden = true;
+    } else {
+        setupShop();
+        setupMerchants();
+    }
     facet("scope", "Search in", [["name","Item name"],["exact","Exact item name"]]);
     facets.scope.options[0].text = "All indexed text";
     facet("proficiency", "Class proficiency or training", [["rogue-2024","Rogue · 2024"],["fighter-2024","Fighter · 2024"]]);
     facet("enchantment", "Magic status", [["magic","Magic"],["mundane","Mundane"]]);
     facet("damage", "Damage type", ["acid","bludgeoning","cold","fire","force","lightning","necrotic","piercing","poison","psychic","radiant","slashing","thunder"].map(id => [id, pretty(id)]));
-    facet("ruleset", "Rules edition", editions.map(id => [id, editionNames[id] || pretty(id)]));
+    facet("ruleset", "Rules edition", editions.filter(id => metadata.sources.some(source => source.ruleset === id)).map(id => [id, editionNames[id] || pretty(id)]));
     facet("rarity", "Rarity", ["common","uncommon","rare","very-rare","legendary","artifact","varies"].map(id => [id, pretty(id)]));
     facet("property", "Weapon property", [
         ["ammunition", "Ammunition"], ["cant-dual-wield", "Can’t dual wield"], ["dippable", "Dippable"],

@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:5760",
+  "title": "Scroll of Mage Armour",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Mage Armour",
+      "revision": 422821,
+      "markers": [
+        "LOOT_SCROLL_MageArmor"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Mage Armour",
+      "revision": 396179,
+      "markers": [
+        "Target_MageArmor"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Touch an unarmoured creature to set base AC to 13 + Dexterity until Long Rest.",
+  "fields": {
+    "Cast": "Level 1. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Touch an unarmoured creature to set base AC to 13 + Dexterity until Long Rest. Does not stack with other base AC formulas. Wearing armour ends it. A shield is compatible.",
+    "Range": "5 ft.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

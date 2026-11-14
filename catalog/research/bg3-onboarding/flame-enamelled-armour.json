@@ -1,0 +1,49 @@
+{
+  "item_id": "bg3-wiki:11401",
+  "title": "Flame Enamelled Armour",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418570,
+      "title": "Flame Enamelled Armour",
+      "markers": [
+        "MAG_FlamingFist_Flame_Armor"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433095,
+      "title": "Seldom Caught Unawares (+2)",
+      "markers": [
+        "| description = You gain a +2 bonus to {{Initiative|Initiative rolls}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 325578,
+      "title": "Fire Shield: Warm",
+      "markers": [
+        "| description = Scorching flames shed light in a {{dist|m=3}} radius. You take only [[Resistance|half the damage]] of all {{DamageType|Cold}} damage, and deal {{DamageText|2d8|Fire}} damage to anyone who hits you with a melee attack."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 380465,
+      "title": "Fire Shield",
+      "markers": [
+        "| description = Wreathe your body in flames that shed light in a {{dist|m=3}} radius, provide [[Resistance]] to {{DamageType|Fire}} or {{DamageType|Cold}} damage, and retaliate against melee attacks."
+      ]
+    }
+  ],
+  "summary": "Medium Armour with base AC 16 plus up to +2 from Dexterity, +2 Initiative, Fire resistance, +2 saving throws, and Fire Shield: Warm.",
+  "fields": {
+    "Armour class": "16 + Dexterity modifier (maximum +2 from Dexterity).",
+    "Training": "Medium Armour",
+    "Stealth": "Disadvantage on Stealth checks.",
+    "Fire Shield: Warm": "Action on yourself once per Long Rest. For 10 turns gain Cold resistance and retaliate against melee hits for 2d8 Fire, or 4d8 if the attacker scores a critical hit. The shared source reports no gameplay light effect.",
+    "Base value": "2900 gp in BG3. Merchant prices vary.",
+    "Initiative": "+2 to initiative.",
+    "Endurance by Fire": "Fire resistance and +2 to all saving throws."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:13723",
+  "title": "Pegasus Feather",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Pegasus Feather",
+      "revision": 421738,
+      "markers": [
+        "ALCH_Ingredient_Loot_PegasusFeather"
+      ]
+    },
+    {
+      "role": "Rules: Sublimate of Pegasus Feathers",
+      "title": "Sublimate of Pegasus Feathers",
+      "revision": 423683,
+      "markers": [
+        "Elixir of Heroism"
+      ]
+    },
+    {
+      "role": "Rules: Elixir of Heroism",
+      "title": "Elixir of Heroism",
+      "revision": 428814,
+      "markers": [
+        "stack with Bless"
+      ]
+    }
+  ],
+  "summary": "Refine three feathers into the extract for Elixir of Heroism.",
+  "fields": {
+    "Alchemy": "Extract 3 Pegasus Feathers into Sublimate of Pegasus Feathers. Combine with any Ash for Elixir of Heroism.",
+    "Result": "Elixir grants 10 temporary HP and +1d4 to attack rolls and saving throws until Long Rest. Its effect stacks with Bless. A replacement elixir removes the roll bonus and leaves the temporary HP.",
+    "Acquisition": "Level-dependent merchant stock. Check Blurg and Derryth in the Myconid Colony.",
+    "Base value": "9 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

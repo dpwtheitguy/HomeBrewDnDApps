@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12884",
+  "title": "The Pointy Hat",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424078,
+      "title": "The Pointy Hat",
+      "markers": [
+        "MAG_Wizard_Pointy_Hat"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432599,
+      "title": "Glorious Pointy Hat",
+      "markers": [
+        "Intelligence"
+      ]
+    }
+  ],
+  "summary": "Adds your Intelligence modifier to Persuasion checks.",
+  "fields": {
+    "Glorious Pointy Hat": "Add your Intelligence modifier to Persuasion checks while wearing the hat.",
+    "Acquisition": "Chest behind Lucretious.",
+    "Base value": "35 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

@@ -1,0 +1,48 @@
+{
+  "item_id": "bg3-wiki:3801",
+  "title": "The Protecty Sparkswall",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424085,
+      "title": "The Protecty Sparkswall",
+      "markers": [
+        "MAG_ChargedLightning_BonusAC_Robe"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432643,
+      "title": "High Spellcasting (+1)",
+      "markers": [
+        "Spell Save DC"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433177,
+      "title": "Sparkswall Armour",
+      "markers": [
+        "SavingThrow"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443918,
+      "title": "Lightning Charges",
+      "markers": [
+        "lose 1 charge per turn"
+      ]
+    }
+  ],
+  "summary": "Clothing with +1 spell save DC and extra defenses while charged.",
+  "fields": {
+    "Armour Class": "Base AC 10 + Dexterity modifier. Clothing.",
+    "High Spellcasting": "+1 spell save DC.",
+    "Sparkswall Armour": "+1 AC and saving throws while you have Lightning Charges.",
+    "Lightning Charges": "While charged, +1 to attack rolls and +1 Lightning damage. At 5 charges, the next qualifying damage adds 1d8 Lightning and consumes the charges. Lose one per turn. Lightning-resistant targets do not take the flat +1 Lightning damage.",
+    "Acquisition": "Gilded chest at the end of the trapped bridge.",
+    "Base value": "260 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

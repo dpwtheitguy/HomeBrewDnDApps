@@ -1,0 +1,66 @@
+{
+  "item_id": "bg3-wiki:8677",
+  "title": "Knife of the Undermountain King",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420147,
+      "title": "Knife of the Undermountain King",
+      "markers": [
+        "| uid = MAG_Duergar_Sword_KingsKnife"
+      ]
+    },
+    {
+      "role": "Rules: Organ Rearranger",
+      "revision": 442969,
+      "title": "Organ Rearranger",
+      "markers": [
+        "| summary = '''Organ Rearranger''' is a passive feature that makes its wielder more deadly."
+      ]
+    },
+    {
+      "role": "Rules: Shadow Blade (passive feature)",
+      "revision": 433110,
+      "title": "Shadow Blade (passive feature)",
+      "markers": [
+        "| summary = '''Shadow Blade''' is a passive feature that makes it easier to hit a target in shadow."
+      ]
+    },
+    {
+      "role": "Rules: Flourish",
+      "revision": 373786,
+      "title": "Flourish",
+      "markers": [
+        "| description = Feint an attack to possibly throw your opponent {{SmCond|Off Balance}}."
+      ]
+    },
+    {
+      "role": "Rules: Piercing Strike",
+      "revision": 374168,
+      "title": "Piercing Strike",
+      "markers": [
+        "| description = Stab an enemy and possibly inflict {{cond|Gaping Wounds}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Gaping Wounds",
+      "revision": 443536,
+      "markers": [
+        "Honour Mode"
+      ]
+    }
+  ],
+  "summary": "A +2 shortsword that lowers the critical-hit threshold and improves melee attacks against obscured targets.",
+  "fields": {
+    "Weapon profile": "1d6 + 2 Piercing, 5 ft melee. Martial, one-handed, Finesse, Light and dippable.",
+    "Organ Rearranger": "Reduce the roll needed to critically hit by 1. This stacks and also applies to ranged and spell attacks. On melee weapon damage dice of 1 or 2, reroll and use the higher result. All melee damage dice and both equipped melee weapons can benefit. Throws do not benefit from the reroll. A second copy or Twist of Fortune can add another reroll.",
+    "Shadow Blade": "Advantage on melee weapon attack rolls against lightly or heavily obscured targets, including with the other equipped melee weapon.",
+    "Acquisition": "Sold by A’jak’nir Jeera in Crèche Y’llek.",
+    "Honour Mode base value": "1,200 gp.",
+    "Base value": "480 gp in BG3. Merchant prices vary.",
+    "Flourish": "With proficiency, Bonus Action once per Short Rest. Make a melee weapon attack for 1d4 nonlethal Bludgeoning. A Dexterity save against weapon-action DC +2 prevents Off Balance for 2 turns.",
+    "Piercing Strike": "With proficiency, Action once per Short Rest. Make a melee attack for weapon damage. A Constitution save against weapon-action DC +2 prevents Gaping Wounds for 2 turns. Undead and Constructs are immune. In standard modes the target takes 2 extra Piercing damage when hit. In Honour Mode it instead takes 2 extra damage of the original type from any damage source. Healing removes Gaping Wounds."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

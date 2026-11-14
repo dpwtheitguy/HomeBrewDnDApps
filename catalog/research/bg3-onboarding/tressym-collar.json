@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:27744",
+  "title": "Tressym Collar",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Tressym Collar",
+      "revision": 424383,
+      "markers": [
+        "MAG_Generic_01_Amulet_2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Telekinesis",
+      "revision": 429183,
+      "markers": [
+        "Creatures succeeding a saving throw against the recast"
+      ]
+    }
+  ],
+  "summary": "Cast Telekinesis once per Long Rest, then repeat while concentrating.",
+  "fields": {
+    "Telekinesis": "Level 5 Action once per Long Rest. Target a creature or object within 60 ft and throw it up to 60 ft. Creatures can resist with Strength. An initial successful save prevents recasts. On success concentrate up to 10 turns and spend an Action once per turn to recast. A save against a recast only prevents that throw. Heavier objects deal more damage.",
+    "Acquisition": "Worn by Tara.",
+    "Base value": "360 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

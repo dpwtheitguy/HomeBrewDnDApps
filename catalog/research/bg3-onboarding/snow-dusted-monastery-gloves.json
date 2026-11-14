@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:10893",
+  "title": "Snow-Dusted Monastery Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423352,
+      "title": "Snow-Dusted Monastery Gloves",
+      "markers": [
+        "MAG_Monk_Cold_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432174,
+      "title": "Chilling Strike",
+      "markers": [
+        "1d4"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 419656,
+      "title": "Ice Knife",
+      "markers": [
+        "Piercing"
+      ]
+    }
+  ],
+  "summary": "Adds Cold to unarmed hits and grants an upcast Ice Knife.",
+  "fields": {
+    "Chilling Strike": "Unarmed hits deal an extra 1d4 Cold.",
+    "Ice Knife": "Level 3, Action once per Long Rest. Ranged spell attack within 60 ft for 1d10 Piercing on hit. The shard explodes even on a miss, dealing 4d6 Cold in its radius unless targets succeed on a Dexterity save, and creates Ice in a 7 ft radius. Usable while Silenced.",
+    "Acquisition": "Entharl Danthelon at Wyrm’s Crossing.",
+    "Base value": "450 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

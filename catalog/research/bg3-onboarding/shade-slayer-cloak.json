@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12234",
+  "title": "Shade-Slayer Cloak",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438238,
+      "title": "Shade-Slayer Cloak",
+      "markers": [
+        "MAG_Long_Critical_HidingCritical_Cloak"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433286,
+      "title": "Stealthy Critical",
+      "markers": [
+        "remains even when"
+      ]
+    }
+  ],
+  "summary": "While Hiding, reduce the critical-hit threshold by 1.",
+  "fields": {
+    "Stealthy Critical": "While Hiding, reduce the attack roll needed for a critical hit by 1. This stacks with other critical threshold reductions. The linked source reports the granted condition can remain after removing the cloak.",
+    "Acquisition": "Buy from Sticky Dondo in the Guildhall.",
+    "Base value": "360 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

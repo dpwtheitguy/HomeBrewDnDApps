@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:10338",
+  "title": "Penumbral Armour",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Penumbral Armour",
+      "revision": 421744,
+      "markers": [
+        "MAG_Shadow_StealthBonusWhileObscured_Armor"
+      ]
+    },
+    {
+      "role": "Rules: Stealthier",
+      "title": "Stealthier",
+      "revision": 433284,
+      "markers": [
+        "+3 bonus"
+      ]
+    }
+  ],
+  "summary": "Light armour grants +3 Stealth while obscured.",
+  "fields": {
+    "Defence": "Light Armour proficiency. AC 12 plus Dexterity modifier.",
+    "Stealthier": "+3 to Stealth checks while obscured.",
+    "Acquisition": "Locked opulent chest in the riverside abandoned house east of Last Light Inn.",
+    "Base value": "1000 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

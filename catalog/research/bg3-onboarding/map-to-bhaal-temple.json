@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:24759",
+  "title": "Map to Bhaal Temple",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420799,
+      "title": "Map to Bhaal Temple",
+      "markers": [
+        "S_LOW_MurderTribunal_MapBhaalTemple"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 440460,
+      "title": "Impress the Murder Tribunal",
+      "markers": [
+        "Map to Bhaal Temple"
+      ]
+    }
+  ],
+  "summary": "Route instructions for reaching the Temple of Bhaal after the Murder Tribunal.",
+  "fields": {
+    "Use": "Enter the City Sewers and head northwest toward the Undercity Ruins. Blood on the skull opens the first door. The temple is beyond the murder trail. The map provides directions and does not replace the Amulet of Bhaal.",
+    "Acquisition": "Looted from Sarevok Anchev at the Murder Tribunal.",
+    "Base value": "14 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

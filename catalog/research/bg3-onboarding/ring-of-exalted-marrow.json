@@ -1,0 +1,87 @@
+{
+  "item_id": "bg3-wiki:8276",
+  "title": "Ring of Exalted Marrow",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422377,
+      "title": "Ring of Exalted Marrow",
+      "markers": [
+        "MAG_Myrkulites_RingofMyrkul_Ring"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374411,
+      "title": "Exhort the Risen",
+      "markers": [
+        "| variants ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 344229,
+      "title": "Ghoulish Touch",
+      "markers": [
+        "elves and undead can be paralysed"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 436408,
+      "title": "Paralysed (condition)",
+      "markers": [
+        "automatically fails"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 278991,
+      "title": "Command: Halt (Undead)",
+      "markers": [
+        "| condition duration = 1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 278989,
+      "title": "Command: Grovel (Undead)",
+      "markers": [
+        "| condition duration = 1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 278987,
+      "title": "Command: Flee (Undead)",
+      "markers": [
+        "| condition duration = 1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 278985,
+      "title": "Command: Drop (Undead)",
+      "markers": [
+        "| condition duration = 1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 278983,
+      "title": "Command: Approach (Undead)",
+      "markers": [
+        "| condition duration = 1"
+      ]
+    }
+  ],
+  "summary": "Casts a command for Undead and a touch attack that can paralyze.",
+  "fields": {
+    "Exhort the Risen": "Level 1, Action, 60 ft, once per Long Rest. One Undead makes a Wisdom save against spell save DC or follows a one-turn command. Choose Halt, Grovel (fall Prone), Flee, Drop weapon, or Approach.",
+    "Ghoulish Touch": "Level 1, Action, melee spell attack, once per Long Rest. On hit deal 2d6 Necrotic. DC 13 Constitution save prevents Paralysed for 2 turns. The source reports Elves and Undead can be affected despite the tooltip.",
+    "Paralysed": "Cannot move or act, automatically fails Strength and Dexterity saves, and attacks against it have advantage. Hits from within 10 ft are critical.",
+    "Acquisition": "Heavy chest at the altar on the Moonrise Towers rooftop, X −153, Y −170.",
+    "Base value": "70 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

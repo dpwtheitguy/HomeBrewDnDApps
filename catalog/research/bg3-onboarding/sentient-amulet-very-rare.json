@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:11723",
+  "title": "Sentient Amulet (Very Rare)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 439848,
+      "title": "Sentient Amulet (Very Rare)",
+      "markers": [
+        "UNI_WYR_MonkAmulet_AfterCombat"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423116,
+      "title": "Shatter",
+      "markers": [
+        "| save = CON"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439849,
+      "title": "Ki Restoration (greater)",
+      "markers": [
+        "| recharge = Long Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441549,
+      "title": "Help the Spirit of the Amulet",
+      "markers": [
+        "Sentient Amulet"
+      ]
+    }
+  ],
+  "summary": "Amulet casts Shatter and restores Ki.",
+  "fields": {
+    "Shatter": "Level 3, despite the level 2 tooltip. Action, 60 ft range, 10 ft radius. Deals 4d8 Thunder, Constitution save for half. Inorganic targets save with Disadvantage. Recharges on a Long Rest.",
+    "Ki Restoration": "Action on yourself once per Long Rest. Restores a roll of your Martial Arts die in Ki Points, such as 1d8 for a level 9 Monk.",
+    "Acquisition": "Refuse the cursed monk’s madness and defeat him during Help the Cursed Monk. This version casts Shatter without the Wisdom backlash.",
+    "Base value": "210 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules.",
+  "use_wiki_title": true
+}

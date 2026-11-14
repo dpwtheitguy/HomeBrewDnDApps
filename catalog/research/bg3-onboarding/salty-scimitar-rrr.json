@@ -1,0 +1,64 @@
+{
+  "item_id": "bg3-wiki:28193",
+  "title": "Salty Scimitar(rrr)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 441481,
+      "title": "Salty Scimitar(rrr)",
+      "markers": [
+        "MAG_LC_PirateCommander_Scimitar"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444655,
+      "title": "Command",
+      "markers": [
+        "directly harmful"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373786,
+      "title": "Flourish",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444158,
+      "title": "Off Balance",
+      "markers": [
+        "Removed by taking damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442222,
+      "title": "Bleeding",
+      "markers": [
+        "start of each turn"
+      ]
+    }
+  ],
+  "summary": "+2 scimitar that casts Command once per Long Rest.",
+  "fields": {
+    "Weapon profile": "1d6 + 2 Slashing plus Strength or Dexterity. +2 attack rolls. Martial, Finesse, Light, Dippable, 5 ft melee.",
+    "Command": "Level 1, Action, 60 ft, once per Long Rest. Target an eligible creature. Wisdom save or spend its next turn following Approach, Drop, Flee, Grovel or Halt. No Concentration. No undead or directly harmful commands.",
+    "Acquisition": "Carried by the real Captain Grisly in the Blushing Mermaid basement.",
+    "Flourish": "Bonus Action, 1d4 nonlethal Bludgeoning. Dexterity save against weapon-action DC +2 or Off Balance for 2 turns. Off Balance gives Disadvantage on Strength and Dexterity checks and gives attackers Advantage until damage or Help clears it. Once per Short Rest with proficiency.",
+    "Lacerate": "Action, normal weapon damage. Constitution save against weapon-action DC +2 or Bleeding for 2 turns. Bleeding deals 2 Slashing at turn start and gives Disadvantage on Constitution saves until healed. Once per Short Rest with proficiency. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

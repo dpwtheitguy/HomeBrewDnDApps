@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:16429",
+  "title": "Scroll of Gaseous Form",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Gaseous Form",
+      "revision": 422798,
+      "markers": [
+        "LOOT_SCROLL_GaseousForm"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Gaseous Form",
+      "revision": 418809,
+      "markers": [
+        "Target_GaseousForm"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Touch yourself or an ally to become a small gas cloud while concentrating until Long Rest.",
+  "fields": {
+    "Cast": "Level 3. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Touch yourself or an ally to become a small gas cloud while concentrating until Long Rest. The target resists damage, can fit through small openings, and cannot attack or cast spells.",
+    "Range": "5 ft.",
+    "Concentration": "Maintain Concentration for the ongoing effect.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "100 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

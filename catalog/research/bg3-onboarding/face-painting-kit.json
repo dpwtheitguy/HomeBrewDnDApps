@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:31971",
+  "title": "Face-Painting Kit",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418354,
+      "title": "Face-Painting Kit",
+      "markers": [
+        "| uuid = 7f17d8e4-5edb-4a77-88c0-55558a2db5f7"
+      ]
+    },
+    {
+      "role": "Rules: Clown Face-Paint",
+      "revision": 442385,
+      "title": "Clown Face-Paint",
+      "markers": [
+        "| effects = * You are unaffected by {{Cond|Hideous Laughter}}."
+      ]
+    }
+  ],
+  "summary": "Use an Action and one kit to apply clown face paint and gain immunity to Hideous Laughter until Long Rest.",
+  "fields": {
+    "Use": "Use an Action and one kit to apply clown face paint and gain immunity to Hideous Laughter until Long Rest.",
+    "Base value": "25 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

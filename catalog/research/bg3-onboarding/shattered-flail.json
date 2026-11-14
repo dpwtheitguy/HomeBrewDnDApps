@@ -1,0 +1,55 @@
+{
+  "item_id": "bg3-wiki:4211",
+  "title": "Shattered Flail",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423121,
+      "title": "Shattered Flail",
+      "markers": [
+        "UNI_PLA_ConflictedFlind_Flail_Broken"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438853,
+      "title": "Yeenoghu's Gift",
+      "markers": [
+        "1d6"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443956,
+      "title": "Madness",
+      "markers": [
+        "[[Hostile]]"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373613,
+      "title": "Concussive Smash",
+      "markers": [
+        "| save dc = hybrid"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442592,
+      "title": "Dazed",
+      "markers": [
+        "Wisdom"
+      ]
+    }
+  ],
+  "summary": "A +2 mace that heals on hit and can drive its wielder mad.",
+  "fields": {
+    "Weapon profile": "1d6 + 2 Bludgeoning plus Strength. +2 to attack. Simple one-handed, dippable, 5 ft melee.",
+    "Yeenoghu’s Gift": "Enemy melee damage with this flail heals 1d6 per damage instance and grants a 6-turn window. At the end of turns without an enemy hit with the flail, hidden DC 10 Wisdom save prevents 1 turn of Madness. New hits do not refresh the window. Does not trigger on-heal gear or apply when thrown. Madness makes you uncontrollably hostile to nearby allies and enemies.",
+    "Concussive Smash": "Action with proficiency once per Short Rest. Deal weapon damage on hit. Constitution save vs higher of spell save DC or weapon-action DC +2 avoids Dazed for 2 turns. Dazed removes Dexterity AC bonus and reactions and gives disadvantage on Wisdom saves. Help ends it.",
+    "Acquisition": "Carried by Flind, the gnoll attacking the Zhentarim caravan.",
+    "Base value": "190 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

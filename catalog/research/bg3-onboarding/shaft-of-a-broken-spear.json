@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:4136",
+  "title": "Shaft of a Broken Spear",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438487,
+      "title": "Shaft of a Broken Spear",
+      "markers": [
+        "Quest_FOR_BrokenSpear_Shaft"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438486,
+      "title": "Vision of the Absolute",
+      "markers": [
+        "Vision of the Absolute"
+      ]
+    }
+  ],
+  "summary": "Combine with the Head of a Broken Spear to assemble Vision of the Absolute.",
+  "fields": {
+    "Combine": "Use the Head and Shaft together in the combining interface.",
+    "Acquisition": "On Edowin in the Forest west of the Druid Grove at X 136, Y 446.",
+    "Base value": "15 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

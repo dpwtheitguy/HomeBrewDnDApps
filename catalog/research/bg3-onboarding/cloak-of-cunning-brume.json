@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:10611",
+  "title": "Cloak of Cunning Brume",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 439152,
+      "title": "Cloak of Cunning Brume",
+      "markers": [
+        "MAG_Shadow_FogOfCloudDisengage_Cloak"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439148,
+      "title": "Cunning Brume",
+      "markers": [
+        "| description = When the wearer {{SmSAI|Disengage|Disengages}}, they also create a foggy cloud with {{dist|m=2}} radius that lasts for 1 turn."
+      ]
+    }
+  ],
+  "summary": "Disengage while in combat to create a 7 ft-radius fog cloud that obscures and blinds creatures within. Cautious Healer does not trigger it.",
+  "fields": {
+    "Duration": "The pinned page describes one turn in the passive and lists two turns in the area field.",
+    "Trigger": "Works with Disengage, Cunning Action: Disengage, Disengage: Bonus Action and Step of the Wind: Disengage during combat.",
+    "Base value": "70 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

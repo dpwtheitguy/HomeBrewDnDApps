@@ -1,0 +1,56 @@
+{
+  "item_id": "bg3-wiki:21893",
+  "title": "Magical Hand Crossbow",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420725,
+      "title": "Magical Hand Crossbow",
+      "markers": [
+        "MAG_Cunning_HandCrossbow"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432217,
+      "title": "Cunning Combo",
+      "markers": [
+        "won't trigger on a [[Critical Hit]]"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 421804,
+      "title": "Piercing Shot",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373990,
+      "title": "Mobile Shot",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443536,
+      "title": "Gaping Wounds",
+      "markers": [
+        "Honour"
+      ]
+    }
+  ],
+  "summary": "Unobtainable +2 hand crossbow that grants a close-range melee follow-up on a qualifying hit.",
+  "fields": {
+    "Weapon profile": "1d6 + 2 Piercing plus Dexterity. +2 to attack rolls. Martial one-handed ranged weapon, 50 ft range, Light and Dippable.",
+    "Cunning Combo": "When you hit a nearby enemy with a shot, spend a Reaction to make a melee attack against that enemy. Critical hits do not trigger the reaction. The source gives no exact trigger distance.",
+    "Piercing Shot": "Action, ranged weapon damage. Constitution save against weapon-action DC +2 or Gaping Wounds for 2 turns. Undead and Constructs are immune. In standard modes hits on the target gain 2 extra Piercing damage. In Honour Mode it takes 2 extra damage of the original type from damage sources. Healing clears the condition. Once per Short Rest with proficiency.",
+    "Mobile Shot": "After Dash or Disengage on the same turn, make a ranged attack as a Bonus Action within 50 ft. 1d6 + Dexterity Piercing as listed by the action. Once per Short Rest.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "770 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:33483",
+  "title": "Pickpocket's Bag",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Pickpocket's Bag",
+      "revision": 421802,
+      "markers": [
+        "S_DEN_Thieflings_StolenGoodsBag"
+      ]
+    }
+  ],
+  "summary": "Inventory container Mol can give you to return stolen belongings.",
+  "fields": {
+    "Use": "Open as a portable inventory container.",
+    "Acquisition": "Ask Mol to return belongings Silfy stole.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

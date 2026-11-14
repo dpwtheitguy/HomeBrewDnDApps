@@ -1,0 +1,61 @@
+{
+  "item_id": "bg3-wiki:9567",
+  "title": "Dwarven Thrower",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418040,
+      "title": "Dwarven Thrower",
+      "markers": [
+        "MAG_PHB_DwarvenThrower_Warhammer"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432318,
+      "title": "Dwarven Thrower (passive feature)",
+      "markers": [
+        "| description = When a [[Dwarf|dwarf]] <!--Descriptions here should almost always exactly match in-game tool tips. While race is normally capitalised, it is not here for this reason.-->  throws this warhammer, it deals an extra {{DamageText|1d8|Bludgeoning}} damage, or an extra {{DamageText|2d8|Bludgeoning}} damage if the target is a Large, Huge, or Gargantuan creature."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432648,
+      "title": "Homing Weapon",
+      "markers": [
+        "| description = This weapon will return to its owner when thrown."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341924,
+      "title": "Warhammers",
+      "markers": [
+        "| damage = 1d8"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 428492,
+      "title": "Throw",
+      "markers": [
+        "| description = Throw a character or item from the world or your inventory."
+      ]
+    }
+  ],
+  "summary": "A +2 warhammer that returns when thrown and can deal bonus Bludgeoning damage when thrown by a Dwarf.",
+  "fields": {
+    "Damage": "1d8 + 2 Bludgeoning",
+    "Range": "5 ft melee.",
+    "Training": "martial",
+    "Handling": "versatile",
+    "Enchantment": "+2",
+    "Weapon actions": "Backbreaker, Concussive Smash, Weakening Strike",
+    "Two-handed damage": "1d10 + 2 Bludgeoning",
+    "Throw": "Use the Throw action. The hammer returns to the wielder.",
+    "Dwarven Thrower": "On a throw by a Dwarf, add 1d8 Bludgeoning, or 2d8 if the target is Large, Huge or Gargantuan. The linked rule reports that a Dwarf disguise also activates this when equipping.",
+    "Acquisition": "Ferg Drogher sells it. The source says he will refuse trade if Shadowheart is nearby unless she killed the Nightsong.",
+    "Base value": "770 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

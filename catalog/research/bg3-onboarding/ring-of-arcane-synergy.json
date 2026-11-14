@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:8721",
+  "title": "Ring of Arcane Synergy",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438176,
+      "title": "Ring of Arcane Synergy",
+      "markers": [
+        "MAG_Gish_ArcaneSynergy_Ring"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433328,
+      "title": "Synergetic Cantrips",
+      "markers": [
+        "| condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442055,
+      "title": "Arcane Synergy",
+      "markers": [
+        "Only applies on weapon attack rolls"
+      ]
+    }
+  ],
+  "summary": "Deal damage with a cantrip to gain Arcane Synergy for 2 turns.",
+  "fields": {
+    "Synergetic Cantrips": "Deal cantrip damage to gain Arcane Synergy for 2 turns.",
+    "Arcane Synergy": "On weapon attack rolls, add your spellcasting ability modifier to damage in addition to the usual attack damage modifier. A melee spell attack such as Flame Blade does not qualify.",
+    "Acquisition": "Worn by Gish Far’aag.",
+    "Base value": "70 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

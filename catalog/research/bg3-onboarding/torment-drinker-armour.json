@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:31028",
+  "title": "Torment Drinker Armour",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Torment Drinker Armour",
+      "revision": 424300,
+      "markers": [
+        "MAG_Critical_BolsteringCritical_Armor"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Bolstering Critical",
+      "revision": 432128,
+      "markers": [
+        "{{Temp hp|15}}"
+      ]
+    }
+  ],
+  "summary": "AC 13 + Dexterity, with 15 temporary HP on critical hits or hostile kills.",
+  "fields": {
+    "Armour Class": "13 plus Dexterity modifier. Light Armour proficiency.",
+    "Bolstering Critical": "Gain 15 temporary HP when you score a critical hit or kill a hostile creature.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "260 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

@@ -1,0 +1,26 @@
+{
+  "item_id": "bg3-wiki:29840",
+  "title": "Chaos Flail",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416992,
+      "title": "Chaos Flail",
+      "markers": [
+        "WPN_GNO_Flail_A"
+      ]
+    }
+  ],
+  "summary": "Gnoll-only melee flail. Listed traits include Tenacity in the main hand and Dippable.",
+  "fields": {
+    "Damage": "1d8 Bludgeoning",
+    "Range": "5 ft melee.",
+    "Weapon actions": "Concussive Smash, Weakening Strike",
+    "Handling": "one-handed",
+    "Training": "martial",
+    "Availability": "Unusable by player characters. Only Gnolls can equip it.",
+    "Enchantment": "The item lists +1 enchantment and a 1d8 damage die.",
+    "Base value": "50 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

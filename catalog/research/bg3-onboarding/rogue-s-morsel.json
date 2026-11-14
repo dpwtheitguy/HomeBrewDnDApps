@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:12864",
+  "title": "Rogue's Morsel",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Rogue's Morsel",
+      "revision": 422455,
+      "markers": [
+        "LOOT_Underdark_Mushroom_Roguemorsel_B"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Salts of Rogue's Morsel",
+      "revision": 422613,
+      "markers": [
+        "Potion of Healing"
+      ]
+    }
+  ],
+  "summary": "Extract three Rogue’s Morsels to make Salts for Potion of Healing.",
+  "fields": {
+    "Alchemy": "Extract 3 Rogue’s Morsels into Salts of Rogue’s Morsel. Add any Suspension to make a Potion of Healing.",
+    "Base value": "2 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

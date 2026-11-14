@@ -1,0 +1,20 @@
+{
+  "item_id": "bg3-wiki:8641",
+  "title": "Camp Supply Sack",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416884,
+      "title": "Camp Supply Sack",
+      "markers": [
+        "| uid = CONT_GEN_CampSupplySack"
+      ]
+    }
+  ],
+  "summary": "Automatically sorts most Camp Supply items into the sack. Part of player starting equipment.",
+  "fields": {
+    "Use": "Automatically sorts most Camp Supply items into the sack. Part of player starting equipment.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

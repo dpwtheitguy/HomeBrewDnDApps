@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:32560",
+  "title": "Orders from J",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421566,
+      "title": "Orders from J",
+      "markers": [
+        "| uid = UNI_BOOK_LOW_CountingHouse_SewersHint_Note"
+      ]
+    },
+    {
+      "role": "Rules: Return Rakath's Gold",
+      "revision": 409736,
+      "title": "Return Rakath's Gold",
+      "markers": [
+        "| description = Return Rakath's Gold is a quest in Act Three of Baldur's Gate 3. It can be started by speaking with Rakath Glitterbeard in the Counting House."
+      ]
+    },
+    {
+      "role": "Rules: The High Harper",
+      "revision": 438144,
+      "title": "The High Harper",
+      "markers": [
+        "| description = The High Harper is the Companion quest for Jaheira. It is added to the journal if Jaheira joins the party towards the end of Act Two and the player speaks to her once they arrive at Wyrm's Crossing in Act Three."
+      ]
+    }
+  ],
+  "summary": "Read the orders to gain 150 XP and advance Return Rakath’s Gold and The High Harper.",
+  "fields": {
+    "Clue": "The stolen funds are being taken to the cistern in the sewers. Loot from Death’s Head of Bhaal M’alice in the Counting House High Security Vaults.",
+    "Base value": "14 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

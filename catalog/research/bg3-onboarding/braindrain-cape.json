@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:30970",
+  "title": "Braindrain Cape",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416727,
+      "title": "Braindrain Cape",
+      "markers": [
+        "MAG_Psychic_MentalFatigue_Cape"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432841,
+      "title": "Mental Debilitation",
+      "markers": [
+        "| description = When the wearer succeeds a {{Saving Throw}} against any foe's spells or actions, that foe gains {{Cond|Mental Fatigue}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444003,
+      "title": "Mental Fatigue",
+      "markers": [
+        "| effects ="
+      ]
+    }
+  ],
+  "summary": "Succeed on a save against a foe’s spell or action to give that foe Mental Fatigue for 2 turns. Mental Fatigue penalizes Intelligence, Wisdom and Charisma saves by 1 per turn remaining. Failing such a save at 5+ turns deals 1d4 Psychic and removes the condition.",
+  "fields": {
+    "Effect": "Succeed on a save against a foe’s spell or action to give that foe Mental Fatigue for 2 turns. Mental Fatigue penalizes Intelligence, Wisdom and Charisma saves by 1 per turn remaining. Failing such a save at 5+ turns deals 1d4 Psychic and removes the condition.",
+    "Equipment type": "Cloaks",
+    "Availability": "Unobtainable in normal gameplay.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

@@ -1,0 +1,44 @@
+{
+  "item_id": "bg3-wiki:17495",
+  "title": "Infernal Spear",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438067,
+      "title": "Infernal Spear",
+      "markers": [
+        "MAG_Infernal_Spear"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432703,
+      "title": "Infernal Weapon",
+      "markers": [
+        "| description = On a hit, this weapon deals an additional {{DamageText|3|Poison}} damage and can possibly {{Cond|Poisoned|Poison}} its target."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423428,
+      "title": "Spears",
+      "markers": [
+        "| damage = 1d6"
+      ]
+    }
+  ],
+  "summary": "A +1 spear that adds 3 Poison damage and can Poison the target.",
+  "fields": {
+    "Damage": "1d6 + 1 Piercing",
+    "Range": "5 ft melee.",
+    "Training": "simple",
+    "Handling": "versatile",
+    "Enchantment": "+1",
+    "Weapon actions": "Rush Attack",
+    "Two-handed damage": "1d8 + 1 Piercing",
+    "Infernal Weapon": "On a hit, deal 3 extra Poison and force a DC 12 Constitution save. Failure inflicts Poisoned for 2 turns, imposing disadvantage on attack rolls and ability checks. The pinned source reports the save is hidden regardless of outcome.",
+    "Base value": "190 gp in BG3. Merchant prices vary.",
+    "Properties": "Versatile and Thrown."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

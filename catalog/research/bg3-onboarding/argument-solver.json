@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:9171",
+  "title": "Argument Solver",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416057,
+      "title": "Argument Solver",
+      "markers": [
+        "MAG_Poison_Greatclub"
+      ]
+    },
+    {
+      "role": "Rules: Poison Mist",
+      "revision": 393063,
+      "title": "Poison Mist",
+      "markers": [
+        "| recharge = Short Rest",
+        "| area m = 1.5",
+        "| area duration = 3",
+        "your [[spell save DC]]"
+      ]
+    },
+    {
+      "role": "Rules: Poison Cloud",
+      "revision": 407732,
+      "title": "Poison Cloud",
+      "markers": [
+        "| condition save = CON",
+        "| condition duration = 1",
+        "The cloud itself doesn't deal any damage."
+      ]
+    }
+  ],
+  "summary": "A +1 greatclub with Poison Mist, a short-rest weapon action that adds Poison damage and creates a cloud.",
+  "fields": {
+    "Equipment type": "Greatclubs",
+    "Enchantment": "+1",
+    "Damage": "1d8 + 1 Bludgeoning",
+    "Effect": "A +1 greatclub that deals 1d8 + 1 Bludgeoning and grants Poison Mist.",
+    "Base value": "65 gp in BG3. Merchant prices vary.",
+    "Poison Mist": "Melee weapon Action once per Short Rest. Requires weapon proficiency. On hit, add Poison damage equal to your proficiency bonus and create a roughly 5 ft-radius Poison Cloud for 3 turns.",
+    "Cloud": "Creatures in the cloud make a Constitution save each turn against your spell save DC or become Poisoned for 1 turn. The cloud itself deals no damage.",
+    "Reported area attacks": "The pinned action reports additional attacks against creatures and objects within the cloud radius, including allies. Additional clouds can form at those hits."
+  },
+  "changes": "Added reviewed native BG3 mechanics and pinned item and related rule sources. Completed the item-specific action, timing, save, or effect against pinned evidence."
+}

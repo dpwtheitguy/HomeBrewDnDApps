@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:11801",
+  "title": "Arrow of Many Targets",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416100,
+      "title": "Arrow of Many Targets",
+      "markers": [
+        "ARR_Arrow_Of_Ricochet",
+        "price = 50",
+        "* Deals {{InfoBlob|Weapon Damage}}"
+      ]
+    },
+    {
+      "role": "Shared arrow rules",
+      "revision": 439126,
+      "title": "Arrows",
+      "markers": [
+        "cannot be crafted",
+        "off-hand ranged attacks",
+        "no saving throws"
+      ]
+    }
+  ],
+  "summary": "Deals weapon damage to the primary target and ricochets to up to three nearby secondary targets. The weapon damage source is halved on secondary hits. Separate damage riders are not halved. Ricochets can hit neutral creatures and do not enter Darkness.",
+  "fields": {
+    "Activation": "Action. Fire from a ranged weapon and consume one arrow. Range 60 ft.",
+    "Effect": "Deals weapon damage to the primary target and ricochets to up to three nearby secondary targets. The weapon damage source is halved on secondary hits. Separate damage riders are not halved. Ricochets can hit neutral creatures and do not enter Darkness.",
+    "Restrictions": "Special arrows cannot be used with off-hand ranged attacks.",
+    "Crafting": "Special arrows are obtained from loot or vendors.",
+    "Creative use": "Use against clustered enemies when neutral creatures are clear.",
+    "Base value": "50 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 activation, effects and linked rules."
+}

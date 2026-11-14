@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:16414",
+  "title": "Scroll of Cloud of Daggers",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Cloud of Daggers",
+      "revision": 422760,
+      "markers": [
+        "LOOT_SCROLL_CloudOfDaggers"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Cloud of Daggers",
+      "revision": 391280,
+      "markers": [
+        "Target_CloudOfDaggers"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Create a 7 ft radius cloud for up to 10 turns.",
+  "fields": {
+    "Cast": "Level 2. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Create a 7 ft radius cloud for up to 10 turns. Creatures entering it or starting their turn inside take 4d4 Slashing with no save. The initial cast also damages creatures in the area.",
+    "Range": "60 ft.",
+    "Concentration": "Maintain Concentration for the ongoing effect.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

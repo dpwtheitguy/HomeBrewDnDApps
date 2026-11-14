@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:14552",
+  "title": "Night Orchid",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421315,
+      "title": "Night Orchid",
+      "markers": [
+        "ALCH_Ingredient_Herb_NightOrchid"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423375,
+      "title": "Solution of Night Orchid",
+      "markers": [
+        "Superior Elixir"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423719,
+      "title": "Superior Elixir of Arcane Cultivation",
+      "markers": [
+        "Level 3 spell slot"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441353,
+      "title": "Shadowheart",
+      "markers": [
+        "Night Orchid"
+      ]
+    }
+  ],
+  "summary": "Extract Night Orchid to make Superior Elixir of Arcane Cultivation. A flower can also be offered to Shadowheart.",
+  "fields": {
+    "Extraction": "Combine 3 Night Orchids to make Solution of Night Orchid.",
+    "Recipe": "Combine the solution with any Vitriol to brew Superior Elixir of Arcane Cultivation. It grants one extra level 3 spell slot until Long Rest and replaces a prior elixir.",
+    "Companion interaction": "If Shadowheart has told you it is her favourite flower, offer her one for a companion interaction.",
+    "Acquisition": "Ruined Battlefield, hidden Night Orchid Cave beneath the Cloister of Sombre Embrace, or Popper.",
+    "Base value": "17 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

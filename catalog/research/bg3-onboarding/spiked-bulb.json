@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:3804",
+  "title": "Spiked Bulb",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423464,
+      "title": "Spiked Bulb",
+      "markers": [
+        "GRN_Alchemy_Device_B"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442222,
+      "title": "Bleeding",
+      "markers": [
+        "start of each turn"
+      ]
+    }
+  ],
+  "summary": "Throw for 1 Piercing damage and brief Bleeding in an area.",
+  "fields": {
+    "Throw": "Action, single use, 60 ft, 13 ft radius. Deals 1 Piercing and inflicts Bleeding for 1 turn.",
+    "Bleeding": "2 Slashing at turn start and disadvantage on Constitution saves. Healing removes it.",
+    "Acquisition": "Nautiloid or Omeluum. No alchemy recipe.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

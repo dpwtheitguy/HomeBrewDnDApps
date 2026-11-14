@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:45539",
+  "title": "Nesha's Hand",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421292,
+      "title": "Nesha's Hand",
+      "markers": [
+        "| description = '''Nesha's Hand''' is a [[Miscellaneous]] Item obtained from the corpse of [[Nesha Leesha]]."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 440460,
+      "title": "Impress the Murder Tribunal",
+      "markers": [
+        "severed hand"
+      ]
+    }
+  ],
+  "summary": "A victim’s hand can serve as proof to the Murder Tribunal.",
+  "fields": {
+    "Use": "Show a severed hand to That Which Guards to gain access during Impress the Murder Tribunal.",
+    "Acquisition": "Take from Nesha Leesha’s corpse.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

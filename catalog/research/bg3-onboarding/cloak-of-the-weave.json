@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:10765",
+  "title": "Cloak of the Weave",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417143,
+      "title": "Cloak of the Weave",
+      "markers": [
+        "MAG_EndGameCaster_Cape_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432033,
+      "title": "Absorb Elements",
+      "markers": [
+        "| description = Absorb elemental damage once per [[Short Rest]]. Take half damage from the next elemental attack targeting you, and deal an additional 1d6 of that element type on your next attack."
+      ]
+    }
+  ],
+  "summary": "Gain +1 to spell attack rolls and spell save DC.",
+  "fields": {
+    "Absorb Elements": "When hit by Acid, Cold, Fire, Lightning or Thunder, spend a Reaction to gain resistance to that element. The next weapon attack can deal 1d6 extra of that type. Existing resistance does not stack.",
+    "Reported bug": "The item page reports that the cloak lacks the required passive for Absorb Elements to function.",
+    "Base value": "300 gp in BG3. Merchant prices vary.",
+    "Arcane Enchantment": "+1 to spell attack rolls and spell save DC."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Expanded the card from the pinned item and linked gameplay evidence."
+}

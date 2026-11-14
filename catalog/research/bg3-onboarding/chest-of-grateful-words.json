@@ -1,0 +1,32 @@
+{
+  "item_id": "bg3-wiki:30050",
+  "title": "Chest of Grateful Words",
+  "use_wiki_title": true,
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417029,
+      "title": "Chest of Grateful Words",
+      "markers": [
+        "{{Coords|-482|-506}}",
+        "| condition = Medium Toughness"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 443599,
+      "title": "Medium Toughness",
+      "markers": [
+        "at least 22 damage",
+        "each individual hit"
+      ]
+    }
+  ],
+  "summary": "Open this epilogue chest to find letters from characters the party met. Contents depend on story choices.",
+  "fields": {
+    "Location": "Epilogue campsite, X: −482, Y: −506.",
+    "Durability": "Medium Toughness. A single hit must deal at least 22 damage to damage the chest.",
+    "Base value": "20 gp in BG3."
+  },
+  "changes": "Used the pinned wiki title to distinguish this unique epilogue container from its generic in-game display name. Added location, contents, and toughness."
+}

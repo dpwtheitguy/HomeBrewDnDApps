@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:8732",
+  "title": "Strange Conduit Ring",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Strange Conduit Ring",
+      "revision": 423637,
+      "markers": [
+        "MAG_Gish_PsychicDamageBonusWhileConcentrating_Ring"
+      ]
+    },
+    {
+      "role": "Rules: Strange Conduit",
+      "title": "Strange Conduit",
+      "revision": 433296,
+      "markers": [
+        "| description = When [[Concentration|Concentrating]] on a spell, the wearer's weapon attacks deal an additional {{DamageText|1d4|Psychic}} damage."
+      ]
+    }
+  ],
+  "summary": "Concentration adds Psychic damage to weapon attacks.",
+  "fields": {
+    "Strange Conduit": "While concentrating on a spell, weapon attacks deal +1d4 Psychic.",
+    "Acquisition": "Elegant chest in the Crèche Y’llek Inquisitor’s Chamber.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

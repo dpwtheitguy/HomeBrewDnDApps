@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:34838",
+  "title": "Old Garlow's Basement Backroom Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430542,
+      "title": "Old Garlow's Basement Backroom Key",
+      "markers": [
+        "LOW_HagSurvivorBasementRoomKey"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439091,
+      "title": "Old Garlow's Place",
+      "markers": [
+        "The key opens the door to the locked room"
+      ]
+    }
+  ],
+  "summary": "Unlocks the backroom door in Old Garlow’s Basement.",
+  "fields": {
+    "Lock": "Basement backroom door at X 794, Y 752. DC 15 Sleight of Hand without the key.",
+    "Acquisition": "In the Opulent Chest in the basement’s secret room, X 784, Y 767.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

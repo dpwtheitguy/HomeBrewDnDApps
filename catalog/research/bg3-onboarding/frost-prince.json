@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:10284",
+  "title": "Frost Prince",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418729,
+      "title": "Frost Prince",
+      "markers": [
+        "MAG_Frost_Frostbite_Amulet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 419656,
+      "title": "Ice Knife",
+      "markers": [
+        "Projectile_MAG_IceKnife:"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Ice",
+      "revision": 439852,
+      "markers": [
+        "movement speed]] is halved",
+        "| condition duration = 1"
+      ]
+    }
+  ],
+  "summary": "Cast level 1 Ice Knife once per Long Rest.",
+  "fields": {
+    "Ice Knife": "Action once per Long Rest. Make a ranged spell attack up to 60 ft away for 1d10 Piercing on a hit. The shard explodes even on a miss. Creatures in the 7 ft radius make a Dexterity save against your spell save DC or take 2d6 Cold. A successful save avoids the explosion damage.",
+    "Surface": "Leaves Ice in a 7 ft radius for 2 turns. Ice halves movement speed. Traversing it calls for a separate Dexterity save against Prone for 1 turn.",
+    "Acquisition": "Gilded chest in the southeast Ruined Battlefield.",
+    "Base value": "65 gp nominal BG3 value.",
+    "Casting while Silenced": "The spell can be cast while Silenced."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

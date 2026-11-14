@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:48045",
+  "title": "Lora's Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430619,
+      "title": "Lora's Key",
+      "markers": [
+        "| uid = LOW_AuntieEthelsRevenge_LorasChest_Key"
+      ]
+    },
+    {
+      "role": "Rules: Lora's House",
+      "revision": 425326,
+      "title": "Lora's House",
+      "markers": [
+        "{{Location page"
+      ]
+    }
+  ],
+  "summary": "Opens the first-floor chest in Lora’s House.",
+  "fields": {
+    "Acquisition": "Carried by Lora Bergauz. The chest contains an auction receipt and random gem. A DC 15 Sleight of Hand check is an alternative.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

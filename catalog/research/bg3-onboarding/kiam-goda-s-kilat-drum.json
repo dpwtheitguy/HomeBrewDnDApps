@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:13383",
+  "title": "Kiam Goda's Kilat Drum",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 439776,
+      "title": "Kiam Goda's Kilat Drum",
+      "markers": [
+        "UNI_TOOL_Music_Drum_KiamGodasKilatDrum"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439735,
+      "title": "Perform (drum)",
+      "markers": [
+        "free action"
+      ]
+    }
+  ],
+  "summary": "Hand drum with a reduced Perform song list. It lacks the three Digital Deluxe songs even when the DLC is unlocked.",
+  "fields": {
+    "Perform": "With Musical Instrument proficiency, play Bard Dance, Old Time Battles or The Power as a free action.",
+    "Song exclusions": "This drum lacks Of Divinity and Sin, The Queen’s High Seas and Sing for Me.",
+    "Acquisition": "Buy from Thomas C. Quirkilious at the Chromatic Scale.",
+    "Base value": "90 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

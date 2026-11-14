@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:3346",
+  "title": "Faithbreaker",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418370,
+      "title": "Faithbreaker",
+      "markers": [
+        "| uid = GOB_GoblinKing_Warhammer"
+      ]
+    },
+    {
+      "role": "Rules: Absolute Power",
+      "revision": 428896,
+      "title": "Absolute Power",
+      "markers": [
+        "| summary = '''Absolute Power''' is a [[weapon action]] granted by {{SmRarityItem|Faithbreaker}} that deals additional {{DamageType|Force}} damage and pushes targets away."
+      ]
+    }
+  ],
+  "summary": "A +1 warhammer with Absolute Power, a short-rest melee attack that adds 1d6 Force and can push the target.",
+  "fields": {
+    "Weapon damage": "1d8 + 1 Bludgeoning one-handed or 1d10 + 1 two-handed.",
+    "Absolute Power": "Action once per Short Rest. Make a melee weapon attack for weapon damage with an additional Strength modifier and 1d6 Force. A Strength save against your spell save DC negates the roughly 16 ft push. The save does not negate the damage.",
+    "Base value": "300 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

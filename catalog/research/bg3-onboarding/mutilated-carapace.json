@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:30043",
+  "title": "Mutilated Carapace",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421204,
+      "title": "Mutilated Carapace",
+      "markers": [
+        "| uid = MAG_Orin_Cloth"
+      ]
+    },
+    {
+      "role": "Rules: Formless Slaughter",
+      "revision": 432581,
+      "title": "Formless Slaughter",
+      "markers": [
+        "| summary = '''Formless Slaughter''' is a passive feature that enhances the user's combat while the user is transformed."
+      ]
+    },
+    {
+      "role": "Rules: Faceless Masquerade",
+      "revision": 432539,
+      "title": "Faceless Masquerade",
+      "markers": [
+        "| summary = '''Faceless Masquerade''' is a passive feature that enhances the user's deception and persuasion ability."
+      ]
+    }
+  ],
+  "summary": "Gain +1 AC and advantage on Deception and Persuasion. Attacks improve while shapeshifted or disguised.",
+  "fields": {
+    "Defence": "Clothing, AC 10 plus Dexterity and the listed +1 AC bonus.",
+    "Formless Slaughter": "+1 to attack and damage rolls while shapeshifted or disguised.",
+    "Faceless Masquerade": "Advantage on Deception and Persuasion checks.",
+    "Acquisition": "Loot Orin’s remains at the Bhaal Temple.",
+    "Base value": "800 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

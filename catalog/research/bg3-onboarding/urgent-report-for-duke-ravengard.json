@@ -1,0 +1,45 @@
+{
+  "item_id": "bg3-wiki:11372",
+  "title": "Urgent Report for Duke Ravengard",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Urgent Report for Duke Ravengard",
+      "revision": 434253,
+      "markers": [
+        "UNI_WYR_UrgentReportForDukeRavengard"
+      ]
+    },
+    {
+      "role": "Rules: Wyrm's Crossing",
+      "title": "Wyrm's Crossing",
+      "revision": 441803,
+      "markers": [
+        "Multipass"
+      ]
+    },
+    {
+      "role": "Rules: Wyrm's Rock Fortress",
+      "title": "Wyrm's Rock Fortress",
+      "revision": 444624,
+      "markers": [
+        "Rock-Solid Alibi"
+      ]
+    },
+    {
+      "role": "Rules: Sword Coast Couriers",
+      "title": "Sword Coast Couriers",
+      "revision": 439002,
+      "markers": [
+        "red-outlined"
+      ]
+    }
+  ],
+  "summary": "Pass option for Wyrm’s Crossing and Wyrm’s Rock Fortress.",
+  "fields": {
+    "Use": "Carry it to unlock a dialogue option telling the Flaming Fist that the party has an urgent message for Duke Ravengard. Using this pass grants Multipass Inspiration to Nobles. Successful paper-based entry can also grant Rock-Solid Alibi.",
+    "Acquisition": "On a cupboard behind Danzo at Sword Coast Couriers in Rivington at (15, 12).",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

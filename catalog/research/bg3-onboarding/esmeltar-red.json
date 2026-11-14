@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:9018",
+  "title": "Esmeltar Red",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Esmeltar Red",
+      "revision": 418273,
+      "markers": [
+        "CONS_Drink_Wine_A_Wicker"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Alcohol (condition)",
+      "revision": 437839,
+      "markers": [
+        "Disadvantage"
+      ]
+    }
+  ],
+  "summary": "Provides 3 Camp Supplies or can be drunk or thrown.",
+  "fields": {
+    "Camp supplies": "Provides 3 Camp Supplies for a Long Rest.",
+    "Drink": "Bonus Action. Drink one bottle. Alcohol gives disadvantage on Dexterity and Charisma checks for 2 turns.",
+    "Throw": "Action. Break the bottle to create a permanent, 13 ft-radius Alcohol surface. The surface is flammable.",
+    "Base value": "1 gp in BG3.",
+    "Variants": "The listed variants provide 1 or 3 Camp Supplies and are worth 1 or 3 gp respectively. The documented spawn UUID produces the 1-supply bottle."
+  },
+  "changes": "Added native BG3 gameplay, acquisition, and pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

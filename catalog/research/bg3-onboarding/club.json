@@ -1,0 +1,32 @@
+{
+  "item_id": "bg3-wiki:180",
+  "title": "Club",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 428781,
+      "title": "Club",
+      "markers": [
+        "WPN_HUM_Club_A_0"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341893,
+      "title": "Clubs",
+      "markers": [
+        "| damage = 1d4"
+      ]
+    }
+  ],
+  "summary": "A light, one-handed club.",
+  "fields": {
+    "Damage": "1d4 Bludgeoning",
+    "Range": "5 ft melee.",
+    "Weapon actions": "Concussive Smash",
+    "Handling": "one-handed",
+    "Training": "simple",
+    "Base value": "10 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

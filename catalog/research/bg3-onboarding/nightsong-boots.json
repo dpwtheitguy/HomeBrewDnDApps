@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:44965",
+  "title": "Nightsong Boots",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421325,
+      "title": "Nightsong Boots",
+      "markers": [
+        "| uid = ARM_Boots_Nightsong"
+      ]
+    },
+    {
+      "role": "Rules: Aylin",
+      "revision": 440049,
+      "title": "Aylin",
+      "markers": [
+        "{{CombatTab}}"
+      ]
+    }
+  ],
+  "summary": "Aylin’s Medium Armour boots give +1 to Athletics checks.",
+  "fields": {
+    "Availability": "NPC equipment only. The pinned source marks these inaccessible to players.",
+    "Base value": "30 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

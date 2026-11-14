@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:3539",
+  "title": "The Sparkswall",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424110,
+      "title": "The Sparkswall",
+      "markers": [
+        "MAG_ChargedLightning_Resistance_Ring"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 394660,
+      "title": "Spark Blocker",
+      "markers": [
+        "can't be"
+      ]
+    }
+  ],
+  "summary": "Resist Lightning damage and cannot become Electrocuted.",
+  "fields": {
+    "Spark Blocker": "Immunity to Electrocuted.",
+    "Resistance": "Lightning resistance while worn.",
+    "Acquisition": "Gilded chest in the Arcane Tower basement. Guiding Light provides basement access.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

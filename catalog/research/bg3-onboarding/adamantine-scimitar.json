@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:16",
+  "title": "Adamantine Scimitar",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 440129,
+      "title": "Adamantine Scimitar",
+      "markers": [
+        "WPN_HUM_Scimitar_Adamantine_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432266,
+      "title": "Diamondsbane",
+      "markers": [
+        "| summary ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432782,
+      "title": "Lethal Weapon (Slashing)",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Hits on objects are critical hits. This weapon ignores Slashing resistance.",
+  "fields": {
+    "Equipment type": "Scimitars",
+    "Enchantment": "+1",
+    "Damage": "1d6 + 1 Slashing",
+    "Effect": "Hits on objects are critical hits. This weapon ignores Slashing resistance.",
+    "Crafting": "Forge from a Scimitar Mould and Mithral Ore.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 mechanics and pinned item and related rule sources."
+}

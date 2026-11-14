@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:8035",
+  "title": "Vest of Soul Rejuvenation",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Vest of Soul Rejuvenation",
+      "revision": 424641,
+      "markers": [
+        "MAG_BarbMonk_Cloth_A_2_Late"
+      ]
+    },
+    {
+      "role": "Rules: Defier's Rejuvenation",
+      "title": "Defier's Rejuvenation",
+      "revision": 432258,
+      "markers": [
+        "| description = Whenever the wearer succeeds on a {{SavingThrow}} against a [[Spells|Spell]], they regain {{DamageText|1d4|Healing}}."
+      ]
+    },
+    {
+      "role": "Rules: Greater Kushigo Counter",
+      "title": "Greater Kushigo Counter",
+      "revision": 432000,
+      "markers": [
+        "both Extra Attacks"
+      ]
+    }
+  ],
+  "summary": "Clothing with +2 AC, healing on successful spell saves and an unarmed counter.",
+  "fields": {
+    "Defence": "Clothing, base AC 10 + Dexterity modifier and a +2 AC bonus.",
+    "Defier’s Rejuvenation": "Regain 1d4 HP when you succeed on a save against a spell.",
+    "Greater Kushigo Counter": "Spend a Reaction after an attacker misses to make an Unarmed Strike against it. A counter on your own turn can trigger Extra Attack. The source reports that countering with a normal Extra Attack already active can lose both follow-ups. Honour Mode applies its additional-action restrictions.",
+    "Acquisition": "Rolan or Lorroakan’s Projection in Sorcerous Sundries, depending on who is alive. If Rolan lives and Lorroakan is dead, trade via Rolan’s dialogue at Ramazith’s Tower.",
+    "Base value": "4160 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

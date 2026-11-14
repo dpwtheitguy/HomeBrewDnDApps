@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:8274",
+  "title": "Black and Jade Green Dye",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416511,
+      "title": "Black and Jade Green Dye",
+      "markers": [
+        "| uid = LOOT_Dye_BlackTeal_01"
+      ]
+    },
+    {
+      "role": "Rules: Dyes",
+      "revision": 405683,
+      "title": "Dyes",
+      "markers": [
+        "'''Dyes''' are [[Consumables]] that can [[Combining|combined]] with various [[Equipment]] and [[Clothing]] items in the game to change their base colour to that of the dye in question. The full list of dyes can be found below."
+      ]
+    }
+  ],
+  "summary": "Consume the dye through Combine to recolour a piece of equipment.",
+  "fields": {
+    "Use": "Consume the dye through Combine to recolour a piece of equipment.",
+    "Base value": "6 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

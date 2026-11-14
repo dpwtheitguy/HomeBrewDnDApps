@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:8903",
+  "title": "Ring of Jumping",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Ring of Jumping",
+      "revision": 422385,
+      "markers": [
+        "MAG_PHB_OfJumping_Ring"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Enhance Leap",
+      "revision": 404044,
+      "markers": [
+        "triples the base jump distance"
+      ]
+    }
+  ],
+  "summary": "Cast Enhance Leap as a Bonus Action once per Short Rest.",
+  "fields": {
+    "Enhance Leap": "Level 1. Bonus Action once per Short Rest. Target a creature within melee range. Its base jump distance triples for 10 turns, before flat jump bonuses. Most characters need a separate Bonus Action to jump after casting.",
+    "Acquisition": "Sold by Derryth Bonecloak at Ebonlake Grotto.",
+    "Base value": "55 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

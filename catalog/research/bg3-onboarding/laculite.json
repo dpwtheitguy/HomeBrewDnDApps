@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:5902",
+  "title": "Laculite",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422871,
+      "title": "Laculite",
+      "markers": [
+        "LOOT_Alchemy_Crystal_Laculite_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423752,
+      "title": "Suspension of Laculite",
+      "markers": [
+        "Greater Elixir of Arcane Cultivation"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 419124,
+      "title": "Greater Elixir of Arcane Cultivation",
+      "markers": [
+        "any [[Alchemy#Extractions|Vitriol]]"
+      ]
+    }
+  ],
+  "summary": "Extract Laculite to make a Greater Elixir of Arcane Cultivation.",
+  "fields": {
+    "Extraction": "Combine 3 Laculite to create Suspension of Laculite.",
+    "Recipe": "Suspension of Laculite plus any Vitriol produces a Greater Elixir of Arcane Cultivation. It grants a level 2 spell slot until Long Rest and replaces another elixir.",
+    "Acquisition": "Decrepit Village beach in the Underdark.",
+    "Base value": "9 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

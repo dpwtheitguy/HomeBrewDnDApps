@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:45498",
+  "title": "Lesser Oil of Sharpness Recipe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420367,
+      "title": "Lesser Oil of Sharpness Recipe",
+      "markers": [
+        "BOOK_GLO_Alchemy_LesserOilSharpness"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 417711,
+      "title": "Diluted Oil of Sharpness",
+      "markers": [
+        "cannot"
+      ]
+    }
+  ],
+  "summary": "Records the recipe for Diluted Oil of Sharpness.",
+  "fields": {
+    "Recipe": "Mix Salts of Viridian Crystal with any Vitriol. The resulting single-use coating grants +1 weapon enchantment for 10 turns when applied as a Bonus Action. It cannot be thrown as an area coating.",
+    "Availability": "The source gives no acquisition location for this specific recipe book.",
+    "Base value": "14 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

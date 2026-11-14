@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:39959",
+  "title": "Padlock Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430613,
+      "title": "Padlock Key",
+      "markers": [
+        "S_GOB_PriestDungeon_ChainsKey"
+      ]
+    }
+  ],
+  "summary": "Unlocks the chains that can bind you when Priestess Gut captures you.",
+  "fields": {
+    "Use": "The chains apply if you are immune to Gut’s sleeping potion, such as when playing an elf or drow.",
+    "Acquisition": "On the bed behind Polma in the Defiled Temple, X 391, Y 3.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:13089",
+  "title": "Wyvern Poison",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Wyvern Poison",
+      "revision": 425035,
+      "markers": [
+        "{{rare|Wyvern Poison}} is a [[Consumables|Consumable]] ([[Coatings|Coating]]). It can be applied to a weapon to give it special properties for ten turns or thrown as a [[Grenades|Grenade]] to inflict its effects in an area."
+      ]
+    }
+  ],
+  "summary": "Early Access coating that added 3d6 Poison on an attack.",
+  "fields": {
+    "Legacy effect": "Single-use Bonus Action coating for up to 10 turns. Adds 3d6 Poison damage on an attack, with a DC 15 Constitution save for half.",
+    "Availability": "Early Access only. Replaced by Wyvern Toxin in the released game. The source lists no verified Early Access splash mechanics.",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

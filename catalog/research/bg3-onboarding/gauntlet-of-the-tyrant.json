@@ -1,0 +1,44 @@
+{
+  "item_id": "bg3-wiki:9679",
+  "title": "Gauntlet of the Tyrant",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418817,
+      "title": "Gauntlet of the Tyrant",
+      "markers": [
+        "| uid = MAG_Gortash_Gloves_WithoutNetherstone"
+      ]
+    },
+    {
+      "role": "Rules: Enervating Suffusion",
+      "revision": 444665,
+      "title": "Enervating Suffusion",
+      "markers": [
+        "| summary = '''Enervating Suffusion''' is a passive feature that adds force damage to unarmed attacks."
+      ]
+    },
+    {
+      "role": "Rules: High Spellcasting (+1)",
+      "revision": 432643,
+      "title": "High Spellcasting (+1)",
+      "markers": [
+        "| summary = '''High Spellcasting''' is a passive feature that makes the wearers spells more potent and difficult to defend against."
+      ]
+    },
+    {
+      "role": "Rules: Command",
+      "revision": 444655,
+      "title": "Command",
+      "markers": [
+        "| summary = It allows spellcasters to order their target to flee, move closer, freeze, drop to the ground, or drop their weapon."
+      ]
+    }
+  ],
+  "summary": "Unarmed attacks deal +1d4 Force, your spell save DC rises by 1, and you can cast level 3 Command once per Long Rest.",
+  "fields": {
+    "Command": "Action once per Long Rest, cast at level 3 without your spell slots. Select up to three creatures within 60 ft and give the Approach, Drop, Flee, Grovel or Halt command. Target resists with a Wisdom save against your spell save DC. Lasts 1 turn and requires no Concentration. Undead are unaffected, and targets do not obey a directly harmful command.",
+    "Base value": "300 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

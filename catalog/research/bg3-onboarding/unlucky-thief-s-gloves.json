@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:19299",
+  "title": "Unlucky Thief's Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424526,
+      "title": "Unlucky Thief's Gloves",
+      "markers": [
+        "WYR_Circus_ThiefGloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442323,
+      "title": "Burning",
+      "markers": [
+        "1d4"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437422,
+      "title": "Wet (condition)",
+      "markers": [
+        "Fire"
+      ]
+    }
+  ],
+  "summary": "Gain +2 Sleight of Hand. Stealing repeatedly can set you on fire.",
+  "fields": {
+    "Sleight of Hand": "+2 to Sleight of Hand checks. Each stolen item adds Charcoal to your inventory. The next theft after 20 instead adds a Coal Bucket and applies Burning for 1 turn.",
+    "Burning": "Takes 1d4 Fire per turn. Wet prevents this trigger. Help, a healing potion, or becoming Wet can remove standard Burning.",
+    "Acquisition": "Possible consolation prize from Akabi’s wheel at the Circus of the Last Days.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

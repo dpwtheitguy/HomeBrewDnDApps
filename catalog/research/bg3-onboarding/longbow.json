@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:2619",
+  "title": "Longbow",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420596,
+      "title": "Longbow",
+      "markers": [
+        "| uid = BASE_WEAPON_Longbows"
+      ]
+    },
+    {
+      "role": "Rules: Longbows",
+      "revision": 341908,
+      "title": "Longbows",
+      "markers": [
+        "{{weapon type page"
+      ]
+    },
+    {
+      "role": "Rules: Brace (Ranged)",
+      "revision": 439120,
+      "title": "Brace (Ranged)",
+      "markers": [
+        "| description = Spend {{Dist|m=6}} of your [[Movement Speed|movement]]. For the rest of your turn, roll ranged damage twice and use the highest result."
+      ]
+    },
+    {
+      "role": "Rules: Hamstring Shot",
+      "revision": 373853,
+      "title": "Hamstring Shot",
+      "markers": [
+        "| description = Shoot an enemy in the thigh and possibly reduce their [[movement speed]] by 50%."
+      ]
+    }
+  ],
+  "summary": "1d8 Piercing longbow with 60 ft range.",
+  "fields": {
+    "Weapon profile": "1d8 Piercing plus Dexterity modifier. Martial, heavy, two-handed, ammunition, dippable. 60 ft normal range.",
+    "Brace (Ranged)": "With proficiency, spend 20 ft of movement once per Short Rest. Reroll ranged damage and take the higher result until the turn ends. Ends Hiding and Invisibility. The longbow implementation rerolls damage dice below 8.",
+    "Hamstring Shot": "With proficiency, Action once per Short Rest. On a ranged weapon hit, Constitution save against weapon-action DC +2 or movement is halved for 2 turns.",
+    "Acquisition": "Available as ordinary loot or from merchants.",
+    "Base value": "50 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

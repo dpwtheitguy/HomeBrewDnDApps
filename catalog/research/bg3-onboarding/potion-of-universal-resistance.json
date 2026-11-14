@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:15366",
+  "title": "Potion of Universal Resistance",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Potion of Universal Resistance",
+      "revision": 421954,
+      "markers": [
+        "CONS_Potion_Universal_Resistance_DONOTUSE"
+      ]
+    }
+  ],
+  "summary": "Grants Poison resistance and immunity to Poisoned until Long Rest.",
+  "fields": {
+    "Drink": "Bonus Action on yourself. Gain Poison resistance and immunity to Poisoned until Long Rest. Replaces the effect of any previously consumed elixir.",
+    "Acquisition": "Counting House Safe No. 3.",
+    "Base value": "16 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

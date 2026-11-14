@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:8629",
+  "title": "Scroll of Blindness",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Blindness",
+      "revision": 422751,
+      "markers": [
+        "LOOT_SCROLL_Blindness"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Blindness",
+      "revision": 431666,
+      "markers": [
+        "Target_Blindness"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "On a failed Constitution save, Blind the target for 10 turns without Concentration.",
+  "fields": {
+    "Cast": "Level 2. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "On a failed Constitution save, Blind the target for 10 turns without Concentration. It saves again at the end of each turn. While Blinded its attacks have disadvantage, incoming attacks have advantage and sight-dependent range is limited to 10 ft.",
+    "Range": "60 ft.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

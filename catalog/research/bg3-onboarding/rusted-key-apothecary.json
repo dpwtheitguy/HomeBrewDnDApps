@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:48058",
+  "title": "Rusted Key (Apothecary)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Rusted Key (Apothecary)",
+      "revision": 430598,
+      "markers": [
+        "S_FOR_ThayanBookCellKey"
+      ]
+    },
+    {
+      "role": "Rules: Apothecary's Cellar",
+      "title": "Apothecary's Cellar",
+      "revision": 408733,
+      "markers": [
+        "Perception|15"
+      ]
+    }
+  ],
+  "summary": "Opens a specific locked door in BG3.",
+  "fields": {
+    "Lock": "Rusted iron gate in the Apothecary’s Cellar at (−652, −362).",
+    "Acquisition": "On a storeroom shelf at (−686, −359). A DC 15 Perception check can reveal the trap trigger before the gate.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

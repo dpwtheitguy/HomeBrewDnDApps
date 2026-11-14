@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:13761",
+  "title": "Salts of Rogue's Morsel",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422613,
+      "title": "Salts of Rogue's Morsel",
+      "markers": [
+        "ALCH_Extract_RoguesMorsel"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 421944,
+      "title": "Potion of Healing",
+      "markers": [
+        "| description ="
+      ]
+    }
+  ],
+  "summary": "Alchemy extract used to make Potion of Healing.",
+  "fields": {
+    "Extraction": "Combine 3 Rogue’s Morsels.",
+    "Recipe": "Combine these salts with any Suspension to make Potion of Healing.",
+    "Result": "Heals 2d4 + 2 HP.",
+    "Base value": "8 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

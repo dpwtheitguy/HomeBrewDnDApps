@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:47296",
+  "title": "Heapside Armoury Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430618,
+      "title": "Heapside Armoury Key",
+      "markers": [
+        "S_KEY_LOW_PrisonArmory"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Basilisk Gate Barracks",
+      "revision": 431639,
+      "markers": [
+        "Heapside Armoury Key"
+      ]
+    }
+  ],
+  "summary": "Opens the heavy chest inside the prison armoury at Basilisk Gate Barracks.",
+  "fields": {
+    "Base value": "1 gp in BG3. Merchant prices vary.",
+    "Use": "Opens the heavy chest behind the iron gate inside the prison armoury at Basilisk Gate Barracks. A DC 15 Sleight of Hand check also opens it. The chest contains health potions.",
+    "Acquisition": "Carried by Fist Miller."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,72 @@
+{
+  "item_id": "bg3-wiki:3395",
+  "title": "Speedy Reply",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423435,
+      "title": "Speedy Reply",
+      "markers": [
+        "MAG_Mobility_MomentumOnAttack_Scimitar"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432922,
+      "title": "Nimble Attack",
+      "markers": [
+        "Momentum"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444042,
+      "title": "Momentum",
+      "markers": [
+        "Movement"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442222,
+      "title": "Bleeding",
+      "markers": [
+        "start of each turn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373786,
+      "title": "Flourish",
+      "markers": [
+        "condition dc = weapon action + 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444158,
+      "title": "Off Balance",
+      "markers": [
+        "Removed by taking damage"
+      ]
+    }
+  ],
+  "summary": "A scimitar that grants Momentum on hit.",
+  "fields": {
+    "Weapon profile": "1d6 Slashing plus Strength or Dexterity. Martial, finesse, light, 5 ft melee.",
+    "Nimble Attack": "Hits grant Momentum for 2 turns, adding movement speed.",
+    "Lacerate": "Action with proficiency, once per Short Rest. Melee weapon damage. Constitution save against weapon-action DC +2 prevents Bleeding for 2 turns. Bleeding deals 2 Slashing at turn start and gives disadvantage on Constitution saves. Healing ends it. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Flourish": "Bonus Action, with proficiency, once per Short Rest. Melee attack for 1d4 nonlethal Bludgeoning. Dexterity save prevents Off Balance for 2 turns. The linked base save row lists weapon-action DC and the effect row lists weapon-action DC +2. Off Balance gives disadvantage on Strength and Dexterity checks and advantage to attackers. Taking damage or Help ends it.",
+    "Acquisition": "On a dead caravan agent near the gnoll cave.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

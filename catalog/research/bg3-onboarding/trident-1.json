@@ -1,0 +1,64 @@
+{
+  "item_id": "bg3-wiki:3394",
+  "title": "Trident +1",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Trident +1",
+      "revision": 425320,
+      "markers": [
+        "WPN_HUM_Trident_A_1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Rush Attack",
+      "revision": 374223,
+      "markers": [
+        "First non-allied"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Piercing Strike",
+      "revision": 374168,
+      "markers": [
+        "Gaping Wounds"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Disarming Strike",
+      "revision": 417737,
+      "markers": [
+        "condition dc = weapon action + 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Gaping Wounds",
+      "revision": 443536,
+      "markers": [
+        "Honour Mode"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Off Balance",
+      "revision": 444158,
+      "markers": [
+        "Removed by taking damage"
+      ]
+    }
+  ],
+  "summary": "A +1 versatile trident with disarming and charging attacks.",
+  "fields": {
+    "Weapon profile": "Martial Versatile trident, 5 ft melee. Hit for 1d6 + 1 one-handed or 1d8 + 1 two-handed Piercing, plus Strength. +1 to attack rolls. Thrown. Dippable.",
+    "Rush Attack": "Action once per Short Rest with proficiency. Rush up to 30 ft and hit the first non-allied creature or object for 1d4 Piercing plus attack ability modifier. Strength save against weapon-action DC prevents Off Balance for 2 turns. Attacks against it have Advantage. Help or damage clears it.",
+    "Piercing Strike": "Action once per Short Rest with proficiency. Deal weapon damage. Constitution save against weapon-action DC +2 prevents Gaping Wounds for 2 turns. Hits against it add 2 Piercing or, in Honour Mode, 2 of the original damage type to any damage source. Healing clears it. Undead and Constructs are immune.",
+    "Disarming Strike": "Action once per Short Rest with proficiency. Hit an armed target for 1d4 Piercing plus attack ability modifier. Strength save prevents the weapon drop, with damage retained. The action lists weapon-action DC and the dropped-weapon condition lists weapon-action DC +2. Natural weapons cannot drop.",
+    "Acquisition": "Traders using the magic melee weapon stock table.",
+    "Base value": "55 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

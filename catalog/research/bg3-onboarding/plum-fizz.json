@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:12406",
+  "title": "Plum Fizz",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Plum Fizz",
+      "revision": 421849,
+      "markers": [
+        "CONS_Drink_Wine_E_Wicker"
+      ]
+    },
+    {
+      "role": "Rules: Alcohol (condition)",
+      "title": "Alcohol (condition)",
+      "revision": 437839,
+      "markers": [
+        "Cheeky Tipple"
+      ]
+    },
+    {
+      "role": "Rules: Alcohol (surface)",
+      "title": "Alcohol (surface)",
+      "revision": 385878,
+      "markers": [
+        "Flammable"
+      ]
+    }
+  ],
+  "summary": "Provides 1 Camp Supply or applies Alcohol when drunk.",
+  "fields": {
+    "Camp Supplies": "Provides 1 Camp Supply toward a Long Rest.",
+    "Drink": "Bonus Action. Alcohol gives Disadvantage on Dexterity and Charisma checks for 2 turns. Cheeky Tipple prevents the penalties.",
+    "Throw": "Action. Creates a permanent, flammable Alcohol surface in a 13 ft radius. Cold turns it into Ice, then Water after 2 turns. Fire ignites it, leaving Ash after 2 turns.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations. Reconciled applicable action, condition, and variant details against pinned rules."
+}

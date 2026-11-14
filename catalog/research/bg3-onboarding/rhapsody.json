@@ -1,0 +1,100 @@
+{
+  "item_id": "bg3-wiki:9628",
+  "title": "Rhapsody",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438247,
+      "title": "Rhapsody",
+      "markers": [
+        "UNI_Cazador_RitualDagger"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374168,
+      "title": "Piercing Strike",
+      "markers": [
+        "| save dc = weapon action + 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443536,
+      "title": "Gaping Wounds",
+      "markers": [
+        "lacks a check for attack rolls"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433076,
+      "title": "Scarlet Remittance",
+      "markers": [
+        "living, hostile targets"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433323,
+      "title": "Sweet Bloodletting",
+      "markers": [
+        "| condition dc = 15"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442222,
+      "title": "Bleeding",
+      "markers": [
+        "start of each turn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 314747,
+      "title": "Scarlet Feast",
+      "markers": [
+        "| recharge = Long Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 314679,
+      "title": "Scarlet Regeneration",
+      "markers": [
+        "3d10"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 314741,
+      "title": "Scarlet Saturation",
+      "markers": [
+        "not expended on a miss"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 314678,
+      "title": "Scarlet Stupor",
+      "markers": [
+        "| condition duration = 2"
+      ]
+    }
+  ],
+  "summary": "A +1 dagger that builds kill bonuses and spends them on one of three powers.",
+  "fields": {
+    "Weapon profile": "1d4 + 1 Piercing plus Strength or Dexterity. +1 attack. Simple, light, finesse, thrown, dippable, 5 ft melee.",
+    "Scarlet Remittance": "+1 to attack rolls, damage and spell save DC per living hostile creature you kill while wielding it, up to +3. Unequipping removes the bonus.",
+    "Sweet Bloodletting": "Hit with this dagger while hiding or invisible. DC 15 Constitution save or Bleeding for 2 turns. Bleeding deals 2 Slashing at turn start, gives disadvantage on Constitution saves and ends with healing.",
+    "Scarlet Feast": "Spend all three Scarlet Remittance stacks on one variant, once per Long Rest.",
+    "Scarlet Regeneration": "Action. Heal 3d10 HP.",
+    "Scarlet Saturation": "Bonus Action. For 2 turns, your next successful attack deals critical damage. A miss does not spend it. The source reports it bypasses critical-hit immunity.",
+    "Scarlet Stupor": "Bonus Action. For 2 turns hostile creatures have disadvantage on saves against your spells.",
+    "Piercing Strike": "Action, proficient main hand, once per Short Rest. Melee weapon damage on hit. Constitution save vs weapon-action DC +2 prevents 2 turns of Gaping Wounds. Undead and Constructs are immune. Successful attacks add 2 Piercing in standard modes. In Honour, damage sources add 2 of their original damage type. Healing removes it.",
+    "Acquisition": "Cazador Szarr, X −1925, Y 944.",
+    "Base value": "480 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

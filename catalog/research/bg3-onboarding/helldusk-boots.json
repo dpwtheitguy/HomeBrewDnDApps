@@ -1,0 +1,46 @@
+{
+  "item_id": "bg3-wiki:11724",
+  "title": "Helldusk Boots",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419449,
+      "title": "Helldusk Boots",
+      "markers": [
+        "MAG_Infernal_Metal_Boots"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433283,
+      "title": "Steadfast",
+      "markers": [
+        "| description = You cannot be forcibly moved by a foe's spells or actions, and you ignore the effects of {{Cond|Difficult Terrain}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 407080,
+      "title": "Infernal Evasion",
+      "markers": [
+        "| description = When you fail a {{SavingThrow}}, you may use your {{r|reaction}} to succeed instead."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 330558,
+      "title": "Hellcrawler",
+      "markers": [
+        "| description = Teleport to an area and deal {{DamageText|2d8|Fire}} damage where you land. The impact blast spreads in a {{dist|m=3}} zone."
+      ]
+    }
+  ],
+  "summary": "Ignore difficult terrain and resist forced movement. Use Infernal Evasion to salvage a failed save, or Hellcrawler to teleport.",
+  "fields": {
+    "Steadfast": "Prevents Prone-group effects and hostile or allied forced movement. Ignores most difficult terrain, but Deep Water still applies.",
+    "Infernal Evasion": "Spend a Reaction to salvage a failed save. It recharges after any rest despite the Long Rest tooltip. The source reports prompts on successful saves and that spells with both an attack and a save can give the +99 bonus to the attacker’s attack roll instead.",
+    "Hellcrawler": "Bonus Action once per Short Rest. Teleport up to 60 ft. Creatures in a 10 ft radius take 2d8 Fire, or a reported 1d8 on a successful DC 15 Dexterity save. Leaves a 7 ft Fire surface for 2 turns that immediately deals 1d4 Fire to the wearer unless immune to Burning.",
+    "Base value": "450 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

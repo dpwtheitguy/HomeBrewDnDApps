@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:9410",
+  "title": "Leather Armour +2",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420263,
+      "title": "Leather Armour +2",
+      "markers": [
+        "ARM_Leather_2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433285,
+      "title": "Stealthy",
+      "markers": [
+        "Stealth Checks"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432101,
+      "title": "Balance",
+      "markers": [
+        "correctly added when rolled"
+      ]
+    }
+  ],
+  "summary": "Light armour with 13 base AC and a Stealth bonus. Also improves Dexterity checks and saves.",
+  "fields": {
+    "Armour Class": "13 + Dexterity modifier. Requires Light Armour proficiency.",
+    "Stealthy": "+1 to Stealth checks.",
+    "Acquisition": "Levelled magic armour traders from level 7.",
+    "Balance": "+1 to Dexterity saving throws and ability checks. The ability-check bonus applies even when absent from the character sheet.",
+    "Base value": "380 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

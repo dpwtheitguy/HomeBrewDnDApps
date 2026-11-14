@@ -1,0 +1,20 @@
+{
+  "item_id": "bg3-wiki:11984",
+  "title": "Hand Drum",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 439775,
+      "title": "Hand Drum",
+      "markers": [
+        "| uid = TOOL_GEN_Music_Drum_Small_A"
+      ]
+    }
+  ],
+  "summary": "Equip the Hand Drum and use Perform to play music.",
+  "fields": {
+    "Perform": "Musical Instrument proficiency lets you play competently. Bard starting instrument.",
+    "Base value": "14 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

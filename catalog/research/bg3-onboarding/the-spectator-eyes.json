@@ -1,0 +1,46 @@
+{
+  "item_id": "bg3-wiki:7940",
+  "title": "The Spectator Eyes",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424112,
+      "title": "The Spectator Eyes",
+      "markers": [
+        "MAG_SpectatorEye_Amulet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 422177,
+      "title": "Ray of Fear",
+      "markers": [
+        "condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 328684,
+      "title": "Wounding Ray",
+      "markers": [
+        "half damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442923,
+      "title": "Frightened",
+      "markers": [
+        "Disadvantage"
+      ]
+    }
+  ],
+  "summary": "Casts two Spectator rays, each once per Long Rest.",
+  "fields": {
+    "Ray of Fear": "Level 3, Action, 60 ft, once per Long Rest. Wisdom save against spell save DC avoids Frightened for 2 turns. Frightened prevents movement and gives disadvantage on attacks and ability checks.",
+    "Wounding Ray": "Level 3, Action, 60 ft, once per Long Rest. Deal 2d8 Necrotic, Constitution save against spell save DC for half.",
+    "Acquisition": "Spectator at the Petrified Battlefield in the Underdark.",
+    "Base value": "360 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

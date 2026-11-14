@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:10881",
+  "title": "Bided Time",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438072,
+      "title": "Bided Time",
+      "markers": [
+        "| uid = MAG_CQCaster_GainArcaneChargeOnDamaged_Robe"
+      ]
+    },
+    {
+      "role": "Rules: Arcane Charge",
+      "revision": 442045,
+      "title": "Arcane Charge",
+      "markers": [
+        "{{condition page"
+      ]
+    }
+  ],
+  "summary": "Clothing with base AC 10. When hit in melee, gain Arcane Charge.",
+  "fields": {
+    "Use": "Clothing with base AC 10. When hit in melee, gain Arcane Charge.",
+    "Arcane Charge": "Deal +2 spell damage against Threatened targets. The source reports the tooltip incorrectly requires the wearer to be Threatened.",
+    "Base value": "250 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

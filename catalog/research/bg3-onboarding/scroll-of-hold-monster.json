@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:16463",
+  "title": "Scroll of Hold Monster",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Hold Monster",
+      "revision": 422809,
+      "markers": [
+        "LOOT_SCROLL_HoldMonster"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Hold Monster",
+      "revision": 393908,
+      "markers": [
+        "Target_HoldMonster"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "A creature makes a Wisdom save or becomes Paralysed for up to 10 turns, with another save at the end of each turn.",
+  "fields": {
+    "Cast": "Level 5. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "A creature makes a Wisdom save or becomes Paralysed for up to 10 turns, with another save at the end of each turn. Undead are unaffected. Hits within 10 ft are critical.",
+    "Range": "60 ft.",
+    "Concentration": "Maintain Concentration for the ongoing effect.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "400 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

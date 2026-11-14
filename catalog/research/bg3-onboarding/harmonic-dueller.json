@@ -1,0 +1,46 @@
+{
+  "item_id": "bg3-wiki:9586",
+  "title": "Harmonic Dueller",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 432484,
+      "title": "Harmonic Dueller",
+      "markers": [
+        "| uid = MAG_Harpers_Harmonizing_Rapier"
+      ]
+    },
+    {
+      "role": "Rules: Mellow Harmony",
+      "revision": 373918,
+      "title": "Mellow Harmony",
+      "markers": [
+        "| description = You make a {{Ability check|Performance|15}}, success granting all your melee weapon attacks additional damage equal to your [[Charisma|Charisma modifier]] (minimum 1 additional damage)."
+      ]
+    },
+    {
+      "role": "Rules: Flourish",
+      "revision": 373786,
+      "title": "Flourish",
+      "markers": [
+        "| description = Feint an attack to possibly throw your opponent {{SmCond|Off Balance}}."
+      ]
+    },
+    {
+      "role": "Rules: Weakening Strike",
+      "revision": 374483,
+      "title": "Weakening Strike",
+      "markers": [
+        "| description = Target an enemy's hands with a non-lethal attack and possibly inflict {{SmCond|Weak Grip}}."
+      ]
+    }
+  ],
+  "summary": "A +1 rapier. Mellow Harmony can add your Charisma modifier to melee weapon damage.",
+  "fields": {
+    "Weapon profile": "1d8 + 1 Piercing plus the attack ability modifier, 5 ft melee. Martial, one-handed and Finesse.",
+    "Mellow Harmony": "Action targeting self once per Short Rest. Make a DC 15 Performance check. Success adds your Charisma modifier (minimum 1) as damage to your melee weapon attacks with any weapon for 10 turns. Unequipping Harmonic Dueller ends the buff.",
+    "Weapon actions": "With proficiency, gain Flourish, Piercing Strike and Weakening Strike.",
+    "Base value": "380 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

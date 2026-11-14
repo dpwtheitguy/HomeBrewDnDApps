@@ -1,0 +1,56 @@
+{
+  "item_id": "bg3-wiki:10588",
+  "title": "Myrkulite Scourge",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421222,
+      "title": "Myrkulite Scourge",
+      "markers": [
+        "| uid = WPN_HUM_Flail_Myrkul_A_1"
+      ]
+    },
+    {
+      "role": "Rules: Tenacity",
+      "revision": 425432,
+      "title": "Tenacity",
+      "markers": [
+        "| summary = '''Tenacity''' is a passive feature that allows the user to apply damage, even on a miss."
+      ]
+    },
+    {
+      "role": "Rules: Concussive Smash",
+      "revision": 373613,
+      "title": "Concussive Smash",
+      "markers": [
+        "| description = Hit an enemy with all your might to deal damage and possibly {{cond|Dazed|Daze}} them."
+      ]
+    },
+    {
+      "role": "Rules: Dazed",
+      "revision": 442592,
+      "title": "Dazed",
+      "markers": [
+        "{{See also|Dazed (Omeluum's Draught)}}"
+      ]
+    },
+    {
+      "role": "Rules: Weakening Strike",
+      "revision": 374483,
+      "title": "Weakening Strike",
+      "markers": [
+        "| description = Target an enemy's hands with a non-lethal attack and possibly inflict {{SmCond|Weak Grip}}."
+      ]
+    }
+  ],
+  "summary": "A +1 flail adding 1d6 Necrotic to hits, with main-hand Tenacity.",
+  "fields": {
+    "Weapon profile": "1d8 + 1 Bludgeoning plus Strength modifier, and 1d6 Necrotic. Martial, one-handed, dippable, 5 ft melee.",
+    "Tenacity": "When main-handed, spend a Reaction on a missed melee attack to deal Strength modifier Bludgeoning, minimum 1. This does not trigger the missed weapon action’s effect, but some equipment on-hit effects can apply.",
+    "Concussive Smash": "With proficiency, Action once per Short Rest. On a melee weapon hit, the target makes a Constitution save against the higher of spell save DC or weapon-action DC +2. Failure Dazes for 2 turns, removing Dexterity AC bonus, giving disadvantage on Wisdom saves, and preventing reactions that spend a Reaction point. Help ends Dazed.",
+    "Weakening Strike": "With proficiency, Action once per Short Rest. Nonlethal melee attack for 1d4 plus attack ability modifier as weapon damage. Strength save against weapon-action DC +2 or Weak Grip for 2 turns. Weak Grip only affects armed targets, gives disadvantage on attack rolls and Strength saves, and can be removed with Help.",
+    "Dual Wielder": "The source reports that a miss with a second, non-Tenacity weapon can trigger this flail’s Tenacity.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

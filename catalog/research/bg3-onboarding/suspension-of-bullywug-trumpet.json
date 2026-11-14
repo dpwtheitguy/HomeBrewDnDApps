@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:14169",
+  "title": "Suspension of Bullywug Trumpet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Suspension of Bullywug Trumpet",
+      "revision": 423748,
+      "markers": [
+        "ALCH_Extract_BullywugTrumpet"
+      ]
+    },
+    {
+      "role": "Rules: Simple Toxin",
+      "title": "Simple Toxin",
+      "revision": 423244,
+      "markers": [
+        "Suspension of Bullywug Trumpet"
+      ]
+    }
+  ],
+  "summary": "Alchemical extract used for Simple Toxin.",
+  "fields": {
+    "Extract": "Combine 3 Bullywug Trumpets to make one Suspension of Bullywug Trumpet.",
+    "Brew": "Combine this extract with any Sublimate to make Simple Toxin.",
+    "Base value": "25 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

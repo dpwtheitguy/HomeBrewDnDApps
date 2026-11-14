@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:3432",
+  "title": "Sunwalker's Gift",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Sunwalker's Gift",
+      "revision": 423716,
+      "markers": [
+        "UNI_UND_SocietyOfBrilliance_DarkvisionRing"
+      ]
+    },
+    {
+      "role": "Rules: Sunwalker's Gift (passive feature)",
+      "title": "Sunwalker's Gift (passive feature)",
+      "revision": 433311,
+      "markers": [
+        "| description = The wearer can see in the dark up to {{Dist|m=12}}."
+      ]
+    }
+  ],
+  "summary": "Grants 40 ft Darkvision.",
+  "fields": {
+    "Darkvision": "See in the dark up to 40 ft.",
+    "Acquisition": "Sold by Blurg.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

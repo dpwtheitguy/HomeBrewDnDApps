@@ -1,0 +1,24 @@
+{
+  "item_id": "bg3-wiki:32931",
+  "title": "Drunk-Purple Torch",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417988,
+      "title": "Drunk-Purple Torch",
+      "markers": [
+        "UNI_HUM_Torch_A_Purple"
+      ]
+    }
+  ],
+  "summary": "Light torch that lights when equipped and can ignite flammable surfaces or clouds.",
+  "fields": {
+    "Damage": "1d4 Bludgeoning",
+    "Range": "5 ft melee.",
+    "Training": "simple",
+    "Handling": "one-handed",
+    "Lit damage": "While lit, adds 1d4 Fire to its Bludgeoning damage.",
+    "Base value": "10 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

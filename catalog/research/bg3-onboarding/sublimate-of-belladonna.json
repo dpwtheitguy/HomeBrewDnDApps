@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:13751",
+  "title": "Sublimate of Belladonna",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Sublimate of Belladonna",
+      "revision": 423677,
+      "markers": [
+        "ALCH_Extract_Belladonna"
+      ]
+    },
+    {
+      "role": "Rules: Elixir of Peerless Focus",
+      "title": "Elixir of Peerless Focus",
+      "revision": 418158,
+      "markers": [
+        "Sublimate of Belladonna"
+      ]
+    }
+  ],
+  "summary": "Alchemical extract used for Elixir of Peerless Focus.",
+  "fields": {
+    "Extract": "Combine 3 Belladonna to make one Sublimate of Belladonna.",
+    "Brew": "Combine this extract with any Ash to make Elixir of Peerless Focus.",
+    "Base value": "18 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:14910",
+  "title": "Orthonic Handbomb",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421594,
+      "title": "Orthonic Handbomb",
+      "markers": [
+        "| uid = GRN_Bomb_Orthon"
+      ]
+    },
+    {
+      "role": "Rules: Fiendish Flameblast",
+      "revision": 346522,
+      "title": "Fiendish Flameblast",
+      "markers": [
+        "| summary = '''Fiendish Flameblast''' is a special class action used by a {{RarityItem|Orthonic Handbomb}} when it detonates."
+      ]
+    },
+    {
+      "role": "Rules: Burning (Orthonic)",
+      "revision": 442329,
+      "title": "Burning (Orthonic)",
+      "markers": [
+        "{{confused with|Burning (condition)|Infernal Burning (condition)}}"
+      ]
+    }
+  ],
+  "summary": "Throw as an Action. A 7 ft-radius blast deals 4d8 Force and 4d8 Fire.",
+  "fields": {
+    "Throw": "Action, up to 60 ft.",
+    "Blast": "Actual 7 ft radius. Roll 4d8 Force and 4d8 Fire. A DC 17 Dexterity save halves both and prevents Burning (Orthonic) for 2 turns. The condition deals 1d4 Fire per turn and cannot be cleared by Help, healing potion or Wet. The throw preview shows about 13 ft.",
+    "Mine timing": "Yurgir’s dropped mines progress from Ticking Mine to Quickly Ticking Mine after 1 turn. Pick up before that transition to save a usable grenade. Picking one up afterward can explode in inventory. Dropping an inventory item that still has Quickly Ticking Mine triggers detonation after 2 turns.",
+    "Reported behavior": "No Thunder or knockback and no kill experience. Chain explosions can occur. Most nearby NPCs reportedly do not turn hostile when their allies are harmed by these blasts.",
+    "Base value": "16 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,48 @@
+{
+  "item_id": "bg3-wiki:9599",
+  "title": "Hollow's Staff",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419551,
+      "title": "Hollow's Staff",
+      "markers": [
+        "MAG_HigherNecromancy_Staff"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432635,
+      "title": "Heightened Necromancy",
+      "markers": [
+        "necromancy spells"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 359622,
+      "title": "Arms of Hadar",
+      "markers": [
+        "| higher levels ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 377988,
+      "title": "Topple",
+      "markers": [
+        "| condition duration = 1"
+      ]
+    }
+  ],
+  "summary": "A +1 quarterstaff with an extra 1d4 Necrotic, stronger Necromancy saves, and level 3 Arms of Hadar.",
+  "fields": {
+    "Weapon profile": "Simple, versatile, 5 ft melee. 1d6 + 1 Bludgeoning one-handed or 1d8 + 1 two-handed, plus 1d4 Necrotic.",
+    "Heightened Necromancy": "Creatures have disadvantage on saves against your Necromancy spells. Arms of Hadar is Conjuration.",
+    "Arms of Hadar": "Action once per Long Rest at level 3. Creatures within 10 ft take 4d6 Necrotic. A Strength save against your spell save DC halves damage and prevents the 1-turn block on reactions that spend the Reaction resource.",
+    "Topple": "Action once per Short Rest with proficiency. Make a melee attack for 1d4 nonlethal Bludgeoning. Dexterity save against weapon-action DC +2 or Prone for 1 turn.",
+    "Acquisition": "Carried by Lucretious at the Circus of the Last Days.",
+    "Base value": "310 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

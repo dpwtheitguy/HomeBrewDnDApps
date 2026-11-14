@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:13395",
+  "title": "Absolute's Protector",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 415743,
+      "title": "Absolute's Protector",
+      "markers": [
+        "MAG_Absolute_Protecter_Shield"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432022,
+      "title": "Absolute's Aegis",
+      "markers": [
+        "| summary ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 404041,
+      "title": "Fire Shield: Chill",
+      "markers": [
+        "| summary ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 438215,
+      "title": "Shield Bash",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Wearers with the Absolute’s Brand take 1 less damage from spells. Cast Fire Shield: Chill as an Action once per Long Rest for Fire resistance and 2d8 Cold retaliation against melee attackers. Shield Bash. When hit by a melee attack, use a Reaction to attempt to knock the attacker Prone. A Dexterity save resists.",
+  "fields": {
+    "Equipment type": "Shields",
+    "AC bonus": "+2",
+    "Effect": "Wearers with the Absolute’s Brand take 1 less damage from spells. Shield Bash is a Reaction when hit by a melee attack; the attacker can resist falling Prone with a Dexterity save.",
+    "Base value": "300 gp in BG3. Merchant prices vary.",
+    "Fire Shield: Chill": "Action once per Long Rest. For 10 turns, gain Fire resistance, emit light in a 10 ft radius, and deal 2d8 Cold to creatures that hit you in melee."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

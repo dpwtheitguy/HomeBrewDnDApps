@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:3453",
+  "title": "Gloves of Flint and Steel",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418970,
+      "title": "Gloves of Flint and Steel",
+      "markers": [
+        "MAG_Fire_ApplyBurningOnFireDamage_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432650,
+      "title": "Hot Little Hands",
+      "markers": [
+        "| description = When the wearer deals {{DamageType|Fire}} damage, the target has to succeed a [[Constitution]] {{Saving Throw}} or start {{Cond|Burning}}."
+      ]
+    }
+  ],
+  "summary": "Fire damage you deal can set the target Burning for 2 turns on a failed DC 8 Constitution save.",
+  "fields": {
+    "Availability": "Unobtainable in normal play. Early Access reward replaced by Gloves of Uninhibited Kushigo.",
+    "Base value": "90 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

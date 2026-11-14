@@ -1,0 +1,55 @@
+{
+  "item_id": "bg3-wiki:181",
+  "title": "Scimitar",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422692,
+      "title": "Scimitar",
+      "markers": [
+        "WPN_HUM_Scimitar_A_0"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373786,
+      "title": "Flourish",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444158,
+      "title": "Off Balance",
+      "markers": [
+        "Removed by taking damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442222,
+      "title": "Bleeding",
+      "markers": [
+        "start of each turn"
+      ]
+    }
+  ],
+  "summary": "Scimitar with Flourish and Lacerate.",
+  "fields": {
+    "Weapon profile": "1d6 Slashing plus Strength or Dexterity. Martial, one-handed, Finesse, Light and Dippable, 5 ft melee.",
+    "Acquisition": "Common loot and merchant stock.",
+    "Flourish": "Bonus Action, 1d4 nonlethal Bludgeoning. Dexterity save against weapon-action DC +2 or Off Balance for 2 turns. Off Balance gives Disadvantage on Strength and Dexterity checks and gives attackers Advantage until damage or Help clears it. Once per Short Rest with proficiency.",
+    "Lacerate": "Action, normal weapon damage. Constitution save against weapon-action DC +2 or Bleeding for 2 turns. Bleeding deals 2 Slashing at turn start and gives Disadvantage on Constitution saves until healed. Once per Short Rest with proficiency. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Base value": "30 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

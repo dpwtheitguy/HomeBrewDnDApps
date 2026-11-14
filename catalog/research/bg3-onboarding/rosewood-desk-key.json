@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:50389",
+  "title": "Rosewood Desk Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Rosewood Desk Key",
+      "revision": 430539,
+      "markers": [
+        "UNI_KEY_LOW_HoH_Desk1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "House of Hope",
+      "revision": 442960,
+      "markers": [
+        "a rosewood desk"
+      ]
+    }
+  ],
+  "summary": "Opens the rosewood desk in the House of Hope.",
+  "fields": {
+    "Use": "Opens the desk at X −6518, Y 2913 containing a Potion of Angelic Reprieve and a random Very Rare scroll. DC 10 Sleight of Hand can bypass the lock.",
+    "Acquisition": "Carried by the Theologist Eternal Debtor.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:50816",
+  "title": "Absolutist Expedition Trunk",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 413237,
+      "title": "Absolutist Expedition Trunk",
+      "markers": [
+        "S_Absolute_Survival_Supplies"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 443599,
+      "title": "Medium Toughness",
+      "markers": [
+        "at least 22 damage",
+        "each individual hit"
+      ]
+    }
+  ],
+  "summary": "Locked expedition trunk with 100 HP and Medium Toughness.",
+  "fields": {
+    "Use": "Open with the Absolutist Expedition Key near the Grymforge entrance to the Shadow-Cursed Lands.",
+    "Base value": "1 gp in BG3. Merchant prices vary.",
+    "Durability": "100 object HP. Medium Toughness requires at least 22 damage from a single hit to damage it. Resistant to Piercing, Necrotic, and Radiant, and immune to Poison and Psychic."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

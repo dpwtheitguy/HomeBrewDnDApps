@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:9003",
+  "title": "Wine",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424930,
+      "title": "Wine",
+      "markers": [
+        "CONS_Drink_Wine_H"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437839,
+      "title": "Alcohol (condition)",
+      "markers": [
+        "Disadvantage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 385878,
+      "title": "Alcohol (surface)",
+      "markers": [
+        "| description = Flammable."
+      ]
+    }
+  ],
+  "summary": "Wine provides 4 Camp Supplies, or can be drunk or thrown for Alcohol effects.",
+  "fields": {
+    "Camp Supplies": "4 Camp Supplies per bottle. Both listed variants match.",
+    "Drink": "Bonus Action. Gain Alcohol for 2 turns, giving disadvantage on Dexterity and Charisma checks.",
+    "Throw": "Action. Creates a permanent Alcohol surface in a 13 ft radius. Fire ignites it and Cold freezes it.",
+    "Base value": "21 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

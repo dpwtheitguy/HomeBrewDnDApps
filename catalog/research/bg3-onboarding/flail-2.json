@@ -1,0 +1,43 @@
+{
+  "item_id": "bg3-wiki:35488",
+  "title": "Flail +2",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418563,
+      "title": "Flail +2",
+      "markers": [
+        "WPN_HUM_Flail_A_2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 408130,
+      "title": "Flails",
+      "markers": [
+        "| damage = 1d8"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 425432,
+      "title": "Tenacity",
+      "markers": [
+        "| description = When you miss a melee attack, you deal {{DamageText|[[Strength]] [[Modifier]]|Bludgeoning}} damage (minimum of 1) anyway."
+      ]
+    }
+  ],
+  "summary": "A +2 one-handed martial flail.",
+  "fields": {
+    "Damage": "1d8 + 2 Bludgeoning",
+    "Range": "5 ft melee.",
+    "Training": "martial",
+    "Handling": "one-handed",
+    "Enchantment": "+2",
+    "Weapon actions": "Concussive Smash, Weakening Strike",
+    "Tenacity": "In the main hand, a missed melee attack can spend a Reaction to deal Bludgeoning damage equal to Strength modifier, minimum 1.",
+    "Acquisition": "Carried by a Blasphemous Acolyte in the final fight if a Cleric is in the party.",
+    "Base value": "155 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

@@ -1,0 +1,56 @@
+{
+  "item_id": "bg3-wiki:16432",
+  "title": "Scroll of Haste",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Haste",
+      "revision": 422806,
+      "markers": [
+        "LOOT_SCROLL_Haste"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Haste",
+      "revision": 377239,
+      "markers": [
+        "Target_Haste"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Hastened (condition)",
+      "revision": 435658,
+      "markers": [
+        "HASTE"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Lethargic",
+      "revision": 443904,
+      "markers": [
+        "HASTE_LETHARGY"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Target yourself or an ally within 30 ft.",
+  "fields": {
+    "Cast": "Level 3. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Target yourself or an ally within 30 ft. While concentrating for up to 10 turns, grant +2 AC, advantage on Dexterity saves, +30 ft movement, and one extra Action. In Honour Mode that Action does not activate Extra Attack. When it ends, the target becomes Lethargic for 1 turn.",
+    "Range": "30 ft.",
+    "Concentration": "Maintain Concentration for the ongoing effect.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "100 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

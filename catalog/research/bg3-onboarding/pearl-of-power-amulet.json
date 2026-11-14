@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:9233",
+  "title": "Pearl of Power Amulet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Pearl of Power Amulet",
+      "revision": 421729,
+      "markers": [
+        "MAG_PHB_ofPower_Pearl_Amulet"
+      ]
+    },
+    {
+      "role": "Rules: Pearlescent Restoration",
+      "title": "Pearlescent Restoration",
+      "revision": 295372,
+      "markers": [
+        "warlock spell slots"
+      ]
+    }
+  ],
+  "summary": "Restore an expended spell slot of level 1, 2 or 3.",
+  "fields": {
+    "Pearlescent Restoration": "Action, self, once per Long Rest. Choose a level from 1 to 3. Restores one expended slot at that level. If both ordinary and Pact Magic slots of that level are expended, it restores one of each.",
+    "Acquisition": "Buy from Omeluum after Help Omeluum Investigate the Parasite in Ebonlake Grotto.",
+    "Base value": "45 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

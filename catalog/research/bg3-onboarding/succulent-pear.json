@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:9011",
+  "title": "Succulent Pear",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Succulent Pear",
+      "revision": 423692,
+      "markers": [
+        "CONS_FOOD_Fruit_HAG_AntidotePear"
+      ]
+    },
+    {
+      "role": "Rules: Refreshed (Succulent Pear) (condition)",
+      "title": "Refreshed (Succulent Pear) (condition)",
+      "revision": 437881,
+      "markers": [
+        "Filth Fever"
+      ]
+    }
+  ],
+  "summary": "Provides 3 Camp Supplies.",
+  "fields": {
+    "Camp Supplies": "3 Camp Supplies toward a Long Rest.",
+    "Eat": "Apply Refreshed for 1 turn, removing Feverish, Filth Fever, Rotting and Flesh Rot.",
+    "Base value": "3 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

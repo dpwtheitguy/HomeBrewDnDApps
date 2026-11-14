@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:14370",
+  "title": "Gemless Ring",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438491,
+      "title": "Gemless Ring",
+      "markers": [
+        "| uid = QUEST_WYR_GemlessRing"
+      ]
+    },
+    {
+      "role": "Rules: Ringless Gem",
+      "revision": 438490,
+      "title": "Ringless Gem",
+      "markers": [
+        "| description = The '''Ringless Gem''' is a common yet one-of-a-kind [[Miscellaneous|Miscellaneous Item]] that can be combined with the [[Gemless Ring]]. Primarily of use for bartering or sale to [[Traders]]."
+      ]
+    },
+    {
+      "role": "Rules: Ferg Drogher",
+      "revision": 425473,
+      "title": "Ferg Drogher",
+      "markers": [
+        "{{Infobox creature"
+      ]
+    }
+  ],
+  "summary": "Combine with the Ringless Gem to make a Tarnished Ring. Learning about this ring can also unlock a trader’s special stock.",
+  "fields": {
+    "Trade interaction": "Use Speak with Dead on the refugee corpse Garrett and learn about the ring. This lets the party access Ferg Drogher’s special stock without the usual check.",
+    "Crafted result": "The game produces a Tarnished Ring with no documented power. The internal Magic Ring name does not appear on the crafted item.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

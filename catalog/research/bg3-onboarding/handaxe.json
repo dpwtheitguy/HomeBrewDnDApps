@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:174",
+  "title": "Handaxe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419302,
+      "title": "Handaxe",
+      "markers": [
+        "| uid = WPN_HUM_Handaxe_A_0"
+      ]
+    },
+    {
+      "role": "Rules: Lacerate",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "| description = Slash at your target's vital points to make it {{SmCond|Bleeding|Bleed}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Bleeding",
+      "revision": 442222,
+      "markers": [
+        "except {{Charlink|Ghast}}s"
+      ]
+    }
+  ],
+  "summary": "A simple Light handaxe dealing 1d6 Slashing. Can be thrown.",
+  "fields": {
+    "Weapon profile": "1d6 Slashing plus Strength modifier, 5 ft melee. Simple, one-handed, Light, Thrown and Dippable.",
+    "Lacerate": "With proficiency, Action once per Short Rest. Make a weapon attack. On hit, Constitution save against weapon-action DC +2 or Bleeding for 2 turns. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Lesser Imp variant": "A Lesser Imp version on the same source page has 1d4 Slashing rather than the standard Handaxe’s 1d6.",
+    "Base value": "16 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

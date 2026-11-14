@@ -1,0 +1,91 @@
+{
+  "item_id": "bg3-wiki:8026",
+  "title": "Moonlight Glaive",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Moonlight Glaive",
+      "revision": 421074,
+      "markers": [
+        "MAG_Moonlight_Glaive"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Moonlight Butterflies",
+      "revision": 374152,
+      "markers": [
+        "| damage 3 type = Psychic"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Moonlight Butterflies (condition)",
+      "revision": 436234,
+      "markers": [
+        "fled from or disappears"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Moonlight Butterflies (area)",
+      "revision": 195961,
+      "markers": [
+        "all attacks against them"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Moonlight Glaive: Glowing",
+      "revision": 432869,
+      "markers": [
+        "ft=20"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Rush Attack",
+      "revision": 374223,
+      "markers": [
+        "Doesn't provoke Opportunity Attacks"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Lacerate",
+      "revision": 373909,
+      "markers": [
+        "| condition dc = weapon action + 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Bleeding",
+      "revision": 442222,
+      "markers": [
+        "Removed by healing"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Brace (Melee)",
+      "revision": 441529,
+      "markers": [
+        "roll melee damage twice"
+      ]
+    }
+  ],
+  "summary": "A +2 glaive with 1d4 Radiant on a hit and a butterfly field that grants advantage against targets inside.",
+  "fields": {
+    "Weapon profile": "1d10 + 2 Slashing plus Strength, and 1d4 Radiant. Martial, heavy, two-handed, 8 ft normal melee reach and Dippable.",
+    "Moonlight Butterflies": "With proficiency, Action once per Short Rest. Melee attack at up to 10 ft. On hit, add your proficiency bonus as weapon-type damage and separately as Psychic damage. Create a 7 ft radius area for 3 turns. Allies, enemies and objects inside can be affected. Attacks against affected entities have advantage. The condition deals 1d6 Psychic when they leave or the illusion ends. The field illuminates those inside. At the full 10 ft attack range, the wielder can stay outside it. Attacking from closer can expose the wielder.",
+    "Glowing": "Toggle a 20 ft radius of light.",
+    "Rush Attack": "With proficiency, Action once per Short Rest. Charge up to 30 ft without provoking Opportunity Attacks. Make a melee attack against the first non-allied creature or object in the path for 1d4 + Strength modifier Piercing. Strength save against weapon-action DC prevents Off Balance for 2 turns.",
+    "Lacerate": "With proficiency, Action once per Short Rest. On a melee hit for weapon damage, Constitution save against weapon-action DC +2 prevents Bleeding for 2 turns. Bleeding deals 2 Slashing at the start of each turn, gives Disadvantage on Constitution saves and ends when healed. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Bleeding": "Bleeding deals 2 Slashing at the start of each turn and gives disadvantage on Constitution saves. Healing removes it. Constructs, Elementals, Plants, Oozes and most Undead are immune. Ghasts and Ghouls are documented exceptions.",
+    "Brace (Melee)": "Spend 20 ft of movement once per Short Rest. For the rest of your turn, reroll melee damage dice and keep the highest. Ends Hiding and Invisibility. Stacks with Savage Attacker for three rolls per die.",
+    "Acquisition": "Aylin grants it when freed in the Shadowfell.",
+    "Base value": "380 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:4764",
+  "title": "Vital Conduit Boots",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424696,
+      "title": "Vital Conduit Boots",
+      "markers": [
+        "MAG_Gish_TempHPWhileConcentrating_Boots"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433421,
+      "title": "Vital Conduit",
+      "markers": [
+        "Cloudkill"
+      ]
+    }
+  ],
+  "summary": "Gain 8 temporary HP when casting a Concentration spell.",
+  "fields": {
+    "Vital Conduit": "Casting a Concentration spell grants 8 temporary HP. The source reports free recasts of spells such as Hex and Hunter’s Mark usually do not trigger it. Repositioning Cloudkill is a reported exception. Concentration cantrips qualify. Temporary HP does not stack with another source.",
+    "Athletics": "+1 on Athletics checks.",
+    "Acquisition": "Buy from A’jak’nir Jeera.",
+    "Base value": "240 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

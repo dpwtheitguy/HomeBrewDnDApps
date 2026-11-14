@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:11499",
+  "title": "Mugwort",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421138,
+      "title": "Mugwort",
+      "markers": [
+        "| uid = CONS_Herbs_Mugwort_Bundle_A"
+      ]
+    },
+    {
+      "role": "Rules: Salts of Mugwort",
+      "revision": 422611,
+      "title": "Salts of Mugwort",
+      "markers": [
+        "| description = '''Salts of Mugwort''' is an [[Alchemy|Alchemical Extraction]]. It can be combined with any [[Alchemy#Extractions|Suspension]] to create {{SmRarityItem|Antidote}}."
+      ]
+    },
+    {
+      "role": "Rules: Antidote",
+      "revision": 415986,
+      "title": "Antidote",
+      "markers": [
+        "| description = '''Antidote''' is a [[Consumables|Consumable]] ([[Potions|Potion]]). It has a beneficial utility effect."
+      ]
+    }
+  ],
+  "summary": "Extract three Mugwort to make Salts of Mugwort. Combine with any Suspension for Antidote.",
+  "fields": {
+    "Use": "Extract three Mugwort to make Salts of Mugwort. Combine with any Suspension for Antidote.",
+    "Base value": "2 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

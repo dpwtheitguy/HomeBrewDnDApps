@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:11577",
+  "title": "Cloak of Displacement",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417139,
+      "title": "Cloak of Displacement",
+      "markers": [
+        "MAG_PHB_CloakOfDisplacement_Cloak"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432272,
+      "title": "Displacement",
+      "markers": [
+        "| description = At the beginning of the wearer's turn, the cloak activates, granting enemies {{Disadvantage}} on {{Attack Roll}}s that target the wearer. This effect lasts until the wearer takes damage."
+      ]
+    }
+  ],
+  "summary": "At the start of your turn, incoming attack rolls against you gain Disadvantage. The protection ends when you take damage.",
+  "fields": {
+    "Effect": "At the start of your turn, incoming attack rolls against you gain Disadvantage. The protection ends when you take damage.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:12765",
+  "title": "Teachings of Loss: The Nightsinger",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423885,
+      "title": "Teachings of Loss: The Nightsinger",
+      "markers": [
+        "S_SHA_SilentLibrary_SharranBook_005"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441403,
+      "title": "Gauntlet of Shar",
+      "markers": [
+        "Riddle of the Night"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438804,
+      "title": "Daughter of Darkness",
+      "markers": [
+        "Spear of Night"
+      ]
+    }
+  ],
+  "summary": "Unlocks the Silent Library chamber holding the Spear of Night.",
+  "fields": {
+    "Use": "Put the book into the Riddle of the Night pedestal in the Silent Library. It opens the chamber for Shadowheart’s Daughter of Darkness quest. Destroying the book can block obtaining the spear and cost Shadowheart’s companionship at Shadowfell.",
+    "Acquisition": "Silent Library bookshelf at X −772, Y −743.",
+    "Base value": "14 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

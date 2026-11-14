@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:32030",
+  "title": "Toxin Recipe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Toxin Recipe",
+      "revision": 424318,
+      "markers": [
+        "BOOK_Alchemy_ToxinBasic"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Simple Toxin",
+      "revision": 423244,
+      "markers": [
+        "Suspension of Bullywug Trumpet"
+      ]
+    }
+  ],
+  "summary": "Read to unlock the Simple Toxin alchemy recipe.",
+  "fields": {
+    "Read": "Unlocks Simple Toxin. Combine Suspension of Bullywug Trumpet with any Sublimate.",
+    "Acquisition": "Table in the Zhentarim Basement (274, −260).",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

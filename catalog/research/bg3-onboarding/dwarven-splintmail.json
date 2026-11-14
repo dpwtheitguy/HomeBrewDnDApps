@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:11395",
+  "title": "Dwarven Splintmail",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 426153,
+      "title": "Dwarven Splintmail",
+      "markers": [
+        "ARM_Splint_Body_Dwarven"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433317,
+      "title": "Superior Plate (-1)",
+      "markers": [
+        "| description = You take 1 less {{DamageType|Piercing}} damage."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432127,
+      "title": "Body Aid",
+      "markers": [
+        "| description = Gain a +1 bonus to [[Strength]] {{Saving Throw}}s and {{Ability Check}}s."
+      ]
+    }
+  ],
+  "summary": "Heavy armour with AC 19. Take 1 less Piercing damage, gain +1 to Strength checks and saves, and increase Constitution by 2 up to 20.",
+  "fields": {
+    "Armour class": "19",
+    "Training": "Heavy Armour",
+    "Stealth": "Imposes Disadvantage on Stealth checks.",
+    "Acquisition": "Ask Z’rell for additional help finding Ketheric’s relic to unlock Lann Tarv’s stock.",
+    "Base value": "1900 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

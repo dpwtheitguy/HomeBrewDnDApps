@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:3462",
+  "title": "The Ever-Seeing Eye",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "The Ever-Seeing Eye",
+      "revision": 424001,
+      "markers": [
+        "HAG_HagLair_EyeballNecklace"
+      ]
+    },
+    {
+      "role": "Rules: Protection from Evil and Good",
+      "title": "Protection from Evil and Good",
+      "revision": 444607,
+      "markers": [
+        "| description = Protect an ally against the attacks and powers of [[aberrations]], [[celestials]], [[elementals]], [[fey]], [[fiends]], and [[undead]]."
+      ]
+    }
+  ],
+  "summary": "Casts Protection from Evil and Good once per Short Rest.",
+  "fields": {
+    "Protection from Evil and Good": "Level 1, Action, touch, concentration until Long Rest. Aberrations, Celestials, Elementals, Fey, Fiends and Undead have Disadvantage on attacks against the protected creature. Removes existing Frightened and prevents Frightened and possession from any source. The stated Charmed immunity does not apply in game. Counters the Whispering Mask’s Part of the Flock.",
+    "Acquisition": "Treasure room in the Hag’s Lair below the Gnarled Teahouse.",
+    "Base value": "3 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:12387",
+  "title": "Thisobald's Brewed-Up Bellyglummer",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424182,
+      "title": "Thisobald's Brewed-Up Bellyglummer",
+      "markers": [
+        "UNI_Poison_Brewer"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442391,
+      "title": "Coated in Brewed-up Bellyglummer",
+      "markers": [
+        "dc=17"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442309,
+      "title": "Brewed-Up Bellyglummer",
+      "markers": [
+        "1d6|Poison"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 422609,
+      "title": "Salts of Corpse Rose",
+      "markers": [
+        "Suspension"
+      ]
+    }
+  ],
+  "summary": "Coat weapons to apply a debilitating poison on a failed DC 17 Constitution save.",
+  "fields": {
+    "Coat": "Bonus Action, single use. Coat the active weapon set for 10 turns. On hit, DC 17 Constitution save prevents Brewed-Up Bellyglummer. This bottle does not spread the effect when thrown.",
+    "Poison": "The target has disadvantage on attack rolls and ability checks, and takes 1d6 Poison at the end of its next turn. A successful save does not grant temporary inoculation, so you can try again that turn. Damage applies at most once per turn.",
+    "Alchemy": "Extract three Corpse Roses into Salts of Corpse Rose. Add any Suspension. First craft grants Notes of an Amateur to Criminals and Special Iced Arsenic… Brew? to Guild Artisans.",
+    "Reported interactions": "Even a successful save can trigger the hidden application interaction with Boots of Stormy Clamour, Coldbrim Hat, or Diadem of Arcane Synergy.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:3564",
+  "title": "Amulet of Selûne's Chosen",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 415918,
+      "title": "Amulet of Selûne's Chosen",
+      "markers": [
+        "UNI_GOB_SeluneAmulet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 382808,
+      "title": "Selûne's Dream",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Once per Long Rest, touch an ally to restore 1d8 HP. The ally can fall asleep if it fails a DC 10 Constitution save.",
+  "fields": {
+    "Equipment type": "Amulets",
+    "Effect": "Selûne’s Dream is an Action once per Long Rest. Touch an ally to restore 1d8 HP. The target makes a DC 10 Constitution save or gains Sleeping for 2 turns.",
+    "Base value": "65 gp in BG3. Merchant prices vary.",
+    "Limits": "No effect on Undead or Constructs."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

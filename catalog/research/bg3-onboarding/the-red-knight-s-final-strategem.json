@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:11531",
+  "title": "The Red Knight's Final Strategem",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424091,
+      "title": "The Red Knight's Final Strategem",
+      "markers": [
+        "* Reading the book produces a {{SmRarityItem|Scroll of Artistry of War}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 422742,
+      "title": "Scroll of Artistry of War",
+      "markers": [
+        "transcribed"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 382901,
+      "title": "Curriculum of Strategy: Artistry of War",
+      "markers": [
+        "12d6 + 36"
+      ]
+    }
+  ],
+  "summary": "Reading produces a Scroll of Artistry of War.",
+  "fields": {
+    "Scroll": "Read the book to obtain one scroll. A Wizard can transcribe it as a level 5 spell with Short Rest recharge.",
+    "Artistry of War": "Action, up to 60 ft. Six selectable darts for 2d6 + 6 Force each, 12d6 + 36 total if all hit the same target.",
+    "Acquisition": "Hidden room in the Sorcerous Vault, X 368, Y 1057. DC 15 Perception can reveal the button.",
+    "Base value": "2000 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

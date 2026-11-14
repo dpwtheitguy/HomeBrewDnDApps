@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:44953",
+  "title": "Nightsong's Armour",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421323,
+      "title": "Nightsong's Armour",
+      "markers": [
+        "| uid = ARM_Nightsong"
+      ]
+    },
+    {
+      "role": "Rules: Superior Plate (-1)",
+      "revision": 433317,
+      "title": "Superior Plate (-1)",
+      "markers": [
+        "| summary = '''Superior Plate''' is a passive feature that lets the owner take less piercing damage."
+      ]
+    },
+    {
+      "role": "Rules: Aylin",
+      "revision": 440049,
+      "title": "Aylin",
+      "markers": [
+        "{{CombatTab}}"
+      ]
+    }
+  ],
+  "summary": "Aylin’s Heavy Armour gives AC 19 and reduces incoming Piercing damage by 1.",
+  "fields": {
+    "Armour Class": "19, including its +1 enchantment. Heavy Armour adds no Dexterity modifier and imposes disadvantage on Stealth checks.",
+    "Superior Plate": "Reduce incoming Piercing damage by 1.",
+    "Availability": "NPC equipment only. The pinned source marks this inaccessible to players.",
+    "Base value": "800 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

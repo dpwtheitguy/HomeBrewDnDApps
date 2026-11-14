@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:11397",
+  "title": "Potion of Angelic Reprieve",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421933,
+      "title": "Potion of Angelic Reprieve",
+      "markers": [
+        "ALCH_Solution_Potion_Rest_Lesser"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 436496,
+      "title": "Potion of Angelic Relief (condition)",
+      "markers": [
+        "If interrupted"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 440905,
+      "title": "Potions",
+      "markers": [
+        "Potions of Angelic Reprieve can only be bought from"
+      ]
+    }
+  ],
+  "summary": "Sleep for two rounds to receive a Short Rest and restore level 1 and 2 spell slots.",
+  "fields": {
+    "Drink": "Bonus Action, single use. The displayed condition is Angelic Relief. Restores all level 1 and 2 spell slots and applies Short Rest effects only if the two-round sleep finishes. It works with Fey Ancestry. The completed Short Rest also restores Warlock Pact Magic slots.",
+    "Recovery limits": "Does not restore Divination Wizard prophecies or equipment cooldowns tracked once per Short Rest per item. Equipment cooldowns tracked once per Short Rest without the per-item qualifier can refresh.",
+    "Availability": "Sold by Lann Tarv and Lucretious. The shared Potions table also lists Koll. The item source reports the Unicorn Horn component is unavailable, so its recipe cannot be made in normal play.",
+    "Base value": "90 gp nominal BG3 value.",
+    "Recipe availability": "The intended recipe is Essence of Unicorn Horn plus any Salt. Unicorn Horn is unavailable, so the potion cannot be crafted in normal play."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

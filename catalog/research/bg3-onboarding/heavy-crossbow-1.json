@@ -1,0 +1,51 @@
+{
+  "item_id": "bg3-wiki:3371",
+  "title": "Heavy Crossbow +1",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419424,
+      "title": "Heavy Crossbow +1",
+      "markers": [
+        "WPN_HUM_HeavyCrossbow_A_1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341904,
+      "title": "Heavy Crossbows",
+      "markers": [
+        "| damage = 1d10"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Brace (Ranged)",
+      "revision": 439120,
+      "markers": [
+        "| cost = movement m:6"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Piercing Shot",
+      "revision": 421804,
+      "markers": [
+        "| save = CON"
+      ]
+    }
+  ],
+  "summary": "A +1 martial two-handed heavy crossbow.",
+  "fields": {
+    "Damage": "1d10 + 1 Piercing",
+    "Range": "60 ft ranged.",
+    "Training": "martial",
+    "Handling": "two-handed",
+    "Enchantment": "+1",
+    "Base value": "85 gp in BG3. Merchant prices vary.",
+    "Properties": "Heavy, ammunition, loading, dippable, two-handed.",
+    "Brace (Ranged)": "With weapon proficiency, spend 20 ft of movement once per Short Rest. For the rest of the turn, roll ranged damage twice and use the higher roll. Breaks Hiding and Invisibility.",
+    "Piercing Shot": "With proficiency, Action once per Short Rest. Make a ranged weapon attack. On hit, the target makes a Constitution save against weapon-action DC +2. Failure causes Gaping Wounds for 2 turns, or 4 with Crossbow Expert: Wounding. Undead and Constructs are immune to this rider."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:19226",
+  "title": "Zhentarim Shipping Crate",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Zhentarim Shipping Crate",
+      "revision": 425115,
+      "markers": [
+        "CONT_Zhentarim_Barrel_Metal_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Caustic Brine",
+      "revision": 438131,
+      "markers": [
+        "damage (no {{SavingThrow}})"
+      ]
+    }
+  ],
+  "summary": "Moonrise shipment with parasite specimens and a 20 ft Caustic Brine spill.",
+  "fields": {
+    "Pickup": "Picking up the crate adds two Mind Flayer Parasite Specimens. The source notes the pickup route depends on the character having consumed their first tadpole.",
+    "Throw or destroy": "Break it or use Throw to burst it and create a 20 ft radius Caustic Brine surface. It deals 1d4 Acid on entry and 1d4 Acid per turn while occupied, with no save. Fire or contact with a Burning creature or object converts it into a Fire surface with a harmless explosion. Dropped potions shatter on contact and leave their effects on the ground.",
+    "Contents": "Destroying the crate leaves three dead tadpoles. If it was not collected first, or its collector had never consumed a tadpole, it also leaves two specimens. Without contact with Fire a live tadpole can scurry away. Killing it gives 110 XP. The crate also contains three random grenades.",
+    "Examine and acquire": "At the Moonrise Towers docks (−70, −186). Examine with DC 16 Investigation or use the available familiar-seal dialogue branch.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

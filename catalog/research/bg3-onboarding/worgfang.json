@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:3015",
+  "title": "Worgfang",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Worgfang",
+      "revision": 424991,
+      "markers": [
+        "S_GOB_WolfPens_BloodFang"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Goblin's Undoing",
+      "revision": 432601,
+      "markers": [
+        "Disadvantage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Piercing Strike",
+      "revision": 374168,
+      "markers": [
+        "Gaping Wounds"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Gaping Wounds",
+      "revision": 443536,
+      "markers": [
+        "Honour Mode"
+      ]
+    }
+  ],
+  "summary": "A dagger that gives goblins Disadvantage when attacking the wielder.",
+  "fields": {
+    "Weapon profile": "Simple one-handed Light, Finesse, Thrown and Dippable dagger. 5 ft melee. Hit for 1d4 Piercing plus Strength or Dexterity.",
+    "Goblin’s Undoing": "Goblins have Disadvantage on attack rolls against the wielder.",
+    "Piercing Strike": "Action with proficiency once per Short Rest. Deal melee weapon damage. A Constitution save against weapon-action DC +2 prevents Gaping Wounds for 2 turns. Undead and Constructs are immune. While affected, successful attacks deal 2 extra Piercing, or damage sources deal 2 extra of their own type in Honour Mode. Healing removes it.",
+    "Acquisition": "Bone pile in a Worg Pens cell (386, −17).",
+    "Base value": "260 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

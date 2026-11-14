@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:3625",
+  "title": "Circlet of Fire",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417076,
+      "title": "Circlet of Fire",
+      "markers": [
+        "Fiery Return"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432561,
+      "title": "Fiery Return",
+      "markers": [
+        "| description = When you deal {{DamageType|Fire}} damage with a levelled spell, you {{Cond|Burning|Burn}} yourself and gain an additional {{r|bonus}} this round."
+      ]
+    }
+  ],
+  "summary": "Qualifying Fire spells and melee spell attacks grant a Bonus Action and make you Burn for 2 turns.",
+  "fields": {
+    "Fiery Return": "Deal Fire damage with a leveled spell or melee spell attack to gain a Bonus Action this round and become Burning for 2 turns. A cantrip can qualify if it uses a melee spell attack, such as Fire Bolt with Daredevil Gloves.",
+    "Availability": "Early Access only. The launch version does not include this item.",
+    "Base value": "220 gp in BG3. Merchant prices vary.",
+    "Reported behavior": "Searing Smite fails to trigger it. A qualifying Bonus Action can spend the extra Bonus Action as soon as it is granted."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Expanded the card from the pinned item and linked gameplay evidence."
+}

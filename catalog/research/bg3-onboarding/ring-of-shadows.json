@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:8167",
+  "title": "Ring of Shadows",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Ring of Shadows",
+      "revision": 437945,
+      "markers": [
+        "MAG_PassWithoutTrace_Ring"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Pass Without Trace",
+      "revision": 421704,
+      "markers": [
+        "| aoe m = 9"
+      ]
+    }
+  ],
+  "summary": "Cast Pass Without Trace once per Long Rest.",
+  "fields": {
+    "Pass Without Trace": "Level 2, Action on yourself once per Long Rest. While concentrating until Long Rest, you and allies within 30 ft gain +10 to Stealth checks.",
+    "Acquisition": "Play both rounds of hide-and-seek with Oliver at the House in Deep Shadows. Winning is optional.",
+    "Base value": "70 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

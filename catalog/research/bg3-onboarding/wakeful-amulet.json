@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:56954",
+  "title": "Wakeful Amulet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424733,
+      "title": "Wakeful Amulet",
+      "markers": [
+        "MAG_WYRM_SleepImmunity_Amulet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 424734,
+      "title": "Wakefulness",
+      "markers": [
+        "can't be unwillingly"
+      ]
+    }
+  ],
+  "summary": "Inaccessible amulet prevents involuntary Sleep.",
+  "fields": {
+    "Wakefulness": "While equipped, protects against effects that would put you to sleep against your will. You can still rest voluntarily.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

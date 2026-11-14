@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:8287",
+  "title": "White and Scarlet Dye",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "White and Scarlet Dye",
+      "revision": 424851,
+      "markers": [
+        "LOOT_Dye_RedWhite_01"
+      ]
+    },
+    {
+      "role": "Rules: Dyes",
+      "title": "Dyes",
+      "revision": 405683,
+      "markers": [
+        "Dye Remover"
+      ]
+    }
+  ],
+  "summary": "Single-use dye recolours compatible equipment white and scarlet.",
+  "fields": {
+    "Use": "Combine with compatible equipment or clothes. The new dye replaces a prior dye. Dye Remover restores the original colours.",
+    "Acquisition": "Possible random merchant stock starting at level 5.",
+    "Base value": "6 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

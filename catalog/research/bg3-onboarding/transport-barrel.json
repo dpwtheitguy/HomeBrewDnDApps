@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:56795",
+  "title": "Transport Barrel",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Transport Barrel",
+      "revision": 424362,
+      "markers": [
+        "Quest_DEN_GoblinBarrel"
+      ]
+    }
+  ],
+  "summary": "Ogre-tossed barrel used to carry a goblin past defenses.",
+  "fields": {
+    "Encounter": "An Ogre Brute can throw this barrel as a goblin transport.",
+    "Durability": "12 HP. Resists Piercing, is vulnerable to Bludgeoning and Fire, and is immune to Poison and Psychic. Weighs about 90 lb.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

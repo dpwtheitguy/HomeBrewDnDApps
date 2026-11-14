@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:3401",
+  "title": "Staff of Crones",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Staff of Crones",
+      "revision": 423535,
+      "markers": [
+        "S_HAG_GaleMagicItem"
+      ]
+    },
+    {
+      "role": "Rules: Ray of Sickness",
+      "title": "Ray of Sickness",
+      "revision": 328012,
+      "markers": [
+        "| description = Possibly {{Cond|Poisoned|Poisons}} the target."
+      ]
+    },
+    {
+      "role": "Rules: Topple",
+      "title": "Topple",
+      "revision": 377988,
+      "markers": [
+        "Non-lethal"
+      ]
+    },
+    {
+      "role": "Rules: Prone (condition)",
+      "title": "Prone (condition)",
+      "revision": 436524,
+      "markers": [
+        "One turn duration"
+      ]
+    }
+  ],
+  "summary": "Casts Ray of Sickness once per Short Rest.",
+  "fields": {
+    "Weapon profile": "Simple, Versatile, 5 ft melee, Dippable. 1d6 one-handed or 1d8 two-handed Bludgeoning plus Strength.",
+    "Ray of Sickness": "Level 1, Action, 60 ft, ranged spell attack for 2d8 Poison. CON save against spell save DC prevents Poisoned for 2 turns.",
+    "Acquisition": "Treasure room below Auntie Ethel’s Riverside Teahouse.",
+    "Base value": "430 gp nominal BG3 value.",
+    "Topple": "With proficiency, once per Short Rest. Action, weapon attack for 1d4 nonlethal Bludgeoning. DEX save against weapon-action DC +2 or Prone for 1 turn. Prone breaks Concentration and expires at the start of the target’s turn. Topple skips main-hand weapon effects."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

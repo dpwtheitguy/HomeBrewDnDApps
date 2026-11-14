@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:20931",
+  "title": "Salmon Pie",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422604,
+      "title": "Salmon Pie",
+      "markers": [
+        "CONS_GEN_Food_SalmonPie_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 409610,
+      "title": "Camp Supplies",
+      "markers": [
+        "At least 40 camp supplies"
+      ]
+    }
+  ],
+  "summary": "Provides 20 Camp Supplies toward a Long Rest.",
+  "fields": {
+    "Camp Supplies": "20 points. A full Long Rest normally needs 40 supplies, or 80 on Tactician and Honour.",
+    "Acquisition": "Available as loot or from traders.",
+    "Base value": "20 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

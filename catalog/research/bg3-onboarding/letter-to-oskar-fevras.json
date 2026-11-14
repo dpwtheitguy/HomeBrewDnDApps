@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:13072",
+  "title": "Letter to Oskar Fevras",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Letter to Oskar Fevras",
+      "revision": 420442,
+      "markers": [
+        "S_LOW_LetterFatherCarrion"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Free the Artist",
+      "revision": 441456,
+      "markers": [
+        "passphrase from Oskar's letter"
+      ]
+    }
+  ],
+  "summary": "Read to advance Free the Artist and learn the entrance phrase for Philgrave’s Mansion.",
+  "fields": {
+    "Read": "Advances Free the Artist toward Mystic Carrion. Say Secreta mortuorum at the mansion’s western wall to open the door. The wall can also be destroyed or lockpicked.",
+    "Acquisition": "Combine Oskar’s portrait with the empty easel in Lady Jannath’s atelier to reveal the chest behind the possessed portrait. The chest has a DC 20 lock.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 quest and Inspiration uses verified against pinned item and quest revisions."
+}

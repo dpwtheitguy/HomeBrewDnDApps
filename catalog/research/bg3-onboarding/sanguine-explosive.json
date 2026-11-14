@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:30161",
+  "title": "Sanguine Explosive",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422626,
+      "title": "Sanguine Explosive",
+      "markers": [
+        "WPN_Grenade_BloodSurface"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442329,
+      "title": "Burning (Orthonic)",
+      "markers": [
+        "1d4"
+      ]
+    }
+  ],
+  "summary": "Throw to deal 4d8 Force plus 4d8 Fire and possibly burn targets.",
+  "fields": {
+    "Throw": "Action, up to 60 ft, 7 ft radius. DC 17 Dexterity save halves both damage rolls and prevents Burning (Orthonic).",
+    "Burning": "2 turns, 1d4 Fire per turn. Help, healing potion and Wet cannot remove this variant.",
+    "Acquisition": "Araj Oblodra stocks two after each qualifying blood donation in the Lower City. Donate once per Long Rest after drinking the Mysterious Potion. No ticking mine.",
+    "Base value": "16 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

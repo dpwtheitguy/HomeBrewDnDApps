@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:11447",
+  "title": "Drunken Cloth",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438272,
+      "title": "Drunken Cloth",
+      "markers": [
+        "MAG_Drunken_Cloth"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433168,
+      "title": "Snowy Liver",
+      "markers": [
+        "| description = While {{Cond|Drunk}} you have {{Advantage}} on [[Constitution]] {{Saving Throw}}s, and you gain [[Temporary Hit Points]] equal to your [[Constitution]] Modifier at the start of your turn."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442737,
+      "title": "Drunk",
+      "markers": [
+        "| effects ="
+      ]
+    }
+  ],
+  "summary": "Unarmoured clothing with base AC 10 plus Dexterity modifier. While Drunk, gain advantage on Constitution saves and temporary HP equal to your Constitution modifier at the start of your turn.",
+  "fields": {
+    "Armour class": "10",
+    "Training": "Clothing",
+    "Drunk": "The linked condition imposes disadvantage on Dexterity and Charisma checks.",
+    "Base value": "800 gp in BG3. Merchant prices vary.",
+    "Snowy Liver": "While affected by Drunk, Alcohol, or Drunk (Drunken Master), gain advantage on Constitution saves and gain temporary HP equal to your Constitution modifier at the start of your turn."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Verified card mechanics against the cited item or linked rule."
+}

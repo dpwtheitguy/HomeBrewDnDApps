@@ -1,0 +1,73 @@
+{
+  "item_id": "bg3-wiki:31045",
+  "title": "Tough Sunrises",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Tough Sunrises",
+      "revision": 424312,
+      "markers": [
+        "MAG_Dawn_Morningstar"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Heartstopper",
+      "revision": 385459,
+      "markers": [
+        "condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Concussive Smash",
+      "revision": 373613,
+      "markers": [
+        "hybrid DC"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Dazed",
+      "revision": 442592,
+      "markers": [
+        "Dexterity"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Dice rolls",
+      "revision": 441478,
+      "markers": [
+        "Constitution"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Dawnburst Strike",
+      "revision": 394891,
+      "markers": [
+        "original target"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Tenacity",
+      "revision": 425432,
+      "markers": [
+        "Strength"
+      ]
+    }
+  ],
+  "summary": "Unobtainable +1 morningstar with a radiant area blind.",
+  "fields": {
+    "Weapon profile": "Martial one-handed morningstar, 5 ft melee and Dippable. +1 to attacks. Hit for 1d8 + 1 Piercing plus Strength.",
+    "Heartstopper": "Action once per Short Rest with proficiency. Hit for 1d4 Piercing plus attack ability modifier. Constitution save against weapon-action DC +2 prevents Chest Trauma for 2 turns. It removes one Action, leaving Bonus Actions and Reactions available. Undead and Constructs are immune.",
+    "Concussive Smash": "Action once per Short Rest with proficiency. Deal weapon damage. Constitution save against the higher of spell save DC or weapon-action DC +2 prevents Dazed for 2 turns. Dazed strips the Dexterity AC bonus, gives Disadvantage on Wisdom saves and prevents spending Reactions. Help clears it.",
+    "Tenacity": "On a main-hand melee miss, optionally spend a Reaction to deal Bludgeoning damage equal to Strength modifier, minimum 1. Uses the Tenacity reaction even when the weapon’s normal hit deals Piercing.",
+    "Dawnburst Strike": "Action with proficiency once per Short Rest. Deal melee weapon damage plus Radiant equal to proficiency bonus. On hit, nearby creatures in a 10 ft radius including allies make a Constitution save against weapon-action DC +2 or become Blinded for 3 turns. The target itself is excluded from the blind due to reported game behavior.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "No nominal BG3 value is listed in the pinned source."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,46 @@
+{
+  "item_id": "bg3-wiki:13053",
+  "title": "Regarding the Slayer",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422261,
+      "title": "Regarding the Slayer",
+      "markers": [
+        "UNI_VoloFate_SlayerBook"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433156,
+      "title": "Slayer Knowledge",
+      "markers": [
+        "entire ability"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 430866,
+      "title": "Piercing Growl",
+      "markers": [
+        "full damage on a saving throw"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438726,
+      "title": "Slayer",
+      "markers": [
+        "last class you took"
+      ]
+    }
+  ],
+  "summary": "Read to gain Slayer Knowledge and unlock Piercing Growl for an eligible Dark Urge Slayer.",
+  "fields": {
+    "Slayer Knowledge": "Reading grants a permanent passive to all characters. Gain advantage on saves against a Slayer’s Relentless Lunge and Piercing Growl, including the full ability saves rather than only their fear effects.",
+    "Piercing Growl": "Dark Urge in Slayer form. Action, 30 ft cone, 3d8 + 4 Piercing. Constitution save vs Slayer spell save DC avoids Bleeding and Fearful for 2 turns. The source reports full damage on a successful save despite the half-damage tooltip. Save DC uses the last new class’s spellcasting ability, using Slayer scores.",
+    "Acquisition": "Rescue Volo by the Lower City docks in Act Three and speak with him at camp.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

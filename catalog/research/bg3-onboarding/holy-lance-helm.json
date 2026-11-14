@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:8644",
+  "title": "Holy Lance Helm",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419557,
+      "title": "Holy Lance Helm",
+      "markers": [
+        "MAG_Radiant_Radiating_Helmet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433164,
+      "title": "Smite the Graceless",
+      "markers": [
+        "Dexterity|14"
+      ]
+    }
+  ],
+  "summary": "Gain +1 Constitution saves. An attacker who misses you can take 1d4 Radiant.",
+  "fields": {
+    "Training": "Medium Armour proficiency.",
+    "Saving throws": "+1 Constitution saves.",
+    "Smite the Graceless": "A creature that misses an attack roll against you must make a DC 14 Dexterity save. On failure it takes 1d4 Radiant.",
+    "Acquisition": "Painted chest at Rosymorn Monastery.",
+    "Base value": "115 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

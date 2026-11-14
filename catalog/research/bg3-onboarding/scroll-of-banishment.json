@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:16441",
+  "title": "Scroll of Banishment",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Banishment",
+      "revision": 422744,
+      "markers": [
+        "LOOT_SCROLL_Banishment"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Banishment",
+      "revision": 363558,
+      "markers": [
+        "Target_Banishment"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "On a failed Charisma save, banish a creature for up to 2 turns.",
+  "fields": {
+    "Cast": "Level 4. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "On a failed Charisma save, banish a creature for up to 2 turns. The creature cannot act or be targeted during banishment.",
+    "Range": "60 ft.",
+    "Concentration": "Maintain Concentration for the ongoing effect.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "180 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

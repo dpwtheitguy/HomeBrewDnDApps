@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:11738",
+  "title": "Mask of Soul Perception",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420847,
+      "title": "Mask of Soul Perception",
+      "markers": [
+        "MAG_BarbMonk_Cloth_Hat_A_2_Late"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433173,
+      "title": "Soul Perception",
+      "markers": [
+        "Initiative Rolls"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 328589,
+      "title": "Detect Thoughts",
+      "markers": [
+        "only the creature’s Intelligence is used"
+      ]
+    }
+  ],
+  "summary": "Mask gives +2 to attack rolls, initiative, and Perception checks. Cast Detect Thoughts once per Short Rest.",
+  "fields": {
+    "Soul Perception": "+2 to attack rolls, initiative, and Perception checks.",
+    "Detect Thoughts": "Level 2 spell. Action on yourself, Concentration until Long Rest. During eligible dialogue, try to read a creature’s thoughts. The implementation uses an Intelligence check, and failure can make the creature hostile.",
+    "Acquisition": "Locked gilded chest upstairs in Helsik’s room at the Devil’s Fee, X −33, Y 20. DC 20 Sleight of Hand.",
+    "Base value": "1300 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

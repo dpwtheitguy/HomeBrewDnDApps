@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:10734",
+  "title": "Psionic Ward Armour",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Psionic Ward Armour",
+      "revision": 422028,
+      "markers": [
+        "MAG_Githborn_MagicEating_HalfPlate"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Psionic Ward (passive feature)",
+      "revision": 432981,
+      "markers": [
+        "1d4|Healing"
+      ]
+    }
+  ],
+  "summary": "Medium Armour that heals on successful spell saves and gives Githyanki Psychic resistance.",
+  "fields": {
+    "Armour Class": "15 + Dexterity modifier, with up to +2 from Dexterity. Medium Armour proficiency. Disadvantage on Stealth checks.",
+    "Psionic Ward": "Regain 1d4 HP each time you succeed on a save against a spell. Githyanki wearers also gain Psychic resistance.",
+    "Acquisition": "Worn by Ch’r’ai Tska’an near the bridge to the To Baldur’s Gate waypoint in Reithwin, X −249, Y −33.",
+    "Base value": "1450 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

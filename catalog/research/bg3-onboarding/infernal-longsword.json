@@ -1,0 +1,44 @@
+{
+  "item_id": "bg3-wiki:9600",
+  "title": "Infernal Longsword",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419748,
+      "title": "Infernal Longsword",
+      "markers": [
+        "MAG_Infernal_Longsword"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432703,
+      "title": "Infernal Weapon",
+      "markers": [
+        "| description = On a hit, this weapon deals an additional {{DamageText|3|Poison}} damage and can possibly {{Cond|Poisoned|Poison}} its target."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341909,
+      "title": "Longswords",
+      "markers": [
+        "| damage = 1d8"
+      ]
+    }
+  ],
+  "summary": "A +1 longsword that adds 3 Poison damage and can Poison the target.",
+  "fields": {
+    "Damage": "1d8+1 Slashing",
+    "Range": "5 ft melee.",
+    "Training": "martial",
+    "Handling": "versatile",
+    "Enchantment": "+1",
+    "Weapon actions": "Pommel Strike, Lacerate, Rush Attack",
+    "Two-handed damage": "1d10+1 Slashing",
+    "Infernal Weapon": "On a hit, deal 3 extra Poison and force a DC 12 Constitution save. Failure inflicts Poisoned for 2 turns, imposing disadvantage on attack rolls and ability checks. The pinned source reports the save is hidden regardless of outcome.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "250 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

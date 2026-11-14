@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:9587",
+  "title": "Harper Sacredstriker",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419343,
+      "title": "Harper Sacredstriker",
+      "markers": [
+        "| uid = MAG_Harpers_OfWeapons_Quarterstaff"
+      ]
+    },
+    {
+      "role": "Rules: Spiritual Weapon",
+      "revision": 434194,
+      "title": "Spiritual Weapon",
+      "markers": [
+        "| summary = It summons a floating weapon that can attack enemies. The caster can choose between several different weapons, and each has a different [[weapon action]]."
+      ]
+    },
+    {
+      "role": "Rules: Spiritual Weapon (trident)",
+      "revision": 422832,
+      "title": "Spiritual Weapon (trident)",
+      "markers": [
+        "{{About"
+      ]
+    },
+    {
+      "role": "Rules: Topple",
+      "revision": 377988,
+      "title": "Topple",
+      "markers": [
+        "| description = Swipe at a creature to knock it {{SmCond|Prone}}."
+      ]
+    }
+  ],
+  "summary": "A +1 quarterstaff that summons a level-6 Spiritual Weapon once per Long Rest.",
+  "fields": {
+    "Weapon profile": "1d6 + 1 or 1d8 + 1 Bludgeoning, one-handed or two-handed, plus Strength modifier. Simple, versatile, 5 ft melee.",
+    "Spiritual Weapon": "Bonus Action, 60 ft. Choose one floating weapon, which acts on its own initiative for 10 turns without Concentration. At level 6 it has 36 HP and attacks for 3d8 + 1 + your spellcasting modifier Force. The attack roll adds your proficiency and spellcasting modifier. Only one Spiritual Weapon can be active at a time.",
+    "Summon defences and actions": "Immune to Poison and Psychic, resistant to other damage. It cannot make opportunity attacks. Choose Greataxe, Greatsword or Halberd for Lacerate, Maul for Concussive Smash, or Spear or Trident for Piercing Strike. Its weapon-action DC is 12.",
+    "Topple": "Action once per Short Rest with proficiency. Make a nonlethal melee attack for 1d4 Bludgeoning. Dexterity save against weapon-action DC +2 or Prone for 1 turn.",
+    "Base value": "310 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

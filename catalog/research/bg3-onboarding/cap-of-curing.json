@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:3452",
+  "title": "Cap of Curing",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416893,
+      "title": "Cap of Curing",
+      "markers": [
+        "| uid = MAG_Bard_HealingBardicInspiration_Hat"
+      ]
+    },
+    {
+      "role": "Rules: Soothing Songs",
+      "revision": 433170,
+      "title": "Soothing Songs",
+      "markers": [
+        "| summary = '''Soothing Songs''' is a passive feature that adds healing every time they inspire an ally."
+      ]
+    }
+  ],
+  "summary": "An ally you inspire with Bardic Inspiration also regains 1d6 HP.",
+  "fields": {
+    "Base value": "90 gp in BG3. Merchant prices vary.",
+    "Soothing Songs": "An ally immediately heals 1d6 HP when you give them regular Bardic Inspiration or Combat Inspiration. Alfira’s Improved Bardic Inspiration and Mantle of Inspiration do not qualify. The game does not treat this as direct healing by the wearer for effects such as Blessed Mercy."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Expanded the card from the pinned item and linked gameplay evidence."
+}

@@ -1,0 +1,64 @@
+{
+  "item_id": "bg3-wiki:9107",
+  "title": "Sword of Clutching Umbra",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Sword of Clutching Umbra",
+      "revision": 423793,
+      "markers": [
+        "MAG_Shadow_Shortsword"
+      ]
+    },
+    {
+      "role": "Rules: Shadowsoaked Blow",
+      "title": "Shadowsoaked Blow",
+      "revision": 410620,
+      "markers": [
+        "| description = Strike an enemy, adding your [[proficiency bonus]] to the damage. Moreover, if the attack hits, it deals an additional {{DamageText|1d6|Psychic|drs=t}} damage. This attack doesn't break concealment."
+      ]
+    },
+    {
+      "role": "Rules: Flourish",
+      "title": "Flourish",
+      "revision": 373786,
+      "markers": [
+        "Off Balance"
+      ]
+    },
+    {
+      "role": "Rules: Off Balance",
+      "title": "Off Balance",
+      "revision": 444158,
+      "markers": [
+        "Removed by taking damage"
+      ]
+    },
+    {
+      "role": "Rules: Piercing Strike",
+      "title": "Piercing Strike",
+      "revision": 374168,
+      "markers": [
+        "Gaping Wounds"
+      ]
+    },
+    {
+      "role": "Rules: Gaping Wounds",
+      "title": "Gaping Wounds",
+      "revision": 443536,
+      "markers": [
+        "Honour Mode"
+      ]
+    }
+  ],
+  "summary": "+1 shortsword with a concealment-preserving weapon action.",
+  "fields": {
+    "Weapon profile": "Martial, One-handed, 5 ft melee, Finesse, Light. 1d6 + 1 Piercing plus Strength or Dexterity. +1 to attack rolls.",
+    "Shadowsoaked Blow": "Action with proficiency once per Short Rest. Melee weapon attack adds proficiency bonus Piercing and 1d6 Psychic on hit. Keeps Hidden but ends Invisibility. The Psychic rider can act as a damage source even in Honour Mode.",
+    "Acquisition": "Sold by Dammon.",
+    "Base value": "190 gp nominal BG3 value.",
+    "Flourish": "With proficiency, once per Short Rest. Bonus Action, 1d4 nonlethal Bludgeoning. DEX save against weapon-action DC +2 or Off Balance for 2 turns, granting attackers Advantage and giving the target Disadvantage on STR/DEX checks. Damage or Help clears it.",
+    "Piercing Strike": "With proficiency, once per Short Rest. Action, weapon damage. CON save against weapon-action DC +2 or Gaping Wounds for 2 turns. Successful hits gain 2 Piercing. Honour Mode adds 2 of the original type to any damage source. Healing clears it. Undead and Constructs are immune."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

@@ -1,0 +1,45 @@
+{
+  "item_id": "bg3-wiki:9391",
+  "title": "Bonespike Boots",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 434160,
+      "title": "Bonespike Boots",
+      "markers": [
+        "ARM_Shoes_Barbarian_Magic_B"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432520,
+      "title": "Evasive Instinct",
+      "markers": [
+        "| description = You have a +1 bonus to {{ArmourClass}} and {{Saving Throw}}s as long as you are not wearing [[armour]] or holding a [[Shields|shield]]."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433010,
+      "title": "Refined Vaulting",
+      "markers": [
+        "| description = {{SAI|Jump}} distance is increased by {{Dist|m=1.5|ft=5}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433648,
+      "title": "Brutal Leap",
+      "markers": [
+        "| description = Leap at a target and possibly knock it {{cond|Prone}}."
+      ]
+    }
+  ],
+  "summary": "Without armour or a shield, gain +1 AC and saves. Jump 5 ft farther. Brutal Leap costs a Bonus Action and 10 ft movement once per turn, reaches about 35 ft with these boots, and enemies within 10 ft of landing make a Strength save against your spell save DC or fall Prone for 2 turns.",
+  "fields": {
+    "Effect": "Without armour or a shield, gain +1 AC and saves. Jump 5 ft farther. Brutal Leap costs a Bonus Action and 10 ft movement once per turn, reaches about 35 ft with these boots, and enemies within 10 ft of landing make a Strength save against your spell save DC or fall Prone for 2 turns.",
+    "Equipment type": "Boots",
+    "Base value": "70 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

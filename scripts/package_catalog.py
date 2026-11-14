@@ -43,13 +43,12 @@ def verify_archive(path, manifest_bytes, entries):
                     raise ValueError(f'Asset failed integrity verification: {name}')
 
 
-def package(version, output):
-    catalog = ROOT / 'catalog'
+def package(version, output, catalog=ROOT / 'catalog'):
     files = [catalog / name for name in ASSET_FILES]
     files.extend(sorted((catalog / 'supplements').glob('*.json')))
     for directory in ASSET_DIRECTORIES:
         files.extend(path for path in (catalog / directory).iterdir() if path.is_file())
-    files = {path.relative_to(ROOT).as_posix(): path for path in sorted(files)}
+    files = {'catalog/' + path.relative_to(catalog).as_posix(): path for path in sorted(files)}
 
     entries = {}
     for name, path in files.items():

@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:2397",
+  "title": "The Real Sparky Sparkswall",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424089,
+      "title": "The Real Sparky Sparkswall",
+      "markers": [
+        "MAG_ChargedLightning_StaticDischarge_Shield"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 429129,
+      "title": "Lightning Aura",
+      "markers": [
+        "Only the initial"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443871,
+      "title": "Jolted",
+      "markers": [
+        "Only blocks"
+      ]
+    }
+  ],
+  "summary": "Shield with +2 AC and a Lightning Charge-powered aura.",
+  "fields": {
+    "Armour Class": "+2 AC while equipped. Shield proficiency.",
+    "Lightning Aura": "Action once per Long Rest. Consume 3 Lightning Charges. Nearby enemies in a 20 ft radius take 1d6 Lightning, with DC 13 Dexterity save. Aura lasts 3 turns.",
+    "Jolted": "Enemies starting turns in the aura take 1d4 Lightning automatically and cannot spend the Reaction resource. Leaving the aura ends it.",
+    "Acquisition": "Locked, trapped chest.",
+    "Base value": "70 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

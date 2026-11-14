@@ -1,0 +1,20 @@
+{
+  "item_id": "bg3-wiki:6895",
+  "title": "Gloves of Dexterity",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418968,
+      "title": "Gloves of Dexterity",
+      "markers": [
+        "MAG_BG_OfDexterity_Gloves"
+      ]
+    }
+  ],
+  "summary": "Gain +1 to attack rolls. If your Dexterity is below 18, it becomes 18 while worn.",
+  "fields": {
+    "Effect": "Gain +1 to attack rolls. If your Dexterity is below 18, it becomes 18 while worn.",
+    "Base value": "300 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

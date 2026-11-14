@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12868",
+  "title": "Worg Fang",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Worg Fang",
+      "revision": 424989,
+      "markers": [
+        "ALCH_Ingredient_Part_WorgFang"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Ashes of Worg Fang",
+      "revision": 416130,
+      "markers": [
+        "any  [[Alchemy#Extractions|Salt]]"
+      ]
+    }
+  ],
+  "summary": "Alchemy ingredient for Elixir of Bloodlust.",
+  "fields": {
+    "Alchemy": "Extract 3 Worg Fangs into Ashes of Worg Fang. Add any Salt to make Elixir of Bloodlust.",
+    "Acquisition": "Worgs and eligible merchants, including Derryth Bonecloak.",
+    "Base value": "7 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

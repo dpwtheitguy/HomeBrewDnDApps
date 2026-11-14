@@ -1,0 +1,83 @@
+{
+  "item_id": "bg3-wiki:58252",
+  "title": "Netherstone-Pommelled Bloodthirst",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438102,
+      "title": "Netherstone-Pommelled Bloodthirst",
+      "markers": [
+        "S_GLO_Orin_Bhaalist_Dagger_Netherstone"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432677,
+      "title": "Improved Critical",
+      "markers": [
+        "stack"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442144,
+      "title": "Exploit Weakness",
+      "markers": [
+        "only when used in melee"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 429159,
+      "title": "True Strike Riposte",
+      "markers": [
+        "main hand weapon"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 425926,
+      "title": "True Strike",
+      "markers": [
+        "| condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442298,
+      "title": "Bound Weapon",
+      "markers": [
+        "{{condition page"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374168,
+      "title": "Piercing Strike",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443536,
+      "title": "Gaping Wounds",
+      "markers": [
+        "Honour"
+      ]
+    }
+  ],
+  "summary": "Orin’s NPC-only dagger splits into Bloodthirst and Orin’s Netherstone when looted.",
+  "fields": {
+    "Weapon profile": "1d4 + 2 Piercing plus the Finesse modifier. +2 to attack rolls. Simple one-handed melee, 5 ft. Light and Thrown.",
+    "Improved Critical": "Reduces the number needed to critically hit by 1 for all attack rolls. Stacks with other critical-threshold reductions.",
+    "Main hand": "Exploit Weakness gives the target Piercing Vulnerability for 1 turn on a melee hit.",
+    "Off hand": "+1 AC. If an enemy misses you in melee, spend a Reaction to retaliate with the main hand and gain True Strike.",
+    "Bound Weapon": "Cannot be disarmed and returns when thrown.",
+    "True Strike": "Bonus Action once per Short Rest. Concentration, up to 2 turns. Your next attack against the target has Advantage.",
+    "Piercing Strike": "Action, melee weapon damage. Constitution save against weapon-action DC +2 or Gaping Wounds for 2 turns. Undead and Constructs are immune. In standard modes hits on the target gain 2 extra Piercing damage. In Honour Mode it takes 2 extra damage of the original type from damage sources. Healing clears the condition. Once per Short Rest with proficiency.",
+    "Availability": "Carried by Orin. Looting it gives Bloodthirst and Orin’s Netherstone separately.",
+    "Base value": "640 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

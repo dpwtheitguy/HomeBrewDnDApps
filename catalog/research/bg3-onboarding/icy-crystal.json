@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:4127",
+  "title": "Icy Crystal",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438483,
+      "title": "Icy Crystal",
+      "markers": [
+        "| uuid = 35308cf1-3480-4a22-be9c-c0f41c3eb14c"
+      ]
+    },
+    {
+      "role": "Rules: Mourning Frost",
+      "revision": 438489,
+      "title": "Mourning Frost",
+      "markers": [
+        "| description = {{very rare|Mourning Frost}} is a very rare +1 [[Quarterstaves|Quarterstaff]] that enhances the wielder's {{damage type|Cold}} damaging spells with extra damage and the {{SmCond|Chilled}} condition."
+      ]
+    }
+  ],
+  "summary": "Combine Icy Crystal with the other two pieces to craft Mourning Frost.",
+  "fields": {
+    "Combination": "Mourning Frost requires Icy Crystal, Icy Helve and Icy Metal. The result is a +1 quarterstaff with a 1d4 Cold weapon damage rider.",
+    "Acquisition": "Carried by Filro the Forgotten near the Sussur Tree in the Underdark.",
+    "Base value": "180 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

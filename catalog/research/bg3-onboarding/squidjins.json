@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:25799",
+  "title": "Squidjins",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Squidjins",
+      "revision": 429228,
+      "markers": [
+        "DEC_GEN_Fireworks_Rocket_B"
+      ]
+    },
+    {
+      "role": "Rules: Colour Spray (condition)",
+      "title": "Colour Spray (condition)",
+      "revision": 434891,
+      "markers": [
+        "| effects = * Has {{Disadvantage}} on {{Attack Roll}}s. Range of attacks and spells reduced to {{Dist|m=3|ft=10}}."
+      ]
+    }
+  ],
+  "summary": "Throw a firework for 3d6 Fire and possible Colour Spray.",
+  "fields": {
+    "Throw": "Action. Firework deals 3d6 Fire. DC 12 Dexterity save against Colour Spray, which causes Disadvantage on attacks and restricts attack and spell range to 10 ft. The standard Throw option reaches 60 ft. The alternative right-click Throw option is reported to lack a range limit.",
+    "Acquisition": "Felogyr’s Fireworks.",
+    "Base value": "200 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

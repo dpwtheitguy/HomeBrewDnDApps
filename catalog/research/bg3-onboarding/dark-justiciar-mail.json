@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:3647",
+  "title": "Dark Justiciar Mail",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417529,
+      "title": "Dark Justiciar Mail",
+      "markers": [
+        "| uid = ARM_ChainShirt_Justiciar_Magic"
+      ]
+    },
+    {
+      "role": "Rules: Nightsinger's Reply",
+      "revision": 432919,
+      "title": "Nightsinger's Reply",
+      "markers": [
+        "| summary = '''Nightsinger's Reply''' is a passive feature that retaliates against enemies that hit the user with a melee attack."
+      ]
+    }
+  ],
+  "summary": "Medium Armour, base AC 13 plus up to +2 from Dexterity. While obscured, attackers that hit you in melee take 1d4 Necrotic.",
+  "fields": {
+    "Use": "Medium Armour, base AC 13 plus up to +2 from Dexterity. While obscured, attackers that hit you in melee take 1d4 Necrotic.",
+    "Base value": "280 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

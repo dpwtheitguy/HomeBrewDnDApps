@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:31774",
+  "title": "Report on Old Garlow's",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422297,
+      "title": "Report on Old Garlow's",
+      "markers": [
+        "BOOK_LOW_BlushingMermaid_HagsInformantNote"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433425,
+      "title": "Save Vanra",
+      "markers": [
+        "Grisly's true identity can also be exposed"
+      ]
+    }
+  ],
+  "summary": "Read to advance Save Vanra and expose the disguised Captain Grisly.",
+  "fields": {
+    "Quest progress": "The report supports confronting Grisly about her identity as Auntie Ethel. Its text changes depending on Mayrina’s fate in Act One.",
+    "Acquisition": "Rosewood desk in Grisly’s room at the Blushing Mermaid, X −123, Y −93.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

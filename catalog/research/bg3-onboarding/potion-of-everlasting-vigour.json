@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:10662",
+  "title": "Potion of Everlasting Vigour",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422884,
+      "title": "Potion of Everlasting Vigour",
+      "markers": [
+        "CONS_Potion_Blood_Astarion"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441542,
+      "title": "Araj Oblodra",
+      "markers": [
+        "Potion of Everlasting Vigour"
+      ]
+    }
+  ],
+  "summary": "Drink to permanently increase Strength by 2.",
+  "fields": {
+    "Drink": "Bonus Action, single use. Gain +2 Strength permanently, even above 20. It persists through death and respec. Applies after Ability Score Improvements but before capped bonuses. It does not add to an effect that sets Strength to a fixed score.",
+    "Acquisition": "Convince Astarion to bite Araj Oblodra in Moonrise Towers.",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

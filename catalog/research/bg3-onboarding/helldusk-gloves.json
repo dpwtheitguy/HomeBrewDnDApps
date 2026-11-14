@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:8541",
+  "title": "Helldusk Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419450,
+      "title": "Helldusk Gloves",
+      "markers": [
+        "MAG_Infernal_Metal_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433207,
+      "title": "Infernal Acuity",
+      "markers": [
+        "| description = You gain +1 bonus to [[Spell Attack Roll]]s and [[Spell Save DC]]."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432700,
+      "title": "Infernal Touch",
+      "markers": [
+        "| description = Your weapon attacks deal an additional {{DamageText|1d6|Fire}} damage. Your unarmed attacks deal an additional {{DamageText|1d6|Necrotic}} damage, and can possibly inflict {{Cond|Bleeding}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 422182,
+      "title": "Rays of Fire (Cantrip)",
+      "markers": [
+        "| description = Hurl 3 rays of fire. Each ray deals {{DamageText|3d6|Fire}} damage."
+      ]
+    }
+  ],
+  "summary": "Gain +1 Strength saves, spell attack rolls and spell save DC. Add Fire to weapon hits or Necrotic to unarmed hits.",
+  "fields": {
+    "Infernal Touch": "Weapon hits add 1d6 Fire. Unarmed hits add 1d6 Necrotic and force DC 15 Constitution against Bleeding for 2 turns.",
+    "Rays of Fire": "Action once per Short Rest. Make three ranged spell attacks up to 60 ft away. Each ray deals 3d6 Fire on a hit.",
+    "Base value": "540 gp in BG3. Merchant prices vary.",
+    "Infernal Acuity": "+1 spell save DC. The tooltip shows +1 to spell attack rolls, but the pinned source reports it applies to all attack rolls.",
+    "Strength saves": "+1 to Strength saving throws."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

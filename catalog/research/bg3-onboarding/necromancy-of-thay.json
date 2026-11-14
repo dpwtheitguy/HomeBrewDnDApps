@@ -1,0 +1,142 @@
+{
+  "item_id": "bg3-wiki:3732",
+  "title": "Necromancy of Thay",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 440450,
+      "title": "Necromancy of Thay",
+      "markers": [
+        "S_FOR_DangerousBook_Tome"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437850,
+      "title": "Unlock the Ancient Tome",
+      "markers": [
+        "Danse Macabre"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 408814,
+      "title": "Search the Cellar",
+      "markers": [
+        "Necromancy of Thay"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 403796,
+      "title": "Destroy the Ancient Tome",
+      "markers": [
+        "Radiant"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 425306,
+      "title": "Dark Amethyst",
+      "markers": [
+        "Necromancy of Thay"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444647,
+      "title": "Whispers of Madness (condition)",
+      "markers": [
+        "Removed after long rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442158,
+      "title": "Baleful Knowledge",
+      "markers": [
+        "Disadvantage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423421,
+      "title": "Speak with Dead",
+      "markers": [
+        "| level = 3"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432576,
+      "title": "Forbidden Knowledge",
+      "markers": [
+        "turning three pages"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 425452,
+      "title": "The Tharchiate Codex",
+      "markers": [
+        "Wisdom|20"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437204,
+      "title": "Tharchiate Withering (condition)",
+      "markers": [
+        "reduced by 5"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437202,
+      "title": "Tharchiate Vigour (condition)",
+      "markers": [
+        "20"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439295,
+      "title": "Danse Macabre",
+      "markers": [
+        "| range m = 9"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 440836,
+      "title": "Ghoul (Danse Macabre)",
+      "markers": [
+        "Danse Macabre"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 417598,
+      "title": "Death Burst (Ghoul)",
+      "markers": [
+        "| save dc = 15"
+      ]
+    }
+  ],
+  "summary": "Unlock with the Dark Amethyst. Reading can grant Speak with Dead, Forbidden Knowledge, and later Danse Macabre.",
+  "fields": {
+    "Acquire and open": "Trapped altar at X −648, Y −362 in the apothecary’s cellar under Blighted Village. Use a similar-weight object to replace it or disarm the trap. Get the Dark Amethyst in Whispering Depths at X −550, Y −350, near the Phase Spider Matriarch. Insert it in the cover.",
+    "First three pages": "Wisdom saves DC 10, 15, then 20. A Bard may use Performance DC 5, 10, and 15. A Sorcerer may use Charisma at those same DCs. Warlock Charisma DC 5 or Wizard Intelligence DC 5 can replace the first save. On page three, evil-deity Clerics including Shadowheart may use Wisdom DC 10, and Astarion may use Wisdom DC 15.",
+    "Failure": "First failed save gives Whispers of Madness. Second failed save gives Baleful Knowledge. Both impose Disadvantage on Wisdom checks. Long Rest clears Whispers; use Remove Curse for Baleful Knowledge.",
+    "Act One rewards": "Turning one page permanently grants level 3 Speak with Dead as a ritual without spending a slot. Action at 30 ft. An eligible corpse normally answers up to five questions. Recast until Long Rest. Turning three pages grants Forbidden Knowledge (+1 Wisdom checks and saving throws) even if saves fail. Successfully quelling the magic as a Bard or Sorcerer also grants the passive. Stop early and you can reopen it. Reading binds the tome to the reader; giving it to Astarion locks it to him.",
+    "Act Three unlock": "Read The Tharchiate Codex in the Sorcerous Sundries vault, then reopen the tome with its reader. DC 20 Wisdom save. Danse Macabre unlocks regardless of result. Failure gives Baleful Knowledge, removable by Remove Curse or Greater Restoration.",
+    "Codex curse": "Reading the Codex gives Tharchiate Withering (−5 Constitution). Remove Curse or Greater Restoration clears it and unlocks Tharchiate Vigour, which grants 20 temporary HP after every Long Rest. Other temporary HP sources can overwrite it.",
+    "Danse Macabre": "Level 5 spell, Action at 30 ft, once per Long Rest, no corpses needed. Summons four uncontrollable ghouls until Long Rest. Necromancy Wizard features can increase that to five tougher ghouls. When one dies, all creatures within 10 ft take 6d6 Necrotic, DC 15 Dexterity save for half. This can hit allies and chain through other ghouls. The spell uses no slot despite its tooltip. Each ghoul rolls initiative separately and is immune to Demonspirit Madness.",
+    "Destroy": "Only Radiant damage destroys the tome, spawning three hostile Shadows. Casting Knock on it instead summons one Shadow.",
+    "Base value": "14 gp in BG3. Merchant prices vary.",
+    "Inspiration": "Sages gain Secrets of the Necromancer on the first read and All Knowledge Is Worth Having when they finish unlocking the book.",
+    "Mirror of Loss": "The reader can sacrifice Forbidden Knowledge to safely gain a permanent bonus at the Mirror of Loss in the House of Grief.",
+    "Approval": "Giving the tome to Astarion: Astarion +5, Gale −5. Reading it for its secrets: Gale −5, Astarion and Karlach −1. Destroying it: Karlach, Lae’zel and Wyll +1, Astarion and Gale −5."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

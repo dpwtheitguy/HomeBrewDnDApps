@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:9108",
+  "title": "Remedial Potion",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422283,
+      "title": "Remedial Potion",
+      "markers": [
+        "ALCH_Solution_Potion_Remedy"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 422616,
+      "title": "Salts of Xorn Scales",
+      "markers": [
+        "Crafted by combining 3"
+      ]
+    }
+  ],
+  "summary": "Drink or splash to cure multiple debilitating conditions.",
+  "fields": {
+    "Drink": "Bonus Action, single use. Cures Blinded, Diseased, Poisoned and Paralyzed group conditions, Colour Spray and Silenced.",
+    "Throw": "Action up to 60 ft. Applies those removals to all creatures within 3 ft. Hazardous areas can immediately reapply a cured condition.",
+    "Alchemy": "Extract three Xorn Scales into Salts of Xorn Scales, then add any Suspension.",
+    "Acquisition": "Sold by various traders, including Lady Esther.",
+    "Base value": "25 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

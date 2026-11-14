@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:11793",
+  "title": "Nimblefinger Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421332,
+      "title": "Nimblefinger Gloves",
+      "markers": [
+        "| uid = MAG_BG_Nimblefinger_Gloves"
+      ]
+    },
+    {
+      "role": "Rules: Nimblefinger",
+      "revision": 432923,
+      "title": "Nimblefinger",
+      "markers": [
+        "| summary = '''Nimblefinger''' is a passive feature that grants bonuses to small size races."
+      ]
+    }
+  ],
+  "summary": "Gain +1 Sleight of Hand. Gnomes gain +2 Dexterity and Halflings and Dwarves gain +1 Dexterity.",
+  "fields": {
+    "Nimblefinger": "Gnomes gain +2 Dexterity. Halflings and Dwarves gain +1 Dexterity. A qualifying disguise works if applied before equipping. Dispelling it may leave the bonus active until reload. The bonus has no cap of its own and can reach 24 with the Mirror of Loss. Other capped Dexterity bonuses may fail to stack above their own caps.",
+    "Acquisition": "Sold by Bumpnagel in the Ironhand cellar at Rivington.",
+    "Base value": "160 gp in BG3. Merchant prices vary.",
+    "Sleight of Hand": "+1 to Sleight of Hand checks."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

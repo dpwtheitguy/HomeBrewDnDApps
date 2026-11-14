@@ -1,0 +1,52 @@
+{
+  "item_id": "bg3-wiki:3789",
+  "title": "Potion of Animal Speaking",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 425903,
+      "title": "Potion of Animal Speaking",
+      "markers": [
+        "usage cost = bonus action",
+        "price = 13",
+        "condition duration = Long Rest",
+        "Essence of Acorn Truffle"
+      ]
+    },
+    {
+      "role": "Applied condition",
+      "revision": 437010,
+      "title": "Speak with Animals (condition)",
+      "markers": [
+        "communicate with [[beasts]]"
+      ]
+    },
+    {
+      "role": "Shared potion rules",
+      "revision": 440905,
+      "title": "Potions",
+      "markers": [
+        "LgRarityItem|Potion of Animal Speaking",
+        "Other potions simply have no effect"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 418274,
+      "title": "Essence of Acorn Truffle",
+      "markers": [
+        "Crafted by combining 3"
+      ]
+    }
+  ],
+  "summary": "Drink as a Bonus Action to understand and speak with beasts until the next Long Rest.",
+  "fields": {
+    "Activation": "Bonus Action. Consume one bottle to gain Speak with Animals until the next Long Rest.",
+    "Throw": "Throwing the potion does not apply the effect.",
+    "Crafting": "Extract three Acorn Truffles into Essence of Acorn Truffle and add any Salt.",
+    "Creative use": "Drink before talking to animals that may have witnessed an event.",
+    "Base value": "13 gp in BG3. Merchant prices vary.",
+    "Acquisition": "Sources include Arron, Derryth Bonecloak, Sister Lidwin, Volo and the ground near the Selûnite chest in the Owlbear Nest. Digital Deluxe includes one at camp."
+  },
+  "changes": "Added source-reviewed native BG3 gameplay, consumption, and crafting details."
+}

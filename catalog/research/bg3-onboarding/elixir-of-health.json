@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:24684",
+  "title": "Elixir of Health",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418152,
+      "title": "Elixir of Health",
+      "markers": [
+        "CONS_ElixirOfHealth_DONOTUSE"
+      ]
+    }
+  ],
+  "summary": "Remove Poisoned, Blinded, Petrified and Diseased effects.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle. Remove Poisoned, Blinded, Petrified and Diseased effects.",
+    "Reported game behavior": "The tooltip refers to Paralysed, but the source reports that it removes Petrified instead.",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

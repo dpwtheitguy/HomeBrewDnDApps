@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:10367",
+  "title": "Aberration Hunters' Amulet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 415736,
+      "title": "Aberration Hunters' Amulet",
+      "markers": [
+        "CRE_MAG_Githborn_Amulet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432016,
+      "title": "Aberration Hunter",
+      "markers": [
+        "| summary ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 282647,
+      "title": "Ancient Grudges",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "A githyanki wearer gains advantage on Intelligence saves. The passive also lists disadvantage on aberrations’ attack rolls against the wearer, with a reported bug. Ancient Grudges is a Bonus Action once per Short Rest that grants advantage on attacks against aberrations.",
+  "fields": {
+    "Equipment type": "Amulets",
+    "Effect": "A Githyanki wearer, including a character disguised as Githyanki, gains Advantage on Intelligence saves. The passive lists Disadvantage on aberrations’ attacks against the wearer, with a reported bug.",
+    "Base value": "65 gp in BG3. Merchant prices vary.",
+    "Ancient Grudges": "Bonus Action on yourself, once per Short Rest. Gain Advantage on attacks against Aberrations for 3 turns."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

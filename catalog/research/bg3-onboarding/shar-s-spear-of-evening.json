@@ -1,0 +1,82 @@
+{
+  "item_id": "bg3-wiki:12123",
+  "title": "Shar's Spear of Evening",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438128,
+      "title": "Shar's Spear of Evening",
+      "markers": [
+        "MAG_SHA_SharBlessing_Spear"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433120,
+      "title": "Shar's Blessing",
+      "markers": [
+        "only applies to"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432123,
+      "title": "Blind Immunity",
+      "markers": [
+        "magical darkness"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438346,
+      "title": "Shar's Darkness",
+      "markers": [
+        "| recharge = Per turn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374223,
+      "title": "Rush Attack",
+      "markers": [
+        "| range m = 9"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444158,
+      "title": "Off Balance",
+      "markers": [
+        "Removed by taking damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373912,
+      "title": "Maiming Strike",
+      "markers": [
+        "Flying creatures can't"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443966,
+      "title": "Maimed",
+      "markers": [
+        "reduced to 0"
+      ]
+    }
+  ],
+  "summary": "Legendary +3 spear with Blind immunity, benefits from obscurity, and repeatable Darkness.",
+  "fields": {
+    "Weapon profile": "1d6 + 3 Piercing one-handed or 1d8 + 3 two-handed, plus Strength. +3 to attack. Simple, versatile, thrown, dippable, 5 ft melee.",
+    "Shar’s Blessing": "The tooltip describes advantage on saves while obscured. The source reports Dexterity saves only. Weapon attacks gain 1d6 damage against obscured creatures, including attacks made with another weapon.",
+    "Blind Immunity": "Cannot be Blinded and can see through magical Darkness.",
+    "Shar’s Darkness": "Level 2 Action, 60 ft, once per turn. Creates a 17 ft radius heavily obscuring cloud for up to 10 turns with Concentration. It blinds creatures inside and blocks ranged attacks into or out of the cloud.",
+    "Rush Attack": "Action with proficiency, once per Short Rest. Charge up to 30 ft and strike first non-allied creature or object for 1d4 + attack ability modifier Piercing. Strength save vs weapon-action DC avoids Off Balance for 2 turns. Off Balance gives disadvantage on Strength and Dexterity checks and advantage to attackers. Help or damage ends it.",
+    "Maiming Strike": "Action with proficiency, once per Short Rest. Melee attack for 1d4 + attack ability modifier Piercing. Constitution save vs weapon-action DC +2 avoids Maimed for 2 turns. Flying creatures cannot be Maimed. Maimed stops movement and gives disadvantage on Dexterity saves. Healing removes it.",
+    "Acquisition": "Bring Shadowheart and the Spear of Night into Shadowfell, then kill Nightsong as part of The Chosen of Shar.",
+    "Base value": "640 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

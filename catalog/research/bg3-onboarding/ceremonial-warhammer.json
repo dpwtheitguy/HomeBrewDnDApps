@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:10852",
+  "title": "Ceremonial Warhammer",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416958,
+      "title": "Ceremonial Warhammer",
+      "markers": [
+        "| uid = S_CRE_Abbot3_Weapon"
+      ]
+    }
+  ],
+  "summary": "A +1 warhammer used in the Dawnmasters Memorial puzzle at Rosymorn Monastery.",
+  "fields": {
+    "Weapon damage": "1d8 + 1 Bludgeoning one-handed or 1d10 + 1 Bludgeoning two-handed.",
+    "Puzzle use": "Place on its matching weapon pedestal in the Rosymorn Monastery chapel.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

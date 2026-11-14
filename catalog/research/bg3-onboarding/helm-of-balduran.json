@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:10321",
+  "title": "Helm of Balduran",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 432390,
+      "title": "Helm of Balduran",
+      "markers": [
+        "MAG_WYRM_OfBalduran_Helmet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432103,
+      "title": "Balduran's Vitality",
+      "markers": [
+        "| description = The helmet heals you {{DamageText|2|Healing}} at the beginning of every turn."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432102,
+      "title": "Balduran's Favour",
+      "markers": [
+        "| description = You have a +1 bonus to {{Armour Class}} and {{Saving Throw}}s."
+      ]
+    }
+  ],
+  "summary": "Heal 2 HP at the start of each turn, gain +1 AC and saves, and become immune to Stunned and critical hits.",
+  "fields": {
+    "Base value": "760 gp in BG3. Merchant prices vary.",
+    "Training": "Medium Armour proficiency.",
+    "Balduran’s Vitality": "Heal 2 HP at the start of each turn.",
+    "Balduran’s Favour": "+1 to AC and saving throws.",
+    "Immunities": "You cannot be Stunned and attackers cannot land critical hits on you."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

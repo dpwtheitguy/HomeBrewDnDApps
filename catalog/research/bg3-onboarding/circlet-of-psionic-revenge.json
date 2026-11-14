@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:8741",
+  "title": "Circlet of Psionic Revenge",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417079,
+      "title": "Circlet of Psionic Revenge",
+      "markers": [
+        "CRE_MAG_Psychic_Githborn_Circlet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432979,
+      "title": "Psionic Revenge",
+      "markers": [
+        "| description = When you succeed a {{SavingThrow}}, the foe that caused the throw takes {{DamageText|1d4|Psychic}}. [[Githyanki]] also gain a +1 bonus to [[Intelligence]], [[Wisdom]], and [[Charisma]] {{SavingThrow}}s."
+      ]
+    }
+  ],
+  "summary": "When you succeed on a saving throw caused by a foe, the foe takes 1d4 Psychic. Githyanki also gain +1 to Intelligence, Wisdom and Charisma saves.",
+  "fields": {
+    "Effect": "When you succeed on a saving throw caused by a foe, the foe takes 1d4 Psychic. Githyanki also gain +1 to Intelligence, Wisdom and Charisma saves.",
+    "Base value": "240 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

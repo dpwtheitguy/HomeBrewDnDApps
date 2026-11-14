@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:13768",
+  "title": "Fungal Bamboozler",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 442949,
+      "title": "Fungal Bamboozler",
+      "markers": [
+        "ALCH_Solution_Grenade_SporesConfusion"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442300,
+      "title": "Timmask Spores (cloud)",
+      "markers": [
+        "| condition dc = 10"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442180,
+      "title": "Befuddled (Timmask Spores)",
+      "markers": [
+        "wander"
+      ]
+    }
+  ],
+  "summary": "Throw one grenade to create a 7 ft spore cloud for 2 turns. A separate blast can deal Poison damage.",
+  "fields": {
+    "Throw": "Action. Throw to a point within 60 ft and consume the grenade. Creates a 7 ft radius Timmask Spore cloud lasting 2 turns.",
+    "Blast": "The initial blast can deal 2d4 + 1 Poison. The pinned item notes report it uses a spell attack.",
+    "Cloud": "Creatures make a DC 10 Constitution save at the start and end of their turns. On failure, Befuddled lasts through the end of the affected creature’s turn. It loses control and wanders. Another grenade can still damage creatures in an existing spore cloud, but does not reapply Befuddled until they leave.",
+    "Crafting": "Combine Essence of Timmask Spores with any Salt.",
+    "Base value": "20 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

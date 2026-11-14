@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:55677",
+  "title": "Key (Treasure Hunter)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Key (Treasure Hunter)",
+      "revision": 430683,
+      "markers": [
+        "| usage = * Opens the wooden chest at {{coords|29|63}} on the second floor of a ruined building with the {{SmRarityItem|Ring of Self Immolation}} inside."
+      ]
+    }
+  ],
+  "summary": "Opens the second-floor wooden chest containing the Ring of Self Immolation at X 29, Y 63.",
+  "fields": {
+    "Lock": "Opens the second-floor wooden chest containing the Ring of Self Immolation at X 29, Y 63.",
+    "Acquisition and access": "Beside a skeleton at X 28, Y 53 in the Shadow-Cursed Lands.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added the exact lock and acquisition from the pinned native item rules."
+}

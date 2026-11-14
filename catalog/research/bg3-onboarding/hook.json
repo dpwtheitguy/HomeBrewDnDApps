@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:14188",
+  "title": "Hook",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 441120,
+      "title": "Hook",
+      "markers": [
+        "LOOT_Underdark_Hook_Horror_Claw_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 422861,
+      "title": "Elixir of Vigilance",
+      "markers": [
+        "Sublimate of Bloodstained Hook"
+      ]
+    }
+  ],
+  "summary": "Extract three Hooks to make Sublimate of Bloodstained Hook for Elixir of Vigilance.",
+  "fields": {
+    "Alchemy": "Extract three Hooks, then combine the Sublimate of Bloodstained Hook with any Ashes for Elixir of Vigilance.",
+    "Acquisition": "Carried by Hook Horrors and sold by Popper.",
+    "Base value": "5 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:32926",
+  "title": "Gift from the Absolute",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418883,
+      "title": "Gift from the Absolute",
+      "markers": [
+        "| uid = Item_UNI_TadpolePowerJar_Absolute"
+      ]
+    },
+    {
+      "role": "Rules: Mind Flayer Parasite Specimen",
+      "revision": 433754,
+      "title": "Mind Flayer Parasite Specimen",
+      "markers": [
+        "| description = The {{story|Mind Flayer Parasite Specimen}} is a story item in Baldur's Gate 3."
+      ]
+    },
+    {
+      "role": "Rules: Illithid powers",
+      "revision": 440254,
+      "title": "Illithid powers",
+      "markers": [
+        "| description = Illithid powers are special abilities tied to the mind flayer tadpoles infecting the player character, their Origin companions, and some other companions."
+      ]
+    }
+  ],
+  "summary": "Grants one tadpole to spend on an Illithid Power after that skill tree opens.",
+  "fields": {
+    "Inventory behavior": "The specimen can remain in inventory before the skill tree unlocks. Once unlocked, collected specimens are credited directly to that skill tree.",
+    "Base value": "100 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

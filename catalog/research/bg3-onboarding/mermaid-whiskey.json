@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:15502",
+  "title": "Mermaid Whiskey",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420920,
+      "title": "Mermaid Whiskey",
+      "markers": [
+        "CONS_Drink_Valuable_Mermaid_Whiskey_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437839,
+      "title": "Alcohol (condition)",
+      "markers": [
+        "Disadvantage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 385878,
+      "title": "Alcohol (surface)",
+      "markers": [
+        "| description = Flammable."
+      ]
+    }
+  ],
+  "summary": "Use as 6 Camp Supplies, drink it to gain Alcohol, or throw it to create a flammable spill.",
+  "fields": {
+    "Camp Supplies": "6 toward a Long Rest.",
+    "Drink": "Bonus Action. Gain Alcohol for 2 turns, imposing disadvantage on Dexterity and Charisma checks.",
+    "Throw": "Action. Create a permanent 13 ft radius Alcohol surface. Fire ignites it and Cold freezes it.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

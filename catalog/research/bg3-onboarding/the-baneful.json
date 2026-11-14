@@ -1,0 +1,73 @@
+{
+  "item_id": "bg3-wiki:8149",
+  "title": "The Baneful",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437914,
+      "title": "The Baneful",
+      "markers": [
+        "MAG_Bonded_Baneful_Shortsword"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432548,
+      "title": "Favoured Weapon",
+      "markers": [
+        "+1 bonus"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432104,
+      "title": "Baneful Bond",
+      "markers": [
+        "| condition dc = 14"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 434569,
+      "title": "Bane (condition)",
+      "markers": [
+        "-1d4"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373786,
+      "title": "Flourish",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374168,
+      "title": "Piercing Strike",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443536,
+      "title": "Gaping Wounds",
+      "markers": [
+        "Honour"
+      ]
+    }
+  ],
+  "summary": "+1 shortsword gains another +1 and can Bane on hit when bound.",
+  "fields": {
+    "Weapon profile": "1d6 + 1 Piercing plus Strength or Dexterity. +1 to attacks. Martial, one-handed, Finesse, Light and Dippable, 5 ft melee.",
+    "Favoured Weapon": "Binding it through Eldritch Knight Weapon Bond, Pact Weapon or Hexed Weapon adds another +1 to attack and damage.",
+    "Baneful Bond": "While bound, on hit a failed DC 14 Charisma save inflicts Bane for 2 turns. Bane subtracts 1d4 from attack rolls and saves. The combat log does not show the save.",
+    "Flourish": "Bonus Action once per Short Rest with proficiency. Melee weapon attack for 1d4 nonlethal Bludgeoning. Dexterity save against weapon-action DC +2 or Off Balance for 2 turns.",
+    "Piercing Strike": "Action once per Short Rest with proficiency. Weapon damage on hit. Constitution save against weapon-action DC +2 or Gaping Wounds for 2 turns. Undead and Constructs are immune. Healing removes it. Standard-mode hits deal 2 extra Piercing. In Honour Mode, qualifying damage sources deal 2 extra of their original damage type.",
+    "Acquisition": "Buy from Blurg.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

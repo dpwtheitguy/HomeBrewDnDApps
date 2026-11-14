@@ -1,0 +1,46 @@
+{
+  "item_id": "bg3-wiki:9622",
+  "title": "Thermoarcanic Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437775,
+      "title": "Thermoarcanic Gloves",
+      "markers": [
+        "MAG_Fire_HeatOnFireDamage_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432059,
+      "title": "Arcane Ashes",
+      "markers": [
+        "once per attack"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443664,
+      "title": "Heat",
+      "markers": [
+        "maximum {{duration|7}}"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432629,
+      "title": "Heat Convergence",
+      "markers": [
+        "on that first hit"
+      ]
+    }
+  ],
+  "summary": "Fire damage gives the wearer Heat.",
+  "fields": {
+    "Arcane Ashes": "Gain 2 turns of Heat once per attack when you deal Fire damage. Separate Scorching Ray hits can trigger it multiple times.",
+    "Heat": "Take 1d4 Fire at turn start. Maximum 7 turns. Heat Convergence consumes the remaining Heat on the next qualifying Fire damage to add 1 Fire per remaining turn.",
+    "Acquisition": "Kansif, at the cultist camp or after the Harper ambush.",
+    "Base value": "90 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

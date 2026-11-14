@@ -1,0 +1,98 @@
+{
+  "item_id": "bg3-wiki:8839",
+  "title": "Voss' Silver Sword",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424723,
+      "title": "Voss' Silver Sword",
+      "markers": [
+        "MAG_Primeval_Silver_Longsword"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432713,
+      "title": "Interplanar Slayer",
+      "markers": [
+        "+1d4 bonus"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 405899,
+      "title": "Wrathful Smite",
+      "markers": [
+        "| condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442923,
+      "title": "Frightened",
+      "markers": [
+        "Disadvantage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "| condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442222,
+      "title": "Bleeding",
+      "markers": [
+        "start of each turn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374173,
+      "title": "Pommel Strike",
+      "markers": [
+        "| condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442592,
+      "title": "Dazed",
+      "markers": [
+        "Wisdom"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374223,
+      "title": "Rush Attack",
+      "markers": [
+        "| range m = 9"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444158,
+      "title": "Off Balance",
+      "markers": [
+        "Removed by taking damage"
+      ]
+    }
+  ],
+  "summary": "A +2 silver longsword with Psychic damage, Interplanar Slayer and Wrathful Smite.",
+  "fields": {
+    "Weapon profile": "1d8 + 2 Slashing one-handed or 1d10 + 2 two-handed, plus Strength and 1d4 Psychic on hit. +2 attack. Martial, versatile, dippable, 5 ft melee.",
+    "Interplanar Slayer": "+1d4 attack and damage rolls against Githyanki, Aberrations, Fiends and Elementals.",
+    "Wrathful Smite": "Level 1, once per Short Rest. Melee weapon attack Action; on hit, Bonus Action and add 1d6 Psychic. Wisdom save against spell save DC prevents Frightened for 2 turns. Frightened prevents movement and gives disadvantage on attacks and ability checks. Requires Concentration. A successful save prevents Frightened and leaves the full damage.",
+    "Lacerate": "Action once per Short Rest with proficiency. On a melee hit, Constitution save against weapon-action DC +2 prevents Bleeding for 2 turns. Bleeding deals 2 Slashing at turn start, imposes disadvantage on Constitution saves, and ends on healing. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Pommel Strike": "Bonus Action once per Short Rest with proficiency. Make a melee weapon attack for 1d4 nonlethal Bludgeoning. Constitution save against weapon-action DC +2 prevents Dazed for 2 turns. Dazed removes Dexterity AC bonus and reactions that spend the Reaction resource, and gives disadvantage on Wisdom saves. Help ends it.",
+    "Rush Attack": "Action with proficiency, once per Short Rest. Charge up to 30 ft and strike the first non-allied creature or object for 1d4 + attack ability modifier Piercing. Strength save against weapon-action DC prevents Off Balance for 2 turns. Off Balance gives disadvantage on Strength and Dexterity checks and advantage to attackers. Damage or Help ends it.",
+    "Acquisition": "Carried by Voss during his Act One camp visit. The item source reports a later DC 26 pickpocket route before the Raphael conversation. Purchase no longer works after Patch 6.",
+    "Base value": "630 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

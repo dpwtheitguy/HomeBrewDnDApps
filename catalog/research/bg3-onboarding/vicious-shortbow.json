@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:11968",
+  "title": "Vicious Shortbow",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Vicious Shortbow",
+      "revision": 424657,
+      "markers": [
+        "MAG_Vicious_Shortbow"
+      ]
+    },
+    {
+      "role": "Rules: Dolor Amarus (passive feature)",
+      "title": "Dolor Amarus (passive feature)",
+      "revision": 432275,
+      "markers": [
+        "all'' weapon attacks"
+      ]
+    },
+    {
+      "role": "Rules: Hamstring Shot",
+      "title": "Hamstring Shot",
+      "revision": 373853,
+      "markers": [
+        "Hamstrung"
+      ]
+    },
+    {
+      "role": "Rules: Hamstrung",
+      "title": "Hamstrung",
+      "revision": 443629,
+      "markers": [
+        "Removed by healing"
+      ]
+    }
+  ],
+  "summary": "Dolor Amarus adds 7 damage on qualifying critical hits.",
+  "fields": {
+    "Weapon profile": "Simple two-handed shortbow, 60 ft, Dippable. +2 to attack rolls. 1d6 + 2 Piercing plus Dexterity.",
+    "Dolor Amarus": "Adds 7 damage on weapon critical hits, including attacks made with another equipped weapon. Multiple equipped copies can stack, and separate damage riders can benefit. The source reports no extra damage on unarmed or Throw critical hits.",
+    "Hamstring Shot": "Action once per Short Rest with proficiency. Deal weapon damage. Constitution save against weapon-action DC +2 or half movement for 2 turns. Healing clears it.",
+    "Acquisition": "Sold by the Echo of Abazigal after becoming an Unholy Assassin of Bhaal.",
+    "Base value": "190 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

@@ -1,0 +1,63 @@
+{
+  "item_id": "bg3-wiki:9385",
+  "title": "Duellist's Prerogative",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418009,
+      "title": "Duellist's Prerogative",
+      "markers": [
+        "MAG_TheDueller_Rapier"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432485,
+      "title": "Elegant Duellist",
+      "markers": [
+        "| description = While your off-hand is empty, you score a [[Critical Hit]] when rolling a 19. Moreover, you gain an additional {{r|reaction}} per turn."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 425439,
+      "title": "Withering Cut",
+      "markers": [
+        "| description = On a hit with a melee weapon, use a {{r|reaction}} to deal additional {{DamageType|Necrotic}} damage equal to your [[Proficiency Bonus]]."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 416976,
+      "title": "Challenge to Duel",
+      "markers": [
+        "| description = Challenge an enemy to attack only you, inflicting {{Cond|Bleeding}} on the target."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 377244,
+      "title": "Dueller's Enthusiasm",
+      "markers": [
+        "| description = While you are not dual-wielding and your off hand is empty, you can make an additional melee attack with The Dueller."
+      ]
+    }
+  ],
+  "summary": "A +3 rapier. An empty off hand improves critical hits, adds a Reaction, and allows a bonus strike.",
+  "fields": {
+    "Damage": "1d8 + 3 Piercing",
+    "Range": "5 ft melee.",
+    "Training": "martial",
+    "Handling": "one-handed",
+    "Enchantment": "+3",
+    "Weapon actions": "Flourish, Piercing Strike, Weakening Strike",
+    "Elegant Duellist": "With an empty off hand, critical hits on 19–20 and gain one additional Reaction per turn. The threshold reduction stacks with similar effects.",
+    "Withering Cut": "On a melee weapon hit, spend a Reaction to deal Necrotic damage equal to proficiency bonus.",
+    "Challenge to Duel": "Bonus Action, range 30 ft. Wisdom save against weapon-action DC or Compelled to Duel for 3 turns. This variant does not need Concentration. Hits with the rapier against the challenged target can apply Bleeding for 3 turns on a failed DC 15 Constitution save.",
+    "Dueller’s Enthusiasm": "With an empty off hand, use a Bonus Action once per turn to attack with the rapier.",
+    "Acquisition": "Speak to Lora before rescuing Vanra to qualify for the quest reward.",
+    "Base value": "1300 gp in BG3. Merchant prices vary.",
+    "Extra damage": "1d4 Necrotic on hit, independent of whether the off hand is empty."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Verified card mechanics against the cited item or linked rule."
+}

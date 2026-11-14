@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:17",
+  "title": "Adamantine Splint Armour",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437941,
+      "title": "Adamantine Splint Armour",
+      "markers": [
+        "MAG_MeleeDebuff_AttackDebuff2_OnDamage_SplintMail"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 438449,
+      "title": "Intense Adamantine Backlash",
+      "markers": [
+        "| summary ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432822,
+      "title": "Magical Plate (-2)",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Incoming damage is reduced by 2 and attackers cannot critically hit you. A melee hit against you sends the attacker Reeling for 3 turns.",
+  "fields": {
+    "Equipment type": "Heavy Armour",
+    "Training": "Heavy Armour",
+    "Base AC": "18",
+    "Effect": "Incoming damage is reduced by 2 and attackers cannot critically hit you. A melee hit against you sends the attacker Reeling for 3 turns.",
+    "Crafting": "Forge from a Splint Mould and Mithral Ore.",
+    "Base value": "3800 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 mechanics and pinned item and related rule sources."
+}

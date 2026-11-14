@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:8416",
+  "title": "Opulent Chest",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Opulent Chest",
+      "revision": 421544,
+      "markers": [
+        "CONT_GEN_Chest_Rich_C"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Medium Toughness",
+      "revision": 443599,
+      "markers": [
+        "at least 22 damage"
+      ]
+    }
+  ],
+  "summary": "Portable container that can be picked up or thrown.",
+  "fields": {
+    "Storage": "Holds inventory items. Found as set dressing or loot, with contents that vary by location.",
+    "Weight": "44 lb.",
+    "Base value": "1 gp nominal BG3 value.",
+    "Durability": "50 HP and Medium Toughness. Each individual hit must deal at least 22 damage to harm it.",
+    "Damage affinities": "Resists Piercing, Necrotic and Radiant. Vulnerable to Bludgeoning. Immune to Poison and Psychic."
+  },
+  "changes": "Added native BG3 mechanics or quest use from pinned sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

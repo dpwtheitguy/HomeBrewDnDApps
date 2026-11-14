@@ -1,0 +1,48 @@
+{
+  "item_id": "bg3-wiki:3353",
+  "title": "Spellthief",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423444,
+      "title": "Spellthief",
+      "markers": [
+        "UNI_Bow_SpellslotRecharge"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 434131,
+      "title": "Arcane Vehemence",
+      "markers": [
+        "Critical Hit"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373853,
+      "title": "Hamstring Shot",
+      "markers": [
+        "movement speed"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439120,
+      "title": "Brace (Ranged)",
+      "markers": [
+        "roll ranged damage"
+      ]
+    }
+  ],
+  "summary": "Longbow critical hit can restore a level 1 spell slot.",
+  "fields": {
+    "Weapon profile": "1d8 Piercing plus Dexterity. Martial, two-handed, 60 ft ranged.",
+    "Arcane Vehemence": "On a qualifying critical hit restore one expended regular level 1 spell slot, once per Short Rest. It does not restore Pact Magic slots. The source reports a critical hit can spend the recharge even if no slot can be restored.",
+    "Hamstring Shot": "Action with proficiency, once per Short Rest. Ranged weapon damage. Constitution save against weapon-action DC +2 prevents halved movement for 2 turns.",
+    "Brace": "Spend 20 ft movement, once per Short Rest with proficiency. Roll ranged damage twice and keep the higher roll until turn end.",
+    "Acquisition": "Arron near the Silvanus statue.",
+    "Base value": "100 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

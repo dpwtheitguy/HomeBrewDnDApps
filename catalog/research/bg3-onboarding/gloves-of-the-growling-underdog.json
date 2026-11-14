@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:4762",
+  "title": "Gloves of the Growling Underdog",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418982,
+      "title": "Gloves of the Growling Underdog",
+      "markers": [
+        "MAG_ZOC_AdvantageOnMeleeAttackWhileSurounded_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433392,
+      "title": "Underdog's Bravery",
+      "markers": [
+        "| description = The wearer gains {{Advantage}} on melee {{Attack Roll}}s while surrounded{{see bugs}} by 2 or more foes."
+      ]
+    }
+  ],
+  "summary": "Gain +1 Strength saves and conditional Advantage on melee weapon attacks.",
+  "fields": {
+    "Underdog’s Bravery": "Tooltip says you must be surrounded by two or more foes. The pinned source reports the check counts foes within 10 ft of the attack target instead. Does not apply to unarmed or melee spell attacks.",
+    "Base value": "110 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

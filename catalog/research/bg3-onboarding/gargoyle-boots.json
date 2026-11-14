@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:30952",
+  "title": "Gargoyle Boots",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418789,
+      "title": "Gargoyle Boots",
+      "markers": [
+        "| uid = MAG_BG_Gargoyle_Boots"
+      ]
+    },
+    {
+      "role": "Rules: Gargoyle's Countenance",
+      "revision": 418788,
+      "title": "Gargoyle's Countenance",
+      "markers": [
+        "| summary = This spell allows spellcasters to harden their skin, granting them Resistance to non-magical physical damage."
+      ]
+    }
+  ],
+  "summary": "Gain +2 to Dexterity saving throws and cast Gargoyle’s Countenance once per Short Rest.",
+  "fields": {
+    "Gargoyle’s Countenance": "Self, Action. For 10 turns, gain resistance to nonmagical Bludgeoning, Piercing and Slashing damage. Does not require Concentration.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "640 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

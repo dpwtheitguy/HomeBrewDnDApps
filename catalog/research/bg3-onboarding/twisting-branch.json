@@ -1,0 +1,55 @@
+{
+  "item_id": "bg3-wiki:10542",
+  "title": "Twisting Branch",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Twisting Branch",
+      "revision": 442981,
+      "markers": [
+        "WPN_Wood_Woad_Club"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Concussive Smash",
+      "revision": 373613,
+      "markers": [
+        "hybrid DC"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Dazed",
+      "revision": 442592,
+      "markers": [
+        "Dexterity"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Dice rolls",
+      "revision": 441478,
+      "markers": [
+        "Constitution"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Magic Club",
+      "revision": 432808,
+      "markers": [
+        "instead of just weapon attacks"
+      ]
+    }
+  ],
+  "summary": "A Wood Woad club. Summoned Woads can carry a magical variant.",
+  "fields": {
+    "Weapon profile": "Simple one-handed Light and Dippable club. 5 ft melee. Hit for 1d4 Bludgeoning plus Strength.",
+    "Concussive Smash": "Action once per Short Rest with proficiency. Deal weapon damage. Constitution save against the higher of spell save DC or weapon-action DC +2 prevents Dazed for 2 turns. Dazed strips the Dexterity AC bonus, gives Disadvantage on Wisdom saves and prevents spending Reactions. Help clears it.",
+    "Magic Club": "The ordinary dropped club has no Magic Club rider. The summoned version has a 3d4 Bludgeoning rider. The linked source reports the damage is nonmagical despite the text, can apply to any melee attack and triggers twice if dual wielded.",
+    "Acquisition": "Wood Woads in the Decrepit Sanctuary. A summoned Wood Woad can carry the enchanted version.",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,64 @@
+{
+  "item_id": "bg3-wiki:9579",
+  "title": "Viconia's Walking Fortress",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Viconia's Walking Fortress",
+      "revision": 428774,
+      "markers": [
+        "MAG_TheBulwark_Shield"
+      ]
+    },
+    {
+      "role": "Rules: Spellguard",
+      "title": "Spellguard",
+      "revision": 433183,
+      "markers": [
+        "| description = You gain {{Advantage}} on {{SavingThrow}}s against spells. [[Spell Attack Roll]]s against you have {{Disadvantage}}."
+      ]
+    },
+    {
+      "role": "Rules: Rebuke of the Mighty",
+      "title": "Rebuke of the Mighty",
+      "revision": 425419,
+      "markers": [
+        "requires a Strength"
+      ]
+    },
+    {
+      "role": "Rules: Bulwark Rebuke",
+      "title": "Bulwark Rebuke",
+      "revision": 388810,
+      "markers": [
+        "1d4|Force"
+      ]
+    },
+    {
+      "role": "Rules: Reflective Shell",
+      "title": "Reflective Shell",
+      "revision": 429152,
+      "markers": [
+        "Daredevil"
+      ]
+    },
+    {
+      "role": "Rules: Warding Bond",
+      "title": "Warding Bond",
+      "revision": 438798,
+      "markers": [
+        "remains active"
+      ]
+    }
+  ],
+  "summary": "Legendary +3 AC shield with spell protection, retaliation and two active powers.",
+  "fields": {
+    "Defence": "Shield proficiency, +3 AC. Advantage on saves against spells and Disadvantage on spell attack rolls against you.",
+    "Bulwark Rebuke": "Spend a Reaction when a melee attacker hits you. It makes a Strength save against your spell save DC. Failure deals 2d4 Force and knocks it Prone for 1 turn. Success takes 1d4 Force without Prone. The passive tooltip incorrectly says Dexterity.",
+    "Reflective Shell": "Bonus Action, self, once per Short Rest for 2 turns. Directly targeted projectiles reflect, including some directly aimed area projectiles. Splash alone does not reflect. Attack-roll projectiles make the attacker roll against itself, often at Disadvantage. Point-Blank Crossbow Expert and melee spell conversion can avoid that penalty.",
+    "Warding Bond": "Action, touch an ally, once per Long Rest. Until Long Rest the ally gains +1 AC and saves and resistance to all damage. The caster takes the same amount of damage the ally receives, which can break Concentration. The caster being Downed does not end it, but death does. Reciprocal bonds do not grant the protective benefits. The caster’s resistances can reduce the redirected damage. Sending the caster to camp does not end the bond. A target who has cast Warding Bond cannot receive its benefits, and removing the caster’s prepared spell ends the link.",
+    "Acquisition": "Carried by Viconia DeVir.",
+    "Base value": "760 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations. Reconciled applicable action, condition, and variant details against pinned rules."
+}

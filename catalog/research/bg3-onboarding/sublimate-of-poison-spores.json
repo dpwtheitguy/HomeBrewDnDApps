@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:14841",
+  "title": "Sublimate of Poison Spores",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Sublimate of Poison Spores",
+      "revision": 423684,
+      "markers": [
+        "ALCH_Extract_MyconidSpore_Poison"
+      ]
+    },
+    {
+      "role": "Rules: Noxious Spore Grenade",
+      "title": "Noxious Spore Grenade",
+      "revision": 421402,
+      "markers": [
+        "Sublimate of Poison Spores"
+      ]
+    }
+  ],
+  "summary": "Alchemical extract used for Noxious Spore Grenade.",
+  "fields": {
+    "Extract": "Combine 3 Poison Spores to make one Sublimate of Poison Spores.",
+    "Brew": "Combine this extract with any Ash to make Noxious Spore Grenade.",
+    "Base value": "13 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

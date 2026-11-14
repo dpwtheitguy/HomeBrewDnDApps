@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:12394",
+  "title": "Lorroakan's Contract",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424895,
+      "title": "Lorroakan's Contract",
+      "markers": [
+        "| uid = S_DEN_AdventurerNote"
+      ]
+    },
+    {
+      "role": "Rules: Find the Nightsong",
+      "revision": 440230,
+      "title": "Find the Nightsong",
+      "markers": [
+        "| description = Find the Nightsong is a quest in Act One, Act Two, and Act Three. It can be initiated by speaking with Aradin about the reason for his expedition into goblin territory, or coming across the corpses of the failed expedition."
+      ]
+    }
+  ],
+  "summary": "Read the Stamped Handbill to start Find the Nightsong. Reading reveals its title as Lorroakan’s Contract.",
+  "fields": {
+    "Acquisition": "Obtain from Aradin at the Emerald Grove or Blighted Village, or find copies in Baldur’s Gate.",
+    "Base value": "14 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

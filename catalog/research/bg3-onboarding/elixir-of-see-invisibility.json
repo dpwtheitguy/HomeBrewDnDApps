@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:13005",
+  "title": "Elixir of See Invisibility",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438289,
+      "title": "Elixir of See Invisibility",
+      "markers": [
+        "ALCH_Solution_Elixir_SeeInvisible"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438103,
+      "title": "See Invisibility (condition)",
+      "markers": [
+        "{{hatnote|For other versions of this ability, see [[See Invisibility (disambiguation)]].}}"
+      ]
+    }
+  ],
+  "summary": "Until Long Rest, detect invisible creatures within 30 ft. They must pass a Dexterity save or lose Invisibility.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle. Until Long Rest, detect invisible creatures within 30 ft. They must pass a Dexterity save or lose Invisibility.",
+    "Stacking": "Replaces other normal elixirs and can be overwritten by another.",
+    "Crafting": "Combine Suspension of Nothic Eye with any Vitriol.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

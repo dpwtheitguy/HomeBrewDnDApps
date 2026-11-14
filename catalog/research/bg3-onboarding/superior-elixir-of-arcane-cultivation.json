@@ -1,0 +1,22 @@
+{
+  "item_id": "bg3-wiki:13004",
+  "title": "Superior Elixir of Arcane Cultivation",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Superior Elixir of Arcane Cultivation",
+      "revision": 423719,
+      "markers": [
+        "ALCH_Solution_Elixir_Meditation_Superior"
+      ]
+    }
+  ],
+  "summary": "Adds one level 3 spell slot until Long Rest.",
+  "fields": {
+    "Drink": "Bonus Action. Gain one level 3 slot until Long Rest. Replaces other elixirs.",
+    "Alchemy": "Extract 3 Night Orchids into Solution of Night Orchid, then mix with any Vitriol.",
+    "Acquisition": "Semi-random levelled merchant stock from level 6.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

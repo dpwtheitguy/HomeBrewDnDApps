@@ -1,0 +1,58 @@
+{
+  "item_id": "bg3-wiki:11813",
+  "title": "Shield of the Undevout",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423149,
+      "title": "Shield of the Undevout",
+      "markers": [
+        "MAG_OB_Paladin_DeathKnight_Shield"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438215,
+      "title": "Shield Bash",
+      "markers": [
+        "Strength saving throw"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 371312,
+      "title": "Additional Spell Slot",
+      "markers": [
+        "per character"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432297,
+      "title": "Dreadful Hewer",
+      "markers": [
+        "misleading tooltips"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Shield Blow",
+      "revision": 406487,
+      "markers": [
+        "| save = STR",
+        "| save dc = caster",
+        "| condition duration = 1"
+      ]
+    }
+  ],
+  "summary": "+2 AC, an extra level 1 spell slot and Disadvantage on enemy fear saves.",
+  "fields": {
+    "Armour Class": "+2 AC while equipped. Shield proficiency.",
+    "Shield Bash": "When hit by a melee attack, spend a Reaction. The attacker makes a Strength save against your spell save DC or falls Prone for 1 turn. The tooltip instead names Dexterity.",
+    "Additional Spell Slot": "+1 level 1 spell slot. The source reports each character can gain it once per Long Rest, with an exception when converting the slot to a Sorcery Point.",
+    "Dreadful Hewer": "Foes have disadvantage on saves against your actions or spells that inflict Fearful or Frightened.",
+    "Acquisition": "Carried by That Which Guards.",
+    "Base value": "570 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

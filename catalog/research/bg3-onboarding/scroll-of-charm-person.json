@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:13780",
+  "title": "Scroll of Charm Person",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Charm Person",
+      "revision": 422757,
+      "markers": [
+        "LOOT_SCROLL_CharmPerson"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Charm Person",
+      "revision": 327980,
+      "markers": [
+        "Target_CharmPerson"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Charm a humanoid for 10 turns on a failed Wisdom save.",
+  "fields": {
+    "Cast": "Level 1. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Charm a humanoid for 10 turns on a failed Wisdom save. It has advantage on that save in combat. It cannot attack the caster and the caster has advantage on relevant dialogue checks. In higher difficulties the target may accuse you after it ends.",
+    "Range": "60 ft.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

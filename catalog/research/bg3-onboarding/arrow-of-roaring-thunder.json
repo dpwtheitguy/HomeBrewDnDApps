@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:3712",
+  "title": "Arrow of Roaring Thunder",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 413137,
+      "title": "Arrow of Roaring Thunder",
+      "markers": [
+        "ARR_Arrow_Of_Detonation",
+        "price = 20",
+        "*Deals {{InfoBlob|Weapon Damage}}"
+      ]
+    },
+    {
+      "role": "Shared arrow rules",
+      "revision": 439126,
+      "title": "Arrows",
+      "markers": [
+        "cannot be crafted",
+        "off-hand ranged attacks",
+        "no saving throws"
+      ]
+    }
+  ],
+  "summary": "Deals weapon damage. Creatures in the 7 ft-radius blast can be pushed about 16 ft. A DC 12 Strength save negates the push.",
+  "fields": {
+    "Activation": "Action. Fire from a ranged weapon and consume one arrow. Range 60 ft.",
+    "Effect": "Deals weapon damage. Creatures in the 7 ft-radius blast can be pushed about 16 ft. A DC 12 Strength save negates the push.",
+    "Restrictions": "Special arrows cannot be used with off-hand ranged attacks.",
+    "Crafting": "Special arrows are obtained from loot or vendors.",
+    "Creative use": "Push enemies away from a contested position.",
+    "Base value": "20 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 activation, effects and linked rules."
+}

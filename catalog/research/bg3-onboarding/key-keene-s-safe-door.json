@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:57286",
+  "title": "Key (Keene's Safe Door)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Key (Keene's Safe Door)",
+      "revision": 430567,
+      "markers": [
+        "| usage = * Opens all locks needed to get to the [[Guildhall#Nine-Fingers'_Office|Secret Sewer Vault]] at Nine-Fingers Keene's office in the [[Guildhall]]:"
+      ]
+    }
+  ],
+  "summary": "Opens the bookcase and doors leading into Nine-Fingers Keene’s Secret Sewer Vault.",
+  "fields": {
+    "Lock": "Opens the bookcase and doors leading into Nine-Fingers Keene’s Secret Sewer Vault.",
+    "Acquisition and access": "Carried by Nine-Fingers Keene. Use the separate Bedroom key to reach the bookcase. The safe door and interior double doors can alternatively be lockpicked at DC 30 and DC 25, respectively.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added the exact lock and acquisition from the pinned native item rules."
+}

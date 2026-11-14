@@ -1,0 +1,82 @@
+{
+  "item_id": "bg3-wiki:3570",
+  "title": "The Sparky Points",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424111,
+      "title": "The Sparky Points",
+      "markers": [
+        "MAG_ChargedLightning_Trident"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432477,
+      "title": "Electric Blood",
+      "markers": [
+        "once per attack roll"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443918,
+      "title": "Lightning Charges",
+      "markers": [
+        "lose 1 charge per turn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374223,
+      "title": "Rush Attack",
+      "markers": [
+        "| range m = 9"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444158,
+      "title": "Off Balance",
+      "markers": [
+        "Removed by taking damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374168,
+      "title": "Piercing Strike",
+      "markers": [
+        "condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443536,
+      "title": "Gaping Wounds",
+      "markers": [
+        "Honour Mode"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 417737,
+      "title": "Disarming Strike",
+      "markers": [
+        "condition dc = weapon action + 2"
+      ]
+    }
+  ],
+  "summary": "A trident that generates Lightning Charges on qualifying weapon damage.",
+  "fields": {
+    "Weapon profile": "1d6 Piercing one-handed or 1d8 two-handed, plus Strength. Martial, versatile, thrown and dippable, 5 ft melee.",
+    "Electric Blood": "Gain 2 Lightning Charges when dealing damage with this weapon, once per attack roll. Throwing the trident does not qualify.",
+    "Lightning Charges": "While charged, +1 to attack rolls and +1 Lightning damage. At 5 charges, the next qualifying damage adds 1d8 Lightning and consumes the charges. Lose one per turn. Lightning-resistant targets do not take the flat +1 Lightning damage.",
+    "Rush Attack": "Action with proficiency once per Short Rest. Charge 30 ft and strike the first non-allied creature or object for 1d4 + attack ability modifier Piercing. Strength save vs weapon-action DC prevents Off Balance for 2 turns. Off Balance gives disadvantage on Strength and Dexterity checks and advantage to attackers. Damage or Help ends it.",
+    "Piercing Strike": "Action with proficiency once per Short Rest. Melee weapon damage. Constitution save vs weapon-action DC +2 avoids Gaping Wounds for 2 turns. Undead and Constructs are immune. Standard successful attacks add 2 Piercing. Honour adds 2 of the incoming damage type even from sources without attack rolls. Healing ends it.",
+    "Disarming Strike": "Action with proficiency once per Short Rest. Melee attack for 1d4 + attack ability modifier Piercing against a creature holding a weapon. Strength save prevents dropping it. The base action lists weapon-action DC, while the applied condition lists DC +2. Damage still applies on a successful save.",
+    "Acquisition": "Choose as one of Florrick’s three rewards after rescuing her.",
+    "Base value": "390 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

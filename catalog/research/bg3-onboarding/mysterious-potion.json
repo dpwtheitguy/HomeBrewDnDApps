@@ -1,0 +1,46 @@
+{
+  "item_id": "bg3-wiki:34924",
+  "title": "Mysterious Potion",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421229,
+      "title": "Mysterious Potion",
+      "markers": [
+        "| uid = UNI_CONS_Drink_Potion_ExplosiveBlood"
+      ]
+    },
+    {
+      "role": "Rules: Unstable Blood",
+      "revision": 433401,
+      "title": "Unstable Blood",
+      "markers": [
+        "| summary = '''Unstable Blood''' is a permanent passive feature which causes a creature's blood to explode when in contact with fire."
+      ]
+    },
+    {
+      "role": "Rules: Unstable Blood (surface)",
+      "revision": 424542,
+      "title": "Unstable Blood (surface)",
+      "markers": [
+        "| summary = a [[surface]] created when a creature with the passive feature [[Unstable Blood]] is damaged and bleeds. Instead of {{Area|Blood}}, they will create an Unstable Blood surface."
+      ]
+    },
+    {
+      "role": "Rules: Crimson Draughts",
+      "revision": 441543,
+      "title": "Crimson Draughts",
+      "markers": [
+        "{{Location page"
+      ]
+    }
+  ],
+  "summary": "Drink Formula Gruna to permanently gain Unstable Blood after Test Subject ends.",
+  "fields": {
+    "On drinking": "Test Subject lasts 1 turn. At expiry, the drinker takes 1d4 Slashing, explodes and creates Fire, then gains Unstable Blood.",
+    "Unstable Blood": "This permanent passive replaces Blood surfaces produced by the character with Unstable Blood. Fire damage makes the surface explode and apply Burning for 3 turns, then leaves a Fire surface.",
+    "Acquisition": "Donate blood to Araj Oblodra in Act Two, then take the formula at Crimson Draughts in Act Three.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

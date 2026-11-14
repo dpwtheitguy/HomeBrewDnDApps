@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:30966",
+  "title": "Tenacious Boots",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423905,
+      "title": "Tenacious Boots",
+      "markers": [
+        "MAG_ZOC_ForceConduitWhileSurounded_Boots"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423559,
+      "title": "Stand Like Stone",
+      "markers": [
+        "| condition duration = 1"
+      ]
+    }
+  ],
+  "summary": "Inaccessible Medium Armour boots give +1 Athletics and can prevent forced movement.",
+  "fields": {
+    "Athletics": "+1 to Athletics checks. Requires Medium Armour proficiency.",
+    "Stand Like Stone": "Bonus Action once per Short Rest. Spend 1 turn of Force Conduit to gain Force Steadfast for 1 turn and prevent unwilling movement.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "90 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:3454",
+  "title": "Gloves of Fire Resistance",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418969,
+      "title": "Gloves of Fire Resistance",
+      "markers": [
+        "MAG_LowHP_ResistanceFire_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432171,
+      "title": "Chilling Grace",
+      "markers": [
+        "| description = When the wearer has 50% [[Hit Points]] or less, they have [[Resistance]] to {{DamageType|Fire}} damage."
+      ]
+    }
+  ],
+  "summary": "Gain Fire resistance while at or below half maximum HP.",
+  "fields": {
+    "Availability": "Unobtainable in normal play. Early Access item.",
+    "Base value": "90 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

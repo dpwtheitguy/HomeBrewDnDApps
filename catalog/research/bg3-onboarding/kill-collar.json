@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:29872",
+  "title": "Kill Collar",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420121,
+      "title": "Kill Collar",
+      "markers": [
+        "| uid = QUEST_LOW_SteelWatchFoundry_ExplodingCollar"
+      ]
+    },
+    {
+      "role": "Rules: Motivator",
+      "revision": 397182,
+      "title": "Motivator",
+      "markers": [
+        "| description = '''Prinski's Motivator''', also known as '''Motivator''', is a device carried by Banite [[Black Gauntlet]] cultists in the [[Steel Watch Foundry]]."
+      ]
+    }
+  ],
+  "summary": "Wearing the collar in the Lower Foundry kills the wearer if a Motivator activates.",
+  "fields": {
+    "Trigger": "Equip it in the Lower Foundry of the Steel Watch Foundry. If a Black Gauntlet’s Motivator is allowed to activate, the wearer explodes and dies immediately. Other activation circumstances replace it with Destroyed Kill Collar.",
+    "Motivator": "Disable a dropped or activated Motivator with a DC 5 Intelligence check. The source reports that directing follower Toobin to deactivate it spends his Action without disabling it.",
+    "Acquisition": "Carried by Zanner Toobin.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

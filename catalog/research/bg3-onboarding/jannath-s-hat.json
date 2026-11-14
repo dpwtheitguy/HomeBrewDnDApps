@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:10981",
+  "title": "Jannath's Hat",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419923,
+      "title": "Jannath's Hat",
+      "markers": [
+        "| uid = S_LOW_CountingHouse_Vault2_JannathHat"
+      ]
+    }
+  ],
+  "summary": "Gain advantage on Persuasion and Deception checks while wearing the hat.",
+  "fields": {
+    "Acquisition": "High Security Vault 2 in the Counting House.",
+    "Base value": "450 gp in BG3. Merchant prices vary.",
+    "Persuasion and Deception": "While worn, gain advantage on Persuasion and Deception checks."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

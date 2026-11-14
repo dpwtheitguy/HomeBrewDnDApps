@@ -1,0 +1,72 @@
+{
+  "item_id": "bg3-wiki:13037",
+  "title": "Oil of Combustion",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421461,
+      "title": "Oil of Combustion",
+      "markers": [
+        "ALCH_Solution_Oil_Combustion"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438130,
+      "title": "Coatings",
+      "markers": [
+        "single equipped weapon set"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 428492,
+      "title": "Throw",
+      "markers": [
+        "thrown weapons do not apply any innate extra damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442403,
+      "title": "Coated in Oil of Combustion",
+      "markers": [
+        "target is doused"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 436332,
+      "title": "Oil of Combustion (condition)",
+      "markers": [
+        "m=3"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 416129,
+      "title": "Ashes of Mephit Magma",
+      "markers": [
+        "|Salt"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Alchemy",
+      "revision": 408872,
+      "markers": [
+        "{{MdItemIcon|Oil of Combustion}}"
+      ]
+    }
+  ],
+  "summary": "Coated hits oil a target. A later Fire hit can detonate it.",
+  "fields": {
+    "Coat": "Bonus Action, single use. Coat the active weapon set for 10 turns. Both equipped weapons in that set are coated when dual wielding. Another set needs its own dose. Replaces a dip or another coating. Throwing the bottle does not apply an area coating.",
+    "On hit": "Douse the target for 2 turns. If it later takes Fire damage, the oil ends and deals 3d6 Fire in a 10 ft radius around it.",
+    "Timing": "One Fire-infused weapon attack can apply fresh oil or detonate existing oil, but cannot do both. It cannot ignite fresh oil during that same attack. Reactions and multi-target chain explosions are reported as unverified exceptions.",
+    "Thrown weapon": "The general Throw rules omit weapon coating effects when a weapon is thrown.",
+    "Crafting": "The oil page and Alchemy table list Ashes of Mephit Magma plus any Essence. The extract page instead lists any Salt.",
+    "Base value": "30 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

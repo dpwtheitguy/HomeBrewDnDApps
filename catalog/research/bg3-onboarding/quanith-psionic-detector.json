@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:11709",
+  "title": "Qua'nith Psionic Detector",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Qua'nith Psionic Detector",
+      "revision": 422062,
+      "markers": [
+        "QUEST_GLO_Voss_GithRadar"
+      ]
+    },
+    {
+      "role": "Rules: Reithwin Town",
+      "title": "Reithwin Town",
+      "revision": 422271,
+      "markers": [
+        "it rings here"
+      ]
+    },
+    {
+      "role": "Rules: Knights of the Shield Hideout",
+      "title": "Knights of the Shield Hideout",
+      "revision": 441321,
+      "markers": [
+        "does not trigger in this room"
+      ]
+    }
+  ],
+  "summary": "Warns its carrier of two scripted Githyanki ambushes.",
+  "fields": {
+    "Warning": "Carry it in a party member’s inventory. It warns at the stone footbridge toward the Road to Baldur’s Gate in Reithwin if Vlaakith has marked the party for death, and inside the main Knights of the Shield Hideout in the Lower City. Its warning does not prevent either ambush. Entering through the sewers does not trigger it in the hideout’s Hidden Room.",
+    "Acquisition": "Kith’rak Voss gives it during a Long Rest event after the Crèche Y’llek portion of The Githyanki Warrior.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay and acquisition with pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

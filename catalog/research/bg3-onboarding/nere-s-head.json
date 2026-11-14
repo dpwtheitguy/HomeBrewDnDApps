@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:5507",
+  "title": "Nere's Head",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421289,
+      "title": "Nere's Head",
+      "markers": [
+        "CINE_UNI_UND_MyconidRevenge_NereHead"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441797,
+      "title": "Deliver Nere's Head",
+      "markers": [
+        "successfully removed regardless"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 430741,
+      "title": "Ancient Altar (Balthazar)",
+      "markers": [
+        "heads of {{CharLink|Nere}}"
+      ]
+    }
+  ],
+  "summary": "Quest proof for the Myconid Sovereign. It also opens Balthazar’s hidden room.",
+  "fields": {
+    "Acquire": "Loot Nere in Grymforge with Deliver Nere’s Head active. The DC 10 Strength check changes the removal scene, but either result grants the head. If Nere dies before the quest, return after accepting it. If he burns to ash in lava, the head is destroyed and the quest fails.",
+    "Quest use": "Deliver to the Sovereign for Deliver Nere’s Head. It becomes the Blooming Drow Head. Taking the head awards Head of the Snake inspiration to the Haunted One.",
+    "Alternate use": "Insert the head into Balthazar’s Ancient Altar at Moonrise Towers in place of a heart.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

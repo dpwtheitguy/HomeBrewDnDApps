@@ -1,0 +1,65 @@
+{
+  "item_id": "bg3-wiki:8475",
+  "title": "The Dead Shot",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "The Dead Shot",
+      "revision": 423982,
+      "markers": [
+        "MAG_DeadShot_Longbow"
+      ]
+    },
+    {
+      "role": "Rules: Improved Critical",
+      "title": "Improved Critical",
+      "revision": 432677,
+      "markers": [
+        "| description = The number you need to [[Attack Roll|roll]] a [[Critical Hit]] while attacking is reduced by 1. This effect can stack."
+      ]
+    },
+    {
+      "role": "Rules: Keen Attack",
+      "title": "Keen Attack",
+      "revision": 432722,
+      "markers": [
+        "| description =  The wielder doubles their [[Proficiency Bonus]] when rolling ranged attacks with this weapon, unless they have Disadvantage."
+      ]
+    },
+    {
+      "role": "Rules: Hamstrung",
+      "title": "Hamstrung",
+      "revision": 443629,
+      "markers": [
+        "Removed by healing"
+      ]
+    },
+    {
+      "role": "Rules: Brace (Ranged)",
+      "title": "Brace (Ranged)",
+      "revision": 439120,
+      "markers": [
+        "movement"
+      ]
+    },
+    {
+      "role": "Rules: Hamstring Shot",
+      "title": "Hamstring Shot",
+      "revision": 373853,
+      "markers": [
+        "Hamstrung"
+      ]
+    }
+  ],
+  "summary": "+2 longbow improves critical threshold and doubles proficiency on eligible attacks.",
+  "fields": {
+    "Weapon profile": "Martial two-handed ranged weapon, 60 ft. 1d8 + 2 Piercing plus Dexterity. +2 to attack rolls.",
+    "Improved Critical": "Reduce critical threshold by 1. Stacks.",
+    "Keen Attack": "Double the proficiency bonus on ranged attacks with this bow unless you have Disadvantage.",
+    "Acquisition": "Fytz the Firecracker near Lower City Central Wall waypoint.",
+    "Base value": "770 gp nominal BG3 value.",
+    "Brace (Ranged)": "With proficiency, once per Short Rest. Spend 20 ft of movement. Roll ranged damage twice and use the higher result for this turn. Longbow and heavy crossbow variants have separate cooldowns.",
+    "Hamstring Shot": "With proficiency, once per Short Rest. Action. Deal weapon damage. CON save against weapon-action DC +2 or halve movement for 2 turns. Healing clears it."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

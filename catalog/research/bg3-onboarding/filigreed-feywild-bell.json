@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:11774",
+  "title": "Filigreed Feywild Bell",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437908,
+      "title": "Filigreed Feywild Bell",
+      "markers": [
+        "Dolly Thrice"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437785,
+      "title": "Pixie Blessing (condition)",
+      "markers": [
+        "| effects ="
+      ]
+    }
+  ],
+  "summary": "Ring the bell and ask Dolly Thrice for party-wide protection from the Shadow Curse.",
+  "fields": {
+    "Effect": "Pixie Blessing protects from the Shadow Curse, including its deepest areas. Changing regions can remove it. Ring the bell and ask again to restore it.",
+    "Acquisition": "Receive it when freeing Dolly Thrice from Kar’niss’s Moonlantern.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

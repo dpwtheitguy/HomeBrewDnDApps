@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:8831",
+  "title": "Ring of Spiteful Thunder",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Ring of Spiteful Thunder",
+      "revision": 437998,
+      "markers": [
+        "MAG_Thunder_InflictDazeOnThunderDamage_Ring"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Spiteful Thunder",
+      "revision": 433187,
+      "markers": [
+        "not just"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Dazed",
+      "revision": 442592,
+      "markers": [
+        "bonus to their"
+      ]
+    }
+  ],
+  "summary": "Damage a Reverberating creature to force a hidden save against Dazed.",
+  "fields": {
+    "Spiteful Thunder": "When you deal any damage to a Reverberating creature, it must make a hidden DC 13 Constitution save or become Dazed for 2 turns. The reported trigger works with damage types beyond Thunder.",
+    "Dazed": "Disadvantage on Wisdom saves, loses the Dexterity bonus to AC, and cannot spend Reactions. Help removes it. Reactions that do not spend the Reaction resource can still occur.",
+    "Acquisition": "Sold by Roah Moonglow at Moonrise Towers.",
+    "Honour Mode value": "210 gp.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

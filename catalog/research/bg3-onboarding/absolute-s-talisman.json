@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:3457",
+  "title": "Absolute's Talisman",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 432031,
+      "title": "Absolute's Talisman",
+      "markers": [
+        "UNI_GOB_Priest_Amulet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432030,
+      "title": "Absolute's Mercy",
+      "markers": [
+        "| summary ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 279128,
+      "title": "Absolute's Talisman: Aid",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "The Absolute’s Brand grants Advantage on death saves. The amulet grants self-only Aid once per Long Rest; removing it ends Aid.",
+  "fields": {
+    "Equipment type": "Amulets",
+    "Effect": "The Absolute’s Brand grants Advantage on death saves.",
+    "Base value": "65 gp in BG3. Merchant prices vary.",
+    "Aid": "Action, self only, once per Long Rest. Heal 5 HP and increase maximum HP by 5 until Long Rest or until you unequip the amulet."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

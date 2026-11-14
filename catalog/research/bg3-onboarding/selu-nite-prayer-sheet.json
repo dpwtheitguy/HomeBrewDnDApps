@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12626",
+  "title": "Selûnite Prayer Sheet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422983,
+      "title": "Selûnite Prayer Sheet",
+      "markers": [
+        "S_FOR_SeluneStash_PrayerSheet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 431001,
+      "title": "Owlbear Nest",
+      "markers": [
+        "Selûnite Prayer Sheet"
+      ]
+    }
+  ],
+  "summary": "Read beside the Owlbear Nest’s protected chest to unlock it.",
+  "fields": {
+    "Use": "Read the prayer near the Gilded Chest using a party member other than Shadowheart. Any Acolyte, including Shadowheart, can earn Her Gift of Silver by reading.",
+    "Acquisition": "Jump behind the Selûne statue at X −325, Y −145. DC 10 Perception reveals the sheet, and DC 15 Religion identifies the contents.",
+    "Base value": "14 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

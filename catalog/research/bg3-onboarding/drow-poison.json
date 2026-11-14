@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:8505",
+  "title": "Drow Poison",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417974,
+      "title": "Drow Poison",
+      "markers": [
+        "CONS_Poison_Drow"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438130,
+      "title": "Coatings",
+      "markers": [
+        "| description = A subset of Potions, Coatings can apply a variety of harmful effects to weapons that aid in combat for a short period of time."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442397,
+      "title": "Coated in Drow Poison",
+      "markers": [
+        "| effects ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 192903,
+      "title": "Drow Poison Cloud",
+      "markers": [
+        "| description = Chance to set Poisoned."
+      ]
+    }
+  ],
+  "summary": "Coat weapons or throw a cloud to make targets Poisoned and Asleep on a failed DC 13 Constitution save.",
+  "fields": {
+    "Coat": "Bonus Action. Consume one dose to coat the active weapon set for 10 turns, including both weapons while dual wielding. Apply another dose for the other set. A hit forces DC 13 Constitution against Poisoned and Sleeping. A successful initial save grants inoculation for 2 turns. The effects end after a successful Constitution save or when the target takes damage.",
+    "Throw": "Action. Consume one dose to create a 3 ft-radius cloud for 1 turn. Each turn, creatures inside make a DC 13 Constitution save against Poisoned and Sleeping. The cloud deals no damage. The Poisoned and Sleeping effects end after a successful Constitution save or when the target takes damage.",
+    "Crafting": "Combine Essence of Swarming Toadstool with any Salt.",
+    "Limits": "Only one coating or dip can be active on a weapon set.",
+    "Base value": "30 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Verified card mechanics against the cited item or linked rule."
+}

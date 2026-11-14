@@ -1,0 +1,45 @@
+{
+  "item_id": "bg3-wiki:14784",
+  "title": "Second Marriage",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422951,
+      "title": "Second Marriage",
+      "markers": [
+        "UNI_HAG_Wand_SummonHusband"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 412526,
+      "title": "Second Marriage (class action)",
+      "markers": [
+        "unlimited number of times"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 425781,
+      "title": "Connor Vinderblad",
+      "markers": [
+        "Connor"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 416498,
+      "title": "Bitter Divorce",
+      "markers": [
+        "Second Marriage"
+      ]
+    }
+  ],
+  "summary": "An unlimited-use wand that summons Connor Vinderblad as an undead thrall.",
+  "fields": {
+    "Summon": "Action, up to 60 ft. Summon controllable Connor for 10 turns. No recharge. Can summon him again after he dies. Casting does not break stealth.",
+    "Acquisition": "Use Bitter Divorce to raise Connor and retain the wand under the applicable Save Mayrina outcome.",
+    "Base value": "100 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

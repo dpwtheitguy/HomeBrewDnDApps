@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:3705",
+  "title": "Slippery Chain Shirt",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423304,
+      "title": "Slippery Chain Shirt",
+      "markers": [
+        "MAG_Healer_DisengageOnHeal_ChainShirt"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432159,
+      "title": "Cautious Healer",
+      "markers": [
+        "including themselves"
+      ]
+    }
+  ],
+  "summary": "Medium armour that enables a Disengage after healing.",
+  "fields": {
+    "Armour Class": "13 + Dexterity modifier, maximum +2 Dexterity. Medium Armour proficiency.",
+    "Cautious Healer": "Healing yourself or another creature automatically gives the wearer Disengage. You can move without provoking Opportunity Attacks. It does not trigger Cloak of Cunning Brume.",
+    "Base value": "130 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

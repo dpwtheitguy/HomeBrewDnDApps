@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:8126",
+  "title": "Seraphic Pugilist Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422996,
+      "title": "Seraphic Pugilist Gloves",
+      "markers": [
+        "MAG_OpenHand_Radiant_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 404064,
+      "title": "Guiding Bolt",
+      "markers": [
+        "| higher levels"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432056,
+      "title": "Angelclocker Knuckles",
+      "markers": [
+        "1d4"
+      ]
+    }
+  ],
+  "summary": "Gloves add 1d4 Radiant to unarmed hits and cast level 4 Guiding Bolt.",
+  "fields": {
+    "Guiding Bolt": "Action once per Long Rest. Ranged spell attack at 60 ft. On hit deal 7d6 Radiant, and the next attack against the target gains Advantage within 2 turns.",
+    "Unarmed hits": "+1d4 Radiant.",
+    "Acquisition": "Locked chest at the west end of the Open Hand Temple.",
+    "Base value": "240 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

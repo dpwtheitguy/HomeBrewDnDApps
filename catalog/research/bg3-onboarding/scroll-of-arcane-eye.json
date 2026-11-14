@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:16561",
+  "title": "Scroll of Arcane Eye",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Arcane Eye",
+      "revision": 441679,
+      "markers": [
+        "LOOT_SCROLL_ArcaneEye_DONOTUSE"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Summons a friendly Scrying Eye for 99 turns.",
+  "fields": {
+    "Cast": "Single-use scroll. Action to summon the eye.",
+    "Effect": "Summons a friendly Scrying Eye for 99 turns. This scroll is unobtainable in normal play.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "130 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

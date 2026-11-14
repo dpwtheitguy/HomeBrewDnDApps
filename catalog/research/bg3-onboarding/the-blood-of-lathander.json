@@ -1,0 +1,73 @@
+{
+  "item_id": "bg3-wiki:7882",
+  "title": "The Blood of Lathander",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "The Blood of Lathander",
+      "revision": 423968,
+      "markers": [
+        "S_CRE_BloodOfLathander"
+      ]
+    },
+    {
+      "role": "Rules: Lathander's Blessing",
+      "title": "Lathander's Blessing",
+      "revision": 432734,
+      "markers": [
+        "| description = Once per [[Long Rest]], when your hit points are reduced to 0, you regain {{DamageText|2d6|Healing}}. Allies within {{Dist|m=9}} also regain {{DamageText|1d6|Healing}}."
+      ]
+    },
+    {
+      "role": "Rules: Lathander's Light",
+      "title": "Lathander's Light",
+      "revision": 432735,
+      "markers": [
+        "| description = Sheds holy light in a {{Dist|m=6|ft=20}} radius. In combat, [[fiends]] and [[undead]] standing in the light are {{Cond|Blinded}} if they fail a DC 14 Constitution throw."
+      ]
+    },
+    {
+      "role": "Rules: Sunbeam",
+      "title": "Sunbeam",
+      "revision": 383208,
+      "markers": [
+        "| description = A beam of brilliant light sears and {{SmCond|Blinded|Blinds}} all creatures in its path."
+      ]
+    },
+    {
+      "role": "Rules: Blinded (condition)",
+      "title": "Blinded (condition)",
+      "revision": 437979,
+      "markers": [
+        "Attack Rolls against Blinded"
+      ]
+    },
+    {
+      "role": "Rules: Find the Blood of Lathander",
+      "title": "Find the Blood of Lathander",
+      "revision": 441022,
+      "markers": [
+        "four turns"
+      ]
+    },
+    {
+      "role": "Rules: Concussive Smash",
+      "title": "Concussive Smash",
+      "revision": 373613,
+      "markers": [
+        "hybrid"
+      ]
+    }
+  ],
+  "summary": "Legendary +3 mace prevents a knockout once per rest and projects blinding sunlight.",
+  "fields": {
+    "Weapon profile": "Simple, One-handed, 5 ft melee, Dippable. 1d6 + 3 Bludgeoning plus Strength. +3 to attack rolls.",
+    "Lathander’s Blessing": "Once per Long Rest, when the wearer reaches 0 HP, restore 2d6 HP to the wearer and 1d6 HP to other active party members within 30 ft. It does not trigger if the wearer is outside the active party. It cannot prevent a chasm death. The attacker is credited as the healing source, so it does not trigger the wearer’s on-heal effects. The source reports the wielder can also receive the 1d6 party heal, but timing can reduce actual recovery. Cooldown refreshes for the character wielding it at a Long Rest.",
+    "Lathander’s Light": "Toggleable 20-ft light. In combat, Fiends and Undead in the light make DC 14 Constitution saves or become Blinded. It works when switching to a ranged weapon. Triggers Sunlight Hypersensitivity but not Sunlight Sensitivity.",
+    "Sunbeam": "Level 6, Action once per Long Rest. 60-ft line roughly 8 ft wide. Deals 6d8 Radiant. Constitution save halves damage and prevents Blinded for up to 10 turns. Blinded imposes Disadvantage on attacks, gives attackers Advantage and limits most attacks and spells to 10 ft. This item does not grant Recast Sunbeam.",
+    "Acquisition": "Locked altar in the Crèche Y’llek Secret Chamber. The Dawnmaster’s Crest disables the trap. Without it the party has four turns to destroy the four Solar Machines or escape.",
+    "Base value": "640 gp nominal BG3 value.",
+    "Concussive Smash": "With proficiency, once per Short Rest. Action and weapon damage on hit. CON save against higher of spell save DC and weapon-action DC +2 or Dazed for 2 turns. Dazed removes Dexterity AC bonus and Reaction use and gives Disadvantage on Wisdom saves. Help clears it."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

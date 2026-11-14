@@ -1,0 +1,68 @@
+{
+  "item_id": "bg3-wiki:9595",
+  "title": "Hellfire Greataxe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438086,
+      "title": "Hellfire Greataxe",
+      "markers": [
+        "MAG_WATCHER_Human_Greataxe"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433343,
+      "title": "Thermodynamo",
+      "markers": [
+        "| description = Whenever you deal damage with this weapon, you gain 2 turns of {{Cond|Heat}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443664,
+      "title": "Heat",
+      "markers": [
+        "| effects = * Engulfed by a vengeful fire. Takes {{DamageText|1d4|Fire}} damage each turn, but can use {{sai|Heat Convergence}}.<!--"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432629,
+      "title": "Heat Convergence",
+      "markers": [
+        "| description = Consume your {{cond|Heat}} to fuel a powerful attack."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 382684,
+      "title": "Hellflame Cleave",
+      "markers": [
+        "| description = Spew hellish flames and strike your foes."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341898,
+      "title": "Greataxes",
+      "markers": [
+        "| damage = 1d12"
+      ]
+    }
+  ],
+  "summary": "A +2 greataxe that adds 1d6 Fire to hits, grants Heat, and can use Hellflame Cleave.",
+  "fields": {
+    "Damage": "1d12 + 2 Slashing",
+    "Range": "5 ft melee.",
+    "Training": "martial",
+    "Handling": "two-handed",
+    "Enchantment": "+2",
+    "Weapon actions": "Cleave, Lacerate, Prepare",
+    "Thermodynamo": "Dealing damage with the axe grants 2 turns of Heat. Heat can stack to 7 turns, deals 1d4 Fire to you each turn, and can be spent to add 1 Fire damage per remaining turn to your next Fire damage.",
+    "Hellflame Cleave": "Action once per Short Rest. Deal weapon damage as Fire plus 2d6 Fire in a 10 ft cone. Dexterity save against spell save DC for half. Leaves Hellfire for 2 turns. The surface can apply Roiling Hellfire even on a successful save.",
+    "Limits": "Does not bypass Fire resistance or immunity despite the tooltip. Uses no attack roll and cannot be used while Raging. The axe cannot be dipped.",
+    "Base value": "960 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

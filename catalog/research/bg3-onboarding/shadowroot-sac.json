@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:8447",
+  "title": "Shadowroot Sac",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423077,
+      "title": "Shadowroot Sac",
+      "markers": [
+        "ALCH_Ingredient_Mushroom_ShadowrootSac"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 424702,
+      "title": "Vitriol of Shadowroot Sac",
+      "markers": [
+        "any [[Alchemy#Extractions|Ash]]"
+      ]
+    }
+  ],
+  "summary": "Extract three Shadowroot Sacs to make Elixir of Viciousness.",
+  "fields": {
+    "Alchemy": "Extract three Shadowroot Sacs into Vitriol of Shadowroot Sac, then add any Ash.",
+    "Acquisition": "Found throughout the Shadow-Cursed Lands.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

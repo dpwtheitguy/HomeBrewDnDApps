@@ -1,0 +1,33 @@
+{
+  "item_id": "bg3-wiki:35601",
+  "title": "Brewing Ladle",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 439125,
+      "title": "Brewing Ladle",
+      "markers": [
+        "WPN_BREWER_BrewingLadle_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341910,
+      "title": "Maces",
+      "markers": [
+        "| damage = 1d6"
+      ]
+    }
+  ],
+  "summary": "Thisobald Thorm’s wielded version is an NPC mace with about 7 ft reach. Disarming him is the listed acquisition method.",
+  "fields": {
+    "Weapon type": "Maces",
+    "Enchantment": "None",
+    "Weapon actions": "Concussive Smash",
+    "Damage": "1d8 Bludgeoning",
+    "Range": "About 7 ft melee for Thisobald’s version.",
+    "Effect": "Thisobald Thorm’s wielded version is an NPC mace with about 7 ft reach. Disarming him is the listed acquisition method.",
+    "Base value": "30 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

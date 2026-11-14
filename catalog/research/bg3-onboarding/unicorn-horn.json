@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:19317",
+  "title": "Unicorn Horn",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424523,
+      "title": "Unicorn Horn",
+      "markers": [
+        "ALCH_Ingredient_Loot_UnicornHorn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 418284,
+      "title": "Essence of Unicorn Horn",
+      "markers": [
+        "Unicorn Horn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 421933,
+      "title": "Potion of Angelic Reprieve",
+      "markers": [
+        "not to be found"
+      ]
+    }
+  ],
+  "summary": "Unobtainable ingredient for the unavailable Angelic Reprieve recipe.",
+  "fields": {
+    "Extraction": "Combine 3 Unicorn Horns to make Essence of Unicorn Horn. Add any Salt to make Potion of Angelic Reprieve.",
+    "Availability": "Unobtainable in normal play, so the potion cannot be crafted.",
+    "Base value": "25 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

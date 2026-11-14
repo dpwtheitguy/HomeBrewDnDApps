@@ -1,0 +1,42 @@
+{
+  "item_id": "bg3-wiki:3354",
+  "title": "Corellon's Grace",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 428079,
+      "title": "Corellon's Grace",
+      "markers": [
+        "UNI_RepeatStaff"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432909,
+      "title": "Natural Pugilist",
+      "markers": [
+        "| description = You gain a +1 bonus to {{attack roll|melee unarmed}}s and damage."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433396,
+      "title": "Unhampered Resistance",
+      "markers": [
+        "| description = While the wielder is not wearing armour, they receive a +2 bonus to {{SavingThrow}}s."
+      ]
+    }
+  ],
+  "summary": "Gain +1 to melee unarmed attack and damage rolls and +2 to saves while unarmoured.",
+  "fields": {
+    "Damage": "1d6 Bludgeoning",
+    "Weapon profile": "Simple, versatile, quarterstaves.",
+    "Two-handed damage": "1d8 Bludgeoning",
+    "Properties": "Dippable.",
+    "Weapon actions": "Topple.",
+    "Natural Pugilist": "+1 to melee unarmed attack rolls and damage.",
+    "Unhampered Resistance": "+2 to saving throws while wearing no armour. A shield is allowed. The pinned source reports Helldusk Armour and Elven Chain can bypass the armour restriction.",
+    "Base value": "100 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence."
+}

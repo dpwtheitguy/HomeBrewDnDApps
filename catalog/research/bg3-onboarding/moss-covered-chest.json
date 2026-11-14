@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:47946",
+  "title": "Moss-Covered Chest",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421114,
+      "title": "Moss-Covered Chest",
+      "markers": [
+        "| uid = S_FOR_VillageFightReward"
+      ]
+    },
+    {
+      "role": "Rules: Haste Helm",
+      "revision": 419356,
+      "title": "Haste Helm",
+      "markers": [
+        "| description = The {{rare|Haste Helm}} is a rare helmet that grants the wearer a burst of speed at the start of combat."
+      ]
+    },
+    {
+      "role": "Rules: Sturdy",
+      "revision": 443601,
+      "title": "Sturdy",
+      "markers": [
+        "| effects = * This material is rather strong. Only a hit that deals at least 10 damage can damage it."
+      ]
+    }
+  ],
+  "summary": "The locked Moss-Covered Chest holds the Haste Helm in Blighted Village.",
+  "fields": {
+    "Lock": "Use the Moss-Covered Key. The chest is at X 29, Y 405.",
+    "Defences": "50 object HP. Sturdy requires 10 damage in a single hit. Vulnerable to Bludgeoning, resistant to Piercing, Necrotic and Radiant, immune to Poison and Psychic.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

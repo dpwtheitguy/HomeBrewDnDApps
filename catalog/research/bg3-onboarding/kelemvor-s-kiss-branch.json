@@ -1,0 +1,54 @@
+{
+  "item_id": "bg3-wiki:34672",
+  "title": "Kelemvor's Kiss Branch",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420046,
+      "title": "Kelemvor's Kiss Branch",
+      "markers": [
+        "CINE_UNI_DEN_PoisonousThorn_A_Cinematic"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 418847,
+      "title": "Get Help from Healer Nettie",
+      "markers": [
+        "Salts of Mugwort"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442086,
+      "title": "At Death's Door (stage 1)",
+      "markers": [
+        "reduced by 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442088,
+      "title": "At Death's Door (stage 2)",
+      "markers": [
+        "reduced by 4"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442090,
+      "title": "At Death's Door (stage 3)",
+      "markers": [
+        "reduced by 6"
+      ]
+    }
+  ],
+  "summary": "The thorn Nettie can use to inflict a worsening toxic infection in the Emerald Grove dialogue.",
+  "fields": {
+    "Quest trigger": "Nettie poisons the speaking character if they offer their hand after being dishonest during Get Help from Healer Nettie. A successful DC 10 Nature check can identify the branch during the dialogue for non-Druids and non-Rangers. The recovered branch has no verified player attack or coating action.",
+    "At Death’s Door": "Initially reduces every ability score by 2. Resting worsens the infection, progressing to penalties of 4 and 6.",
+    "Treatment": "Use an Antidote or another effect that clears the Poisoned status group. On Antidotes by Nettie’s cauldron teaches the recipe: Salts of Mugwort plus any Suspension.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

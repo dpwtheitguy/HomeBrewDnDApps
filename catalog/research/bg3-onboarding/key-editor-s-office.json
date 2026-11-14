@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:56957",
+  "title": "Key (Editor's Office)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430612,
+      "title": "Key (Editor's Office)",
+      "markers": [
+        "{{MiscItemPage"
+      ]
+    },
+    {
+      "role": "Rules: Baldur's Mouth",
+      "revision": 438728,
+      "title": "Baldur's Mouth",
+      "markers": [
+        "{{Location page"
+      ]
+    }
+  ],
+  "summary": "Opens the iron grate at X 66, Y −61 leading to the Baldur’s Mouth elevator.",
+  "fields": {
+    "Acquisition": "On the table in Ettvard Needle’s private office. A DC 15 Sleight of Hand check also opens the grate.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

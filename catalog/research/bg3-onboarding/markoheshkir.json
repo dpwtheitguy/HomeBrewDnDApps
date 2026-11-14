@@ -1,0 +1,207 @@
+{
+  "item_id": "bg3-wiki:8052",
+  "title": "Markoheshkir",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420819,
+      "title": "Markoheshkir",
+      "markers": [
+        "MAG_TheChromatic_Staff"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432064,
+      "title": "Arcane Enchantment (+1)",
+      "markers": [
+        "Spell Attack"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432062,
+      "title": "Arcane Battery",
+      "markers": [
+        "once on each"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 414275,
+      "title": "Kereska's Favour",
+      "markers": [
+        "The conditions granted by these spells do not stack"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 377988,
+      "title": "Topple",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 343544,
+      "title": "Bolts of Doom",
+      "markers": [
+        "actually grants 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 386079,
+      "title": "Bone-shaking Thunder",
+      "markers": [
+        "once per attack"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 343542,
+      "title": "Deadlier than Arsenic",
+      "markers": [
+        "6d8"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 365791,
+      "title": "Flame of Wrath",
+      "markers": [
+        "Wall of Fire|level=5"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 426457,
+      "title": "Frost of Dark Winter",
+      "markers": [
+        "once per attack"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 343541,
+      "title": "Sizzling Cataclysm",
+      "markers": [
+        "5d4"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 328612,
+      "title": "Lightning Bolt",
+      "markers": [
+        "| damage = 8d6"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 376412,
+      "title": "Chain Lightning",
+      "markers": [
+        "| damage = 10d8"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423116,
+      "title": "Shatter",
+      "markers": [
+        "| higher levels ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 365059,
+      "title": "Destructive Wave",
+      "markers": [
+        "| targets = Enemies only"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 328012,
+      "title": "Ray of Sickness",
+      "markers": [
+        "| condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 411701,
+      "title": "Cloudkill",
+      "markers": [
+        "| area duration = 10"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 418518,
+      "title": "Fireball",
+      "markers": [
+        "| aoe m = 4"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 381307,
+      "title": "Wall of Fire",
+      "markers": [
+        "fixed at 10"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 328618,
+      "title": "Ice Storm",
+      "markers": [
+        "| area duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 328400,
+      "title": "Cone of Cold",
+      "markers": [
+        "| aoe m = 9"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373507,
+      "title": "Melf's Acid Arrow",
+      "markers": [
+        "half the initial damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 414550,
+      "title": "Hunger of Hadar",
+      "markers": [
+        "fixed DC 12"
+      ]
+    }
+  ],
+  "summary": "Legendary +2 quarterstaff. Attune to one of six elements to gain resistance, bonus spell damage, and two spells.",
+  "fields": {
+    "Weapon profile": "1d6 + 2 Bludgeoning one-handed or 1d8 + 2 two-handed, plus Strength. +2 to attack rolls. Simple Versatile quarterstaff, 5 ft melee, Dippable.",
+    "Arcane Enchantment": "+1 spell attack rolls and spell save DC.",
+    "Arcane Battery": "Toggle on to make the next spell consume no spell slot. Once per Long Rest per character. Cantrips consume the toggle if active. Some other no-slot abilities and scrolls can also consume it.",
+    "Kereska’s Favour": "Level 4 spell. Action on yourself once per Short Rest. Choose one element until Long Rest or until you unequip the staff. Gain its damage resistance, add your proficiency bonus to damage from spells of that element, and unlock two spells. Each unlocked spell costs an Action, recharges on a Short Rest and spends no spell slot. A new attunement replaces the old. Re-equipping does not restore it while on cooldown.",
+    "Lightning · Bolts of Doom": "Spell damage grants 2 Lightning Charges. Cast Lightning Bolt at level 3 and Chain Lightning at level 6. This staff’s Chain Lightning can still use Twinned Spell. Lightning Bolt: Level 3. Deal 8d6 Lightning to creatures in a 100 ft line from you. Dexterity save for half. Chain Lightning: Level 6. Target within 60 ft. The bolt jumps to up to three enemies within 60 ft of the primary target. Deal 10d8 Lightning per target, Dexterity save for half. The chains use the spellcasting modifier of your most recently acquired spellcasting class for their save DC. The staff’s cast supports Twinned Spell.",
+    "Thunder · Bone-shaking Thunder": "Spell damage applies 2 turns of Reverberation to one target per attack. Cast level 5 Shatter and level 5 Destructive Wave. Destructive Wave’s variants can still trigger effects tied to spell slot spending. Shatter: Level 5. 60 ft range, 10 ft radius. Deal 6d8 Thunder to creatures and objects. Constitution save for half. Inorganic creatures such as stone constructs have disadvantage on the save. Destructive Wave: Level 5. Enemies within 30 ft of you take 5d6 Thunder plus 5d6 Radiant or Necrotic, your choice. Constitution save for half damage and to avoid Prone for 1 turn. The damage classification is Radiant or Necrotic, so this spell does not receive the Thunder attunement’s bonus damage. Either variant can still trigger spell-slot expenditure effects despite spending no slot.",
+    "Poison · Deadlier than Arsenic": "Spell damage applies Poisoned for 2 turns to one target per attack. Cast level 5 Cloudkill and level 1 Ray of Sickness with level 5 damage (6d8 Poison). Ray of Sickness: Counts as level 1 with level 5 damage. Ranged spell attack within 60 ft, dealing 6d8 Poison on a hit. Constitution save avoids Poisoned for 2 turns. Cloudkill: Level 5. 60 ft range, 20 ft radius, Concentration. Heavily obscuring cloud deals 5d8 Poison per turn, Constitution save for half. Recast to move it without spending a slot while maintaining Concentration. The cloud lasts 10 turns from its most recent cast.",
+    "Fire · Flame of Wrath": "Spell damage grants 2 turns of Heat. Cast level 3 Fireball and Wall of Fire. The parent spell lists Wall of Fire at level 4, while the variant’s spell display labels it level 5. Elemental Adept: Fire can bypass your resistance against Heat self-damage. Fireball: Level 3. 60 ft range, 13 ft radius. Deal 8d6 Fire, Dexterity save for half. Wall of Fire: Base spell level 4. The attunement’s spell display labels it level 5. Concentration, 60 ft placement range and up to 120 ft long for 10 turns. Base damage 5d8 Fire, +1d8 when cast at level 5. Dexterity save for half. Affects creatures entering or ending their turn in the area. End-of-turn damage uses a fixed DC 10. The displayed width is 10 ft, and the source reports a 7 ft actual damage distance.",
+    "Cold · Frost of Dark Winter": "Spell damage applies 2 turns of Encrusted with Frost to one target per attack. Cast level 4 Ice Storm and level 5 Cone of Cold. Ice Storm: Level 4. 60 ft range, 20 ft radius. Deal 2d8 Bludgeoning plus 4d6 Cold to creatures and objects. Dexterity save for half. Creates Ice for 2 turns. Cone of Cold: Level 5. 30 ft cone from you. Deal 8d8 Cold, Constitution save for half. Freezes existing water surfaces.",
+    "Acid · Sizzling Cataclysm": "One target per damaging spell attack must make a DC 13 Dexterity save or gain Noxious Fumes for 3 turns. Cast level 2 Melf’s Acid Arrow with level 5 damage (7d4 Acid immediately, 5d4 delayed) and level 5 Hunger of Hadar at its normal damage. Melf’s Acid Arrow: Counts as level 2 with level 5 damage. Ranged spell attack within 60 ft. On a hit, deal 7d4 Acid now and 5d4 Acid at the end of the target’s next turn. On a miss, deal half initial damage and no delayed damage. Creates a 7 ft radius Acid surface. Hunger of Hadar: Level 5 cast with standard damage. 60 ft range, 20 ft radius, Concentration up to 10 turns. Blinds creatures in the area and creates Difficult Terrain. A creature starting its turn there takes 2d6 Cold. A creature ending its turn there takes 2d6 Acid unless it succeeds on a Dexterity save. The source reports fixed DC 12 for this save.",
+    "Topple": "Action, melee weapon attack for 1d4 nonlethal Bludgeoning. Dexterity save against weapon-action DC +2 or Prone for 1 turn. Once per Short Rest with proficiency.",
+    "Acquisition": "Ramazith’s Tower, inside a Globe of Invulnerability. Use See Invisibility to reveal the lever, then pass DC 20 Arcana to disable the globe. X 4970, Y 705.",
+    "Base value": "640 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 acquisition, attunement and all twelve granted spell profiles with pinned source evidence."
+}

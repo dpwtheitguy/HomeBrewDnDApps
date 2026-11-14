@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:9625",
+  "title": "Eversight Ring",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418306,
+      "title": "Eversight Ring",
+      "markers": [
+        "MAG_Shadow_BlindImmunity_Ring"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432123,
+      "title": "Blind Immunity",
+      "markers": [
+        "| description = The wearer cannot be {{Cond|Blinded}}."
+      ]
+    }
+  ],
+  "summary": "While equipped, the wearer cannot be Blinded.",
+  "fields": {
+    "Use": "While equipped, the wearer cannot be Blinded.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

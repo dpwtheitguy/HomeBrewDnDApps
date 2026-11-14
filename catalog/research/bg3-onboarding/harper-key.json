@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:29423",
+  "title": "Harper Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430561,
+      "title": "Harper Key",
+      "markers": [
+        "| uid = S_UND_HarperSpy_StashKey"
+      ]
+    },
+    {
+      "role": "Rules: Grymforge",
+      "revision": 441675,
+      "title": "Grymforge",
+      "markers": [
+        "| summary = The remains of an ancient underground fortress built around the legendary [[Adamantine Forge (location)|Adamantine Forge]]. It can be accessed by traversing the Ebonlake using a skiff at the [[Underdark]] beach."
+      ]
+    }
+  ],
+  "summary": "Unlocks the Harper Stash revealed by using the Toy Chest in Grymforge.",
+  "fields": {
+    "Acquisition": "On a skeleton in the Abandoned Refuge dormitory. The key opens the lock, and the trap can be disarmed separately or by casting Light.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

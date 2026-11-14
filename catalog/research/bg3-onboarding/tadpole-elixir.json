@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:8889",
+  "title": "Tadpole Elixir",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423830,
+      "title": "Tadpole Elixir",
+      "markers": [
+        "ALCH_Solution_Elixir_Tadpole"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 436604,
+      "title": "Psionic Weakening (condition)",
+      "markers": [
+        "Constitution, Wisdom and Intelligence"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 436596,
+      "title": "Psionic Enrichment (condition)",
+      "markers": [
+        "3 rounds"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423685,
+      "title": "Sublimate of Tongue of Madness",
+      "markers": [
+        "Tadpole Elixir"
+      ]
+    }
+  ],
+  "summary": "Illithid powers grant 3 rounds of Advantage on attacks at the cost of weaker mental and Constitution saves.",
+  "fields": {
+    "Drink": "Bonus Action, single use. Gain Psionic Weakening until Long Rest and replace other elixir effects.",
+    "Psionic Weakening": "Disadvantage on Constitution, Intelligence and Wisdom saving throws.",
+    "Psionic Enrichment": "After you use an Illithid power, gain Advantage on all attacks for 3 rounds.",
+    "Crafting": "Combine Sublimate of Tongue of Madness with any Essence.",
+    "Base value": "30 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

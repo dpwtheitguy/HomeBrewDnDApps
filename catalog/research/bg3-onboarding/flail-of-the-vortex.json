@@ -1,0 +1,43 @@
+{
+  "item_id": "bg3-wiki:22424",
+  "title": "Flail of the Vortex",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418567,
+      "title": "Flail of the Vortex",
+      "markers": [
+        "WPN_Flail_Air_Myrmidon_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 402038,
+      "title": "Electrified Flail",
+      "markers": [
+        "| description = Clout a foe with your lightning-suffused flail and {{SmCond|Stunned|Stun}} them."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 425432,
+      "title": "Tenacity",
+      "markers": [
+        "| description = When you miss a melee attack, you deal {{DamageText|[[Strength]] [[Modifier]]|Bludgeoning}} damage (minimum of 1) anyway."
+      ]
+    }
+  ],
+  "summary": "Air Myrmidon flail. The summon and Wild Shape versions can deal Lightning damage.",
+  "fields": {
+    "Damage": "1d8 + 3 Bludgeoning",
+    "Range": "5 ft melee.",
+    "Training": "martial",
+    "Handling": "one-handed",
+    "Enchantment": "+3",
+    "Availability": "Inaccessible as normal equipment. Air Myrmidons are Permanently Armed.",
+    "Variants": "Player summon and Wild Shape versions list +3 and 1d8 extra Lightning. The NPC version is unenchanted and lacks the Lightning rider.",
+    "Electrified Flail": "Action. Weapon damage plus 1d10 Lightning. DC 13 Constitution or Stunned for 2 turns. Tenacity is listed but does not trigger while polymorphed.",
+    "Base value": "50 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

@@ -1,0 +1,89 @@
+{
+  "item_id": "bg3-wiki:10562",
+  "title": "Stillmaker",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Stillmaker",
+      "revision": 423602,
+      "markers": [
+        "MAG_Bhaalist_Paralyzing_Dagger"
+      ]
+    },
+    {
+      "role": "Rules: Hold Person",
+      "title": "Hold Person",
+      "revision": 429155,
+      "markers": [
+        "| description = Hold a humanoid enemy still. They can't move, act, or react. Attacks from within {{dist|m=3}} are always [[Critical Hit]]s."
+      ]
+    },
+    {
+      "role": "Rules: Solve the Open Hand Temple Murders",
+      "title": "Solve the Open Hand Temple Murders",
+      "revision": 440354,
+      "markers": [
+        "Stillmaker"
+      ]
+    },
+    {
+      "role": "Rules: Pommel Strike",
+      "title": "Pommel Strike",
+      "revision": 374173,
+      "markers": [
+        "Dazed"
+      ]
+    },
+    {
+      "role": "Rules: Dazed",
+      "title": "Dazed",
+      "revision": 442592,
+      "markers": [
+        "Dexterity"
+      ]
+    },
+    {
+      "role": "Rules: Piercing Strike",
+      "title": "Piercing Strike",
+      "revision": 374168,
+      "markers": [
+        "Gaping Wounds"
+      ]
+    },
+    {
+      "role": "Rules: Gaping Wounds",
+      "title": "Gaping Wounds",
+      "revision": 443536,
+      "markers": [
+        "Honour Mode"
+      ]
+    },
+    {
+      "role": "Rules: Lacerate",
+      "title": "Lacerate",
+      "revision": 373909,
+      "markers": [
+        "Bleeding"
+      ]
+    },
+    {
+      "role": "Rules: Bleeding",
+      "title": "Bleeding",
+      "revision": 442222,
+      "markers": [
+        "start of each turn"
+      ]
+    }
+  ],
+  "summary": "+2 dagger casts Hold Person and serves as murder evidence.",
+  "fields": {
+    "Weapon profile": "Simple, One-handed, 5 ft melee, Finesse, Light, Thrown, Dippable. 1d4 + 2 Piercing plus Strength or Dexterity. +2 to attack rolls.",
+    "Hold Person": "Level 3, Action, 60 ft, up to two humanoids, once per Long Rest. Concentration up to 10 turns. Targets make Wisdom saves at cast and at the end of their turns. Paralysed targets cannot move or act, and attacks from within 10 ft critically hit.",
+    "Acquisition": "DC 5 Perception locates it below the Open Hand Temple. Can be reported to Valeria as the murder weapon.",
+    "Base value": "480 gp nominal BG3 value.",
+    "Pommel Strike": "With proficiency, once per Short Rest. Bonus Action for 1d4 nonlethal Bludgeoning. CON save against weapon-action DC +2 or Dazed for 2 turns, losing Dexterity AC bonus and Reaction use and gaining Disadvantage on WIS saves. Help clears it.",
+    "Piercing Strike": "With proficiency, once per Short Rest. Action, weapon damage. CON save against weapon-action DC +2 or Gaping Wounds for 2 turns. Successful hits gain 2 Piercing. Honour Mode adds 2 of the original type to any damage source. Healing clears it. Undead and Constructs are immune.",
+    "Lacerate": "With proficiency, once per Short Rest. Action, weapon damage. CON save against weapon-action DC +2 or Bleeding for 2 turns, with 2 Slashing at turn start and Disadvantage on CON saves until healed. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations. Reconciled applicable action, condition, and variant details against pinned rules."
+}

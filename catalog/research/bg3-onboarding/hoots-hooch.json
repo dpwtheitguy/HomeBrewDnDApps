@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:19528",
+  "title": "Hoots' Hooch",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 443720,
+      "title": "Hoots' Hooch",
+      "markers": [
+        "WYR_SharessCaress_PotentDrink"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 336469,
+      "title": "Hoots' Hooch table",
+      "markers": [
+        "Hoots' Hooch Effects"
+      ]
+    }
+  ],
+  "summary": "Drink one dose for a random wild-magic effect. Purity of Body blocks the effects.",
+  "fields": {
+    "Drink": "Bonus Action. One of ten outcomes is chosen at random. Monk Purity of Body prevents the effects.",
+    "Bad Breath · 10 turns": "Melee attackers become Nauseous.",
+    "Beast Tongue · 20 turns": "Disadvantage on Charisma and Animal Handling checks against Beasts.",
+    "Blackout · 5 turns": "Unconscious. The drinker wakes in Wyrm’s Rock Prison.",
+    "Blink · 10 turns": "Shift between the Material and Ethereal planes.",
+    "Dancing Fool · 2 turns": "Cannot move or act. Disadvantage on attacks and Dexterity saves. Attackers gain advantage.",
+    "Gifted · 20 turns": "Read minds but become vulnerable to Psychic.",
+    "Photosensitivity · 10 turns": "Gain Superior Darkvision but become Blinded in direct sunlight.",
+    "Size Instability · 10 turns": "Alternate Reduced and Enlarged every turn.",
+    "Stoned · 2 turns": "Petrified, then gain Stoneskin for 10 turns.",
+    "Transformation · 10 turns": "Polymorphed into a sheep.",
+    "Acquisition": "Buy or receive it from Hoots Hooligan at Sharess’ Caress.",
+    "Base value": "100 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

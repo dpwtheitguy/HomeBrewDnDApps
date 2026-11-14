@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:8452",
+  "title": "Wicker Chest",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424857,
+      "title": "Wicker Chest",
+      "markers": [
+        "CONT_GEN_Chest_Wicker_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443601,
+      "title": "Sturdy",
+      "markers": [
+        "at least 10 damage"
+      ]
+    }
+  ],
+  "summary": "A wicker storage chest with a documented 5 HP Sturdy variant.",
+  "fields": {
+    "Sturdy variant": "Medium-sized, 5 HP. A single hit must deal at least 10 damage to harm it. 2.5 kg.",
+    "Locations": "Tiefling Hideout X 42, Y 65, Reithwin Tollhouse X −120, Y −95, or Angleiron’s Cellar X −263, Y −1083.",
+    "Small variant": "A second template has the same display name. The pinned source does not list its durability or value.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

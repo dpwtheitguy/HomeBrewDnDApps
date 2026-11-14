@@ -1,0 +1,65 @@
+{
+  "item_id": "bg3-wiki:10497",
+  "title": "Woe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Woe",
+      "revision": 433938,
+      "markers": [
+        "MAG_LC_CazadorVampiric_Quarterstaff"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Arcane Vampirism",
+      "revision": 432068,
+      "markers": [
+        "once per spell"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Blight",
+      "revision": 416549,
+      "markers": [
+        "No effect on undead and constructs"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Arcane Enchantment (+1)",
+      "revision": 432064,
+      "markers": [
+        "Spell Attack"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Topple",
+      "revision": 377988,
+      "markers": [
+        "Non-lethal"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Prone (condition)",
+      "revision": 436524,
+      "markers": [
+        "One turn duration"
+      ]
+    }
+  ],
+  "summary": "A +2 staff that improves spellcasting, heals on failed enemy saves and casts Blight.",
+  "fields": {
+    "Weapon profile": "Simple, Versatile, Dippable, 5 ft melee. Hit for 1d6 + 2 one-handed or 1d8 + 2 two-handed Bludgeoning, plus Strength. +2 to attacks.",
+    "Arcane Enchantment": "+1 to spell attack rolls and spell save DC.",
+    "Arcane Vampirism": "Regain 1d4 HP when an affected creature fails a save against your spell. Heals once per spell even if several creatures fail. The linked source reports it can also trigger with a saving-throw weapon action, even on a miss before a save occurs.",
+    "Blight": "Level 4 Action, 30 ft, once per Long Rest. Deal 8d8 Necrotic, Constitution save for half. Plants take maximum damage before save or resistance and have Disadvantage on the save. Undead and Constructs are immune. The source reports it can target Sanctuary and level-4 damage on a failed save against a non-plant is incorrectly nonmagical.",
+    "Topple": "Action once per Short Rest with proficiency. Deal 1d4 nonlethal Bludgeoning on a melee hit. Dexterity save against weapon-action DC +2 prevents Prone for 1 turn. Prone breaks Concentration. The one-turn Prone expires at the start of the target’s turn even if it cannot move. Topple skips main-hand weapon effects.",
+    "Acquisition": "Resolve Cazador’s defeat in The Pale Elf. Refusing or failing to persuade Astarion, interrupting the ritual after it starts, or leaving the spawn imprisoned in the non-Ascension branch can destroy the staff. Killing a spawn during the follow-up dialogue can make it disappear.",
+    "Base value": "480 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

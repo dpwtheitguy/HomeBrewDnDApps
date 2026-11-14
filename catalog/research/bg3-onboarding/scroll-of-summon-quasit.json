@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:6180",
+  "title": "Scroll of Summon Quasit",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Summon Quasit",
+      "revision": 422922,
+      "markers": [
+        "QUEST_FOR_SCROLL_SummonQuasit"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Find Familiar: Cheeky Quasit",
+      "revision": 440897,
+      "markers": [
+        "Target_FOR_ThayanCellar_SummonQuasit"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Summon the Cheeky Quasit familiar, which can turn Invisible and use Scare.",
+  "fields": {
+    "Cast": "Level 1. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Summon the Cheeky Quasit familiar, which can turn Invisible and use Scare. A Wizard can transcribe the scroll. Follow the pinned item for the separate permanent dialogue route.",
+    "Range": "60 ft.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:11797",
+  "title": "Arrow of Transposition",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416107,
+      "title": "Arrow of Transposition",
+      "markers": [
+        "ARR_Arrow_Of_Teleportation",
+        "price = 50",
+        "* Teleport wherever you fire this arrow."
+      ]
+    },
+    {
+      "role": "Shared arrow rules",
+      "revision": 439126,
+      "title": "Arrows",
+      "markers": [
+        "cannot be crafted",
+        "off-hand ranged attacks",
+        "no saving throws"
+      ]
+    }
+  ],
+  "summary": "Teleports you to the point you shoot. Uses the entire Action, including when you have Extra Attack. It preserves Hiding and ends Invisibility.",
+  "fields": {
+    "Activation": "Action. Fire from a ranged weapon and consume one arrow. Range 60 ft.",
+    "Effect": "Teleports you to the point you shoot. Uses the entire Action, including when you have Extra Attack. It preserves Hiding and ends Invisibility.",
+    "Restrictions": "Special arrows cannot be used with off-hand ranged attacks.",
+    "Crafting": "Special arrows are obtained from loot or vendors.",
+    "Creative use": "Cross a gap or reposition while hiding.",
+    "Base value": "50 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 activation, effects and linked rules."
+}

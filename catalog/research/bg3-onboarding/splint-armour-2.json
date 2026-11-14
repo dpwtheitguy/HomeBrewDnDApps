@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:9421",
+  "title": "Splint Armour +2",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Splint Armour +2",
+      "revision": 423497,
+      "markers": [
+        "ARM_Splint_2"
+      ]
+    },
+    {
+      "role": "Rules: Body Aid",
+      "title": "Body Aid",
+      "revision": 432127,
+      "markers": [
+        "| description = Gain a +1 bonus to [[Strength]] {{Saving Throw}}s and {{Ability Check}}s."
+      ]
+    },
+    {
+      "role": "Rules: Superior Plate (-1)",
+      "title": "Superior Plate (-1)",
+      "revision": 433317,
+      "markers": [
+        "1 less"
+      ]
+    }
+  ],
+  "summary": "AC 19 Heavy Armour with Piercing mitigation and Strength bonuses.",
+  "fields": {
+    "Defence": "Heavy Armour, AC 19 with no Dexterity modifier. Disadvantage on Stealth. Reduce incoming Piercing damage by 1. +1 to Strength checks and saves.",
+    "Acquisition": "Levelled magic armour traders from level 9.",
+    "Base value": "1450 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

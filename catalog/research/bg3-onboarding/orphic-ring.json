@@ -1,0 +1,45 @@
+{
+  "item_id": "bg3-wiki:12863",
+  "title": "Orphic Ring",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 428768,
+      "title": "Orphic Ring",
+      "markers": [
+        "| uid = MAG_Orpheus_Ring"
+      ]
+    },
+    {
+      "role": "Rules: Confusion",
+      "revision": 431662,
+      "title": "Confusion",
+      "markers": [
+        "| summary = It allows the caster to confuse a group of creatures, drastically reducing their effectiveness in combat."
+      ]
+    },
+    {
+      "role": "Rules: Confused",
+      "revision": 442449,
+      "title": "Confused",
+      "markers": [
+        "| effects = * Affected entity is [[hostile]] to everyone, wanders around aimlessly, and occasionally skips turns in its stupor"
+      ]
+    },
+    {
+      "role": "Rules: Orpheus",
+      "revision": 441828,
+      "title": "Orpheus",
+      "markers": [
+        "{{CombatTab}}"
+      ]
+    }
+  ],
+  "summary": "Cast level-5 Confusion once per Long Rest.",
+  "fields": {
+    "Confusion": "Action, 60 ft range and about 26 ft radius at level 5. Non-allied creatures make Wisdom saves against your spell save DC. Concentration up to 3 turns. Each affected creature saves again at the start of its turn. On a failure a hidden roll of 1–10 causes Stupor, while 11–20 uses madness AI to choose attacks. Madness can target friend or foe.",
+    "Acquisition": "Worn by Orpheus.",
+    "Base value": "360 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

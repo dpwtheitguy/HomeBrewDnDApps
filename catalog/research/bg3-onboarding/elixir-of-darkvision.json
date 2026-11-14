@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:13000",
+  "title": "Elixir of Darkvision",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418136,
+      "title": "Elixir of Darkvision",
+      "markers": [
+        "usage cost = bonus action",
+        "price = 25",
+        "Dist|m=12",
+        "condition duration = Long Rest",
+        "Essence of Crystalline Lens"
+      ]
+    },
+    {
+      "role": "Applied condition",
+      "revision": 435266,
+      "title": "Elixir of Darkvision (condition)",
+      "markers": [
+        "Dist|m=12",
+        "stack type = overwrite"
+      ]
+    }
+  ],
+  "summary": "Drink as a Bonus Action to see in the dark up to 40 ft until your next Long Rest.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle for 40 ft of Darkvision until your next Long Rest.",
+    "Stacking": "Replaces an existing elixir effect.",
+    "Crafting": "Combine Essence of Crystalline Lens with any Salt.",
+    "Creative use": "Give it to a scout before exploring an unlit area.",
+    "Base value": "25 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added source-reviewed native BG3 gameplay, consumption, and crafting details."
+}

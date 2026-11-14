@@ -1,0 +1,73 @@
+{
+  "item_id": "bg3-wiki:3373",
+  "title": "Morningstar +1",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421107,
+      "title": "Morningstar +1",
+      "markers": [
+        "| uid = WPN_HUM_Morningstar_A_1"
+      ]
+    },
+    {
+      "role": "Rules: Morningstars",
+      "revision": 408131,
+      "title": "Morningstars",
+      "markers": [
+        "{{weapon type page"
+      ]
+    },
+    {
+      "role": "Rules: Tenacity",
+      "revision": 425432,
+      "title": "Tenacity",
+      "markers": [
+        "| summary = '''Tenacity''' is a passive feature that allows the user to apply damage, even on a miss."
+      ]
+    },
+    {
+      "role": "Rules: Heartstopper",
+      "revision": 385459,
+      "title": "Heartstopper",
+      "markers": [
+        "| summary = Smash an enemy's chest in and possibly inflict {{SmCond|Chest Trauma}}."
+      ]
+    },
+    {
+      "role": "Rules: Chest Trauma",
+      "revision": 442373,
+      "title": "Chest Trauma",
+      "markers": [
+        "| effects = * Has {{Disadvantage}} on Constitution [[Saving Throws]] and has one fewer action."
+      ]
+    },
+    {
+      "role": "Rules: Concussive Smash",
+      "revision": 373613,
+      "title": "Concussive Smash",
+      "markers": [
+        "| description = Hit an enemy with all your might to deal damage and possibly {{cond|Dazed|Daze}} them."
+      ]
+    },
+    {
+      "role": "Rules: Dazed",
+      "revision": 442592,
+      "title": "Dazed",
+      "markers": [
+        "{{See also|Dazed (Omeluum's Draught)}}"
+      ]
+    }
+  ],
+  "summary": "Martial morningstar dealing 1d8 + 1 Piercing with Tenacity and Heartstopper.",
+  "fields": {
+    "Weapon profile": "1d8 + 1 Piercing plus Strength modifier. Martial, one-handed, dippable, 5 ft melee.",
+    "Tenacity": "When main-handed, spend a Reaction on a missed melee attack to deal Strength modifier Bludgeoning, minimum 1. This does not trigger the missed weapon action’s effect, but some equipment on-hit effects can apply.",
+    "Heartstopper": "Action once per Short Rest. Melee weapon attack for 1d4 Piercing plus attack ability modifier. Constitution save against weapon-action DC +2 or Chest Trauma for 2 turns. Chest Trauma removes one Action and imposes disadvantage on Constitution saves. Healing removes it.",
+    "Concussive Smash": "With proficiency, Action once per Short Rest. On a melee weapon hit, the target makes a Constitution save against the higher of spell save DC or weapon-action DC +2. Failure Dazes for 2 turns, removing Dexterity AC bonus, giving disadvantage on Wisdom saves, and preventing reactions that spend a Reaction point. Help ends Dazed.",
+    "Dual Wielder": "The source reports that a miss with a second, non-Tenacity weapon may still trigger the morningstar’s Tenacity.",
+    "Enchantment": "+1 to attack and damage. The damage bonus is included above.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

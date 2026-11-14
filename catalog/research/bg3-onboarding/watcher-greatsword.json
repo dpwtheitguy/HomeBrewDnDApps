@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:11856",
+  "title": "Watcher Greatsword",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424776,
+      "title": "Watcher Greatsword",
+      "markers": [
+        "WPN_WATCHER_Greatsword_B"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441713,
+      "title": "Steel Watcher (creature)",
+      "markers": [
+        "Watcher Greatsword"
+      ]
+    }
+  ],
+  "summary": "Steel Watcher-only greatsword deals 3d12 Slashing.",
+  "fields": {
+    "Weapon profile": "3d12 Slashing plus Strength. Martial, two-handed melee, 5 ft. Only Steel Watchers can equip it.",
+    "Acquisition": "Find one in the foundry or pick it up after disarming a Steel Watcher. The Patch 3 equip restriction prevents player use.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

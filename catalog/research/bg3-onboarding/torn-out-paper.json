@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12798",
+  "title": "Torn-Out Paper",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Torn-Out Paper",
+      "revision": 424301,
+      "markers": [
+        "S_UND_ClericPoem_Love"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Bernard",
+      "revision": 440226,
+      "markers": [
+        "Torn-Out Paper"
+      ]
+    }
+  ],
+  "summary": "Read to unlock a line that makes Bernard offer an embrace.",
+  "fields": {
+    "Read": "Reading the note unlocks Bernard’s embrace dialogue. This is a different line from the one that produces the Guiding Light ring.",
+    "Acquisition": "Arcane Tower bedroom (−36, −290).",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:8157",
+  "title": "Amulet of Restoration",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 415917,
+      "title": "Amulet of Restoration",
+      "markers": [
+        "MAG_Healer_HPRestoration_Amulet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 404067,
+      "title": "Healing Word",
+      "markers": [
+        "| summary ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 380604,
+      "title": "Mass Healing Word",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Cast Healing Word and Mass Healing Word as Bonus Actions, once per Long Rest each. Each heals 1d4 plus spellcasting modifier per target.",
+  "fields": {
+    "Equipment type": "Amulets",
+    "Effect": "Cast Healing Word and Mass Healing Word as Bonus Actions, once per Long Rest each. Each heals 1d4 plus spellcasting modifier per target.",
+    "Base value": "160 gp in BG3. Merchant prices vary.",
+    "Healing Word": "Bonus Action once per Long Rest. Heal one visible ally within 60 ft for 1d4 plus the caster’s spellcasting ability modifier.",
+    "Mass Healing Word": "Bonus Action once per Long Rest. Heal eligible allies within a 60 ft radius of yourself for 1d4 plus the caster’s spellcasting ability modifier per target.",
+    "Limits": "Neither spell affects Undead or Constructs."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

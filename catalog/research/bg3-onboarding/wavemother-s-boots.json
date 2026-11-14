@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:31018",
+  "title": "Wavemother's Boots",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Wavemother's Boots",
+      "revision": 424794,
+      "markers": [
+        "MAG_LC_Umberlee_Regeneration_Boots"
+      ]
+    },
+    {
+      "role": "Rules: Watery Rejuvenation",
+      "title": "Watery Rejuvenation",
+      "revision": 433439,
+      "markers": [
+        "repeatedly regained"
+      ]
+    }
+  ],
+  "summary": "Unobtainable boots heal while standing in a Water surface.",
+  "fields": {
+    "Watery Rejuvenation": "Start a turn standing in a Water surface to heal 1d4 HP. Turn-based mode can trigger this repeatedly outside combat.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "190 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:22488",
+  "title": "The Sovereign's Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424108,
+      "title": "The Sovereign's Key",
+      "markers": [
+        "{{story|The Sovereign's Key}} is a [[Miscellaneous#Story Items|Story Item]] which can be looted from [[Spaw|Sovereign Spaw's]] body. While in the inventory of an active party member, it temporarily neutralizes all [[mushroom]] and spore traps for the party in the [[Underdark]]."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437008,
+      "title": "Sovereign's Protection (condition)",
+      "markers": [
+        "does not function"
+      ]
+    }
+  ],
+  "summary": "Protects the party from myconid mushroom traps.",
+  "fields": {
+    "Sovereign’s Protection": "The party can pass affected mushroom traps such as Bibberbang safely. Does not work in camp or Grymforge.",
+    "Acquisition": "Carried by Sovereign Spaw and can be looted when knocked out.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

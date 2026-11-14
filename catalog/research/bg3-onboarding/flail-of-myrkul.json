@@ -1,0 +1,42 @@
+{
+  "item_id": "bg3-wiki:19399",
+  "title": "Flail of Myrkul",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 429202,
+      "title": "Flail of Myrkul",
+      "markers": [
+        "WPN_HUM_Flail_Myrkul_A_0"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 408130,
+      "title": "Flails",
+      "markers": [
+        "| damage = 1d8"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 425432,
+      "title": "Tenacity",
+      "markers": [
+        "| description = When you miss a melee attack, you deal {{DamageText|[[Strength]] [[Modifier]]|Bludgeoning}} damage (minimum of 1) anyway."
+      ]
+    }
+  ],
+  "summary": "A one-handed martial flail wielded by Ketheric Thorm.",
+  "fields": {
+    "Damage": "1d8 Bludgeoning",
+    "Range": "5 ft melee.",
+    "Training": "martial",
+    "Handling": "one-handed",
+    "Weapon actions": "Concussive Smash, Weakening Strike",
+    "Tenacity": "In the main hand, a missed melee attack can spend a Reaction to deal Bludgeoning damage equal to Strength modifier, minimum 1.",
+    "Acquisition": "Disarm Ketheric during the first encounter and take the weapon before he retrieves it. He carries this flail after the second encounter.",
+    "Base value": "50 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

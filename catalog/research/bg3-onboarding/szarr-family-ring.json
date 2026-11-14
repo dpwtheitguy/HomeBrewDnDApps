@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:27036",
+  "title": "Szarr Family Ring",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Szarr Family Ring",
+      "revision": 433832,
+      "markers": [
+        "UNI_LOW_SzarrRing"
+      ]
+    },
+    {
+      "role": "Rules: Investigate Cazador's Palace",
+      "title": "Investigate Cazador's Palace",
+      "revision": 419839,
+      "markers": [
+        "Kozakuran Dictionary"
+      ]
+    },
+    {
+      "role": "Rules: Szarr Palace",
+      "title": "Szarr Palace",
+      "revision": 441461,
+      "markers": [
+        "Szarr Family Ring"
+      ]
+    }
+  ],
+  "summary": "Story ring unlocks Szarr Palace and Cazador’s Dungeon doors.",
+  "fields": {
+    "Quest use": "Obtain from Godey in the kennels for 95 XP and quest advancement, or loot Cazador. Opens applicable palace and dungeon doors. The palace’s Sinister Door also requires the Kozakuran Dictionary to read the inscription.",
+    "Base value": "20 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

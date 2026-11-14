@@ -1,0 +1,41 @@
+{
+  "item_id": "bg3-wiki:9193",
+  "title": "Combination Axe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417201,
+      "title": "Combination Axe",
+      "markers": [
+        "MAG_Critical_CriticalCombo_BattleAxe"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432201,
+      "title": "Critical Virtuoso",
+      "markers": [
+        "| description = When you score a [[Critical Hit]] you can spend a {{r|bonus}} to make an additional attack."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 421981,
+      "title": "Press the Advantage",
+      "markers": [
+        "| description = After scoring a [[critical hit]], use your {{r|bonus}} to make an additional attack."
+      ]
+    }
+  ],
+  "summary": "After a critical hit, this unobtainable +1 battleaxe allows a bonus attack.",
+  "fields": {
+    "Damage": "1d8 + 1 Slashing",
+    "Weapon profile": "Martial, versatile, battleaxes.",
+    "Two-handed damage": "1d10 + 1 Slashing",
+    "Weapon actions": "Cleave, Lacerate, Maiming Strike.",
+    "Press the Advantage": "A critical hit grants Critical Hit! for 1 turn. Spend a Bonus Action to make another melee weapon attack, consuming the condition.",
+    "Availability": "Unobtainable in normal gameplay.",
+    "Base value": "310 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence."
+}

@@ -1,0 +1,48 @@
+{
+  "item_id": "bg3-wiki:8487",
+  "title": "Winter's Clutches",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 441170,
+      "title": "Winter's Clutches",
+      "markers": [
+        "MAG_Frost_GenerateFrostOnDamage_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433453,
+      "title": "Winter's Clutches (passive feature)",
+      "markers": [
+        "| condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442780,
+      "title": "Encrusted with Frost",
+      "markers": [
+        "this damage is not halved"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442931,
+      "title": "Frozen",
+      "markers": [
+        "ice shatters"
+      ]
+    }
+  ],
+  "summary": "Inflict Encrusted with Frost when you deal Cold damage.",
+  "fields": {
+    "Winter’s Clutches": "On Cold damage, inflict 2 turns of Encrusted with Frost on affected targets.",
+    "Encrusted with Frost": "Disadvantage on Dexterity saves. At 7 or more turns, the frost clears after a fixed DC 12 Constitution save. Reported behavior is Frozen for 2 turns on failure or 1d4 Cold on success, contrary to the tooltip. Burning removes the frost.",
+    "Frozen": "Incapacitated and vulnerable to Bludgeoning, Thunder and Force. Those damage types shatter it. Frozen grants Fire resistance and immunity to Burning and Encrusted with Frost.",
+    "Acquisition": "Glut’s reward and Lady Esther’s shop copy are mutually exclusive. A separate pair is on a counter near the elementals at Sorcerous Sundries.",
+    "Honour Mode value": "170 gp nominal.",
+    "Base value": "90 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

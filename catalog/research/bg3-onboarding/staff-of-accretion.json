@@ -1,0 +1,56 @@
+{
+  "item_id": "bg3-wiki:31031",
+  "title": "Staff of Accretion",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Staff of Accretion",
+      "revision": 423532,
+      "markers": [
+        "MAG_CQCaster_GainArcaneChargeOnDamage_Quarterstaff"
+      ]
+    },
+    {
+      "role": "Rules: Accretion",
+      "title": "Accretion",
+      "revision": 432034,
+      "markers": [
+        "| description = The wearer gains {{Cond|Arcane Charge}} when they deal damage with close-quarter-range spells or close-quarter-range [[Cantrip|cantrips]]."
+      ]
+    },
+    {
+      "role": "Rules: Topple",
+      "title": "Topple",
+      "revision": 377988,
+      "markers": [
+        "Non-lethal"
+      ]
+    },
+    {
+      "role": "Rules: Prone (condition)",
+      "title": "Prone (condition)",
+      "revision": 436524,
+      "markers": [
+        "One turn duration"
+      ]
+    },
+    {
+      "role": "Rules: Arcane Charge",
+      "title": "Arcane Charge",
+      "revision": 442045,
+      "markers": [
+        "Threatened"
+      ]
+    }
+  ],
+  "summary": "Unobtainable +1 staff grants Arcane Charge at close range.",
+  "fields": {
+    "Weapon profile": "Simple, Versatile, 5 ft melee. 1d6 + 1 one-handed or 1d8 + 1 two-handed Bludgeoning plus Strength. +1 to attack rolls.",
+    "Accretion": "Damaging a creature with a close-range spell or cantrip grants Arcane Charge for 2 turns.",
+    "Availability": "Unobtainable. In unused Araj Oblodra stock.",
+    "Base value": "No nominal value is listed in the pinned item source.",
+    "Topple": "With proficiency, once per Short Rest. Action, weapon attack for 1d4 nonlethal Bludgeoning. DEX save against weapon-action DC +2 or Prone for 1 turn. Prone breaks Concentration and expires at the start of the target’s turn. Topple skips main-hand weapon effects.",
+    "Arcane Charge": "Deal +2 spell damage against Threatened targets. The caster does not need to be Threatened. Separate damage instances, such as Magic Missile darts, can each receive the bonus."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

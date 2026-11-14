@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:13921",
+  "title": "Robe of Supreme Defences",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Robe of Supreme Defences",
+      "revision": 422438,
+      "markers": [
+        "MAG_OfArcanicDefense_Robe"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Exquisite Focus",
+      "revision": 432534,
+      "markers": [
+        "| condition = Supreme Defences"
+      ]
+    }
+  ],
+  "summary": "While concentrating, add your spellcasting modifier to saves and gain +1 AC.",
+  "fields": {
+    "Exquisite Focus": "While concentrating, add your spellcasting ability modifier to saving throws and gain +1 Armour Class.",
+    "Acquisition": "Ferg Drogher’s special stock in Rivington, near the Requisitioned Barn. A Persuasion check can unlock it. He will not trade with Shadowheart nearby unless she killed Aylin in Act Two, in which case no Persuasion check is needed.",
+    "Base value": "1600 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

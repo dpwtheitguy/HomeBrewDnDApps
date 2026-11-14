@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:47979",
+  "title": "Omotola's stockroom key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430498,
+      "title": "Omotola's stockroom key",
+      "markers": [
+        "LOW_JewleryShop_Basement_Key_001"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 424019,
+      "title": "The Glitter Gala",
+      "markers": [
+        "It opens the hatch lock as well"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 417050,
+      "title": "Chromatic Scale",
+      "markers": [
+        "The second key opens the hatch lock"
+      ]
+    }
+  ],
+  "summary": "Unlocks the hatch to the Glitter Gala basement.",
+  "fields": {
+    "Lock": "Locked floor hatch behind Omotola’s counter. DC 20 Sleight of Hand without a key. Omotola also carries a separately named Glitter Gala Stockroom Key for this hatch.",
+    "Acquisition": "Carried by Thomas C. Quirkilious in the Chromatic Scale. His own stockroom key opens a different lock.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

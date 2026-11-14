@@ -1,0 +1,32 @@
+{
+  "item_id": "bg3-wiki:28680",
+  "title": "Unusual Skull",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Unusual Skull",
+      "revision": 441147,
+      "markers": [
+        "Unusual Skull"
+      ]
+    },
+    {
+      "role": "Rules: Wyrm's Rock Prison",
+      "title": "Wyrm's Rock Prison",
+      "revision": 444625,
+      "markers": [
+        "Fugitive"
+      ]
+    }
+  ],
+  "summary": "Marvin helps an arrested character escape Wyrm’s Rock Prison.",
+  "fields": {
+    "Interaction": "Speak to the skull in the prison cell after being arrested. It cannot be picked up. The two riddle answers are Shadow and Anvil. An optional DC 15 Arcana check identifies the magical imprint.",
+    "Both correct": "Teleport to the Evidence chests. Haste and Greater Invisibility for 10 turns.",
+    "One correct": "Teleport near the guardroom entrance. Haste and Mirror Image for 10 turns.",
+    "Neither correct": "Teleport near the guardroom entrance and gain Haste for 10 turns.",
+    "All outcomes": "The item source says all party members gain Fugitive for 20 turns and guards become hostile. The prison page explicitly confirms Fugitive on the escaping character. Teleporting does not start turn-based mode, so Fugitive can tick in real time.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations. Reconciled applicable action, condition, and variant details against pinned rules."
+}

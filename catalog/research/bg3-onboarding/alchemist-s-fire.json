@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:3716",
+  "title": "Alchemist's Fire",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 415870,
+      "title": "Alchemist's Fire",
+      "markers": [
+        "GRN_FireFlask_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 371587,
+      "title": "Fire (surface)",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Throw one flask as an Action to create a 10 ft-radius Fire surface for 3 turns.",
+  "fields": {
+    "Activation": "Action. Throw and consume one flask. Range 60 ft.",
+    "Surface": "10 ft radius for 3 turns. The Fire surface deals 1d4 Fire per turn and applies Burning.",
+    "Base value": "13 gp in BG3. Merchant prices vary.",
+    "Burning duration": "The item’s three-turn Burning is normally overwritten by the surface’s one-turn Burning. If a Fire surface cannot form, the item’s full Burning duration can apply.",
+    "Crafting": "Combine Ashes of Fire Amber with any Salt."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

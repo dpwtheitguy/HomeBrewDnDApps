@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:3504",
+  "title": "Padded Armour",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421652,
+      "title": "Padded Armour",
+      "markers": [
+        "ARM_Padded"
+      ]
+    }
+  ],
+  "summary": "Padded Light Armour with 11 + Dexterity AC.",
+  "fields": {
+    "Defence": "AC 11 + Dexterity. Light Armour proficiency applies.",
+    "Acquisition": "Warlock starting armour. Astarion and city guard models share the same AC.",
+    "Base value": "30 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

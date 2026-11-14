@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:16009",
+  "title": "Diamond",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417694,
+      "title": "Diamond",
+      "markers": [
+        "| uid = LOOT_GEM_Diamond_A"
+      ]
+    },
+    {
+      "role": "Rules: Devil's Fee",
+      "revision": 440876,
+      "title": "Devil's Fee",
+      "markers": [
+        "{{Location page"
+      ]
+    }
+  ],
+  "summary": "Use one diamond in the Devil’s Fee ritual to open the House of Hope portal. A Black or Infernal Diamond can substitute.",
+  "fields": {
+    "Use": "Use one diamond in the Devil’s Fee ritual to open the House of Hope portal. A Black or Infernal Diamond can substitute.",
+    "Base value": "220 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:18454",
+  "title": "Elixir of Dragonborn Prowess: Frost",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418139,
+      "title": "Elixir of Dragonborn Prowess: Frost",
+      "markers": [
+        "CONS_Elixir_Blood_Dragonborn_Ice"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 328618,
+      "title": "Ice Storm",
+      "markers": [
+        "| description = Impel a storm of hail and ice to crash from the sky, covering the ground and striking all objects and creatures within range, dealing {{DamageType|Bludgeoning}} and {{DamageType|Cold}} damage. It also creates an {{Area|Ice}} surface that lasts 2 turns."
+      ]
+    }
+  ],
+  "summary": "Until Long Rest, gain Cold resistance, advantage on Intimidation and Persuasion checks, and one cast of Ice Storm.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle. Until Long Rest, gain Cold resistance, advantage on Intimidation and Persuasion checks, and one cast of Ice Storm.",
+    "Acquisition": "Trade silver or white dragonborn blood to Araj Oblodra in Moonrise Towers or the Lower City.",
+    "Stacking": "Araj’s elixirs stack with ordinary elixirs and other Araj elixirs.",
+    "Ice Storm": "Action. Within 60 ft, deal 2d8 Bludgeoning plus 4d6 Cold in a 20 ft radius, Dexterity save for half. Leaves Ice for 2 turns.",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

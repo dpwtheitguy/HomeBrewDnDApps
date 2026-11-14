@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:9463",
+  "title": "Elixir of Universal Resistance",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418167,
+      "title": "Elixir of Universal Resistance",
+      "markers": [
+        "CONS_Potion_Invulnerability"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443856,
+      "title": "Invulnerability",
+      "markers": [
+        "| uid = POTION_OF_INVULNERABILITY"
+      ]
+    }
+  ],
+  "summary": "Gain resistance to all damage for 10 rounds.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle. Gain resistance to all damage for 10 rounds.",
+    "Crafting": "Combine Vitriol of Divine Miasma with any Sublimate.",
+    "Stacking": "Behaves as a potion and can coexist with normal elixirs.",
+    "Base value": "200 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

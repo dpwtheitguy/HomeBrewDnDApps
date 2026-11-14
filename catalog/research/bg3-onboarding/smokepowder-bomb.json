@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:1526",
+  "title": "Smokepowder Bomb",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 433728,
+      "title": "Smokepowder Bomb",
+      "markers": [
+        "GRN_Bomb_A"
+      ]
+    }
+  ],
+  "summary": "A thrown bomb that explodes on impact for 3d4 + 9 Force.",
+  "fields": {
+    "Throw": "Action, 60 ft, 13 ft radius. DC 12 Dexterity save halves 3d4 + 9 Force. Automatically crits objects and environments.",
+    "Acquisition": "Sold by multiple traders and carried by some goblins. No alchemy recipe.",
+    "Base value": "16 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

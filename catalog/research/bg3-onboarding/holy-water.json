@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:9356",
+  "title": "Holy Water",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419561,
+      "title": "Holy Water",
+      "markers": [
+        "GRN_HolyWaterFlask_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 431953,
+      "title": "Water (surface)",
+      "markers": [
+        "Douses unprotected flames"
+      ]
+    }
+  ],
+  "summary": "Throw up to 60 ft to deal 3d6 Radiant to nearby Fiends and Undead.",
+  "fields": {
+    "Throw": "Action. Consume one flask, throwing it up to 60 ft. Fiends and Undead in a 7 ft radius take 3d6 Radiant, half on a DC 13 Dexterity save.",
+    "Surface": "Creates a 7 ft radius Water surface. It puts out unprotected flames and can freeze or become electrified.",
+    "Crafting": "No BG3 Alchemy recipe.",
+    "Base value": "20 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

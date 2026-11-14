@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:11509",
+  "title": "Crypt Lord Ring",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417421,
+      "title": "Crypt Lord Ring",
+      "markers": [
+        "MAG_OfUndeadServant_Ring"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 414571,
+      "title": "Create Undead",
+      "markers": [
+        "| uid = Target_CreateUndead"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 428214,
+      "title": "Mummy (Create Undead)",
+      "markers": [
+        "| ac = 18",
+        "| hp = 93",
+        "{{Feature box|Rotting Fist}}"
+      ]
+    }
+  ],
+  "summary": "Raise a Small or Medium corpse as a mummy once per Long Rest.",
+  "fields": {
+    "Create Undead": "Action once per Long Rest. Target a Small or Medium corpse within 10 ft. The mummy stays until Long Rest and disappears if you unequip the ring.",
+    "Acquisition": "Reward for finding Mystic Carrion’s servant when Thrumbo survives.",
+    "Base value": "1000 gp nominal BG3 value.",
+    "Mummy": "AC 18 and 93 HP on Balanced. Uses Dreadful Glare to Frighten and Multiattack against Frightened targets. Rotting Fist is its melee attack."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence. Expanded the card from the pinned item and linked gameplay evidence."
+}

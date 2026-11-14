@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:8221",
+  "title": "Scribbled Notes",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422725,
+      "title": "Scribbled Notes",
+      "markers": [
+        "S_UND_FurnaceSearch_MadRecords"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441122,
+      "title": "Adamantine Forge (quest)",
+      "markers": [
+        "Forge"
+      ]
+    }
+  ],
+  "summary": "Read and pass DC 15 Investigation to advance the Adamantine Forge quest.",
+  "fields": {
+    "Use": "The party attempts DC 15 Investigation. Success reveals the guardian’s magma and hot hammer weakness. Passing checks on these notes, Memory Shard and The Great Furnace of Grymforge earns If I Can’t Have It… for a Sage.",
+    "Base value": "14 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

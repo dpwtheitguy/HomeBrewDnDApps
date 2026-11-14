@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:47955",
+  "title": "Prison Key (Plig)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Prison Key (Plig)",
+      "revision": 430478,
+      "markers": [
+        "S_GOB_PrisonKey_000"
+      ]
+    }
+  ],
+  "summary": "Opens the grated iron doors in the Worg Pens at X 411, Y −32.",
+  "fields": {
+    "Use": "Opens the grated iron doors in the Worg Pens at X 411, Y −32.",
+    "Acquisition": "Carried by Plig in the Worg Pens.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

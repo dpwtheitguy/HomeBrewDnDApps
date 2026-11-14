@@ -1,0 +1,46 @@
+{
+  "item_id": "bg3-wiki:9544",
+  "title": "Poisoner's Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437842,
+      "title": "Poisoner's Gloves",
+      "markers": [
+        "MAG_Poison_PoisonExposure_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 434188,
+      "title": "Envenom",
+      "markers": [
+        "condition duration = 3"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439705,
+      "title": "Poisoned",
+      "markers": [
+        "Suffers"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432242,
+      "title": "Deadly Derivation",
+      "markers": [
+        "1d4"
+      ]
+    }
+  ],
+  "summary": "When you deal Poison damage, the target can become Poisoned.",
+  "fields": {
+    "Envenom": "Each qualifying Poison damage instance calls for a DC 13 Constitution save. On failure, the target is Poisoned for 3 turns, with disadvantage on attack rolls and ability checks.",
+    "Interaction": "Envenom applies the general Poisoned condition and can trigger the Derivation Cloak’s 1d4 self-heal.",
+    "Acquisition": "Chest at the back of House of Healing, X −199, Y 78.",
+    "Base value": "240 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

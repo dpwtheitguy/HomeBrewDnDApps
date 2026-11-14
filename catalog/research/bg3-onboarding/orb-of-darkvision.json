@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:48819",
+  "title": "Orb of Darkvision",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421552,
+      "title": "Orb of Darkvision",
+      "markers": [
+        "{{MiscItemPage"
+      ]
+    },
+    {
+      "role": "Rules: Darkvision (spell)",
+      "revision": 417544,
+      "title": "Darkvision (spell)",
+      "markers": [
+        "| summary = It allows spellcasters to alter a creature's sight, granting them the ability to see in the dark."
+      ]
+    },
+    {
+      "role": "Rules: Get Past the Rubble",
+      "revision": 418849,
+      "title": "Get Past the Rubble",
+      "markers": [
+        "| description = Get Past the Rubble is a sub-quest of The Adamantine Forge quest in Act One of Baldur's Gate 3. It can be started by speaking with Herdmaster Skarjall at Grymforge or using Speak With Animals to speak to the deep rothé."
+      ]
+    }
+  ],
+  "summary": "Use this stationary Grymforge orb to gain Darkvision for 10 turns. It is reusable.",
+  "fields": {
+    "Darkvision": "The user can see in ordinary darkness out to 40 ft. The orb overrides standard until-Long-Rest Darkvision and that older buff does not return when the orb’s 10 turns end. Magical Darkness remains opaque.",
+    "Location": "Grymforge trapped gallery at X −635, Y 432, after Get Past the Rubble."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

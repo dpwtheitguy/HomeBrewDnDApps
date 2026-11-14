@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:24719",
+  "title": "Reflectoguard",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422250,
+      "title": "Reflectoguard",
+      "markers": [
+        "PUZ_Trap_Gortash_Reflectoguard"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 436706,
+      "title": "Reflectoguard Active (condition)",
+      "markers": [
+        "Any projectile fired"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 429152,
+      "title": "Reflective Shell",
+      "markers": [
+        "directly targeting"
+      ]
+    }
+  ],
+  "summary": "Throw to give creatures in the splash area projectile reflection for 2 turns.",
+  "fields": {
+    "Throw": "Action, 60 ft range. Affects everyone in a 6 ft radius, including enemies. Grants Reflectoguard Active for 2 turns.",
+    "Reflectoguard Active": "Direct projectiles targeted at an affected creature are reflected to their origin. This includes ranged weapon attacks, throws and many ranged spells. It does not reflect an area effect merely because the creature stands in it. A directly aimed area projectile such as Fireball can reflect. If the projectile uses an attack roll, the shooter rolls against itself, normally at disadvantage. Crossbow Expert: Point-Blank or a Daredevil Gloves melee conversion can remove that disadvantage.",
+    "Acquisition": "Loot Gortash. Pickpocketing can yield two.",
+    "Base value": "10 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

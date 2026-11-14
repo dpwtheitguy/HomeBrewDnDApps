@@ -1,0 +1,35 @@
+{
+  "item_id": "bg3-wiki:27571",
+  "title": "Flame Blade",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 442966,
+      "title": "Flame Blade (weapon)",
+      "markers": [
+        "UNI_WPN_HUM_Scimitar_FlameBlade"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 428188,
+      "title": "Flame Blade",
+      "markers": [
+        "| description = Conjure a flaming {{SmRarityItem|Flame Blade (weapon)|alias=Scimitar}} in your hand for 10 turns that deals {{DamageText|3d6|Fire}} damage. It sheds a bright light in a {{Dist|m=3|ft=10}} radius and a dim light in a {{Dist|m=6|ft=20}} radius."
+      ]
+    }
+  ],
+  "summary": "Conjure a scimitar that deals 3d6 Fire with a melee spell attack.",
+  "fields": {
+    "Damage": "3d6 Fire",
+    "Range": "5 ft melee.",
+    "Training": "martial",
+    "Handling": "one-handed",
+    "Spell": "Conjure the blade for 10 turns. Casting with a level 4 or 5 slot raises the damage to 4d6. A level 6 slot raises it to 5d6.",
+    "Light": "Bright light to 10 ft and dim light to 20 ft.",
+    "Handling note": "Can be equipped in either hand or unequipped into the caster’s inventory. It cannot be thrown or given to someone else.",
+    "Base value": "30 gp in BG3. Merchant prices vary.",
+    "Attack": "5 ft melee spell attack using the wielder’s spellcasting ability. Deal 3d6 Fire without adding an ability modifier to damage. No Flourish, Lacerate, or other weapon actions."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

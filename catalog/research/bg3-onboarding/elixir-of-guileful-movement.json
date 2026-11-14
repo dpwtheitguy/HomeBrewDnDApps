@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:8311",
+  "title": "Elixir of Guileful Movement",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422858,
+      "title": "Elixir of Guileful Movement",
+      "markers": [
+        "ALCH_Solution_Elixir_Freedom"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 435502,
+      "title": "Freedom of Movement (condition)",
+      "markers": [
+        "* The affected creature's [[Movement Speed]] cannot be reduced by {{Condition type|Difficult Terrain}}, spells or magical effects."
+      ]
+    }
+  ],
+  "summary": "Until Long Rest, difficult terrain, spells, and other magical effects cannot reduce your movement speed, and you cannot be Paralysed or Restrained.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle. Until Long Rest, difficult terrain, spells, and other magical effects cannot reduce your movement speed, and you cannot be Paralysed or Restrained.",
+    "Stacking": "Replaces other normal elixirs and can be overwritten by another.",
+    "Crafting": "Combine Suspension of Ochre Jelly with any Sublimate.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Verified card mechanics against the cited item or linked rule."
+}

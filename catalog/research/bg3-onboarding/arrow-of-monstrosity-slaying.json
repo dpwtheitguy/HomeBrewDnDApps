@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:9436",
+  "title": "Arrow of Monstrosity Slaying",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416101,
+      "title": "Arrow of Monstrosity Slaying",
+      "markers": [
+        "ARR_Arrow_Of_Slaying_Monstrosity",
+        "price = 20",
+        "* Deals {{InfoBlob|Weapon Damage}}. "
+      ]
+    },
+    {
+      "role": "Shared arrow rules",
+      "revision": 439126,
+      "title": "Arrows",
+      "markers": [
+        "cannot be crafted",
+        "off-hand ranged attacks",
+        "no saving throws"
+      ]
+    }
+  ],
+  "summary": "Targets Monstrosity creatures only. Doubles the weapon damage against that creature type. The slaying effect has no saving throw.",
+  "fields": {
+    "Activation": "Action. Fire from a ranged weapon and consume one arrow. Range 60 ft.",
+    "Effect": "Targets Monstrosity creatures only. Doubles the weapon damage against that creature type. The slaying effect has no saving throw.",
+    "Restrictions": "Special arrows cannot be used with off-hand ranged attacks.",
+    "Crafting": "Special arrows are obtained from loot or vendors.",
+    "Creative use": "Save this arrow for a confirmed Monstrosity target.",
+    "Base value": "20 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 activation, effects and linked rules."
+}

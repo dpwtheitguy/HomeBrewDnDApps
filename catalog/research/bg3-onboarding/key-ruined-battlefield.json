@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:60039",
+  "title": "Key (Ruined Battlefield)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Key (Ruined Battlefield)",
+      "revision": 433538,
+      "markers": [
+        "| usage = * Opens a chest at {{coords|129|0}}"
+      ]
+    }
+  ],
+  "summary": "Opens the chest at X 129, Y 0 in the Ruined Battlefield.",
+  "fields": {
+    "Lock": "Opens the chest at X 129, Y 0 in the Ruined Battlefield.",
+    "Acquisition and access": "In a rotting basket tucked under roots at X 96, Y −48.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added the exact lock and acquisition from the pinned native item rules."
+}

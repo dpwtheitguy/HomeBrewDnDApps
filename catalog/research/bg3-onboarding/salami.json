@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:3850",
+  "title": "Salami",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422599,
+      "title": "Salami",
+      "markers": [
+        "WPN_HUM_Salami_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373613,
+      "title": "Concussive Smash",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442592,
+      "title": "Dazed",
+      "markers": [
+        "Wisdom"
+      ]
+    }
+  ],
+  "summary": "Use as a 1d4 Bludgeoning club or spend it for 6 Camp Supplies.",
+  "fields": {
+    "Weapon profile": "1d4 Bludgeoning plus Strength. Simple one-handed club, 5 ft melee.",
+    "Concussive Smash": "Action, normal weapon damage. Constitution save against the higher of spell save DC or weapon-action DC +2. Failure Dazes for 2 turns, removing Dexterity AC bonus, giving Disadvantage on Wisdom saves, and blocking spending Reaction points. Help clears it. Once per Short Rest with proficiency.",
+    "Camp Supplies": "6 Camp Supplies toward a Long Rest.",
+    "Base value": "10 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

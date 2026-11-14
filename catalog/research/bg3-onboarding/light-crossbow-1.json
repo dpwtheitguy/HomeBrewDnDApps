@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:3387",
+  "title": "Light Crossbow +1",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420474,
+      "title": "Light Crossbow +1",
+      "markers": [
+        "WPN_LightCrossbow_1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 421804,
+      "title": "Piercing Shot",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443536,
+      "title": "Gaping Wounds",
+      "markers": [
+        "Honour"
+      ]
+    }
+  ],
+  "summary": "+1 light crossbow with Piercing Shot.",
+  "fields": {
+    "Damage": "1d8 + 1 Piercing plus Dexterity, +1 to attack rolls. Simple two-handed ranged weapon, 60 ft. Loading and Dippable.",
+    "Piercing Shot": "Action, ranged weapon damage. Constitution save against weapon-action DC +2 or Gaping Wounds for 2 turns. Undead and Constructs are immune. In standard modes hits on the target gain 2 extra Piercing damage. In Honour Mode it takes 2 extra damage of the original type from damage sources. Healing clears the condition. Once per Short Rest with proficiency. Crossbow Expert: Wounding extends this to 4 turns. The combat log shows both saves, but only the roll for the applicable duration normally matters.",
+    "Acquisition": "Sold by Dammon.",
+    "Base value": "40 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

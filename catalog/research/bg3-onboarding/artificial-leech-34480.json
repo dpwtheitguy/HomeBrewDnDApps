@@ -1,0 +1,24 @@
+{
+  "item_id": "bg3-wiki:34480",
+  "title": "Artificial Leech",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 429215,
+      "title": "Artificial Leech (+1)",
+      "markers": [
+        "MAG_Surgeon_Leech"
+      ]
+    }
+  ],
+  "summary": "Deals 1d4 + 1 Piercing damage on a hit.",
+  "fields": {
+    "Equipment type": "Daggers",
+    "Enchantment": "+1",
+    "Damage": "1d4 + 1 Piercing",
+    "Effect": "Deals 1d4 + 1 Piercing damage on a hit. Nurses wielding this item deal 1d6 extra Necrotic damage.",
+    "Base value": "65 gp in BG3. Merchant prices vary.",
+    "Reported player limitation": "The pinned item source says its listed Piercing Strike and Bloodletting weapon actions are unavailable to a player who equips it."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

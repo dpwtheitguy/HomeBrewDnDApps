@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:10413",
+  "title": "Sentinel Shield",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 432480,
+      "title": "Sentinel Shield",
+      "markers": [
+        "MAG_PHB_Sentinel_Shield"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432633,
+      "title": "Heightened Awareness",
+      "markers": [
+        "Initiative"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 406487,
+      "title": "Shield Blow",
+      "markers": [
+        "actually is a Strength saving throw"
+      ]
+    }
+  ],
+  "summary": "Shield gives +2 AC, +3 Initiative and Advantage on Perception checks.",
+  "fields": {
+    "Defence": "Shield proficiency. +2 AC.",
+    "Heightened Awareness": "+3 Initiative and Advantage on Perception checks.",
+    "Shield Blow": "When hit by a melee attack, spend a Reaction. A Strength save against your spell save DC prevents Prone for 1 turn. The tooltip lists Dexterity, but the documented action uses Strength.",
+    "Acquisition": "Lann Tarv on the main floor at Moonrise Towers.",
+    "Base value": "580 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

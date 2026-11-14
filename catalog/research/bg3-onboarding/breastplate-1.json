@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:9215",
+  "title": "Breastplate +1",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416748,
+      "title": "Breastplate +1",
+      "markers": [
+        "ARM_BreastPlate_1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433317,
+      "title": "Superior Plate (-1)",
+      "markers": [
+        "| description = You take 1 less {{DamageType|Piercing}} damage."
+      ]
+    }
+  ],
+  "summary": "Medium armour with 15 base AC plus Dexterity modifier (maximum +2). Incoming Piercing damage is reduced by 1.",
+  "fields": {
+    "Effect": "Medium armour with 15 base AC plus Dexterity modifier (maximum +2). Incoming Piercing damage is reduced by 1.",
+    "Base value": "200 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

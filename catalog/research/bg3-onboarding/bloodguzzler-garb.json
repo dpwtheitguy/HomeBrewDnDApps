@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:3544",
+  "title": "Bloodguzzler Garb",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 440438,
+      "title": "Bloodguzzler Garb",
+      "markers": [
+        "| uid = MAG_Violence_LowHP_Violence_Clothes"
+      ]
+    },
+    {
+      "role": "Rules: Grievous Retribution",
+      "revision": 432615,
+      "title": "Grievous Retribution",
+      "markers": [
+        "| summary = '''Grievous Retribution''' is a passive feature that penalizes enemies that strike you."
+      ]
+    },
+    {
+      "role": "Rules: Wrath (condition)",
+      "revision": 437524,
+      "title": "Wrath (condition)",
+      "markers": [
+        "{{About"
+      ]
+    }
+  ],
+  "summary": "Clothing with base AC 10. Gain Wrath for 2 turns when an enemy damages you, once per turn.",
+  "fields": {
+    "Use": "Clothing with base AC 10. Gain Wrath for 2 turns when an enemy damages you, once per turn.",
+    "Wrath": "Gain +1 melee weapon damage per turn of Wrath remaining. It stacks up to 7.",
+    "Base value": "250 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

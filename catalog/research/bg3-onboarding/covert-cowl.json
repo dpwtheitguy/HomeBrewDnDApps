@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:9751",
+  "title": "Covert Cowl",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 441214,
+      "title": "Covert Cowl",
+      "markers": [
+        "MAG_Shadow_CriticalBoostWhileObscured_Helmet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432195,
+      "title": "Covert Critical",
+      "markers": [
+        "| description = While [[obscured]], the number you need to roll a [[Critical Hit]] while attacking is reduced by 1. This effect can stack."
+      ]
+    }
+  ],
+  "summary": "While obscured, reduce the critical-hit threshold by 1. Gain +1 to Dexterity saves.",
+  "fields": {
+    "Covert Critical": "While obscured, reduce the critical-hit threshold by 1. Stacks with similar effects.",
+    "Saving throws": "+1 Dexterity saves.",
+    "Training": "Light Armour.",
+    "Base value": "70 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence."
+}

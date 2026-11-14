@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:11790",
+  "title": "Thunderpalm Strikers",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Thunderpalm Strikers",
+      "revision": 424218,
+      "markers": [
+        "MAG_Monk_Thunder_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Thunderwave",
+      "revision": 424220,
+      "markers": [
+        "on save = Targets take half"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Booming Blows",
+      "revision": 432131,
+      "markers": [
+        "1d4"
+      ]
+    }
+  ],
+  "summary": "Unarmed hits add 1d4 Thunder. Cast level 3 Thunderwave once per Long Rest.",
+  "fields": {
+    "Booming Blows": "Unarmed hits deal 1d4 extra Thunder damage.",
+    "Thunderwave": "Level 3. Action once per Long Rest. Deal 4d8 Thunder in a 17 ft cube at close range. A Constitution save halves damage and prevents the push of up to about 26 ft. Can also move objects.",
+    "Acquisition": "Bumpnagel in Angleiron’s Cellar.",
+    "Base value": "450 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

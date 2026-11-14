@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:9559",
+  "title": "Dolor Amarus",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417871,
+      "title": "Dolor Amarus",
+      "markers": [
+        "| uid = MAG_Vicious_Dagger"
+      ]
+    },
+    {
+      "role": "Rules: Dolor Amarus (passive feature)",
+      "revision": 432275,
+      "title": "Dolor Amarus (passive feature)",
+      "markers": [
+        "| summary = '''Dolor Amarus''' is a passive feature that deals extra damage when a weapon attack lands a critical hit."
+      ]
+    }
+  ],
+  "summary": "A +2 dagger. While this weapon is equipped, weapon critical hits gain 7 extra damage.",
+  "fields": {
+    "Reported behavior": "Copies of this passive stack. The pinned source reports no extra damage on unarmed critical hits or Throw attacks.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

@@ -1,0 +1,81 @@
+{
+  "item_id": "bg3-wiki:9620",
+  "title": "Ravengard's Scourger",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422175,
+      "title": "Ravengard's Scourger",
+      "markers": [
+        "S_LOW_CountingHouse_Vault5_MorningStar"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444245,
+      "title": "Commander's Strike",
+      "markers": [
+        "Target_MAG_CommanderStrike"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444177,
+      "title": "Onus of Battle",
+      "markers": [
+        "{{condition page"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 425432,
+      "title": "Tenacity",
+      "markers": [
+        "| description ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 385459,
+      "title": "Heartstopper",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442373,
+      "title": "Chest Trauma",
+      "markers": [
+        "Disadvantage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373613,
+      "title": "Concussive Smash",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442592,
+      "title": "Dazed",
+      "markers": [
+        "Wisdom"
+      ]
+    }
+  ],
+  "summary": "+2 morningstar that lets you direct an ally’s melee weapon attack.",
+  "fields": {
+    "Weapon profile": "1d8 + 2 Piercing plus Strength. +2 attack rolls. Martial one-handed morningstar, Dippable, 5 ft melee.",
+    "Tenacity": "Main hand only. Spend a Reaction after a missed melee attack to deal Strength modifier Bludgeoning, minimum 1. It does not apply the missed action’s effects.",
+    "Commander’s Strike": "Action and Bonus Action, 30 ft, once per Short Rest with this weapon. The selected ally gets Onus of Battle for 3 turns and spends their Reaction on a single melee weapon attack on a subsequent turn. It ends even if that attack misses. The wielder can trigger Extra Attack, the ally’s granted attack cannot.",
+    "Acquisition": "High Security Vault 5 in the Counting House.",
+    "Heartstopper": "Action for 1d4 + attack ability modifier Piercing. A failed Constitution save against weapon-action DC +2 causes Chest Trauma for 2 turns. It removes one Action, gives Disadvantage on Constitution saves, and ends when healed. Once per Short Rest with proficiency.",
+    "Concussive Smash": "Action, normal weapon damage. Constitution save against the higher of spell save DC or weapon-action DC +2. Failure Dazes for 2 turns, removing Dexterity AC bonus, giving Disadvantage on Wisdom saves, and blocking spending Reaction points. Help clears it. Once per Short Rest with proficiency.",
+    "Base value": "310 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:15076",
+  "title": "Padded Armour +2",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421654,
+      "title": "Padded Armour +2",
+      "markers": [
+        "ARM_Padded_2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433316,
+      "title": "Superior Padding (-2)",
+      "markers": [
+        "Bludgeoning"
+      ]
+    }
+  ],
+  "summary": "Light Armour with 13 + Dexterity AC and 2 point reduction to incoming Bludgeoning damage.",
+  "fields": {
+    "Defence": "AC 13 + Dexterity. Requires Light Armour proficiency. Incoming Bludgeoning damage is reduced by 2.",
+    "Acquisition": "Levelled magic armour merchants at party levels 5–8.",
+    "Base value": "310 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

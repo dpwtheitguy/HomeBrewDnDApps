@@ -1,0 +1,73 @@
+{
+  "item_id": "bg3-wiki:22389",
+  "title": "Shadow Blade (weapon)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438121,
+      "title": "Shadow Blade (weapon)",
+      "markers": [
+        "UNI_HUM_ShadowBlade"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433110,
+      "title": "Shadow Blade (passive feature)",
+      "markers": [
+        "both mainhand and off-hand"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423042,
+      "title": "Shadow Blade",
+      "markers": [
+        "4d8"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374168,
+      "title": "Piercing Strike",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443536,
+      "title": "Gaping Wounds",
+      "markers": [
+        "Honour"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373786,
+      "title": "Flourish",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444158,
+      "title": "Off Balance",
+      "markers": [
+        "Removed by taking damage"
+      ]
+    }
+  ],
+  "summary": "Summoned shortsword deals Psychic damage and has Advantage against obscured targets.",
+  "fields": {
+    "Weapon profile": "2d8 Psychic plus Strength or Dexterity. Simple one-handed shortsword, Finesse and Light. 5 ft melee. Summoner has innate proficiency. Cannot be disarmed. Dippable except in Fire.",
+    "Shadow Blade": "Advantage on melee weapon attack rolls against lightly or heavily obscured targets. The linked passive reports this applies to both equipped melee weapons.",
+    "Creation": "Cast Shadow Blade. The spell-slot version deals 3d8 at levels 3–4 and 4d8 at levels 5–6. The level 2 ring version deals 2d8.",
+    "Piercing Strike": "Action, melee weapon damage. Constitution save against weapon-action DC +2 or Gaping Wounds for 2 turns. Undead and Constructs are immune. In standard modes hits on the target gain 2 extra Piercing damage. In Honour Mode it takes 2 extra damage of the original type from damage sources. Healing clears the condition. Once per Short Rest with proficiency.",
+    "Flourish": "Bonus Action, 1d4 nonlethal Bludgeoning. Dexterity save against weapon-action DC +2 or Off Balance for 2 turns. Off Balance gives Disadvantage on Strength and Dexterity checks and gives attackers Advantage until damage or Help clears it. Once per Short Rest with proficiency.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence.",
+  "use_wiki_title": true
+}

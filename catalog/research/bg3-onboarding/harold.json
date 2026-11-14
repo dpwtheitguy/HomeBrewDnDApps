@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:6821",
+  "title": "Harold",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438020,
+      "title": "Harold",
+      "markers": [
+        "| uid = MAG_BG_Harold_HeavyCrossbow"
+      ]
+    },
+    {
+      "role": "Rules: Haroldish Doom",
+      "revision": 432622,
+      "title": "Haroldish Doom",
+      "markers": [
+        "| summary = '''Haroldish Doom''' is a passive feature that diminishes a target's combat prowess whenever you deal damage to the target."
+      ]
+    },
+    {
+      "role": "Rules: Bane (condition)",
+      "revision": 434569,
+      "title": "Bane (condition)",
+      "markers": [
+        "{{condition page"
+      ]
+    },
+    {
+      "role": "Rules: Piercing Shot",
+      "revision": 421804,
+      "title": "Piercing Shot",
+      "markers": [
+        "| description = Deal regular damage and possibly inflict {{SmCond|Gaping Wounds}} which cause extra damage on attacks."
+      ]
+    }
+  ],
+  "summary": "A +1 heavy crossbow with a ranged-weapon Bane rider.",
+  "fields": {
+    "Weapon profile": "1d10 + 1 Piercing plus Dexterity modifier, 60 ft normal range. Martial, heavy, two-handed, ammunition, loading, dippable.",
+    "Haroldish Doom": "When you deal ranged weapon damage, target makes a DC 13 Charisma save. Failure gives −1d4 to attack rolls and saving throws for 2 turns.",
+    "Piercing Shot": "With proficiency, Action once per Short Rest. Make a ranged weapon attack. On hit, the target makes a Constitution save against weapon-action DC +2. Failure causes Gaping Wounds for 2 turns, or 4 with Crossbow Expert: Wounding. Undead and Constructs are immune to this rider.",
+    "Weapon actions": "Also grants Brace (Ranged) with proficiency.",
+    "Base value": "380 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

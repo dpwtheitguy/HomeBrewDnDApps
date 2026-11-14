@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:3422",
+  "title": "Doom Axe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417888,
+      "title": "Doom Axe",
+      "markers": [
+        "{{legacy}}"
+      ]
+    },
+    {
+      "role": "Rules: Edge of Terror",
+      "revision": 432469,
+      "title": "Edge of Terror",
+      "markers": [
+        "| summary = '''Edge of Terror''' is a passive feature that applies {{Cond|Bone Chilled}} to the target on every hit."
+      ]
+    },
+    {
+      "role": "Rules: Bone Chilled",
+      "revision": 442275,
+      "title": "Bone Chilled",
+      "markers": [
+        "{{condition page"
+      ]
+    }
+  ],
+  "summary": "A greataxe whose strikes prevent their targets from regaining HP and impose disadvantage on Undead attack rolls.",
+  "fields": {
+    "Edge of Terror": "Applies Bone Chilled for 2 turns.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

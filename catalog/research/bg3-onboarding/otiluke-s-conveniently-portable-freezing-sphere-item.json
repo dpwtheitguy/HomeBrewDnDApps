@@ -1,0 +1,46 @@
+{
+  "item_id": "bg3-wiki:59436",
+  "title": "Otiluke's Conveniently Portable Freezing Sphere",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421602,
+      "title": "Otiluke's Conveniently Portable Freezing Sphere (item)",
+      "markers": [
+        "| uid = LOOT_Throwable_Spell_FrozenOrb"
+      ]
+    },
+    {
+      "role": "Rules: Otiluke's Conveniently Portable Freezing Sphere",
+      "revision": 413068,
+      "title": "Otiluke's Conveniently Portable Freezing Sphere",
+      "markers": [
+        "| description = Create a vessel for {{SAI|Otiluke's Freezing Sphere (Launch)|Otiluke's Freezing Sphere}}. Put it in your pocket, give it to an ally, or throw it away. It will explode after 10 turn(s)."
+      ]
+    },
+    {
+      "role": "Rules: Otiluke's Freezing Sphere (Launch)",
+      "revision": 413410,
+      "title": "Otiluke's Freezing Sphere (Launch)",
+      "markers": [
+        "| description = Launch a ball of churning ice that explodes and damages all creatures and objects within range."
+      ]
+    },
+    {
+      "role": "Rules: Explosion Imminent!",
+      "revision": 442827,
+      "title": "Explosion Imminent!",
+      "markers": [
+        "| effects = * The freezing sphere will explode, casting {{SAI|Otiluke's Freezing Sphere (Launch)|Otiluke's Freezing Sphere}}."
+      ]
+    }
+  ],
+  "summary": "A spell-created portable grenade. Throw it or let its ten-turn timer expire to unleash Freezing Sphere.",
+  "fields": {
+    "Blast": "Throw as an Action, 60 ft range. Creatures and objects in a 20 ft radius take 10d6 Cold, half on a Constitution save. Creates an Ice surface for 10 turns. The launch is usable while Silenced. If still intact after 10 turns, the orb explodes automatically.",
+    "Creation": "Cast the level-6 portable spell as an Action on an ally in melee range. Pass, drop or throw the orb before Explosion Imminent expires after 10 turns. A target with no inventory, such as a summon, cannot drop or throw it.",
+    "Base value": "0 gp in BG3. Merchant prices vary.",
+    "Object defenses": "Resists Piercing, Necrotic and Radiant. Vulnerable to Bludgeoning and Fire. Immune to Poison and Psychic."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

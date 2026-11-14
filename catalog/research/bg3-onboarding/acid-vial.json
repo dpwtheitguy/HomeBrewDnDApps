@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:3713",
+  "title": "Acid Vial",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 415766,
+      "title": "Acid Vial",
+      "markers": [
+        "GRN_AcidBottle_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 393042,
+      "title": "Acid (surface)",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Throw to deal 2d6 Acid and create an Acid surface.",
+  "fields": {
+    "Activation": "Action. Throw up to 60 ft.",
+    "Damage": "2d6 Acid, negated by a DC 13 Dexterity save.",
+    "Surface": "7 ft radius. Creatures standing in it have −2 AC.",
+    "Crafting": "No Alchemy recipe.",
+    "Base value": "16 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 mechanics and pinned item and related rule sources."
+}

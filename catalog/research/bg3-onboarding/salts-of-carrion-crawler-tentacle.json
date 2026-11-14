@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:13753",
+  "title": "Salts of Carrion Crawler Tentacle",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422605,
+      "title": "Salts of Carrion Crawler Tentacle",
+      "markers": [
+        "ALCH_Extract_CarrionCrawler"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 417372,
+      "title": "Crawler Mucus",
+      "markers": [
+        "| description ="
+      ]
+    }
+  ],
+  "summary": "Alchemy extract used to make Crawler Mucus.",
+  "fields": {
+    "Extraction": "Combine 3 Carrion Crawler Tentacles.",
+    "Recipe": "Combine these salts with any Vitriol to make Crawler Mucus.",
+    "Result": "Coats hits with paralysis and Poisoned on a failed DC 13 Constitution save.",
+    "Base value": "45 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

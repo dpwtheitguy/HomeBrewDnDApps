@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:13644",
+  "title": "Ki-Rin Hair",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420109,
+      "title": "Ki-Rin Hair",
+      "markers": [
+        "ALCH_Ingredient_Loot_KiRinHair"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423682,
+      "title": "Sublimate of Ki-Rin Hair",
+      "markers": [
+        "any [[Alchemy#Extractions|Ash]]"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 421953,
+      "title": "Potion of Supreme Healing",
+      "markers": [
+        "restores"
+      ]
+    }
+  ],
+  "summary": "Combine three Ki-Rin Hairs to make Sublimate of Ki-Rin Hair, then mix with any Ash to brew Supreme Healing.",
+  "fields": {
+    "Extraction": "3 × Ki-Rin Hair yields 1 Sublimate of Ki-Rin Hair.",
+    "Potion recipe": "Sublimate of Ki-Rin Hair plus any Ash yields Potion of Supreme Healing.",
+    "Acquisition": "Can appear at traders such as Blurg and Derryth Bonecloak in the Myconid Colony after reaching level 6.",
+    "Base value": "25 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

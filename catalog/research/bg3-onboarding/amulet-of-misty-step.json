@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:3427",
+  "title": "Amulet of Misty Step",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 415916,
+      "title": "Amulet of Misty Step",
+      "markers": [
+        "UNI_GOB_DrowCommander_Amulet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 361982,
+      "title": "Misty Step",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Teleport to a visible unoccupied space as a Bonus Action, once per Short Rest.",
+  "fields": {
+    "Equipment type": "Amulets",
+    "Effect": "Bonus Action once per Short Rest. Teleport to a visible, unoccupied space within 60 ft.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

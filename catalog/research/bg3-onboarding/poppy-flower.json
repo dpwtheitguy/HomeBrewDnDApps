@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:50165",
+  "title": "Poppy Flower",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421888,
+      "title": "Poppy Flower",
+      "markers": [
+        "CONS_Herbs_Poppy_Flower_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423753,
+      "title": "Suspension of Mergrass",
+      "markers": [
+        "any [[Alchemy#Extractions|Sublimate]]"
+      ]
+    }
+  ],
+  "summary": "A local Mergrass variant used in the Potion of Mind Reading recipe.",
+  "fields": {
+    "Alchemy": "Extract three Poppy Flowers into Suspension of Mergrass. Add any Sublimate to make a Potion of Mind Reading.",
+    "Acquisition": "House of Grief garden or the base of the Lower City graveyard mortuary stairs.",
+    "Base value": "5 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

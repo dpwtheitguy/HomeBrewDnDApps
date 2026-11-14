@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:2393",
+  "title": "Absolute's Warboard",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 415746,
+      "title": "Absolute's Warboard",
+      "markers": [
+        "UNI_Gob_Priest_Shield"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432027,
+      "title": "Absolute's Ward",
+      "markers": [
+        "| summary ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 376382,
+      "title": "Heroism",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "The Absolute’s Brand grants +1 to saving throws with this shield. Cast Heroism as an Action once per Long Rest to prevent Frightened and grant 5 temporary HP each turn while active.",
+  "fields": {
+    "Equipment type": "Shields",
+    "Training": "Shields",
+    "AC bonus": "+2",
+    "Effect": "The Absolute’s Brand grants +1 to saving throws.",
+    "Base value": "70 gp in BG3. Merchant prices vary.",
+    "Heroism": "Action once per Long Rest. Touch yourself or an ally. Concentration, up to 10 turns. The target is immune to Frightened and gains 5 temporary HP each turn. Temporary HP do not stack."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

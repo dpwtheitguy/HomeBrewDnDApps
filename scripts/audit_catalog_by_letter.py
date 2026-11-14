@@ -72,23 +72,30 @@ PLACEHOLDER = re.compile(
     r'(?:gameplay|combat|item|tabletop) rules (?:are |remain )?pending',
     re.I,
 )
+IMPORT_MARKER = re.compile(r"\b(?:white[- ]?list(?:ed|ing)?|allow[- ]?list(?:ed|ing)?|"
+                           r"placeholder|stub|todo|tbd)\b", re.I)
 NON_ATTACK_EVIDENCE = {'documented-reference', 'reference-object', 'launcher-dependent',
                        'upgrade-dependent', 'verified-2024-adventuring-gear'}
 
 
 def rule_findings(item, weapon, armor, details, curated):
     findings = []
+    presentation = item.get('presentation') or {}
+    pending = marker_fields(item)
+    editorial = {
+        'presentation.tldr': presentation.get('tldr'),
+        'presentation.details': presentation.get('details'),
+        'source note': (item['mechanics'].get('reference_metadata') or {}).get('source_note'),
+        'conversion note': (item.get('conversion') or {}).get('conversion_note'),
+    }
+    for field, value in editorial.items():
+        if isinstance(value, str) and (PLACEHOLDER.search(value) or IMPORT_MARKER.search(value)):
+            pending.append(field)
+    if pending:
+        findings.append('placeholder text: ' + ', '.join(dict.fromkeys(pending)))
     if item['type'] not in COMBAT:
         return findings
     evidence = weapon.get('evidence') or armor.get('evidence')
-    presentation = item.get('presentation') or {}
-    pending = marker_fields(item)
-    pending.extend(
-        f'presentation.{field}' for field in ('tldr', 'details')
-        if PLACEHOLDER.search(presentation.get(field) or '')
-    )
-    if pending:
-        findings.append('placeholder text: ' + ', '.join(pending))
     if evidence == 'improvised-fallback':
         findings.append('provisional rules: verify item identity and attack against source')
     if weapon and evidence not in NON_ATTACK_EVIDENCE:
@@ -121,8 +128,16 @@ def bg3_effect_findings(record, effects, curated, reviewed):
     findings = []
     for index, variant in enumerate(record.get('variants', []), 1):
         facts = {**variant.get('facts', {}), **reviewed}
-        if variant.get('stats', {}).get('type') == 'Coatings' and not facts.get('Special powers'):
-            findings.append(f'BG3 coating: variant {index} needs an explicit playable effect')
+        stats = variant.get('stats', {})
+        if stats.get('type') == 'Coatings':
+            if not facts.get('Special powers'):
+                findings.append(f'BG3 coating: variant {index} needs an explicit playable effect')
+            if not (facts.get('Activation') or stats.get('usage cost')):
+                findings.append(f'BG3 coating: variant {index} needs an activation cost')
+            if not (facts.get('Duration') or variant.get('conditions', {}).get('condition duration')):
+                findings.append(f'BG3 coating: variant {index} needs a weapon coating duration')
+            if not facts.get('Combination rules'):
+                findings.append(f'BG3 coating: variant {index} needs weapon-set scope and combination rules')
     for title in sorted(titles):
         effect = effects.get(title)
         if not effect:
@@ -139,7 +154,11 @@ def main():
     parser.add_argument('--start', default='Z', type=str.upper, choices=string.ascii_uppercase)
     parser.add_argument('--end', type=str.upper, choices=string.ascii_uppercase)
     parser.add_argument('--catalog-dir', type=Path, default=CATALOG)
+    parser.add_argument('--item-id', action='append', default=[],
+                        help='review a stable item ID instead of an alphabet slice (repeatable)')
     args = parser.parse_args()
+    requested = set(args.item_id)
+    matched = set()
     end = args.end or args.start
     if end > args.start:
         parser.error('--end must be at or before --start in reverse alphabetic order')
@@ -165,9 +184,12 @@ def main():
         items.sort(key=lambda item: first_letter(item['name']), reverse=True)
         for item in items:
             letter = first_letter(item['name'])
-            if not end <= letter <= args.start:
-                continue
             item_id, kind = item['id'], item['type']
+            if requested and item_id not in requested:
+                continue
+            if not requested and not end <= letter <= args.start:
+                continue
+            matched.add(item_id)
             weapon, protection = weapons.get(item_id, {}), armor.get(item_id, {})
             findings = common_findings(item, weapon, prices.get(item_id, {}), native.get(item_id, {}))
             findings.extend(rule_findings(item, weapon, protection, details.get(item_id, {}),
@@ -192,8 +214,10 @@ def main():
                              ' | '.join(findings)))
             counts[letter, 'total'] += 1
             counts[letter, 'flagged'] += bool(findings)
+    if requested - matched:
+        parser.error('unknown item IDs: ' + ', '.join(sorted(requested - matched)))
     for letter in reversed(string.ascii_uppercase):
-        if end <= letter <= args.start:
+        if (requested and counts[letter, 'total']) or (not requested and end <= letter <= args.start):
             print(f"{letter}: {counts[letter, 'total']} entries, {counts[letter, 'combat']} combat, "
                   f"{counts[letter, 'flagged']} flagged", file=sys.stderr)
 

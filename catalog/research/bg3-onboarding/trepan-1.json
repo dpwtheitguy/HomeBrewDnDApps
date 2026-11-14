@@ -1,0 +1,33 @@
+{
+  "item_id": "bg3-wiki:34478",
+  "title": "Trepan (+1)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Trepan (+1)",
+      "revision": 429219,
+      "markers": [
+        "MAG_Surgeon_Trepan"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Trephination",
+      "revision": 374365,
+      "markers": [
+        "npc only = yes"
+      ]
+    }
+  ],
+  "summary": "A +1 trepan with nurse-only damage and NPC-only Trephination.",
+  "fields": {
+    "Weapon profile": "Simple, one-handed, Finesse and Light. 5 ft melee. +1 to attacks. Hit for 1d6 + 1 Piercing plus Strength or Dexterity.",
+    "Trephination": "NPC-only Action with proficiency, once per Short Rest. On a hit add Piercing equal to proficiency bonus and 1d6 Necrotic. Dexterity save against weapon-action DC +2 prevents Prone for 2 turns.",
+    "Player limitation": "The source reports Flourish, Piercing Strike and Trephination are all unavailable to the player with this item. Nurses also deal 1d6 additional Necrotic.",
+    "Inspiration": "Collecting all the nurses’ tools can grant Right Tool for the Job to Criminal characters.",
+    "Acquisition": "Sister Vanessa in the House of Healing.",
+    "Base value": "16 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence.",
+  "use_wiki_title": true
+}

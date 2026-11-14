@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:31423",
+  "title": "Mace +2",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420695,
+      "title": "Mace +2",
+      "markers": [
+        "WPN_HUM_Mace_A_2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373613,
+      "title": "Concussive Smash",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442592,
+      "title": "Dazed",
+      "markers": [
+        "Wisdom"
+      ]
+    }
+  ],
+  "summary": "One-handed mace with Concussive Smash.",
+  "fields": {
+    "Weapon profile": "1d6 + 2 Bludgeoning plus Strength. +2 to attack rolls. Simple one-handed weapon, 5 ft melee, Dippable.",
+    "Concussive Smash": "Action, melee weapon damage. Constitution save against the higher of weapon-action DC +2 and spell save DC or Dazed for 2 turns. Dazed removes the Dexterity AC bonus, prevents spending Reaction points and gives Disadvantage on Wisdom saves. An ally can remove it with Help. Once per Short Rest with proficiency.",
+    "Acquisition": "Forge of the Nine basement, rack at X 401, Y 776.",
+    "Base value": "95 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

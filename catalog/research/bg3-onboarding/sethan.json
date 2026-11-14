@@ -1,0 +1,74 @@
+{
+  "item_id": "bg3-wiki:15092",
+  "title": "Sethan",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 432482,
+      "title": "Sethan",
+      "markers": [
+        "MAG_SpiritualStand_Greataxe"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 288408,
+      "title": "Sethan: Spiritual Greataxe",
+      "markers": [
+        "3d8"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 279191,
+      "title": "Sethan: Reduce",
+      "markers": [
+        "| save dc = 11"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 379055,
+      "title": "Prepare",
+      "markers": [
+        "minimum 1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373605,
+      "title": "Cleave",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442222,
+      "title": "Bleeding",
+      "markers": [
+        "start of each turn"
+      ]
+    }
+  ],
+  "summary": "+2 greataxe summons a spiritual copy and can Reduce a target.",
+  "fields": {
+    "Weapon profile": "1d12 + 2 Slashing plus Strength, +2 to attack rolls. Martial two-handed greataxe, 5 ft melee.",
+    "Spiritual Greataxe": "Bonus Action, 60 ft, once per Long Rest. Summon for 10 turns. It attacks with your spellcasting modifier and deals 3d8 + 1 + that modifier Force on a hit.",
+    "Reduce": "Action, 30 ft, once per Long Rest. DC 11 Constitution save or Reduced for 5 turns. Weapons deal 1d4 less damage (minimum 1), and Strength checks and saves have Disadvantage.",
+    "Prepare": "Spend 20 ft movement. Add Strength modifier damage (minimum 1) to successful melee weapon attacks for the rest of the turn. Once per Short Rest with proficiency.",
+    "Acquisition": "Ferg Drogher’s special stock near the Requisitioned Barn. Use Persuasion to unlock it. Shadowheart nearby normally prevents trading unless she killed Aylin.",
+    "Cleave": "Action, 7 ft cone, up to 3 non-allied creatures or objects. Deals half normal weapon damage, with flat bonuses kept whole. Once per Short Rest with proficiency.",
+    "Lacerate": "Action, normal weapon damage. Constitution save against weapon-action DC +2 or Bleeding for 2 turns. Bleeding deals 2 Slashing at turn start and gives Disadvantage on Constitution saves until healed. Once per Short Rest with proficiency. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Base value": "960 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

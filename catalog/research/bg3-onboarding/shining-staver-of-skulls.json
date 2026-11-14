@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:8622",
+  "title": "Shining Staver-of-Skulls",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437933,
+      "title": "Shining Staver-of-Skulls",
+      "markers": [
+        "MAG_Radiant_Radiating_Hammer"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373613,
+      "title": "Concussive Smash",
+      "markers": [
+        "| save dc = hybrid"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442592,
+      "title": "Dazed",
+      "markers": [
+        "Wisdom"
+      ]
+    }
+  ],
+  "summary": "A +1 light hammer with Radiant melee damage and an always-on light aura.",
+  "fields": {
+    "Weapon profile": "1d4 + 1 Bludgeoning plus Strength and 1d4 Radiant on melee hits. Simple, light, thrown, dippable. The Radiant bonus does not apply when thrown.",
+    "Light": "25 ft radius while equipped. Cannot be toggled off.",
+    "Concussive Smash": "Action with proficiency once per Short Rest. Deal weapon damage on hit. Constitution save vs higher of spell save DC or weapon-action DC +2 avoids Dazed for 2 turns. Dazed removes Dexterity AC bonus and reactions and gives disadvantage on Wisdom saves. Help ends it.",
+    "Acquisition": "Buy or loot from Corsair Greymon. The dialogue shove permanently loses his loot, while an in-combat drowning can leave his body on the Decrepit Village beach.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

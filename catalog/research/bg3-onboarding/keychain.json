@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:8642",
+  "title": "Keychain",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420101,
+      "title": "Keychain",
+      "markers": [
+        "CONT_GEN_Keychain"
+      ]
+    }
+  ],
+  "summary": "Automatically collects most keys in a dedicated inventory container.",
+  "fields": {
+    "Acquisition": "Starting equipment for player characters. Origin characters also carry one when recruited. A spare hangs on a wall in Act Three.",
+    "Base value": "1 gp in BG3. Merchant prices vary.",
+    "Storage": "Automatically puts most keys in this container instead of the main inventory."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

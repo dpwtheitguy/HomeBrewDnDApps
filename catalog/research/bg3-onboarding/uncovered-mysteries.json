@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:3555",
+  "title": "Uncovered Mysteries",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424485,
+      "title": "Uncovered Mysteries",
+      "markers": [
+        "UNI_UND_Tower_AmuletDetectThoughts"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 328589,
+      "title": "Detect Thoughts",
+      "markers": [
+        "only the creature’s Intelligence is used"
+      ]
+    }
+  ],
+  "summary": "Cast Detect Thoughts or wear this amulet to unlock eligible dialogue options.",
+  "fields": {
+    "Detect Thoughts": "Level 2, self Action once per Long Rest. Concentration until Long Rest. During eligible dialogue, attempting to read a creature’s thoughts uses Intelligence in the reported implementation. Failure can make the creature hostile.",
+    "Passive access": "Simply equipping the amulet can make the dialogue option available without casting in advance.",
+    "Acquisition": "Small gilded chest on the basement mezzanine next to the Arcane Tower elevator exit.",
+    "Base value": "125 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

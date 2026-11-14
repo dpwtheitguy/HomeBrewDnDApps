@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:47981",
+  "title": "Quirkilious' Stockroom Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430685,
+      "title": "Quirkilious' Stockroom Key",
+      "markers": [
+        "LOW_JewleryShop_Key01"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 417050,
+      "title": "Chromatic Scale",
+      "markers": [
+        "The first key opens the locked wooden chest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 424019,
+      "title": "The Glitter Gala",
+      "markers": [
+        "It opens the hatch lock as well"
+      ]
+    }
+  ],
+  "summary": "Unlocks the wooden chest behind the Chromatic Scale counter.",
+  "fields": {
+    "Lock": "Wooden chest at X −176, Y −54, containing gold and alchemical ingredients. DC 15 Sleight of Hand without the key.",
+    "Acquisition": "The item page places a copy on the Chromatic Scale counter at X −172, Y −61. The location page also lists Thomas C. Quirkilious carrying the key.",
+    "Separate lock": "The Glitter Gala basement hatch uses Omotola’s keys.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:9199",
+  "title": "True Love's Embrace",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "True Love's Embrace",
+      "revision": 434070,
+      "markers": [
+        "UNI_TWN_BondedByLove_HusbandsRing"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Warding Bond",
+      "revision": 438798,
+      "markers": [
+        "target must be wearing the matching ring"
+      ]
+    }
+  ],
+  "summary": "Cast Warding Bond on an ally wearing the matching ring.",
+  "fields": {
+    "Warding Bond": "Level 2 Action at melee range, once per Long Rest. The caster wears True Love’s Embrace and targets an ally wearing True Love’s Caress. The target resists all damage and gains +1 AC and saves. The caster takes corresponding damage after the target’s resistance and can reduce that damage with their own resistance. The redirected damage can trigger a Concentration save.",
+    "Persistence": "Lasts until Long Rest or caster death. Removing the rings or dismissing the caster to camp does not end the link. Reciprocal bonds cancel. A creature that has cast Warding Bond cannot receive its benefits.",
+    "Acquisition": "House of Healing, skeleton on a mattress at (−212, 0).",
+    "Base value": "70 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

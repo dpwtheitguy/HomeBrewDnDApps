@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:5903",
+  "title": "Lolth's Candle",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422872,
+      "title": "Lolth's Candle",
+      "markers": [
+        "| uid = LOOT_Alchemy_Crystal_LolthsCandle_A"
+      ]
+    },
+    {
+      "role": "Rules: Vitriol of Lolth's Candle",
+      "revision": 424699,
+      "title": "Vitriol of Lolth's Candle",
+      "markers": [
+        "| description = '''Vitriol of Lolth's Candle''' is an [[Alchemy|Alchemical Extraction]]. It can be combined with any [[Alchemy#Extractions|Ash]] to create {{SmRarityItem|Malice}}."
+      ]
+    },
+    {
+      "role": "Rules: Malice",
+      "revision": 420758,
+      "title": "Malice",
+      "markers": [
+        "| description = {{rare|Malice}} is a [[Consumables|Consumable]] ([[Coatings|Coating]]). It can be applied to a weapon to give it special properties for ten turns or [[throw|thrown]] as a [[Grenades|Grenade]] to inflict its effects in an area."
+      ]
+    }
+  ],
+  "summary": "Combine three Lolth’s Candles into Vitriol of Lolth’s Candle, then mix it with any Ashes to brew Malice.",
+  "fields": {
+    "Use": "Combine three Lolth’s Candles into Vitriol of Lolth’s Candle, then mix it with any Ashes to brew Malice.",
+    "Base value": "25 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

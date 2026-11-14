@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:30909",
+  "title": "Sarevok's Wretched Armour",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422637,
+      "title": "Sarevok's Wretched Armour",
+      "markers": [
+        "UNI_ARM_Sarevok_Armor"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433456,
+      "title": "Withering Barrier",
+      "markers": [
+        "1d6"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432822,
+      "title": "Magical Plate (-2)",
+      "markers": [
+        "2"
+      ]
+    }
+  ],
+  "summary": "Inaccessible Heavy Armour gives AC 20, damage reduction and a retaliatory barrier.",
+  "fields": {
+    "Defence": "AC 20. Heavy Armour with no Dexterity bonus. Reduce incoming damage by 2.",
+    "Withering Barrier": "Dealing Necrotic damage grants 1d6 temporary HP. If hit in melee while you still have temporary HP, deal 1d6 Piercing to all creatures within 10 ft.",
+    "Availability": "Unobtainable in normal play. Sarevok wears Plate Armour +2 in combat.",
+    "Base value": "No nominal price listed by the source."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

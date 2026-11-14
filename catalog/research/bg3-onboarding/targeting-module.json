@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:34771",
+  "title": "Targeting Module",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438496,
+      "title": "Targeting Module",
+      "markers": [
+        "DEC_Foundry_Steel_Watcher_Part_Internal_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438689,
+      "title": "Hellfire Engine Crossbow",
+      "markers": [
+        "Targeting Module"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 440238,
+      "title": "Steel Watch Foundry",
+      "markers": [
+        "Targeting Module"
+      ]
+    }
+  ],
+  "summary": "Component used to craft the Hellfire Engine Crossbow.",
+  "fields": {
+    "Crafting": "Combine this module with the Watcher Crossbow Blueprint and Steel Watcher Arm at the foundry’s assembly table.",
+    "Acquisition": "On the main floor of Steel Watch Foundry, by the Watcher Targeting Module plaque at X −307, Y −157.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

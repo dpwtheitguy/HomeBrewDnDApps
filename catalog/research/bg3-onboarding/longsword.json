@@ -1,0 +1,65 @@
+{
+  "item_id": "bg3-wiki:170",
+  "title": "Longsword",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420599,
+      "title": "Longsword",
+      "markers": [
+        "| uid = WPN_HUM_Longsword_A_0"
+      ]
+    },
+    {
+      "role": "Rules: Longswords",
+      "revision": 341909,
+      "title": "Longswords",
+      "markers": [
+        "{{weapon type page"
+      ]
+    },
+    {
+      "role": "Rules: Lacerate",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "| description = Slash at your target's vital points to make it {{SmCond|Bleeding|Bleed}}."
+      ]
+    },
+    {
+      "role": "Rules: Pommel Strike",
+      "revision": 374173,
+      "title": "Pommel Strike",
+      "markers": [
+        "| description = Make a non-lethal attack against an enemy and possibly {{cond|Dazed|Daze}} them."
+      ]
+    },
+    {
+      "role": "Rules: Rush Attack",
+      "revision": 374223,
+      "title": "Rush Attack",
+      "markers": [
+        "| description = Charge forward and attack the first enemy in your way, possibly pushing them {{SmCond|Off Balance}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Bleeding",
+      "revision": 442222,
+      "markers": [
+        "Removed by healing"
+      ]
+    }
+  ],
+  "summary": "1d8 one-handed or 1d10 two-handed Slashing longsword.",
+  "fields": {
+    "Weapon profile": "1d8 one-handed or 1d10 two-handed Slashing, plus Strength modifier. Martial, versatile, dippable, 5 ft melee.",
+    "Lacerate": "With proficiency, Action once per Short Rest. A melee hit forces Constitution save against weapon-action DC +2 or Bleeding for 2 turns. Bleeding deals 2 Slashing at the start of each turn, gives Disadvantage on Constitution saves and ends when healed. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Pommel Strike": "With proficiency, Bonus Action once per Short Rest. Nonlethal melee attack for 1d4 Bludgeoning. Constitution save against weapon-action DC +2 or Dazed for 2 turns.",
+    "Rush Attack": "With proficiency, Action once per Short Rest. Charge up to 30 ft and hit the first non-allied creature or object for 1d4 Piercing plus attack ability modifier. Strength save against weapon-action DC or Off Balance for 2 turns.",
+    "Acquisition": "Fighter starting equipment. The skeletons in the Gauntlet of Shar and Shadowfell also have a same-stat appearance variant.",
+    "Base value": "40 gp in BG3. Merchant prices vary.",
+    "Bleeding": "Bleeding deals 2 Slashing at the start of the target’s turn, imposes disadvantage on Constitution saves, and ends on healing. Constructs, Elementals, Plants, Oozes and most Undead are immune. Ghasts and Ghouls are documented exceptions."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

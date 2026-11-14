@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:16449",
+  "title": "Scroll of Ice Storm",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Ice Storm",
+      "revision": 422813,
+      "markers": [
+        "LOOT_SCROLL_IceStorm"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Ice Storm",
+      "revision": 328618,
+      "markers": [
+        "Target_IceStorm"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Deal 2d8 Bludgeoning and 4d6 Cold in a 20 ft radius, Dexterity save for half.",
+  "fields": {
+    "Cast": "Level 4. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Deal 2d8 Bludgeoning and 4d6 Cold in a 20 ft radius, Dexterity save for half. Leaves Ice for 2 turns.",
+    "Range": "60 ft.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "180 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:56044",
+  "title": "Key (Raven Ambush)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Key (Raven Ambush)",
+      "revision": 430485,
+      "markers": [
+        "| usage = * Unlocks the Traveler's Chest atop a nearby roof at {{coords|41|111}}"
+      ]
+    }
+  ],
+  "summary": "Opens the Traveller’s Chest on a rooftop at X 41, Y 111 in the Ruined Battlefield.",
+  "fields": {
+    "Lock": "Opens the Traveller’s Chest on a rooftop at X 41, Y 111 in the Ruined Battlefield.",
+    "Acquisition and access": "On a skeleton at X 57, Y 113.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added the exact lock and acquisition from the pinned native item rules."
+}

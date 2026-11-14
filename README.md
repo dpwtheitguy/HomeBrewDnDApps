@@ -2,7 +2,7 @@
 
 ## Android test download
 
-[Download the latest Kahn’s Complete Guide to Arms and Equipment test APK](https://raw.githubusercontent.com/dpwtheitguy/HomeBrewDnDApps/android-test-builds/arms-and-equipment-guide-latest-debug.apk) · [SHA-256 checksum](https://raw.githubusercontent.com/dpwtheitguy/HomeBrewDnDApps/android-test-builds/arms-and-equipment-guide-latest-debug.apk.sha256)
+[Download the latest Kahn’s Complete Guide to Arms and Equipment test APK](https://raw.githubusercontent.com/dpwtheitguy/HomeBrewDnDApps/main/builds/arms-and-equipment-guide-latest-debug.apk) · [Shared catalog ZIP](https://raw.githubusercontent.com/dpwtheitguy/HomeBrewDnDApps/main/builds/shared-item-catalog-latest.zip) · [SHA-256 checksums](builds/SHA256SUMS)
 
 Open the downloaded APK on your Android device. If prompted, allow installs from the app that opened the file. This debug build bundles the offline catalog. It passed emulator testing. Physical-tablet testing is pending.
 
@@ -14,7 +14,7 @@ A family of planned offline Android apps for the Galaxy Tab A 8.0 (SM-T290). **K
 
 The [shared item catalog release](docs/SHARED-CATALOG.md) has its own version and can be included by any title. Each character app owns its progression rules, saves, and release schedule.
 
-The public repository tracks the app source, catalog tooling, and original project data. Local reference PDFs, source snapshots, and generated indexes stay in the workspace. The downloadable test APK is published on a separate branch. Building the full Android app requires a compatible shared catalog ZIP. See [the catalog build guide](docs/SHARED-CATALOG.md).
+The public repository tracks the app source, catalog tooling, and original project data. Local reference PDFs, private research snapshots, and working indexes stay in the workspace. The latest test APK and its matching catalog ZIP are under `builds/` on `main`. See [the catalog build guide](docs/SHARED-CATALOG.md).
 
 Current deliverable: [searchable item catalog](catalog/README.md), including separate 2014/2024 sources, third-party packs, BG3 metadata, generic art, contextual price estimates and the first Mystara adaptation drafts.
 

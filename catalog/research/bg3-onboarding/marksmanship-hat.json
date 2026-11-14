@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:8171",
+  "title": "Marksmanship Hat",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420820,
+      "title": "Marksmanship Hat",
+      "markers": [
+        "MAG_Generic_01_Wizard_Hat_E"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432830,
+      "title": "Marksmanship",
+      "markers": [
+        "off-hand are unaffected"
+      ]
+    }
+  ],
+  "summary": "Hat grants +1 to ranged weapon attack rolls, throws, and spell attack rolls.",
+  "fields": {
+    "Marksmanship": "+1 to ranged weapon and thrown attack rolls. Spell attack rolls also benefit. The reported off-hand hand crossbow exception limits the ranged weapon bonus to the main hand.",
+    "Acquisition": "Buy from Roah Moonglow on the main floor of Moonrise Towers.",
+    "Base value": "24 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

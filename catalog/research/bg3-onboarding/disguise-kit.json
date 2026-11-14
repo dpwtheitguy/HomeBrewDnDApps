@@ -1,0 +1,20 @@
+{
+  "item_id": "bg3-wiki:17832",
+  "title": "Disguise Kit",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417750,
+      "title": "Disguise Kit",
+      "markers": [
+        "| uid = TOOL_GEN_DisguiseKit_A_Open"
+      ]
+    }
+  ],
+  "summary": "Consume the kit to choose a racial disguise and one of two body types. It lasts until Long Rest or until dismissed.",
+  "fields": {
+    "Use": "Consume the kit to choose a racial disguise and one of two body types. It lasts until Long Rest or until dismissed.",
+    "Base value": "25 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

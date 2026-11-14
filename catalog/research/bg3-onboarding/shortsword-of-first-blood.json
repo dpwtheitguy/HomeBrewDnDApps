@@ -1,0 +1,63 @@
+{
+  "item_id": "bg3-wiki:3366",
+  "title": "Shortsword of First Blood",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423174,
+      "title": "Shortsword of First Blood",
+      "markers": [
+        "UNI_UND_Duergar_ShortswordOfFirstBlood"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374168,
+      "title": "Piercing Strike",
+      "markers": [
+        "condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443536,
+      "title": "Gaping Wounds",
+      "markers": [
+        "Honour Mode"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373786,
+      "title": "Flourish",
+      "markers": [
+        "condition dc = weapon action + 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444158,
+      "title": "Off Balance",
+      "markers": [
+        "Removed by taking damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432140,
+      "title": "Break the Unbroken",
+      "markers": [
+        "all their"
+      ]
+    }
+  ],
+  "summary": "1d6 Piercing shortsword with native BG3 weapon actions.",
+  "fields": {
+    "Weapon profile": "1d6 Piercing plus Dexterity or Strength. Martial, one-handed, finesse, light, 5 ft. The weapon’s enchantment also applies to attack rolls.",
+    "Flourish": "Bonus Action, with proficiency, once per Short Rest. Melee attack for 1d4 nonlethal Bludgeoning. Dexterity save prevents Off Balance for 2 turns. The linked base save row lists weapon-action DC and the effect row lists weapon-action DC +2. Off Balance gives disadvantage on Strength and Dexterity checks and advantage to attackers. Taking damage or Help ends it.",
+    "Piercing Strike": "Action, with proficiency, once per Short Rest. Melee weapon damage. Constitution save against weapon-action DC +2 prevents Gaping Wounds for 2 turns. Undead and Constructs are immune. Healing ends it. Successful attacks add 2 Piercing in standard modes. In Honour, any damage source adds 2 of its own type.",
+    "Break the Unbroken": "Add 1d8 Piercing on attacks made with this sword against targets at full HP.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

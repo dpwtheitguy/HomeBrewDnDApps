@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:3449",
+  "title": "Wapira's Crown",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424746,
+      "title": "Wapira's Crown",
+      "markers": [
+        "MAG_Healer_HealSelf_Helmet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432204,
+      "title": "Crowning Glory",
+      "markers": [
+        "1d6"
+      ]
+    }
+  ],
+  "summary": "Healing another creature restores 1d6 HP to the wearer.",
+  "fields": {
+    "Crowning Glory": "Triggers when you heal another creature. Self-healing cannot trigger it.",
+    "Acquisition": "After saving the refugees, accept Zevlor’s monetary reward and open the Patched-Together Sack. If declined, buy it from Zevlor before the next Long Rest. Leading Minthara to attack the grove removes the reward.",
+    "Base value": "90 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

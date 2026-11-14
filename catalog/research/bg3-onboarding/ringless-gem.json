@@ -1,0 +1,20 @@
+{
+  "item_id": "bg3-wiki:14371",
+  "title": "Ringless Gem",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Ringless Gem",
+      "revision": 438490,
+      "markers": [
+        "QUEST_WYR_RinglessGemstone"
+      ]
+    }
+  ],
+  "summary": "Combine with the Gemless Ring to make the quest Tarnished Ring.",
+  "fields": {
+    "Combine": "Use Ringless Gem and Gemless Ring in the combining interface. Produces the restored Tarnished Ring, item template QUEST_WYR_RestoredMagicRing.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

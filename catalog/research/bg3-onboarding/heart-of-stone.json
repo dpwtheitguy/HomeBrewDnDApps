@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:6900",
+  "title": "Heart of Stone",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419406,
+      "title": "Heart of Stone",
+      "markers": [
+        "CONS_Hag_Heart_Of_Stone"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 435674,
+      "title": "Heart of Stone (condition)",
+      "markers": [
+        "| effects ="
+      ]
+    }
+  ],
+  "summary": "Drink as a Bonus Action to gain Poison resistance until Long Rest.",
+  "fields": {
+    "Effect": "Drink as a Bonus Action to gain Poison resistance until Long Rest.",
+    "Base value": "1 gp in BG3. Merchant prices vary.",
+    "Inspiration": "Drinking grants An Acquired Taste to Guild Artisans in the party."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

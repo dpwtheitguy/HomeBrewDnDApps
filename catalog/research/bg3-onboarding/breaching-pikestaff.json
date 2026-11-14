@@ -1,0 +1,33 @@
+{
+  "item_id": "bg3-wiki:9187",
+  "title": "Breaching Pikestaff",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416743,
+      "title": "Breaching Pikestaff",
+      "markers": [
+        "MAG_Generic_01_Pike_1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 421811,
+      "title": "Pikes",
+      "markers": [
+        "| damage = 1d10"
+      ]
+    }
+  ],
+  "summary": "On a hit, add 1d4 Force damage.",
+  "fields": {
+    "Weapon type": "Pikes",
+    "Enchantment": "+2",
+    "Weapon actions": "Rush Attack, Piercing Strike, Brace (Melee)",
+    "Damage": "1d10 + 2 Piercing",
+    "Range": "8 ft melee.",
+    "Effect": "On a hit, add 1d4 Force damage.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

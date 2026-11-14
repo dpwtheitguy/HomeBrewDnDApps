@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:9163",
+  "title": "Ambusher",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 415900,
+      "title": "Ambusher",
+      "markers": [
+        "MAG_Generic_01_Shortsword_1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 433101,
+      "title": "Sentinel Weapon",
+      "markers": [
+        "| summary ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432055,
+      "title": "Ambusher's Streak",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "+1 Initiative and advantage on Perception checks. During combat, deal 1d6 extra Necrotic to creatures that have yet to take a turn.",
+  "fields": {
+    "Equipment type": "Shortswords",
+    "Enchantment": "+1",
+    "Damage": "1d6 + 1 Piercing",
+    "Effect": "+1 Initiative and advantage on Perception checks. During combat, deal 1d6 extra Necrotic to creatures that have yet to take a turn.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 mechanics and pinned item and related rule sources."
+}

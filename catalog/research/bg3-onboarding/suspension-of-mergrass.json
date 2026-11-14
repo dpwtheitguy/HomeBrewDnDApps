@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:14171",
+  "title": "Suspension of Mergrass",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Suspension of Mergrass",
+      "revision": 423753,
+      "markers": [
+        "ALCH_Extract_Mergrass"
+      ]
+    },
+    {
+      "role": "Rules: Potion of Mind Reading",
+      "title": "Potion of Mind Reading",
+      "revision": 421947,
+      "markers": [
+        "Suspension of Mergrass"
+      ]
+    }
+  ],
+  "summary": "Alchemical extract used for Potion of Mind Reading.",
+  "fields": {
+    "Extract": "Combine 3 Mergrasses to make one Suspension of Mergrass.",
+    "Brew": "Combine this extract with any Sublimate to make Potion of Mind Reading.",
+    "Base value": "18 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

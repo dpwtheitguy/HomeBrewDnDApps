@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:14827",
+  "title": "Sublimate of Eagle Feathers",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Sublimate of Eagle Feathers",
+      "revision": 423679,
+      "markers": [
+        "ALCH_Extract_EagleFeather"
+      ]
+    },
+    {
+      "role": "Rules: Potion of Flying",
+      "title": "Potion of Flying",
+      "revision": 421939,
+      "markers": [
+        "Sublimate of Eagle Feathers"
+      ]
+    }
+  ],
+  "summary": "Alchemical extract used for Potion of Flying.",
+  "fields": {
+    "Extract": "Combine 3 Eagle Feathers to make one Sublimate of Eagle Feathers.",
+    "Brew": "Combine this extract with any Essence to make Potion of Flying.",
+    "Base value": "25 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

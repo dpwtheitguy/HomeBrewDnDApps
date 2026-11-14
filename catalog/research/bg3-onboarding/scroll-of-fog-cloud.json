@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:6343",
+  "title": "Scroll of Fog Cloud",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Fog Cloud",
+      "revision": 422797,
+      "markers": [
+        "LOOT_SCROLL_FogCloud"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Fog Cloud",
+      "revision": 414609,
+      "markers": [
+        "Target_FogCloud"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Create a heavily obscuring 17 ft radius fog cloud for up to 10 turns.",
+  "fields": {
+    "Cast": "Level 1. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Create a heavily obscuring 17 ft radius fog cloud for up to 10 turns. Creatures inside are Blinded.",
+    "Range": "60 ft.",
+    "Concentration": "Maintain Concentration for the ongoing effect.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

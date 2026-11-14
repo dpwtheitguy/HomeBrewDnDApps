@@ -1,0 +1,57 @@
+{
+  "item_id": "bg3-wiki:15174",
+  "title": "Katana",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420034,
+      "title": "Katana",
+      "markers": [
+        "WPN_HUM_Katana_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373786,
+      "title": "Flourish",
+      "markers": [
+        "condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "condition save = CON"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374223,
+      "title": "Rush Attack",
+      "markers": [
+        "range m = 9"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Bleeding",
+      "revision": 442222,
+      "markers": [
+        "except {{Charlink|Ghast}}s"
+      ]
+    }
+  ],
+  "summary": "Versatile +1 longsword with three weapon actions.",
+  "fields": {
+    "Damage": "One hand: 1d8 + 1 Slashing. Two hands: 1d10 + 1 Slashing. Add Strength to damage and +1 to attack rolls.",
+    "Handling": "Martial melee weapon, 5 ft reach. Dippable.",
+    "Acquisition": "On a table in Golbraith’s Cellar. The Circus display is decorative.",
+    "Base value": "55 gp in BG3. Merchant prices vary.",
+    "Flourish": "With proficiency, Bonus Action once per Short Rest. Make a melee weapon attack for 1d4 nonlethal Bludgeoning. A Dexterity save against weapon-action DC +2 prevents Off Balance for 2 turns.",
+    "Lacerate": "With proficiency, Action once per Short Rest. Make a melee attack for weapon damage. A Constitution save against weapon-action DC +2 prevents Bleeding for 2 turns. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Rush Attack": "With proficiency, Action once per Short Rest. Charge up to 30 ft without provoking Opportunity Attacks and hit the first non-allied creature or object in the path for 1d4 + Strength modifier Piercing. A Strength save against weapon-action DC prevents Off Balance for 2 turns."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

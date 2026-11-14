@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:3608",
+  "title": "Ring of Mind-Shielding",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Ring of Mind-Shielding",
+      "revision": 422387,
+      "markers": [
+        "UNI_UND_SocietyOfBrilliance_RingOfMindShielding"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Shelter",
+      "revision": 433130,
+      "markers": [
+        "Saving Throw"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Help Omeluum Investigate the Parasite",
+      "revision": 419477,
+      "markers": [
+        "can be purchased or obtained through checks"
+      ]
+    }
+  ],
+  "summary": "Advantage on saving throws against Charmed.",
+  "fields": {
+    "Shelter": "Gain advantage on saves against Charmed while wearing the ring. This includes saving throws against a Harpy’s Luring Song.",
+    "Acquisition": "After Help Omeluum Investigate the Parasite, buy it or obtain it through dialogue. Story or analysis checks can use DC 10 Performance or Intelligence. Other routes include DC 15 Persuasion, DC 20 Intimidation, or DC 15 Performance for Bards. The current dialogue source lists DC 10 for the Nautiloid checks and its Early Access notes give DC 15. It can also be pickpocketed once available.",
+    "Base value": "70 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

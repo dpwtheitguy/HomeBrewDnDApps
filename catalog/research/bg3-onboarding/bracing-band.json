@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:3614",
+  "title": "Bracing Band",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416722,
+      "title": "Bracing Band",
+      "markers": [
+        "MAG_Shove_ACboost_Ring"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432953,
+      "title": "Personal Space",
+      "markers": [
+        "| description = After shoving an enemy{{see notes}}, the wearer gains a +1 to their {{Armour Class}} until their next turn."
+      ]
+    }
+  ],
+  "summary": "After shoving an enemy, gain +1 AC until your next turn.",
+  "fields": {
+    "Effect": "After shoving an enemy, gain +1 AC until your next turn.",
+    "Equipment type": "Rings",
+    "Base value": "40 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

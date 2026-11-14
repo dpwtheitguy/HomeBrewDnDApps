@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:34815",
+  "title": "Grand Mausoleum Offerings Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430448,
+      "title": "Grand Mausoleum Offerings Key",
+      "markers": [
+        "{{story|Grand Mausoleum Offerings Key}} is a miscellaneous [[:Category:Keys|key]]. It can be used to access a nearby chest."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 415952,
+      "title": "Ancient Mausoleum",
+      "markers": [
+        "Opening the sarcophagus requires"
+      ]
+    }
+  ],
+  "summary": "Two keys each unlock a different Opulent Chest in the Lower City’s Ancient Mausoleum.",
+  "fields": {
+    "Use": "Unlock the two Opulent Chests at X 1092 or 1097, Y 855 in the Ancient Mausoleum. This is the Lower City location.",
+    "Acquisition": "Open the sarcophagus with DC 15 Strength. Opening it also triggers three Void cloud vents, detectable with DC 15 Perception and resisted with DC 10 Dexterity.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

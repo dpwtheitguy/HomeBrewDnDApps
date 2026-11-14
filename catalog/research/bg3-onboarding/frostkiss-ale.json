@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:12398",
+  "title": "Frostkiss Ale",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418734,
+      "title": "Frostkiss Ale",
+      "markers": [
+        "CONS_GEN_Alcohol_Bottle_Normal_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437839,
+      "title": "Alcohol (condition)",
+      "markers": [
+        "Disadvantage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 385878,
+      "title": "Alcohol (surface)",
+      "markers": [
+        "| description = Flammable."
+      ]
+    }
+  ],
+  "summary": "Use as 4 Camp Supplies, drink to gain Alcohol, or throw to create a flammable surface.",
+  "fields": {
+    "Camp Supplies": "4 toward a Long Rest.",
+    "Drink": "Bonus Action. Consume one bottle and gain Alcohol for 2 turns, imposing disadvantage on Dexterity and Charisma checks.",
+    "Throw": "Action. Creates a permanent Alcohol surface in a 13 ft radius. Fire ignites the surface and Cold freezes it.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

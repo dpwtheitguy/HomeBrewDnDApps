@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:1527",
+  "title": "Arrow of Acid",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416083,
+      "title": "Arrow of Acid",
+      "markers": [
+        "ARR_Arrow_Of_Acid",
+        "price = 10",
+        "* Deals {{InfoBlob|Weapon Damage}} and explodes in a spray of acid, dealing an additional {{DamageText|2d4|Acid|drs=t}} damage."
+      ]
+    },
+    {
+      "role": "Shared arrow rules",
+      "revision": 439126,
+      "title": "Arrows",
+      "markers": [
+        "cannot be crafted",
+        "off-hand ranged attacks",
+        "no saving throws"
+      ]
+    }
+  ],
+  "summary": "Weapon damage plus 2d4 Acid. DC 12 Dexterity negates the Acid damage. Creates a 7 ft-radius Acid surface that reduces Armour Class by 2 while a creature stands in it. The shared arrow rules describe damage as applying to the target rather than nearby creatures.",
+  "fields": {
+    "Activation": "Action. Fire from a ranged weapon and consume one arrow. Range 60 ft.",
+    "Effect": "Weapon damage plus 2d4 Acid. DC 12 Dexterity negates the Acid damage. Creates a 7 ft-radius Acid surface that reduces Armour Class by 2 while a creature stands in it. The shared arrow rules describe damage as applying to the target rather than nearby creatures.",
+    "Restrictions": "Special arrows cannot be used with off-hand ranged attacks.",
+    "Crafting": "Special arrows are obtained from loot or vendors.",
+    "Creative use": "Place the surface where allies can follow up against reduced AC.",
+    "Base value": "10 gp in BG3. Merchant prices vary.",
+    "Surface": "The Acid surface has no timed expiration."
+  },
+  "changes": "Added reviewed native BG3 activation, effects and linked rules."
+}

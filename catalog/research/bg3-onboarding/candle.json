@@ -1,0 +1,20 @@
+{
+  "item_id": "bg3-wiki:5886",
+  "title": "Candle",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416888,
+      "title": "Candle",
+      "markers": [
+        "| uid = LTS_DUN_Candles_C"
+      ]
+    }
+  ],
+  "summary": "A lit candle illuminates roughly 6 ft and can ignite flammable surfaces. Dip a weapon in it for temporary Fire damage.",
+  "fields": {
+    "Dip": "Bonus Action. The weapon deals 1d4 extra Fire for 3 turns. The candle itself deals no direct damage.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:11986",
+  "title": "Violin",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Violin",
+      "revision": 439796,
+      "markers": [
+        "TOOL_GEN_Music_Violin_A"
+      ]
+    }
+  ],
+  "summary": "Playable starting Bard instrument.",
+  "fields": {
+    "Perform": "Equip and play via the violin Perform action. Musical Instrument proficiency applies.",
+    "Acquisition": "Bard starting instrument or random loot.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

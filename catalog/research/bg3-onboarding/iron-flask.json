@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:3823",
+  "title": "Iron Flask",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419874,
+      "title": "Iron Flask",
+      "markers": [
+        "QUEST_GLO_CursedIronFlask"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441754,
+      "title": "Spectator",
+      "markers": [
+        "S_PLA_ZhentShipment_Spectator"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 418498,
+      "title": "Find the Missing Shipment",
+      "markers": [
+        "even without taking anything out of it"
+      ]
+    }
+  ],
+  "summary": "Open or throw this single-use flask to release a hostile Spectator.",
+  "fields": {
+    "Open": "Investigate the flask to start a dialogue. Opening it releases the Spectator.",
+    "Throw": "Action, range 60 ft. Break the flask to release a Spectator hostile to nearby creatures, including your party.",
+    "Spectator": "The flask contains the stronger level 8 Medium Aberration. AC 14 and 95/136/176 HP on Explorer/Balanced/Tactician. It can use two Eyestalk Actions per turn.",
+    "Shipment": "Found in the locked Caravan Strongbox at Risen Road Cave. Opening the strongbox before turning it in makes Zarys hostile, whether or not you take the flask. Taking it grants Open for a Surprise inspiration to Criminal party members.",
+    "Later acquisition": "If missed in Act One, the pinned source lists Roah Moonglow as an Act Three source and also describes post-delivery access. Reports conflict on reclaiming it immediately from Zarys.",
+    "Base value": "480 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

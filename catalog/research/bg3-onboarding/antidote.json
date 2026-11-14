@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:3779",
+  "title": "Antidote",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 415986,
+      "title": "Antidote",
+      "markers": [
+        "CONS_Potion_Antitoxin"
+      ]
+    }
+  ],
+  "summary": "Drink or throw to neutralize poisons.",
+  "fields": {
+    "Drink": "Bonus Action. Neutralizes poisons on the drinker.",
+    "Throw": "Action. Throw up to 60 ft. Neutralizes poisons within 3 ft of impact.",
+    "Base value": "13 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 mechanics and pinned item and related rule sources."
+}

@@ -1,0 +1,41 @@
+{
+  "item_id": "bg3-wiki:11855",
+  "title": "Arsonist's Oil",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416109,
+      "title": "Arsonist's Oil",
+      "markers": [
+        "ALCH_Soultion_Oil_RemoveResistanceFire"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 434455,
+      "title": "Arsonist's Oil (condition)",
+      "markers": [
+        "| effects ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 438130,
+      "title": "Coatings",
+      "markers": [
+        "main hand and off-hand",
+        "mutually exclusive",
+        "Arsonist's Oil"
+      ]
+    }
+  ],
+  "summary": "Coat your active weapon set as a Bonus Action. Hits strip Fire resistance for 2 turns.",
+  "fields": {
+    "Coating": "Bonus Action. Consume one dose to coat the active weapon set for 10 turns, including both weapons when dual wielding. Use a separate dose for the other set. Replaces an existing coating and is mutually exclusive with dipping.",
+    "Effect": "A hit strips Fire resistance for 2 turns. It does not by itself grant Fire vulnerability. Wild Shape can apply the coating, but the pinned item page says it does nothing on those attacks.",
+    "Base value": "25 gp in BG3. Merchant prices vary.",
+    "Throw": "The shared coating table lists no applied effect from throwing this oil.",
+    "Crafting": "Combine Sublimate of Frosted Ears with any Ashes."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

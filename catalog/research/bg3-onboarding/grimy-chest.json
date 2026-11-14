@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:47950",
+  "title": "Grimy Chest",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419171,
+      "title": "Grimy Chest",
+      "markers": [
+        "S_GOB_CheckpointBackup_Chest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443601,
+      "title": "Sturdy",
+      "markers": [
+        "at least 10 damage"
+      ]
+    }
+  ],
+  "summary": "Sturdy storage chest with 50 object HP.",
+  "fields": {
+    "Storage": "Open to look for or store contents.",
+    "Object defences": "50 HP and Sturdy. Single hits must deal at least 10 damage to hurt the chest. Vulnerable to Bludgeoning, resistant to Piercing, Necrotic and Radiant, immune to Poison and Psychic.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

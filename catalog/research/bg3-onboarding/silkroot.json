@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:11845",
+  "title": "Silkroot",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423202,
+      "title": "Silkroot",
+      "markers": [
+        "CONS_Drug_Silkroot_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 436944,
+      "title": "Silkroot Euphoria (condition)",
+      "markers": [
+        "Disadvantage"
+      ]
+    }
+  ],
+  "summary": "Single-use drug that inflicts Silkroot Euphoria.",
+  "fields": {
+    "Use": "Consume to apply Silkroot Euphoria to yourself. It imposes disadvantage on Dexterity and Charisma checks.",
+    "Acquisition": "Severn in the Guildhall, a crate at Grey Harbour Docks, or Phantaizha at the Elfsong Tavern.",
+    "Base value": "12 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

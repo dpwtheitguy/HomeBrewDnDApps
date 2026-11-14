@@ -1,0 +1,45 @@
+{
+  "item_id": "bg3-wiki:31029",
+  "title": "Infernal Warhammer",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419758,
+      "title": "Infernal Warhammer",
+      "markers": [
+        "MAG_Infernal_Warhammer"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432703,
+      "title": "Infernal Weapon",
+      "markers": [
+        "| description = On a hit, this weapon deals an additional {{DamageText|3|Poison}} damage and can possibly {{Cond|Poisoned|Poison}} its target."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341924,
+      "title": "Warhammers",
+      "markers": [
+        "| damage = 1d8"
+      ]
+    }
+  ],
+  "summary": "A +1 warhammer that adds 3 Poison damage and can Poison the target.",
+  "fields": {
+    "Damage": "1d8 + 1 Bludgeoning",
+    "Range": "5 ft melee.",
+    "Training": "martial",
+    "Handling": "one-handed",
+    "Enchantment": "+1",
+    "Weapon actions": "Backbreaker, Concussive Smash, Weakening Strike",
+    "Infernal Weapon": "On a hit, deal 3 extra Poison and force a DC 12 Constitution save. Failure inflicts Poisoned for 2 turns, imposing disadvantage on attack rolls and ability checks. The pinned source reports the save is hidden regardless of outcome.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "310 gp in BG3. Merchant prices vary.",
+    "Source note": "The primary source labels this weapon one-handed but also gives an unverified versatile damage value."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Separated the contradictory handedness source fields. Reconciled applicable action, condition, and variant details against pinned rules.",
+  "omit_conflicting_versatile_damage": true
+}

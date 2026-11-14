@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:6019",
+  "title": "Red Apple",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422231,
+      "title": "Red Apple",
+      "markers": [
+        "CONS_FOOD_Fruit_Apple_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 409610,
+      "title": "Camp Supplies",
+      "markers": [
+        "At least 40 camp supplies"
+      ]
+    }
+  ],
+  "summary": "Provides 3 Camp Supplies. Some red apples also heal 1d4 HP.",
+  "fields": {
+    "Camp Supplies": "3 points toward a Long Rest.",
+    "Healing variant": "Only some instances restore 1d4 HP when eaten. A confirmed example sits on a wooden trunk near the Emerald Grove gate, X 181, Y 439.",
+    "Acquisition": "Ordinary loot or traders.",
+    "Base value": "3 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

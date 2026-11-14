@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:32679",
+  "title": "Gale's Pouch",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418772,
+      "title": "Gale's Pouch",
+      "markers": [
+        "| uid = UNI_ORI_Gale_DeathPouch"
+      ]
+    },
+    {
+      "role": "Rules: In Case of Death...",
+      "revision": 419715,
+      "title": "In Case of Death...",
+      "markers": [
+        "| description = In Case of Death... is a sub-quest of both {{CharLink|Gale|Gale's}} {{Quest|The Wizard of Waterdeep|Companion quest}} and his {{Quest|The Wizard of Waterdeep (Origin)|Origin quest}}. It is triggered when Gale dies for the first time."
+      ]
+    }
+  ],
+  "summary": "Open Gale’s pouch by pulling the purple thread counter-clockwise. The flute and letter lead to a Scroll of True Resurrection.",
+  "fields": {
+    "Revival sequence": "Play D–E–A–D on the flute. Address the summoned Magma Mephit with the phrase from Gale’s instructions, then hand it Gale’s letter to get the Scroll of True Resurrection. Use the scroll to revive Gale or save it for another dead companion and revive Gale another way.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

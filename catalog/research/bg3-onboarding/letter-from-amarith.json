@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:12795",
+  "title": "Letter from Amarith",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Letter from Amarith",
+      "revision": 420380,
+      "markers": [
+        "S_UND_ClericLetter_Bulette",
+        "rewards 25 XP"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "title": "Arcane Tower",
+      "revision": 441387,
+      "markers": [
+        "earning approval from"
+      ]
+    }
+  ],
+  "summary": "Read this letter to unlock placing an Autumncrocus on Myrna’s grave for 25 XP.",
+  "fields": {
+    "Grave offering": "Read before interacting with Myrna’s grave in the Dread Hollow. If it is still undisturbed, place an Autumncrocus there for 25 XP and approval from Gale, Karlach and Wyll.",
+    "Acquisition": "On Lenore’s desk in the Arcane Tower bedroom, X −28, Y −295. It is called Handwritten Letter before the first read.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Pinned the reading unlock, XP reward, acquisition, and approval interaction."
+}

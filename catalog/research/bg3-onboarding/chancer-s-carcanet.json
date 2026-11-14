@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:11753",
+  "title": "Chancer's Carcanet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416982,
+      "title": "Chancer's Carcanet",
+      "markers": [
+        "MAG_Generic_01_Amulet_1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 407086,
+      "title": "Innate Fortitude",
+      "markers": [
+        "| description = Once per [[Long Rest]], you can use a {{r|reaction}} to make an {{Attack Roll}} or {{Saving Throw}} with {{Advantage}}."
+      ]
+    }
+  ],
+  "summary": "Once per Long Rest, spend your Reaction to make an attack roll or saving throw with Advantage.",
+  "fields": {
+    "Effect": "Once per Long Rest, spend your Reaction to make an attack roll or saving throw with Advantage.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

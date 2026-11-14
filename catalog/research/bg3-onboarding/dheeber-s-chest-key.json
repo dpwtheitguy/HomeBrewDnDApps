@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:47302",
+  "title": "Dheeber's Chest Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430527,
+      "title": "Dheeber's Chest Key",
+      "markers": [
+        "| uid = LOW_Hostel_Chest_Key01"
+      ]
+    },
+    {
+      "role": "Rules: Dholber Greene",
+      "revision": 427730,
+      "title": "Dholber Greene",
+      "markers": [
+        "{{Infobox creature"
+      ]
+    },
+    {
+      "role": "Rules: Nortale's Hostel",
+      "revision": 421359,
+      "title": "Nortale's Hostel",
+      "markers": [
+        "{{Location page"
+      ]
+    }
+  ],
+  "summary": "Likely opens Dholber Greene’s chest on the western side of Nortale’s Hostel’s upper dormitory.",
+  "fields": {
+    "Source note": "Target inferred from Dholber’s key and the location’s named chest.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

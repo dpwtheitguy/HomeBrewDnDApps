@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:10877",
+  "title": "Ironvine Shield",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419884,
+      "title": "Ironvine Shield",
+      "markers": [
+        "MAG_Druid_Ironvine_Shield"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432718,
+      "title": "Ironvine",
+      "markers": [
+        "activates on any attack"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433517,
+      "title": "Shillelagh",
+      "markers": [
+        "Ironvine Shield"
+      ]
+    }
+  ],
+  "summary": "A +2 AC shield that can retaliate when you wield a Shillelagh-empowered weapon.",
+  "fields": {
+    "Shield": "+2 AC while equipped. Requires Shield proficiency.",
+    "Ironvine": "While holding a Shillelagh-empowered weapon, taking damage from an attack deals Piercing damage to the attacker equal to your Wisdom modifier. The linked notes report this also works for ranged attacks, contrary to the melee-only tooltip. No retaliation when the incoming damage is reduced to 0.",
+    "Shillelagh": "Use your own spell or another source. The shield does not grant it.",
+    "Base value": "45 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

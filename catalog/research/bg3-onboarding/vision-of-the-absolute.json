@@ -1,0 +1,56 @@
+{
+  "item_id": "bg3-wiki:3342",
+  "title": "Vision of the Absolute",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438486,
+      "title": "Vision of the Absolute",
+      "markers": [
+        "FOR_Spear_TrueSoul"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432021,
+      "title": "Absolute Night",
+      "markers": [
+        "actual DC is fixed at 11"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437979,
+      "title": "Blinded (condition)",
+      "markers": [
+        "Being Blinded has no effect"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374223,
+      "title": "Rush Attack",
+      "markers": [
+        "| range m = 9"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444158,
+      "title": "Off Balance",
+      "markers": [
+        "Removed by taking damage"
+      ]
+    }
+  ],
+  "summary": "Reforged spear that can Blind and deals extra damage to certain many-eyed enemies.",
+  "fields": {
+    "Weapon profile": "1d6 Piercing one-handed or 1d8 two-handed, plus Strength. Simple, versatile, thrown, dippable, 5 ft melee.",
+    "Absolute Night": "A qualifying melee hit forces a fixed DC 11 Dexterity save or Blinds for 2 turns. Against certain many-eyed creatures, such as spiders and spectators, melee attacks deal an extra 2d6 Piercing. Neither effect applies when thrown. The combat log may misattribute the save or describe it as spell DC.",
+    "Blinded": "Disadvantage on attacks, advantage to attackers, most attack and spell ranges capped at 10 ft, and no Opportunity Attacks. Throw range is unaffected.",
+    "Rush Attack": "Action with proficiency, once per Short Rest. Charge up to 30 ft and strike the first non-allied creature or object for 1d4 + attack ability modifier Piercing. Strength save against weapon-action DC prevents Off Balance for 2 turns. Off Balance gives disadvantage on Strength and Dexterity checks and advantage to attackers. Damage or Help ends it.",
+    "Crafting": "Combine Edowin’s broken shaft with the head from the owlbear mother. Grants A New Vision to Guild Artisan party members.",
+    "Base value": "330 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:8458",
+  "title": "Wooden Barrel",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Wooden Barrel",
+      "revision": 424973,
+      "markers": [
+        "CONT_Barrel_A"
+      ]
+    }
+  ],
+  "summary": "Movable wooden barrel with 4 HP and Fire vulnerability.",
+  "fields": {
+    "Durability": "4 HP. Resists Piercing, is vulnerable to Bludgeoning and Fire, and is immune to Poison and Psychic.",
+    "Handling": "Standard lightweight storage barrel, about 22 lb. The indexed standard, alchemy-room and grove object variants share this durability.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:9571",
+  "title": "Shadow-Cloaked Ring",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423025,
+      "title": "Shadow-Cloaked Ring",
+      "markers": [
+        "SCL_MastiffPoachers_Ring"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433116,
+      "title": "Shadowthief",
+      "markers": [
+        "also increases"
+      ]
+    }
+  ],
+  "summary": "Adds 1d4 damage to qualifying hits against obscured or shadow creatures.",
+  "fields": {
+    "Shadowthief": "Adds 1d4 damage to weapon attacks, unarmed strikes and throws against lightly or heavily obscured targets or creatures made of shadow. Throw attacks with a Thrown weapon can trigger the bonus twice.",
+    "Acquisition": "Loot the Shadow Mastiff Alpha in the Ruined Battlefield camp. Destroy the everburning torches to make it appear.",
+    "Base value": "40 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

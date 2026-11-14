@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:48027",
+  "title": "Peartree's Chest Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Peartree's Chest Key",
+      "revision": 430564,
+      "markers": [
+        "LOW_Peartree_BasementSafeKey"
+      ]
+    },
+    {
+      "role": "Rules: Peartree House",
+      "title": "Peartree House",
+      "revision": 421733,
+      "markers": [
+        "Perception|20"
+      ]
+    }
+  ],
+  "summary": "Opens the wall strongbox in the Peartree House basement.",
+  "fields": {
+    "Lock": "Wall-mounted Strongbox at (572, 758), downstairs in Peartree House.",
+    "Acquisition": "A DC 20 Perception check reveals the loose floor planks hiding it.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

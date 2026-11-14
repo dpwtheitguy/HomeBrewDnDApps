@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:24787",
+  "title": "Farsea Marshwine",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418402,
+      "title": "Farsea Marshwine",
+      "markers": [
+        "| uid = CONS_Drink_Wine_G"
+      ]
+    },
+    {
+      "role": "Rules: Alcohol (condition)",
+      "revision": 437839,
+      "title": "Alcohol (condition)",
+      "markers": [
+        "| effects = * Has {{Disadvantage}} on [[Dexterity]] and [[Charisma]] checks."
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Alcohol (surface)",
+      "revision": 385878,
+      "markers": [
+        "| description = Flammable."
+      ]
+    }
+  ],
+  "summary": "Contributes 1 Camp Supplies to Long Rest, or can be drunk as a Bonus Action.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle to gain Alcohol for 2 turns, imposing disadvantage on Dexterity and Charisma checks.",
+    "Camp Supplies": "1.",
+    "Base value": "1 gp in BG3. Merchant prices vary.",
+    "Throw": "Action. Break the bottle to create a permanent 13 ft-radius Alcohol surface. Alcohol is flammable and can freeze."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

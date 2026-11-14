@@ -1,0 +1,51 @@
+{
+  "item_id": "bg3-wiki:9598",
+  "title": "Hellrider Longbow",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438372,
+      "title": "Hellrider Longbow",
+      "markers": [
+        "MAG_WYR_Hellrider_Longbow"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432633,
+      "title": "Heightened Awareness",
+      "markers": [
+        "| description = Gain a +3 bonus to [[Initiative]] rolls and {{Advantage}} on {{Ability Check|Perception}}s."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432559,
+      "title": "Fiendish Fire",
+      "markers": [
+        "| description = Once per turn, a creature hit by this weapon will possibly be afflicted with {{Cond|Faerie Fire}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341908,
+      "title": "Longbows",
+      "markers": [
+        "| damage = 1d8"
+      ]
+    }
+  ],
+  "summary": "A +1 longbow with +3 Initiative and Advantage on Perception checks.",
+  "fields": {
+    "Damage": "1d8 + 1 Piercing",
+    "Range": "60 ft ranged.",
+    "Training": "martial",
+    "Handling": "two-handed",
+    "Enchantment": "+1",
+    "Weapon actions": "Hamstring Shot, Brace (Ranged)",
+    "Fiendish Fire": "Once per turn, a hit from this bow forces a DC 13 Dexterity save or applies Faerie Fire until the start of the target’s next turn. Other damage can prompt a hidden save but does not apply the effect.",
+    "Base value": "770 gp in BG3. Merchant prices vary.",
+    "Initiative and perception": "+3 Initiative and advantage on Perception checks."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

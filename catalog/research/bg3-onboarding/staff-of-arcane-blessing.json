@@ -1,0 +1,56 @@
+{
+  "item_id": "bg3-wiki:2412",
+  "title": "Staff of Arcane Blessing",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Staff of Arcane Blessing",
+      "revision": 423533,
+      "markers": [
+        "UNI_UND_Tower_StaffBlessMystra"
+      ]
+    },
+    {
+      "role": "Rules: Bless",
+      "title": "Bless",
+      "revision": 404078,
+      "markers": [
+        "| description = Bless up to 3 creatures. They gain a {{DieIcon|d4|Slashing}} '''+1d4''' bonus to {{Attack Roll}}s and {{SavingThrow}}s."
+      ]
+    },
+    {
+      "role": "Rules: Mystra's Blessing",
+      "title": "Mystra's Blessing",
+      "revision": 438462,
+      "markers": [
+        "| description = Creatures you {{SmSAI|Bless}} also gain [[Mystra's Blessing (Staff of Arcane Blessing) (condition)|Mystra's Blessing]] for an additional 1d4 bonus to spell attack rolls.{{see bugs}}"
+      ]
+    },
+    {
+      "role": "Rules: Topple",
+      "title": "Topple",
+      "revision": 377988,
+      "markers": [
+        "Non-lethal"
+      ]
+    },
+    {
+      "role": "Rules: Prone (condition)",
+      "title": "Prone (condition)",
+      "revision": 436524,
+      "markers": [
+        "One turn duration"
+      ]
+    }
+  ],
+  "summary": "Casts Bless and augments certain Bless castings with Mystra’s Blessing.",
+  "fields": {
+    "Weapon profile": "Simple, Versatile, 5 ft melee, Dippable. 1d6 one-handed or 1d8 two-handed Bludgeoning plus Strength.",
+    "Bless": "Level 1, Action, 30 ft, 3 creatures, concentration up to 10 turns, once per Long Rest. Adds 1d4 to attacks and saves.",
+    "Mystra’s Blessing": "Adds another 1d4 to spell attacks for 10 turns when cast from the staff or a level 1 or 2 slot. That extra die can persist after concentration on ordinary Bless ends.",
+    "Acquisition": "Arcane Tower basement. Guiding Light reveals the teleporter button.",
+    "Base value": "100 gp nominal BG3 value.",
+    "Topple": "With proficiency, once per Short Rest. Action, weapon attack for 1d4 nonlethal Bludgeoning. DEX save against weapon-action DC +2 or Prone for 1 turn. Prone breaks Concentration and expires at the start of the target’s turn. Topple skips main-hand weapon effects."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

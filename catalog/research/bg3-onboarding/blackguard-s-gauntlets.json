@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:11825",
+  "title": "Blackguard's Gauntlets",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416513,
+      "title": "Blackguard's Gauntlets",
+      "markers": [
+        "| uid = MAG_Deathknight_Gloves"
+      ]
+    },
+    {
+      "role": "Rules: Inflict Wounds",
+      "revision": 433644,
+      "title": "Inflict Wounds",
+      "markers": [
+        "| summary = It allows the spellcaster to make a melee attack which inflicts Necrotic damage."
+      ]
+    }
+  ],
+  "summary": "Gain +1 to attack rolls and Strength saves. Cast fourth-level Inflict Wounds once per Long Rest.",
+  "fields": {
+    "Inflict Wounds": "Action. Make a melee spell attack for 6d10 Necrotic damage on a hit.",
+    "Base value": "800 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

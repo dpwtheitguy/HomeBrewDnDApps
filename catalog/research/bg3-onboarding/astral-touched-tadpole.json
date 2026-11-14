@@ -1,0 +1,22 @@
+{
+  "item_id": "bg3-wiki:16099",
+  "title": "Astral-Touched Tadpole",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416169,
+      "title": "Astral-Touched Tadpole",
+      "markers": [
+        "LOOT_MF_Tadpole_Astral_A"
+      ]
+    }
+  ],
+  "summary": "Use the tadpole to become partial-illithid and gain access to elite illithid powers.",
+  "fields": {
+    "Effect": "Grants Concentrated Blast, Favourable Beginnings, Fly, Force Tunnel, Psionic Overload and Transfuse Health. Previously unlocked powers refund tadpoles.",
+    "Combat exception": "Using it in combat grants tadpoles instead of automatically unlocking the listed powers.",
+    "Base value": "1 gp in BG3. Merchant prices vary.",
+    "Choice": "Communing with it preserves it for other party members. Eating it removes their chance to commune. Either use makes the character partially illithid and permanently changes their appearance in the unmodified game."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

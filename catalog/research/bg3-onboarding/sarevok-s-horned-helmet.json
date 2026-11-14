@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:8044",
+  "title": "Sarevok's Horned Helmet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438470,
+      "title": "Sarevok's Horned Helmet",
+      "markers": [
+        "UNI_ARM_Sarevok_Horned_Helmet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432249,
+      "title": "Deathbringer's Sight",
+      "markers": [
+        "m=5"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437823,
+      "title": "Dauntless",
+      "markers": [
+        "Frightened"
+      ]
+    }
+  ],
+  "summary": "Improves critical range, provides Darkvision, and prevents Frightened.",
+  "fields": {
+    "Deathbringer’s Sight": "Reduce the roll needed for a critical hit by 1. Stacks. Effective Darkvision is 17 ft rather than the tooltip’s 10 ft, and it does not extend standard Darkvision.",
+    "Dauntless": "You cannot be Frightened. Medium Armour proficiency applies.",
+    "Acquisition": "Loot Sarevok Anchev in the Murder Tribunal.",
+    "Base value": "1600 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

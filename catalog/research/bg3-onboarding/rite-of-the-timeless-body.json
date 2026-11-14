@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:12711",
+  "title": "Rite of the Timeless Body",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Rite of the Timeless Body",
+      "revision": 422412,
+      "markers": [
+        "S_LOW_JaheiraSecretScroll"
+      ]
+    }
+  ],
+  "summary": "Picking up this scroll with Jaheira present unlocks a conversation about the ritual.",
+  "fields": {
+    "Companion scene": "Pick it up with Jaheira in the party to discuss the ritual. The dialogue is still available if she picks it up or reads it herself.",
+    "Acquisition": "Elerrathin’s Home basement, X −1570, Y 981.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

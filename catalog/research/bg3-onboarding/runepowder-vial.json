@@ -1,0 +1,48 @@
+{
+  "item_id": "bg3-wiki:8823",
+  "title": "Runepowder Vial",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Runepowder Vial",
+      "revision": 433732,
+      "markers": [
+        "UNI_UND_Runepowder_Vial"
+      ]
+    },
+    {
+      "role": "Rules: Throw",
+      "title": "Throw",
+      "revision": 428492,
+      "markers": [
+        "range of the Throw attack"
+      ]
+    },
+    {
+      "role": "Rules: Explosives",
+      "title": "Explosives",
+      "revision": 409558,
+      "markers": [
+        "Runepowder Vial"
+      ]
+    },
+    {
+      "role": "Rules: Find Explosives",
+      "title": "Find Explosives",
+      "revision": 418484,
+      "markers": [
+        "Runepowder Vial"
+      ]
+    }
+  ],
+  "summary": "Destroy to trigger a 20-ft Force blast and knockback.",
+  "fields": {
+    "Activation": "Action to Throw. Detonates when destroyed at 0 of its 4 HP. A throw that does not destroy it can leave it inert. A nearby blast that destroys it can trigger another detonation.",
+    "Blast": "20 ft actual radius, larger than the aiming preview. Deals 5d4 + 18 Force. DC 12 Dexterity save halves damage. Creatures are knocked back 20 ft without a save.",
+    "Objects": "The tooltip describes a critical hit against objects and terrain. The source instead reports an extra 23 Force without doubling the damage dice.",
+    "Throw": "Lightweight vial typically throws up to 60 ft. Throw impact deals 1 Bludgeoning to it. About 43 ft of fall can supply the other 3 HP of damage. A Fire surface can detonate it if it exhausts its HP.",
+    "Acquisition": "Philomeen can give the single vial in Grymforge during Find Explosives. No purchase or Alchemy recipe.",
+    "Base value": "50 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

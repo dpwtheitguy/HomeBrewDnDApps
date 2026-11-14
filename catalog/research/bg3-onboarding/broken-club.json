@@ -1,0 +1,32 @@
+{
+  "item_id": "bg3-wiki:29474",
+  "title": "Broken Club",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 377933,
+      "title": "Broken Club",
+      "markers": [
+        "WPN_HUM_Club_Broken_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341893,
+      "title": "Clubs",
+      "markers": [
+        "| damage = 1d4"
+      ]
+    }
+  ],
+  "summary": "A basic one-handed club.",
+  "fields": {
+    "Weapon type": "Clubs",
+    "Weapon actions": "Concussive Smash",
+    "Damage": "1d4 Bludgeoning",
+    "Range": "5 ft melee.",
+    "Effect": "A basic one-handed club.",
+    "Base value": "10 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

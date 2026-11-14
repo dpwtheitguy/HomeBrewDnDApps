@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:6516",
+  "title": "Scale Mail Mould",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422662,
+      "title": "Scale Mail Mould",
+      "markers": [
+        "UNI_LOOT_AdamantineForge_ScalemailMold"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441122,
+      "title": "Adamantine Forge (quest)",
+      "markers": [
+        "Mould Chamber"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438231,
+      "title": "Adamantine Scale Mail",
+      "markers": [
+        "Adamantine Scale Mail"
+      ]
+    }
+  ],
+  "summary": "Forge Adamantine Scale Mail with one Mithral Ore.",
+  "fields": {
+    "Use": "Put mould in the Mould Chamber and ore in the Crucible. Release lava, pull the Forge Lever, collect the result and eject the reusable mould.",
+    "Acquisition": "By the Ancient Forge waypoint torch, X −618, Y 264.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

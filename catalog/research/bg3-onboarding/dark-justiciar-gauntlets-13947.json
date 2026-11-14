@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:13947",
+  "title": "Dark Justiciar Gauntlets",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417522,
+      "title": "Dark Justiciar Gauntlets (Rare)",
+      "markers": [
+        "| uid = UNI_SHA_JusticiarArmor_Gloves"
+      ]
+    },
+    {
+      "role": "Rules: Umbral Attack",
+      "revision": 433377,
+      "title": "Umbral Attack",
+      "markers": [
+        "| summary = '''Umbral Attack''' is a passive feature that adds necrotic damage to the user's weapon attacks."
+      ]
+    },
+    {
+      "role": "Rules: Beckoning Darkness",
+      "revision": 416369,
+      "title": "Beckoning Darkness",
+      "markers": [
+        "| summary = It curses a creature to take {{DamageType|Necrotic}} damage if it enters or starts its turn in a {{SmCond|Lightly Obscured|Lightly}} or {{SmCond|Heavily Obscured}} area."
+      ]
+    }
+  ],
+  "summary": "Gain +1 Strength saves and an extra 1d4 Necrotic on weapon attacks. This rare version grants Beckoning Darkness.",
+  "fields": {
+    "Umbral Attack": "Weapon attacks deal 1d4 extra Necrotic. Gain +1 Strength saving throws.",
+    "Beckoning Darkness": "Bonus Action. Target a creature within roughly 13 ft. A DC 14 Charisma save resists the curse. For 2 turns, entering or starting its turn in a lightly or heavily obscured area inflicts 2d8 Necrotic.",
+    "Base value": "290 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

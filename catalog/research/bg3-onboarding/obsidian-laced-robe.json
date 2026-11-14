@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:10187",
+  "title": "Obsidian Laced Robe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421432,
+      "title": "Obsidian Laced Robe",
+      "markers": [
+        "MAG_Heat_Fire_Robe"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432567,
+      "title": "Flaming Revenge",
+      "markers": [
+        "proficiency bonus"
+      ]
+    }
+  ],
+  "summary": "Resist Fire damage and retaliate after successful saves against enemy spells.",
+  "fields": {
+    "Defence": "Clothing, base AC 10 plus Dexterity. Fire resistance.",
+    "Flaming Revenge": "When you succeed on a saving throw against a foe’s spell, it takes 1d4 + your proficiency bonus Fire damage. The game does not treat you as the damage source, so this does not break Sanctuary or trigger your item damage riders.",
+    "Acquisition": "Buy from Quartermaster Talli by the Last Light Inn waypoint.",
+    "Base value": "800 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

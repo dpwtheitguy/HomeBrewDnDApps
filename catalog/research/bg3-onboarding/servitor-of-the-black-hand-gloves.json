@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:11743",
+  "title": "Servitor of the Black Hand Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423003,
+      "title": "Servitor of the Black Hand Gloves",
+      "markers": [
+        "MAG_Banites_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 361252,
+      "title": "Fear",
+      "markers": [
+        "condition 1 duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444665,
+      "title": "Enervating Suffusion",
+      "markers": [
+        "1d4"
+      ]
+    }
+  ],
+  "summary": "Gloves add 1d4 Force to unarmed hits and cast Fear once per Long Rest.",
+  "fields": {
+    "Fear": "Once per Long Rest, use an Action to project a 30 ft cone. Concentration up to 2 turns. Hostiles make a Wisdom save or drop their weapon and become Fearful for 2 turns, fleeing and taking Disadvantage on attacks and ability checks. An affected creature outside the caster’s sight repeats the save at the end of its turn.",
+    "Unarmed hits": "+1d4 Force.",
+    "Acquisition": "Opulent chest on the top floor of Wyrm’s Rock Fortress.",
+    "Base value": "240 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

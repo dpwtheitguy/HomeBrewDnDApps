@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:34673",
+  "title": "Poison Branch",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Poison Branch",
+      "revision": 421854,
+      "markers": [
+        "UNI_DEN_PoisonousThorn_A_Unidentified"
+      ]
+    },
+    {
+      "role": "Rules: Get Help from Healer Nettie",
+      "title": "Get Help from Healer Nettie",
+      "revision": 418847,
+      "markers": [
+        "At Death's Door (Emergent)"
+      ]
+    },
+    {
+      "role": "Rules: Kelemvor's Kiss Branch",
+      "title": "Kelemvor's Kiss Branch",
+      "revision": 420046,
+      "markers": [
+        "fails to identify"
+      ]
+    }
+  ],
+  "summary": "Unidentified branch from Nettie’s poison encounter.",
+  "fields": {
+    "Quest use": "If Nettie poisons you during Get Help from Healer Nettie, you can seize the branch. An unidentified specimen comes from declining or failing DC 10 Nature. Druids and Rangers have Advantage. Success yields the separate Kelemvor’s Kiss Branch ID even though both use the same tooltip name.",
+    "Encounter effect": "Nettie’s sting causes At Death’s Door (Emergent), initially −2 to every ability score and worsening after rest. The acquired branch has no verified player-use poison action.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

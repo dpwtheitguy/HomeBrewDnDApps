@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:11287",
+  "title": "Suspicious Poison",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Suspicious Poison",
+      "revision": 423760,
+      "markers": [
+        "S_FOR_ThayanCellar_FakeHealingPotion"
+      ]
+    },
+    {
+      "role": "Rules: Poisoned (Suspicious Poison)",
+      "title": "Poisoned (Suspicious Poison)",
+      "revision": 439710,
+      "markers": [
+        "3d6"
+      ]
+    }
+  ],
+  "summary": "Poison disguised as a healing potion, with distinct drink and throw effects.",
+  "fields": {
+    "Drink": "Bonus Action. DC 13 Constitution save. On failure take 3d6 Poison and gain the special Poisoned for up to 10 turns. Reattempt the save at round end to remove it.",
+    "Throw": "Action. A 3-ft-radius Poison Cloud lasts 1 turn and deals 3d6 Poison to creatures inside. The item source reports a 3-turn status and a separate DC 13 Constitution status for 1 round. The same source describes the damaging status as lasting up to 10 turns.",
+    "Recurring poison": "DC 13 Constitution at turn start or take 3d6 Poison. A successful save ends the recurring damage. It cannot coat weapons. It can be mixed with the Grymforge beer barrel to poison the duergar harassing Skickpit.",
+    "Acquisition": "Apothecary’s Cellar.",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

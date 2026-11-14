@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:9539",
+  "title": "Boots of Apparent Death",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416677,
+      "title": "Boots of Apparent Death",
+      "markers": [
+        "UNI_TWN_BootsOfApparentDeath"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 385685,
+      "title": "Feign Death",
+      "markers": [
+        "| description = Put an ally in a protective coma. They become [[Resistant]] to all damage except {{DamageType|Psychic}}. [[Diseased (status group)|Disease]] and [[Poisoned (status group)|poison]] no longer have any effect."
+      ]
+    }
+  ],
+  "summary": "Once per Short Rest, use an Action on an ally within 5 ft to put them in a protective coma for 10 turns. They resist all damage except Psychic, and disease and poison effects are suppressed. Help ends the effect.",
+  "fields": {
+    "Effect": "Once per Short Rest, use an Action on an ally within 5 ft to put them in a protective coma for 10 turns. They resist all damage except Psychic, and disease and poison effects are suppressed. Help ends the effect.",
+    "Equipment type": "Boots",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

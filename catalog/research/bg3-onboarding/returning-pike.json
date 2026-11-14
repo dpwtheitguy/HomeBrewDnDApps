@@ -1,0 +1,82 @@
+{
+  "item_id": "bg3-wiki:6779",
+  "title": "Returning Pike",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422338,
+      "title": "Returning Pike",
+      "markers": [
+        "MAG_Throwable_Pike"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374168,
+      "title": "Piercing Strike",
+      "markers": [
+        "| save dc = weapon action + 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443536,
+      "title": "Gaping Wounds",
+      "markers": [
+        "lacks a check for attack rolls"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374223,
+      "title": "Rush Attack",
+      "markers": [
+        "| range m = 9"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444158,
+      "title": "Off Balance",
+      "markers": [
+        "Removed by taking damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 428492,
+      "title": "Throw",
+      "markers": [
+        "The range of the Throw attack"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432648,
+      "title": "Homing Weapon",
+      "markers": [
+        "initially dropped"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441529,
+      "title": "Brace (Melee)",
+      "markers": [
+        "roll melee damage twice"
+      ]
+    }
+  ],
+  "summary": "A +1 throwing pike that returns and equips itself after a throw.",
+  "fields": {
+    "Weapon profile": "1d10 + 1 Piercing plus Strength. +1 attack. Martial, heavy, two-handed, dippable, thrown, 8 ft melee reach. Throw range uses Strength and weight, up to 60 ft.",
+    "Homing Weapon": "After throwing it, the pike returns and equips in your main hand even if thrown from inventory, potentially replacing held equipment. The linked source reports a dropped-and-retrieved pike can return to the previous holder.",
+    "Brace": "Spend 20 ft movement with proficiency, once per Short Rest. Roll melee damage dice twice and use the higher result until turn end. Stacks with Savage Attacker for three rolls. Breaks hiding or invisibility.",
+    "Piercing Strike": "Action, proficient main hand, once per Short Rest. Melee weapon damage on hit. Constitution save vs weapon-action DC +2 prevents 2 turns of Gaping Wounds. Undead and Constructs are immune. Successful attacks add 2 Piercing in standard modes. In Honour, damage sources add 2 of their original damage type. Healing removes it.",
+    "Rush Attack": "Action with proficiency, once per Short Rest. Charge up to 30 ft and attack the first non-allied creature or object for 1d4 + attack ability modifier Piercing. Strength save vs weapon-action DC prevents Off Balance for 2 turns. Off Balance gives disadvantage on Strength and Dexterity checks and advantage to attackers. Taking damage or Help ends it.",
+    "Acquisition": "Grat the Trader at Goblin Camp, X −99, Y 424.",
+    "Honour Mode value": "Rare, 250 gp nominal.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

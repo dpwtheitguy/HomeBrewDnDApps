@@ -1,0 +1,52 @@
+{
+  "item_id": "bg3-wiki:9590",
+  "title": "Hellfire Engine Crossbow",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438689,
+      "title": "Hellfire Engine Crossbow",
+      "markers": [
+        "MAG_WATCHER_Human_Crossbow"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444656,
+      "title": "Lightning Arrow",
+      "markers": [
+        "| description = After the arrow hits, smaller bolts snake out from the target towards nearby creatures."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 422299,
+      "title": "Reposition Malefactor",
+      "markers": [
+        "| description = Pulls the creature {{Dist|m=9}} closer to you."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341904,
+      "title": "Heavy Crossbows",
+      "markers": [
+        "| damage = 1d10"
+      ]
+    }
+  ],
+  "summary": "A +2 heavy crossbow with Lightning Arrow and Reposition Malefactor.",
+  "fields": {
+    "Damage": "1d10 + 2 Piercing",
+    "Range": "60 ft ranged.",
+    "Training": "martial",
+    "Handling": "two-handed",
+    "Enchantment": "+2",
+    "Weapon actions": "Piercing Shot, Brace (Ranged)",
+    "Lightning Arrow": "Action once per Long Rest, range 60 ft. Cast at level 4. Make a ranged spell attack for 5d8 Lightning on the primary target. The separate 10 ft-radius burst occurs even on a miss for 3d8 Lightning, halved on a Dexterity save against your spell save DC. The linked source reports that failing the initial Dexterity save guarantees the primary hit.",
+    "Reposition Malefactor": "Action at weapon range with no cooldown. Deals half weapon damage and pulls the target 30 ft toward you on a failed DC 15 Dexterity save. There is no attack roll, so it does not count toward Extra Attack or attack-roll-dependent damage riders.",
+    "Crafting": "Combine Watcher Crossbow Blueprint, Targeting Module and Steel Watcher Arm at the Security Office workbench in the Steel Watch Foundry.",
+    "Base value": "960 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

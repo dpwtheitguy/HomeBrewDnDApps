@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:10917",
+  "title": "Wavemother's Cloak",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Wavemother's Cloak",
+      "revision": 438457,
+      "markers": [
+        "MAG_LC_Umberlee_Protection_Cape"
+      ]
+    },
+    {
+      "role": "Rules: Damp Aegis",
+      "title": "Damp Aegis",
+      "revision": 442984,
+      "markers": [
+        "merely a visual aid"
+      ]
+    },
+    {
+      "role": "Rules: Water Layer Protection (condition)",
+      "title": "Water Layer Protection (condition)",
+      "revision": 437404,
+      "markers": [
+        "Armour Class"
+      ]
+    }
+  ],
+  "summary": "The cloak advertises temporary Water Layer Protection.",
+  "fields": {
+    "Damp Aegis": "The tooltip advertises Water Layer Protection once per turn in combat, ending when damaged. The pinned passive source reports Damp Aegis is visual only and does not apply that condition.",
+    "Advertised condition": "Water Layer Protection would grant +2 AC and all saves, Fire resistance and immunity to Burning. These benefits are not verified on the cloak.",
+    "Acquisition": "Opulent chest behind Allandra Grey’s desk upstairs in the Water Queen’s House.",
+    "Base value": "190 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

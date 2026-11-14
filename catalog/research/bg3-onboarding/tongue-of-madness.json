@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:13733",
+  "title": "Tongue of Madness",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Tongue of Madness",
+      "revision": 424289,
+      "markers": [
+        "CONS_Mushrooms_TongueOfMadness"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Sublimate of Tongue of Madness",
+      "revision": 423685,
+      "markers": [
+        "any [[Alchemy#Extractions|Essence]]"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Help Omeluum Investigate the Parasite",
+      "revision": 419477,
+      "markers": [
+        "Tongue of Madness"
+      ]
+    }
+  ],
+  "summary": "Alchemy ingredient for Tadpole Elixir and a quest component for Omeluum.",
+  "fields": {
+    "Alchemy": "Extract 3 Tongues of Madness into Sublimate of Tongue of Madness, then add any Essence to make Tadpole Elixir.",
+    "Quest use": "Give 1 Tongue and 1 Timmask Spore to Omeluum for his parasite investigation.",
+    "Acquisition": "Arcane Tower greenhouse and basement, or eligible alchemy traders.",
+    "Base value": "9 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

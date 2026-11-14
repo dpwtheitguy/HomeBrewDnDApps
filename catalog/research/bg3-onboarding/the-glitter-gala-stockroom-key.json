@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:47977",
+  "title": "The Glitter Gala Stockroom Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "The Glitter Gala Stockroom Key",
+      "revision": 430528,
+      "markers": [
+        "LOW_JewleryShop_Basement_Key_000"
+      ]
+    },
+    {
+      "role": "Rules: The Glitter Gala",
+      "title": "The Glitter Gala",
+      "revision": 424019,
+      "markers": [
+        "It opens the hatch lock as well"
+      ]
+    }
+  ],
+  "summary": "Opens the hatch to the Glitter Gala basement.",
+  "fields": {
+    "Lock": "Hatch by Omotola’s counter. DC 20 Sleight of Hand without a key. Omotola’s stockroom key carried by Quirkilious also works.",
+    "Acquisition": "Pickpocket from Omotola at The Glitter Gala.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

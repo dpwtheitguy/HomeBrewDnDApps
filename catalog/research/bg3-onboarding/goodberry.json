@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:4133",
+  "title": "Goodberry",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419050,
+      "title": "Goodberry (item)",
+      "markers": [
+        "UNI_CONS_Goodberry"
+      ]
+    }
+  ],
+  "summary": "Consume a Goodberry to recover 1d4 HP or use it as 1 Camp Supply.",
+  "fields": {
+    "Effect": "Consume a Goodberry to recover 1d4 HP or use it as 1 Camp Supply.",
+    "Base value": "0 gp in BG3. Merchant prices vary.",
+    "Use": "Consume one berry as a Bonus Action to heal 1d4 HP. Created by the Goodberry spell."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

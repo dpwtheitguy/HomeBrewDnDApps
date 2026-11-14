@@ -1,0 +1,48 @@
+{
+  "item_id": "bg3-wiki:9146",
+  "title": "Cinder Shoes",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437895,
+      "title": "Cinder Shoes",
+      "markers": [
+        "MAG_Fire_HeatOnInflictBurning_Boots"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432176,
+      "title": "Cinders",
+      "markers": [
+        "| description = Whenever you {{Cond|Burning|Burn}} an enemy, you gain 2 turns of {{Cond|Heat}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443664,
+      "title": "Heat",
+      "markers": [
+        "| effects = * Engulfed by a vengeful fire. Takes {{DamageText|1d4|Fire}} damage each turn, but can use {{sai|Heat Convergence}}.<!--"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432629,
+      "title": "Heat Convergence",
+      "markers": [
+        "for every turn",
+        "only",
+        "all affected targets"
+      ]
+    }
+  ],
+  "summary": "Burn enemies to build Heat. Heat damages you each turn and can fuel your next Fire hit.",
+  "fields": {
+    "Base value": "70 gp in BG3. Merchant prices vary.",
+    "Cinders": "Burn an enemy to gain 2 turns of Heat. Burning multiple enemies with one action still grants just 2 turns.",
+    "Heat": "Take 1d4 Fire damage each turn. Heat stacks to a maximum of 7 turns.",
+    "Heat Convergence": "Toggle on to spend all remaining Heat when you next deal Fire damage, adding 1 Fire damage per remaining turn. A multi-hit spell gains the bonus on the first hit. An area spell gains it against all affected targets."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Expanded the card from the pinned item and linked gameplay evidence."
+}

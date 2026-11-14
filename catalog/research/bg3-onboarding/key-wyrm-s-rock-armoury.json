@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:59337",
+  "title": "Key (Wyrm's Rock Armoury)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430495,
+      "title": "Key (Wyrm's Rock Armoury)",
+      "markers": [
+        "| uid = S_WYR_WyrmRock_ArmouryKey_002"
+      ]
+    },
+    {
+      "role": "Rules: Wyrm's Rock Fortress",
+      "revision": 444624,
+      "title": "Wyrm's Rock Fortress",
+      "markers": [
+        "{{Location page"
+      ]
+    }
+  ],
+  "summary": "Unlocks the armoury door behind Arkleia Oloril in Wyrm’s Rock Fortress.",
+  "fields": {
+    "Acquisition": "Carried by Fist Broko.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions.",
+  "use_wiki_title": true
+}

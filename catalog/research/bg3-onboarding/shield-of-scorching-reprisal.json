@@ -1,0 +1,50 @@
+{
+  "item_id": "bg3-wiki:8536",
+  "title": "Shield of Scorching Reprisal",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423146,
+      "title": "Shield of Scorching Reprisal",
+      "markers": [
+        "MAG_FlamingFist_Flaming_Shield"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438215,
+      "title": "Shield Bash",
+      "markers": [
+        "Strength saving throw"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 286450,
+      "title": "Blazing Retaliation",
+      "markers": [
+        "| condition duration = 4"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Shield Blow",
+      "revision": 406487,
+      "markers": [
+        "| save = STR",
+        "| save dc = caster",
+        "| condition duration = 1"
+      ]
+    }
+  ],
+  "summary": "+2 AC, Fire resistance and a retaliation against melee misses.",
+  "fields": {
+    "Armour Class": "+2 AC while equipped. Shield proficiency.",
+    "Fire resistance": "Resist Fire while equipped.",
+    "Shield Bash": "When hit by a melee attack, spend a Reaction. The attacker makes a Strength save against your spell save DC or falls Prone for 1 turn. The tooltip instead names Dexterity.",
+    "Blazing Retaliation": "Self Bonus Action once per Short Rest. +1 AC for 4 turns. Melee attackers who miss can take 1d6 Fire. Persists after unequipping.",
+    "Acquisition": "Buried corpse east of the Open Graves. DC 18 Perception or ask Marcus Falgor via Speak with Dead. Uncover with Strength 15.",
+    "Base value": "190 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

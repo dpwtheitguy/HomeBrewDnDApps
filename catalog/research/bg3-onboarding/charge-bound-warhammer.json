@@ -1,0 +1,51 @@
+{
+  "item_id": "bg3-wiki:9189",
+  "title": "Charge-Bound Warhammer",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416997,
+      "title": "Charge-Bound Warhammer",
+      "markers": [
+        "MAG_Bonded_Shocking_Warhammer"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432548,
+      "title": "Favoured Weapon",
+      "markers": [
+        "| description = This weapon has a +1 bonus to damage and {{Attack Roll}}s."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432587,
+      "title": "Galvanic Currents",
+      "markers": [
+        "| description = This weapon deals an additional {{DamageText|1d6|Lightning}} damage."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341924,
+      "title": "Warhammers",
+      "markers": [
+        "| damage = 1d8"
+      ]
+    }
+  ],
+  "summary": "A +1 warhammer. Bond it to an Eldritch Knight or bind it as a Warlock Pact or Hexed weapon to gain another +1 to attack and damage and deal 1d6 extra Lightning.",
+  "fields": {
+    "Damage": "1d8 + 1 Bludgeoning",
+    "Range": "5 ft melee.",
+    "Two-handed damage": "1d10 + 1 Bludgeoning",
+    "Weapon actions": "Backbreaker, Concussive Smash, Weakening Strike",
+    "Handling": "versatile",
+    "Training": "martial",
+    "Binding": "The two weapon effects require the specific bond. Favoured Weapon stacks with the base +1 enchantment.",
+    "Base value": "310 gp in BG3. Merchant prices vary.",
+    "Reported binding behavior": "The pinned source reports that the Lightning damage persists after an Eldritch Knight or Pact of the Blade Warlock binds a different weapon or another character wields the hammer. The report concerns the Lightning damage."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Expanded the card from the pinned item and linked gameplay evidence."
+}

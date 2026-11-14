@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:11911",
+  "title": "Cerebral Citadel Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416953,
+      "title": "Cerebral Citadel Gloves",
+      "markers": [
+        "| uid = MAG_Illithid_Carapace_Gloves"
+      ]
+    },
+    {
+      "role": "Rules: Illithid Euphoria",
+      "revision": 432657,
+      "title": "Illithid Euphoria",
+      "markers": [
+        "| summary = '''Illithid Euphoria''' is a passive feature that grants the user improved combat abilities after charming or frightening a creature."
+      ]
+    }
+  ],
+  "summary": "Gain +1 to Strength saves. Charming or Frightening a creature triggers Illithid Euphoria.",
+  "fields": {
+    "Illithid Euphoria": "Charm or Frighten a creature to gain +1d4 to attack rolls and saving throws for 3 turns. The bonus does not stack with Bless.",
+    "Base value": "290 gp in BG3. Merchant prices vary.",
+    "Strength saves": "+1 to Strength saving throws."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Expanded the card from the pinned item and linked gameplay evidence."
+}

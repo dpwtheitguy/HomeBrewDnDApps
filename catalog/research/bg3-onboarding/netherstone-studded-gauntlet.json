@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:15115",
+  "title": "Netherstone-Studded Gauntlet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421300,
+      "title": "Netherstone-Studded Gauntlet",
+      "markers": [
+        "MAG_Gortash_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444665,
+      "title": "Enervating Suffusion",
+      "markers": [
+        "1d4"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432643,
+      "title": "High Spellcasting (+1)",
+      "markers": [
+        "Spell Save DC"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444655,
+      "title": "Command",
+      "markers": [
+        "directly harmful"
+      ]
+    }
+  ],
+  "summary": "Gortash’s gauntlet adds Force to unarmed attacks, improves spell save DC, and grants Command.",
+  "fields": {
+    "Enervating Suffusion": "+1d4 Force on unarmed attacks.",
+    "High Spellcasting": "+1 spell save DC.",
+    "Command": "Level 3. Action, 60 ft, once per Long Rest. Up to three eligible creatures make Wisdom saves against your spell save DC. Choose Approach, Drop, Flee, Grovel or Halt. Lasts 1 turn without Concentration. The spell cannot command undead or directly harmful actions.",
+    "Availability": "Carried by Gortash. Looting it gives Gauntlet of the Tyrant and Gortash’s Netherstone separately.",
+    "Base value": "300 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

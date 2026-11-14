@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:8846",
+  "title": "Hat of Storm Scion's Power",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419371,
+      "title": "Hat of Storm Scion's Power",
+      "markers": [
+        "| uid = MAG_Thunder_ArcaneAcuityOnThunderDamage_Hat"
+      ]
+    },
+    {
+      "role": "Rules: Thunderous Acuity",
+      "revision": 433354,
+      "title": "Thunderous Acuity",
+      "markers": [
+        "| summary = '''Thunderous Acuity''' is a passive feature that improves the wearer's spell power after dealing thunder damage."
+      ]
+    },
+    {
+      "role": "Rules: Arcane Acuity",
+      "revision": 442040,
+      "title": "Arcane Acuity",
+      "markers": [
+        "{{condition page"
+      ]
+    }
+  ],
+  "summary": "Direct Thunder damage from the wearer gives 2 turns of Arcane Acuity once per attack.",
+  "fields": {
+    "Arcane Acuity": "Gain +1 to spell attack rolls and spell save DC per remaining turn, up to 10. Taking damage removes 2 turns.",
+    "Trigger limit": "Thunder from Reverberation does not qualify. Singing Sword: Shrieking damage does not qualify outside Honour Mode.",
+    "Base value": "90 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:3357",
+  "title": "Ceremonial Mace",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416956,
+      "title": "Ceremonial Mace",
+      "markers": [
+        "| uid = S_CRE_Abbot1_Weapon"
+      ]
+    }
+  ],
+  "summary": "A +1 mace used in the Dawnmasters Memorial puzzle at Rosymorn Monastery.",
+  "fields": {
+    "Weapon damage": "1d6 + 1 Bludgeoning.",
+    "Puzzle use": "Place on its matching weapon pedestal in the Rosymorn Monastery chapel.",
+    "Base value": "40 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

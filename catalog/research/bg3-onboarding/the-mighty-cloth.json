@@ -1,0 +1,55 @@
+{
+  "item_id": "bg3-wiki:9033",
+  "title": "The Mighty Cloth",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "The Mighty Cloth",
+      "revision": 438021,
+      "markers": [
+        "MAG_BarbMonk_Cloth_A_1_Late"
+      ]
+    },
+    {
+      "role": "Rules: Bull's Strength (passive feature)",
+      "title": "Bull's Strength (passive feature)",
+      "revision": 432147,
+      "markers": [
+        "| description = You gain {{SAI|Bull's Strength}} and increase your {{Ability|Strength}} by 2, to a maximum of 20."
+      ]
+    },
+    {
+      "role": "Rules: Bull's Strength (condition)",
+      "title": "Bull's Strength (condition)",
+      "revision": 434737,
+      "markers": [
+        "Carrying Capacity"
+      ]
+    },
+    {
+      "role": "Rules: Unwavering Bull",
+      "title": "Unwavering Bull",
+      "revision": 433403,
+      "markers": [
+        "| description = You cannot be pushed against your will and you have an {{Advantage}} on {{Saving Throw}}s against being {{Cond|Restrained}}.{{see notes}}"
+      ]
+    },
+    {
+      "role": "Rules: Bull Rush",
+      "title": "Bull Rush",
+      "revision": 408293,
+      "markers": [
+        "| description = Charge forward and possibly knock your foes back {{dist|m=3}}."
+      ]
+    }
+  ],
+  "summary": "Clothing improves Strength and grants Bull Rush.",
+  "fields": {
+    "Bull’s Strength": "+2 Strength, maximum 20. Advantage on Strength checks and double carrying capacity.",
+    "Unwavering Bull": "Cannot be pushed against your will. Advantage on saves against Restrained.",
+    "Bull Rush": "Action and movement, once per turn. Charge up to 30 ft, affecting targets within about 7 ft along the path. Strength save against weapon-action DC or push 10 ft. The copied tooltip incorrectly describes damage, Prone and a Rage requirement.",
+    "Acquisition": "Quartermaster Talli at Last Light Inn.",
+    "Base value": "800 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:9186",
+  "title": "Blood-Bound Blade",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416570,
+      "title": "Blood-Bound Blade",
+      "markers": [
+        "| uid = MAG_Bonded_Lethal_Longsword",
+        "will retain its '''Favoured Weapon''' passive until the next long rest"
+      ]
+    },
+    {
+      "role": "Rules: Favoured Weapon",
+      "revision": 432548,
+      "title": "Favoured Weapon",
+      "markers": [
+        "| summary = '''Favoured Weapon''' is a passive feature that boosts the wielder's chance to hit and damage."
+      ]
+    },
+    {
+      "role": "Rules: Synchronicity",
+      "revision": 433327,
+      "title": "Synchronicity",
+      "markers": [
+        "| summary = '''Synchronicity''' is a passive feature that boosts the wielder's chance to hit and damage."
+      ]
+    }
+  ],
+  "summary": "A +1 longsword with bonuses when bonded to an Eldritch Knight or bound as a pact weapon.",
+  "fields": {
+    "Bonded bonuses": "Favoured Weapon adds +1 to attacks and damage. Synchronicity adds damage equal to proficiency bonus.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "250 gp in BG3. Merchant prices vary.",
+    "Reported binding behavior": "The pinned source reports that Favoured Weapon and the extra Synchronicity damage can persist until the next Long Rest after the wielder binds another weapon or another character equips this blade."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Documented the reported binding persistence."
+}

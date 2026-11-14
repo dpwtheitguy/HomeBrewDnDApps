@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:6905",
+  "title": "A Mother's Loathing",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 415679,
+      "title": "A Mother's Loathing",
+      "markers": [
+        "CONS_Hag_Mothers_Loathing"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 436246,
+      "title": "Mother's Loathing (condition)",
+      "markers": [
+        "| effects ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 416479,
+      "title": "Bite (Mother's Loathing)",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Drink as a Bonus Action to gain Bite until the next Long Rest.",
+  "fields": {
+    "Bite": "Action. Melee unarmed attack, once per turn, for 2d4 Piercing. Cannot target Undead, Plants, Elementals, Oozes, Constructs, or Petrified creatures.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 mechanics and pinned item and related rule sources."
+}

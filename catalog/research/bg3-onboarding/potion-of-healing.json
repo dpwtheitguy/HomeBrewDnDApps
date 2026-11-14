@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:3767",
+  "title": "Potion of Healing",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421944,
+      "title": "Potion of Healing",
+      "markers": [
+        "usage cost = bonus action",
+        "price = 10",
+        "DamageText|2d4+2|Healing",
+        "area range ft = 3",
+        "Salts of Rogue's Morsel",
+        "{{Range|ranged}}"
+      ]
+    },
+    {
+      "role": "Shared potion rules",
+      "revision": 440905,
+      "title": "Potions",
+      "markers": [
+        "All healing potions also remove",
+        "do not lose any effectiveness when thrown"
+      ]
+    }
+  ],
+  "summary": "Drink as a Bonus Action to restore 2d4 + 2 HP and remove Burning. Throw as an Action to create a 3 ft-radius healing splash.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle to restore 2d4 + 2 HP and remove Burning.",
+    "Throw": "Action. Throw one bottle up to 60 ft to apply 2d4 + 2 healing in a 3 ft-radius area at the landing point and end Burning on creatures affected by the splash.",
+    "Crafting": "Combine Salts of Rogue's Morsel with any Suspension through Alchemy.",
+    "Creative use": "Aim at the ground beside an ally to avoid hitting them with the bottle itself.",
+    "Base value": "10 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added source-reviewed native BG3 gameplay, consumption, and crafting details."
+}

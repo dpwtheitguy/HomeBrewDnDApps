@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12403",
+  "title": "Orpheus, Prince of the Comet, Part One: Betrayal",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 440946,
+      "title": "Orpheus, Prince of the Comet, Part One: Betrayal",
+      "markers": [
+        "| uid = S_GLO_OrpheusChapter1"
+      ]
+    },
+    {
+      "role": "Rules: Discover the History of Prince Orpheus",
+      "revision": 417745,
+      "title": "Discover the History of Prince Orpheus",
+      "markers": [
+        "| description = Discover the History of Prince Orpheus is a Quest in Act One of Baldur's Gate 3 that is added whenever a related story item is examined."
+      ]
+    }
+  ],
+  "summary": "Read this slate to advance Discover the History of Prince Orpheus.",
+  "fields": {
+    "Reading": "Let Lae’zel translate or pass DC 20 Investigation. A Githyanki character can instead roll DC 12 History with advantage. A disguise does not qualify.",
+    "Acquisition": "Arcane Tower bedroom, X −32, Y −297.",
+    "Base value": "14 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:11789",
+  "title": "Spellseeking Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423443,
+      "title": "Spellseeking Gloves",
+      "markers": [
+        "MAG_MM_Sorcery_SeekingSpell_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433093,
+      "title": "Seeking Spell",
+      "markers": [
+        "Sorcery Point"
+      ]
+    }
+  ],
+  "summary": "Spend a Sorcery Point to gain advantage on a spell attack.",
+  "fields": {
+    "Seeking Spell": "Toggle on to gain advantage on a spell attack, costing 1 Sorcery Point per spell slot level, or 1 point for a cantrip. The toggle turns off after the cast.",
+    "Acquisition": "Helsik’s special stock.",
+    "Base value": "160 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

@@ -1,0 +1,61 @@
+{
+  "item_id": "bg3-wiki:9561",
+  "title": "Drakethroat Glaive",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417927,
+      "title": "Drakethroat Glaive",
+      "markers": [
+        "MAG_BG_DragonsBreath_Glaive"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433419,
+      "title": "Vicious Dragon Breath",
+      "markers": [
+        "| description = Enemies have {{Disadvantage}} on {{Saving Throw}}s against your [[dragonborn]] [[breath weapon]]."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 375963,
+      "title": "Draconic Elemental Weapon",
+      "markers": [
+        "| description = Imbue a weapon with elemental power. It receives a +1 bonus to {{Attack Roll}}s and deals an additional '''1d4''' damage of your choice."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 414797,
+      "title": "Draconic Elemental Weapon: Fire",
+      "markers": [
+        "| description = Imbue a weapon with an icy might. It receives a +1 bonus to {{Attack Roll}}s and deals an additional {{DamageText|1d4|Fire}} damage."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341897,
+      "title": "Glaives",
+      "markers": [
+        "| damage = 1d10"
+      ]
+    }
+  ],
+  "summary": "A +2 glaive that enchants a weapon with elemental damage and makes your Dragonborn breath harder to resist.",
+  "fields": {
+    "Damage": "1d10 + 2 Slashing",
+    "Range": "8 ft melee.",
+    "Training": "martial",
+    "Handling": "two-handed",
+    "Enchantment": "+2",
+    "Weapon actions": "Rush Attack, Lacerate, Cleave",
+    "Vicious Dragon Breath": "Enemies have Disadvantage on saving throws against your Dragonborn racial breath weapon.",
+    "Draconic Elemental Weapon": "Action once per Long Rest. Touch a weapon or a non-hostile creature holding one in its main hand. Until Long Rest that weapon gains +1 to attack rolls and 1d4 extra Acid, Cold, Fire, Lightning or Thunder, chosen when cast.",
+    "Stacking": "Does not stack with Elemental Weapon or Elemental Age. Can stack with Magic Weapon and Elemental Cleaver.",
+    "Base value": "960 gp in BG3. Merchant prices vary.",
+    "Twinned Spell": "The pinned source reports that a Sorcerer can use Twinned Spell to enchant two weapons."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Verified card mechanics against the cited item or linked rule."
+}

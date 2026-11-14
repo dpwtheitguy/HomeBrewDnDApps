@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:12918",
+  "title": "Jhannyl's Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437798,
+      "title": "Jhannyl's Gloves",
+      "markers": [
+        "MAG_Harpers_JhannylGloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432260,
+      "title": "Defy Villainy",
+      "markers": [
+        "| description = When the wearer becomes {{SmCond|Blinded}}, {{SmCond|Paralysed}} or {{SmCond|Poisoned}}, they automatically cast {{SmSAI|Lesser Restoration}} on themselves."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 404074,
+      "title": "Lesser Restoration",
+      "markers": [
+        "| description = Cure a creature from {{Condition Type|diseased}}, {{Condition Type|poisoned}}, {{Cond|Paralysed|Paralysis}}, or {{Condition Type|blinded}}."
+      ]
+    }
+  ],
+  "summary": "Gain +1 to saving throws. Automatically remove qualifying conditions when they are applied.",
+  "fields": {
+    "Saving throws": "+1 to saving throws.",
+    "Defy Villainy": "Removes conditions in the Diseased, Poisoned, Paralysed and Blinded groups, plus Bloodless. Since Patch 8 it can trigger an unlimited number of times. The passive works for player characters, recruited companions and hirelings.",
+    "Actual effect": "Emulates Lesser Restoration without casting it. It does not build Arcane Ward or trigger other effects that require casting a spell.",
+    "Acquisition": "Loot from Isobel at Last Light Inn after resolving the Nightsong before the Moonrise assault, in the Mind Flayer Colony after a kidnapping or early death, at Ramazith’s Tower after Lorroakan kills or imprisons Nightsong, or at the Act Two camp if she joins.",
+    "Base value": "240 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

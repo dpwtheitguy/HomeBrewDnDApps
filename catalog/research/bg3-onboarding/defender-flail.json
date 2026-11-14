@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:8687",
+  "title": "Defender Flail",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417632,
+      "title": "Defender Flail",
+      "markers": [
+        "| uid = MAG_BG_OfEasthaven_Defender_Flail"
+      ]
+    },
+    {
+      "role": "Rules: Steel Physiology",
+      "revision": 433287,
+      "title": "Steel Physiology",
+      "markers": [
+        "| summary = '''Steel Physiology''' is a passive feature that reduces incoming physical damage"
+      ]
+    }
+  ],
+  "summary": "A +1 flail granting +1 AC. Reduce incoming Bludgeoning, Piercing and Slashing damage by 1.",
+  "fields": {
+    "Use": "A +1 flail granting +1 AC. Reduce incoming Bludgeoning, Piercing and Slashing damage by 1.",
+    "Base value": "310 gp in BG3. Merchant prices vary.",
+    "Damage": "One-handed flail, 1d8 + 1 Bludgeoning.",
+    "Tenacity": "The pinned source reports that a miss with another weapon can trigger Tenacity while dual-wielding. It deals Bludgeoning damage even when the weapon that missed uses another damage type."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Verified card mechanics against the cited item or linked rule."
+}

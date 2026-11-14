@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12397",
+  "title": "Letter to Kagha",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Letter to Kagha",
+      "revision": 420438,
+      "markers": [
+        "S_DEN_ShadowDruidsLetter"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Investigate Kagha",
+      "revision": 441851,
+      "markers": [
+        "The quest then begins and the party can confront Kagha"
+      ]
+    }
+  ],
+  "summary": "Read the letter to expose the Shadow Druids and unlock the confrontation with Kagha.",
+  "fields": {
+    "Read": "Advances Investigate Kagha and unlocks dialogue confronting Kagha. Finding and reading it before picking up the grove clue can start the quest.",
+    "Acquisition": "A DC 5 Perception check reveals the wooden crevice in the large tree on the island in the Putrid Bog, part of the Sunlit Wetlands. The quest pin places the tree around X 86, Y 220.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 quest and Inspiration uses verified against pinned item and quest revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:30864",
+  "title": "Deadly Channeller Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417581,
+      "title": "Deadly Channeller Gloves",
+      "markers": [
+        "| uid = MAG_Critical_ArcanicCritical_Gloves"
+      ]
+    },
+    {
+      "role": "Rules: Arcane Critical",
+      "revision": 416023,
+      "title": "Arcane Critical",
+      "markers": [
+        "| description = Magically augment your ability to annihilate your foes with powerful attacks. The number you need to [[Attack Roll|roll]] a [[Critical Hit]] while attacking is reduced by 2. This effect can stack."
+      ]
+    }
+  ],
+  "summary": "Arcane Critical lowers the critical-hit threshold for 1 turn. The pinned source reports a reduction of 1.",
+  "fields": {
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "240 gp in BG3. Merchant prices vary.",
+    "Arcane Critical": "Bonus Action on yourself. The linked action lists a level 1 spell slot. For 1 turn, reduce the critical threshold by 1, stacking with similar effects. The tooltip says 2, but the source reports the actual reduction is 1."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Verified card mechanics against the cited item or linked rule."
+}

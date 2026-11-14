@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:15210",
+  "title": "Salts of Hill Giant Fingernails",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422610,
+      "title": "Salts of Hill Giant Fingernails",
+      "markers": [
+        "ALCH_Extract_HillGiantFinger"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438919,
+      "title": "Elixir of Hill Giant Strength",
+      "markers": [
+        "| description ="
+      ]
+    }
+  ],
+  "summary": "Alchemy extract used to make Elixir of Hill Giant Strength.",
+  "fields": {
+    "Extraction": "Combine 3 Hill Giant Fingers.",
+    "Recipe": "Combine these salts with any Suspension to make Elixir of Hill Giant Strength.",
+    "Result": "Sets Strength to 21 until Long Rest.",
+    "Base value": "30 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

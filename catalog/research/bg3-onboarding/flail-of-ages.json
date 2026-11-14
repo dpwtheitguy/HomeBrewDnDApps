@@ -1,0 +1,53 @@
+{
+  "item_id": "bg3-wiki:9483",
+  "title": "Flail of Ages",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418564,
+      "title": "Flail of Ages",
+      "markers": [
+        "MAG_BG_OfAges_Flail"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 426003,
+      "title": "Elemental Age",
+      "markers": [
+        "| description = Give your main hand weapon a +1 bonus to its {{Attack roll}}s and an additional 1d4 {{DamageType|Acid}}, {{DamageType|Cold}} or {{DamageType|Fire}} damage to its strikes depending on the elemental age embodied."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432502,
+      "title": "Elements of an Epoch",
+      "markers": [
+        "| description = Depending on what kind of damage this weapon does, it also inflicts: {{Cond|Acid}} condition, {{Cond|Chilled}} condition, or {{Cond|Burning}} condition."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 408130,
+      "title": "Flails",
+      "markers": [
+        "| damage = 1d8"
+      ]
+    }
+  ],
+  "summary": "A +1 flail with a choice of Acid, Cold, or Fire weapon enchantment and corresponding conditions.",
+  "fields": {
+    "Damage": "1d8 + 1 Bludgeoning",
+    "Range": "5 ft melee.",
+    "Training": "martial",
+    "Handling": "one-handed",
+    "Enchantment": "+1",
+    "Weapon actions": "Concussive Smash, Weakening Strike",
+    "Elemental Age": "Bonus Action once per Long Rest. Choose Acid, Cold, or Fire to give your main-hand weapon +1 to attack rolls and 1d4 of that damage until Long Rest. Extra damage does not apply when thrown.",
+    "Elements of an Epoch": "Qualifying Acid, Cold, and Fire hits can apply Acid, Chilled, or Burning for 2 turns. Roll a separate DC 13 Constitution save for each qualifying element. Chilled and Burning remove each other.",
+    "Stacking": "Does not stack with Elemental Weapon, Draconic Elemental Weapon or another Elemental Age. Can stack with Magic Weapon and Elemental Cleaver.",
+    "Other weapons": "You can equip the flail off-hand with Dual Wielder and enchant the main-hand weapon. The enchantment persists after unequipping the flail.",
+    "Base value": "320 gp in standard modes or 480 gp in Honour Mode. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:8606",
+  "title": "Shelter of Athkatla",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423130,
+      "title": "Shelter of Athkatla",
+      "markers": [
+        "MAG_LC_Lorroakan_Robe"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433180,
+      "title": "Spell Resistance",
+      "markers": [
+        "against spells"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 347647,
+      "title": "Mirror Image",
+      "markers": [
+        "one of the duplicates disappears"
+      ]
+    }
+  ],
+  "summary": "Clothing that gives advantage against spell saves and casts Mirror Image.",
+  "fields": {
+    "Armour Class": "Base AC 10. Clothing.",
+    "Spell Resistance": "Advantage on saving throws against spells.",
+    "Mirror Image": "Level 2, self Action once per Long Rest. Create three images for 10 turns. Each adds +3 AC. An attack that misses removes one image.",
+    "Acquisition": "Worn by Lorroakan.",
+    "Base value": "1000 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

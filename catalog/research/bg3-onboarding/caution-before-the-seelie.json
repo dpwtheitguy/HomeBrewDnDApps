@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:14172",
+  "title": "Caution Before the Seelie",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416935,
+      "title": "Caution Before the Seelie",
+      "markers": [
+        "| uid = UNI_BOOK_LOW_SightOfTheSeelie"
+      ]
+    },
+    {
+      "role": "Rules: Scroll of Bestial Communion",
+      "revision": 422746,
+      "title": "Scroll of Bestial Communion",
+      "markers": [
+        "| description = {{very rare|Scroll of Bestial Communion}} is a single-use scroll which can be [[Transcribing scrolls|transcribed]] or used to cast [[Sights of the Seelie: Summon Deva]]."
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 391043,
+      "title": "Sights of the Seelie: Summon Deva",
+      "markers": [
+        "| cost = action, spell6",
+        "| recharge = Short rest",
+        "| creature duration = Until long rest"
+      ]
+    }
+  ],
+  "summary": "Read the book to obtain a single-use Deva scroll. Cast it directly or have a Wizard scribe it.",
+  "fields": {
+    "Base value": "2000 gp in BG3. Merchant prices vary.",
+    "Read": "Read the book to obtain the Scroll of Bestial Communion.",
+    "Cast the scroll": "Spend an Action and consume the single-use scroll to summon a Deva.",
+    "Wizard transcription": "A Wizard can scribe the scroll instead. The learned spell uses an Action and a level 6 spell slot, recharges on a Short Rest, and summons a Deva until Long Rest."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Expanded the card from the pinned item and linked gameplay evidence."
+}

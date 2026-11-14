@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:30875",
+  "title": "The Fork-Lightning Fingers",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "The Fork-Lightning Fingers",
+      "revision": 424011,
+      "markers": [
+        "MAG_Monk_Lightning_Gloves"
+      ]
+    },
+    {
+      "role": "Rules: Lightning Strikes",
+      "title": "Lightning Strikes",
+      "revision": 420490,
+      "markers": [
+        "| description = Your unarmed attacks deal an additional {{DamageText|1d4|Lightning}}."
+      ]
+    },
+    {
+      "role": "Rules: Lightning Bolt",
+      "title": "Lightning Bolt",
+      "revision": 328612,
+      "markers": [
+        "| description = Call forth a blast of lightning that hits all creatures in the line of the eruption."
+      ]
+    }
+  ],
+  "summary": "Unobtainable gloves add Lightning to unarmed hits and cast Lightning Bolt.",
+  "fields": {
+    "Lightning Strikes": "+1d4 Lightning on unarmed attacks.",
+    "Lightning Bolt": "Level 3, Action once per Long Rest. A 100-ft line deals 8d6 Lightning, Dexterity save for half.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "240 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

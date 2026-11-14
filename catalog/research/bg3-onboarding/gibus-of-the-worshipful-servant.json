@@ -1,0 +1,45 @@
+{
+  "item_id": "bg3-wiki:10754",
+  "title": "Gibus of the Worshipful Servant",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 440071,
+      "title": "Gibus of the Worshipful Servant",
+      "markers": [
+        "| uid = MAG_Hat_Butler"
+      ]
+    },
+    {
+      "role": "Rules: Lickspittle's Alertness",
+      "revision": 432785,
+      "title": "Lickspittle's Alertness",
+      "markers": [
+        "| summary = '''Lickspittle's Alertness''' is a passive feature that increases the wearer's speed at the start of combat."
+      ]
+    },
+    {
+      "role": "Rules: Multitasking",
+      "revision": 432903,
+      "title": "Multitasking",
+      "markers": [
+        "| summary = '''Multitasking''' is a passive feature that improves the wearer's ability to hold onto concentrating on a spell."
+      ]
+    },
+    {
+      "role": "Rules: Momentum",
+      "revision": 444042,
+      "title": "Momentum",
+      "markers": [
+        "{{condition page"
+      ]
+    }
+  ],
+  "summary": "Gain advantage on Concentration saves and Momentum based on your Charisma modifier at the start of combat.",
+  "fields": {
+    "Momentum": "Gain one turn per point of Charisma modifier, up to five turns. Movement speed increases by 5 ft per remaining turn. Slowed can end Momentum early.",
+    "Late entry": "The start-of-combat trigger runs at the start of a combat round. Joining partway through defers the grant to the next round.",
+    "Base value": "35 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:12901",
+  "title": "Unflinching Protector Amulet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424522,
+      "title": "Unflinching Protector Amulet",
+      "markers": [
+        "LOOT_MAG_LegendaryEvasion_Amulet_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 425435,
+      "title": "Unflinching Protection",
+      "markers": [
+        "already a miss"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439008,
+      "title": "Ptaris",
+      "markers": [
+        "Unflinching Protector Amulet"
+      ]
+    }
+  ],
+  "summary": "Use a Reaction to make an attack targeting a nearby ally miss.",
+  "fields": {
+    "Unflinching Protection": "Once per Long Rest, spend your Reaction when a nearby ally is targeted to make the attack miss. It cannot protect you. The prompt can trigger even when the attack already misses, so decline then.",
+    "Recharge quirk": "The pinned source reports that after the Long Rest you must unequip and re-equip the amulet to reactivate it.",
+    "Acquisition": "Worn by Ptaris. Give Lady Esther the githyanki egg for Steal a Githyanki Egg to encounter him.",
+    "Base value": "210 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

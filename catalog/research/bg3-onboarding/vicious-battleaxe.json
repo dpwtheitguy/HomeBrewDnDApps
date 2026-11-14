@@ -1,0 +1,73 @@
+{
+  "item_id": "bg3-wiki:11970",
+  "title": "Vicious Battleaxe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Vicious Battleaxe",
+      "revision": 424651,
+      "markers": [
+        "MAG_Vicious_Battleaxe"
+      ]
+    },
+    {
+      "role": "Rules: Dolor Amarus (passive feature)",
+      "title": "Dolor Amarus (passive feature)",
+      "revision": 432275,
+      "markers": [
+        "all'' weapon attacks"
+      ]
+    },
+    {
+      "role": "Rules: Cleave",
+      "title": "Cleave",
+      "revision": 373605,
+      "markers": [
+        "non-allied creatures"
+      ]
+    },
+    {
+      "role": "Rules: Lacerate",
+      "title": "Lacerate",
+      "revision": 373909,
+      "markers": [
+        "Bleeding"
+      ]
+    },
+    {
+      "role": "Rules: Bleeding",
+      "title": "Bleeding",
+      "revision": 442222,
+      "markers": [
+        "start of each turn"
+      ]
+    },
+    {
+      "role": "Rules: Maiming Strike",
+      "title": "Maiming Strike",
+      "revision": 373912,
+      "markers": [
+        "Flying creatures"
+      ]
+    },
+    {
+      "role": "Rules: Maimed",
+      "title": "Maimed",
+      "revision": 443966,
+      "markers": [
+        "reduced to 0"
+      ]
+    }
+  ],
+  "summary": "Dolor Amarus adds 7 damage on qualifying critical hits.",
+  "fields": {
+    "Weapon profile": "Martial versatile battleaxe, 5 ft melee, Dippable. +2 to attack rolls. 1d8 + 2 one-handed or 1d10 + 2 two-handed Slashing plus Strength.",
+    "Dolor Amarus": "Adds 7 damage on weapon critical hits, including attacks made with another equipped weapon. Multiple equipped copies can stack, and separate damage riders can benefit. The source reports no extra damage on unarmed or Throw critical hits.",
+    "Cleave": "Action once per Short Rest with proficiency. Attack up to three non-allied creatures or objects in a 7-ft cone for half weapon damage. Flat damage bonuses are not halved.",
+    "Lacerate": "Action with proficiency once per Short Rest. Deal weapon damage. Constitution save against weapon-action DC +2 or Bleeding for 2 turns. The target takes 2 Slashing at turn start and has Disadvantage on Constitution saves until healed. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Maiming Strike": "Action once per Short Rest with proficiency. Hit for 1d4 Slashing plus attack ability modifier. Constitution save against weapon-action DC +2 or Maimed for 2 turns. Movement becomes zero and Dexterity saves have Disadvantage. Healing clears it. Flying targets are immune.",
+    "Acquisition": "Sold by the Echo of Abazigal after becoming an Unholy Assassin of Bhaal.",
+    "Base value": "310 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations. Reconciled applicable action, condition, and variant details against pinned rules."
+}

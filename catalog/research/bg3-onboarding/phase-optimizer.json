@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:24720",
+  "title": "Phase Optimizer",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Phase Optimizer",
+      "revision": 421782,
+      "markers": [
+        "PUZ_Trap_Gortash_PhaseOptimizer"
+      ]
+    },
+    {
+      "role": "Rules: Steel Watcher (creature)",
+      "title": "Steel Watcher (creature)",
+      "revision": 441713,
+      "markers": [
+        "Steel Watcher"
+      ]
+    }
+  ],
+  "summary": "Throw to grant Steel Watchers an additional Action.",
+  "fields": {
+    "Throw": "Action, single use. Burst radius 13 ft. Applies Phase Optimizer Active for 2 turns to Steel Watchers hit, granting an additional Action. The item does not list direct damage or a saving throw.",
+    "Acquisition": "Loot from Gortash. Pickpocketing can yield four.",
+    "Base value": "10 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

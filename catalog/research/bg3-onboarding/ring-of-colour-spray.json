@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:3607",
+  "title": "Ring of Colour Spray",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422373,
+      "title": "Ring of Colour Spray",
+      "markers": [
+        "UNI_DEN_HarpyMeal_NestRing"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 387779,
+      "title": "Colour Spray",
+      "markers": [
+        "33 Hit Points"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 434891,
+      "title": "Colour Spray (condition)",
+      "markers": [
+        "Range of attacks and spells reduced"
+      ]
+    }
+  ],
+  "summary": "Casts Colour Spray once per Short Rest.",
+  "fields": {
+    "Colour Spray": "Level 1, Action, 17 ft cone. Affects creatures up to a combined 33 current HP, with no saving throw. For 1 turn affected creatures have disadvantage on attacks, normal attack and spell range capped at 10 ft, and attackers have advantage against them.",
+    "Acquisition": "Harpy Nest south of the harpy encounter.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

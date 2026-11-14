@@ -1,0 +1,45 @@
+{
+  "item_id": "bg3-wiki:3775",
+  "title": "Potion of Greater Healing",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421943,
+      "title": "Potion of Greater Healing",
+      "markers": [
+        "usage cost = bonus action",
+        "price = 16",
+        "DamageText|4d4+4|Healing",
+        "area range ft = 3",
+        "Ashes of Balsam",
+        "{{Range|ranged}}"
+      ]
+    },
+    {
+      "role": "Shared potion rules",
+      "revision": 440905,
+      "title": "Potions",
+      "markers": [
+        "All healing potions also remove",
+        "do not lose any effectiveness when thrown"
+      ]
+    },
+    {
+      "role": "Direct-hit example",
+      "revision": 421944,
+      "title": "Potion of Healing",
+      "markers": [
+        "damage is applied"
+      ]
+    }
+  ],
+  "summary": "Drink as a Bonus Action to restore 4d4 + 4 HP and remove Burning. Throw as an Action to create a 3 ft-radius healing splash.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle to restore 4d4 + 4 HP and remove Burning.",
+    "Throw": "Action. Throw one bottle up to 60 ft to apply 4d4 + 4 healing in a 3 ft-radius area at the landing point and end Burning on creatures affected by the splash.",
+    "Crafting": "Combine Ashes of Balsam with any Salt through Alchemy.",
+    "Creative use": "Aim at the ground beside an ally to avoid hitting them with the bottle itself.",
+    "Base value": "16 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added source-reviewed native BG3 gameplay, consumption, and crafting details."
+}

@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:6035",
+  "title": "On Receiving Her Grace",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421507,
+      "title": "On Receiving Her Grace",
+      "markers": [
+        "S_GOB_PainBible"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 430717,
+      "title": "Abdirak",
+      "markers": [
+        "mace, knife, or axe"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443938,
+      "title": "Loviatar's Love",
+      "markers": [
+        "When you have 30%"
+      ]
+    }
+  ],
+  "summary": "Read before Abdirak’s rite to choose which weapon and damage type he uses.",
+  "fields": {
+    "Rite dialogue": "Reading adds an option to suggest techniques from the book. Choose mace for Bludgeoning, dagger for Piercing or axe for Slashing. If all three ritual weapons are unavailable, Abdirak uses Bone Chill.",
+    "Rite reward": "Successfully completing the rite grants Loviatar’s Love. At 30% HP or less, gain +2 to attack rolls and Wisdom saves. The benefit is lost on character death, even after revival.",
+    "Acquisition": "On the table in the Bloodied Shrine at X 334, Y −21.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

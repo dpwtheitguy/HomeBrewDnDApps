@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:17737",
+  "title": "Simple Poison Recipe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423239,
+      "title": "Simple Poison Recipe",
+      "markers": [
+        "BOOK_Alchemy_AlchemySimplePoison"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423244,
+      "title": "Simple Toxin",
+      "markers": [
+        "any [[Alchemy#Extractions|Sublimate]]"
+      ]
+    }
+  ],
+  "summary": "Contains the Simple Toxin formula.",
+  "fields": {
+    "Recipe": "Extract three Bullywug Trumpets into Suspension of Bullywug Trumpet. Add any Sublimate.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

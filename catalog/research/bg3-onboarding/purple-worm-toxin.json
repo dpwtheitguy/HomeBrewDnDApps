@@ -1,0 +1,70 @@
+{
+  "item_id": "bg3-wiki:13008",
+  "title": "Purple Worm Toxin",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Purple Worm Toxin",
+      "revision": 422048,
+      "markers": [
+        "CONS_Poison_Purple_Worm"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Coated in Purple Worm Toxin",
+      "revision": 442409,
+      "markers": [
+        "dc=19"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Purple Worm Toxin (condition)",
+      "revision": 436616,
+      "markers": [
+        "end of its next turn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Purple Worm Poison",
+      "revision": 371594,
+      "markers": [
+        "| condition dc = 19"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Coatings",
+      "revision": 438130,
+      "markers": [
+        "List of Coatings as Grenades"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Suspension of Purple Worm Slime",
+      "revision": 423757,
+      "markers": [
+        "Purple Worm Toxin"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Throw",
+      "revision": 428492,
+      "markers": [
+        "any damage from [[coatings]]"
+      ]
+    }
+  ],
+  "summary": "Coat weapons or throw for delayed Poison damage on a failed DC 19 Constitution save.",
+  "fields": {
+    "Coat": "Bonus Action, single use. Coat the active weapon set for 10 turns, including both weapons when dual wielding. A weapon hit forces a DC 19 Constitution save. On failure, 1d10 Poison at the end of the target’s next turn. Success prevents the effect entirely. Only one target per attack can receive it. Effects granting advantage against Poisoned do not affect this save according to the pinned item. Replaces a dip or prior coating. Throwing a coated weapon does not carry the coating.",
+    "Throw": "Action, up to 60 ft. Impact and the permanent 3 ft radius Purple Worm Poison surface each use DC 19 Constitution and can apply the one-turn condition. Affected targets take 1d10 Poison at the end of their next turn. The surface is dippable. A target failing both saves can receive both delayed effects. The combat log may mislabel the fixed blast DC as spell save DC.",
+    "Crafting": "Extract 3 Purple Worm Gullets into Suspension of Purple Worm Slime. Add any Vitriol.",
+    "Base value": "160 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

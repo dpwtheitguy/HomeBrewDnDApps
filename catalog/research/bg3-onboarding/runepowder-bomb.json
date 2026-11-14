@@ -1,0 +1,57 @@
+{
+  "item_id": "bg3-wiki:19208",
+  "title": "Runepowder Bomb",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Runepowder Bomb",
+      "revision": 441536,
+      "markers": [
+        "LOOT_GEN_Runepowder_Time_Bomb_A"
+      ]
+    },
+    {
+      "role": "Rules: Throw",
+      "title": "Throw",
+      "revision": 428492,
+      "markers": [
+        "range of the Throw attack"
+      ]
+    },
+    {
+      "role": "Rules: Explosives",
+      "title": "Explosives",
+      "revision": 409558,
+      "markers": [
+        "Runepowder Bomb"
+      ]
+    },
+    {
+      "role": "Rules: Runepowder Barrel",
+      "title": "Runepowder Barrel",
+      "revision": 441537,
+      "markers": [
+        "Globe of Invulnerability"
+      ]
+    },
+    {
+      "role": "Rules: Disable the Steel Watch",
+      "title": "Disable the Steel Watch",
+      "revision": 417733,
+      "markers": [
+        "Neurocitor"
+      ]
+    }
+  ],
+  "summary": "Destroy to trigger a 60-ft Force blast and knockback.",
+  "fields": {
+    "Activation": "Action to Throw. Detonates when destroyed at 0 of its 4 HP. A throw that does not destroy it can leave it inert. A nearby blast that destroys it can trigger another detonation.",
+    "Blast": "60 ft actual radius, larger than the aiming preview. Deals 10d8 + 40 Force. DC 12 Dexterity save halves damage. Creatures are knocked back 20 ft without a save.",
+    "Objects": "The tooltip describes a critical hit against objects and terrain. The source instead reports an extra 23 Force without doubling the damage dice.",
+    "Throw": "The 35 lb object needs at least Strength 9 to throw. Distance depends on Strength and weight, up to 60 ft. It can survive landing or Fire damage if its HP remains. Globe of Invulnerability blocks blast damage.",
+    "Acquisition": "Wulbren gives it for Avenge the Ironhands, or find it on his desk in Angleiron’s Cellar. No purchase or Alchemy recipe.",
+    "Foundry": "Using it at the Steel Watch Foundry Neurocitor breaks the Oath of Devotion. Foundry destruction can trigger A Dish Served Cold, A Massacre Beyond Imagining, Catastrophic Structural Failure, Love That Smell, or The Art of Destruction. Witnessing the blast anywhere can trigger A Foul and Awesome Display.",
+    "Base value": "2500 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

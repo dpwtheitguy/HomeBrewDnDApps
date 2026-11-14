@@ -1,0 +1,44 @@
+{
+  "item_id": "bg3-wiki:29836",
+  "title": "Flail of Dread Skulls",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418565,
+      "title": "Flail of Dread Skulls",
+      "markers": [
+        "QUEST_WPN_Flail_DreadedSkulls"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443956,
+      "title": "Madness",
+      "markers": [
+        "| effects = * [[Hostile]] to everyone in the vicinity."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 425432,
+      "title": "Tenacity",
+      "markers": [
+        "| description = When you miss a melee attack, you deal {{DamageText|[[Strength]] [[Modifier]]|Bludgeoning}} damage (minimum of 1) anyway."
+      ]
+    }
+  ],
+  "summary": "An unobtainable +1 flail that can apply Madness for 1 turn on a failed DC 13 Wisdom save.",
+  "fields": {
+    "Damage": "1d8 + 1 Slashing",
+    "Range": "5 ft melee.",
+    "Training": "martial",
+    "Handling": "one-handed",
+    "Enchantment": "1",
+    "Weapon actions": "Concussive Smash, Weakening Strike",
+    "Availability": "Unobtainable in normal play.",
+    "Madness": "The target makes a DC 13 Wisdom save against Madness for 1 turn. Affected creatures become hostile to others nearby. The pinned source reports the listed Psychic damage and Paralysed outcomes are not implemented.",
+    "Tenacity": "In the main hand, a missed melee attack can spend a Reaction to deal Bludgeoning damage equal to Strength modifier, minimum 1.",
+    "Base value": "310 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

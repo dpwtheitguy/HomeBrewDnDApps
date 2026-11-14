@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:3983",
+  "title": "Faded Drow Leather Armour",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 441390,
+      "title": "Faded Drow Leather Armour",
+      "markers": [
+        "| uid = ARM_StuddedLeather_Drow_Faded"
+      ]
+    }
+  ],
+  "summary": "Light Armour with base AC 12 plus Dexterity. Successfully identifying it grants The Spider’s Gift inspiration to Guild Artisans.",
+  "fields": {
+    "Inspiration": "At pickup, identify the armour with a party member who has at least +5 History or is a Drow, Duergar, or Deep Gnome. Hirelings of those ancestries qualify. Successful identification grants The Spider’s Gift inspiration to Guild Artisans.",
+    "Base value": "130 gp in BG3. Merchant prices vary.",
+    "Armour Class": "12 + Dexterity modifier. Light Armour."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

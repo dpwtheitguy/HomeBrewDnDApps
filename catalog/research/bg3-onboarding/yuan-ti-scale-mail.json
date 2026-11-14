@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:9102",
+  "title": "Yuan-Ti Scale Mail",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Yuan-Ti Scale Mail",
+      "revision": 425077,
+      "markers": [
+        "MAG_CKM_SerpenScale_Armor"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Exotic Material",
+      "revision": 432528,
+      "markers": [
+        "does not work if either"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Ambusher (+1)",
+      "revision": 432053,
+      "markers": [
+        "+1 bonus"
+      ]
+    }
+  ],
+  "summary": "AC 15 plus full Dexterity, +1 Initiative and no Stealth penalty.",
+  "fields": {
+    "Armour Class": "15 plus full Dexterity modifier. Medium Armour proficiency. No imposed Disadvantage on Stealth.",
+    "Exotic Material": "The full Dexterity bonus stops working if you take Medium Armour Master or Magic Initiate: Cleric. The source reports those feats cap the Dexterity contribution at +3.",
+    "Ambusher": "+1 to Initiative rolls.",
+    "Acquisition": "Quartermaster Talli near the Last Light Inn waypoint (−31, 130).",
+    "Honour Mode value": "960 gp.",
+    "Base value": "640 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

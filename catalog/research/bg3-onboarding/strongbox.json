@@ -1,0 +1,20 @@
+{
+  "item_id": "bg3-wiki:40345",
+  "title": "Strongbox",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Strongbox",
+      "revision": 423651,
+      "markers": [
+        "'''Strongbox''' is a type of Static Clutter [[Container]] that can be found throughout [[Act Three]] of the game. Usually contains valuable items and requires {{Ability check|Sleight of Hand|15}} to lockpick."
+      ]
+    }
+  ],
+  "summary": "Act Three static lockbox.",
+  "fields": {
+    "Lock": "Typically holds valuables. DC 15 Sleight of Hand unless you have the applicable key.",
+    "Base value": "No nominal value is listed in the pinned item source."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

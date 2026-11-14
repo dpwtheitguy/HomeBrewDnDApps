@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:25396",
+  "title": "Engraved Pin",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418230,
+      "title": "Engraved Pin",
+      "markers": [
+        "The '''Engraved Pin''' is a [[Miscellaneous]] item found in [[Grymforge]]. It is the calling card of a [[Harpers|Harper]]."
+      ]
+    }
+  ],
+  "summary": "Picking up this pin prompts a DC 10 History check to recognize it as a Harper token.",
+  "fields": {
+    "Acquisition": "Loot Jhaam’s corpse near Murmath in Grymforge.",
+    "Recognition": "On pickup, active party members can identify the Harper pin with DC 10 History.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

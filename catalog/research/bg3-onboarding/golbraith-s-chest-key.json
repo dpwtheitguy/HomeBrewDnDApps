@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:47112",
+  "title": "Golbraith's Chest Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430578,
+      "title": "Golbraith's Chest Key",
+      "markers": [
+        "| description = {{story|Golbraith's Chest Key}} is a miscellaneous [[Story Item]] in [[Act Three]]."
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Golbraith's Cellar",
+      "revision": 431342,
+      "markers": [
+        "can be opened with {{SmRarityItem|Golbraith's Chest Key}}"
+      ]
+    }
+  ],
+  "summary": "Opens the gilded chest in Golbraith’s cellar.",
+  "fields": {
+    "Effect": "Opens the rustic chest upstairs in Golbraith’s home and the gilded chest in his cellar.",
+    "Base value": "1 gp in BG3. Merchant prices vary.",
+    "Use": "Opens the gilded chest in Golbraith’s cellar.",
+    "Source note": "The item and location sources disagree about the upstairs chest. The location describes a DC 10 lockpick for that chest."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

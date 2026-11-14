@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:21481",
+  "title": "Magical Walnut",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420734,
+      "title": "Magical Walnut",
+      "markers": [
+        "S_WYR_Circus_WheelPrize_WishNuts"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 424740,
+      "title": "Walnut",
+      "markers": [
+        "| camp supplies = 2"
+      ]
+    }
+  ],
+  "summary": "Consolation prize container holding five Walnuts.",
+  "fields": {
+    "Use": "Open it to take five Walnuts. Each Walnut contributes 2 Camp Supplies.",
+    "Acquisition": "One possible prize from Akabi’s Wheel of Fortune at the Circus of the Last Days when you do not win the jackpot.",
+    "Base value": "11 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

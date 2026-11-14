@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:11418",
+  "title": "Gloves of Soul Catching",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418975,
+      "title": "Gloves of Soul Catching",
+      "markers": [
+        "MAG_PHB_OfSoulCatching_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433172,
+      "title": "Soul Fist",
+      "markers": [
+        "| description = Your unarmed attacks deal an additional {{DamageText|1d10|Force}} damage."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433171,
+      "title": "Soul Catching",
+      "markers": [
+        "| description = Once per turn, on an unarmed hit, you regain {{DamageText|10|Healing}}. Alternatively, you may forego healing to gain a +5 bonus on an {{Attack Roll}} or {{Saving Throw}} until the end of your next turn.{{see bugs}}"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443587,
+      "title": "Grasp Essence",
+      "markers": [
+        "| effects = * When you hit a creature with an unarmed attack, you can regain {{DamageText|10|Healing}} or choose to gain {{Advantage}} on [[Attack Roll]]s or [[Saving Throw]]s before the end of your next turn."
+      ]
+    }
+  ],
+  "summary": "Gain +2 Constitution up to 20. Unarmed attacks deal 1d10 extra Force. A qualified hit can grant Soul Catching once per turn.",
+  "fields": {
+    "Soul Catching": "Once per turn, an unarmed or throwing hit can grant Grasp Essence. Choose to regain 10 HP as a free action or use the granted free reaction to add +5 to one attack roll or saving throw by the end of your next turn.",
+    "Reported behavior": "Damaging unarmed attacks against objects can qualify. Taking damage without temporary HP can clear Grasp Essence.",
+    "Base value": "960 gp in BG3. Merchant prices vary.",
+    "Constitution": "+2 Constitution to a maximum of 20.",
+    "Soul Fist": "Unarmed attacks deal 1d10 extra Force."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:12861",
+  "title": "Watcher Crossbow Blueprint",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438495,
+      "title": "Watcher Crossbow Blueprint",
+      "markers": [
+        "UNI_LOW_SteelWatchFoundry_WatcherHarpoonCrossbowDiagram_000"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438689,
+      "title": "Hellfire Engine Crossbow",
+      "markers": [
+        "Watcher Crossbow Blueprint"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 440238,
+      "title": "Steel Watch Foundry",
+      "markers": [
+        "Watcher Crossbow Blueprint"
+      ]
+    }
+  ],
+  "summary": "Component used to craft the Hellfire Engine Crossbow.",
+  "fields": {
+    "Crafting": "Combine the blueprint, Targeting Module and Steel Watcher Arm at the foundry worktable.",
+    "Acquisition": "Desk on the Steel Watch Foundry main floor, X −333, Y −157.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

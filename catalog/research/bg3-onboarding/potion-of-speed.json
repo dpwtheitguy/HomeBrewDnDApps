@@ -1,0 +1,48 @@
+{
+  "item_id": "bg3-wiki:3792",
+  "title": "Potion of Speed",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Potion of Speed",
+      "revision": 441270,
+      "markers": [
+        "CONS_Potion_Speed"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Hastened (condition)",
+      "revision": 435658,
+      "markers": [
+        "actually increases it"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Lethargic",
+      "revision": 443904,
+      "markers": [
+        "does not break"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Ashes of Hyena Ear",
+      "revision": 416127,
+      "markers": [
+        "combining 3"
+      ]
+    }
+  ],
+  "summary": "Three turns of Hastened, followed by one turn of Lethargic.",
+  "fields": {
+    "Drink": "Bonus Action. Gain Hastened for 3 turns.",
+    "Throw": "Action, up to 60 ft. Creatures in a 3 ft radius gain Hastened for 3 turns.",
+    "Hastened": "+2 AC, advantage on Dexterity saves, +30 ft movement, and an extra Action each turn. In Honour Mode the extra Action cannot use Extra Attack. Slowed ends Hastened and blocks it while active in Honour Mode. Stacks with Terazul. In Honour Mode, Mind Sanctuary: Haste can also end it and trigger Lethargic.",
+    "Lethargic": "When Hastened ends, for 1 turn you cannot move or take Actions, Bonus Actions or Reactions. Lethargic does not break Concentration. Reapplying the potion while Hastened causes this immediately, expiring at the end of your current turn.",
+    "Crafting": "Extract 3 Hyena Ears into Ashes of Hyena Ear, then combine with any Salt.",
+    "Base value": "20 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

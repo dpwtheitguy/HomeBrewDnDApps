@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:50372",
+  "title": "Control Level Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430425,
+      "title": "Control Level Key",
+      "markers": [
+        "S_LOW_KeyToControlCentre"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 417733,
+      "title": "Disable the Steel Watch",
+      "markers": [
+        "Control Level Key",
+        "Hahns Rives"
+      ]
+    }
+  ],
+  "summary": "Opens the door to the Control Centre Antechamber in the Steel Watch Foundry.",
+  "fields": {
+    "Acquisition": "Loot or pickpocket Hahns Rives in Act Three.",
+    "Alternate access": "The antechamber door can also be picked with a DC 30 Sleight of Hand check."
+  },
+  "changes": "Added the exact lock, carrier, and alternate access from the pinned quest walkthrough."
+}

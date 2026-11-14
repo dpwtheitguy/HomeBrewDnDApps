@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:21625",
+  "title": "On Serpent Venom Toxin",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421508,
+      "title": "On Serpent Venom Toxin",
+      "markers": [
+        "BOOK_Alchemy_SerpentVenom"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 422997,
+      "title": "Serpent Fang Toxin",
+      "markers": [
+        "any [[Alchemy#Extractions|Vitriol]]"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 408872,
+      "title": "Alchemy",
+      "markers": [
+        "three of the same ingredient"
+      ]
+    }
+  ],
+  "summary": "Contains the recipe for Serpent Fang Toxin.",
+  "fields": {
+    "Recipe": "Extract three Venomous Fangs into Suspension of Snake Venom, then add any Vitriol. The book names Vitriol of Lolth’s Candle as one option.",
+    "Acquisition": "Locked wooden chest in the back room of the Waning Moon, X −258, Y −94.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

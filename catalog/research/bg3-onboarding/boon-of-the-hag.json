@@ -1,0 +1,20 @@
+{
+  "item_id": "bg3-wiki:34519",
+  "title": "Boon of the Hag",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416673,
+      "title": "Boon of the Hag",
+      "markers": [
+        "CONS_Hag_MysteriousGift"
+      ]
+    }
+  ],
+  "summary": "Drink as a Bonus Action and take 2d6 Poison damage. A failed Constitution save can cause further damage for up to 10 turns.",
+  "fields": {
+    "Effect": "Drink as a Bonus Action and take 2d6 Poison damage. Make a DC 15 Constitution save. On a failure, take 2d6 Poison at the start of each turn for up to 10 turns, ending early when a DC 13 Constitution save succeeds.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Completed the item-specific action, timing, save, or effect against pinned evidence."
+}

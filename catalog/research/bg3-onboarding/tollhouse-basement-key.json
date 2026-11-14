@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:50376",
+  "title": "Tollhouse Basement Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Tollhouse Basement Key",
+      "revision": 430705,
+      "markers": [
+        "S_TWN_Tollhouse_BasementKey"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Reithwin Tollhouse",
+      "revision": 438645,
+      "markers": [
+        "Tollhouse Basement Key"
+      ]
+    }
+  ],
+  "summary": "Opens southern exterior double doors into the Reithwin Tollhouse basement. DC 14 Sleight of Hand is an alternative.",
+  "fields": {
+    "Use": "Southern exterior double doors into the Reithwin Tollhouse basement. DC 14 Sleight of Hand is an alternative.",
+    "Acquisition": "Skeleton on the tollhouse roof (−96, −89).",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:9056",
+  "title": "Portal Sherry",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421892,
+      "title": "Portal Sherry",
+      "markers": [
+        "CONS_GEN_Alcohol_Bottle_Normal_C"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437839,
+      "title": "Alcohol (condition)",
+      "markers": [
+        "Disadvantage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 385878,
+      "title": "Alcohol (surface)",
+      "markers": [
+        "| description = Flammable."
+      ]
+    }
+  ],
+  "summary": "Provides 4 Camp Supplies, or can be drunk or thrown for its Alcohol effects.",
+  "fields": {
+    "Camp Supplies": "4 Camp Supplies toward a Long Rest.",
+    "Drink": "Bonus Action. Applies Alcohol for 2 turns, giving disadvantage on Dexterity and Charisma checks.",
+    "Throw": "Action. Creates a permanent 13 ft radius Alcohol surface. Fire ignites it and Cold freezes it.",
+    "Base value": "13 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

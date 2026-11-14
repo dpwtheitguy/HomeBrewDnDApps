@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:32576",
+  "title": "Guild Ring",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419218,
+      "title": "Guild Ring",
+      "markers": [
+        "S_UNI_LOW_GuildRing"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 434242,
+      "title": "Guildhall",
+      "markers": [
+        "insert it into the wall slot"
+      ]
+    }
+  ],
+  "summary": "Insert the Guild Ring into the wall slot to reveal the Guildhall entrance.",
+  "fields": {
+    "Use": "Insert at X 59, Y −97. The Story variant becomes the Uncommon variant when used. Both variants can open the entrance.",
+    "Acquisition": "Tusgront carries a ring. Two more are in locked chests inside or under Bruc and Pishe’s Emporium.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

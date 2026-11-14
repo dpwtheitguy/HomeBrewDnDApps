@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:13944",
+  "title": "Dark Justiciar Boots",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417520,
+      "title": "Dark Justiciar Boots",
+      "markers": [
+        "| uid = UNI_SHA_DarkJusticiar_Boots"
+      ]
+    },
+    {
+      "role": "Rules: Shadow Teleportation",
+      "revision": 423062,
+      "title": "Shadow Teleportation",
+      "markers": [
+        "| summary = '''Shadow Telportation''' is an action granted by the {{SmRarityItem|Dark Justiciar Boots}} and the {{SmRarityItem|Shadowstep Boots}} which allows the wearer to teleport to an unoccupied, obscured space."
+      ]
+    }
+  ],
+  "summary": "Gain +1 to Dexterity saves and access to Shadow Teleportation.",
+  "fields": {
+    "Shadow Teleportation": "Action once per Short Rest. Teleport to an unoccupied obscured space within 60 ft.",
+    "Base value": "240 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

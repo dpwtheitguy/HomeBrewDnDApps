@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:12586",
+  "title": "On Antidotes",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421499,
+      "title": "On Antidotes",
+      "markers": [
+        "S_DEN_AntidoteRecipeBook"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 415986,
+      "title": "Antidote",
+      "markers": [
+        "any [[Alchemy#Extractions|Suspension]]"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 408872,
+      "title": "Alchemy",
+      "markers": [
+        "three of the same ingredient"
+      ]
+    }
+  ],
+  "summary": "Contains the recipe for Antidote.",
+  "fields": {
+    "Recipe": "Use Salts of Mugwort, extracted from three Mugwort, and any Suspension. The book gives Suspension of Bullywug Trumpet as an example.",
+    "Acquisition": "Nettie’s room in the Druids’ Chambers, X −445, Y −7.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

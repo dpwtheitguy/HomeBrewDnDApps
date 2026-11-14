@@ -1,0 +1,32 @@
+{
+  "item_id": "bg3-wiki:8006",
+  "title": "Armour of Agility",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416065,
+      "title": "Armour of Agility",
+      "markers": [
+        "MAG_EndGame_HalfPlate"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432528,
+      "title": "Exotic Material",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Add your full Dexterity modifier to AC. Gain +2 to all saving throws and avoid armour-imposed Stealth disadvantage.",
+  "fields": {
+    "Equipment type": "Medium Armour",
+    "Training": "Medium Armour",
+    "Base AC": "17",
+    "Effect": "Add your full Dexterity modifier to AC, gain +2 to all saving throws, and avoid armour-imposed Stealth disadvantage.",
+    "Base value": "2900 gp in BG3. Merchant prices vary.",
+    "Reported feat interaction": "The linked passive source reports that Exotic Material stops working with Medium Armour Master or Magic Initiate: Cleric. The +2 saving throw bonus is a separate property."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:9447",
+  "title": "Iron Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430562,
+      "title": "Iron Key",
+      "markers": [
+        "S_UND_BedroomKey"
+      ]
+    }
+  ],
+  "summary": "Opens the double iron doors on the balcony east of the Grymforge docks.",
+  "fields": {
+    "Lock": "Double iron doors at X −603, Y 409.",
+    "Acquisition": "On a skeleton on the fire-trapped Grymforge balcony at X −649, Y 396.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

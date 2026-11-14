@@ -1,0 +1,45 @@
+{
+  "item_id": "bg3-wiki:13988",
+  "title": "Orin's Netherstone",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 428431,
+      "title": "Orin's Netherstone",
+      "markers": [
+        "| uid = QUEST_Netherstone_Orin"
+      ]
+    },
+    {
+      "role": "Rules: Triune Netherstone",
+      "revision": 428429,
+      "title": "Triune Netherstone",
+      "markers": [
+        "| description = {{story|Triune Netherstone}} is a quest item obtained at the end of [[Act Three]]."
+      ]
+    },
+    {
+      "role": "Rules: Karsus' Compulsion",
+      "revision": 441339,
+      "title": "Karsus' Compulsion",
+      "markers": [
+        "| summary = It is granted by the {{SmRarityItem|Triune Netherstone}} and is usable only by [[Full-Illithid]]s to control the [[Crown of Karsus]]."
+      ]
+    },
+    {
+      "role": "Rules: Confront the Elder Brain",
+      "revision": 441286,
+      "title": "Confront the Elder Brain",
+      "markers": [
+        "| description = Confront the Elder Brain is a quest in Act Three of Baldur's Gate 3."
+      ]
+    }
+  ],
+  "summary": "Collect Orin’s Netherstone to confront the Netherbrain.",
+  "fields": {
+    "Acquisition": "Loot Orin’s Netherstone-Pommelled Bloodthirst. It splits into the dagger and her Netherstone.",
+    "Quest use": "Bring this stone and the stones from Ketheric and Gortash to the Morphic Pool. They combine into the Triune Netherstone. A full illithid can use Karsus’ Compulsion on the Crown from 20 ft and must maintain the channel until the next turn.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

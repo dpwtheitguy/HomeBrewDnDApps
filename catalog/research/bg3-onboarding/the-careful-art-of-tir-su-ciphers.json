@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12400",
+  "title": "The Careful Art of Tir'su Ciphers",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "The Careful Art of Tir'su Ciphers",
+      "revision": 440944,
+      "markers": [
+        "S_GLO_OrpheusChapters_Cipher"
+      ]
+    },
+    {
+      "role": "Rules: Discover the History of Prince Orpheus",
+      "title": "Discover the History of Prince Orpheus",
+      "revision": 417745,
+      "markers": [
+        "Careful Art"
+      ]
+    }
+  ],
+  "summary": "Translates two encrypted Orpheus slates and advances their quest.",
+  "fields": {
+    "Read": "Use the cipher guide to translate Part One: Betrayal and Part Three: Resurrection of Orpheus, Prince of the Comet. Each translation advances Discover the History of Prince Orpheus.",
+    "Acquisition": "Arcane Tower bedroom, third floor at (−35, −288).",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

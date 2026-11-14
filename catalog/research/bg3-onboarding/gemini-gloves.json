@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:8825",
+  "title": "Gemini Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418827,
+      "title": "Gemini Gloves",
+      "markers": [
+        "| uid = MAG_Warlock_Twinned_Gloves"
+      ]
+    },
+    {
+      "role": "Rules: Adroit Caster",
+      "revision": 433510,
+      "title": "Adroit Caster",
+      "markers": [
+        "| summary = '''Adroit Caster''' is a toggleable passive feature. It allows the recipient to cast a cantrip at a second creature at the same time, once per short rest."
+      ]
+    }
+  ],
+  "summary": "Once per Short Rest, toggle Adroit Caster to give an eligible cantrip one additional target.",
+  "fields": {
+    "Targeting": "Use on cantrips that target friends or foes. You can choose the same target twice when selecting direct targets. Nonprojectiles instead find the nearest second target within about 7 ft for touch cantrips or 20 ft for other nonprojectiles.",
+    "Interactions": "Adds one beam to Eldritch Blast. Stacks with Twinned Spell and can give up to four targets for nonprojectile cantrips when each instance finds its nearby target. Does not stack with Reaper.",
+    "Base value": "450 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

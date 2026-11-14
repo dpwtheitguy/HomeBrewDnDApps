@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:3468",
+  "title": "Disintegrating Night Walkers",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417785,
+      "title": "Disintegrating Night Walkers",
+      "markers": [
+        "| uid = S_UND_DuergarGaleItem"
+      ]
+    },
+    {
+      "role": "Rules: Night Walker",
+      "revision": 432918,
+      "title": "Night Walker",
+      "markers": [
+        "| summary = '''Night Walker''' is a passive feature that allows the user freedom of movement without any common restrictions."
+      ]
+    },
+    {
+      "role": "Rules: Misty Step",
+      "revision": 361982,
+      "title": "Misty Step",
+      "markers": [
+        "| summary = It allows spellcasters to teleport themselves to an unoccupied space they can see."
+      ]
+    }
+  ],
+  "summary": "Cannot be Enwebbed, Entangled or Ensnared, and cannot slip on Grease or Ice.",
+  "fields": {
+    "Misty Step": "Bonus Action once per Short Rest. Teleport to a visible unoccupied space within 60 ft.",
+    "Base value": "360 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

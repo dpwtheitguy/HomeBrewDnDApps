@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:11379",
+  "title": "Band of the Mystic Scoundrel",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416287,
+      "title": "Band of the Mystic Scoundrel",
+      "markers": [
+        "| uid = MAG_ArcaneTrickster_Ring"
+      ]
+    },
+    {
+      "role": "Rules: Illusion Quickening",
+      "revision": 432661,
+      "title": "Illusion Quickening",
+      "markers": [
+        "| summary = '''Illusion Quickening''' is a passive feature that lets the wearer cast illusion or enchantment spells after making a weapon attack."
+      ]
+    }
+  ],
+  "summary": "After a weapon hit, use a Bonus Action to cast Illusion or Enchantment spells and eligible scrolls for the rest of the turn.",
+  "fields": {
+    "Use": "After a weapon hit, cast Illusion and Enchantment spells only as a Bonus Action for the rest of the turn. Other schools retain their regular casting costs.",
+    "Timing and scrolls": "Quickening expires at the start of your turn. An opportunity attack does not carry it into your next turn. Eligible scrolls and the Disguise Kit qualify.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and pinned evidence, then refined its mechanics against item and linked rule notes."
+}

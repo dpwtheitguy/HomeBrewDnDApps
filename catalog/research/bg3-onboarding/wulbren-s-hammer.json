@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:20094",
+  "title": "Wulbren's Hammer",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Wulbren's Hammer",
+      "revision": 425017,
+      "markers": [
+        "S_MOO_JailbreakHammer"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Concussive Smash",
+      "revision": 373613,
+      "markers": [
+        "hybrid DC"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Rescue Wulbren",
+      "revision": 441670,
+      "markers": [
+        "Wulbren"
+      ]
+    }
+  ],
+  "summary": "A +1 light hammer that adds 2d4 Force against objects.",
+  "fields": {
+    "Weapon profile": "Simple one-handed Light, Thrown and Dippable. 5 ft melee. Hit for 1d4 + 1 Bludgeoning plus Strength. +1 to attacks. Adds 2d4 Force against items and world objects, as reported by the source.",
+    "Concussive Smash": "Action with proficiency once per Short Rest. Deal weapon damage. Constitution save against the higher of spell save DC or weapon-action DC +2 prevents Dazed for 2 turns.",
+    "Quest use": "Give the hammer to Wulbren during Rescue Wulbren to help him break out. He recognizes his own hammer.",
+    "Acquisition": "On a table upstairs in the Moonrise Towers Prison Warden’s room (575, −647).",
+    "Base value": "65 gp nominal BG3 value.",
+    "Constructs": "The item description also mentions Constructs for the 2d4 Force rider. The special rules row only confirms items and world objects."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

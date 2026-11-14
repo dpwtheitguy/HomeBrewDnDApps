@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:3780",
+  "title": "Basilisk Oil",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416329,
+      "title": "Basilisk Oil",
+      "markers": [
+        "| uid = OBJ_Oil_Of_The_Basilisk"
+      ]
+    }
+  ],
+  "summary": "Ends Petrified on another creature. Administer the oil or throw it. You cannot drink it yourself.",
+  "fields": {
+    "Administer": "Bonus Action. Administer to a nearby Petrified creature.",
+    "Throw": "Action. Throw up to 60 ft to restore Petrified creatures within 3 ft of impact.",
+    "Base value": "10 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:47254",
+  "title": "Fraygo's Flophouse Back Door Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430579,
+      "title": "Fraygo's Flophouse Back Door Key",
+      "markers": [
+        "S_WYR_Flophouse_BackdoorKey"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 409031,
+      "title": "Fraygo's Flophouse",
+      "markers": [
+        "ends with a locked door"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 426228,
+      "title": "Dashkent Moliver",
+      "markers": [
+        "Fraygo's Flophouse Back Door Key"
+      ]
+    }
+  ],
+  "summary": "Likely unlocks the locked back door at Fraygo’s Flophouse.",
+  "fields": {
+    "Acquisition": "Carried by the custodian Dashkent Moliver in Rivington.",
+    "Source note": "The target is inferred from the key name, game identifier and documented locked door leading to the first-floor western balcony.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

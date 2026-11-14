@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:52680",
+  "title": "Cup of Endless Water",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417436,
+      "title": "Cup of Endless Water",
+      "markers": [
+        "CRA_ShellKid_Cup"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 419728,
+      "title": "Incongruent Splash",
+      "markers": [
+        "| uid = Zone_CHA_ShellKid_Cup_Spell"
+      ]
+    }
+  ],
+  "summary": "An unobtainable cup that casts Incongruent Splash once per battle.",
+  "fields": {
+    "Incongruent Splash": "Action once per battle. A roughly 16 ft cone deals 3d6 Fire with a Dexterity save against caster DC for half. Applies Wet for 3 turns after damage, even on a successful save.",
+    "Availability": "Unobtainable in normal gameplay.",
+    "Base value": "30 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence."
+}

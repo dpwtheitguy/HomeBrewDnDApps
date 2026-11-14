@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:16413",
+  "title": "Scroll of Arcane Lock",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Arcane Lock",
+      "revision": 422740,
+      "markers": [
+        "LOOT_SCROLL_ArcaneLock"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Arcane Lock",
+      "revision": 398093,
+      "markers": [
+        "Target_ArcaneLock"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Magically lock a door or container within 5 ft for 10 turns.",
+  "fields": {
+    "Cast": "Level 2. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Magically lock a door or container within 5 ft for 10 turns. Mundane lockpicking does not open it.",
+    "Range": "5 ft.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

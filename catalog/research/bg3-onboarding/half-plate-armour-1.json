@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:15102",
+  "title": "Half Plate Armour +1",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419269,
+      "title": "Half Plate Armour +1",
+      "markers": [
+        "| uid = ARM_HalfPlate_1"
+      ]
+    },
+    {
+      "role": "Rules: Superior Plate (-1)",
+      "revision": 433317,
+      "title": "Superior Plate (-1)",
+      "markers": [
+        "| summary = '''Superior Plate''' is a passive feature that lets the owner take less piercing damage."
+      ]
+    }
+  ],
+  "summary": "Medium Armour, AC 16 plus Dexterity up to +2, with Stealth disadvantage. Reduces Piercing damage by 1.",
+  "fields": {
+    "Armour Class": "16 + Dexterity modifier, maximum +2 from Dexterity.",
+    "Proficiency and Stealth": "Medium Armour. Disadvantage on Stealth checks.",
+    "Superior Plate": "Reduce incoming Piercing damage by 1.",
+    "Base value": "360 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:24794",
+  "title": "Essence of Ether",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418277,
+      "title": "Essence of Ether",
+      "markers": [
+        "CONS_Drug_Essence_Ether_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442818,
+      "title": "Ether-Essence Slumber",
+      "markers": [
+        "| icon = DRUG Essence of Ether Unfaded Icon.png"
+      ]
+    }
+  ],
+  "summary": "Consume one dose to incapacitate yourself with Ether-Essence Slumber for 2 turns.",
+  "fields": {
+    "Slumber": "You cannot move or act and automatically fail Strength and Dexterity saves. Attacks against you have advantage. Damage or a Shove wakes you.",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

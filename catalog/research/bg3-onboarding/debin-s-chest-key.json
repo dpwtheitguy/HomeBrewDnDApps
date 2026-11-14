@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:50348",
+  "title": "Debin's Chest Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430672,
+      "title": "Debin's Chest Key",
+      "markers": [
+        "| uid = WYR_WyrmRock_DeblinChestKey"
+      ]
+    },
+    {
+      "role": "Rules: Debin",
+      "revision": 431945,
+      "title": "Debin",
+      "markers": [
+        "{{Infobox creature"
+      ]
+    }
+  ],
+  "summary": "Opens Debin’s personal chest near her bunk. Debin carries the key.",
+  "fields": {
+    "Use": "Opens Debin’s personal chest near her bunk. Debin carries the key.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

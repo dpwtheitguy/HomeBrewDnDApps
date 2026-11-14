@@ -1,0 +1,57 @@
+{
+  "item_id": "bg3-wiki:13778",
+  "title": "Shield of Shielding",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423147,
+      "title": "Shield of Shielding",
+      "markers": [
+        "MAG_OfShielding_Shield"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438215,
+      "title": "Shield Bash",
+      "markers": [
+        "Strength saving throw"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 425425,
+      "title": "Shield (spell)",
+      "markers": [
+        "Magic Missile"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442342,
+      "title": "Castigated By Divinity",
+      "markers": [
+        "condition page"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Shield Blow",
+      "revision": 406487,
+      "markers": [
+        "| save = STR",
+        "| save dc = caster",
+        "| condition duration = 1"
+      ]
+    }
+  ],
+  "summary": "+2 AC, Shield Bash and a once-per-Long-Rest Shield reaction.",
+  "fields": {
+    "Armour Class": "+2 AC while equipped. Shield proficiency.",
+    "Shield Bash": "When hit by a melee attack, spend a Reaction. The attacker makes a Strength save against your spell save DC or falls Prone for 1 turn. The tooltip instead names Dexterity.",
+    "Shield spell": "Level 1 Reaction once per Long Rest when hit. +5 AC until your next turn and immunity to Magic Missile.",
+    "Acquisition": "Offerings to Helm chest below Stormshore Tabernacle. Looting curses the character with Castigated by Divinity.",
+    "Base value": "190 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

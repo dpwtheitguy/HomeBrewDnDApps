@@ -1,0 +1,55 @@
+{
+  "item_id": "bg3-wiki:11805",
+  "title": "Emblazoned Plate of the Marshal",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418187,
+      "title": "Emblazoned Plate of the Marshal",
+      "markers": [
+        "UNI_Ravengard_Plate"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432822,
+      "title": "Magical Plate (-2)",
+      "markers": [
+        "| description = All incoming damage is reduced by 2."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432508,
+      "title": "Endurance by Fire",
+      "markers": [
+        "| description = You have [[Resistance]] to {{DamageType|Fire}} damage and a +2 bonus to {{Saving Throw}}s."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 380465,
+      "title": "Fire Shield",
+      "markers": [
+        "| description = Wreathe your body in flames that shed light in a {{dist|m=3}} radius, provide [[Resistance]] to {{DamageType|Fire}} or {{DamageType|Cold}} damage, and retaliate against melee attacks."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 325578,
+      "title": "Fire Shield: Warm",
+      "markers": [
+        "| uid = Shout_FireShield_Warm"
+      ]
+    }
+  ],
+  "summary": "Heavy armour with AC 19, Fire resistance, +2 saves, reduced damage and Fire Shield.",
+  "fields": {
+    "Armour Class": "Heavy Armour, AC 19 and disadvantage on Stealth checks.",
+    "Magical Plate": "Reduce incoming damage by 2.",
+    "Endurance by Fire": "Fire resistance and +2 to saving throws.",
+    "Fire Shield: Warm": "The plate grants Warm. Action on yourself once per Long Rest. For 10 turns, gain Cold resistance and deal 2d8 Fire to a melee attacker who hits you, or 4d8 on a critical hit. The spell describes a 10 ft light radius, but the pinned rules report no gameplay light effect.",
+    "Base value": "6400 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Verified card mechanics against the cited item or linked rule."
+}

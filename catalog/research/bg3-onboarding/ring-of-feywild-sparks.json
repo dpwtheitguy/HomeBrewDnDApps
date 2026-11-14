@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:10926",
+  "title": "Ring of Feywild Sparks",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422378,
+      "title": "Ring of Feywild Sparks",
+      "markers": [
+        "MAG_OfFeywildSparks_Ring"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432557,
+      "title": "Feywild Sparks",
+      "markers": [
+        "will always trigger"
+      ]
+    }
+  ],
+  "summary": "Forces Wild Magic surges while Tides of Chaos is active and grants +1 spell save DC.",
+  "fields": {
+    "Feywild Sparks": "While your Wild Magic Sorcerer’s Tides of Chaos is active, casting spells always triggers Wild Magic.",
+    "Spell save DC": "+1, even though the tooltip omits the bonus.",
+    "Acquisition": "Auntie Ethel at the Blushing Mermaid, X −2329, Y −95.",
+    "Base value": "140 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

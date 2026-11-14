@@ -1,0 +1,20 @@
+{
+  "item_id": "bg3-wiki:3414",
+  "title": "Battleaxe +1",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416340,
+      "title": "Battleaxe +1",
+      "markers": [
+        "| uid = WPN_HUM_Battleaxe_A_1"
+      ]
+    }
+  ],
+  "summary": "Deals 1d8 + 1 Slashing one-handed or 1d10 + 1 Slashing two-handed.",
+  "fields": {
+    "Weapon actions": "Cleave, Lacerate, Maiming Strike",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

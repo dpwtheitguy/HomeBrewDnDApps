@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:18010",
+  "title": "Jar of Mystic Carrion's Liver",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419927,
+      "title": "Jar of Mystic Carrion's Liver",
+      "markers": [
+        "{{MiscItemPage"
+      ]
+    },
+    {
+      "role": "Rules: Curdled Liver",
+      "revision": 442532,
+      "title": "Curdled Liver",
+      "markers": [
+        "{{condition page"
+      ]
+    },
+    {
+      "role": "Rules: End Mystic Carrion's Immortality",
+      "revision": 383299,
+      "title": "End Mystic Carrion's Immortality",
+      "markers": [
+        "| description = Defeat Mystic Carrion is a sub-quest of the quest Find Mystic Carrion's Servant in Act Three of Baldur's Gate 3. It can be started by speaking with Thrumbo in the Lower City."
+      ]
+    }
+  ],
+  "summary": "Destroy it to make Mystic Carrion vulnerable to Fire.",
+  "fields": {
+    "Encounter effect": "Destroy it to make Mystic Carrion vulnerable to Fire.",
+    "Destruction": "The jar explodes in a 13 ft radius for 8d6 Fire. DC 10 Dexterity save halves the damage. Directly attacking the jar without destroying it deals 5 Necrotic to the attacker.",
+    "Acquisition": "In a locked gilded chest in the Ancient Lair.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

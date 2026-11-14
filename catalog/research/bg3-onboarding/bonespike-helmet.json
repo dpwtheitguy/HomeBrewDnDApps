@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:8555",
+  "title": "Bonespike Helmet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416656,
+      "title": "Bonespike Helmet",
+      "markers": [
+        "MAG_Barbarian_BoneSpike_Helmet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432585,
+      "title": "Fury In The Marrow",
+      "markers": [
+        "| description = When you {{SAI|Rage}}, hostile creatures in a {{Dist|m=3|ft=10}} radius must succeed a {{Saving Throw|Wisdom|dc=weapon action}} or take {{DamageText|2d4|Psychic}} damage. The targets receive half damage on a save.{{see bugs}}"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444216,
+      "title": "Menacing Attack (Bonespike Helmet)",
+      "markers": [
+        "| description = Possibly {{SmCond|Frightened|Frighten}} your target. They'll have {{Disadvantage}} on [[ability checks]] and {{Attack roll}}s and be unable to move."
+      ]
+    }
+  ],
+  "summary": "+2 Intimidation. On Rage, hostiles within 10 ft make a Wisdom save against your weapon-action DC for half of 2d4 Psychic damage. Once per turn make a melee Menacing Attack, adding your proficiency bonus to damage. The target makes a Wisdom save against your weapon-action DC or is Frightened for 2 turns. This attack can count toward Extra Attack.",
+  "fields": {
+    "Effect": "+2 Intimidation. On Rage, hostiles within 10 ft make a Wisdom save against your weapon-action DC for half of 2d4 Psychic damage. Once per turn make a melee Menacing Attack, adding your proficiency bonus to damage. The target makes a Wisdom save against your weapon-action DC or is Frightened for 2 turns. This attack can count toward Extra Attack.",
+    "Equipment type": "Helmets",
+    "Base value": "450 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

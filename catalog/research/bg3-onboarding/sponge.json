@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:26963",
+  "title": "Sponge",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Sponge",
+      "revision": 423510,
+      "markers": [
+        "LOOT_Bathroom_Sponge_A"
+      ]
+    }
+  ],
+  "summary": "Clean stains, face paint and odour conditions.",
+  "fields": {
+    "Use": "Action to clean dirt, blood and face paint and clear odour conditions.",
+    "Reported Patch 5 behavior": "The sponge failed to clean in Patch 5. The same source says the Sponge Tray still worked.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

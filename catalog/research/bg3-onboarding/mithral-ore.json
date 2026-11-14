@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:4624",
+  "title": "Mithral Ore",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Mithral Ore",
+      "revision": 437772,
+      "markers": [
+        "LOOT_GEN_Ore_Mithral_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Adamantine Forge (location)",
+      "revision": 441169,
+      "markers": [
+        "Mithral Ore"
+      ]
+    }
+  ],
+  "summary": "One ore makes one Adamantine item at the forge. Only two ore pieces are available per playthrough.",
+  "fields": {
+    "Craft": "Load 1 Mithral Ore into the crucible and the chosen mould into the mould chamber. Lower the platform, release lava, then activate the forge lever. Each item consumes 1 ore.",
+    "Outputs": "Adamantine Longsword, Mace, Scimitar, Shield, Scale Mail, or Splint Armour. Match the mould to the desired item.",
+    "Acquisition": "Mine the two veins in the Abandoned Refuge at approximately X −556, Y 277 and X −642, Y 253.",
+    "Base value": "100 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

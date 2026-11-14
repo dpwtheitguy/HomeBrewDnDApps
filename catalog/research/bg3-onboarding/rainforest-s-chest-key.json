@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:50361",
+  "title": "Rainforest's Chest Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430523,
+      "title": "Rainforest's Chest Key",
+      "markers": [
+        "LOW_Rainforest_BasementSafeKey"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 427106,
+      "title": "Rainforest's Home",
+      "markers": [
+        "Rainforest's Chest Key"
+      ]
+    }
+  ],
+  "summary": "Opens the Strongbox in the northern basement storeroom of Rainforest’s Home.",
+  "fields": {
+    "Use": "Unlock the strongbox built into the storeroom’s eastern wall.",
+    "Acquisition": "Behind the eastern wall of the basement study.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

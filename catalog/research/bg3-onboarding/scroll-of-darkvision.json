@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:13784",
+  "title": "Scroll of Darkvision",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Darkvision",
+      "revision": 422771,
+      "markers": [
+        "LOOT_SCROLL_Darkvision"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Darkvision (spell)",
+      "revision": 417544,
+      "markers": [
+        "Target_Darkvision"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "A touched creature can see in darkness out to 40 ft until Long Rest.",
+  "fields": {
+    "Cast": "Level 2. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "A touched creature can see in darkness out to 40 ft until Long Rest.",
+    "Range": "5 ft.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

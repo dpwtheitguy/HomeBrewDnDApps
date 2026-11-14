@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:24860",
+  "title": "Oil of Slipperiness",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421466,
+      "title": "Oil of Slipperiness",
+      "markers": [
+        "CONS_Oil_Of_Slipperiness_DONOTUSE"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 435502,
+      "title": "Freedom of Movement (condition)",
+      "markers": [
+        "Movement Speed"
+      ]
+    }
+  ],
+  "summary": "Unobtainable potion gives Freedom of Movement until Long Rest.",
+  "fields": {
+    "Drink": "Bonus Action, self. Difficult terrain, spells and magical effects cannot slow your movement. Immune to Paralysis and Restrained until Long Rest.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "10 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

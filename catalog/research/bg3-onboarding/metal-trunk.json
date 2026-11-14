@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:51290",
+  "title": "Metal Trunk",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420938,
+      "title": "Metal Trunk",
+      "markers": [
+        "| hp = 4"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 440238,
+      "title": "Steel Watch Foundry",
+      "markers": [
+        "A metal trunk near the elevator"
+      ]
+    }
+  ],
+  "summary": "A portable or throwable metal container with 4 HP.",
+  "fields": {
+    "Durability": "4 HP. Resistance to Piercing, Necrotic and Radiant damage. Vulnerable to Bludgeoning, immune to Poison and Psychic damage.",
+    "Use": "Can be picked up or thrown. Typical contents include randomized consumables, equipment, or other loot.",
+    "Foundry trunk": "The metal trunk near the Foundry elevator has a DC 25 Sleight of Hand lock and contains two to four random arrows and a Smokepowder Bomb.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

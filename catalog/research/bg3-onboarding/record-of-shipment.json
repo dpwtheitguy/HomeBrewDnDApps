@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12375",
+  "title": "Record of Shipment",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422225,
+      "title": "Record of Shipment",
+      "markers": [
+        "S_TWN_Distillery_AlchemyStash_Note"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 424182,
+      "title": "Thisobald's Brewed-Up Bellyglummer",
+      "markers": [
+        "any [[Alchemy#Extractions|Suspension]]"
+      ]
+    }
+  ],
+  "summary": "Shipment clue found with Corpse Rose for Thisobald’s Brewed-Up Bellyglummer.",
+  "fields": {
+    "Use": "The stash contains Corpse Rose. Extract its Salts and mix with any Suspension for Thisobald’s Brewed-Up Bellyglummer.",
+    "Acquisition": "Buried wooden chest west of the House of Healing, X −249, Y −4.",
+    "Base value": "14 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:16452",
+  "title": "Scroll of Polymorph",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Polymorph",
+      "revision": 422896,
+      "markers": [
+        "LOOT_SCROLL_Polymorph"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Polymorph",
+      "revision": 328333,
+      "markers": [
+        "Target_Polymorph"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "A creature failing a Wisdom save becomes a sheep for up to 5 turns.",
+  "fields": {
+    "Cast": "Level 4. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "A creature failing a Wisdom save becomes a sheep for up to 5 turns. If the form reaches 0 HP, the creature returns to its original form and original HP.",
+    "Range": "60 ft.",
+    "Concentration": "Maintain Concentration for the ongoing effect.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "180 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

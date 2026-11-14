@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:50387",
+  "title": "Painted Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430550,
+      "title": "Painted Key",
+      "markers": [
+        "S_LOW_Sewers_AncientChest_00_Key"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441313,
+      "title": "Lower City Sewers",
+      "markers": [
+        "last one, which contains a"
+      ]
+    }
+  ],
+  "summary": "Opens the Painted Chest in a room north of Aelis’s sewer lair.",
+  "fields": {
+    "Acquisition": "DC 20 Perception reveals the loose stone at X −131, Y 880 hiding the key.",
+    "Alternative": "DC 20 Sleight of Hand opens the chest without it.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

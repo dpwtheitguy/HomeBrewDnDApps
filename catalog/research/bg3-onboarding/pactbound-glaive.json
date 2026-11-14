@@ -1,0 +1,97 @@
+{
+  "item_id": "bg3-wiki:40571",
+  "title": "Pactbound Glaive",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421644,
+      "title": "Pactbound Glaive",
+      "markers": [
+        "WPN_HUM_Glaive_Pact"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 291668,
+      "title": "Pact of the Blade: Glaive",
+      "markers": [
+        "| item duration = Permanent"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 421638,
+      "title": "Pact of the Blade",
+      "markers": [
+        "Strength]] or [[Dexterity]]"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439161,
+      "title": "Deepened Pact",
+      "markers": [
+        "does not work in Honour Mode"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 436400,
+      "title": "Pact Weapon (condition)",
+      "markers": [
+        "Charisma modifier"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374223,
+      "title": "Rush Attack",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444158,
+      "title": "Off Balance",
+      "markers": [
+        "Removed by taking damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442222,
+      "title": "Bleeding",
+      "markers": [
+        "start of each turn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441529,
+      "title": "Brace (Melee)",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    }
+  ],
+  "summary": "Summoned glaive that uses Charisma and deals magical damage.",
+  "fields": {
+    "Weapon profile": "1d10 magical Slashing plus Charisma. Martial, two-handed, 8 ft melee, Heavy, Dippable.",
+    "Summon": "Warlock level 3 with Pact of the Blade. Summon into your hand as an Action, once per battle. You can have only one. It disappears if you remain more than 5 ft away for over 10 rounds.",
+    "Pact rules": "You are proficient with this weapon. Use Charisma for attacks and damage, while its weapon action save DC still uses Strength or Dexterity. Level 5 Deepened Pact grants Extra Attack. It stacks with other class Extra Attack features outside Honour Mode. The Pact Weapon cannot be dropped or disarmed. The linked Deepened Pact rules also apply to Hexed Weapons. A ranged attack made first, or Throw with a ranged weapon equipped, does not trigger the extra attack.",
+    "Rush Attack": "Action, charge up to 30 ft and attack the first non-allied creature or object in the path for 1d4 + attack ability modifier Piercing. Strength save against weapon-action DC or Off Balance for 2 turns. Off Balance gives Disadvantage on Strength and Dexterity checks and gives attackers Advantage until damage or Help clears it. Once per Short Rest.",
+    "Lacerate": "Action, normal weapon damage. Constitution save against weapon-action DC +2 or Bleeding for 2 turns. Bleeding deals 2 Slashing at turn start and gives Disadvantage on Constitution saves until healed. Once per Short Rest. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Brace (Melee)": "Spend 20 ft of movement. For the rest of this turn roll melee damage twice and take the higher. Stacks with Savage Attacker. Once per Short Rest.",
+    "Base value": "0 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

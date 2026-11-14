@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:10712",
+  "title": "Shadow Lantern",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438503,
+      "title": "Shadow Lantern",
+      "markers": [
+        "UNI_GLO_Moonlantern_Gale"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444051,
+      "title": "Moonshield",
+      "markers": [
+        "Shadow Curse"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 389858,
+      "title": "Conjure Shadow Lantern Wraith",
+      "markers": [
+        "range m = 3"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438502,
+      "title": "Balthazar's Experiment",
+      "markers": [
+        "Shadow Lantern"
+      ]
+    }
+  ],
+  "summary": "Actively wield the lantern for Moonshield or summon a Shadow.",
+  "fields": {
+    "Weapon profile": "1d4 Bludgeoning one-handed or 1d6 two-handed plus Strength. Simple melee weapon.",
+    "Moonshield": "Wield it in a weapon slot or switch to it with the light source toggle for protection from the Shadow Curse. Equipping it only in the inactive light slot is insufficient.",
+    "Summon Shadow": "While actively wielding the lantern, use an Action to summon a Shadow within 10 ft once per Long Rest. Level 6. Despite the tooltip, no corpse is required. The Shadow can use Necrotic Claws and Strength Drain. It lasts until Long Rest or until the lantern is put away. It cannot climb, jump or fly. Travel to a new area or waypoint to regroup.",
+    "Crafting": "Combine a Broken Moonlantern and a Dead Pixie at the table in Balthazar’s hidden room. Gale can perform the ritual. The player can alternatively attempt a DC 30 Arcana check in the ritual dialogue, with Advantage for a Wizard or Shadowheart. Failure deals 2d6 Force damage nearby.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

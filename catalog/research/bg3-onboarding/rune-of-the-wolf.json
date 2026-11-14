@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:6445",
+  "title": "Rune of the Wolf",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Rune of the Wolf",
+      "revision": 422520,
+      "markers": [
+        "{{story|Rune of the Wolf}} is a [[Story Item]]. It is used in the Empty Socket to open the [[Hidden Vault]], in the [[Enclave Library]]."
+      ]
+    },
+    {
+      "role": "Rules: Inner Sanctum",
+      "title": "Inner Sanctum",
+      "revision": 419777,
+      "markers": [
+        "activated together with the three other runes"
+      ]
+    }
+  ],
+  "summary": "Opens the Hidden Vault in the Emerald Grove.",
+  "fields": {
+    "Access": "Place the rune in the Empty Socket of the Enclave Library and activate the rune pedestals to open the Hidden Vault.",
+    "Acquisition": "Speak with Rath after saving the first druid, or pickpocket or loot him.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

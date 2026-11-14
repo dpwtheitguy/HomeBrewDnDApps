@@ -1,0 +1,65 @@
+{
+  "item_id": "bg3-wiki:8010",
+  "title": "Harmonium Halberd",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 432467,
+      "title": "Harmonium Halberd",
+      "markers": [
+        "| uid = MAG_BG_Harmonium_Halberd"
+      ]
+    },
+    {
+      "role": "Rules: Halberds",
+      "revision": 341901,
+      "title": "Halberds",
+      "markers": [
+        "{{weapon type page"
+      ]
+    },
+    {
+      "role": "Rules: Cleave",
+      "revision": 373605,
+      "title": "Cleave",
+      "markers": [
+        "| description = Swing your weapon in a large arc to attack up to 3 enemies at once. They each take half the damage your weapon usually deals."
+      ]
+    },
+    {
+      "role": "Rules: Lacerate",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "| description = Slash at your target's vital points to make it {{SmCond|Bleeding|Bleed}}."
+      ]
+    },
+    {
+      "role": "Rules: Rush Attack",
+      "revision": 374223,
+      "title": "Rush Attack",
+      "markers": [
+        "| description = Charge forward and attack the first enemy in your way, possibly pushing them {{SmCond|Off Balance}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Bleeding",
+      "revision": 442222,
+      "markers": [
+        "except {{Charlink|Ghast}}s"
+      ]
+    }
+  ],
+  "summary": "A +1 halberd that raises Strength by 2 (up to 23) and reduces Intelligence and Wisdom by 1.",
+  "fields": {
+    "Weapon profile": "1d10 + 1 Slashing plus Strength modifier, 8 ft melee reach. Martial, heavy, two-handed, and dippable.",
+    "Cleave": "With proficiency, Action once per Short Rest. Attack up to three non-allied creatures or objects in a 7 ft cone for half weapon damage. Flat bonuses such as Rage are not halved.",
+    "Lacerate": "With proficiency, Action once per Short Rest. Make a weapon attack. On hit, Constitution save against weapon-action DC +2 or Bleeding for 2 turns. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Rush Attack": "With proficiency, Action once per Short Rest. Rush up to 30 ft and attack the first non-allied creature or object for 1d4 Piercing plus attack ability modifier. Strength save against weapon-action DC or Off Balance for 2 turns.",
+    "Enchantment": "+1 to attack and damage rolls, included in the listed damage.",
+    "Ability modifiers": "While wielded, Strength +2 (up to 23), Intelligence −1, and Wisdom −1.",
+    "Base value": "380 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

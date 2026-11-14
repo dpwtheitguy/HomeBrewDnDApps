@@ -1,0 +1,64 @@
+{
+  "item_id": "bg3-wiki:3597",
+  "title": "Sentient Amulet (Rare)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 441179,
+      "title": "Sentient Amulet (Rare)",
+      "markers": [
+        "UNI_UND_MonkAmulet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423116,
+      "title": "Shatter",
+      "markers": [
+        "| save = CON"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439845,
+      "title": "Ki Restoration (lesser)",
+      "markers": [
+        "| recharge = Long Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441549,
+      "title": "Help the Spirit of the Amulet",
+      "markers": [
+        "Sentient Amulet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443707,
+      "title": "High Spirits",
+      "markers": [
+        "| effects"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443772,
+      "title": "Hysterical",
+      "markers": [
+        "| effects"
+      ]
+    }
+  ],
+  "summary": "Amulet casts Shatter and restores Ki.",
+  "fields": {
+    "Shatter": "Action, 60 ft range, 10 ft radius. Deals 3d8 Thunder, Constitution save for half. Inorganic targets save with Disadvantage. Recharges on a Short Rest.",
+    "Ki Restoration": "Action on yourself once per Long Rest. Restores 2 Ki Points.",
+    "High Spirits": "Shatter prompts DC 10 Wisdom save. Failure knocks you Prone with Hysterical for 1 turn. Three successes can trigger a camp/equip scene. Failing that DC 10 save raises future DC to 15. After three more successes, failing a second scene’s DC 15 save raises it to 20. Ki Restoration prompts no save.",
+    "Acquisition": "Locked Adamantine Chest near the Lava Elemental in Grymforge. Picking it up starts Help the Cursed Monk.",
+    "Base value": "125 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence.",
+  "use_wiki_title": true
+}

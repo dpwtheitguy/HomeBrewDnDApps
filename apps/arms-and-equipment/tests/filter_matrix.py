@@ -4479,6 +4479,17 @@ def main():
                     }
                     return true;
                 })()''',
+                'Zathite Dancer accessories link to the full outfit rules': '''(async () => {
+                    inspect("conan-exiles-reference:f2e362860309d446", grid.firstElementChild);
+                    await itemDetails;
+                    const link = Array.from(inspection.querySelectorAll("button")).find(button =>
+                        button.textContent === "Open Zathite Dancer Beads");
+                    if (!link || !inspection.textContent.includes("15 Silk")) return false;
+                    link.click();
+                    await itemDetails;
+                    return ["28 native armor", "+20 Health", "11 + Dex modifier", "Temple Endurance"]
+                        .every(term => inspection.textContent.includes(term));
+                })()''',
                 'Freebooter outfit shows game armor and links to the vest rules': '''(async () => {
                     inspect("conan-exiles-reference:722021fd2b45db18", grid.firstElementChild);
                     await itemDetails;

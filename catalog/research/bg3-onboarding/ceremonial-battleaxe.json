@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:9242",
+  "title": "Ceremonial Battleaxe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416954,
+      "title": "Ceremonial Battleaxe",
+      "markers": [
+        "| uid = S_CRE_Abbot4_Weapon"
+      ]
+    }
+  ],
+  "summary": "A +1 battleaxe used in the Dawnmasters Memorial puzzle at Rosymorn Monastery.",
+  "fields": {
+    "Weapon damage": "1d8 + 1 Slashing one-handed or 1d10 + 1 Slashing two-handed.",
+    "Puzzle use": "Place on its matching weapon pedestal in the Rosymorn Monastery chapel.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

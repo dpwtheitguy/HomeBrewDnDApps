@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:10680",
+  "title": "Circle of Bones",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417068,
+      "title": "Circle of Bones",
+      "markers": [
+        "MAG_Myrkulites_CircletOfMyrkul_Circlet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433390,
+      "title": "Undead Ward",
+      "markers": [
+        "| description = Allied [[undead]] within {{Dist|m=6|ft=20}} are [[Resistant]] to {{DamageType|Bludgeoning}}, {{DamageType|Slashing}}, and {{DamageType|Piercing}} damage.{{see bugs}}"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439075,
+      "title": "Animate Dead",
+      "markers": [
+        "| description = Animate a corpse to create an undead servant while not in combat."
+      ]
+    }
+  ],
+  "summary": "Grants physical damage resistance to nearby allied undead and lets you cast Animate Dead once per Long Rest.",
+  "fields": {
+    "Undead Ward": "Allied undead gain resistance to Bludgeoning, Piercing and Slashing. The tooltip shows 20 ft. The pinned source reports a 30 ft radius, some summoned fiends also qualify, and Astarion does not benefit.",
+    "Animate Dead": "Action outside combat. Target a Small or Medium corpse within 10 ft and choose Skeleton or Zombie. Casting Animate Dead again dismisses the previous summon. Recharges on Long Rest.",
+    "Base value": "240 gp in BG3. Merchant prices vary.",
+    "Reported summon behavior": "The pinned item source reports that selecting Zombie summons a decaying Newborn Zombie."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Expanded the card from the pinned item and linked gameplay evidence. Expanded the card from the pinned item and linked gameplay evidence."
+}

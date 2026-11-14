@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:6172",
+  "title": "Scroll of Thunderwave",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Thunderwave",
+      "revision": 422926,
+      "markers": [
+        "LOOT_SCROLL_Thunderwave"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Thunderwave",
+      "revision": 424220,
+      "markers": [
+        "Zone_Thunderwave"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Creatures in the 17 ft cube take 2d8 Thunder and are pushed 10 ft on a failed Constitution save.",
+  "fields": {
+    "Cast": "Level 1. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Creatures in the 17 ft cube take 2d8 Thunder and are pushed 10 ft on a failed Constitution save. Success halves damage and prevents the push.",
+    "Range": "5 ft.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

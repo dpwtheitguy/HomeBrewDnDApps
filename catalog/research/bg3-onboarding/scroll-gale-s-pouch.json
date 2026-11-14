@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:47130",
+  "title": "Scroll (Gale's Pouch)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422729,
+      "title": "Scroll (Gale's Pouch)",
+      "markers": [
+        "S_ORI_Gale_DeathNote"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 419715,
+      "title": "In Case of Death...",
+      "markers": [
+        "Scroll"
+      ]
+    }
+  ],
+  "summary": "Instructions for Gale’s resurrection quest.",
+  "fields": {
+    "Use": "Read the scroll from Gale’s pouch during In Case of Death… to learn the steps for his resurrection ritual. It is an instruction sheet rather than the spell scroll itself.",
+    "Base value": "14 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence.",
+  "use_wiki_title": true
+}

@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:6177",
+  "title": "Scroll of Ray of Frost",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Ray of Frost",
+      "revision": 422902,
+      "markers": [
+        "LOOT_SCROLL_RayOfFrost"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Ray of Frost",
+      "revision": 422178,
+      "markers": [
+        "Projectile_RayOfFrost"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Ranged spell attack for 2d8 Cold as listed by this scroll.",
+  "fields": {
+    "Cast": "Cantrip. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Ranged spell attack for 2d8 Cold as listed by this scroll. Reduces movement by 10 ft for 1 turn and can freeze water surfaces.",
+    "Range": "60 ft.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

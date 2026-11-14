@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:8033",
+  "title": "Bonespike Garb",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416654,
+      "title": "Bonespike Garb",
+      "markers": [
+        "MAG_BarbMonk_Cloth_B_1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433146,
+      "title": "Slabjaw Determination",
+      "markers": [
+        "| description = You gain {{Temp hp|15}} whenever you {{SAI|Rage}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432525,
+      "title": "Exoskeletal Endurance",
+      "markers": [
+        "| description = Reduce all incoming damage by '''2'''. When the wearer is struck by a melee attack, the attacker takes {{DamageText|[[Constitution|Constitution modifier]]|Piercing}} damage."
+      ]
+    }
+  ],
+  "summary": "Gain 15 temporary HP when you Rage. Reduce incoming damage by 2. When hit by a melee attack, the attacker takes Piercing damage equal to your Constitution modifier.",
+  "fields": {
+    "Effect": "Gain 15 temporary HP when you Rage. Reduce incoming damage by 2. When hit by a melee attack, the attacker takes Piercing damage equal to your Constitution modifier.",
+    "Equipment type": "Clothing",
+    "Base AC": "10",
+    "Base value": "1600 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

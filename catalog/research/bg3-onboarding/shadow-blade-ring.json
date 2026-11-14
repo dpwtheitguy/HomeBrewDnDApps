@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:11423",
+  "title": "Shadow Blade Ring",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423045,
+      "title": "Shadow Blade Ring",
+      "markers": [
+        "MAG_Shadow_ShadowBlade_Ring"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423042,
+      "title": "Shadow Blade",
+      "markers": [
+        "Until long rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439665,
+      "title": "Find Arabella's Parents",
+      "markers": [
+        "Shadow Blade Ring"
+      ]
+    }
+  ],
+  "summary": "Summon a 2d8 Psychic Shadow Blade once per Short Rest.",
+  "fields": {
+    "Cast": "Level 2, Bonus Action on yourself. Creates a Finesse, Light melee shortsword dealing 2d8 Psychic plus Strength or Dexterity. No Concentration. Lasts until Long Rest.",
+    "Persistence": "Patch 8 allows another blade each Short Rest. It can remain when the ring is removed, can be passed to another character, and can coexist with a blade made with spell slots.",
+    "Acquisition": "Arabella’s reward for Find Arabella’s Parents.",
+    "Base value": "105 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

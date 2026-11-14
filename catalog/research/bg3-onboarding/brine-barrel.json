@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:39928",
+  "title": "Brine Barrel",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416770,
+      "title": "Brine Barrel",
+      "markers": [
+        "Creates area: Caustic Brine"
+      ]
+    }
+  ],
+  "summary": "Damage or throw the barrel to create a Caustic Brine surface.",
+  "fields": {
+    "Activation": "Damage the barrel or throw it as an Action.",
+    "Surface": "Creates a Caustic Brine surface in a 20 ft radius.",
+    "Base value": "5 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and pinned evidence, then refined its mechanics against item and linked rule notes."
+}

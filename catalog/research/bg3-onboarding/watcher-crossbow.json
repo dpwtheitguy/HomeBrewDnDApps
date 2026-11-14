@@ -1,0 +1,55 @@
+{
+  "item_id": "bg3-wiki:27383",
+  "title": "Watcher Crossbow",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424774,
+      "title": "Watcher Crossbow",
+      "markers": [
+        "WPN_WATCHER_Crossbow"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 421804,
+      "title": "Piercing Shot",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443536,
+      "title": "Gaping Wounds",
+      "markers": [
+        "Honour"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439120,
+      "title": "Brace (Ranged)",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Crossbow Expert: Wounding",
+      "revision": 438303,
+      "markers": [
+        "4 rounds"
+      ]
+    }
+  ],
+  "summary": "Steel Watcher-only heavy crossbow hits for 3d10 Piercing.",
+  "fields": {
+    "Weapon profile": "3d10 Piercing plus Dexterity. Martial, two-handed ranged weapon, 60 ft. Steel Watchers only.",
+    "Piercing Shot": "Action, ranged weapon damage. Constitution save against weapon-action DC +2 or Gaping Wounds for 2 turns. Undead and Constructs are immune. In standard modes hits on the target gain 2 extra Piercing damage. In Honour Mode it takes 2 extra damage of the original type from damage sources. Healing clears the condition. Once per Short Rest with proficiency. The standard action can extend Gaping Wounds to 4 turns with Crossbow Expert: Wounding. This crossbow is restricted to Steel Watchers.",
+    "Brace": "Spend 20 ft movement once per Short Rest. Reroll ranged damage and take the higher result until turn end. Breaks Hiding and Invisibility.",
+    "Acquisition": "Carried by Steel Watchers.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

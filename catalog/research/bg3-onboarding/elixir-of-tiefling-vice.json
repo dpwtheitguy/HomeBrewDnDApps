@@ -1,0 +1,58 @@
+{
+  "item_id": "bg3-wiki:15244",
+  "title": "Elixir of Tiefling Vice",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418166,
+      "title": "Elixir of Tiefling Vice",
+      "markers": [
+        "CONS_Elixir_Blood_Tiefling"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 375499,
+      "title": "Thaumaturgy",
+      "markers": [
+        "| uid = Shout_Thaumaturgy"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 425399,
+      "title": "Hellish Rebuke",
+      "markers": [
+        "| uid = Target_HellishRebuke"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 416839,
+      "title": "Burning Hands",
+      "markers": [
+        "| description = Each flammable target is hit with {{DamageText|3d6|Fire}} damage."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 428188,
+      "title": "Flame Blade",
+      "markers": [
+        "| uid = Shout_FlameBlade"
+      ]
+    }
+  ],
+  "summary": "Until Long Rest, gain one use each of Thaumaturgy, Hellish Rebuke, Burning Hands and Flame Blade.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle. Until Long Rest, gain one use each of Thaumaturgy, Hellish Rebuke, Burning Hands and Flame Blade.",
+    "Acquisition": "Trade tiefling blood to Araj Oblodra in Moonrise Towers or the Lower City.",
+    "Stacking": "Araj’s elixirs stack with ordinary elixirs and other Araj elixirs.",
+    "Thaumaturgy": "Action on yourself. Gain advantage on Intimidation and Performance checks for 10 turns.",
+    "Hellish Rebuke": "Reaction when attacked. Deal 2d10 Fire, Dexterity save for half.",
+    "Burning Hands": "Action. Deal 3d6 Fire in an approximately 16 ft cone, Dexterity save for half.",
+    "Flame Blade": "Bonus Action. Conjure a scimitar for 10 turns that deals 3d6 Fire and sheds light.",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

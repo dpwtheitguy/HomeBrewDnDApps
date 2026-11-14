@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:6894",
+  "title": "Wondrous Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Wondrous Gloves",
+      "revision": 424969,
+      "markers": [
+        "MAG_BG_Wondrous_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Troubadour's Wonder",
+      "revision": 439609,
+      "markers": [
+        "per character"
+      ]
+    }
+  ],
+  "summary": "Gain +1 AC and an extra Bardic Inspiration charge if you already have the feature.",
+  "fields": {
+    "Troubadour’s Wonder": "+1 AC to any wearer. An existing Bardic Inspiration user gets one extra charge, reported once per character per Long Rest. Equipping may show an icon for characters without Bardic Inspiration, but does not grant the feature.",
+    "Unequipping": "An ally wearing the gloves can lose an extra Bardic Inspiration use when removing them. If that ally already spent one of two uses, the remaining use can also be lost.",
+    "Acquisition": "Loot a Mimic near the Grymforge Harper cache (−691, 374).",
+    "Base value": "160 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

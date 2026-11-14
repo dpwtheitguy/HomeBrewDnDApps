@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:12870",
+  "title": "Ochre Jelly Slime",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421434,
+      "title": "Ochre Jelly Slime",
+      "markers": [
+        "ALCH_Ingredient_Part_OchreJellySlime"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442323,
+      "title": "Burning",
+      "markers": [
+        "1d4"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423756,
+      "title": "Suspension of Ochre Jelly",
+      "markers": [
+        "Sublimate"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 422858,
+      "title": "Elixir of Guileful Movement",
+      "markers": [
+        "Suspension of Ochre Jelly"
+      ]
+    }
+  ],
+  "summary": "Throw for a small Fire burst and Burning, or use in alchemy.",
+  "fields": {
+    "Throw": "Action, up to 60 ft. Impact explodes in a 3 ft radius for 1d4 + 2 Fire and applies Burning for 5 turns. The item does not specify a save.",
+    "Burning": "1d4 Fire each turn. Help, healing potion, or becoming Wet can remove it.",
+    "Crafting": "Extract 3 slime to create Suspension of Ochre Jelly. Mix with any Sublimate to craft Elixir of Guileful Movement.",
+    "Acquisition": "Loot Ochre Jellies or check later-game merchants.",
+    "Base value": "11 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

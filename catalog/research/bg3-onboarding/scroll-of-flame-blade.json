@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:6344",
+  "title": "Scroll of Flame Blade",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Flame Blade",
+      "revision": 422793,
+      "markers": [
+        "LOOT_SCROLL_FlameBlade"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Flame Blade",
+      "revision": 428188,
+      "markers": [
+        "Shout_FlameBlade"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Conjure a blade for 10 turns without Concentration.",
+  "fields": {
+    "Cast": "Level 2. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Conjure a blade for 10 turns without Concentration. Use it to make a melee spell attack dealing 3d6 Fire without adding an ability modifier to damage.",
+    "Range": "Self.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

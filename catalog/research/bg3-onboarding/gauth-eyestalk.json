@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:14526",
+  "title": "Gauth Eyestalk",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418821,
+      "title": "Gauth Eyestalk",
+      "markers": [
+        "| uid = ALCH_Ingredient_Loot_GauthEye"
+      ]
+    },
+    {
+      "role": "Rules: Suspension of Gauth Eye",
+      "revision": 423751,
+      "title": "Suspension of Gauth Eye",
+      "markers": [
+        "| description = '''Suspension of Gauth Eye''' is an [[Alchemy|Alchemical Extraction]] . It can be combined with any [[Alchemy#Extractions|Sublimate]] to create {{SmRarityItem|Elixir of Battlemage's Power}}."
+      ]
+    },
+    {
+      "role": "Rules: Elixir of Battlemage's Power",
+      "revision": 418132,
+      "title": "Elixir of Battlemage's Power",
+      "markers": [
+        "| description = '''Elixir of Battlemage's Power''' is a rare [[elixir]] that increases the potency of spells by granting 3 stacks of {{Cond|Arcane Acuity}} which persist until the next long rest."
+      ]
+    }
+  ],
+  "summary": "Combine three Gauth Eyestalks into Suspension of Gauth Eye, then combine the suspension with any Sublimate to brew Elixir of Battlemage’s Power.",
+  "fields": {
+    "Use": "Combine three Gauth Eyestalks into Suspension of Gauth Eye, then combine the suspension with any Sublimate to brew Elixir of Battlemage’s Power.",
+    "Base value": "17 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

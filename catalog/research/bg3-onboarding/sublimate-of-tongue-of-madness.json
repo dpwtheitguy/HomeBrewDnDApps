@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:14845",
+  "title": "Sublimate of Tongue of Madness",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Sublimate of Tongue of Madness",
+      "revision": 423685,
+      "markers": [
+        "ALCH_Extract_TongueOfMadness"
+      ]
+    },
+    {
+      "role": "Rules: Tadpole Elixir",
+      "title": "Tadpole Elixir",
+      "revision": 423830,
+      "markers": [
+        "Sublimate of Tongue of Madness"
+      ]
+    }
+  ],
+  "summary": "Alchemical extract used for Tadpole Elixir.",
+  "fields": {
+    "Extract": "Combine 3 Tongues of Madness to make one Sublimate of Tongue of Madness.",
+    "Brew": "Combine this extract with any Essence to make Tadpole Elixir.",
+    "Base value": "30 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:10387",
+  "title": "Killer's Sweetheart",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420126,
+      "title": "Killer's Sweetheart",
+      "markers": [
+        "| uid = MAG_Critical_CriticalExecution_Ring"
+      ]
+    },
+    {
+      "role": "Rules: Executioner",
+      "revision": 432524,
+      "title": "Executioner",
+      "markers": [
+        "| summary = '''Executioner''' is a passive feature that lets the wearer critical hit the next target after getting a kill."
+      ]
+    },
+    {
+      "role": "Rules: Executioner (condition)",
+      "revision": 435344,
+      "title": "Executioner (condition)",
+      "markers": [
+        "{{condition page"
+      ]
+    }
+  ],
+  "summary": "After killing a creature, turn an eligible weapon attack into a critical hit once per Long Rest.",
+  "fields": {
+    "Executioner": "Set to Ask in Reactions to save it for a later attack. It does not spend a Reaction. A single area weapon attack can apply the critical to every target it hits.",
+    "Reported behavior": "This only works for weapon attacks. It can also offer to make the target’s secondary saving throw a natural 20. Decline that prompt. Automatic can spend the charge on a natural 20 you already rolled.",
+    "Base value": "140 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

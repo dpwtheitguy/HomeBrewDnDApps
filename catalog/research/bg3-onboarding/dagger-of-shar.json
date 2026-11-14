@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:9549",
+  "title": "Dagger of Shar",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 428707,
+      "title": "Dagger of Shar",
+      "markers": [
+        "| uid = DEN_Apprentice_DaggerOfShar"
+      ]
+    },
+    {
+      "role": "Rules: Grip of Shadows",
+      "revision": 432618,
+      "title": "Grip of Shadows",
+      "markers": [
+        "| summary = '''Grip of Shadows''' is a passive feature that adds Necrotic damage to targets that are not standing in sunlight."
+      ]
+    }
+  ],
+  "summary": "A dagger dealing 1d4 Piercing. Grip of Shadows adds 1d6 Necrotic against targets outside sunlight.",
+  "fields": {
+    "Use": "A dagger dealing 1d4 Piercing. Grip of Shadows adds 1d6 Necrotic against targets outside sunlight.",
+    "Base value": "270 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

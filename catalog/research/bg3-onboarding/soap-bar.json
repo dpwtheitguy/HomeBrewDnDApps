@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:24677",
+  "title": "Soap Bar",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423357,
+      "title": "Soap Bar",
+      "markers": [
+        "LOOT_Bathroom_Soap_A"
+      ]
+    }
+  ],
+  "summary": "Clean up and remove Stench without using an action.",
+  "fields": {
+    "Use": "Remove dirt, blood, face paint and the Stench condition. No action cost.",
+    "Acquisition": "Found in Elminster’s Library, Goblin Camp and Waukeen’s Rest.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

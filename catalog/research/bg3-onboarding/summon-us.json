@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:15930",
+  "title": "Summon Us",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Summon Us",
+      "revision": 423708,
+      "markers": [
+        "UNI_COL_Us_Summon_Brain"
+      ]
+    },
+    {
+      "role": "Rules: Conjure Us",
+      "title": "Conjure Us",
+      "revision": 316990,
+      "markers": [
+        "| description = Conjure [[Us]] to fight by your side."
+      ]
+    }
+  ],
+  "summary": "Summon Us as a combat follower once per Short Rest.",
+  "fields": {
+    "Conjure Us": "Action, 60 ft, Short Rest recharge. Summons Us as an attached follower.",
+    "Acquisition": "Free Us in the Mind Flayer Colony morgue after freeing it in the prologue.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:50391",
+  "title": "Baldur's Mouth Basement Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430477,
+      "title": "Baldur's Mouth Basement Key",
+      "markers": [
+        "S_LOW_BaldursMouth_BasementKey_001"
+      ]
+    },
+    {
+      "role": "Linked lock or location",
+      "revision": 438728,
+      "title": "Baldur's Mouth",
+      "markers": [
+        "A locked metal door leading down a flight of stairs"
+      ]
+    },
+    {
+      "role": "Linked lock or location",
+      "revision": 430650,
+      "title": "Ink-Spattered Key",
+      "markers": [
+        "71034255-45e1-470a-aafe-2d3c53d6c20a"
+      ]
+    }
+  ],
+  "summary": "Unlocks the metal stairwell door from the Baldur’s Mouth newsroom to the basement.",
+  "fields": {
+    "Use": "Unlocks the metal stairwell door from the Baldur’s Mouth newsroom to the basement.",
+    "Acquisition or alternate access": "Carried by Ettvard Needle. The office chest holds the matching Ink-Spattered Key."
+  },
+  "changes": "Added the native key interaction and source locators."
+}

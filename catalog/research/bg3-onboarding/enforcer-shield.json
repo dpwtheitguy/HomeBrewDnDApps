@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:30117",
+  "title": "Enforcer Shield",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418226,
+      "title": "Enforcer Shield",
+      "markers": [
+        "MAG_Enforcer_NonLethalBlessing_Shield"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433282,
+      "title": "Staunch Blessing",
+      "markers": [
+        "| uid = MAG_Enforcer_NonLethalBlessing_Shield_Passive"
+      ]
+    }
+  ],
+  "summary": "An unobtainable shield that can boost a nonlethal attack after a miss against you.",
+  "fields": {
+    "Armour Class": "+2 AC while equipped with Shield proficiency.",
+    "Staunch Blessing": "When a creature misses you, add 1d4 to your next attack roll that deals nonlethal damage. Dealing lethal damage removes the bonus.",
+    "Availability": "Unobtainable in normal play. Dammon’s recorded stock quantity is zero.",
+    "Base value": "70 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

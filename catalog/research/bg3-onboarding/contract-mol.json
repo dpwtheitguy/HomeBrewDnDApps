@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:15091",
+  "title": "Contract: Mol",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417277,
+      "title": "Contract: Mol",
+      "markers": [
+        "S_LOW_HouseOfHope_MolContract"
+      ]
+    }
+  ],
+  "summary": "Take Mol’s contract from the House of Hope and show it to her in the Guildhall.",
+  "fields": {
+    "Access": "Pass DC 10 Wisdom on the Inert Infernal Gem, then DC 20 Arcana on the Infernal Control Gem. Each party member normally has one attempt at each check.",
+    "Use": "Show the contract to Mol in the Guildhall. The item’s Use command itself has no effect.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence."
+}

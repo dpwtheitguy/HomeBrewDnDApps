@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:16464",
+  "title": "Scroll of Telekinesis",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Telekinesis",
+      "revision": 422925,
+      "markers": [
+        "LOOT_SCROLL_Telekinesis"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Telekinesis",
+      "revision": 429183,
+      "markers": [
+        "Throw_Telekinesis, Throw_Telekinesis_Recast"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Move a creature or object up to 60 ft.",
+  "fields": {
+    "Cast": "Level 5. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Move a creature or object up to 60 ft. A creature can resist with a Strength save. If the initial target saves, the spell cannot be recast. Otherwise you can recast once per turn for up to 10 turns while concentrating. A successful save on a later recast only prevents that move.",
+    "Range": "60 ft.",
+    "Concentration": "Maintain Concentration for the ongoing effect.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "400 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

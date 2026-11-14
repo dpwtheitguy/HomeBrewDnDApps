@@ -1,0 +1,64 @@
+{
+  "item_id": "bg3-wiki:3950",
+  "title": "Whispering Mask",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Whispering Mask",
+      "revision": 424843,
+      "markers": [
+        "DEC_HAG_Mask_A"
+      ]
+    },
+    {
+      "role": "Rules: Part of the Flock",
+      "title": "Part of the Flock",
+      "revision": 432946,
+      "markers": [
+        "condition dc = 13"
+      ]
+    },
+    {
+      "role": "Rules: Ephemeral Whispers",
+      "title": "Ephemeral Whispers",
+      "revision": 442814,
+      "markers": [
+        "start of their turn"
+      ]
+    },
+    {
+      "role": "Rules: Hag's Pawn",
+      "title": "Hag's Pawn",
+      "revision": 443621,
+      "markers": [
+        "dc=19"
+      ]
+    },
+    {
+      "role": "Rules: Overgrown Tunnel",
+      "title": "Overgrown Tunnel",
+      "revision": 440902,
+      "markers": [
+        "vent starts emitting again"
+      ]
+    },
+    {
+      "role": "Rules: Protection from Evil and Good",
+      "title": "Protection from Evil and Good",
+      "revision": 444607,
+      "markers": [
+        "Part of the Flock"
+      ]
+    }
+  ],
+  "summary": "Ethel’s mask reveals illusions but can turn the wearer against the party.",
+  "fields": {
+    "Part of the Flock": "While Ethel lives, at turn start make a DC 13 Wisdom save or become Hag’s Pawn. Ethel controls the wearer and can turn them against the party. DC 19 Wisdom can suppress established control each turn. If the whole party becomes controlled, the game ends. Removing a mask from an unconscious hag victim kills them while Ethel is alive.",
+    "Protection": "Cast Protection from Evil and Good before equipping. The saving throw continues but failing it cannot make the protected wearer a pawn. Protected wearers can pass mask thralls and temporarily suppress nearby illusion vents.",
+    "After Ethel": "The mask can safely be worn after she dies. It is used for an illusory door to the Underdark Mushroom Circle even after her death, as reported in the location source.",
+    "Paladin": "In the tunnel, the Paladin dialogue requires a DC 15 Charisma check to resist. Success grants Voice of Reason. Succumbing breaks the listed Devotion, Ancients and Vengeance oaths.",
+    "Acquisition": "Four on a table before the Gnarled Door or worn by hag thralls.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

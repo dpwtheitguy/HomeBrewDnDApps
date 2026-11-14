@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:26779",
+  "title": "Salts of Cloud Giant Fingernails",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422607,
+      "title": "Salts of Cloud Giant Fingernails",
+      "markers": [
+        "ALCH_Extract_CloudGiantFinger"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438918,
+      "title": "Elixir of Cloud Giant Strength",
+      "markers": [
+        "| description ="
+      ]
+    }
+  ],
+  "summary": "Alchemy extract used to make Elixir of Cloud Giant Strength.",
+  "fields": {
+    "Extraction": "Combine 3 Cloud Giant Fingers.",
+    "Recipe": "Combine these salts with any Suspension to make Elixir of Cloud Giant Strength.",
+    "Result": "Sets Strength to 27 until Long Rest.",
+    "Base value": "145 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

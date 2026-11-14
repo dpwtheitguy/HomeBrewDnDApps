@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:9181",
+  "title": "Blade of Oppressed Souls",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416524,
+      "title": "Blade of Oppressed Souls",
+      "markers": [
+        "| uid = MAG_Illithid_MindOverload_Weapon_Longsword"
+      ]
+    },
+    {
+      "role": "Rules: Crowning Strike",
+      "revision": 379445,
+      "title": "Crowning Strike",
+      "markers": [
+        "| description = Unleash the wails of the dead that fell to your blade, and possibly instil {{SmCond|Crown of Madness}} in the target."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 434957,
+      "title": "Crown of Madness (condition)",
+      "markers": [
+        "*Instilled with magical madness. Will attack the nearest creature, other than the spellcaster."
+      ]
+    }
+  ],
+  "summary": "A +1 longsword that grants Crowning Strike.",
+  "fields": {
+    "Crowning Strike": "Action once per Short Rest. Attack a non-Undead Humanoid in melee for normal weapon damage. Intelligence save against weapon action DC +2 or Crown of Madness for 3 turns.",
+    "Base value": "250 gp in BG3. Merchant prices vary.",
+    "Crown of Madness": "The affected target attacks the nearest creature other than the caster."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

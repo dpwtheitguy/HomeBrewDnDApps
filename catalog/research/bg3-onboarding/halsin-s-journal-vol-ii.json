@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:12634",
+  "title": "Halsin's Journal, Vol II",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419278,
+      "title": "Halsin's Journal, Vol II",
+      "markers": [
+        "| uid = S_GLO_HalsinDiary"
+      ]
+    },
+    {
+      "role": "Rules: Find the Nightsong",
+      "revision": 440230,
+      "title": "Find the Nightsong",
+      "markers": [
+        "| description = Find the Nightsong is a quest in Act One, Act Two, and Act Three. It can be initiated by speaking with Aradin about the reason for his expedition into goblin territory, or coming across the corpses of the failed expedition."
+      ]
+    }
+  ],
+  "summary": "Read Halsin’s account for the Find the Nightsong quest. He records the investigation of Moonrise Towers and an approach from the Underdark.",
+  "fields": {
+    "Acquisition": "If Halsin and Minthara are both killed, loot it from whichever dies second. During Minthara’s goblin camp celebration it moves to her inventory, where it can also remain if she is recruited in Act Two.",
+    "Base value": "14 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

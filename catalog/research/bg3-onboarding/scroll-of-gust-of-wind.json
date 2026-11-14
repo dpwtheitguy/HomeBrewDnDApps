@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:16416",
+  "title": "Scroll of Gust of Wind",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Gust of Wind",
+      "revision": 422805,
+      "markers": [
+        "LOOT_SCROLL_GustOfWind"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Gust of Wind",
+      "revision": 419231,
+      "markers": [
+        "Zone_GustOfWind"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Clear clouds in a 40 ft line.",
+  "fields": {
+    "Cast": "Level 2. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Clear clouds in a 40 ft line. Creatures failing a Strength save are pushed 17 ft and can become Off Balance for 1 turn.",
+    "Range": "Self.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

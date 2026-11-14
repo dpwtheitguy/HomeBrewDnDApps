@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:11380",
+  "title": "Djinni Ring",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417857,
+      "title": "Djinni Ring",
+      "markers": [
+        "| uid = UNI_WYR_Circus_WheelRing"
+      ]
+    },
+    {
+      "role": "Rules: Mage Hand",
+      "revision": 414581,
+      "title": "Mage Hand",
+      "markers": [
+        "| summary = It conjures a spectral hand that can interact with objects."
+      ]
+    }
+  ],
+  "summary": "Cast Mage Hand as an Action once per Short Rest within 60 ft. The spectral hand manipulates objects for 10 turns.",
+  "fields": {
+    "Ring variant": "Does not gain Mage Hand Legerdemain or the Hr’a’cknir Bracers’ bonus-action interaction. Can coexist with a separate class version.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

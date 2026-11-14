@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:3624",
+  "title": "Fetish of Callarduran Smoothhands",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438780,
+      "title": "Fetish of Callarduran Smoothhands",
+      "markers": [
+        "| uid = S_UND_CallarduranTrinket"
+      ]
+    },
+    {
+      "role": "Rules: Invisibility (spell)",
+      "revision": 438101,
+      "title": "Invisibility (spell)",
+      "markers": [
+        "| summary = It allows spellcasters to turn themselves and other creatures {{SmCond|Invisible}} to the naked eye."
+      ]
+    }
+  ],
+  "summary": "Cast Invisibility as an Action once per Long Rest by touching a creature.",
+  "fields": {
+    "Invisibility": "Concentration up to 10 turns. The creature gains advantage on attacks, and attacks against it have disadvantage. Attacking, casting spells, taking actions, taking damage, or certain interactions can end it early.",
+    "Base value": "70 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

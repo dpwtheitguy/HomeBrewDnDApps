@@ -1,0 +1,20 @@
+{
+  "item_id": "bg3-wiki:48035",
+  "title": "Abandoned House Chest Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430421,
+      "title": "Abandoned House Chest Key",
+      "markers": [
+        "WYR_AbandonedHome_ChestKey"
+      ]
+    }
+  ],
+  "summary": "Opens the locked chest in the Abandoned House. Find it near the fireplace with a DC 15 Perception check.",
+  "fields": {
+    "Use": "Opens the locked chest in the Abandoned House. Find it near the fireplace with a DC 15 Perception check.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 mechanics and pinned item and related rule sources."
+}

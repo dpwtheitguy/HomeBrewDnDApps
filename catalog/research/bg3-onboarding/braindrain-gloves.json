@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:10738",
+  "title": "Braindrain Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437857,
+      "title": "Braindrain Gloves",
+      "markers": [
+        "MAG_Psychic_MentalFatigue_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432843,
+      "title": "Mental Interference",
+      "markers": [
+        "| description = When you deal {{DamageType|Psychic}} damage, you also inflict {{Cond|Mental Fatigue}} for 2 turns."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444003,
+      "title": "Mental Fatigue",
+      "markers": [
+        "| effects ="
+      ]
+    }
+  ],
+  "summary": "Deal Psychic damage to give the target Mental Fatigue for 2 turns. Mental Fatigue penalizes Intelligence, Wisdom and Charisma saves by 1 per turn remaining. Failing such a save at 5+ turns deals 1d4 Psychic and removes the condition.",
+  "fields": {
+    "Effect": "Deal Psychic damage to give the target Mental Fatigue for 2 turns. Mental Fatigue penalizes Intelligence, Wisdom and Charisma saves by 1 per turn remaining. Failing such a save at 5+ turns deals 1d4 Psychic and removes the condition.",
+    "Equipment type": "Gloves",
+    "Base value": "90 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

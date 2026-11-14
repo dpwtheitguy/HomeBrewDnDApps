@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:14028",
+  "title": "Staff of Interruption",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Staff of Interruption",
+      "revision": 423536,
+      "markers": [
+        "MAG_LC_Counterspell_Quarterstaff"
+      ]
+    },
+    {
+      "role": "Rules: Counterspell",
+      "title": "Counterspell",
+      "revision": 425369,
+      "markers": [
+        "| description = Try to stop a spell being cast."
+      ]
+    },
+    {
+      "role": "Rules: Topple",
+      "title": "Topple",
+      "revision": 377988,
+      "markers": [
+        "Non-lethal"
+      ]
+    },
+    {
+      "role": "Rules: Prone (condition)",
+      "title": "Prone (condition)",
+      "revision": 436524,
+      "markers": [
+        "One turn duration"
+      ]
+    }
+  ],
+  "summary": "+2 staff grants level 5 Counterspell.",
+  "fields": {
+    "Weapon profile": "Simple, Versatile, 5 ft melee, Dippable. 1d6 + 2 one-handed or 1d8 + 2 two-handed Bludgeoning plus Strength. +2 to attack rolls.",
+    "Counterspell": "Reaction once per Long Rest. Automatically interrupts spells of level 5 or lower. Higher-level spells require a check against DC 10 + spell level. The tooltip describes the caster’s spellcasting ability, but pinned game-script notes report it uses Intelligence. The spell source specifies a Reaction despite the item template’s Action label. Can counter cantrips but cannot itself be countered.",
+    "Acquisition": "Mayrina rewards Help the Hag Survivors. Adrielle can provide it when Mayrina is captive.",
+    "Base value": "190 gp nominal BG3 value.",
+    "Topple": "With proficiency, once per Short Rest. Action, weapon attack for 1d4 nonlethal Bludgeoning. DEX save against weapon-action DC +2 or Prone for 1 turn. Prone breaks Concentration and expires at the start of the target’s turn. Topple skips main-hand weapon effects."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

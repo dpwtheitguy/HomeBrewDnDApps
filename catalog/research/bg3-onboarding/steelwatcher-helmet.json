@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:12229",
+  "title": "Steelwatcher Helmet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Steelwatcher Helmet",
+      "revision": 438132,
+      "markers": [
+        "MAG_Helmet_Watcher_A"
+      ]
+    },
+    {
+      "role": "Rules: Artificial Sight",
+      "title": "Artificial Sight",
+      "revision": 432082,
+      "markers": [
+        "| description = The wearer can see in the dark up to {{Dist|m=12|ft=40}} and cannot be {{Cond|Blinded}}."
+      ]
+    }
+  ],
+  "summary": "Medium Armour headwear grants Darkvision and prevents Blindness.",
+  "fields": {
+    "Artificial Sight": "Darkvision 40 ft, immunity to Blinded.",
+    "Defence": "Requires Medium Armour proficiency. Advantage on Constitution saves.",
+    "Acquisition": "Steel Watch Foundry ground floor, near east entrance.",
+    "Base value": "300 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations.",
+  "use_wiki_title": true
+}

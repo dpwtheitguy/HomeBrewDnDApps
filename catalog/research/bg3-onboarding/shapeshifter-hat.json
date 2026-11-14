@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:10750",
+  "title": "Shapeshifter Hat",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423087,
+      "title": "Shapeshifter Hat",
+      "markers": [
+        "MAG_Druid_Wildshape_Hat"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432911,
+      "title": "Nature's Embrace",
+      "markers": [
+        "per character"
+      ]
+    }
+  ],
+  "summary": "Grants one additional Wild Shape charge and +1 Nature.",
+  "fields": {
+    "Nature’s Embrace": "Gain one Wild Shape charge, replenished on Long Rest. The source reports the extra charge can be granted per character per Long Rest.",
+    "Skill checks": "+1 Nature.",
+    "Acquisition": "Helsik’s special stock.",
+    "Base value": "70 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

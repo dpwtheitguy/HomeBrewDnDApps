@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:6890",
+  "title": "Butterflies in the Stomach",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416858,
+      "title": "Butterflies in the Stomach",
+      "markers": [
+        "CONS_Hag_Stillborn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443617,
+      "title": "Haemorrhaged",
+      "markers": [
+        "| effects ="
+      ]
+    }
+  ],
+  "summary": "Drink as a Bonus Action to become Haemorrhaged for 5 turns, taking 1d6 Piercing at the end of each turn.",
+  "fields": {
+    "Effect": "Drink as a Bonus Action to become Haemorrhaged for 5 turns. Take 1d6 Piercing damage at the end of each turn.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Completed the item-specific action, timing, save, or effect against pinned evidence."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:47978",
+  "title": "Omotola's Chest Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430595,
+      "title": "Omotola's Chest Key",
+      "markers": [
+        "LOW_JewleryShop_Key03"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 424019,
+      "title": "The Glitter Gala",
+      "markers": [
+        "Its copy lies on the top of the display case"
+      ]
+    }
+  ],
+  "summary": "Unlocks the chest behind Omotola’s counter in the Glitter Gala.",
+  "fields": {
+    "Lock": "The locked chest behind the counter. The item page calls it a Gilded Chest; the location calls it opulent.",
+    "Acquisition": "DC 15 Perception reveals a copy near the plant at X −176, Y −66. Another copy is behind the counter. Sources disagree on the exact placement of that copy.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

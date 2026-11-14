@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:4409",
+  "title": "Sussur Tree Bark",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Sussur Tree Bark",
+      "revision": 440502,
+      "markers": [
+        "Quest_FOR_SussurBark"
+      ]
+    },
+    {
+      "role": "Rules: Finish the Masterwork Weapon",
+      "title": "Finish the Masterwork Weapon",
+      "revision": 440507,
+      "markers": [
+        "Sussur Tree Bark"
+      ]
+    }
+  ],
+  "summary": "Quest material for forging one Sussur weapon.",
+  "fields": {
+    "Forge": "Use the bark at the Blacksmith’s Forge with a normal dagger, sickle or greatsword. Only one is made. Completing the weapon awards The Finest Ingredients to Guild Artisans.",
+    "Acquisition": "Large Sussur Tree in Dread Hollow at (−14, −138).",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

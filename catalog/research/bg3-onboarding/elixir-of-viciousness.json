@@ -1,0 +1,42 @@
+{
+  "item_id": "bg3-wiki:10778",
+  "title": "Elixir of Viciousness",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418168,
+      "title": "Elixir of Viciousness",
+      "markers": [
+        "ALCH_Solution_Elixir_Criticals",
+        "price = 50",
+        "* The number you need to roll to land a [[Critical Hit]] is reduced by 1."
+      ]
+    },
+    {
+      "role": "Shared elixir rules",
+      "revision": 425971,
+      "title": "Elixirs",
+      "markers": [
+        "Only one elixir can be applied at a time",
+        "extra hit points"
+      ]
+    },
+    {
+      "role": "Applied condition",
+      "revision": 435278,
+      "title": "Elixir of Viciousness (condition)",
+      "markers": [
+        "ALCH_ELIXIR"
+      ]
+    }
+  ],
+  "summary": "Drink as a Bonus Action. Reduce the roll required for a critical hit by 1, stacking with other threshold reductions until the next Long Rest.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle. Reduce the roll required for a critical hit by 1, stacking with other threshold reductions until the next Long Rest.",
+    "Stacking": "Replaces another elixir effect. Drinking a different elixir can end this effect early.",
+    "Creative use": "Drink before a fight where this effect will matter.",
+    "Crafting": "Combine Vitriol of Shadowroot Sac with any Ashes.",
+    "Base value": "50 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 activation, effects and linked rules."
+}

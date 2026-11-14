@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:9530",
+  "title": "Mergrass",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420917,
+      "title": "Mergrass",
+      "markers": [
+        "CONS_Herbs_Mergrass_Bundle_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423753,
+      "title": "Suspension of Mergrass",
+      "markers": [
+        "Crafted by combining 3"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 421947,
+      "title": "Potion of Mind Reading",
+      "markers": [
+        "| condition duration = Long Rest"
+      ]
+    }
+  ],
+  "summary": "Extract three Mergrass into Suspension of Mergrass, a Potion of Mind Reading ingredient.",
+  "fields": {
+    "Alchemy": "Combine three Mergrass to extract one Suspension of Mergrass, then combine the suspension with any Sublimate to create Potion of Mind Reading.",
+    "Potion effect": "The finished potion is a Bonus Action consumable. It grants Detect Thoughts until Long Rest.",
+    "Acquisition": "Sold by Derryth Bonecloak in the Myconid Colony.",
+    "Base value": "5 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

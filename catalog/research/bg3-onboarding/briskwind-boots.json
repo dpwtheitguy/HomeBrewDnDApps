@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:30942",
+  "title": "Briskwind Boots",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416773,
+      "title": "Briskwind Boots",
+      "markers": [
+        "MAG_Critical_CriticalSwiftness_Boots"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432200,
+      "title": "Critical Swiftness",
+      "markers": [
+        "| description = After scoring a [[Critical Hit]] or killing a hostile creature, [[Movement speed|movement speed]] is restored to maximum."
+      ]
+    }
+  ],
+  "summary": "Landing a critical hit or killing a hostile creature restores movement speed to maximum.",
+  "fields": {
+    "Effect": "Landing a critical hit or killing a hostile creature restores movement speed to maximum.",
+    "Equipment type": "Boots",
+    "Availability": "Unobtainable in normal gameplay.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

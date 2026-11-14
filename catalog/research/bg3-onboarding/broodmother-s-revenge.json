@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:3451",
+  "title": "Broodmother's Revenge",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 431623,
+      "title": "Broodmother's Revenge",
+      "markers": [
+        "MAG_Healer_HealSelfPoisonWeapon_Amulet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433418,
+      "title": "Venomous Revenge",
+      "markers": [
+        "| description = Whenever the wearer is healed, their weapon becomes coated in magic and deals an additional {{DamageText|1d6|Poison}}  damage."
+      ]
+    }
+  ],
+  "summary": "When you are healed, your weapon gains a coating that deals an extra 1d6 Poison damage for 3 turns.",
+  "fields": {
+    "Effect": "Healing coats melee and ranged weapons for 3 turns, adding 1d6 Poison damage on hit. Thrown attacks do not apply the bonus.",
+    "Equipment type": "Amulets",
+    "Healing triggers": "Can trigger at full health or when revived from Downed. Continuous regeneration and some equipment healing trigger it, while many self-healing weapons and items do not.",
+    "Stacking": "Dipped in Fire and Venomous Revenge overwrite each other. A weapon with an existing coating blocks Venomous Revenge, and applying a coating replaces it.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and pinned evidence, then refined its mechanics against item and linked rule notes."
+}

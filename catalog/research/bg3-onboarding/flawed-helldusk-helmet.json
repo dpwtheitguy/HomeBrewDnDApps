@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:9403",
+  "title": "Flawed Helldusk Helmet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418597,
+      "title": "Flawed Helldusk Helmet",
+      "markers": [
+        "QUEST_HAV_InfernalReward_002"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432820,
+      "title": "Magical Durability (+2)",
+      "markers": [
+        "| description = The wielder has a +2 bonus to {{Saving Throw}}s against spells."
+      ]
+    }
+  ],
+  "summary": "Requires Medium Armour proficiency. Gain +1 Constitution saves and +2 to saving throws against spells.",
+  "fields": {
+    "Crafting": "Dammon crafts the helmet after receiving a second piece of Infernal Iron.",
+    "Base value": "300 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

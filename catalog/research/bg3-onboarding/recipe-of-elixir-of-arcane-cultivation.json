@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:32028",
+  "title": "Recipe of Elixir of Arcane Cultivation",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422208,
+      "title": "Recipe of Elixir of Arcane Cultivation",
+      "markers": [
+        "BOOK_Alchemy_ElixirArcaneCultivation"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 418129,
+      "title": "Elixir of Arcane Cultivation",
+      "markers": [
+        "[[Alchemy]]"
+      ]
+    }
+  ],
+  "summary": "Recipe for Elixir of Arcane Cultivation.",
+  "fields": {
+    "Formula": "Vitriol of Weavemoss and any Sublimate.",
+    "Result": "Grants one level 1 spell slot until Long Rest and replaces another elixir. The book uses Belladonna as its Sublimate example.",
+    "Acquisition": "Defiled Temple, X 386, Y 4, or Withers’ Epilogue room.",
+    "Base value": "14 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

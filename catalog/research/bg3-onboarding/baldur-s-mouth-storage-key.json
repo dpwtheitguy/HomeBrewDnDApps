@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:50390",
+  "title": "Baldur's Mouth Storage Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430518,
+      "title": "Baldur's Mouth Storage Key",
+      "markers": [
+        "S_LOW_BaldursMouth_StorageKey_000"
+      ]
+    },
+    {
+      "role": "Linked lock or location",
+      "revision": 423216,
+      "title": "Silver Key (Baldur's Mouth)",
+      "markers": [
+        "Unlocks Ettvard Needle's private office"
+      ]
+    }
+  ],
+  "summary": "Unlocks Ettvard Needle’s office and its Document Chest in Baldur’s Mouth.",
+  "fields": {
+    "Use": "Unlocks Ettvard Needle’s office and its Document Chest in Baldur’s Mouth.",
+    "Acquisition or alternate access": "Carried by Ettvard Needle in Act Three."
+  },
+  "changes": "Added the native key interaction and source locators."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:14830",
+  "title": "Sublimate of Frosted Ears",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Sublimate of Frosted Ears",
+      "revision": 423680,
+      "markers": [
+        "ALCH_Extract_IceMephitEar"
+      ]
+    },
+    {
+      "role": "Rules: Arsonist's Oil",
+      "title": "Arsonist's Oil",
+      "revision": 416109,
+      "markers": [
+        "Sublimate of Frosted Ears"
+      ]
+    }
+  ],
+  "summary": "Alchemical extract used for Arsonist's Oil.",
+  "fields": {
+    "Extract": "Combine 3 Frosted Ears to make one Sublimate of Frosted Ears.",
+    "Brew": "Combine this extract with any Ash to make Arsonist's Oil.",
+    "Base value": "25 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

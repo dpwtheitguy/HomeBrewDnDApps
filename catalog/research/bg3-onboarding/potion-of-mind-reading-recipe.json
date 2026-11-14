@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:30808",
+  "title": "Potion of Mind Reading Recipe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Potion of Mind Reading Recipe",
+      "revision": 421948,
+      "markers": [
+        "BOOK_GLO_Alchemy_PotionMindReading"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Potion of Mind Reading",
+      "revision": 421947,
+      "markers": [
+        "any [[Alchemy#Extractions|Sublimate]]"
+      ]
+    }
+  ],
+  "summary": "Recipe note for Potion of Mind Reading.",
+  "fields": {
+    "Recipe": "Combine Suspension of Mergrass and any Sublimate to make Potion of Mind Reading.",
+    "Availability": "No acquisition location listed by the pinned item.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

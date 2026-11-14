@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:20750",
+  "title": "Scratch's Ball",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422712,
+      "title": "Scratch's Ball",
+      "markers": [
+        "LOOT_TEST_Toy_Ball_Small_Scratch"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 279061,
+      "title": "Find Familiar: Scratch",
+      "markers": [
+        "Scratch"
+      ]
+    }
+  ],
+  "summary": "Keep the ball in inventory to summon Scratch or throw it to play fetch.",
+  "fields": {
+    "Summon": "Use Find Familiar: Scratch once per Short Rest. Keep the ball directly in the summoner’s inventory, outside other containers.",
+    "Throw": "Action, up to 60 ft. In camp or while Scratch can reach it, he returns it. Otherwise the throw auto-casts Find Familiar: Scratch if available.",
+    "Acquisition": "Get it from Scratch in camp with Strength, Sleight of Hand or Animal Handling, or ask with Speak with Animals. Return to Scratch if lost.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

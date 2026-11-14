@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:6869",
+  "title": "Wood Woad Shield",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Wood Woad Shield",
+      "revision": 424971,
+      "markers": [
+        "MAG_WoodWoad_Nature_Shield"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Woad's Ensnaring Strike",
+      "revision": 424960,
+      "markers": [
+        "does not involve an"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Ensnared (Ensnaring Strike)",
+      "revision": 443524,
+      "markers": [
+        "cannot make an attack of opportunity"
+      ]
+    }
+  ],
+  "summary": "A +2 AC shield with a Bonus Action ensnare.",
+  "fields": {
+    "Armour Class": "+2 while equipped, with Shield proficiency.",
+    "Woad’s Ensnaring Strike": "Level 1 melee Bonus Action once per Short Rest, with no attack roll or Concentration. Strength save against your spell save DC negates the initial 1d4 Bludgeoning and prevents Ensnared for 3 turns.",
+    "Ensnared": "Cannot move or make Opportunity Attacks. Takes 1d6 Piercing per turn, has Disadvantage on attacks and Dexterity saves, and grants Advantage to attackers. Help removes the condition.",
+    "Acquisition": "Wood Woads at the Decrepit Sanctuary (85, 212).",
+    "Base value": "115 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

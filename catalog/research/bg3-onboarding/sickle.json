@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:2823",
+  "title": "Sickle",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423186,
+      "title": "Sickle",
+      "markers": [
+        "WPN_HUM_Sickle_A_0"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442222,
+      "title": "Bleeding",
+      "markers": [
+        "start of each turn"
+      ]
+    }
+  ],
+  "summary": "1d4 Slashing sickle with Lacerate.",
+  "fields": {
+    "Weapon profile": "1d4 Slashing plus Strength. Simple, one-handed, light, 5 ft melee.",
+    "Lacerate": "Action with proficiency, once per Short Rest. Melee weapon damage. Constitution save against weapon-action DC +2 prevents Bleeding for 2 turns. Bleeding deals 2 Slashing at turn start and gives disadvantage on Constitution saves. Healing ends it. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

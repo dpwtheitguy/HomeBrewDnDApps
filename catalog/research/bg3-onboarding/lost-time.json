@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:7892",
+  "title": "Lost Time",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420627,
+      "title": "Lost Time",
+      "markers": [
+        "| uid = CONS_Hag_Lost_Time"
+      ]
+    },
+    {
+      "role": "Rules: Lost Time (condition)",
+      "revision": 436082,
+      "title": "Lost Time (condition)",
+      "markers": [
+        "{{condition page"
+      ]
+    }
+  ],
+  "summary": "Drink as a Bonus Action to lose 2 AC and the ability to take reactions for 50 turns.",
+  "fields": {
+    "Inspiration": "Drinking grants An Acquired Taste to Guild Artisan party members.",
+    "Acquisition": "Acrid Workshop in the Overgrown Tunnel or the hag’s basement under the Blushing Mermaid.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

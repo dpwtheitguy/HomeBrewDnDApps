@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:34665",
+  "title": "Stelmane's Portrait",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Stelmane's Portrait",
+      "revision": 423593,
+      "markers": [
+        "S_LOW_Elfsong_EmperorsLair_StelemanePortrait"
+      ]
+    }
+  ],
+  "summary": "Inspect to trigger the Emperor’s account of Stelmane.",
+  "fields": {
+    "Interaction": "First interaction prompts unique dialogue identifying his former partner.",
+    "Acquisition": "The Emperor’s hidden room below the Elfsong Tavern.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

@@ -1,0 +1,20 @@
+{
+  "item_id": "bg3-wiki:24809",
+  "title": "Banana",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416286,
+      "title": "Banana",
+      "markers": [
+        "| uid = CONS_FOOD_Fruit_Banana_A"
+      ]
+    }
+  ],
+  "summary": "Contributes 3 Camp Supplies toward a Long Rest.",
+  "fields": {
+    "Camp Supplies": "3",
+    "Base value": "3 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

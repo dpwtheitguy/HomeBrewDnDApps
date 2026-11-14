@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:182",
+  "title": "Shortbow",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423168,
+      "title": "Shortbow",
+      "markers": [
+        "WPN_HUM_Shortbow_A_0"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373853,
+      "title": "Hamstring Shot",
+      "markers": [
+        "movement speed"
+      ]
+    }
+  ],
+  "summary": "A simple shortbow with Hamstring Shot.",
+  "fields": {
+    "Weapon profile": "1d6 Piercing plus Dexterity. Simple, two-handed, 60 ft ranged. The +1 variant adds +1 to attack rolls.",
+    "Hamstring Shot": "Action with proficiency, once per Short Rest. Ranged weapon damage. Constitution save against weapon-action DC +2 prevents halved movement for 2 turns.",
+    "Base value": "16 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:11474",
+  "title": "Carafe of Water",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416900,
+      "title": "Carafe of Water",
+      "markers": [
+        "| uid = CONS_Drink_Water_Bottle_A"
+      ]
+    },
+    {
+      "role": "Rules: Wet (condition)",
+      "revision": 437422,
+      "title": "Wet (condition)",
+      "markers": [
+        "{{condition page"
+      ]
+    }
+  ],
+  "summary": "Throw as an Action up to 60 ft. Creates Water and makes creatures in the splash Wet for 3 turns.",
+  "fields": {
+    "Wet": "Resist Fire and prevent Burning. Cold and Lightning vulnerability applies unless an existing resistance instead cancels it. Becoming Wet breaks ordinary Invisibility and removes coatings from equipped weapons.",
+    "Base value": "5 gp in BG3. Merchant prices vary.",
+    "Throw": "Action. Throw up to 60 ft to create a permanent Water surface with a 7 ft radius. Creatures in the splash become Wet for 3 turns."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Expanded the card from the pinned item and linked gameplay evidence."
+}

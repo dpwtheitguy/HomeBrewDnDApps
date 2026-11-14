@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:11024",
+  "title": "Gale's Severed Hand",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 433936,
+      "title": "Gale's Severed Hand",
+      "markers": [
+        "{{MiscItemPage"
+      ]
+    },
+    {
+      "role": "Rules: Impress the Murder Tribunal",
+      "revision": 440460,
+      "title": "Impress the Murder Tribunal",
+      "markers": [
+        "| description = Impress the Murder Tribunal is a sub-quest of the quest Get Orin's Netherstone in Act Three of Baldur's Gate 3. It is started automatically after entering Wyrm's Rock Fortress and long resting, or by entering the sewers for the first time."
+      ]
+    }
+  ],
+  "summary": "Offer Gale’s severed hand to Sarevok at the Murder Tribunal. Answering about Gale’s death can proceed without Deception checks.",
+  "fields": {
+    "Acquisition": "Available to the Dark Urge by giving in to the urge when meeting Gale at the unstable portal.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

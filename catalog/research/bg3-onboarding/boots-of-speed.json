@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:3473",
+  "title": "Boots of Speed",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416686,
+      "title": "Boots of Speed",
+      "markers": [
+        "ARM_BootsOfSpeed"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 368838,
+      "title": "Click Heels",
+      "markers": [
+        "| description = Click the heels of your boots to gain speed and freedom of movement."
+      ]
+    }
+  ],
+  "summary": "Click Heels doubles movement speed for the turn. The pinned source reports that its disadvantage applies to the wearer’s own reaction attacks.",
+  "fields": {
+    "Effect": "Click Heels costs a Bonus Action and doubles the wearer’s movement speed for the current turn.",
+    "Equipment type": "Boots",
+    "Reported game behavior": "The tooltip describes disadvantage on enemy opportunity attacks. The pinned source reports a scripting bug that instead applies disadvantage to the wearer’s own reaction attacks.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and pinned evidence, then refined its mechanics against item and linked rule notes."
+}

@@ -1,0 +1,57 @@
+{
+  "item_id": "bg3-wiki:31050",
+  "title": "Steadfast Maul",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Steadfast Maul",
+      "revision": 423577,
+      "markers": [
+        "MAG_Steadfast_Maul"
+      ]
+    },
+    {
+      "role": "Rules: Steadfast Strike",
+      "title": "Steadfast Strike",
+      "revision": 423578,
+      "markers": [
+        "preventing them"
+      ]
+    },
+    {
+      "role": "Rules: Tenacity",
+      "title": "Tenacity",
+      "revision": 425432,
+      "markers": [
+        "minimum of 1"
+      ]
+    },
+    {
+      "role": "Rules: Backbreaker",
+      "title": "Backbreaker",
+      "revision": 373567,
+      "markers": [
+        "Large"
+      ]
+    },
+    {
+      "role": "Rules: Concussive Smash",
+      "title": "Concussive Smash",
+      "revision": 373613,
+      "markers": [
+        "hybrid"
+      ]
+    }
+  ],
+  "summary": "Unobtainable +1 maul can anchor the wielder and target.",
+  "fields": {
+    "Weapon profile": "Martial, Two-handed, 5 ft melee, Heavy, Dippable. 2d6 + 1 Bludgeoning plus Strength. +1 to attack rolls.",
+    "Steadfast Strike": "With proficiency, Action once per Short Rest. Deal weapon damage plus proficiency bonus Bludgeoning and prevent involuntary movement for you and the target. The source gives no verified duration or saving throw.",
+    "Tenacity": "Main-hand Reaction after a missed melee attack. Deal Bludgeoning equal to your Strength modifier, minimum 1.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "No nominal value is listed in the pinned item source.",
+    "Backbreaker": "With proficiency, once per Short Rest. Action. Hit a Large or smaller target for 1d4 Bludgeoning plus attack modifier. STR save against weapon-action DC or Prone for 2 turns.",
+    "Concussive Smash": "With proficiency, once per Short Rest. Action, weapon damage. CON save versus higher of spell save DC or weapon-action DC +2, or Dazed for 2 turns."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

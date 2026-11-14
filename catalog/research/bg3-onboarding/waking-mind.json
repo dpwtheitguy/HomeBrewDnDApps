@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:21595",
+  "title": "Waking Mind",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438519,
+      "title": "Waking Mind",
+      "markers": [
+        "S_COL_Vault_MemoryJar"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443554,
+      "title": "Githzerai Mind Barrier",
+      "markers": [
+        "lost upon character death"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441344,
+      "title": "Mind Flayer Colony",
+      "markers": [
+        "Waking Mind"
+      ]
+    }
+  ],
+  "summary": "Trade a stored mind for Advantage on Intelligence saving throws.",
+  "fields": {
+    "Use": "Insert Waking Mind in the Mind-Archive Interface and speak to the Slack-Skinned Head. Choose the Illithid Persuasion option to purge or consume the mind.",
+    "Githzerai Mind Barrier": "Advantage on Intelligence saving throws. Persists through rests, but character death removes it even if you are Revivified.",
+    "Acquisition": "Solve the brain mapping puzzle in the Necrotic Laboratory in the Mind Flayer Colony. Find the mind at X 750, Y −139.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

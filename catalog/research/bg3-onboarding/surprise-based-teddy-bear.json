@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:14597",
+  "title": "Surprise-Based Teddy Bear",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Surprise-Based Teddy Bear",
+      "revision": 423742,
+      "markers": [
+        "UNI_WYR_ExplosiveToy"
+      ]
+    },
+    {
+      "role": "Rules: Investigate the Suspicious Toys",
+      "title": "Investigate the Suspicious Toys",
+      "revision": 441646,
+      "markers": [
+        "Requisitioned Barn"
+      ]
+    }
+  ],
+  "summary": "Exploding teddy bear deals Fire damage and knockback.",
+  "fields": {
+    "Throw": "Action, 60 ft range. Explodes after a brief impact delay. When placed it remains inert unless destroyed. 5 HP. Fire damage alone does not detonate it without destroying it.",
+    "Blast": "13 ft radius, 6d6 Fire, DC 15 Dexterity save halves damage. Creatures are knocked back 7 ft without a save. The bear itself is the damage source.",
+    "Acquisition": "Three in locked trapped crate in Requisitioned Barn at (83, −108). No Alchemy recipe.",
+    "Base value": "25 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

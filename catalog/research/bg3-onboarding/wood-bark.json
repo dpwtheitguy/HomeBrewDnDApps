@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:13722",
+  "title": "Wood Bark",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Wood Bark",
+      "revision": 424970,
+      "markers": [
+        "ALCH_Ingredient_Part_WoodBark"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Salts of Tree Bark",
+      "revision": 422614,
+      "markers": [
+        "Elixir of Barkskin"
+      ]
+    }
+  ],
+  "summary": "Alchemy ingredient used to make Elixir of Barkskin.",
+  "fields": {
+    "Alchemy": "Extract 3 Wood Bark into Salts of Tree Bark and combine with any Suspension to make Elixir of Barkskin.",
+    "Acquisition": "Sold by Blurg, Derryth Bonecloak and other traders. Also carried by some blights and other tree-like creatures.",
+    "Base value": "9 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

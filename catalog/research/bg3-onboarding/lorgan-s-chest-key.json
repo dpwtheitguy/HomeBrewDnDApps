@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:33508",
+  "title": "Lorgan's Chest Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430662,
+      "title": "Lorgan's Chest Key",
+      "markers": [
+        "| uid = WYR_OpenHandTemple_LorganChestKey"
+      ]
+    },
+    {
+      "role": "Rules: Open Hand Temple",
+      "revision": 440044,
+      "title": "Open Hand Temple",
+      "markers": [
+        "{{Location page"
+      ]
+    }
+  ],
+  "summary": "Opens the central chest in the Open Hand Temple dormitories.",
+  "fields": {
+    "Acquisition": "Take it from Father Lorgan’s body. A DC 15 Sleight of Hand check also opens the chest. DC 10 Investigation notices a false bottom containing Lorgan’s journal.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "bg3-wiki:14018",
+  "title": "Brilliant Retort",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 441423,
+      "title": "Brilliant Retort",
+      "markers": [
+        "GRN_UNI_BrilliantRetort"
+      ]
+    }
+  ],
+  "summary": "Throw up to 60 ft as an Action. The pinned source reports two 3d4 + 9 Force damage instances in about a 13 ft radius. The bomb can also Silence for 2 turns.",
+  "fields": {
+    "Throw": "Action. Throw up to 60 ft. In about a 13 ft radius deal 3d4 + 9 Force and inflict Silenced for 2 turns. DC 12 Dexterity halves the damage and prevents Silence. Objects and scenery are automatically critically hit.",
+    "Reported game behavior": "The pinned source reports a second 3d4 + 9 Force damage instance when thrown or destroyed, for a typical total of 6d4 + 18 Force. Attacks with multiple damage sources can trigger additional instances when destroying the bomb.",
+    "Acquisition": "Unique reward from Barcus Wroot for rescuing Wulbren. Unavailable through vendors or Alchemy.",
+    "Base value": "120 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay use and pinned evidence, then refined its mechanics against item and linked rule notes."
+}

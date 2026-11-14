@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:10380",
+  "title": "Dark Justiciar Helmet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417528,
+      "title": "Dark Justiciar Helmet",
+      "markers": [
+        "| uid = UNI_DarkJusticiar_Helmet"
+      ]
+    },
+    {
+      "role": "Rules: Covert Critical",
+      "revision": 432195,
+      "title": "Covert Critical",
+      "markers": [
+        "| summary = '''Covert Critical''' is a passive feature that makes the wearer more likely to critical hit while in shadow."
+      ]
+    },
+    {
+      "role": "Rules: Magical Durability (+1)",
+      "revision": 432819,
+      "title": "Magical Durability (+1)",
+      "markers": [
+        "| summary = '''Magical Durability''' is a passive feature that increases the user's defenses against spells."
+      ]
+    }
+  ],
+  "summary": "Gain +1 Constitution saves and +1 saves against spells. While obscured, reduce the critical-hit threshold by 1, stacking with similar effects.",
+  "fields": {
+    "Use": "Gain +1 Constitution saves and +1 saves against spells. While obscured, reduce the critical-hit threshold by 1, stacking with similar effects.",
+    "Base value": "1600 gp in BG3. Merchant prices vary.",
+    "Training": "Medium Armour proficiency."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Verified card mechanics against the cited item or linked rule."
+}

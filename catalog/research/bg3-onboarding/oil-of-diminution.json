@@ -1,0 +1,64 @@
+{
+  "item_id": "bg3-wiki:11757",
+  "title": "Oil of Diminution",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421463,
+      "title": "Oil of Diminution",
+      "markers": [
+        "ALCH_Solution_Oil_Reduce"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438130,
+      "title": "Coatings",
+      "markers": [
+        "single equipped weapon set"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 428492,
+      "title": "Throw",
+      "markers": [
+        "thrown weapons do not apply any innate extra damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442405,
+      "title": "Coated in Oil of Diminution",
+      "markers": [
+        "only one target per attack"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 436694,
+      "title": "Reduced (condition)",
+      "markers": [
+        "1d4"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 418282,
+      "title": "Essence of Sylvan Stone",
+      "markers": [
+        "Oil of Diminution"
+      ]
+    }
+  ],
+  "summary": "Coated hits can Reduce a target, but the coating lowers weapon enchantment by 1.",
+  "fields": {
+    "Coat": "Bonus Action, single use. Coat the active weapon set for 10 turns. Both equipped weapons in that set are coated when dual wielding. Another set needs its own dose. Replaces a dip or another coating. Throwing the bottle does not apply an area coating.",
+    "Weapon penalty": "−1 weapon enchantment while coated, lowering eligible attack and damage rolls by 1.",
+    "On hit": "One target per attack makes a DC 11 Constitution save. On failure, Reduced for 2 turns gives Disadvantage on Strength checks and saves and subtracts 1d4 from melee damage. The target shrinks and loses 25% carrying capacity. Reduced does not stack. The generic condition lists weapon damage, while the coating specifically describes melee damage.",
+    "Thrown weapon": "The general Throw rules omit weapon coating effects when a weapon is thrown.",
+    "Crafting": "Extract 3 Sylvan Stones into Essence of Sylvan Stone, then combine with any Suspension.",
+    "Base value": "30 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

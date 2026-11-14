@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:16419",
+  "title": "Scroll of Melf's Acid Arrow",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Melf's Acid Arrow",
+      "revision": 422824,
+      "markers": [
+        "LOOT_SCROLL_AcidArrow"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Melf's Acid Arrow",
+      "revision": 373507,
+      "markers": [
+        "Projectile_AcidArrow"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Ranged spell attack.",
+  "fields": {
+    "Cast": "Level 2. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Ranged spell attack. On hit, 4d4 Acid immediately and 2d4 Acid at the end of the target’s next turn. On miss, half initial damage and no delayed damage. Creates a 7 ft radius Acid surface.",
+    "Range": "60 ft.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

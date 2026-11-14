@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:13755",
+  "title": "Salts of Chasm Creeper",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422606,
+      "title": "Salts of Chasm Creeper",
+      "markers": [
+        "ALCH_Extract_ChasmCreeper"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 418170,
+      "title": "Elixir of the Colossus",
+      "markers": [
+        "| description ="
+      ]
+    }
+  ],
+  "summary": "Alchemy extract used to make Elixir of the Colossus.",
+  "fields": {
+    "Extraction": "Combine 3 Chasm Creepers.",
+    "Recipe": "Combine these salts with any Suspension to make Elixir of the Colossus.",
+    "Result": "Enlarges you, gives Advantage on Strength checks and saves, and adds 1d4 weapon damage until Long Rest.",
+    "Base value": "25 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:4186",
+  "title": "Dark Amethyst",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 425306,
+      "title": "Dark Amethyst",
+      "markers": [
+        "| uid = S_FOR_DangerousBook_Key_000"
+      ]
+    },
+    {
+      "role": "Rules: Necromancy of Thay",
+      "revision": 440450,
+      "title": "Necromancy of Thay",
+      "markers": [
+        "| description = {{story|Necromancy of Thay}} is a [[story item|story-related]] [[Books|Book]] related to the quests {{Quest|Search the Cellar}}, {{Quest|Unlock the Ancient Tome}}, and {{Quest|Destroy the Ancient Tome}}."
+      ]
+    }
+  ],
+  "summary": "Insert the Dark Amethyst into the Necromancy of Thay to unlock it during Unlock the Ancient Tome.",
+  "fields": {
+    "Use": "Insert the Dark Amethyst into the Necromancy of Thay to unlock it during Unlock the Ancient Tome.",
+    "Base value": "55 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

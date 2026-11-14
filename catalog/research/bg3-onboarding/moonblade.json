@@ -1,0 +1,57 @@
+{
+  "item_id": "bg3-wiki:35603",
+  "title": "Moonblade",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Moonblade",
+      "revision": 421070,
+      "markers": [
+        "Quest_SCL_Moonblade"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Rush Attack",
+      "revision": 374223,
+      "markers": [
+        "Doesn't provoke Opportunity Attacks"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Lacerate",
+      "revision": 373909,
+      "markers": [
+        "| condition dc = weapon action + 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Bleeding",
+      "revision": 442222,
+      "markers": [
+        "Removed by healing"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Pommel Strike",
+      "revision": 374173,
+      "markers": [
+        "| cost = bonus"
+      ]
+    }
+  ],
+  "summary": "Unobtainable versatile longsword with +1 to melee attack rolls only.",
+  "fields": {
+    "Weapon profile": "1d8 one-handed or 1d10 two-handed Slashing, plus Strength. The special bonus adds +1 to melee attack rolls. Martial, versatile, 5 ft melee and Dippable.",
+    "Lacerate": "With proficiency, Action once per Short Rest. On a melee hit for weapon damage, Constitution save against weapon-action DC +2 prevents Bleeding for 2 turns. Bleeding deals 2 Slashing at the start of each turn, gives Disadvantage on Constitution saves and ends when healed. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Bleeding": "Bleeding deals 2 Slashing at the start of each turn and gives disadvantage on Constitution saves. Healing removes it. Constructs, Elementals, Plants, Oozes and most Undead are immune. Ghasts and Ghouls are documented exceptions.",
+    "Rush Attack": "With proficiency, Action once per Short Rest. Charge up to 30 ft without provoking Opportunity Attacks. Make a melee attack against the first non-allied creature or object in the path for 1d4 + Strength modifier Piercing. Strength save against weapon-action DC prevents Off Balance for 2 turns.",
+    "Pommel Strike": "With proficiency, Bonus Action once per Short Rest. Make a 1d4 nonlethal Bludgeoning melee attack. Constitution save against weapon-action DC +2 prevents Dazed for 2 turns.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "55 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

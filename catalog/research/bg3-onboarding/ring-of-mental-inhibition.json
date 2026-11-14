@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:10715",
+  "title": "Ring of Mental Inhibition",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Ring of Mental Inhibition",
+      "revision": 422386,
+      "markers": [
+        "MAG_Psychic_MentalOverload_Ring"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Mental Inhibition",
+      "revision": 432842,
+      "markers": [
+        "also applies to allies"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Mental Fatigue",
+      "revision": 444003,
+      "markers": [
+        "maximum {{duration|7}}"
+      ]
+    }
+  ],
+  "summary": "Failed initial saves against your spells or actions apply Mental Fatigue.",
+  "fields": {
+    "Mental Inhibition": "A creature that fails an initial save against your spell or action gains 2 turns of Mental Fatigue. The source reports allies can also be affected. Repeat saves to shake off an effect do not trigger it. Older tests report several area and weapon-passive effects also fail to trigger it.",
+    "Mental Fatigue": "−1 to Wisdom, Intelligence and Charisma saves per remaining turn. Failing one of those saves with at least 5 turns remaining deals 1d4 Psychic and clears Mental Fatigue. The stated cap is 7 turns, although the visible stack can exceed it.",
+    "Acquisition": "Locked chest at the House in Deep Shadows, east of the Shadowed Battlefield waypoint.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

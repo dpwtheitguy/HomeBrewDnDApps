@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:8712",
+  "title": "Gloves of Belligerent Skies",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437701,
+      "title": "Gloves of Belligerent Skies",
+      "markers": [
+        "MAG_Thunder_Reverberation_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438463,
+      "title": "Thunderous Conversion",
+      "markers": [
+        "| description = When the wearer deals {{DamageType|Thunder}}, {{DamageType|Lightning}}, or {{DamageType|Radiant}} damage, inflict 2 turns of {{Cond|Reverberation}} upon the target(s)."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 436760,
+      "title": "Reverberation (condition)",
+      "markers": [
+        "| effects ="
+      ]
+    }
+  ],
+  "summary": "Deal Thunder, Lightning or Radiant damage to apply 2 turns of Reverberation.",
+  "fields": {
+    "Reverberation": "Each turn gives −1 to Strength, Dexterity and Constitution saves. At 5 or more turns, it deals 1d4 Thunder and a DC 10 Constitution save avoids Prone for 2 turns. Reverberation clears afterward.",
+    "Base value": "90 gp in BG3. Merchant prices vary.",
+    "Thunderous Conversion": "Deal Thunder, Lightning or Radiant damage to apply 2 turns of Reverberation. Triggers once per attack. For area attacks, only the first target in the combat log receives it.",
+    "Reported behavior": "The status can apply to Thunder-immune creatures. The five-stack effect may fail in real-time mode. Lightning Charges and Phalar Aluve: Shriek trigger this item only under Honour rules. Moonbeam does not trigger it."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

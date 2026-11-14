@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:7907",
+  "title": "Hat of Fire Acuity",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419370,
+      "title": "Hat of Fire Acuity",
+      "markers": [
+        "| uid = MAG_Fire_ArcaneAcuityOnFireDamage_Hat"
+      ]
+    },
+    {
+      "role": "Rules: Fire Acuity",
+      "revision": 432562,
+      "title": "Fire Acuity",
+      "markers": [
+        "| summary = '''Fire Acuity''' is a passive feature that increases your spell power after dealing fire damage."
+      ]
+    },
+    {
+      "role": "Rules: Arcane Acuity",
+      "revision": 442040,
+      "title": "Arcane Acuity",
+      "markers": [
+        "{{condition page"
+      ]
+    }
+  ],
+  "summary": "Dealing Fire damage gives 2 turns of Arcane Acuity once per attack.",
+  "fields": {
+    "Arcane Acuity": "Gain +1 to spell attack rolls and spell save DC per remaining turn, up to 10. Taking damage removes 2 turns.",
+    "Trigger example": "Each separately rolled ray of Scorching Ray can apply Fire Acuity.",
+    "Base value": "90 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

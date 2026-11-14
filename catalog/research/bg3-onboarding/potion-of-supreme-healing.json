@@ -1,0 +1,46 @@
+{
+  "item_id": "bg3-wiki:9465",
+  "title": "Potion of Supreme Healing",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Potion of Supreme Healing",
+      "revision": 421953,
+      "markers": [
+        "CONS_Potion_Healing_A_Supreme"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Sublimate of Ki-Rin Hair",
+      "revision": 423682,
+      "markers": [
+        "Potion of Supreme Healing"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Potions",
+      "revision": 440905,
+      "markers": [
+        "All healing potions also remove"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Potion of Healing",
+      "revision": 421944,
+      "markers": [
+        "throw it on the ground near"
+      ]
+    }
+  ],
+  "summary": "Restore 10d4 + 20 HP and remove Burning when drunk or splashed.",
+  "fields": {
+    "Drink": "Bonus Action. Restore 10d4 + 20 HP and remove Burning.",
+    "Throw": "Action, up to 60 ft. Splash creatures in a 3 ft radius for 10d4 + 20 healing and remove Burning per the shared healing-potion rule. Aim at the ground near the target to avoid direct impact damage.",
+    "Crafting": "Extract 3 Ki-Rin Hairs into Sublimate of Ki-Rin Hair and add any Ash. High-level merchants carry it. The shared table lists Jeera as an exception to the usual stock threshold.",
+    "Base value": "45 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

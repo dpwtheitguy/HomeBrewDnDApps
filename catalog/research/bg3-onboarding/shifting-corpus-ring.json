@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:7914",
+  "title": "Shifting Corpus Ring",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423151,
+      "title": "Shifting Corpus Ring",
+      "markers": [
+        "MAG_FlamingFist_ScoutRing"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438101,
+      "title": "Invisibility (spell)",
+      "markers": [
+        "is damaged"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 328586,
+      "title": "Blur",
+      "markers": [
+        "see through illusions"
+      ]
+    }
+  ],
+  "summary": "Casts level 2 Invisibility and Blur once each per Long Rest.",
+  "fields": {
+    "Invisibility": "Action, touch, Concentration up to 10 turns. Target attacks with advantage and attackers have disadvantage. Attacking, casting, many actions or taking damage ends it early.",
+    "Blur": "Self Action, Concentration up to 10 turns. Attackers have disadvantage unless they do not rely on sight or can see through illusions.",
+    "Acquisition": "Worn by Fist Marcus.",
+    "Base value": "70 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

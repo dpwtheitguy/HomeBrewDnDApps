@@ -1,0 +1,43 @@
+{
+  "item_id": "bg3-wiki:8440",
+  "title": "Potion of Mind Reading",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421947,
+      "title": "Potion of Mind Reading",
+      "markers": [
+        "usage cost = bonus action",
+        "price = 20",
+        "condition duration = Long Rest",
+        "Suspension of Mergrass"
+      ]
+    },
+    {
+      "role": "Applied condition",
+      "revision": 435079,
+      "title": "Detect Thoughts (condition)",
+      "markers": [
+        "certain creatures while talking"
+      ]
+    },
+    {
+      "role": "Shared potion rules",
+      "revision": 440905,
+      "title": "Potions",
+      "markers": [
+        "LgRarityItem|Potion of Mind Reading",
+        "Other potions simply have no effect"
+      ]
+    }
+  ],
+  "summary": "Drink as a Bonus Action to read certain creatures’ thoughts in dialogue until the next Long Rest.",
+  "fields": {
+    "Activation": "Bonus Action. Consume one bottle to gain Detect Thoughts until the next Long Rest.",
+    "Scope": "Applies in eligible dialogue. Throwing the potion does not apply the effect.",
+    "Crafting": "Combine Suspension of Mergrass with any Sublimate.",
+    "Creative use": "Drink before a conversation where additional information could change your approach.",
+    "Base value": "20 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added source-reviewed native BG3 gameplay, consumption, and crafting details."
+}

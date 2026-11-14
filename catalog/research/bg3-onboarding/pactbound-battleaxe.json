@@ -1,0 +1,97 @@
+{
+  "item_id": "bg3-wiki:37894",
+  "title": "Pactbound Battleaxe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421642,
+      "title": "Pactbound Battleaxe",
+      "markers": [
+        "WPN_HUM_Battleaxe_Pact"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 291665,
+      "title": "Pact of the Blade: Battleaxe",
+      "markers": [
+        "| item duration = Permanent"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 421638,
+      "title": "Pact of the Blade",
+      "markers": [
+        "Strength]] or [[Dexterity]]"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439161,
+      "title": "Deepened Pact",
+      "markers": [
+        "does not work in Honour Mode"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 436400,
+      "title": "Pact Weapon (condition)",
+      "markers": [
+        "Charisma modifier"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373605,
+      "title": "Cleave",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442222,
+      "title": "Bleeding",
+      "markers": [
+        "start of each turn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373912,
+      "title": "Maiming Strike",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443966,
+      "title": "Maimed",
+      "markers": [
+        "reduced to 0"
+      ]
+    }
+  ],
+  "summary": "Summoned battleaxe that uses Charisma and deals magical damage.",
+  "fields": {
+    "Weapon profile": "1d8 one-handed or 1d10 two-handed magical Slashing plus Charisma. Martial, versatile, 5 ft melee, Dippable.",
+    "Summon": "Warlock level 3 with Pact of the Blade. Summon into your hand as an Action, once per battle. You can have only one. It disappears if you remain more than 5 ft away for over 10 rounds.",
+    "Pact rules": "You are proficient with this weapon. Use Charisma for attacks and damage, while its weapon action save DC still uses Strength or Dexterity. Level 5 Deepened Pact grants Extra Attack. It stacks with other class Extra Attack features outside Honour Mode. The Pact Weapon cannot be dropped or disarmed. The linked Deepened Pact rules also apply to Hexed Weapons. A ranged attack made first, or Throw with a ranged weapon equipped, does not trigger the extra attack. A hidden proficiency can cover a second weapon of the same type while equipped together.",
+    "Cleave": "Action, 7 ft cone, up to 3 non-allied creatures or objects. Deals half normal weapon damage, with flat bonuses kept whole. Once per Short Rest.",
+    "Lacerate": "Action, normal weapon damage. Constitution save against weapon-action DC +2 or Bleeding for 2 turns. Bleeding deals 2 Slashing at turn start and gives Disadvantage on Constitution saves until healed. Once per Short Rest. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Maiming Strike": "Action for 1d4 + attack ability modifier Slashing. Constitution save against weapon-action DC +2 or Maimed for 2 turns. Maimed sets movement to zero and gives Disadvantage on Dexterity saves until healed. Flying creatures are immune. Once per Short Rest.",
+    "Base value": "0 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

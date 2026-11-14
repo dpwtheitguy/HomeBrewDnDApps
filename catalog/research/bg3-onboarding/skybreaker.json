@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:3388",
+  "title": "Skybreaker",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423268,
+      "title": "Skybreaker",
+      "markers": [
+        "UNI_UND_DuergarBlacksmithHammer"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 405755,
+      "title": "Searing Smite",
+      "markers": [
+        "condition duration = 10"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373613,
+      "title": "Concussive Smash",
+      "markers": [
+        "| save dc = hybrid"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442592,
+      "title": "Dazed",
+      "markers": [
+        "Wisdom"
+      ]
+    }
+  ],
+  "summary": "A +1 light hammer that grants Searing Smite.",
+  "fields": {
+    "Weapon profile": "1d4 + 1 Bludgeoning plus Strength. +1 to attack. Simple, light, thrown, 5 ft melee.",
+    "Searing Smite": "Level 1. Once per Long Rest. Melee weapon attack using an Action. On hit spend the Bonus Action to add 1d6 Fire and apply a burn with Concentration. Constitution save cadence can end the burn, which otherwise deals 1d6 Fire per turn.",
+    "Concussive Smash": "Action with proficiency once per Short Rest. Deal weapon damage on hit. Constitution save vs higher of spell save DC or weapon-action DC +2 avoids Dazed for 2 turns. Dazed removes Dexterity AC bonus and reactions and gives disadvantage on Wisdom saves. Help ends it.",
+    "Acquisition": "Locked heavy chest near the entrance.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

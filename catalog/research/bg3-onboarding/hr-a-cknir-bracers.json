@@ -1,0 +1,48 @@
+{
+  "item_id": "bg3-wiki:10733",
+  "title": "Hr'a'cknir Bracers",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419613,
+      "title": "Hr'a'cknir Bracers",
+      "markers": [
+        "MAG_Githborn_MageHandSupport_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432989,
+      "title": "Quickened Mage Hand",
+      "markers": [
+        "does not grant"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 414581,
+      "title": "Mage Hand",
+      "markers": [
+        "| creature duration = 10"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 429183,
+      "title": "Telekinesis",
+      "markers": [
+        "The limit to once per turn is not applied"
+      ]
+    }
+  ],
+  "summary": "Gain +1 Strength saves, quicker Mage Hand casting and Telekinesis once per Short Rest.",
+  "fields": {
+    "Saving throws": "+1 Strength saves.",
+    "Quickened Mage Hand": "If you know Mage Hand, you can cast it as a Bonus Action. The bracers do not teach the cantrip. The standard version summons an object-manipulating hand within 60 ft for 10 turns, once per Short Rest.",
+    "Telekinesis": "Action once per Short Rest. Throw a creature or object up to 60 ft. A creature resists with Strength against your spell save DC. Concentrate for up to 10 turns to recast without a spell slot. A successful initial creature save prevents recasts; successful saves on later casts do not end concentration. Heavier objects can deal more impact damage.",
+    "Reported behavior": "The source reports the stated once-per-turn recast restriction is not enforced. Throwing a burning object at a target can ignite the caster.",
+    "Acquisition": "Worn by Ch’r’ai Tska’an near the bridge out of Reithwin.",
+    "Base value": "540 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

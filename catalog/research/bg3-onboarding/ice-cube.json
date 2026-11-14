@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:50812",
+  "title": "Ice Cube",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419655,
+      "title": "Ice Cube",
+      "markers": [
+        "| uid = Monk_Ice_Cube"
+      ]
+    },
+    {
+      "role": "Rules: Shaping of the Ice",
+      "revision": 423088,
+      "title": "Shaping of the Ice",
+      "markers": [
+        "| summary = '''{{PAGENAME}}''' is an action that allows a [[Way of the Four Elements]] monk to create an [[Ice Cube|ice cube]] that can be climbed."
+      ]
+    }
+  ],
+  "summary": "A 25 HP climbable ice block summoned by a Way of the Four Elements monk. Multiple blocks can be stacked.",
+  "fields": {
+    "Creation": "Use Shaping of the Ice as an Action and spend 1 Ki Point, range 60 ft. The roughly 3 ft cube lasts 10 turns. Recasting leaves earlier cubes in place.",
+    "Moving the cube": "Weighs about 441 lb and requires 17 Strength to shove or otherwise move. Normal Throw would require 32 Strength. Telekinesis can throw it.",
+    "Defences": "Vulnerable to Piercing, Thunder, Fire and Force. Resistant to Radiant. Immune to Necrotic, Cold, Psychic and Poison.",
+    "Base value": "0 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

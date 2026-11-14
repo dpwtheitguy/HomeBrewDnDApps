@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:34161",
+  "title": "Map to Buried Treasure",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420800,
+      "title": "Map to Buried Treasure",
+      "markers": [
+        "BOOK_LOW_Docks_StinkingSecret_Map"
+      ]
+    }
+  ],
+  "summary": "Read to place the buried treasure marker south of the Counting House.",
+  "fields": {
+    "Use": "Dig at the marked dirt mound at X −98, Y −201. The wooden chest holds 259 gp.",
+    "Acquisition": "In the pile of rotten fish at Lower City X −178, Y −101, alongside the Key to Buried Treasure.",
+    "Base value": "14 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:11095",
+  "title": "Browbeaten Circlet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437771,
+      "title": "Browbeaten Circlet",
+      "markers": [
+        "MAG_CQCaster_SpellDCBonusWhileThreatened_Circlet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432143,
+      "title": "Browbeaten",
+      "markers": [
+        "| description = The wearer gains a +1 bonus to [[Spell Save DC|spell save DC]] while {{Cond|Threatened}}."
+      ]
+    }
+  ],
+  "summary": "Gain +1 spell save DC while Threatened.",
+  "fields": {
+    "Effect": "Gain +1 spell save DC while Threatened.",
+    "Equipment type": "Helmets",
+    "Base value": "90 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

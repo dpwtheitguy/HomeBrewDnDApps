@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:42",
+  "title": "Soul Coin",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 441849,
+      "title": "Soul Coin",
+      "markers": [
+        "LOOT_SoulCoin"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443799,
+      "title": "Infernal Fury",
+      "markers": [
+        "Fire"
+      ]
+    }
+  ],
+  "summary": "Karlach can consume this coin to fuel Infernal Fury until Long Rest.",
+  "fields": {
+    "Infernal Fury": "Karlach consumes one coin. Until Long Rest, weapon attacks add 1d4 Fire while Raging and a separate 1d4 Fire below 25% HP. Unarmed strikes are reported to add 2d4 Fire without either trigger. Does not apply in Wild Shape.",
+    "Inspiration": "First collection grants Soul for Sale to Noble party members.",
+    "Acquisition": "19 documented coins across the three acts. Lann Tarv can give three to Karlach if she listens to their stories.",
+    "Base value": "100 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

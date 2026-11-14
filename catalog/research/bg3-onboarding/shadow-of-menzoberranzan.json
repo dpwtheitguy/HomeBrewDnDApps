@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:3946",
+  "title": "Shadow of Menzoberranzan",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437968,
+      "title": "Shadow of Menzoberranzan",
+      "markers": [
+        "UNI_UND_ARM_ShadowOfMenzoberranzan"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 368967,
+      "title": "Shrouded in Shadow",
+      "markers": [
+        "| duration = 2"
+      ]
+    }
+  ],
+  "summary": "Light Armour helmet grants two turns of invisibility once per Short Rest.",
+  "fields": {
+    "Shrouded in Shadow": "Action on yourself. Concentrate to become Invisible for up to 2 turns. Ends early when you attack, cast, take an action, or take damage. Once per Short Rest.",
+    "Acquisition": "Near Xargrim in the secret area unlocked by Defeat the Duergar Intruders.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

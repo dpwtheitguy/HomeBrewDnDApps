@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:9537",
+  "title": "Icebite Robe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419658,
+      "title": "Icebite Robe",
+      "markers": [
+        "| uid = MAG_Frost_GenerateFrostOnDamage_Robe"
+      ]
+    },
+    {
+      "role": "Rules: Armour of Agathys",
+      "revision": 404068,
+      "title": "Armour of Agathys",
+      "markers": [
+        "| summary = It allows spellcasters to create a spectral armour of frost that covers the caster and their equipment. This armour provides additional [[Hit Points]] to the caster and damages hostile targets while the added hit points are present."
+      ]
+    }
+  ],
+  "summary": "Gain Cold resistance and cast level-3 Armour of Agathys once per Long Rest.",
+  "fields": {
+    "Armour of Agathys": "Action, self. Gain 15 temporary HP. While the spell’s temporary HP remain, a creature that hits you with a melee attack takes 15 Cold, even if that hit removes the last temporary HP. Lasts until Long Rest or until those HP are lost. No Concentration. Unequipping the robe ends its grant.",
+    "Temporary HP": "Temporary HP generally do not stack. Another source above the maximum granted by the spell can replace that pool and end the spell. The source reports that Symbiotic Entity can instead raise the existing temporary HP pool. The level-3 tooltip can show the level-1 condition.",
+    "Base value": "800 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

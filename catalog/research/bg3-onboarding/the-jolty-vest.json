@@ -1,0 +1,46 @@
+{
+  "item_id": "bg3-wiki:3441",
+  "title": "The Jolty Vest",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "The Jolty Vest",
+      "revision": 424042,
+      "markers": [
+        "MAG_ChargedLightning_Electrocute_Armor"
+      ]
+    },
+    {
+      "role": "Rules: Superior Material (-1)",
+      "title": "Superior Material (-1)",
+      "revision": 433313,
+      "markers": [
+        "| description = You take 1 less {{DamageType|Slashing}} damage."
+      ]
+    },
+    {
+      "role": "Rules: Countershock",
+      "title": "Countershock",
+      "revision": 432194,
+      "markers": [
+        "| description = When the wearer takes damage while having {{Cond|Lightning Charges}}, the attacker must succeed a [[Dexterity]] {{Saving Throw}} or become {{Cond|Shocked}}."
+      ]
+    },
+    {
+      "role": "Rules: Shocked (condition)",
+      "title": "Shocked (condition)",
+      "revision": 436924,
+      "markers": [
+        "Reaction"
+      ]
+    }
+  ],
+  "summary": "Medium Armour shocks attackers while you have Lightning Charges.",
+  "fields": {
+    "Defence": "Medium Armour proficiency. AC 14 plus Dexterity modifier, capped at +2. Reduce incoming Slashing damage by 1.",
+    "Countershock": "When you take damage while charged, the attacker makes DC 14 Dexterity save or is Shocked for 1 turn. Shocked blocks spending the Reaction resource and gives Disadvantage on Dexterity checks and saves. Lightning damage resistance alone does not prevent it.",
+    "Acquisition": "Brem after Find the Missing Shipment.",
+    "Base value": "510 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

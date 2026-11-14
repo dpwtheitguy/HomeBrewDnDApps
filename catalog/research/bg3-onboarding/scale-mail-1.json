@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:15074",
+  "title": "Scale Mail +1",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422659,
+      "title": "Scale Mail +1",
+      "markers": [
+        "ARM_ScaleMail_1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433313,
+      "title": "Superior Material (-1)",
+      "markers": [
+        "Slashing"
+      ]
+    }
+  ],
+  "summary": "Medium Armour with AC 15 plus up to +2 Dexterity.",
+  "fields": {
+    "Defence": "AC 15 plus Dexterity, maximum +2 Dexterity. Medium Armour proficiency. Disadvantage on Stealth checks.",
+    "Acquisition": "Levelled traders at levels 4–6.",
+    "Superior Material": "Reduce incoming Slashing damage by 1.",
+    "Base value": "160 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

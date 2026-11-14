@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:31157",
+  "title": "Mechanical Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430585,
+      "title": "Mechanical Key",
+      "markers": [
+        "S_PLA_ZhentDungeon_LiftKey"
+      ]
+    }
+  ],
+  "summary": "Operates the Underdark lift in the Zhentarim Basement.",
+  "fields": {
+    "Lock": "Unlock the lift to the Underdark. Party members with the Guild Artisan background earn the In Working Order Inspiration.",
+    "Acquisition": "Carried by Karad in the Zhentarim Basement.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:8843",
+  "title": "Enraging Heart Garb",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438246,
+      "title": "Enraging Heart Garb",
+      "markers": [
+        "MAG_Barbarian_Magic_Armor_1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433060,
+      "title": "Ruintamer Heart",
+      "markers": [
+        "| description = While {{Cond|Rage|Raging}}, the wearer generates 2 turns of {{Cond|Wrath}}.{{see bugs}}"
+      ]
+    }
+  ],
+  "summary": "Clothing granting +2 Constitution up to 20. The reported Rage passive fails to activate.",
+  "fields": {
+    "Armour Class": "Clothing, base AC 10.",
+    "Constitution": "+2, to a maximum of 20.",
+    "Ruintamer Heart": "Tooltip says Rage grants 2 turns of Wrath. The pinned source reports no in-game effect.",
+    "Base value": "800 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

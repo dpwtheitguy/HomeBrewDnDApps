@@ -1,0 +1,34 @@
+{
+  "item_id": "bg3-wiki:34476",
+  "title": "Bonesaw",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 429213,
+      "title": "Bonesaw (+1)",
+      "markers": [
+        "MAG_Surgeon_Bonesaw"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341909,
+      "title": "Longswords",
+      "markers": [
+        "| damage = 1d8"
+      ]
+    }
+  ],
+  "summary": "This +1 longsword grants Incise Ligaments only to NPCs. Nurses deal an additional 1d6 Necrotic with it.",
+  "fields": {
+    "Weapon type": "Longswords",
+    "Enchantment": "+1",
+    "Weapon actions": "Flourish, Lacerate",
+    "Damage": "1d8 + 1 Slashing",
+    "Two-handed damage": "1d10+1 Slashing",
+    "Range": "5 ft melee.",
+    "Effect": "This +1 longsword grants Incise Ligaments only to NPCs. Nurses deal an additional 1d6 Necrotic with it.",
+    "Base value": "85 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

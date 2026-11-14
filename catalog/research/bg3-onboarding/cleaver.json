@@ -1,0 +1,24 @@
+{
+  "item_id": "bg3-wiki:31481",
+  "title": "Cleaver",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417127,
+      "title": "Cleaver",
+      "markers": [
+        "WPN_HUM_CleaverAxe_A"
+      ]
+    }
+  ],
+  "summary": "A melee cleaver with the Lacerate weapon action.",
+  "fields": {
+    "Damage": "1d6 Slashing",
+    "Range": "5 ft melee.",
+    "Weapon actions": "Lacerate",
+    "Handling": "one-handed",
+    "Training": "simple",
+    "Base value": "16 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

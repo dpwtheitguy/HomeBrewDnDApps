@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:3828",
+  "title": "Caustic Bulb",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416932,
+      "title": "Caustic Bulb",
+      "markers": [
+        "| uid = GRN_StrangeLoot_A"
+      ]
+    },
+    {
+      "role": "Rules: Caustic Brine",
+      "revision": 438131,
+      "title": "Caustic Brine",
+      "markers": [
+        "| summary = a type of [[surface]] created by throwing or breaking a [[Caustic Bulb]]. It also appears after destroying some environmental clutter found on [[Nautiloid]] such as [[Brine Bulb]] and [[Brain Jar]]."
+      ]
+    }
+  ],
+  "summary": "Throw as an Action up to 60 ft. Creates Caustic Brine, which deals 1d4 Acid to creatures on it without a save.",
+  "fields": {
+    "Surface": "Deals 1d4 Acid per turn on the surface. The item revision gives inconsistent radius values, 3 m and 19 ft.",
+    "Crafting": "No Alchemy recipe.",
+    "Base value": "2 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

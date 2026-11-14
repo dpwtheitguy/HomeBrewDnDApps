@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:6101",
+  "title": "Wooden Trunk",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Wooden Trunk",
+      "revision": 424984,
+      "markers": [
+        "CONT_GEN_Crate_Wood_C"
+      ]
+    }
+  ],
+  "summary": "A 4 HP trunk that can be moved and stacked.",
+  "fields": {
+    "Durability": "4 HP, about 22 lb. Resists Piercing and Necrotic, is vulnerable to Bludgeoning, and is immune to Poison and Psychic.",
+    "Handling": "Stack containers to gain height, which can affect damage when throwing objects down.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:3531",
+  "title": "Poisoner's Robe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421868,
+      "title": "Poisoner's Robe",
+      "markers": [
+        "UNI_FOR_SpiderQueen_Robe"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432956,
+      "title": "Poison Trails",
+      "markers": [
+        "additional {{DamageText|1d4|Poison}}"
+      ]
+    }
+  ],
+  "summary": "Clothing that adds 1d4 Poison damage when you cast a spell that deals Poison damage.",
+  "fields": {
+    "Poison Trails": "Eligible Poison-damage spells deal an additional 1d4 Poison.",
+    "Acquisition": "Carried by the Phase Spider Matriarch in Whispering Depths, X −569, Y −359.",
+    "Base value": "250 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

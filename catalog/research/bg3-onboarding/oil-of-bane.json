@@ -1,0 +1,63 @@
+{
+  "item_id": "bg3-wiki:13034",
+  "title": "Oil of Bane",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421460,
+      "title": "Oil of Bane",
+      "markers": [
+        "ALCH_Solution_Oil_Bane"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438130,
+      "title": "Coatings",
+      "markers": [
+        "single equipped weapon set"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 428492,
+      "title": "Throw",
+      "markers": [
+        "thrown weapons do not apply any innate extra damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442401,
+      "title": "Coated in Oil of Bane",
+      "markers": [
+        "only one target per attack"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 434569,
+      "title": "Bane (condition)",
+      "markers": [
+        "-1d4"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 424701,
+      "title": "Vitriol of Putrefied Tumour",
+      "markers": [
+        "Oil of Bane"
+      ]
+    }
+  ],
+  "summary": "Coated hits can Bane a target, reducing attacks and saves.",
+  "fields": {
+    "Coat": "Bonus Action, single use. Coat the active weapon set for 10 turns. Both equipped weapons in that set are coated when dual wielding. Another set needs its own dose. Replaces a dip or another coating. Throwing the bottle does not apply an area coating.",
+    "On hit": "One target per attack makes a DC 11 Charisma save, even if multiple targets are hit. Failure applies Bane for 2 turns, subtracting 1d4 from its attack rolls and saving throws.",
+    "Thrown weapon": "The general Throw rules omit weapon coating effects when a weapon is thrown.",
+    "Crafting": "Extract 3 Putrefied Tumours into Vitriol of Putrefied Tumour, then combine with any Sublimate.",
+    "Base value": "40 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

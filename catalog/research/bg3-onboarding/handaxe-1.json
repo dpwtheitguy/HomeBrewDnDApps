@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:3412",
+  "title": "Handaxe +1",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419303,
+      "title": "Handaxe +1",
+      "markers": [
+        "| uid = WPN_HUM_Handaxe_A_1"
+      ]
+    },
+    {
+      "role": "Rules: Lacerate",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "| description = Slash at your target's vital points to make it {{SmCond|Bleeding|Bleed}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Bleeding",
+      "revision": 442222,
+      "markers": [
+        "except {{Charlink|Ghast}}s"
+      ]
+    }
+  ],
+  "summary": "A simple Light handaxe dealing 1d6 + 1 Slashing. Can be thrown.",
+  "fields": {
+    "Weapon profile": "1d6 + 1 Slashing plus Strength modifier, 5 ft melee. Simple, one-handed, Light, Thrown and Dippable.",
+    "Lacerate": "With proficiency, Action once per Short Rest. Make a weapon attack. On hit, Constitution save against weapon-action DC +2 or Bleeding for 2 turns. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Enchantment": "Also gives +1 to attack rolls. The +1 damage is included above.",
+    "Base value": "40 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:3338",
+  "title": "Deep Delver",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437897,
+      "title": "Deep Delver",
+      "markers": [
+        "| uid = UNI_UND_KC_Elder_Warpick"
+      ]
+    },
+    {
+      "role": "Rules: Dig Deep",
+      "revision": 432267,
+      "title": "Dig Deep",
+      "markers": [
+        "| summary = '''Dig Deep''' is a passive feature that adds extra {{DamageText|1d4|Piercing}} damage to targets previously hit by Deep Delver."
+      ]
+    },
+    {
+      "role": "Rules: Shattered (condition)",
+      "revision": 436902,
+      "title": "Shattered (condition)",
+      "markers": [
+        "{{condition page"
+      ]
+    }
+  ],
+  "summary": "War pick that applies Shattered for 3 turns on hit and deals an extra 1d4 Piercing against Shattered targets.",
+  "fields": {
+    "Use": "War pick that applies Shattered for 3 turns on hit and deals an extra 1d4 Piercing against Shattered targets.",
+    "Base value": "100 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

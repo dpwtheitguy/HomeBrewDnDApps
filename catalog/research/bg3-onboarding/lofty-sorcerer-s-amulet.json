@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:35583",
+  "title": "Lofty Sorcerer's Amulet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420587,
+      "title": "Lofty Sorcerer's Amulet",
+      "markers": [
+        "| uid = MAG_OfGreaterSorcery_Amulet"
+      ]
+    },
+    {
+      "role": "Rules: Lofty Sorcery",
+      "revision": 432795,
+      "title": "Lofty Sorcery",
+      "markers": [
+        "| summary = The amulet taps deep into your magical bloodline to increase your sorcery points by 1."
+      ]
+    }
+  ],
+  "summary": "Grants one additional Sorcery Point, restored on Long Rest.",
+  "fields": {
+    "Use": "Grants one additional Sorcery Point, restored on Long Rest.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "330 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

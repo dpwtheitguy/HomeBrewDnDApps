@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:15238",
+  "title": "The Oak Father's Embrace",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "The Oak Father's Embrace",
+      "revision": 424068,
+      "markers": [
+        "FOR_OwlbearCubs_Armor"
+      ]
+    },
+    {
+      "role": "Rules: Order of Nature",
+      "title": "Order of Nature",
+      "revision": 432934,
+      "markers": [
+        "| description = [[Undead]] creatures that hit the wearer receive {{DamageText|1d6|Radiant}} damage. [[Beasts]] that hit the wearer deal an additional {{DamageText|1d6|Radiant}} damage."
+      ]
+    }
+  ],
+  "summary": "Medium Armour harms Undead attackers but exposes the wearer to Beasts.",
+  "fields": {
+    "Defence": "Medium Armour proficiency. AC 13 plus Dexterity modifier, maximum +2 from Dexterity.",
+    "Order of Nature": "Undead hitting the wearer take 1d6 Radiant. Beasts hitting the wearer add 1d6 Radiant to their attack. Redirected damage does not trigger it.",
+    "Acquisition": "Headless skeleton near the owlbear nest and egg.",
+    "Base value": "130 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

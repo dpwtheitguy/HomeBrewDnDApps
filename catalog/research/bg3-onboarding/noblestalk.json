@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:4718",
+  "title": "Noblestalk",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 440651,
+      "title": "Noblestalk",
+      "markers": [
+        "| uid = S_UND_MushroomHunter_Noblestalk"
+      ]
+    },
+    {
+      "role": "Rules: Find the Mushroom Picker",
+      "revision": 418499,
+      "title": "Find the Mushroom Picker",
+      "markers": [
+        "| description = Find the Mushroom Picker is a quest in Act One of Baldur's Gate 3. It can be started by talking to Derryth Bonecloak in Ebonlake Grotto."
+      ]
+    },
+    {
+      "role": "Rules: A Familiar Face",
+      "revision": 386196,
+      "title": "A Familiar Face",
+      "markers": [
+        "| description = A Familiar Face is a sub-quest of both {{CharLink|Shadowheart|Shadowheart's}} {{Quest|Daughter of Darkness|Companion quest}} and her {{Quest|Daughter of Darkness (Origin)|Origin quest}}. It is acquired if Shadowheart consumes the Noblestalk in the Underdark."
+      ]
+    },
+    {
+      "role": "Rules: Derryth Bonecloak",
+      "revision": 433882,
+      "title": "Derryth Bonecloak",
+      "markers": [
+        "{{Infobox creature"
+      ]
+    }
+  ],
+  "summary": "Consume as an Action to restore full HP and remove negative conditions. The unique Underdark specimen can also restore memories.",
+  "fields": {
+    "Underdark specimen": "Recover in the Bibberbang Grotto. Igniting the spores destroys it. Extinguish the torch before setting off the mushrooms, or use Mage Hand to drag it without throwing it.",
+    "Memory choices": "Give to Baelen to restore his mental faculties, consume as the Dark Urge to recover a memory, or persuade companion Shadowheart to eat it and start A Familiar Face. Origin Shadowheart can choose directly. Restoring a memory grants A Noble Endeavour to Outlanders.",
+    "Other choices": "Give it to Derryth in the Underdark to unlock three daily-restocking Noblestalk at Bonecloak’s Apothecary in Act Three. Her stock heals and clears conditions without restoring memories. Giving it to Thulla cures Duergar Poison.",
+    "Base value": "75 gp in BG3. Merchant prices vary.",
+    "Consume": "Action. Restore all HP and remove negative conditions."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

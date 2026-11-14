@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:50373",
+  "title": "Elfsong Room Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Elfsong Room Key",
+      "revision": 430622,
+      "markers": [
+        "S_LOW_UNI_ElfsongDoorKey"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Elfsong Tavern",
+      "revision": 439010,
+      "markers": [
+        "this entrance is available only if the party rent the room"
+      ]
+    }
+  ],
+  "summary": "Likely associated with the rented lodging at Elfsong Tavern.",
+  "fields": {
+    "Use": "Likely intended for the lodging door. The pinned sources do not confirm a working lock match.",
+    "Access": "Arrange to rent the lodging from Alan Alyth to unlock it through dialogue.",
+    "Source note": "The key’s internal identifier points to an Elfsong door. Its carrier and exact lock remain unverified.",
+    "Base value": "1 gp in BG3."
+  },
+  "changes": "Added native BG3 gameplay, acquisition, and pinned source evidence."
+}

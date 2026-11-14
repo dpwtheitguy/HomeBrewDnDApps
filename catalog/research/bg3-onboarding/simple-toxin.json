@@ -1,0 +1,54 @@
+{
+  "item_id": "bg3-wiki:8510",
+  "title": "Simple Toxin",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423244,
+      "title": "Simple Toxin",
+      "markers": [
+        "Solution_Toxin_Basic"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442413,
+      "title": "Coated in Toxin",
+      "markers": [
+        "dc=11"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 436950,
+      "title": "Simple Toxin (condition)",
+      "markers": [
+        "Poison"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441583,
+      "title": "Simple Toxin (surface)",
+      "markers": [
+        "| dippable = yes"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438130,
+      "title": "Coatings",
+      "markers": [
+        "LgRarityItem|Simple Toxin"
+      ]
+    }
+  ],
+  "summary": "Coat weapons or throw to apply delayed Poison damage.",
+  "fields": {
+    "Coat": "Bonus Action, single use. Coat the active weapon set for 10 turns. Replaces an existing dip or coating. On a qualifying hit, DC 11 Constitution save prevents 1d4 Poison at the end of the target’s next turn. One target per attack.",
+    "Throw": "Action up to 60 ft. The immediate blast and 3 ft dippable surface each apply DC 11 Constitution saves against the delayed 1d4 Poison effect. Both can apply. Item lists the surface as 1 turn while the shared table lists permanent.",
+    "Alchemy": "Extract three Bullywug Trumpets into Suspension of Bullywug Trumpet and add any Sublimate.",
+    "Base value": "25 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

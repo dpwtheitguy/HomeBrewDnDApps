@@ -1,0 +1,20 @@
+{
+  "item_id": "bg3-wiki:10592",
+  "title": "Derivation Cloak",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438004,
+      "title": "Derivation Cloak",
+      "markers": [
+        "| uid = MAG_Poison_InflictPoisonHealSelf_Cloak"
+      ]
+    }
+  ],
+  "summary": "When you Poison a foe, regain 1d4 HP.",
+  "fields": {
+    "Use": "When you Poison a foe, regain 1d4 HP.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

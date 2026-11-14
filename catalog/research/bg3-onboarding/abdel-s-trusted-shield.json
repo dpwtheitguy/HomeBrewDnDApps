@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:11500",
+  "title": "Abdel's Trusted Shield",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 441294,
+      "title": "Abdel's Trusted Shield",
+      "markers": [
+        "MAG_MissileProtection_Shield"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 349056,
+      "title": "Protection from Missiles",
+      "markers": [
+        "| summary ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 438215,
+      "title": "Shield Bash",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Protection from Missiles is an Action once per Short Rest. For 10 turns, ranged weapon attacks against you have disadvantage and deal half damage. Shield Bash. When hit by a melee attack, use a Reaction to attempt to knock the attacker Prone. A Dexterity save resists.",
+  "fields": {
+    "Equipment type": "Shields",
+    "Training": "Shields",
+    "AC bonus": "+2",
+    "Effect": "Protection from Missiles is an Action once per Short Rest. For 10 turns, ranged weapon attacks against you have disadvantage and deal half damage. Shield Bash. When hit by a melee attack, use a Reaction to attempt to knock the attacker Prone. A Dexterity save resists.",
+    "Base value": "570 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 mechanics and pinned item and related rule sources."
+}

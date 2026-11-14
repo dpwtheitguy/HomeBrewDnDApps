@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:3830",
+  "title": "Flammable Slime Bomb",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418588,
+      "title": "Flammable Slime Bomb",
+      "markers": [
+        "LOOT_HAG_Throwable_Goo_Ball_A_Fire_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 371587,
+      "title": "Fire (surface)",
+      "markers": [
+        "| description = Deals {{DamageText|1d4|Fire}} damage per turn."
+      ]
+    }
+  ],
+  "summary": "Throw this unique bomb for 1d4 + 2 Fire and a Fire surface.",
+  "fields": {
+    "Throw": "Action. Throw up to 60 ft. Deals 1d4 + 2 Fire on impact.",
+    "Surface": "10 ft radius for 2 turns. Fire deals 1d4 Fire per turn and applies Burning. The bomb itself lists Burning for 5 turns.",
+    "Acquisition": "Carried by Auntie Ethel. Cannot be bought or crafted.",
+    "Base value": "10 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

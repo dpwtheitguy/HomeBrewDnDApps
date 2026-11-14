@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:13003",
+  "title": "Serpent Fang Toxin",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422997,
+      "title": "Serpent Fang Toxin",
+      "markers": [
+        "CONS_Poison_Serpent_Venom"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442411,
+      "title": "Coated in Serpent Venom Toxin",
+      "markers": [
+        "dc=13"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 371595,
+      "title": "Serpent Venom",
+      "markers": [
+        "| condition dc = 13"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 436862,
+      "title": "Serpent Fang Toxin (condition)",
+      "markers": [
+        "Poison"
+      ]
+    }
+  ],
+  "summary": "Coated hits or a thrown cloud can apply delayed Poison damage.",
+  "fields": {
+    "Coat": "Bonus Action, one dose on the active weapon set for 10 turns. Both equipped weapons are coated if dual wielding. A separate set needs a separate dose. Replaces dipping. On a hit one target per attack can be affected. The pinned source reports Advantage against being Poisoned does not affect this save.",
+    "On hit": "DC 13 Constitution save avoids 1d6 Poison at the end of the target’s next turn.",
+    "Throw": "Action, up to 60 ft. Creates a 3 ft radius Serpent Venom area. DC 13 Constitution save against the delayed toxin, which lasts 1 turn. The linked source does not give a separate area duration.",
+    "Crafting": "Suspension of Snake Venom plus any Vitriol.",
+    "Base value": "40 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

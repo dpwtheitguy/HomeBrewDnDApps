@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:12232",
+  "title": "Cloth of Authority",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417151,
+      "title": "Cloth of Authority",
+      "markers": [
+        "MAG_Gortash_Cloth"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437823,
+      "title": "Dauntless",
+      "markers": [
+        "| description = You can't be {{Cond|Frightened}} or afflicted with other emotion-altering conditions."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 403593,
+      "title": "Authority",
+      "markers": [
+        "| description = You have {{Advantage}} on [[Intimidation]] checks and [[Insight]] checks."
+      ]
+    }
+  ],
+  "summary": "Gain +1 AC, advantage on Intimidation and Insight, and immunity to fear, fleeing and Hideous Laughter.",
+  "fields": {
+    "Base value": "800 gp in BG3. Merchant prices vary.",
+    "Armour Class": "Clothing with base AC 10 and a +1 AC bonus while worn.",
+    "Authority": "Advantage on Intimidation and Insight checks.",
+    "Dauntless": "Immune to conditions in the Frightened or Fleeing status groups and to Hideous Laughter."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Expanded the card from the pinned item and linked gameplay evidence."
+}

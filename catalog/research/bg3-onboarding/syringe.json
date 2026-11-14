@@ -1,0 +1,22 @@
+{
+  "item_id": "bg3-wiki:15918",
+  "title": "Syringe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Syringe",
+      "revision": 429216,
+      "markers": [
+        "WPN_HUM_Syringe_A"
+      ]
+    }
+  ],
+  "summary": "Syringe has a separate undead nurse damage rule.",
+  "fields": {
+    "Weapon profile": "Simple, One-handed, 5 ft melee, Finesse, Light, Thrown. 1d4 Piercing plus Strength or Dexterity.",
+    "Nurse-only effect": "An undead nurse wielding it deals an additional 1d6 Necrotic.",
+    "Acquisition": "Carried by an undead nurse in the House of Healing.",
+    "Base value": "16 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:7902",
+  "title": "Rune Slate",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Rune Slate",
+      "revision": 431005,
+      "markers": [
+        "'''Rune Slates''' are [[Books|Book]]-like items found on the [[Nautiloid]] and in the [[Mind Flayer Colony]]. When \"read\", the Narrator describes the mental images they impart."
+      ]
+    },
+    {
+      "role": "Rules: Help Omeluum Investigate the Parasite",
+      "title": "Help Omeluum Investigate the Parasite",
+      "revision": 419477,
+      "markers": [
+        "Enrich your story with details"
+      ]
+    }
+  ],
+  "summary": "Reading the Nautiloid schematic grants an Omeluum dialogue advantage.",
+  "fields": {
+    "Dialogue": "Read the prologue schematic slate. Later, when trading knowledge with Omeluum, it unlocks the schematic-detail option with Advantage on DC 10 Intelligence.",
+    "Colony slates": "Different examples request DC 14 Arcana. The pinned source reports their text still displays on failure, with a different reader comment.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

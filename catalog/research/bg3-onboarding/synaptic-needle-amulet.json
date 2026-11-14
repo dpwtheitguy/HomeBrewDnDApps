@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:36519",
+  "title": "Synaptic Needle Amulet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Synaptic Needle Amulet",
+      "revision": 423811,
+      "markers": [
+        "MAG_Illithid_MindTax_Amulet"
+      ]
+    },
+    {
+      "role": "Rules: Mind Tax",
+      "title": "Mind Tax",
+      "revision": 420987,
+      "markers": [
+        "| description = Cleave into a {{Cond|Charmed}} or {{Cond|Frightened}} foe's brain tissue and invigorate your body."
+      ]
+    }
+  ],
+  "summary": "Unobtainable amulet grants Mind Tax.",
+  "fields": {
+    "Mind Tax": "Bonus Action once per Short Rest, 60 ft. Targets a Charmed or Frightened enemy, deals 1d10 Psychic and grants 8 temporary HP to the wearer. Temporary HP does not stack.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "125 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

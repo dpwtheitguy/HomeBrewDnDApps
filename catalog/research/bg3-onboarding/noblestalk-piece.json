@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:40547",
+  "title": "Noblestalk Piece",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422877,
+      "title": "Noblestalk Piece",
+      "markers": [
+        "| uid = CINE_Underdark_Mushroom_NobleStalk_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Noblestalk",
+      "revision": 440651,
+      "markers": [
+        "This version provides the same healing effects"
+      ]
+    }
+  ],
+  "summary": "Consume as an Action to restore full HP and remove negative conditions.",
+  "fields": {
+    "Memory effect": "The exact Piece source says it restores a Dark Urge memory but does not restore Shadowheart’s memory. The parent Noblestalk page describes the Piece as having no memory effect.",
+    "Acquisition": "Laboratory table in Figaro’s basement under Facemaker’s Boutique, or Withers’ Epilogue workshop.",
+    "Base value": "75 gp in BG3. Merchant prices vary.",
+    "Consume": "Action. Restore all HP and remove negative conditions."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

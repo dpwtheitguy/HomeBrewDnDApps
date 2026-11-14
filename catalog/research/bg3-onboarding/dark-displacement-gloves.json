@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:11796",
+  "title": "Dark Displacement Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417515,
+      "title": "Dark Displacement Gloves",
+      "markers": [
+        "| uid = MAG_Zhentarim_Swap_Gloves"
+      ]
+    },
+    {
+      "role": "Rules: Subtle Swap",
+      "revision": 433306,
+      "title": "Subtle Swap",
+      "markers": [
+        "| summary = '''Subtle Swap''' is a passive feature that improves throwing ability and potentially swaps position with the target."
+      ]
+    }
+  ],
+  "summary": "Gain +1 Sleight of Hand and +1 to throwing attack rolls. A thrown weapon can swap you with its target.",
+  "fields": {
+    "Base value": "160 gp in standard modes, 500 gp in Honour Mode.",
+    "Subtle Swap": "+1 to throwing attack rolls. A thrown weapon hit forces a DC 13 Dexterity save. On a failure, trade places with the target. Throwing a potion or poison does not cause a swap.",
+    "Sleight of Hand": "+1 to Sleight of Hand checks."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Verified card mechanics against the cited item or linked rule."
+}

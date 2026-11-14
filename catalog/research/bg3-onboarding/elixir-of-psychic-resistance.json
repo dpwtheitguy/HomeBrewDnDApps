@@ -1,0 +1,43 @@
+{
+  "item_id": "bg3-wiki:3788",
+  "title": "Elixir of Psychic Resistance",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418160,
+      "title": "Elixir of Psychic Resistance",
+      "markers": [
+        "CONS_Potion_Psychic_Resistance",
+        "price = 100",
+        "* Consume the potion to gain [[Damage Types#Resistance|Resistance]] to {{DamageType|Psychic}} damage."
+      ]
+    },
+    {
+      "role": "Shared elixir rules",
+      "revision": 425971,
+      "title": "Elixirs",
+      "markers": [
+        "Only one elixir can be applied at a time",
+        "extra hit points"
+      ]
+    },
+    {
+      "role": "Applied condition",
+      "revision": 436608,
+      "title": "Psychic Resistance (condition)",
+      "markers": [
+        "ALCH_ELIXIR"
+      ]
+    }
+  ],
+  "summary": "Drink as a Bonus Action. Gain resistance to Psychic damage until the next Long Rest.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle. Gain resistance to Psychic damage until the next Long Rest.",
+    "Stacking": "Replaces another elixir effect. Drinking a different elixir can end this effect early.",
+    "Creative use": "Drink before a fight where this effect will matter.",
+    "Throw": "Action. Consume one bottle. Applies the listed protection to creatures within 3 ft of impact until the next Long Rest.",
+    "Crafting": "Combine Suspension of Cerebrospinal Fluid with any Sublimate.",
+    "Base value": "100 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 activation, effects and linked rules."
+}

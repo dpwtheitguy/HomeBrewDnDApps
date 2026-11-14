@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:6906",
+  "title": "Lover's Avarice",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420634,
+      "title": "Lover's Avarice",
+      "markers": [
+        "| uid = CONS_Hag_Lovers_Avarice"
+      ]
+    },
+    {
+      "role": "Rules: Lover's Avarice (condition)",
+      "revision": 436086,
+      "title": "Lover's Avarice (condition)",
+      "markers": [
+        "{{condition page"
+      ]
+    }
+  ],
+  "summary": "Drink as a Bonus Action to reduce Wisdom by 1 until Long Rest.",
+  "fields": {
+    "Effects": "Remove Curse can end it. Throwing the potion at another creature does not apply the curse.",
+    "Inspiration": "Drinking grants An Acquired Taste to Guild Artisan party members.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:9645",
+  "title": "Haste Spore Flask",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419357,
+      "title": "Haste Spore Flask",
+      "markers": [
+        "| uid = LOOT_GRN_Spore_Haste"
+      ]
+    },
+    {
+      "role": "Rules: Haste Spores (condition)",
+      "revision": 435656,
+      "title": "Haste Spores (condition)",
+      "markers": [
+        "{{condition page"
+      ]
+    }
+  ],
+  "summary": "Throw as an Action to make a 10 ft radius cloud of Haste Spores.",
+  "fields": {
+    "Throw": "Single use, up to 60 ft. Sovereign Spaw can grant this flask.",
+    "Haste Spores": "For 1 turn, an affected creature gets +2 AC, advantage on Dexterity saves, +30 ft movement and an extra Action without Lethargic afterward. Honour Mode removes Extra Attack from the extra Action, and Slowed can remove the effect.",
+    "Base value": "50 gp in BG3. Merchant prices vary.",
+    "Cloud duration": "The primary item gives the affected creature’s duration but does not specify how long this flask’s cloud lasts."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

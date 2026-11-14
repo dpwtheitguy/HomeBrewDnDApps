@@ -1,0 +1,64 @@
+{
+  "item_id": "bg3-wiki:7879",
+  "title": "Sword of Life Stealing",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Sword of Life Stealing",
+      "revision": 423795,
+      "markers": [
+        "MAG_PHB_OfLifestealing_Shortsword"
+      ]
+    },
+    {
+      "role": "Rules: Life Stealing Critical",
+      "title": "Life Stealing Critical",
+      "revision": 432788,
+      "markers": [
+        "| description = On a [[Critical Hit]], the target takes an extra {{DamageText|10|Necrotic|drs=t}} damage as long as it isn't a construct or an undead. You also gain {{Temp hp|10}}."
+      ]
+    },
+    {
+      "role": "Rules: Piercing Strike",
+      "title": "Piercing Strike",
+      "revision": 374168,
+      "markers": [
+        "Gaping Wounds"
+      ]
+    },
+    {
+      "role": "Rules: Gaping Wounds",
+      "title": "Gaping Wounds",
+      "revision": 443536,
+      "markers": [
+        "Honour Mode"
+      ]
+    },
+    {
+      "role": "Rules: Flourish",
+      "title": "Flourish",
+      "revision": 373786,
+      "markers": [
+        "Off Balance"
+      ]
+    },
+    {
+      "role": "Rules: Off Balance",
+      "title": "Off Balance",
+      "revision": 444158,
+      "markers": [
+        "Removed by taking damage"
+      ]
+    }
+  ],
+  "summary": "+2 shortsword deals extra Necrotic damage on critical hits.",
+  "fields": {
+    "Weapon profile": "Martial, One-handed, 5 ft melee, Finesse, Light, Dippable. 1d6 + 2 Piercing plus Strength or Dexterity. +2 to attack rolls.",
+    "Life Stealing Critical": "A critical hit deals +10 Necrotic against targets other than Constructs or Undead. The effect grants 10 temporary HP. This is temporary HP, not direct healing.",
+    "Acquisition": "Dammon.",
+    "Base value": "480 gp nominal BG3 value.",
+    "Piercing Strike": "With proficiency, once per Short Rest. Action, weapon damage. CON save against weapon-action DC +2 or Gaping Wounds for 2 turns. Successful hits gain 2 Piercing. Honour Mode adds 2 of the original type to any damage source. Healing clears it. Undead and Constructs are immune.",
+    "Flourish": "With proficiency, once per Short Rest. Bonus Action, 1d4 nonlethal Bludgeoning. DEX save against weapon-action DC +2 or Off Balance for 2 turns, granting attackers Advantage and giving the target Disadvantage on STR/DEX checks. Damage or Help clears it."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

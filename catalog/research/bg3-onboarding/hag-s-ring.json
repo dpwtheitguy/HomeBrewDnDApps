@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:31036",
+  "title": "Hag's Ring",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419247,
+      "title": "Hag's Ring",
+      "markers": [
+        "| uid = HAG_HagsRing"
+      ]
+    },
+    {
+      "role": "Rules: Vicious Mockery",
+      "revision": 440091,
+      "title": "Vicious Mockery",
+      "markers": [
+        "| summary = It deals Psychic damage to enemies and inflicts Disadvantage on their Attack Rolls."
+      ]
+    }
+  ],
+  "summary": "Cast Vicious Mockery while wearing the ring.",
+  "fields": {
+    "Vicious Mockery": "Action, 60 ft, Wisdom save against your spell save DC negates. On failure deal 1d4 Psychic, rising to 2d4 at character level 5 and 3d4 at level 10. The target has disadvantage on its next attack roll within 1 turn. Some targeted actions consume the condition without an attack roll.",
+    "Availability": "Unobtainable in normal play."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

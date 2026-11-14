@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:3616",
+  "title": "Robust Chain Shirt",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Robust Chain Shirt",
+      "revision": 422442,
+      "markers": [
+        "MAG_LowHP_CounterOnDamage_ChainShirt"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Piercing Counter",
+      "revision": 432955,
+      "markers": [
+        "50%"
+      ]
+    }
+  ],
+  "summary": "Unobtainable Medium Armour that retaliates on melee damage at half HP or below.",
+  "fields": {
+    "Armour Class": "13 + Dexterity modifier, up to +2 from Dexterity. Medium Armour proficiency.",
+    "Piercing Counter": "At 50% HP or below, taking damage from a melee attack deals 1d4 Piercing to the attacker.",
+    "Availability": "Unobtainable in normal play. The former Missing Boots quest reward was replaced.",
+    "Base value": "300 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

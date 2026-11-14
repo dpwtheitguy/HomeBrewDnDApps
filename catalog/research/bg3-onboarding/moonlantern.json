@@ -1,0 +1,57 @@
+{
+  "item_id": "bg3-wiki:9689",
+  "title": "Moonlantern",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Moonlantern",
+      "revision": 441437,
+      "markers": [
+        "UNI_GLO_Moonlantern"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Moonshield",
+      "revision": 444051,
+      "markers": [
+        "does not affect this entity"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Inspect Moonlantern",
+      "revision": 294041,
+      "markers": [
+        "Filigreed Feywild Bell"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Pixie Blessing (condition)",
+      "revision": 437785,
+      "markers": [
+        "Changing regions"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "A Clown in Town",
+      "revision": 441941,
+      "markers": [
+        "clown makeup"
+      ]
+    }
+  ],
+  "summary": "Equip for a 43 ft protective aura in the Shadow-Cursed Lands, or free Dolly for a blessing.",
+  "fields": {
+    "Moonshield": "While equipped, protects creatures within about 43 ft against the Shadow Curse. Switching to a ranged weapon retains protection and removes the illumination. The pinned item reports that dropping the Dolly version creates a stationary protective aura even after she is freed.",
+    "Inspect Moonlantern": "The Kar’niss version holds Dolly Dolly Dolly. Inspect to speak with her. Freeing her makes the lantern unequippable and grants Pixie Blessing and the Filigreed Feywild Bell. Smashing the lantern gives the Clown in Town curse. First inspection can inspire Guild Artisans.",
+    "Pixie Blessing": "Protects without an equipped lantern. It may be lost on changing regions. Speak through the bell to restore it.",
+    "Weapon profile": "1d4 one-handed or 1d6 two-handed Bludgeoning, simple and versatile. No weapon actions are listed.",
+    "Acquisition": "Take Kar’niss’s lantern at the ambush or receive that lantern from Isobel if the Harpers took it. If Kar’niss reaches Moonrise with it, Dolly dies. A second lantern is in Balthazar’s room.",
+    "Base value": "30 gp nominal BG3 value.",
+    "Inspiration": "Taking Kar’niss’s lantern can grant Shiny Trinkets and Baubles. First inspection grants Guild Artisans Trust and a Little Pixie Dust. If Dolly dies after Kar’niss reaches Moonrise, the source lists Fly-Swatter."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

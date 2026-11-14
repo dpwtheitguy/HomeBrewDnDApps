@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:9509",
+  "title": "Amulet of Windrider",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 415920,
+      "title": "Amulet of Windrider",
+      "markers": [
+        "LOW_OfWindrider_Amulet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 422359,
+      "title": "Ride the Winds",
+      "markers": [
+        "| summary ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 419231,
+      "title": "Gust of Wind",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Ride the Winds once per Long Rest to take a Tiny mist form with resistance to all damage and advantage on Constitution, Dexterity, and Strength saves. Cast Gust of Wind as an Action once per Short Rest to clear clouds and push or unbalance foes that fail a Strength save.",
+  "fields": {
+    "Equipment type": "Amulets",
+    "Effect": "Grants Ride the Winds and Gust of Wind.",
+    "Base value": "210 gp in BG3. Merchant prices vary.",
+    "Ride the Winds": "Action on yourself once per Long Rest. Become a Tiny mist cloud until Long Rest, with resistance to all damage and Advantage on Constitution, Dexterity, and Strength saves.",
+    "Gust of Wind": "Action once per Short Rest. Clear clouds in a 40 ft line. Creatures that fail a Strength save against the wearer’s spell save DC are pushed about 16 ft and become Off Balance for 1 turn."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

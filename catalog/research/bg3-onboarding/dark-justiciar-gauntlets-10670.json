@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:10670",
+  "title": "Dark Justiciar Gauntlets",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417523,
+      "title": "Dark Justiciar Gauntlets (Uncommon)",
+      "markers": [
+        "| uid = MAG_JusticiarArmor_Gloves"
+      ]
+    },
+    {
+      "role": "Rules: Umbral Attack",
+      "revision": 433377,
+      "title": "Umbral Attack",
+      "markers": [
+        "| summary = '''Umbral Attack''' is a passive feature that adds necrotic damage to the user's weapon attacks."
+      ]
+    }
+  ],
+  "summary": "Gain +1 Strength saves and an extra 1d4 Necrotic on weapon attacks.",
+  "fields": {
+    "Umbral Attack": "Weapon attacks deal 1d4 extra Necrotic. Gain +1 Strength saving throws.",
+    "Base value": "110 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

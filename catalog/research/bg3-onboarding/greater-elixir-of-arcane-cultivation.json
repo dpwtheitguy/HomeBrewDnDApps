@@ -1,0 +1,24 @@
+{
+  "item_id": "bg3-wiki:6863",
+  "title": "Greater Elixir of Arcane Cultivation",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419124,
+      "title": "Greater Elixir of Arcane Cultivation",
+      "markers": [
+        "ALCH_Solution_Elixir_Meditation_Greater"
+      ]
+    }
+  ],
+  "summary": "Drink to gain one level 2 spell slot until Long Rest.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle for one level 2 spell slot. This replaces another ordinary elixir.",
+    "Expiry": "Losing the condition removes a level 2 slot, prioritizing an already expended slot. Consecutive doses of this same elixir do not refill it. Alternating it with another elixir can restore it.",
+    "Warlock use": "A fixed level 2 Spellcasting slot that can cast Warlock spells. It is separate from Pact Magic and does not refresh on Short Rest.",
+    "Lower-level casters": "A caster with no natural level 2 slots can use it to upcast known spells. It does not teach new spells.",
+    "Crafting": "Combine Suspension of Laculite with any Vitriol.",
+    "Base value": "30 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

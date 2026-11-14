@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:12385",
+  "title": "Salts of Corpse Rose",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422609,
+      "title": "Salts of Corpse Rose",
+      "markers": [
+        "ALCH_Extract_CorpseRose"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 424182,
+      "title": "Thisobald's Brewed-Up Bellyglummer",
+      "markers": [
+        "| description ="
+      ]
+    }
+  ],
+  "summary": "Alchemy extract used to make Thisobald's Brewed-Up Bellyglummer.",
+  "fields": {
+    "Extraction": "Combine 3 Corpse Roses.",
+    "Recipe": "Combine these salts with any Suspension to make Thisobald's Brewed-Up Bellyglummer.",
+    "Result": "A coated hit can apply poison on a failed DC 17 Constitution save.",
+    "Base value": "180 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

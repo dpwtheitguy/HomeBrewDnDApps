@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:47298",
+  "title": "Office Storage Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430547,
+      "title": "Office Storage Key",
+      "markers": [
+        "LOW_BasiliskGate_OfficeChest_Key_000"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 431639,
+      "title": "Basilisk Gate Barracks",
+      "markers": [
+        "both can be opened with the"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432930,
+      "title": "Liara Portyr",
+      "markers": [
+        "Office Storage Key"
+      ]
+    }
+  ],
+  "summary": "Opens both heavy chests in the Basilisk Gate Barracks prison office.",
+  "fields": {
+    "Use": "Unlock the two office chests with this key. The larger chest can also be lockpicked at DC 18 and the smaller at DC 20. They hold random arrows and scrolls.",
+    "Acquisition": "Pickpocket Liara Portyr at the Basilisk Gate Barracks.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

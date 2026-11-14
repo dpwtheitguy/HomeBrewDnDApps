@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:46294",
+  "title": "Whipping Up Booms",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Whipping Up Booms",
+      "revision": 424839,
+      "markers": [
+        "UNI_BOOK_LOW_FireworksHouse_ExplosiveTemplates"
+      ]
+    },
+    {
+      "role": "Rules: Oil of Combustion",
+      "title": "Oil of Combustion",
+      "revision": 421461,
+      "markers": [
+        "Ashes of Mephit Magma"
+      ]
+    },
+    {
+      "role": "Rules: Ashes of Mephit Magma",
+      "title": "Ashes of Mephit Magma",
+      "revision": 416129,
+      "markers": [
+        "Salt"
+      ]
+    }
+  ],
+  "summary": "Reading unlocks the Oil of Combustion recipe.",
+  "fields": {
+    "Read": "Read to unlock Oil of Combustion. Oil and shared Alchemy pages list Ashes of Mephit Magma and any Essence. The extract page instead lists Salt.",
+    "Acquisition": "Second floor of Felogyr’s Fireworks at (5, −129).",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

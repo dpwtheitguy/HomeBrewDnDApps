@@ -1,0 +1,22 @@
+{
+  "item_id": "bg3-wiki:24822",
+  "title": "Milk bowl",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420971,
+      "title": "Milk bowl",
+      "markers": [
+        "CONS_GEN_Food_Bowl_Milk_A"
+      ]
+    }
+  ],
+  "summary": "Eat for 1d4 healing without spending an action in combat, or use for 3 Camp Supplies.",
+  "fields": {
+    "Consume": "Single use. Restores 1d4 HP and triggers on-heal effects. The pinned item’s behavior note reports no action cost to consume in combat.",
+    "Camp Supplies": "3 toward a Long Rest.",
+    "Acquisition": "Found as loot or sold by traders.",
+    "Base value": "3 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

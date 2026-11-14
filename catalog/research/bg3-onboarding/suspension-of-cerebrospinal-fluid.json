@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:16341",
+  "title": "Suspension of Cerebrospinal Fluid",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Suspension of Cerebrospinal Fluid",
+      "revision": 423749,
+      "markers": [
+        "ALCH_Extract_IntellectDevourer"
+      ]
+    },
+    {
+      "role": "Rules: Elixir of Psychic Resistance",
+      "title": "Elixir of Psychic Resistance",
+      "revision": 418160,
+      "markers": [
+        "Suspension of Cerebrospinal Fluid"
+      ]
+    }
+  ],
+  "summary": "Alchemical extract used for Elixir of Psychic Resistance.",
+  "fields": {
+    "Extract": "Combine 3 Intellect Devourer Cerebellums to make one Suspension of Cerebrospinal Fluid.",
+    "Brew": "Combine this extract with any Sublimate to make Elixir of Psychic Resistance.",
+    "Base value": "80 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

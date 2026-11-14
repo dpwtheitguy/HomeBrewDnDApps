@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:50382",
+  "title": "Windmill Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 439893,
+      "title": "Windmill Key",
+      "markers": [
+        "S_WYR_Windmill_FrontDoor_key"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441837,
+      "title": "Abandoned Windmill",
+      "markers": [
+        "key}} opening the lock"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441892,
+      "title": "Mind Flayer (windmill)",
+      "markers": [
+        "MdRarityItem|Windmill Key"
+      ]
+    }
+  ],
+  "summary": "Opens the Abandoned Windmill’s exterior door in Rivington.",
+  "fields": {
+    "Lock": "The exterior windmill door normally requires DC 15 Sleight of Hand.",
+    "Acquisition": "Carried by the newborn mind flayer beneath the windmill.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

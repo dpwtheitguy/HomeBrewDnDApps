@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:47113",
+  "title": "Golbraith's Hatch Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430593,
+      "title": "Golbraith's Hatch Key",
+      "markers": [
+        "LOW_Golbraith_Hatch_Key"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Golbraith's Cellar",
+      "revision": 431342,
+      "markers": [
+        "aforementioned hatch key stolen from Golbraith"
+      ]
+    }
+  ],
+  "summary": "Opens the northeast hatch to Golbraith’s basement.",
+  "fields": {
+    "Base value": "1 gp in BG3. Merchant prices vary.",
+    "Use": "Open the locked northeast hatch to Golbraith’s basement. A DC 20 Sleight of Hand check is an alternative.",
+    "Acquisition": "Pickpocket Golbraith Stredivas."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

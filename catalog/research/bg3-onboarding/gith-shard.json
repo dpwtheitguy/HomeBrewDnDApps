@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:31052",
+  "title": "Gith Shard",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418895,
+      "title": "Gith Shard",
+      "markers": [
+        "| uid = S_CRE_CaptainBarrierKey"
+      ]
+    },
+    {
+      "role": "Rules: Githyanki Barrier Disruptor",
+      "revision": 430795,
+      "title": "Githyanki Barrier Disruptor",
+      "markers": [
+        "{{Infobox object"
+      ]
+    }
+  ],
+  "summary": "Insert the Gith Shard into the Barrier Disruptor beside the north archway in the Captain’s Quarters to reach the Inquisitor’s Chamber.",
+  "fields": {
+    "Acquisition": "Pickpocket Kith’rak Therezzyn or loot her body. If you offer to show her the artefact, she opens the barrier herself.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

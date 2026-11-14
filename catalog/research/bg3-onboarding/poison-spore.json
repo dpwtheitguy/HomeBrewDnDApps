@@ -1,0 +1,46 @@
+{
+  "item_id": "bg3-wiki:14483",
+  "title": "Poison Spore",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Poison Spore",
+      "revision": 421857,
+      "markers": [
+        "ALCH_Ingredient_Part_MyconidSpore_Poison"
+      ]
+    },
+    {
+      "role": "Rules: Sublimate of Poison Spores",
+      "title": "Sublimate of Poison Spores",
+      "revision": 423684,
+      "markers": [
+        "Ash"
+      ]
+    },
+    {
+      "role": "Rules: Noxious Spore Grenade",
+      "title": "Noxious Spore Grenade",
+      "revision": 421402,
+      "markers": [
+        "area duration = 3"
+      ]
+    },
+    {
+      "role": "Rules: Noxious Fumes",
+      "title": "Noxious Fumes",
+      "revision": 444137,
+      "markers": [
+        "flammable"
+      ]
+    }
+  ],
+  "summary": "Refine spores into the extract for Noxious Spore Grenade.",
+  "fields": {
+    "Alchemy": "Extract 3 Poison Spores into Sublimate of Poison Spores. Combine with any Ash to make Noxious Spore Grenade.",
+    "Result": "The grenade creates a 7-ft-radius cloud for 3 turns. The fumes poison creatures that enter or start a turn inside. Fire can ignite the cloud and leave burning ground.",
+    "Acquisition": "Check Derryth Bonecloak or the dead myconid in the Underdark.",
+    "Base value": "3 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

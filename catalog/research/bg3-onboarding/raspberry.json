@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:9017",
+  "title": "Raspberry",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422165,
+      "title": "Raspberry",
+      "markers": [
+        "GEN_CONS_Berry"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 409610,
+      "title": "Camp Supplies",
+      "markers": [
+        "At least 40 camp supplies"
+      ]
+    }
+  ],
+  "summary": "Heals 1d4 HP for no action resource and can contribute 1 Camp Supply.",
+  "fields": {
+    "Eat": "Restore 1d4 HP without spending an Action or Bonus Action in combat. Triggers effects that activate when healed.",
+    "Camp Supplies": "1 point toward Long Rest.",
+    "Acquisition": "Berry bushes in the Forest near Scratch and around the one-time Wyrm’s Lookout campsite.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

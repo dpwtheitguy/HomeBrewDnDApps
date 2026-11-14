@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:47303",
+  "title": "Goris' Chest Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430463,
+      "title": "Goris' Chest Key",
+      "markers": [
+        "LOW_Hostel_Chest_Key02"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Nortale's Hostel",
+      "revision": 421359,
+      "markers": [
+        "The chest near the upper landing of the stairs contains Goris' belongings"
+      ]
+    }
+  ],
+  "summary": "Opens Goris’s chest near the upper stair landing at Nortale’s Hostel.",
+  "fields": {
+    "Base value": "1 gp in BG3. Merchant prices vary.",
+    "Use": "Opens Goris’s chest near the upper stair landing at Nortale’s Hostel. A DC 10 Sleight of Hand check also opens it.",
+    "Contents": "Contains Terazul and a Soul Coin."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

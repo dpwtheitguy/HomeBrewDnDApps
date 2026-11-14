@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:32446",
+  "title": "Githyanki Longsword (Psionic)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418911,
+      "title": "Githyanki Longsword (Psionic)",
+      "markers": [
+        "| uid = MAG_LowHP_IncreaseDamagePsychic_GithLongsword"
+      ]
+    },
+    {
+      "role": "Rules: Githborn Psionic Weapon",
+      "revision": 432592,
+      "title": "Githborn Psionic Weapon",
+      "markers": [
+        "| summary = '''Githborn Psionic Weapon''' is a passive feature granted by certain Githyanki weapons when wielded by a [[githyanki]]."
+      ]
+    }
+  ],
+  "summary": "This unobtainable +1 longsword has a 1d4 Psychic damage rider for a githyanki wielder.",
+  "fields": {
+    "Weapon damage": "1d8 + 1 Slashing one-handed or 1d10 + 1 two-handed, plus Strength modifier. +1 enchantment also improves attack rolls. Martial, versatile and dippable.",
+    "Githborn Psionic Weapon": "A githyanki wielder deals an extra 1d4 Psychic damage. A wielder disguised as githyanki also qualifies if the disguise is active before equipping the weapon.",
+    "Weapon actions": "With proficiency, gain Pommel Strike, Lacerate and Rush Attack.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "85 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:32102",
+  "title": "Hand Crossbow",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419297,
+      "title": "Hand Crossbow (Yurgir)",
+      "markers": [
+        "| uid = WPN_ORTHON_HandCrossbow_A"
+      ]
+    },
+    {
+      "role": "Rules: Hand Crossbows",
+      "revision": 389109,
+      "title": "Hand Crossbows",
+      "markers": [
+        "{{weapon type page"
+      ]
+    }
+  ],
+  "summary": "Yurgir’s hand crossbow deals 2d10 Piercing. Humanoids cannot equip it.",
+  "fields": {
+    "Weapon profile": "Martial, one-handed, Light, ammunition, loading, dippable and 50 ft normal range.",
+    "Availability": "Obtain only by disarming Yurgir. If he survives the fight with Raphael, picking up his dropped weapons can turn him hostile.",
+    "Base value": "50 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

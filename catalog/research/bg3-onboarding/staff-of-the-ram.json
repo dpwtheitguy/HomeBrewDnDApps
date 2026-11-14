@@ -1,0 +1,56 @@
+{
+  "item_id": "bg3-wiki:10983",
+  "title": "Staff of the Ram",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Staff of the Ram",
+      "revision": 438354,
+      "markers": [
+        "S_LOW_JaheirasHouse_StaffOfTheRam"
+      ]
+    },
+    {
+      "role": "Rules: Staff of the Ram (passive feature)",
+      "title": "Staff of the Ram (passive feature)",
+      "revision": 433277,
+      "markers": [
+        "| description = Once per turn, the blow possibly knocks a foe back {{Dist|m=2|ft=6.5}} and {{Cond|Stunned|Stuns}} them. This has no effect on dragons or Huge creatures."
+      ]
+    },
+    {
+      "role": "Rules: Topple",
+      "title": "Topple",
+      "revision": 377988,
+      "markers": [
+        "Non-lethal"
+      ]
+    },
+    {
+      "role": "Rules: Prone (condition)",
+      "title": "Prone (condition)",
+      "revision": 436524,
+      "markers": [
+        "One turn duration"
+      ]
+    },
+    {
+      "role": "Rules: Stunned (condition)",
+      "title": "Stunned (condition)",
+      "revision": 437120,
+      "markers": [
+        "Breaks {{concentration}}"
+      ]
+    }
+  ],
+  "summary": "+2 staff can push and stun a creature once per turn.",
+  "fields": {
+    "Weapon profile": "Simple, Versatile, 5 ft melee. 1d6 + 2 one-handed or 1d8 + 2 two-handed Bludgeoning plus Strength. +2 to attack rolls.",
+    "Staff of the Ram": "DC 8 Constitution save or pushed 7 ft and Stunned for 1 turn. No effect against Dragons or Huge creatures. The source reports the save can occur even on a missed attack or some other actions.",
+    "Acquisition": "Opulent chest behind a DC 18 locked bookcase in the basement.",
+    "Base value": "480 gp nominal BG3 value.",
+    "Topple": "With proficiency, once per Short Rest. Action, weapon attack for 1d4 nonlethal Bludgeoning. DEX save against weapon-action DC +2 or Prone for 1 turn. Prone breaks Concentration and expires at the start of the target’s turn. Topple skips main-hand weapon effects.",
+    "Stunned": "Cannot move, act or react and automatically fails Strength and Dexterity saves. Attackers gain Advantage. Stun breaks Concentration. Freedom of Movement, Greater Restoration and Unshackling Strike can remove it."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

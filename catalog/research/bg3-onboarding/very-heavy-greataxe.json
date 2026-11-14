@@ -1,0 +1,64 @@
+{
+  "item_id": "bg3-wiki:3402",
+  "title": "Very Heavy Greataxe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Very Heavy Greataxe",
+      "revision": 437950,
+      "markers": [
+        "UNI_WPN_HeavyGreataxe"
+      ]
+    },
+    {
+      "role": "Rules: Gargantuan Cleave",
+      "title": "Gargantuan Cleave",
+      "revision": 373797,
+      "markers": [
+        "whether or not"
+      ]
+    },
+    {
+      "role": "Rules: Off Balance (Gargantuan Cleave)",
+      "title": "Off Balance (Gargantuan Cleave)",
+      "revision": 444157,
+      "markers": [
+        "Strength|dc=8"
+      ]
+    },
+    {
+      "role": "Rules: Prepare",
+      "title": "Prepare",
+      "revision": 379055,
+      "markers": [
+        "minimum 1"
+      ]
+    },
+    {
+      "role": "Rules: Lacerate",
+      "title": "Lacerate",
+      "revision": 373909,
+      "markers": [
+        "Bleeding"
+      ]
+    },
+    {
+      "role": "Rules: Bleeding",
+      "title": "Bleeding",
+      "revision": 442222,
+      "markers": [
+        "start of each turn"
+      ]
+    }
+  ],
+  "summary": "Unusually heavy +1 greataxe trades balance for an area cleave.",
+  "fields": {
+    "Weapon profile": "Martial, two-handed, Heavy and Dippable. 5 ft melee. 1d12 + 1 Slashing plus Strength and +1 to attack rolls.",
+    "Gargantuan Cleave": "Action once per Short Rest with proficiency. A 5-ft cone targets up to three non-allied creatures or objects, closest first. Attacks deal half weapon damage on a hit, plus 1d6 Slashing even on a miss. The wielder becomes Off Balance for 1 turn. If hit while off balance, make a DC 8 Strength save or fall Prone for 1 turn.",
+    "Lacerate": "Action with proficiency once per Short Rest. Deal weapon damage. Constitution save against weapon-action DC +2 or Bleeding for 2 turns. The target takes 2 Slashing at turn start and has Disadvantage on Constitution saves until healed. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Prepare": "With proficiency, spend 20 ft movement once per Short Rest. Successful melee weapon attacks this turn deal extra physical damage equal to Strength modifier, minimum 1. Not a separate damage rider source in Honour Mode.",
+    "Acquisition": "Carried by Fezzerk near the Blighted Village windmill.",
+    "Base value": "130 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations. Reconciled applicable action, condition, and variant details against pinned rules."
+}

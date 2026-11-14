@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:33907",
+  "title": "Landscape",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420229,
+      "title": "Landscape",
+      "markers": [
+        "| description = '''Landscape''' is a common [[Valuables|Valuable]], primarily of use for bartering, or sale to [[Traders]]."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441540,
+      "title": "Highberry's Home",
+      "markers": [
+        "The strongbox itself is hidden behind the painting"
+      ]
+    }
+  ],
+  "summary": "This painting conceals the Highberry strongbox in their basement.",
+  "fields": {
+    "Use": "Look behind the painting for the strongbox containing an Elixir of Universal Resistance and Potion of Flying. The loose plank hiding the key is highlighted with DC 20 Perception after approaching. The painting itself can be sold.",
+    "Base value": "35 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

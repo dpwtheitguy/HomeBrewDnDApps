@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:13579",
+  "title": "Lower City Pass",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420640,
+      "title": "Lower City Pass",
+      "markers": [
+        "| uid = UNI_WYR_LowerCityPass"
+      ]
+    },
+    {
+      "role": "Rules: Solve the Open Hand Temple Murders",
+      "revision": 440354,
+      "title": "Solve the Open Hand Temple Murders",
+      "markers": [
+        "| description = Solve the Open Hand Temple Murders is a Quest in Act Three of Baldur's Gate 3. It can be started by speaking with Sister Yannis in the Open Hand Temple."
+      ]
+    }
+  ],
+  "summary": "Show this pass at Wyrm’s Crossing South Span to proceed to Wyrm’s Rock Fortress and the Lower City via North Span.",
+  "fields": {
+    "Acquisition": "Valeria gives it at Sharess’ Caress after Solve the Open Hand Temple Murders.",
+    "Base value": "14 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

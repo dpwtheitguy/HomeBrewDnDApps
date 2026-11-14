@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:11803",
+  "title": "Martial Exertion Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420833,
+      "title": "Martial Exertion Gloves",
+      "markers": [
+        "MAG_Martial_Exertion_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 292340,
+      "title": "Martial Exertion",
+      "markers": [
+        "movement speed is lost"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 436162,
+      "title": "Martial Exertion (condition)",
+      "markers": [
+        "{{condition page"
+      ]
+    }
+  ],
+  "summary": "Take 6d6 Piercing damage to gain one extra attack and double movement speed in combat.",
+  "fields": {
+    "Martial Exertion": "Free action on yourself in combat, once per Short Rest. You take 6d6 Piercing. Gain one additional attack and doubled movement for 1 turn. The extra attack stacks with Extra Attack but does not trigger it. The doubled movement ends when you take the extra attack.",
+    "Acquisition": "Buy from Bumpnagel in the Rivington General cellar.",
+    "Base value": "160 gp in BG3. Merchant prices vary.",
+    "Honour Mode": "Very Rare, with a base value of 580 gp."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

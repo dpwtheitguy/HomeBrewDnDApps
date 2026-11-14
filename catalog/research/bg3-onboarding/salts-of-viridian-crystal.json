@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:13764",
+  "title": "Salts of Viridian Crystal",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422615,
+      "title": "Salts of Viridian Crystal",
+      "markers": [
+        "ALCH_Extract_ViridianCrystal"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 417711,
+      "title": "Diluted Oil of Sharpness",
+      "markers": [
+        "| description ="
+      ]
+    }
+  ],
+  "summary": "Alchemy extract used to make Diluted Oil of Sharpness.",
+  "fields": {
+    "Extraction": "Combine 3 Viridian Crystals.",
+    "Recipe": "Combine these salts with any Vitriol to make Diluted Oil of Sharpness.",
+    "Result": "Coats a weapon for 10 turns, making it magical and giving +1 weapon enchantment.",
+    "Base value": "25 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

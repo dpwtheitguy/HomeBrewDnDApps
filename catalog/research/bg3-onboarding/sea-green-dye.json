@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:8271",
+  "title": "Sea Green Dye",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422941,
+      "title": "Sea Green Dye",
+      "markers": [
+        "LOOT_Dye_BlueGreen_01"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 405683,
+      "title": "Dyes",
+      "markers": [
+        "replaces the original dye"
+      ]
+    }
+  ],
+  "summary": "Single-use dye for recolouring equipment.",
+  "fields": {
+    "Use": "Combine the dye with eligible equipment in inventory. It replaces a previous dye. Dye Remover restores the original colour.",
+    "Base value": "3 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

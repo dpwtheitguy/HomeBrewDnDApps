@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:3619",
+  "title": "Ring of Absolute Force",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422368,
+      "title": "Ring of Absolute Force",
+      "markers": [
+        "UNI_UND_KC_RingOfAbsolute"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 424220,
+      "title": "Thunderwave",
+      "markers": [
+        "| force m = 8"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432026,
+      "title": "Absolute's Tempest",
+      "markers": [
+        "not [[Brand of the Absolute|branded]]"
+      ]
+    }
+  ],
+  "summary": "Casts Thunderwave and adds 1 damage to qualifying Thunder damage.",
+  "fields": {
+    "Thunderwave": "Level 1, Action once per Short Rest. In a 17 ft cube in front of you, deal 2d8 Thunder and push up to 26 ft. Constitution save halves damage and prevents the push.",
+    "Absolute’s Tempest": "Adds 1 Thunder damage when you deal qualifying Thunder damage. The tooltip requires the Brand of the Absolute, but the linked rules report it works without it. Booming Blade and Thunderous Smite are reported exceptions in Honour Mode.",
+    "Acquisition": "Sergeant Thrinn at Grymforge X −628, Y 320.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

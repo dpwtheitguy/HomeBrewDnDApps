@@ -1,0 +1,42 @@
+{
+  "item_id": "bg3-wiki:12947",
+  "title": "Elixir of Vigilance",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422861,
+      "title": "Elixir of Vigilance",
+      "markers": [
+        "ALCH_Solution_Elixir_Alertness",
+        "price = 25",
+        "* Drink to gain a +5 bonus to Initiative. In addition, you can't be Surprised. Replaces effects from other elixirs when drunk."
+      ]
+    },
+    {
+      "role": "Shared elixir rules",
+      "revision": 425971,
+      "title": "Elixirs",
+      "markers": [
+        "Only one elixir can be applied at a time",
+        "extra hit points"
+      ]
+    },
+    {
+      "role": "Applied condition",
+      "revision": 435280,
+      "title": "Elixir of Vigilance (condition)",
+      "markers": [
+        "ALCH_ELIXIR"
+      ]
+    }
+  ],
+  "summary": "Drink as a Bonus Action. Gain +5 Initiative and immunity to Surprised until the next Long Rest.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle. Gain +5 Initiative and immunity to Surprised until the next Long Rest.",
+    "Stacking": "Replaces another elixir effect. Drinking a different elixir can end this effect early.",
+    "Creative use": "Drink before a fight where this effect will matter.",
+    "Crafting": "Combine Sublimate of Bloodstained Hook with any Ashes.",
+    "Base value": "25 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 activation, effects and linked rules."
+}

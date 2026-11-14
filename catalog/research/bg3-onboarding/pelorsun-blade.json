@@ -1,0 +1,81 @@
+{
+  "item_id": "bg3-wiki:9614",
+  "title": "Pelorsun Blade",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Pelorsun Blade",
+      "revision": 421740,
+      "markers": [
+        "MAG_LC_RadiantLight_Rapier"
+      ]
+    },
+    {
+      "role": "Rules: Undead Bane",
+      "title": "Undead Bane",
+      "revision": 433385,
+      "markers": [
+        "all'' attacks rolls"
+      ]
+    },
+    {
+      "role": "Rules: Flourish",
+      "title": "Flourish",
+      "revision": 373786,
+      "markers": [
+        "Off Balance"
+      ]
+    },
+    {
+      "role": "Rules: Piercing Strike",
+      "title": "Piercing Strike",
+      "revision": 374168,
+      "markers": [
+        "Gaping Wounds"
+      ]
+    },
+    {
+      "role": "Rules: Weakening Strike",
+      "title": "Weakening Strike",
+      "revision": 374483,
+      "markers": [
+        "Weak Grip"
+      ]
+    },
+    {
+      "role": "Rules: Gaping Wounds",
+      "title": "Gaping Wounds",
+      "revision": 443536,
+      "markers": [
+        "Honour Mode"
+      ]
+    },
+    {
+      "role": "Rules: Weak Grip (condition)",
+      "title": "Weak Grip (condition)",
+      "revision": 437410,
+      "markers": [
+        "Disadvantage"
+      ]
+    },
+    {
+      "role": "Rules: Off Balance",
+      "title": "Off Balance",
+      "revision": 444158,
+      "markers": [
+        "Removed by taking damage"
+      ]
+    }
+  ],
+  "summary": "+1 rapier adds Radiant damage and grants Advantage against undead.",
+  "fields": {
+    "Weapon": "Martial one-handed finesse, 5-ft melee. 1d8 + 1 Piercing plus Strength or Dexterity, plus 1d4 Radiant on hit. +1 to attacks.",
+    "Undead Bane": "Advantage on this weapon’s attacks against undead. The pinned passive reports the live effect extends to all attack rolls against undead.",
+    "Flourish": "Bonus Action once per Short Rest with proficiency. Nonlethal 1d4 Bludgeoning. Dexterity save against weapon-action DC +2 or Off Balance for 2 turns. Off Balance gives attackers Advantage and imposes Disadvantage on Strength and Dexterity checks. Damage or Help clears it.",
+    "Piercing Strike": "Action once per Short Rest with proficiency. Deal weapon damage. Constitution save against weapon-action DC +2 or Gaping Wounds for 2 turns, adding 2 Piercing damage to subsequent hits. Undead and constructs are immune. Healing clears Gaping Wounds. In Honour Mode the +2 adopts the original damage type and applies to any damage source.",
+    "Weakening Strike": "Action once per Short Rest with proficiency. Nonlethal attack for 1d4 plus the attack ability modifier of the weapon’s damage type. Strength save against weapon-action DC +2 or Weak Grip for 2 turns. Creatures without weapons are immune. Weak Grip imposes Disadvantage on attack rolls and Strength saves. An ally can clear it with Help.",
+    "Acquisition": "Cazador’s Dungeon. DC 15 Perception reveals the dirt mound with a trapped rosewood casket.",
+    "Base value": "960 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

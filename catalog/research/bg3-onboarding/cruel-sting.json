@@ -1,0 +1,50 @@
+{
+  "item_id": "bg3-wiki:9078",
+  "title": "Cruel Sting",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417410,
+      "title": "Cruel Sting",
+      "markers": [
+        "MAG_Drowelf_SpiderSnare_Longsword"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433291,
+      "title": "Sting The Helpless",
+      "markers": [
+        "| description = A [[Drow]] wielding this weapon deals an additional {{DamageText|1d4|Poison}} against {{Cond|Restrained}} targets."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 328653,
+      "title": "Ensnaring Strands",
+      "markers": [
+        "| uid = Target_MAG_Drow_EnsnaringStrike"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442812,
+      "title": "Enwebbed",
+      "markers": [
+        "* {{Attack Roll}}s against the creature have {{Advantage}}, while the creature's Attack Rolls and [[Dexterity]] {{SavingThrow}}s are rolled with {{Disadvantage}}."
+      ]
+    }
+  ],
+  "summary": "This +1 longsword gives drow wielders bonus Poison against Restrained targets and grants Ensnaring Strands.",
+  "fields": {
+    "Damage": "1d8 + 1 Slashing",
+    "Weapon profile": "Martial, versatile, longswords.",
+    "Two-handed damage": "1d10 + 1 Slashing",
+    "Weapon actions": "Lacerate, Pommel Strike, Rush Attack.",
+    "Sting the Helpless": "Drow and creatures disguised as drow deal an extra 1d4 Poison to Restrained targets.",
+    "Ensnaring Strands": "Action once per Short Rest. Make a melee attack for 1d10 + Strength modifier Slashing. The target makes a Strength save against your spell save DC or becomes Enwebbed for 10 turns. Enwebbed sets movement speed to zero, grants advantage to attackers and imposes disadvantage on the target’s attacks and Dexterity saves.",
+    "Reported behavior": "Looted from Kar’niss, the sword can retain Spindleweb Fanatic until Long Rest for an extra 1d6 Psychic on weapon attacks.",
+    "Base value": "250 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence."
+}

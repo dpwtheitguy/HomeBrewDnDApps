@@ -1,0 +1,26 @@
+{
+  "item_id": "bg3-wiki:3339",
+  "title": "Everburn Blade",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418305,
+      "title": "Everburn Blade",
+      "markers": [
+        "MAG_Fire_AlwaysDippedInFire_Greatsword"
+      ]
+    }
+  ],
+  "summary": "A magical greatsword that deals 2d6 Slashing and 1d4 Fire.",
+  "fields": {
+    "Damage": "2d6 Slashing",
+    "Weapon profile": "Martial, two-handed, greatswords.",
+    "Properties": "Heavy.",
+    "Extra damage": "1d4 Fire.",
+    "Weapon actions": "Cleave, Lacerate, Pommel Strike.",
+    "Dipping": "Cannot be dipped.",
+    "Acquisition": "Commander Zhalk carries it on the Nautiloid. Defeat him or make him drop it.",
+    "Base value": "130 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

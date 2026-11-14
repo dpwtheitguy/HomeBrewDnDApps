@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:16453",
+  "title": "Scroll of Stoneskin",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Stoneskin",
+      "revision": 422921,
+      "markers": [
+        "LOOT_SCROLL_Stoneskin"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Stoneskin",
+      "revision": 328336,
+      "markers": [
+        "Target_Stoneskin"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Touch a creature to grant resistance to nonmagical Bludgeoning, Piercing and Slashing.",
+  "fields": {
+    "Cast": "Level 4. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Touch a creature to grant resistance to nonmagical Bludgeoning, Piercing and Slashing. Concentration until Long Rest.",
+    "Range": "5 ft.",
+    "Concentration": "Maintain Concentration for the ongoing effect.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "180 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

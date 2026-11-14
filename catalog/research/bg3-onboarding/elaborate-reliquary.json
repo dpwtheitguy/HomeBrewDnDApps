@@ -1,0 +1,33 @@
+{
+  "item_id": "bg3-wiki:5727",
+  "title": "Elaborate Reliquary",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Elaborate Reliquary",
+      "revision": 418083,
+      "markers": [
+        "S_TUT_TransformChamber_SharChest",
+        "50 Hit Points",
+        "| condition = Medium Toughness"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Medium Toughness",
+      "revision": 443599,
+      "markers": [
+        "at least 22 damage",
+        "each individual hit"
+      ]
+    }
+  ],
+  "summary": "A Medium container with 50 object HP and Medium Toughness.",
+  "fields": {
+    "Durability": "50 object HP. Medium Toughness requires at least 22 damage from a single hit.",
+    "Weight": "20 kg.",
+    "Base value": "1 gp in BG3.",
+    "Acquisition": "Found aboard the Nautiloid in the prologue."
+  },
+  "changes": "Added native BG3 gameplay, acquisition, and pinned source evidence."
+}

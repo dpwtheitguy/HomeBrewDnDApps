@@ -1,0 +1,55 @@
+{
+  "item_id": "bg3-wiki:4406",
+  "title": "Sussur Dagger",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Sussur Dagger",
+      "revision": 438507,
+      "markers": [
+        "QUEST_FOR_SussurDagger"
+      ]
+    },
+    {
+      "role": "Rules: Silenced (condition)",
+      "title": "Silenced (condition)",
+      "revision": 436942,
+      "markers": [
+        "| effects ="
+      ]
+    },
+    {
+      "role": "Rules: Finish the Masterwork Weapon",
+      "title": "Finish the Masterwork Weapon",
+      "revision": 440507,
+      "markers": [
+        "Sussur Tree Bark"
+      ]
+    },
+    {
+      "role": "Rules: Piercing Strike",
+      "title": "Piercing Strike",
+      "revision": 374168,
+      "markers": [
+        "Gaping Wounds"
+      ]
+    },
+    {
+      "role": "Rules: Gaping Wounds",
+      "title": "Gaping Wounds",
+      "revision": 443536,
+      "markers": [
+        "Honour Mode"
+      ]
+    }
+  ],
+  "summary": "+1 weapon can silence foes on melee hits.",
+  "fields": {
+    "Weapon profile": "Simple, One-handed, 5 ft melee, Finesse, Light, Thrown, Dippable. 1d4 + 1 Piercing plus Strength or Dexterity. +1 to attack rolls.",
+    "Silencing": "Melee hit forces DC 12 Constitution save. Failure Silences for 2 turns, preventing speech and verbal spellcasting while granting Thunder immunity. Thrown hits never apply it.",
+    "Crafting": "Combine a normal Dagger and Sussur Tree Bark at the Blacksmith’s Forge. Some nonstandard variants cannot be used.",
+    "Base value": "80 gp nominal BG3 value.",
+    "Piercing Strike": "With proficiency, once per Short Rest. Action, weapon damage. CON save against weapon-action DC +2 or Gaping Wounds for 2 turns. Successful hits gain 2 Piercing. Honour Mode adds 2 of the original type to any damage source. Healing clears it. Undead and Constructs are immune."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

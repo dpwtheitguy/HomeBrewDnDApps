@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:47967",
+  "title": "Kurwin's Mortuary Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430625,
+      "title": "Kurwin's Mortuary Key",
+      "markers": [
+        "| uid = LOW_Graveyard_MortuaryHatch_Key"
+      ]
+    },
+    {
+      "role": "Rules: Graveyard (Lower City)",
+      "revision": 441746,
+      "title": "Graveyard (Lower City)",
+      "markers": [
+        "{{Cw|article|described|violence|abuse}}<!--Really needed here - burying alive, murdered children, etc. Actually, \"impiety to the dead\" also needed, but this is a single exceptional case to make a distinct template-->"
+      ]
+    }
+  ],
+  "summary": "Opens the hatch to the Mortuary cellar in the Lower City graveyard.",
+  "fields": {
+    "Acquisition": "Valmorba carries it. The hatch is beside the porch stairs at X 31, Y 21. A DC 10 Sleight of Hand check also opens it.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

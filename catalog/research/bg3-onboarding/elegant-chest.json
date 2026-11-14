@@ -1,0 +1,32 @@
+{
+  "item_id": "bg3-wiki:31184",
+  "title": "Elegant Chest",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Elegant Chest",
+      "revision": 418100,
+      "markers": [
+        "CONT_GTY_Chest_B",
+        "25 Hit Points",
+        "| condition = Medium Toughness"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Medium Toughness",
+      "revision": 443599,
+      "markers": [
+        "at least 22 damage",
+        "each individual hit"
+      ]
+    }
+  ],
+  "summary": "A Medium container with 25 object HP and Medium Toughness.",
+  "fields": {
+    "Durability": "25 object HP. Medium Toughness requires at least 22 damage from a single hit.",
+    "Weight": "10 kg.",
+    "Base value": "1 gp in BG3."
+  },
+  "changes": "Added native BG3 gameplay, acquisition, and pinned source evidence."
+}

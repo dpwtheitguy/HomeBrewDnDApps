@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:16345",
+  "title": "Suspension of Ochre Jelly",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Suspension of Ochre Jelly",
+      "revision": 423756,
+      "markers": [
+        "ALCH_Extract_OchreJellySlime"
+      ]
+    },
+    {
+      "role": "Rules: Elixir of Guileful Movement",
+      "title": "Elixir of Guileful Movement",
+      "revision": 422858,
+      "markers": [
+        "Suspension of Ochre Jelly"
+      ]
+    }
+  ],
+  "summary": "Alchemical extract used for Elixir of Guileful Movement.",
+  "fields": {
+    "Extract": "Combine 3 Ochre Jelly Slimes to make one Suspension of Ochre Jelly.",
+    "Brew": "Combine this extract with any Sublimate to make Elixir of Guileful Movement.",
+    "Base value": "35 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

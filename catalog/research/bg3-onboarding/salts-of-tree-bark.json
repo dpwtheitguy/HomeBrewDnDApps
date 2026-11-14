@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:13762",
+  "title": "Salts of Tree Bark",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422614,
+      "title": "Salts of Tree Bark",
+      "markers": [
+        "ALCH_Extract_WoodBark"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 418130,
+      "title": "Elixir of Barkskin",
+      "markers": [
+        "| description ="
+      ]
+    }
+  ],
+  "summary": "Alchemy extract used to make Elixir of Barkskin.",
+  "fields": {
+    "Extraction": "Combine 3 Wood Bark pieces.",
+    "Recipe": "Combine these salts with any Suspension to make Elixir of Barkskin.",
+    "Result": "Raises AC to at least 16 until Long Rest.",
+    "Base value": "30 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

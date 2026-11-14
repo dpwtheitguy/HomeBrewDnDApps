@@ -1,0 +1,55 @@
+{
+  "item_id": "bg3-wiki:11609",
+  "title": "Raven Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422173,
+      "title": "Raven Gloves",
+      "markers": [
+        "MAG_Raven_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438786,
+      "title": "Summon Quothe the Raven",
+      "markers": [
+        "can never become ensnared"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 416352,
+      "title": "Beak Attack (Raven Familiar)",
+      "markers": [
+        "| damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 422289,
+      "title": "Rend Vision (Raven Familiar)",
+      "markers": [
+        "Blinded"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 431283,
+      "title": "Punish the Wicked",
+      "markers": [
+        "Raven Gloves"
+      ]
+    }
+  ],
+  "summary": "Summon Quothe the Raven, a flying familiar that can Blind enemies.",
+  "fields": {
+    "Summon": "Level 3, Action, 60 ft range, once per Short Rest. Quothe has 1 HP and AC 12. Unequipping the gloves dismisses it. You cannot keep it alongside another Find Familiar summon.",
+    "Familiar actions": "Fly for movement. Beak Attack is a melee Action that deals 1 + Dexterity modifier Piercing on hit. Rend Vision is a melee unarmed Action, dealing 1 Piercing on hit and Blinding until the start of the target’s turn, with no save. The raven’s extra attack lasts only its first turn.",
+    "Tooltip discrepancy": "The tooltip says a hostile killer must make a Dexterity save to avoid Ensnared. The source reports this never actually applies.",
+    "Acquisition": "Reward from He Who Was for Punish the Wicked.",
+    "Base value": "160 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

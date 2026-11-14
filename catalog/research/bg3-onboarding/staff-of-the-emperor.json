@@ -1,0 +1,65 @@
+{
+  "item_id": "bg3-wiki:22129",
+  "title": "Staff of the Emperor",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Staff of the Emperor",
+      "revision": 438232,
+      "markers": [
+        "END_Emperor_Staff"
+      ]
+    },
+    {
+      "role": "Rules: Arcane Enchantment (+1)",
+      "title": "Arcane Enchantment (+1)",
+      "revision": 432064,
+      "markers": [
+        "| description = You gain a +1 bonus to [[Spell Save DC]] and [[Spell Attack]] rolls."
+      ]
+    },
+    {
+      "role": "Rules: Imperial Retaliation",
+      "title": "Imperial Retaliation",
+      "revision": 438299,
+      "markers": [
+        "| description = When the wielder succeeds a {{Saving Throw}}, the foe that caused the throw needs to make an {{Saving Throw|Intelligence}} or be {{cond|Stunned}} for 1 turn."
+      ]
+    },
+    {
+      "role": "Rules: Topple",
+      "title": "Topple",
+      "revision": 377988,
+      "markers": [
+        "Non-lethal"
+      ]
+    },
+    {
+      "role": "Rules: Prone (condition)",
+      "title": "Prone (condition)",
+      "revision": 436524,
+      "markers": [
+        "One turn duration"
+      ]
+    },
+    {
+      "role": "Rules: Stunned (condition)",
+      "title": "Stunned (condition)",
+      "revision": 437120,
+      "markers": [
+        "Breaks {{concentration}}"
+      ]
+    }
+  ],
+  "summary": "+2 staff improves spellcasting and can stun enemy casters.",
+  "fields": {
+    "Weapon profile": "Simple, Versatile, 5 ft melee, Dippable. 1d6 + 2 one-handed or 1d8 + 2 two-handed Bludgeoning plus Strength. +2 to attack rolls.",
+    "Arcane Enchantment": "+1 spell attack rolls and spell save DC.",
+    "Imperial Retaliation": "When you succeed on a save against a hostile spell, its caster makes a DC 15 Intelligence save or becomes Stunned for 1 turn.",
+    "Acquisition": "Disarm the Emperor in the Astral Plane at the Act Two to Three transition. Command and Fear only work if the Emperor is made hostile.",
+    "Base value": "190 gp nominal BG3 value.",
+    "Topple": "With proficiency, once per Short Rest. Action, weapon attack for 1d4 nonlethal Bludgeoning. DEX save against weapon-action DC +2 or Prone for 1 turn. Prone breaks Concentration and expires at the start of the target’s turn. Topple skips main-hand weapon effects.",
+    "Stunned": "Cannot move, act or react and automatically fails Strength and Dexterity saves. Attackers gain Advantage. Stun breaks Concentration. Freedom of Movement, Greater Restoration and Unshackling Strike can remove it."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

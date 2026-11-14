@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:8932",
+  "title": "Chain Shirt +2",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416971,
+      "title": "Chain Shirt +2",
+      "markers": [
+        "ARM_ChainShirt_2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433313,
+      "title": "Superior Material (-1)",
+      "markers": [
+        "| description = You take 1 less {{DamageType|Slashing}} damage."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432101,
+      "title": "Balance",
+      "markers": [
+        "| description = Gain a +1 bonus to [[Dexterity]] {{Saving Throw}}s and {{Ability Check}}s"
+      ]
+    }
+  ],
+  "summary": "Medium Armour with AC 15 plus Dexterity modifier, to a maximum +2 bonus. Reduce incoming Slashing damage by 1 and add +1 to Dexterity checks and saves.",
+  "fields": {
+    "Effect": "Medium Armour with AC 15 plus Dexterity modifier, to a maximum +2 bonus. Reduce incoming Slashing damage by 1 and add +1 to Dexterity checks and saves.",
+    "Base value": "210 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

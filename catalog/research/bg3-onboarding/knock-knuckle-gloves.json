@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:10986",
+  "title": "Knock Knuckle Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420150,
+      "title": "Knock Knuckle Gloves",
+      "markers": [
+        "| uid = S_LOW_CountingHouse_Vault7_PicklocksGloves"
+      ]
+    },
+    {
+      "role": "Rules: Knock",
+      "revision": 383599,
+      "title": "Knock",
+      "markers": [
+        "| summary = It allows spellcasters to unlock non-magical locks."
+      ]
+    }
+  ],
+  "summary": "Gain +1 Sleight of Hand and cast Knock once per Long Rest.",
+  "fields": {
+    "Knock": "Action once per Long Rest, 60 ft. Open a mundane lock without a lockpicking check. Locks that explicitly resist Knock remain closed.",
+    "Acquisition": "High Security Vault 7 in the Counting House.",
+    "Base value": "90 gp in BG3. Merchant prices vary.",
+    "Sleight of Hand": "+1 to Sleight of Hand checks while wearing the gloves."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

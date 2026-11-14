@@ -1,0 +1,55 @@
+{
+  "item_id": "bg3-wiki:21479",
+  "title": "Staff of a Mumbling Wizard",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Staff of a Mumbling Wizard",
+      "revision": 423538,
+      "markers": [
+        "UNI_WYR_Circus_MumblingStaff"
+      ]
+    },
+    {
+      "role": "Rules: Firebolt?",
+      "title": "Firebolt?",
+      "revision": 366497,
+      "markers": [
+        "| description = Hurl a mote of fire."
+      ]
+    },
+    {
+      "role": "Rules: Fireball",
+      "title": "Fireball",
+      "revision": 418518,
+      "markers": [
+        "| description = Shoot a bright flame from your fingers that explodes upon contact, torching everything in the vicinity for {{DamageText|8d6|Fire}} damage."
+      ]
+    },
+    {
+      "role": "Rules: Topple",
+      "title": "Topple",
+      "revision": 377988,
+      "markers": [
+        "Non-lethal"
+      ]
+    },
+    {
+      "role": "Rules: Prone (condition)",
+      "title": "Prone (condition)",
+      "revision": 436524,
+      "markers": [
+        "One turn duration"
+      ]
+    }
+  ],
+  "summary": "At-will Firebolt? sometimes causes Fireball.",
+  "fields": {
+    "Weapon profile": "Simple, Versatile, 5 ft melee, Dippable. 1d6 one-handed or 1d8 two-handed Bludgeoning plus Strength.",
+    "Firebolt?": "Action, 60 ft, ranged spell attack. Deal 1d10 Fire with no level scaling. There is a 5% chance to create Fireball at impact, dealing 8d6 Fire within 13 ft with a DEX save for half.",
+    "Acquisition": "Consolation prize from Akabi’s wheel at the Circus of the Last Days.",
+    "Base value": "10 gp nominal BG3 value.",
+    "Topple": "With proficiency, once per Short Rest. Action, weapon attack for 1d4 nonlethal Bludgeoning. DEX save against weapon-action DC +2 or Prone for 1 turn. Prone breaks Concentration and expires at the start of the target’s turn. Topple skips main-hand weapon effects."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

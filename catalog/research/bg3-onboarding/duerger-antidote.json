@@ -1,0 +1,22 @@
+{
+  "item_id": "bg3-wiki:3803",
+  "title": "Duerger Antidote",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418010,
+      "title": "Duergar Antidote",
+      "markers": [
+        "UNI_UND_InjuredGnome_DuergarAntidote"
+      ]
+    }
+  ],
+  "summary": "Drink or throw to remove Poisoned-group conditions. Can cure Thulla during Cure the Poisoned Gnome.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one dose to remove Poisoned-group conditions.",
+    "Throw": "Action. Consume one dose to remove Poisoned-group conditions in a 3 ft radius. Item source lists a 10-turn duration.",
+    "Acquisition": "Carried by Gekh Coal or Skickpit. Cannot be purchased or made with Alchemy.",
+    "Base value": "40 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

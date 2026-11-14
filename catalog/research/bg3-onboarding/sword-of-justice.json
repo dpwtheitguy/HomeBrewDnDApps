@@ -1,0 +1,73 @@
+{
+  "item_id": "bg3-wiki:3341",
+  "title": "Sword of Justice",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Sword of Justice",
+      "revision": 423794,
+      "markers": [
+        "UNI_PLA_WPN_SwordOfJustice"
+      ]
+    },
+    {
+      "role": "Rules: Tyr's Protection",
+      "title": "Tyr's Protection",
+      "revision": 424452,
+      "markers": [
+        "| description = Protect a creature from attacks: increases its {{Armour Class}} by 2."
+      ]
+    },
+    {
+      "role": "Rules: Pommel Strike",
+      "title": "Pommel Strike",
+      "revision": 374173,
+      "markers": [
+        "Dazed"
+      ]
+    },
+    {
+      "role": "Rules: Dazed",
+      "title": "Dazed",
+      "revision": 442592,
+      "markers": [
+        "Dexterity"
+      ]
+    },
+    {
+      "role": "Rules: Lacerate",
+      "title": "Lacerate",
+      "revision": 373909,
+      "markers": [
+        "Bleeding"
+      ]
+    },
+    {
+      "role": "Rules: Bleeding",
+      "title": "Bleeding",
+      "revision": 442222,
+      "markers": [
+        "start of each turn"
+      ]
+    },
+    {
+      "role": "Rules: Cleave",
+      "title": "Cleave",
+      "revision": 373605,
+      "markers": [
+        "Up to 3"
+      ]
+    }
+  ],
+  "summary": "+1 greatsword grants Tyr’s Protection.",
+  "fields": {
+    "Weapon profile": "Martial, Two-handed, 5 ft melee, Heavy, Dippable. 2d6 + 1 Slashing plus Strength. +1 to attack rolls.",
+    "Tyr’s Protection": "Level 1 Bonus Action once per Short Rest, 60 ft. Target gains +2 AC while you concentrate, until Long Rest.",
+    "Acquisition": "Loot Anders or receive it as his Hunt the Devil reward.",
+    "Base value": "130 gp nominal BG3 value.",
+    "Pommel Strike": "With proficiency, once per Short Rest. Bonus Action for 1d4 nonlethal Bludgeoning. CON save against weapon-action DC +2 or Dazed for 2 turns, losing Dexterity AC bonus and Reaction use and gaining Disadvantage on WIS saves. Help clears it.",
+    "Lacerate": "With proficiency, once per Short Rest. Action, weapon damage. CON save against weapon-action DC +2 or Bleeding for 2 turns, with 2 Slashing at turn start and Disadvantage on CON saves until healed. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Cleave": "With proficiency, once per Short Rest. Action in a 7-ft cone, up to 3 non-allied creatures or objects. Each takes half weapon damage, with flat bonuses unhalved."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:19850",
+  "title": "Jar of Mystic Carrion's Lungs",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419928,
+      "title": "Jar of Mystic Carrion's Lungs",
+      "markers": [
+        "{{PageSeo"
+      ]
+    },
+    {
+      "role": "Rules: Breathless Lungs",
+      "revision": 442307,
+      "title": "Breathless Lungs",
+      "markers": [
+        "{{condition page"
+      ]
+    },
+    {
+      "role": "Rules: End Mystic Carrion's Immortality",
+      "revision": 383299,
+      "title": "End Mystic Carrion's Immortality",
+      "markers": [
+        "| description = Defeat Mystic Carrion is a sub-quest of the quest Find Mystic Carrion's Servant in Act Three of Baldur's Gate 3. It can be started by speaking with Thrumbo in the Lower City."
+      ]
+    }
+  ],
+  "summary": "Destroy it to let Mystic Carrion be Silenced.",
+  "fields": {
+    "Encounter effect": "Destroy it to let Mystic Carrion be Silenced.",
+    "Destruction": "The jar explodes in a 13 ft radius for 8d6 Fire. DC 10 Dexterity save halves the damage. Directly attacking the jar without destroying it deals 5 Necrotic to the attacker.",
+    "Acquisition": "On a table in the Lower City graveyard’s Mortuary cellar. Enter through the hatch at X 33, Y 22.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:34179",
+  "title": "Dead Pixie",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438500,
+      "title": "Dead Pixie",
+      "markers": [
+        "| uid = DEC_Necromancer_Dead_Pixie_A"
+      ]
+    },
+    {
+      "role": "Rules: Shadow Lantern",
+      "revision": 438503,
+      "title": "Shadow Lantern",
+      "markers": [
+        "| description = The {{rare|Shadow Lantern}} is a unique type of [[Moonlantern]] which provides a {{cond|Moonshield}} and grants the unique {{SAI|Conjure Shadow Lantern Wraith}} spell."
+      ]
+    }
+  ],
+  "summary": "Combine with a Broken Moonlantern in Balthazar’s laboratory with Gale in the party to create a Shadow Lantern.",
+  "fields": {
+    "Use": "Combine with a Broken Moonlantern in Balthazar’s laboratory with Gale in the party to create a Shadow Lantern.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

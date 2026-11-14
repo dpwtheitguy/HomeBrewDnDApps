@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:6849",
+  "title": "Rat Bat",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422168,
+      "title": "Rat Bat",
+      "markers": [
+        "UNI_TWN_WPN_HUM_NailBat"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433001,
+      "title": "Rat Catcher",
+      "markers": [
+        "beasts"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373613,
+      "title": "Concussive Smash",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442592,
+      "title": "Dazed",
+      "markers": [
+        "Wisdom"
+      ]
+    }
+  ],
+  "summary": "+1 greatclub grants Advantage on attack rolls against Beasts.",
+  "fields": {
+    "Weapon profile": "1d8 + 1 Bludgeoning plus Strength. +1 attack rolls. Simple, two-handed greatclub, Dippable, 5 ft melee. This greatclub lacks Tenacity.",
+    "Rat Catcher": "Advantage on attack rolls against Beasts.",
+    "Acquisition": "Leaning against the wall by Thisobald Thorm in the Waning Moon.",
+    "Concussive Smash": "Action, normal weapon damage. Constitution save against the higher of spell save DC or weapon-action DC +2. Failure Dazes for 2 turns, removing Dexterity AC bonus, giving Disadvantage on Wisdom saves, and blocking spending Reaction points. Help clears it. Once per Short Rest with proficiency.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

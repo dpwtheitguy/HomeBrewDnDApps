@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12797",
+  "title": "Patched Parchment",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421712,
+      "title": "Patched Parchment",
+      "markers": [
+        "S_UND_ClericPoem_Gift"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 440226,
+      "title": "Bernard",
+      "markers": [
+        "Patched Parchment"
+      ]
+    }
+  ],
+  "summary": "Reading unlocks a Bernard dialogue response that earns a Potion of Greater Healing.",
+  "fields": {
+    "Use": "Read the parchment and choose its prompt when speaking to Bernard.",
+    "Acquisition": "Fourth floor of the Arcane Tower, on the desk at X −30, Y −288.",
+    "Base value": "14 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

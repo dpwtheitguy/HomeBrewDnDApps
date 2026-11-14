@@ -1,0 +1,89 @@
+{
+  "item_id": "bg3-wiki:9624",
+  "title": "Render of Scrumptious Flesh",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 444651,
+      "title": "Render of Scrumptious Flesh",
+      "markers": [
+        "MAG_LC_Fleshred_Longsword"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374173,
+      "title": "Pommel Strike",
+      "markers": [
+        "main hand weapon functors"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442592,
+      "title": "Dazed",
+      "markers": [
+        "Wisdom"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "| condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442222,
+      "title": "Bleeding",
+      "markers": [
+        "start of each turn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374223,
+      "title": "Rush Attack",
+      "markers": [
+        "| range m = 9"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444158,
+      "title": "Off Balance",
+      "markers": [
+        "Removed by taking damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444654,
+      "title": "Part the Flesh",
+      "markers": [
+        "only deals the Necrotic damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 436720,
+      "title": "Rended Flesh (condition)",
+      "markers": [
+        "can't be healed"
+      ]
+    }
+  ],
+  "summary": "Unobtainable +2 longsword with bonus Necrotic damage and a healing-blocking strike.",
+  "fields": {
+    "Weapon profile": "1d8 + 2 Slashing one-handed or 1d10 + 2 two-handed, plus Strength. +2 attack and an additional 1d4 Necrotic on hit. Martial, versatile, 5 ft melee.",
+    "Pommel Strike": "Bonus Action with proficiency, once per Short Rest. Melee attack for 1d4 nonlethal Bludgeoning. Constitution save vs weapon-action DC +2 avoids Dazed for 2 turns. Dazed removes Dexterity AC bonus and Reaction use, gives disadvantage on Wisdom saves, and ends on Help. No main-hand weapon effect.",
+    "Lacerate": "Action with proficiency, once per Short Rest. Weapon damage on hit. Constitution save vs weapon-action DC +2 prevents Bleeding for 2 turns. Bleeding deals 2 Slashing at turn start and imposes disadvantage on Constitution saves. Healing removes it. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Rush Attack": "Action with proficiency, once per Short Rest. Charge up to 30 ft and attack the first non-allied creature or object for 1d4 + attack ability modifier Piercing. Strength save vs weapon-action DC prevents Off Balance for 2 turns. Off Balance gives disadvantage on Strength and Dexterity checks and advantage to attackers. Taking damage or Help ends it.",
+    "Part the Flesh": "Action with proficiency, once per Short Rest. Melee weapon attack with extra Necrotic damage equal to proficiency bonus. Constitution save vs weapon-action DC +2 prevents Rended Flesh for 3 turns. Affected target cannot be healed. The source reports the tooltip’s extra proficiency-based weapon damage does not apply.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "250 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

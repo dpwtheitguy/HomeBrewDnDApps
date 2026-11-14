@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:30663",
+  "title": "Letter with Sticky Red Blots",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Letter with Sticky Red Blots",
+      "revision": 420447,
+      "markers": [
+        "S_GLO_OrinsMessages_SteelWatchFoundryDestroyed"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Rescue Orin's Victim",
+      "revision": 437776,
+      "markers": [
+        "Orin left us a message with a clear directive"
+      ]
+    }
+  ],
+  "summary": "Orin’s camp letter directs the party to kill Gortash after the Steel Watch falls.",
+  "fields": {
+    "Quest use": "Reading gives Orin’s next directive in Rescue Orin’s Victim. With the Foundry destroyed, the journal points the party toward killing Gortash.",
+    "Acquisition": "Orin leaves this note at the campsite after the Steel Watch Foundry is destroyed.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 quest and Inspiration uses verified against pinned item and quest revisions."
+}

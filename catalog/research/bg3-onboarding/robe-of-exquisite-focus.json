@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:7878",
+  "title": "Robe of Exquisite Focus",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Robe of Exquisite Focus",
+      "revision": 422435,
+      "markers": [
+        "MAG_OfArcanicAssault_Robe"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "High Spellcasting (+1)",
+      "revision": 432643,
+      "markers": [
+        "Spell Save DC"
+      ]
+    }
+  ],
+  "summary": "Clothing that adds +1 to spell save DC.",
+  "fields": {
+    "High Spellcasting": "+1 to spell save DC while worn.",
+    "Acquisition": "Sold by Araj Oblodra on the main floor of Moonrise Towers.",
+    "Base value": "800 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

@@ -1,0 +1,41 @@
+{
+  "item_id": "bg3-wiki:27980",
+  "title": "Gnarled Tree Branch",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418988,
+      "title": "Gnarled Tree Branch",
+      "markers": [
+        "WPN_Ogre_Greatclub_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 408129,
+      "title": "Greatclubs",
+      "markers": [
+        "| damage = 1d8"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Tenacity",
+      "revision": 425432,
+      "markers": [
+        "| reaction1 cost = reaction"
+      ]
+    }
+  ],
+  "summary": "An Ogre greatclub dealing 2d8 Bludgeoning. Player characters cannot equip it.",
+  "fields": {
+    "Damage": "2d8 Bludgeoning",
+    "Range": "5 ft melee.",
+    "Handling": "two-handed",
+    "Weapon actions": "Concussive Smash",
+    "Availability": "Ogre-only. May be obtained by disarming an Ogre, but is unusable by player characters.",
+    "Base value": "16 gp in BG3. Merchant prices vary.",
+    "Tenacity": "In the main hand, when you miss a melee attack, spend a Reaction to deal Bludgeoning equal to Strength modifier, minimum 1."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

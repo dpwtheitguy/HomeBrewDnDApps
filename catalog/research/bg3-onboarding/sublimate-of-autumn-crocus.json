@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:13767",
+  "title": "Sublimate of Autumn Crocus",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Sublimate of Autumn Crocus",
+      "revision": 423675,
+      "markers": [
+        "ALCH_Extract_AutumnCrocus"
+      ]
+    },
+    {
+      "role": "Rules: Potion of Feather Fall",
+      "title": "Potion of Feather Fall",
+      "revision": 421938,
+      "markers": [
+        "Sublimate of Autumn Crocus"
+      ]
+    }
+  ],
+  "summary": "Alchemical extract used for Potion of Feather Fall.",
+  "fields": {
+    "Extract": "Combine 3 Autumncrocuses to make one Sublimate of Autumn Crocus.",
+    "Brew": "Combine this extract with any Essence to make Potion of Feather Fall.",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

@@ -1,0 +1,91 @@
+{
+  "item_id": "bg3-wiki:8816",
+  "title": "Orphic Hammer",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421590,
+      "title": "Orphic Hammer",
+      "markers": [
+        "| uid = LOW_MephistosVault_OrphicHammer"
+      ]
+    },
+    {
+      "role": "Rules: Unshackling Strike",
+      "revision": 433030,
+      "title": "Unshackling Strike",
+      "markers": [
+        "| description = Smite the magical bonds keeping a creature {{Condition type|Restrained}}, {{Condition type|Paralyzed}}, and {{Condition type|Stunned}}, freeing it."
+      ]
+    },
+    {
+      "role": "Rules: Spell Resistance",
+      "revision": 433180,
+      "title": "Spell Resistance",
+      "markers": [
+        "| summary = '''Spell Resistance''' is a passive feature that grants the wielder resistance against magical spells."
+      ]
+    },
+    {
+      "role": "Rules: Free Orpheus",
+      "revision": 432228,
+      "title": "Free Orpheus",
+      "markers": [
+        "| description = Free Orpheus is a Quest in Act Three of Baldur's Gate 3. It is started by either talking to Kith'rak Voss or Raphael in Sharess' Caress."
+      ]
+    },
+    {
+      "role": "Rules: Save Hope",
+      "revision": 429343,
+      "title": "Save Hope",
+      "markers": [
+        "| description = Save Hope is a Quest in Act Three of Baldur's Gate 3. It can be started by entering the House of Hope and speaking to Hope."
+      ]
+    },
+    {
+      "role": "Rules: House of Hope",
+      "revision": 442960,
+      "title": "House of Hope",
+      "markers": [
+        "{{Location page"
+      ]
+    },
+    {
+      "role": "Rules: Backbreaker",
+      "revision": 373567,
+      "title": "Backbreaker",
+      "markers": [
+        "| description = Put extra force behind your strike to possibly knock your enemy {{cond|Prone}}."
+      ]
+    },
+    {
+      "role": "Rules: Concussive Smash",
+      "revision": 373613,
+      "title": "Concussive Smash",
+      "markers": [
+        "| description = Hit an enemy with all your might to deal damage and possibly {{cond|Dazed|Daze}} them."
+      ]
+    },
+    {
+      "role": "Rules: Weakening Strike",
+      "revision": 374483,
+      "title": "Weakening Strike",
+      "markers": [
+        "| description = Target an enemy's hands with a non-lethal attack and possibly inflict {{SmCond|Weak Grip}}."
+      ]
+    }
+  ],
+  "summary": "Legendary +3 warhammer granting advantage on saves against spells. Frees Hope and Orpheus by different attacks.",
+  "fields": {
+    "Weapon profile": "1d8 + 3 one-handed or 1d10 + 3 two-handed Bludgeoning, plus Strength. +3 to attack rolls. Martial, versatile, thrown and dippable, 5 ft melee. Throwing into a chasm returns it to the nearest safe spot.",
+    "Spell Resistance": "Advantage on saving throws against spells.",
+    "Unshackling Strike": "Action, melee weapon attack. On a hit it can release effects in the Restrained, Paralysed or Stunned groups. Use it on the infernal crystals binding Hope. It does not remove Shackled and will not release Valeria.",
+    "Free Orpheus": "Make regular attacks with the hammer against his Infernal Crystals. Unshackling Strike and the Minor Orb of Domination are not the method. If you side with Orpheus without the hammer, Raphael can provide it if alive. Refusing his offer, attacking him, or missing the hammer when he is dead results in Game Over.",
+    "Backbreaker": "With proficiency, Action once per Short Rest. Hit a Large or smaller creature for 1d4 Bludgeoning plus the attack ability modifier. Strength save against weapon-action DC or Prone for 2 turns.",
+    "Concussive Smash": "With proficiency, Action once per Short Rest. On a melee hit, Constitution save against the higher of spell save DC and weapon-action DC +2 or Dazed for 2 turns.",
+    "Weakening Strike": "With proficiency, Action once per Short Rest. Nonlethal hit for 1d4 Bludgeoning plus the attack ability modifier. Strength save against weapon-action DC +2 or Weak Grip for 2 turns.",
+    "Acquisition": "Central pedestal in the House of Hope Archive, or from Raphael through the deal.",
+    "Base value": "770 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12747",
+  "title": "Note (Infernal Mason)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421365,
+      "title": "Note (Infernal Mason)",
+      "markers": [
+        "| uid = S_SCL_BannedSeluneItemsNote"
+      ]
+    },
+    {
+      "role": "Rules: Investigate the Selûnite Resistance",
+      "revision": 441226,
+      "title": "Investigate the Selûnite Resistance",
+      "markers": [
+        "| description = Investigate the Selûnite Resistance is a quest in Act Two of Baldur's Gate 3. It can be started by reading the Investigation Notes on Inquisitor Verzen Wranlock's skeleton or reading the note in the Potter's chest in the Ruined Battlefield."
+      ]
+    }
+  ],
+  "summary": "Read Morfred’s prayer to advance Investigate the Selûnite Resistance.",
+  "fields": {
+    "Acquisition": "Potter’s chest on the Ruined Battlefield at X −54, Y 10.",
+    "Base value": "14 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions.",
+  "use_wiki_title": true
+}

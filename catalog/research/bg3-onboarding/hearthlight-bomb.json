@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:11750",
+  "title": "Hearthlight Bomb",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419413,
+      "title": "Hearthlight Bomb",
+      "markers": [
+        "ALCH_Solution_Grenade_Light"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 404089,
+      "title": "Dancing Lights (area)",
+      "markers": [
+        "| description = Illuminates {{Dist|m=9|ft=30}} radius."
+      ]
+    }
+  ],
+  "summary": "Throw a Hearthlight Bomb to light a 30 ft radius.",
+  "fields": {
+    "Throw": "Action. Consume one bomb to toss it up to 60 ft. Creates a Dancing Lights area for 10 turns.",
+    "Crafting": "Combine Essence of Nightlight with any Suspension.",
+    "Base value": "13 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:38248",
+  "title": "Wooden Chest",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Wooden Chest",
+      "revision": 424975,
+      "markers": [
+        "'''Wooden Chest''' is a type of [[Container]] that can be picked up or thrown by the player. They usually contain [[Consumables]], [[Equipment]], [[Miscellaneous]] items and other randomized common loot."
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Sturdy",
+      "revision": 443601,
+      "markers": [
+        "at least 10 damage"
+      ]
+    }
+  ],
+  "summary": "50 HP breakable chest with Sturdy.",
+  "fields": {
+    "Durability": "50 HP. Sturdy requires at least 10 damage per hit. Resists Piercing, Necrotic and Radiant, is vulnerable to Bludgeoning and immune to Poison and Psychic.",
+    "Variants": "Buried examples require a shovel and weigh about 44 lb. Other wooden chests can weigh about 22 lb.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

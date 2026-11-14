@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:3622",
+  "title": "Spurred Band",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Spurred Band",
+      "revision": 437985,
+      "markers": [
+        "MAG_Mobility_LowHP_Momentum_Ring"
+      ]
+    },
+    {
+      "role": "Rules: Frantic Urgency",
+      "title": "Frantic Urgency",
+      "revision": 432582,
+      "markers": [
+        "| description = During combat, when the wearer starts their turn with 50% [[Hit Points]] or less, they gain {{Cond|Momentum}} for 1 turn."
+      ]
+    },
+    {
+      "role": "Rules: Momentum",
+      "title": "Momentum",
+      "revision": 444042,
+      "markers": [
+        "per remaining duration"
+      ]
+    }
+  ],
+  "summary": "Gain Momentum at low HP in combat.",
+  "fields": {
+    "Frantic Urgency": "Starting a combat turn at 50% HP or less grants 1 turn of Momentum, adding 5 ft movement.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

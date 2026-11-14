@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:3708",
+  "title": "Sickle of BOOOAL",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423188,
+      "title": "Sickle of BOOOAL",
+      "markers": [
+        "UNI_SickleOfBOOOAL"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442222,
+      "title": "Bleeding",
+      "markers": [
+        "start of each turn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442281,
+      "title": "BOOOAL's Blessing",
+      "markers": [
+        "kuo-toa"
+      ]
+    }
+  ],
+  "summary": "2d4 Slashing sickle with Lacerate.",
+  "fields": {
+    "Weapon profile": "2d4 Slashing plus Strength. Simple, one-handed, light, 5 ft melee.",
+    "Lacerate": "Action with proficiency, once per Short Rest. Melee weapon damage. Constitution save against weapon-action DC +2 prevents Bleeding for 2 turns. Bleeding deals 2 Slashing at turn start and gives disadvantage on Constitution saves. Healing ends it. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "BOOOAL’s Blessing": "Advantage on attacks against Bleeding creatures while kuo-toa worship BOOOAL. Long Rest with the sickle in inventory removes the initial blessing. Dropping or stashing it first can preserve the effect.",
+    "Acquisition": "Become BOOOAL’s Chosen after exposing him, or buy the sickle from Pooldripp during the first conversation after defeating BOOOAL without fighting the kuo-toa.",
+    "Base value": "190 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:50351",
+  "title": "Oriona's Chest Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430484,
+      "title": "Oriona's Chest Key",
+      "markers": [
+        "| uid = WYR_WyrmRock_OrionaChestKey"
+      ]
+    },
+    {
+      "role": "Rules: Oriona",
+      "revision": 431946,
+      "title": "Oriona",
+      "markers": [
+        "{{Infobox creature"
+      ]
+    },
+    {
+      "role": "Rules: Wyrm's Rock Fortress",
+      "revision": 444624,
+      "title": "Wyrm's Rock Fortress",
+      "markers": [
+        "{{Location page"
+      ]
+    }
+  ],
+  "summary": "Opens Fist Oriona’s personal chest in the Flaming Fist barracks at Wyrm’s Rock Fortress.",
+  "fields": {
+    "Acquisition": "Carried by Fist Oriona, who sleeps in the barracks.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

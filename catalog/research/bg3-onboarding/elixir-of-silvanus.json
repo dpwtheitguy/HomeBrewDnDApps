@@ -1,0 +1,22 @@
+{
+  "item_id": "bg3-wiki:9080",
+  "title": "Elixir of Silvanus",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418163,
+      "title": "Elixir of Silvanus",
+      "markers": [
+        "UNI_Apprentice_Antidote"
+      ]
+    }
+  ],
+  "summary": "Immediately remove poison effects from yourself.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle. Immediately remove poison effects from yourself.",
+    "Throw": "Action. Throw up to 60 ft. The antidote affects creatures in a 3 ft radius and can leave an antidote cloud a creature may enter to benefit.",
+    "Quest use": "Can cure Thulla and certain At Death’s Door poisons. The pinned source describes the Mugwort recipe as pre-Patch 1.",
+    "Base value": "25 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

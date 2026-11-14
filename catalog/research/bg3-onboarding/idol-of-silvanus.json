@@ -1,0 +1,54 @@
+{
+  "item_id": "bg3-wiki:4129",
+  "title": "Idol of Silvanus",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 434285,
+      "title": "Idol of Silvanus",
+      "markers": [
+        "| uuid = bd8795e9-7daa-4d92-bac4-93f5dd8f66b2"
+      ]
+    },
+    {
+      "role": "Rules: Steal the Sacred Idol",
+      "revision": 434284,
+      "title": "Steal the Sacred Idol",
+      "markers": [
+        "| description = Steal the Sacred Idol is a quest in the Druid Grove in Act One of Baldur's Gate 3. It can be initiated by speaking with Mol after earning her trust by helping the various tiefling children in the Druid Grove."
+      ]
+    },
+    {
+      "role": "Rules: Idyllic Aura",
+      "revision": 443776,
+      "title": "Idyllic Aura",
+      "markers": [
+        "| effects = * Grants Silvanus' Blessing to creatures within range."
+      ]
+    },
+    {
+      "role": "Rules: Silvanus' Blessing (condition)",
+      "revision": 436946,
+      "title": "Silvanus' Blessing (condition)",
+      "markers": [
+        "{{condition page"
+      ]
+    },
+    {
+      "role": "Rules: Rite of Thorns (ritual)",
+      "revision": 422410,
+      "title": "Rite of Thorns (ritual)",
+      "markers": [
+        "| description = The Rite of Thorns is a Silvanite ritual preformed by the druids of the Emerald Grove. The ritual is being performed by the order of acting First Druid Kagha. Once the ritual is complete, the Emerald Grove will become completely inaccessible to the party."
+      ]
+    }
+  ],
+  "summary": "Carry the Idol of Silvanus to grant Nature and Animal Handling proficiency to nearby creatures.",
+  "fields": {
+    "Silvanus’ Blessing": "Idyllic Aura remains active in a party member’s inventory and affects creatures within about 26 ft, including the carrier. Other creatures in range can also benefit.",
+    "Quest use": "Take it from the Sacred Pool for Mol. Touching or stealing it while the Rite of Thorns is active triggers combat between the druids and tieflings. Stop the ritual first if you want to avoid that trigger.",
+    "Inspiration": "Stealing can grant Heretic or Idolatry. Treefather’s Sorrow also requires killing the grove druids.",
+    "Base value": "350 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

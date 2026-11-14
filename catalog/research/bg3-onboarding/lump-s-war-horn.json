@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:14351",
+  "title": "Lump's War Horn",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420660,
+      "title": "Lump's War Horn",
+      "markers": [
+        "| uid = UNI_Horn_Ogres"
+      ]
+    },
+    {
+      "role": "Rules: Lump",
+      "revision": 441719,
+      "title": "Lump",
+      "markers": [
+        "{{Infobox creature"
+      ]
+    }
+  ],
+  "summary": "Blow the horn in Act One to summon Lump, Chock and Fank as neutral combatants.",
+  "fields": {
+    "Availability": "Works in the Underdark and when returning to Act One. Does not work on the Rosymorn Monastery Trail.",
+    "Combat": "The ogres can attack nearby neutral creatures. If no other creatures are available they can turn on the party. Ally-only effects cannot target these neutral combatants.",
+    "Bargain": "Hire the ogres in Blighted Village. A new or better incentive must be accepted after a fight to summon them again. If you leave Act One in arrears they can arrive to collect. The bargain allows up to three summons. Blowing a pickpocketed horn starts combat with the ogres.",
+    "Base value": "25 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

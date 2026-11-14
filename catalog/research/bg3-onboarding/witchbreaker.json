@@ -1,0 +1,90 @@
+{
+  "item_id": "bg3-wiki:9367",
+  "title": "Witchbreaker",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424946,
+      "title": "Witchbreaker",
+      "markers": [
+        "MAG_Spellbreaker_Battleaxe"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433455,
+      "title": "Witchbreaker (passive feature)",
+      "markers": [
+        "including spell attacks"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373862,
+      "title": "Hush You!",
+      "markers": [
+        "| damage 2 = prof"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 436942,
+      "title": "Silenced (condition)",
+      "markers": [
+        "immune to"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373605,
+      "title": "Cleave",
+      "markers": [
+        "Flat damage bonus"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "| condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442222,
+      "title": "Bleeding",
+      "markers": [
+        "start of each turn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373912,
+      "title": "Maiming Strike",
+      "markers": [
+        "Flying creatures can't"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443966,
+      "title": "Maimed",
+      "markers": [
+        "reduced to 0"
+      ]
+    }
+  ],
+  "summary": "A +1 battleaxe with advantage against concentrating enemies and a silencing strike.",
+  "fields": {
+    "Weapon profile": "1d8 + 1 Slashing one-handed or 1d10 + 1 two-handed, plus Strength. +1 attack. Martial, versatile, dippable, 5 ft melee.",
+    "Witchbreaker": "While equipped, gain advantage on attacks against concentrating creatures. This includes spell and ranged weapon attacks.",
+    "Hush You!": "Action with proficiency once per Short Rest. Weapon damage plus proficiency bonus Slashing. Constitution save against weapon-action DC +2 avoids Silenced for 2 turns. Silenced prevents speech and verbal spellcasting, and grants Thunder immunity.",
+    "Cleave": "Action with proficiency once per Short Rest. Hit up to 3 non-allied creatures or objects in a 7 ft cone for half weapon damage. Flat bonuses are not halved.",
+    "Lacerate": "Action with proficiency once per Short Rest. Weapon damage. Constitution save against weapon-action DC +2 prevents 2 turns of Bleeding. Affected targets take 2 Slashing at turn start and have disadvantage on Constitution saves. Healing ends it. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Maiming Strike": "Action with proficiency once per Short Rest. 1d4 + attack ability modifier Slashing. Constitution save against weapon-action DC +2 prevents Maimed for 2 turns. Flying creatures are immune. Maimed prevents movement, gives disadvantage on Dexterity saves and ends on healing.",
+    "Acquisition": "Jeera at Crèche Y’llek, X 1380, Y −798.",
+    "Base value": "100 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:50817",
+  "title": "Innkeeper's Lockbox",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 413238,
+      "title": "Innkeeper's Lockbox",
+      "markers": [
+        "S_HAV_InnKeeperChest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Medium Toughness",
+      "revision": 443599,
+      "markers": [
+        "at least 22 damage"
+      ]
+    }
+  ],
+  "summary": "Open the lockbox to search for its contents. Use the Innkeeper’s Key to unlock it.",
+  "fields": {
+    "Effect": "Open the lockbox to search for its contents. Use the Innkeeper’s Key to unlock it.",
+    "Base value": "1 gp in BG3. Merchant prices vary.",
+    "Durability": "50 object HP. Medium Toughness requires at least 22 damage in one hit. Resists Piercing, Necrotic and Radiant, and is immune to Poison and Psychic.",
+    "Handling": "Portable and throwable."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

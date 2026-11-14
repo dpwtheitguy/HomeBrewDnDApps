@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:13646",
+  "title": "Imp Patagium",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419689,
+      "title": "Imp Patagium",
+      "markers": [
+        "| uid = ALCH_Ingredient_Part_ImpPatagium"
+      ]
+    },
+    {
+      "role": "Rules: Ashes of Imp Patagium",
+      "revision": 416128,
+      "title": "Ashes of Imp Patagium",
+      "markers": [
+        "| description = '''Ashes of Imp Patagium''' is an [[Alchemy|Alchemical Extract]]. It can be combined with any [[Alchemy#Extractions|Essence]] to create {{SmRarityItem|Potion of Invisibility}}."
+      ]
+    },
+    {
+      "role": "Rules: Potion of Invisibility",
+      "revision": 421946,
+      "title": "Potion of Invisibility",
+      "markers": [
+        "| description = {{rare|Potion of Invisibility}} is a [[Consumables|Consumable]] ([[Potions|Potion]])."
+      ]
+    }
+  ],
+  "summary": "Extract three Imp Patagia to make Ashes of Imp Patagium. Combine those Ashes with any Essence to brew Potion of Invisibility.",
+  "fields": {
+    "Acquisition": "Sold by Sticky Dondo in the Guildhall and Voiceless Penitent Bareki in the Undercity Ruins. Trader stock can renew on Long Rest.",
+    "Base value": "9 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

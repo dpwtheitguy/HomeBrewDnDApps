@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:33992",
+  "title": "Mysterious Elixir",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421227,
+      "title": "Mysterious Elixir",
+      "markers": [
+        "| uid = UNI_Cazador_FeignDeathPotion"
+      ]
+    },
+    {
+      "role": "Rules: Feign Death",
+      "revision": 385685,
+      "title": "Feign Death",
+      "markers": [
+        "| summary = It allows spellcasters to put their allies into a magical, protective coma, feigning death."
+      ]
+    },
+    {
+      "role": "Rules: Feigning Death",
+      "revision": 442843,
+      "title": "Feigning Death",
+      "markers": [
+        "{{condition page"
+      ]
+    }
+  ],
+  "summary": "Use this single-use elixir to apply Feigning Death to yourself or a nearby ally.",
+  "fields": {
+    "Use": "Action, melee range. The item behaves like a Scroll of Feign Death. For 10 turns the target enters a protective coma, resists all damage except Psychic, and ignores disease and poison effects. Help ends it early. It does not force enemies to stop attacking.",
+    "Acquisition": "A desk in the Chamberlain’s Office in Szarr Palace.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

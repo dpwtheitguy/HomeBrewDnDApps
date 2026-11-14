@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:9277",
+  "title": "Half Plate Armour",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419268,
+      "title": "Half Plate Armour",
+      "markers": [
+        "| uid = ARM_HalfPlate"
+      ]
+    }
+  ],
+  "summary": "Medium Armour, AC 15 plus Dexterity up to +2, with Stealth disadvantage.",
+  "fields": {
+    "Armour Class": "15 + Dexterity modifier, maximum +2 from Dexterity.",
+    "Proficiency and Stealth": "Medium Armour. Disadvantage on Stealth checks.",
+    "Base value": "180 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

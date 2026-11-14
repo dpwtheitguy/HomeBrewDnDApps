@@ -1,0 +1,72 @@
+{
+  "item_id": "bg3-wiki:8102",
+  "title": "Infernal Rapier",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 433297,
+      "title": "Infernal Rapier",
+      "markers": [
+        "ORI_Wyll_Infernal_Rapier"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432643,
+      "title": "High Spellcasting (+1)",
+      "markers": [
+        "| description = You gain a +1 bonus to [[Spell Save DC]]."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439174,
+      "title": "Melee Caster",
+      "markers": [
+        "| description = Instead of its Dexterity [[ability score modifier|Modifier]], the affected entity add its [[spellcasting modifier|Spellcasting Ability Modifier]] to {{Attack Roll}}s."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 291423,
+      "title": "Planar Ally: Cambion",
+      "markers": [
+        "| description = Conjure a [[Cambion (Planar Ally)|Cambion]] to fight alongside you."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 428093,
+      "title": "Cambion (Planar Ally)",
+      "markers": [
+        "| page description = Cambions are a type of Fiend that can be summoned with the level six cleric spell, Planar Ally: Cambion."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341915,
+      "title": "Rapiers",
+      "markers": [
+        "| damage = 1d8"
+      ]
+    }
+  ],
+  "summary": "A +2 rapier that uses your highest spellcasting modifier, adds +1 spell save DC, and summons a Cambion.",
+  "fields": {
+    "Damage": "1d8 + 2 Piercing",
+    "Range": "5 ft melee.",
+    "Training": "martial",
+    "Handling": "one-handed",
+    "Enchantment": "+2",
+    "Weapon actions": "Piercing Strike, Weakening Strike, Flourish",
+    "Melee Caster": "Uses your highest spellcasting ability modifier for this weapon’s attack and damage rolls. Does not affect your other weapons.",
+    "Planar Ally: Cambion": "Action once per Long Rest. Summon a Cambion within 60 ft. It fights for you until Long Rest. Unequipping the rapier dismisses it, and the pinned source reports that being Knocked Out also dismisses it.",
+    "Cambion": "AC 14 and 82 HP on Balanced. Resists nonmagical Bludgeoning, Piercing, and Slashing, as well as Fire, Lightning, Cold, and Poison. Its actions include Glaive attacks, Rush Attack, Fiendish Charm, Rays of Fire, Draining Kiss, and Fly. Use the pinned Cambion link for its full rules.",
+    "Acquisition": "Bring Wyll to the Tadpoling Centre, free Mizora, and pass a DC 14 Persuasion check for a reward.",
+    "Base value": "960 gp in BG3. Merchant prices vary.",
+    "Source note": "The primary source labels this weapon one-handed but also gives an unverified versatile damage value.",
+    "High Spellcasting": "+1 to spell save DC."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Separated the contradictory handedness source fields. Reconciled applicable action, condition, and variant details against pinned rules.",
+  "omit_conflicting_versatile_damage": true
+}

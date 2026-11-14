@@ -1,0 +1,72 @@
+{
+  "item_id": "bg3-wiki:3362",
+  "title": "Rapier +1",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422155,
+      "title": "Rapier +1",
+      "markers": [
+        "WPN_HUM_Rapier_A_1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373786,
+      "title": "Flourish",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444158,
+      "title": "Off Balance",
+      "markers": [
+        "Removed by taking damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374168,
+      "title": "Piercing Strike",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443536,
+      "title": "Gaping Wounds",
+      "markers": [
+        "Honour"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374483,
+      "title": "Weakening Strike",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437410,
+      "title": "Weak Grip (condition)",
+      "markers": [
+        "Disadvantage"
+      ]
+    }
+  ],
+  "summary": "Finesse rapier with Flourish, Piercing Strike and Weakening Strike.",
+  "fields": {
+    "Weapon profile": "1d8 + 1 Piercing plus Strength or Dexterity. Martial, one-handed, Finesse and Dippable, 5 ft melee. +1 to attack rolls.",
+    "Acquisition": "Traders that use the magic melee table.",
+    "Flourish": "Bonus Action, 1d4 nonlethal Bludgeoning. Dexterity save against weapon-action DC +2 or Off Balance for 2 turns. Off Balance gives Disadvantage on Strength and Dexterity checks and gives attackers Advantage until damage or Help clears it. Once per Short Rest with proficiency.",
+    "Piercing Strike": "Action, melee weapon damage. Constitution save against weapon-action DC +2 or Gaping Wounds for 2 turns. Undead and Constructs are immune. In standard modes hits on the target gain 2 extra Piercing damage. In Honour Mode it takes 2 extra damage of the original type from damage sources. Healing clears the condition. Once per Short Rest with proficiency.",
+    "Weakening Strike": "Action for 1d4 + attack ability modifier nonlethal weapon-type damage. Armed target makes a Strength save against weapon-action DC +2 or has Weak Grip for 2 turns. It gives Disadvantage on attacks and Strength saves. Help clears it. Once per Short Rest with proficiency.",
+    "Base value": "85 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

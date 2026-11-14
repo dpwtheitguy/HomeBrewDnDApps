@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:30876",
+  "title": "Vampiric Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424580,
+      "title": "Vampiric Gloves",
+      "markers": [
+        "MAG_Vampiric_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 379776,
+      "title": "Vampiric Touch",
+      "markers": [
+        "regain half as many"
+      ]
+    }
+  ],
+  "summary": "Inaccessible gloves grant level 3 Vampiric Touch once per Long Rest.",
+  "fields": {
+    "Vampiric Touch": "Level 3. Action once per Long Rest, using a melee spell attack. No slot required. Hit for 3d6 Necrotic and regain HP equal to half the damage dealt. Maintain Concentration up to 10 turns to repeat the attack as an Action without another spell slot.",
+    "Availability": "Unobtainable in normal play. It appears in an unused Cazador treasure table.",
+    "Base value": "300 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

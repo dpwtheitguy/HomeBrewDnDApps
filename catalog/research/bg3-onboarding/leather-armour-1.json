@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:3709",
+  "title": "Leather Armour +1",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420262,
+      "title": "Leather Armour +1",
+      "markers": [
+        "ARM_Leather_1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433285,
+      "title": "Stealthy",
+      "markers": [
+        "Stealth Checks"
+      ]
+    }
+  ],
+  "summary": "Light armour with 12 base AC and a Stealth bonus.",
+  "fields": {
+    "Armour Class": "12 + Dexterity modifier. Requires Light Armour proficiency.",
+    "Stealthy": "+1 to Stealth checks.",
+    "Acquisition": "Levelled magic armour traders at levels 4–6.",
+    "Base value": "130 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

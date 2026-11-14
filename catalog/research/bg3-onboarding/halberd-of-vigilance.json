@@ -1,0 +1,83 @@
+{
+  "item_id": "bg3-wiki:7885",
+  "title": "Halberd of Vigilance",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419263,
+      "title": "Halberd of Vigilance",
+      "markers": [
+        "| uid = MAG_PoR_OfVigilance_Halberd"
+      ]
+    },
+    {
+      "role": "Rules: Halberds",
+      "revision": 341901,
+      "title": "Halberds",
+      "markers": [
+        "{{weapon type page"
+      ]
+    },
+    {
+      "role": "Rules: Cleave",
+      "revision": 373605,
+      "title": "Cleave",
+      "markers": [
+        "| description = Swing your weapon in a large arc to attack up to 3 enemies at once. They each take half the damage your weapon usually deals."
+      ]
+    },
+    {
+      "role": "Rules: Lacerate",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "| description = Slash at your target's vital points to make it {{SmCond|Bleeding|Bleed}}."
+      ]
+    },
+    {
+      "role": "Rules: Rush Attack",
+      "revision": 374223,
+      "title": "Rush Attack",
+      "markers": [
+        "| description = Charge forward and attack the first enemy in your way, possibly pushing them {{SmCond|Off Balance}}."
+      ]
+    },
+    {
+      "role": "Rules: Sentinel Weapon",
+      "revision": 433101,
+      "title": "Sentinel Weapon",
+      "markers": [
+        "| summary = '''Sentinel Weapon''' is a passive feature that lets the wielder move earlier and pay closer attention to their surroundings."
+      ]
+    },
+    {
+      "role": "Rules: Adroit Reflexes",
+      "revision": 432046,
+      "title": "Adroit Reflexes",
+      "markers": [
+        "| summary = '''Adroit Reflexes''' is a passive feature that enhances your counterattacks."
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Bleeding",
+      "revision": 442222,
+      "markers": [
+        "except {{Charlink|Ghast}}s"
+      ]
+    }
+  ],
+  "summary": "A +2 halberd with 1d4 extra Force damage, +1 Initiative, advantage on Perception checks and advantage on Reaction attacks.",
+  "fields": {
+    "Weapon profile": "1d10 + 2 Slashing plus Strength modifier, 8 ft melee reach. Martial, heavy, two-handed, and dippable.",
+    "Cleave": "With proficiency, Action once per Short Rest. Attack up to three non-allied creatures or objects in a 7 ft cone for half weapon damage. Flat bonuses such as Rage are not halved.",
+    "Lacerate": "With proficiency, Action once per Short Rest. Make a weapon attack. On hit, Constitution save against weapon-action DC +2 or Bleeding for 2 turns. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Rush Attack": "With proficiency, Action once per Short Rest. Rush up to 30 ft and attack the first non-allied creature or object for 1d4 Piercing plus attack ability modifier. Strength save against weapon-action DC or Off Balance for 2 turns.",
+    "Enchantment": "+2 to attack and damage rolls, included in the listed damage.",
+    "Force damage": "Hits with this halberd deal 1d4 extra Force.",
+    "Sentinel Weapon": "+1 Initiative and advantage on Perception checks.",
+    "Adroit Reflexes": "Attack rolls you make as a Reaction have advantage.",
+    "Base value": "960 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

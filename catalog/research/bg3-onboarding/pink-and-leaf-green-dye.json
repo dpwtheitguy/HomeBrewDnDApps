@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:8286",
+  "title": "Pink and Leaf Green Dye",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Pink and Leaf Green Dye",
+      "revision": 421819,
+      "markers": [
+        "LOOT_Dye_GreenPink_01"
+      ]
+    },
+    {
+      "role": "Rules: Dyes",
+      "title": "Dyes",
+      "revision": 405683,
+      "markers": [
+        "Dye Remover"
+      ]
+    }
+  ],
+  "summary": "Single-use dye recolours compatible equipment pink and leaf green.",
+  "fields": {
+    "Apply": "Combine with compatible clothing or equipment. A new dye replaces the prior dye. Dye Remover restores original colours.",
+    "Acquisition": "Possible random merchant stock from party level 5.",
+    "Base value": "6 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

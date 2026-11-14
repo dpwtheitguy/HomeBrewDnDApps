@@ -1,0 +1,22 @@
+{
+  "item_id": "bg3-wiki:15920",
+  "title": "Trepan",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Trepan",
+      "revision": 440582,
+      "markers": [
+        "WPN_HUM_Trepan_A"
+      ]
+    }
+  ],
+  "summary": "A simple shortsword carried by Sister Clara.",
+  "fields": {
+    "Weapon profile": "Simple, one-handed, Finesse and Light. 5 ft melee. Hit for 1d6 Piercing plus Strength or Dexterity.",
+    "Nurse effect": "When wielded by a nurse, adds 1d6 Necrotic. The ordinary player profile does not get this rider.",
+    "Acquisition": "Sister Clara in the House of Healing.",
+    "Base value": "16 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

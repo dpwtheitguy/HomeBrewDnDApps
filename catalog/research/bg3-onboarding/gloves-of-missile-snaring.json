@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:7913",
+  "title": "Gloves of Missile Snaring",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 441408,
+      "title": "Gloves of Missile Snaring",
+      "markers": [
+        "UNI_ARM_OfMissileSnaring_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441407,
+      "title": "Missile Snaring",
+      "markers": [
+        "| description = You can intercept missiles from ranged weapon attacks with a {{r|reaction}}, reducing their damage by {{DieIcon|d10|Physical}}'''1d10''' + your [[Ability Score Modifier|Dexterity modifier]]."
+      ]
+    }
+  ],
+  "summary": "Spend a Reaction to reduce damage from a ranged weapon attack by 1d10 + your Dexterity modifier. The attack’s other effects still apply.",
+  "fields": {
+    "Base value": "160 gp in BG3. Merchant prices vary.",
+    "Missile Snaring": "Reaction. Reduce ranged weapon damage by 1d10 + Dexterity modifier, applied separately to each incoming damage type. Other attack effects still apply. For a multi-projectile attack the pinned source reports only the last attack can be intercepted. Beast-shape transformations prevent its use."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

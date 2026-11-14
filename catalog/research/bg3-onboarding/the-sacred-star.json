@@ -1,0 +1,107 @@
+{
+  "item_id": "bg3-wiki:8568",
+  "title": "The Sacred Star",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438138,
+      "title": "The Sacred Star",
+      "markers": [
+        "MAG_RadiantLight_Morningstar"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432992,
+      "title": "Radiant Strike",
+      "markers": [
+        "condition duration = 1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439797,
+      "title": "Radiating Orb",
+      "markers": [
+        "Attack Roll"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433065,
+      "title": "Sanctified Weapon",
+      "markers": [
+        "condition dc = 13"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 385459,
+      "title": "Heartstopper",
+      "markers": [
+        "subtracts one"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 394891,
+      "title": "Dawnburst Strike",
+      "markers": [
+        "original target"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373613,
+      "title": "Concussive Smash",
+      "markers": [
+        "| save dc = hybrid"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442592,
+      "title": "Dazed",
+      "markers": [
+        "Wisdom"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Tenacity",
+      "revision": 425432,
+      "markers": [
+        "If a [[weapon action]] misses"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Turned (condition)",
+      "revision": 437284,
+      "markers": [
+        "The condition ends upon taking damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Blinded (condition)",
+      "revision": 437979,
+      "markers": [
+        "cannot make [[Opportunity Attack]]s"
+      ]
+    }
+  ],
+  "summary": "A +2 morningstar with Radiant damage, Radiating Orbs and anti-Undead powers.",
+  "fields": {
+    "Weapon profile": "1d8 + 2 Piercing plus Strength and 1d4 Radiant. +2 to attack. Martial, one-handed, 5 ft melee. The item template also lists a two-handed damage value but labels it one-handed.",
+    "Radiant Strike": "Hits with this weapon apply Radiating Orb for 1 turn. Each remaining turn penalizes attack rolls by 1.",
+    "Sanctified Weapon": "On hit, Undead must pass DC 13 Wisdom save or be Turned for 3 turns. Turned creatures flee and cannot willingly approach within 30 ft. Their actions are limited to Dash or escape attempts. They cannot spend Reactions, and damage ends the effect.",
+    "Tenacity": "Main hand, Reaction on missed melee attack. Deal Bludgeoning equal to Strength modifier, minimum 1. The item notes a possible Radiant Strike and Sanctified Weapon interaction, still unverified. If a weapon action misses, this reaction does not apply that action’s effect.",
+    "Heartstopper": "Action with proficiency once per Short Rest. Melee attack for 1d4 + attack ability modifier Piercing. Constitution save vs weapon-action DC +2 prevents 2 turns of Chest Trauma, which removes one Action while leaving Bonus Actions and Reactions.",
+    "Concussive Smash": "Action with proficiency once per Short Rest. Melee weapon damage. Constitution save vs the higher of spell save DC or weapon-action DC +2 avoids Dazed for 2 turns. Dazed removes Dexterity AC bonus and reactions that spend the Reaction resource and gives disadvantage on Wisdom saves. Help ends it.",
+    "Dawnburst Strike": "Action with proficiency once per Short Rest. On hit add proficiency bonus Radiant and erupt in a 10 ft radius. Constitution save vs weapon-action DC +2 prevents Blinded for 3 turns. The burst can affect allies and excludes the original target. The Radiant component is a separate damage source even in Honour Mode. Blinded gives Disadvantage on attacks, grants Advantage to attackers, limits sight-dependent attacks and spells to 10 ft, and prevents Opportunity Attacks.",
+    "Acquisition": "Vicar Humbletoes at Stormshore Tabernacle, X 107, Y −22.",
+    "Base value": "770 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

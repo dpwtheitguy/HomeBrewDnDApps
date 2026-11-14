@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:16408",
+  "title": "Scroll of Jump",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Jump",
+      "revision": 422816,
+      "markers": [
+        "LOOT_SCROLL_Jump"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Enhance Leap",
+      "revision": 404044,
+      "markers": [
+        "Target_Jump"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Touch a creature to triple its base jump distance for 10 turns.",
+  "fields": {
+    "Cast": "Level 1. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Touch a creature to triple its base jump distance for 10 turns. The scroll is unobtainable in normal play.",
+    "Range": "5 ft.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

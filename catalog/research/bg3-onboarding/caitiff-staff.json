@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:9188",
+  "title": "Caitiff Staff",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416870,
+      "title": "Caitiff Staff",
+      "markers": [
+        "| uid = MAG_PHB_PactKeeper_Quarterstaff"
+      ]
+    },
+    {
+      "role": "Rules: Caitiff's Restoration",
+      "revision": 286534,
+      "title": "Caitiff's Restoration",
+      "markers": [
+        "| summary = '''Caitiff's Restoration''' is a class action granted by the [[Caitiff Staff]] that allows the wielder to recover a [[Warlock]] spell slot."
+      ]
+    }
+  ],
+  "summary": "A +2 quarterstaff that boosts spell attacks and save DC by 1 and can restore a Warlock slot.",
+  "fields": {
+    "Weapon damage": "1d6 + 2 Bludgeoning one-handed or 1d8 + 2 two-handed.",
+    "Caitiff’s Restoration": "Action once per Long Rest. Replenish one expended Warlock spell slot.",
+    "Base value": "190 gp in BG3. Merchant prices vary.",
+    "Arcane Enchantment": "+1 to spell attack rolls and spell save DC."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Expanded the card from the pinned item and linked gameplay evidence."
+}

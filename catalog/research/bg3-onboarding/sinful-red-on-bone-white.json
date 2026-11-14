@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:15556",
+  "title": "Sinful Red on Bone White",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423246,
+      "title": "Sinful Red on Bone White",
+      "markers": [
+        "LOOT_Dye_WhiteRed_01"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 405683,
+      "title": "Dyes",
+      "markers": [
+        "replaces the original dye"
+      ]
+    }
+  ],
+  "summary": "Single-use dye for recolouring equipment.",
+  "fields": {
+    "Use": "Combine the dye with eligible equipment in inventory. It replaces a previous dye. Dye Remover restores the original colour.",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:4247",
+  "title": "Idol of Shar",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419668,
+      "title": "Idol of Shar",
+      "markers": [
+        "| uid = OBJ_Idol_Shar"
+      ]
+    },
+    {
+      "role": "Rules: Daughter of Darkness",
+      "revision": 438804,
+      "title": "Daughter of Darkness",
+      "markers": [
+        "| description = Daughter of Darkness is the Companion quest for Shadowheart. It is automatically added to the journal if Shadowheart joins the party officially after the events of the Prologue."
+      ]
+    }
+  ],
+  "summary": "Offer the Idol of Shar to Shadowheart to unlock dialogue and an opportunity to gain approval.",
+  "fields": {
+    "Trigger": "Speak with Shadowheart while the player carries it, or have her pick it up. Additional interactions can occur when a Selûnite cleric is romancing her.",
+    "Acquisition": "On a pedestal past the trapped walkway in Grymforge, behind a gate with a lever.",
+    "Base value": "400 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

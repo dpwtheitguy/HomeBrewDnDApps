@@ -1,0 +1,32 @@
+{
+  "item_id": "bg3-wiki:11250",
+  "title": "Elixir of the Colossus",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418170,
+      "title": "Elixir of the Colossus",
+      "markers": [
+        "ALCH_Solution_Elixir_Enlarge"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Elixir of The Colossus (condition)",
+      "revision": 435276,
+      "markers": [
+        "increased by 25%",
+        "regardless of application order"
+      ]
+    }
+  ],
+  "summary": "Until Long Rest, increase your size, deal 1d4 extra weapon damage and gain advantage on Strength checks and saving throws.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle. Until Long Rest, increase your size and carrying capacity by 25%, deal 1d4 extra weapon damage, and gain advantage on Strength checks and saves.",
+    "Stacking": "Replaces other normal elixirs and can be overwritten by another.",
+    "Crafting": "Combine Salts of Chasm Creeper with any Suspension.",
+    "Base value": "25 gp nominal BG3 value.",
+    "Honour Mode": "Removes Reduced and Enlarged. Giant Form removes this elixir’s condition. It stacks with Giant’s Rage."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Verified card mechanics against the cited item or linked rule."
+}

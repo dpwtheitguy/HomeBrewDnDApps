@@ -1,0 +1,56 @@
+{
+  "item_id": "bg3-wiki:9613",
+  "title": "Lightning Jabber",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420489,
+      "title": "Lightning Jabber",
+      "markers": [
+        "MAG_Kuotoa_Lightning_Spear"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433135,
+      "title": "Shocking Sting",
+      "markers": [
+        "| condition dc = 13"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433349,
+      "title": "Throwing: Lightning Damage",
+      "markers": [
+        "even on miss"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 436928,
+      "title": "Shocking Grasp (condition)",
+      "markers": [
+        "prevents the spending"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374223,
+      "title": "Rush Attack",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    }
+  ],
+  "summary": "+1 spear adds Lightning damage in melee and when thrown. On hit it can block the target’s Reaction points.",
+  "fields": {
+    "Damage": "One hand or thrown: 1d6 + 1 Piercing. Two-handed melee: 1d8 + 1 Piercing. Add Strength to damage, +1 to attack rolls and 1d4 Lightning. The thrown Lightning applies even on a miss.",
+    "Shocking Sting": "On hit the target makes a hidden DC 13 Constitution save. Failure applies Shocking Grasp for 2 turns, preventing spending Reaction points. Reactions without that cost can still trigger.",
+    "Handling": "Simple Versatile spear, 5 ft melee. Thrown and Dippable. Dipping removes the surface used. It does not work with Polearm Master because BG3 internally tags it as a javelin.",
+    "Rush Attack": "Action, 30 ft. Charge and attack the first non-allied creature or object in the path for 1d4 + applicable ability modifier Piercing. A failed Strength save against weapon-action DC applies Off Balance for 2 turns. Once per Short Rest with proficiency.",
+    "Acquisition": "Loot the Cursed Kuo-Toa Chief northeast of the Grand Mausoleum entrance.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

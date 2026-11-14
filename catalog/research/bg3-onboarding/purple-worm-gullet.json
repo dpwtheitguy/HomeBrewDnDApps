@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:13746",
+  "title": "Purple Worm Gullet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Purple Worm Gullet",
+      "revision": 422047,
+      "markers": [
+        "ALCH_Ingredient_Loot_PurpleWorm"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Suspension of Purple Worm Slime",
+      "revision": 423757,
+      "markers": [
+        "Purple Worm Toxin"
+      ]
+    }
+  ],
+  "summary": "Extract three gullets to make Suspension of Purple Worm Slime.",
+  "fields": {
+    "Alchemy": "Extract 3 Purple Worm Gullets into Suspension of Purple Worm Slime. Add any Vitriol to make Purple Worm Toxin.",
+    "Acquisition": "Waning Moon back room, or buy from Popper.",
+    "Base value": "45 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

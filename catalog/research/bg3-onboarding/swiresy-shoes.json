@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:7886",
+  "title": "Swiresy Shoes",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Swiresy Shoes",
+      "revision": 423786,
+      "markers": [
+        "MAG_Jumping_Shoes"
+      ]
+    },
+    {
+      "role": "Rules: Refined Vaulting",
+      "title": "Refined Vaulting",
+      "revision": 433010,
+      "markers": [
+        "| description = {{SAI|Jump}} distance is increased by {{Dist|m=1.5|ft=5}}."
+      ]
+    }
+  ],
+  "summary": "Improves Jump and Acrobatics.",
+  "fields": {
+    "Refined Vaulting": "+5 ft jump distance and +1 to Acrobatics checks.",
+    "Acquisition": "Grat the Trader.",
+    "Base value": "35 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

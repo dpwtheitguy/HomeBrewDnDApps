@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:10610",
+  "title": "Cup of Oil",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422855,
+      "title": "Cup of Oil",
+      "markers": [
+        "CONS_GEN_Drink_Cup_Metal_A_Oil"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444159,
+      "title": "Oily Sup",
+      "markers": [
+        "* Suffers {{Disadvantage}} on {{Attack Roll}}s and [[Checks|Ability Checks]]."
+      ]
+    }
+  ],
+  "summary": "Drink to become disadvantaged on attacks and ability checks for 1 turn.",
+  "fields": {
+    "Oily Sup": "Drink one dose to apply Oily Sup to yourself for 1 turn. It imposes disadvantage on attack rolls and ability checks.",
+    "Base value": "4 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence."
+}

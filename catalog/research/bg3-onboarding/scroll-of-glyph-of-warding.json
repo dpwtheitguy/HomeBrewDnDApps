@@ -1,0 +1,41 @@
+{
+  "item_id": "bg3-wiki:16430",
+  "title": "Scroll of Glyph of Warding",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Glyph of Warding",
+      "revision": 422800,
+      "markers": [
+        "LOOT_SCROLL_GlyphOfWarding"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Glyph of Warding",
+      "revision": 433238,
+      "markers": [
+        "Target_GlyphOfWarding"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Place a glyph up to 30 ft away.",
+  "fields": {
+    "Cast": "Level 3. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Place a glyph up to 30 ft away. An enemy stepping on it triggers the selected variant. Acid, Cold, Fire, Lightning and Thunder deal 5d8 of their type, Dexterity save for half. A successful Dexterity save against Sleep or Detonation prevents that variant’s effect entirely.",
+    "Range": "30 ft.",
+    "Area": "13 ft radius.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Spell selection": "Put the scroll on the hotbar to choose a variant.",
+    "Base value": "100 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:15350",
+  "title": "Sage Green Dye",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422591,
+      "title": "Sage Green Dye",
+      "markers": [
+        "LOOT_Dye_GreenSwamp_01"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 405683,
+      "title": "Dyes",
+      "markers": [
+        "Combine Items"
+      ]
+    }
+  ],
+  "summary": "Single-use dye for compatible equipment.",
+  "fields": {
+    "Use": "Combine the dye and an eligible equipment item in inventory to recolour it.",
+    "Base value": "6 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

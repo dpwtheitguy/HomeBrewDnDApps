@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:3782",
+  "title": "Elixir of Hill Giant Strength",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438919,
+      "title": "Elixir of Hill Giant Strength",
+      "markers": [
+        "CONS_Potion_Hill_Giant_Strength",
+        "only 10 turns",
+        "radius|m=1|ft=3",
+        "does not lower",
+        "Salts of Hill Giant Fingernails"
+      ]
+    },
+    {
+      "role": "Applied condition",
+      "revision": 435272,
+      "title": "Elixir of Hill Giant Strength (condition)",
+      "markers": [
+        "increased to 21",
+        "ALCH_ELIXIR",
+        "stack type = overwrite"
+      ]
+    }
+  ],
+  "summary": "Drink as a Bonus Action to raise Strength to at least 21 until your next Long Rest, or throw it as an Action to grant the effect in a 3 ft radius for 10 turns. Either use replaces other elixir effects on affected creatures.",
+  "fields": {
+    "Drink": "Bonus Action. One dose raises your Strength to 21 until your next Long Rest if your Strength is lower. Replaces active elixir effects on affected creatures.",
+    "Throw": "Action. One dose affects all creatures in a 3 ft radius, including enemies, for 10 turns. Replaces active elixir effects on affected creatures.",
+    "Strength": "Raises a lower score to 21. A higher score stays higher.",
+    "Stacking": "Replaces other elixir effects on affected creatures. Another elixir can overwrite this effect.",
+    "Crafting": "Mix Salts of Hill Giant Fingernails with any Suspension. Extract three Hill Giant Fingers to learn the recipe.",
+    "Base value": "30 gp in BG3. Merchant prices vary.",
+    "Creative use": "Drink before an encounter that relies on Strength, or group allies for a shared throw while keeping enemies outside the splash."
+  },
+  "changes": "Added reviewed BG3 drinking and throwing modes, Strength floor, elixir replacement, recipe and pinned sources."
+}

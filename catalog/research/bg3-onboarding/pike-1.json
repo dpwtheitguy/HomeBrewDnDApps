@@ -1,0 +1,64 @@
+{
+  "item_id": "bg3-wiki:3392",
+  "title": "Pike +1",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Pike +1",
+      "revision": 421810,
+      "markers": [
+        "WPN_HUM_Pike_A_1"
+      ]
+    },
+    {
+      "role": "Rules: Rush Attack",
+      "title": "Rush Attack",
+      "revision": 374223,
+      "markers": [
+        "Off Balance"
+      ]
+    },
+    {
+      "role": "Rules: Piercing Strike",
+      "title": "Piercing Strike",
+      "revision": 374168,
+      "markers": [
+        "Gaping Wounds"
+      ]
+    },
+    {
+      "role": "Rules: Brace (Melee)",
+      "title": "Brace (Melee)",
+      "revision": 441529,
+      "markers": [
+        "Movement Speed"
+      ]
+    },
+    {
+      "role": "Rules: Gaping Wounds",
+      "title": "Gaping Wounds",
+      "revision": 443536,
+      "markers": [
+        "Honour Mode"
+      ]
+    },
+    {
+      "role": "Rules: Off Balance",
+      "title": "Off Balance",
+      "revision": 444158,
+      "markers": [
+        "Removed by taking damage"
+      ]
+    }
+  ],
+  "summary": "Two-handed martial reach weapon with Brace, Piercing Strike and Rush Attack.",
+  "fields": {
+    "Weapon": "Martial two-handed, heavy, dippable, 8-ft melee reach. 1d10 + 1 Piercing plus Strength. +1 to attacks.",
+    "Rush Attack": "Action once per Short Rest with proficiency. Charge up to 30 ft and hit the first non-allied creature or object for 1d4 Piercing plus the attack ability modifier. Strength save against weapon-action DC or Off Balance for 2 turns. Off Balance gives attackers Advantage and gives the target Disadvantage on Strength and Dexterity checks until damage or Help clears it.",
+    "Piercing Strike": "Action once per Short Rest with proficiency. Deal weapon damage. Constitution save against weapon-action DC +2 or Gaping Wounds for 2 turns, adding 2 Piercing damage to subsequent hits. Undead and constructs are immune. Healing clears Gaping Wounds. In Honour Mode the +2 adopts the original damage type and applies to any damage source.",
+    "Brace (Melee)": "Once per Short Rest with proficiency. Spend 20 ft of movement to roll melee damage twice and use the higher roll for the rest of your turn. It stacks with Savage Attacker for three rolls and breaks Hiding and Invisible.",
+    "Acquisition": "Sold by traders using the magic melee weapon table.",
+    "Base value": "40 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

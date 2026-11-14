@@ -1,0 +1,56 @@
+{
+  "item_id": "bg3-wiki:3446",
+  "title": "Rain Dancer",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422121,
+      "title": "Rain Dancer",
+      "markers": [
+        "UNI_DEN_StaffOfRain"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 360058,
+      "title": "Create Water",
+      "markers": [
+        "| condition duration = 3"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437422,
+      "title": "Wet (condition)",
+      "markers": [
+        "resistances negated"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 377988,
+      "title": "Topple",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 436524,
+      "title": "Prone (condition)",
+      "markers": [
+        "One turn duration"
+      ]
+    }
+  ],
+  "summary": "Quarterstaff casts Create Water once per Short Rest.",
+  "fields": {
+    "Weapon profile": "1d6 Bludgeoning one-handed or 1d8 two-handed plus Strength. Simple, Versatile, Dippable, 5 ft melee.",
+    "Create Water": "Level 1, Action, 30 ft range and 13 ft radius. Extinguishes exposed flames, creates a Water surface, and makes creatures in the area Wet for 3 turns. Once per Short Rest.",
+    "Wet": "Fire resistance and normally Vulnerability to Cold and Lightning. Existing resistance to Cold or Lightning is cancelled instead. Wet breaks ordinary Invisibility and clears equipped coatings. It freezes a creature that is already Chilled. Wet grants immunity to Burning and Wild Magic: Burning.",
+    "Topple": "Action once per Short Rest with proficiency. Melee attack for 1d4 nonlethal Bludgeoning. Dexterity save against weapon-action DC +2 or Prone for 1 turn, expiring at the start of the target’s turn. Falling Prone breaks Concentration. Topple skips main-hand weapon effects.",
+    "Acquisition": "Arron near the Silvanus statue in the Emerald Grove.",
+    "Base value": "100 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

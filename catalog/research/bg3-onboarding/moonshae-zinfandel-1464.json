@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:58158",
+  "title": "Moonshae Zinfandel 1464",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Moonshae Zinfandel 1464",
+      "revision": 421088,
+      "markers": [
+        "Drinks"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Alcohol (condition)",
+      "revision": 437839,
+      "markers": [
+        "{{duration|2}} turns"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Alcohol (surface)",
+      "revision": 385878,
+      "markers": [
+        "Turns into"
+      ]
+    }
+  ],
+  "summary": "Provides 4 Camp Supplies or can be drunk or thrown.",
+  "fields": {
+    "Camp supplies": "Provides 4 Camp Supplies for a Long Rest.",
+    "Drink": "Bonus Action. Alcohol imposes disadvantage on Dexterity and Charisma checks for 2 turns.",
+    "Throw": "Action. Creates a permanent Alcohol surface in a 13 ft radius. Fire ignites it for 2 turns before it becomes Ash. Cold freezes it for 2 turns before it becomes Water.",
+    "Acquisition": "Wardrobe next to the bedroom bookcase in Nine-Fingers’ office.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

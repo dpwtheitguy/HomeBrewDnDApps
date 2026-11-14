@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:3433",
+  "title": "The Lifebringer",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "The Lifebringer",
+      "revision": 432476,
+      "markers": [
+        "MAG_ChargedLightning_TempHP_Circlet"
+      ]
+    },
+    {
+      "role": "Rules: Lifecharger",
+      "title": "Lifecharger",
+      "revision": 432789,
+      "markers": [
+        "| description = When the wearer gains {{Cond|Lightning Charges}}, they also gain 3 [[Temporary Hit Points]]. The temporary hit points disappear if the wearer runs out of Lightning Charges."
+      ]
+    }
+  ],
+  "summary": "Gain temporary HP when you gain Lightning Charges.",
+  "fields": {
+    "Lifecharger": "Gain 3 temporary HP whenever you gain Lightning Charges. Lose these temporary HP when the charges run out.",
+    "Acquisition": "Blurg.",
+    "Base value": "90 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

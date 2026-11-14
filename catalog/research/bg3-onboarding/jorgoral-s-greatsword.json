@@ -1,0 +1,65 @@
+{
+  "item_id": "bg3-wiki:8775",
+  "title": "Jorgoral's Greatsword",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419966,
+      "title": "Jorgoral's Greatsword",
+      "markers": [
+        "MAG_Colossal_Greatsword"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373607,
+      "title": "Colossal Onslaught",
+      "markers": [
+        "| on miss ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373605,
+      "title": "Cleave",
+      "markers": [
+        "| targets = Up to 3"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "| condition dc ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374173,
+      "title": "Pommel Strike",
+      "markers": [
+        "| cost = bonus"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Bleeding",
+      "revision": 442222,
+      "markers": [
+        "except {{Charlink|Ghast}}s"
+      ]
+    }
+  ],
+  "summary": "A +1 greatsword that hits a line of enemies with Colossal Onslaught.",
+  "fields": {
+    "Weapon profile": "2d6 + 1 Slashing, 5 ft melee. Martial, heavy, two-handed and dippable.",
+    "Colossal Onslaught": "Action once per Short Rest with proficiency. Attack all non-allied creatures and objects in a 20 ft line. Deal weapon damage plus proficiency bonus as Slashing. A missed roll halves weapon damage, but damage riders can still apply undiminished.",
+    "Cleave": "Action once per Short Rest with proficiency. Attack up to three non-allied creatures or objects in a 7 ft cone for half normal weapon damage. Flat damage bonuses are not halved.",
+    "Lacerate": "Action once per Short Rest with proficiency. Make a melee weapon attack. Constitution save against weapon-action DC +2 prevents Bleeding for 2 turns. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Pommel Strike": "Bonus Action once per Short Rest with proficiency. Make a nonlethal melee attack for 1d4 Bludgeoning. Constitution save against weapon-action DC +2 prevents Dazed for 2 turns.",
+    "Acquisition": "Corsair Greymon carries it and can sell it at Grymforge. If he drowns after becoming hostile on the raft, loot it from his body near the southern pier of the Decrepit Village. Choosing the Athletics shove during dialogue permanently loses the loot.",
+    "Base value": "380 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

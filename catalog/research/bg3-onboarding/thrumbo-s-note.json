@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12717",
+  "title": "Thrumbo's Note",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Thrumbo's Note",
+      "revision": 424212,
+      "markers": [
+        "S_LOW_NoteFromThrumbo"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Find Mystic Carrion's Servant",
+      "revision": 430990,
+      "markers": [
+        "He is hiding in a wardrobe"
+      ]
+    }
+  ],
+  "summary": "Reading this note advances the search for Thrumbo.",
+  "fields": {
+    "Quest use": "Read it to progress Find Mystic Carrion’s Servant. The clue points toward the beach. Thrumbo is hiding in a wardrobe at the docks east of Philgrave’s Mansion (56, −120).",
+    "Acquisition": "Pass DC 15 Arcana on the Beggar’s Portrait on the top floor of Philgrave’s Mansion (6, −150).",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:53525",
+  "title": "Roveer's Hand",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Roveer's Hand",
+      "revision": 372978,
+      "markers": [
+        "Roveer's Hand"
+      ]
+    },
+    {
+      "role": "Rules: Roveer",
+      "title": "Roveer",
+      "revision": 429816,
+      "markers": [
+        "hand cannot be looted"
+      ]
+    },
+    {
+      "role": "Rules: Impress the Murder Tribunal",
+      "title": "Impress the Murder Tribunal",
+      "revision": 440460,
+      "markers": [
+        "hands taken from any victims"
+      ]
+    }
+  ],
+  "summary": "Proof of a killing for entry to the Murder Tribunal.",
+  "fields": {
+    "Quest use": "Present the victim’s hand to That Which Guards at the Murder Tribunal beneath Candulhallow’s Tombstones. The guard accepts a severed hand as proof after the relevant quest progression.",
+    "Acquisition": "Loot Roveer’s corpse. Attacking him turns nearby tavern staff and patrons temporarily hostile. The source reports that the Bloodstained Parchment may have to be read first.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

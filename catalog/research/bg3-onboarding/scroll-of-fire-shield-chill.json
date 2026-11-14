@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:33833",
+  "title": "Scroll of Fire Shield: Chill",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Fire Shield: Chill",
+      "revision": 422791,
+      "markers": [
+        "LOOT_SCROLL_FireShield_Chill_DONOTUSE"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Fire Shield: Chill",
+      "revision": 404041,
+      "markers": [
+        "Shout_FireShield_Chill"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "On yourself for 10 turns, gain Fire resistance and deal 2d8 Cold to creatures that hit you in melee.",
+  "fields": {
+    "Cast": "Level 4. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "On yourself for 10 turns, gain Fire resistance and deal 2d8 Cold to creatures that hit you in melee. This scroll is unobtainable in normal play.",
+    "Range": "5 ft.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "130 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

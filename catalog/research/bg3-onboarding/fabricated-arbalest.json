@@ -1,0 +1,55 @@
+{
+  "item_id": "bg3-wiki:9573",
+  "title": "Fabricated Arbalest",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418353,
+      "title": "Fabricated Arbalest",
+      "markers": [
+        "| uid = MAG_Gortash_HeavyCrossbow"
+      ]
+    },
+    {
+      "role": "Rules: Dazzling Ray",
+      "revision": 373626,
+      "title": "Dazzling Ray",
+      "markers": [
+        "| description = Unleash a beam of brilliant light that {{SmCond|Blinded|Blinds}} all creatures in its path."
+      ]
+    },
+    {
+      "role": "Rules: Recast Dazzling Ray",
+      "revision": 373627,
+      "title": "Recast Dazzling Ray",
+      "markers": [
+        "| summary = '''Recast Dazzling Ray''' is a weapon action granted by {{SmRarityItem|Fabricated Arbalest}} after using the initial {{SmSAI|Dazzling Ray}} action. It is equivalent to the initial attack, but has a chance to burn the caster on each recast."
+      ]
+    },
+    {
+      "role": "Rules: Illuminating Shot",
+      "revision": 373864,
+      "title": "Illuminating Shot",
+      "markers": [
+        "| description = Fire a shimmering bolt that inflicts 1 turn of {{SmCond|Radiating Orb}} upon the target."
+      ]
+    },
+    {
+      "role": "Rules: Radiating Orb",
+      "revision": 439797,
+      "title": "Radiating Orb",
+      "markers": [
+        "| effects = * Affected entity has '''-1''' to [[Attack Rolls]] per remaining turn. It also sheds bright light in an area surrounding it."
+      ]
+    }
+  ],
+  "summary": "A +2 heavy crossbow with a blinding line attack and an illuminating Bonus Action shot.",
+  "fields": {
+    "Weapon damage": "1d10 + 2 Piercing. Heavy crossbow with a 60 ft normal range.",
+    "Dazzling Ray": "Action once per Short Rest. Requires weapon proficiency. Deal 2d10 Radiant in a 60 ft line. Dexterity save against your spell save DC halves damage and prevents Blinded for 1 turn. No attack roll, so this does not trigger Extra Attack. Concentration lasts up to 10 turns.",
+    "Recast Dazzling Ray": "When the first ray hits, spending an Action while concentrating repeats the 60 ft, 2d10 Radiant beam. A Dexterity save halves damage and prevents Blinded for 1 turn. The wielder makes a hidden DC 14 Constitution save against 2 turns of Burning, even if the combat log names the target. Failure deals 1d4 Fire immediately and can break concentration.",
+    "Illuminating Shot": "Bonus Action, ranged weapon attack out to 60 ft. On hit deal fixed 1d4 Piercing and apply Radiating Orb for 1 turn. The target sheds light and takes a −1 attack penalty per remaining turn. Most damage bonuses do not apply, and Sharpshooter can still impose its attack penalty.",
+    "Base value": "960 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

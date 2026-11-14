@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:13998",
+  "title": "Spineshudder Amulet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437847,
+      "title": "Spineshudder Amulet",
+      "markers": [
+        "MAG_Thunder_ReverberationOnRangeSpellDamage_Amulet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432196,
+      "title": "Crackling Resonance",
+      "markers": [
+        "Reverberation"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 436760,
+      "title": "Reverberation (condition)",
+      "markers": [
+        "1d4"
+      ]
+    }
+  ],
+  "summary": "Ranged spell hits apply Reverberation.",
+  "fields": {
+    "Crackling Resonance": "Once per attack, dealing damage with a ranged spell attack adds 2 turns of Reverberation. The blasts from Fungal Bamboozler, Merregon Potion and Noxious Spore Grenade count as spell attacks.",
+    "Reverberation": "Each turn remaining imposes −1 to Strength, Dexterity and Constitution saves. At 5 or more turns, take 1d4 Thunder and make a DC 10 Constitution save or fall Prone for 2 turns, then clear the condition. The penalty also applies to that save. The pinned source reports Thunder-immune creatures can still receive Reverberation and the five-turn burst does not occur in real-time mode.",
+    "Acquisition": "Mimic in Isobel’s bedroom.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

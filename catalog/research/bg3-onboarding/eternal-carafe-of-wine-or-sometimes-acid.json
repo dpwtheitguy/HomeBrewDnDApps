@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:19385",
+  "title": "Eternal Carafe of Wine (Or Sometimes Acid)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418289,
+      "title": "Eternal Carafe of Wine (Or Sometimes Acid)",
+      "markers": [
+        "UNI_WYR_Circus_Pitcher"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437839,
+      "title": "Alcohol (condition)",
+      "markers": [
+        "| effects = * Has {{Disadvantage}} on [[Dexterity]] and [[Charisma]] checks."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 434783,
+      "title": "Caustic Brine (condition)",
+      "markers": [
+        "* Takes {{DamageText|1d4|Acid}} damage per turn."
+      ]
+    }
+  ],
+  "summary": "Reusable carafe with random wine or acid after each Long Rest.",
+  "fields": {
+    "Drink": "Bonus Action. Wine causes Alcohol for 2 turns and acid causes Caustic Brine for 1 turn. The contents reroll after each Long Rest.",
+    "Alcohol": "Disadvantage on Dexterity and Charisma checks.",
+    "Caustic Brine": "Take 1d4 Acid damage per turn.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

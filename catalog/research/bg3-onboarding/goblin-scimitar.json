@@ -1,0 +1,32 @@
+{
+  "item_id": "bg3-wiki:13194",
+  "title": "Goblin Scimitar",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419009,
+      "title": "Goblin Scimitar",
+      "markers": [
+        "WPN_GOB_Scimitar_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 429295,
+      "title": "Scimitars",
+      "markers": [
+        "| damage = 1d6"
+      ]
+    }
+  ],
+  "summary": "A goblin scimitar with Finesse and Light properties.",
+  "fields": {
+    "Damage": "1d6 Slashing",
+    "Range": "5 ft melee.",
+    "Training": "martial",
+    "Handling": "one-handed",
+    "Weapon actions": "Flourish, Lacerate",
+    "Base value": "30 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

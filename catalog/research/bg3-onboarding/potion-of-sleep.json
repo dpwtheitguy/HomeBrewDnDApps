@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:3791",
+  "title": "Potion of Sleep",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Potion of Sleep",
+      "revision": 421950,
+      "markers": [
+        "UNI_CONS_Potion_Sleep_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Sleeping (condition)",
+      "revision": 436974,
+      "markers": [
+        "Removed by taking damage"
+      ]
+    }
+  ],
+  "summary": "Sleep for 3 turns when drunk, or throw to put nearby creatures to sleep.",
+  "fields": {
+    "Drink": "Bonus Action on yourself. Sleeping for 3 turns.",
+    "Throw": "Action, up to 60 ft. Sleeping for 3 turns in a 3 ft radius.",
+    "Sleeping": "Cannot move or act. Automatically fails Strength and Dexterity saves. Attacks against the sleeper have advantage and hits from within 5 ft critically hit. Damage, Wet, Help, or Shove ends the condition.",
+    "Acquisition": "Found in the Blighted Village apothecary, on Priestess Gut, in the House of Healing, or at Sorcerous Sundries. No Alchemy recipe.",
+    "Base value": "25 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

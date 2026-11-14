@@ -1,0 +1,45 @@
+{
+  "item_id": "bg3-wiki:9565",
+  "title": "Fireheart",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418520,
+      "title": "Fireheart",
+      "markers": [
+        "MAG_Fire_HeatOnTakingFireDamage_Amulet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432554,
+      "title": "Fervent Flames",
+      "markers": [
+        "| description = Whenever you take {{DamageType|Fire}} damage dealt by another creature, you gain 2 turns of {{Cond|Heat}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443664,
+      "title": "Heat",
+      "markers": [
+        "| effects = * Engulfed by a vengeful fire. Takes {{DamageText|1d4|Fire}} damage each turn, but can use {{sai|Heat Convergence}}.<!--"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432629,
+      "title": "Heat Convergence",
+      "markers": [
+        "| description = Consume your {{cond|Heat}} to fuel a powerful attack."
+      ]
+    }
+  ],
+  "summary": "Once per turn, Fire damage dealt to you by another creature grants 2 turns of Heat.",
+  "fields": {
+    "Heat": "Heat deals 1d4 Fire damage to you each turn and can stack up to 7 turns. Heat Convergence consumes the stack to add 1 Fire damage per remaining turn when you next deal Fire damage.",
+    "Base value": "65 gp in BG3. Merchant prices vary.",
+    "Fervent Flames": "Once per turn, gain 2 turns of Heat when another creature deals Fire damage to you."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

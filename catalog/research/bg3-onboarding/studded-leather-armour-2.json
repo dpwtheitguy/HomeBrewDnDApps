@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:9416",
+  "title": "Studded Leather Armour +2",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Studded Leather Armour +2",
+      "revision": 426507,
+      "markers": [
+        "ARM_StuddedLeather_2"
+      ]
+    }
+  ],
+  "summary": "Light Armour with AC 14 plus Dexterity.",
+  "fields": {
+    "Defence": "Light Armour proficiency. AC 14 + Dexterity modifier. Reduces Bludgeoning damage by 1 and grants +1 Initiative.",
+    "Acquisition": "Levelled magic armour traders. Also lootable from Orin.",
+    "Base value": "770 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:50587",
+  "title": "Painted Chest",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 413235,
+      "title": "Painted Chest",
+      "markers": [
+        "CONT_GEN_Chest_Wood_Painted_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441313,
+      "title": "Lower City Sewers",
+      "markers": [
+        "nearby Painted Chest"
+      ]
+    }
+  ],
+  "summary": "Portable painted chest. A locked sewer example opens with the Painted Key.",
+  "fields": {
+    "Use": "Pick up, throw, or use it as a container. Loot varies. The sewer example can be lockpicked at DC 20 and contains gold, random common armour and possible arrows or a scroll.",
+    "Object defences": "50 HP, Sturdy. Vulnerable to Bludgeoning, resistant to Piercing, Necrotic and Radiant, immune to Poison and Psychic.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

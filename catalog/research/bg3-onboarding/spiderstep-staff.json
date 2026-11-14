@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:32745",
+  "title": "Spiderstep Staff",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423463,
+      "title": "Spiderstep Staff",
+      "markers": [
+        "UNI_FOR_WebStaff"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433186,
+      "title": "Spider Step",
+      "markers": [
+        "Web"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 377988,
+      "title": "Topple",
+      "markers": [
+        "condition duration = 1"
+      ]
+    }
+  ],
+  "summary": "Grants Spider Step for traversing webs.",
+  "fields": {
+    "Spider Step": "Ignore the movement restriction from Web surfaces and avoid being Enwebbed by them.",
+    "Weapon profile": "1d6 Bludgeoning one-handed or 1d8 two-handed, plus Strength. Simple versatile quarterstaff, 5 ft.",
+    "Topple": "Action with proficiency, once per Short Rest. Melee attack for 1d4 nonlethal Bludgeoning. Dexterity save against weapon-action DC +2 prevents one-turn Prone. No main-hand weapon effects.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "180 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

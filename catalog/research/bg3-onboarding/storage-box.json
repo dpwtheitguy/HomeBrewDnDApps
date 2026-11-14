@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:38224",
+  "title": "Storage Box",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Storage Box",
+      "revision": 423621,
+      "markers": [
+        "S_CAMP_AlchemyStorage"
+      ]
+    },
+    {
+      "role": "Rules: Sturdy",
+      "title": "Sturdy",
+      "revision": 443601,
+      "markers": [
+        "| effects = * This material is rather strong. Only a hit that deals at least 10 damage can damage it."
+      ]
+    }
+  ],
+  "summary": "Static camp storage container with Sturdy.",
+  "fields": {
+    "Container": "Immovable 25 HP. Sturdy requires at least 10 damage per hit. Near Gale in the Act One Wilderness campsite.",
+    "Base value": "20 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

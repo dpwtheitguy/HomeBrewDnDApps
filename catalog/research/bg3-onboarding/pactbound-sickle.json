@@ -1,0 +1,80 @@
+{
+  "item_id": "bg3-wiki:51879",
+  "title": "Pactbound Sickle",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421648,
+      "title": "Pactbound Sickle",
+      "markers": [
+        "WPN_HUM_Sickle_A_Pact"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 318633,
+      "title": "Pact of the Blade: Sickle",
+      "markers": [
+        "| item duration = Permanent"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 421638,
+      "title": "Pact of the Blade",
+      "markers": [
+        "Strength]] or [[Dexterity]]"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439161,
+      "title": "Deepened Pact",
+      "markers": [
+        "does not work in Honour Mode"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443689,
+      "title": "Hexed Weapon",
+      "markers": [
+        "fixed 20% chance"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 435730,
+      "title": "Hexblade's Curse (condition)",
+      "markers": [
+        "proficiency bonus"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442222,
+      "title": "Bleeding",
+      "markers": [
+        "start of each turn"
+      ]
+    }
+  ],
+  "summary": "Summoned sickle that uses Charisma and deals magical damage.",
+  "fields": {
+    "Weapon profile": "1d8 magical Slashing plus Charisma. Simple, one-handed, 5 ft melee, Light, Dippable.",
+    "Summon": "Hexblade only. Warlock level 3 with Pact of the Blade. Summon into your hand as an Action, once per battle. You can have only one. It disappears if you remain more than 5 ft away for over 10 rounds.",
+    "Pact rules": "You are proficient with this weapon. Use Charisma for attacks and damage, while its weapon action save DC still uses Strength or Dexterity. Level 5 Deepened Pact grants Extra Attack. It stacks with other class Extra Attack features outside Honour Mode. The linked Deepened Pact rules also apply to Hexed Weapons. A ranged attack made first, or Throw with a ranged weapon equipped, does not trigger the extra attack. A hidden proficiency can cover a second weapon of the same type while equipped together.",
+    "Hexed Weapon": "Each attack has a fixed 20% chance to apply Hexblade’s Curse to an uncursed target. The curse adds your proficiency bonus to damage rolls against that target and reduces your critical-hit threshold by 1 against it. Attacking cannot refresh the curse.",
+    "Lacerate": "Action, normal weapon damage. Constitution save against weapon-action DC +2 or Bleeding for 2 turns. Bleeding deals 2 Slashing at turn start and gives Disadvantage on Constitution saves until healed. Once per Short Rest. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Base value": "0 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

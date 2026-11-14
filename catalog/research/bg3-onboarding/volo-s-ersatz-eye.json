@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:4222",
+  "title": "Volo's Ersatz Eye",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438146,
+      "title": "Volo's Ersatz Eye",
+      "markers": [
+        "'''Volo's Ersatz Eye''' is a common item."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438103,
+      "title": "See Invisibility (condition)",
+      "markers": [
+        "lose their Invisibility"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Volo's Ersatz Eye (passive feature)",
+      "revision": 438316,
+      "markers": [
+        "The DC is 8+Perception modifier"
+      ]
+    }
+  ],
+  "summary": "Volo’s surgery grants permanent See Invisibility.",
+  "fields": {
+    "Permanent effect": "With the eye implanted, invisible creatures within 30 ft make Dexterity saves against DC 8 + the wearer’s Perception modifier or lose Invisibility. The looted eye is an inert item.",
+    "Acquisition": "Rescue Volo and invite him to camp, then consent to his surgery. It is irreversible. Unavailable to Wyll, Minthara, or a character who already Paid the Price to Auntie Ethel.",
+    "Base value": "220 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

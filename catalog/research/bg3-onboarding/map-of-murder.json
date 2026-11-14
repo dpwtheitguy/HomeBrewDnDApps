@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:30860",
+  "title": "Map of Murder",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420795,
+      "title": "Map of Murder",
+      "markers": [
+        "BOOK_LOW_SerialKiller_Map_Tableaux"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 440459,
+      "title": "Investigate the Murders",
+      "markers": [
+        "points to another crime scene"
+      ]
+    }
+  ],
+  "summary": "Map marks another crime scene during Investigate the Murders.",
+  "fields": {
+    "Quest use": "Devella hands the party a copy if convinced. The marker points to another crime scene for the investigation.",
+    "Acquisition": "Also found in Stelmane’s private room at the Elfsong Tavern, X 70, Y −16.",
+    "Base value": "14 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

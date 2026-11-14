@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:6185",
+  "title": "Scroll of Mirror Image",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Mirror Image",
+      "revision": 422825,
+      "markers": [
+        "LOOT_SCROLL_MirrorImage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Mirror Image",
+      "revision": 347647,
+      "markers": [
+        "Shout_MirrorImage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Create three duplicates for 10 turns.",
+  "fields": {
+    "Cast": "Level 2. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Create three duplicates for 10 turns. Each adds +3 AC. A missed attack removes one duplicate. No Concentration.",
+    "Range": "Self.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:16470",
+  "title": "Scroll of Sunbeam",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Sunbeam",
+      "revision": 422923,
+      "markers": [
+        "LOOT_SCROLL_Sunbeam"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Sunbeam",
+      "revision": 383208,
+      "markers": [
+        "Zone_Sunbeam"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Deal 6d8 Radiant in a 60 ft line.",
+  "fields": {
+    "Cast": "Level 6. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Deal 6d8 Radiant in a 60 ft line. A Constitution save halves damage and prevents Blind. Recast while concentrating without another slot.",
+    "Concentration": "Maintain Concentration for the ongoing effect.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "600 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

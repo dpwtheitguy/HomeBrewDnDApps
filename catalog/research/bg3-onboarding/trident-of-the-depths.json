@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:22433",
+  "title": "Trident of the Depths",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Trident of the Depths",
+      "revision": 424391,
+      "markers": [
+        "WPN_Trident_Water_Myrmidon_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Hiemal Strike",
+      "revision": 373860,
+      "markers": [
+        "| condition dc = 13"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Chilled",
+      "revision": 442377,
+      "markers": [
+        "Frozen"
+      ]
+    }
+  ],
+  "summary": "Water Myrmidon trident with Hiemal Strike and different summon and NPC profiles.",
+  "fields": {
+    "Weapon profile": "Martial Versatile trident, 5 ft melee. Hit for 1d6 + 3 one-handed or 1d8 + 3 two-handed Piercing, plus Strength. +3 to attack rolls.",
+    "Variants": "Summoned or Wild Shape Water Myrmidon version adds 1d6 Cold and uses the +3 profile. The NPC version has no enchantment or Cold rider. Cannot dual-wield it even with Dual Wielder.",
+    "Hiemal Strike": "Melee Action, no recharge. On a hit deal weapon damage plus 1d10 Cold. DC 13 Constitution save prevents Chilled for 2 turns. Chilled gives Cold vulnerability and Fire resistance, and combining it with Wet produces Frozen.",
+    "Availability": "Unobtainable in normal play. The Water Myrmidon is Permanently Armed.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

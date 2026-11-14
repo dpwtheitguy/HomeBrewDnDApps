@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:9092",
+  "title": "Darkfire Shortbow",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 428897,
+      "title": "Darkfire Shortbow",
+      "markers": [
+        "| uid = MAG_BG_Darkfire_Shortbow"
+      ]
+    },
+    {
+      "role": "Rules: Haste",
+      "revision": 377239,
+      "title": "Haste",
+      "markers": [
+        "| summary = It allows spellcasters to allow their allies to become {{SmCond|Hastened}}."
+      ]
+    },
+    {
+      "role": "Rules: Hastened (condition)",
+      "revision": 435658,
+      "title": "Hastened (condition)",
+      "markers": [
+        "{{condition page"
+      ]
+    }
+  ],
+  "summary": "A +2 shortbow granting Fire and Cold resistance and a once-per-Long-Rest casting of Haste.",
+  "fields": {
+    "Haste": "Action. Target yourself or an ally within 30 ft. With Concentration, for up to 10 turns grant +2 AC, advantage on Dexterity saves, double movement speed, and one additional action each turn. The target becomes Lethargic when it ends.",
+    "Base value": "480 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

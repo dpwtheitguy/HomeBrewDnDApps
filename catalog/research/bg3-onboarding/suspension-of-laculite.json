@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:14170",
+  "title": "Suspension of Laculite",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Suspension of Laculite",
+      "revision": 423752,
+      "markers": [
+        "ALCH_Extract_Laculite"
+      ]
+    },
+    {
+      "role": "Rules: Greater Elixir of Arcane Cultivation",
+      "title": "Greater Elixir of Arcane Cultivation",
+      "revision": 419124,
+      "markers": [
+        "Suspension of Laculite"
+      ]
+    }
+  ],
+  "summary": "Alchemical extract used for Greater Elixir of Arcane Cultivation.",
+  "fields": {
+    "Extract": "Combine 3 Laculites to make one Suspension of Laculite.",
+    "Brew": "Combine this extract with any Vitriol to make Greater Elixir of Arcane Cultivation.",
+    "Base value": "30 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

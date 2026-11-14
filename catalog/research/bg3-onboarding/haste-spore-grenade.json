@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:9634",
+  "title": "Haste Spore Grenade",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419358,
+      "title": "Haste Spore Grenade",
+      "markers": [
+        "| uid = ALCH_Solution_Grenade_SporesHaste"
+      ]
+    },
+    {
+      "role": "Rules: Haste Spores (condition)",
+      "revision": 435656,
+      "title": "Haste Spores (condition)",
+      "markers": [
+        "{{condition page"
+      ]
+    },
+    {
+      "role": "Rules: Sublimate of Haste Spores",
+      "revision": 423681,
+      "title": "Sublimate of Haste Spores",
+      "markers": [
+        "| description = '''Sublimate of Haste Spores''' is an [[Alchemy|Alchemical Extraction]]. It can be combined with any [[Alchemy#Extractions|Essence]] to create a {{SmRarityItem|Haste Spore Grenade}}."
+      ]
+    }
+  ],
+  "summary": "Throw as an Action to make a 7 ft radius Haste Spores cloud for 3 turns.",
+  "fields": {
+    "Throw": "Single use, up to 60 ft. Entering applies a 1-turn buff confirmed in Honour Mode. Leave and re-enter to refresh while the cloud lasts.",
+    "Haste Spores": "Any affected creature gets +2 AC, advantage on Dexterity saves, +30 ft movement and an extra Action, without Lethargic afterward. In Honour Mode the extra Action does not support Extra Attack and Slowed can remove the effect.",
+    "Crafting": "Three Hastening Spores make Sublimate of Haste Spores. Combine it with any Essence. Spaw can also give it if the party immediately accepts the first offer to eliminate the duergar.",
+    "Base value": "25 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

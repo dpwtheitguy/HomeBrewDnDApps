@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:32013",
+  "title": "Cloth Armour",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417150,
+      "title": "Cloth Armour",
+      "markers": [
+        "ARM_Cloth_B_2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432615,
+      "title": "Grievous Retribution",
+      "markers": [
+        "| description = When an enemy damages the wearer, the wearer gains {{Cond|Wrath}} for 2 turns."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437524,
+      "title": "Wrath (condition)",
+      "markers": [
+        "| effects ="
+      ]
+    }
+  ],
+  "summary": "Clothing with base AC 10. Once per turn when an enemy damages you, gain 2 turns of Wrath. Each remaining turn adds +1 to melee weapon damage, to a maximum of 7.",
+  "fields": {
+    "Effect": "Clothing with base AC 10. Once per turn when an enemy damages you, gain 2 turns of Wrath. Each remaining turn adds +1 to melee weapon damage, to a maximum of 7.",
+    "Base value": "250 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

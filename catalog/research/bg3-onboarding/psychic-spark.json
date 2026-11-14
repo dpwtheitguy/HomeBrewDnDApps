@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:3425",
+  "title": "Psychic Spark",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Psychic Spark",
+      "revision": 422030,
+      "markers": [
+        "UNI_UND_SocietyOfBrilliance_MagicMissileNecklace"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Psychic Missiles",
+      "revision": 432984,
+      "markers": [
+        "via any means"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Magic Missile",
+      "revision": 443812,
+      "markers": [
+        "1d4 + 1"
+      ]
+    }
+  ],
+  "summary": "Add one dart to Magic Missile from any source and cast it once per Long Rest.",
+  "fields": {
+    "Psychic Missiles": "Every Magic Missile cast launches one extra dart, including spells cast from spell slots, scrolls and the amulet.",
+    "Magic Missile": "Action once per Long Rest. The amulet grants the level 1 spell. Four darts, including the extra dart, deal 1d4 + 1 Force each within 60 ft with no attack roll or saving throw. Shield blocks its darts.",
+    "Acquisition": "Sold by Blurg in the Myconid Colony.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:26793",
+  "title": "Suspension of Purple Worm Slime",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Suspension of Purple Worm Slime",
+      "revision": 423757,
+      "markers": [
+        "ALCH_Extract_PurpleWorm"
+      ]
+    },
+    {
+      "role": "Rules: Purple Worm Toxin",
+      "title": "Purple Worm Toxin",
+      "revision": 422048,
+      "markers": [
+        "Suspension of Purple Worm Slime"
+      ]
+    }
+  ],
+  "summary": "Alchemical extract used for Purple Worm Toxin.",
+  "fields": {
+    "Extract": "Combine 3 Purple Worm Gullets to make one Suspension of Purple Worm Slime.",
+    "Brew": "Combine this extract with any Vitriol to make Purple Worm Toxin.",
+    "Base value": "145 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

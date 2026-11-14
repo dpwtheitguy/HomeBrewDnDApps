@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:13137",
+  "title": "Elixir of Elven Elegance",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418143,
+      "title": "Elixir of Elven Elegance",
+      "markers": [
+        "CONS_Elixir_Blood_Elf"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Elven Elegance",
+      "revision": 442776,
+      "markers": [
+        "|ft=33",
+        "{{SAI|Superior Darkvision}}"
+      ]
+    }
+  ],
+  "summary": "Until Long Rest, gain 33 ft of movement speed, Superior Darkvision, and immunity to Charmed.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle. Until Long Rest, gain 33 ft of movement speed, Superior Darkvision, and immunity to Charmed.",
+    "Acquisition": "Trade elf or drow blood to Araj Oblodra in Moonrise Towers or the Lower City.",
+    "Stacking": "Araj’s elixirs stack with ordinary elixirs and other Araj elixirs.",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Verified card mechanics against the cited item or linked rule."
+}

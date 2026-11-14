@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:20260",
+  "title": "Hag's Bane",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419246,
+      "title": "Hag's Bane",
+      "markers": [
+        "| uid = LOW_RegenerationPrevention_Grenade"
+      ]
+    },
+    {
+      "role": "Rules: Nauseous",
+      "revision": 444095,
+      "title": "Nauseous",
+      "markers": [
+        "{{condition page"
+      ]
+    },
+    {
+      "role": "Rules: Save Vanra",
+      "revision": 433425,
+      "title": "Save Vanra",
+      "markers": [
+        "| description = Save Vanra is a quest in Act Three of Baldur's Gate 3. It can be started by speaking with Lora in the Lower City. This quest is only available if Save Mayrina was completed in Act One."
+      ]
+    }
+  ],
+  "summary": "Throw this single-use grenade at a hag to make her disgorge a swallowed child immediately and apply Nauseous for 3 turns.",
+  "fields": {
+    "Throw": "Action, up to 60 ft. Nauseous prevents ordinary Actions. Use on Auntie Ethel to rescue Vanra.",
+    "Crafting": "Combine Ashes of Dried Fey Flower from the safe at Old Garlow’s Place with any Essence. The ashes are unique, but a Transmutation Wizard can produce a second grenade through Experimental Alchemy.",
+    "Base value": "10 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

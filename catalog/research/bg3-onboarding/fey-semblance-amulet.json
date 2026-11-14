@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:10947",
+  "title": "Fey Semblance Amulet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418440,
+      "title": "Fey Semblance Amulet",
+      "markers": [
+        "| uid = MAG_Greenstone_Amulet"
+      ]
+    },
+    {
+      "role": "Rules: Semblance of Fey",
+      "revision": 433100,
+      "title": "Semblance of Fey",
+      "markers": [
+        "| summary = '''Semblance of Fey''' is a passive feature that increases the wearer's defenses against attacks against their mind."
+      ]
+    }
+  ],
+  "summary": "Gain advantage on Intelligence, Wisdom, and Charisma saves.",
+  "fields": {
+    "Use": "Gain advantage on Intelligence, Wisdom, and Charisma saves.",
+    "Base value": "210 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

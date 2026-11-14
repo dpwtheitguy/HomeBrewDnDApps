@@ -1,6 +1,126 @@
 {
   "schema_version": 1,
   "records": {
+    "conan-exiles-reference:c1de7d8a83dbe57e": [
+      {
+        "label": "2024 adaptation · Zathite Dancer Beads",
+        "status": "original-draft",
+        "source": "https://conanexiles.gaming.tools/items/52646",
+        "fields": {
+          "Source locator": "Conan Exiles item 52646.",
+          "Armor class": "11 + Dex modifier",
+          "Training": "Light armor",
+          "Strength requirement": "None",
+          "Stealth disadvantage": "No",
+          "Weight": "10 lb",
+          "Attunement": "Required.",
+          "Use as armor": "The beads entry represents the full outfit, using the 2024 Leather Armor baseline.",
+          "Special powers": "Temple Endurance. Once per Long Rest, when you finish a Short Rest while wearing the outfit, gain Temporary Hit Points equal to twice your Proficiency Bonus.",
+          "Conversion notes": "Temporary hit points translate the source’s Health bonuses. Individual costume pieces grant no additional AC or bonus."
+        },
+        "profile_kind": "adapted-game-armor",
+        "related_item": {
+          "id": "open5e-srd-2024:srd-2024_leather-armor",
+          "label": "Open 2024 Leather Armor"
+        },
+        "rules_source": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor"
+      },
+      {
+        "label": "Conan Exiles · Zathite Dancer Beads",
+        "status": "source-reported",
+        "source": "https://conanexiles.gaming.tools/items/52646",
+        "fields": {
+          "Source locator": "Conan Exiles item 52646.",
+          "Defense (game)": "28 native armor.",
+          "Special powers": "+20 Health in the game.",
+          "Crafting": "The Web of Zath recipe lists one Light Padding and 23 Silk. The cited data lists a zero quantity for its blood ingredient."
+        }
+      }
+    ],
+    "conan-exiles-reference:c6c21158e8542ab3": [
+      {
+        "label": "2024 adaptation · Zathite Dancer Gloves",
+        "status": "original-draft",
+        "source": "https://conanexiles.gaming.tools/items/52647",
+        "fields": {
+          "Source locator": "Conan Exiles item 52647.",
+          "Use as armor": "Costume accessory. This piece grants no separate AC or training requirement.",
+          "Special powers": "The linked Beads entry carries the full outfit’s tabletop benefit."
+        },
+        "profile_kind": "documented-armor-accessory",
+        "related_item": {
+          "id": "conan-exiles-reference:c1de7d8a83dbe57e",
+          "label": "Open Zathite Dancer Beads"
+        }
+      },
+      {
+        "label": "Conan Exiles · Zathite Dancer Gloves",
+        "status": "source-reported",
+        "source": "https://conanexiles.gaming.tools/items/52647",
+        "fields": {
+          "Source locator": "Conan Exiles item 52647.",
+          "Defense (game)": "8 native armor.",
+          "Special powers": "+20 Health in the game.",
+          "Crafting": "The Web of Zath recipe lists one Light Padding and 8 Silk. The cited data lists a zero quantity for its blood ingredient."
+        }
+      }
+    ],
+    "conan-exiles-reference:21d27a9a406d62df": [
+      {
+        "label": "2024 adaptation · Zathite Dancer Shinguards",
+        "status": "original-draft",
+        "source": "https://conanexiles.gaming.tools/items/52659",
+        "fields": {
+          "Source locator": "Conan Exiles item 52659.",
+          "Use as armor": "Costume accessory. This piece grants no separate AC or training requirement.",
+          "Special powers": "The linked Beads entry carries the full outfit’s tabletop benefit."
+        },
+        "profile_kind": "documented-armor-accessory",
+        "related_item": {
+          "id": "conan-exiles-reference:c1de7d8a83dbe57e",
+          "label": "Open Zathite Dancer Beads"
+        }
+      },
+      {
+        "label": "Conan Exiles · Zathite Dancer Shinguards",
+        "status": "source-reported",
+        "source": "https://conanexiles.gaming.tools/items/52659",
+        "fields": {
+          "Source locator": "Conan Exiles item 52659.",
+          "Defense (game)": "8 native armor.",
+          "Special powers": "+20 Health in the game.",
+          "Crafting": "The Web of Zath recipe lists one Light Padding and 8 Silk. The cited data lists a zero quantity for its blood ingredient."
+        }
+      }
+    ],
+    "conan-exiles-reference:f2e362860309d446": [
+      {
+        "label": "2024 adaptation · Zathite Dancer Skirt",
+        "status": "original-draft",
+        "source": "https://conanexiles.gaming.tools/items/52648",
+        "fields": {
+          "Source locator": "Conan Exiles item 52648.",
+          "Use as armor": "Costume accessory. This piece grants no separate AC or training requirement.",
+          "Special powers": "The linked Beads entry carries the full outfit’s tabletop benefit."
+        },
+        "profile_kind": "documented-armor-accessory",
+        "related_item": {
+          "id": "conan-exiles-reference:c1de7d8a83dbe57e",
+          "label": "Open Zathite Dancer Beads"
+        }
+      },
+      {
+        "label": "Conan Exiles · Zathite Dancer Skirt",
+        "status": "source-reported",
+        "source": "https://conanexiles.gaming.tools/items/52648",
+        "fields": {
+          "Source locator": "Conan Exiles item 52648.",
+          "Defense (game)": "20 native armor.",
+          "Special powers": "+20 Health in the game.",
+          "Crafting": "The Web of Zath recipe lists one Light Padding and 15 Silk. The cited data lists a zero quantity for its blood ingredient."
+        }
+      }
+    ],
     "conan-exiles-reference:a0f2d9ebe7dfb7bf": [
       {
         "label": "2024 adaptation · Zingaran Freebooter Headscarf",

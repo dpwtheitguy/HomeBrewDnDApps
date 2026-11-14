@@ -1,0 +1,41 @@
+{
+  "item_id": "bg3-wiki:8142",
+  "title": "Abyss Beckoners",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 440828,
+      "title": "Abyss Beckoners",
+      "markers": [
+        "MAG_Zhentarim_Demonspirit_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432261,
+      "title": "Demonspirit Aura",
+      "markers": [
+        "| summary ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 442605,
+      "title": "Demonspirit Madness",
+      "markers": [
+        "nearest creature",
+        "end of each turn",
+        "Spell Save DC"
+      ]
+    }
+  ],
+  "summary": "Toggle a 30 ft aura that protects summoned creatures but can drive them mad.",
+  "fields": {
+    "Equipment type": "Gloves",
+    "Effect": "While in the wearer’s 30 ft Demonspirit Aura, their summons gain resistance to all damage except Psychic. At the start of each affected summon’s turn it makes a Wisdom save against the wearer’s spell save DC or gains Demonspirit Madness.",
+    "Base value": "450 gp in BG3. Merchant prices vary.",
+    "Demonspirit Madness": "The summon attacks the nearest creature on its turn. At the end of each turn it repeats the Wisdom save, ending the condition on a success.",
+    "Exclusions": "Charm-immune summons cannot become mad. The item source also lists innate exceptions, including summoned Ghouls, Mummies, Dryads, Wood Woads, Flaming Sphere and Spiritual Weapon. Guardian of Faith and Grasping Vine lack the summon tag and are unaffected by the aura."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:18008",
+  "title": "Sarin's Skull",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438642,
+      "title": "Sarin's Skull",
+      "markers": [
+        "S_LOW_ForsakenSkull"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441313,
+      "title": "Lower City Sewers",
+      "markers": [
+        "Chancer's Carcanet"
+      ]
+    }
+  ],
+  "summary": "Return the skull to Sarin’s skeleton to earn Chancer’s Carcanet.",
+  "fields": {
+    "Use": "Combine the skull with the headless skeleton in Aelis’s lair. This does not turn Aelis hostile.",
+    "Acquisition": "In a pouch behind Bareki in Undercity Ruins at X −156, Y 946.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

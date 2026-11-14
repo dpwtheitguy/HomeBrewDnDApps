@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:9228",
+  "title": "Swarming Toadstool",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Swarming Toadstool",
+      "revision": 423773,
+      "markers": [
+        "CONS_Mushroom_Swarmingtoadstool_A"
+      ]
+    },
+    {
+      "role": "Rules: Drow Poison",
+      "title": "Drow Poison",
+      "revision": 417974,
+      "markers": [
+        "Essence of Swarming Toadstool"
+      ]
+    }
+  ],
+  "summary": "Alchemy ingredient for Drow Poison.",
+  "fields": {
+    "Recipe": "Extract 3 Swarming Toadstools into Essence of Swarming Toadstool, then combine with any Salt for Drow Poison. The result can coat weapons or be thrown to create a Drow Poison Cloud.",
+    "Base value": "9 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

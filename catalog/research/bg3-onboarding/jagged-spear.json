@@ -1,0 +1,46 @@
+{
+  "item_id": "bg3-wiki:4213",
+  "title": "Jagged Spear",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419910,
+      "title": "Jagged Spear",
+      "markers": [
+        "| uid = GOB_Torturer_Spear"
+      ]
+    },
+    {
+      "role": "Rules: Torturous Edges",
+      "revision": 437714,
+      "title": "Torturous Edges",
+      "markers": [
+        "| summary = '''Torturous Edges''' is a passive feature that [[Tortured (condition)|tortures]] its targets."
+      ]
+    },
+    {
+      "role": "Rules: Tortured (condition)",
+      "revision": 437246,
+      "title": "Tortured (condition)",
+      "markers": [
+        "{{condition page"
+      ]
+    },
+    {
+      "role": "Rules: Rush Attack",
+      "revision": 374223,
+      "title": "Rush Attack",
+      "markers": [
+        "| description = Charge forward and attack the first enemy in your way, possibly pushing them {{SmCond|Off Balance}}."
+      ]
+    }
+  ],
+  "summary": "A spear with Torturous Edges. A target that fails its hidden Charisma save has disadvantage on Constitution saves for 2 turns.",
+  "fields": {
+    "Weapon profile": "1d6 Piercing one-handed or 1d8 two-handed, plus Strength modifier. Simple, versatile, thrown, dippable, 5 ft melee.",
+    "Torturous Edges": "On a hit, target makes a hidden DC 10 Charisma save. On failure it is Tortured for 2 turns, giving disadvantage on Constitution saves.",
+    "Rush Attack": "With proficiency, Action once per Short Rest. Rush up to 30 ft and attack the first non-allied creature or object for 1d4 Piercing plus the attack ability modifier. Strength save against weapon-action DC or Off Balance for 2 turns.",
+    "Base value": "330 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

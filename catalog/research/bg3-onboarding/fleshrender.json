@@ -1,0 +1,43 @@
+{
+  "item_id": "bg3-wiki:9576",
+  "title": "Fleshrender",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 432494,
+      "title": "Fleshrender",
+      "markers": [
+        "MAG_LC_Fleshrend_Shortsword"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444654,
+      "title": "Part the Flesh",
+      "markers": [
+        "| description = Thrust forward with diabolical precision, possibly stymying your target's ability to heal."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341918,
+      "title": "Shortswords",
+      "markers": [
+        "| damage = 1d6"
+      ]
+    }
+  ],
+  "summary": "A +2 shortsword with Part the Flesh.",
+  "fields": {
+    "Damage": "1d6 + 2 Piercing",
+    "Range": "5 ft melee.",
+    "Training": "martial",
+    "Handling": "one-handed",
+    "Enchantment": "+2",
+    "Weapon actions": "Flourish, Piercing Strike",
+    "Part the Flesh": "Action once per Short Rest. Make a melee weapon attack and add Necrotic damage equal to proficiency bonus. Constitution save against weapon action DC +2 or Rended Flesh for 3 turns, preventing healing.",
+    "Acquisition": "Echo of Abazigal sells it if you become an Unholy Assassin of Bhaal.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

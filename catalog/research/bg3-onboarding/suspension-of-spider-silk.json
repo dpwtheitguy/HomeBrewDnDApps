@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:14187",
+  "title": "Suspension of Spider Silk",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Suspension of Spider Silk",
+      "revision": 440732,
+      "markers": [
+        "ALCH_Extract_SpiderGland"
+      ]
+    },
+    {
+      "role": "Rules: Web Grenade",
+      "title": "Web Grenade",
+      "revision": 424820,
+      "markers": [
+        "Suspension of Spider Silk"
+      ]
+    }
+  ],
+  "summary": "Alchemical extract used for Web Grenade.",
+  "fields": {
+    "Extract": "Combine 3 Silk Glands to make one Suspension of Spider Silk.",
+    "Brew": "Combine this extract with any Vitriol to make Web Grenade.",
+    "Base value": "13 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

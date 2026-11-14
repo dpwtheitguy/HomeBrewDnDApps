@@ -1,0 +1,65 @@
+{
+  "item_id": "bg3-wiki:9623",
+  "title": "Render of Mind and Body",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422290,
+      "title": "Render of Mind and Body",
+      "markers": [
+        "MAG_Blindside_Shortsword"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432985,
+      "title": "Psychic Steel Virtuoso",
+      "markers": [
+        "prior to the attack"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373786,
+      "title": "Flourish",
+      "markers": [
+        "condition dc = weapon action + 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444158,
+      "title": "Off Balance",
+      "markers": [
+        "Removed by taking damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374168,
+      "title": "Piercing Strike",
+      "markers": [
+        "| save dc = weapon action + 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443536,
+      "title": "Gaping Wounds",
+      "markers": [
+        "lacks a check for attack rolls"
+      ]
+    }
+  ],
+  "summary": "A +1 shortsword that deals an extra 1d8 Psychic when its attack starts with Advantage.",
+  "fields": {
+    "Weapon profile": "1d6 + 1 Piercing plus Dexterity or Strength, +1 attack. Martial, one-handed, finesse, light, 5 ft melee.",
+    "Psychic Steel Virtuoso": "An attack with this weapon deals +1d8 Psychic when it already has Advantage before the roll. Reckless Attack does not activate it.",
+    "Flourish": "Bonus Action with proficiency, once per Short Rest. Melee attack for 1d4 nonlethal Bludgeoning. The effect lists Dexterity save against weapon-action DC +2 or Off Balance for 2 turns, while the action’s base save row omits the +2. Off Balance gives disadvantage on Strength and Dexterity checks and advantage to attackers. Taking damage or Help ends it.",
+    "Piercing Strike": "Action, proficient main hand, once per Short Rest. Melee weapon damage on hit. Constitution save vs weapon-action DC +2 prevents 2 turns of Gaping Wounds. Undead and Constructs are immune. Successful attacks add 2 Piercing in standard modes. In Honour, damage sources add 2 of their original damage type. Healing removes it.",
+    "Acquisition": "Lann Tarv at Moonrise Towers X −164, Y −167 after convincing Z’rell to offer additional aid.",
+    "Honour Mode value": "310 gp nominal.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:18453",
+  "title": "Elixir of Dragonborn Prowess: Acid",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418137,
+      "title": "Elixir of Dragonborn Prowess: Acid",
+      "markers": [
+        "CONS_Elixir_Blood_Dragonborn_Acid"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373507,
+      "title": "Melf's Acid Arrow",
+      "markers": [
+        "| description = Shoot a green arrow that bursts in a spray of acid. Deals {{DamageText|4d4|Acid}} damage immediately and {{DamageText|2d4|Acid}} damage at the end of the target's next turn."
+      ]
+    }
+  ],
+  "summary": "Until Long Rest, gain Acid resistance, advantage on Intimidation and Persuasion checks, and one cast of Melf's Acid Arrow.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle. Until Long Rest, gain Acid resistance, advantage on Intimidation and Persuasion checks, and one cast of Melf's Acid Arrow.",
+    "Acquisition": "Trade copper or black dragonborn blood to Araj Oblodra in Moonrise Towers or the Lower City.",
+    "Stacking": "Araj’s elixirs stack with ordinary elixirs and other Araj elixirs.",
+    "Melf's Acid Arrow": "Action. Make a ranged spell attack out to 60 ft. On a hit deal 4d4 Acid, then 2d4 Acid at the end of the target’s next turn. On a miss deal half the initial damage with no delayed damage. Creates an Acid surface in a 7 ft radius.",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Verified card mechanics against the cited item or linked rule."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:9682",
+  "title": "Cloak of Elemental Absorption",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417140,
+      "title": "Cloak of Elemental Absorption",
+      "markers": [
+        "MAG_ElementalGish_AbsorbElements_Cloak"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432033,
+      "title": "Absorb Elements",
+      "markers": [
+        "| description = Absorb elemental damage once per [[Short Rest]]. Take half damage from the next elemental attack targeting you, and deal an additional 1d6 of that element type on your next attack."
+      ]
+    }
+  ],
+  "summary": "Absorb Elements can halve incoming elemental damage and empower your next weapon attack.",
+  "fields": {
+    "Absorb Elements": "When hit by Acid, Cold, Fire, Lightning or Thunder, spend a Reaction to gain resistance to that element against the triggering damage. The elemental effect lasts 2 turns and can add 1d6 of that element to your next weapon attack. Existing resistance does not stack.",
+    "Recharge": "Tooltip says Short Rest. The pinned item page reports a bug that makes the recharge Long Rest.",
+    "Base value": "115 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Expanded the card from the pinned item and linked gameplay evidence."
+}

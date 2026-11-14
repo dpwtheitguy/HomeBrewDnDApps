@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:3589",
+  "title": "Featherlight Boots",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418412,
+      "title": "Featherlight Boots",
+      "markers": [
+        "| uid = MAG_LowHP_IncreaseSpeed_Boots"
+      ]
+    },
+    {
+      "role": "Rules: Burst of Speed",
+      "revision": 432151,
+      "title": "Burst of Speed",
+      "markers": [
+        "| summary = '''Burst of Speed''' is a passive feature that increases movement speed when heavily injured."
+      ]
+    }
+  ],
+  "summary": "When at or below half HP, gain 10 ft movement speed.",
+  "fields": {
+    "Availability": "Unobtainable in normal play. Sovereign Glut rewarded these boots in Early Access.",
+    "Base value": "70 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

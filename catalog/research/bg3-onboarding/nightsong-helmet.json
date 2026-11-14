@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:44946",
+  "title": "Nightsong Helmet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421327,
+      "title": "Nightsong Helmet",
+      "markers": [
+        "| uid = ARM_Helmet_Nightsong"
+      ]
+    },
+    {
+      "role": "Rules: Aylin",
+      "revision": 440049,
+      "title": "Aylin",
+      "markers": [
+        "{{CombatTab}}"
+      ]
+    }
+  ],
+  "summary": "Aylin’s Medium Armour helmet grants +1 to Constitution saving throws.",
+  "fields": {
+    "Availability": "NPC equipment only. The pinned source marks this inaccessible to players.",
+    "Base value": "40 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

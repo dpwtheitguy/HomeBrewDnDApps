@@ -1,0 +1,91 @@
+{
+  "item_id": "bg3-wiki:9105",
+  "title": "Thermodynamo Axe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424170,
+      "title": "Thermodynamo Axe",
+      "markers": [
+        "MAG_Fire_HeatOnWeaponDamage_Battleaxe"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433343,
+      "title": "Thermodynamo",
+      "markers": [
+        "only activate once"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443664,
+      "title": "Heat",
+      "markers": [
+        "maximum {{duration|7}}"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432629,
+      "title": "Heat Convergence",
+      "markers": [
+        "on that first hit"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373605,
+      "title": "Cleave",
+      "markers": [
+        "Flat damage bonus"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442222,
+      "title": "Bleeding",
+      "markers": [
+        "start of each turn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373912,
+      "title": "Maiming Strike",
+      "markers": [
+        "condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443966,
+      "title": "Maimed",
+      "markers": [
+        "reduced to 0"
+      ]
+    }
+  ],
+  "summary": "A +1 battleaxe that generates Heat from weapon damage.",
+  "fields": {
+    "Weapon profile": "1d8 + 1 Slashing one-handed or 1d10 + 1 two-handed, plus Strength. +1 to attack. Martial versatile battleaxe, 5 ft melee.",
+    "Thermodynamo": "Gain 2 turns of Heat once per attack when this weapon deals damage. A Cleave affecting multiple targets does not multiply the grant.",
+    "Heat": "Take 1d4 Fire at turn start. Maximum 7 turns. Heat Convergence consumes the remaining Heat on the next qualifying Fire damage to add 1 Fire per remaining turn.",
+    "Cleave": "Action with proficiency once per Short Rest. Attack up to 3 enemies in a 7 ft cone for half weapon damage. Flat damage bonuses such as Rage are not halved.",
+    "Lacerate": "Action with proficiency once per Short Rest. Melee weapon damage. Constitution save vs weapon-action DC +2 avoids Bleeding for 2 turns. Bleeding deals 2 Slashing at turn start and gives disadvantage on Constitution saves. Healing ends it. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Maiming Strike": "Action with proficiency once per Short Rest. Melee attack for 1d4 + attack ability modifier Slashing. Constitution save vs weapon-action DC +2 avoids Maimed for 2 turns. Flying creatures cannot be Maimed. Maimed stops movement and gives disadvantage on Dexterity saves. Healing ends it.",
+    "Acquisition": "Dammon in Act Two.",
+    "Honour Mode value": "460 gp nominal.",
+    "Base value": "310 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

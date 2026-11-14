@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:35031",
+  "title": "Oskar Fevras (Painting)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421597,
+      "title": "Oskar Fevras (Painting)",
+      "markers": [
+        "| uid = S_UNI_LOW_OskarPortrait"
+      ]
+    },
+    {
+      "role": "Rules: Free the Artist",
+      "revision": 441456,
+      "title": "Free the Artist",
+      "markers": [
+        "| description = Free the Artist''' is a Quest in Act One and Act Three of Baldur's Gate 3. It is started by speaking with Oskar Fevras at the Zhentarim Basement in Act One and does not resume until Act Three in Baldur's Gate."
+      ]
+    }
+  ],
+  "summary": "Combine Oskar’s self-portrait with the empty easel in his atelier to reveal the hidden chamber during Free the Artist.",
+  "fields": {
+    "Acquisition": "Leaning against the western wall in Oskar’s atelier at Lady Jannath’s Estate after freeing him in Act One. A DC 20 chest in the revealed room contains a quest letter.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

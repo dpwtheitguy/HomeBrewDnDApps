@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:25798",
+  "title": "Popdrakes",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 429226,
+      "title": "Popdrakes",
+      "markers": [
+        "DEC_GEN_Fireworks_Rocket_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 434891,
+      "title": "Colour Spray (condition)",
+      "markers": [
+        "Range of attacks and spells reduced"
+      ]
+    }
+  ],
+  "summary": "Firework that deals 3d6 Fire and can inflict Colour Spray.",
+  "fields": {
+    "Throw": "Action, single use. The ordinary Throw option reaches up to 60 ft. The character-named inventory option ignites the rocket and is reported to lack a range limit.",
+    "Blast": "3d6 Fire. DC 12 Dexterity save against Colour Spray. The condition gives disadvantage on attack rolls, normally limits attacks and spells to 10 ft, and grants advantage on attacks against the target. The source does not specify condition duration for the rocket.",
+    "Damage rider interaction": "The item page reports extra repeated Fire damage when the firework is struck by an attack with multiple damage rider sources.",
+    "Acquisition": "Felogyr’s Fireworks.",
+    "Base value": "200 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

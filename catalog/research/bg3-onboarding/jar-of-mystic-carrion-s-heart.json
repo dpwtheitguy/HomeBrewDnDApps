@@ -1,0 +1,46 @@
+{
+  "item_id": "bg3-wiki:18011",
+  "title": "Jar of Mystic Carrion's Heart",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419926,
+      "title": "Jar of Mystic Carrion's Heart",
+      "markers": [
+        "{{MiscItemPage"
+      ]
+    },
+    {
+      "role": "Rules: Unbeating Heart (condition)",
+      "revision": 437302,
+      "title": "Unbeating Heart (condition)",
+      "markers": [
+        "{{condition page"
+      ]
+    },
+    {
+      "role": "Rules: End Mystic Carrion's Immortality",
+      "revision": 383299,
+      "title": "End Mystic Carrion's Immortality",
+      "markers": [
+        "| description = Defeat Mystic Carrion is a sub-quest of the quest Find Mystic Carrion's Servant in Act Three of Baldur's Gate 3. It can be started by speaking with Thrumbo in the Lower City."
+      ]
+    },
+    {
+      "role": "Rules: Funerary Jar Form and Function",
+      "revision": 418746,
+      "title": "Funerary Jar Form and Function",
+      "markers": [
+        "| description = '''Funerary Jar Form and Function''' describes the secretion<!--yes, it does also mean to hide--> of a creature's spirit in urns and living hosts"
+      ]
+    }
+  ],
+  "summary": "Destroy it to stop Mystic Carrion from resurrecting on Long Rest.",
+  "fields": {
+    "Encounter effect": "Destroy it to stop Mystic Carrion from resurrecting on Long Rest.",
+    "Destruction": "The jar explodes in a 13 ft radius for 8d6 Fire. DC 10 Dexterity save halves the damage. Directly attacking the jar without destroying it deals 5 Necrotic to the attacker.",
+    "Acquisition": "Read Funerary Jar Form and Function in the Ancient Lair, then tell Thrumbo the jar is inside him. If Carrion is killed and allowed to resurrect on Long Rest, he hides it in Philgrave’s Mansion basement.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

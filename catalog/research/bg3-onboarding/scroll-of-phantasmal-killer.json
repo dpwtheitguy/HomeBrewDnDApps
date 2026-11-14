@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:16451",
+  "title": "Scroll of Phantasmal Killer",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Phantasmal Killer",
+      "revision": 422894,
+      "markers": [
+        "LOOT_SCROLL_PhantasmalKiller"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Phantasmal Killer",
+      "revision": 441495,
+      "markers": [
+        "Target_PhantasmalKiller"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "On a failed Wisdom save, frighten a target and deal 4d10 Psychic on its turns for up to 10 turns.",
+  "fields": {
+    "Cast": "Level 4. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "On a failed Wisdom save, the target takes 4d10 Psychic each turn and cannot move. It has disadvantage on checks and attacks. Concentration up to 10 turns. Repeat Wisdom saves can end it. Effects that change saves against Frightened do not apply.",
+    "Range": "60 ft.",
+    "Concentration": "Maintain Concentration for the ongoing effect.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "180 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

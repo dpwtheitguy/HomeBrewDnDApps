@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:10411",
+  "title": "Thunderskin Cloak",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Thunderskin Cloak",
+      "revision": 432479,
+      "markers": [
+        "MAG_Thunder_InflictDazeOnReverberatedCreature_Cloak"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Dazing Echo",
+      "revision": 432239,
+      "markers": [
+        "| condition dc = 13"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Dazed",
+      "revision": 442592,
+      "markers": [
+        "Dexterity"
+      ]
+    }
+  ],
+  "summary": "Damaging the wearer while Reverberating can leave an attacker Dazed.",
+  "fields": {
+    "Dazing Echo": "A Reverberating creature that damages you makes a DC 13 Constitution save or becomes Dazed for 2 turns. Opportunity Attack damage qualifies.",
+    "Dazed": "Disadvantage on Wisdom saves, loss of Dexterity AC bonus and inability to spend a Reaction. Help removes it.",
+    "Acquisition": "Araj Oblodra in Moonrise Towers or Crimson Draughts.",
+    "Honour Mode value": "290 gp.",
+    "Base value": "75 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

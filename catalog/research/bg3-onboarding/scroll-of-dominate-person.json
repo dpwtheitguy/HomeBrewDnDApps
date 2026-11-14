@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:16462",
+  "title": "Scroll of Dominate Person",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Dominate Person",
+      "revision": 422778,
+      "markers": [
+        "LOOT_SCROLL_DominatePerson"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Dominate Person",
+      "revision": 429733,
+      "markers": [
+        "Target_DominatePerson"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "One non-allied humanoid fights alongside you on a failed Wisdom save.",
+  "fields": {
+    "Cast": "Level 5. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "One non-allied humanoid fights alongside you on a failed Wisdom save. Each time it takes damage it can repeat the save. Up to 10 turns while concentrating.",
+    "Range": "60 ft.",
+    "Concentration": "Maintain Concentration for the ongoing effect.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "400 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

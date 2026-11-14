@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:31165",
+  "title": "Zhentarim Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Zhentarim Key",
+      "revision": 430682,
+      "markers": [
+        "S_PLA_ZhentDungeon_BackDoor1_Key"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Zhentarim Basement",
+      "revision": 441398,
+      "markers": [
+        "Jarg's key opens the office"
+      ]
+    }
+  ],
+  "summary": "Three same-name keys open two different Zhentarim Basement gates.",
+  "fields": {
+    "Zarys and Vol": "Their keys open the western storage gate, left of the button, at (282, −174). The room contains two trapped wooden chests.",
+    "Jarg": "His key opens the eastern office gate, right of the button, at (304, −177). The office chest contains Abyss Beckoners.",
+    "Acquisition": "Carried by Zarys, Vol and Jarg in the Zhentarim Basement.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

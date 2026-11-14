@@ -93,6 +93,9 @@ function addTabletopWeapon(panel, item, profile) {
         if (base.mechanics && base.mechanics.weapon) mechanics = base.mechanics;
     }
     const weapon = mechanics.weapon;
+    const enhancement = item.source_id === "open5e-srd-2024" && item.magic === true &&
+        /bonus to attack rolls and damage rolls made with this magic weapon/i.test(item.description || "")
+        ? item.name.match(/ \(\+([123])\)$/) : null;
     if (!weapon) return;
     const label = profile
         ? (profile.kind === "source-based-2024" ? "2024 profile · source-based" : "2024 profile · DM review")
@@ -107,7 +110,8 @@ function addTabletopWeapon(panel, item, profile) {
         ["Category", weapon.is_simple === true ? "Simple" : weapon.is_simple === false ? "Martial" : ""],
         ["Range", weapon.range > 0 ? weapon.range + (weapon.long_range > weapon.range ? "/" + weapon.long_range : "") + " ft"
             : weapon.document === "srd-2024" ? meleeRange : ""],
-        ["Item bonus", profile && Number.isInteger(profile.bonus) ? "+" + profile.bonus + " to attack and damage" : ""],
+        ["Item bonus", enhancement ? "+" + enhancement[1] + " to attack and damage"
+            : profile && Number.isInteger(profile.bonus) ? "+" + profile.bonus + " to attack and damage" : ""],
         ["Weight", Number(fields.weight) > 0 ? Number(fields.weight) + " lb" : ""],
         ["Attunement", item.requires_attunement === true ? "Required" : typeof item.requires_attunement === "string" ? item.requires_attunement : ""]
     ]);

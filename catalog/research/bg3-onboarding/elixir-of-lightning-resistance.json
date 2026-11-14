@@ -1,0 +1,44 @@
+{
+  "item_id": "bg3-wiki:3786",
+  "title": "Elixir of Lightning Resistance",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437982,
+      "title": "Elixir of Lightning Resistance",
+      "markers": [
+        "CONS_Potion_Lightning_Resistance",
+        "price = 20",
+        "* You gain [[Damage Types#Resistance|Resistance]] to {{DamageType|Lightning}} damage and can no longer be [[Shocked (condition)|Shocked]], [[Electrocuted (condition)|Electrocuted]], [[Jolted (condition)|Jolted]], or otherwise affected by lightning."
+      ]
+    },
+    {
+      "role": "Shared elixir rules",
+      "revision": 425971,
+      "title": "Elixirs",
+      "markers": [
+        "Only one elixir can be applied at a time",
+        "extra hit points"
+      ]
+    },
+    {
+      "role": "Applied condition",
+      "revision": 443924,
+      "title": "Lightning Resistance",
+      "markers": [
+        "ALCH_ELIXIR"
+      ]
+    }
+  ],
+  "summary": "Drink as a Bonus Action. Gain resistance to Lightning damage and protection against Shocked, Electrocuted and Jolted until the next Long Rest.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle. Gain resistance to Lightning damage and protection against Shocked, Electrocuted and Jolted until the next Long Rest.",
+    "Stacking": "Replaces another elixir effect. Drinking a different elixir can end this effect early.",
+    "Creative use": "Drink before a fight where this effect will matter.",
+    "Throw": "Action. Consume one bottle. Applies the listed protection to creatures within 3 ft of impact. The item source does not give a separate thrown duration.",
+    "Crafting": "Combine Salts of Copper Shavings with any Suspension.",
+    "Base value": "20 gp in BG3. Merchant prices vary.",
+    "Additional protection": "Grants immunity to Static Discharge Aura."
+  },
+  "changes": "Added reviewed native BG3 activation, effects and linked rules."
+}

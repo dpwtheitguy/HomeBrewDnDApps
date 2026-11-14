@@ -1,0 +1,25 @@
+{
+  "item_id": "bg3-wiki:19376",
+  "title": "Comeback Handaxe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417204,
+      "title": "Comeback Handaxe",
+      "markers": [
+        "UNI_WYR_Circus_HandaxeReturning"
+      ]
+    }
+  ],
+  "summary": "This +1 handaxe returns to inventory after a throw and can damage the thrower.",
+  "fields": {
+    "Damage": "1d6 + 1 Slashing",
+    "Weapon profile": "Simple, one-handed, handaxes.",
+    "Properties": "Light, Thrown, Dippable.",
+    "Weapon actions": "Lacerate.",
+    "Homing drawback": "On the return, the axe can hit the thrower for 1d6 + 1 Bludgeoning. Blocking the return path can avoid damage while the axe still returns. It returns to inventory without equipping itself.",
+    "Acquisition": "Akabi can award this consolation prize at the Circus of the Last Days.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence."
+}

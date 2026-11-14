@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:9393",
+  "title": "Snowburst Ring",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423354,
+      "title": "Snowburst Ring",
+      "markers": [
+        "MAG_Frost_GenerateSurfaceOnColdDamage_Ring"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433167,
+      "title": "Snowburst",
+      "markers": [
+        "does not work with"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439852,
+      "title": "Ice",
+      "markers": [
+        "Prone"
+      ]
+    }
+  ],
+  "summary": "Dealing Cold damage creates Ice around the target.",
+  "fields": {
+    "Snowburst": "Once per attack, create an Ice surface in a 15 ft radius around affected targets when dealing qualifying Cold damage. It does not work with thrown weapons or certain delayed spell and retaliation damage.",
+    "Ice": "Difficult Terrain. A creature that slips falls Prone.",
+    "Acquisition": "Perception DC 10 to reveal a loose plank in the bedroom north of the Last Light Inn bar.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

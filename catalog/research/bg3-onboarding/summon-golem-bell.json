@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:23282",
+  "title": "Summon Golem Bell",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Summon Golem Bell",
+      "revision": 442970,
+      "markers": [
+        "UNI_SHA_SummonGolemBell"
+      ]
+    },
+    {
+      "role": "Rules: Flesh",
+      "title": "Flesh",
+      "revision": 441868,
+      "markers": [
+        "Balthazar"
+      ]
+    }
+  ],
+  "summary": "Summon Flesh during combat in the Gauntlet of Shar.",
+  "fields": {
+    "Use": "Action in combat within the Gauntlet of Shar. Summons Flesh. Can be reused but does not restore his HP. Gives Nobles Meat Shield Inspiration.",
+    "Acquisition": "Ask Balthazar for assistance.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

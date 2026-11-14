@@ -1,0 +1,57 @@
+{
+  "item_id": "bg3-wiki:8835",
+  "title": "Ne'er Misser",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 432466,
+      "title": "Ne'er Misser",
+      "markers": [
+        "MAG_MagicMissile_HandCrossbow"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443812,
+      "title": "Magic Missile",
+      "markers": [
+        "| range m = 18"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 421804,
+      "title": "Piercing Shot",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373990,
+      "title": "Mobile Shot",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443536,
+      "title": "Gaping Wounds",
+      "markers": [
+        "Honour"
+      ]
+    }
+  ],
+  "summary": "+1 hand crossbow deals Force and grants level 3 Magic Missile.",
+  "fields": {
+    "Weapon profile": "1d6 + 1 Force plus Dexterity. +1 to attack rolls. Martial one-handed ranged weapon, Light, Ammunition, Loading and Dippable, 50 ft.",
+    "Magic Missile": "Action once per Short Rest. Send 5 darts at targets within 60 ft. Each deals 1d4 + 1 Force with no attack roll or save. Shield negates the darts against its caster.",
+    "Piercing Shot": "Action, ranged weapon damage. Constitution save against weapon-action DC +2 or Gaping Wounds for 2 turns. Undead and Constructs are immune. In standard modes hits on the target gain 2 extra Piercing damage. In Honour Mode it takes 2 extra damage of the original type from damage sources. Healing clears the condition. Once per Short Rest with proficiency. Crossbow Expert: Wounding extends Gaping Wounds to 4 turns.",
+    "Mobile Shot": "After Dash or Disengage on the same turn, make a ranged attack as a Bonus Action within 50 ft. The action lists 1d6 + Dexterity Piercing. Once per Short Rest with proficiency. Dashing more than once in the same round prevents this action.",
+    "Acquisition": "Buy from Roah Moonglow on Moonrise Towers’ main floor, X −174, Y −179.",
+    "Honour Mode value": "800 gp nominal.",
+    "Base value": "310 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

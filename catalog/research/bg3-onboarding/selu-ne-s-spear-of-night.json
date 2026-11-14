@@ -1,0 +1,90 @@
+{
+  "item_id": "bg3-wiki:7957",
+  "title": "Selûne's Spear of Night",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422975,
+      "title": "Selûne's Spear of Night",
+      "markers": [
+        "MAG_SHA_SeluneBlessing_Spear"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433096,
+      "title": "Selûne's Blessing (passive feature)",
+      "markers": [
+        "Wisdom"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442584,
+      "title": "Darkvision",
+      "markers": [
+        "Darkvision"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 421069,
+      "title": "Moonbeam",
+      "markers": [
+        "1d10"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 320852,
+      "title": "Moonmote",
+      "markers": [
+        "condition 2 dc = 14"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374223,
+      "title": "Rush Attack",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444158,
+      "title": "Off Balance",
+      "markers": [
+        "Removed by taking damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373912,
+      "title": "Maiming Strike",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443966,
+      "title": "Maimed",
+      "markers": [
+        "reduced to 0"
+      ]
+    }
+  ],
+  "summary": "Legendary +3 spear with Moonbeam, Moonmote, Darkvision and saving throw benefits.",
+  "fields": {
+    "Weapon profile": "1d6 + 3 Piercing one-handed or 1d8 + 3 two-handed, plus Strength. +3 attack rolls. Simple, Versatile, Thrown and Dippable, 5 ft melee.",
+    "Selûne’s Blessing": "Advantage on Wisdom saves and Perception checks. Darkvision to 40 ft.",
+    "Moonbeam": "Level 3, Action, 60 ft range, 3 ft radius, Concentration up to 10 turns, once per Long Rest. Creatures entering or starting their turn inside take 3d10 Radiant, Constitution save for half. Use an Action to move it up to 60 ft.",
+    "Moonmote": "Action, 60 ft range, 30 ft radius, Concentration up to 10 turns, once per Long Rest. Hostiles starting inside make a DC 14 Wisdom save or treat the light as difficult terrain. Allies in it deal +1d4 Radiant with weapon or unarmed hits, including ranged weapon hits. Spell attacks are excluded.",
+    "Acquisition": "Bring Shadowheart and the Spear of Night to Shadowfell, spare Aylin, and speak to her in camp after Ketheric’s defeat.",
+    "Rush Attack": "Action, charge up to 30 ft and attack the first non-allied creature or object in the path for 1d4 + attack ability modifier Piercing. Strength save against weapon-action DC or Off Balance for 2 turns. Off Balance gives Disadvantage on Strength and Dexterity checks and gives attackers Advantage until damage or Help clears it. Once per Short Rest with proficiency.",
+    "Maiming Strike": "Action for 1d4 + attack ability modifier Piercing. Constitution save against weapon-action DC +2 or Maimed for 2 turns. Maimed sets movement to zero and gives Disadvantage on Dexterity saves until healed. Flying creatures are immune. Once per Short Rest with proficiency.",
+    "Base value": "640 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

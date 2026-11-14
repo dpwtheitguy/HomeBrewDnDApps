@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:6893",
+  "title": "Hedge Wanderer Armour",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419433,
+      "title": "Hedge Wanderer Armour",
+      "markers": [
+        "MAG_Druid_Magic_Hide_Armor"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432101,
+      "title": "Balance",
+      "markers": [
+        "| description = Gain a +1 bonus to [[Dexterity]] {{Saving Throw}}s and {{Ability Check}}s"
+      ]
+    }
+  ],
+  "summary": "Medium Armour with base AC 13 plus Dexterity modifier up to +2. Gain +1 to Nature checks and +1 to Dexterity checks and saves.",
+  "fields": {
+    "Armour class": "13",
+    "Training": "Medium Armour",
+    "Base value": "130 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

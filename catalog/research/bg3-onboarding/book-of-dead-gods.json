@@ -1,0 +1,20 @@
+{
+  "item_id": "bg3-wiki:3843",
+  "title": "Book of Dead Gods",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 429748,
+      "title": "Book of Dead Gods",
+      "markers": [
+        "S_CHA_Crypt_BookOfRestoredGods"
+      ]
+    }
+  ],
+  "summary": "Attempt the DC 10 Religion check to obtain a Scroll of Ray of Enfeeblement even on failure. Passing also grants Acolyte inspiration.",
+  "fields": {
+    "Effect": "Open the book and attempt its DC 10 Religion check to obtain a Scroll of Ray of Enfeeblement even on failure. Passing also grants the Acolyte inspiration. Alternatively, lockpick it with DC 10 Sleight of Hand and then read it.",
+    "Base value": "14 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Completed the item-specific action, timing, save, or effect against pinned evidence."
+}

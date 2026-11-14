@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:8557",
+  "title": "Gauntlets of Hill Giant Strength",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418818,
+      "title": "Gauntlets of Hill Giant Strength",
+      "markers": [
+        "| uid = UNI_ARM_OfGiantHillStrength_Gloves"
+      ]
+    }
+  ],
+  "summary": "Sets Strength to 23 unless already higher and grants +1 to Strength saving throws.",
+  "fields": {
+    "Acquisition": "On a trapped pedestal in the House of Hope Archive. Disarm it with a DC 20 Sleight of Hand check. If turned in to Helsik, the gauntlets can be pickpocketed back.",
+    "Base value": "540 gp in BG3. Merchant prices vary.",
+    "Strength": "Raises Strength to 23 if lower and grants +1 to Strength saves."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

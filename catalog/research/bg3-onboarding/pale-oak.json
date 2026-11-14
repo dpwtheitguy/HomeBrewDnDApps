@@ -1,0 +1,72 @@
+{
+  "item_id": "bg3-wiki:3799",
+  "title": "Pale Oak",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 439327,
+      "title": "Pale Oak",
+      "markers": [
+        "DEN_FaithwardenStaff"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 381331,
+      "title": "Faithwarden's Vines",
+      "markers": [
+        "| area m = 3"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444667,
+      "title": "Faithwarden's Stride",
+      "markers": [
+        "only blocks"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 371601,
+      "title": "Twisting Vines",
+      "markers": [
+        "condition save = STR"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442806,
+      "title": "Entangled",
+      "markers": [
+        "{{condition page"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 377988,
+      "title": "Topple",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441851,
+      "title": "Investigate Kagha",
+      "markers": [
+        "Pale Oak"
+      ]
+    }
+  ],
+  "summary": "Druid reward that grants Faithwarden’s Vines and protection against ordinary druidic vines.",
+  "fields": {
+    "Weapon profile": "1d6 Bludgeoning one-handed or 1d8 two-handed, plus Strength. Simple Versatile weapon, 5 ft reach, Dippable.",
+    "Faithwarden’s Vines": "Level 1, Action, 60 ft range, once per Long Rest. Creates a 10 ft radius of vines for up to 10 turns with Concentration. The terrain halves movement. DC 12 Strength prevents Entangled for 1 turn. An entangled target cannot move, has disadvantage on attack rolls and Dexterity saves, and grants advantage to attackers. Help removes Entangled and Fire burns away the vines.",
+    "Faithwarden’s Stride": "Druidic vines cannot Entangle you or slow you as Difficult Terrain: Vines. It does not bypass other difficult terrain or Jaheira’s scripted cutscene. The staff unlocks a Faithwarden dialogue option with Jaheira.",
+    "Topple": "Action once per Short Rest with proficiency. Melee attack for 1d4 nonlethal Bludgeoning. Dexterity save against weapon-action DC +2 or Prone for 1 turn.",
+    "Acquisition": "Before finishing Rescue the Druid Halsin, have a Druid first speak to Kagha or Rath after dealing with the Shadow Druids during Investigate Kagha. Swayed Kagha gives it, or Rath if she dies.",
+    "Base value": "600 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

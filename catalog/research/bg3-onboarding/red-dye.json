@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:15349",
+  "title": "Red Dye",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422234,
+      "title": "Red Dye",
+      "markers": [
+        "LOOT_Dye_Red"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 405683,
+      "title": "Dyes",
+      "markers": [
+        "Combine Items"
+      ]
+    }
+  ],
+  "summary": "Single-use dye recolours compatible equipment red.",
+  "fields": {
+    "Use": "Combine with eligible equipment in inventory to recolour it.",
+    "Acquisition": "Sold by Dammon in the Hollow, Last Light Inn and Forge of the Nine.",
+    "Base value": "3 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

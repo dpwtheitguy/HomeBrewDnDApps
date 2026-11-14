@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:13647",
+  "title": "Weavemoss",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Weavemoss",
+      "revision": 424812,
+      "markers": [
+        "CONS_Herbs_Weavemoss_Bundle_A"
+      ]
+    },
+    {
+      "role": "Rules: Vitriol of Weavemoss",
+      "title": "Vitriol of Weavemoss",
+      "revision": 424703,
+      "markers": [
+        "Sublimate"
+      ]
+    },
+    {
+      "role": "Rules: Elixir of Arcane Cultivation",
+      "title": "Elixir of Arcane Cultivation",
+      "revision": 418129,
+      "markers": [
+        "condition duration = Long Rest"
+      ]
+    }
+  ],
+  "summary": "Alchemy ingredient for Elixir of Arcane Cultivation.",
+  "fields": {
+    "Crafting": "Extract 3 Weavemoss into Vitriol of Weavemoss. Combine with any Sublimate to obtain Elixir of Arcane Cultivation. It grants a level 1 spell slot until Long Rest and replaces previous elixirs.",
+    "Acquisition": "Random loot and merchant stock, including Derryth Bonecloak.",
+    "Base value": "5 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

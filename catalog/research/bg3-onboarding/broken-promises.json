@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:6904",
+  "title": "Broken Promises",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416786,
+      "title": "Broken Promises",
+      "markers": [
+        "CONS_Hag_Broken_Promises"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 434731,
+      "title": "Broken Promises (condition)",
+      "markers": [
+        "| effects ="
+      ]
+    }
+  ],
+  "summary": "Drink to gain +2 Strength until Long Rest, then suffer an indefinite −1 Strength penalty. Removing the original effect early can also trigger the penalty.",
+  "fields": {
+    "Effect": "Drink to gain +2 Strength until Long Rest, then suffer an indefinite −1 Strength penalty. Removing the original effect early can also trigger the penalty.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:8266",
+  "title": "Ocean Dye",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421433,
+      "title": "Ocean Dye",
+      "markers": [
+        "LOOT_Dye_Ocean_01"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 405683,
+      "title": "Dyes",
+      "markers": [
+        "Combine Items"
+      ]
+    }
+  ],
+  "summary": "Single-use dye gives compatible equipment an ocean palette.",
+  "fields": {
+    "Use": "Combine it with eligible equipment in inventory. Changes the colour and leaves the stats unchanged.",
+    "Acquisition": "Buy from traders such as Arron and Quartermaster Talli.",
+    "Base value": "3 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

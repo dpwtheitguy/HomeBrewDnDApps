@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:9117",
+  "title": "Defender Greataxe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417633,
+      "title": "Defender Greataxe",
+      "markers": [
+        "| uid = MAG_PHB_Defender_Greataxe"
+      ]
+    },
+    {
+      "role": "Rules: Defensive Attack",
+      "revision": 432255,
+      "title": "Defensive Attack",
+      "markers": [
+        "| summary = '''Defensive Attack''' is a passive feature/reaction that lets the wielder of {{SmRarityItem|Defender Greataxe}} temporarily sacrifice one [[Enchantment]] level from the axe to gain +1 bonus AC and saving throws. This choice is given when making the first attack with the axe in a round."
+      ]
+    }
+  ],
+  "summary": "A +2 greataxe with Defensive Attack.",
+  "fields": {
+    "Defensive Attack": "Optional Reaction on the first attack you make with this weapon each round. Reduce the weapon enchantment by 1 and gain +1 AC and saving throws for 1 turn. The attack penalty applies to the triggering roll.",
+    "Base value": "380 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

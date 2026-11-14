@@ -1,0 +1,65 @@
+{
+  "item_id": "bg3-wiki:12300",
+  "title": "Reinforced Greatsword",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422267,
+      "title": "Reinforced Greatsword",
+      "markers": [
+        "HAG_SwampedHero_OldFancyGreatsword"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374173,
+      "title": "Pommel Strike",
+      "markers": [
+        "main hand weapon functors"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442592,
+      "title": "Dazed",
+      "markers": [
+        "Wisdom"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "| condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442222,
+      "title": "Bleeding",
+      "markers": [
+        "start of each turn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373605,
+      "title": "Cleave",
+      "markers": [
+        "Flat damage bonus"
+      ]
+    }
+  ],
+  "summary": "A standard-damage greatsword variant that cannot be used for the masterwork weapon recipe.",
+  "fields": {
+    "Weapon profile": "2d6 Slashing plus Strength. Martial, two-handed, heavy, dippable, 5 ft melee.",
+    "Pommel Strike": "Bonus Action with proficiency, once per Short Rest. Melee attack for 1d4 nonlethal Bludgeoning. Constitution save vs weapon-action DC +2 avoids Dazed for 2 turns. Dazed removes Dexterity AC bonus and Reaction use, gives disadvantage on Wisdom saves, and ends on Help. No main-hand weapon effect.",
+    "Lacerate": "Action with proficiency, once per Short Rest. Weapon damage on hit. Constitution save vs weapon-action DC +2 prevents Bleeding for 2 turns. Bleeding deals 2 Slashing at turn start and imposes disadvantage on Constitution saves. Healing removes it. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Cleave": "Action with proficiency, once per Short Rest. Attack up to three enemies in a 7 ft cone for half weapon damage. Flat bonuses such as Rage are not halved.",
+    "Quest limit": "This variant cannot be used to make the Sussur Greatsword.",
+    "Acquisition": "Sunlit Wetlands north of the Riverside Teahouse, X −4, Y 277.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

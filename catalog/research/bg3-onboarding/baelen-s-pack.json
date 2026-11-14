@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:33476",
+  "title": "Baelen's Pack",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416245,
+      "title": "Baelen's Pack",
+      "markers": [
+        "| uid = S_UND_MushroomHunter_Backpack"
+      ]
+    }
+  ],
+  "summary": "Open the pack near Baelen in the Underdark to retrieve its contents.",
+  "fields": {
+    "Use": "Open the pack near Baelen in the Underdark to retrieve its contents.",
+    "Contents": "The initial pickup includes two Scrolls of Misty Step and one Scroll of Feather Fall.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

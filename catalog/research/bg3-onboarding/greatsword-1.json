@@ -1,0 +1,64 @@
+{
+  "item_id": "bg3-wiki:3358",
+  "title": "Greatsword +1",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419130,
+      "title": "Greatsword +1",
+      "markers": [
+        "WPN_Greatsword_1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373605,
+      "title": "Cleave",
+      "markers": [
+        "| targets = Up to 3"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "| condition dc = weapon action + 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374173,
+      "title": "Pommel Strike",
+      "markers": [
+        "| cost = bonus"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442592,
+      "title": "Dazed",
+      "markers": [
+        "Dexterity"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Bleeding",
+      "revision": 442222,
+      "markers": [
+        "except {{Charlink|Ghast}}s"
+      ]
+    }
+  ],
+  "summary": "Martial two-handed greatsword dealing 2d6 + 1 Slashing.",
+  "fields": {
+    "Weapon profile": "2d6 + 1 Slashing, 5 ft melee. Martial, two-handed, heavy and dippable.",
+    "Cleave": "Action once per Short Rest with proficiency. Attack up to 3 non-allied creatures or objects in a 7 ft cone, dealing half normal weapon damage. Flat bonuses such as Rage are not halved.",
+    "Lacerate": "Action once per Short Rest with proficiency. Make a melee weapon attack. DC is weapon-action DC +2, Constitution save or Bleeding for 2 turns. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Pommel Strike": "Bonus Action once per Short Rest with proficiency. Make a nonlethal melee attack for 1d4 Bludgeoning. DC is weapon-action DC +2, Constitution save or Dazed for 2 turns. Does not apply main-hand weapon riders.",
+    "Acquisition": "Sold by traders using the magic melee weapon table.",
+    "Base value": "85 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

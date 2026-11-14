@@ -1,0 +1,33 @@
+{
+  "item_id": "bg3-wiki:13244",
+  "title": "BOOOAL's Arms",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416230,
+      "title": "BOOOAL's Arms",
+      "markers": [
+        "WPN_Kuotoa_Javelin_A_1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 419939,
+      "title": "Javelins",
+      "markers": [
+        "| damage = 1d6"
+      ]
+    }
+  ],
+  "summary": "A javelin carried by kuo-toa in the Festering Cove.",
+  "fields": {
+    "Weapon type": "Javelins",
+    "Weapon actions": "Piercing Strike",
+    "Damage": "1d6 Piercing",
+    "Range": "5 ft melee.",
+    "Effect": "A javelin carried by kuo-toa in the Festering Cove.",
+    "Thrown": "Uses the Throw action when hurled.",
+    "Base value": "10 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

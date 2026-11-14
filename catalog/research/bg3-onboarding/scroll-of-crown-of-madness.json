@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:13802",
+  "title": "Scroll of Crown of Madness",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Crown of Madness",
+      "revision": 422768,
+      "markers": [
+        "LOOT_SCROLL_CrownOfMadness"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Crown of Madness",
+      "revision": 379444,
+      "markers": [
+        "Target_CrownOfMadness"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "One hostile humanoid makes a Wisdom save.",
+  "fields": {
+    "Cast": "Level 2. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "One hostile humanoid makes a Wisdom save. For up to 3 turns it is driven to attack the nearest creature other than you. It can save again at the end of its turns.",
+    "Range": "60 ft.",
+    "Concentration": "Maintain Concentration for the ongoing effect.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

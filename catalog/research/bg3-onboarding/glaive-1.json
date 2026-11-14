@@ -1,0 +1,34 @@
+{
+  "item_id": "bg3-wiki:3410",
+  "title": "Glaive +1",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418934,
+      "title": "Glaive +1",
+      "markers": [
+        "WPN_HUM_Glaive_A_1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341897,
+      "title": "Glaives",
+      "markers": [
+        "| damage = 1d10"
+      ]
+    }
+  ],
+  "summary": "A +1 martial two-handed glaive with Extra Reach.",
+  "fields": {
+    "Damage": "1d10 + 1 Slashing",
+    "Range": "8 ft melee.",
+    "Training": "martial",
+    "Handling": "two-handed",
+    "Enchantment": "+1",
+    "Weapon actions": "Rush Attack, Lacerate, Brace (Melee)",
+    "Properties": "Heavy, Dippable, Two-handed, Extra Reach. Requires martial weapon proficiency.",
+    "Base value": "85 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

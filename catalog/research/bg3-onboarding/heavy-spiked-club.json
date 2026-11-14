@@ -1,0 +1,42 @@
+{
+  "item_id": "bg3-wiki:14938",
+  "title": "Heavy Spiked Club",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419428,
+      "title": "Heavy Spiked Club",
+      "markers": [
+        "WPN_Ogre_Greatclub_B"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 408129,
+      "title": "Greatclubs",
+      "markers": [
+        "| damage = 1d8"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Tenacity",
+      "revision": 425432,
+      "markers": [
+        "| reaction1 cost = reaction"
+      ]
+    }
+  ],
+  "summary": "An Ogre greatclub dealing 2d8 Bludgeoning.",
+  "fields": {
+    "Damage": "2d8 Bludgeoning",
+    "Range": "5 ft melee.",
+    "Training": "simple",
+    "Handling": "two-handed",
+    "Weapon actions": "Concussive Smash",
+    "Availability": "Can be recovered by disarming Buthir or Lump. Humanoids cannot equip it.",
+    "Base value": "20 gp in BG3. Merchant prices vary.",
+    "Tenacity": "In the main hand, a missed melee attack can spend a Reaction to deal Bludgeoning damage equal to Strength modifier, minimum 1."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

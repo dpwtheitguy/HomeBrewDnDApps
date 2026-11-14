@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:6517",
+  "title": "Spider Egg Sac",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423457,
+      "title": "Spider Egg Sac",
+      "markers": [
+        "CONT_Egg_Spider_A_CombatThrowable"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 422838,
+      "title": "Crag Spider",
+      "markers": [
+        "Crag Spider"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442923,
+      "title": "Frightened",
+      "markers": [
+        "Disadvantage"
+      ]
+    }
+  ],
+  "summary": "Throw to summon five controllable Crag Spiders and frighten nearby targets.",
+  "fields": {
+    "Throw": "Action. Break the sac to summon five allied Crag Spiders until Long Rest. Creatures within 7 ft make a DC 10 Wisdom save against Frightened.",
+    "Acquisition": "DC 10 Perception at the Harper Outpost crevice. Options include Bard song, DC 10 Animal Handling for eligible classes, or DC 15 Sleight of Hand (DC 10 for Rogue). If checks fail, damage the crevice and defeat the four spiders. Grants Sticky Fingers to Outlanders.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

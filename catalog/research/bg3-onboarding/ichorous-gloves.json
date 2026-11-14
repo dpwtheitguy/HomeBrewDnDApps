@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:9551",
+  "title": "Ichorous Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438220,
+      "title": "Ichorous Gloves",
+      "markers": [
+        "| uid = MAG_Acid_NoxiousFumes_Gloves"
+      ]
+    },
+    {
+      "role": "Rules: Ichorous Corrosion",
+      "revision": 432656,
+      "title": "Ichorous Corrosion",
+      "markers": [
+        "| summary = '''Ichorous Corrosion''' is a passive feature that applies noxious fumes on the user's targets when the user deals acid damage to them."
+      ]
+    },
+    {
+      "role": "Rules: Noxious Fumes (acid, condition)",
+      "revision": 444143,
+      "title": "Noxious Fumes (acid, condition)",
+      "markers": [
+        "| effects = * Hostile creatures in a radius of {{Dist|m=3|ft=10}} take {{DamageText|1d4|Acid|drs=yes}} damage."
+      ]
+    }
+  ],
+  "summary": "Acid damage can apply Noxious Fumes to one target for 3 turns on a failed DC 13 Dexterity save.",
+  "fields": {
+    "Ichorous Corrosion": "The pinned source reports it applies once per turn and does not trigger from Fleshmelter Cloak acid.",
+    "Noxious Fumes": "At the start of each turn the affected creature takes 1d4 Acid. Hostile creatures within 10 ft of it also take 1d4 Acid. This is the acid status from the gloves.",
+    "Base value": "90 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

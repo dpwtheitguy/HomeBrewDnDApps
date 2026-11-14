@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:55617",
+  "title": "Open Crate",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Open Crate",
+      "revision": 350389,
+      "markers": [
+        "CONT_GEN_Crate_Clothing_A"
+      ]
+    }
+  ],
+  "summary": "Fixed storage container that cannot be picked up.",
+  "fields": {
+    "Storage": "Access this container where it sits. It cannot be collected into inventory.",
+    "Weight": "22 lb.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 mechanics or quest use from pinned sources."
+}

@@ -1,0 +1,49 @@
+{
+  "item_id": "bg3-wiki:15242",
+  "title": "Elixir of Githyanki Providence",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418146,
+      "title": "Elixir of Githyanki Providence",
+      "markers": [
+        "CONS_Elixir_Blood_Githyanki"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 361982,
+      "title": "Misty Step",
+      "markers": [
+        "| description = Surrounded by silver mist, you teleport to an unoccupied space you can see."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 404044,
+      "title": "Enhance Leap",
+      "markers": [
+        "| description = Triple a creature's [[Jump|Jumping]] distance."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 328586,
+      "title": "Blur",
+      "markers": [
+        "| description = Attackers have {{Disadvantage}} on {{Attack Roll}}s against you."
+      ]
+    }
+  ],
+  "summary": "Until Long Rest, gain one use each of Misty Step, Enhance Leap and Blur.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle. Until Long Rest, gain one use each of Misty Step, Enhance Leap and Blur.",
+    "Acquisition": "Trade githyanki blood to Araj Oblodra in Moonrise Towers or the Lower City.",
+    "Stacking": "Araj’s elixirs stack with ordinary elixirs and other Araj elixirs.",
+    "Misty Step": "Bonus Action. Teleport up to 60 ft to a visible unoccupied space.",
+    "Enhance Leap": "Action at melee range. Triple jump distance for 10 turns.",
+    "Blur": "Action on yourself, concentration up to 10 turns. Attackers who rely on sight and cannot see through illusions have disadvantage on attack rolls against you.",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Verified card mechanics against the cited item or linked rule."
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "bg3-wiki:13980",
+  "title": "Memory Shard",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420903,
+      "title": "Memory Shard",
+      "markers": [
+        "LOOT_Memory_Crystal_A"
+      ]
+    }
+  ],
+  "summary": "Use the shard and pass a DC 10 Arcana check to initiate or advance the Adamantine Forge quest.",
+  "fields": {
+    "Use": "Single use. A successful DC 10 Arcana check starts the dialogue and cutscenes. Choosing to focus on the glow deals minor damage.",
+    "Inspiration": "Pass the checks for this shard, Scribbled Notes, and The Great Furnace of Grymforge to award If I Can’t Have It… Inspiration to Sage party members.",
+    "Acquisition": "Carried by Dhourn, among the petrified drow west of the Selûnite Outpost, X 121, Y −245.",
+    "Base value": "70 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

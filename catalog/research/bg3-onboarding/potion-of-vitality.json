@@ -1,0 +1,22 @@
+{
+  "item_id": "bg3-wiki:3800",
+  "title": "Potion of Vitality",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Potion of Vitality",
+      "revision": 421955,
+      "markers": [
+        "CONS_Potion_Vitality_DONOTUSE"
+      ]
+    }
+  ],
+  "summary": "Cures Poisoned and Diseased when drunk or splashed.",
+  "fields": {
+    "Drink": "Bonus Action. Clear Poisoned and Diseased from yourself.",
+    "Throw": "Action, up to 60 ft. Clear Poisoned and Diseased from creatures in a 3 ft radius.",
+    "Acquisition": "Goblin Camp chest near the path to Rosymorn Monastery Trail. No Alchemy recipe.",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:9005",
+  "title": "Ashaba Dusk",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416121,
+      "title": "Ashaba Dusk",
+      "markers": [
+        "CONS_Drink_Wine_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 437839,
+      "title": "Alcohol (condition)",
+      "markers": [
+        "| effects ="
+      ]
+    }
+  ],
+  "summary": "Use as camp supplies or drink to become affected by Alcohol.",
+  "fields": {
+    "Drink": "Alcohol imposes disadvantage on Dexterity and Charisma checks.",
+    "Camp supplies": "1",
+    "Base value": "3 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 mechanics and pinned item and related rule sources."
+}

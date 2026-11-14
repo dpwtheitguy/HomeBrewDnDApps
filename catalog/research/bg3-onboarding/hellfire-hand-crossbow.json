@@ -1,0 +1,52 @@
+{
+  "item_id": "bg3-wiki:10382",
+  "title": "Hellfire Hand Crossbow",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437974,
+      "title": "Hellfire Hand Crossbow",
+      "markers": [
+        "MAG_Orthon_Hellfire_HandCrossbow"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432640,
+      "title": "Hellstalker",
+      "markers": [
+        "| description = Possibly inflict {{Cond|Burning}} when hitting a creature with this weapon while {{Cond|Hiding}} or {{Cond|Invisible}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 430999,
+      "title": "Scorching Ray",
+      "markers": [
+        "| description = Hurl '''3''' rays of fire. Each ray deals {{DamageText|2d6|Fire}} damage."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 389109,
+      "title": "Hand Crossbows",
+      "markers": [
+        "| damage = 1d6"
+      ]
+    }
+  ],
+  "summary": "A +2 hand crossbow that can Burn targets hit from Hiding or Invisibility.",
+  "fields": {
+    "Damage": "1d6 + 2 Piercing",
+    "Range": "50 ft ranged.",
+    "Training": "martial",
+    "Handling": "one-handed",
+    "Enchantment": "+2",
+    "Weapon actions": "Piercing Shot, Mobile Shot",
+    "Hellstalker": "A hit while you are Hiding or Invisible forces a DC 15 Constitution save or Burning for 2 turns. The linked rule reports the save is hidden in the combat log.",
+    "Scorching Ray Shot": "Action once per Short Rest. Cast level 3 Scorching Ray, firing four separate ranged spell attacks out to 60 ft. Each ray deals 2d6 Fire.",
+    "Base value": "770 gp in BG3. Merchant prices vary.",
+    "Acquisition note": "Obtaining it grants Tools of the Trade inspiration to Outlanders."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

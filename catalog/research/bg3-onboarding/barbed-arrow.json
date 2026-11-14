@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:14015",
+  "title": "Barbed Arrow",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 431637,
+      "title": "Barbed Arrow",
+      "markers": [
+        "| uid = ARR_Barbed_Arrow"
+      ]
+    },
+    {
+      "role": "Rules: Ruptured (condition)",
+      "revision": 436788,
+      "title": "Ruptured (condition)",
+      "markers": [
+        "{{condition page"
+      ]
+    }
+  ],
+  "summary": "Fire one arrow as an Action up to 60 ft for weapon damage. The target makes a DC 12 Dexterity save against Ruptured for 5 turns.",
+  "fields": {
+    "Ruptured": "Normal movement deals 1d4 Piercing per 3 ft and reduces duration by one turn each time. Jumping, teleporting and forced movement do not trigger it. The source reports the save can still occur on a miss.",
+    "Base value": "10 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

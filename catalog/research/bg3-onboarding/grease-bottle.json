@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:3829",
+  "title": "Grease Bottle",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419111,
+      "title": "Grease Bottle",
+      "markers": [
+        "GRN_GreaseBottle_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 419110,
+      "title": "Grease (surface)",
+      "markers": [
+        "| condition dc = 12"
+      ]
+    }
+  ],
+  "summary": "Throw a bottle to create a 10 ft radius of flammable difficult terrain. Creatures can fall Prone.",
+  "fields": {
+    "Throw": "Action. Throw one bottle up to 60 ft. Creates a 10 ft radius Grease surface, reported to persist until removed or transformed.",
+    "Grease": "Difficult terrain halves movement speed. DC 12 Dexterity or fall Prone for 1 turn.",
+    "Ignition": "Fire transforms the surface into Fire. The pinned item notes that the apparent explosion in the combat log does not deal a separate explosive attack.",
+    "Crafting": "No BG3 Alchemy recipe.",
+    "Base value": "7 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

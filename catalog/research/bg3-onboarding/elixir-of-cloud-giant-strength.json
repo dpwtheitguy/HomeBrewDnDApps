@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:12999",
+  "title": "Elixir of Cloud Giant Strength",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438918,
+      "title": "Elixir of Cloud Giant Strength",
+      "markers": [
+        "usage cost = bonus action",
+        "price = 160",
+        "Strength]] to 27",
+        "only 10 turns",
+        "radius|m=1|ft=3",
+        "Salts of Cloud Giant Fingernails"
+      ]
+    },
+    {
+      "role": "Applied condition",
+      "revision": 435264,
+      "title": "Elixir of Cloud Giant Strength (condition)",
+      "markers": [
+        "increased to 27",
+        "stack type = overwrite"
+      ]
+    }
+  ],
+  "summary": "Drink as a Bonus Action to raise Strength to 27 until your next Long Rest. Throw as an Action to apply the effect in a 3 ft radius for 10 turns.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle for Strength 27 until your next Long Rest. Replaces active elixir effects on affected creatures.",
+    "Throw": "Action. Consume one bottle. Affects all creatures in a 3 ft radius for 10 turns. Replaces active elixir effects on affected creatures.",
+    "Stacking": "Either use replaces other elixir effects on affected creatures.",
+    "Crafting": "Combine Salts of Cloud Giant Fingernails with any Suspension.",
+    "Creative use": "Save the splash for a group that can use the Strength boost right away. Keep enemies out of range.",
+    "Base value": "160 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added source-reviewed native BG3 gameplay, consumption, and crafting details."
+}

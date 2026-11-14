@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:3440",
+  "title": "Chain Shirt +1",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416970,
+      "title": "Chain Shirt +1",
+      "markers": [
+        "ARM_ChainShirt_1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433313,
+      "title": "Superior Material (-1)",
+      "markers": [
+        "| description = You take 1 less {{DamageType|Slashing}} damage."
+      ]
+    }
+  ],
+  "summary": "Medium Armour with AC 14 plus Dexterity modifier, to a maximum +2 bonus. Reduce incoming Slashing damage by 1.",
+  "fields": {
+    "Effect": "Medium Armour with AC 14 plus Dexterity modifier, to a maximum +2 bonus. Reduce incoming Slashing damage by 1.",
+    "Base value": "130 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

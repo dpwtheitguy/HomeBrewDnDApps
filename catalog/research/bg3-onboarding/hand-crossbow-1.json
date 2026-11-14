@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:11555",
+  "title": "Hand Crossbow +1",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419298,
+      "title": "Hand Crossbow +1",
+      "markers": [
+        "| uid = WPN_HUM_HandCrossbow_A_1"
+      ]
+    },
+    {
+      "role": "Rules: Hand Crossbows",
+      "revision": 389109,
+      "title": "Hand Crossbows",
+      "markers": [
+        "{{weapon type page"
+      ]
+    },
+    {
+      "role": "Rules: Piercing Shot",
+      "revision": 421804,
+      "title": "Piercing Shot",
+      "markers": [
+        "| description = Deal regular damage and possibly inflict {{SmCond|Gaping Wounds}} which cause extra damage on attacks."
+      ]
+    },
+    {
+      "role": "Rules: Mobile Shot",
+      "revision": 373990,
+      "title": "Mobile Shot",
+      "markers": [
+        "| description = After using {{SmSAI|Dash}} or {{SmSAI|Disengage}} this turn, you can make a ranged attack as a bonus action."
+      ]
+    }
+  ],
+  "summary": "One-handed martial hand crossbow dealing 1d6 + 1 Piercing, with 50 ft normal range.",
+  "fields": {
+    "Weapon profile": "1d6 + 1 Piercing plus Dexterity modifier. Martial, one-handed, Light, ammunition, loading and dippable. Normal range 50 ft.",
+    "Piercing Shot": "With proficiency, Action once per Short Rest. Make a ranged weapon attack. On hit, the target makes a Constitution save against weapon-action DC +2. Failure causes Gaping Wounds for 2 turns, or 4 with Crossbow Expert: Wounding. Undead and Constructs are immune to this rider.",
+    "Mobile Shot": "With proficiency, Bonus Action once per Short Rest after Dash or Disengage on this turn. Make a 50 ft ranged weapon attack for 1d6 Piercing plus Dexterity modifier. The pinned source reports dashing multiple times on the same turn prevents use.",
+    "Enchantment": "+1 to attack and damage rolls, included in listed damage.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

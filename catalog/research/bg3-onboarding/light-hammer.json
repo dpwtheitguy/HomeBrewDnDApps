@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:2829",
+  "title": "Light Hammer",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Light Hammer",
+      "revision": 420477,
+      "markers": [
+        "WPN_HUM_LightHammer_A_0"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373613,
+      "title": "Concussive Smash",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    }
+  ],
+  "summary": "Simple thrown hammer dealing 1d4 Bludgeoning with the BG3 Concussive Smash action.",
+  "fields": {
+    "Damage": "1d4 Bludgeoning plus Strength. Simple one-handed melee weapon, 5 ft reach. Light, Thrown and Dippable.",
+    "Concussive Smash": "Action, melee weapon damage. Constitution save or Dazed for 2 turns. The action uses the higher of weapon-action DC +2 and spell save DC. Once per Short Rest with proficiency.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:8848",
+  "title": "Circlet of Hunting",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 428822,
+      "title": "Circlet of Hunting",
+      "markers": [
+        "MAG_BonusAttack_AgainstMarked_Circlet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432653,
+      "title": "Hunter's Eye",
+      "markers": [
+        "| description = You gain a {{DieIcon|d4|Piercing}} '''+1d4''' bonus to {{Attack Roll}}s against creatures marked by {{Cond|Hunter's Mark Quarry|Hunter's Mark}}, {{Cond|True Strike}}, {{Cond|Faerie Fire}}, or {{Cond|Guiding Bolt}}."
+      ]
+    }
+  ],
+  "summary": "Add 1d4 to attack rolls against targets marked by Hunter’s Mark, True Strike, Faerie Fire or Guiding Bolt.",
+  "fields": {
+    "Effect": "Add 1d4 to attack rolls against targets marked by Hunter’s Mark, True Strike, Faerie Fire or Guiding Bolt.",
+    "Base value": "230 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

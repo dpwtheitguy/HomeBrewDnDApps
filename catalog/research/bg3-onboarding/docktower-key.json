@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:47108",
+  "title": "Docktower Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430609,
+      "title": "Docktower Key",
+      "markers": [
+        "| uid = LOW_CountingHouse_DocksTower_Key"
+      ]
+    },
+    {
+      "role": "Rules: The Counting House",
+      "revision": 440067,
+      "title": "The Counting House",
+      "markers": [
+        "{{Location page"
+      ]
+    }
+  ],
+  "summary": "Opens the locked watchtower at the Counting House docks.",
+  "fields": {
+    "Acquisition": "Cashguard Basher Brammels carries the key. DC 15 Sleight of Hand is an alternate opening method.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

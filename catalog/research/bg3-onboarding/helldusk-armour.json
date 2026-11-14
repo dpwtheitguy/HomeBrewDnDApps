@@ -1,0 +1,59 @@
+{
+  "item_id": "bg3-wiki:8156",
+  "title": "Helldusk Armour",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419447,
+      "title": "Helldusk Armour",
+      "markers": [
+        "MAG_Infernal_Plate_Armor"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437849,
+      "title": "Infernal Retribution",
+      "markers": [
+        "| description = When you succeed a {{Saving Throw}}, the caster receives {{SmCond|Burning (Orthonic)}} for 3 turns."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432970,
+      "title": "Prime Aegis of Fire",
+      "markers": [
+        "| description = You have [[Resistance]] to {{DamageType|Fire}} damage and cannot be {{Cond|Burning|Burned}}. You take '''3''' less damage from all sources."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 418641,
+      "title": "Fly (bonus action)",
+      "markers": [
+        "| description = Bestow the ability to {{SAI|Fly (class action)|Fly}} upon yourself."
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Burning (Orthonic)",
+      "revision": 442329,
+      "markers": [
+        "Cannot",
+        "damage per turn"
+      ]
+    }
+  ],
+  "summary": "Heavy Armour with AC 21 and no proficiency requirement. Reduces damage and grants flight.",
+  "fields": {
+    "Armour class": "21",
+    "Training": "Any wearer is considered proficient. Imposes disadvantage on Stealth checks.",
+    "Prime Aegis of Fire": "Fire resistance, immunity to Burning and 3 less damage from all sources.",
+    "Infernal Retribution": "When you succeed on a saving throw, the source of the spell receives Burning (Orthonic) for 3 turns.",
+    "Fly": "Bonus Action once per Long Rest. Grants Flight to yourself for 10 turns, with no concentration.",
+    "Base value": "8000 gp in BG3. Merchant prices vary.",
+    "Reported armour interactions": "Because it has no armour proficiency group, effects such as Bracers of Defence and Monk Unarmoured Movement can remain active. A hidden passive supplies +1 AC to wearers with the Defence fighting style, and can coexist with the normal +1 from another equipped armour piece.",
+    "Burning (Orthonic)": "Deals 1d4 Fire damage per turn. Help, healing potions and becoming Wet do not remove it."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

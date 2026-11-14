@@ -1,0 +1,20 @@
+{
+  "item_id": "bg3-wiki:20870",
+  "title": "Bagel",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416249,
+      "title": "Bagel",
+      "markers": [
+        "| uid = CONS_GEN_Food_Bread_Bagel_A"
+      ]
+    }
+  ],
+  "summary": "Contributes 5 Camp Supplies toward a Long Rest.",
+  "fields": {
+    "Camp Supplies": "5",
+    "Base value": "5 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:50379",
+  "title": "Toymaker's Basement Chest Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Toymaker's Basement Chest Key",
+      "revision": 430555,
+      "markers": [
+        "S_WYR_MerchantsHouse_BasementChestKey"
+      ]
+    }
+  ],
+  "summary": "Opens trapped Heavy Chest in Arfur’s Mansion basement.",
+  "fields": {
+    "Use": "Trapped Heavy Chest in Arfur’s Mansion basement.",
+    "Acquisition": "Under a jug in the basement (362, −999).",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

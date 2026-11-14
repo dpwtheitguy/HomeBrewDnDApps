@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:9533",
+  "title": "Gloves of the Automaton",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418980,
+      "title": "Gloves of the Automaton",
+      "markers": [
+        "MAG_OfAutomaton_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 348848,
+      "title": "Circuitry Interface",
+      "markers": [
+        "| description = You are considered a [[construct]]. Your weapon {{Attack roll}}s have {{Advantage}}, and you have [[resistance]] to {{DamageType|Lightning}} damage."
+      ]
+    }
+  ],
+  "summary": "Gain +1 Strength saves. Activate Circuitry Interface to be treated as a Construct and improve attacks.",
+  "fields": {
+    "Circuitry Interface": "Bonus Action once per Short Rest. For 10 turns you are treated as a Construct, gain Advantage on weapon attack rolls, and have Lightning resistance.",
+    "Base value": "290 gp in BG3. Merchant prices vary.",
+    "Construct interactions": "Many healing spells, including Healing Word, cannot heal you during Circuitry Interface. The Construct status also lets you use Light of Creation without its risk of stunning the wielder."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

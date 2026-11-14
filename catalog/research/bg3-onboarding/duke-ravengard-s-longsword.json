@@ -1,0 +1,45 @@
+{
+  "item_id": "bg3-wiki:9566",
+  "title": "Duke Ravengard's Longsword",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418019,
+      "title": "Duke Ravengard's Longsword",
+      "markers": [
+        "MAG_WYRM_Commander_Longsword"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433292,
+      "title": "Stirring Execution",
+      "markers": [
+        "| description = When you kill an enemy, allies within {{dist|m=9}} gain [[Temporary Hit Points|temporary hit points]] equal to your{{see bugs}} Charisma [[Ability Modifier|Modifier]] (minimum 1)."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444245,
+      "title": "Commander's Strike",
+      "markers": [
+        "| description = Direct an ally to strike a foe. The ally uses a reaction on their next turn to make a {{SAI|Commander's Strike (Attack)|weapon attack}}."
+      ]
+    }
+  ],
+  "summary": "A +1 longsword that increases Charisma by 2 and helps allies attack or gain temporary HP.",
+  "fields": {
+    "Damage": "1d8 + 1 Slashing",
+    "Range": "5 ft melee.",
+    "Training": "martial",
+    "Handling": "versatile",
+    "Enchantment": "+1",
+    "Weapon actions": "Lacerate, Pommel Strike, Rush Attack",
+    "Two-handed damage": "1d10 +1 Slashing",
+    "Charisma": "+2 Charisma with no listed cap. Capped Charisma increases stop stacking when you exceed their caps.",
+    "Stirring Execution": "After you kill an enemy, allies within 30 ft gain temporary HP, minimum 1. The source reports the amount uses each recipient’s Charisma modifier despite the tooltip saying it uses yours.",
+    "Commander’s Strike": "Action and Bonus Action once per Short Rest. Choose an ally within 30 ft. On their next turn, they can spend a Reaction to make one melee weapon attack. The granted attack cannot be ranged or unarmed and does not trigger Extra Attack for the ally. The item lists no Superiority Die cost.",
+    "Base value": "250 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Verified card mechanics against the cited item or linked rule."
+}

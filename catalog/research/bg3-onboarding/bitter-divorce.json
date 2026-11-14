@@ -1,0 +1,24 @@
+{
+  "item_id": "bg3-wiki:3952",
+  "title": "Bitter Divorce",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416498,
+      "title": "Bitter Divorce",
+      "markers": [
+        "| uid = UNI_HAG_Wand_SummonHusband_Incomplete",
+        "revives Connor as hostile",
+        "revives Connor as an ally"
+      ]
+    }
+  ],
+  "summary": "Use an Action up to 30 ft away to raise Connor Vinderblad as a zombie.",
+  "fields": {
+    "Base value": "100 gp in BG3. Merchant prices vary.",
+    "Act One with Mayrina": "If the party keeps the wand after raising Connor with Mayrina present, it becomes Second Marriage.",
+    "Act One without Mayrina": "Connor rises hostile. The wand stays Bitter Divorce and does not grant a summon.",
+    "Act Three from Mayrina": "Connor rises as an ally if the wand was bought or pickpocketed from Mayrina in Act Three. The wand stays Bitter Divorce and does not grant a summon."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Separated the three quest outcomes."
+}

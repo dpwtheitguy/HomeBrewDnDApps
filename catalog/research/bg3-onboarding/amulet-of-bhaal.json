@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:8046",
+  "title": "Amulet of Bhaal",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 434071,
+      "title": "Amulet of Bhaal",
+      "markers": [
+        "LOOT_GEN_Amulet_of_Bhaal_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432563,
+      "title": "First Blood",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Hits against targets at maximum HP inflict Bleeding.",
+  "fields": {
+    "Equipment type": "Amulets",
+    "Effect": "Hitting a creature that still has all its HP inflicts Bleeding for 2 turns.",
+    "Base value": "120 gp in BG3. Merchant prices vary.",
+    "Access": "The amulet permits entry to the Undercity Ruins and the Bhaal Temple."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

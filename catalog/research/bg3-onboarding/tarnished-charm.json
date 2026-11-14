@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:3586",
+  "title": "Tarnished Charm",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423857,
+      "title": "Tarnished Charm",
+      "markers": [
+        "EQ_HAG_Phylactery"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432556,
+      "title": "Fey Life",
+      "markers": [
+        "from 10 to 5"
+      ]
+    }
+  ],
+  "summary": "Reduces death saving throw DC from 10 to 5.",
+  "fields": {
+    "Fey Life": "While worn, a death save of 5 meets the DC.",
+    "Acquisition": "Loot Auntie Ethel. Leaving the amulet on her body changes her responses when you cast Speak with Dead on it.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

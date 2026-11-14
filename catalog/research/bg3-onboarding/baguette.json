@@ -1,0 +1,20 @@
+{
+  "item_id": "bg3-wiki:15998",
+  "title": "Baguette",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416251,
+      "title": "Baguette",
+      "markers": [
+        "| uid = CONS_GEN_Food_Bread_Baguette_A"
+      ]
+    }
+  ],
+  "summary": "Contributes 5 Camp Supplies toward a Long Rest.",
+  "fields": {
+    "Camp Supplies": "5",
+    "Base value": "5 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

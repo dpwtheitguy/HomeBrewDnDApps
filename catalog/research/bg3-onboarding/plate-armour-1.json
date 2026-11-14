@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:9428",
+  "title": "Plate Armour +1",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Plate Armour +1",
+      "revision": 421842,
+      "markers": [
+        "ARM_Plate_1"
+      ]
+    },
+    {
+      "role": "Rules: Superior Plate (-1)",
+      "title": "Superior Plate (-1)",
+      "revision": 433317,
+      "markers": [
+        "1 less"
+      ]
+    }
+  ],
+  "summary": "Heavy armour with AC 19.",
+  "fields": {
+    "Defence": "AC 19, Heavy Armour proficiency, Disadvantage on Stealth checks. Superior Plate reduces Piercing damage by 1.",
+    "Acquisition": "Levelled magic armour traders for character levels 8–10. Also worn by Cashguard Captain Faril at the Counting House.",
+    "Base value": "800 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

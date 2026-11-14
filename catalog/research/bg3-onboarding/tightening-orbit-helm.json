@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:30899",
+  "title": "Tightening Orbit Helm",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Tightening Orbit Helm",
+      "revision": 424232,
+      "markers": [
+        "MAG_ZOC_Force_Helmet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Tightening Orbit",
+      "revision": 424231,
+      "markers": [
+        "Spend 1 turn"
+      ]
+    }
+  ],
+  "summary": "Medium Armour headwear with +1 Constitution saves and a Force Conduit pull.",
+  "fields": {
+    "Saving throws": "+1 Constitution saving throws. Medium Armour proficiency.",
+    "Tightening Orbit": "Level 3 Action, once per Short Rest. Spend 1 turn of Force Conduit and pull enemies within 30 ft toward you. The spell describes damaging force but gives no damage dice, save, or pull distance.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "No nominal BG3 value is listed in the pinned source."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

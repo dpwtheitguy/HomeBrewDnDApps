@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:11275",
+  "title": "Crooked Wand of Fireballs",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417400,
+      "title": "Crooked Wand of Fireballs",
+      "markers": [
+        "UNI_TOOL_Wand_Fireballs_Crooked"
+      ]
+    }
+  ],
+  "summary": "This single-use wand casts 8d6 Fire within a 13 ft radius at 5 ft range.",
+  "fields": {
+    "Cast": "Action, choose a target within 5 ft. Deal 8d6 Fire to creatures within 13 ft of the target, Dexterity save for half. The item source does not specify a fixed DC.",
+    "After use": "Becomes the Broken Wand of Fireballs. The source reports that Evocation Wizards spare themselves and allies.",
+    "Base value": "100 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence."
+}

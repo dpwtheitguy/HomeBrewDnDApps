@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:10189",
+  "title": "Hat of Uninhibited Kushigo",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 432432,
+      "title": "Hat of Uninhibited Kushigo",
+      "markers": [
+        "| uid = MAG_Monk_Magic_Hat"
+      ]
+    },
+    {
+      "role": "Rules: Lay Bare Their Weakness",
+      "revision": 432736,
+      "title": "Lay Bare Their Weakness",
+      "markers": [
+        "| summary = '''Lay Bare Their Weakness''' is a passive feature that increases the difficulty to resist the wearer's spells."
+      ]
+    }
+  ],
+  "summary": "Dealing damage with a melee unarmed attack gives +1 spell save DC until the start of your next turn.",
+  "fields": {
+    "Limits": "The bonus does not stack. Throw attacks do not trigger it.",
+    "Base value": "240 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

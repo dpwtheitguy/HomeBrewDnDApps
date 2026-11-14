@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:15",
+  "title": "Adamantine Mace",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 415814,
+      "title": "Adamantine Mace",
+      "markers": [
+        "WPN_HUM_Mace_Adamantine_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432266,
+      "title": "Diamondsbane",
+      "markers": [
+        "| summary ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 408639,
+      "title": "Lethal Weapon (Bludgeoning)",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Hits on objects are critical hits. This weapon ignores Bludgeoning resistance.",
+  "fields": {
+    "Equipment type": "Maces",
+    "Enchantment": "+1",
+    "Damage": "1d6 + 1 Bludgeoning",
+    "Effect": "Hits on objects are critical hits. This weapon ignores Bludgeoning resistance.",
+    "Crafting": "Forge from a Mace Mould and Mithral Ore.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 mechanics and pinned item and related rule sources."
+}

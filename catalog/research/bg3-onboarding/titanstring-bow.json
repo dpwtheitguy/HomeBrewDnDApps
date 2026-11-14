@@ -1,0 +1,58 @@
+{
+  "item_id": "bg3-wiki:6824",
+  "title": "Titanstring Bow",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Titanstring Bow",
+      "revision": 424251,
+      "markers": [
+        "MAG_StrongString_Longbow"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Titan Weapon",
+      "revision": 433357,
+      "markers": [
+        "minimum of +1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Brace (Ranged)",
+      "revision": 439120,
+      "markers": [
+        "| cost = movement m:6"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Hamstring Shot",
+      "revision": 373853,
+      "markers": [
+        "| condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Pushing Attack (Titanstring Bow)",
+      "revision": 422052,
+      "markers": [
+        "weapon action"
+      ]
+    }
+  ],
+  "summary": "A +1 longbow that adds Strength to damage on top of Dexterity.",
+  "fields": {
+    "Weapon profile": "Martial two-handed longbow, 60 ft range. +1 to attacks. Hit for 1d8 + 1 Piercing plus Dexterity, with a separate Titan Weapon bonus. Dippable.",
+    "Titan Weapon": "Add your Strength modifier to damage, minimum +1. It is absent from the displayed attack tooltip. Outside Honour Mode the bonus can also apply to separate riders such as special arrows or a Sneak Attack reaction. In Honour Mode it can still apply to special arrows. Seeking Arrow and Piercing Arrow Arcane Shots do not qualify.",
+    "Brace (Ranged)": "Spend 20 ft movement once per Short Rest with proficiency. Roll ranged damage twice and use the higher result for the rest of the turn. Breaks Hiding and Invisibility.",
+    "Hamstring Shot": "Action, once per Short Rest with proficiency. Deal ranged weapon damage. Constitution save against weapon-action DC +2 prevents half movement speed for 2 turns.",
+    "Pushing Attack": "Action once per Short Rest. On a hit, deal weapon damage. A separate Strength save against weapon-action DC prevents the 15 ft push shown in the description. Does not require Longbow proficiency or spend a Superiority Die.",
+    "Acquisition": "Brem’s special stock after Find the Missing Shipment, or Lann Tarv if that stock was never unlocked.",
+    "Honour Mode value": "400 gp.",
+    "Base value": "310 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

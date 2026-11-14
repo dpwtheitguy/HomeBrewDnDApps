@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:11613",
+  "title": "Spaceshunt Boots",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 428712,
+      "title": "Spaceshunt Boots",
+      "markers": [
+        "UNI_LOW_Boots_DimensionalDoor"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 417713,
+      "title": "Dimension Door",
+      "markers": [
+        "| level = 4"
+      ]
+    }
+  ],
+  "summary": "Casts Dimension Door once per Long Rest.",
+  "fields": {
+    "Dimension Door": "Level 4 Action. Teleport up to 165 ft to a point you can see. Bring one movable ally of Medium size or smaller within 7 ft, or select yourself to go alone. Forced-movement immunity prevents carrying an ally.",
+    "Acquisition": "Worn by Dolor, who moves to Facemaker’s Boutique if he survives the earlier encounter.",
+    "Base value": "190 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

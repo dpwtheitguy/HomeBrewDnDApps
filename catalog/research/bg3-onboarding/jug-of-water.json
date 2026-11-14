@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:39923",
+  "title": "Jug of Water",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419983,
+      "title": "Jug of Water",
+      "markers": [
+        "CONS_Drink_Water_Jug_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 431953,
+      "title": "Water (surface)",
+      "markers": [
+        "Douses unprotected flames"
+      ]
+    }
+  ],
+  "summary": "Throw a single-use jug to create a permanent Water surface.",
+  "fields": {
+    "Throw": "Action. Throw up to 60 ft to create Water in a 7 ft radius. The surface is permanent until changed by an interaction.",
+    "Water": "Douses unprotected flames. Lightning turns it into Electrified Water and Cold turns it into Ice. A weapon dipped in Water loses its coating and Burning.",
+    "Base value": "2 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

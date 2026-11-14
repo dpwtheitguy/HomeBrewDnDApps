@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:3711",
+  "title": "Arrow of Lightning",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 444657,
+      "title": "Arrow of Lightning",
+      "markers": [
+        "ARR_Arrow_Of_Lightning",
+        "price = 10",
+        "* Deals {{InfoBlob|Weapon Damage}} and explodes in a bolt of lightning. dealing an additional {{DamageText|2d4|Lightning|drs=t}} damage."
+      ]
+    },
+    {
+      "role": "Shared arrow rules",
+      "revision": 439126,
+      "title": "Arrows",
+      "markers": [
+        "cannot be crafted",
+        "off-hand ranged attacks",
+        "no saving throws"
+      ]
+    }
+  ],
+  "summary": "Weapon damage plus 2d4 Lightning. DC 12 Dexterity negates the extra Lightning damage. The item lists a 7 ft-radius effect. The shared arrow rules describe damage as applying to the target rather than nearby creatures.",
+  "fields": {
+    "Activation": "Action. Fire from a ranged weapon and consume one arrow. Range 60 ft.",
+    "Effect": "Weapon damage plus 2d4 Lightning. DC 12 Dexterity negates the extra Lightning damage. The item lists a 7 ft-radius effect. The shared arrow rules describe damage as applying to the target rather than nearby creatures.",
+    "Restrictions": "Special arrows cannot be used with off-hand ranged attacks.",
+    "Crafting": "Special arrows are obtained from loot or vendors.",
+    "Creative use": "Use against a target vulnerable to Lightning.",
+    "Base value": "10 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 activation, effects and linked rules."
+}

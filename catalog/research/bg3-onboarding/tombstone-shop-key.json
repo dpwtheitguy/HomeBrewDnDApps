@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:38001",
+  "title": "Tombstone Shop Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Tombstone Shop Key",
+      "revision": 430464,
+      "markers": [
+        "UNI_LOW_MurderTribunal_TombstoneShopKey"
+      ]
+    }
+  ],
+  "summary": "Opens entrance to Candulhallow’s Tombstones. The Murder Tribunal entrance inside still has a separate password.",
+  "fields": {
+    "Use": "Entrance to Candulhallow’s Tombstones. The Murder Tribunal entrance inside still has a separate password.",
+    "Acquisition": "Koll, the doppelganger at the wine festival outside Highberry’s Home.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

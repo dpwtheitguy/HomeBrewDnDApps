@@ -1,0 +1,53 @@
+{
+  "item_id": "bg3-wiki:12248",
+  "title": "Garb of the Land and Sky",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437984,
+      "title": "Garb of the Land and Sky",
+      "markers": [
+        "| uid = MAG_Monk_Magic_Armor_1"
+      ]
+    },
+    {
+      "role": "Rules: Mountainous Poise",
+      "revision": 432874,
+      "title": "Mountainous Poise",
+      "markers": [
+        "| summary = '''Mountainous Poise''' is a passive feature that increases a monk's defenses"
+      ]
+    },
+    {
+      "role": "Rules: Breezeswift Speed",
+      "revision": 432142,
+      "title": "Breezeswift Speed",
+      "markers": [
+        "| summary = '''Breezeswift Speed''' is a passive feature that increases a monk's attacks."
+      ]
+    },
+    {
+      "role": "Rules: Blade Ward (condition)",
+      "revision": 434633,
+      "title": "Blade Ward (condition)",
+      "markers": [
+        "{{condition page"
+      ]
+    },
+    {
+      "role": "Rules: Patient Defence",
+      "revision": 421713,
+      "title": "Patient Defence",
+      "markers": [
+        "| summary = '''Patient Defence''' is a [[Monk]] bonus action that allows them to enter a defensive stance to evade incoming attacks."
+      ]
+    }
+  ],
+  "summary": "Gain +1 AC. Patient Defence grants physical damage resistance and Step of the Wind grants attack advantage and bonus Force damage.",
+  "fields": {
+    "Mountainous Poise": "Using Patient Defence grants Blade Ward for 1 turn, resisting Bludgeoning, Piercing and Slashing damage.",
+    "Breezeswift Speed": "Using Step of the Wind grants Swift As Wind for 1 turn. It grants advantage to all attack rolls and +1d8 Force on weapon hits. A successful regular weapon attack consumes it. Thrown weapons can receive the extra damage on multiple attacks during the same turn without consuming it.",
+    "Base value": "800 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

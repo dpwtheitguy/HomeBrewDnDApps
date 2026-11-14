@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:14989",
+  "title": "Withered Blue Petal",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424947,
+      "title": "Withered Blue Petal",
+      "markers": [
+        "{{SmItemIcon|Withered Blue Petal}} is a [[Miscellaneous]] item found in the basement of the [[Arcane Tower]]. Its purpose is to hint at how to start the generator again. Otherwise it has no known uses."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441382,
+      "title": "Sussur Bloom",
+      "markers": [
+        "One bloom is required"
+      ]
+    }
+  ],
+  "summary": "Puzzle clue identifying what the Arcane Tower generator needs.",
+  "fields": {
+    "Clue": "Withered petals near the generator point to a fresh Sussur Bloom. The fresh bloom activates the tower and disables some defences. The withered petal itself has no known activation or crafting use.",
+    "Acquisition": "Three on the floor by the basement generator.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

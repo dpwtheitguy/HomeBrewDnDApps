@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:24819",
+  "title": "Common Table-Wine",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417219,
+      "title": "Common Table-Wine",
+      "markers": [
+        "CONS_GEN_Alcohol_Bottle_Cheap_D"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437839,
+      "title": "Alcohol (condition)",
+      "markers": [
+        "| effects = * Has {{Disadvantage}} on [[Dexterity]] and [[Charisma]] checks."
+      ]
+    }
+  ],
+  "summary": "Provides 1 Camp Supplies toward a Long Rest.",
+  "fields": {
+    "Camp Supplies": "Provides 1 Camp Supplies toward a Long Rest.",
+    "Drinking": "Alcohol imposes disadvantage on Dexterity and Charisma checks.",
+    "Throwing": "Throw to create an Alcohol surface.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence."
+}

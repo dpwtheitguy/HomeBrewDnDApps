@@ -1,0 +1,46 @@
+{
+  "item_id": "bg3-wiki:23345",
+  "title": "Javelin +1",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419938,
+      "title": "Javelin +1",
+      "markers": [
+        "| uid = WPN_HUM_Javelin_A_1"
+      ]
+    },
+    {
+      "role": "Rules: Javelins",
+      "revision": 419939,
+      "title": "Javelins",
+      "markers": [
+        "{{weapon type page"
+      ]
+    },
+    {
+      "role": "Rules: Piercing Strike",
+      "revision": 374168,
+      "title": "Piercing Strike",
+      "markers": [
+        "| description = Stab an enemy and possibly inflict {{cond|Gaping Wounds}}."
+      ]
+    },
+    {
+      "role": "Rules: Gaping Wounds",
+      "revision": 443536,
+      "title": "Gaping Wounds",
+      "markers": [
+        "{{condition page"
+      ]
+    }
+  ],
+  "summary": "Simple one-handed javelin dealing 1d6 + 1 Piercing. Can be thrown.",
+  "fields": {
+    "Weapon profile": "1d6 + 1 Piercing plus Strength modifier. 5 ft melee. Simple, one-handed, thrown and dippable. Throw range depends on the thrower and target location.",
+    "Piercing Strike": "With proficiency, Action once per Short Rest. On a weapon hit, Constitution save against weapon-action DC +2 or Gaping Wounds for 2 turns. Undead and Constructs are unaffected. In standard modes, affected targets take 2 extra Piercing damage when hit. In Honour Mode, any damage source deals 2 extra damage of its original type.",
+    "Enchantment": "+1 to attack and damage rolls, already included in the listed damage.",
+    "Base value": "10 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:2821",
+  "title": "Spear",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423424,
+      "title": "Spear",
+      "markers": [
+        "WPN_HUM_Spear_A_0"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374223,
+      "title": "Rush Attack",
+      "markers": [
+        "| range m = 9"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444158,
+      "title": "Off Balance",
+      "markers": [
+        "Removed by taking damage"
+      ]
+    }
+  ],
+  "summary": "A versatile spear with Rush Attack.",
+  "fields": {
+    "Weapon profile": "1d6 Piercing one-handed or 1d8 two-handed, plus Strength. Simple, versatile, thrown, 5 ft melee. The enchantment also applies to attacks.",
+    "Rush Attack": "Action with proficiency, once per Short Rest. Charge up to 30 ft and strike first non-allied creature or object for 1d4 + attack ability modifier Piercing. Strength save vs weapon-action DC avoids Off Balance for 2 turns. Off Balance gives disadvantage on Strength and Dexterity checks and advantage to attackers. Help or damage ends it.",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

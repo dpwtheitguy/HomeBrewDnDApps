@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:31054",
+  "title": "Scarab of Protection",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422671,
+      "title": "Scarab of Protection",
+      "markers": [
+        "MAG_PHB_ScarabOfProtection_Amulet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423436,
+      "title": "Spell Protection",
+      "markers": [
+        "Advantage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 425411,
+      "title": "Necromantic Evasion",
+      "markers": [
+        "| reaction1 recharge = Short rest"
+      ]
+    }
+  ],
+  "summary": "Unobtainable amulet grants Advantage on saves against spells and a necromancy save reaction.",
+  "fields": {
+    "Spell Protection": "Advantage on saves against spells.",
+    "Necromantic Evasion": "When you fail a save against a necromancy spell or a spell cast by an undead foe, spend a Reaction to succeed. The source lists a Short Rest recharge in the action data while its tooltip says Long Rest.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "320 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

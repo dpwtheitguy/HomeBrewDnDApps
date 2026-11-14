@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:8273",
+  "title": "Yellow Dye",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Yellow Dye",
+      "revision": 425051,
+      "markers": [
+        "LOOT_Dye_Golden_01"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Dyes",
+      "revision": 405683,
+      "markers": [
+        "replaces the original dye"
+      ]
+    }
+  ],
+  "summary": "Single-use dye that recolours compatible equipment yellow.",
+  "fields": {
+    "Use": "Combine with compatible equipment in the inventory screen. Applying a second dye replaces the first. Dye Remover restores the original colours.",
+    "Acquisition": "Dammon in the Hollow, Last Light Inn or Forge of the Nine. Derryth Bonecloak at Ebonlake Grotto, or Quartermaster Talli at Last Light Inn. Also inside the Djinni Lamp in the Sorcerous Vault.",
+    "Base value": "3 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules. The mismatched Swamp Green controller image is removed from this card’s artwork choices.",
+  "omit_art_reference": "File:Swamp Green Dye Detail Unfaded.png"
+}

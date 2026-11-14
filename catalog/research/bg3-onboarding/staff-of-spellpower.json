@@ -1,0 +1,56 @@
+{
+  "item_id": "bg3-wiki:8565",
+  "title": "Staff of Spellpower",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Staff of Spellpower",
+      "revision": 423537,
+      "markers": [
+        "MAG_OfSpellPower_Quarterstaff"
+      ]
+    },
+    {
+      "role": "Rules: Arcane Enchantment (+1)",
+      "title": "Arcane Enchantment (+1)",
+      "revision": 432064,
+      "markers": [
+        "| description = You gain a +1 bonus to [[Spell Save DC]] and [[Spell Attack]] rolls."
+      ]
+    },
+    {
+      "role": "Rules: Arcane Battery",
+      "title": "Arcane Battery",
+      "revision": 432062,
+      "markers": [
+        "| description = Alleviate the arcane burden of spellcasting with the power of this staff. The next spell you cast doesn't cost a [[Spell Slot|spell slot]]."
+      ]
+    },
+    {
+      "role": "Rules: Topple",
+      "title": "Topple",
+      "revision": 377988,
+      "markers": [
+        "Non-lethal"
+      ]
+    },
+    {
+      "role": "Rules: Prone (condition)",
+      "title": "Prone (condition)",
+      "revision": 436524,
+      "markers": [
+        "One turn duration"
+      ]
+    }
+  ],
+  "summary": "+2 staff improves spell attacks and saves and can spare a spell slot.",
+  "fields": {
+    "Weapon profile": "Simple, Versatile, 5 ft melee, Dippable. 1d6 + 2 one-handed or 1d8 + 2 two-handed Bludgeoning plus Strength. +2 to attack rolls.",
+    "Arcane Enchantment": "+1 to spell attack rolls and spell save DC.",
+    "Arcane Battery": "Toggle on once per Long Rest to cast your next spell without expending a spell slot. A cantrip, item spell or scroll can waste the charge, and the scroll is still consumed. The source reports that the cooldown is per character, so a different wielder can use their own charge.",
+    "Acquisition": "Raphael’s Vault in the House of Hope. DC 10 Wisdom then DC 20 Arcana to use the gems.",
+    "Base value": "480 gp nominal BG3 value.",
+    "Topple": "With proficiency, once per Short Rest. Action, weapon attack for 1d4 nonlethal Bludgeoning. DEX save against weapon-action DC +2 or Prone for 1 turn. Prone breaks Concentration and expires at the start of the target’s turn. Topple skips main-hand weapon effects."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

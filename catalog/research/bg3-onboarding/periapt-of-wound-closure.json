@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:8627",
+  "title": "Periapt of Wound Closure",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Periapt of Wound Closure",
+      "revision": 421757,
+      "markers": [
+        "MAG_PHB_PeriaptofWoundClosure_Amulet"
+      ]
+    },
+    {
+      "role": "Rules: Wound Closure",
+      "title": "Wound Closure",
+      "revision": 433460,
+      "markers": [
+        "automatically stabilise"
+      ]
+    },
+    {
+      "role": "Rules: Potent Healing",
+      "title": "Potent Healing",
+      "revision": 432961,
+      "markers": [
+        "by'' the wearer"
+      ]
+    }
+  ],
+  "summary": "Automatically stabilise when Downed and maximise healing received.",
+  "fields": {
+    "Wound Closure": "If Downed, automatically stabilise at the start of your turn.",
+    "Potent Healing": "Healing you receive restores its maximum possible HP. Healing you give another creature is unchanged.",
+    "Acquisition": "Lady Esther northeast of the Trielta Crags waypoint.",
+    "Base value": "125 gp standard base value, 410 gp in Honour Mode. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

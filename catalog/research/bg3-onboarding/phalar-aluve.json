@@ -1,0 +1,99 @@
+{
+  "item_id": "bg3-wiki:3376",
+  "title": "Phalar Aluve",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Phalar Aluve",
+      "revision": 432441,
+      "markers": [
+        "S_UND_SwordInStone_SwordReward"
+      ]
+    },
+    {
+      "role": "Rules: Phalar Aluve: Melody",
+      "title": "Phalar Aluve: Melody",
+      "revision": 371022,
+      "markers": [
+        "recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Rules: Phalar Aluve: Sing",
+      "title": "Phalar Aluve: Sing",
+      "revision": 370919,
+      "markers": [
+        "death saving throws"
+      ]
+    },
+    {
+      "role": "Rules: Phalar Aluve: Shriek",
+      "title": "Phalar Aluve: Shriek",
+      "revision": 381334,
+      "markers": [
+        "any source"
+      ]
+    },
+    {
+      "role": "Rules: Lacerate",
+      "title": "Lacerate",
+      "revision": 373909,
+      "markers": [
+        "Bleeding"
+      ]
+    },
+    {
+      "role": "Rules: Pommel Strike",
+      "title": "Pommel Strike",
+      "revision": 374173,
+      "markers": [
+        "Dazed"
+      ]
+    },
+    {
+      "role": "Rules: Rush Attack",
+      "title": "Rush Attack",
+      "revision": 374223,
+      "markers": [
+        "Off Balance"
+      ]
+    },
+    {
+      "role": "Rules: Off Balance",
+      "title": "Off Balance",
+      "revision": 444158,
+      "markers": [
+        "Removed by taking damage"
+      ]
+    },
+    {
+      "role": "Rules: Dazed",
+      "title": "Dazed",
+      "revision": 442592,
+      "markers": [
+        "Dexterity"
+      ]
+    },
+    {
+      "role": "Rules: Bleeding",
+      "title": "Bleeding",
+      "revision": 442222,
+      "markers": [
+        "start of each turn"
+      ]
+    }
+  ],
+  "summary": "Finesse +1 longsword with a choice of two short-rest auras.",
+  "fields": {
+    "Weapon": "Martial, versatile, finesse and dippable, 5-ft melee. 1d8 + 1 one-handed or 1d10 + 1 two-handed Slashing, plus Strength or Dexterity. +1 to attacks and Performance checks.",
+    "Melody": "Action, choose Sing or Shriek. Shared recharge on Short Rest. Both last 5 turns and end early if unequipped.",
+    "Sing": "20-ft aura gives allies other than the wielder +1d4 to attack rolls and all saves, including death saves.",
+    "Shriek": "20-ft aura. Enemies take −1d4 to attacks and all saves. Every damage instance from any source adds 1d4 Thunder, including separate Magic Missile darts. Outside Honour Mode this Thunder does not activate Thunder-specific item riders. Honour Mode changes that interaction.",
+    "Lacerate": "Action once per Short Rest with proficiency. Deal weapon damage. Constitution save against weapon-action DC +2 or Bleeding for 2 turns. Bleeding deals 2 Slashing damage at the start of each turn, gives Disadvantage on Constitution saves, and ends on healing. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Pommel Strike": "Bonus Action once per Short Rest with proficiency. Nonlethal 1d4 Bludgeoning. Constitution save against weapon-action DC +2 or Dazed for 2 turns. Dazed removes the Dexterity bonus to AC, imposes Disadvantage on Wisdom saves and blocks reactions that cost a Reaction. Help clears it.",
+    "Rush Attack": "Action once per Short Rest with proficiency. Charge up to 30 ft and hit the first non-allied creature or object for 1d4 Piercing plus the attack ability modifier. Strength save against weapon-action DC or Off Balance for 2 turns. Off Balance gives attackers Advantage and gives the target Disadvantage on Strength and Dexterity checks until damage or Help clears it.",
+    "Acquisition": "Sword in stone, Underdark (116, −192). DC 15 Strength or Religion. Lolth clerics get Advantage on Religion, Eilistraee clerics can bypass the check. Paladins get DC 10 Religion with Advantage, then the rite or DC 10 Charisma oath option. Blood spilled beneath it also bypasses checks. The proper rite grants Last Rites of the Dark Dancer inspiration for Acolytes, unlike Strength or Paladin-specific paths.",
+    "Base value": "250 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations. Reconciled applicable action, condition, and variant details against pinned rules."
+}

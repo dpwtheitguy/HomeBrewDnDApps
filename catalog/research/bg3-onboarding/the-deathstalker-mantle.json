@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:4765",
+  "title": "The Deathstalker Mantle",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "The Deathstalker Mantle",
+      "revision": 438432,
+      "markers": [
+        "UNI_DarkUrge_Bhaal_Cloak"
+      ]
+    },
+    {
+      "role": "Rules: The Shadow Itself",
+      "title": "The Shadow Itself",
+      "revision": 433950,
+      "markers": [
+        "| description = Once per turn when you kill an enemy, shroud yourself in primeval darkness to become {{cond|Invisible}} for 2 turns."
+      ]
+    }
+  ],
+  "summary": "Direct combat kills grant Invisibility for 2 turns.",
+  "fields": {
+    "The Shadow Itself": "Once per turn, directly kill an enemy in combat to become Invisible for 2 turns. Out-of-combat sniping, indirect environmental kills and Cloud of Daggers kills do not ordinarily trigger it. Returning weapons can end Invisibility early. Cull the Weak can interfere, and Honour Mode Sneak Attack applied as a reaction does not trigger the cloak.",
+    "Acquisition": "Sceleritas Fel gives it to the Dark Urge after the scripted camp killing when the Dark Urge is responsible.",
+    "Base value": "190 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:3945",
+  "title": "Cap of Wrath",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416894,
+      "title": "Cap of Wrath",
+      "markers": [
+        "| uid = ARM_Helmet_Barbarian_Magic"
+      ]
+    },
+    {
+      "role": "Rules: Last Stand",
+      "revision": 432733,
+      "title": "Last Stand",
+      "markers": [
+        "| summary = '''Last Stand''' is a passive feature that increases your damage when you are severely wounded."
+      ]
+    },
+    {
+      "role": "Rules: Wrath (condition)",
+      "revision": 437524,
+      "title": "Wrath (condition)",
+      "markers": [
+        "{{About"
+      ]
+    }
+  ],
+  "summary": "During combat, start a turn at half HP or lower to gain Wrath.",
+  "fields": {
+    "Wrath": "At the start of your turn in combat at half HP or less, gain 1 turn of Wrath. The tooltip says 2 turns, but the pinned rule reports 1. Wrath adds 1 melee weapon damage per remaining turn, stacking up to 7.",
+    "Base value": "640 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Expanded the card from the pinned item and linked gameplay evidence."
+}

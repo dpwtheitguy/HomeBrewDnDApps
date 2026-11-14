@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:2395",
+  "title": "Glowing Shield",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418984,
+      "title": "Glowing Shield",
+      "markers": [
+        "MAG_LowHP_TemporaryHP_Shield"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432796,
+      "title": "Loving Protection",
+      "markers": [
+        "| description = Once per [[Short Rest]], if you are below 50% [[Hit Points]] and take damage, you gain {{Temp hp|8}}."
+      ]
+    }
+  ],
+  "summary": "A shield with +2 AC. Once per Short Rest, taking damage while below half HP grants 8 temporary HP.",
+  "fields": {
+    "Effect": "A shield with +2 AC. Once per Short Rest, taking damage while below half HP grants 8 temporary HP.",
+    "Base value": "70 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:8943",
+  "title": "Wizardsbane Oil",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Wizardsbane Oil",
+      "revision": 424957,
+      "markers": [
+        "ALCH_Solution_Oil_Wizardsbane"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Coated in Wizardsbane Oil",
+      "revision": 442415,
+      "markers": [
+        "for 2 turns"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Wizardsbane Oil (condition)",
+      "revision": 437518,
+      "markers": [
+        "-3 penalty"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Coatings",
+      "revision": 438130,
+      "markers": [
+        "When dual wielding",
+        "other coatings simply have no effect"
+      ]
+    }
+  ],
+  "summary": "Coating that weakens spell attacks, spell DC and Concentration.",
+  "fields": {
+    "Coat": "Single-use Bonus Action. Coat the active weapon for 10 turns. Targets struck take −3 to spell attacks and spell save DC and Disadvantage on Concentration saves for 2 turns. Wild Shape can use the oil, but its attacks do not apply the effect. The selected main-hand and off-hand weapons share the coating. The melee and ranged sets are applied separately. Dipping replaces a coating.",
+    "Throw": "The item can be thrown, but the item effect and shared coating table document no splash mechanic.",
+    "Crafting": "Combine Essence of Gremishka Tail with any Suspension. Extract 3 Gremishka Tails for one Essence.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

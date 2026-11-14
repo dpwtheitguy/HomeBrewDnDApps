@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:10191",
+  "title": "Gloves of the Balanced Hands",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418981,
+      "title": "Gloves of the Balanced Hands",
+      "markers": [
+        "MAG_OfTheBalancedHands_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433376,
+      "title": "Two-Weapon Fighting",
+      "markers": [
+        "| description = When you make an offhand attack, you can add your [[Ability Score Modifier]] to the damage of the attack."
+      ]
+    }
+  ],
+  "summary": "Add your attack ability modifier to damage on off-hand attacks.",
+  "fields": {
+    "Effect": "Add your attack ability modifier to damage on off-hand attacks with melee or ranged weapons.",
+    "Base value": "160 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

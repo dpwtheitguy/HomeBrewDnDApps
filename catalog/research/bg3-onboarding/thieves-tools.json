@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:3835",
+  "title": "Thieves' Tools",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 425297,
+      "title": "Thieves' Tools",
+      "markers": [
+        "TOOL_GEN_ThievesTools_A_Open_A"
+      ]
+    }
+  ],
+  "summary": "Attempt a Sleight of Hand check to open a lock.",
+  "fields": {
+    "Lockpick": "Use on a locked object with a pickable lock. The item is consumed only on a failed check.",
+    "Acquisition": "Found throughout the game and sold by traders.",
+    "Base value": "25 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:11948",
+  "title": "Resonance Stone",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422328,
+      "title": "Resonance Stone",
+      "markers": [
+        "TOOL_MF_Resonance_Crystal_Legless_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437070,
+      "title": "Steeped in Bliss (condition)",
+      "markers": [
+        "mental{{Saving throw}}s"
+      ]
+    }
+  ],
+  "summary": "Carrying this stone gives nearby eligible creatures Steeped in Bliss.",
+  "fields": {
+    "Aura": "30 ft radius around the carrier. Affects allies and enemies except Undead and Constructs.",
+    "Steeped in Bliss": "Advantage on Strength, Dexterity and Constitution checks. Disadvantage on Intelligence, Wisdom and Charisma saves. Vulnerable to Psychic damage.",
+    "Acquisition": "Mind Flayer Colony near the Mind-Archive Interface, X 692, Y −114.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

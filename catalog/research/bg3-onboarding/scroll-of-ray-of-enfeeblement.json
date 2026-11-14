@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:6183",
+  "title": "Scroll of Ray of Enfeeblement",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Ray of Enfeeblement",
+      "revision": 422901,
+      "markers": [
+        "LOOT_SCROLL_RayOfEnfeeblement"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Ray of Enfeeblement",
+      "revision": 328600,
+      "markers": [
+        "Projectile_RayOfEnfeeblement"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Ranged spell attack.",
+  "fields": {
+    "Cast": "Level 2. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Ranged spell attack. For up to 10 turns, the target deals half damage with weapon attacks using Strength. A Constitution save at the end of its turn can end the effect.",
+    "Range": "60 ft.",
+    "Concentration": "Maintain Concentration for the ongoing effect.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

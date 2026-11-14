@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:10557",
+  "title": "Ritual Dagger of Shar",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Ritual Dagger of Shar",
+      "revision": 441433,
+      "markers": [
+        "S_TWN_CentralSquare_RitualDagger"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Piercing Strike",
+      "revision": 374168,
+      "markers": [
+        "| condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Gaping Wounds",
+      "revision": 443536,
+      "markers": [
+        "Honour Mode"
+      ]
+    }
+  ],
+  "summary": "A +1 dagger that adds 1d4 Necrotic to melee hits.",
+  "fields": {
+    "Weapon profile": "1d4 + 1 Piercing plus applicable ability modifier, +1 to attack rolls, plus 1d4 Necrotic on melee hits. Simple, one-handed, 5 ft, Finesse, Light, Thrown and Dippable. The bonus Necrotic is omitted on a throw.",
+    "Piercing Strike": "With proficiency, Action once per Short Rest. Melee weapon damage on hit. Constitution save against weapon-action DC +2 prevents Gaping Wounds for 2 turns. Undead and Constructs are immune. Healing clears it. Standard mode hits add 2 Piercing. Honour Mode adds 2 of the original damage type to any damage source.",
+    "Acquisition": "Hidden altar in the Sharran Sanctuary, X 249, Y −847. Picking it up can inspire A Dark Edge and Ruthless Craftsmanship. Shadowheart disapproves by 1 unless she takes it herself. Taking or moving the dagger starts combat with three sentinels.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

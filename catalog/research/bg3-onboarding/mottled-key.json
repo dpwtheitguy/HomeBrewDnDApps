@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:47982",
+  "title": "Mottled Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430584,
+      "title": "Mottled Key",
+      "markers": [
+        "| uid = S_LOW_BlushingMErmaid_BasementLairArena_Key"
+      ]
+    },
+    {
+      "role": "Rules: The Blushing Mermaid",
+      "revision": 423969,
+      "title": "The Blushing Mermaid",
+      "markers": [
+        "{{Location page"
+      ]
+    }
+  ],
+  "summary": "Unlocks the door to Auntie Ethel’s lair beneath the Blushing Mermaid.",
+  "fields": {
+    "Acquisition": "Carried by the Mask of Terror in the Blushing Mermaid basement.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

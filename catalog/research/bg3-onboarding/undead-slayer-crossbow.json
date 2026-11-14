@@ -1,0 +1,56 @@
+{
+  "item_id": "bg3-wiki:57139",
+  "title": "Undead Slayer Crossbow",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424487,
+      "title": "Undead Slayer Crossbow",
+      "markers": [
+        "MAG_LC_UndeadSlayer_HeavyCrossbow"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 413217,
+      "title": "Revenant Scourge",
+      "markers": [
+        "+1d4 bonus to Attack and Damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 421804,
+      "title": "Piercing Shot",
+      "markers": [
+        "| condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443536,
+      "title": "Gaping Wounds",
+      "markers": [
+        "Honour Mode"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439120,
+      "title": "Brace (Ranged)",
+      "markers": [
+        "roll ranged damage"
+      ]
+    }
+  ],
+  "summary": "A +2 heavy crossbow with an extra attack and damage bonus against Undead.",
+  "fields": {
+    "Weapon profile": "1d10 + 2 Piercing plus Dexterity, +2 to attack rolls. Martial two-handed heavy crossbow, 60 ft.",
+    "Revenant Scourge": "Against Undead, this weapon adds 1d4 to attack and damage rolls. The similarly named Long Arm of the Gur lacks the hidden status enabling this passive.",
+    "Piercing Shot": "Action with proficiency once per Short Rest. Make a ranged weapon attack. Constitution save against weapon-action DC +2 prevents Gaping Wounds for 2 turns. Undead and Constructs are immune. In standard modes successful attacks deal 2 extra Piercing. In Honour, damage sources add 2 of their damage type. Healing ends the condition.",
+    "Brace": "Spend 20 ft movement with proficiency once per Short Rest. Roll ranged damage twice and use the higher roll until turn end. Breaks Hiding and Invisibility. Heavy crossbows have a separate cooldown from longbows.",
+    "Availability": "Inaccessible through normal acquisition.",
+    "Base value": "380 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

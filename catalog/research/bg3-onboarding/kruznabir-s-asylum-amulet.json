@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:30988",
+  "title": "Kruznabir's Asylum Amulet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420182,
+      "title": "Kruznabir's Asylum Amulet",
+      "markers": [
+        "| uid = MAG_LC_HellishMadness_Amulet"
+      ]
+    },
+    {
+      "role": "Rules: Crown of Madness",
+      "revision": 379444,
+      "title": "Crown of Madness",
+      "markers": [
+        "| summary = It allows spellcasters to temporarily charm a humanoid creature and induce madness in their mind. The affected creature then makes a melee attack against any creature aside from the caster within its reach."
+      ]
+    },
+    {
+      "role": "Rules: Crown of Madness (condition)",
+      "revision": 434957,
+      "title": "Crown of Madness (condition)",
+      "markers": [
+        "{{condition page"
+      ]
+    }
+  ],
+  "summary": "Cast level 2 Crown of Madness once per Long Rest.",
+  "fields": {
+    "Crown of Madness": "Action, 60 ft, target a non-Undead Humanoid. On a failed Wisdom save against your spell save DC, the target attacks a nearby creature other than you, even an ally. Concentration for up to 3 turns. It can repeat its Wisdom save at the end of each turn.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "125 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

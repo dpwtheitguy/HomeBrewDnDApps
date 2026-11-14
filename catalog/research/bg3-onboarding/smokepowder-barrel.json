@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:3817",
+  "title": "Smokepowder Barrel",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 433731,
+      "title": "Smokepowder Barrel",
+      "markers": [
+        "CONT_Barrel_Smokepowder_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 413329,
+      "title": "Smokepowder (surface)",
+      "markers": [
+        "surface"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 371587,
+      "title": "Fire (surface)",
+      "markers": [
+        "condition = Burning"
+      ]
+    }
+  ],
+  "summary": "Throw or ignite this container for an explosive blast.",
+  "fields": {
+    "Throw": "Action. Throw range depends on Strength and weight, up to 60 ft. Breaking it creates a flammable Smokepowder surface.",
+    "Detonate": "Fire damage detonates it. 20 ft radius, 4d4 + 18 Force, DC 12 Dexterity save for half. Pushes targets 20 ft without a save and automatically crits objects.",
+    "Surface ignition": "Ignition of the spilled Smokepowder deals 2d6 Force and 2d6 Fire. A separate DC 12 Dexterity save negates the Fire damage. The surface then becomes Fire and immediately applies Burning.",
+    "Edge case": "The spill ignition and detonation are distinct. Targets at the edge may be hit by the blast without being hit by the ignition.",
+    "Base value": "5 gp nominal BG3 value.",
+    "Durability note": "The item page lists 1 HP under the spill section without clarifying whether it applies to the container or the spill."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

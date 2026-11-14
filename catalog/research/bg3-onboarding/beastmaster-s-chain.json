@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:3576",
+  "title": "Beastmaster's Chain",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 425313,
+      "title": "Beastmaster's Chain",
+      "markers": [
+        "| uid = Quest_GOB_WolfPens_AmuletOfBeastmaster"
+      ]
+    },
+    {
+      "role": "Rules: Animal Friendship",
+      "revision": 374451,
+      "title": "Animal Friendship",
+      "markers": [
+        "| summary = It charms a [[beast]], convincing it that the caster means no harm."
+      ]
+    }
+  ],
+  "summary": "Cast Animal Friendship as an Action once per Long Rest. Target a Beast in range. Wisdom save negates the effect.",
+  "fields": {
+    "Animal Friendship": "60 ft. Target a Beast with Intelligence 3 or lower. On a failed Wisdom save, it is Charmed for 10 turns, ending early if you or an ally harms it.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

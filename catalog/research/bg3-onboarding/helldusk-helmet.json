@@ -1,0 +1,55 @@
+{
+  "item_id": "bg3-wiki:8551",
+  "title": "Helldusk Helmet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419451,
+      "title": "Helldusk Helmet",
+      "markers": [
+        "MAG_Infernal_Metal_Helmet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432697,
+      "title": "Infernal Sight",
+      "markers": [
+        "| description = You can see in magical{{see bugs}} and ordinary darkness up to a range of {{dist|m=12}}. You cannot be {{SmCond|Blinded}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432820,
+      "title": "Magical Durability (+2)",
+      "markers": [
+        "| description = The wielder has a +2 bonus to {{Saving Throw}}s against spells."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 361243,
+      "title": "Immolating Gaze",
+      "markers": [
+        "| description = Sear and {{Cond|Fearful|Frighten}} a target with nothing but your glower."
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Fearful",
+      "revision": 442839,
+      "markers": [
+        "cannot make an attack of opportunity"
+      ]
+    }
+  ],
+  "summary": "Immune to Blinded and critical hits. Gain +2 to saves against spells and cast Immolating Gaze.",
+  "fields": {
+    "Infernal Sight": "See in ordinary darkness out to 40 ft and gain immunity to the Blinded status group. The pinned rule reports that it does not see through magical Darkness despite the tooltip.",
+    "Immolating Gaze": "Action once per Short Rest within 30 ft. The target makes an Intelligence save against your spell save DC. On a failure it takes 2d8 Fire and is Fearful for 3 turns. On a success it avoids Fearful and takes half of 2d8 Fire, or half of 4d8 Fire if already Burning. The pinned source reports that Burning changes damage only on a successful save.",
+    "Base value": "570 gp in BG3. Merchant prices vary.",
+    "Fearful": "Disadvantage on attack rolls and ability checks. The target must flee from the source of fear, cannot take additional actions or make opportunity attacks, and can save at the end of its turn if out of sight. Effects that modify saves against Frightened do not change the initial Immolating Gaze save.",
+    "Magical Durability": "+2 to saving throws against spells."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

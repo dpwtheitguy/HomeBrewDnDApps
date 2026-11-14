@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:9462",
+  "title": "Mantle of the Holy Warrior",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 432492,
+      "title": "Mantle of the Holy Warrior",
+      "markers": [
+        "MAG_Radiant_CrusaderMantle_Cloak"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 362593,
+      "title": "Crusader's Mantle",
+      "markers": [
+        "| aoe m = 9"
+      ]
+    }
+  ],
+  "summary": "Cast Crusader’s Mantle once per Short Rest.",
+  "fields": {
+    "Cast": "Action. Self-centred 30 ft aura, Concentration up to 10 turns. Your weapon attacks and those of allies within the aura deal +1d4 Radiant per attack.",
+    "Acquisition": "Buy from Vicar Humbletoes.",
+    "Base value": "630 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

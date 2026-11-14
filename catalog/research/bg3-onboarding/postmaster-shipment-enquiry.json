@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:11873",
+  "title": "Postmaster Shipment Enquiry",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421916,
+      "title": "Postmaster Shipment Enquiry",
+      "markers": [
+        "S_WYR_Posthouse_MissingLetter1_Opened"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444622,
+      "title": "Find the Missing Letters",
+      "markers": [
+        "If the letters are read and Danzo is blackmailed into paying more: 640 gold"
+      ]
+    }
+  ],
+  "summary": "Quest evidence of Danzo’s Zhentarim dealings during Find the Missing Letters.",
+  "fields": {
+    "Quest use": "Open the recovered envelope and read this letter before confronting Danzo. The quest walkthrough reports a blackmail payout of 640 gp. Opening the envelope without reading leaves a harder DC 20 bluff. Failing the confrontation check can make Danzo hostile.",
+    "Acquisition": "In the Bundle of Letters on the roof of the Open Hand Temple, X −45, Y −4.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "bg3-wiki:6862",
+  "title": "Elixir of Arcane Cultivation",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418129,
+      "title": "Elixir of Arcane Cultivation",
+      "markers": [
+        "ALCH_Solution_Elixir_Meditation"
+      ]
+    }
+  ],
+  "summary": "Gain one level 1 spell slot until Long Rest. Warlocks can use it instead of a Pact Magic slot.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle. Gain one level 1 spell slot until Long Rest. Warlocks can use it instead of a Pact Magic slot.",
+    "Stacking": "Replaces other normal elixirs and can be overwritten by another.",
+    "Crafting": "Combine Vitriol of Weavemoss with any Sublimate.",
+    "Expiry": "Losing the condition removes a level 1 slot, prioritizing an already expended slot.",
+    "Base value": "20 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

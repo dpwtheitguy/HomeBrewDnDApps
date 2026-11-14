@@ -1,0 +1,20 @@
+{
+  "item_id": "bg3-wiki:27232",
+  "title": "Decanter of Nearly Endless Water",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 425464,
+      "title": "Decanter of Nearly Endless Water",
+      "markers": [
+        "| uid = UNI_HAV_Thiefling_DecanterOfEndlessWater"
+      ]
+    }
+  ],
+  "summary": "Throw as an Action up to 60 ft. Creates Water within a 7 ft radius and makes creatures in the splash Wet for 3 turns.",
+  "fields": {
+    "Wet": "Grants Fire resistance and Burning immunity and can make creatures vulnerable to Lightning and Cold. Existing resistance to either is instead negated.",
+    "Base value": "60 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

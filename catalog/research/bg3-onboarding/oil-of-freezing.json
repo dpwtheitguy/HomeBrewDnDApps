@@ -1,0 +1,81 @@
+{
+  "item_id": "bg3-wiki:17761",
+  "title": "Oil of Freezing",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421464,
+      "title": "Oil of Freezing",
+      "markers": [
+        "ALCH_Solution_Oil_Frost"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438130,
+      "title": "Coatings",
+      "markers": [
+        "single equipped weapon set"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 428492,
+      "title": "Throw",
+      "markers": [
+        "thrown weapons do not apply any innate extra damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442407,
+      "title": "Coated in Oil of Freezing",
+      "markers": [
+        "multiple times per attack"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442780,
+      "title": "Encrusted with Frost",
+      "markers": [
+        "this damage is not halved"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442931,
+      "title": "Frozen",
+      "markers": [
+        "the ice shatters"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423750,
+      "title": "Suspension of Frost Salamander Tongue",
+      "markers": [
+        "Oil of Freezing"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Alchemy",
+      "revision": 408872,
+      "markers": [
+        "{{MdItemIcon|Oil of Freezing}}"
+      ]
+    }
+  ],
+  "summary": "Coated hits apply 2 turns of Encrusted with Frost without an initial save.",
+  "fields": {
+    "Coat": "Bonus Action, single use. Coat the active weapon set for 10 turns. Both equipped weapons in that set are coated when dual wielding. Another set needs its own dose. Replaces a dip or another coating. Throwing the bottle does not apply an area coating.",
+    "On hit": "Apply 2 turns of Encrusted with Frost. Some weapon spells with multiple damage instances can apply it more than once per attack.",
+    "Encrusted with Frost": "Disadvantage on Dexterity saves. At 7 or more turns of frost, make a DC 12 Constitution save and remove the frost. The source reports failure freezes the target for 2 turns and success deals 1d4 Cold, differing from the tooltip. Burning removes the frost.",
+    "Frozen": "Incapacitated. Vulnerable to Bludgeoning, Thunder and Force. Taking any of those types shatters the ice. Resists Fire and is immune to Burning and Encrusted with Frost.",
+    "Thrown weapon": "The general Throw rules omit weapon coating effects when a weapon is thrown.",
+    "Crafting": "Extract 3 Frost Salamander Tongues into Suspension of Frost Salamander Tongue. The oil page and Alchemy table list any Sublimate as the second ingredient. The extract page instead lists any Ash.",
+    "Base value": "50 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

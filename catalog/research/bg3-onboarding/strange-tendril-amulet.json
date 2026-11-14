@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:10848",
+  "title": "Strange Tendril Amulet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Strange Tendril Amulet",
+      "revision": 423639,
+      "markers": [
+        "MAG_BlackTentacle_Amulet"
+      ]
+    },
+    {
+      "role": "Rules: Evard's Black Tentacles",
+      "title": "Evard's Black Tentacles",
+      "revision": 328321,
+      "markers": [
+        "| description = Tentacles sprout from the ground, turning the area into {{Cond|Difficult Terrain|}}, attacking and {{Cond|Black Tentacles|Smothering}} creatures within."
+      ]
+    }
+  ],
+  "summary": "Casts Evard’s Black Tentacles once per Long Rest.",
+  "fields": {
+    "Evard’s Black Tentacles": "Level 4, Action, 60 ft, 20-ft radius. Concentration up to 10 turns. Creates difficult terrain. Targets make Strength saves on cast or at turn start to avoid restraint. A target already affected at turn start takes 3d6 Bludgeoning on a failed save. Leaving the area ends the restraint.",
+    "Acquisition": "Wooden chest in hidden room near the main entrance.",
+    "Base value": "190 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

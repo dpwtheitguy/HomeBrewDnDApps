@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:17636",
+  "title": "The Legend of Ansur",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "The Legend of Ansur",
+      "revision": 424049,
+      "markers": [
+        "S_GLO_AnsurGhost_LegendOfAnsurBook"
+      ]
+    },
+    {
+      "role": "Rules: The Wyrmway",
+      "title": "The Wyrmway",
+      "revision": 424162,
+      "markers": [
+        "Lightning"
+      ]
+    }
+  ],
+  "summary": "Reveals the way to Ansur beneath Wyrm’s Rock.",
+  "fields": {
+    "Wyrmway": "The instructions reveal the hidden passage in Wyrm’s Rock Prison. Deal Lightning damage to the two dragon-head torches at the entrance to open it.",
+    "Acquisition": "Ulder Ravengard can give it if he survived the Iron Throne and Wyll is present as party member or camp follower.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

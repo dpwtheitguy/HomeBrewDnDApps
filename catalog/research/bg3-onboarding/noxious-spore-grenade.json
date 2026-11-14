@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:9647",
+  "title": "Noxious Spore Grenade",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421402,
+      "title": "Noxious Spore Grenade",
+      "markers": [
+        "ALCH_Solution_Grenade_SporesToxic"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444137,
+      "title": "Noxious Fumes",
+      "markers": [
+        "cloud is flammable"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444133,
+      "title": "Noxious Fumes (Bibberbang, condition)",
+      "markers": [
+        "dc=15"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423684,
+      "title": "Sublimate of Poison Spores",
+      "markers": [
+        "Crafted by combining 3"
+      ]
+    }
+  ],
+  "summary": "Throw for a Poison blast and a lingering, flammable cloud.",
+  "fields": {
+    "Throw": "Action, single use, 60 ft range. Make a spell attack for the separate 2d4 + 1 Poison blast. Creates a 7 ft radius Noxious Fumes cloud for 3 turns.",
+    "Noxious Fumes": "Entering or starting a turn in the cloud can apply Noxious Fumes while inside. DC 15 Constitution save against 2d4 Poison, half damage on a success. Movement in the fumes can retrigger this damage. The condition also deals 1d4 Poison per turn, which the item notes report does not apply on the first turn.",
+    "Flammable": "Fire can detonate the cloud and leave burning ground.",
+    "Alchemy": "Extract three Poison Spores into Sublimate of Poison Spores. Add any Ashes to craft one grenade.",
+    "Base value": "16 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

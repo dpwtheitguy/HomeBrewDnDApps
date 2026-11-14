@@ -1,0 +1,33 @@
+{
+  "item_id": "bg3-wiki:6845",
+  "title": "Bow of Awareness",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416714,
+      "title": "Bow of Awareness",
+      "markers": [
+        "MAG_Generic_01_Shortbow_1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341917,
+      "title": "Shortbows",
+      "markers": [
+        "| damage = 1d6"
+      ]
+    }
+  ],
+  "summary": "This +1 shortbow grants +1 Initiative.",
+  "fields": {
+    "Weapon type": "Shortbows",
+    "Enchantment": "+1",
+    "Weapon actions": "Hamstring Shot",
+    "Damage": "1d6 + 1 Piercing",
+    "Range": "60 ft ranged.",
+    "Effect": "This +1 shortbow grants +1 Initiative.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

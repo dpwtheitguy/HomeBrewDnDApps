@@ -1,0 +1,49 @@
+{
+  "item_id": "bg3-wiki:12900",
+  "title": "Corvid Token",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438254,
+      "title": "Corvid Token",
+      "markers": [
+        "MAG_LuckySeven_Amulet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432132,
+      "title": "Boon of the Raven Queen",
+      "markers": [
+        "| description = While wearing the amulet, the wearer's jump and flying speed increase by {{Dist|m=1.5}}, and they gain the {{Cond|Feather Fall}} condition. Feather Fall's effect will persist while the wearer is {{Cond|Polymorphed}} or [[Wild Shape|Wild-Shaped]]."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 421879,
+      "title": "Polymorph: Dire Raven",
+      "markers": [
+        "| description = Take the shape of a dire raven that can avoid attention and {{SmCond|Blinded|Blind}} enemies. It has {{hp|13}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 422287,
+      "title": "Rend Vision (Dire Raven)",
+      "markers": [
+        "Polymorph: Dire Raven",
+        "| condition duration = 2",
+        "attack merely needs to hit"
+      ]
+    }
+  ],
+  "summary": "Jump and fly 5 ft farther, gain Feather Fall, and transform into a Dire Raven once per Long Rest.",
+  "fields": {
+    "Boon of the Raven Queen": "Jump distance and flying movement increase by 5 ft. Gain Feather Fall, which can persist through Polymorph and Wild Shape.",
+    "Dire Raven": "Action on yourself once per Long Rest. Become a Dire Raven with 13 HP until Long Rest.",
+    "Base value": "230 gp nominal BG3 value.",
+    "Raven actions": "Use Beak Attack for melee Piercing damage, Rend Vision to Blind a target on a hit, or Fly for movement.",
+    "Rend Vision": "Action and melee attack. Base damage 1d6 + Dexterity modifier Piercing. A hit Blinds for 2 turns without a save."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence. Expanded the card from the pinned item and linked gameplay evidence."
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:31140",
+  "title": "Greatclub",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419121,
+      "title": "Greatclub (Minotaur)",
+      "markers": [
+        "WPN_MINOTAUR_Greatclub_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 425432,
+      "title": "Tenacity",
+      "markers": [
+        "| reaction1 cost = reaction"
+      ]
+    }
+  ],
+  "summary": "Minotaur-only greatclub dealing 2d12 Bludgeoning. Humanoids cannot wield it.",
+  "fields": {
+    "Weapon profile": "2d12 Bludgeoning, 5 ft melee. Simple, two-handed and dippable.",
+    "Tenacity": "While main-handed, on a missed melee attack use your Reaction to deal Strength modifier Bludgeoning, minimum 1. It does not apply a missed weapon action’s effect.",
+    "Availability": "Obtain by disarming a Minotaur. Cannot be equipped by humanoids, even with Gloves of the Automaton.",
+    "Base value": "16 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

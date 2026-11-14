@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:12806",
+  "title": "Undelivered Letter",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424492,
+      "title": "Undelivered Letter",
+      "markers": [
+        "S_UND_HarperSpy_InquisitorDiary"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441675,
+      "title": "Grymforge",
+      "markers": [
+        "gives a hint on a way to unlock the Harper Stash"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 419344,
+      "title": "Harper Stash",
+      "markers": [
+        "by casting {{SmSAI|Light}}"
+      ]
+    }
+  ],
+  "summary": "Reading can reveal the trapped Harper Stash and a way to disarm it.",
+  "fields": {
+    "Read": "DC 15 Investigation. Success reveals the stash location and suggests Light.",
+    "Chest": "Cast Light or attempt DC 20 Sleight of Hand. A failed disarm triggers Shatter, with a DC 10 Constitution save for half damage.",
+    "Acquisition": "Sharran Inquisitor skeleton in the Abandoned Refuge, X 584, Y 394.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

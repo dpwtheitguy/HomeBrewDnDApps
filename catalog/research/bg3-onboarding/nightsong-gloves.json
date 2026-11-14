@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:44956",
+  "title": "Nightsong Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421326,
+      "title": "Nightsong Gloves",
+      "markers": [
+        "| uid = ARM_Gloves_Nightsong"
+      ]
+    },
+    {
+      "role": "Rules: Aylin",
+      "revision": 440049,
+      "title": "Aylin",
+      "markers": [
+        "{{CombatTab}}"
+      ]
+    }
+  ],
+  "summary": "Aylin’s Medium Armour gloves grant +1 to Strength saving throws.",
+  "fields": {
+    "Availability": "NPC equipment only. The pinned source marks these inaccessible to players.",
+    "Base value": "40 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

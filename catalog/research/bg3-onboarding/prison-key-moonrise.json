@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:50375",
+  "title": "Prison Key (Moonrise)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Prison Key (Moonrise)",
+      "revision": 430623,
+      "markers": [
+        "S_MOO_PrisonKey"
+      ]
+    }
+  ],
+  "summary": "Opens the evidence chest and the Warden’s office wooden chest in Moonrise Towers Prison.",
+  "fields": {
+    "Use": "Opens the evidence chest and the Warden’s office wooden chest in Moonrise Towers Prison.",
+    "Acquisition": "Carried by the Warden.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

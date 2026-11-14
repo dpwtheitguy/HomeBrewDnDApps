@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:12163",
+  "title": "Diluted Oil of Sharpness",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417711,
+      "title": "Diluted Oil of Sharpness",
+      "markers": [
+        "| uid = ALCH_Solution_Oil_DamageAttackBuff"
+      ]
+    },
+    {
+      "role": "Rules: Coatings",
+      "revision": 438130,
+      "title": "Coatings",
+      "markers": [
+        "| description = A subset of Potions, Coatings can apply a variety of harmful effects to weapons that aid in combat for a short period of time."
+      ]
+    },
+    {
+      "role": "Rules: Coated in Diluted Oil of Sharpness",
+      "revision": 442395,
+      "title": "Coated in Diluted Oil of Sharpness",
+      "markers": [
+        "{{condition page"
+      ]
+    }
+  ],
+  "summary": "Spend one dose as a Bonus Action to coat the active weapon set for 10 turns.",
+  "fields": {
+    "Effect": "The coating gives +1 to attack and damage and makes the weapon magical. Dual wielding coats both weapons in the active set. Coat the other weapon set separately. Dipping and coating are mutually exclusive.",
+    "Throw": "Throwing the bottle creates no coating area.",
+    "Base value": "25 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

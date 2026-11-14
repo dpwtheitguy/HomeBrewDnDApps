@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:47963",
+  "title": "Engraved Key (Salazon)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Engraved Key (Salazon)",
+      "revision": 430541,
+      "markers": [
+        "S_PLA_EscapingZhentarim_HiddenEntranceKey2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Zhentarim Basement",
+      "revision": 441398,
+      "markers": [
+        "hatch in the far corner of the barn"
+      ]
+    }
+  ],
+  "summary": "Salazon’s key opens the barn hatch leading to the Zhentarim cellar.",
+  "fields": {
+    "Acquisition": "Salazon carries it and can hand it over after you persuade him or give the password.",
+    "Use": "Use the hatch in the far corner of the barn at Waukeen’s Rest.",
+    "Base value": "1 gp in BG3."
+  },
+  "changes": "Added native BG3 gameplay, acquisition, and pinned source evidence."
+}

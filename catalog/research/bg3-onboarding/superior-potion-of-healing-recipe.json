@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:31091",
+  "title": "Superior Potion of Healing Recipe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Superior Potion of Healing Recipe",
+      "revision": 423726,
+      "markers": [
+        "BOOK_GLO_Alchemy_SuperiorPotionHealing"
+      ]
+    },
+    {
+      "role": "Rules: Potion of Superior Healing",
+      "title": "Potion of Superior Healing",
+      "revision": 421952,
+      "markers": [
+        "Musk Creeper"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Salts of Musk Creeper",
+      "revision": 422612,
+      "markers": [
+        "Yellow Musk Creeper Petals"
+      ]
+    }
+  ],
+  "summary": "Documents the formula for a Potion of Superior Healing.",
+  "fields": {
+    "Recipe": "Combine Salts of Musk Creeper and any Suspension. The resulting potion restores 8d4 + 8 HP.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations. Reconciled applicable action, condition, and variant details against pinned rules."
+}

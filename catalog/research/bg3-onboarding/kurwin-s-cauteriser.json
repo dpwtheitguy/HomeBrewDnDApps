@@ -1,0 +1,72 @@
+{
+  "item_id": "bg3-wiki:9605",
+  "title": "Kurwin's Cauteriser",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438184,
+      "title": "Kurwin's Cauteriser",
+      "markers": [
+        "| uid = MAG_LC_BurnOnDamage_Scimitar"
+      ]
+    },
+    {
+      "role": "Rules: Cauteriser",
+      "revision": 432158,
+      "title": "Cauteriser",
+      "markers": [
+        "| summary = '''Cauteriser''' is a passive feature that causes the weapon to deal additional fire damage and burn targets."
+      ]
+    },
+    {
+      "role": "Rules: Burning",
+      "revision": 442323,
+      "title": "Burning",
+      "markers": [
+        "{{confused with|Infernal Burning (condition)|Burning (Orthonic) (condition)}}"
+      ]
+    },
+    {
+      "role": "Rules: Bugthimble",
+      "revision": 426394,
+      "title": "Bugthimble",
+      "markers": [
+        "{{Infobox creature"
+      ]
+    },
+    {
+      "role": "Rules: Flourish",
+      "revision": 373786,
+      "title": "Flourish",
+      "markers": [
+        "| description = Feint an attack to possibly throw your opponent {{SmCond|Off Balance}}."
+      ]
+    },
+    {
+      "role": "Rules: Lacerate",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "| description = Slash at your target's vital points to make it {{SmCond|Bleeding|Bleed}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Bleeding",
+      "revision": 442222,
+      "markers": [
+        "except {{Charlink|Ghast}}s"
+      ]
+    }
+  ],
+  "summary": "A +1 scimitar that adds 1d4 Fire on a hit and can leave its target Burning.",
+  "fields": {
+    "Weapon profile": "1d6 + 1 Slashing, 5 ft melee. Martial, one-handed, Finesse and Light.",
+    "Cauteriser": "On hit add 1d4 Fire. A failed DC 13 Constitution save applies Burning for 2 turns, dealing 1d4 Fire per turn. Help, a healing potion, or Wet can end Burning.",
+    "Acquisition": "Dig up M. Kurwin’s grave and defeat Bugthimble, or use the Nine-Fingers dialogue and pass the extortion Intimidation check. Simply driving the kobold away or burying her loses the blade.",
+    "Base value": "65 gp in BG3. Merchant prices vary.",
+    "Flourish": "With proficiency, Bonus Action once per Short Rest. Make a melee weapon attack for 1d4 nonlethal Bludgeoning. A Dexterity save against weapon-action DC +2 prevents Off Balance for 2 turns.",
+    "Lacerate": "With proficiency, Action once per Short Rest. Make a melee attack for weapon damage. A Constitution save against weapon-action DC +2 prevents Bleeding for 2 turns. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

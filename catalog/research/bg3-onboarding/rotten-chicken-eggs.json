@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:9050",
+  "title": "Rotten Chicken Eggs",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Rotten Chicken Eggs",
+      "revision": 422482,
+      "markers": [
+        "CONS_FOOD_Egg_Rotten"
+      ]
+    },
+    {
+      "role": "Rules: Poisoned",
+      "title": "Poisoned",
+      "revision": 439705,
+      "markers": [
+        "All rotten consumables"
+      ]
+    },
+    {
+      "role": "Rules: Aspect of the Beast: Honey Badger",
+      "title": "Aspect of the Beast: Honey Badger",
+      "revision": 432088,
+      "markers": [
+        "55%"
+      ]
+    }
+  ],
+  "summary": "Eating this food causes Poisoned for 10 turns.",
+  "fields": {
+    "Eat": "Consume to become Poisoned for 10 turns. Poisoned imposes Disadvantage on attack rolls and ability checks.",
+    "Honey Badger": "A level 6 Wildheart Barbarian with this passive toggled on can start Raging without spending a Rage Charge at turn start. The tooltip states 50%, while the source reports 55%. Only one roll occurs per turn, even with multiple qualifying conditions.",
+    "Durability": "1 HP.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

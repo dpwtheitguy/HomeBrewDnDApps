@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:9750",
+  "title": "Coruscation Ring",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 441215,
+      "title": "Coruscation Ring",
+      "markers": [
+        "MAG_Radiant_RadiatingOrb_Ring"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433690,
+      "title": "Arcane Radiance",
+      "markers": [
+        "| description = When the wearer deals spell damage while illuminated by a light source,{{see bugs}} they also inflict {{Cond|Radiating Orb}} upon the target for 2 turns."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439797,
+      "title": "Radiating Orb",
+      "markers": [
+        "| effects = * Affected entity has '''-1''' to [[Attack Rolls]] per remaining turn. It also sheds bright light in an area surrounding it."
+      ]
+    }
+  ],
+  "summary": "Dealing spell damage inflicts Radiating Orb for 2 turns, even in darkness according to the pinned source.",
+  "fields": {
+    "Arcane Radiance": "Dealing spell damage applies Radiating Orb for 2 turns. Separate hits of multi-hit spells can apply it repeatedly. The tooltip requires illumination, but the source reports it works regardless of light.",
+    "Radiating Orb": "The target sheds bright light and takes −1 to attack rolls per remaining turn.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence."
+}

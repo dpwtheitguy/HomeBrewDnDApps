@@ -1,0 +1,74 @@
+{
+  "item_id": "bg3-wiki:30978",
+  "title": "The Clover",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "The Clover",
+      "revision": 423976,
+      "markers": [
+        "MAG_TheClover_Scimitar"
+      ]
+    },
+    {
+      "role": "Rules: Organ Rearranger",
+      "title": "Organ Rearranger",
+      "revision": 442969,
+      "markers": [
+        "| description = Reduce the number you need to roll a [[Critical Hit]] while attacking by 1. This effect can stack. When you roll 2 damage or less, reroll the dice, taking the highest result."
+      ]
+    },
+    {
+      "role": "Rules: True Strike",
+      "title": "True Strike",
+      "revision": 425926,
+      "markers": [
+        "| description = Gain {{Advantage}} on your next {{Attack Roll}}."
+      ]
+    },
+    {
+      "role": "Rules: Flourish",
+      "title": "Flourish",
+      "revision": 373786,
+      "markers": [
+        "Off Balance"
+      ]
+    },
+    {
+      "role": "Rules: Off Balance",
+      "title": "Off Balance",
+      "revision": 444158,
+      "markers": [
+        "Removed by taking damage"
+      ]
+    },
+    {
+      "role": "Rules: Lacerate",
+      "title": "Lacerate",
+      "revision": 373909,
+      "markers": [
+        "Bleeding"
+      ]
+    },
+    {
+      "role": "Rules: Bleeding",
+      "title": "Bleeding",
+      "revision": 442222,
+      "markers": [
+        "start of each turn"
+      ]
+    }
+  ],
+  "summary": "Unobtainable weapon lowers the critical threshold and adds off-hand AC.",
+  "fields": {
+    "Weapon profile": "Martial, One-handed, 5 ft melee, Finesse, Light, Dippable. 1d6 Slashing plus Strength or Dexterity. +2 to attack rolls.",
+    "Organ Rearranger": "Critical threshold reduced by 1, stacking with other reductions, including ranged and spell attack rolls. Melee weapon damage dice rolling 1 or 2 are rerolled, keeping the higher result. Both melee weapons can benefit, while thrown attacks do not.",
+    "Off hand": "+1 AC when equipped in off hand.",
+    "True Strike": "Cantrip, Action, concentration for up to 2 turns, once per Short Rest. Gain Advantage on your next attack against the selected target.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "No nominal value is listed in the pinned item source.",
+    "Flourish": "With proficiency, once per Short Rest. Bonus Action, 1d4 nonlethal Bludgeoning. DEX save against weapon-action DC +2 or Off Balance for 2 turns, granting attackers Advantage and giving the target Disadvantage on STR/DEX checks. Damage or Help clears it.",
+    "Lacerate": "With proficiency, once per Short Rest. Action, weapon damage. CON save against weapon-action DC +2 or Bleeding for 2 turns, with 2 Slashing at turn start and Disadvantage on CON saves until healed. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations. Reconciled applicable action, condition, and variant details against pinned rules."
+}

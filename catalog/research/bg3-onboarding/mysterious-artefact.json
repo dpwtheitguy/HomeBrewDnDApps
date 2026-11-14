@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:4135",
+  "title": "Mysterious Artefact",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422875,
+      "title": "Mysterious Artefact",
+      "markers": [
+        "| uid = S_GLO_PuzzleBox"
+      ]
+    },
+    {
+      "role": "Rules: Bound",
+      "revision": 442296,
+      "title": "Bound",
+      "markers": [
+        "{{condition page"
+      ]
+    }
+  ],
+  "summary": "The bound Astral Prism protects the party from the Absolute during story scenes.",
+  "fields": {
+    "Bound": "It cannot be removed from its current holder’s inventory. Inspect it without opening it.",
+    "Acquisition": "Carried by Shadowheart. If she is absent, it moves to a party member when the Absolute’s influence triggers near the Goblin Camp or Mountain Pass. The party obtains it by the end of Act One.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

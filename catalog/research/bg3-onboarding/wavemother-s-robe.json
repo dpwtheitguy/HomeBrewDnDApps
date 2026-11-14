@@ -1,0 +1,73 @@
+{
+  "item_id": "bg3-wiki:9499",
+  "title": "Wavemother's Robe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Wavemother's Robe",
+      "revision": 424796,
+      "markers": [
+        "MAG_Umberlee_Robe_A"
+      ]
+    },
+    {
+      "role": "Rules: Watery Rejuvenation",
+      "title": "Watery Rejuvenation",
+      "revision": 433439,
+      "markers": [
+        "repeatedly regained"
+      ]
+    },
+    {
+      "role": "Rules: Temperature Adjustment",
+      "title": "Temperature Adjustment",
+      "revision": 433334,
+      "markers": [
+        "Resistance"
+      ]
+    },
+    {
+      "role": "Rules: Create or Destroy Water",
+      "title": "Create or Destroy Water",
+      "revision": 380463,
+      "markers": [
+        "each spell slot level"
+      ]
+    },
+    {
+      "role": "Rules: Create Water",
+      "title": "Create Water",
+      "revision": 360058,
+      "markers": [
+        "condition duration = 3"
+      ]
+    },
+    {
+      "role": "Rules: Destroy Water",
+      "title": "Destroy Water",
+      "revision": 414530,
+      "markers": [
+        "Simple Toxin"
+      ]
+    },
+    {
+      "role": "Rules: Wet (condition)",
+      "title": "Wet (condition)",
+      "revision": 437422,
+      "markers": [
+        "resistances negated"
+      ]
+    }
+  ],
+  "summary": "Protective clothing heals in water and casts both water spells.",
+  "fields": {
+    "Defence": "Clothing. Base AC 10 plus Dexterity and +1 AC. Resistance to Fire and Cold.",
+    "Watery Rejuvenation": "Start a turn standing in a Water surface to heal 1d4 HP. Turn-based mode can trigger this repeatedly outside combat.",
+    "Create or Destroy Water": "Level 4, Action, 30 ft range, 33 ft radius, once per Short Rest. This item grants both options through one recharge.",
+    "Create Water": "Extinguish flames, create Water and apply Wet for 3 turns. Wet makes most targets vulnerable to Cold and Lightning, removes existing resistance instead of adding vulnerability and grants Fire resistance. It can also reveal invisible creatures without a save.",
+    "Destroy Water": "Removes Wet from creatures and many water-like surfaces, including Water, Steam, Ice, ordinary Blood and Simple Toxin. The action does not remove Unstable Blood.",
+    "Acquisition": "Allandra Grey’s reward for completing Avenge the Drowned.",
+    "Base value": "610 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations. Reconciled applicable action, condition, and variant details against pinned rules."
+}

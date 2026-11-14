@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:3836",
+  "title": "Trap Disarm Toolkit",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Trap Disarm Toolkit",
+      "revision": 425294,
+      "markers": [
+        "TOOL_GEN_Disam_Toolkit_A"
+      ]
+    }
+  ],
+  "summary": "Disarm a trap with Sleight of Hand and keep the kit on success.",
+  "fields": {
+    "Use": "Attempt the trap’s Sleight of Hand check. Success disables the trap and preserves the toolkit. Failure consumes the toolkit and triggers the trap.",
+    "Acquisition": "Found as loot and sold by various traders.",
+    "Base value": "25 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

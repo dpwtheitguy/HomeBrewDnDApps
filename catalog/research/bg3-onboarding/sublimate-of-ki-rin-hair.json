@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:14813",
+  "title": "Sublimate of Ki-Rin Hair",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Sublimate of Ki-Rin Hair",
+      "revision": 423682,
+      "markers": [
+        "ALCH_Extract_KiRinHair"
+      ]
+    },
+    {
+      "role": "Rules: Potion of Supreme Healing",
+      "title": "Potion of Supreme Healing",
+      "revision": 421953,
+      "markers": [
+        "Sublimate of Ki-Rin Hair"
+      ]
+    }
+  ],
+  "summary": "Alchemical extract used for Potion of Supreme Healing.",
+  "fields": {
+    "Extract": "Combine 3 Ki-Rin Hairs to make one Sublimate of Ki-Rin Hair.",
+    "Brew": "Combine this extract with any Ash to make Potion of Supreme Healing.",
+    "Base value": "35 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

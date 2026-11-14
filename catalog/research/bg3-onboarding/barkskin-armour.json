@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:10573",
+  "title": "Barkskin Armour",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416315,
+      "title": "Barkskin Armour",
+      "markers": [
+        "| uid = MAG_Druid_Late_Hide_Armor_1"
+      ]
+    },
+    {
+      "role": "Rules: Forest Aegis",
+      "revision": 432579,
+      "title": "Forest Aegis",
+      "markers": [
+        "| summary = '''Forest Aegis''' is a passive feature that grants the user {{Cond|Barkskin}}, setting their AC to 16."
+      ]
+    }
+  ],
+  "summary": "Medium armour with Forest Aegis setting AC to 16 and advantage on Constitution saves.",
+  "fields": {
+    "Effective AC": "Forest Aegis grants Barkskin and sets AC to 16. This effect ends in Wild Shape. The equipment chassis lists 12 before the passive.",
+    "Base value": "420 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

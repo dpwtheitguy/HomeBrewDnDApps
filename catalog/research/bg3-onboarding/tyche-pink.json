@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:9002",
+  "title": "Tyche Pink",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Tyche Pink",
+      "revision": 424446,
+      "markers": [
+        "CONS_GEN_Alcohol_Bottle_Normal_B"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Alcohol (condition)",
+      "revision": 437839,
+      "markers": [
+        "Cheeky Tipple"
+      ]
+    }
+  ],
+  "summary": "Provides 4 Camp Supplies.",
+  "fields": {
+    "Camp Supplies": "4 Camp Supplies toward a Long Rest.",
+    "Drink": "Action. Alcohol gives Disadvantage on Dexterity and Charisma checks for 2 turns. Cheeky Tipple blocks these penalties.",
+    "Throw": "Action. Creates a flammable Alcohol surface.",
+    "Base value": "12 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:10581",
+  "title": "Gauntlets of Surging Accuracy",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418819,
+      "title": "Gauntlets of Surging Accuracy",
+      "markers": [
+        "| uid = MAG_Fighter_ActionSurge_AttackBonus_Gloves"
+      ]
+    },
+    {
+      "role": "Rules: Surge Accuracy",
+      "revision": 433320,
+      "title": "Surge Accuracy",
+      "markers": [
+        "| summary = '''Surge Accuracy''' is a passive feature that makes you more likely to hit after you action surge."
+      ]
+    }
+  ],
+  "summary": "After using Action Surge, add 1d4 to attack rolls for the rest of your turn. Also grants +1 on Strength saving throws.",
+  "fields": {
+    "Proficiency": "Medium Armour.",
+    "Base value": "300 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

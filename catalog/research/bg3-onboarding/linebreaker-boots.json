@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:3626",
+  "title": "Linebreaker Boots",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437742,
+      "title": "Linebreaker Boots",
+      "markers": [
+        "ARM_Shoes_Barbarian_Magic"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438439,
+      "title": "Adrenaline Rush",
+      "markers": [
+        "| condition duration = 3"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437524,
+      "title": "Wrath (condition)",
+      "markers": [
+        "maximum of 7"
+      ]
+    }
+  ],
+  "summary": "Dash during combat to add 3 turns of Wrath, even more than once in the same turn.",
+  "fields": {
+    "Adrenaline Rush": "Every Dash in combat adds 3 turns of Wrath. The tooltip’s two-turn duration and once-per-turn restriction differ from documented behavior.",
+    "Wrath": "+1 melee weapon damage per remaining turn of Wrath. Stacks up to 7, loses one at end of turn.",
+    "Acquisition": "Worn by Beastmaster Zurk.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

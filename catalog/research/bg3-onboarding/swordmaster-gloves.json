@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:8008",
+  "title": "Swordmaster Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Swordmaster Gloves",
+      "revision": 423798,
+      "markers": [
+        "MAG_OfSwordmaster_Gloves"
+      ]
+    },
+    {
+      "role": "Rules: Sword Mastery",
+      "title": "Sword Mastery",
+      "revision": 433325,
+      "markers": [
+        "| description = You gain [[Proficiency]] with {{WeaponType|shortswords}}, {{WeaponType|longswords}}, and {{WeaponType|greatswords}}. In addition, you gain a +1 bonus to melee {{Attack Roll}}s.{{see bugs}}"
+      ]
+    }
+  ],
+  "summary": "Grants proficiency with three sword families and improves main-hand melee attacks.",
+  "fields": {
+    "Sword Mastery": "Grants Shortsword, Longsword and Greatsword proficiency. +1 to main-hand melee weapon attack rolls. Does not apply to off-hand or unarmed attacks.",
+    "Acquisition": "Dammon in Act Two.",
+    "Base value": "160 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

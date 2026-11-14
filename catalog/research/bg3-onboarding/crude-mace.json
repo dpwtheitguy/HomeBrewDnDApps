@@ -1,0 +1,41 @@
+{
+  "item_id": "bg3-wiki:31495",
+  "title": "Crude Mace",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417408,
+      "title": "Crude Mace",
+      "markers": [
+        "WPN_GOB_Mace_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373613,
+      "title": "Concussive Smash",
+      "markers": [
+        "| description = Hit an enemy with all your might to deal damage and possibly {{cond|Dazed|Daze}} them."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442592,
+      "title": "Dazed",
+      "markers": [
+        "| uid = DAZED"
+      ]
+    }
+  ],
+  "summary": "A one-handed mace that deals 1d6 Bludgeoning and grants Concussive Smash.",
+  "fields": {
+    "Damage": "1d6 Bludgeoning",
+    "Weapon profile": "Simple, one-handed, maces.",
+    "Properties": "Dippable.",
+    "Weapon actions": "Concussive Smash.",
+    "Concussive Smash": "Action once per Short Rest with weapon proficiency. Make a melee weapon attack. On hit the target makes a Constitution save against your hybrid DC or becomes Dazed for 2 turns.",
+    "Dazed": "Disadvantage on Wisdom saves, no reactions that spend the Reaction resource, and no Dexterity bonus to AC. An ally can end it with Help.",
+    "Base value": "30 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence."
+}

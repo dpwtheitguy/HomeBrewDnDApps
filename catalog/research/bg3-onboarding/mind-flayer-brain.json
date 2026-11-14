@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12917",
+  "title": "Mind Flayer Brain",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Mind Flayer Brain",
+      "revision": 422873,
+      "markers": [
+        "Consumables"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Mind Flayer (windmill)",
+      "revision": 441892,
+      "markers": [
+        "Mind Flayer Brain"
+      ]
+    }
+  ],
+  "summary": "Eat the newborn mind flayer’s brain to add one point to the party’s Illithid Powers pool.",
+  "fields": {
+    "Consume": "Adds one shared Illithid Powers point if the eater previously consumed a Parasite Specimen. Any eligible party member can spend it. Feeding the newborn mind flayer first makes the brain ineffective.",
+    "Acquisition": "Loot the newborn mind flayer in the Windmill Basement.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

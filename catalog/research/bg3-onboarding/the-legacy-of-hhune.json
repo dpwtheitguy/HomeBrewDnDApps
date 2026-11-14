@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:28395",
+  "title": "THE LEGACY OF HHUNE",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "THE LEGACY OF HHUNE",
+      "revision": 423821,
+      "markers": [
+        "BOOK_LOW_Graveyard_HhuneSecretHint"
+      ]
+    },
+    {
+      "role": "Rules: Hhune Mausoleum",
+      "title": "Hhune Mausoleum",
+      "revision": 429074,
+      "markers": [
+        "combined inventory weight"
+      ]
+    }
+  ],
+  "summary": "Clue for opening the hidden door in the Hhune Mausoleum.",
+  "fields": {
+    "Puzzle": "A DC 15 Strength check opens the sarcophagus containing the note. A Perception check highlights the tile at its foot. Stand on that tile with at least 400 kg of combined carried inventory weight (800 lb in the game’s conversion) to reveal the hidden southeastern door.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

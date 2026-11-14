@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:11390",
+  "title": "Cerebral Citadel Armour",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438295,
+      "title": "Cerebral Citadel Armour",
+      "markers": [
+        "| uid = MAG_Illithid_Carapace_Armor"
+      ]
+    },
+    {
+      "role": "Rules: Illithid Protection",
+      "revision": 432660,
+      "title": "Illithid Protection",
+      "markers": [
+        "| summary = '''Illithid Protection''' is a passive feature that provides a bit of mind protection but only if infested by a tadpole."
+      ]
+    },
+    {
+      "role": "Rules: Frightened Immunity",
+      "revision": 432584,
+      "title": "Frightened Immunity",
+      "markers": [
+        "| summary = '''Frightened Immunity''' is a passive feature that keeps the wearer brave."
+      ]
+    }
+  ],
+  "summary": "Heavy armour with 18 AC and Stealth disadvantage. The item source describes tadpole-related mental protection.",
+  "fields": {
+    "Illithid Protection": "A tadpole-infected wearer gains +1 to Intelligence, Wisdom, and Charisma saving throws.",
+    "Frightened Immunity": "The listed passive grants Frightened immunity. The item summary groups this with the tadpole requirement, while the passive describes immunity without that restriction.",
+    "Base value": "3200 gp in BG3. Merchant prices vary.",
+    "Armour Class": "Heavy armour with AC 18 and disadvantage on Stealth checks."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Expanded the card from the pinned item and linked gameplay evidence."
+}

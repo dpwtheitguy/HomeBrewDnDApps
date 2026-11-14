@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:31637",
+  "title": "Make Big Money by Trading with Adventurers",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420750,
+      "title": "Make Big Money by Trading with Adventurers",
+      "markers": [
+        "S_LOW_BaldursMouth_ArticleBlock_Positive02"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423620,
+      "title": "Stop the Presses",
+      "markers": [
+        "Make Big Money by Trading with Adventurers"
+      ]
+    }
+  ],
+  "summary": "Replacement printing block for Stop the Presses.",
+  "fields": {
+    "Quest use": "Use the block at the Baldur’s Mouth press as a replacement headline. A positive headline yields +10 attitude after publication.",
+    "Acquisition": "Wicker basket in the basement at X −1029, Y 1058.",
+    "Base value": "14 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

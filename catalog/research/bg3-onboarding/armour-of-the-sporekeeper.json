@@ -1,0 +1,88 @@
+{
+  "item_id": "bg3-wiki:9496",
+  "title": "Armour of the Sporekeeper",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416073,
+      "title": "Armour of the Sporekeeper",
+      "markers": [
+        "MAG_Druid_Spore_Magic_Leather_Armor"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 410050,
+      "title": "Malefic Funghi",
+      "markers": [
+        "| summary ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 433273,
+      "title": "Spore Sacks",
+      "markers": [
+        "| summary ="
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 286308,
+      "title": "Bibberbang Spores",
+      "markers": [
+        "| area duration = 3",
+        "| damage = 2d4+1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 442175,
+      "title": "Timmask Spores (class action)",
+      "markers": [
+        "| area duration = 2",
+        "| condition duration = 1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 419359,
+      "title": "Haste Spores",
+      "markers": [
+        "| cost = bonus",
+        "| area duration = 3"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 442180,
+      "title": "Befuddled (Timmask Spores)",
+      "markers": [
+        "wanders around without direction"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 435656,
+      "title": "Haste Spores (condition)",
+      "markers": [
+        "| honour mode =",
+        "| bugs ="
+      ]
+    }
+  ],
+  "summary": "+1 spell save DC and 1 extra Necrotic damage when dealing Necrotic damage. With Symbiotic Entity active, access Bibberbang, Timmask, and Haste Spores.",
+  "fields": {
+    "Equipment type": "Light Armour",
+    "Training": "Light Armour",
+    "Base AC": "13",
+    "Effect": "+1 spell save DC and 1 extra Necrotic damage when you deal Necrotic damage. Multiple Necrotic sources in the same damage instance do not multiply the extra point.",
+    "Base value": "1050 gp in BG3. Merchant prices vary.",
+    "Spore Sacks": "The granted spore actions require active Symbiotic Entity and each recharges on Long Rest. Each cloud has a radius of about 7 ft.",
+    "Bibberbang Spores": "Action, range 60 ft. Listed as a ranged spell attack for 2d4 + 1 Poison. Creates Noxious Fumes for 3 turns.",
+    "Timmask Spores": "Action, range 60 ft. Listed as a ranged spell attack for 2d4 + 1 Poison against creatures in the area. Creates a cloud for 2 turns and can apply Befuddled for 1 turn, causing creatures to wander without control.",
+    "Haste Spores": "Bonus Action, range 60 ft. Creates a cloud for 3 turns that hastens creatures entering it for 1 turn. The condition grants +2 AC, Advantage on Dexterity saves, 30 ft extra movement and an additional action. It causes no Lethargic when it ends.",
+    "Honour Mode": "The extra Haste Spores action cannot use Extra Attack. Slowed can end the effect and prevent it from being reapplied."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:3390",
+  "title": "Giantbreaker",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438351,
+      "title": "Giantbreaker",
+      "markers": [
+        "| uid = MAG_MeleeDebuff_AttackDebuff2_OnDamage_HeavyCrossbow"
+      ]
+    },
+    {
+      "role": "Rules: Heavy Hitter",
+      "revision": 432632,
+      "title": "Heavy Hitter",
+      "markers": [
+        "| summary = '''Heavy Hitter''' is a passive feature that sends opponents reeling on every hit."
+      ]
+    },
+    {
+      "role": "Rules: Reeling (condition)",
+      "revision": 436700,
+      "title": "Reeling (condition)",
+      "markers": [
+        "{{condition page"
+      ]
+    }
+  ],
+  "summary": "This +1 heavy crossbow adds two turns of Reeling on a hit.",
+  "fields": {
+    "Weapon damage": "1d10 + 1 Piercing plus the wielder’s Dexterity modifier. +1 enchantment also improves attack rolls. Martial, two-handed ranged weapon, 60 ft range, dippable.",
+    "Weapon actions": "With proficiency, gain Piercing Shot and Brace (Ranged).",
+    "Heavy Hitter": "Hits from Giantbreaker add two turns of Reeling, up to ten. Each remaining turn gives the target a −1 attack roll penalty. The target’s next attack clears all stacks whether it hits or misses. A Multiattack action applies the penalty to its attacks before the duration changes.",
+    "Base value": "380 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

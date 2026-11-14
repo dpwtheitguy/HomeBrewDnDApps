@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:12533",
+  "title": "Storage Chest",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Storage Chest",
+      "revision": 423622,
+      "markers": [
+        "'''Storage Chest''' are a common Medium Toughness [[Miscellaneous#Chests and Crates|Container]]."
+      ]
+    },
+    {
+      "role": "Rules: Medium Toughness",
+      "title": "Medium Toughness",
+      "revision": 443599,
+      "markers": [
+        "at least 22 damage"
+      ]
+    }
+  ],
+  "summary": "Locked container with Medium Toughness in the Hollow.",
+  "fields": {
+    "Container": "Found at (206, 543). Medium Toughness requires at least 22 damage per hit.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

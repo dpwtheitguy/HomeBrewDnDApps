@@ -1,0 +1,46 @@
+{
+  "item_id": "bg3-wiki:9585",
+  "title": "Ring of Self Immolation",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Ring of Self Immolation",
+      "revision": 422395,
+      "markers": [
+        "MAG_Fire_SelfImmolation_Ring"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Self Immolation",
+      "revision": 314731,
+      "markers": [
+        "| cost = bonus"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Heat",
+      "revision": 443664,
+      "markers": [
+        "maximum {{duration|7}}"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Heat Convergence",
+      "revision": 432629,
+      "markers": [
+        "on that first hit"
+      ]
+    }
+  ],
+  "summary": "Spend a Bonus Action to take 1d4 Fire and gain 2 turns of Heat.",
+  "fields": {
+    "Self Immolation": "Bonus Action on yourself once per Short Rest. Take 1d4 Fire and gain 2 turns of Heat.",
+    "Heat": "Take 1d4 Fire at the start of each turn. Heat stacks up to 7. Toggle Heat Convergence to consume the stacks when you next deal Fire damage, adding 1 Fire per remaining turn. A multi-hit spell adds it to the first hit only. An area spell adds it to each target.",
+    "Acquisition": "Locked wooden chest in the ruined tower north of the Shambling Mound ambush, X 29, Y 63. A nearby skeleton has the key.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

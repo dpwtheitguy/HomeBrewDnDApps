@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:8050",
+  "title": "Gandrel's Aspiration",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437848,
+      "title": "Gandrel's Aspiration",
+      "markers": [
+        "| uid = MAG_Gandrel_UndeadSlayer_HeavyCrossbow"
+      ]
+    },
+    {
+      "role": "Rules: Feller of Monsters",
+      "revision": 432551,
+      "title": "Feller of Monsters",
+      "markers": [
+        "| summary = '''Feller of Monsters''' is a passive feature that improves hit chance against Monstrosities."
+      ]
+    },
+    {
+      "role": "Rules: Sacred Munitions",
+      "revision": 397987,
+      "title": "Sacred Munitions",
+      "markers": [
+        "| description = Infuse your crossbow bolts with holy energy. For the rest of your turn, your ranged weapon attacks inflict {{SmCond|Turned}} against [[undead]]."
+      ]
+    },
+    {
+      "role": "Rules: Turned (condition)",
+      "revision": 437284,
+      "title": "Turned (condition)",
+      "markers": [
+        "{{condition page"
+      ]
+    }
+  ],
+  "summary": "Gain advantage on attacks against Monstrosities while this +1 heavy crossbow is equipped. Sacred Munitions lets ranged attacks turn Undead.",
+  "fields": {
+    "Weapon damage": "1d10 + 1 Piercing plus the wielder’s Dexterity modifier. +1 enchantment also improves attack rolls. Martial, two-handed ranged weapon, 60 ft range, dippable.",
+    "Weapon actions": "With proficiency, gain Piercing Shot and Brace (Ranged).",
+    "Sacred Munitions": "Self, Bonus Action once per Short Rest. For the rest of this turn, hits with ranged weapon attacks inflict Turned on Undead for 3 turns without a saving throw. Clerics with Destroy Undead also deal 4d6 Radiant to those targets.",
+    "Turned": "The creature flees, cannot willingly move within 30 ft of you, and cannot spend its Reaction. It can Dash or try to escape movement restraints. Damage ends Turned early.",
+    "Base value": "130 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

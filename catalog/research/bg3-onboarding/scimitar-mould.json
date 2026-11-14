@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:6351",
+  "title": "Scimitar Mould",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422697,
+      "title": "Scimitar Mould",
+      "markers": [
+        "UNI_LOOT_AdamantineForge_ScimitarMold"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441122,
+      "title": "Adamantine Forge (quest)",
+      "markers": [
+        "Mould Chamber"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 440129,
+      "title": "Adamantine Scimitar",
+      "markers": [
+        "Adamantine Scimitar"
+      ]
+    }
+  ],
+  "summary": "Forge Adamantine Scimitar with one Mithral Ore.",
+  "fields": {
+    "Use": "Put mould in the Mould Chamber and ore in the Crucible. Release lava, pull the Forge Lever, collect the result and eject the reusable mould.",
+    "Acquisition": "On a skeleton on the raised Grymforge stairwell overlooking Nere’s rubble, X −604, Y 322.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

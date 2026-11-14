@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:3436",
+  "title": "Herbalist's Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419491,
+      "title": "Herbalist's Gloves",
+      "markers": [
+        "UNI_UND_Myco_Alchemist_HealerGloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432178,
+      "title": "Cleansing Touch",
+      "markers": [
+        "| description = If the wearer heals a {{condition type|Poisoned}} creature, it is no longer poisoned."
+      ]
+    }
+  ],
+  "summary": "Healing a Poisoned creature removes its Poisoned condition.",
+  "fields": {
+    "Effect": "Healing a Poisoned creature removes its Poisoned condition.",
+    "Base value": "90 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

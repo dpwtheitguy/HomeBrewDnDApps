@@ -1,0 +1,55 @@
+{
+  "item_id": "bg3-wiki:3343",
+  "title": "The Watcher's Guide",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424151,
+      "title": "The Watcher's Guide",
+      "markers": [
+        "CHA_CompassSpear"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442976,
+      "title": "Death's Promise",
+      "markers": [
+        "does not trigger"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437280,
+      "title": "True Strike (condition)",
+      "markers": [
+        "Advantage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374223,
+      "title": "Rush Attack",
+      "markers": [
+        "| range m = 9"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444158,
+      "title": "Off Balance",
+      "markers": [
+        "Removed by taking damage"
+      ]
+    }
+  ],
+  "summary": "Missing a melee attack with this spear grants advantage on the next attack against that target.",
+  "fields": {
+    "Weapon profile": "1d6 Piercing one-handed or 1d8 two-handed, plus Strength. Simple, versatile, thrown and dippable, 5 ft.",
+    "Death’s Promise": "Miss a melee attack, including an Opportunity Attack, to gain True Strike against that target for 2 turns. The next attack against that target has advantage. Throw misses do not qualify.",
+    "Rush Attack": "Action with proficiency once per Short Rest. Charge 30 ft and strike the first non-allied creature or object for 1d4 + attack ability modifier Piercing. Strength save vs weapon-action DC prevents Off Balance for 2 turns. Off Balance gives disadvantage on Strength and Dexterity checks and advantage to attackers. Damage or Help ends it.",
+    "Acquisition": "Sarcophagus among statues and traps in the Dank Crypt.",
+    "Base value": "200 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

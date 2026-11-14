@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:14937",
+  "title": "Poisoner's Ring",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421867,
+      "title": "Poisoner's Ring",
+      "markers": [
+        "MAG_Poison_PoisonLethality_Ring"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 414420,
+      "title": "Virulent Venom",
+      "markers": [
+        "up to three times on the same target"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437360,
+      "title": "Virulent Venom (condition)",
+      "markers": [
+        "[[Vulnerable]]"
+      ]
+    }
+  ],
+  "summary": "Cast Virulent Venom to increase a target’s susceptibility to Poison damage.",
+  "fields": {
+    "Virulent Venom": "Action, 30 ft, DC 14 Constitution save. On failure, ordinary targets gain Poison vulnerability for 10 turns. Resistant targets lose resistance instead. Immune targets are unaffected. The source reports up to three casts per Long Rest, including repeat casts against the same target.",
+    "Acquisition": "Roah Moonglow, Moonrise Towers main floor, X −174, Y −179.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

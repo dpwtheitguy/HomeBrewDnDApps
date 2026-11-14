@@ -1,0 +1,34 @@
+{
+  "item_id": "bg3-wiki:9194",
+  "title": "Corpsegrinder",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417313,
+      "title": "Corpsegrinder",
+      "markers": [
+        "MAG_SWA_Roaring_Maul"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 414020,
+      "title": "Grand Slam",
+      "markers": [
+        "| description = Slam your weapon into the ground, dealing additional {{DamageType|Thunder}} damage equal to your [[proficiency bonus]], thunderously impacting nearby foes and possibly pushing them away."
+      ]
+    }
+  ],
+  "summary": "This +2 maul can slam creatures in a 10 ft area and push them away.",
+  "fields": {
+    "Damage": "2d6 + 2 Bludgeoning",
+    "Weapon profile": "Martial, two-handed, mauls.",
+    "Extra damage": "1d4 Thunder",
+    "Properties": "Heavy, Dippable.",
+    "Weapon actions": "Backbreaker, Concussive Smash.",
+    "Grand Slam": "Action once per Short Rest. In a 10 ft circle, deal normal weapon damage plus extra Thunder damage equal to your proficiency bonus. A Dexterity save against weapon-action DC +2 halves the damage. Failed saves can cause a push. This uses the full Action and does not count toward Extra Attack.",
+    "Reported behavior": "The pinned source reports Large and larger targets can be pushed despite the tooltip. The slam makes no attack roll, so riders requiring a roll can be absent.",
+    "Base value": "190 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence. Expanded the card from the pinned item and linked gameplay evidence."
+}

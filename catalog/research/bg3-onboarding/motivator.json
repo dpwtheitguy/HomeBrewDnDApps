@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:34449",
+  "title": "Motivator",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 397182,
+      "title": "Motivator",
+      "markers": [
+        "| uid = QUEST_LOW_DeadMansSwitch"
+      ]
+    },
+    {
+      "role": "Rules: Save the Gondians",
+      "revision": 439786,
+      "title": "Save the Gondians",
+      "markers": [
+        "| description = Save the Gondians is a quest in Act Three of Baldur's Gate 3. It can be started by speaking with Zanner Toobin in the Steel Watch Foundry."
+      ]
+    }
+  ],
+  "summary": "Used or dropped, Prinski’s Motivator can kill nearby Gondians wearing linked collars.",
+  "fields": {
+    "Disarm": "Pass a DC 5 Intelligence check before activation. A failed check causes a small-radius explosion. Directing follower Zanner Toobin to disable it spends his Action without deactivating it.",
+    "Acquisition": "Pickpocket certain Black Gauntlets in the Steel Watch Foundry. Passing the relevant Deception check can make Tamia Holzt hand it over."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:50347",
+  "title": "Lost Training Hall Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430649,
+      "title": "Lost Training Hall Key",
+      "markers": [
+        "| uid = S_LOW_SidewingKey"
+      ]
+    },
+    {
+      "role": "Rules: Cloister of Sombre Embrace",
+      "revision": 434050,
+      "title": "Cloister of Sombre Embrace",
+      "markers": [
+        "{{Location page"
+      ]
+    }
+  ],
+  "summary": "Opens the Infiltration Training and Interrogation Training rooms beneath the House of Grief.",
+  "fields": {
+    "Acquisition": "Carried by Sentinel Fredrichk deeper in the Cloister of Sombre Embrace. Either lock can also be picked at DC 15.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

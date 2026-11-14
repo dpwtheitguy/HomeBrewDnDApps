@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:34609",
+  "title": "Mother Dearest",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422874,
+      "title": "Mother Dearest",
+      "markers": [
+        "{{MiscItemPage"
+      ]
+    },
+    {
+      "role": "Rules: Balthazar",
+      "revision": 425248,
+      "title": "Balthazar",
+      "markers": [
+        "{{Infobox creature"
+      ]
+    },
+    {
+      "role": "Rules: Summon Golem Bell",
+      "revision": 442970,
+      "title": "Summon Golem Bell",
+      "markers": [
+        "| description = '''Summon Golem Bell''' is a miscellaneous item which is only functional in the [[Gauntlet of Shar]]. While in combat there, it can be used to summon the construct {{CharLink|Flesh}}."
+      ]
+    }
+  ],
+  "summary": "Keep this bottled eye in inventory to unlock additional dialogue with Balthazar.",
+  "fields": {
+    "Trigger": "Persuade Balthazar to offer the Summon Golem Bell, then ask about his mother before taking it. Loot Mother Dearest from the nearby shelf and speak to him again.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

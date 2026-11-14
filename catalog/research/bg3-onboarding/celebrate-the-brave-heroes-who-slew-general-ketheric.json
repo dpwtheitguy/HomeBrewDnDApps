@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:39646",
+  "title": "Celebrate the Brave Heroes Who Slew General Ketheric",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416944,
+      "title": "Celebrate the Brave Heroes Who Slew General Ketheric",
+      "markers": [
+        "| uid = S_LOW_BaldursMouth_ArticleBlock_Positive03"
+      ]
+    },
+    {
+      "role": "Rules: Stop the Presses",
+      "revision": 423620,
+      "title": "Stop the Presses",
+      "markers": [
+        "| description = Stop the Presses is a quest in Act Three of Baldur's Gate 3. It can be started by speaking with Estra Stir in the Lower City or Lens in Rivington or Ettvard Needle in the Baldur's Mouth."
+      ]
+    }
+  ],
+  "summary": "Load this positive article block into the Baldur’s Mouth printing press during Stop the Presses.",
+  "fields": {
+    "Use": "Load this positive article block into the Baldur’s Mouth printing press during Stop the Presses.",
+    "Base value": "14 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

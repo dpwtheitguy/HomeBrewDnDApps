@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:9555",
+  "title": "Ring of Regeneration",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Ring of Regeneration",
+      "revision": 422391,
+      "markers": [
+        "MAG_PHB_OfRegeneration_Ring"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Combat Regeneration",
+      "revision": 432185,
+      "markers": [
+        "does not trigger when"
+      ]
+    }
+  ],
+  "summary": "Heals 1d4 HP at the start of your turn in combat.",
+  "fields": {
+    "Combat Regeneration": "While in combat, heal 1d4 HP at the start of your turn, even at full health. Does not trigger while Downed. Can trigger eligible on-heal gear such as The Whispering Promise.",
+    "Acquisition": "Buy from Rolan or Lorroakan’s Projection at Sorcerous Sundries, or look for it on Rolan in Ramazith’s Tower immediately after Lorroakan dies.",
+    "Honour Mode value": "580 gp.",
+    "Base value": "360 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

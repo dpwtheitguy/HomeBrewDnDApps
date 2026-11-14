@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:15071",
+  "title": "Ring Mail Armour +1",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422366,
+      "title": "Ring Mail Armour +1",
+      "markers": [
+        "ARM_RingMail_1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432127,
+      "title": "Body Aid",
+      "markers": [
+        "correctly added when rolled"
+      ]
+    }
+  ],
+  "summary": "AC 15 Heavy Armour with Stealth disadvantage.",
+  "fields": {
+    "Armour Class": "AC 15. Heavy Armour proficiency. Disadvantage on Stealth checks.",
+    "Acquisition": "Magic armour traders at player levels 2–4.",
+    "Body Aid": "+1 Strength checks and saving throws. The check bonus can apply even if the character sheet omits it.",
+    "Base value": "200 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

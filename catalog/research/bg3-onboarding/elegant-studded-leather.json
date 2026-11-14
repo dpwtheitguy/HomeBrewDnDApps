@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:10991",
+  "title": "Elegant Studded Leather",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 426506,
+      "title": "Elegant Studded Leather",
+      "markers": [
+        "MAG_EndGame_StuddedLeather_Armor"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 425425,
+      "title": "Shield (spell)",
+      "markers": [
+        "| uid = Shout_Shield_Wizard:Wizard version,"
+      ]
+    }
+  ],
+  "summary": "Light armour with base AC 14, +2 Initiative, advantage on Stealth and Shield.",
+  "fields": {
+    "Armour Class": "Light Armour, AC 14 plus Dexterity modifier.",
+    "Ambusher": "+2 Initiative.",
+    "Stealth": "Advantage on Stealth checks.",
+    "Shield": "When about to be hit, spend a Reaction to gain +5 AC and immunity to Magic Missile until the start of your next turn. Tooltip recharge is Short Rest. The source reports Long Rest recharge unless the armour is unequipped and reequipped.",
+    "Base value": "2000 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

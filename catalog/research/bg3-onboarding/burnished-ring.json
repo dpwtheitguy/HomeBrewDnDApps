@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:11746",
+  "title": "Burnished Ring",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416842,
+      "title": "Burnished Ring",
+      "markers": [
+        "MAG_Generic_03_Ring_1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 421682,
+      "title": "Paralyzing Ray",
+      "markers": [
+        "| description = {{SmCond|Paralysed|Paralyses}} its target."
+      ]
+    }
+  ],
+  "summary": "Use an Action once per Long Rest to fire Paralyzing Ray at a creature up to 60 ft away. It makes a Constitution save against your spell save DC or is Paralysed for 2 turns.",
+  "fields": {
+    "Effect": "Use an Action once per Long Rest to fire Paralyzing Ray at a creature up to 60 ft away. It makes a Constitution save against your spell save DC or is Paralysed for 2 turns.",
+    "Equipment type": "Rings",
+    "Base value": "360 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:11382",
+  "title": "Boots of Very Fast Blinking",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416690,
+      "title": "Boots of Very Fast Blinking",
+      "markers": [
+        "UNI_WYR_Circus_TeleportBoots"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 417794,
+      "title": "Disrobing Blinkstep",
+      "markers": [
+        "| description = You teleport to an unoccupied space you can see. However, your clothes do not teleport with you."
+      ]
+    }
+  ],
+  "summary": "Once per turn, use a Bonus Action to teleport to a visible unoccupied space up to 60 ft away. Your clothes and armour stay behind.",
+  "fields": {
+    "Effect": "Once per turn, use a Bonus Action to teleport to a visible unoccupied space up to 60 ft away. Your clothes and armour stay behind.",
+    "Equipment type": "Boots",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

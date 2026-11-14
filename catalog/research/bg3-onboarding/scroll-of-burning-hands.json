@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:6174",
+  "title": "Scroll of Burning Hands",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Burning Hands",
+      "revision": 422755,
+      "markers": [
+        "LOOT_SCROLL_BurningHands"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Burning Hands",
+      "revision": 416839,
+      "markers": [
+        "Zone_BurningHands"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Deal 3d6 Fire to creatures in a 17 ft cone, Dexterity save for half.",
+  "fields": {
+    "Cast": "Level 1. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Deal 3d6 Fire to creatures in a 17 ft cone, Dexterity save for half. Can ignite flammable objects.",
+    "Range": "Self.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

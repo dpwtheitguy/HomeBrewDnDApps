@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:3525",
+  "title": "Warped Headband of Intellect",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424764,
+      "title": "Warped Headband of Intellect",
+      "markers": [
+        "UNI_FOR_OgresForHire_HeadbandOfIntellect"
+      ]
+    }
+  ],
+  "summary": "Sets Intelligence to at least 17 while equipped.",
+  "fields": {
+    "Intelligence": "If your Intelligence is below 17, it becomes 17. A naturally higher score stays intact. The source reports that Wizards keep spells they prepared using the higher score even after removing the headband.",
+    "Acquisition": "Loot Lump the Enlightened in Act One, including if you summon him after first hiring his ogres.",
+    "Base value": "250 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

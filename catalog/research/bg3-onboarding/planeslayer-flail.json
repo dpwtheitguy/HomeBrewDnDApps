@@ -1,0 +1,73 @@
+{
+  "item_id": "bg3-wiki:9616",
+  "title": "Planeslayer Flail",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Planeslayer Flail",
+      "revision": 421835,
+      "markers": [
+        "MAG_LC_ChainDevil_Flail"
+      ]
+    },
+    {
+      "role": "Rules: Outer-Entity Slayer",
+      "title": "Outer-Entity Slayer",
+      "revision": 421614,
+      "markers": [
+        "fey, fiends"
+      ]
+    },
+    {
+      "role": "Rules: Tenacity",
+      "title": "Tenacity",
+      "revision": 425432,
+      "markers": [
+        "minimum of 1"
+      ]
+    },
+    {
+      "role": "Rules: Concussive Smash",
+      "title": "Concussive Smash",
+      "revision": 373613,
+      "markers": [
+        "Dazed"
+      ]
+    },
+    {
+      "role": "Rules: Weakening Strike",
+      "title": "Weakening Strike",
+      "revision": 374483,
+      "markers": [
+        "Weak Grip"
+      ]
+    },
+    {
+      "role": "Rules: Weak Grip (condition)",
+      "title": "Weak Grip (condition)",
+      "revision": 437410,
+      "markers": [
+        "Disadvantage"
+      ]
+    },
+    {
+      "role": "Rules: Dazed",
+      "title": "Dazed",
+      "revision": 442592,
+      "markers": [
+        "Dexterity"
+      ]
+    }
+  ],
+  "summary": "Unobtainable +2 flail with extra attack and damage bonuses against certain creature types.",
+  "fields": {
+    "Weapon": "Martial one-handed, 5-ft melee. 1d8 + 2 Bludgeoning plus Strength. +2 to attacks.",
+    "Outer-Entity Slayer": "+1d4 to attacks and damage against Fey, Fiends and Undead.",
+    "Tenacity": "Main hand. Reaction on a melee miss to deal Strength modifier Bludgeoning, minimum 1. A missed weapon action’s own effect does not apply.",
+    "Concussive Smash": "Action once per Short Rest with proficiency. Deal weapon damage. Constitution save against the higher of spell save DC or weapon-action DC +2, or Dazed for 2 turns. Dazed removes the Dexterity bonus to AC, imposes Disadvantage on Wisdom saves and blocks reactions that cost a Reaction. Help clears it.",
+    "Weakening Strike": "Action once per Short Rest with proficiency. Nonlethal attack for 1d4 plus the attack ability modifier of the weapon’s damage type. Strength save against weapon-action DC +2 or Weak Grip for 2 turns. Creatures without weapons are immune. Weak Grip imposes Disadvantage on attack rolls and Strength saves. An ally can clear it with Help.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "310 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

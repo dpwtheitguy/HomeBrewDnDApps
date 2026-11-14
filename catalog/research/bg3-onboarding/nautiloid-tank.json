@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:3822",
+  "title": "Nautiloid Tank",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421257,
+      "title": "Nautiloid Tank",
+      "markers": [
+        "PUZ_MF_Explosive_Contraption_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 240398,
+      "title": "Mysterious Liquid",
+      "markers": [
+        "Explodes when exposed"
+      ]
+    }
+  ],
+  "summary": "Fire detonates the tank for 6d6 Fire in a 20 ft radius and knocks creatures back.",
+  "fields": {
+    "Throw": "Action, up to 60 ft. Breaks to spill Mysterious Liquid. Throwing or placing it on fire detonates it.",
+    "Explosion": "Fire damage to the intact tank triggers a 20 ft radius blast for 6d6 Fire. DC 12 Dexterity save for half. Creatures in the blast are knocked back 10 ft without a save.",
+    "Mysterious Liquid": "Fire ignites the spilled liquid, applies Burning and leaves a Fire surface.",
+    "Acquisition": "Prologue Nautiloid, Ghustil Stornugoss’s office at Crèche Y’llek, Mind Flayer Colony and High Hall.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

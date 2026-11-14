@@ -1,0 +1,97 @@
+{
+  "item_id": "bg3-wiki:40575",
+  "title": "Pactbound Warhammer",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421650,
+      "title": "Pactbound Warhammer",
+      "markers": [
+        "WPN_HUM_Warhammer_Pact"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 291671,
+      "title": "Pact of the Blade: Warhammer",
+      "markers": [
+        "| item duration = Permanent"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 421638,
+      "title": "Pact of the Blade",
+      "markers": [
+        "Strength]] or [[Dexterity]]"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439161,
+      "title": "Deepened Pact",
+      "markers": [
+        "does not work in Honour Mode"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 436400,
+      "title": "Pact Weapon (condition)",
+      "markers": [
+        "Charisma modifier"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373567,
+      "title": "Backbreaker",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373613,
+      "title": "Concussive Smash",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442592,
+      "title": "Dazed",
+      "markers": [
+        "Wisdom"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374483,
+      "title": "Weakening Strike",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437410,
+      "title": "Weak Grip (condition)",
+      "markers": [
+        "Disadvantage"
+      ]
+    }
+  ],
+  "summary": "Summoned warhammer that uses Charisma and deals magical damage.",
+  "fields": {
+    "Weapon profile": "1d8 one-handed or 1d10 two-handed magical Bludgeoning plus Charisma. Martial, versatile, 5 ft melee, Dippable.",
+    "Summon": "Warlock level 3 with Pact of the Blade. Summon into your hand as an Action, once per battle. You can have only one. It disappears if you remain more than 5 ft away for over 10 rounds.",
+    "Pact rules": "You are proficient with this weapon. Use Charisma for attacks and damage, while its weapon action save DC still uses Strength or Dexterity. Level 5 Deepened Pact grants Extra Attack. It stacks with other class Extra Attack features outside Honour Mode. The Pact Weapon cannot be dropped or disarmed. The linked Deepened Pact rules also apply to Hexed Weapons. A ranged attack made first, or Throw with a ranged weapon equipped, does not trigger the extra attack. A hidden proficiency can cover a second weapon of the same type while equipped together.",
+    "Backbreaker": "Action against a Large or smaller target for 1d4 + attack ability modifier Bludgeoning. Strength save against weapon-action DC or Prone for 2 turns. Once per Short Rest.",
+    "Concussive Smash": "Action, normal weapon damage. Constitution save against the higher of spell save DC or weapon-action DC +2. Failure Dazes for 2 turns, removing Dexterity AC bonus, giving Disadvantage on Wisdom saves, and blocking spending Reaction points. Help clears it. Once per Short Rest.",
+    "Weakening Strike": "Action for 1d4 + attack ability modifier nonlethal weapon-type damage. Armed target makes a Strength save against weapon-action DC +2 or has Weak Grip for 2 turns. It gives Disadvantage on attacks and Strength saves. Help clears it. Once per Short Rest.",
+    "Base value": "0 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

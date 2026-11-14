@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:8643",
+  "title": "Boots of Elemental Momentum",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416682,
+      "title": "Boots of Elemental Momentum",
+      "markers": [
+        "MAG_ElementalGish_MomentumOnElementalDamage_Boots"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432498,
+      "title": "Elemental Momentum",
+      "markers": [
+        "| description = Whenever the wearer deals {{DamageType|Acid}}, {{DamageType|Cold}}, {{DamageType|Fire}}, {{DamageType|Lightning}} or {{DamageType|Thunder}} damage with [[Spell]]s or [[Cantrip]], they gain {{Cond|Momentum}} for 2 turns."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444042,
+      "title": "Momentum",
+      "markers": [
+        "| effects ="
+      ]
+    }
+  ],
+  "summary": "+1 Athletics. Deal Acid, Cold, Fire, Lightning or Thunder damage with a spell or cantrip to gain Momentum for 2 turns. Momentum increases speed by 5 ft per turn remaining, up to 5 turns.",
+  "fields": {
+    "Effect": "+1 Athletics. Deal Acid, Cold, Fire, Lightning or Thunder damage with a spell or cantrip to gain Momentum for 2 turns. Momentum increases speed by 5 ft per turn remaining, up to 5 turns.",
+    "Equipment type": "Boots",
+    "Training": "Medium Armour",
+    "Base value": "90 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

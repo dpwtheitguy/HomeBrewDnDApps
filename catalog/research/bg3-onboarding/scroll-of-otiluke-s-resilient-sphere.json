@@ -1,0 +1,41 @@
+{
+  "item_id": "bg3-wiki:16450",
+  "title": "Scroll of Otiluke's Resilient Sphere",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Otiluke's Resilient Sphere",
+      "revision": 422891,
+      "markers": [
+        "LOOT_SCROLL_ResilientSphere"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Otiluke's Resilient Sphere",
+      "revision": 404046,
+      "markers": [
+        "Target_ResilientSphere"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "On a failed Dexterity save, encase a creature for up to 3 turns.",
+  "fields": {
+    "Cast": "Level 4. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "On a failed Dexterity save, encase a creature for up to 3 turns. The sphere protects its contents from damage, limits movement, and blocks attacks through it. The scroll is unobtainable in normal play.",
+    "Range": "30 ft.",
+    "Concentration": "Maintain Concentration for the ongoing effect.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "180 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

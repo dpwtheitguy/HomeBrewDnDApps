@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:24406",
+  "title": "Shortsword (Yurgir)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423171,
+      "title": "Shortsword (Yurgir)",
+      "markers": [
+        "WPN_ORTHON_Shortsword_A"
+      ]
+    }
+  ],
+  "summary": "Yurgir’s non-humanoid shortsword, dealing 2d4 Piercing.",
+  "fields": {
+    "Weapon profile": "2d4 Piercing plus applicable ability modifier. Martial. Humanoids cannot use it.",
+    "Acquisition": "Force Yurgir to drop his melee weapon, such as with Command or Disarming Strike.",
+    "Base value": "16 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

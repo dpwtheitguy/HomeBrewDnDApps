@@ -1,0 +1,46 @@
+{
+  "item_id": "bg3-wiki:10979",
+  "title": "Nymph Cloak",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421412,
+      "title": "Nymph Cloak",
+      "markers": [
+        "S_LOW_CountingHouse_Vault1_Nymph_Cloak"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 429733,
+      "title": "Dominate Person",
+      "markers": [
+        "| condition duration = 10"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442703,
+      "title": "Dominated",
+      "markers": [
+        "Every time it takes damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 425473,
+      "title": "Ferg Drogher",
+      "markers": [
+        "Gemless Ring"
+      ]
+    }
+  ],
+  "summary": "Cast Dominate Person once per Long Rest to turn a hostile humanoid into a temporary ally.",
+  "fields": {
+    "Dominate Person": "Level 5. Action, 60 ft range, Concentration for up to 10 turns, once per Long Rest. One non-allied humanoid makes a Wisdom save against your spell DC. On failure it follows you and fights your enemies under its own control. It repeats the Wisdom save every time it takes damage, ending domination on success.",
+    "Two-target interaction": "Twinned Spell or Split Enchantment can select two humanoids, but the linked source reports that only one remains dominated.",
+    "Acquisition": "Counting House High Security Vault 1, X −711, Y 864, or Ferg Drogher’s special stock in Rivington. Persuade Ferg without Shadowheart nearby, bypass the check with a Shar-aligned Shadowheart, or learn about the Gemless Ring by casting Speak with Dead on Garrett. A nearby Shadowheart who rejected Shar can cause Ferg to leave permanently.",
+    "Base value": "360 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

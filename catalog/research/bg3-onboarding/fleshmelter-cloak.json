@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:10823",
+  "title": "Fleshmelter Cloak",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418609,
+      "title": "Fleshmelter Cloak",
+      "markers": [
+        "MAG_Acid_AcidMeleeCounter_Cloak"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432156,
+      "title": "Caustic Reprisal",
+      "markers": [
+        "| description = Whenever a creature deals melee damage to the wearer, that creature takes {{DamageText|1d4|Acid}} Damage."
+      ]
+    }
+  ],
+  "summary": "When a creature deals melee damage to you, it takes 1d4 Acid damage.",
+  "fields": {
+    "Effect": "When a creature deals melee damage to you, it takes 1d4 Acid damage.",
+    "Base value": "70 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

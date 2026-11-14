@@ -1,0 +1,52 @@
+{
+  "item_id": "bg3-wiki:9545",
+  "title": "Crimson Mischief",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417396,
+      "title": "Crimson Mischief",
+      "markers": [
+        "MAG_TheCrimson_Shortsword"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432964,
+      "title": "Prey Upon the Weak",
+      "markers": [
+        "| description = This weapon deals an additional {{DamageText|1d4|Piercing}} damage against targets with 50% of their [[Hit Points|hit points]] or fewer."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433009,
+      "title": "Redvein Savagery",
+      "markers": [
+        "| description = When you make an attack with {{Advantage}}, the target takes an additional {{DamageText|7|Piercing|drs=t}} damage."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432198,
+      "title": "Crimson Weapon",
+      "markers": [
+        "| description = When you make an attack with your off-hand weapon, you can add your [[Ability_Score_Modifier|Ability Modifier]] to the damage of the attack."
+      ]
+    }
+  ],
+  "summary": "This +2 shortsword adds Piercing damage in the main hand and ability modifier damage in the off hand.",
+  "fields": {
+    "Damage": "1d6 + 2 Piercing",
+    "Weapon profile": "Martial, one-handed, shortswords.",
+    "Extra damage": "1d4 Necrotic",
+    "Properties": "Finesse, Light.",
+    "Weapon actions": "Flourish, Piercing Strike.",
+    "Prey Upon the Weak": "Deal an extra 1d4 Piercing against targets at or below half HP. The tooltip can show the same die twice.",
+    "Main hand": "Redvein Savagery adds 7 Piercing on attacks with this sword made with advantage. Tactician and lower can apply it again to main-hand melee Sneak Attack.",
+    "Training note": "The pinned source reports Scimitar proficiency also works with this shortsword.",
+    "Off hand": "Crimson Weapon lets you add your ability modifier to off-hand attack damage, including a hand crossbow.",
+    "Base value": "640 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence."
+}

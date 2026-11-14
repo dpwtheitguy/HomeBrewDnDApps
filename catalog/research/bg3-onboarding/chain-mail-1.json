@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:8935",
+  "title": "Chain Mail +1",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416967,
+      "title": "Chain Mail +1",
+      "markers": [
+        "ARM_ChainMail_1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433313,
+      "title": "Superior Material (-1)",
+      "markers": [
+        "| description = You take 1 less {{DamageType|Slashing}} damage."
+      ]
+    }
+  ],
+  "summary": "Heavy Armour with AC 17. Imposes disadvantage on Stealth checks. Reduce incoming Slashing damage by 1.",
+  "fields": {
+    "Effect": "Heavy Armour with AC 17. Imposes disadvantage on Stealth checks. Reduce incoming Slashing damage by 1.",
+    "Base value": "260 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

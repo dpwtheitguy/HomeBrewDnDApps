@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:8842",
+  "title": "Fistbreaker Helm",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 428835,
+      "title": "Fistbreaker Helm",
+      "markers": [
+        "MAG_BarbMonk_Cloth_Hat_A_1_Late"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432643,
+      "title": "High Spellcasting (+1)",
+      "markers": [
+        "| description = You gain a +1 bonus to [[Spell Save DC]]."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433094,
+      "title": "Seldom Caught Unawares (+1)",
+      "markers": [
+        "| description = You gain a +1 bonus to {{Initiative|Initiative rolls}}."
+      ]
+    }
+  ],
+  "summary": "Gain +1 spell save DC and +1 Initiative.",
+  "fields": {
+    "Effect": "Gain +1 spell save DC and +1 Initiative.",
+    "Base value": "60 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

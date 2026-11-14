@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:47974",
+  "title": "Havkelaag's Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430566,
+      "title": "Havkelaag's Key",
+      "markers": [
+        "| uid = LOW_Lodge_Chest_Key01"
+      ]
+    },
+    {
+      "role": "Rules: The Lodge",
+      "revision": 439009,
+      "title": "The Lodge",
+      "markers": [
+        "{{Location page"
+      ]
+    }
+  ],
+  "summary": "Unlocks the wooden chest in the attic of the Lodge.",
+  "fields": {
+    "Acquisition": "Carried by Havkelaag. The chest holds gold and alchemy ingredients. DC 15 Sleight of Hand is an alternative.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

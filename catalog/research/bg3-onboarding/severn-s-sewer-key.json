@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:50359",
+  "title": "Severn's Sewer Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430434,
+      "title": "Severn's Sewer Key",
+      "markers": [
+        "LOW_Guildhall_BarDoor_Key"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441313,
+      "title": "Lower City Sewers",
+      "markers": [
+        "Severn's Sewer Key"
+      ]
+    }
+  ],
+  "summary": "Unlocks the No Entry – No Exit double door to the Guildhall.",
+  "fields": {
+    "Use": "Door is in the Lower City Sewers near X −14, Y 775. DC 20 Sleight of Hand is an alternative.",
+    "Acquisition": "Carried by Severn, the Guildhall bartender.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

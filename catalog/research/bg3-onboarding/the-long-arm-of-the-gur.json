@@ -1,0 +1,65 @@
+{
+  "item_id": "bg3-wiki:10984",
+  "title": "The Long Arm of the Gur",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "The Long Arm of the Gur",
+      "revision": 424053,
+      "markers": [
+        "S_LOW_CountingHouse_Vault3_Crossbow"
+      ]
+    },
+    {
+      "role": "Rules: Revenant Scourge",
+      "title": "Revenant Scourge",
+      "revision": 413217,
+      "markers": [
+        "| description = When used against undead creatures this weapon has +1d4 bonus to Attack and Damage rolls.",
+        "doesn't inherit the hidden status condition"
+      ]
+    },
+    {
+      "role": "Rules: Gaping Wounds",
+      "title": "Gaping Wounds",
+      "revision": 443536,
+      "markers": [
+        "Honour Mode"
+      ]
+    },
+    {
+      "role": "Rules: Crossbow Expert: Wounding",
+      "title": "Crossbow Expert: Wounding",
+      "revision": 438303,
+      "markers": [
+        "4 rounds"
+      ]
+    },
+    {
+      "role": "Rules: Piercing Shot",
+      "title": "Piercing Shot",
+      "revision": 421804,
+      "markers": [
+        "Gaping Wounds"
+      ]
+    },
+    {
+      "role": "Rules: Brace (Ranged)",
+      "title": "Brace (Ranged)",
+      "revision": 439120,
+      "markers": [
+        "movement"
+      ]
+    }
+  ],
+  "summary": "A +2 heavy crossbow whose listed anti-Undead bonus is inactive in the normally obtained variant.",
+  "fields": {
+    "Weapon profile": "Martial two-handed ranged weapon, 60 ft. 1d10 + 2 Piercing plus Dexterity. +2 to attack rolls.",
+    "Revenant Scourge": "The listed passive would add 1d4 to attacks and damage against Undead, but the ordinarily obtainable variant lacks the hidden status required to activate it. The separate Undead Slayer Crossbow has the working passive.",
+    "Acquisition": "High Security Vault 3 at the Counting House.",
+    "Base value": "380 gp nominal BG3 value.",
+    "Piercing Shot": "With proficiency, once per Short Rest. Action. Deal weapon damage. CON save against weapon-action DC +2 or Gaping Wounds for 2 turns, or 4 with Crossbow Expert: Wounding. Undead and constructs are immune. Healing removes it. Normal damage riders add 2 Piercing; in Honour Mode it adds 2 of the original type to any damage source.",
+    "Brace (Ranged)": "With proficiency, once per Short Rest. Spend 20 ft of movement. Roll ranged damage twice and use the higher result for this turn. Longbow and heavy crossbow variants have separate cooldowns."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations. Reconciled applicable action, condition, and variant details against pinned rules."
+}

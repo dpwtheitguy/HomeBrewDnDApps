@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:3831",
+  "title": "Poisonous Slime Bomb",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421869,
+      "title": "Poisonous Slime Bomb",
+      "markers": [
+        "LOOT_HAG_Throwable_Goo_Ball_A_Poison_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 407732,
+      "title": "Poison Cloud",
+      "markers": [
+        "it's the DC of the player character"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439705,
+      "title": "Poisoned",
+      "markers": [
+        "Suffers"
+      ]
+    }
+  ],
+  "summary": "Throw for an immediate Poison burst and a 10-turn cloud that can Poison creatures.",
+  "fields": {
+    "Throw": "Action, single use, 60 ft range. Deal 1d4 + 1 Poison to creatures in a small radius and create a 10 ft radius Poison Cloud for 10 turns.",
+    "Poison Cloud": "The cloud does no damage. Creatures inside make a Constitution save each turn against the thrower’s DC or become Poisoned for 1 turn. Poisoned gives disadvantage on attack rolls and ability checks.",
+    "Acquisition": "Unique Auntie Ethel drop. No ordinary vendor or alchemy recipe.",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

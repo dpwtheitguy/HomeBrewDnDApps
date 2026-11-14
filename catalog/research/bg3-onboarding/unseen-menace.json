@@ -1,0 +1,73 @@
+{
+  "item_id": "bg3-wiki:8798",
+  "title": "Unseen Menace",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424533,
+      "title": "Unseen Menace",
+      "markers": [
+        "MAG_Invisible_Pike"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432716,
+      "title": "Invisible Weapon",
+      "markers": [
+        "miss when the weapon is thrown"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374223,
+      "title": "Rush Attack",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444158,
+      "title": "Off Balance",
+      "markers": [
+        "Removed by taking damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374168,
+      "title": "Piercing Strike",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443536,
+      "title": "Gaping Wounds",
+      "markers": [
+        "Honour"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441529,
+      "title": "Brace (Melee)",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    }
+  ],
+  "summary": "+1 pike with Advantage and a lower critical threshold while invisible.",
+  "fields": {
+    "Weapon profile": "1d10 + 1 Piercing plus Strength. +1 attack rolls. Martial two-handed pike, 8 ft melee, Dippable.",
+    "Invisible Weapon": "While invisible it cannot be disarmed, has Advantage on attacks and reduces the roll needed to crit by 1, which stacks. A missed melee attack makes it visible for 2 rounds. Throws neither gain the passive nor reveal it on a miss.",
+    "Rush Attack": "Action once per Short Rest with proficiency. Charge up to 30 ft and attack the first non-allied creature or object for 1d4 + attack ability modifier Piercing. Strength save against weapon-action DC or Off Balance for 2 turns. It grants attackers Advantage and imposes Disadvantage on Strength and Dexterity checks. Damage or Help clears it.",
+    "Piercing Strike": "Action, melee weapon damage. Constitution save against weapon-action DC +2 or Gaping Wounds for 2 turns. Undead and Constructs are immune. In standard modes hits on the target gain 2 extra Piercing damage. In Honour Mode it takes 2 extra damage of the original type from damage sources. Healing clears the condition. Once per Short Rest with proficiency.",
+    "Brace": "Spend 20 ft movement once per Short Rest with proficiency. Roll melee damage twice and keep the higher roll for the rest of the turn. Stacks with Savage Attacker. With Savage Attacker, roll each damage die three times and keep the highest. Bracing ends Hiding and Invisibility.",
+    "Acquisition": "Buy from A’jak’nir Jeera at Crèche Y’llek.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:35586",
+  "title": "Sandthief's Ring",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422624,
+      "title": "Sandthief's Ring",
+      "markers": [
+        "UNI_SHA_SandthiefsRing"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438101,
+      "title": "Invisibility (spell)",
+      "markers": [
+        "| level = 2"
+      ]
+    }
+  ],
+  "summary": "Inaccessible ring grants Invisibility once per Long Rest.",
+  "fields": {
+    "Invisibility": "Action, touch, Concentration up to 10 turns. The target becomes Invisible until it attacks, casts, or takes a revealing action. The item labels this level 1 while the general spell is level 2.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "40 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

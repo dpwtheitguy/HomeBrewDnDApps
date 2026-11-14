@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:57487",
+  "title": "Supreme Tadpole",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Supreme Tadpole",
+      "revision": 378151,
+      "markers": [
+        "LOOT_MF_Tadpole_Supreme_A"
+      ]
+    },
+    {
+      "role": "Rules: Full-illithid",
+      "title": "Full-illithid",
+      "revision": 426219,
+      "markers": [
+        "only the player character"
+      ]
+    }
+  ],
+  "summary": "Transforms its user into a full mind flayer.",
+  "fields": {
+    "Use": "In the final Act Three Astral Plane sequence, full transformation is available to the player character, Karlach or Orpheus. It does not require prior partial transformation. The Supreme Tadpole is consumed to become a mind flayer.",
+    "Acquisition": "Given by the Emperor near the end of Act Three.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

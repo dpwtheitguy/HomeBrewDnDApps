@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:3470",
+  "title": "Springstep Boots",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Springstep Boots",
+      "revision": 423520,
+      "markers": [
+        "MAG_Mobility_MomentumOnDash_Boots"
+      ]
+    },
+    {
+      "role": "Rules: Swift Strides",
+      "title": "Swift Strides",
+      "revision": 433324,
+      "markers": [
+        "| description = When the wearer {{SAI|Dash|Dashes}} or takes a similar action during combat, they gain {{Cond|Momentum}} for 3 turns."
+      ]
+    },
+    {
+      "role": "Rules: Momentum",
+      "title": "Momentum",
+      "revision": 444042,
+      "markers": [
+        "per remaining duration"
+      ]
+    }
+  ],
+  "summary": "Gain Momentum after using Dash in combat.",
+  "fields": {
+    "Swift Strides": "Once per turn in combat, Dash or similar actions grant Momentum for 3 turns. Momentum gives +5 ft movement per remaining turn.",
+    "Base value": "190 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

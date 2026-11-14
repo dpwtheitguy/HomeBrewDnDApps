@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:4216",
+  "title": "Loviatar's Scourge",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420636,
+      "title": "Loviatar's Scourge",
+      "markers": [
+        "| uid = WPN_GOB_PainPriest_Scourge"
+      ]
+    },
+    {
+      "role": "Rules: Willing Whip",
+      "revision": 433452,
+      "title": "Willing Whip",
+      "markers": [
+        "| summary = '''Willing Whip''' is a passive feature that grants resistance to Necrotic damage but deals Necrotic damage to every creature nearby."
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Concussive Smash",
+      "revision": 373613,
+      "markers": [
+        "| save dc = hybrid"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Dice rolls",
+      "revision": 441478,
+      "markers": [
+        "Hybrid save DC"
+      ]
+    }
+  ],
+  "summary": "A mace granting Necrotic resistance. Hits can trigger an area burst of 1d6 Necrotic.",
+  "fields": {
+    "Weapon profile": "1d6 Bludgeoning plus Strength modifier. Simple, one-handed, dippable, 5 ft melee.",
+    "Willing Whip": "Grants Necrotic resistance. A hit triggers 1d6 Necrotic in a 7 ft radius centred on the creature hit. Allies can take full damage and the wielder takes 0–3 after resistance. Helldusk Armour negates that self-damage. Some damage riders can still hurt the wielder. Multiple damage instances or targets can trigger separate bursts.",
+    "Acquisition": "Carried by Abdirak. If purchased by barter, it can automatically transfer back to him when he needs it.",
+    "Base value": "370 gp in BG3. Merchant prices vary.",
+    "Concussive Smash": "With proficiency, Action once per Short Rest. Melee weapon damage on a hit. A Constitution save prevents Dazed for 2 turns. Use the higher of spell save DC and weapon-action DC +2."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

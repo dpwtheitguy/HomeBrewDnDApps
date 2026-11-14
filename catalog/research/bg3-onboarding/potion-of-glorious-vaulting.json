@@ -1,0 +1,43 @@
+{
+  "item_id": "bg3-wiki:8438",
+  "title": "Potion of Glorious Vaulting",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421941,
+      "title": "Potion of Glorious Vaulting",
+      "markers": [
+        "usage cost = bonus action",
+        "price = 13",
+        "triple the jump distance",
+        "condition duration = 10",
+        "Sublimate of Wispweed"
+      ]
+    },
+    {
+      "role": "Applied condition",
+      "revision": 436502,
+      "title": "Potion of Glorious Vaulting (condition)",
+      "markers": [
+        "distance is tripled"
+      ]
+    },
+    {
+      "role": "Shared potion rules",
+      "revision": 440905,
+      "title": "Potions",
+      "markers": [
+        "LgRarityItem|Potion of Glorious Vaulting"
+      ]
+    }
+  ],
+  "summary": "Drink as a Bonus Action to triple your jump distance for 10 turns.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle. Jump distance is tripled for 10 turns.",
+    "Throw": "The shared potions table lists the jump effect as throwable. The checked sources leave its splash radius and affected targets unspecified.",
+    "Crafting": "Combine Sublimate of Wispweed with any Ashes.",
+    "Creative use": "Cross a gap or reach high ground while the effect lasts.",
+    "Base value": "13 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added source-reviewed native BG3 gameplay, consumption, and crafting details."
+}

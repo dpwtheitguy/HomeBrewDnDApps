@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:8435",
+  "title": "Potion of Feather Fall",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421938,
+      "title": "Potion of Feather Fall",
+      "markers": [
+        "usage cost = bonus action",
+        "price = 13",
+        "condition duration = 10",
+        "AOE|m=1|ft=3",
+        "Sublimate of Autumn Crocus",
+        "{{Range|ranged}}"
+      ]
+    },
+    {
+      "role": "Applied condition",
+      "revision": 435386,
+      "title": "Feather Fall (condition)",
+      "markers": [
+        "Falling damage",
+        "being knocked"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423675,
+      "title": "Sublimate of Autumn Crocus",
+      "markers": [
+        "Crafted by combining 3"
+      ]
+    }
+  ],
+  "summary": "Drink as a Bonus Action to ignore falling damage for 10 turns. Throw as an Action to share the effect in a 3 ft radius.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle for Feather Fall on yourself.",
+    "Throw": "Action. Throw one bottle up to 60 ft to apply Feather Fall to creatures within 3 ft of the impact point.",
+    "Duration": "10 turns. Fall more slowly and take no falling damage. Feather Fall also prevents the Prone result of a long drop.",
+    "Crafting": "Extract three Autumncrocus into Sublimate of Autumn Crocus and add any Essence.",
+    "Creative use": "Gather allies before a controlled drop and splash the group.",
+    "Base value": "13 gp in BG3. Merchant prices vary.",
+    "Acquisition": "Available from various merchants, enemies, and locations."
+  },
+  "changes": "Added source-reviewed native BG3 gameplay, consumption, and crafting details."
+}

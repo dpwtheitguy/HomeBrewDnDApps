@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:35581",
+  "title": "Shield +2",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423137,
+      "title": "Shield +2",
+      "markers": [
+        "WPN_HUM_Shield_A_2_NOT_APPROVED"
+      ]
+    }
+  ],
+  "summary": "Equipped shield grants +3 Armour Class.",
+  "fields": {
+    "Armour Class": "+3 AC while equipped. Shield proficiency.",
+    "Availability": "Unobtainable in normal play. The name says +2 but the actual AC is the same as Shield +1.",
+    "Base value": "300 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

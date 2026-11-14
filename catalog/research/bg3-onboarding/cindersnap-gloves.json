@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:10587",
+  "title": "Cindersnap Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417062,
+      "title": "Cindersnap Gloves",
+      "markers": [
+        "MAG_FlamingFist_BattleWizardGloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 349056,
+      "title": "Protection from Missiles",
+      "markers": [
+        "| description = Amplify your reflexes to better contend with incoming missiles. [[Ranged Attack|Ranged weapon attacks]] against you have {{Disadvantage}}, and their damage is halved."
+      ]
+    }
+  ],
+  "summary": "Use an Action once per Short Rest to protect yourself for 10 turns. Ranged weapon attacks against you have Disadvantage and deal half damage.",
+  "fields": {
+    "Effect": "Use an Action once per Short Rest to protect yourself for 10 turns. Ranged weapon attacks against you have Disadvantage and deal half damage.",
+    "Base value": "240 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:51289",
+  "title": "Metal Crate",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420932,
+      "title": "Metal Crate",
+      "markers": [
+        "| hp = 4"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 440238,
+      "title": "Steel Watch Foundry",
+      "markers": [
+        "locked metal crate"
+      ]
+    }
+  ],
+  "summary": "A portable or throwable metal container with 4 HP.",
+  "fields": {
+    "Durability": "4 HP. Resistance to Piercing, Necrotic and Radiant damage. Vulnerable to Bludgeoning, immune to Poison and Psychic damage.",
+    "Use": "Can be picked up or thrown. Typical contents include randomized consumables, equipment, or other loot.",
+    "Foundry crate": "One locked crate at X −1972, Y 445 contains a Potion of Supreme Healing and an Elixir of Radiant Resistance. Open with Indora Ralston’s Metal Crate Key or a DC 18 Sleight of Hand check.",
+    "Base value": "4 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

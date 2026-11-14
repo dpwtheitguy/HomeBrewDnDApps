@@ -1,0 +1,45 @@
+{
+  "item_id": "bg3-wiki:3444",
+  "title": "Komira's Locket",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 425303,
+      "title": "Komira's Locket",
+      "markers": [
+        "| uid = UNI_DEN_Arabella_Locket"
+      ]
+    },
+    {
+      "role": "Rules: Dancing Lights",
+      "revision": 404091,
+      "title": "Dancing Lights",
+      "markers": [
+        "| summary = It creates magical orbs of light that brighten an area."
+      ]
+    },
+    {
+      "role": "Rules: Dancing Lights (area)",
+      "revision": 404089,
+      "title": "Dancing Lights (area)",
+      "markers": [
+        "| summary = an [[area]] created by {{SAI|Dancing Lights}}. It creates an area of bright, magical light that illuminates the dark."
+      ]
+    },
+    {
+      "role": "Rules: Save Arabella",
+      "revision": 422647,
+      "title": "Save Arabella",
+      "markers": [
+        "| description = Save Arabella is a quest available in the Emerald Grove, and begins when nearing the Sacred Pool. Kagha, acting leader of the druids, is holding a tiefling child captive. Her parents want to make sure she is okay."
+      ]
+    }
+  ],
+  "summary": "Cast Dancing Lights as an Action while wearing the locket.",
+  "fields": {
+    "Dancing Lights": "Action. Target a point up to 60 ft away and illuminate a 30 ft radius for up to 10 turns with Concentration. Move the lights as a Bonus Action. The item grants a per-turn recharge.",
+    "Acquisition": "Komira and Locke reward the party after it saves Arabella from Kagha.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

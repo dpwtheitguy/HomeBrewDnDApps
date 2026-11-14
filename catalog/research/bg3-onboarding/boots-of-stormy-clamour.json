@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:9227",
+  "title": "Boots of Stormy Clamour",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416687,
+      "title": "Boots of Stormy Clamour",
+      "markers": [
+        "MAG_Thunder_ReverberationOnStatusApply_Boots"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433512,
+      "title": "Arcane Echomalefaction",
+      "markers": [
+        "| description = When the wearer inflicts a condition upon a hostile creature, they also inflict 2 turns of {{Cond|Reverberation}}.{{see bugs}}"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 436760,
+      "title": "Reverberation (condition)",
+      "markers": [
+        "| effects ="
+      ]
+    }
+  ],
+  "summary": "Applying a condition to a hostile creature also applies 2 turns of Reverberation. Each remaining turn gives −1 to Strength, Dexterity and Constitution saves. At 5+ turns it deals 1d4 Thunder and forces a DC 10 Constitution save against falling Prone, then ends.",
+  "fields": {
+    "Effect": "Applying a condition to a hostile creature also applies 2 turns of Reverberation. Each remaining turn gives −1 to Strength, Dexterity and Constitution saves. At 5+ turns it deals 1d4 Thunder and forces a DC 10 Constitution save against falling Prone, then ends.",
+    "Equipment type": "Boots",
+    "Base value": "70 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

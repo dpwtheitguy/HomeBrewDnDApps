@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:3456",
+  "title": "Ilmater's Aid",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419682,
+      "title": "Ilmater's Aid",
+      "markers": [
+        "| uid = MAG_LowHP_IncreasedSpellDamage_Amulet"
+      ]
+    },
+    {
+      "role": "Rules: Strength in Suffering",
+      "revision": 433298,
+      "title": "Strength in Suffering",
+      "markers": [
+        "| summary = '''Strength in Suffering''' is a passive feature that lets the wearer deal extra Force damage when below half their hit points."
+      ]
+    }
+  ],
+  "summary": "At half maximum HP or lower, your damaging non-cantrip spells deal 1d4 additional Force damage.",
+  "fields": {
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

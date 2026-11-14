@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:12243",
+  "title": "Cindermoth Cloak",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437840,
+      "title": "Cindermoth Cloak",
+      "markers": [
+        "MAG_Fire_BurningOnDamaged_Cloak"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432568,
+      "title": "Flaming Shroud",
+      "markers": [
+        "| description = A creature that damages the wearer within {{Dist|m=2|ft=7}} receives {{Cond|Burning}}."
+      ]
+    }
+  ],
+  "summary": "Flaming Shroud can Burn a melee attacker for 2 turns if the cloak’s wearer fails a DC 12 Dexterity save.",
+  "fields": {
+    "Base value": "70 gp in BG3. Merchant prices vary.",
+    "Flaming Shroud": "The tooltip describes Burning an attacker within 7 ft. The pinned source reports that only damaging melee attacks trigger it. The wearer rolls a DC 12 Dexterity save. On a failed save, the attacker gains Burning for 2 turns."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Expanded the card from the pinned item and linked gameplay evidence."
+}

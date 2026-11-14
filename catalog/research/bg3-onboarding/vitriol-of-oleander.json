@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:17773",
+  "title": "Vitriol of Oleander",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424700,
+      "title": "Vitriol of Oleander",
+      "markers": [
+        "ALCH_Extract_BlackOleander"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 418157,
+      "title": "Elixir of Necrotic Resistance",
+      "markers": [
+        "any [[Alchemy#Extractions|Sublimate]]"
+      ]
+    }
+  ],
+  "summary": "Extract from three Black Oleanders to make Elixir of Necrotic Resistance.",
+  "fields": {
+    "Extraction": "Extract three Black Oleanders into Vitriol of Oleander.",
+    "Recipe": "Combine this Vitriol with any Sublimate to make Elixir of Necrotic Resistance.",
+    "Base value": "20 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

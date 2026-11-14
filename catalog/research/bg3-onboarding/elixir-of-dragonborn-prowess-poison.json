@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:18455",
+  "title": "Elixir of Dragonborn Prowess: Poison",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418141,
+      "title": "Elixir of Dragonborn Prowess: Poison",
+      "markers": [
+        "CONS_Elixir_Blood_Dragonborn_Poison"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 328012,
+      "title": "Ray of Sickness",
+      "markers": [
+        "| description = Possibly {{Cond|Poisoned|Poisons}} the target."
+      ]
+    }
+  ],
+  "summary": "Until Long Rest, gain Poison resistance, advantage on Intimidation and Persuasion checks, and one cast of Ray of Sickness.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle. Until Long Rest, gain Poison resistance, advantage on Intimidation and Persuasion checks, and one cast of Ray of Sickness.",
+    "Acquisition": "Trade green dragonborn blood to Araj Oblodra in Moonrise Towers or the Lower City.",
+    "Stacking": "Araj’s elixirs stack with ordinary elixirs and other Araj elixirs.",
+    "Ray of Sickness": "Action. Make a ranged spell attack out to 60 ft for 2d8 Poison. On a hit, a Constitution save resists 2 turns of Poisoned.",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Verified card mechanics against the cited item or linked rule."
+}

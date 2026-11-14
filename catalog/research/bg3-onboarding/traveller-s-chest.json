@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:6859",
+  "title": "Traveller's Chest",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Traveller's Chest",
+      "revision": 433530,
+      "markers": [
+        "CONT_PlayerCampChest_A"
+      ]
+    }
+  ],
+  "summary": "Send items to a storage chest that follows your party from camp to camp.",
+  "fields": {
+    "Storage": "Use Send to Camp from an inventory context menu. Items persist between campsites. The Long Rest menu can use stored Camp Supplies. Certain quest items can be accessed when needed.",
+    "Gold and multiplayer": "Stored gold is usable for some trades and dialogue. The pinned source reports console support was missing through Patch 7 Hotfix 29. Multiplayer players have separate chests.",
+    "Base value": "No nominal BG3 value is listed in the pinned source."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

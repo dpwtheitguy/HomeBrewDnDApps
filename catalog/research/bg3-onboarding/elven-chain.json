@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:8315",
+  "title": "Elven Chain",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418182,
+      "title": "Elven Chain",
+      "markers": [
+        "MAG_PHB_ElvenChain_Armor"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432505,
+      "title": "Elven Chain (passive feature)",
+      "markers": [
+        "| description = You are considered [[Proficient]] with this armour while wearing it."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432504,
+      "title": "Elven Agility",
+      "markers": [
+        "| description = The wearer has a +2 bonus to [[Initiative]] Rolls and {{Advantage}} on [[Dexterity]] {{Saving Throw}}s."
+      ]
+    }
+  ],
+  "summary": "Medium armour that anyone can wear proficiently, with +2 Initiative and advantage on Dexterity saves.",
+  "fields": {
+    "Armour Class": "Base AC 14 plus Dexterity modifier, maximum +2.",
+    "Proficiency": "Wearer is considered proficient. The linked item notes say unarmoured bonuses can remain active.",
+    "Elven Agility": "+2 Initiative and advantage on Dexterity saves.",
+    "Defence style": "Hidden +1 AC for the Defence fighting style. Another eligible armour piece can also activate the normal +1 AC.",
+    "Base value": "510 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

@@ -1,0 +1,64 @@
+{
+  "item_id": "bg3-wiki:3420",
+  "title": "Warhammer +1",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424758,
+      "title": "Warhammer +1",
+      "markers": [
+        "WPN_HUM_Warhammer_A_1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373567,
+      "title": "Backbreaker",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373613,
+      "title": "Concussive Smash",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442592,
+      "title": "Dazed",
+      "markers": [
+        "Wisdom"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374483,
+      "title": "Weakening Strike",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437410,
+      "title": "Weak Grip (condition)",
+      "markers": [
+        "Disadvantage"
+      ]
+    }
+  ],
+  "summary": "Warhammer with three proficiency weapon actions.",
+  "fields": {
+    "Weapon profile": "1d8 + 1 one-handed or 1d10 + 1 two-handed Bludgeoning plus Strength. +1 to attack rolls. Martial, Versatile, Dippable, 5 ft melee.",
+    "Acquisition": "Traders using the magic melee table.",
+    "Backbreaker": "Action against a Large or smaller target for 1d4 + attack ability modifier Bludgeoning. Strength save against weapon-action DC or Prone for 2 turns. Once per Short Rest with proficiency.",
+    "Concussive Smash": "Action, normal weapon damage. Constitution save against the higher of spell save DC or weapon-action DC +2. Failure Dazes for 2 turns, removing Dexterity AC bonus, giving Disadvantage on Wisdom saves, and blocking spending Reaction points. Help clears it. Once per Short Rest with proficiency.",
+    "Weakening Strike": "Action for 1d4 + attack ability modifier nonlethal weapon-type damage. Armed target makes a Strength save against weapon-action DC +2 or has Weak Grip for 2 turns. It gives Disadvantage on attacks and Strength saves. Help clears it. Once per Short Rest with proficiency.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

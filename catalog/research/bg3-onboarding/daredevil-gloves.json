@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:8694",
+  "title": "Daredevil Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417509,
+      "title": "Daredevil Gloves",
+      "markers": [
+        "| uid = MAG_CQCaster_CloseRangedSpellMastery_Gloves"
+      ]
+    },
+    {
+      "role": "Rules: Doom Lobber",
+      "revision": 432277,
+      "title": "Doom Lobber",
+      "markers": [
+        "| summary = '''Doom Lobber''' is a passive feature that boosts the user's spell attacks."
+      ]
+    },
+    {
+      "role": "Rules: Daredevil Proximity",
+      "revision": 433204,
+      "title": "Daredevil Proximity",
+      "markers": [
+        "| summary = '''Daredevil Proximity''' is a toggleable passive feature that allows the user to make ranged spell attack rolls without [[disadvantage]] even when adjacent to an enemy."
+      ]
+    }
+  ],
+  "summary": "Gain +1 to spell attack rolls. Daredevil Proximity changes ranged spell attacks into melee spell attacks when adjacent to a hostile creature.",
+  "fields": {
+    "Daredevil Proximity": "Toggle this passive off if you want to retain ranged spell attacks.",
+    "Base value": "240 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

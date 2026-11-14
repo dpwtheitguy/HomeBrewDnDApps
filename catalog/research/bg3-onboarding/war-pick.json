@@ -1,0 +1,72 @@
+{
+  "item_id": "bg3-wiki:2624",
+  "title": "War Pick",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424752,
+      "title": "War Pick",
+      "markers": [
+        "WPN_HUM_Warpick_A_0"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373912,
+      "title": "Maiming Strike",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443966,
+      "title": "Maimed",
+      "markers": [
+        "reduced to 0"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374168,
+      "title": "Piercing Strike",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443536,
+      "title": "Gaping Wounds",
+      "markers": [
+        "Honour"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374483,
+      "title": "Weakening Strike",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437410,
+      "title": "Weak Grip (condition)",
+      "markers": [
+        "Disadvantage"
+      ]
+    }
+  ],
+  "summary": "War pick with three proficiency weapon actions.",
+  "fields": {
+    "Weapon profile": "1d8 Piercing plus Strength. Martial, one-handed, Dippable, 5 ft melee.",
+    "Acquisition": "Ordinary loot or traders.",
+    "Maiming Strike": "Action for 1d4 + attack ability modifier Piercing. Constitution save against weapon-action DC +2 or Maimed for 2 turns. Maimed sets movement to zero and gives Disadvantage on Dexterity saves until healed. Flying creatures are immune. Once per Short Rest with proficiency.",
+    "Piercing Strike": "Action, melee weapon damage. Constitution save against weapon-action DC +2 or Gaping Wounds for 2 turns. Undead and Constructs are immune. In standard modes hits on the target gain 2 extra Piercing damage. In Honour Mode it takes 2 extra damage of the original type from damage sources. Healing clears the condition. Once per Short Rest with proficiency.",
+    "Weakening Strike": "Action for 1d4 + attack ability modifier nonlethal weapon-type damage. Armed target makes a Strength save against weapon-action DC +2 or has Weak Grip for 2 turns. It gives Disadvantage on attacks and Strength saves. Help clears it. Once per Short Rest with proficiency.",
+    "Base value": "50 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

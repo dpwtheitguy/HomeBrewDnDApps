@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:8849",
+  "title": "Risky Ring",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Risky Ring",
+      "revision": 422408,
+      "markers": [
+        "MAG_RiskyAttack_Ring"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Risky Attack",
+      "revision": 433059,
+      "markers": [
+        "saving throws"
+      ]
+    }
+  ],
+  "summary": "Advantage on attack rolls and disadvantage on saving throws.",
+  "fields": {
+    "Risky Attack": "While worn, gain advantage on attack rolls and disadvantage on saving throws.",
+    "Base value": "190 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

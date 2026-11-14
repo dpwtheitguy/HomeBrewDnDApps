@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:48347",
+  "title": "Bill's Chest Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430569,
+      "title": "Bill's Chest Key",
+      "markers": [
+        "WYR_OpenHandTemple_BillChestKey"
+      ]
+    },
+    {
+      "role": "Linked lock or location",
+      "revision": 440044,
+      "title": "Open Hand Temple",
+      "markers": [
+        "A wooden chest stands by the foot of each bed here"
+      ]
+    }
+  ],
+  "summary": "Likely opens Brother Bill’s personal chest in the Open Hand Temple dormitories.",
+  "fields": {
+    "Use": "Likely opens Brother Bill’s personal chest in the Open Hand Temple dormitories.",
+    "Acquisition or alternate access": "Carried by Brother Bill in Act Three.",
+    "Source note": "Target inferred from the key’s game identifier or item notes and the documented location."
+  },
+  "changes": "Added the native key interaction and source locators. Flagged the inferred lock target in the summary and use field."
+}

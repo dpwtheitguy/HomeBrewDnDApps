@@ -1,0 +1,46 @@
+{
+  "item_id": "bg3-wiki:4761",
+  "title": "The Graceful Cloth",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "The Graceful Cloth",
+      "revision": 438139,
+      "markers": [
+        "MAG_BarbMonk_Cloth_A_1"
+      ]
+    },
+    {
+      "role": "Rules: Cat's Grace (passive feature)",
+      "title": "Cat's Grace (passive feature)",
+      "revision": 432155,
+      "markers": [
+        "| description = You gain {{SAI|Cat's Grace}} and increase your {{Ability|Dexterity}} by 2, to a maximum of 20."
+      ]
+    },
+    {
+      "role": "Rules: Cat's Grace (condition)",
+      "title": "Cat's Grace (condition)",
+      "revision": 434773,
+      "markers": [
+        "half damage"
+      ]
+    },
+    {
+      "role": "Rules: Nimble As a Cat",
+      "title": "Nimble As a Cat",
+      "revision": 432921,
+      "markers": [
+        "| description = You gain a +1 bonus to your [[Dexterity]] {{SavingThrow}}s and also increase your {{SAI|Jump}} distance by {{Dist|m=1.5|ft=5}}."
+      ]
+    }
+  ],
+  "summary": "Clothing improves Dexterity, Dexterity saves and jumping.",
+  "fields": {
+    "Cat’s Grace": "+2 Dexterity, maximum 20. Advantage on Dexterity checks and half falling damage.",
+    "Nimble As a Cat": "+1 Dexterity saving throws and +5 ft jump distance.",
+    "Acquisition": "Lady Esther near Trielta Crags. The former Araj variant was sold before Patch 4.",
+    "Base value": "800 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

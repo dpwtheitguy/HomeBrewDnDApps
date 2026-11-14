@@ -1,0 +1,73 @@
+{
+  "item_id": "bg3-wiki:9032",
+  "title": "Foebreaker",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418649,
+      "title": "Foebreaker",
+      "markers": [
+        "MAG_TheDestroyer_Maul"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 408639,
+      "title": "Lethal Weapon (Bludgeoning)",
+      "markers": [
+        "not bypass"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 425432,
+      "title": "Tenacity",
+      "markers": [
+        "| reaction1 cost = reaction"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 408132,
+      "title": "Mauls",
+      "markers": [
+        "| damage = 2d6"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373567,
+      "title": "Backbreaker",
+      "markers": [
+        "| condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373613,
+      "title": "Concussive Smash",
+      "markers": [
+        "| save dc = hybrid"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442592,
+      "title": "Dazed",
+      "markers": [
+        "Dexterity"
+      ]
+    }
+  ],
+  "summary": "A +2 maul that bypasses Bludgeoning resistance. A missed melee attack can still deal damage.",
+  "fields": {
+    "Damage": "2d6 + 2 Bludgeoning. Martial, two-handed, heavy, dippable, 5 ft melee.",
+    "Lethal Weapon": "Ignore Bludgeoning resistance, but not immunity. The pinned rule reports that other Bludgeoning sources, including eligible unarmed strikes and spells, can also bypass resistance while the maul is equipped.",
+    "Tenacity": "Main hand. When you miss a melee attack, spend your Reaction to deal Bludgeoning equal to your Strength modifier, minimum 1. Does not apply the missed weapon action’s special effect.",
+    "Backbreaker": "Action once per Short Rest with proficiency. Make a melee attack against a Large or smaller target for 1d4 + attack ability modifier Bludgeoning. On a hit, a Strength save against weapon-action DC prevents Prone for 2 turns.",
+    "Concussive Smash": "Action once per Short Rest with proficiency. Make a melee weapon attack. On a hit, a Constitution save against hybrid DC prevents Dazed for 2 turns. Dazed imposes disadvantage on Wisdom saves, removes the Dexterity AC bonus, and blocks reactions that spend the Reaction resource. An ally can end it with Help.",
+    "Acquisition": "Reveal the invisible chest in the Karsus Vault with See Invisibility or Faerie Fire. Reach the opening lever via Silverhand, Abjuration and Silver, then return through Demon.",
+    "Base value": "480 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

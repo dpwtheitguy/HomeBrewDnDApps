@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:8478",
+  "title": "Legacy of the Masters",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420282,
+      "title": "Legacy of the Masters",
+      "markers": [
+        "MAG_BG_OfTheMasters_Legacy_Gauntlet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432076,
+      "title": "Arming Enhancement",
+      "markers": [
+        "however, those attacks do not receive"
+      ]
+    }
+  ],
+  "summary": "Gloves give +2 to weapon attack and damage rolls and +1 to Strength saving throws.",
+  "fields": {
+    "Arming Enhancement": "+2 to attack and damage with weapons. BG3 also applies the attack bonus to spells, unarmed strikes and throws. Those do not receive the damage bonus, except throws made with a weapon that has the Thrown property.",
+    "Saving throws": "+1 to Strength saving throws.",
+    "Acquisition": "Buy from Dammon in Act Three.",
+    "Base value": "570 gp in BG3. Merchant prices vary.",
+    "Honour Mode base value": "2,100 gp."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

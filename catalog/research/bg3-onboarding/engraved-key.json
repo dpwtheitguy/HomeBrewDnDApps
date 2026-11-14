@@ -1,0 +1,22 @@
+{
+  "item_id": "bg3-wiki:8984",
+  "title": "Engraved Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Engraved Key",
+      "revision": 430492,
+      "markers": [
+        "S_CHA_KeyToSacredRoom",
+        "Unlocks the heavy oak doors"
+      ]
+    }
+  ],
+  "summary": "Unlocks the heavy oak doors in the Dank Crypt.",
+  "fields": {
+    "Use": "Open the doors at X: −293, Y: −283.",
+    "Acquisition": "Trapped sarcophagus at X: −291, Y: −326. DC 10 Sleight of Hand to disarm.",
+    "Base value": "1 gp in BG3."
+  },
+  "changes": "Added native BG3 gameplay, acquisition, and pinned source evidence."
+}

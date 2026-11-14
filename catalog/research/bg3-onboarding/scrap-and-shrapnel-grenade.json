@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:11853",
+  "title": "Scrap and Shrapnel Grenade",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422706,
+      "title": "Scrap and Shrapnel Grenade",
+      "markers": [
+        "GRN_LOW_BloodBomb"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442222,
+      "title": "Bleeding",
+      "markers": [
+        "start of each turn"
+      ]
+    }
+  ],
+  "summary": "Throw for 1 Piercing and one turn of Bleeding in a wide area.",
+  "fields": {
+    "Throw": "Action, 60 ft range, 13 ft radius. Deals 1 Piercing and applies Bleeding for 1 turn.",
+    "Bleeding": "2 Slashing at turn start, Disadvantage on Constitution saves, ends on healing. Constructs, elementals, plants, oozes and most undead are immune.",
+    "Acquisition": "Western Beach boat, Glynda Oltower or certain NPCs.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

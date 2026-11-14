@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12671",
+  "title": "Kozakuran Dictionary",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420173,
+      "title": "Kozakuran Dictionary",
+      "markers": [
+        "| uid = S_LOW_CazadorsPalace_Bedrooms_AncientLanguageBook"
+      ]
+    },
+    {
+      "role": "Rules: Investigate Cazador's Palace",
+      "revision": 419839,
+      "title": "Investigate Cazador's Palace",
+      "markers": [
+        "| description = Investigate Cazador's Palace is a quest in Act Three of Baldur's Gate 3. It can be started by speaking with Ulma in Rivington or the vampire spawn at Fraygo's Flophouse."
+      ]
+    }
+  ],
+  "summary": "Read the Kozakuran Dictionary to gain 95 XP and advance Investigate Cazador’s Palace.",
+  "fields": {
+    "Use": "Read to learn the incantation required to open the Sinister Door. The Szarr Family Ring is also required.",
+    "Acquisition": "In a mahogany wardrobe in the lower-floor room with Victoria’s cursed body. Its Vitality Drain deals 4d6 + 4 Necrotic per turn. Remove Curse on the body makes the room safe.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

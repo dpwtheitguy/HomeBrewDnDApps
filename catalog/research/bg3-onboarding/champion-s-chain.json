@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:3595",
+  "title": "Champion's Chain",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 425309,
+      "title": "Champion's Chain",
+      "markers": [
+        "UNI_UND_MyconidAmulet_Evil"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 414470,
+      "title": "Tyrant Tongue",
+      "markers": [
+        "| description = Grant an ally a +2 bonus on {{Ability check|Intimidation}}s."
+      ]
+    }
+  ],
+  "summary": "Touch an ally to give them +2 to Intimidation checks for 10 turns, once per Long Rest.",
+  "fields": {
+    "Base value": "125 gp in BG3. Merchant prices vary.",
+    "Tyrant Tongue": "Action once per Long Rest. Touch an ally to grant +2 to Intimidation checks for 10 turns."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Expanded the card from the pinned item and linked gameplay evidence."
+}

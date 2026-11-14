@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12897",
+  "title": "Scabby Pugilist Circlet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422656,
+      "title": "Scabby Pugilist Circlet",
+      "markers": [
+        "MAG_BarbMonk_Leather_Circlet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432836,
+      "title": "Martial Bravery",
+      "markers": [
+        "of the target"
+      ]
+    }
+  ],
+  "summary": "Adds 2 damage when the target is near at least two foes.",
+  "fields": {
+    "Martial Bravery": "+2 to weapon, unarmed and thrown attacks when two foes are within 10 ft of the target. At least one must be conscious. The tooltip describes the wearer as surrounded, but the implementation checks around the target.",
+    "Acquisition": "Buy from Mattis in Rivington if he survives to Act Three.",
+    "Base value": "120 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

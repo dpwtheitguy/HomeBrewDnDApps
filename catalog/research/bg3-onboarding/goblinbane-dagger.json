@@ -1,0 +1,41 @@
+{
+  "item_id": "bg3-wiki:35574",
+  "title": "Goblinbane Dagger",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419011,
+      "title": "Goblinbane Dagger",
+      "markers": [
+        "GOB_WolfPens_BloodFang"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432601,
+      "title": "Goblin's Undoing",
+      "markers": [
+        "| description = Goblins have {{Disadvantage}} on {{Attack Roll}}s against the wielder."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341894,
+      "title": "Daggers",
+      "markers": [
+        "| damage = 1d4"
+      ]
+    }
+  ],
+  "summary": "A dagger that gives Goblins Disadvantage on attacks against the wielder.",
+  "fields": {
+    "Damage": "1d4 Piercing",
+    "Range": "5 ft melee.",
+    "Training": "simple",
+    "Handling": "one-handed",
+    "Weapon actions": "Piercing Strike",
+    "Availability": "Unobtainable in normal play. The item source describes the same mechanics as Worgfang.",
+    "Base value": "260 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

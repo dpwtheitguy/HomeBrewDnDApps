@@ -1,0 +1,74 @@
+{
+  "item_id": "bg3-wiki:10311",
+  "title": "The Undead Bane",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 433151,
+      "title": "The Undead Bane",
+      "markers": [
+        "MAG_WYRM_UndeadBane_GreatAxe"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433154,
+      "title": "Slay the Wicked (Slashing)",
+      "markers": [
+        "can never critically hit"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 414706,
+      "title": "Profane Scourge",
+      "markers": [
+        "| condition duration = 3"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 379055,
+      "title": "Prepare",
+      "markers": [
+        "minimum 1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373605,
+      "title": "Cleave",
+      "markers": [
+        "Flat damage bonus"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442222,
+      "title": "Bleeding",
+      "markers": [
+        "start of each turn"
+      ]
+    }
+  ],
+  "summary": "A +1 greataxe with extra damage against Fiends and Undead.",
+  "fields": {
+    "Weapon profile": "1d12 + 1 Slashing plus Strength. +1 to attack. Martial, heavy, two-handed, dippable, 5 ft melee.",
+    "Slay the Wicked": "While equipped, melee weapon attacks add 1d6 Slashing against Fiends and Undead. The bonus does not critically hit.",
+    "Profane Scourge": "Action with proficiency once per Short Rest. Melee weapon damage plus proficiency bonus. Against a Fiend or Undead, add 2d6 Slashing. Strength save vs weapon-action DC +2 prevents Bane for 3 turns. Bane subtracts 1d4 from attack rolls and saving throws. Other targets still take the proficiency bonus damage.",
+    "Cleave": "Action with proficiency once per Short Rest. Attack up to 3 enemies in a 7 ft cone for half weapon damage. Flat damage bonuses such as Rage are not halved.",
+    "Lacerate": "Action with proficiency once per Short Rest. Melee weapon damage. Constitution save vs weapon-action DC +2 avoids Bleeding for 2 turns. Bleeding deals 2 Slashing at turn start and gives disadvantage on Constitution saves. Healing ends it. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Prepare": "Spend 20 ft movement once per Short Rest. Add Strength modifier, minimum 1, to successful melee weapon attacks for the rest of the turn. Breaks Hiding or Invisibility.",
+    "Acquisition": "Carried by Ulma at Gur Camp or Cazador’s Dungeon.",
+    "Base value": "130 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

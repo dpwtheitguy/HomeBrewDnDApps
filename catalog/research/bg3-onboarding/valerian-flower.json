@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:50167",
+  "title": "Valerian Flower",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424571,
+      "title": "Valerian Flower",
+      "markers": [
+        "CONS_Herbs_Valerian_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423753,
+      "title": "Suspension of Mergrass",
+      "markers": [
+        "Potion of Mind Reading"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 421947,
+      "title": "Potion of Mind Reading",
+      "markers": [
+        "Suspension of Mergrass"
+      ]
+    }
+  ],
+  "summary": "Alternative Mergrass ingredient for Potion of Mind Reading.",
+  "fields": {
+    "Extraction": "Extract 3 Valerian Flowers into Suspension of Mergrass.",
+    "Recipe": "Mix the suspension with any Sublimate to make Potion of Mind Reading.",
+    "Acquisition": "Three flowers in the House of Grief garden.",
+    "Base value": "5 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

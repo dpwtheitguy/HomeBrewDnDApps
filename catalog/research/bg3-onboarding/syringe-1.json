@@ -1,0 +1,49 @@
+{
+  "item_id": "bg3-wiki:34479",
+  "title": "Syringe (+1)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Syringe (+1)",
+      "revision": 429217,
+      "markers": [
+        "MAG_Surgeon_Syringe"
+      ]
+    },
+    {
+      "role": "Rules: Inject Nostrum",
+      "title": "Inject Nostrum",
+      "revision": 437885,
+      "markers": [
+        "| description = Inject an enemy with the mysterious liquid in your syringe and possibly {{SmCond|Poisoned|Poison}} them."
+      ]
+    },
+    {
+      "role": "Rules: Piercing Strike",
+      "title": "Piercing Strike",
+      "revision": 374168,
+      "markers": [
+        "Gaping Wounds"
+      ]
+    },
+    {
+      "role": "Rules: Gaping Wounds",
+      "title": "Gaping Wounds",
+      "revision": 443536,
+      "markers": [
+        "Honour Mode"
+      ]
+    }
+  ],
+  "summary": "Syringe has a separate undead nurse damage rule.",
+  "fields": {
+    "Weapon profile": "Simple, One-handed, 5 ft melee, Finesse, Light, Thrown. 1d4 + 1 Piercing plus Strength or Dexterity. +1 to attack rolls.",
+    "Nurse-only effect": "An undead nurse wielding it deals an additional 1d6 Necrotic.",
+    "Acquisition": "Carried by Sister Anya in the House of Healing.",
+    "Inject Nostrum": "NPC-only Action once per Short Rest. Weapon damage plus proficiency Piercing and 1d6 Necrotic. Dexterity save against weapon-action DC +2 or Poisoned for 2 turns. No weapon actions are available to a player who equips this syringe.",
+    "Inspiration": "Collect one of each nurse’s tool to earn Right Tool for the Job for Criminal characters.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations.",
+  "use_wiki_title": true
+}

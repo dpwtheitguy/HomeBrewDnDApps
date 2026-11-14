@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:7880",
+  "title": "Potent Robe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 433848,
+      "title": "Potent Robe",
+      "markers": [
+        "MAG_CharismaCaster_Robe"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432614,
+      "title": "Gregarious Caster",
+      "markers": [
+        "Agonising Blast"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433448,
+      "title": "Well-Liked and Well-Fortified",
+      "markers": [
+        "even if the new source is of a lesser value"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441669,
+      "title": "Rescue the Tieflings",
+      "markers": [
+        "Potent Robe"
+      ]
+    }
+  ],
+  "summary": "Clothing with +1 Armour Class, bonus cantrip damage, and recurring temporary HP.",
+  "fields": {
+    "Armour Class": "+1 AC.",
+    "Gregarious Caster": "Cantrips add your Charisma modifier to damage. Stacks with effects such as Agonising Blast, Draconic Elemental Affinity and Necklace of Elemental Augmentation on eligible cantrips.",
+    "Well-Liked and Well-Fortified": "At the start of each turn, gain temporary HP equal to Charisma modifier. Other temporary HP sources of equal or higher stack priority may overwrite these even when their value is lower.",
+    "Acquisition": "Alfira rewards Rescue the Tieflings at Last Light Inn, X −56, Y 141. She must survive. The Dark Urge can use a nonlethal knockout on Alfira before her scripted camp night to substitute Quil.",
+    "Base value": "1600 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

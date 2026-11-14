@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:3471",
+  "title": "Chain of Liberation",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437733,
+      "title": "Chain of Liberation",
+      "markers": [
+        "MAG_Mobility_SprintForMomentum_ChainShirt"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433274,
+      "title": "Sprint (passive feature)",
+      "markers": [
+        "| description = Once per turn, the wearer can reduce the duration of their {{Cond|Momentum}} by 1 turn to {{SAI|Sprint}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 423521,
+      "title": "Sprint",
+      "markers": [
+        "Must have Momentum",
+        "| range m = 6"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 444042,
+      "title": "Momentum",
+      "markers": [
+        "per remaining duration of this effect"
+      ]
+    }
+  ],
+  "summary": "Medium armour with base AC 13 plus up to +2 from Dexterity. Once per turn, spend one turn of Momentum to Sprint without provoking opportunity attacks.",
+  "fields": {
+    "Sprint": "Once per turn, move 20 ft in a straight line without provoking opportunity attacks. Requires Momentum and spends one turn of it.",
+    "Availability": "Unobtainable in normal play. Early Access item replaced by Luminous Armour.",
+    "Base value": "480 gp in BG3. Merchant prices vary.",
+    "Momentum": "Gain 5 ft of movement speed for each remaining turn of Momentum, up to 5 turns."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Expanded the card from the pinned item and linked gameplay evidence."
+}

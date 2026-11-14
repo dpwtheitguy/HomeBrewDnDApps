@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:13920",
+  "title": "Karabasan's Gift",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 440575,
+      "title": "Karabasan's Gift",
+      "markers": [
+        "UNI_LOW_KarabasansGift"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443814,
+      "title": "Ingested Karabasan's Gift",
+      "markers": [
+        "After 1 turn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438383,
+      "title": "Paralysed (Karabasan's Gift) (condition)",
+      "markers": [
+        "TWN_LOW_PARALYZING_POISON"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 436408,
+      "title": "Paralysed (condition)",
+      "markers": [
+        "Affected entity automatically fails"
+      ]
+    }
+  ],
+  "summary": "Single-use grenade. Its thrown form causes a distinct, more dangerous kind of paralysis.",
+  "fields": {
+    "Throw": "Use an Action. Creatures in the 6.5 ft radius must pass a DC 15 Constitution save or become Paralysed for 2 turns.",
+    "Thrown paralysis": "Incapacitated. Automatically fails Strength and Dexterity saves and is Vulnerable to Slashing, Piercing and Bludgeoning damage. Attacks from within 10 ft automatically hit and critically hit.",
+    "Drink": "Use a Bonus Action to ingest it yourself. After 1 turn, gain ordinary Paralysed for 2 turns. Ordinary paralysis prevents movement, actions, bonus actions and reactions. Attacks against you have Advantage and hits within 10 ft are critical. You automatically fail Strength and Dexterity saves.",
+    "Acquisition": "Find it in the House of Healing Morgue laboratory at X 15, Y −988, or pickpocket Sister Sinda at the House of Healing.",
+    "Base value": "150 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:34528",
+  "title": "Karlach's Head",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430743,
+      "title": "Karlach's Head",
+      "markers": [
+        "UNI_PLA_KarlachHead"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437726,
+      "title": "Hunt the Devil",
+      "markers": [
+        "Deliver Karlach's head"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441886,
+      "title": "Moonrise Towers",
+      "markers": [
+        "Successfully inserting a head or heart"
+      ]
+    }
+  ],
+  "summary": "Deliver to Anders for Hunt the Devil or insert it in Balthazar’s altar to open his secret room.",
+  "fields": {
+    "Acquisition": "Take it from Karlach’s corpse if her head is recoverable.",
+    "Hunt the Devil": "Anders accepts it at the Risen Road tollhouse. If the head cannot be recovered, reporting Karlach’s death can still earn his sword.",
+    "Moonrise Towers": "Interact with Musty Tomes to expose the altar in Balthazar’s room, then insert the head to open the hidden chamber.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

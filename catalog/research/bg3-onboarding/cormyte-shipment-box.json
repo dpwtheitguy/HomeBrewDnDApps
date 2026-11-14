@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:50900",
+  "title": "Cormyte Shipment Box",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 413240,
+      "title": "Cormyte Shipment Box",
+      "markers": [
+        "CONT_GEN_Crate_Wood_A_cormyr"
+      ]
+    }
+  ],
+  "summary": "A storage container with 4 object HP.",
+  "fields": {
+    "Storage": "Open to store or retrieve contents.",
+    "Object defences": "4 HP. Vulnerable to Bludgeoning; resistant to Piercing, Necrotic and Radiant; immune to Poison and Psychic.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence."
+}

@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:48032",
+  "title": "Sorcerous Sundries Basement Chest Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430608,
+      "title": "Sorcerous Sundries Basement Chest Key (Office desk)",
+      "markers": [
+        "* There are two keys with identical labels. This one unlocks the wooden chest at {{coords|361|1039}} in the [[Sorcerous Vault]]."
+      ]
+    }
+  ],
+  "summary": "Unlocks wooden chest in Sorcerous Vault at X 361, Y 1039.",
+  "fields": {
+    "Lock": "Wooden chest in Sorcerous Vault at X 361, Y 1039.",
+    "Acquisition": "Tolna’s office at X 8, Y −76.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

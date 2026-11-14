@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:50378",
+  "title": "Munition Chest Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430588,
+      "title": "Munition Chest Key",
+      "markers": [
+        "| uid = S_WYR_BigBarn_FistsWeaponChest_Key"
+      ]
+    },
+    {
+      "role": "Rules: Requisitioned Barn",
+      "revision": 434237,
+      "title": "Requisitioned Barn",
+      "markers": [
+        "{{Location page"
+      ]
+    }
+  ],
+  "summary": "Opens the heavy chest near the main entrance to the Requisitioned Barn.",
+  "fields": {
+    "Acquisition": "Carried by Fist Poole. DC 18 Sleight of Hand is an alternative. The chest holds Potion of Superior Healing, Remedial Potion, Elixir of Heroism and Longsword +1.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

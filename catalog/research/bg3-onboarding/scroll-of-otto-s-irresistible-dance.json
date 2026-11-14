@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:16469",
+  "title": "Scroll of Otto's Irresistible Dance",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Otto's Irresistible Dance",
+      "revision": 422892,
+      "markers": [
+        "LOOT_SCROLL_IrresistibleDance"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Otto's Irresistible Dance",
+      "revision": 369191,
+      "markers": [
+        "Target_IrresistibleDance"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Make a creature dance for up to 10 turns.",
+  "fields": {
+    "Cast": "Level 6. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Make a creature dance for up to 10 turns with no initial save. It cannot act or move, has disadvantage on attacks and Dexterity saves, and grants advantage to attackers. It can make later Wisdom saves to end the effect.",
+    "Range": "30 ft.",
+    "Concentration": "Maintain Concentration for the ongoing effect.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "600 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

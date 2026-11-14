@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:10987",
+  "title": "Khalid's Gift",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 428980,
+      "title": "Khalid's Gift",
+      "markers": [
+        "UNI_SCE_KhalidsGift"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 372115,
+      "title": "Odd Gift",
+      "markers": [
+        "Jaheira"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 420104,
+      "title": "Khalid's Gift: Aid",
+      "markers": [
+        "| range = self"
+      ]
+    }
+  ],
+  "summary": "Wear for +1 Wisdom up to 21 and self-only Aid. Jaheira also gains curse immunity.",
+  "fields": {
+    "Wisdom": "+1 Wisdom, with a hard cap of 21. The bonus does not apply if it would take you above that cap.",
+    "Odd Gift": "Only Jaheira gains immunity to the Cursed status group. Equipping the amulet also immediately removes her existing curses.",
+    "Aid": "Action, self only, once per Long Rest. The level 3 spell heals you for 10 HP and raises your maximum HP by 10 until Long Rest.",
+    "Acquisition": "Display case in the basement of Elerrathin’s Home, X −1572, Y 976. The bookcase access can be opened with DC 18 Sleight of Hand. It is present regardless of Jaheira’s recruitment or survival.",
+    "Base value": "140 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

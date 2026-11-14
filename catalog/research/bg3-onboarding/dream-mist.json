@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:11842",
+  "title": "Dream Mist",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417942,
+      "title": "Dream Mist",
+      "markers": [
+        "CONS_Drug_Dreammist_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442723,
+      "title": "Dream Mist Apparitions",
+      "markers": [
+        "| effects ="
+      ]
+    }
+  ],
+  "summary": "Drinking this single-use drug forces a DC 12 Constitution save against Incapacitated for 3 turns.",
+  "fields": {
+    "Use": "Consume one dose. On a failed DC 12 Constitution save, Dream Mist Apparitions incapacitates the user for 3 turns. The item page does not state an action cost.",
+    "Base value": "15 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

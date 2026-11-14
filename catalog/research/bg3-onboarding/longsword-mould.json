@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:4626",
+  "title": "Longsword Mould",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420602,
+      "title": "Longsword Mould",
+      "markers": [
+        "| uid = UNI_LOOT_AdamantineForge_LongswordMold"
+      ]
+    },
+    {
+      "role": "Rules: Adamantine Forge (quest)",
+      "revision": 441122,
+      "title": "Adamantine Forge (quest)",
+      "markers": [
+        "| description = The Adamantine Forge is a quest in Act One of Baldur's Gate 3 in Grymforge. It is initiated by learning of the forge of the same name by reading The Great Furnace of Grymforge, Filro the Forgotten's journal, or speaking with Dhourn after freeing him of the Spectator's petrification or casting Speak with Dead on his corpse."
+      ]
+    },
+    {
+      "role": "Rules: Adamantine Longsword",
+      "revision": 440114,
+      "title": "Adamantine Longsword",
+      "markers": [
+        "| description = {{rare|Adamantine Longsword}} is a rare +1 [[Longswords|longsword]] that automatically critical hits objects and ignores [[resistance]] to {{damage type|Slashing}} damage."
+      ]
+    }
+  ],
+  "summary": "Use at the Adamantine Forge with one Mithral Ore to craft an Adamantine Longsword.",
+  "fields": {
+    "Crafting": "Put the mould in the Mould Chamber and ore in the Crucible. Release lava and use the Forge Lever, then collect the sword. Eject and reuse the mould if you have a second ore.",
+    "Acquisition": "On overhead metal scaffolding in Grymforge at X −625, Y 404.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

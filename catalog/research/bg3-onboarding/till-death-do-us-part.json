@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:12867",
+  "title": "Till Death Do Us Part",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Till Death Do Us Part",
+      "revision": 440063,
+      "markers": [
+        "LOW_JannathRing_Ring"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Beacon of Hope",
+      "revision": 328276,
+      "markers": [
+        "also affects the caster"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Free the Artist",
+      "revision": 441456,
+      "markers": [
+        "Till Death Do Us Part"
+      ]
+    }
+  ],
+  "summary": "Cast Beacon of Hope once per Long Rest to maximize healing rolls.",
+  "fields": {
+    "Beacon of Hope": "Level 3 Action on yourself once per Long Rest. Concentration up to 10 turns. You and allies within 30 ft gain Advantage on Wisdom and Death Saving Throws and regain the maximum HP possible when healed.",
+    "Acquisition": "Reward from Lady Jannath for an honest report about Oskar in Free the Artist. The ring can also be looted or stolen from her.",
+    "Base value": "70 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay with pinned item and linked rules evidence."
+}

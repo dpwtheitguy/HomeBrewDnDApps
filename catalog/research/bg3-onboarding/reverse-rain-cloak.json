@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:19374",
+  "title": "Reverse Rain Cloak",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 431959,
+      "title": "Reverse Rain Cloak",
+      "markers": [
+        "WYR_Circus_WetCloak"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437422,
+      "title": "Wet (condition)",
+      "markers": [
+        "Wet removes any"
+      ]
+    }
+  ],
+  "summary": "Keeps the wearer Wet, trading Fire resistance for Lightning and Cold vulnerability.",
+  "fields": {
+    "Wet": "Resist Fire and gain immunity to Burning. Vulnerable to Lightning and Cold. Existing resistance to one of those types is cancelled instead of replaced with vulnerability. Wet breaks ordinary Invisibility and removes weapon coatings. Wet plus existing Chilled becomes Frozen.",
+    "Resting": "Resting can remove the granted Wet until you unequip and re-equip the cloak.",
+    "Acquisition": "Akabi’s consolation prize at Circus of the Last Days. It is not the jackpot.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:17736",
+  "title": "Potion of Healing Recipe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Potion of Healing Recipe",
+      "revision": 421945,
+      "markers": [
+        "BOOK_Alchemy_HealingPotion"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Potion of Healing",
+      "revision": 421944,
+      "markers": [
+        "any [[Alchemy#Extractions|Suspension]]"
+      ]
+    }
+  ],
+  "summary": "Recipe note for Potion of Healing.",
+  "fields": {
+    "Recipe": "Mix Salts of Rogue’s Morsel with any Suspension. The recipe note names Suspension of Mergrass as an example.",
+    "Acquisition": "Apothecary’s Cellar, or the bookshelf in Balthazar’s Moonrise chambers.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

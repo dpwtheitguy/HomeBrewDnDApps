@@ -1,0 +1,23 @@
+{
+  "item_id": "bg3-wiki:9173",
+  "title": "Assassin's Shortsword",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416153,
+      "title": "Assassin's Shortsword",
+      "markers": [
+        "UNI_TWN_WPN_HUM_ShortswordOfStealth_A_1"
+      ]
+    }
+  ],
+  "summary": "Grants advantage on Stealth checks.",
+  "fields": {
+    "Equipment type": "Shortswords",
+    "Enchantment": "+1",
+    "Damage": "1d6 + 1 Piercing",
+    "Effect": "Grants advantage on Stealth checks.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 mechanics and pinned item and related rule sources."
+}

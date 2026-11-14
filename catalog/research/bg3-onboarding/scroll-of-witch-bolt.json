@@ -1,0 +1,40 @@
+{
+  "item_id": "bg3-wiki:8838",
+  "title": "Scroll of Witch Bolt",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Witch Bolt",
+      "revision": 422933,
+      "markers": [
+        "LOOT_SCROLL_WitchBolt"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Witch Bolt",
+      "revision": 413364,
+      "markers": [
+        "Projectile_WitchBolt"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Make a ranged spell attack for 1d12 Lightning.",
+  "fields": {
+    "Cast": "Level 1. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Make a ranged spell attack for 1d12 Lightning. Maintain Concentration to spend an Action on later turns for 1d12 Lightning automatically while the link holds.",
+    "Range": "60 ft.",
+    "Concentration": "Maintain Concentration for the ongoing effect.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

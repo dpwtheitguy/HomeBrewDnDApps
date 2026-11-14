@@ -1,0 +1,23 @@
+{
+  "item_id": "bg3-wiki:13041",
+  "title": "Elixir of Half-Elven Healing",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418149,
+      "title": "Elixir of Half-Elven Healing",
+      "markers": [
+        "CONS_Elixir_Blood_HalfElf"
+      ]
+    }
+  ],
+  "summary": "Heal yourself and nearby allies immediately.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle. Heal yourself and nearby allies immediately.",
+    "Reported healing": "The tooltip gives the drinker’s Constitution score. The pinned source reports actual healing of 1d20 + Constitution modifier.",
+    "Acquisition": "Trade half-elf blood to Araj Oblodra.",
+    "Duration": "Instantaneous.",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

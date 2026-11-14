@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:9373",
+  "title": "Sharpened Snare Cuirass",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437948,
+      "title": "Sharpened Snare Cuirass",
+      "markers": [
+        "MAG_Druid_Late_Hide_Armor_2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432528,
+      "title": "Exotic Material",
+      "markers": [
+        "Magic Initiate: Cleric"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433126,
+      "title": "Sharpened Snare",
+      "markers": [
+        "shake off"
+      ]
+    }
+  ],
+  "summary": "AC 14 Medium Armour with full Dexterity bonus and specialized restraint support.",
+  "fields": {
+    "Armour Class": "14 + full Dexterity modifier. Medium Armour proficiency. No Stealth disadvantage. Exotic Material may stop working with Medium Armour Master or Magic Initiate: Cleric.",
+    "Sharpened Snare": "Targets save with disadvantage against Ensnaring Strike, Ensnaring Strands and Garrotte. Fly Trap and Entangle apply it only to saves to escape.",
+    "Acquisition": "Roah Moonglow at Moonrise Towers.",
+    "Base value": "830 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:9180",
+  "title": "Blightbringer",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438366,
+      "title": "Blightbringer",
+      "markers": [
+        "| uid = MAG_BG_BlightBringer_Shortbow"
+      ]
+    },
+    {
+      "role": "Rules: Blightbringer (passive feature)",
+      "revision": 432122,
+      "title": "Blightbringer (passive feature)",
+      "markers": [
+        "| summary = '''Blightbringer''' is a passive feature that deals extra damage against gnomes or dwarves."
+      ]
+    },
+    {
+      "role": "Rules: Prey Decelerator",
+      "revision": 432963,
+      "title": "Prey Decelerator",
+      "markers": [
+        "| summary = '''Prey Decelerator''' is a passive feature that slows down targets you critically hit."
+      ]
+    }
+  ],
+  "summary": "A +1 shortbow that specializes in fighting Gnomes and Dwarves.",
+  "fields": {
+    "Blightbringer": "+1d4 to attack and damage rolls against Gnomes and Dwarves.",
+    "Prey Decelerator": "On a critical hit, Slow the target for 2 turns.",
+    "Base value": "480 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

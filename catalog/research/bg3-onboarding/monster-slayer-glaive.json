@@ -1,0 +1,75 @@
+{
+  "item_id": "bg3-wiki:6841",
+  "title": "Monster Slayer Glaive",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Monster Slayer Glaive",
+      "revision": 421063,
+      "markers": [
+        "MAG_MonsterSlayer_Glaive"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Monsterslayer",
+      "revision": 432868,
+      "markers": [
+        "including spell attacks"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Refined Vaulting",
+      "revision": 433010,
+      "markers": [
+        "ft=5"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Rush Attack",
+      "revision": 374223,
+      "markers": [
+        "Doesn't provoke Opportunity Attacks"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Lacerate",
+      "revision": 373909,
+      "markers": [
+        "| condition dc = weapon action + 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Bleeding",
+      "revision": 442222,
+      "markers": [
+        "Removed by healing"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Brace (Melee)",
+      "revision": 441529,
+      "markers": [
+        "roll melee damage twice"
+      ]
+    }
+  ],
+  "summary": "A +1 glaive that improves attacks against Monstrosities and adds 5 ft to jumps.",
+  "fields": {
+    "Weapon profile": "1d10 + 1 Slashing plus Strength. Martial, heavy, two-handed, extra reach (8 ft), Dippable.",
+    "Monsterslayer": "Adds 1d4 damage to weapon attacks against Monstrosities. The pinned notes report the damage bonus can apply to all the wielder’s weapon attacks and +1d4 to any attack roll against these foes, including spells.",
+    "Refined Vaulting": "Jump distance increases by 5 ft.",
+    "Rush Attack": "With proficiency, Action once per Short Rest. Charge up to 30 ft without provoking Opportunity Attacks. Make a melee attack against the first non-allied creature or object in the path for 1d4 + Strength modifier Piercing. Strength save against weapon-action DC prevents Off Balance for 2 turns.",
+    "Lacerate": "With proficiency, Action once per Short Rest. On a melee hit for weapon damage, Constitution save against weapon-action DC +2 prevents Bleeding for 2 turns. Bleeding deals 2 Slashing at the start of each turn, gives Disadvantage on Constitution saves and ends when healed. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Bleeding": "Bleeding deals 2 Slashing at the start of each turn and gives disadvantage on Constitution saves. Healing removes it. Constructs, Elementals, Plants, Oozes and most Undead are immune. Ghasts and Ghouls are documented exceptions.",
+    "Brace (Melee)": "Spend 20 ft of movement once per Short Rest. For the rest of your turn, reroll melee damage dice and keep the highest. Ends Hiding and Invisibility. Stacks with Savage Attacker for three rolls per die.",
+    "Acquisition": "Sold by Roah Moonglow in the Shattered Sanctum.",
+    "Base value": "380 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

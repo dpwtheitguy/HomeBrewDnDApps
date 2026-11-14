@@ -1,0 +1,22 @@
+{
+  "item_id": "bg3-wiki:32930",
+  "title": "Plague-Green Torch",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Plague-Green Torch",
+      "revision": 421831,
+      "markers": [
+        "UNI_HUM_Torch_A_Green"
+      ]
+    }
+  ],
+  "summary": "Lit green torch doubles as a light source and simple melee weapon.",
+  "fields": {
+    "Weapon": "Simple one-handed, light and dippable, 5-ft melee. 1d4 Bludgeoning plus Strength. When lit, adds 1d4 Fire.",
+    "Light": "Automatically lights when equipped and stays lit until extinguished. Direct contact can ignite flammable clouds and surfaces.",
+    "Acquisition": "Chest in the Felogyr’s Fireworks basement.",
+    "Base value": "10 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

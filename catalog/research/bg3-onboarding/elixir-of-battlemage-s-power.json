@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:13002",
+  "title": "Elixir of Battlemage's Power",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418132,
+      "title": "Elixir of Battlemage's Power",
+      "markers": [
+        "ALCH_Solution_Elixir_ArcaneAcuity"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442040,
+      "title": "Arcane Acuity",
+      "markers": [
+        "| uid = MAG_GISH_ARCANE_ACUITY "
+      ]
+    }
+  ],
+  "summary": "Gain Arcane Acuity until Long Rest.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle. Gain Arcane Acuity until Long Rest.",
+    "Stacking": "Replaces other normal elixirs and can be overwritten by another.",
+    "Crafting": "Combine Suspension of Gauth Eye with any Sublimate.",
+    "Arcane Acuity": "Gain +1 to spell attack rolls and save DC per remaining turn. Each damaging hit removes two turns. In combat the elixir applies 3 turns at the start of turn and ordinary decay immediately leaves 2. If damage removes all remaining turns, the source reports 3 turns are immediately reapplied.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

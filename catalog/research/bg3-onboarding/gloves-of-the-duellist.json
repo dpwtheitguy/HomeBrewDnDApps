@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:8844",
+  "title": "Gloves of The Duellist",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418977,
+      "title": "Gloves of The Duellist",
+      "markers": [
+        "MAG_OfTheDuelist_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433206,
+      "title": "Duelling Gloves",
+      "markers": [
+        "| description = While only holding one weapon in your main hand and nothing in your free hand, gain a +2 bonus to melee weapon {{Attack Roll}}s."
+      ]
+    }
+  ],
+  "summary": "While holding a weapon in your main hand and nothing in your off hand, gain +2 to melee weapon attack rolls.",
+  "fields": {
+    "Effect": "While holding a weapon in your main hand and nothing in your off hand, gain +2 to melee weapon attack rolls.",
+    "Base value": "160 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

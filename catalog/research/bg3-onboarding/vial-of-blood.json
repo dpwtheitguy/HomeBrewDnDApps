@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:32334",
+  "title": "Vial of Blood",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Vial of Blood",
+      "revision": 424650,
+      "markers": [
+        "'''Vial of Blood''' is a common [[Miscellaneous]] item. Primarily of use for bartering or sale to [[Traders]]."
+      ]
+    },
+    {
+      "role": "Rules: Blood (surface)",
+      "title": "Blood (surface)",
+      "revision": 416578,
+      "markers": [
+        "Douses unprotected flames"
+      ]
+    }
+  ],
+  "summary": "Breaking the vial creates a Blood surface.",
+  "fields": {
+    "Break": "Creates Blood when destroyed. Blood douses unprotected flames and can freeze. Walking through ordinary Blood does not itself grant a condition.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

@@ -1,0 +1,165 @@
+{
+  "item_id": "bg3-wiki:8079",
+  "title": "Nyrulna",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421413,
+      "title": "Nyrulna",
+      "markers": [
+        "MAG_TheThorns_Trident"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 428492,
+      "title": "Throw",
+      "markers": [
+        "thrown weapons do not apply any innate extra damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 431595,
+      "title": "Zephyr Connection",
+      "markers": [
+        "| description = This weapon will return"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 419565,
+      "title": "Homing weapons",
+      "markers": [
+        "returns to the off-hand"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441506,
+      "title": "Damage mechanics",
+      "markers": [
+        "alias=Nyrulna: Zephyr Connection"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 402209,
+      "title": "Veil of the Wind",
+      "markers": [
+        "Immunity]] to falling damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432924,
+      "title": "Nyrulna: Glowing",
+      "markers": [
+        "| properties = ToggledDefaultAddToHotbar"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 409573,
+      "title": "Weapon actions",
+      "markers": [
+        "have it equipped in their main hand or both hands"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374168,
+      "title": "Piercing Strike",
+      "markers": [
+        "| save dc = weapon action + 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443536,
+      "title": "Gaping Wounds",
+      "markers": [
+        "lacks a check for attack rolls"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373912,
+      "title": "Maiming Strike",
+      "markers": [
+        "Flying creatures can't be Maimed"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443966,
+      "title": "Maimed",
+      "markers": [
+        "reduced to 0"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 430867,
+      "title": "Zephyr Flash",
+      "markers": [
+        "| aoe m = 12"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442222,
+      "title": "Bleeding",
+      "markers": [
+        "start of each turn"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 430865,
+      "title": "Zephyr Break",
+      "markers": [
+        "| force m = 5"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444158,
+      "title": "Off Balance",
+      "markers": [
+        "Removed by taking damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 425239,
+      "title": "Akabi",
+      "markers": [
+        "Performance|15"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 419990,
+      "title": "Jungle",
+      "markers": [
+        "Sleight of Hand|20"
+      ]
+    }
+  ],
+  "summary": "Legendary +3 returning trident. Targeted throws create a 20 ft Thunder blast even on a miss.",
+  "fields": {
+    "Weapon profile": "1d6 + 3 Piercing one-handed or 1d8 + 3 two-handed, plus Strength modifier and 1d6 Thunder on a melee hit. +3 to attack rolls. Martial, versatile, thrown, dippable, 5 ft melee. Throw uses Strength and weight to determine range, up to 60 ft. A successful Throw uses weapon damage with Strength but omits the inherent 1d6 Thunder and damage from dipping or coatings.",
+    "Zephyr Connection": "You cannot be forced to drop the trident. After a throw it returns and normally equips in the main hand. With Dual Wielder and an eligible second equipped weapon, a previously equipped Nyrulna can return to the off hand.",
+    "Throw explosion": "Make a Throw attack against a target to deal 3d4 Thunder to creatures and destructible objects within 20 ft of the target, even if the attack misses. A throw to empty ground does not trigger it. Allies and neutral creatures can be hit. The explosion is a separate damage source in standard modes. Honour Mode generally removes separate damage-rider chaining.",
+    "Veil of the Wind": "+10 ft movement speed and jump distance. Immune to falling damage while equipped.",
+    "Nyrulna: Glowing": "Toggle the trident’s light on or off. 20 ft radius, on by default.",
+    "Piercing Strike": "Proficient main hand or both hands, Action once per Short Rest. Make a melee weapon attack for weapon damage. On hit, a Constitution save against weapon-action DC + 2 avoids Gaping Wounds for 2 turns. Undead and Constructs cannot be affected. In standard modes, successful attacks against the target add 2 Piercing. In Honour Mode, qualifying damage sources add 2 of their own damage type, including sources without attack rolls. Healing ends Gaping Wounds.",
+    "Maiming Strike": "Proficient main hand or both hands, Action once per Short Rest. Melee attack for 1d4 + attack ability modifier Piercing. On hit, a Constitution save against weapon-action DC + 2 avoids Maimed for 2 turns. Flying creatures cannot be Maimed. Maimed sets movement to 0 and imposes disadvantage on Dexterity saves. Healing removes it.",
+    "Zephyr Flash": "Proficient main hand or both hands, Action once per Short Rest. Rush along a 40 ft line without provoking Opportunity Attacks. Targets failing a DC 15 Dexterity save take 6d8 Thunder, are pushed back 7 ft when hit, and Bleed for 3 turns. On a successful save the source reports 3d8 Thunder. Bleeding deals 2 Slashing at the start of turns, gives disadvantage on Constitution saves, and ends on healing.",
+    "Zephyr Break": "Proficient main hand or both hands, Action once per Short Rest. Blast targets in a 40 ft line. Strength save against your spell save DC. On failure, take 6d6 Thunder, be pushed 17 ft, and become Off Balance for 2 turns. On success, take 3d6 Thunder. Off Balance gives disadvantage on Strength and Dexterity checks and grants advantage on attacks against the target. Damage or Help ends it. Usable while Raging.",
+    "Acquisition": "Win Akabi’s jackpot at the Circus of the Last Days after pickpocketing his Djinni Ring or passing the Bard’s DC 15 Performance distraction. The talking character goes to the Jungle alone. Open the DC 20 locked painted chest next to the exit portal at X −1511, Y −1522. The jackpot permanently closes the game.",
+    "Base value": "840 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

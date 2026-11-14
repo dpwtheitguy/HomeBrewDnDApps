@@ -1,0 +1,22 @@
+{
+  "item_id": "bg3-wiki:8526",
+  "title": "Gruel",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419194,
+      "title": "Gruel",
+      "markers": [
+        "DEN_UNI_Thieflings_Gruel"
+      ]
+    }
+  ],
+  "summary": "Eat for 3d4 healing without a combat resource cost, or contribute 1 Camp Supply.",
+  "fields": {
+    "Eating": "Consume one portion to restore 3d4 HP. The pinned source reports no combat action cost and ordinary on-heal triggers.",
+    "Camp Supplies": "1 toward Long Rest.",
+    "Acquisition": "Okta in the Emerald Grove’s Hollow gives a portion per speaking character. Halflings and characters disguised as halflings can get two from a particular dialogue option.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

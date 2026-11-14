@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:32866",
+  "title": "Box of Oddfire Fireworks",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 429254,
+      "title": "Box of Oddfire Fireworks",
+      "markers": [
+        "CONT_GEN_Box_Fireworks_B"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 387779,
+      "title": "Colour Spray",
+      "markers": [
+        "| description = {{Cond|Blinded|Blind}} creatures up to a combined {{DamageColor|Healing|'''33 Hit Points'''}}."
+      ]
+    }
+  ],
+  "summary": "Ignite the box with Fire to launch a rocket. The blast deals 8d6 Fire and applies Colour Spray to the target.",
+  "fields": {
+    "Activation": "Ignite with a source of Fire.",
+    "Blast": "8d6 Fire to target and nearby creatures. Colour Spray can Blind the target. The item source gives no blast radius.",
+    "Base value": "5 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

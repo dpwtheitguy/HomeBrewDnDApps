@@ -1,0 +1,56 @@
+{
+  "item_id": "bg3-wiki:11807",
+  "title": "Justiciar's Greatshield",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419993,
+      "title": "Justiciar's Greatshield",
+      "markers": [
+        "MAG_Justiciar_Shield"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 287194,
+      "title": "Darkness Cloak",
+      "markers": [
+        "| area duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 368312,
+      "title": "Darkness (cloud)",
+      "markers": [
+        "cannot make ranged attacks"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438215,
+      "title": "Shield Bash",
+      "markers": [
+        "requires a Strength saving throw"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 406487,
+      "title": "Shield Blow",
+      "markers": [
+        "| condition duration = 1"
+      ]
+    }
+  ],
+  "summary": "Shield granting +2 AC, advantage on Perception, and a Bonus Action cloud of Darkness.",
+  "fields": {
+    "Shield": "+2 AC while held. Requires Shield proficiency.",
+    "Perception": "Advantage on Perception checks.",
+    "Darkness Cloak": "Bonus Action once per Short Rest. Create a 7 ft radius cloud of magical Darkness around yourself for 2 turns, and immediately attempt to Hide. Creatures inside are Blinded and heavily obscured. Ranged attacks cannot pass into or out of the cloud.",
+    "Shield Bash": "Reaction when a melee attacker hits you. The attacker makes a Strength save against your spell save DC or falls Prone for 1 turn. The tooltip incorrectly lists Dexterity.",
+    "Acquisition": "Carried by Lyrthindor in the Gauntlet of Shar.",
+    "Base value": "300 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

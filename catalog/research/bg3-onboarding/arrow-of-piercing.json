@@ -1,0 +1,22 @@
+{
+  "item_id": "bg3-wiki:19739",
+  "title": "Arrow of Piercing",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 428407,
+      "title": "Arrow of Piercing",
+      "markers": [
+        "OBJ_ArrowOfPiercing"
+      ]
+    }
+  ],
+  "summary": "A special arrow with a reported piercing-effect bug.",
+  "fields": {
+    "Activation": "Action. Consume one arrow and fire a ranged weapon shot up to 60 ft.",
+    "Damage": "Weapon damage to the initial target. The listed half damage to creatures behind it reportedly lacks implementation.",
+    "Acquisition": "Carried by Woyy at Facemaker’s Boutique.",
+    "Base value": "10 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 mechanics and pinned item and related rule sources."
+}

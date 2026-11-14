@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:22428",
+  "title": "Scimitar of Cinder",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422698,
+      "title": "Scimitar of Cinder",
+      "markers": [
+        "WPN_Scimitar_Fire_Myrmidon_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 422702,
+      "title": "Scorching Strike",
+      "markers": [
+        "no recharge time"
+      ]
+    }
+  ],
+  "summary": "Summoned Fire Myrmidon’s +3 scimitar adds Fire damage and can Burn.",
+  "fields": {
+    "Weapon profile": "1d6 + 3 Slashing plus applicable ability modifier and 1d6 Fire. +3 to attack rolls. The NPC variant lacks the enchantment and extra Fire.",
+    "Scorching Strike": "Action, melee weapon hit adds 1d10 Fire. A failed DC 13 Constitution save applies Burning for 2 turns. No rest recharge.",
+    "Availability": "Fire Myrmidon equipment. Unobtainable by normal player acquisition because the creature is Permanently Armed.",
+    "Base value": "30 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

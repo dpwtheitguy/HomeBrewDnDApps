@@ -1,0 +1,43 @@
+{
+  "item_id": "bg3-wiki:4726",
+  "title": "Intransigent Warhammer",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438473,
+      "title": "Intransigent Warhammer",
+      "markers": [
+        "UNI_UND_DuergarRaft_GruesomeHammer"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432685,
+      "title": "Impulse Blast",
+      "markers": [
+        "| description = Knocks nearby creatures {{Cond|Prone}} after killing a target or landing a [[Critical Hit]]."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341924,
+      "title": "Warhammers",
+      "markers": [
+        "| damage = 1d8"
+      ]
+    }
+  ],
+  "summary": "This warhammer creates a shockwave when it kills an enemy or lands a critical hit.",
+  "fields": {
+    "Damage": "1d8 Bludgeoning",
+    "Range": "5 ft melee.",
+    "Training": "martial",
+    "Handling": "versatile",
+    "Weapon actions": "Backbreaker, Concussive Smash, Weakening Strike",
+    "Two-handed damage": "1d10 Bludgeoning",
+    "Impulse Blast": "A kill or critical hit with this weapon triggers a shockwave. Nearby enemies make a hidden DC 14 Dexterity save or fall Prone for 2 turns. The pinned source gives no exact radius.",
+    "Acquisition": "Found in a watertight chest on the duergar skiff during the first trip to Grymforge.",
+    "Base value": "100 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

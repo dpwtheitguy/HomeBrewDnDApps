@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:3611",
+  "title": "Ring of Restorative Gravity",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Ring of Restorative Gravity",
+      "revision": 422393,
+      "markers": [
+        "Rings"
+      ]
+    }
+  ],
+  "summary": "Early Access ring that pulled creatures toward you when you healed them.",
+  "fields": {
+    "Early Access effect": "Healing another creature pulled it 7 ft toward the wearer.",
+    "Availability": "Unobtainable in the release version. Omeluum sold it in Early Access after the parasite quest. The release version replaced it with Ring of Salving.",
+    "Base value": "600 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

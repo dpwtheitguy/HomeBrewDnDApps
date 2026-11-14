@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12246",
+  "title": "Amulet of the Drunkard",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 415923,
+      "title": "Amulet of the Drunkard",
+      "markers": [
+        "MAG_EGW_OfTheDrunkard_Amulet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432134,
+      "title": "Booze Remedy",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Regain 2d4 HP each turn while Drunk. The amulet extends inebriation by five rounds.",
+  "fields": {
+    "Equipment type": "Amulets",
+    "Effect": "Regain 2d4 HP each turn while Drunk. The amulet extends inebriation by five rounds.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 mechanics and pinned item and related rule sources."
+}

@@ -1,0 +1,50 @@
+{
+  "item_id": "bg3-wiki:11800",
+  "title": "Justiciar's Scimitar",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438116,
+      "title": "Justiciar's Scimitar",
+      "markers": [
+        "MAG_Justiciar_Scimitar"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433114,
+      "title": "Shadow-Blinding",
+      "markers": [
+        "| condition dc = 14"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433110,
+      "title": "Shadow Blade (passive feature)",
+      "markers": [
+        "both mainhand and off-hand"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 410620,
+      "title": "Shadowsoaked Blow",
+      "markers": [
+        "it still ends {{SmCond|Invisible"
+      ]
+    }
+  ],
+  "summary": "A +2 scimitar with an advantage-dependent Blind and a stealthy melee action.",
+  "fields": {
+    "Weapon profile": "1d6 + 2 Slashing, 5 ft melee, one-handed, Finesse, Light and Dippable. The pinned item notes no Scimitar proficiency is required.",
+    "Shadow Blade": "Gain advantage on melee weapon attacks against lightly or heavily obscured targets. May also benefit the other melee weapon while dual-wielding.",
+    "Shadow-Blinding": "With advantage, a hit from this scimitar can inflict Blinded for 2 turns on a failed DC 14 Constitution save. The linked source reports it is nonfunctional in Honour Mode.",
+    "Shadowsoaked Blow": "Action once per Short Rest. Make a melee weapon attack. On hit, add your proficiency bonus as Piercing and 1d6 Psychic. Preserves Hiding but ends Invisibility. The Psychic damage acts as a separate damage source even in Honour Mode.",
+    "Other weapon actions": "Backbreaker and Flourish.",
+    "Bladesong": "The lack of weapon proficiency classification prevents main-hand activation of Bladesong. The pinned source says this does not apply in the off hand.",
+    "Acquisition": "Carried by Lyrthindor in the Gauntlet of Shar.",
+    "Base value": "480 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

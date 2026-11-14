@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12753",
+  "title": "Madeline's Ledger",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420699,
+      "title": "Madeline's Ledger",
+      "markers": [
+        "S_SCL_ServantOfTheRaven_HarperLedger"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 431283,
+      "title": "Punish the Wicked",
+      "markers": [
+        "Give the ledger to He Who Was."
+      ]
+    }
+  ],
+  "summary": "Give this ledger to He Who Was to progress Punish the Wicked and begin his ritual.",
+  "fields": {
+    "Acquisition": "Perception reveals a loose plank behind the bar in The Waning Moon. The item page places it at X −224, Y −77.",
+    "Quest use": "Hand it to He Who Was in the Ruined Battlefield east of Last Light Inn. He channels Madeline so you can speak to her. The dialogue decision affects the ritual outcome.",
+    "Base value": "14 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

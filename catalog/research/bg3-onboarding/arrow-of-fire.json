@@ -1,0 +1,45 @@
+{
+  "item_id": "bg3-wiki:3699",
+  "title": "Arrow of Fire",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416093,
+      "title": "Arrow of Fire",
+      "markers": [
+        "ARR_Arrow_Of_Fire",
+        "price = 10",
+        "* Deals {{InfoBlob|Weapon Damage}} and explodes in a blast of fire, dealing an additional {{DamageText|2d4|Fire|drs=t}} damage."
+      ]
+    },
+    {
+      "role": "Shared arrow rules",
+      "revision": 439126,
+      "title": "Arrows",
+      "markers": [
+        "cannot be crafted",
+        "off-hand ranged attacks",
+        "no saving throws"
+      ]
+    },
+    {
+      "role": "Applied area or condition",
+      "revision": 371587,
+      "title": "Fire (surface)",
+      "markers": [
+        "1d4|Fire"
+      ]
+    }
+  ],
+  "summary": "Weapon damage plus 2d4 Fire. DC 12 Dexterity negates the extra Fire damage. Creates a 7 ft-radius Fire surface for 2 turns. The surface deals 1d4 Fire per turn and can apply Burning. The shared arrow rules describe damage as applying to the target rather than nearby creatures.",
+  "fields": {
+    "Activation": "Action. Fire from a ranged weapon and consume one arrow. Range 60 ft.",
+    "Effect": "Weapon damage plus 2d4 Fire. DC 12 Dexterity negates the extra Fire damage. Creates a 7 ft-radius Fire surface for 2 turns. The surface deals 1d4 Fire per turn and can apply Burning. The shared arrow rules describe damage as applying to the target rather than nearby creatures.",
+    "Restrictions": "Special arrows cannot be used with off-hand ranged attacks.",
+    "Crafting": "Special arrows are obtained from loot or vendors.",
+    "Creative use": "Use the fire to make an approach less attractive.",
+    "Base value": "10 gp in BG3. Merchant prices vary.",
+    "Burning": "The Fire surface can apply Burning for 1 turn. Burning deals 1d4 Fire per turn."
+  },
+  "changes": "Added reviewed native BG3 activation, effects and linked rules."
+}

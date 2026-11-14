@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:3460",
+  "title": "Amulet of Elemental Torment",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 415914,
+      "title": "Amulet of Elemental Torment",
+      "markers": [
+        "UNI_ARM_MartyrAmulet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432913,
+      "title": "Nature's Vengeance",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "When the wearer stands in certain surfaces and casts a damaging spell, the spell target also receives that surface’s condition.",
+  "fields": {
+    "Equipment type": "Amulets",
+    "Effect": "A damaging spell can transfer a condition from the surface beneath the wearer to the target for 2 turns.",
+    "Base value": "65 gp in BG3. Merchant prices vary.",
+    "Surfaces": "Fire applies Burning and immediately deals 1d4 Fire. Caustic Brine applies its condition and immediately deals 1d4 Acid. Simple Toxin applies Poisoned. Acid applies Acid.",
+    "Limits": "Other surfaces, including Ice, Electrified Water and stronger toxin surfaces, do not trigger the passive."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:10406",
+  "title": "Callous Glow Ring",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416881,
+      "title": "Callous Glow Ring",
+      "markers": [
+        "| uid = MAG_Radiant_DamageBonusOnIlluminatedTarget_Ring"
+      ]
+    },
+    {
+      "role": "Rules: Callous Glow",
+      "revision": 432152,
+      "title": "Callous Glow",
+      "markers": [
+        "| summary = '''Callous Glow''' is a passive feature that adds damage to targets that are illuminated."
+      ]
+    }
+  ],
+  "summary": "Deal 2 extra Radiant damage when damaging an illuminated creature.",
+  "fields": {
+    "Use": "Deal 2 extra Radiant damage when damaging an illuminated creature.",
+    "Base value": "40 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

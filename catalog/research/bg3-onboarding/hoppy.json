@@ -1,0 +1,57 @@
+{
+  "item_id": "bg3-wiki:11909",
+  "title": "Hoppy",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 432471,
+      "title": "Hoppy",
+      "markers": [
+        "MAG_Revitalizing_Warpick"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374214,
+      "title": "Revitalising Strike",
+      "markers": [
+        "| damage 3 = 1d6"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373912,
+      "title": "Maiming Strike",
+      "markers": [
+        "| condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374168,
+      "title": "Piercing Strike",
+      "markers": [
+        "| condition duration = 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374483,
+      "title": "Weakening Strike",
+      "markers": [
+        "| condition duration = 2"
+      ]
+    }
+  ],
+  "summary": "A +1 war pick that heals its wielder with Revitalising Strike.",
+  "fields": {
+    "Weapon profile": "1d8 + 1 Piercing, 5 ft melee, martial one-handed and dippable.",
+    "Revitalising Strike": "Action once per Short Rest with proficiency. On a melee weapon hit, deal normal damage plus proficiency bonus as Necrotic and restore 1d6 HP to yourself.",
+    "Maiming Strike": "Action once per Short Rest. Make a melee weapon attack for 1d4 + attack ability modifier Piercing. Constitution save against weapon-action DC +2 prevents Maimed for 2 turns.",
+    "Piercing Strike": "Action once per Short Rest. On a melee weapon hit, Constitution save against weapon-action DC +2 prevents Gaping Wounds for 2 turns.",
+    "Weakening Strike": "Action once per Short Rest. Make a nonlethal melee attack for 1d4 + attack ability modifier Piercing. Strength save against weapon-action DC +2 prevents Weak Grip for 2 turns.",
+    "Acquisition": "Buy from Lady Esther near Trielta Crags.",
+    "Base value": "100 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:13639",
+  "title": "Wispweed",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 424944,
+      "title": "Wispweed",
+      "markers": [
+        "CONS_Herbs_Wispweed_Bundle_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423686,
+      "title": "Sublimate of Wispweed",
+      "markers": [
+        "Crafted by combining 3"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 421941,
+      "title": "Potion of Glorious Vaulting",
+      "markers": [
+        "any [[Alchemy#Extractions|Ashes]]"
+      ]
+    }
+  ],
+  "summary": "Extract three Wispweeds for Potion of Glorious Vaulting.",
+  "fields": {
+    "Alchemy": "Extract three Wispweeds into Sublimate of Wispweed. Add any Ash to craft one Potion of Glorious Vaulting.",
+    "Acquisition": "Derryth Bonecloak in the Myconid Colony or random loot.",
+    "Base value": "2 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

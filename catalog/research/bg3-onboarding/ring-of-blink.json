@@ -1,0 +1,54 @@
+{
+  "item_id": "bg3-wiki:11810",
+  "title": "Ring of Blink",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422372,
+      "title": "Ring of Blink",
+      "markers": [
+        "MAG_Generic_02_Ring_1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 328279,
+      "title": "Blink",
+      "markers": [
+        "Available only in combat"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442233,
+      "title": "Blinked to the Ethereal Plane",
+      "markers": [
+        "When combat ends"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 315184,
+      "title": "Blink: Teleport",
+      "markers": [
+        "| range m = 6"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 291462,
+      "title": "Leave Ethereal Plane",
+      "markers": [
+        "Return to the Material Plane"
+      ]
+    }
+  ],
+  "summary": "Casts Blink to intermittently leave the Material Plane during combat.",
+  "fields": {
+    "Blink": "Level 3, self Action once per Long Rest, combat only. For 10 turns, roll a d20 at the end of your turn. On 11 or higher, enter the Ethereal Plane. While there you cannot be harmed, seen or interact with the world. You can return, choose a return point up to 20 ft away, or stay until the effect ends. Combat ending forces return.",
+    "Interactions": "The source reports vanishing breaks Concentration and temporarily disables equipped items, which can remove effects granted by them.",
+    "Acquisition": "Tara on the Open Hand Temple roof at X −45, Y −5. No check with Gale as your character or in the active party.",
+    "Base value": "190 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

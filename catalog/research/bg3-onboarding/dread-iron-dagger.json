@@ -1,0 +1,35 @@
+{
+  "item_id": "bg3-wiki:9564",
+  "title": "Dread Iron Dagger",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438419,
+      "title": "Dread Iron Dagger",
+      "markers": [
+        "MAG_Zhentarim_SleeperDagger"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432296,
+      "title": "Dread Iron Ambush",
+      "markers": [
+        "| description = While its wielder is hidden, this weapon deals an extra {{DamageText|1d6|Necrotic}}."
+      ]
+    }
+  ],
+  "summary": "A +1 dagger that deals an extra 1d6 Necrotic while you are Hidden.",
+  "fields": {
+    "Damage": "1d4 + 1 Piercing",
+    "Range": "5 ft melee.",
+    "Training": "simple",
+    "Handling": "one-handed",
+    "Enchantment": "+1",
+    "Weapon actions": "Piercing Strike",
+    "Dread Iron Ambush": "While Hidden, deal an extra 1d6 Necrotic on weapon attacks. The pinned source reports the bonus applies to other equipped weapons, and the Lethal Concealment condition can remain after unequipping the dagger.",
+    "Acquisition": "Echo of Abazigal sells it if you become an Unholy Assassin of Bhaal.",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Verified card mechanics against the cited item or linked rule."
+}

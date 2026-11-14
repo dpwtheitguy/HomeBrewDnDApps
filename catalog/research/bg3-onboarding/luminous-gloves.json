@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:9594",
+  "title": "Luminous Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 439804,
+      "title": "Luminous Gloves",
+      "markers": [
+        "| uid = MAG_Radiant_RadiatingOrb_Gloves"
+      ]
+    },
+    {
+      "role": "Rules: Radiating Orb Gloves",
+      "revision": 432993,
+      "title": "Radiating Orb Gloves",
+      "markers": [
+        "| summary = '''Radiating Orb Gloves''' is a passive feature that surrounds targets with globes of light every time the user deals radiant damage to them."
+      ]
+    },
+    {
+      "role": "Rules: Radiating Orb",
+      "revision": 439797,
+      "title": "Radiating Orb",
+      "markers": [
+        "| effects = * Affected entity has '''-1''' to [[Attack Rolls]] per remaining turn. It also sheds bright light in an area surrounding it."
+      ]
+    }
+  ],
+  "summary": "Gain +1 Strength saves. Radiant damage applies 2 turns of Radiating Orb to the target.",
+  "fields": {
+    "Radiating Orb": "A creature sheds bright light and takes −1 to attack rolls per remaining turn, up to 10. It loses 2 turns of duration whenever it attacks. The light does not count as Daylight.",
+    "Trigger exception": "Moonbeam does not trigger the gloves.",
+    "Base value": "110 gp in BG3. Merchant prices vary.",
+    "Saving throws": "+1 to Strength saving throws.",
+    "Radiating Orb Gloves": "Deal Radiant damage to apply 2 turns of Radiating Orb to the target."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

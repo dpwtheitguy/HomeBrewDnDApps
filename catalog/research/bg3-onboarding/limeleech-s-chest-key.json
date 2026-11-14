@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:47975",
+  "title": "Limeleech's Chest Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430686,
+      "title": "Limeleech's Chest Key",
+      "markers": [
+        "LOW_Lodge_Chest_Key02"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439009,
+      "title": "The Lodge",
+      "markers": [
+        "Limeleech's Chest Key"
+      ]
+    }
+  ],
+  "summary": "Unlocks the opulent chest in the Lodge vault.",
+  "fields": {
+    "Unlock": "Use it on the opulent chest on a central shelf. DC 15 Sleight of Hand can also open it. The chest contains gold, valuables and two random arrows.",
+    "Acquisition": "Professor Limeleech carries it. Interact with A Magical Journey in the Lodge attic to access the vault.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

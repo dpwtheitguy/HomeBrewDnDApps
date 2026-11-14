@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:8075",
+  "title": "Gloves of Uninhibited Kushigo",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418979,
+      "title": "Gloves of Uninhibited Kushigo",
+      "markers": [
+        "MAG_Monk_Magic_Gloves"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432727,
+      "title": "Kushigo's Might",
+      "markers": [
+        "| description = The wearer deals an additional {{DieIcon|d4|Physical}} '''1d4''' damage with {{SAI|Throw}} Attacks and attacks made with {{SAI|Improvised_Melee_Weapon|Improvised Weapons}}."
+      ]
+    }
+  ],
+  "summary": "Add 1d4 damage to Throw attacks and improvised melee weapon attacks.",
+  "fields": {
+    "Effect": "Add 1d4 damage to Throw attacks and improvised melee weapon attacks.",
+    "Base value": "240 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

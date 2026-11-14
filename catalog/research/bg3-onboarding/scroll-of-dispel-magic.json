@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:33831",
+  "title": "Scroll of Dispel Magic",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Dispel Magic",
+      "revision": 422777,
+      "markers": [
+        "LOOT_SCROLL_DispelMagic_DONOTUSE"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Dispel Magic",
+      "revision": 433029,
+      "markers": [
+        "Target_DispelMagic"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "The cut spell describes removing magic from a character or object, but the implementation is limited to scripted cases.",
+  "fields": {
+    "Cast": "Level 3. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "The cut spell describes removing magic from a character or object, but the implementation is limited to scripted cases. The scroll is unobtainable in normal play.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "100 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

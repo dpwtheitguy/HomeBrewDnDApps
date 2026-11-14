@@ -1,0 +1,41 @@
+{
+  "item_id": "bg3-wiki:8827",
+  "title": "Crossbow of Arcane Force",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417402,
+      "title": "Crossbow of Arcane Force",
+      "markers": [
+        "MAG_Githborn_Telekinetic_HeavyCrossbow"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373565,
+      "title": "Arcane Ammunition",
+      "markers": [
+        "| description = Infuse your crossbow bolts with arcane energy. Your ranged weapon attacks deal an additional {{DamageText|1d4|Force}} damage."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341904,
+      "title": "Heavy Crossbows",
+      "markers": [
+        "| damage = 1d10"
+      ]
+    }
+  ],
+  "summary": "This +1 heavy crossbow can add 1d4 Force to ranged weapon attacks.",
+  "fields": {
+    "Damage": "1d10 + 1 Piercing",
+    "Weapon profile": "Martial, two-handed, heavy crossbows.",
+    "Properties": "Dippable.",
+    "Weapon actions": "Piercing Shot, Brace (Ranged).",
+    "Arcane Ammunition": "Bonus Action once per Short Rest. For 1 turn, ranged weapon attacks deal an extra 1d4 Force.",
+    "Range": "60 ft.",
+    "Base value": "130 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence."
+}

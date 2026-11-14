@@ -1,0 +1,23 @@
+{
+  "item_id": "bg3-wiki:10686",
+  "title": "Elixir of Barkskin",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418130,
+      "title": "Elixir of Barkskin",
+      "markers": [
+        "ALCH_Soultion_Elixir_Barkskin"
+      ]
+    }
+  ],
+  "summary": "Until Long Rest, use the higher of AC 16 and your usual AC after modifiers.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle. Until Long Rest, use the higher of AC 16 and your usual AC after modifiers.",
+    "Stacking": "Replaces other normal elixirs and can be overwritten by another.",
+    "Crafting": "Combine Salts of Tree Bark with any Suspension.",
+    "AC interaction": "Apply other AC adjustments before selecting the higher value, so a +2 adjustment does not necessarily create AC 18.",
+    "Base value": "30 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

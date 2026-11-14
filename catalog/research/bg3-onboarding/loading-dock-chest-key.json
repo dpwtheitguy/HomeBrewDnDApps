@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:47107",
+  "title": "Loading Dock Chest Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430458,
+      "title": "Loading Dock Chest Key",
+      "markers": [
+        "{{MiscItemPage"
+      ]
+    },
+    {
+      "role": "Rules: The Counting House",
+      "revision": 440067,
+      "title": "The Counting House",
+      "markers": [
+        "{{Location page"
+      ]
+    }
+  ],
+  "summary": "Ten identical-looking keys open different Counting House docks chests.",
+  "fields": {
+    "Guards": "Dugg: gilded chest at −127, −197. Humgoole: heavy chest at −103, −236.",
+    "North counters": "1: gilded −114, −234. 2: opulent −135, −219. 3: wooden −122, −185 indoors. 5: small gilded −136, −241.",
+    "South counters": "2: wooden −102, −232. 3: gilded −109, −204. 5: gilded −125, −223. 6: heavy −136, −224.",
+    "Alternative": "The chests use DC 10 or DC 15 Sleight of Hand. Number counters from the vault entrance.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "bg3-wiki:3435",
+  "title": "Haste Helm",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419356,
+      "title": "Haste Helm",
+      "markers": [
+        "| uid = MAG_Mobility_MomentumOnCombatStart_Helmet"
+      ]
+    },
+    {
+      "role": "Rules: Smooth Start",
+      "revision": 433165,
+      "title": "Smooth Start",
+      "markers": [
+        "| summary = '''Smooth Start''' is a passive feature that allows the wearer to move quickly at the start of combat."
+      ]
+    },
+    {
+      "role": "Rules: Momentum",
+      "revision": 444042,
+      "title": "Momentum",
+      "markers": [
+        "{{condition page"
+      ]
+    }
+  ],
+  "summary": "At the start of combat, gain Momentum for 3 turns.",
+  "fields": {
+    "Smooth Start": "Movement increases by 5 ft per remaining turn of Momentum. If the wearer enters mid-round the effect waits for the next round. Slowed can clear it early.",
+    "Base value": "240 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

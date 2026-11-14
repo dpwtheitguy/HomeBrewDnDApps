@@ -1,0 +1,22 @@
+{
+  "item_id": "bg3-wiki:12161",
+  "title": "Oil of Accuracy",
+  "sources": [
+    {"role": "Item and recipe", "revision": 421459, "title": "Oil of Accuracy", "markers": ["ALCH_Solution_Oil_AttackBuff", "bonus action", "condition duration = 10", "Ashes of Daggerroot", "Throwing a weapon"]},
+    {"role": "Applied condition", "revision": 436330, "title": "Oil of Accuracy (condition)", "markers": ["+2 bonus", "ALCH_OIL_ATTACKBUFF"]},
+    {"role": "Shared coating rules", "revision": 438130, "title": "Coatings", "markers": ["single equipped weapon set", "off-hand", "each must be applied separately", "mutually exclusive"]}
+  ],
+  "summary": "Spend a Bonus Action and consume the oil to give attacks with your active weapon set +2 to hit for 10 turns. Thrown attacks receive no bonus.",
+  "fields": {
+    "Activation": "Bonus Action. Consume one bottle.",
+    "Weapon set": "Coat the active melee or ranged set. When dual wielding, this coats both weapons in the selected set. Switch sets and apply another dose to coat the other set.",
+    "Attack rolls": "+2 with the coated weapon on eligible attacks.",
+    "Damage": "No added damage.",
+    "Duration": "10 turns.",
+    "Limits": "One coating per weapon set, including dipping effects. Throwing the coated weapon gives no attack bonus. Throwing the bottle creates no coating area.",
+    "Crafting": "Combine Ashes of Daggerroot and any Salt through Alchemy.",
+    "Base value": "20 gp in BG3. Merchant prices vary.",
+    "Creative use": "Coat your melee set before a fight where both weapons will see use, or choose the ranged set if your opening depends on landing a difficult shot."
+  },
+  "changes": "Replaced the index-only description with reviewed BG3 gameplay facts and source links. Preserved the existing ID, generic art, and merchant estimates."
+}

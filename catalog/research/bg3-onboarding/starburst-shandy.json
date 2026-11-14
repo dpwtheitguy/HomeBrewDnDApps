@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:24817",
+  "title": "Starburst Shandy",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Starburst Shandy",
+      "revision": 423565,
+      "markers": [
+        "CONS_GEN_Alcohol_Bottle_Cheap_B"
+      ]
+    },
+    {
+      "role": "Rules: Alcohol (condition)",
+      "title": "Alcohol (condition)",
+      "revision": 437839,
+      "markers": [
+        "Cheeky Tipple"
+      ]
+    },
+    {
+      "role": "Rules: Alcohol (surface)",
+      "title": "Alcohol (surface)",
+      "revision": 385878,
+      "markers": [
+        "Flammable"
+      ]
+    }
+  ],
+  "summary": "Provides 1 Camp Supplies.",
+  "fields": {
+    "Camp Supplies": "1 Camp Supplies toward a Long Rest.",
+    "Drink": "Action. Alcohol gives Disadvantage on Dexterity and Charisma checks for 2 turns. Cheeky Tipple prevents penalties.",
+    "Throw": "Action. Creates a flammable Alcohol surface. Cold turns it into Ice and then Water. Fire turns it into Fire and then Ash.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

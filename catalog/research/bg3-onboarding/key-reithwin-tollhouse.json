@@ -1,0 +1,21 @@
+{
+  "item_id": "bg3-wiki:55929",
+  "title": "Key (Reithwin Tollhouse)",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Key (Reithwin Tollhouse)",
+      "revision": 430653,
+      "markers": [
+        "| usage = * Opens the larger traveller's chest at {{coords|-60|-114}} with the {{SmRarityItem|Gloomstrand Shield}} inside."
+      ]
+    }
+  ],
+  "summary": "Opens the larger Traveller’s Chest containing the Gloomstrand Shield at X −60, Y −114.",
+  "fields": {
+    "Lock": "Opens the larger Traveller’s Chest containing the Gloomstrand Shield at X −60, Y −114.",
+    "Acquisition and access": "In a barrel at X −92, Y −74 on the top floor of Reithwin Tollhouse.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added the exact lock and acquisition from the pinned native item rules."
+}

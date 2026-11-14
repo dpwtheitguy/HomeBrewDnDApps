@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:10488",
+  "title": "Orthon Explosive",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421593,
+      "title": "Orthon Explosive",
+      "markers": [
+        "| uid = QUEST_HAV_InfernalReward_004"
+      ]
+    },
+    {
+      "role": "Rules: Infernal Burning",
+      "revision": 443798,
+      "title": "Infernal Burning",
+      "markers": [
+        "{{confused with|Burning|Burning (Orthonic)}}"
+      ]
+    }
+  ],
+  "summary": "Throw as an Action to deal 3d6 Fire in a 13 ft radius and potentially inflict Infernal Burning.",
+  "fields": {
+    "Throw": "Action, up to 60 ft. 3d6 Fire in a 13 ft radius.",
+    "Infernal Burning": "DC 13 Dexterity save against 3 turns. On failure, the target takes 1d4 Fire per turn and cannot regain HP. Help, healing potions and Wet do not clear it.",
+    "Crafting": "Dammon at Last Light Inn can make one from each Devilfoil Mask, up to four. No Alchemy recipe.",
+    "Reported behavior": "The tooltip mentions Thunder and knockback but neither occurs. Grenade kills award no experience. Chain explosions can occur. Most nearby NPCs reportedly do not turn hostile when their allies are harmed by these blasts.",
+    "Base value": "16 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

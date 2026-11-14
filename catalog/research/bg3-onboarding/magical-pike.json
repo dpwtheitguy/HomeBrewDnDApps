@@ -1,0 +1,56 @@
+{
+  "item_id": "bg3-wiki:32411",
+  "title": "Magical Pike",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 420730,
+      "title": "Magical Pike",
+      "markers": [
+        "MAG_Generic_02_Pike_1"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374223,
+      "title": "Rush Attack",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374168,
+      "title": "Piercing Strike",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 441529,
+      "title": "Brace (Melee)",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443536,
+      "title": "Gaping Wounds",
+      "markers": [
+        "Honour"
+      ]
+    }
+  ],
+  "summary": "+1 pike with reach, piercing wounds, and Brace.",
+  "fields": {
+    "Weapon profile": "1d10 + 1 Piercing plus Strength, +1 to attack rolls. Martial two-handed melee weapon, 8 ft reach, Heavy and Dippable.",
+    "Rush Attack": "Action, 30 ft. Charge and attack the first non-allied creature or object in the path for 1d4 + attack ability modifier Piercing. Strength save against weapon-action DC or Off Balance for 2 turns. Off Balance gives Disadvantage on Strength and Dexterity checks and grants attackers Advantage. Damage or Help removes it. Once per Short Rest with proficiency.",
+    "Piercing Strike": "Action, melee weapon damage. Constitution save against weapon-action DC +2 or Gaping Wounds for 2 turns. Undead and Constructs are immune. In standard modes hits on the target gain 2 extra Piercing damage. In Honour Mode it takes 2 extra damage of the original type from damage sources. Healing clears the condition. Once per Short Rest with proficiency.",
+    "Brace": "Spend 20 ft of movement. For the rest of this turn roll melee damage twice and take the higher result. It stacks with Savage Attacker. Once per Short Rest with proficiency.",
+    "Acquisition": "Dig up the rosewood casket in the Lower City graveyard at X 16, Y 25.",
+    "Base value": "40 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

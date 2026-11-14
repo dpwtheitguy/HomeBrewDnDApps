@@ -1,0 +1,52 @@
+{
+  "item_id": "bg3-wiki:9580",
+  "title": "Gleamdance Dagger",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418940,
+      "title": "Gleamdance Dagger",
+      "markers": [
+        "MAG_WYRM_Farlin_Dagger"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432596,
+      "title": "Gleamdance Dagger: Glowing",
+      "markers": [
+        "| description = This object shines with a glowing light in a radius of {{Radius|m=6|ft=20}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432597,
+      "title": "Gleamdancer",
+      "markers": [
+        "| description = When this dagger is wielded in the off-hand, the wielder gains a +1 bonus to {{Armour Class}}."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 341894,
+      "title": "Daggers",
+      "markers": [
+        "| damage = 1d4"
+      ]
+    }
+  ],
+  "summary": "A +2 dagger that can shed light and gives +1 AC when held in the off hand.",
+  "fields": {
+    "Damage": "1d4 + 2 Piercing",
+    "Range": "5 ft melee.",
+    "Training": "simple",
+    "Handling": "one-handed",
+    "Enchantment": "+2",
+    "Weapon actions": "Piercing Strike",
+    "Glow": "Toggle the light on or off. It illuminates a 20 ft radius.",
+    "Gleamdancer": "Wield in the off hand to gain +1 AC.",
+    "Base value": "190 gp in BG3. Merchant prices vary.",
+    "Properties": "Finesse, Light, Thrown, Dippable."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

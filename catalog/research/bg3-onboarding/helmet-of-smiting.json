@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:3459",
+  "title": "Helmet of Smiting",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419475,
+      "title": "Helmet of Smiting",
+      "markers": [
+        "MAG_Paladin_SmiteSpellsSupport_Helmet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432129,
+      "title": "Bolstering Smite",
+      "markers": [
+        "| description = When you apply a condition with one of your Smite spells, you gain [[Temporary Hit Points]] equal to your [[Charisma|Charisma modifier]]."
+      ]
+    }
+  ],
+  "summary": "Gain +1 Constitution saves. When a Smite spell applies a condition, gain temporary HP equal to your Charisma modifier.",
+  "fields": {
+    "Base value": "115 gp in BG3. Merchant prices vary.",
+    "Bolstering Smite": "Applying a condition with Banishing, Blinding, Branding, Searing, or Wrathful Smite grants temporary HP equal to Charisma modifier for 2 turns. Thunderous and Staggering Smite do not qualify. The source reports that any Frightened application can qualify, and other temporary HP can override the bonus even when lower.",
+    "Constitution saves": "+1 to Constitution saving throws."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

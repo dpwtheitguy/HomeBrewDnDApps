@@ -1,0 +1,72 @@
+{
+  "item_id": "bg3-wiki:7939",
+  "title": "Pickaxe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Pickaxe",
+      "revision": 421800,
+      "markers": [
+        "TOOL_GEN_Mine_Pickaxe_A"
+      ]
+    },
+    {
+      "role": "Rules: Maiming Strike",
+      "title": "Maiming Strike",
+      "revision": 373912,
+      "markers": [
+        "Flying creatures"
+      ]
+    },
+    {
+      "role": "Rules: Piercing Strike",
+      "title": "Piercing Strike",
+      "revision": 374168,
+      "markers": [
+        "Gaping Wounds"
+      ]
+    },
+    {
+      "role": "Rules: Weakening Strike",
+      "title": "Weakening Strike",
+      "revision": 374483,
+      "markers": [
+        "Weak Grip"
+      ]
+    },
+    {
+      "role": "Rules: Gaping Wounds",
+      "title": "Gaping Wounds",
+      "revision": 443536,
+      "markers": [
+        "Honour Mode"
+      ]
+    },
+    {
+      "role": "Rules: Weak Grip (condition)",
+      "title": "Weak Grip (condition)",
+      "revision": 437410,
+      "markers": [
+        "Disadvantage"
+      ]
+    },
+    {
+      "role": "Rules: Maimed",
+      "title": "Maimed",
+      "revision": 443966,
+      "markers": [
+        "reduced to 0"
+      ]
+    }
+  ],
+  "summary": "Two-handed martial mining pick with three proficiency actions.",
+  "fields": {
+    "Weapon": "Martial two-handed, dippable, 5-ft melee. 1d8 Piercing plus Strength.",
+    "Maiming Strike": "Action once per Short Rest with proficiency. 1d4 weapon-type damage plus the attack ability modifier. Constitution save against weapon-action DC +2 or Maimed for 2 turns. Flying creatures are immune. Maimed sets movement to zero and gives Disadvantage on Dexterity saves. Healing clears it.",
+    "Piercing Strike": "Action once per Short Rest with proficiency. Deal weapon damage. Constitution save against weapon-action DC +2 or Gaping Wounds for 2 turns, adding 2 Piercing damage to subsequent hits. Undead and constructs are immune. Healing clears Gaping Wounds. In Honour Mode the +2 adopts the original damage type and applies to any damage source.",
+    "Weakening Strike": "Action once per Short Rest with proficiency. Nonlethal attack for 1d4 plus the attack ability modifier of the weapon’s damage type. Strength save against weapon-action DC +2 or Weak Grip for 2 turns. Creatures without weapons are immune. Weak Grip imposes Disadvantage on attack rolls and Strength saves. An ally can clear it with Help.",
+    "Acquisition": "Found in ruins and underground areas.",
+    "Base value": "10 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "bg3-wiki:5678",
+  "title": "Auntie Ethel's Hair",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 426001,
+      "title": "Auntie Ethel's Hair",
+      "markers": [
+        "Quest_HAG_HagHair_Strength"
+      ]
+    }
+  ],
+  "summary": "Consume the chosen variant for a permanent +1 to its ability score.",
+  "fields": {
+    "Effect": "Choose Strength, Dexterity, Constitution, Intelligence, Wisdom, or Charisma when receiving the reward. Consuming the hair increases that score permanently by 1.",
+    "Limits": "The bonus does not change a score currently set to a fixed value by gear or an elixir.",
+    "Acquisition": "Reward from Auntie Ethel’s bargain in the Overgrown Tunnel.",
+    "Base value": "280 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 mechanics and pinned item and related rule sources."
+}

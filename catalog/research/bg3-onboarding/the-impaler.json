@@ -1,0 +1,99 @@
+{
+  "item_id": "bg3-wiki:35597",
+  "title": "The Impaler",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "The Impaler",
+      "revision": 424040,
+      "markers": [
+        "MAG_Generic_01_Pike_2"
+      ]
+    },
+    {
+      "role": "Rules: Break the Unbroken (1d10)",
+      "title": "Break the Unbroken (1d10)",
+      "revision": 432141,
+      "markers": [
+        "| description = Deals an additional {{DamageText|1d10|Piercing}} to targets that still have all their [[Hit Points|hit points]]."
+      ]
+    },
+    {
+      "role": "Rules: Death Drinker",
+      "title": "Death Drinker",
+      "revision": 432247,
+      "markers": [
+        "| description = Gain 2d10 temporary hit points when landing a killing blow on an enemy with this weapon."
+      ]
+    },
+    {
+      "role": "Rules: Bloodrender",
+      "title": "Bloodrender",
+      "revision": 416592,
+      "markers": [
+        "| description = Deal additional damage equal to your proficiency bonus. On a successful hit, you gain  {{SmCond|Bloodrender}} which lets you deal more damage at the cost of some hitpoints."
+      ]
+    },
+    {
+      "role": "Rules: Bloodrender (condition)",
+      "title": "Bloodrender (condition)",
+      "revision": 434687,
+      "markers": [
+        "| effects = * Affected entity deals an additional {{DamageText|1d4|piercing}} on all hits while taking {{DamageText|1d4|piercing}} per turn."
+      ]
+    },
+    {
+      "role": "Rules: Brace (Melee)",
+      "title": "Brace (Melee)",
+      "revision": 441529,
+      "markers": [
+        "movement"
+      ]
+    },
+    {
+      "role": "Rules: Piercing Strike",
+      "title": "Piercing Strike",
+      "revision": 374168,
+      "markers": [
+        "Gaping Wounds"
+      ]
+    },
+    {
+      "role": "Rules: Gaping Wounds",
+      "title": "Gaping Wounds",
+      "revision": 443536,
+      "markers": [
+        "Honour Mode"
+      ]
+    },
+    {
+      "role": "Rules: Rush Attack",
+      "title": "Rush Attack",
+      "revision": 374223,
+      "markers": [
+        "First non-allied"
+      ]
+    },
+    {
+      "role": "Rules: Off Balance",
+      "title": "Off Balance",
+      "revision": 444158,
+      "markers": [
+        "Removed by taking damage"
+      ]
+    }
+  ],
+  "summary": "Unobtainable +2 pike punishes full-health foes and rewards kills.",
+  "fields": {
+    "Weapon profile": "Martial, Two-handed, 8 ft melee (Reach), Dippable. 1d10 + 2 Piercing plus Strength. +2 to attack rolls.",
+    "Break the Unbroken": "+1d10 Piercing against targets at full HP.",
+    "Death Drinker": "A killing blow with this weapon grants 2d10 temporary HP.",
+    "Bloodrender": "With proficiency, Action once per Short Rest. Hit for weapon damage plus proficiency bonus Piercing. A hit grants Bloodrender for 3 turns. It adds 1d4 Piercing to every hit and deals 1d4 Piercing to the wielder each turn.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "480 gp nominal BG3 value.",
+    "Brace (Melee)": "With proficiency, once per Short Rest. Spend 20 ft of movement. Roll melee damage twice and take the higher result for this turn. Stacks with Savage Attacker for three rolls. Breaks Hiding and Invisible.",
+    "Piercing Strike": "With proficiency, once per Short Rest. Action, weapon damage. CON save against weapon-action DC +2 or Gaping Wounds for 2 turns. Successful hits gain 2 Piercing. Honour Mode adds 2 of the original type to any damage source. Healing clears it. Undead and Constructs are immune.",
+    "Rush Attack": "With proficiency, once per Short Rest. Action. Charge up to 30 ft and hit first non-allied creature or object for 1d4 Piercing plus attack ability modifier. STR save against weapon-action DC or Off Balance for 2 turns."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations. Reconciled applicable action, condition, and variant details against pinned rules."
+}

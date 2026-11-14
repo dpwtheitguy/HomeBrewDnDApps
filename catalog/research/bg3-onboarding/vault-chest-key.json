@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:47109",
+  "title": "Vault Chest Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430571,
+      "title": "Vault Chest Key",
+      "markers": [
+        "LOW_CountingHouse_VaultsChest02_Key"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 440067,
+      "title": "The Counting House",
+      "markers": [
+        "outside the grates contains only gold"
+      ]
+    }
+  ],
+  "summary": "Unlocks the gold-only Wooden Chest outside the grates in the Counting House.",
+  "fields": {
+    "Use": "Unlock the Wooden Chest outside the grates. The chest inside near safe 1 uses a different lock.",
+    "Acquisition": "Wooden Desk at X −707, Y 851 in the High Security Vaults according to the key’s item page.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

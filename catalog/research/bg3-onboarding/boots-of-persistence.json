@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:8049",
+  "title": "Boots of Persistence",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416684,
+      "title": "Boots of Persistence",
+      "markers": [
+        "MAG_EndGame_Metal_Boots"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432775,
+      "title": "Legendary Mobility",
+      "markers": [
+        "| description = You gain {{Cond|Freedom of Movement}} and {{Cond|Longstrider}}."
+      ]
+    }
+  ],
+  "summary": "+1 Dexterity saves. While equipped, gain Freedom of Movement and Longstrider: move 10 ft farther, ignore difficult terrain and magical movement reduction, and resist magical paralysis and restraint.",
+  "fields": {
+    "Effect": "+1 Dexterity saves. While equipped, gain Freedom of Movement and Longstrider: move 10 ft farther, ignore difficult terrain and magical movement reduction, and resist magical paralysis and restraint.",
+    "Equipment type": "Boots",
+    "Training": "Medium Armour",
+    "Base value": "1300 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

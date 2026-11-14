@@ -1,0 +1,22 @@
+{
+  "item_id": "bg3-wiki:33070",
+  "title": "Concussion Grenade",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417229,
+      "title": "Concussion Grenade",
+      "markers": [
+        "PUZ_Trap_Gortash_GrenadeInstantiator_Grenade"
+      ]
+    }
+  ],
+  "summary": "Throw an explosive up to 60 ft for Thunder damage in a 13 ft radius.",
+  "fields": {
+    "Throw": "Throw up to 60 ft as an Action. The tooltip lists 5d10 + 18 Thunder in a 13 ft radius. DC 18 Dexterity. Failure pushes targets about 13 ft from the thrower; the source reports the coded save damage is 5d10 + 9 rather than half.",
+    "Fire surface": "Creates a 7 ft radius Fire surface for 2 turns.",
+    "Hazard": "After one turn on the ground the grenade can explode at the start of the next turn if picked up. In Tactician or Honour, interacting can detonate it immediately. Pinned notes report Sculpt Spells can prevent damage and kills grant no XP.",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence."
+}

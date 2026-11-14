@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:12628",
+  "title": "Moonhaven Logbook",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Moonhaven Logbook",
+      "revision": 421072,
+      "markers": [
+        "faab6ead-14bc-449f-b24f-f1459ffd0692"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Search the Cellar",
+      "revision": 408814,
+      "markers": [
+        "Moonhaven Logbook"
+      ]
+    }
+  ],
+  "summary": "Read in the Apothecary’s Cellar for the Search the Cellar quest and 15 XP when it advances.",
+  "fields": {
+    "Read": "If reading advances Search the Cellar, gain 15 XP.",
+    "Acquisition": "Apothecary’s Cellar in the Blighted Village at X −668, Y −356.",
+    "Base value": "14 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:6345",
+  "title": "Scroll of Feather Fall",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Feather Fall",
+      "revision": 422786,
+      "markers": [
+        "LOOT_SCROLL_FeatherFall"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Feather Fall",
+      "revision": 327967,
+      "markers": [
+        "Shout_FeatherFall"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "You and allies within 30 ft take no falling damage for 10 turns.",
+  "fields": {
+    "Cast": "Level 1. Spend a Bonus Action and consume the scroll. No spell slot required.",
+    "Effect": "You and allies within 30 ft take no falling damage for 10 turns.",
+    "Range": "Self.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

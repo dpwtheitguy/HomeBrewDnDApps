@@ -1,0 +1,42 @@
+{
+  "item_id": "bg3-wiki:9190",
+  "title": "Cold Snap",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438206,
+      "title": "Cold Snap",
+      "markers": [
+        "MAG_Frost_Offhand_Dagger"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432169,
+      "title": "Chilling Counter",
+      "markers": [
+        "| description = When a creature misses you with an attack, it receives {{Cond|Chilled}} for 2 turns.{{see bugs}}"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442377,
+      "title": "Chilled",
+      "markers": [
+        "* Affected entity is [[vulnerable]] to {{DamageType|Cold}} damage and [[resistant]] to {{DamageType|Fire}} damage."
+      ]
+    }
+  ],
+  "summary": "An off-hand dagger that adds +1 AC and Chills attackers who miss.",
+  "fields": {
+    "Damage": "1d4 Piercing",
+    "Weapon profile": "Simple, one-handed, daggers.",
+    "Extra damage": "1d4 Cold",
+    "Properties": "Finesse, Light, Thrown.",
+    "Cold rider": "A non-thrown hit also deals 1d4 Cold damage.",
+    "Chilling Counter": "In the off hand, missed attacks against you apply Chilled for 2 turns. The tooltip lists DC 13 Constitution, but the pinned rule reports no save. Chilled gives Cold vulnerability and Fire resistance. Applying Wet after Chilled can Freeze for 1 turn.",
+    "Base value": "190 gp nominal BG3 value.",
+    "Off-hand AC": "+1 AC while equipped in the off hand."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence. Expanded the card from the pinned item and linked gameplay evidence."
+}

@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:3429",
+  "title": "The Amulet of Lost Voices",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423936,
+      "title": "The Amulet of Lost Voices",
+      "markers": [
+        "UNI_CHA_TalismanOfJergal"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 423421,
+      "title": "Speak with Dead",
+      "markers": [
+        "five questions"
+      ]
+    }
+  ],
+  "summary": "Cast level 3 Speak with Dead once per Long Rest.",
+  "fields": {
+    "Speak with Dead": "Action at 30 ft. An eligible corpse normally answers up to five questions. After casting, Recast Speak with Dead can be used without another slot until Long Rest. A corpse usually refuses to speak to its killer.",
+    "Acquisition": "Heavy chest in Withers’ chamber in the Dank Crypt.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

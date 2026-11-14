@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:9686",
+  "title": "Spellcrux Amulet",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423438,
+      "title": "Spellcrux Amulet",
+      "markers": [
+        "MAG_Restoration_SpellSlotRestoration_Amulet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 366112,
+      "title": "Spell Slot Restoration",
+      "markers": [
+        "spell slot"
+      ]
+    }
+  ],
+  "summary": "Restore an expended spell slot as a Bonus Action once per Long Rest.",
+  "fields": {
+    "Spell Slot Restoration": "Bonus Action on yourself once per Long Rest. Choose a level from 1 to 6 and restore an expended slot of that level. Regular and Warlock slots of the same chosen level can both restore, as can Gale’s special level 3 slot alongside a normal slot. Gear-granted and created slots can restore. A level with no expended slot provides no restoration.",
+    "Recharge": "The restored slot survives unequipping, but the cooldown stays with the amulet.",
+    "Acquisition": "Worn by the Warden.",
+    "Base value": "210 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

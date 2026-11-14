@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:47257",
+  "title": "Benryr's Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430499,
+      "title": "Benryr's Key",
+      "markers": [
+        "S_WYR_Flophouse_FlowerKey_003"
+      ]
+    },
+    {
+      "role": "Linked lock or location",
+      "revision": 416419,
+      "title": "Bernyr",
+      "markers": [
+        "{{MdRarityItem|Benryr's Key}}"
+      ]
+    }
+  ],
+  "summary": "Likely opens Bernyr’s personal chest at Fraygo’s Flophouse.",
+  "fields": {
+    "Use": "Likely opens Bernyr’s personal chest at Fraygo’s Flophouse.",
+    "Acquisition or alternate access": "Carried by Worker Bernyr. The game labels his chest and key Benryr.",
+    "Source note": "Target inferred from the key’s game identifier or item notes and the documented location."
+  },
+  "changes": "Added the native key interaction and source locators. Flagged the inferred lock target in the summary and use field."
+}

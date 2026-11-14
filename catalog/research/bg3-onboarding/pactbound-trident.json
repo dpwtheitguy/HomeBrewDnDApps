@@ -1,0 +1,97 @@
+{
+  "item_id": "bg3-wiki:40574",
+  "title": "Pactbound Trident",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421649,
+      "title": "Pactbound Trident",
+      "markers": [
+        "WPN_HUM_Trident_Pact"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 291670,
+      "title": "Pact of the Blade: Trident",
+      "markers": [
+        "| item duration = Permanent"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 421638,
+      "title": "Pact of the Blade",
+      "markers": [
+        "Strength]] or [[Dexterity]]"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439161,
+      "title": "Deepened Pact",
+      "markers": [
+        "does not work in Honour Mode"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 436400,
+      "title": "Pact Weapon (condition)",
+      "markers": [
+        "Charisma modifier"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374223,
+      "title": "Rush Attack",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 444158,
+      "title": "Off Balance",
+      "markers": [
+        "Removed by taking damage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 374168,
+      "title": "Piercing Strike",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 443536,
+      "title": "Gaping Wounds",
+      "markers": [
+        "Honour"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 417737,
+      "title": "Disarming Strike",
+      "markers": [
+        "| recharge = Short Rest"
+      ]
+    }
+  ],
+  "summary": "Summoned trident that uses Charisma and deals magical damage.",
+  "fields": {
+    "Weapon profile": "1d6 one-handed or 1d8 two-handed magical Piercing plus Charisma. Martial, versatile, 5 ft melee, Dippable.",
+    "Summon": "Warlock level 3 with Pact of the Blade. Summon into your hand as an Action, once per battle. You can have only one. It disappears if you remain more than 5 ft away for over 10 rounds.",
+    "Pact rules": "You are proficient with this weapon. Use Charisma for attacks and damage, while its weapon action save DC still uses Strength or Dexterity. Level 5 Deepened Pact grants Extra Attack. It stacks with other class Extra Attack features outside Honour Mode. The Pact Weapon cannot be dropped or disarmed. The linked Deepened Pact rules also apply to Hexed Weapons. A ranged attack made first, or Throw with a ranged weapon equipped, does not trigger the extra attack. A hidden proficiency can cover a second weapon of the same type while equipped together.",
+    "Rush Attack": "Action, charge up to 30 ft and attack the first non-allied creature or object in the path for 1d4 + attack ability modifier Piercing. Strength save against weapon-action DC or Off Balance for 2 turns. Off Balance gives Disadvantage on Strength and Dexterity checks and gives attackers Advantage until damage or Help clears it. Once per Short Rest.",
+    "Piercing Strike": "Action, melee weapon damage. Constitution save against weapon-action DC +2 or Gaping Wounds for 2 turns. Undead and Constructs are immune. In standard modes hits on the target gain 2 extra Piercing damage. In Honour Mode it takes 2 extra damage of the original type from damage sources. Healing clears the condition. Once per Short Rest.",
+    "Disarming Strike": "Action, hit a target wielding a weapon for 1d4 + attack ability modifier Piercing. It drops the weapon on a failed Strength save. The source lists weapon-action DC for the save and DC +2 for the condition. Success prevents the drop but not the damage. Once per Short Rest.",
+    "Base value": "0 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

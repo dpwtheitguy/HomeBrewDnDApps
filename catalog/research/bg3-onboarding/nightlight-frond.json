@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:14179",
+  "title": "Nightlight Frond",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 421319,
+      "title": "Nightlight Frond",
+      "markers": [
+        "| uid = LOOT_Underdark_Mushroom_Nightlight_Piece"
+      ]
+    },
+    {
+      "role": "Rules: Essence of Nightlight",
+      "revision": 418279,
+      "title": "Essence of Nightlight",
+      "markers": [
+        "| description = '''Essence of Nightlight''' is an [[Alchemy|Alchemical Extraction]]. It can be combined with any [[Alchemy#Extractions|Suspension]] to create a {{SmRarityItem|Hearthlight Bomb}}."
+      ]
+    },
+    {
+      "role": "Rules: Hearthlight Bomb",
+      "revision": 419413,
+      "title": "Hearthlight Bomb",
+      "markers": [
+        "| description = '''Hearthlight Bomb''' is a [[Consumables|Consumable]] ([[Grenades|Grenade]]) item which can be {{SAI|throw|thrown}}."
+      ]
+    }
+  ],
+  "summary": "Extract three Nightlight Fronds into Essence of Nightlight. Mix the essence with any Suspension to make a Hearthlight Bomb.",
+  "fields": {
+    "Harvest": "DC 12 Nature check on Underdark Nightlight mushrooms. Also sold by Derryth Bonecloak at the Myconid Colony.",
+    "Crafted bomb": "Throw as an Action to illuminate a 30 ft radius for 10 turns.",
+    "Base value": "2 gp in BG3. Merchant prices vary.",
+    "Crafting": "Extract three Nightlight Fronds into Essence of Nightlight. Combine the essence with any Suspension to make a Hearthlight Bomb."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,46 @@
+{
+  "item_id": "bg3-wiki:9492",
+  "title": "Veil of the Morning",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Veil of the Morning",
+      "revision": 424605,
+      "markers": [
+        "MAG_WYRM_UndeadProtector_Robe"
+      ]
+    },
+    {
+      "role": "Rules: Let The Undead Blanch With Fear",
+      "title": "Let The Undead Blanch With Fear",
+      "revision": 432780,
+      "markers": [
+        "| description = [[Undead]] have {{Disadvantage}} on [[Attack Roll|attack rolls]] against you, and you have {{Advantage|Advantage}} on {{Saving Throw}}s against their actions and spells."
+      ]
+    },
+    {
+      "role": "Rules: Turn Undead",
+      "title": "Turn Undead",
+      "revision": 424422,
+      "markers": [
+        "Once-per-rest version"
+      ]
+    },
+    {
+      "role": "Rules: Turned (condition)",
+      "title": "Turned (condition)",
+      "revision": 437284,
+      "markers": [
+        "ends upon taking damage"
+      ]
+    }
+  ],
+  "summary": "Makes undead less effective against the wearer and grants Turn Undead.",
+  "fields": {
+    "Defence": "Clothing, base AC 10 plus Dexterity modifier. Undead have Disadvantage on attacks against you. You have Advantage on saves against undead actions and spells.",
+    "Turn Undead": "Item Action once per Long Rest. Undead within 30 ft who can see you must pass a Wisdom save against your spell save DC or become Turned for 3 turns. Also affects Malefic Possession. A turned creature flees, cannot spend reactions, and can Dash or try to escape immobilisation. Damage ends Turned.",
+    "Acquisition": "Sold by Mystic Carrion.",
+    "Base value": "1600 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

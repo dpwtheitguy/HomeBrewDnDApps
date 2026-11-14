@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:10263",
+  "title": "Amulet of the Harpers",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 415924,
+      "title": "Amulet of the Harpers",
+      "markers": [
+        "MAG_Harpers_HarpersAmulet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 425425,
+      "title": "Shield (spell)",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "Gain Advantage on Wisdom saves and a Shield reaction once per Long Rest.",
+  "fields": {
+    "Equipment type": "Amulets",
+    "Effect": "Advantage on Wisdom saving throws. Cast Shield as a Reaction once per Long Rest when about to be hit, for +5 AC and protection from Magic Missile.",
+    "Base value": "125 gp in BG3. Merchant prices vary.",
+    "Item-cast exception": "The pinned spell source reports that item-granted Shield does not retain its usual beneficial effects until the start of the next turn. Do not count on protection against follow-up attacks."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

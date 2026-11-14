@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:6781",
+  "title": "Hide Armour +2",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419508,
+      "title": "Hide Armour +2",
+      "markers": [
+        "ARM_Hide_2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432101,
+      "title": "Balance",
+      "markers": [
+        "| description = Gain a +1 bonus to [[Dexterity]] {{Saving Throw}}s and {{Ability Check}}s"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432053,
+      "title": "Ambusher (+1)",
+      "markers": [
+        "| description = Gain a +1 bonus to {{Initiative|Initiative Rolls}}."
+      ]
+    }
+  ],
+  "summary": "Medium Armour with base AC 14 plus Dexterity modifier up to +2. Gain +1 to Dexterity checks, Dexterity saves and Initiative.",
+  "fields": {
+    "Armour class": "14",
+    "Training": "Medium Armour",
+    "Base value": "310 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

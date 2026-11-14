@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:10952",
+  "title": "Ring of Truthfulness",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Ring of Truthfulness",
+      "revision": 422398,
+      "markers": [
+        "MAG_WYRM_OfTruthTelling_Ring"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Ring of Veracity",
+      "revision": 433056,
+      "markers": [
+        "Insight Checks"
+      ]
+    }
+  ],
+  "summary": "Advantage on Insight checks.",
+  "fields": {
+    "Ring of Veracity": "Gain advantage on Insight checks while wearing it.",
+    "Base value": "70 gp nominal BG3 value.",
+    "Acquisition": "Worn by the newborn mind flayer in the Abandoned Windmill basement, X 44, Y −38."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:6349",
+  "title": "Scroll of Colour Spray",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Colour Spray",
+      "revision": 422762,
+      "markers": [
+        "LOOT_SCROLL_ColorSpray"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Colour Spray",
+      "revision": 387779,
+      "markers": [
+        "Zone_ColorSpray"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Blind selected creatures with up to 33 combined current HP in a 17 ft cone for 1 turn.",
+  "fields": {
+    "Cast": "Level 1. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Blind selected creatures with up to 33 combined current HP in a 17 ft cone for 1 turn. No saving throw.",
+    "Range": "Self.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "40 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources."
+}

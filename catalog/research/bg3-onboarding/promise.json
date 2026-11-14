@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:9617",
+  "title": "Promise",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Promise",
+      "revision": 422008,
+      "markers": [
+        "QUEST_HalsinQuest_HalsinDagger"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Shadow Blade (passive feature)",
+      "revision": 433110,
+      "markers": [
+        "both mainhand and off-hand"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Piercing Strike",
+      "revision": 374168,
+      "markers": [
+        "| condition dc = weapon action + 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Gaping Wounds",
+      "revision": 443536,
+      "markers": [
+        "Honour Mode"
+      ]
+    }
+  ],
+  "summary": "Unobtainable +1 dagger with advantage on obscured melee targets.",
+  "fields": {
+    "Weapon profile": "1d4 + 1 Piercing plus applicable ability modifier. +1 to attack rolls. Simple one-handed, 5 ft melee, Finesse, Light and Thrown.",
+    "Shadow Blade": "Advantage on melee weapon attacks against lightly or heavily obscured targets, including with an equipped second melee weapon.",
+    "Piercing Strike": "With proficiency, Action once per Short Rest. Make a melee weapon attack. Constitution save against weapon-action DC +2 prevents Gaping Wounds for 2 turns. Undead and Constructs are immune. Healing removes it. Standard modes add 2 Piercing on hits. Honour Mode adds 2 of the original damage type to any source.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "65 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources."
+}

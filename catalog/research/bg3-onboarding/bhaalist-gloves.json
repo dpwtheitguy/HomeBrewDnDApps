@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:11947",
+  "title": "Bhaalist Gloves",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416439,
+      "title": "Bhaalist Gloves",
+      "markers": [
+        "| uid = MAG_Bhaalist_Gloves"
+      ]
+    },
+    {
+      "role": "Rules: Garrotte",
+      "revision": 418804,
+      "title": "Garrotte",
+      "markers": [
+        "| summary = '''Garrotte''' is an action granted by {{SmRarityItem|Bhaalist Gloves}} that allows the user to wrap a rope around a target humanoid's throat, dealing damage and silencing it."
+      ]
+    }
+  ],
+  "summary": "Gain +1 to attack rolls and access to Garrotte.",
+  "fields": {
+    "Garrotte": "Action once per Short Rest. Target a Humanoid in melee. Deals 1d10 Bludgeoning. Concentration, up to 3 turns. DC 14 Strength resists Garrotted and its silence.",
+    "Attack bonus": "Gain +1 to attack rolls.",
+    "Acquisition": "Purchase from Echo of Abazigal at the Murder Tribunal after becoming an Unholy Assassin of Bhaal.",
+    "Base value": "540 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and pinned evidence, then refined its mechanics against item and linked rule notes."
+}

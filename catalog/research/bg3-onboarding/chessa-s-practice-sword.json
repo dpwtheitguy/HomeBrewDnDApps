@@ -1,0 +1,23 @@
+{
+  "item_id": "bg3-wiki:19862",
+  "title": "Chessa's Practice Sword",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417028,
+      "title": "Chessa's Practice Sword",
+      "markers": [
+        "WPN_HUM_Toy_Sword_A_Chessa"
+      ]
+    }
+  ],
+  "summary": "Light, Finesse practice shortsword that deals Bludgeoning damage. A qualifying Sneak Attack uses the weapon’s Bludgeoning damage type.",
+  "fields": {
+    "Damage": "1d4 Bludgeoning",
+    "Range": "5 ft melee.",
+    "Handling": "one-handed",
+    "Training": "simple",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

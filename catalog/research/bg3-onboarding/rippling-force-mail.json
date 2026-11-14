@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:9388",
+  "title": "Rippling Force Mail",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Rippling Force Mail",
+      "revision": 422407,
+      "markers": [
+        "MAG_ZOC_ForceConduit_ChainMail"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Force Absorption",
+      "revision": 432577,
+      "markers": [
+        "damage is reduced to zero"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Force Conduit",
+      "revision": 442903,
+      "markers": [
+        "only triggered after a melee attack"
+      ]
+    }
+  ],
+  "summary": "AC 17 Heavy Armour that builds Force Conduit when you take physical damage.",
+  "fields": {
+    "Armour Class": "17. Heavy Armour proficiency and disadvantage on Stealth checks.",
+    "Force Absorption": "Taking at least 1 Bludgeoning, Piercing or Slashing damage grants 2 turns of Force Conduit. Falling, redirected Warding Bond damage and qualifying self-damage can count. Damage reduced to 0 does not trigger it.",
+    "Force Conduit": "Reduces incoming Bludgeoning, Piercing and Slashing by 1 per remaining turn, up to 7. At 5 or more turns, a damaging melee hit that gets through triggers 1d4 Force in a 20 ft radius and consumes the stacks. This armour then restores 2 turns. Redirected Warding Bond damage can be reduced but does not trigger the burst. The burst can trigger Arcane Echomalefaction and Coldbrim Chill on enemies.",
+    "Acquisition": "Locked rustic chest upstairs in Dammon’s Last Light Inn smithy, X −22, Y 175.",
+    "Base value": "1000 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 rules using pinned item and linked gameplay sources. Reconciled applicable action, condition, and variant details against pinned rules."
+}

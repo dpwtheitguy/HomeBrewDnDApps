@@ -1,0 +1,38 @@
+{
+  "item_id": "bg3-wiki:10931",
+  "title": "Boots of Psionic Movement",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416685,
+      "title": "Boots of Psionic Movement",
+      "markers": [
+        "MAG_Githborn_PsionicMovement_Boots"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438767,
+      "title": "Flying Strike",
+      "markers": [
+        "| description = When a [[githyanki]] casts {{SAI|Fly}}, their next melee weapon attack deals an additional {{DamageText|1d4|Psychic}} damage."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 418896,
+      "title": "Githborn: Flying Boots",
+      "markers": [
+        "| description = Bestow the ability to {{SAI|Fly (class action)|Fly}} upon yourself."
+      ]
+    }
+  ],
+  "summary": "+1 Dexterity saves. Githyanki can use a Bonus Action once per Long Rest to gain Flight for 10 turns. A githyanki who casts Fly adds 1d4 Psychic to their next melee weapon attack within 1 turn.",
+  "fields": {
+    "Effect": "+1 Dexterity saves. Githyanki can use a Bonus Action once per Long Rest to gain Flight for 10 turns. A githyanki who casts Fly adds 1d4 Psychic to their next melee weapon attack within 1 turn.",
+    "Equipment type": "Boots",
+    "Training": "Medium Armour",
+    "Base value": "450 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

@@ -1,0 +1,56 @@
+{
+  "item_id": "bg3-wiki:31430",
+  "title": "Greataxe +2",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419119,
+      "title": "Greataxe +2",
+      "markers": [
+        "WPN_HUM_Greataxe_A_2_NOT_APPROVED"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373605,
+      "title": "Cleave",
+      "markers": [
+        "| targets = Up to 3"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 373909,
+      "title": "Lacerate",
+      "markers": [
+        "| condition dc = weapon action + 2"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 379055,
+      "title": "Prepare",
+      "markers": [
+        "| cost = movement m:6"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Bleeding",
+      "revision": 442222,
+      "markers": [
+        "except {{Charlink|Ghast}}s"
+      ]
+    }
+  ],
+  "summary": "Martial two-handed greataxe dealing 1d12 + 2 Slashing.",
+  "fields": {
+    "Weapon profile": "1d12 + 2 Slashing, 5 ft melee. Martial, two-handed, heavy and dippable.",
+    "Cleave": "Action once per Short Rest with proficiency. Attack up to 3 non-allied creatures or objects in a 7 ft cone, dealing half normal weapon damage. Flat bonuses such as Rage are not halved.",
+    "Lacerate": "Action once per Short Rest with proficiency. Make a melee weapon attack. DC is weapon-action DC +2, Constitution save or Bleeding for 2 turns. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Prepare": "Once per Short Rest with proficiency, spend 20 ft of movement. Until the turn ends, successful melee weapon hits add your Strength modifier as physical damage, minimum 1. This breaks hiding and invisibility. In Honour, this bonus does not serve as a damage rider source.",
+    "Acquisition": "Counting House Safe 2.",
+    "Base value": "190 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

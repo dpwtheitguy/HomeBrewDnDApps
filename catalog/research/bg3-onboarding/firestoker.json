@@ -1,0 +1,41 @@
+{
+  "item_id": "bg3-wiki:3335",
+  "title": "Firestoker",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 441078,
+      "title": "Firestoker",
+      "markers": [
+        "MAG_Fire_IncreasePiercingDamageToBurning_HandCrossbow"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432149,
+      "title": "Burned Alive",
+      "markers": [
+        "| description = Deals an additional {{DamageText|1d4|Weapon}} damage to {{Cond|Burning}} targets."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 389109,
+      "title": "Hand Crossbows",
+      "markers": [
+        "| damage = 1d6"
+      ]
+    }
+  ],
+  "summary": "A hand crossbow that deals an extra 1d4 Piercing against Burning targets.",
+  "fields": {
+    "Damage": "1d6 Piercing",
+    "Range": "50 ft ranged.",
+    "Training": "martial",
+    "Handling": "one-handed",
+    "Weapon actions": "Piercing Shot, Mobile Shot",
+    "Burned Alive": "When the target is Burning, the crossbow deals an extra 1d4 Piercing damage.",
+    "Base value": "100 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

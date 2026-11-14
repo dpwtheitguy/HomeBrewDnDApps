@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:11779",
+  "title": "Scroll of Circle of Death",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Scroll of Circle of Death",
+      "revision": 422759,
+      "markers": [
+        "LOOT_SCROLL_CircleOfDeath"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Circle of Death",
+      "revision": 376377,
+      "markers": [
+        "Target_CircleOfDeath"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "title": "Scrolls",
+      "revision": 422934,
+      "markers": [
+        "A character of any class can cast"
+      ]
+    }
+  ],
+  "summary": "Deal 8d6 Necrotic to creatures in a 30 ft radius, Constitution save for half.",
+  "fields": {
+    "Cast": "Level 6. Spend an Action and consume the scroll. No spell slot required.",
+    "Effect": "Target a creature, not a point on the ground. All creatures in the 30 ft radius, including allies, take 8d6 Necrotic. Constitution save for half.",
+    "Range": "60 ft.",
+    "Scroll rules": "Any class can cast this in BG3 if able to cast spells. Applicable attack rolls and saves use your proficiency bonus and item spellcasting ability. A Counterspelled scroll is not consumed.",
+    "Base value": "600 gp nominal BG3 value."
+  },
+  "changes": "Added exact native BG3 scroll activation, spell mechanics, and shared item-casting rules from pinned sources. Reconciled applicable action, condition, and variant details against pinned rules. Reconciled applicable action, condition, and variant details against pinned rules."
+}

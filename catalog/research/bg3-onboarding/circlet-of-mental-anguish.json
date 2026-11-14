@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:10752",
+  "title": "Circlet of Mental Anguish",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417078,
+      "title": "Circlet of Mental Anguish",
+      "markers": [
+        "MAG_Illithid_Regen_Circlet"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432983,
+      "title": "Psychic Leech",
+      "markers": [
+        "| description = When an enemy fails a {{Ability|Charisma}}, {{Ability|Intelligence}}, or {{Ability|Wisdom}} {{Saving Throw}} against one of your spells or cantrips, you regain {{DamageText|1d4|Healing}}."
+      ]
+    }
+  ],
+  "summary": "Regain 1d4 HP when an enemy fails a Charisma, Intelligence or Wisdom save against one of your spells or cantrips.",
+  "fields": {
+    "Effect": "Regain 1d4 HP when an enemy fails a Charisma, Intelligence or Wisdom save against one of your spells or cantrips.",
+    "Base value": "240 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

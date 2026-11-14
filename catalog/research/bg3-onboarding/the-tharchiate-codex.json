@@ -1,0 +1,56 @@
+{
+  "item_id": "bg3-wiki:11516",
+  "title": "The Tharchiate Codex",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 425452,
+      "title": "The Tharchiate Codex",
+      "markers": [
+        "UN_BOOK_LOW_TharchiateCypher"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437204,
+      "title": "Tharchiate Withering (condition)",
+      "markers": [
+        "reduced by 5"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 437202,
+      "title": "Tharchiate Vigour (condition)",
+      "markers": [
+        "next Long Rest"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 439295,
+      "title": "Danse Macabre",
+      "markers": [
+        "does not require corpses"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 440450,
+      "title": "Necromancy of Thay",
+      "markers": [
+        "knowledge is gained"
+      ]
+    }
+  ],
+  "summary": "The first reader takes a curse and can unlock the last secrets of Necromancy of Thay.",
+  "fields": {
+    "Tharchiate Withering": "The first reader takes −5 Constitution. Remove Curse or Greater Restoration clears it.",
+    "Tharchiate Vigour": "After clearing the curse, gain 20 temporary HP and refresh them each Long Rest. Respec removes them until the next Long Rest, and other temporary HP can overwrite them.",
+    "Necromancy of Thay": "The tome’s reader can use the Codex to reopen it. Danse Macabre unlocks regardless of DC 20 Wisdom save outcome. Failure applies Baleful Knowledge, removable by Remove Curse or Greater Restoration. Astarion can learn the meaning of his scars by reading both books.",
+    "Danse Macabre": "Level 5 Action, 30 ft, once per Long Rest. Summons four AI-controlled ghouls until Long Rest, with no corpses or spell slot required. Necromancy Wizard features may increase it to five stronger ghouls.",
+    "Acquisition": "Elminster Vault in Sorcerous Sundries.",
+    "Base value": "2000 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

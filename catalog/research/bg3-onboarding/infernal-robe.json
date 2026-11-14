@@ -1,0 +1,39 @@
+{
+  "item_id": "bg3-wiki:8219",
+  "title": "Infernal Robe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 419756,
+      "title": "Infernal Robe",
+      "markers": [
+        "ORI_Wyll_Infernal_Robe"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 325578,
+      "title": "Fire Shield: Warm",
+      "markers": [
+        "| description = Scorching flames shed light in a {{dist|m=3}} radius. You take only [[Resistance|half the damage]] of all {{DamageType|Cold}} damage, and deal {{DamageText|2d8|Fire}} damage to anyone who hits you with a melee attack."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 380465,
+      "title": "Fire Shield",
+      "markers": [
+        "| description = Wreathe your body in flames that shed light in a {{dist|m=3}} radius, provide [[Resistance]] to {{DamageType|Fire}} or {{DamageType|Cold}} damage, and retaliate against melee attacks."
+      ]
+    }
+  ],
+  "summary": "Gain +1 AC and Fire resistance. Cast Fire Shield: Warm once per Long Rest.",
+  "fields": {
+    "Fire Shield: Warm": "Bonus Action. For 10 turns, gain Cold resistance and deal 2d8 Fire to melee attackers who hit you, or 4d8 on a critical hit. The nominal light has no gameplay illumination.",
+    "Acquisition": "Mizora rewards Wyll after Karlach is killed and the party takes a Long Rest.",
+    "Base value": "1600 gp in BG3. Merchant prices vary.",
+    "Armour Class": "+1 AC while worn.",
+    "Fire resistance": "Take half Fire damage."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:10370",
+  "title": "Severed Head",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423010,
+      "title": "Severed Head",
+      "markers": [
+        "| description = '''Severed Head''' is a common miscellaneous item. Primarily of use for bartering or sale to [[Traders]]."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 430741,
+      "title": "Ancient Altar (Balthazar)",
+      "markers": [
+        "heads of"
+      ]
+    }
+  ],
+  "summary": "Can open Balthazar’s hidden chamber as an alternative to a heart.",
+  "fields": {
+    "Use": "Expose the Ancient Altar behind Musty Tomes at Moonrise Towers and insert a severed head to unlock the secret room. This is the generic head, separate from named quest heads.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

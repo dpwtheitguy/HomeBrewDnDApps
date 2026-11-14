@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:38249",
+  "title": "Rustic Chest",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Rustic Chest",
+      "revision": 422534,
+      "markers": [
+        "CONT_GEN_Chest_Wood_B"
+      ]
+    },
+    {
+      "role": "Rules: Sturdy",
+      "title": "Sturdy",
+      "revision": 443601,
+      "markers": [
+        "at least 10 damage"
+      ]
+    }
+  ],
+  "summary": "Portable 50 HP container with Sturdy.",
+  "fields": {
+    "Container": "Two documented visual variants share these stats. 44 lb, 50 HP. Sturdy requires at least 10 damage per individual hit.",
+    "Damage affinities": "Vulnerable to Bludgeoning. Resists Piercing, Necrotic and Radiant. Immune to Poison and Psychic.",
+    "Contents": "Common random consumables and equipment. Can be picked up or thrown.",
+    "Base value": "1 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

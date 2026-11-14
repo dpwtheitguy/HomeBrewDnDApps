@@ -1,0 +1,90 @@
+{
+  "item_id": "bg3-wiki:8038",
+  "title": "Sword of Chaos",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Sword of Chaos",
+      "revision": 423792,
+      "markers": [
+        "MAG_BG_Sarevok_OfChaos_Greatsword"
+      ]
+    },
+    {
+      "role": "Rules: Chaos",
+      "title": "Chaos",
+      "revision": 432164,
+      "markers": [
+        "| description = On dealing damage with this weapon, regain {{DamageText|1d6|Healing}}.{{see notes}}"
+      ]
+    },
+    {
+      "role": "Rules: Pommel Strike",
+      "title": "Pommel Strike",
+      "revision": 374173,
+      "markers": [
+        "Dazed"
+      ]
+    },
+    {
+      "role": "Rules: Dazed",
+      "title": "Dazed",
+      "revision": 442592,
+      "markers": [
+        "Dexterity"
+      ]
+    },
+    {
+      "role": "Rules: Lacerate",
+      "title": "Lacerate",
+      "revision": 373909,
+      "markers": [
+        "Bleeding"
+      ]
+    },
+    {
+      "role": "Rules: Bleeding",
+      "title": "Bleeding",
+      "revision": 442222,
+      "markers": [
+        "start of each turn"
+      ]
+    },
+    {
+      "role": "Rules: Cleave",
+      "title": "Cleave",
+      "revision": 373605,
+      "markers": [
+        "Up to 3"
+      ]
+    },
+    {
+      "role": "Rules: Rush Attack",
+      "title": "Rush Attack",
+      "revision": 374223,
+      "markers": [
+        "First non-allied"
+      ]
+    },
+    {
+      "role": "Rules: Off Balance",
+      "title": "Off Balance",
+      "revision": 444158,
+      "markers": [
+        "Removed by taking damage"
+      ]
+    }
+  ],
+  "summary": "+2 greatsword adds Necrotic damage and heals on damage instances.",
+  "fields": {
+    "Weapon profile": "Martial, Two-handed, 5 ft melee, Heavy, Dippable. 2d6 + 2 Slashing plus Strength. +2 to attack rolls. Adds 1d4 Necrotic on a hit.",
+    "Chaos": "Regain 1d6 HP for each qualifying damage instance, including multiple damage types or targets. This healing does not trigger on-heal effects.",
+    "Acquisition": "Carried by Sarevok Anchev.",
+    "Base value": "960 gp nominal BG3 value.",
+    "Pommel Strike": "With proficiency, once per Short Rest. Bonus Action for 1d4 nonlethal Bludgeoning. CON save against weapon-action DC +2 or Dazed for 2 turns, losing Dexterity AC bonus and Reaction use and gaining Disadvantage on WIS saves. Help clears it.",
+    "Lacerate": "With proficiency, once per Short Rest. Action, weapon damage. CON save against weapon-action DC +2 or Bleeding for 2 turns, with 2 Slashing at turn start and Disadvantage on CON saves until healed. The condition source lists Constructs, Elementals, Plants, Oozes and most Undead as immune, with Ghasts and Ghouls as exceptions.",
+    "Cleave": "With proficiency, once per Short Rest. Action in a 7-ft cone, up to 3 non-allied creatures or objects. Each takes half weapon damage, with flat bonuses unhalved.",
+    "Rush Attack": "With proficiency, once per Short Rest. Action. Charge up to 30 ft and hit first non-allied creature or object for 1d4 Piercing plus attack ability modifier. STR save against weapon-action DC or Off Balance for 2 turns."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations. Reconciled applicable action, condition, and variant details against pinned rules."
+}

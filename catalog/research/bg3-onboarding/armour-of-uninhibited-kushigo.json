@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:11786",
+  "title": "Armour of Uninhibited Kushigo",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416072,
+      "title": "Armour of Uninhibited Kushigo",
+      "markers": [
+        "MAG_Monk_Magic_Armor"
+      ]
+    },
+    {
+      "role": "Linked gameplay rule",
+      "revision": 432726,
+      "title": "Kushigo Counter",
+      "markers": [
+        "| summary ="
+      ]
+    }
+  ],
+  "summary": "While Patient Defence is active, use a Reaction to counter a missed melee attack.",
+  "fields": {
+    "Equipment type": "Clothing",
+    "Base AC": "10",
+    "Effect": "While Patient Defence is active, use a Reaction to make an unarmed strike against a creature that misses you with a melee attack.",
+    "Base value": "250 gp in BG3. Merchant prices vary.",
+    "Reported reach exception": "The pinned source says the reaction does not check normal unarmed reach and can trigger on a missed melee attack from farther away."
+  },
+  "changes": "Reconciled the item and linked gameplay rules with their pinned BG3 Wiki revisions, including item-specific qualifiers."
+}

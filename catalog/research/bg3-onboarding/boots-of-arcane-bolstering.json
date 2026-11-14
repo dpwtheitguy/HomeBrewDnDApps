@@ -1,0 +1,37 @@
+{
+  "item_id": "bg3-wiki:8851",
+  "title": "Boots of Arcane Bolstering",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 437712,
+      "title": "Boots of Arcane Bolstering",
+      "markers": [
+        "MAG_CQCaster_ArcaneChargeAfterDash_Boots"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433000,
+      "title": "Rapid Caster",
+      "markers": [
+        "| description = Each time they {{SAI|Dash}}, the wearer gains {{Cond|Arcane Charge}} for 2 turns."
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442045,
+      "title": "Arcane Charge",
+      "markers": [
+        "| effects ="
+      ]
+    }
+  ],
+  "summary": "Dashing grants Arcane Charge for 2 turns, and another Dash cannot raise its duration above 2. Arcane Charge adds 2 spell damage against Threatened targets, despite the item tooltip.",
+  "fields": {
+    "Effect": "Dashing grants Arcane Charge for 2 turns, and another Dash cannot raise its duration above 2. Arcane Charge adds 2 spell damage against Threatened targets, despite the item tooltip.",
+    "Equipment type": "Boots",
+    "Base value": "190 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

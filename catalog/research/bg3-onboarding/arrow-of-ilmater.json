@@ -1,0 +1,44 @@
+{
+  "item_id": "bg3-wiki:3702",
+  "title": "Arrow of Ilmater",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 428478,
+      "title": "Arrow of Ilmater",
+      "markers": [
+        "ARR_Arrow_Of_Wraiths_Embrace",
+        "price = 20",
+        "* Deals {{InfoBlob|Weapon Damage}} + {{DamageText|1d4|Necrotic}}"
+      ]
+    },
+    {
+      "role": "Shared arrow rules",
+      "revision": 439126,
+      "title": "Arrows",
+      "markers": [
+        "cannot be crafted",
+        "off-hand ranged attacks",
+        "no saving throws"
+      ]
+    },
+    {
+      "role": "Applied area or condition",
+      "revision": 434453,
+      "title": "Arrow of Ilmater (condition)",
+      "markers": [
+        "Cannot regain"
+      ]
+    }
+  ],
+  "summary": "Deals weapon damage plus 1d4 Necrotic and prevents the target from regaining HP until the end of its next turn.",
+  "fields": {
+    "Activation": "Action. Fire from a ranged weapon and consume one arrow. Range 60 ft.",
+    "Effect": "Deals weapon damage plus 1d4 Necrotic and prevents the target from regaining HP until the end of its next turn.",
+    "Restrictions": "Special arrows cannot be used with off-hand ranged attacks.",
+    "Crafting": "Special arrows are obtained from loot or vendors.",
+    "Creative use": "Shoot a foe before it can heal itself.",
+    "Base value": "20 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 activation, effects and linked rules."
+}

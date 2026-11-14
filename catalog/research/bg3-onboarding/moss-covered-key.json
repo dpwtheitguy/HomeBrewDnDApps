@@ -1,0 +1,28 @@
+{
+  "item_id": "bg3-wiki:47945",
+  "title": "Moss-Covered Key",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 430670,
+      "title": "Moss-Covered Key",
+      "markers": [
+        "| uid = S_FOR_Ambush_ChestKey"
+      ]
+    },
+    {
+      "role": "Rules: Moss-Covered Chest",
+      "revision": 421114,
+      "title": "Moss-Covered Chest",
+      "markers": [
+        "| description = '''Moss-Covered Chest''' is a sturdy container found in [[Act One]]."
+      ]
+    }
+  ],
+  "summary": "Opens the Moss-Covered Chest at X 29, Y 405 in Blighted Village.",
+  "fields": {
+    "Acquisition": "Carried by the Goblin Booyahg on the apothecary roof.",
+    "Base value": "1 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added reviewed native BG3 gameplay and pinned item and dependency revisions."
+}

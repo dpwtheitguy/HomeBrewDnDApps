@@ -1,0 +1,33 @@
+{
+  "item_id": "bg3-wiki:3356",
+  "title": "Dragon's Grasp",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 438340,
+      "title": "Dragon's Grasp",
+      "markers": [
+        "MAG_Fire_IncreaseSlashingDamageToBurning_Handaxe"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432149,
+      "title": "Burned Alive",
+      "markers": [
+        "| description = Deals an additional {{DamageText|1d4|Weapon}} damage to {{Cond|Burning}} targets."
+      ]
+    }
+  ],
+  "summary": "This handaxe deals 1d4 extra Slashing against Burning targets.",
+  "fields": {
+    "Damage": "1d6 Slashing",
+    "Range": "5 ft melee.",
+    "Training": "simple",
+    "Handling": "one-handed",
+    "Weapon actions": "Lacerate",
+    "Burned Alive": "The target must be Burning when the weapon deals damage.",
+    "Base value": "65 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

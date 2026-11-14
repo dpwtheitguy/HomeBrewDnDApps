@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:30981",
+  "title": "Shield of Returning",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423145,
+      "title": "Shield of Returning",
+      "markers": [
+        "MAG_Bonded_Shield"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 442298,
+      "title": "Bound Weapon",
+      "markers": [
+        "cannot be knocked"
+      ]
+    }
+  ],
+  "summary": "+2 AC and returns when thrown. Unobtainable in normal play.",
+  "fields": {
+    "Armour Class": "+2 AC while equipped. Shield proficiency.",
+    "Bound Weapon": "Cannot be knocked out of your hand. Returns when thrown. Binding does not add the Thrown weapon property.",
+    "Availability": "Unobtainable in normal play.",
+    "Base value": "570 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence. Reconciled applicable action, condition, and variant details against pinned rules."
+}

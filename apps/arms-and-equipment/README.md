@@ -11,7 +11,7 @@ apps/arms-and-equipment/build.sh
 apps/arms-and-equipment/deploy.sh
 ```
 
-Pass a different shared catalog ZIP as the first argument to pin a newer release. The build validates the input database checksum and derives an FTS4 search index for older Android SQLite versions. The app extracts its pinned database to private storage on first launch and opens it read-only. Field notes are saved separately by stable item ID. Changing the bundled catalog version currently requires building and installing a new APK. The shared catalog itself releases independently.
+Pass a shared catalog ZIP as the first argument to select a release. From a repository checkout, run `apps/arms-and-equipment/build.sh builds/shared-item-catalog-latest.zip` to rebuild against the published catalog. The build validates the input database checksum and derives an FTS4 search index for older Android SQLite versions. The app extracts its pinned database to private storage on first launch and opens it read-only. Field notes are saved separately by stable item ID. Changing the bundled catalog version currently requires building and installing a new APK. The shared catalog itself releases independently.
 
 The APK targets API 34 and declares API 23 as its minimum. Android System WebView is required. There are no Google Play Services dependencies or network permissions. Build 0.4.153 was installed and launched on a physical SM-T290 running LineageOS. API 23 still needs a device check. Allow roughly 400 MiB of private storage for the extracted catalog.
 
@@ -27,7 +27,7 @@ Codex can run the same workflow with the [armory-deploy skill](../../docs/skills
 
 ## Publish a tester build
 
-Bump the Android version in `AndroidManifest.xml` when preparing a new tester build. Build the APK, run the Android checks on that APK, and commit the tested source. Run `apps/arms-and-equipment/publish-test-build.sh` with the tested APK in `outputs/`. The script updates the public download and SHA-256 checksum on the `android-test-builds` branch. The README download link stays the same.
+Bump the Android version in `AndroidManifest.xml` when preparing a new tester build. Build the APK and run the Android checks on it. Publish the tested APK as `builds/arms-and-equipment-guide-latest-debug.apk` and its catalog as `builds/shared-item-catalog-latest.zip` with updated `builds/SHA256SUMS`. Commit the artifacts and tested source to `main`.
 
 ## Headless testing
 

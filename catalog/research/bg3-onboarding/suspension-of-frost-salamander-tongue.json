@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:26798",
+  "title": "Suspension of Frost Salamander Tongue",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Suspension of Frost Salamander Tongue",
+      "revision": 423750,
+      "markers": [
+        "ALCH_Extract_FrostSalamander"
+      ]
+    },
+    {
+      "role": "Rules: Oil of Freezing",
+      "title": "Oil of Freezing",
+      "revision": 421464,
+      "markers": [
+        "Suspension of Frost Salamander Tongue"
+      ]
+    }
+  ],
+  "summary": "Alchemical extract used for Oil of Freezing.",
+  "fields": {
+    "Extract": "Combine 3 Frost Salamander Tongues to make one Suspension of Frost Salamander Tongue.",
+    "Brew": "Combine this extract with any Sublimate to make Oil of Freezing.",
+    "Recipe discrepancy": "The extract page lists Ash. The oil and shared Alchemy sources list Sublimate.",
+    "Base value": "0 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

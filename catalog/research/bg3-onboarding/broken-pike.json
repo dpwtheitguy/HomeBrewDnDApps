@@ -1,0 +1,32 @@
+{
+  "item_id": "bg3-wiki:31426",
+  "title": "Broken Pike",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 416785,
+      "title": "Broken Pike",
+      "markers": [
+        "WPN_HUM_Pike_Broken_A"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 421811,
+      "title": "Pikes",
+      "markers": [
+        "| damage = 1d10"
+      ]
+    }
+  ],
+  "summary": "A two-handed reach pike found in the Shadowfell.",
+  "fields": {
+    "Weapon type": "Pikes",
+    "Weapon actions": "Rush Attack, Piercing Strike, Brace (Melee)",
+    "Damage": "1d10 Piercing",
+    "Range": "8 ft melee.",
+    "Effect": "A two-handed reach pike found in the Shadowfell.",
+    "Base value": "10 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and reviewed pinned source evidence."
+}

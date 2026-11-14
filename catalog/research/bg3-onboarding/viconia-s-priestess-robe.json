@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:9680",
+  "title": "Viconia's Priestess Robe",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "title": "Viconia's Priestess Robe",
+      "revision": 424660,
+      "markers": [
+        "MAG_Viconia_Robe"
+      ]
+    },
+    {
+      "role": "Rules: Shar's Umbrae",
+      "title": "Shar's Umbrae",
+      "revision": 403494,
+      "markers": [
+        "| description = While [[obscured]], the wearer has {{Advantage}} on [[Stealth|Stealth Checks]]."
+      ]
+    },
+    {
+      "role": "Rules: Sharran Veil",
+      "title": "Sharran Veil",
+      "revision": 433129,
+      "markers": [
+        "| description = {{SAI|Shield of Faith}} also grants you a +2 to all {{Saving Throw}}s."
+      ]
+    },
+    {
+      "role": "Rules: Shield of Faith",
+      "title": "Shield of Faith",
+      "revision": 404071,
+      "markers": [
+        "concentration = yes"
+      ]
+    }
+  ],
+  "summary": "Clothing improves AC, stealth in darkness and Shield of Faith saves.",
+  "fields": {
+    "Defence": "Clothing, base AC 10 plus Dexterity modifier and a +1 AC bonus.",
+    "Shar’s Umbrae": "Advantage on Stealth checks while obscured.",
+    "Sharran Veil": "When the wearer has Shield of Faith, they gain +2 to all saves in addition to the spell’s +2 AC. Shield of Faith requires Concentration and lasts until Long Rest.",
+    "Acquisition": "Worn by Viconia during Daughter of Darkness.",
+    "Base value": "1600 gp nominal BG3 value."
+  },
+  "changes": "Added reviewed native BG3 gameplay and exact item and dependency citations."
+}

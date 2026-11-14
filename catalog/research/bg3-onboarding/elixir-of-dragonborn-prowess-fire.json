@@ -1,0 +1,31 @@
+{
+  "item_id": "bg3-wiki:18451",
+  "title": "Elixir of Dragonborn Prowess: Fire",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 418138,
+      "title": "Elixir of Dragonborn Prowess: Fire",
+      "markers": [
+        "CONS_Elixir_Blood_Dragonborn_Fire"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 418518,
+      "title": "Fireball",
+      "markers": [
+        "| description = Shoot a bright flame from your fingers that explodes upon contact, torching everything in the vicinity for {{DamageText|8d6|Fire}} damage."
+      ]
+    }
+  ],
+  "summary": "Until Long Rest, gain Fire resistance, advantage on Intimidation and Persuasion checks, and one cast of Fireball.",
+  "fields": {
+    "Drink": "Bonus Action. Consume one bottle. Until Long Rest, gain Fire resistance, advantage on Intimidation and Persuasion checks, and one cast of Fireball.",
+    "Acquisition": "Trade brass, gold or red dragonborn blood to Araj Oblodra in Moonrise Towers or the Lower City.",
+    "Stacking": "Araj’s elixirs stack with ordinary elixirs and other Araj elixirs.",
+    "Fireball": "Action. At up to 60 ft, creatures in a 13 ft radius take 8d6 Fire, Dexterity save for half.",
+    "Base value": "10 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

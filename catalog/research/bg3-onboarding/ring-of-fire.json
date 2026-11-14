@@ -1,0 +1,29 @@
+{
+  "item_id": "bg3-wiki:3590",
+  "title": "Ring of Fire",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 422379,
+      "title": "Ring of Fire",
+      "markers": [
+        "MAG_Fire_Ring_IncreasedDamage"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 432150,
+      "title": "Burning Fury",
+      "markers": [
+        "an additional {{DamageText|1|Fire}}"
+      ]
+    }
+  ],
+  "summary": "Early Access ring that adds 1 Fire damage when you deal Fire damage.",
+  "fields": {
+    "Burning Fury": "Add 1 Fire damage when dealing Fire damage.",
+    "Availability": "Unobtainable in normal released gameplay. It was a Sovereign Glut quest reward in Early Access and was replaced by Winter’s Clutches.",
+    "Base value": "270 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details with pinned item and linked rules evidence."
+}

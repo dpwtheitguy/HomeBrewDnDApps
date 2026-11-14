@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:10567",
+  "title": "Shadeclinger Armour",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 423023,
+      "title": "Shadeclinger Armour",
+      "markers": [
+        "MAG_Harpers_ArmorOfShadows"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 433105,
+      "title": "Shadeclinger",
+      "markers": [
+        "Clinging Shadows"
+      ]
+    }
+  ],
+  "summary": "Light armour grants +1 Stealth and Advantage on saves while obscured.",
+  "fields": {
+    "Defence": "AC 12 + Dexterity. Light Armour proficiency. +1 Stealth.",
+    "Shadeclinger": "While lightly or heavily obscured, gain Advantage on saving throws.",
+    "Acquisition": "Buy from Quartermaster Talli at Last Light Inn.",
+    "Base value": "130 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay and acquisition details with pinned source evidence."
+}

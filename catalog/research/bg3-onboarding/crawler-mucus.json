@@ -1,0 +1,30 @@
+{
+  "item_id": "bg3-wiki:11846",
+  "title": "Crawler Mucus",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 417372,
+      "title": "Crawler Mucus",
+      "markers": [
+        "CONS_Poison_Crawler_Mucus"
+      ]
+    },
+    {
+      "role": "Linked gameplay rules",
+      "revision": 438130,
+      "title": "Coatings",
+      "markers": [
+        "| description = A subset of Potions, Coatings can apply a variety of harmful effects to weapons that aid in combat for a short period of time."
+      ]
+    }
+  ],
+  "summary": "Coat weapons to paralyse targets on a failed DC 13 Constitution save, or throw to create a cloud.",
+  "fields": {
+    "Coat": "Use one dose as a Bonus Action to coat the active weapon set for 10 turns, including both hands when dual wielding. Each set needs its own dose. Dipping and coating are mutually exclusive. A hit forces DC 13 Constitution against paralysis, with repeated saves at the end of turns.",
+    "Throw": "Use an Action to throw up to 60 ft. The impact uses DC 13 Constitution and can apply paralysis until a save or Long Rest. The 3 ft radius cloud lasts 1 turn, uses DC 11 Constitution and applies paralysis for 1 turn. The two modes are reported separately by the source.",
+    "Crafting": "Combine Salts of Carrion Crawler Tentacle with any Vitriol.",
+    "Base value": "50 gp nominal BG3 value."
+  },
+  "changes": "Added native BG3 gameplay details and pinned item and rules evidence."
+}

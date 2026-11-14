@@ -1,0 +1,47 @@
+{
+  "item_id": "bg3-wiki:8031",
+  "title": "Balduran's Giantslayer",
+  "sources": [
+    {
+      "role": "Item and recipe",
+      "revision": 434066,
+      "title": "Balduran's Giantslayer",
+      "markers": [
+        "| uid = MAG_Giantslayer_Greatsword"
+      ]
+    },
+    {
+      "role": "Rules: Giant Form",
+      "revision": 418874,
+      "title": "Giant Form",
+      "markers": [
+        "| summary = '''Giant Form''' is a class action granted by {{MdRarityItem|Balduran's Giantslayer}} that can be used once per [[short rest]]."
+      ]
+    },
+    {
+      "role": "Rules: Topple the Big Folk",
+      "revision": 433027,
+      "title": "Topple the Big Folk",
+      "markers": [
+        "| description = Deal additional damage equal to your [[proficiency bonus]]. On a hit, Large, Huge, or Gargantuan creatures take an additional {{DamageText|2d6|Slashing|drs=t}} damage and must succeed a {{saving throw|Strength}} or fall {{cond|Prone}}."
+      ]
+    },
+    {
+      "role": "Rules: Giantslayer",
+      "revision": 432590,
+      "title": "Giantslayer",
+      "markers": [
+        "MAG_Giantslayer_Passive"
+      ]
+    }
+  ],
+  "summary": "A +3 greatsword that doubles the Strength damage bonus and grants advantage on attacks against Large or larger creatures.",
+  "fields": {
+    "Giant Form": "Action once per Short Rest. Grow for 10 turns, gain 27 temporary HP, deal +1d6 weapon damage and gain advantage on Strength checks and saves. Shares the Size effect with Enlarge.",
+    "Topple the Big Folk": "Action once per Short Rest. Add proficiency bonus to damage. Large, Huge or Gargantuan targets take another 2d6 Slashing and must pass a Strength save against weapon action DC +2 or fall Prone for 2 turns.",
+    "Weapon profile": "+3 two-handed heavy greatsword, 2d6 + 3 Slashing before Strength modifiers. Dippable.",
+    "Giantslayer": "On hit, double the damage bonus from your Strength modifier against any creature. This damage bonus does not apply to thrown attacks. Gain advantage on attack rolls against Large, Huge, and Gargantuan creatures.",
+    "Base value": "1300 gp in BG3. Merchant prices vary."
+  },
+  "changes": "Added native BG3 gameplay use and pinned evidence, then refined its mechanics against item and linked rule notes."
+}
