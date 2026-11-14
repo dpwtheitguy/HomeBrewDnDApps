@@ -14,6 +14,7 @@ from package_catalog import ROOT, package
 from package_srd_catalog import stage_catalog, write
 
 SOURCE = 'bg3-wiki'
+TOY_SOURCE = 'curse-of-strahd-reference'
 RARITIES = {'common', 'uncommon', 'rare', 'very rare', 'legendary', 'story'}
 CITED_SHARED_RULES = {
     'Lacerate': ('Bleeding', ('Ghasts', 'Ghouls')),
@@ -225,16 +226,52 @@ def add_item(source_db, target_db, review, evidence):
                       (item_id, item['name'], ' '.join(item['tags']), item['description']))
 
 
-def add_supplements(source, target, reviews, evidence):
+def add_blinsky_stock(source_db, target_db, prices):
+    toys = []
+    for row in source_db.execute('SELECT * FROM items WHERE source_id=? ORDER BY id', (TOY_SOURCE,)):
+        item = json.loads(row[-1])
+        locator = item['provenance'].get('locator') or {}
+        if locator.get('area') == 'N7' and prices.get(row[0], {}).get('method') == 'source-retail':
+            toys.append(row)
+    if len(toys) != 6:
+        raise ValueError(f'Expected six priced Blinsky toys, found {len(toys)}')
+    for row in toys:
+        item_id = row[0]
+        target_db.execute('INSERT INTO items VALUES (?,?,?,?,?,?,?,?,?)', row)
+        target_db.execute('INSERT INTO item_search VALUES (?,?,?,?)', source_db.execute(
+            'SELECT id,name,tags,description FROM item_search WHERE id=?', (item_id,)).fetchone())
+        for table, count in (('tags', 2), ('associations', 4), ('resource_items', 4)):
+            if table == 'resource_items':
+                target_db.executemany('INSERT OR IGNORE INTO resources VALUES (?,?,?,?,?)', source_db.execute(
+                    'SELECT resources.* FROM resources JOIN resource_items ON resources.id=resource_id WHERE item_id=?',
+                    (item_id,)))
+            target_db.executemany(f'INSERT INTO {table} VALUES ({",".join("?" * count)})',
+                                  source_db.execute(f'SELECT * FROM {table} WHERE item_id=?', (item_id,)))
+    return [row[0] for row in toys]
+
+
+def add_supplements(source, target, reviews, evidence, toy_ids, source_prices):
     sources_path = target / 'sources.json'
     sources = json.loads(sources_path.read_text())
-    sources.extend({**row, 'record_count': len(reviews), 'coverage': 'Reviewed native BG3 items.'}
-                   for row in json.loads((source / 'sources.json').read_text()) if row['id'] == SOURCE)
+    counts = {SOURCE: (len(reviews), 'Reviewed native BG3 items.'),
+              TOY_SOURCE: (len(toy_ids), 'Six priced toys from Blinsky’s shop in Vallaki.')}
+    for row in json.loads((source / 'sources.json').read_text()):
+        if row['id'] in counts:
+            count, coverage = counts[row['id']]
+            sources.append({**row, 'record_count': count, 'coverage': coverage})
     write(sources_path, sources)
+    taxonomy_path = target / 'taxonomy/entities.json'
+    taxonomy = json.loads(taxonomy_path.read_text())
+    original = json.loads((source / 'taxonomy/entities.json').read_text())
+    known = {row['id'] for row in taxonomy['entities']}
+    with sqlite3.connect(target / 'indexes/items.sqlite3') as db:
+        used = {entity for (entity,) in db.execute('SELECT DISTINCT entity_id FROM associations')}
+    taxonomy['entities'].extend(row for row in original['entities'] if row['id'] in used - known)
+    write(taxonomy_path, taxonomy)
     supplements = target / 'supplements'
     pricing_path = supplements / 'item-prices.json'
     pricing = json.loads(pricing_path.read_text())
-    source_prices = json.loads((source / 'supplements/item-prices.json').read_text())['records']
+    pricing['records'].update({item_id: source_prices[item_id] for item_id in toy_ids})
     rules = {}
     for review, refs in zip(reviews, evidence, strict=True):
         item_id = review['item_id']
@@ -266,14 +303,16 @@ def main():
         source = ROOT / 'catalog'
         target = Path(temp) / 'catalog'
         count = stage_catalog(source, target)
+        source_prices = json.loads((source / 'supplements/item-prices.json').read_text())['records']
         with (sqlite3.connect(source / 'indexes/items.sqlite3') as source_db,
               sqlite3.connect(target / 'indexes/items.sqlite3') as target_db):
             for review, refs in zip(reviews, evidence, strict=True):
                 add_item(source_db, target_db, review, refs)
+            toy_ids = add_blinsky_stock(source_db, target_db, source_prices)
             if target_db.execute('PRAGMA integrity_check').fetchone() != ('ok',):
                 raise ValueError('SQLite integrity check failed')
-        add_supplements(source, target, reviews, evidence)
-        print(f'{count} SRD records and {len(reviews)} reviewed BG3 records')
+        add_supplements(source, target, reviews, evidence, toy_ids, source_prices)
+        print(f'{count} SRD records, {len(reviews)} reviewed BG3 records, and {len(toy_ids)} Blinsky toys')
         print(package(args.version, ROOT / 'outputs', target))
 
 

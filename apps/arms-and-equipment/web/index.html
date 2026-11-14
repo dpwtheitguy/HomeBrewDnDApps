@@ -135,6 +135,7 @@
     </label>
     <h2 id="merchant-name"></h2>
     <p id="merchant-location" class="meta"></p>
+    <p id="merchant-origin" class="meta"></p>
     <p id="merchant-policy"></p>
     <button id="merchant-source" type="button" hidden></button>
     <p id="merchant-date" class="meta"></p>
@@ -144,15 +145,21 @@
   <section id="blinsky-shop" class="shelf" hidden aria-label="Blinsky’s Toys">
     <div class="shop-controls">
       <button id="leave-shop">Back to catalog</button>
-      <button id="shop-music-toggle" type="button" aria-pressed="false">Music</button>
+      <button id="shop-music-toggle" type="button" aria-pressed="false">Shop sound</button>
     </div>
     <h2>Blinsky’s Toys</h2>
     <p class="meta">Vallaki · Curse of Strahd · N7</p>
     <audio id="shop-music" src="blinsky-music.wav" preload="none" loop></audio>
-    <button id="jack-box" type="button">
-      <span class="jack-face" aria-hidden="true">☻</span>
-      <span>Open Jack-in-the-box</span>
-    </button>
+    <audio id="shop-effect" preload="none"></audio>
+    <div id="jack-box">
+      <div class="jack-lid"></div>
+      <div class="jack-case" aria-hidden="true">✧</div>
+      <button id="jack-crank" type="button" aria-label="Turn the jack-in-the-box crank" aria-describedby="jack-status">
+        <span class="crank-arm" aria-hidden="true"></span>
+      </button>
+    </div>
+    <p id="jack-status" class="meta" aria-live="polite">Turn the crank</p>
+    <div id="jack-reveal" aria-hidden="true" hidden><img src="blinsky-jack.webp" alt=""></div>
     <div id="shop-eye" aria-hidden="true" hidden><span></span></div>
     <div id="shop-stock" class="grid"></div>
     <section class="shop-basket" aria-label="Toy basket">

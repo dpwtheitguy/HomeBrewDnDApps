@@ -4687,6 +4687,9 @@ def main():
                             if (core.length !== merchantShops[id].staples.length || core.length < 20 || core.length > 40
                                 || Number(offer(slug).dataset.copper) !== copper
                                 || byId("merchant-source").hidden !== (id !== "bildrath")) throw new Error(id + " stock/price: " + core.length + ", " + offer(slug).dataset.copper);
+                            if (tab("all").textContent !== "All (" + cards.length + ")" ||
+                                byId("merchant-origin").textContent !== (id === "bildrath" ? "Published shop" : "App-created shop"))
+                                throw new Error(id + " shop label or tab count");
                             tab("featured").click();
                             if (tab("featured").getAttribute("aria-pressed") !== "true" ||
                                 offers().length < 1 || offers().length > 3 ||
@@ -4738,10 +4741,22 @@ def main():
                     && shopStock.map(item=>item.shopCopper).sort((a,b)=>a-b).join(",")==="9,9,9,9,90,90"''',
                 'Blinsky basket totals': '''(() => {const adds=byId("shop-stock").querySelectorAll(".shop-add");
                     adds[0].click(); adds[4].click(); return byId("basket-total").textContent==="Total · 9 sp 9 cp";})()''',
+                'Blinsky toy inspection shows the shop price': '''(() => {
+                    byId("shop-stock").querySelector(".card").click();
+                    const priced = inspection.textContent.includes("Shop price · 9 cp · Blinsky’s Toys");
+                    dismissInspection(false);
+                    return priced;
+                })()''',
                 'Blinsky Jack springs and the eye fades without intercepting taps': '''(() => {
-                    const jack = byId("jack-box");
-                    jack.click();
-                    const sprang = jack.classList.contains("jack-open");
+                    const crank = byId("jack-crank");
+                    const revealPanel = byId("jack-reveal");
+                    crank.click();
+                    const firstClosed = revealPanel.hidden;
+                    crank.click();
+                    const secondClosed = revealPanel.hidden;
+                    crank.click();
+                    const sprang = !revealPanel.hidden && byId("jack-box").classList.contains("jack-open")
+                        && getComputedStyle(revealPanel).pointerEvents === "none";
                     const savedTimeout = window.setTimeout;
                     let reveal;
                     try {
@@ -4755,7 +4770,7 @@ def main():
                     const appeared = !eye.hidden && getComputedStyle(eye).pointerEvents === "none"
                         && !!eye.style.getPropertyValue("--gaze-x");
                     eye.dispatchEvent(new Event("animationend"));
-                    return sprang && appeared && eye.hidden;
+                    return firstClosed && secondClosed && sprang && appeared && eye.hidden;
                 })()''',
                 'Blinsky music starts on demand and can be muted': '''(async () => {
                     const music = byId("shop-music");
@@ -4776,13 +4791,39 @@ def main():
                     shopMusicWanted = true;
                     return started && muted;
                 })()''',
+                'Blinsky whispers play on the shop timer and mute with the music': '''(async () => {
+                    syncShopMusic();
+                    const effect = byId("shop-effect");
+                    const original = window.setTimeout;
+                    let whisper, delay;
+                    try {
+                        window.setTimeout = (callback, milliseconds) => { whisper = callback; delay = milliseconds; };
+                        scheduleShopWhisper();
+                    } finally {
+                        window.setTimeout = original;
+                    }
+                    resetJack();
+                    whisper();
+                    const playing = await new Promise(resolve => {
+                        const deadline = Date.now() + 2500;
+                        function check() {
+                            if (effect.currentTime > 0 && !effect.paused) resolve(true);
+                            else if (Date.now() >= deadline || effect.error) resolve(false);
+                            else setTimeout(check, 30);
+                        }
+                        check();
+                    });
+                    byId("shop-music-toggle").click();
+                    return delay >= 40000 && delay <= 50000 && playing
+                        && effect.currentSrc.includes("blinsky-whisper-") && effect.paused;
+                })()''',
                 'Clear Blinsky basket and return': '''(() => {byId("clear-basket").click(); const empty=toyBasket.size===0;
                     byId("leave-shop").click();byId("about").open=false;return empty&&byId("blinsky-shop").hidden;})()''',
             }
             for name, expression in checks.items():
                 total += 1
                 try:
-                    assert dev.eval(expression, user_gesture=name.startswith("Blinsky music"))
+                    assert dev.eval(expression, user_gesture=name.startswith(("Blinsky music", "Blinsky whispers")))
                     print('PASS ' + name)
                 except AssertionError as error:
                     failures.append(name)

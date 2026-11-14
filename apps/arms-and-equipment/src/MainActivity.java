@@ -53,6 +53,8 @@ public final class MainActivity extends Activity {
         }
         web.setBackgroundColor(0xff161311);
         web.getSettings().setJavaScriptEnabled(true);
+        // Shop ambience starts when the player opens the shop and stops when they leave.
+        web.getSettings().setMediaPlaybackRequiresUserGesture(false);
         web.getSettings().setAllowFileAccess(false);
         web.getSettings().setAllowContentAccess(false);
         web.getSettings().setBlockNetworkLoads(true);

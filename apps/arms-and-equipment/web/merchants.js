@@ -114,6 +114,7 @@ function renderMerchant() {
     const shop = merchantShops[shopId];
     byId("merchant-name").textContent = shop.name;
     byId("merchant-location").textContent = shop.location;
+    byId("merchant-origin").textContent = shop.source ? "Published shop" : "App-created shop";
     byId("merchant-policy").textContent = shop.policy;
     const source = byId("merchant-source");
     source.hidden = !shop.source;
@@ -123,10 +124,8 @@ function renderMerchant() {
     byId("merchant-date").textContent = "Stock for " + date.toLocaleDateString();
     const stock = byId("merchant-stock");
     stock.textContent = "";
-    byId("merchant-categories").querySelectorAll("button").forEach(button => {
-        button.setAttribute("aria-pressed", String(button.dataset.category === activeMerchantCategory));
-    });
     const featured = merchantDailyFinds(shopId, date);
+    const counts = {all: 0, featured: 0};
     for (const slug of featured.concat(shop.staples)) {
         const id = "open5e-srd-2024:srd-2024_" + slug;
         const item = JSON.parse(Armory.item(id));
@@ -134,6 +133,9 @@ function renderMerchant() {
         if (!item.name || price === null) continue;
         const isFeatured = featured.includes(slug);
         const category = merchantCategory(item);
+        counts.all += 1;
+        counts[category] = (counts[category] || 0) + 1;
+        if (isFeatured) counts.featured += 1;
         if (activeMerchantCategory !== "all" && activeMerchantCategory !== category
                 && !(activeMerchantCategory === "featured" && isFeatured)) continue;
         const button = element("button", "", "card");
@@ -148,6 +150,11 @@ function renderMerchant() {
         button.addEventListener("click", () => inspect(id, button, {name: shop.name, price}));
         stock.appendChild(button);
     }
+    byId("merchant-categories").querySelectorAll("button").forEach(button => {
+        const category = button.dataset.category;
+        button.textContent = merchantCategories[category] + " (" + (counts[category] || 0) + ")";
+        button.setAttribute("aria-pressed", String(category === activeMerchantCategory));
+    });
     if (!stock.childElementCount) stock.appendChild(element("p", "This shop has no stock in this category.", "meta"));
 }
 

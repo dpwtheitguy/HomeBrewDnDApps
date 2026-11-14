@@ -89,7 +89,7 @@ The Value panel displays all three fields for every catalog item. Expand its pri
 
 ## Filter testing and shopping
 
-**Filters → Shop by price** accepts a minimum or maximum base buy price in gp. It combines with the source, category, and other facets. **About this app → Visit Blinsky’s Toys** opens the six priced toys from the adventure's Vallaki shop. The basket tracks quantities and a total for the current session.
+**Filters → Shop by price** accepts a minimum or maximum base buy price in gp. It combines with the source, category, and other facets. **About this app → Visit Blinsky’s Toys** opens the six priced toys from the adventure's Vallaki shop. The basket tracks quantities and a total for the current session. Turn the jack-in-the-box crank three times to spring the puppet. **Shop sound** controls the music, occasional whispers, and the jack’s sound effect.
 
 Use `python3 apps/arms-and-equipment/tests/filter_matrix.py` with `websocket-client` installed and a debug build running on the headless emulator. The runner compares the rendered Android search results against the shared catalog and exercises the hidden shop.
 
